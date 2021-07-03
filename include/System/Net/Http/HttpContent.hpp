@@ -90,43 +90,43 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Net.Http.Headers.HttpContentHeaders get_Headers()
-    // Offset: 0x1585200
+    // Offset: 0x159EF10
     System::Net::Http::Headers::HttpContentHeaders* get_Headers();
     // System.Nullable`1<System.Int64> get_LoadedBufferLength()
-    // Offset: 0x1578434
+    // Offset: 0x1592144
     System::Nullable_1<int64_t> get_LoadedBufferLength();
     // System.Void CopyTo(System.IO.Stream stream)
-    // Offset: 0x15868F4
+    // Offset: 0x15A0604
     void CopyTo(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream)
-    // Offset: 0x158680C
+    // Offset: 0x15A051C
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream);
     // public System.Threading.Tasks.Task CopyToAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x1586918
+    // Offset: 0x15A0628
     System::Threading::Tasks::Task* CopyToAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
     // static private System.Net.Http.HttpContent/FixedMemoryStream CreateFixedMemoryStream(System.Int64 maxBufferSize)
-    // Offset: 0x15869DC
+    // Offset: 0x15A06EC
     static System::Net::Http::HttpContent::FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
     // public System.Void Dispose()
-    // Offset: 0x1586A6C
+    // Offset: 0x15A077C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1586A7C
+    // Offset: 0x15A078C
     void Dispose(bool disposing);
     // public System.Threading.Tasks.Task LoadIntoBufferAsync()
-    // Offset: 0x1586AA8
+    // Offset: 0x15A07B8
     System::Threading::Tasks::Task* LoadIntoBufferAsync();
     // public System.Threading.Tasks.Task LoadIntoBufferAsync(System.Int64 maxBufferSize)
-    // Offset: 0x1584650
+    // Offset: 0x159E360
     System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
     // public System.Threading.Tasks.Task`1<System.String> ReadAsStringAsync()
-    // Offset: 0x1583FE0
+    // Offset: 0x159DCF0
     System::Threading::Tasks::Task_1<::Il2CppString*>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
-    // Offset: 0x1586AB0
+    // Offset: 0x15A07C0
     static System::Text::Encoding* GetEncodingFromBuffer(::Array<uint8_t>* buffer, int length, int& preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
-    // Offset: 0x1586C40
+    // Offset: 0x15A0950
     static int StartsWith(::Array<uint8_t>* array, int length, ::Array<uint8_t>* value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFF
@@ -135,7 +135,7 @@ namespace System::Net::Http {
     // Offset: 0xFFFFFFFF
     bool TryComputeLength(int64_t& length);
     // protected System.Void .ctor()
-    // Offset: 0x1586CBC
+    // Offset: 0x15A09CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -147,5 +147,139 @@ namespace System::Net::Http {
   #pragma pack(pop)
   static check_size<sizeof(HttpContent), 32 + sizeof(System::Net::Http::Headers::HttpContentHeaders*)> __System_Net_Http_HttpContentSizeCheck;
   static_assert(sizeof(HttpContent) == 0x28);
+  // Writing MetadataGetter for method: HttpContent::get_Headers
+  // Il2CppName: get_Headers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpContentHeaders* (HttpContent::*)()>(&HttpContent::get_Headers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::get_LoadedBufferLength
+  // Il2CppName: get_LoadedBufferLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int64_t> (HttpContent::*)()>(&HttpContent::get_LoadedBufferLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "get_LoadedBufferLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::CopyTo
+  // Il2CppName: CopyTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::*)(System::IO::Stream*)>(&HttpContent::CopyTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::CopyToAsync
+  // Il2CppName: CopyToAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HttpContent::*)(System::IO::Stream*)>(&HttpContent::CopyToAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::CopyToAsync
+  // Il2CppName: CopyToAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HttpContent::*)(System::IO::Stream*, System::Net::TransportContext*)>(&HttpContent::CopyToAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::TransportContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::CreateFixedMemoryStream
+  // Il2CppName: CreateFixedMemoryStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpContent::FixedMemoryStream* (*)(int64_t)>(&HttpContent::CreateFixedMemoryStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "CreateFixedMemoryStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::*)()>(&HttpContent::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::*)(bool)>(&HttpContent::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::LoadIntoBufferAsync
+  // Il2CppName: LoadIntoBufferAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HttpContent::*)()>(&HttpContent::LoadIntoBufferAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "LoadIntoBufferAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::LoadIntoBufferAsync
+  // Il2CppName: LoadIntoBufferAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HttpContent::*)(int64_t)>(&HttpContent::LoadIntoBufferAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "LoadIntoBufferAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::ReadAsStringAsync
+  // Il2CppName: ReadAsStringAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HttpContent::*)()>(&HttpContent::ReadAsStringAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "ReadAsStringAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::GetEncodingFromBuffer
+  // Il2CppName: GetEncodingFromBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Array<uint8_t>*, int, int&)>(&HttpContent::GetEncodingFromBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "GetEncodingFromBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::StartsWith
+  // Il2CppName: StartsWith
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&HttpContent::StartsWith)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::SerializeToStreamAsync
+  // Il2CppName: SerializeToStreamAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HttpContent::*)(System::IO::Stream*, System::Net::TransportContext*)>(&HttpContent::SerializeToStreamAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "SerializeToStreamAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::TransportContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::TryComputeLength
+  // Il2CppName: TryComputeLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpContent::*)(int64_t&)>(&HttpContent::TryComputeLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), "TryComputeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpContent::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::*)()>(&HttpContent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::*)()>(&HttpContent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpContent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent*, "System.Net.Http", "HttpContent");

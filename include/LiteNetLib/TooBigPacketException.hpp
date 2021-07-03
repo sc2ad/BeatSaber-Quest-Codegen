@@ -27,7 +27,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: TooBigPacketException
     TooBigPacketException() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1B2F670
+    // Offset: 0x1B4B380
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor()
     // Base method: System.Void ArgumentException::.ctor()
@@ -40,7 +40,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<TooBigPacketException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1B2B678
+    // Offset: 0x1B47388
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor(System.String message)
     // Base method: System.Void ArgumentException::.ctor(System.String message)
@@ -52,7 +52,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<TooBigPacketException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1B2F678
+    // Offset: 0x1B4B388
     // Implemented from: LiteNetLib.InvalidPacketException
     // Base method: System.Void InvalidPacketException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void ArgumentException::.ctor(System.String message, System.Exception innerException)
@@ -65,5 +65,47 @@ namespace LiteNetLib {
     }
   }; // LiteNetLib.TooBigPacketException
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TooBigPacketException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TooBigPacketException::*)()>(&TooBigPacketException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TooBigPacketException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TooBigPacketException::*)()>(&TooBigPacketException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TooBigPacketException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TooBigPacketException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TooBigPacketException::*)(::Il2CppString*)>(&TooBigPacketException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TooBigPacketException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TooBigPacketException::*)(::Il2CppString*)>(&TooBigPacketException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TooBigPacketException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TooBigPacketException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TooBigPacketException::*)(::Il2CppString*, System::Exception*)>(&TooBigPacketException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TooBigPacketException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TooBigPacketException::*)(::Il2CppString*, System::Exception*)>(&TooBigPacketException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TooBigPacketException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::TooBigPacketException*, "LiteNetLib", "TooBigPacketException");

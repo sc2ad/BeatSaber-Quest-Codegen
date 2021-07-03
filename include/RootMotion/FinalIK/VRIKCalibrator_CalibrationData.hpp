@@ -104,7 +104,7 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: CalibrationData
     CalibrationData(float scale_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* head_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightHand_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* pelvis_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightFoot_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftLegGoal_ = {}, RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightLegGoal_ = {}, UnityEngine::Vector3 pelvisTargetRight_ = {}, float pelvisPositionWeight_ = {}, float pelvisRotationWeight_ = {}) noexcept : scale{scale_}, head{head_}, leftHand{leftHand_}, rightHand{rightHand_}, pelvis{pelvis_}, leftFoot{leftFoot_}, rightFoot{rightFoot_}, leftLegGoal{leftLegGoal_}, rightLegGoal{rightLegGoal_}, pelvisTargetRight{pelvisTargetRight_}, pelvisPositionWeight{pelvisPositionWeight_}, pelvisRotationWeight{pelvisRotationWeight_} {}
     // public System.Void .ctor()
-    // Offset: 0x1A92F28
+    // Offset: 0x1AACC38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -116,5 +116,19 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(VRIKCalibrator::CalibrationData), 104 + sizeof(float)> __RootMotion_FinalIK_VRIKCalibrator_CalibrationDataSizeCheck;
   static_assert(sizeof(VRIKCalibrator::CalibrationData) == 0x6C);
+  // Writing MetadataGetter for method: VRIKCalibrator::CalibrationData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::*)()>(&VRIKCalibrator::CalibrationData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKCalibrator::CalibrationData::*)()>(&VRIKCalibrator::CalibrationData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator::CalibrationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");

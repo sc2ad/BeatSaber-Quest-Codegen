@@ -24,13 +24,29 @@ namespace System::Net {
     // Creating value type constructor for type: SecureStringHelper
     SecureStringHelper() noexcept {}
     // static System.String CreateString(System.Security.SecureString secureString)
-    // Offset: 0x15A2308
+    // Offset: 0x15BC018
     static ::Il2CppString* CreateString(System::Security::SecureString* secureString);
     // static System.Security.SecureString CreateSecureString(System.String plainString)
-    // Offset: 0x15A2434
+    // Offset: 0x15BC144
     static System::Security::SecureString* CreateSecureString(::Il2CppString* plainString);
   }; // System.Net.UnsafeNclNativeMethods/SecureStringHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnsafeNclNativeMethods::SecureStringHelper::CreateString
+  // Il2CppName: CreateString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Security::SecureString*)>(&UnsafeNclNativeMethods::SecureStringHelper::CreateString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnsafeNclNativeMethods::SecureStringHelper*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::SecureString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnsafeNclNativeMethods::SecureStringHelper::CreateSecureString
+  // Il2CppName: CreateSecureString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecureString* (*)(::Il2CppString*)>(&UnsafeNclNativeMethods::SecureStringHelper::CreateSecureString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnsafeNclNativeMethods::SecureStringHelper*), "CreateSecureString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::SecureStringHelper*, "System.Net", "UnsafeNclNativeMethods/SecureStringHelper");

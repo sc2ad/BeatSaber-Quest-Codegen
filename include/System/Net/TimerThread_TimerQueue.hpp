@@ -33,7 +33,7 @@ namespace System::Net {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // System.Void .ctor(System.Int32 durationMilliseconds)
-    // Offset: 0x15A09E8
+    // Offset: 0x15BA6F8
     // Implemented from: System.Net.TimerThread/Queue
     // Base method: System.Void Queue::.ctor(System.Int32 durationMilliseconds)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,5 +45,19 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(TimerThread::TimerQueue), 24 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerQueueSizeCheck;
   static_assert(sizeof(TimerThread::TimerQueue) == 0x20);
+  // Writing MetadataGetter for method: TimerThread::TimerQueue::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimerThread::TimerQueue::*)(int)>(&TimerThread::TimerQueue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimerThread::TimerQueue::*)(int)>(&TimerThread::TimerQueue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerQueue*, "System.Net", "TimerThread/TimerQueue");

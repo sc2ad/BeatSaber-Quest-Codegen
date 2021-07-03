@@ -23,10 +23,18 @@ namespace NUnit::Compatibility {
     // Creating value type constructor for type: TypeExtensions
     TypeExtensions() noexcept {}
     // static public System.Type GetTypeInfo(System.Type type)
-    // Offset: 0x1706FF0
+    // Offset: 0x171ED00
     static System::Type* GetTypeInfo(System::Type* type);
   }; // NUnit.Compatibility.TypeExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TypeExtensions::GetTypeInfo
+  // Il2CppName: GetTypeInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&TypeExtensions::GetTypeInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeExtensions*), "GetTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::TypeExtensions*, "NUnit.Compatibility", "TypeExtensions");

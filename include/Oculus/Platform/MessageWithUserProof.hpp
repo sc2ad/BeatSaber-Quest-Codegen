@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithUserProof
     MessageWithUserProof() noexcept {}
     // protected Oculus.Platform.Models.UserProof GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14BAFA4
+    // Offset: 0x14D5CB4
     Oculus::Platform::Models::UserProof* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14B0868
+    // Offset: 0x14CB578
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,10 +40,40 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserProof*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserProof GetUserProof()
-    // Offset: 0x14BAF60
+    // Offset: 0x14D5C70
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserProof Message::GetUserProof()
     Oculus::Platform::Models::UserProof* GetUserProof();
   }; // Oculus.Platform.MessageWithUserProof
+  // Writing MetadataGetter for method: MessageWithUserProof::GetDataFromMessage
+  // Il2CppName: GetDataFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserProof* (MessageWithUserProof::*)(System::IntPtr)>(&MessageWithUserProof::GetDataFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserProof*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithUserProof::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserProof::*)(System::IntPtr)>(&MessageWithUserProof::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserProof*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserProof::*)(System::IntPtr)>(&MessageWithUserProof::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserProof*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithUserProof::GetUserProof
+  // Il2CppName: GetUserProof
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserProof* (MessageWithUserProof::*)()>(&MessageWithUserProof::GetUserProof)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserProof*), "GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserProof*, "Oculus.Platform", "MessageWithUserProof");

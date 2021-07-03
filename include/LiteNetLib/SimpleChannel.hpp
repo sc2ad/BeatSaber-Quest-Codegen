@@ -30,7 +30,7 @@ namespace LiteNetLib {
     // Creating value type constructor for type: SimpleChannel
     SimpleChannel() noexcept {}
     // public System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1B2F528
+    // Offset: 0x1B4B238
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::.ctor(LiteNetLib.NetPeer peer)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -39,16 +39,46 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<SimpleChannel*, creationType>(peer)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x1B2F52C
+    // Offset: 0x1B4B23C
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1B2F668
+    // Offset: 0x1B4B378
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.SimpleChannel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SimpleChannel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleChannel::*)(LiteNetLib::NetPeer*)>(&SimpleChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleChannel::*)(LiteNetLib::NetPeer*)>(&SimpleChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleChannel::SendNextPackets
+  // Il2CppName: SendNextPackets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleChannel::*)()>(&SimpleChannel::SendNextPackets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleChannel::ProcessPacket
+  // Il2CppName: ProcessPacket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleChannel::*)(LiteNetLib::NetPacket*)>(&SimpleChannel::ProcessPacket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SimpleChannel*, "LiteNetLib", "SimpleChannel");

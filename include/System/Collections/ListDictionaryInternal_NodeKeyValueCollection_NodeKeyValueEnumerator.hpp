@@ -59,24 +59,62 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x195CBC8
+    // Offset: 0x19738D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator* New_ctor(System::Collections::ListDictionaryInternal* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, creationType>(list, isKeys)));
     }
     // public System.Object get_Current()
-    // Offset: 0x195CC24
+    // Offset: 0x1973934
     ::Il2CppObject* get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x195CCD4
+    // Offset: 0x19739E4
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x195CDAC
+    // Offset: 0x1973ABC
     void Reset();
   }; // System.Collections.ListDictionaryInternal/NodeKeyValueCollection/NodeKeyValueEnumerator
   #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator), 37 + sizeof(bool)> __System_Collections_ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumeratorSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator) == 0x26);
+  // Writing MetadataGetter for method: ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)(System::Collections::ListDictionaryInternal*, bool)>(&ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ListDictionaryInternal*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)(System::Collections::ListDictionaryInternal*, bool)>(&ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ListDictionaryInternal*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)()>(&ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)()>(&ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::*)()>(&ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection/NodeKeyValueEnumerator");

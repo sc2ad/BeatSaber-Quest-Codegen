@@ -21,13 +21,29 @@ namespace System::Net {
     // Set static field: static private System.String[] m_Strings
     static void _set_m_Strings(::Array<::Il2CppString*>* value);
     // static System.String ToString(System.Int32 position)
-    // Offset: 0x15A1990
+    // Offset: 0x15BB6A0
     static ::Il2CppString* ToString(int position);
     // static private System.Void .cctor()
-    // Offset: 0x15A1A24
+    // Offset: 0x15BB734
     static void _cctor();
   }; // System.Net.UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*, "System.Net", "UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID");

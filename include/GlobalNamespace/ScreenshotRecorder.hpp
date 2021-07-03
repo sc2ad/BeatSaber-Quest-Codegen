@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     ::Il2CppString* folder;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xDE37FC
+    // [NullAllowed] Offset: 0xDE3730
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -212,28 +212,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x234FCCC
+    // Offset: 0x1252C40
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x234FE50
+    // Offset: 0x1252DC4
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x234FF24
+    // Offset: 0x1252E98
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x2350088
+    // Offset: 0x1252FFC
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x234FFF4
+    // Offset: 0x1252F68
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x23501C4
+    // Offset: 0x1253138
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x23500A0
+    // Offset: 0x1253014
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x23502D4
+    // Offset: 0x1253248
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -249,6 +249,76 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ScreenshotRecorder), 112 + sizeof(UnityEngine::RenderTexture*)> __GlobalNamespace_ScreenshotRecorderSizeCheck;
   static_assert(sizeof(ScreenshotRecorder) == 0x78);
+  // Writing MetadataGetter for method: ScreenshotRecorder::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::OnApplicationFocus
+  // Il2CppName: OnApplicationFocus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)(bool)>(&ScreenshotRecorder::OnApplicationFocus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::SaveCameraScreenshot
+  // Il2CppName: SaveCameraScreenshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::SaveCameraScreenshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "SaveCameraScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::SaveTextureScreenshot
+  // Il2CppName: SaveTextureScreenshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)(UnityEngine::Texture2D*)>(&ScreenshotRecorder::SaveTextureScreenshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "SaveTextureScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::ConvertRenderTexture
+  // Il2CppName: ConvertRenderTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (ScreenshotRecorder::*)(UnityEngine::RenderTexture*)>(&ScreenshotRecorder::ConvertRenderTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "ConvertRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenshotRecorder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "ScreenshotRecorder/RecordingType");

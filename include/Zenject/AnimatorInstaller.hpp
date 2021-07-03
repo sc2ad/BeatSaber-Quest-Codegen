@@ -35,18 +35,40 @@ namespace Zenject {
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Animator animator)
-    // Offset: 0x136D5B4
+    // Offset: 0x13882C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorInstaller* New_ctor(UnityEngine::Animator* animator) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::AnimatorInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorInstaller*, creationType>(animator)));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x136D618
+    // Offset: 0x1388328
     // Implemented from: Zenject.InstallerBase
     // Base method: System.Void InstallerBase::InstallBindings()
     void InstallBindings();
   }; // Zenject.AnimatorInstaller
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: AnimatorInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorInstaller::*)(UnityEngine::Animator*)>(&AnimatorInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorInstaller::*)(UnityEngine::Animator*)>(&AnimatorInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnimatorInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorInstaller::*)()>(&AnimatorInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorInstaller*, "Zenject", "AnimatorInstaller");

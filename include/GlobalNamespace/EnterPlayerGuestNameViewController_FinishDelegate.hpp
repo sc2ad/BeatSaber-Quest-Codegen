@@ -32,22 +32,60 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FinishDelegate
     FinishDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x10BEAC8
+    // Offset: 0x103D240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterPlayerGuestNameViewController::FinishDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController::FinishDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(EnterPlayerGuestNameViewController viewController, System.String playerName)
-    // Offset: 0x10BE5A0
+    // Offset: 0x103CD18
     void Invoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
     // public System.IAsyncResult BeginInvoke(EnterPlayerGuestNameViewController viewController, System.String playerName, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x10BEAD8
+    // Offset: 0x103D250
     System::IAsyncResult* BeginInvoke(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x10BEB08
+    // Offset: 0x103D280
     void EndInvoke(System::IAsyncResult* result);
   }; // EnterPlayerGuestNameViewController/FinishDelegate
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EnterPlayerGuestNameViewController::FinishDelegate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::FinishDelegate::*)(::Il2CppObject*, System::IntPtr)>(&EnterPlayerGuestNameViewController::FinishDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::FinishDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::FinishDelegate::*)(::Il2CppObject*, System::IntPtr)>(&EnterPlayerGuestNameViewController::FinishDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::FinishDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: EnterPlayerGuestNameViewController::FinishDelegate::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::FinishDelegate::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::Il2CppString*)>(&EnterPlayerGuestNameViewController::FinishDelegate::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::FinishDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnterPlayerGuestNameViewController*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EnterPlayerGuestNameViewController::FinishDelegate::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (EnterPlayerGuestNameViewController::FinishDelegate::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&EnterPlayerGuestNameViewController::FinishDelegate::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::FinishDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnterPlayerGuestNameViewController*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EnterPlayerGuestNameViewController::FinishDelegate::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::FinishDelegate::*)(System::IAsyncResult*)>(&EnterPlayerGuestNameViewController::FinishDelegate::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::FinishDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*, "", "EnterPlayerGuestNameViewController/FinishDelegate");

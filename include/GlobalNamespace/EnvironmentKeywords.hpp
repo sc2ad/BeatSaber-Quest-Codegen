@@ -42,21 +42,51 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnvironmentKeywords
     EnvironmentKeywords(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords_ = {}, System::Collections::Generic::HashSet_1<::Il2CppString*>* environmentKeywordsSet_ = {}) noexcept : environmentKeywords{environmentKeywords_}, environmentKeywordsSet{environmentKeywordsSet_} {}
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x10BFA24
+    // Offset: 0x103E19C
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> environmentKeywords)
-    // Offset: 0x10BFA2C
+    // Offset: 0x103E1A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)
-    // Offset: 0x10BFB08
+    // Offset: 0x103E280
     bool HasKeyword(::Il2CppString* keyword);
   }; // EnvironmentKeywords
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentKeywords), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_EnvironmentKeywordsSizeCheck;
   static_assert(sizeof(EnvironmentKeywords) == 0x20);
+  // Writing MetadataGetter for method: EnvironmentKeywords::get_environmentKeywords
+  // Il2CppName: get_environmentKeywords
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* (EnvironmentKeywords::*)()>(&EnvironmentKeywords::get_environmentKeywords)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentKeywords*), "get_environmentKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentKeywords::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentKeywords::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&EnvironmentKeywords::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentKeywords*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentKeywords::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&EnvironmentKeywords::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentKeywords*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentKeywords::HasKeyword
+  // Il2CppName: HasKeyword
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnvironmentKeywords::*)(::Il2CppString*)>(&EnvironmentKeywords::HasKeyword)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentKeywords*), "HasKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKeywords");

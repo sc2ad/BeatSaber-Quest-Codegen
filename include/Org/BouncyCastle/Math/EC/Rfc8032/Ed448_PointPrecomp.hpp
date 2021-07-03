@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Creating value type constructor for type: PointPrecomp
     PointPrecomp(::Array<uint>* x_ = {}, ::Array<uint>* y_ = {}) noexcept : x{x_}, y{y_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D16D3C
+    // Offset: 0x1D32A4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,5 +45,19 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   #pragma pack(pop)
   static check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(::Array<uint>*)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
   static_assert(sizeof(Ed448::PointPrecomp) == 0x20);
+  // Writing MetadataGetter for method: Ed448::PointPrecomp::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448::PointPrecomp::*)()>(&Ed448::PointPrecomp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Ed448::PointPrecomp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448::PointPrecomp::*)()>(&Ed448::PointPrecomp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Ed448::PointPrecomp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointPrecomp");

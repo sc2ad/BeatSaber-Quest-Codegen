@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.String kCurrentVersion
     static void _set_kCurrentVersion(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x1014F54
+    // Offset: 0x1059264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -103,5 +103,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1), 40 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_PlayerSaveDataV1_0_1SizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1) == 0x2C);
+  // Writing MetadataGetter for method: PlayerSaveDataV1_0_1::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::*)()>(&PlayerSaveDataV1_0_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::*)()>(&PlayerSaveDataV1_0_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1*, "", "PlayerSaveDataV1_0_1");

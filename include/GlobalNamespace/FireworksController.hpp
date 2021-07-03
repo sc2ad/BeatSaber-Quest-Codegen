@@ -54,8 +54,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: maxSpawnInterval and: directionalLights
     char __padding2[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE1A610
-    // [NullAllowed] Offset: 0xE1A610
+    // [HeaderAttribute] Offset: 0xE1A5EC
+    // [NullAllowed] Offset: 0xE1A5EC
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     int currentLightId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE1A67C
+    // [InjectAttribute] Offset: 0xE1A658
     // private readonly FireworkItemController/Pool _fireworkItemPool
     // Size: 0x8
     // Offset: 0x40
@@ -86,19 +86,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x10C64D4
+    // Offset: 0x1045094
     void OnEnable();
     // private System.Collections.IEnumerator SpawningCoroutine()
-    // Offset: 0x10C6500
+    // Offset: 0x10450C0
     System::Collections::IEnumerator* SpawningCoroutine();
     // private System.Void HandleFireworkItemControllerDidFinish(FireworkItemController fireworkItemController)
-    // Offset: 0x10C659C
+    // Offset: 0x104515C
     void HandleFireworkItemControllerDidFinish(GlobalNamespace::FireworkItemController* fireworkItemController);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x10C6648
+    // Offset: 0x1045208
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x10C66CC
+    // Offset: 0x104528C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -114,5 +114,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FireworksController), 64 + sizeof(GlobalNamespace::FireworkItemController::Pool*)> __GlobalNamespace_FireworksControllerSizeCheck;
   static_assert(sizeof(FireworksController) == 0x48);
+  // Writing MetadataGetter for method: FireworksController::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksController::*)()>(&FireworksController::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworksController::SpawningCoroutine
+  // Il2CppName: SpawningCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FireworksController::*)()>(&FireworksController::SpawningCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksController*), "SpawningCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworksController::HandleFireworkItemControllerDidFinish
+  // Il2CppName: HandleFireworkItemControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksController::*)(GlobalNamespace::FireworkItemController*)>(&FireworksController::HandleFireworkItemControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksController*), "HandleFireworkItemControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FireworkItemController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FireworksController::OnDrawGizmosSelected
+  // Il2CppName: OnDrawGizmosSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksController::*)()>(&FireworksController::OnDrawGizmosSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksController*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworksController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksController::*)()>(&FireworksController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksController::*)()>(&FireworksController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksController*, "", "FireworksController");

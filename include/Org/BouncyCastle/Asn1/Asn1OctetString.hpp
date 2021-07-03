@@ -49,36 +49,36 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean isExplicit)
-    // Offset: 0x16DD1F0
+    // Offset: 0x16F3F00
     static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // static public Org.BouncyCastle.Asn1.Asn1OctetString GetInstance(System.Object obj)
-    // Offset: 0x16DD2EC
+    // Offset: 0x16F3FFC
     static Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Il2CppObject* obj);
     // System.Void .ctor(System.Byte[] str)
-    // Offset: 0x16DDA58
+    // Offset: 0x16F4768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Asn1OctetString* New_ctor(::Array<uint8_t>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1OctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1OctetString*, creationType>(str)));
     }
     // public System.IO.Stream GetOctetStream()
-    // Offset: 0x16DDAF4
+    // Offset: 0x16F4804
     System::IO::Stream* GetOctetStream();
     // public System.Byte[] GetOctets()
-    // Offset: 0x16DDB60
+    // Offset: 0x16F4870
     ::Array<uint8_t>* GetOctets();
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16DDB68
+    // Offset: 0x16F4878
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16DDBE8
+    // Offset: 0x16F48F8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // public override System.String ToString()
-    // Offset: 0x16DDCE4
+    // Offset: 0x16F49F4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -86,5 +86,75 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
   static check_size<sizeof(Asn1OctetString), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Asn1_Asn1OctetStringSizeCheck;
   static_assert(sizeof(Asn1OctetString) == 0x18);
+  // Writing MetadataGetter for method: Asn1OctetString::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&Asn1OctetString::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (*)(::Il2CppObject*)>(&Asn1OctetString::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1OctetString::*)(::Array<uint8_t>*)>(&Asn1OctetString::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1OctetString::*)(::Array<uint8_t>*)>(&Asn1OctetString::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::GetOctetStream
+  // Il2CppName: GetOctetStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (Asn1OctetString::*)()>(&Asn1OctetString::GetOctetStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "GetOctetStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::GetOctets
+  // Il2CppName: GetOctets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Asn1OctetString::*)()>(&Asn1OctetString::GetOctets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::Asn1GetHashCode
+  // Il2CppName: Asn1GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Asn1OctetString::*)()>(&Asn1OctetString::Asn1GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::Asn1Equals
+  // Il2CppName: Asn1Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Asn1OctetString::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Asn1OctetString::Asn1Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Asn1OctetString::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Asn1OctetString::*)()>(&Asn1OctetString::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Asn1OctetString*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1OctetString*, "Org.BouncyCastle.Asn1", "Asn1OctetString");

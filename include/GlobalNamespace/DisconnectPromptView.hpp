@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE26DF4
+    // [SpaceAttribute] Offset: 0xE26E38
     // private UnityEngine.GameObject _promptGameObject
     // Size: 0x8
     // Offset: 0x28
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26E4C
+    // [CompilerGeneratedAttribute] Offset: 0xE26E90
     // private System.Action`1<System.Boolean> didViewFinishEvent
     // Size: 0x8
     // Offset: 0x40
@@ -99,31 +99,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x10B74C8
+    // Offset: 0x1035C40
     void add_didViewFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x10B756C
+    // Offset: 0x1035CE4
     void remove_didViewFinishEvent(System::Action_1<bool>* value);
     // private System.Void OnEnable()
-    // Offset: 0x10B7610
+    // Offset: 0x1035D88
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x10B76F0
+    // Offset: 0x1035E68
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x10B770C
+    // Offset: 0x1035E84
     void Show();
     // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x10B7750
+    // Offset: 0x1035EC8
     void Hide(System::Action* finishedCallback);
     // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x10B7878
+    // Offset: 0x1035FF0
     void $OnEnable$b__9_0();
     // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x10B78DC
+    // Offset: 0x1036054
     void $OnEnable$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x10B7810
+    // Offset: 0x1035F88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -139,5 +139,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DisconnectPromptView), 72 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_DisconnectPromptViewSizeCheck;
   static_assert(sizeof(DisconnectPromptView) == 0x50);
+  // Writing MetadataGetter for method: DisconnectPromptView::add_didViewFinishEvent
+  // Il2CppName: add_didViewFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)(System::Action_1<bool>*)>(&DisconnectPromptView::add_didViewFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "add_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::remove_didViewFinishEvent
+  // Il2CppName: remove_didViewFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)(System::Action_1<bool>*)>(&DisconnectPromptView::remove_didViewFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "remove_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::Show
+  // Il2CppName: Show
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::Show)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::Hide
+  // Il2CppName: Hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)(System::Action*)>(&DisconnectPromptView::Hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::$OnEnable$b__9_0
+  // Il2CppName: <OnEnable>b__9_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::$OnEnable$b__9_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "<OnEnable>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::$OnEnable$b__9_1
+  // Il2CppName: <OnEnable>b__9_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::$OnEnable$b__9_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), "<OnEnable>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DisconnectPromptView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisconnectPromptView::*)()>(&DisconnectPromptView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisconnectPromptView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView*, "", "DisconnectPromptView");

@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithSystemPermission
     MessageWithSystemPermission() noexcept {}
     // protected Oculus.Platform.Models.SystemPermission GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14BA38C
+    // Offset: 0x14D509C
     Oculus::Platform::Models::SystemPermission* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14BA2E8
+    // Offset: 0x14D4FF8
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,10 +40,40 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithSystemPermission*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.SystemPermission GetSystemPermission()
-    // Offset: 0x14BA348
+    // Offset: 0x14D5058
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.SystemPermission Message::GetSystemPermission()
     Oculus::Platform::Models::SystemPermission* GetSystemPermission();
   }; // Oculus.Platform.MessageWithSystemPermission
+  // Writing MetadataGetter for method: MessageWithSystemPermission::GetDataFromMessage
+  // Il2CppName: GetDataFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemPermission* (MessageWithSystemPermission::*)(System::IntPtr)>(&MessageWithSystemPermission::GetDataFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithSystemPermission*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithSystemPermission::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithSystemPermission::*)(System::IntPtr)>(&MessageWithSystemPermission::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithSystemPermission*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithSystemPermission::*)(System::IntPtr)>(&MessageWithSystemPermission::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithSystemPermission*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithSystemPermission::GetSystemPermission
+  // Il2CppName: GetSystemPermission
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemPermission* (MessageWithSystemPermission::*)()>(&MessageWithSystemPermission::GetSystemPermission)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithSystemPermission*), "GetSystemPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemPermission*, "Oculus.Platform", "MessageWithSystemPermission");

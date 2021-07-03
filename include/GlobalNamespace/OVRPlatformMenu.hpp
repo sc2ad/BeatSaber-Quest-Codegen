@@ -105,22 +105,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
     static void _set_sceneStack(System::Collections::Generic::Stack_1<::Il2CppString*>* value);
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0x12E1038
+    // Offset: 0x12FAD48
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
     // private System.Void Awake()
-    // Offset: 0x12E10B0
+    // Offset: 0x12FADC0
     void Awake();
     // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0x12E1210
+    // Offset: 0x12FAF20
     void ShowConfirmQuitMenu();
     // static private System.Boolean RetreatOneLevel()
-    // Offset: 0x12E12E4
+    // Offset: 0x12FAFF4
     static bool RetreatOneLevel();
     // private System.Void Update()
-    // Offset: 0x12E13D8
+    // Offset: 0x12FB0E8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12E1450
+    // Offset: 0x12FB160
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -133,7 +133,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlatformMenu*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12E1460
+    // Offset: 0x12FB170
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -141,6 +141,68 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRPlatformMenu), 32 + sizeof(System::Func_1<bool>*)> __GlobalNamespace_OVRPlatformMenuSizeCheck;
   static_assert(sizeof(OVRPlatformMenu) == 0x28);
+  // Writing MetadataGetter for method: OVRPlatformMenu::HandleBackButtonState
+  // Il2CppName: HandleBackButtonState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlatformMenu::eBackButtonAction (OVRPlatformMenu::*)()>(&OVRPlatformMenu::HandleBackButtonState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), "HandleBackButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlatformMenu::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlatformMenu::*)()>(&OVRPlatformMenu::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlatformMenu::ShowConfirmQuitMenu
+  // Il2CppName: ShowConfirmQuitMenu
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlatformMenu::*)()>(&OVRPlatformMenu::ShowConfirmQuitMenu)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), "ShowConfirmQuitMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlatformMenu::RetreatOneLevel
+  // Il2CppName: RetreatOneLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRPlatformMenu::RetreatOneLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), "RetreatOneLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlatformMenu::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlatformMenu::*)()>(&OVRPlatformMenu::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlatformMenu::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlatformMenu::*)()>(&OVRPlatformMenu::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlatformMenu::*)()>(&OVRPlatformMenu::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlatformMenu::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlatformMenu::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlatformMenu*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu*, "", "OVRPlatformMenu");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu::eHandler, "", "OVRPlatformMenu/eHandler");

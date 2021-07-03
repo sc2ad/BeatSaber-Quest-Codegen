@@ -32,22 +32,60 @@ namespace System::Reflection {
     // Creating value type constructor for type: GetterAdapter
     GetterAdapter() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1C67580
+    // Offset: 0x1C82290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoProperty::GetterAdapter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoProperty::GetterAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoProperty::GetterAdapter*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Object _this)
-    // Offset: 0x1C67590
+    // Offset: 0x1C822A0
     ::Il2CppObject* Invoke(::Il2CppObject* _this);
     // public System.IAsyncResult BeginInvoke(System.Object _this, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1C6792C
+    // Offset: 0x1C8263C
     System::IAsyncResult* BeginInvoke(::Il2CppObject* _this, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1C67950
+    // Offset: 0x1C82660
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // System.Reflection.MonoProperty/GetterAdapter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MonoProperty::GetterAdapter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoProperty::GetterAdapter::*)(::Il2CppObject*, System::IntPtr)>(&MonoProperty::GetterAdapter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoProperty::GetterAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoProperty::GetterAdapter::*)(::Il2CppObject*, System::IntPtr)>(&MonoProperty::GetterAdapter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoProperty::GetterAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoProperty::GetterAdapter::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MonoProperty::GetterAdapter::*)(::Il2CppObject*)>(&MonoProperty::GetterAdapter::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoProperty::GetterAdapter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoProperty::GetterAdapter::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MonoProperty::GetterAdapter::*)(::Il2CppObject*, System::AsyncCallback*, ::Il2CppObject*)>(&MonoProperty::GetterAdapter::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoProperty::GetterAdapter*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoProperty::GetterAdapter::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MonoProperty::GetterAdapter::*)(System::IAsyncResult*)>(&MonoProperty::GetterAdapter::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoProperty::GetterAdapter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty::GetterAdapter*, "System.Reflection", "MonoProperty/GetterAdapter");

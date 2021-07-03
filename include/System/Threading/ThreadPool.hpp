@@ -37,55 +37,183 @@ namespace System::Threading {
     // Creating value type constructor for type: ThreadPool
     ThreadPool() noexcept {}
     // static private System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.UInt32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
-    // Offset: 0x1879F10
+    // Offset: 0x1892C20
     static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, System::Threading::StackCrawlMark& stackMark, bool compressStack);
     // static public System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
-    // Offset: 0x187A234
+    // Offset: 0x1892F44
     static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
-    // Offset: 0x187A1D4
+    // Offset: 0x1892EE4
     static bool QueueUserWorkItem(System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack)
-    // Offset: 0x187A498
+    // Offset: 0x18931A8
     static bool QueueUserWorkItem(System::Threading::WaitCallback* callBack);
     // static public System.Boolean UnsafeQueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
-    // Offset: 0x187A204
+    // Offset: 0x1892F14
     static bool UnsafeQueueUserWorkItem(System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static private System.Boolean QueueUserWorkItemHelper(System.Threading.WaitCallback callBack, System.Object state, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
-    // Offset: 0x187A388
+    // Offset: 0x1893098
     static bool QueueUserWorkItemHelper(System::Threading::WaitCallback* callBack, ::Il2CppObject* state, System::Threading::StackCrawlMark& stackMark, bool compressStack);
     // static System.Void UnsafeQueueCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem, System.Boolean forceGlobal)
-    // Offset: 0x1878580
+    // Offset: 0x1891290
     static void UnsafeQueueCustomWorkItem(System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);
     // static System.Boolean TryPopCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem)
-    // Offset: 0x18786BC
+    // Offset: 0x18913CC
     static bool TryPopCustomWorkItem(System::Threading::IThreadPoolWorkItem* workItem);
     // static System.Boolean RequestWorkerThread()
-    // Offset: 0x187A71C
+    // Offset: 0x189342C
     static bool RequestWorkerThread();
     // static private System.Void EnsureVMInitialized()
-    // Offset: 0x187A4CC
+    // Offset: 0x18931DC
     static void EnsureVMInitialized();
     // static System.Boolean NotifyWorkItemComplete()
-    // Offset: 0x187A724
+    // Offset: 0x1893434
     static bool NotifyWorkItemComplete();
     // static System.Void ReportThreadStatus(System.Boolean isWorking)
-    // Offset: 0x187A728
+    // Offset: 0x1893438
     static void ReportThreadStatus(bool isWorking);
     // static System.Void NotifyWorkItemProgress()
-    // Offset: 0x1878788
+    // Offset: 0x1891498
     static void NotifyWorkItemProgress();
     // static System.Void NotifyWorkItemProgressNative()
-    // Offset: 0x187A730
+    // Offset: 0x1893440
     static void NotifyWorkItemProgressNative();
     // static System.Boolean IsThreadPoolHosted()
-    // Offset: 0x187A734
+    // Offset: 0x1893444
     static bool IsThreadPoolHosted();
     // static private System.Void InitializeVMTp(ref System.Boolean enableWorkerTracking)
-    // Offset: 0x187A720
+    // Offset: 0x1893430
     static void InitializeVMTp(bool& enableWorkerTracking);
   }; // System.Threading.ThreadPool
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ThreadPool::RegisterWaitForSingleObject
+  // Il2CppName: RegisterWaitForSingleObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, uint, bool, System::Threading::StackCrawlMark&, bool)>(&ThreadPool::RegisterWaitForSingleObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "RegisterWaitForSingleObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::WaitOrTimerCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::RegisterWaitForSingleObject
+  // Il2CppName: RegisterWaitForSingleObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, System::TimeSpan, bool)>(&ThreadPool::RegisterWaitForSingleObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "RegisterWaitForSingleObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::WaitOrTimerCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::QueueUserWorkItem
+  // Il2CppName: QueueUserWorkItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*)>(&ThreadPool::QueueUserWorkItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "QueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::QueueUserWorkItem
+  // Il2CppName: QueueUserWorkItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*)>(&ThreadPool::QueueUserWorkItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "QueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::UnsafeQueueUserWorkItem
+  // Il2CppName: UnsafeQueueUserWorkItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*)>(&ThreadPool::UnsafeQueueUserWorkItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "UnsafeQueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::QueueUserWorkItemHelper
+  // Il2CppName: QueueUserWorkItemHelper
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*, System::Threading::StackCrawlMark&, bool)>(&ThreadPool::QueueUserWorkItemHelper)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "QueueUserWorkItemHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::UnsafeQueueCustomWorkItem
+  // Il2CppName: UnsafeQueueCustomWorkItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::IThreadPoolWorkItem*, bool)>(&ThreadPool::UnsafeQueueCustomWorkItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "UnsafeQueueCustomWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::TryPopCustomWorkItem
+  // Il2CppName: TryPopCustomWorkItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::IThreadPoolWorkItem*)>(&ThreadPool::TryPopCustomWorkItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "TryPopCustomWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::RequestWorkerThread
+  // Il2CppName: RequestWorkerThread
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ThreadPool::RequestWorkerThread)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "RequestWorkerThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::EnsureVMInitialized
+  // Il2CppName: EnsureVMInitialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThreadPool::EnsureVMInitialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "EnsureVMInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::NotifyWorkItemComplete
+  // Il2CppName: NotifyWorkItemComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ThreadPool::NotifyWorkItemComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "NotifyWorkItemComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::ReportThreadStatus
+  // Il2CppName: ReportThreadStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&ThreadPool::ReportThreadStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "ReportThreadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::NotifyWorkItemProgress
+  // Il2CppName: NotifyWorkItemProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThreadPool::NotifyWorkItemProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "NotifyWorkItemProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::NotifyWorkItemProgressNative
+  // Il2CppName: NotifyWorkItemProgressNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThreadPool::NotifyWorkItemProgressNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "NotifyWorkItemProgressNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::IsThreadPoolHosted
+  // Il2CppName: IsThreadPoolHosted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ThreadPool::IsThreadPoolHosted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "IsThreadPoolHosted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPool::InitializeVMTp
+  // Il2CppName: InitializeVMTp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool&)>(&ThreadPool::InitializeVMTp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPool*), "InitializeVMTp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool*, "System.Threading", "ThreadPool");

@@ -39,14 +39,14 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerAllOverallStatsData
     PlayerAllOverallStatsData(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* campaignOverallStatsData_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* soloFreePlayOverallStatsData_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData_ = {}) noexcept : campaignOverallStatsData{campaignOverallStatsData_}, soloFreePlayOverallStatsData{soloFreePlayOverallStatsData_}, partyFreePlayOverallStatsData{partyFreePlayOverallStatsData_} {}
     // public System.Void .ctor(PlayerSaveDataV1_0_1/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveDataV1_0_1/PlayerOverallStatsData partyFreePlayOverallStatsData)
-    // Offset: 0x1015038
+    // Offset: 0x1059348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveDataV1_0_1::PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData* partyFreePlayOverallStatsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1014F8C
+    // Offset: 0x105929C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,5 +58,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::PlayerAllOverallStatsData), 32 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*)> __GlobalNamespace_PlayerSaveDataV1_0_1_PlayerAllOverallStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::PlayerAllOverallStatsData) == 0x28);
+  // Writing MetadataGetter for method: PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*)>(&PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*)>(&PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::*)()>(&PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::*)()>(&PlayerSaveDataV1_0_1::PlayerAllOverallStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*, "", "PlayerSaveDataV1_0_1/PlayerAllOverallStatsData");

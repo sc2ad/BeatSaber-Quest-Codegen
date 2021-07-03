@@ -27,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
-    // [InjectAttribute] Offset: 0xE1C8F0
+    // [InjectAttribute] Offset: 0xE1C8CC
     // private IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x48
@@ -37,18 +37,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ComboMissionObjectiveChecker
     ComboMissionObjectiveChecker(GlobalNamespace::IScoreController* scoreController_ = {}) noexcept : scoreController{scoreController_} {}
     // protected System.Void OnDestroy()
-    // Offset: 0x1096CB4
+    // Offset: 0x1194DF8
     void OnDestroy();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x1096DB4
+    // Offset: 0x1194EF8
     void HandleComboDidChange(int combo);
     // protected override System.Void Init()
-    // Offset: 0x1096AF4
+    // Offset: 0x1194C38
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1096DF0
+    // Offset: 0x1194F34
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -66,5 +66,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ComboMissionObjectiveChecker), 72 + sizeof(GlobalNamespace::IScoreController*)> __GlobalNamespace_ComboMissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(ComboMissionObjectiveChecker) == 0x50);
+  // Writing MetadataGetter for method: ComboMissionObjectiveChecker::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboMissionObjectiveChecker::*)()>(&ComboMissionObjectiveChecker::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComboMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ComboMissionObjectiveChecker::HandleComboDidChange
+  // Il2CppName: HandleComboDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboMissionObjectiveChecker::*)(int)>(&ComboMissionObjectiveChecker::HandleComboDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComboMissionObjectiveChecker*), "HandleComboDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ComboMissionObjectiveChecker::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboMissionObjectiveChecker::*)()>(&ComboMissionObjectiveChecker::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComboMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ComboMissionObjectiveChecker::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboMissionObjectiveChecker::*)()>(&ComboMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComboMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboMissionObjectiveChecker::*)()>(&ComboMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComboMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboMissionObjectiveChecker*, "", "ComboMissionObjectiveChecker");

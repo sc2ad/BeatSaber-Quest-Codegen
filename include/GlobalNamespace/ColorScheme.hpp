@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     ::Il2CppString* colorSchemeId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xDFB8A8
+    // [LocalizationKeyAttribute] Offset: 0xDFD8A4
     // private System.String _colorSchemeNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEditable and: saberAColor
     char __padding4[0x3] = {};
-    // [SpaceAttribute] Offset: 0xDFB910
+    // [SpaceAttribute] Offset: 0xDFD90C
     // private UnityEngine.Color _saberAColor
     // Size: 0x10
     // Offset: 0x34
@@ -73,14 +73,14 @@ namespace GlobalNamespace {
     UnityEngine::Color saberBColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xDFB958
+    // [SpaceAttribute] Offset: 0xDFD954
     // private UnityEngine.Color _obstaclesColor
     // Size: 0x10
     // Offset: 0x54
     UnityEngine::Color obstaclesColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xDFB990
+    // [SpaceAttribute] Offset: 0xDFD98C
     // private UnityEngine.Color _environmentColor0
     // Size: 0x10
     // Offset: 0x64
@@ -116,67 +116,67 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorScheme
     ColorScheme(::Il2CppString* colorSchemeId_ = {}, ::Il2CppString* colorSchemeNameLocalizationKey_ = {}, bool useNonLocalizedName_ = {}, ::Il2CppString* nonLocalizedName_ = {}, bool isEditable_ = {}, UnityEngine::Color saberAColor_ = {}, UnityEngine::Color saberBColor_ = {}, UnityEngine::Color obstaclesColor_ = {}, UnityEngine::Color environmentColor0_ = {}, UnityEngine::Color environmentColor1_ = {}, bool supportsEnvironmentColorBoost_ = {}, UnityEngine::Color environmentColor0Boost_ = {}, UnityEngine::Color environmentColor1Boost_ = {}) noexcept : colorSchemeId{colorSchemeId_}, colorSchemeNameLocalizationKey{colorSchemeNameLocalizationKey_}, useNonLocalizedName{useNonLocalizedName_}, nonLocalizedName{nonLocalizedName_}, isEditable{isEditable_}, saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, supportsEnvironmentColorBoost{supportsEnvironmentColorBoost_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_} {}
     // public System.String get_colorSchemeId()
-    // Offset: 0x23D6AE4
+    // Offset: 0x23F2010
     ::Il2CppString* get_colorSchemeId();
     // public System.String get_colorSchemeNameLocalizationKey()
-    // Offset: 0x23D6AEC
+    // Offset: 0x23F2018
     ::Il2CppString* get_colorSchemeNameLocalizationKey();
     // public System.String get_nonLocalizedName()
-    // Offset: 0x23D6AF4
+    // Offset: 0x23F2020
     ::Il2CppString* get_nonLocalizedName();
     // public System.Boolean get_useNonLocalizedName()
-    // Offset: 0x23D6AFC
+    // Offset: 0x23F2028
     bool get_useNonLocalizedName();
     // public System.Boolean get_isEditable()
-    // Offset: 0x23D6B04
+    // Offset: 0x23F2030
     bool get_isEditable();
     // public UnityEngine.Color get_saberAColor()
-    // Offset: 0x23D6B0C
+    // Offset: 0x23F2038
     UnityEngine::Color get_saberAColor();
     // public UnityEngine.Color get_saberBColor()
-    // Offset: 0x23D6B18
+    // Offset: 0x23F2044
     UnityEngine::Color get_saberBColor();
     // public UnityEngine.Color get_environmentColor0()
-    // Offset: 0x23D6B24
+    // Offset: 0x23F2050
     UnityEngine::Color get_environmentColor0();
     // public UnityEngine.Color get_environmentColor1()
-    // Offset: 0x23D6B30
+    // Offset: 0x23F205C
     UnityEngine::Color get_environmentColor1();
     // public System.Boolean get_supportsEnvironmentColorBoost()
-    // Offset: 0x23D6B3C
+    // Offset: 0x23F2068
     bool get_supportsEnvironmentColorBoost();
     // public UnityEngine.Color get_environmentColor0Boost()
-    // Offset: 0x23D6B44
+    // Offset: 0x23F2070
     UnityEngine::Color get_environmentColor0Boost();
     // public UnityEngine.Color get_environmentColor1Boost()
-    // Offset: 0x23D6B50
+    // Offset: 0x23F207C
     UnityEngine::Color get_environmentColor1Boost();
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x23D6B5C
+    // Offset: 0x23F2088
     UnityEngine::Color get_obstaclesColor();
     // public System.Void .ctor(System.String colorSchemeId, System.String colorSchemeNameLocalizationKey, System.Boolean useNonLocalizedName, System.String nonLocalizedName, System.Boolean isEditable, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
-    // Offset: 0x23D6B68
+    // Offset: 0x23F2094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(::Il2CppString* colorSchemeId, ::Il2CppString* colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::Il2CppString* nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorSchemeId, colorSchemeNameLocalizationKey, useNonLocalizedName, nonLocalizedName, isEditable, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
     // public System.Void .ctor(ColorScheme colorScheme, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
-    // Offset: 0x23D6C84
+    // Offset: 0x23F21B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(GlobalNamespace::ColorScheme* colorScheme, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
     // public System.Void .ctor(ColorScheme colorScheme)
-    // Offset: 0x23D6D18
+    // Offset: 0x23F2244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(GlobalNamespace::ColorScheme* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme)));
     }
     // public System.Void .ctor(ColorSchemeSO colorScheme)
-    // Offset: 0x23D6DCC
+    // Offset: 0x23F22F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorScheme* New_ctor(GlobalNamespace::ColorSchemeSO* colorScheme) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
@@ -186,5 +186,165 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorScheme), 152 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorSchemeSizeCheck;
   static_assert(sizeof(ColorScheme) == 0xA8);
+  // Writing MetadataGetter for method: ColorScheme::get_colorSchemeId
+  // Il2CppName: get_colorSchemeId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorScheme::*)()>(&ColorScheme::get_colorSchemeId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_colorSchemeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_colorSchemeNameLocalizationKey
+  // Il2CppName: get_colorSchemeNameLocalizationKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorScheme::*)()>(&ColorScheme::get_colorSchemeNameLocalizationKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_colorSchemeNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_nonLocalizedName
+  // Il2CppName: get_nonLocalizedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorScheme::*)()>(&ColorScheme::get_nonLocalizedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_nonLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_useNonLocalizedName
+  // Il2CppName: get_useNonLocalizedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorScheme::*)()>(&ColorScheme::get_useNonLocalizedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_useNonLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_isEditable
+  // Il2CppName: get_isEditable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorScheme::*)()>(&ColorScheme::get_isEditable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_isEditable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_saberAColor
+  // Il2CppName: get_saberAColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_saberAColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_saberBColor
+  // Il2CppName: get_saberBColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_saberBColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_environmentColor0
+  // Il2CppName: get_environmentColor0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_environmentColor0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_environmentColor0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_environmentColor1
+  // Il2CppName: get_environmentColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_environmentColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_environmentColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_supportsEnvironmentColorBoost
+  // Il2CppName: get_supportsEnvironmentColorBoost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorScheme::*)()>(&ColorScheme::get_supportsEnvironmentColorBoost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_supportsEnvironmentColorBoost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_environmentColor0Boost
+  // Il2CppName: get_environmentColor0Boost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_environmentColor0Boost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_environmentColor0Boost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_environmentColor1Boost
+  // Il2CppName: get_environmentColor1Boost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_environmentColor1Boost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_environmentColor1Boost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::get_obstaclesColor
+  // Il2CppName: get_obstaclesColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorScheme::*)()>(&ColorScheme::get_obstaclesColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(::Il2CppString*, ::Il2CppString*, bool, ::Il2CppString*, bool, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, bool, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(::Il2CppString*, ::Il2CppString*, bool, ::Il2CppString*, bool, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, bool, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(GlobalNamespace::ColorScheme*, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, bool, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(GlobalNamespace::ColorScheme*, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, bool, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(GlobalNamespace::ColorScheme*)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(GlobalNamespace::ColorScheme*)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorScheme::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(GlobalNamespace::ColorSchemeSO*)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeSO*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorScheme::*)(GlobalNamespace::ColorSchemeSO*)>(&ColorScheme::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorScheme*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeSO*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorScheme*, "", "ColorScheme");

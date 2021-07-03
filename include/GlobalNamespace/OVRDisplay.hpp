@@ -158,7 +158,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: localTrackingSpaceRecenterCount and: RecenteredPose
     char __padding4[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDCFCD0
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC04
     // private System.Action RecenteredPose
     // Size: 0x8
     // Offset: 0x30
@@ -168,58 +168,58 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRDisplay
     OVRDisplay(bool needsConfigureTexture_ = {}, ::Array<GlobalNamespace::OVRDisplay::EyeRenderDesc>* eyeDescs_ = {}, bool recenterRequested_ = {}, int recenterRequestedFrameCount_ = {}, int localTrackingSpaceRecenterCount_ = {}, System::Action* RecenteredPose_ = {}) noexcept : needsConfigureTexture{needsConfigureTexture_}, eyeDescs{eyeDescs_}, recenterRequested{recenterRequested_}, recenterRequestedFrameCount{recenterRequestedFrameCount_}, localTrackingSpaceRecenterCount{localTrackingSpaceRecenterCount_}, RecenteredPose{RecenteredPose_} {}
     // public System.Void Update()
-    // Offset: 0x1269240
+    // Offset: 0x1285F50
     void Update();
     // public System.Void add_RecenteredPose(System.Action value)
-    // Offset: 0x12693D4
+    // Offset: 0x12860E4
     void add_RecenteredPose(System::Action* value);
     // public System.Void remove_RecenteredPose(System.Action value)
-    // Offset: 0x1269478
+    // Offset: 0x1286188
     void remove_RecenteredPose(System::Action* value);
     // public System.Void RecenterPose()
-    // Offset: 0x126951C
+    // Offset: 0x128622C
     void RecenterPose();
     // public UnityEngine.Vector3 get_acceleration()
-    // Offset: 0x1269598
+    // Offset: 0x12862A8
     UnityEngine::Vector3 get_acceleration();
     // public UnityEngine.Vector3 get_angularAcceleration()
-    // Offset: 0x12696C4
+    // Offset: 0x12863D4
     UnityEngine::Vector3 get_angularAcceleration();
     // public UnityEngine.Vector3 get_velocity()
-    // Offset: 0x12697F0
+    // Offset: 0x1286500
     UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
-    // Offset: 0x126991C
+    // Offset: 0x128662C
     UnityEngine::Vector3 get_angularVelocity();
     // public OVRDisplay/EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x1269138
+    // Offset: 0x1285E48
     GlobalNamespace::OVRDisplay::EyeRenderDesc GetEyeRenderDesc(UnityEngine::XR::XRNode eye);
     // public OVRDisplay/LatencyData get_latency()
-    // Offset: 0x1269A48
+    // Offset: 0x1286758
     GlobalNamespace::OVRDisplay::LatencyData get_latency();
     // public System.Single get_appFramerate()
-    // Offset: 0x1269C14
+    // Offset: 0x1286924
     float get_appFramerate();
     // public System.Int32 get_recommendedMSAALevel()
-    // Offset: 0x1269CB0
+    // Offset: 0x12869C0
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
-    // Offset: 0x1269D1C
+    // Offset: 0x1286A2C
     ::Array<float>* get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
-    // Offset: 0x1269D7C
+    // Offset: 0x1286A8C
     float get_displayFrequency();
     // public System.Void set_displayFrequency(System.Single value)
-    // Offset: 0x1269DDC
+    // Offset: 0x1286AEC
     void set_displayFrequency(float value);
     // private System.Void UpdateTextures()
-    // Offset: 0x1269214
+    // Offset: 0x1285F24
     void UpdateTextures();
     // private System.Void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
-    // Offset: 0x1269E4C
+    // Offset: 0x1286B5C
     void ConfigureEyeDesc(UnityEngine::XR::XRNode eye);
     // public System.Void .ctor()
-    // Offset: 0x1269194
+    // Offset: 0x1285EA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -231,6 +231,156 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRDisplay), 48 + sizeof(System::Action*)> __GlobalNamespace_OVRDisplaySizeCheck;
   static_assert(sizeof(OVRDisplay) == 0x38);
+  // Writing MetadataGetter for method: OVRDisplay::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)()>(&OVRDisplay::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::add_RecenteredPose
+  // Il2CppName: add_RecenteredPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)(System::Action*)>(&OVRDisplay::add_RecenteredPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "add_RecenteredPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::remove_RecenteredPose
+  // Il2CppName: remove_RecenteredPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)(System::Action*)>(&OVRDisplay::remove_RecenteredPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "remove_RecenteredPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::RecenterPose
+  // Il2CppName: RecenterPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)()>(&OVRDisplay::RecenterPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_acceleration
+  // Il2CppName: get_acceleration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRDisplay::*)()>(&OVRDisplay::get_acceleration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_acceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_angularAcceleration
+  // Il2CppName: get_angularAcceleration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRDisplay::*)()>(&OVRDisplay::get_angularAcceleration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_angularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_velocity
+  // Il2CppName: get_velocity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRDisplay::*)()>(&OVRDisplay::get_velocity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_angularVelocity
+  // Il2CppName: get_angularVelocity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRDisplay::*)()>(&OVRDisplay::get_angularVelocity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::GetEyeRenderDesc
+  // Il2CppName: GetEyeRenderDesc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRDisplay::EyeRenderDesc (OVRDisplay::*)(UnityEngine::XR::XRNode)>(&OVRDisplay::GetEyeRenderDesc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "GetEyeRenderDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_latency
+  // Il2CppName: get_latency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRDisplay::LatencyData (OVRDisplay::*)()>(&OVRDisplay::get_latency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_latency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_appFramerate
+  // Il2CppName: get_appFramerate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRDisplay::*)()>(&OVRDisplay::get_appFramerate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_appFramerate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_recommendedMSAALevel
+  // Il2CppName: get_recommendedMSAALevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRDisplay::*)()>(&OVRDisplay::get_recommendedMSAALevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_recommendedMSAALevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_displayFrequenciesAvailable
+  // Il2CppName: get_displayFrequenciesAvailable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (OVRDisplay::*)()>(&OVRDisplay::get_displayFrequenciesAvailable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_displayFrequenciesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::get_displayFrequency
+  // Il2CppName: get_displayFrequency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRDisplay::*)()>(&OVRDisplay::get_displayFrequency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "get_displayFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::set_displayFrequency
+  // Il2CppName: set_displayFrequency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)(float)>(&OVRDisplay::set_displayFrequency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "set_displayFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::UpdateTextures
+  // Il2CppName: UpdateTextures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)()>(&OVRDisplay::UpdateTextures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "UpdateTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::ConfigureEyeDesc
+  // Il2CppName: ConfigureEyeDesc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)(UnityEngine::XR::XRNode)>(&OVRDisplay::ConfigureEyeDesc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), "ConfigureEyeDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDisplay::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)()>(&OVRDisplay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDisplay::*)()>(&OVRDisplay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDisplay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");

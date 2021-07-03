@@ -202,7 +202,7 @@ namespace TMPro {
     System::Collections::Generic::List_1<TMPro::TMP_Glyph*>* m_glyphInfoList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TMP_Glyph*>*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDD5D30
+    // [FormerlySerializedAsAttribute] Offset: 0xDD5C64
     // TMPro.KerningTable m_KerningTable
     // Size: 0x8
     // Offset: 0x118
@@ -338,208 +338,208 @@ namespace TMPro {
     // Set static field: static System.Collections.Generic.List`1<System.UInt32> s_MissingCharacterList
     static void _set_s_MissingCharacterList(System::Collections::Generic::List_1<uint>* value);
     // public System.String get_version()
-    // Offset: 0x1111E9C
+    // Offset: 0x10ECD18
     ::Il2CppString* get_version();
     // System.Void set_version(System.String value)
-    // Offset: 0x1111EA4
+    // Offset: 0x10ECD20
     void set_version(::Il2CppString* value);
     // public UnityEngine.Font get_sourceFontFile()
-    // Offset: 0x1111EAC
+    // Offset: 0x10ECD28
     UnityEngine::Font* get_sourceFontFile();
     // System.Void set_sourceFontFile(UnityEngine.Font value)
-    // Offset: 0x1111EB4
+    // Offset: 0x10ECD30
     void set_sourceFontFile(UnityEngine::Font* value);
     // public TMPro.AtlasPopulationMode get_atlasPopulationMode()
-    // Offset: 0x1111EBC
+    // Offset: 0x10ECD38
     TMPro::AtlasPopulationMode get_atlasPopulationMode();
     // public System.Void set_atlasPopulationMode(TMPro.AtlasPopulationMode value)
-    // Offset: 0x1111EC4
+    // Offset: 0x10ECD40
     void set_atlasPopulationMode(TMPro::AtlasPopulationMode value);
     // public UnityEngine.TextCore.FaceInfo get_faceInfo()
-    // Offset: 0x1111ECC
+    // Offset: 0x10ECD48
     UnityEngine::TextCore::FaceInfo get_faceInfo();
     // System.Void set_faceInfo(UnityEngine.TextCore.FaceInfo value)
-    // Offset: 0x1111EDC
+    // Offset: 0x10ECD58
     void set_faceInfo(UnityEngine::TextCore::FaceInfo value);
     // public System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> get_glyphTable()
-    // Offset: 0x1111EF8
+    // Offset: 0x10ECD74
     System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* get_glyphTable();
     // System.Void set_glyphTable(System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> value)
-    // Offset: 0x1111F00
+    // Offset: 0x10ECD7C
     void set_glyphTable(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* value);
     // public System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> get_glyphLookupTable()
-    // Offset: 0x1111F08
+    // Offset: 0x10ECD84
     System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* get_glyphLookupTable();
     // public System.Collections.Generic.List`1<TMPro.TMP_Character> get_characterTable()
-    // Offset: 0x11126CC
+    // Offset: 0x10ED548
     System::Collections::Generic::List_1<TMPro::TMP_Character*>* get_characterTable();
     // System.Void set_characterTable(System.Collections.Generic.List`1<TMPro.TMP_Character> value)
-    // Offset: 0x11126D4
+    // Offset: 0x10ED550
     void set_characterTable(System::Collections::Generic::List_1<TMPro::TMP_Character*>* value);
     // public System.Collections.Generic.Dictionary`2<System.UInt32,TMPro.TMP_Character> get_characterLookupTable()
-    // Offset: 0x11126DC
+    // Offset: 0x10ED558
     System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>* get_characterLookupTable();
     // public UnityEngine.Texture2D get_atlasTexture()
-    // Offset: 0x111270C
+    // Offset: 0x10ED588
     UnityEngine::Texture2D* get_atlasTexture();
     // public UnityEngine.Texture2D[] get_atlasTextures()
-    // Offset: 0x11127B4
+    // Offset: 0x10ED630
     ::Array<UnityEngine::Texture2D*>* get_atlasTextures();
     // public System.Void set_atlasTextures(UnityEngine.Texture2D[] value)
-    // Offset: 0x11127BC
+    // Offset: 0x10ED638
     void set_atlasTextures(::Array<UnityEngine::Texture2D*>* value);
     // System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> get_usedGlyphRects()
-    // Offset: 0x11127C4
+    // Offset: 0x10ED640
     System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* get_usedGlyphRects();
     // System.Void set_usedGlyphRects(System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> value)
-    // Offset: 0x11127CC
+    // Offset: 0x10ED648
     void set_usedGlyphRects(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* value);
     // System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> get_freeGlyphRects()
-    // Offset: 0x11127D4
+    // Offset: 0x10ED650
     System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* get_freeGlyphRects();
     // System.Void set_freeGlyphRects(System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> value)
-    // Offset: 0x11127DC
+    // Offset: 0x10ED658
     void set_freeGlyphRects(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* value);
     // public TMPro.FaceInfo_Legacy get_fontInfo()
-    // Offset: 0x11127E4
+    // Offset: 0x10ED660
     TMPro::FaceInfo_Legacy* get_fontInfo();
     // public System.Int32 get_atlasWidth()
-    // Offset: 0x11127EC
+    // Offset: 0x10ED668
     int get_atlasWidth();
     // System.Void set_atlasWidth(System.Int32 value)
-    // Offset: 0x11127F4
+    // Offset: 0x10ED670
     void set_atlasWidth(int value);
     // public System.Int32 get_atlasHeight()
-    // Offset: 0x11127FC
+    // Offset: 0x10ED678
     int get_atlasHeight();
     // System.Void set_atlasHeight(System.Int32 value)
-    // Offset: 0x1112804
+    // Offset: 0x10ED680
     void set_atlasHeight(int value);
     // public System.Int32 get_atlasPadding()
-    // Offset: 0x111280C
+    // Offset: 0x10ED688
     int get_atlasPadding();
     // System.Void set_atlasPadding(System.Int32 value)
-    // Offset: 0x1112814
+    // Offset: 0x10ED690
     void set_atlasPadding(int value);
     // public UnityEngine.TextCore.LowLevel.GlyphRenderMode get_atlasRenderMode()
-    // Offset: 0x111281C
+    // Offset: 0x10ED698
     UnityEngine::TextCore::LowLevel::GlyphRenderMode get_atlasRenderMode();
     // System.Void set_atlasRenderMode(UnityEngine.TextCore.LowLevel.GlyphRenderMode value)
-    // Offset: 0x1112824
+    // Offset: 0x10ED6A0
     void set_atlasRenderMode(UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
     // public TMPro.TMP_FontFeatureTable get_fontFeatureTable()
-    // Offset: 0x111282C
+    // Offset: 0x10ED6A8
     TMPro::TMP_FontFeatureTable* get_fontFeatureTable();
     // System.Void set_fontFeatureTable(TMPro.TMP_FontFeatureTable value)
-    // Offset: 0x1112834
+    // Offset: 0x10ED6B0
     void set_fontFeatureTable(TMPro::TMP_FontFeatureTable* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_FontAsset> get_fallbackFontAssetTable()
-    // Offset: 0x111283C
+    // Offset: 0x10ED6B8
     System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* get_fallbackFontAssetTable();
     // public System.Void set_fallbackFontAssetTable(System.Collections.Generic.List`1<TMPro.TMP_FontAsset> value)
-    // Offset: 0x1112844
+    // Offset: 0x10ED6C0
     void set_fallbackFontAssetTable(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* value);
     // public TMPro.FontAssetCreationSettings get_creationSettings()
-    // Offset: 0x111284C
+    // Offset: 0x10ED6C8
     TMPro::FontAssetCreationSettings get_creationSettings();
     // public System.Void set_creationSettings(TMPro.FontAssetCreationSettings value)
-    // Offset: 0x111285C
+    // Offset: 0x10ED6D8
     void set_creationSettings(TMPro::FontAssetCreationSettings value);
     // public TMPro.TMP_FontWeightPair[] get_fontWeightTable()
-    // Offset: 0x1112878
+    // Offset: 0x10ED6F4
     ::Array<TMPro::TMP_FontWeightPair>* get_fontWeightTable();
     // System.Void set_fontWeightTable(TMPro.TMP_FontWeightPair[] value)
-    // Offset: 0x1112880
+    // Offset: 0x10ED6FC
     void set_fontWeightTable(::Array<TMPro::TMP_FontWeightPair>* value);
     // static public TMPro.TMP_FontAsset CreateFontAsset(UnityEngine.Font font)
-    // Offset: 0x1112888
+    // Offset: 0x10ED704
     static TMPro::TMP_FontAsset* CreateFontAsset(UnityEngine::Font* font);
     // static public TMPro.TMP_FontAsset CreateFontAsset(UnityEngine.Font font, System.Int32 samplingPointSize, System.Int32 atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, System.Int32 atlasWidth, System.Int32 atlasHeight, TMPro.AtlasPopulationMode atlasPopulationMode)
-    // Offset: 0x1112904
+    // Offset: 0x10ED780
     static TMPro::TMP_FontAsset* CreateFontAsset(UnityEngine::Font* font, int samplingPointSize, int atlasPadding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int atlasWidth, int atlasHeight, TMPro::AtlasPopulationMode atlasPopulationMode);
     // private System.Void Awake()
-    // Offset: 0x1112CD0
+    // Offset: 0x10EDB4C
     void Awake();
     // System.Void InitializeDictionaryLookupTables()
-    // Offset: 0x11136B4
+    // Offset: 0x10EE530
     void InitializeDictionaryLookupTables();
     // public System.Void ReadFontAssetDefinition()
-    // Offset: 0x1111F38
+    // Offset: 0x10ECDB4
     void ReadFontAssetDefinition();
     // System.Void SortCharacterTable()
-    // Offset: 0x1113CCC
+    // Offset: 0x10EEB48
     void SortCharacterTable();
     // System.Void SortGlyphTable()
-    // Offset: 0x1113DEC
+    // Offset: 0x10EEC68
     void SortGlyphTable();
     // System.Void SortGlyphAndCharacterTables()
-    // Offset: 0x1113F0C
+    // Offset: 0x10EED88
     void SortGlyphAndCharacterTables();
     // public System.Boolean HasCharacter(System.Int32 character)
-    // Offset: 0x1113F30
+    // Offset: 0x10EEDAC
     bool HasCharacter(int character);
     // public System.Boolean HasCharacter(System.Char character)
-    // Offset: 0x1113FA4
+    // Offset: 0x10EEE20
     bool HasCharacter(::Il2CppChar character);
     // public System.Boolean HasCharacter(System.Char character, System.Boolean searchFallbacks)
-    // Offset: 0x1114018
+    // Offset: 0x10EEE94
     bool HasCharacter(::Il2CppChar character, bool searchFallbacks);
     // private System.Boolean HasCharacter_Internal(System.Char character, System.Boolean searchFallbacks)
-    // Offset: 0x11149AC
+    // Offset: 0x10EF828
     bool HasCharacter_Internal(::Il2CppChar character, bool searchFallbacks);
     // public System.Boolean HasCharacters(System.String text, out System.Collections.Generic.List`1<System.Char> missingCharacters)
-    // Offset: 0x1114B14
+    // Offset: 0x10EF990
     bool HasCharacters(::Il2CppString* text, System::Collections::Generic::List_1<::Il2CppChar>*& missingCharacters);
     // public System.Boolean HasCharacters(System.String text)
-    // Offset: 0x1114C50
+    // Offset: 0x10EFACC
     bool HasCharacters(::Il2CppString* text);
     // static public System.String GetCharacters(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x1114D14
+    // Offset: 0x10EFB90
     static ::Il2CppString* GetCharacters(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32[] GetCharactersArray(TMPro.TMP_FontAsset fontAsset)
-    // Offset: 0x1114DF4
+    // Offset: 0x10EFC70
     static ::Array<int>* GetCharactersArray(TMPro::TMP_FontAsset* fontAsset);
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes)
-    // Offset: 0x1114EDC
+    // Offset: 0x10EFD58
     bool TryAddCharacters(::Array<uint>* unicodes);
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes, out System.UInt32[] missingUnicodes)
-    // Offset: 0x1114F04
+    // Offset: 0x10EFD80
     bool TryAddCharacters(::Array<uint>* unicodes, ::Array<uint>*& missingUnicodes);
     // public System.Boolean TryAddCharacters(System.String characters)
-    // Offset: 0x1115608
+    // Offset: 0x10F0484
     bool TryAddCharacters(::Il2CppString* characters);
     // public System.Boolean TryAddCharacters(System.String characters, out System.String missingCharacters)
-    // Offset: 0x1115630
+    // Offset: 0x10F04AC
     bool TryAddCharacters(::Il2CppString* characters, ::Il2CppString*& missingCharacters);
     // System.Boolean TryAddCharacter_Internal(System.UInt32 unicode)
-    // Offset: 0x1115C70
+    // Offset: 0x10F0AEC
     bool TryAddCharacter_Internal(uint unicode);
     // TMPro.TMP_Character AddCharacter_Internal(System.UInt32 unicode, UnityEngine.TextCore.Glyph glyph)
-    // Offset: 0x1115F88
+    // Offset: 0x10F0E04
     TMPro::TMP_Character* AddCharacter_Internal(uint unicode, UnityEngine::TextCore::Glyph* glyph);
     // System.Boolean TryAddCharacterInternal(System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x11143E8
+    // Offset: 0x10EF264
     bool TryAddCharacterInternal(uint unicode, TMPro::TMP_Character*& character);
     // System.UInt32 GetGlyphIndex(System.UInt32 unicode)
-    // Offset: 0x1116960
+    // Offset: 0x10F17DC
     uint GetGlyphIndex(uint unicode);
     // System.Void UpdateAtlasTexture()
-    // Offset: 0x11162A0
+    // Offset: 0x10F111C
     void UpdateAtlasTexture();
     // System.Void UpdateGlyphAdjustmentRecords(System.UInt32 unicode, System.UInt32 glyphIndex)
-    // Offset: 0x1116560
+    // Offset: 0x10F13DC
     void UpdateGlyphAdjustmentRecords(uint unicode, uint glyphIndex);
     // public System.Void ClearFontAssetData(System.Boolean setAtlasSizeToZero)
-    // Offset: 0x1116B80
+    // Offset: 0x10F19FC
     void ClearFontAssetData(bool setAtlasSizeToZero);
     // private System.Void UpgradeFontAsset()
-    // Offset: 0x1112D68
+    // Offset: 0x10EDBE4
     void UpgradeFontAsset();
     // private System.Void UpgradeGlyphAdjustmentTableToFontFeatureTable()
-    // Offset: 0x1113A60
+    // Offset: 0x10EE8DC
     void UpgradeGlyphAdjustmentTableToFontFeatureTable();
     // public System.Void .ctor()
-    // Offset: 0x11170DC
+    // Offset: 0x10F1F58
     // Implemented from: TMPro.TMP_Asset
     // Base method: System.Void TMP_Asset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -551,7 +551,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontAsset*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1117270
+    // Offset: 0x10F20EC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -559,5 +559,563 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_FontAsset), 472 + sizeof(System::Collections::Generic::List_1<TMPro::TMP_Character*>*)> __TMPro_TMP_FontAssetSizeCheck;
   static_assert(sizeof(TMP_FontAsset) == 0x1E0);
+  // Writing MetadataGetter for method: TMP_FontAsset::get_version
+  // Il2CppName: get_version
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_version)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_version
+  // Il2CppName: set_version
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(::Il2CppString*)>(&TMP_FontAsset::set_version)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_sourceFontFile
+  // Il2CppName: get_sourceFontFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_sourceFontFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_sourceFontFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_sourceFontFile
+  // Il2CppName: set_sourceFontFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(UnityEngine::Font*)>(&TMP_FontAsset::set_sourceFontFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_sourceFontFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasPopulationMode
+  // Il2CppName: get_atlasPopulationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::AtlasPopulationMode (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasPopulationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasPopulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_atlasPopulationMode
+  // Il2CppName: set_atlasPopulationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(TMPro::AtlasPopulationMode)>(&TMP_FontAsset::set_atlasPopulationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_atlasPopulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::AtlasPopulationMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_faceInfo
+  // Il2CppName: get_faceInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::FaceInfo (TMP_FontAsset::*)()>(&TMP_FontAsset::get_faceInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_faceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_faceInfo
+  // Il2CppName: set_faceInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(UnityEngine::TextCore::FaceInfo)>(&TMP_FontAsset::set_faceInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_faceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::FaceInfo>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_glyphTable
+  // Il2CppName: get_glyphTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_glyphTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_glyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_glyphTable
+  // Il2CppName: set_glyphTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*)>(&TMP_FontAsset::set_glyphTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_glyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_glyphLookupTable
+  // Il2CppName: get_glyphLookupTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_glyphLookupTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_glyphLookupTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_characterTable
+  // Il2CppName: get_characterTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_Character*>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_characterTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_characterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_characterTable
+  // Il2CppName: set_characterTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_Character*>*)>(&TMP_FontAsset::set_characterTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_characterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_Character*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_characterLookupTable
+  // Il2CppName: get_characterLookupTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<uint, TMPro::TMP_Character*>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_characterLookupTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_characterLookupTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasTexture
+  // Il2CppName: get_atlasTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasTextures
+  // Il2CppName: get_atlasTextures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Texture2D*>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasTextures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_atlasTextures
+  // Il2CppName: set_atlasTextures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(::Array<UnityEngine::Texture2D*>*)>(&TMP_FontAsset::set_atlasTextures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Texture2D*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_usedGlyphRects
+  // Il2CppName: get_usedGlyphRects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_usedGlyphRects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_usedGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_usedGlyphRects
+  // Il2CppName: set_usedGlyphRects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&TMP_FontAsset::set_usedGlyphRects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_usedGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_freeGlyphRects
+  // Il2CppName: get_freeGlyphRects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_freeGlyphRects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_freeGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_freeGlyphRects
+  // Il2CppName: set_freeGlyphRects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&TMP_FontAsset::set_freeGlyphRects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_freeGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_fontInfo
+  // Il2CppName: get_fontInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FaceInfo_Legacy* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_fontInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_fontInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasWidth
+  // Il2CppName: get_atlasWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_atlasWidth
+  // Il2CppName: set_atlasWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(int)>(&TMP_FontAsset::set_atlasWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_atlasWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasHeight
+  // Il2CppName: get_atlasHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_atlasHeight
+  // Il2CppName: set_atlasHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(int)>(&TMP_FontAsset::set_atlasHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_atlasHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasPadding
+  // Il2CppName: get_atlasPadding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasPadding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_atlasPadding
+  // Il2CppName: set_atlasPadding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(int)>(&TMP_FontAsset::set_atlasPadding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_atlasPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_atlasRenderMode
+  // Il2CppName: get_atlasRenderMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphRenderMode (TMP_FontAsset::*)()>(&TMP_FontAsset::get_atlasRenderMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_atlasRenderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_atlasRenderMode
+  // Il2CppName: set_atlasRenderMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(UnityEngine::TextCore::LowLevel::GlyphRenderMode)>(&TMP_FontAsset::set_atlasRenderMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_atlasRenderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_fontFeatureTable
+  // Il2CppName: get_fontFeatureTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontFeatureTable* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_fontFeatureTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_fontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_fontFeatureTable
+  // Il2CppName: set_fontFeatureTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(TMPro::TMP_FontFeatureTable*)>(&TMP_FontAsset::set_fontFeatureTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_fontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontFeatureTable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_fallbackFontAssetTable
+  // Il2CppName: get_fallbackFontAssetTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_fallbackFontAssetTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_fallbackFontAssetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_fallbackFontAssetTable
+  // Il2CppName: set_fallbackFontAssetTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*)>(&TMP_FontAsset::set_fallbackFontAssetTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_fallbackFontAssetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_creationSettings
+  // Il2CppName: get_creationSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::FontAssetCreationSettings (TMP_FontAsset::*)()>(&TMP_FontAsset::get_creationSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_creationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_creationSettings
+  // Il2CppName: set_creationSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(TMPro::FontAssetCreationSettings)>(&TMP_FontAsset::set_creationSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_creationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontAssetCreationSettings>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::get_fontWeightTable
+  // Il2CppName: get_fontWeightTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<TMPro::TMP_FontWeightPair>* (TMP_FontAsset::*)()>(&TMP_FontAsset::get_fontWeightTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "get_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::set_fontWeightTable
+  // Il2CppName: set_fontWeightTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(::Array<TMPro::TMP_FontWeightPair>*)>(&TMP_FontAsset::set_fontWeightTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "set_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::TMP_FontWeightPair>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::CreateFontAsset
+  // Il2CppName: CreateFontAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(UnityEngine::Font*)>(&TMP_FontAsset::CreateFontAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::CreateFontAsset
+  // Il2CppName: CreateFontAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(UnityEngine::Font*, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, TMPro::AtlasPopulationMode)>(&TMP_FontAsset::CreateFontAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::AtlasPopulationMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::InitializeDictionaryLookupTables
+  // Il2CppName: InitializeDictionaryLookupTables
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::InitializeDictionaryLookupTables)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "InitializeDictionaryLookupTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::ReadFontAssetDefinition
+  // Il2CppName: ReadFontAssetDefinition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::ReadFontAssetDefinition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "ReadFontAssetDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::SortCharacterTable
+  // Il2CppName: SortCharacterTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::SortCharacterTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "SortCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::SortGlyphTable
+  // Il2CppName: SortGlyphTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::SortGlyphTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "SortGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::SortGlyphAndCharacterTables
+  // Il2CppName: SortGlyphAndCharacterTables
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::SortGlyphAndCharacterTables)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "SortGlyphAndCharacterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::HasCharacter
+  // Il2CppName: HasCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(int)>(&TMP_FontAsset::HasCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::HasCharacter
+  // Il2CppName: HasCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppChar)>(&TMP_FontAsset::HasCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::HasCharacter
+  // Il2CppName: HasCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppChar, bool)>(&TMP_FontAsset::HasCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::HasCharacter_Internal
+  // Il2CppName: HasCharacter_Internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppChar, bool)>(&TMP_FontAsset::HasCharacter_Internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "HasCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::HasCharacters
+  // Il2CppName: HasCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppString*, System::Collections::Generic::List_1<::Il2CppChar>*&)>(&TMP_FontAsset::HasCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppChar>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::HasCharacters
+  // Il2CppName: HasCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppString*)>(&TMP_FontAsset::HasCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::GetCharacters
+  // Il2CppName: GetCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(TMPro::TMP_FontAsset*)>(&TMP_FontAsset::GetCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::GetCharactersArray
+  // Il2CppName: GetCharactersArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(TMPro::TMP_FontAsset*)>(&TMP_FontAsset::GetCharactersArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "GetCharactersArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::TryAddCharacters
+  // Il2CppName: TryAddCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Array<uint>*)>(&TMP_FontAsset::TryAddCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::TryAddCharacters
+  // Il2CppName: TryAddCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Array<uint>*, ::Array<uint>*&)>(&TMP_FontAsset::TryAddCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::TryAddCharacters
+  // Il2CppName: TryAddCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppString*)>(&TMP_FontAsset::TryAddCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::TryAddCharacters
+  // Il2CppName: TryAddCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(::Il2CppString*, ::Il2CppString*&)>(&TMP_FontAsset::TryAddCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::TryAddCharacter_Internal
+  // Il2CppName: TryAddCharacter_Internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(uint)>(&TMP_FontAsset::TryAddCharacter_Internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "TryAddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::AddCharacter_Internal
+  // Il2CppName: AddCharacter_Internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Character* (TMP_FontAsset::*)(uint, UnityEngine::TextCore::Glyph*)>(&TMP_FontAsset::AddCharacter_Internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "AddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::TryAddCharacterInternal
+  // Il2CppName: TryAddCharacterInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_FontAsset::*)(uint, TMPro::TMP_Character*&)>(&TMP_FontAsset::TryAddCharacterInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "TryAddCharacterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::GetGlyphIndex
+  // Il2CppName: GetGlyphIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_FontAsset::*)(uint)>(&TMP_FontAsset::GetGlyphIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::UpdateAtlasTexture
+  // Il2CppName: UpdateAtlasTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::UpdateAtlasTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "UpdateAtlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::UpdateGlyphAdjustmentRecords
+  // Il2CppName: UpdateGlyphAdjustmentRecords
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(uint, uint)>(&TMP_FontAsset::UpdateGlyphAdjustmentRecords)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "UpdateGlyphAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::ClearFontAssetData
+  // Il2CppName: ClearFontAssetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)(bool)>(&TMP_FontAsset::ClearFontAssetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "ClearFontAssetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::UpgradeFontAsset
+  // Il2CppName: UpgradeFontAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::UpgradeFontAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "UpgradeFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::UpgradeGlyphAdjustmentTableToFontFeatureTable
+  // Il2CppName: UpgradeGlyphAdjustmentTableToFontFeatureTable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::UpgradeGlyphAdjustmentTableToFontFeatureTable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), "UpgradeGlyphAdjustmentTableToFontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_FontAsset::*)()>(&TMP_FontAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontAsset::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_FontAsset::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");

@@ -39,21 +39,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FullVRControllersRecorder* fullVRControllersRecorder;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FullVRControllersRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0xE281E0
+    // [InjectAttribute] Offset: 0xE28224
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE281F0
+    // [InjectAttribute] Offset: 0xE28234
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE28200
+    // [InjectAttribute] Offset: 0xE28244
     // private readonly PlayerVRControllersManager _playerVRControllersManager
     // Size: 0x8
     // Offset: 0x30
@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x11DCD0C
+    // Offset: 0x11F7660
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11DCDB0
+    // Offset: 0x11F7704
     void OnDestroy();
     // private System.Void HandleFullVRControllersRecorderDidSetControllerTransform(VRController controller)
-    // Offset: 0x11DCE8C
+    // Offset: 0x11F77E0
     void HandleFullVRControllersRecorderDidSetControllerTransform(GlobalNamespace::VRController* controller);
     // public System.Void .ctor()
-    // Offset: 0x11DCFA4
+    // Offset: 0x11F78F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,5 +90,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OverridePlayerTransformsFromFullVRControllersRecorder), 48 + sizeof(GlobalNamespace::PlayerVRControllersManager*)> __GlobalNamespace_OverridePlayerTransformsFromFullVRControllersRecorderSizeCheck;
   static_assert(sizeof(OverridePlayerTransformsFromFullVRControllersRecorder) == 0x38);
+  // Writing MetadataGetter for method: OverridePlayerTransformsFromFullVRControllersRecorder::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&OverridePlayerTransformsFromFullVRControllersRecorder::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OverridePlayerTransformsFromFullVRControllersRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OverridePlayerTransformsFromFullVRControllersRecorder::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&OverridePlayerTransformsFromFullVRControllersRecorder::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OverridePlayerTransformsFromFullVRControllersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OverridePlayerTransformsFromFullVRControllersRecorder::HandleFullVRControllersRecorderDidSetControllerTransform
+  // Il2CppName: HandleFullVRControllersRecorderDidSetControllerTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverridePlayerTransformsFromFullVRControllersRecorder::*)(GlobalNamespace::VRController*)>(&OverridePlayerTransformsFromFullVRControllersRecorder::HandleFullVRControllersRecorderDidSetControllerTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OverridePlayerTransformsFromFullVRControllersRecorder*), "HandleFullVRControllersRecorderDidSetControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::VRController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OverridePlayerTransformsFromFullVRControllersRecorder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&OverridePlayerTransformsFromFullVRControllersRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OverridePlayerTransformsFromFullVRControllersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&OverridePlayerTransformsFromFullVRControllersRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OverridePlayerTransformsFromFullVRControllersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*, "", "OverridePlayerTransformsFromFullVRControllersRecorder");

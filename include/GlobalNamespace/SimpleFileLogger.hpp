@@ -46,19 +46,19 @@ namespace GlobalNamespace {
     // Set static field: static private SimpleFileLogger/MonoLogger _monoLogger
     static void _set__monoLogger(GlobalNamespace::SimpleFileLogger::MonoLogger* value);
     // static private SimpleFileLogger/MonoLogger get_monoLogger()
-    // Offset: 0x2350C84
+    // Offset: 0x2389A84
     static GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
     // static public System.Void Log(System.String text)
-    // Offset: 0x2350D64
+    // Offset: 0x2389B64
     static void Log(::Il2CppString* text);
     // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
-    // Offset: 0x2350DF8
+    // Offset: 0x2389BF8
     static void LogVector(::Il2CppString* description, UnityEngine::Vector3 vec);
     // static public System.Void Clear()
-    // Offset: 0x2351068
+    // Offset: 0x2389E68
     static void Clear();
     // public System.Void .ctor()
-    // Offset: 0x23510F0
+    // Offset: 0x2389EF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,5 +68,51 @@ namespace GlobalNamespace {
     }
   }; // SimpleFileLogger
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SimpleFileLogger::get_monoLogger
+  // Il2CppName: get_monoLogger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SimpleFileLogger::MonoLogger* (*)()>(&SimpleFileLogger::get_monoLogger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger*), "get_monoLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleFileLogger::Log
+  // Il2CppName: Log
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&SimpleFileLogger::Log)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleFileLogger::LogVector
+  // Il2CppName: LogVector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Vector3)>(&SimpleFileLogger::LogVector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger*), "LogVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleFileLogger::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SimpleFileLogger::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleFileLogger::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::*)()>(&SimpleFileLogger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::*)()>(&SimpleFileLogger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger*, "", "SimpleFileLogger");

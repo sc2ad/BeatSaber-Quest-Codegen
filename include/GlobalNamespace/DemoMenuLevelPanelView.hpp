@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardsModel* localLeaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardsModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE26D0C
+    // [SpaceAttribute] Offset: 0xE26D50
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x20
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LocalLeaderboardTableView* localLeaderboardTableView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalLeaderboardTableView*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26D74
+    // [CompilerGeneratedAttribute] Offset: 0xE26DB8
     // private System.Action`1<DemoMenuLevelPanelView> playButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x40
@@ -107,25 +107,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfCells
     static void _set_kMaxNumberOfCells(int value);
     // public System.Void add_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x10B5AF0
+    // Offset: 0x1034268
     void add_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // public System.Void remove_playButtonWasPressedEvent(System.Action`1<DemoMenuLevelPanelView> value)
-    // Offset: 0x10B5B94
+    // Offset: 0x103430C
     void remove_playButtonWasPressedEvent(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>* value);
     // protected System.Void Start()
-    // Offset: 0x10B5C38
+    // Offset: 0x10343B0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10B5CD8
+    // Offset: 0x1034450
     void OnDestroy();
     // public System.Void Init(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x10B5CEC
+    // Offset: 0x1034464
     void Init(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void PlayButtonWasPressed()
-    // Offset: 0x10B5F28
+    // Offset: 0x10346A0
     void PlayButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x10B5F8C
+    // Offset: 0x1034704
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -141,5 +141,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DemoMenuLevelPanelView), 72 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_DemoMenuLevelPanelViewSizeCheck;
   static_assert(sizeof(DemoMenuLevelPanelView) == 0x50);
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::add_playButtonWasPressedEvent
+  // Il2CppName: add_playButtonWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*)>(&DemoMenuLevelPanelView::add_playButtonWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), "add_playButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::remove_playButtonWasPressedEvent
+  // Il2CppName: remove_playButtonWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)(System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*)>(&DemoMenuLevelPanelView::remove_playButtonWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), "remove_playButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DemoMenuLevelPanelView*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)()>(&DemoMenuLevelPanelView::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)()>(&DemoMenuLevelPanelView::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)(GlobalNamespace::IDifficultyBeatmap*)>(&DemoMenuLevelPanelView::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::PlayButtonWasPressed
+  // Il2CppName: PlayButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)()>(&DemoMenuLevelPanelView::PlayButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), "PlayButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DemoMenuLevelPanelView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)()>(&DemoMenuLevelPanelView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoMenuLevelPanelView::*)()>(&DemoMenuLevelPanelView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoMenuLevelPanelView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");

@@ -113,5 +113,91 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void SetWaitForCompletionCallback(System::Func_1<bool>* callback);
   }; // UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IGenericProviderOperation::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGenericProviderOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>)>(&IGenericProviderOperation::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>>()});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGenericProviderOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, bool)>(&IGenericProviderOperation::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::get_ProvideHandleVersion
+  // Il2CppName: get_ProvideHandleVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IGenericProviderOperation::*)()>(&IGenericProviderOperation::get_ProvideHandleVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "get_ProvideHandleVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::get_Location
+  // Il2CppName: get_Location
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (IGenericProviderOperation::*)()>(&IGenericProviderOperation::get_Location)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::get_DependencyCount
+  // Il2CppName: get_DependencyCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IGenericProviderOperation::*)()>(&IGenericProviderOperation::get_DependencyCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "get_DependencyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::GetDependencies
+  // Il2CppName: GetDependencies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGenericProviderOperation::*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&IGenericProviderOperation::GetDependencies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::GetDependency
+  // Il2CppName: GetDependency
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IGenericProviderOperation::SetProgressCallback
+  // Il2CppName: SetProgressCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGenericProviderOperation::*)(System::Func_1<float>*)>(&IGenericProviderOperation::SetProgressCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "SetProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::ProviderCompleted
+  // Il2CppName: ProviderCompleted
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IGenericProviderOperation::get_RequestedType
+  // Il2CppName: get_RequestedType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (IGenericProviderOperation::*)()>(&IGenericProviderOperation::get_RequestedType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "get_RequestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::SetDownloadProgressCallback
+  // Il2CppName: SetDownloadProgressCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGenericProviderOperation::*)(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*)>(&IGenericProviderOperation::SetDownloadProgressCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "SetDownloadProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IGenericProviderOperation::SetWaitForCompletionCallback
+  // Il2CppName: SetWaitForCompletionCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGenericProviderOperation::*)(System::Func_1<bool>*)>(&IGenericProviderOperation::SetWaitForCompletionCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IGenericProviderOperation*), "SetWaitForCompletionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IGenericProviderOperation");

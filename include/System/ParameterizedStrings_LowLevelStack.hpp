@@ -33,16 +33,16 @@ namespace System {
     // Creating value type constructor for type: LowLevelStack
     LowLevelStack(::Array<System::ParameterizedStrings::FormatParam>* arr_ = {}, int count_ = {}) noexcept : arr{arr_}, count{count_} {}
     // public System.ParameterizedStrings/FormatParam Pop()
-    // Offset: 0x1C56384
+    // Offset: 0x1C71094
     System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/FormatParam item)
-    // Offset: 0x1C56720
+    // Offset: 0x1C71430
     void Push(System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
-    // Offset: 0x1C55AA8
+    // Offset: 0x1C707B8
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x1C55A50
+    // Offset: 0x1C70760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,5 +54,43 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(ParameterizedStrings::LowLevelStack), 24 + sizeof(int)> __System_ParameterizedStrings_LowLevelStackSizeCheck;
   static_assert(sizeof(ParameterizedStrings::LowLevelStack) == 0x1C);
+  // Writing MetadataGetter for method: ParameterizedStrings::LowLevelStack::Pop
+  // Il2CppName: Pop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParameterizedStrings::FormatParam (ParameterizedStrings::LowLevelStack::*)()>(&ParameterizedStrings::LowLevelStack::Pop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::LowLevelStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterizedStrings::LowLevelStack::Push
+  // Il2CppName: Push
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::LowLevelStack::*)(System::ParameterizedStrings::FormatParam)>(&ParameterizedStrings::LowLevelStack::Push)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::LowLevelStack*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParameterizedStrings::FormatParam>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterizedStrings::LowLevelStack::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::LowLevelStack::*)()>(&ParameterizedStrings::LowLevelStack::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::LowLevelStack*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterizedStrings::LowLevelStack::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::LowLevelStack::*)()>(&ParameterizedStrings::LowLevelStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::LowLevelStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedStrings::LowLevelStack::*)()>(&ParameterizedStrings::LowLevelStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedStrings::LowLevelStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");

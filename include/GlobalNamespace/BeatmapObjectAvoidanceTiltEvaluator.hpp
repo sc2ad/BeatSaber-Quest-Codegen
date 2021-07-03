@@ -66,18 +66,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLookAheadTime
     static void _set_kLookAheadTime(float value);
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BezierSplineEvaluator bezierSplineEvaluator, UnityEngine.Vector2 gravity)
-    // Offset: 0x10799DC
+    // Offset: 0x1104338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, UnityEngine::Vector2 gravity) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator*, creationType>(audioTimeSource, bezierSplineEvaluator, gravity)));
     }
     // public System.Single GetTiltAngle()
-    // Offset: 0x1079A40
+    // Offset: 0x110439C
     float GetTiltAngle();
   }; // BeatmapObjectAvoidanceTiltEvaluator
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectAvoidanceTiltEvaluator), 48 + sizeof(float)> __GlobalNamespace_BeatmapObjectAvoidanceTiltEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidanceTiltEvaluator) == 0x34);
+  // Writing MetadataGetter for method: BeatmapObjectAvoidanceTiltEvaluator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectAvoidanceTiltEvaluator::*)(GlobalNamespace::IAudioTimeSource*, GlobalNamespace::BezierSplineEvaluator*, UnityEngine::Vector2)>(&BeatmapObjectAvoidanceTiltEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectAvoidanceTiltEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAudioTimeSource*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSplineEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectAvoidanceTiltEvaluator::*)(GlobalNamespace::IAudioTimeSource*, GlobalNamespace::BezierSplineEvaluator*, UnityEngine::Vector2)>(&BeatmapObjectAvoidanceTiltEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectAvoidanceTiltEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAudioTimeSource*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSplineEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngle
+  // Il2CppName: GetTiltAngle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectAvoidanceTiltEvaluator::*)()>(&BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectAvoidanceTiltEvaluator*), "GetTiltAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, "", "BeatmapObjectAvoidanceTiltEvaluator");

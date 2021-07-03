@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: ConnectFaceRebuildData
     ConnectFaceRebuildData(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData_ = {}, System::Collections::Generic::List_1<int>* newVertexIndexes_ = {}) noexcept : faceRebuildData{faceRebuildData_}, newVertexIndexes{newVertexIndexes_} {}
     // public System.Void .ctor(UnityEngine.ProBuilder.FaceRebuildData faceRebuildData, System.Collections.Generic.List`1<System.Int32> newVertexIndexes)
-    // Offset: 0x1531A74
+    // Offset: 0x154C784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectFaceRebuildData* New_ctor(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, System::Collections::Generic::List_1<int>* newVertexIndexes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::.ctor");
@@ -54,5 +54,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
   static check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
   static_assert(sizeof(ConnectFaceRebuildData) == 0x20);
+  // Writing MetadataGetter for method: ConnectFaceRebuildData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectFaceRebuildData::*)(UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*)>(&ConnectFaceRebuildData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectFaceRebuildData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectFaceRebuildData::*)(UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*)>(&ConnectFaceRebuildData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectFaceRebuildData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");

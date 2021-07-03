@@ -60,22 +60,22 @@ namespace NUnit::Framework::Internal::Builders {
       return nunitTestCaseBuilder;
     }
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method)
-    // Offset: 0x171A06C
+    // Offset: 0x1731D7C
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method);
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x171A1CC
+    // Offset: 0x1731EDC
     bool CanBuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite);
     // public NUnit.Framework.Internal.Test BuildFrom(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x171A1D0
+    // Offset: 0x1731EE0
     NUnit::Framework::Internal::Test* BuildFrom(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite);
     // private NUnit.Framework.Internal.Test BuildParameterizedMethodSuite(NUnit.Framework.Interfaces.IMethodInfo method, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestMethod> tests)
-    // Offset: 0x171A9D4
+    // Offset: 0x17326E4
     NUnit::Framework::Internal::Test* BuildParameterizedMethodSuite(NUnit::Framework::Interfaces::IMethodInfo* method, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>* tests);
     // private NUnit.Framework.Internal.Test BuildSingleTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test suite)
-    // Offset: 0x171A848
+    // Offset: 0x1732558
     NUnit::Framework::Internal::Test* BuildSingleTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* suite);
     // public System.Void .ctor()
-    // Offset: 0x171ACD8
+    // Offset: 0x17329E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,59 @@ namespace NUnit::Framework::Internal::Builders {
   #pragma pack(pop)
   static check_size<sizeof(DefaultTestCaseBuilder), 16 + sizeof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*)> __NUnit_Framework_Internal_Builders_DefaultTestCaseBuilderSizeCheck;
   static_assert(sizeof(DefaultTestCaseBuilder) == 0x18);
+  // Writing MetadataGetter for method: DefaultTestCaseBuilder::CanBuildFrom
+  // Il2CppName: CanBuildFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&DefaultTestCaseBuilder::CanBuildFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultTestCaseBuilder::CanBuildFrom
+  // Il2CppName: CanBuildFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&DefaultTestCaseBuilder::CanBuildFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultTestCaseBuilder::BuildFrom
+  // Il2CppName: BuildFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&DefaultTestCaseBuilder::BuildFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultTestCaseBuilder::BuildParameterizedMethodSuite
+  // Il2CppName: BuildParameterizedMethodSuite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>*)>(&DefaultTestCaseBuilder::BuildParameterizedMethodSuite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), "BuildParameterizedMethodSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultTestCaseBuilder::BuildSingleTestMethod
+  // Il2CppName: BuildSingleTestMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&DefaultTestCaseBuilder::BuildSingleTestMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), "BuildSingleTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultTestCaseBuilder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTestCaseBuilder::*)()>(&DefaultTestCaseBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTestCaseBuilder::*)()>(&DefaultTestCaseBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultTestCaseBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "DefaultTestCaseBuilder");

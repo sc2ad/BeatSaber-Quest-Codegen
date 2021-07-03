@@ -52,29 +52,29 @@ namespace System::Text {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1CD90D8
+    // Offset: 0x1CF5DE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalDecoderBestFitFallback* New_ctor(System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::InternalDecoderBestFitFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalDecoderBestFitFallback*, creationType>(encoding)));
     }
     // public override System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x1CDF11C
+    // Offset: 0x1CFBE2C
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Text.DecoderFallbackBuffer DecoderFallback::CreateFallbackBuffer()
     System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x1CDF270
+    // Offset: 0x1CFBF80
     // Implemented from: System.Text.DecoderFallback
     // Base method: System.Int32 DecoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
     // public override System.Boolean Equals(System.Object value)
-    // Offset: 0x1CDF278
+    // Offset: 0x1CFBF88
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object value)
     bool Equals(::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1CDF330
+    // Offset: 0x1CFC040
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -82,5 +82,51 @@ namespace System::Text {
   #pragma pack(pop)
   static check_size<sizeof(InternalDecoderBestFitFallback), 40 + sizeof(::Il2CppChar)> __System_Text_InternalDecoderBestFitFallbackSizeCheck;
   static_assert(sizeof(InternalDecoderBestFitFallback) == 0x2A);
+  // Writing MetadataGetter for method: InternalDecoderBestFitFallback::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallback::*)(System::Text::Encoding*)>(&InternalDecoderBestFitFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalDecoderBestFitFallback::*)(System::Text::Encoding*)>(&InternalDecoderBestFitFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternalDecoderBestFitFallback::CreateFallbackBuffer
+  // Il2CppName: CreateFallbackBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::DecoderFallbackBuffer* (InternalDecoderBestFitFallback::*)()>(&InternalDecoderBestFitFallback::CreateFallbackBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InternalDecoderBestFitFallback::get_MaxCharCount
+  // Il2CppName: get_MaxCharCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalDecoderBestFitFallback::*)()>(&InternalDecoderBestFitFallback::get_MaxCharCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InternalDecoderBestFitFallback::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalDecoderBestFitFallback::*)(::Il2CppObject*)>(&InternalDecoderBestFitFallback::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternalDecoderBestFitFallback::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalDecoderBestFitFallback::*)()>(&InternalDecoderBestFitFallback::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalDecoderBestFitFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallback*, "System.Text", "InternalDecoderBestFitFallback");

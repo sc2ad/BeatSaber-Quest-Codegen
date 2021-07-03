@@ -23,10 +23,18 @@ namespace System::Reflection::Emit {
     // Creating value type constructor for type: TypeBuilderInstantiation
     TypeBuilderInstantiation() noexcept {}
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
-    // Offset: 0x1C5F8B8
+    // Offset: 0x1C7A5C8
     static System::Type* MakeGenericType(System::Type* type, ::Array<System::Type*>* typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TypeBuilderInstantiation::MakeGenericType
+  // Il2CppName: MakeGenericType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::Array<System::Type*>*)>(&TypeBuilderInstantiation::MakeGenericType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeBuilderInstantiation*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "System.Reflection.Emit", "TypeBuilderInstantiation");

@@ -39,30 +39,30 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: MeshImportSettings
     MeshImportSettings(bool m_Quads_ = {}, bool m_Smoothing_ = {}, float m_SmoothingThreshold_ = {}) noexcept : m_Quads{m_Quads_}, m_Smoothing{m_Smoothing_}, m_SmoothingThreshold{m_SmoothingThreshold_} {}
     // public System.Boolean get_quads()
-    // Offset: 0x16F206C
+    // Offset: 0x1708D7C
     bool get_quads();
     // public System.Void set_quads(System.Boolean value)
-    // Offset: 0x16F2074
+    // Offset: 0x1708D84
     void set_quads(bool value);
     // public System.Boolean get_smoothing()
-    // Offset: 0x16F2080
+    // Offset: 0x1708D90
     bool get_smoothing();
     // public System.Void set_smoothing(System.Boolean value)
-    // Offset: 0x16F2088
+    // Offset: 0x1708D98
     void set_smoothing(bool value);
     // public System.Single get_smoothingAngle()
-    // Offset: 0x16F2094
+    // Offset: 0x1708DA4
     float get_smoothingAngle();
     // public System.Void set_smoothingAngle(System.Single value)
-    // Offset: 0x16F209C
+    // Offset: 0x1708DAC
     void set_smoothingAngle(float value);
     // public override System.String ToString()
-    // Offset: 0x16F20A4
+    // Offset: 0x1708DB4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // public System.Void .ctor()
-    // Offset: 0x16F216C
+    // Offset: 0x1708E7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,5 +74,75 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
   static check_size<sizeof(MeshImportSettings), 20 + sizeof(float)> __UnityEngine_ProBuilder_MeshOperations_MeshImportSettingsSizeCheck;
   static_assert(sizeof(MeshImportSettings) == 0x18);
+  // Writing MetadataGetter for method: MeshImportSettings::get_quads
+  // Il2CppName: get_quads
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshImportSettings::*)()>(&MeshImportSettings::get_quads)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "get_quads", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::set_quads
+  // Il2CppName: set_quads
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshImportSettings::*)(bool)>(&MeshImportSettings::set_quads)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "set_quads", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::get_smoothing
+  // Il2CppName: get_smoothing
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MeshImportSettings::*)()>(&MeshImportSettings::get_smoothing)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "get_smoothing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::set_smoothing
+  // Il2CppName: set_smoothing
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshImportSettings::*)(bool)>(&MeshImportSettings::set_smoothing)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "set_smoothing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::get_smoothingAngle
+  // Il2CppName: get_smoothingAngle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MeshImportSettings::*)()>(&MeshImportSettings::get_smoothingAngle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "get_smoothingAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::set_smoothingAngle
+  // Il2CppName: set_smoothingAngle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshImportSettings::*)(float)>(&MeshImportSettings::set_smoothingAngle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "set_smoothingAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MeshImportSettings::*)()>(&MeshImportSettings::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MeshImportSettings::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshImportSettings::*)()>(&MeshImportSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshImportSettings::*)()>(&MeshImportSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshImportSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");

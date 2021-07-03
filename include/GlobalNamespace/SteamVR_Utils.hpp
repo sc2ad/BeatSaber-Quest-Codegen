@@ -39,52 +39,52 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SteamVR_Utils
     SteamVR_Utils() noexcept {}
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion A, UnityEngine.Quaternion B, System.Single t)
-    // Offset: 0x16AFF34
+    // Offset: 0x16C6C44
     static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion A, UnityEngine::Quaternion B, float t);
     // static public UnityEngine.Vector3 Lerp(UnityEngine.Vector3 A, UnityEngine.Vector3 B, System.Single t)
-    // Offset: 0x16B00FC
+    // Offset: 0x16C6E0C
     static UnityEngine::Vector3 Lerp(UnityEngine::Vector3 A, UnityEngine::Vector3 B, float t);
     // static public System.Single Lerp(System.Single A, System.Single B, System.Single t)
-    // Offset: 0x16B0154
+    // Offset: 0x16C6E64
     static float Lerp(float A, float B, float t);
     // static public System.Double Lerp(System.Double A, System.Double B, System.Double t)
-    // Offset: 0x16B0164
+    // Offset: 0x16C6E74
     static double Lerp(double A, double B, double t);
     // static public System.Single InverseLerp(UnityEngine.Vector3 A, UnityEngine.Vector3 B, UnityEngine.Vector3 result)
-    // Offset: 0x16B0174
+    // Offset: 0x16C6E84
     static float InverseLerp(UnityEngine::Vector3 A, UnityEngine::Vector3 B, UnityEngine::Vector3 result);
     // static public System.Single InverseLerp(System.Single A, System.Single B, System.Single result)
-    // Offset: 0x16B0278
+    // Offset: 0x16C6F88
     static float InverseLerp(float A, float B, float result);
     // static public System.Double InverseLerp(System.Double A, System.Double B, System.Double result)
-    // Offset: 0x16B0288
+    // Offset: 0x16C6F98
     static double InverseLerp(double A, double B, double result);
     // static public System.Single Saturate(System.Single A)
-    // Offset: 0x16B0298
+    // Offset: 0x16C6FA8
     static float Saturate(float A);
     // static public UnityEngine.Vector2 Saturate(UnityEngine.Vector2 A)
-    // Offset: 0x16B02B4
+    // Offset: 0x16C6FC4
     static UnityEngine::Vector2 Saturate(UnityEngine::Vector2 A);
     // static public System.Single Abs(System.Single A)
-    // Offset: 0x16B0300
+    // Offset: 0x16C7010
     static float Abs(float A);
     // static public UnityEngine.Vector2 Abs(UnityEngine.Vector2 A)
-    // Offset: 0x16B0310
+    // Offset: 0x16C7020
     static UnityEngine::Vector2 Abs(UnityEngine::Vector2 A);
     // static private System.Single _copysign(System.Single sizeval, System.Single signval)
-    // Offset: 0x16B0354
+    // Offset: 0x16C7064
     static float _copysign(float sizeval, float signval);
     // static public UnityEngine.Quaternion GetRotation(UnityEngine.Matrix4x4 matrix)
-    // Offset: 0x16B0410
+    // Offset: 0x16C7120
     static UnityEngine::Quaternion GetRotation(UnityEngine::Matrix4x4 matrix);
     // static public UnityEngine.Vector3 GetPosition(UnityEngine.Matrix4x4 matrix)
-    // Offset: 0x16B05DC
+    // Offset: 0x16C72EC
     static UnityEngine::Vector3 GetPosition(UnityEngine::Matrix4x4 matrix);
     // static public UnityEngine.Vector3 GetScale(UnityEngine.Matrix4x4 m)
-    // Offset: 0x16B0618
+    // Offset: 0x16C7328
     static UnityEngine::Vector3 GetScale(UnityEngine::Matrix4x4 m);
     // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
-    // Offset: 0x16B0750
+    // Offset: 0x16C7460
     static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
     static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, std::initializer_list<::Il2CppObject*> args);
@@ -94,10 +94,146 @@ namespace GlobalNamespace {
       return CallSystemFn(fn, {args...});
     }
     // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, ref System.String previewFilename, ref System.String VRFilename)
-    // Offset: 0x16B0CA4
+    // Offset: 0x16C79B4
     static void TakeStereoScreenshot(uint screenshotHandle, UnityEngine::GameObject* target, int cellSize, float ipd, ::Il2CppString*& previewFilename, ::Il2CppString*& VRFilename);
   }; // SteamVR_Utils
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SteamVR_Utils::Slerp
+  // Il2CppName: Slerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&SteamVR_Utils::Slerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Slerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Lerp
+  // Il2CppName: Lerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&SteamVR_Utils::Lerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Lerp
+  // Il2CppName: Lerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&SteamVR_Utils::Lerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Lerp
+  // Il2CppName: Lerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&SteamVR_Utils::Lerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::InverseLerp
+  // Il2CppName: InverseLerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&SteamVR_Utils::InverseLerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::InverseLerp
+  // Il2CppName: InverseLerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&SteamVR_Utils::InverseLerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::InverseLerp
+  // Il2CppName: InverseLerp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&SteamVR_Utils::InverseLerp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Saturate
+  // Il2CppName: Saturate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&SteamVR_Utils::Saturate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Saturate
+  // Il2CppName: Saturate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&SteamVR_Utils::Saturate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&SteamVR_Utils::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&SteamVR_Utils::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::_copysign
+  // Il2CppName: _copysign
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&SteamVR_Utils::_copysign)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "_copysign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::GetRotation
+  // Il2CppName: GetRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Matrix4x4)>(&SteamVR_Utils::GetRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::GetPosition
+  // Il2CppName: GetPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&SteamVR_Utils::GetPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "GetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::GetScale
+  // Il2CppName: GetScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&SteamVR_Utils::GetScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "GetScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::CallSystemFn
+  // Il2CppName: CallSystemFn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(GlobalNamespace::SteamVR_Utils::SystemFn*, ::Array<::Il2CppObject*>*)>(&SteamVR_Utils::CallSystemFn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "CallSystemFn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::SystemFn*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Utils::TakeStereoScreenshot
+  // Il2CppName: TakeStereoScreenshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, UnityEngine::GameObject*, int, float, ::Il2CppString*&, ::Il2CppString*&)>(&SteamVR_Utils::TakeStereoScreenshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "TakeStereoScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils*, "", "SteamVR_Utils");

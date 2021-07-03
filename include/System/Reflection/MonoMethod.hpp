@@ -86,34 +86,34 @@ namespace System::Reflection {
     // Creating value type constructor for type: MonoMethod
     MonoMethod(System::IntPtr mhandle_ = {}, ::Il2CppString* name_ = {}, System::Type* reftype_ = {}) noexcept : mhandle{mhandle_}, name{name_}, reftype{reftype_} {}
     // static System.String get_name(System.Reflection.MethodBase method)
-    // Offset: 0x1C64034
+    // Offset: 0x1C7ED44
     static ::Il2CppString* get_name(System::Reflection::MethodBase* method);
     // static System.Reflection.MonoMethod get_base_method(System.Reflection.MonoMethod method, System.Boolean definition)
-    // Offset: 0x1C65050
+    // Offset: 0x1C7FD60
     static System::Reflection::MonoMethod* get_base_method(System::Reflection::MonoMethod* method, bool definition);
     // System.Object InternalInvoke(System.Object obj, System.Object[] parameters, out System.Exception exc)
-    // Offset: 0x1C651C0
+    // Offset: 0x1C7FED0
     ::Il2CppObject* InternalInvoke(::Il2CppObject* obj, ::Array<::Il2CppObject*>* parameters, System::Exception*& exc);
     // static System.Void ConvertValues(System.Reflection.Binder binder, System.Object[] args, System.Reflection.ParameterInfo[] pinfo, System.Globalization.CultureInfo culture, System.Reflection.BindingFlags invokeAttr)
-    // Offset: 0x1C63ADC
+    // Offset: 0x1C7E7EC
     static void ConvertValues(System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* args, ::Array<System::Reflection::ParameterInfo*>* pinfo, System::Globalization::CultureInfo* culture, System::Reflection::BindingFlags invokeAttr);
     // System.Void GetPInvoke(out System.Reflection.PInvokeAttributes flags, out System.String entryPoint, out System.String dllName)
-    // Offset: 0x1C6560C
+    // Offset: 0x1C8031C
     void GetPInvoke(System::Reflection::PInvokeAttributes& flags, ::Il2CppString*& entryPoint, ::Il2CppString*& dllName);
     // System.Object[] GetPseudoCustomAttributes()
-    // Offset: 0x1C65610
+    // Offset: 0x1C80320
     ::Array<::Il2CppObject*>* GetPseudoCustomAttributes();
     // private System.Reflection.MethodInfo MakeGenericMethod_impl(System.Type[] types)
-    // Offset: 0x1C65B08
+    // Offset: 0x1C80818
     System::Reflection::MethodInfo* MakeGenericMethod_impl(::Array<System::Type*>* types);
     // private System.Reflection.MethodInfo GetGenericMethodDefinition_impl()
-    // Offset: 0x1C65B10
+    // Offset: 0x1C80820
     System::Reflection::MethodInfo* GetGenericMethodDefinition_impl();
     // static private System.Int32 get_core_clr_security_level()
-    // Offset: 0x1C65CA8
+    // Offset: 0x1C809B8
     static int get_core_clr_security_level();
     // System.Void .ctor()
-    // Offset: 0x1C65048
+    // Offset: 0x1C7FD58
     // Implemented from: System.Reflection.RuntimeMethodInfo
     // Base method: System.Void RuntimeMethodInfo::.ctor()
     // Base method: System.Void MethodInfo::.ctor()
@@ -126,92 +126,92 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethod*, creationType>()));
     }
     // public override System.Reflection.MethodInfo GetBaseDefinition()
-    // Offset: 0x1C65058
+    // Offset: 0x1C7FD68
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetBaseDefinition()
     System::Reflection::MethodInfo* GetBaseDefinition();
     // override System.Reflection.MethodInfo GetBaseMethod()
-    // Offset: 0x1C65060
+    // Offset: 0x1C7FD70
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetBaseMethod()
     System::Reflection::MethodInfo* GetBaseMethod();
     // public override System.Type get_ReturnType()
-    // Offset: 0x1C65068
+    // Offset: 0x1C7FD78
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Type MethodInfo::get_ReturnType()
     System::Type* get_ReturnType();
     // public override System.Reflection.MethodImplAttributes GetMethodImplementationFlags()
-    // Offset: 0x1C650C4
+    // Offset: 0x1C7FDD4
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodImplAttributes MethodBase::GetMethodImplementationFlags()
     System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
     // public override System.Reflection.ParameterInfo[] GetParameters()
-    // Offset: 0x1C650F4
+    // Offset: 0x1C7FE04
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParameters()
     ::Array<System::Reflection::ParameterInfo*>* GetParameters();
     // override System.Reflection.ParameterInfo[] GetParametersInternal()
-    // Offset: 0x1C6518C
+    // Offset: 0x1C7FE9C
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParametersInternal()
     ::Array<System::Reflection::ParameterInfo*>* GetParametersInternal();
     // override System.Int32 GetParametersCount()
-    // Offset: 0x1C65198
+    // Offset: 0x1C7FEA8
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Int32 MethodBase::GetParametersCount()
     int GetParametersCount();
     // public override System.Object Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    // Offset: 0x1C651C4
+    // Offset: 0x1C7FED4
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Object MethodBase::Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::Array<::Il2CppObject*>* parameters, System::Globalization::CultureInfo* culture);
     // public override System.RuntimeMethodHandle get_MethodHandle()
-    // Offset: 0x1C653F4
+    // Offset: 0x1C80104
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.RuntimeMethodHandle MethodBase::get_MethodHandle()
     System::RuntimeMethodHandle get_MethodHandle();
     // public override System.Reflection.MethodAttributes get_Attributes()
-    // Offset: 0x1C653FC
+    // Offset: 0x1C8010C
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.MethodAttributes MethodBase::get_Attributes()
     System::Reflection::MethodAttributes get_Attributes();
     // public override System.Reflection.CallingConventions get_CallingConvention()
-    // Offset: 0x1C65404
+    // Offset: 0x1C80114
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.CallingConventions MethodBase::get_CallingConvention()
     System::Reflection::CallingConventions get_CallingConvention();
     // public override System.Type get_ReflectedType()
-    // Offset: 0x1C65434
+    // Offset: 0x1C80144
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_ReflectedType()
     System::Type* get_ReflectedType();
     // public override System.Type get_DeclaringType()
-    // Offset: 0x1C6543C
+    // Offset: 0x1C8014C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Type MemberInfo::get_DeclaringType()
     System::Type* get_DeclaringType();
     // public override System.String get_Name()
-    // Offset: 0x1C6546C
+    // Offset: 0x1C8017C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1C65494
+    // Offset: 0x1C801A4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Boolean MemberInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
     bool IsDefined(System::Type* attributeType, bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
-    // Offset: 0x1C65514
+    // Offset: 0x1C80224
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1C6558C
+    // Offset: 0x1C8029C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     ::Array<::Il2CppObject*>* GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] methodInstantiation)
-    // Offset: 0x1C657C8
+    // Offset: 0x1C804D8
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::MakeGenericMethod(params System.Type[] methodInstantiation)
     System::Reflection::MethodInfo* MakeGenericMethod(::Array<System::Type*>* methodInstantiation);
@@ -223,37 +223,37 @@ namespace System::Reflection {
       return MakeGenericMethod({methodInstantiation...});
     }
     // public override System.Type[] GetGenericArguments()
-    // Offset: 0x1C65B0C
+    // Offset: 0x1C8081C
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Type[] MethodInfo::GetGenericArguments()
     ::Array<System::Type*>* GetGenericArguments();
     // public override System.Reflection.MethodInfo GetGenericMethodDefinition()
-    // Offset: 0x1C65B14
+    // Offset: 0x1C80824
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Reflection.MethodInfo MethodInfo::GetGenericMethodDefinition()
     System::Reflection::MethodInfo* GetGenericMethodDefinition();
     // public override System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x1C65BBC
+    // Offset: 0x1C808CC
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_IsGenericMethodDefinition()
     bool get_IsGenericMethodDefinition();
     // public override System.Boolean get_IsGenericMethod()
-    // Offset: 0x1C65BC0
+    // Offset: 0x1C808D0
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_IsGenericMethod()
     bool get_IsGenericMethod();
     // public override System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x1C65BC4
+    // Offset: 0x1C808D4
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_ContainsGenericParameters()
     bool get_ContainsGenericParameters();
     // public override System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData()
-    // Offset: 0x1C65CA4
+    // Offset: 0x1C809B4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> MemberInfo::GetCustomAttributesData()
     System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData();
     // public override System.Boolean get_IsSecurityCritical()
-    // Offset: 0x1C65CB0
+    // Offset: 0x1C809C0
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Boolean MethodBase::get_IsSecurityCritical()
     bool get_IsSecurityCritical();
@@ -261,5 +261,291 @@ namespace System::Reflection {
   #pragma pack(pop)
   static check_size<sizeof(MonoMethod), 32 + sizeof(System::Type*)> __System_Reflection_MonoMethodSizeCheck;
   static_assert(sizeof(MonoMethod) == 0x28);
+  // Writing MetadataGetter for method: MonoMethod::get_name
+  // Il2CppName: get_name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&MonoMethod::get_name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_base_method
+  // Il2CppName: get_base_method
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MonoMethod* (*)(System::Reflection::MonoMethod*, bool)>(&MonoMethod::get_base_method)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_base_method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoMethod*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::InternalInvoke
+  // Il2CppName: InternalInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MonoMethod::*)(::Il2CppObject*, ::Array<::Il2CppObject*>*, System::Exception*&)>(&MonoMethod::InternalInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "InternalInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::ConvertValues
+  // Il2CppName: ConvertValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Binder*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterInfo*>*, System::Globalization::CultureInfo*, System::Reflection::BindingFlags)>(&MonoMethod::ConvertValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "ConvertValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetPInvoke
+  // Il2CppName: GetPInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoMethod::*)(System::Reflection::PInvokeAttributes&, ::Il2CppString*&, ::Il2CppString*&)>(&MonoMethod::GetPInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetPInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::PInvokeAttributes&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetPseudoCustomAttributes
+  // Il2CppName: GetPseudoCustomAttributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (MonoMethod::*)()>(&MonoMethod::GetPseudoCustomAttributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::MakeGenericMethod_impl
+  // Il2CppName: MakeGenericMethod_impl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MonoMethod::*)(::Array<System::Type*>*)>(&MonoMethod::MakeGenericMethod_impl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "MakeGenericMethod_impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetGenericMethodDefinition_impl
+  // Il2CppName: GetGenericMethodDefinition_impl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MonoMethod::*)()>(&MonoMethod::GetGenericMethodDefinition_impl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetGenericMethodDefinition_impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_core_clr_security_level
+  // Il2CppName: get_core_clr_security_level
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&MonoMethod::get_core_clr_security_level)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_core_clr_security_level", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoMethod::*)()>(&MonoMethod::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoMethod::*)()>(&MonoMethod::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetBaseDefinition
+  // Il2CppName: GetBaseDefinition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MonoMethod::*)()>(&MonoMethod::GetBaseDefinition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetBaseDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetBaseMethod
+  // Il2CppName: GetBaseMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MonoMethod::*)()>(&MonoMethod::GetBaseMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetBaseMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_ReturnType
+  // Il2CppName: get_ReturnType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (MonoMethod::*)()>(&MonoMethod::get_ReturnType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_ReturnType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetMethodImplementationFlags
+  // Il2CppName: GetMethodImplementationFlags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodImplAttributes (MonoMethod::*)()>(&MonoMethod::GetMethodImplementationFlags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetMethodImplementationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetParameters
+  // Il2CppName: GetParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ParameterInfo*>* (MonoMethod::*)()>(&MonoMethod::GetParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetParametersInternal
+  // Il2CppName: GetParametersInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ParameterInfo*>* (MonoMethod::*)()>(&MonoMethod::GetParametersInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetParametersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetParametersCount
+  // Il2CppName: GetParametersCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MonoMethod::*)()>(&MonoMethod::GetParametersCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetParametersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MonoMethod::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Array<::Il2CppObject*>*, System::Globalization::CultureInfo*)>(&MonoMethod::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_MethodHandle
+  // Il2CppName: get_MethodHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeMethodHandle (MonoMethod::*)()>(&MonoMethod::get_MethodHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_MethodHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_Attributes
+  // Il2CppName: get_Attributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodAttributes (MonoMethod::*)()>(&MonoMethod::get_Attributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_CallingConvention
+  // Il2CppName: get_CallingConvention
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::CallingConventions (MonoMethod::*)()>(&MonoMethod::get_CallingConvention)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_CallingConvention", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_ReflectedType
+  // Il2CppName: get_ReflectedType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (MonoMethod::*)()>(&MonoMethod::get_ReflectedType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_ReflectedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_DeclaringType
+  // Il2CppName: get_DeclaringType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (MonoMethod::*)()>(&MonoMethod::get_DeclaringType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MonoMethod::*)()>(&MonoMethod::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::IsDefined
+  // Il2CppName: IsDefined
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoMethod::*)(System::Type*, bool)>(&MonoMethod::IsDefined)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetCustomAttributes
+  // Il2CppName: GetCustomAttributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (MonoMethod::*)(bool)>(&MonoMethod::GetCustomAttributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetCustomAttributes
+  // Il2CppName: GetCustomAttributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (MonoMethod::*)(System::Type*, bool)>(&MonoMethod::GetCustomAttributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::MakeGenericMethod
+  // Il2CppName: MakeGenericMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MonoMethod::*)(::Array<System::Type*>*)>(&MonoMethod::MakeGenericMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "MakeGenericMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetGenericArguments
+  // Il2CppName: GetGenericArguments
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (MonoMethod::*)()>(&MonoMethod::GetGenericArguments)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetGenericMethodDefinition
+  // Il2CppName: GetGenericMethodDefinition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (MonoMethod::*)()>(&MonoMethod::GetGenericMethodDefinition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetGenericMethodDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_IsGenericMethodDefinition
+  // Il2CppName: get_IsGenericMethodDefinition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoMethod::*)()>(&MonoMethod::get_IsGenericMethodDefinition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_IsGenericMethodDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_IsGenericMethod
+  // Il2CppName: get_IsGenericMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoMethod::*)()>(&MonoMethod::get_IsGenericMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_IsGenericMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_ContainsGenericParameters
+  // Il2CppName: get_ContainsGenericParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoMethod::*)()>(&MonoMethod::get_ContainsGenericParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::GetCustomAttributesData
+  // Il2CppName: GetCustomAttributesData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (MonoMethod::*)()>(&MonoMethod::GetCustomAttributesData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "GetCustomAttributesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoMethod::get_IsSecurityCritical
+  // Il2CppName: get_IsSecurityCritical
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoMethod::*)()>(&MonoMethod::get_IsSecurityCritical)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoMethod*), "get_IsSecurityCritical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethod*, "System.Reflection", "MonoMethod");

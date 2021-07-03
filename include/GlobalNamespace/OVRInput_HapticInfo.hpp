@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HapticInfo
     HapticInfo(bool playingHaptics_ = {}, float hapticsDurationPlayed_ = {}, float hapticsDuration_ = {}, float hapticAmplitude_ = {}, UnityEngine::XR::XRNode node_ = {}) noexcept : playingHaptics{playingHaptics_}, hapticsDurationPlayed{hapticsDurationPlayed_}, hapticsDuration{hapticsDuration_}, hapticAmplitude{hapticAmplitude_}, node{node_} {}
     // public System.Void .ctor()
-    // Offset: 0x14FE4EC
+    // Offset: 0x15191FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,5 +67,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::HapticInfo), 32 + sizeof(UnityEngine::XR::XRNode)> __GlobalNamespace_OVRInput_HapticInfoSizeCheck;
   static_assert(sizeof(OVRInput::HapticInfo) == 0x24);
+  // Writing MetadataGetter for method: OVRInput::HapticInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::HapticInfo::*)()>(&OVRInput::HapticInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::HapticInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::HapticInfo::*)()>(&OVRInput::HapticInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::HapticInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::HapticInfo*, "", "OVRInput/HapticInfo");

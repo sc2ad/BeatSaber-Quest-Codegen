@@ -28,7 +28,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: InvalidSignatureException
     InvalidSignatureException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x14A30C0
+    // Offset: 0x14BDDD0
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: System.Void ResultStateException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
@@ -38,11 +38,33 @@ namespace UnityEngine::TestTools::TestRunner {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidSignatureException*, creationType>(message)));
     }
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x14A30C8
+    // Offset: 0x14BDDD8
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
   }; // UnityEngine.TestTools.TestRunner.InvalidSignatureException
   #pragma pack(pop)
+  // Writing MetadataGetter for method: InvalidSignatureException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InvalidSignatureException::*)(::Il2CppString*)>(&InvalidSignatureException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InvalidSignatureException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InvalidSignatureException::*)(::Il2CppString*)>(&InvalidSignatureException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InvalidSignatureException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InvalidSignatureException::get_ResultState
+  // Il2CppName: get_ResultState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (InvalidSignatureException::*)()>(&InvalidSignatureException::get_ResultState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InvalidSignatureException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::InvalidSignatureException*, "UnityEngine.TestTools.TestRunner", "InvalidSignatureException");

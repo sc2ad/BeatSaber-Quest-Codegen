@@ -22,10 +22,18 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Entitlements
     Entitlements() noexcept {}
     // static public Oculus.Platform.Request IsUserEntitledToApplication()
-    // Offset: 0x14A95CC
+    // Offset: 0x14C42DC
     static Oculus::Platform::Request* IsUserEntitledToApplication();
   }; // Oculus.Platform.Entitlements
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Entitlements::IsUserEntitledToApplication
+  // Il2CppName: IsUserEntitledToApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&Entitlements::IsUserEntitledToApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Entitlements*), "IsUserEntitledToApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Entitlements*, "Oculus.Platform", "Entitlements");

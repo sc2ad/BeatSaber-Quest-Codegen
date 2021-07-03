@@ -35,14 +35,14 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarPoseController* avatarPoseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPoseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE15AC4
+    // [InjectAttribute] Offset: 0xE15AA0
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE15AD4
+    // [InjectOptionalAttribute] Offset: 0xE15AB0
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x28
@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x113FF84
+    // Offset: 0x11457EC
     void set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Void Start()
-    // Offset: 0x113FF8C
+    // Offset: 0x11457F4
     void Start();
     // protected System.Void Update()
-    // Offset: 0x113FFA4
+    // Offset: 0x114580C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x114035C
+    // Offset: 0x1145BC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -79,5 +79,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerAvatarPoseController), 40 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerAvatarPoseControllerSizeCheck;
   static_assert(sizeof(MultiplayerAvatarPoseController) == 0x30);
+  // Writing MetadataGetter for method: MultiplayerAvatarPoseController::set_connectedPlayer
+  // Il2CppName: set_connectedPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarPoseController::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerAvatarPoseController::set_connectedPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarPoseController*), "set_connectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerAvatarPoseController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarPoseController::*)()>(&MultiplayerAvatarPoseController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarPoseController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerAvatarPoseController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarPoseController::*)()>(&MultiplayerAvatarPoseController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarPoseController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerAvatarPoseController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarPoseController::*)()>(&MultiplayerAvatarPoseController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarPoseController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarPoseController::*)()>(&MultiplayerAvatarPoseController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarPoseController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarPoseController*, "", "MultiplayerAvatarPoseController");

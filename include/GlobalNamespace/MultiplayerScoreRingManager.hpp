@@ -71,49 +71,49 @@ namespace GlobalNamespace {
     float centerDistanceOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE1ED18
+    // [InjectAttribute] Offset: 0xE1ECF4
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ED28
+    // [InjectAttribute] Offset: 0xE1ED04
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ED38
+    // [InjectAttribute] Offset: 0xE1ED14
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ED48
+    // [InjectAttribute] Offset: 0xE1ED24
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ED58
+    // [InjectAttribute] Offset: 0xE1ED34
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ED68
+    // [InjectAttribute] Offset: 0xE1ED44
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ED78
+    // [InjectAttribute] Offset: 0xE1ED54
     // private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
     // Size: 0x8
     // Offset: 0x50
@@ -167,55 +167,55 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x23E5D88
+    // Offset: 0x1010904
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x23E6458
+    // Offset: 0x1010FD4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x23E6778
+    // Offset: 0x10112F4
     void Update();
     // private System.Void UpdateScore(IConnectedPlayer playerToUpdate)
-    // Offset: 0x23E685C
+    // Offset: 0x10113D8
     void UpdateScore(GlobalNamespace::IConnectedPlayer* playerToUpdate);
     // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x23E6A40
+    // Offset: 0x10115BC
     void AnimateColorsForPlayer(::Il2CppString* userId, UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public MultiplayerScoreRingItem GetScoreRingItem(System.String userId)
-    // Offset: 0x23E6BAC
+    // Offset: 0x1011728
     GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::Il2CppString* userId);
     // public UnityEngine.GameObject[] GetScoreRingItems()
-    // Offset: 0x23DDA54
+    // Offset: 0x10085D0
     ::Array<UnityEngine::GameObject*>* GetScoreRingItems();
     // public System.Void AnimateColorsForAllPlayers(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x23E6C9C
+    // Offset: 0x1011818
     void AnimateColorsForAllPlayers(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // private System.Void SetPlayerToFailedState(IConnectedPlayer player)
-    // Offset: 0x23E6E14
+    // Offset: 0x1011990
     void SetPlayerToFailedState(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void TrySpawnTexts()
-    // Offset: 0x23E6F24
+    // Offset: 0x1011AA0
     void TrySpawnTexts();
     // private System.Void SpawnTexts()
-    // Offset: 0x23E6F3C
+    // Offset: 0x1011AB8
     void SpawnTexts();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x23E5F44
+    // Offset: 0x1010AC0
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x23E5F14
+    // Offset: 0x1010A90
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x23E5F2C
+    // Offset: 0x1010AA8
     void HandlePlayerSpawningDidFinish();
     // private System.Void HandlePlayerStateChanged(IConnectedPlayer player)
-    // Offset: 0x23E7574
+    // Offset: 0x10120F0
     void HandlePlayerStateChanged(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x23E75B8
+    // Offset: 0x1012134
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void .ctor()
-    // Offset: 0x23E75BC
+    // Offset: 0x1012138
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -231,5 +231,147 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerScoreRingManager), 121 + sizeof(bool)> __GlobalNamespace_MultiplayerScoreRingManagerSizeCheck;
   static_assert(sizeof(MultiplayerScoreRingManager) == 0x7A);
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::UpdateScore
+  // Il2CppName: UpdateScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerScoreRingManager::UpdateScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "UpdateScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::AnimateColorsForPlayer
+  // Il2CppName: AnimateColorsForPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(::Il2CppString*, UnityEngine::Color, UnityEngine::Color, float, Tweening::EaseType)>(&MultiplayerScoreRingManager::AnimateColorsForPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "AnimateColorsForPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::GetScoreRingItem
+  // Il2CppName: GetScoreRingItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerScoreRingItem* (MultiplayerScoreRingManager::*)(::Il2CppString*)>(&MultiplayerScoreRingManager::GetScoreRingItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "GetScoreRingItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::GetScoreRingItems
+  // Il2CppName: GetScoreRingItems
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::GetScoreRingItems)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "GetScoreRingItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::AnimateColorsForAllPlayers
+  // Il2CppName: AnimateColorsForAllPlayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(UnityEngine::Color, UnityEngine::Color, float, Tweening::EaseType)>(&MultiplayerScoreRingManager::AnimateColorsForAllPlayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "AnimateColorsForAllPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::SetPlayerToFailedState
+  // Il2CppName: SetPlayerToFailedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerScoreRingManager::SetPlayerToFailedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "SetPlayerToFailedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::TrySpawnTexts
+  // Il2CppName: TrySpawnTexts
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::TrySpawnTexts)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "TrySpawnTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::SpawnTexts
+  // Il2CppName: SpawnTexts
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::SpawnTexts)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "SpawnTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::HandleStateChanged
+  // Il2CppName: HandleStateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerScoreRingManager::HandleStateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::HandleSpawnCenterDistanceWasFound
+  // Il2CppName: HandleSpawnCenterDistanceWasFound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(float)>(&MultiplayerScoreRingManager::HandleSpawnCenterDistanceWasFound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "HandleSpawnCenterDistanceWasFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::HandlePlayerSpawningDidFinish
+  // Il2CppName: HandlePlayerSpawningDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::HandlePlayerSpawningDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "HandlePlayerSpawningDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::HandlePlayerStateChanged
+  // Il2CppName: HandlePlayerStateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerScoreRingManager::HandlePlayerStateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "HandlePlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::HandlePlayerDisconnected
+  // Il2CppName: HandlePlayerDisconnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerScoreRingManager::HandlePlayerDisconnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), "HandlePlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerScoreRingManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreRingManager::*)()>(&MultiplayerScoreRingManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreRingManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");

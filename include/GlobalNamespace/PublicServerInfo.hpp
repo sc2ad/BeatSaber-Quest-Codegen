@@ -82,21 +82,59 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::PublicServerInfo>*>(this);
     }
     // public System.Void .ctor(System.String serverName, System.String code, System.Int32 currentPlayerCount, System.Int32 maxPlayerCount, System.Boolean hasPassword, GameplayServerConfiguration configuration)
-    // Offset: 0xF21690
+    // Offset: 0xF22640
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* serverName, ::Il2CppString* code, int currentPlayerCount, int maxPlayerCount, bool hasPassword, GlobalNamespace::GameplayServerConfiguration configuration)
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF216C4
+    // Offset: 0xF22674
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public PublicServerInfo CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF216CC
+    // Offset: 0xF2267C
     GlobalNamespace::PublicServerInfo CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public PublicServerInfo Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2363488
+    // Offset: 0x23785E4
     static GlobalNamespace::PublicServerInfo Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // PublicServerInfo
   #pragma pack(pop)
   static check_size<sizeof(PublicServerInfo), 32 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PublicServerInfoSizeCheck;
   static_assert(sizeof(PublicServerInfo) == 0x38);
+  // Writing MetadataGetter for method: PublicServerInfo::PublicServerInfo
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PublicServerInfo::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, GlobalNamespace::GameplayServerConfiguration)>(&PublicServerInfo::PublicServerInfo<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PublicServerInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PublicServerInfo::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, GlobalNamespace::GameplayServerConfiguration)>(&PublicServerInfo::PublicServerInfo<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PublicServerInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    }
+  };
+  // Writing MetadataGetter for method: PublicServerInfo::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PublicServerInfo::*)(LiteNetLib::Utils::NetDataWriter*)>(&PublicServerInfo::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PublicServerInfo), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PublicServerInfo::CreateFromSerializedData
+  // Il2CppName: CreateFromSerializedData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PublicServerInfo (PublicServerInfo::*)(LiteNetLib::Utils::NetDataReader*)>(&PublicServerInfo::CreateFromSerializedData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PublicServerInfo), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PublicServerInfo::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PublicServerInfo (*)(LiteNetLib::Utils::NetDataReader*)>(&PublicServerInfo::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PublicServerInfo), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");

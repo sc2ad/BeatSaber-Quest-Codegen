@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15C84
+    // [SpaceAttribute] Offset: 0xE15C60
     // private AchievementSO _clearedLevel100Achievement
     // Size: 0x8
     // Offset: 0x20
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* kilometersTravelled100Achievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15CEC
+    // [SpaceAttribute] Offset: 0xE15CC8
     // private AchievementSO _15ExpertLevelsRankSAchievement
     // Size: 0x8
     // Offset: 0x40
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* _15HardLevelsFullComboAchievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15D54
+    // [SpaceAttribute] Offset: 0xE15D30
     // private AchievementSO _expertLevelClearedWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x60
@@ -114,7 +114,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* goodCuts10000Achievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15DAC
+    // [SpaceAttribute] Offset: 0xE15D88
     // private AchievementSO _resultMinRankANormalWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x78
@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* resultMinRankSSExpertWithoutModifiersAchievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15E04
+    // [SpaceAttribute] Offset: 0xE15DE0
     // private AchievementSO _combo50NormalWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0x90
@@ -152,7 +152,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* combo500ExpertWithoutModifiersAchievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15E5C
+    // [SpaceAttribute] Offset: 0xE15E38
     // private AchievementSO _clearedLevelWithoutModifiersAchievement
     // Size: 0x8
     // Offset: 0xA8
@@ -183,7 +183,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* clearedLevelWithBatteryEnergyModifierAchievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15ED4
+    // [SpaceAttribute] Offset: 0xE15EB0
     // private AchievementSO _cleared30MissionsAchievement
     // Size: 0x8
     // Offset: 0xD0
@@ -202,14 +202,14 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* allMissionClearedAchievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE15F2C
+    // [InjectAttribute] Offset: 0xE15F08
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE15F3C
+    // [InjectAttribute] Offset: 0xE15F18
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0xF0
@@ -221,31 +221,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1124F7C
+    // Offset: 0x112A864
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1125198
+    // Offset: 0x112AA80
     void OnDestroy();
     // private System.Void HandleSoloFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1125338
+    // Offset: 0x112AC20
     void HandleSoloFreePlayOverallStatsDataDidUpdate(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // private System.Void HandlePartyFreePlayOverallStatsDataDidUpdate(LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1125E08
+    // Offset: 0x112B6F0
     void HandlePartyFreePlayOverallStatsDataDidUpdate(GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void HandleCampaignOverallStatsDataDidUpdate(MissionCompletionResults missionCompletionResults, MissionNode missionNode)
-    // Offset: 0x1125E18
+    // Offset: 0x112B700
     void HandleCampaignOverallStatsDataDidUpdate(GlobalNamespace::MissionCompletionResults* missionCompletionResults, GlobalNamespace::MissionNode* missionNode);
     // private System.Void ProcessMissionFinishData(MissionNode missionNode, MissionCompletionResults missionCompletionResults)
-    // Offset: 0x1125E98
+    // Offset: 0x112B780
     void ProcessMissionFinishData(GlobalNamespace::MissionNode* missionNode, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void ProcessSoloFreePlayLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1125A24
+    // Offset: 0x112B30C
     void ProcessSoloFreePlayLevelFinishData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void ProcessLevelFinishData(IDifficultyBeatmap difficultyBeatmap, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x112537C
+    // Offset: 0x112AC64
     void ProcessLevelFinishData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
-    // Offset: 0x1126158
+    // Offset: 0x112BA40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -261,5 +261,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AchievementsEvaluationHandler), 240 + sizeof(GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_AchievementsEvaluationHandlerSizeCheck;
   static_assert(sizeof(AchievementsEvaluationHandler) == 0xF8);
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)()>(&AchievementsEvaluationHandler::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)()>(&AchievementsEvaluationHandler::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate
+  // Il2CppName: HandleSoloFreePlayOverallStatsDataDidUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*)>(&AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "HandleSoloFreePlayOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate
+  // Il2CppName: HandlePartyFreePlayOverallStatsDataDidUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*)>(&AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "HandlePartyFreePlayOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate
+  // Il2CppName: HandleCampaignOverallStatsDataDidUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)(GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*)>(&AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "HandleCampaignOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::ProcessMissionFinishData
+  // Il2CppName: ProcessMissionFinishData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionCompletionResults*)>(&AchievementsEvaluationHandler::ProcessMissionFinishData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "ProcessMissionFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData
+  // Il2CppName: ProcessSoloFreePlayLevelFinishData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::LevelCompletionResults*)>(&AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "ProcessSoloFreePlayLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::ProcessLevelFinishData
+  // Il2CppName: ProcessLevelFinishData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::LevelCompletionResults*)>(&AchievementsEvaluationHandler::ProcessLevelFinishData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), "ProcessLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementsEvaluationHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)()>(&AchievementsEvaluationHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsEvaluationHandler::*)()>(&AchievementsEvaluationHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementsEvaluationHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");

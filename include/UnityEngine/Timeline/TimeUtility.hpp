@@ -45,52 +45,172 @@ namespace UnityEngine::Timeline {
     // Set static field: static public readonly System.Double k_MaxTimelineDurationInSeconds
     static void _set_k_MaxTimelineDurationInSeconds(double value);
     // static private System.Void ValidateFrameRate(System.Double frameRate)
-    // Offset: 0x17CF1CC
+    // Offset: 0x17E7EDC
     static void ValidateFrameRate(double frameRate);
     // static public System.Int32 ToFrames(System.Double time, System.Double frameRate)
-    // Offset: 0x17CF284
+    // Offset: 0x17E7F94
     static int ToFrames(double time, double frameRate);
     // static public System.Double ToExactFrames(System.Double time, System.Double frameRate)
-    // Offset: 0x17CF464
+    // Offset: 0x17E8174
     static double ToExactFrames(double time, double frameRate);
     // static public System.Double FromFrames(System.Int32 frames, System.Double frameRate)
-    // Offset: 0x17CF4DC
+    // Offset: 0x17E81EC
     static double FromFrames(int frames, double frameRate);
     // static public System.Double FromFrames(System.Double frames, System.Double frameRate)
-    // Offset: 0x17CF558
+    // Offset: 0x17E8268
     static double FromFrames(double frames, double frameRate);
     // static public System.Boolean OnFrameBoundary(System.Double time, System.Double frameRate)
-    // Offset: 0x17CF5D0
+    // Offset: 0x17E82E0
     static bool OnFrameBoundary(double time, double frameRate);
     // static public System.Double GetEpsilon(System.Double time, System.Double frameRate)
-    // Offset: 0x17CF3B0
+    // Offset: 0x17E80C0
     static double GetEpsilon(double time, double frameRate);
     // static public System.Boolean OnFrameBoundary(System.Double time, System.Double frameRate, System.Double epsilon)
-    // Offset: 0x17CF654
+    // Offset: 0x17E8364
     static bool OnFrameBoundary(double time, double frameRate, double epsilon);
     // static public System.Double RoundToFrame(System.Double time, System.Double frameRate)
-    // Offset: 0x17CF780
+    // Offset: 0x17E8490
     static double RoundToFrame(double time, double frameRate);
     // static public System.String TimeAsFrames(System.Double timeValue, System.Double frameRate, System.String format)
-    // Offset: 0x17CF840
+    // Offset: 0x17E8550
     static ::Il2CppString* TimeAsFrames(double timeValue, double frameRate, ::Il2CppString* format);
     // static public System.String TimeAsTimeCode(System.Double timeValue, System.Double frameRate, System.String format)
-    // Offset: 0x17CF940
+    // Offset: 0x17E8650
     static ::Il2CppString* TimeAsTimeCode(double timeValue, double frameRate, ::Il2CppString* format);
     // static public System.Double ParseTimeCode(System.String timeCode, System.Double frameRate, System.Double defaultValue)
-    // Offset: 0x17CFDC8
+    // Offset: 0x17E8AD8
     static double ParseTimeCode(::Il2CppString* timeCode, double frameRate, double defaultValue);
     // static public System.Double GetAnimationClipLength(UnityEngine.AnimationClip clip)
-    // Offset: 0x17BDB2C
+    // Offset: 0x17D683C
     static double GetAnimationClipLength(UnityEngine::AnimationClip* clip);
     // static private System.String RemoveChar(System.String str, System.Func`2<System.Char,System.Boolean> charToRemoveFunc)
-    // Offset: 0x17D0358
+    // Offset: 0x17E9068
     static ::Il2CppString* RemoveChar(::Il2CppString* str, System::Func_2<::Il2CppChar, bool>* charToRemoveFunc);
     // static private System.Void .cctor()
-    // Offset: 0x17D046C
+    // Offset: 0x17E917C
     static void _cctor();
   }; // UnityEngine.Timeline.TimeUtility
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimeUtility::ValidateFrameRate
+  // Il2CppName: ValidateFrameRate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(double)>(&TimeUtility::ValidateFrameRate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ValidateFrameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::ToFrames
+  // Il2CppName: ToFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(double, double)>(&TimeUtility::ToFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ToFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::ToExactFrames
+  // Il2CppName: ToExactFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::ToExactFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ToExactFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::FromFrames
+  // Il2CppName: FromFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int, double)>(&TimeUtility::FromFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "FromFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::FromFrames
+  // Il2CppName: FromFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::FromFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "FromFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::OnFrameBoundary
+  // Il2CppName: OnFrameBoundary
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double)>(&TimeUtility::OnFrameBoundary)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "OnFrameBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::GetEpsilon
+  // Il2CppName: GetEpsilon
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::GetEpsilon)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "GetEpsilon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::OnFrameBoundary
+  // Il2CppName: OnFrameBoundary
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, double)>(&TimeUtility::OnFrameBoundary)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "OnFrameBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::RoundToFrame
+  // Il2CppName: RoundToFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::RoundToFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "RoundToFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::TimeAsFrames
+  // Il2CppName: TimeAsFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&TimeUtility::TimeAsFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "TimeAsFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::TimeAsTimeCode
+  // Il2CppName: TimeAsTimeCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&TimeUtility::TimeAsTimeCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "TimeAsTimeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::ParseTimeCode
+  // Il2CppName: ParseTimeCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, double, double)>(&TimeUtility::ParseTimeCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ParseTimeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::GetAnimationClipLength
+  // Il2CppName: GetAnimationClipLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::AnimationClip*)>(&TimeUtility::GetAnimationClipLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "GetAnimationClipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::RemoveChar
+  // Il2CppName: RemoveChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Func_2<::Il2CppChar, bool>*)>(&TimeUtility::RemoveChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "RemoveChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppChar, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeUtility::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimeUtility::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");

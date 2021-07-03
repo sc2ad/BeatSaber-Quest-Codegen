@@ -40,28 +40,28 @@ namespace Oculus::Platform {
     // Set static field: static public System.Boolean LogMessages
     static void _set_LogMessages(bool value);
     // static public System.Boolean IsInitialized()
-    // Offset: 0x14A8DB0
+    // Offset: 0x14C3AC0
     static bool IsInitialized();
     // static System.Void ForceInitialized()
-    // Offset: 0x14A8E18
+    // Offset: 0x14C3B28
     static void ForceInitialized();
     // static private System.String getAppID(System.String appId)
-    // Offset: 0x14A8E84
+    // Offset: 0x14C3B94
     static ::Il2CppString* getAppID(::Il2CppString* appId);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x14A904C
+    // Offset: 0x14C3D5C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::Il2CppString* appId);
     // static public System.Void Initialize(System.String appId)
-    // Offset: 0x14A92E4
+    // Offset: 0x14C3FF4
     static void Initialize(::Il2CppString* appId);
     // static private System.String GetAppIDFromConfig()
-    // Offset: 0x14A901C
+    // Offset: 0x14C3D2C
     static ::Il2CppString* GetAppIDFromConfig();
     // static private System.Void .cctor()
-    // Offset: 0x14A95C8
+    // Offset: 0x14C42D8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14A95C0
+    // Offset: 0x14C42D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,5 +71,75 @@ namespace Oculus::Platform {
     }
   }; // Oculus.Platform.Core
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Core::IsInitialized
+  // Il2CppName: IsInitialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Core::IsInitialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), "IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Core::ForceInitialized
+  // Il2CppName: ForceInitialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Core::ForceInitialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), "ForceInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Core::getAppID
+  // Il2CppName: getAppID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Core::getAppID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), "getAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Core::AsyncInitialize
+  // Il2CppName: AsyncInitialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (*)(::Il2CppString*)>(&Core::AsyncInitialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Core::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Core::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Core::GetAppIDFromConfig
+  // Il2CppName: GetAppIDFromConfig
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Core::GetAppIDFromConfig)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), "GetAppIDFromConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Core::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Core::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Core::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Core::*)()>(&Core::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Core::*)()>(&Core::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Core*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Core*, "Oculus.Platform", "Core");

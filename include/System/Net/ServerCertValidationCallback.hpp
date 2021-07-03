@@ -57,21 +57,51 @@ namespace System::Net {
     // Creating value type constructor for type: ServerCertValidationCallback
     ServerCertValidationCallback(System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback_ = {}, System::Threading::ExecutionContext* m_Context_ = {}) noexcept : m_ValidationCallback{m_ValidationCallback_}, m_Context{m_Context_} {}
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
-    // Offset: 0x147BAC0
+    // Offset: 0x14967D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback* New_ctor(System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback*, creationType>(validationCallback)));
     }
     // System.Void Callback(System.Object state)
-    // Offset: 0x147BB48
+    // Offset: 0x1496858
     void Callback(::Il2CppObject* state);
     // System.Boolean Invoke(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x147BBF8
+    // Offset: 0x1496908
     bool Invoke(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
   #pragma pack(pop)
   static check_size<sizeof(ServerCertValidationCallback), 24 + sizeof(System::Threading::ExecutionContext*)> __System_Net_ServerCertValidationCallbackSizeCheck;
   static_assert(sizeof(ServerCertValidationCallback) == 0x20);
+  // Writing MetadataGetter for method: ServerCertValidationCallback::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertValidationCallback::*)(System::Net::Security::RemoteCertificateValidationCallback*)>(&ServerCertValidationCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerCertValidationCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Security::RemoteCertificateValidationCallback*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertValidationCallback::*)(System::Net::Security::RemoteCertificateValidationCallback*)>(&ServerCertValidationCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerCertValidationCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Security::RemoteCertificateValidationCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerCertValidationCallback::Callback
+  // Il2CppName: Callback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertValidationCallback::*)(::Il2CppObject*)>(&ServerCertValidationCallback::Callback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerCertValidationCallback*), "Callback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerCertValidationCallback::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServerCertValidationCallback::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&ServerCertValidationCallback::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerCertValidationCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");

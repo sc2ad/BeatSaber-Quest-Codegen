@@ -37,10 +37,10 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void OnGUI()
-    // Offset: 0x1C908D8
+    // Offset: 0x1CAC5E8
     void OnGUI();
     // public System.Void .ctor()
-    // Offset: 0x1C90A18
+    // Offset: 0x1CAC728
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -56,5 +56,27 @@ namespace RootMotion {
   #pragma pack(pop)
   static check_size<sizeof(DemoGUIMessage), 32 + sizeof(UnityEngine::Color)> __RootMotion_DemoGUIMessageSizeCheck;
   static_assert(sizeof(DemoGUIMessage) == 0x30);
+  // Writing MetadataGetter for method: DemoGUIMessage::OnGUI
+  // Il2CppName: OnGUI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoGUIMessage::*)()>(&DemoGUIMessage::OnGUI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoGUIMessage*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DemoGUIMessage::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoGUIMessage::*)()>(&DemoGUIMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoGUIMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DemoGUIMessage::*)()>(&DemoGUIMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DemoGUIMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");

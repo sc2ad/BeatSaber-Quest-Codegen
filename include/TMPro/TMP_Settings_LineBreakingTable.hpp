@@ -41,7 +41,7 @@ namespace TMPro {
     // Creating value type constructor for type: LineBreakingTable
     LineBreakingTable(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* leadingCharacters_ = {}, System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters_ = {}) noexcept : leadingCharacters{leadingCharacters_}, followingCharacters{followingCharacters_} {}
     // public System.Void .ctor()
-    // Offset: 0x1156FD4
+    // Offset: 0x116E7D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,5 +53,19 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_Settings::LineBreakingTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*)> __TMPro_TMP_Settings_LineBreakingTableSizeCheck;
   static_assert(sizeof(TMP_Settings::LineBreakingTable) == 0x20);
+  // Writing MetadataGetter for method: TMP_Settings::LineBreakingTable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Settings::LineBreakingTable::*)()>(&TMP_Settings::LineBreakingTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Settings::LineBreakingTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Settings::LineBreakingTable::*)()>(&TMP_Settings::LineBreakingTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Settings::LineBreakingTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");

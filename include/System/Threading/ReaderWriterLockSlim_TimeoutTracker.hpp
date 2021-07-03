@@ -40,7 +40,7 @@ namespace System::Threading {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 millisecondsTimeout)
-    // Offset: 0xF219DC
+    // Offset: 0xF22994
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TimeoutTracker(int millisecondsTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterLockSlim::TimeoutTracker::.ctor");
@@ -48,14 +48,44 @@ namespace System::Threading {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, millisecondsTimeout);
     }
     // public System.Int32 get_RemainingMilliseconds()
-    // Offset: 0xF219E4
+    // Offset: 0xF2299C
     int get_RemainingMilliseconds();
     // public System.Boolean get_IsExpired()
-    // Offset: 0xF219EC
+    // Offset: 0xF229A4
     bool get_IsExpired();
   }; // System.Threading.ReaderWriterLockSlim/TimeoutTracker
   #pragma pack(pop)
   static check_size<sizeof(ReaderWriterLockSlim::TimeoutTracker), 4 + sizeof(int)> __System_Threading_ReaderWriterLockSlim_TimeoutTrackerSizeCheck;
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
+  // Writing MetadataGetter for method: ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::TimeoutTracker::*)(int)>(&ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::TimeoutTracker::*)(int)>(&ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds
+  // Il2CppName: get_RemainingMilliseconds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::TimeoutTracker::*)()>(&ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), "get_RemainingMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ReaderWriterLockSlim::TimeoutTracker::get_IsExpired
+  // Il2CppName: get_IsExpired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::TimeoutTracker::*)()>(&ReaderWriterLockSlim::TimeoutTracker::get_IsExpired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), "get_IsExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");

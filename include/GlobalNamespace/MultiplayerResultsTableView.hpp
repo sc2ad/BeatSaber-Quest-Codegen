@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE27634
+    // [SpaceAttribute] Offset: 0xE27678
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -157,7 +157,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE276DC
+    // [HeaderAttribute] Offset: 0xE27720
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -176,21 +176,21 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xE27748
+    // [InjectAttribute] Offset: 0xE2778C
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE27758
+    // [InjectAttribute] Offset: 0xE2779C
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE27768
+    // [InjectAttribute] Offset: 0xE277AC
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -242,43 +242,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellIdentifier
     static void _set_kCellIdentifier(::Il2CppString* value);
     // public System.Single CellSize()
-    // Offset: 0x23E3354
+    // Offset: 0x100DED0
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x23E335C
+    // Offset: 0x100DED8
     int NumberOfCells();
     // protected System.Void Awake()
-    // Offset: 0x23E33CC
+    // Offset: 0x100DF48
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x23E342C
+    // Offset: 0x100DFA8
     void OnDestroy();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x23E34C4
+    // Offset: 0x100E040
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x23E3924
+    // Offset: 0x100E4A0
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Single StartAnimation()
-    // Offset: 0x23E3BD4
+    // Offset: 0x100E750
     float StartAnimation();
     // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0x23E4458
+    // Offset: 0x100EFD4
     System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
     // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0x23E4504
+    // Offset: 0x100F080
     System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
     // private System.Void <StartAnimation>b__30_1()
-    // Offset: 0x23E45CC
+    // Offset: 0x100F148
     void $StartAnimation$b__30_1();
     // private System.Void <StartAnimation>b__30_4()
-    // Offset: 0x23E4600
+    // Offset: 0x100F17C
     void $StartAnimation$b__30_4();
     // private System.Void <StartAnimation>b__30_5(System.Single val)
-    // Offset: 0x23E4634
+    // Offset: 0x100F1B0
     void $StartAnimation$b__30_5(float val);
     // public System.Void .ctor()
-    // Offset: 0x23E45B0
+    // Offset: 0x100F12C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -294,5 +294,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsTableView), 192 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_MultiplayerResultsTableViewSizeCheck;
   static_assert(sizeof(MultiplayerResultsTableView) == 0xD0);
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::CellSize
+  // Il2CppName: CellSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::CellSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::NumberOfCells
+  // Il2CppName: NumberOfCells
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::NumberOfCells)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::CellForIdx
+  // Il2CppName: CellForIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (MultiplayerResultsTableView::*)(HMUI::TableView*, int)>(&MultiplayerResultsTableView::CellForIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&MultiplayerResultsTableView::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::StartAnimation
+  // Il2CppName: StartAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::StartAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::PlayRandomRowSlideInSound
+  // Il2CppName: PlayRandomRowSlideInSound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerResultsTableView::*)(float)>(&MultiplayerResultsTableView::PlayRandomRowSlideInSound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "PlayRandomRowSlideInSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::PlayAvatarSlideInSound
+  // Il2CppName: PlayAvatarSlideInSound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerResultsTableView::*)(float)>(&MultiplayerResultsTableView::PlayAvatarSlideInSound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "PlayAvatarSlideInSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::$StartAnimation$b__30_1
+  // Il2CppName: <StartAnimation>b__30_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::$StartAnimation$b__30_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "<StartAnimation>b__30_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::$StartAnimation$b__30_4
+  // Il2CppName: <StartAnimation>b__30_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::$StartAnimation$b__30_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "<StartAnimation>b__30_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::$StartAnimation$b__30_5
+  // Il2CppName: <StartAnimation>b__30_5
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)(float)>(&MultiplayerResultsTableView::$StartAnimation$b__30_5)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), "<StartAnimation>b__30_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsTableView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsTableView::*)()>(&MultiplayerResultsTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView*, "", "MultiplayerResultsTableView");

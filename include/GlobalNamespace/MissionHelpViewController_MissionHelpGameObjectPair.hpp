@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionHelpGameObjectPair
     MissionHelpGameObjectPair(GlobalNamespace::MissionHelpSO* missionHelp_ = {}, UnityEngine::GameObject* gameObject_ = {}) noexcept : missionHelp{missionHelp_}, gameObject{gameObject_} {}
     // public System.Void .ctor()
-    // Offset: 0x104F910
+    // Offset: 0x1093FF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,5 +57,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionHelpViewController::MissionHelpGameObjectPair), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MissionHelpViewController_MissionHelpGameObjectPairSizeCheck;
   static_assert(sizeof(MissionHelpViewController::MissionHelpGameObjectPair) == 0x20);
+  // Writing MetadataGetter for method: MissionHelpViewController::MissionHelpGameObjectPair::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::MissionHelpGameObjectPair::*)()>(&MissionHelpViewController::MissionHelpGameObjectPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController::MissionHelpGameObjectPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionHelpViewController::MissionHelpGameObjectPair::*)()>(&MissionHelpViewController::MissionHelpGameObjectPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionHelpViewController::MissionHelpGameObjectPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*, "", "MissionHelpViewController/MissionHelpGameObjectPair");

@@ -200,58 +200,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0x1267B1C
+    // Offset: 0x128482C
     void Awake();
     // private System.Void Update()
-    // Offset: 0x1267D24
+    // Offset: 0x1284A34
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x1268468
+    // Offset: 0x1285178
     void OnDestroy();
     // private System.Void InitUIComponents()
-    // Offset: 0x1267DEC
+    // Offset: 0x1284AFC
     void InitUIComponents();
     // private System.Void UpdateVariable()
-    // Offset: 0x12681C0
+    // Offset: 0x1284ED0
     void UpdateVariable();
     // private System.Void UpdateStrings()
-    // Offset: 0x1268204
+    // Offset: 0x1284F14
     void UpdateStrings();
     // private System.Void RiftPresentGUI(UnityEngine.GameObject guiMainOBj)
-    // Offset: 0x1268C5C
+    // Offset: 0x128596C
     void RiftPresentGUI(UnityEngine::GameObject* guiMainOBj);
     // private System.Void UpdateDeviceDetection()
-    // Offset: 0x1268180
+    // Offset: 0x1284E90
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
-    // Offset: 0x1268470
+    // Offset: 0x1285180
     UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::Il2CppString* name, float posY, ::Il2CppString* str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
-    // Offset: 0x1268E10
+    // Offset: 0x1285B20
     UnityEngine::GameObject* ComponentComposition(UnityEngine::GameObject* GO);
     // private System.Void UpdateIPD()
-    // Offset: 0x1268650
+    // Offset: 0x1285360
     void UpdateIPD();
     // private System.Void UpdateEyeHeightOffset()
-    // Offset: 0x1268714
+    // Offset: 0x1285424
     void UpdateEyeHeightOffset();
     // private System.Void UpdateEyeDepthOffset()
-    // Offset: 0x12687CC
+    // Offset: 0x12854DC
     void UpdateEyeDepthOffset();
     // private System.Void UpdateFOV()
-    // Offset: 0x1268884
+    // Offset: 0x1285594
     void UpdateFOV();
     // private System.Void UpdateResolutionEyeTexture()
-    // Offset: 0x126898C
+    // Offset: 0x128569C
     void UpdateResolutionEyeTexture();
     // private System.Void UpdateLatencyValues()
-    // Offset: 0x1268B74
+    // Offset: 0x1285884
     void UpdateLatencyValues();
     // private System.Void UpdateFPS()
-    // Offset: 0x1268B78
+    // Offset: 0x1285888
     void UpdateFPS();
     // public System.Void .ctor()
-    // Offset: 0x126917C
+    // Offset: 0x1285E8C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -267,5 +267,155 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRDebugInfo), 204 + sizeof(bool)> __GlobalNamespace_OVRDebugInfoSizeCheck;
   static_assert(sizeof(OVRDebugInfo) == 0xCD);
+  // Writing MetadataGetter for method: OVRDebugInfo::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::InitUIComponents
+  // Il2CppName: InitUIComponents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::InitUIComponents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "InitUIComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateVariable
+  // Il2CppName: UpdateVariable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateVariable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateStrings
+  // Il2CppName: UpdateStrings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateStrings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateStrings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::RiftPresentGUI
+  // Il2CppName: RiftPresentGUI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)(UnityEngine::GameObject*)>(&OVRDebugInfo::RiftPresentGUI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "RiftPresentGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateDeviceDetection
+  // Il2CppName: UpdateDeviceDetection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateDeviceDetection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateDeviceDetection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::VariableObjectManager
+  // Il2CppName: VariableObjectManager
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (OVRDebugInfo::*)(UnityEngine::GameObject*, ::Il2CppString*, float, ::Il2CppString*, int)>(&OVRDebugInfo::VariableObjectManager)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "VariableObjectManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::ComponentComposition
+  // Il2CppName: ComponentComposition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (OVRDebugInfo::*)(UnityEngine::GameObject*)>(&OVRDebugInfo::ComponentComposition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "ComponentComposition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateIPD
+  // Il2CppName: UpdateIPD
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateIPD)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateIPD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateEyeHeightOffset
+  // Il2CppName: UpdateEyeHeightOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateEyeHeightOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateEyeHeightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateEyeDepthOffset
+  // Il2CppName: UpdateEyeDepthOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateEyeDepthOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateEyeDepthOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateFOV
+  // Il2CppName: UpdateFOV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateFOV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateFOV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateResolutionEyeTexture
+  // Il2CppName: UpdateResolutionEyeTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateResolutionEyeTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateResolutionEyeTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateLatencyValues
+  // Il2CppName: UpdateLatencyValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateLatencyValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateLatencyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::UpdateFPS
+  // Il2CppName: UpdateFPS
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::UpdateFPS)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), "UpdateFPS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRDebugInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRDebugInfo::*)()>(&OVRDebugInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRDebugInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDebugInfo*, "", "OVRDebugInfo");

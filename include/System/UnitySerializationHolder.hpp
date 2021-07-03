@@ -106,39 +106,117 @@ namespace System {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Reflection.Missing missing)
-    // Offset: 0x2316990
+    // Offset: 0x23306EC
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, System::Reflection::Missing* missing);
     // static System.RuntimeType AddElementTypes(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x2316A34
+    // Offset: 0x2330790
     static System::RuntimeType* AddElementTypes(System::Runtime::Serialization::SerializationInfo* info, System::RuntimeType* type);
     // System.Type MakeElementTypes(System.Type type)
-    // Offset: 0x2316C84
+    // Offset: 0x23309E0
     System::Type* MakeElementTypes(System::Type* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.RuntimeType type)
-    // Offset: 0x2316D84
+    // Offset: 0x2330AE0
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, System::RuntimeType* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Int32 unityType, System.String data, System.Reflection.RuntimeAssembly assembly)
-    // Offset: 0x2317094
+    // Offset: 0x2330DF0
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, int unityType, ::Il2CppString* data, System::Reflection::RuntimeAssembly* assembly);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x23171E0
+    // Offset: 0x2330F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySerializationHolder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UnitySerializationHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySerializationHolder*, creationType>(info, context)));
     }
     // private System.Void ThrowInsufficientInformation(System.String field)
-    // Offset: 0x23174E4
+    // Offset: 0x2331240
     void ThrowInsufficientInformation(::Il2CppString* field);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x23175A4
+    // Offset: 0x2331300
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2317624
+    // Offset: 0x2331380
     ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
   }; // System.UnitySerializationHolder
   #pragma pack(pop)
   static check_size<sizeof(UnitySerializationHolder), 72 + sizeof(int)> __System_UnitySerializationHolderSizeCheck;
   static_assert(sizeof(UnitySerializationHolder) == 0x4C);
+  // Writing MetadataGetter for method: UnitySerializationHolder::GetUnitySerializationInfo
+  // Il2CppName: GetUnitySerializationInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, System::Reflection::Missing*)>(&UnitySerializationHolder::GetUnitySerializationInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "GetUnitySerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Missing*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::AddElementTypes
+  // Il2CppName: AddElementTypes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (*)(System::Runtime::Serialization::SerializationInfo*, System::RuntimeType*)>(&UnitySerializationHolder::AddElementTypes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "AddElementTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::MakeElementTypes
+  // Il2CppName: MakeElementTypes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnitySerializationHolder::*)(System::Type*)>(&UnitySerializationHolder::MakeElementTypes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "MakeElementTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::GetUnitySerializationInfo
+  // Il2CppName: GetUnitySerializationInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, System::RuntimeType*)>(&UnitySerializationHolder::GetUnitySerializationInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "GetUnitySerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::GetUnitySerializationInfo
+  // Il2CppName: GetUnitySerializationInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, int, ::Il2CppString*, System::Reflection::RuntimeAssembly*)>(&UnitySerializationHolder::GetUnitySerializationInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "GetUnitySerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeAssembly*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySerializationHolder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&UnitySerializationHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySerializationHolder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&UnitySerializationHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::ThrowInsufficientInformation
+  // Il2CppName: ThrowInsufficientInformation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySerializationHolder::*)(::Il2CppString*)>(&UnitySerializationHolder::ThrowInsufficientInformation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "ThrowInsufficientInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::GetObjectData
+  // Il2CppName: GetObjectData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySerializationHolder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&UnitySerializationHolder::GetObjectData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySerializationHolder::GetRealObject
+  // Il2CppName: GetRealObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnitySerializationHolder::*)(System::Runtime::Serialization::StreamingContext)>(&UnitySerializationHolder::GetRealObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySerializationHolder*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UnitySerializationHolder*, "System", "UnitySerializationHolder");

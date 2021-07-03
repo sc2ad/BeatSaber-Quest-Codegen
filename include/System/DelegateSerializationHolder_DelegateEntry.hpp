@@ -75,18 +75,40 @@ namespace System {
     // Creating value type constructor for type: DelegateEntry
     DelegateEntry(::Il2CppString* type_ = {}, ::Il2CppString* assembly_ = {}, ::Il2CppObject* target_ = {}, ::Il2CppString* targetTypeAssembly_ = {}, ::Il2CppString* targetTypeName_ = {}, ::Il2CppString* methodName_ = {}, System::DelegateSerializationHolder::DelegateEntry* delegateEntry_ = {}) noexcept : type{type_}, assembly{assembly_}, target{target_}, targetTypeAssembly{targetTypeAssembly_}, targetTypeName{targetTypeName_}, methodName{methodName_}, delegateEntry{delegateEntry_} {}
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
-    // Offset: 0x1AF0678
+    // Offset: 0x1B0C388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::Il2CppString* targetLabel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::DelegateEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder::DelegateEntry*, creationType>(del, targetLabel)));
     }
     // public System.Delegate DeserializeDelegate(System.Runtime.Serialization.SerializationInfo info, System.Int32 index)
-    // Offset: 0x1AF0404
+    // Offset: 0x1B0C114
     System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/DelegateEntry
   #pragma pack(pop)
   static check_size<sizeof(DelegateSerializationHolder::DelegateEntry), 64 + sizeof(System::DelegateSerializationHolder::DelegateEntry*)> __System_DelegateSerializationHolder_DelegateEntrySizeCheck;
   static_assert(sizeof(DelegateSerializationHolder::DelegateEntry) == 0x48);
+  // Writing MetadataGetter for method: DelegateSerializationHolder::DelegateEntry::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelegateSerializationHolder::DelegateEntry::*)(System::Delegate*, ::Il2CppString*)>(&DelegateSerializationHolder::DelegateEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DelegateSerializationHolder::DelegateEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelegateSerializationHolder::DelegateEntry::*)(System::Delegate*, ::Il2CppString*)>(&DelegateSerializationHolder::DelegateEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DelegateSerializationHolder::DelegateEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DelegateSerializationHolder::DelegateEntry::DeserializeDelegate
+  // Il2CppName: DeserializeDelegate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (DelegateSerializationHolder::DelegateEntry::*)(System::Runtime::Serialization::SerializationInfo*, int)>(&DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DelegateSerializationHolder::DelegateEntry*), "DeserializeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementsModelSO* achievementsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15F6C
+    // [SpaceAttribute] Offset: 0xE15F48
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x20
@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10C5820
+    // Offset: 0x10443E0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10C58AC
+    // Offset: 0x104446C
     void OnDestroy();
     // private System.Void HandleTutorialFinished()
-    // Offset: 0x10C5938
+    // Offset: 0x10444F8
     void HandleTutorialFinished();
     // public System.Void .ctor()
-    // Offset: 0x10C595C
+    // Offset: 0x104451C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -78,5 +78,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FinishTutorialAchievementHandler), 40 + sizeof(GlobalNamespace::AchievementSO*)> __GlobalNamespace_FinishTutorialAchievementHandlerSizeCheck;
   static_assert(sizeof(FinishTutorialAchievementHandler) == 0x30);
+  // Writing MetadataGetter for method: FinishTutorialAchievementHandler::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FinishTutorialAchievementHandler::*)()>(&FinishTutorialAchievementHandler::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FinishTutorialAchievementHandler*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FinishTutorialAchievementHandler::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FinishTutorialAchievementHandler::*)()>(&FinishTutorialAchievementHandler::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FinishTutorialAchievementHandler*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FinishTutorialAchievementHandler::HandleTutorialFinished
+  // Il2CppName: HandleTutorialFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FinishTutorialAchievementHandler::*)()>(&FinishTutorialAchievementHandler::HandleTutorialFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FinishTutorialAchievementHandler*), "HandleTutorialFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FinishTutorialAchievementHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FinishTutorialAchievementHandler::*)()>(&FinishTutorialAchievementHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FinishTutorialAchievementHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FinishTutorialAchievementHandler::*)()>(&FinishTutorialAchievementHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FinishTutorialAchievementHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FinishTutorialAchievementHandler*, "", "FinishTutorialAchievementHandler");

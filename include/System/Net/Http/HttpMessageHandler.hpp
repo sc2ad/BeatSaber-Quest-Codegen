@@ -45,16 +45,16 @@ namespace System::Net::Http {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Dispose()
-    // Offset: 0x15874B4
+    // Offset: 0x15A11C4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15848C8
+    // Offset: 0x159E5D8
     void Dispose(bool disposing);
     // protected internal System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // protected System.Void .ctor()
-    // Offset: 0x15847AC
+    // Offset: 0x159E4BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,5 +64,43 @@ namespace System::Net::Http {
     }
   }; // System.Net.Http.HttpMessageHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: HttpMessageHandler::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpMessageHandler::*)()>(&HttpMessageHandler::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpMessageHandler::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpMessageHandler::*)(bool)>(&HttpMessageHandler::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpMessageHandler::SendAsync
+  // Il2CppName: SendAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (HttpMessageHandler::*)(System::Net::Http::HttpRequestMessage*, System::Threading::CancellationToken)>(&HttpMessageHandler::SendAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpMessageHandler*), "SendAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpMessageHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpMessageHandler::*)()>(&HttpMessageHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpMessageHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpMessageHandler::*)()>(&HttpMessageHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpMessageHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageHandler*, "System.Net.Http", "HttpMessageHandler");

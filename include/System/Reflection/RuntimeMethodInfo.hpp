@@ -50,37 +50,37 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x13F8064
+    // Offset: 0x1412D74
     System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x13F8104
+    // Offset: 0x1412E14
     System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x13F8070
+    // Offset: 0x1412D80
     System::Reflection::RuntimeModule* GetRuntimeModule();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x13F837C
+    // Offset: 0x141308C
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // System.String SerializationToString()
-    // Offset: 0x13F84C4
+    // Offset: 0x14131D4
     ::Il2CppString* SerializationToString();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x13F806C
+    // Offset: 0x1412D7C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     System::Reflection::Module* get_Module();
     // override System.String FormatNameAndSig(System.Boolean serialization)
-    // Offset: 0x13F8190
+    // Offset: 0x1412EA0
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.String MethodBase::FormatNameAndSig(System.Boolean serialization)
     ::Il2CppString* FormatNameAndSig(bool serialization);
     // public override System.String ToString()
-    // Offset: 0x13F82E4
+    // Offset: 0x1412FF4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x13F8568
+    // Offset: 0x1413278
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Void MethodInfo::.ctor()
     // Base method: System.Void MethodBase::.ctor()
@@ -93,5 +93,83 @@ namespace System::Reflection {
     }
   }; // System.Reflection.RuntimeMethodInfo
   #pragma pack(pop)
+  // Writing MetadataGetter for method: RuntimeMethodInfo::get_BindingFlags
+  // Il2CppName: get_BindingFlags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::BindingFlags (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::get_BindingFlags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "get_BindingFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::get_ReflectedTypeInternal
+  // Il2CppName: get_ReflectedTypeInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::get_ReflectedTypeInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "get_ReflectedTypeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::GetRuntimeModule
+  // Il2CppName: GetRuntimeModule
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeModule* (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::GetRuntimeModule)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "GetRuntimeModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::GetObjectData
+  // Il2CppName: GetObjectData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeMethodInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&RuntimeMethodInfo::GetObjectData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::SerializationToString
+  // Il2CppName: SerializationToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::SerializationToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "SerializationToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::get_Module
+  // Il2CppName: get_Module
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::get_Module)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::FormatNameAndSig
+  // Il2CppName: FormatNameAndSig
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RuntimeMethodInfo::*)(bool)>(&RuntimeMethodInfo::FormatNameAndSig)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "FormatNameAndSig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeMethodInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeMethodInfo::*)()>(&RuntimeMethodInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeMethodInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeMethodInfo*, "System.Reflection", "RuntimeMethodInfo");

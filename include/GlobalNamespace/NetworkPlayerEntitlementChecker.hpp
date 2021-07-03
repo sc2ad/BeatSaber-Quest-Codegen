@@ -65,21 +65,21 @@ namespace GlobalNamespace {
     struct $GetCanPlayLevelAsync$d__18;
     // Nested type: GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__20
     struct $GetEntitlementStatus$d__20;
-    // [InjectAttribute] Offset: 0xE17E74
+    // [InjectAttribute] Offset: 0xE17E50
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE17E84
+    // [InjectAttribute] Offset: 0xE17E60
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IMenuRpcManager* rpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE17E94
+    // [InjectAttribute] Offset: 0xE17E70
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x28
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*>*>* cachedTasks;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*>*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE17EA4
+    // [CompilerGeneratedAttribute] Offset: 0xE17E80
     // private System.Action didInvalidateDataEvent
     // Size: 0x8
     // Offset: 0x38
@@ -104,52 +104,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x23EE734
+    // Offset: 0x10192B0
     void add_didInvalidateDataEvent(System::Action* value);
     // public System.Void remove_didInvalidateDataEvent(System.Action value)
-    // Offset: 0x23EE7D8
+    // Offset: 0x1019354
     void remove_didInvalidateDataEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x23EE87C
+    // Offset: 0x10193F8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x23EEC44
+    // Offset: 0x10197C0
     void OnDestroy();
     // private System.Void InvalidateData()
-    // Offset: 0x23EF058
+    // Offset: 0x1019BD4
     void InvalidateData();
     // private System.Void HandleDataInvalidated()
-    // Offset: 0x23EF06C
+    // Offset: 0x1019BE8
     void HandleDataInvalidated();
     // private System.Void HandleLevelEntitlementStatusesInvalidated(System.String userId)
-    // Offset: 0x23EF13C
+    // Offset: 0x1019CB8
     void HandleLevelEntitlementStatusesInvalidated(::Il2CppString* userId);
     // private System.Void HandlePlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x23EF2AC
+    // Offset: 0x1019E28
     void HandlePlayerDisconnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandlePlayerConnected(IConnectedPlayer player)
-    // Offset: 0x23EF4F4
+    // Offset: 0x101A070
     void HandlePlayerConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0x23EF508
+    // Offset: 0x101A084
     void HandleGetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId);
     // private System.Void HandleSetIsEntitledToLevel(System.String userId, System.String levelId, EntitlementsStatus status)
-    // Offset: 0x23EF5CC
+    // Offset: 0x101A148
     void HandleSetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId, GlobalNamespace::EntitlementsStatus status);
     // public System.Threading.Tasks.Task`1<EntitlementsStatus> GetPlayerLevelEntitlementsAsync(IConnectedPlayer player, System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x23EF720
+    // Offset: 0x101A29C
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetPlayerLevelEntitlementsAsync(GlobalNamespace::IConnectedPlayer* player, ::Il2CppString* levelId, System::Threading::CancellationToken token);
     // public System.Threading.Tasks.Task`1<System.Boolean> GetCanPlayLevelAsync(System.String levelId, System.Threading.CancellationToken token)
-    // Offset: 0x23EF848
+    // Offset: 0x101A3C4
     System::Threading::Tasks::Task_1<bool>* GetCanPlayLevelAsync(::Il2CppString* levelId, System::Threading::CancellationToken token);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetTcsTaskCanPlayerPlayLevel(IConnectedPlayer player, System.String levelId, System.Threading.CancellationToken token, out System.Boolean rpcRequired)
-    // Offset: 0x23EF968
+    // Offset: 0x101A4E4
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetTcsTaskCanPlayerPlayLevel(GlobalNamespace::IConnectedPlayer* player, ::Il2CppString* levelId, System::Threading::CancellationToken token, bool& rpcRequired);
     // private System.Threading.Tasks.Task`1<EntitlementsStatus> GetEntitlementStatus(System.String levelId)
-    // Offset: 0x23EFBB8
+    // Offset: 0x101A734
     System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::Il2CppString* levelId);
     // public System.Void .ctor()
-    // Offset: 0x23EFCDC
+    // Offset: 0x101A858
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -165,5 +165,139 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NetworkPlayerEntitlementChecker), 56 + sizeof(System::Action*)> __GlobalNamespace_NetworkPlayerEntitlementCheckerSizeCheck;
   static_assert(sizeof(NetworkPlayerEntitlementChecker) == 0x40);
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::add_didInvalidateDataEvent
+  // Il2CppName: add_didInvalidateDataEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(System::Action*)>(&NetworkPlayerEntitlementChecker::add_didInvalidateDataEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "add_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::remove_didInvalidateDataEvent
+  // Il2CppName: remove_didInvalidateDataEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(System::Action*)>(&NetworkPlayerEntitlementChecker::remove_didInvalidateDataEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "remove_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)()>(&NetworkPlayerEntitlementChecker::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)()>(&NetworkPlayerEntitlementChecker::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::InvalidateData
+  // Il2CppName: InvalidateData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)()>(&NetworkPlayerEntitlementChecker::InvalidateData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "InvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::HandleDataInvalidated
+  // Il2CppName: HandleDataInvalidated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)()>(&NetworkPlayerEntitlementChecker::HandleDataInvalidated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "HandleDataInvalidated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::HandleLevelEntitlementStatusesInvalidated
+  // Il2CppName: HandleLevelEntitlementStatusesInvalidated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(::Il2CppString*)>(&NetworkPlayerEntitlementChecker::HandleLevelEntitlementStatusesInvalidated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "HandleLevelEntitlementStatusesInvalidated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::HandlePlayerDisconnected
+  // Il2CppName: HandlePlayerDisconnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(GlobalNamespace::IConnectedPlayer*)>(&NetworkPlayerEntitlementChecker::HandlePlayerDisconnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "HandlePlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::HandlePlayerConnected
+  // Il2CppName: HandlePlayerConnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(GlobalNamespace::IConnectedPlayer*)>(&NetworkPlayerEntitlementChecker::HandlePlayerConnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "HandlePlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::HandleGetIsEntitledToLevel
+  // Il2CppName: HandleGetIsEntitledToLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(::Il2CppString*, ::Il2CppString*)>(&NetworkPlayerEntitlementChecker::HandleGetIsEntitledToLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "HandleGetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::HandleSetIsEntitledToLevel
+  // Il2CppName: HandleSetIsEntitledToLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus)>(&NetworkPlayerEntitlementChecker::HandleSetIsEntitledToLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "HandleSetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EntitlementsStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::GetPlayerLevelEntitlementsAsync
+  // Il2CppName: GetPlayerLevelEntitlementsAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* (NetworkPlayerEntitlementChecker::*)(GlobalNamespace::IConnectedPlayer*, ::Il2CppString*, System::Threading::CancellationToken)>(&NetworkPlayerEntitlementChecker::GetPlayerLevelEntitlementsAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "GetPlayerLevelEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::GetCanPlayLevelAsync
+  // Il2CppName: GetCanPlayLevelAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (NetworkPlayerEntitlementChecker::*)(::Il2CppString*, System::Threading::CancellationToken)>(&NetworkPlayerEntitlementChecker::GetCanPlayLevelAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "GetCanPlayLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::GetTcsTaskCanPlayerPlayLevel
+  // Il2CppName: GetTcsTaskCanPlayerPlayLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* (NetworkPlayerEntitlementChecker::*)(GlobalNamespace::IConnectedPlayer*, ::Il2CppString*, System::Threading::CancellationToken, bool&)>(&NetworkPlayerEntitlementChecker::GetTcsTaskCanPlayerPlayLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "GetTcsTaskCanPlayerPlayLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::GetEntitlementStatus
+  // Il2CppName: GetEntitlementStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* (NetworkPlayerEntitlementChecker::*)(::Il2CppString*)>(&NetworkPlayerEntitlementChecker::GetEntitlementStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), "GetEntitlementStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)()>(&NetworkPlayerEntitlementChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::*)()>(&NetworkPlayerEntitlementChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker*, "", "NetworkPlayerEntitlementChecker");

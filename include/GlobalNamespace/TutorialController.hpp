@@ -72,22 +72,22 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1FD20
-    // [SignalSenderAttribute] Offset: 0xE1FD20
+    // [SpaceAttribute] Offset: 0xE1FCFC
+    // [SignalSenderAttribute] Offset: 0xE1FCFC
     // private Signal _tutorialIntroStartedSignal
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::Signal* tutorialIntroStartedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [SignalSenderAttribute] Offset: 0xE1FD68
+    // [SignalSenderAttribute] Offset: 0xE1FD44
     // private Signal _tutorialFinishedSignal
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::Signal* tutorialFinishedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1FDA0
+    // [InjectAttribute] Offset: 0xE1FD7C
     // private PauseController _pauseController
     // Size: 0x8
     // Offset: 0x48
@@ -111,31 +111,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10FA9B0
+    // Offset: 0x111D1F4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10FAB84
+    // Offset: 0x111D3C8
     void OnDestroy();
     // private System.Void HandleIntroTutorialDidFinishEvent()
-    // Offset: 0x10FADC8
+    // Offset: 0x111D60C
     void HandleIntroTutorialDidFinishEvent();
     // private System.Void HandleTutorialSongControllerSongDidFinishEvent()
-    // Offset: 0x10FAE40
+    // Offset: 0x111D684
     void HandleTutorialSongControllerSongDidFinishEvent();
     // private System.Collections.IEnumerator OutroCoroutine()
-    // Offset: 0x10FAE8C
+    // Offset: 0x111D6D0
     System::Collections::IEnumerator* OutroCoroutine();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x10FAF28
+    // Offset: 0x111D76C
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x10FAFB4
+    // Offset: 0x111D7F8
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x10FAFC0
+    // Offset: 0x111D804
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x10FAFC8
+    // Offset: 0x111D80C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -151,5 +151,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TutorialController), 81 + sizeof(bool)> __GlobalNamespace_TutorialControllerSizeCheck;
   static_assert(sizeof(TutorialController) == 0x52);
+  // Writing MetadataGetter for method: TutorialController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::HandleIntroTutorialDidFinishEvent
+  // Il2CppName: HandleIntroTutorialDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::HandleIntroTutorialDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "HandleIntroTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::HandleTutorialSongControllerSongDidFinishEvent
+  // Il2CppName: HandleTutorialSongControllerSongDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::HandleTutorialSongControllerSongDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "HandleTutorialSongControllerSongDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::OutroCoroutine
+  // Il2CppName: OutroCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TutorialController::*)()>(&TutorialController::OutroCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "OutroCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::HandlePauseControllerCanPause
+  // Il2CppName: HandlePauseControllerCanPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)(System::Action_1<bool>*)>(&TutorialController::HandlePauseControllerCanPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "HandlePauseControllerCanPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::HandlePauseControllerDidPause
+  // Il2CppName: HandlePauseControllerDidPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::HandlePauseControllerDidPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "HandlePauseControllerDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::HandlePauseControllerDidResume
+  // Il2CppName: HandlePauseControllerDidResume
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::HandlePauseControllerDidResume)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), "HandlePauseControllerDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialController::*)()>(&TutorialController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController*, "", "TutorialController");

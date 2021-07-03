@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(GameplayServerFiniteStateMachine::GameStateType), 0 + sizeof(int)> __GlobalNamespace_GameplayServerFiniteStateMachine_GameStateTypeSizeCheck;
     static_assert(sizeof(GameplayServerFiniteStateMachine::GameStateType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFC1C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0B50
     // private System.Action`1<GameplayServerFiniteStateMachine/GameStateType> onGameStateChanged
     // Size: 0x8
     // Offset: 0x10
@@ -109,25 +109,63 @@ namespace GlobalNamespace {
       return onGameStateChanged;
     }
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, GameplayServerConfiguration configuration, System.Boolean privateServer, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x1314248
+    // Offset: 0x132EF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayServerFiniteStateMachine* New_ctor(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::GameplayServerConfiguration configuration, bool privateServer, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayServerFiniteStateMachine*, creationType>(timeProvider, multiplayerSessionManager, configuration, privateServer, beatmapProvider)));
     }
     // public System.Void add_onGameStateChanged(System.Action`1<GameplayServerFiniteStateMachine/GameStateType> value)
-    // Offset: 0x1314250
+    // Offset: 0x132EF60
     void add_onGameStateChanged(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>* value);
     // public System.Void remove_onGameStateChanged(System.Action`1<GameplayServerFiniteStateMachine/GameStateType> value)
-    // Offset: 0x13142F4
+    // Offset: 0x132F004
     void remove_onGameStateChanged(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>* value);
     // public System.Void Dispose()
-    // Offset: 0x1314398
+    // Offset: 0x132F0A8
     void Dispose();
   }; // GameplayServerFiniteStateMachine
   #pragma pack(pop)
   static check_size<sizeof(GameplayServerFiniteStateMachine), 16 + sizeof(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)> __GlobalNamespace_GameplayServerFiniteStateMachineSizeCheck;
   static_assert(sizeof(GameplayServerFiniteStateMachine) == 0x18);
+  // Writing MetadataGetter for method: GameplayServerFiniteStateMachine::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::GameplayServerConfiguration, bool, GlobalNamespace::IServerBeatmapProvider*)>(&GameplayServerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IServerBeatmapProvider*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::GameplayServerConfiguration, bool, GlobalNamespace::IServerBeatmapProvider*)>(&GameplayServerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IServerBeatmapProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFiniteStateMachine::add_onGameStateChanged
+  // Il2CppName: add_onGameStateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GameplayServerFiniteStateMachine::add_onGameStateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), "add_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFiniteStateMachine::remove_onGameStateChanged
+  // Il2CppName: remove_onGameStateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GameplayServerFiniteStateMachine::remove_onGameStateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), "remove_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFiniteStateMachine::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)()>(&GameplayServerFiniteStateMachine::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine*, "", "GameplayServerFiniteStateMachine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType, "", "GameplayServerFiniteStateMachine/GameStateType");

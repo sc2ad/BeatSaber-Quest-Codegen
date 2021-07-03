@@ -31,14 +31,14 @@ namespace Zenject {
     char ___base_padding[0x6] = {};
     // Nested type: Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    // [InjectAttribute] Offset: 0xDDF348
+    // [InjectAttribute] Offset: 0xDDF27C
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xDDF358
+    // [InjectAttribute] Offset: 0xDDF28C
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
@@ -48,16 +48,16 @@ namespace Zenject {
     // Creating value type constructor for type: ProjectKernel
     ProjectKernel(Zenject::ZenjectSettings* settings_ = {}, Zenject::SceneContextRegistry* contextRegistry_ = {}) noexcept : settings{settings_}, contextRegistry{contextRegistry_} {}
     // public System.Void OnApplicationQuit()
-    // Offset: 0x16CB3E4
+    // Offset: 0x16E20F4
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x16CB408
+    // Offset: 0x16E2118
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x16CB4B0
+    // Offset: 0x16E21C0
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x16CB7EC
+    // Offset: 0x16E24FC
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -74,5 +74,43 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ProjectKernel), 64 + sizeof(Zenject::SceneContextRegistry*)> __Zenject_ProjectKernelSizeCheck;
   static_assert(sizeof(ProjectKernel) == 0x48);
+  // Writing MetadataGetter for method: ProjectKernel::OnApplicationQuit
+  // Il2CppName: OnApplicationQuit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::OnApplicationQuit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ProjectKernel::DestroyEverythingInOrder
+  // Il2CppName: DestroyEverythingInOrder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::DestroyEverythingInOrder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), "DestroyEverythingInOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ProjectKernel::ForceUnloadAllScenes
+  // Il2CppName: ForceUnloadAllScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)(bool)>(&ProjectKernel::ForceUnloadAllScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), "ForceUnloadAllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProjectKernel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");

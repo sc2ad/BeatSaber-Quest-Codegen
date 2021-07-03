@@ -21,17 +21,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameServerBrowserStackedController
     GameServerBrowserStackedController() noexcept {}
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x103C4C0
+    // Offset: 0x108114C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x103C4C4
+    // Offset: 0x1081150
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x103C4C8
+    // Offset: 0x1081154
     // Implemented from: HMUI.StackedController
     // Base method: System.Void StackedController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()
@@ -48,5 +48,35 @@ namespace GlobalNamespace {
     }
   }; // GameServerBrowserStackedController
   #pragma pack(pop)
+  // Writing MetadataGetter for method: GameServerBrowserStackedController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerBrowserStackedController::*)(bool, bool, bool)>(&GameServerBrowserStackedController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerBrowserStackedController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerBrowserStackedController::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerBrowserStackedController::*)(bool, bool)>(&GameServerBrowserStackedController::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerBrowserStackedController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerBrowserStackedController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerBrowserStackedController::*)()>(&GameServerBrowserStackedController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerBrowserStackedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerBrowserStackedController::*)()>(&GameServerBrowserStackedController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerBrowserStackedController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserStackedController*, "", "GameServerBrowserStackedController");

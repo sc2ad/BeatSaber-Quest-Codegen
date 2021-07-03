@@ -68,39 +68,117 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Creating value type constructor for type: ScalarSplitParameters
     ScalarSplitParameters(Org::BouncyCastle::Math::BigInteger* m_v1A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v1B_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2A_ = {}, Org::BouncyCastle::Math::BigInteger* m_v2B_ = {}, Org::BouncyCastle::Math::BigInteger* m_g1_ = {}, Org::BouncyCastle::Math::BigInteger* m_g2_ = {}, int m_bits_ = {}) noexcept : m_v1A{m_v1A_}, m_v1B{m_v1B_}, m_v2A{m_v2A_}, m_v2B{m_v2B_}, m_g1{m_g1_}, m_g2{m_g2_}, m_bits{m_bits_} {}
     // static private System.Void CheckVector(Org.BouncyCastle.Math.BigInteger[] v, System.String name)
-    // Offset: 0x213626C
+    // Offset: 0x2151FC8
     static void CheckVector(::Array<Org::BouncyCastle::Math::BigInteger*>* v, ::Il2CppString* name);
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger[] v1, Org.BouncyCastle.Math.BigInteger[] v2, Org.BouncyCastle.Math.BigInteger g1, Org.BouncyCastle.Math.BigInteger g2, System.Int32 bits)
-    // Offset: 0x2136318
+    // Offset: 0x2152074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScalarSplitParameters* New_ctor(::Array<Org::BouncyCastle::Math::BigInteger*>* v1, ::Array<Org::BouncyCastle::Math::BigInteger*>* v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScalarSplitParameters*, creationType>(v1, v2, g1, g2, bits)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_V1A()
-    // Offset: 0x2136420
+    // Offset: 0x215217C
     Org::BouncyCastle::Math::BigInteger* get_V1A();
     // public Org.BouncyCastle.Math.BigInteger get_V1B()
-    // Offset: 0x2136428
+    // Offset: 0x2152184
     Org::BouncyCastle::Math::BigInteger* get_V1B();
     // public Org.BouncyCastle.Math.BigInteger get_V2A()
-    // Offset: 0x2136430
+    // Offset: 0x215218C
     Org::BouncyCastle::Math::BigInteger* get_V2A();
     // public Org.BouncyCastle.Math.BigInteger get_V2B()
-    // Offset: 0x2136438
+    // Offset: 0x2152194
     Org::BouncyCastle::Math::BigInteger* get_V2B();
     // public Org.BouncyCastle.Math.BigInteger get_G1()
-    // Offset: 0x2136440
+    // Offset: 0x215219C
     Org::BouncyCastle::Math::BigInteger* get_G1();
     // public Org.BouncyCastle.Math.BigInteger get_G2()
-    // Offset: 0x2136448
+    // Offset: 0x21521A4
     Org::BouncyCastle::Math::BigInteger* get_G2();
     // public System.Int32 get_Bits()
-    // Offset: 0x2136450
+    // Offset: 0x21521AC
     int get_Bits();
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
   #pragma pack(pop)
   static check_size<sizeof(ScalarSplitParameters), 64 + sizeof(int)> __Org_BouncyCastle_Math_EC_Endo_ScalarSplitParametersSizeCheck;
   static_assert(sizeof(ScalarSplitParameters) == 0x44);
+  // Writing MetadataGetter for method: ScalarSplitParameters::CheckVector
+  // Il2CppName: CheckVector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<Org::BouncyCastle::Math::BigInteger*>*, ::Il2CppString*)>(&ScalarSplitParameters::CheckVector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "CheckVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScalarSplitParameters::*)(::Array<Org::BouncyCastle::Math::BigInteger*>*, ::Array<Org::BouncyCastle::Math::BigInteger*>*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, int)>(&ScalarSplitParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScalarSplitParameters::*)(::Array<Org::BouncyCastle::Math::BigInteger*>*, ::Array<Org::BouncyCastle::Math::BigInteger*>*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, int)>(&ScalarSplitParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_V1A
+  // Il2CppName: get_V1A
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_V1A)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_V1A", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_V1B
+  // Il2CppName: get_V1B
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_V1B)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_V1B", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_V2A
+  // Il2CppName: get_V2A
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_V2A)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_V2A", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_V2B
+  // Il2CppName: get_V2B
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_V2B)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_V2B", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_G1
+  // Il2CppName: get_G1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_G1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_G1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_G2
+  // Il2CppName: get_G2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_G2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_G2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScalarSplitParameters::get_Bits
+  // Il2CppName: get_Bits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ScalarSplitParameters::*)()>(&ScalarSplitParameters::get_Bits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScalarSplitParameters*), "get_Bits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, "Org.BouncyCastle.Math.EC.Endo", "ScalarSplitParameters");

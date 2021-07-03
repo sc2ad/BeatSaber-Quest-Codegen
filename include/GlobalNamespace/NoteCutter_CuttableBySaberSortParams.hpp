@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CuttableBySaberSortParams
     CuttableBySaberSortParams(GlobalNamespace::CuttableBySaber* cuttableBySaber_ = {}, float distance_ = {}, UnityEngine::Vector3 pos_ = {}) noexcept : cuttableBySaber{cuttableBySaber_}, distance{distance_}, pos{pos_} {}
     // public System.Void .ctor()
-    // Offset: 0x11BB7F4
+    // Offset: 0x11D6148
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
   static_assert(sizeof(NoteCutter::CuttableBySaberSortParams) == 0x28);
+  // Writing MetadataGetter for method: NoteCutter::CuttableBySaberSortParams::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutter::CuttableBySaberSortParams::*)()>(&NoteCutter::CuttableBySaberSortParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutter::CuttableBySaberSortParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutter::CuttableBySaberSortParams::*)()>(&NoteCutter::CuttableBySaberSortParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutter::CuttableBySaberSortParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");

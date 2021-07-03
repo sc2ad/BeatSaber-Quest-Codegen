@@ -43,18 +43,40 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return m_topLevelAssembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly topLevelAssembly)
-    // Offset: 0x15F8CD4
+    // Offset: 0x16119E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader::TopLevelAssemblyTypeResolver* New_ctor(System::Reflection::Assembly* topLevelAssembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader::TopLevelAssemblyTypeResolver*, creationType>(topLevelAssembly)));
     }
     // public System.Type ResolveType(System.Reflection.Assembly assembly, System.String simpleTypeName, System.Boolean ignoreCase)
-    // Offset: 0x15F8D00
+    // Offset: 0x1611A10
     System::Type* ResolveType(System::Reflection::Assembly* assembly, ::Il2CppString* simpleTypeName, bool ignoreCase);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TopLevelAssemblyTypeResolver
   #pragma pack(pop)
   static check_size<sizeof(ObjectReader::TopLevelAssemblyTypeResolver), 16 + sizeof(System::Reflection::Assembly*)> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TopLevelAssemblyTypeResolverSizeCheck;
   static_assert(sizeof(ObjectReader::TopLevelAssemblyTypeResolver) == 0x18);
+  // Writing MetadataGetter for method: ObjectReader::TopLevelAssemblyTypeResolver::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::TopLevelAssemblyTypeResolver::*)(System::Reflection::Assembly*)>(&ObjectReader::TopLevelAssemblyTypeResolver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader::TopLevelAssemblyTypeResolver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::TopLevelAssemblyTypeResolver::*)(System::Reflection::Assembly*)>(&ObjectReader::TopLevelAssemblyTypeResolver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader::TopLevelAssemblyTypeResolver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::TopLevelAssemblyTypeResolver::ResolveType
+  // Il2CppName: ResolveType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ObjectReader::TopLevelAssemblyTypeResolver::*)(System::Reflection::Assembly*, ::Il2CppString*, bool)>(&ObjectReader::TopLevelAssemblyTypeResolver::ResolveType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader::TopLevelAssemblyTypeResolver*), "ResolveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TopLevelAssemblyTypeResolver");

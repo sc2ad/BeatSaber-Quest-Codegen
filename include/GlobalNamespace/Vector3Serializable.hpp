@@ -67,22 +67,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::Vector3Serializable>*>(this);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF20578
+    // Offset: 0xF21530
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF20580
+    // Offset: 0xF21538
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0xF20588
+    // Offset: 0xF21540
     bool Equals(GlobalNamespace::Vector3Serializable other);
     // public System.Boolean Approximately(Vector3Serializable other)
-    // Offset: 0xF205BC
+    // Offset: 0xF21574
     bool Approximately(GlobalNamespace::Vector3Serializable other);
     // public System.Int32 GetSize()
-    // Offset: 0xF20600
+    // Offset: 0xF215B8
     int GetSize();
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0xF20608
+    // Offset: 0xF215C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector3Serializable(UnityEngine::Vector3 v) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, v);
     }
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF20610
+    // Offset: 0xF215C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     Vector3Serializable(LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Vector3Serializable::.ctor");
@@ -98,17 +98,17 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, reader);
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF205C8
+    // Offset: 0xF21580
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF205D0
+    // Offset: 0xF21588
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0xF205F8
+    // Offset: 0xF215B0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -117,10 +117,118 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3Serializable), 8 + sizeof(int)> __GlobalNamespace_Vector3SerializableSizeCheck;
   static_assert(sizeof(Vector3Serializable) == 0xC);
   // static public Vector3Serializable op_Addition(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2330898
+  // Offset: 0x234A5F4
   GlobalNamespace::Vector3Serializable operator+(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
   // static public Vector3Serializable op_Subtraction(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2330934
+  // Offset: 0x234A690
   GlobalNamespace::Vector3Serializable operator-(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
+  // Writing MetadataGetter for method: Vector3Serializable::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&Vector3Serializable::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector3Serializable::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector3Serializable::*)(GlobalNamespace::Vector3Serializable)>(&Vector3Serializable::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector3Serializable>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::Approximately
+  // Il2CppName: Approximately
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector3Serializable::*)(GlobalNamespace::Vector3Serializable)>(&Vector3Serializable::Approximately)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector3Serializable>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::GetSize
+  // Il2CppName: GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector3Serializable::*)()>(&Vector3Serializable::GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::Vector3Serializable
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(UnityEngine::Vector3)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(UnityEngine::Vector3)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::Vector3Serializable
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector3Serializable::*)(::Il2CppObject*)>(&Vector3Serializable::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector3Serializable::*)()>(&Vector3Serializable::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Vector3Serializable::*)()>(&Vector3Serializable::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::operator+
+  // Il2CppName: op_Addition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Vector3Serializable (*)(const GlobalNamespace::Vector3Serializable&, const GlobalNamespace::Vector3Serializable&)>(&Vector3Serializable::operator+)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3Serializable::operator-
+  // Il2CppName: op_Subtraction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Vector3Serializable (*)(const GlobalNamespace::Vector3Serializable&, const GlobalNamespace::Vector3Serializable&)>(&Vector3Serializable::operator-)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Serializable, "", "Vector3Serializable");

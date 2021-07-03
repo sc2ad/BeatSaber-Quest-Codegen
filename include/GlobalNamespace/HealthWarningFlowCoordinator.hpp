@@ -53,21 +53,21 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HealthWarningFlowCoordinator::InitData
     class InitData;
-    // [InjectAttribute] Offset: 0xE22724
+    // [InjectAttribute] Offset: 0xE22700
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22734
+    // [InjectAttribute] Offset: 0xE22710
     // private readonly DlcPromoExperimentModel _dlcPromoExperimentModel
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE22744
+    // [SpaceAttribute] Offset: 0xE22720
     // private EulaViewController _eulaViewController
     // Size: 0x8
     // Offset: 0xB8
@@ -98,35 +98,35 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE227BC
+    // [SpaceAttribute] Offset: 0xE22798
     // private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE227F4
+    // [InjectAttribute] Offset: 0xE227D0
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22804
+    // [InjectAttribute] Offset: 0xE227E0
     // private readonly FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22814
+    // [InjectAttribute] Offset: 0xE227F0
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22824
+    // [InjectAttribute] Offset: 0xE22800
     // private readonly HealthWarningFlowCoordinator/InitData _initData
     // Size: 0x8
     // Offset: 0x100
@@ -142,57 +142,57 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningFlowCoordinator
     HealthWarningFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel_ = {}, GlobalNamespace::EulaViewController* eulaViewController_ = {}, GlobalNamespace::HealthWarningViewController* healthWarningViewController_ = {}, GlobalNamespace::PrivacyPolicyViewController* privacyPolicyViewController_ = {}, GlobalNamespace::SelectLanguageViewController* selectLanguageViewController_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* appInitScenesTransitionSetupDataContainer_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, GlobalNamespace::FadeInOutController* fadeInOut_ = {}, GlobalNamespace::GameScenesManager* gameScenesManager_ = {}, GlobalNamespace::HealthWarningFlowCoordinator::InitData* initData_ = {}, System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles_ = {}) noexcept : playerDataModel{playerDataModel_}, dlcPromoExperimentModel{dlcPromoExperimentModel_}, eulaViewController{eulaViewController_}, healthWarningViewController{healthWarningViewController_}, privacyPolicyViewController{privacyPolicyViewController_}, selectLanguageViewController{selectLanguageViewController_}, mainSettingsModel{mainSettingsModel_}, appInitScenesTransitionSetupDataContainer{appInitScenesTransitionSetupDataContainer_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, fadeInOut{fadeInOut_}, gameScenesManager{gameScenesManager_}, initData{initData_}, viewControllerTitles{viewControllerTitles_} {}
     // private HMUI.ViewController GetEulaOrHealthWarningViewController()
-    // Offset: 0x1061238
+    // Offset: 0x10BBE08
     HMUI::ViewController* GetEulaOrHealthWarningViewController();
     // protected System.Void Update()
-    // Offset: 0x106168C
+    // Offset: 0x10BC25C
     void Update();
     // private System.Void HandleSelectLanguageViewControllerDidChangeLanguage()
-    // Offset: 0x10616CC
+    // Offset: 0x10BC29C
     void HandleSelectLanguageViewControllerDidChangeLanguage();
     // private System.Void HandleSelectLanguageViewControllerDidPressContinueButton()
-    // Offset: 0x1061754
+    // Offset: 0x10BC324
     void HandleSelectLanguageViewControllerDidPressContinueButton();
     // private System.Void HandleEulaViewControllerDidFinish(System.Boolean agreed)
-    // Offset: 0x10617AC
+    // Offset: 0x10BC37C
     void HandleEulaViewControllerDidFinish(bool agreed);
     // private System.Void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed()
-    // Offset: 0x1061820
+    // Offset: 0x10BC3F0
     void HandleHealthWarningViewControllerPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed()
-    // Offset: 0x1061838
+    // Offset: 0x10BC408
     void HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed();
     // private System.Void HandleHealthWarningViewControllerDidFinish()
-    // Offset: 0x10616C8
+    // Offset: 0x10BC298
     void HandleHealthWarningViewControllerDidFinish();
     // private System.Void GoToNextScene()
-    // Offset: 0x106190C
+    // Offset: 0x10BC4DC
     void GoToNextScene();
     // private System.Void <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__23_0(System.Int32 button)
-    // Offset: 0x1061A1C
+    // Offset: 0x10BC5EC
     void $HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__23_0(int button);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1060D04
+    // Offset: 0x10BB8D4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1061270
+    // Offset: 0x10BBE40
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x10615B8
+    // Offset: 0x10BC188
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x1061968
+    // Offset: 0x10BC538
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // public System.Void .ctor()
-    // Offset: 0x1061A14
+    // Offset: 0x10BC5E4
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -209,5 +209,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HealthWarningFlowCoordinator), 264 + sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*)> __GlobalNamespace_HealthWarningFlowCoordinatorSizeCheck;
   static_assert(sizeof(HealthWarningFlowCoordinator) == 0x110);
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::GetEulaOrHealthWarningViewController
+  // Il2CppName: GetEulaOrHealthWarningViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::GetEulaOrHealthWarningViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "GetEulaOrHealthWarningViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidChangeLanguage
+  // Il2CppName: HandleSelectLanguageViewControllerDidChangeLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidChangeLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "HandleSelectLanguageViewControllerDidChangeLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidPressContinueButton
+  // Il2CppName: HandleSelectLanguageViewControllerDidPressContinueButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidPressContinueButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "HandleSelectLanguageViewControllerDidPressContinueButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::HandleEulaViewControllerDidFinish
+  // Il2CppName: HandleEulaViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)(bool)>(&HealthWarningFlowCoordinator::HandleEulaViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "HandleEulaViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::HandleHealthWarningViewControllerPrivacyPolicyButtonPressed
+  // Il2CppName: HandleHealthWarningViewControllerPrivacyPolicyButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::HandleHealthWarningViewControllerPrivacyPolicyButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "HandleHealthWarningViewControllerPrivacyPolicyButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed
+  // Il2CppName: HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::HandleHealthWarningViewControllerDidFinish
+  // Il2CppName: HandleHealthWarningViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::HandleHealthWarningViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "HandleHealthWarningViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::GoToNextScene
+  // Il2CppName: GoToNextScene
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::GoToNextScene)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "GoToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::$HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__23_0
+  // Il2CppName: <HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__23_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)(int)>(&HealthWarningFlowCoordinator::$HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed$b__23_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "<HandleHealthWarningViewControllerOpenDataPrivacyPolicyButtonPressed>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)(bool, bool, bool)>(&HealthWarningFlowCoordinator::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)(bool, bool)>(&HealthWarningFlowCoordinator::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::TopViewControllerWillChange
+  // Il2CppName: TopViewControllerWillChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HealthWarningFlowCoordinator::TopViewControllerWillChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::BackButtonWasPressed
+  // Il2CppName: BackButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)(HMUI::ViewController*)>(&HealthWarningFlowCoordinator::BackButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningFlowCoordinator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningFlowCoordinator::*)()>(&HealthWarningFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");

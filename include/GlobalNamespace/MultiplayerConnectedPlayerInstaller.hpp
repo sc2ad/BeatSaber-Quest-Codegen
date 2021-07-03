@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* connectedPlayerNoteEventManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1CE80
+    // [SpaceAttribute] Offset: 0xE1CE5C
     // private MultiplayerConnectedPlayerGameNoteController _multiplayerGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x30
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1CED8
+    // [SpaceAttribute] Offset: 0xE1CEB4
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
     // Size: 0x8
     // Offset: 0x48
@@ -89,14 +89,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1CF20
+    // [InjectAttribute] Offset: 0xE1CEFC
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1CF30
+    // [InjectAttribute] Offset: 0xE1CF0C
     // private readonly MultiplayerPlayerStartState _localPlayerStartState
     // Size: 0x4
     // Offset: 0x60
@@ -105,14 +105,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
     // Padding between fields: localPlayerStartState and: sceneSetupData
     char __padding8[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1CF40
+    // [InjectAttribute] Offset: 0xE1CF1C
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x68
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1CF50
+    // [InjectAttribute] Offset: 0xE1CF2C
     // private readonly PlayersSpecificSettingsAtGameStartModel _playersSpecificSettingsAtGameStartModel
     // Size: 0x8
     // Offset: 0x70
@@ -122,12 +122,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerConnectedPlayerInstaller
     MultiplayerConnectedPlayerInstaller(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* connectedPlayerAudioTimeSyncControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager* connectedPlayerNoteEventManagerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* multiplayerGameNoteControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* multiplayerBombNoteControllerPrefab_ = {}, GlobalNamespace::MultiplayerConnectedPlayerObstacleController* multiplayerObstacleControllerPrefab_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::IConnectedPlayer* connectedPlayer_ = {}, GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel_ = {}) noexcept : connectedPlayerAudioTimeSyncControllerPrefab{connectedPlayerAudioTimeSyncControllerPrefab_}, connectedPlayerNoteEventManagerPrefab{connectedPlayerNoteEventManagerPrefab_}, multiplayerGameNoteControllerPrefab{multiplayerGameNoteControllerPrefab_}, multiplayerBombNoteControllerPrefab{multiplayerBombNoteControllerPrefab_}, multiplayerObstacleControllerPrefab{multiplayerObstacleControllerPrefab_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, connectedPlayer{connectedPlayer_}, localPlayerStartState{localPlayerStartState_}, sceneSetupData{sceneSetupData_}, playersSpecificSettingsAtGameStartModel{playersSpecificSettingsAtGameStartModel_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1147478
+    // Offset: 0x114CCE0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x11484D8
+    // Offset: 0x114DD40
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -145,5 +145,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerInstaller), 112 + sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)> __GlobalNamespace_MultiplayerConnectedPlayerInstallerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerInstaller) == 0x78);
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerInstaller::*)()>(&MultiplayerConnectedPlayerInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerInstaller::*)()>(&MultiplayerConnectedPlayerInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerInstaller::*)()>(&MultiplayerConnectedPlayerInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerInstaller*, "", "MultiplayerConnectedPlayerInstaller");

@@ -34,6 +34,22 @@ namespace MasterServer {
     System::Threading::Tasks::Task* DelayMs(int millis, System::Threading::CancellationToken cancellationToken);
   }; // MasterServer.ITimeProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ITimeProvider::GetTimeMs
+  // Il2CppName: GetTimeMs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ITimeProvider::*)()>(&ITimeProvider::GetTimeMs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITimeProvider*), "GetTimeMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ITimeProvider::DelayMs
+  // Il2CppName: DelayMs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (ITimeProvider::*)(int, System::Threading::CancellationToken)>(&ITimeProvider::DelayMs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ITimeProvider*, "MasterServer", "ITimeProvider");

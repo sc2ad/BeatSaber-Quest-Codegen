@@ -29,19 +29,51 @@ namespace Org::BouncyCastle::OpenSsl {
     // Creating value type constructor for type: PemUtilities
     PemUtilities() noexcept {}
     // static private System.Void .cctor()
-    // Offset: 0x13295E8
+    // Offset: 0x13442F8
     static void _cctor();
     // static private System.Void ParseDekAlgName(System.String dekAlgName, out Org.BouncyCastle.OpenSsl.PemUtilities/PemBaseAlg baseAlg, out Org.BouncyCastle.OpenSsl.PemUtilities/PemMode mode)
-    // Offset: 0x1329718
+    // Offset: 0x1344428
     static void ParseDekAlgName(::Il2CppString* dekAlgName, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg& baseAlg, Org::BouncyCastle::OpenSsl::PemUtilities::PemMode& mode);
     // static System.Byte[] Crypt(System.Boolean encrypt, System.Byte[] bytes, System.Char[] password, System.String dekAlgName, System.Byte[] iv)
-    // Offset: 0x1329158
+    // Offset: 0x1343E68
     static ::Array<uint8_t>* Crypt(bool encrypt, ::Array<uint8_t>* bytes, ::Array<::Il2CppChar>* password, ::Il2CppString* dekAlgName, ::Array<uint8_t>* iv);
     // static private Org.BouncyCastle.Crypto.ICipherParameters GetCipherParameters(System.Char[] password, Org.BouncyCastle.OpenSsl.PemUtilities/PemBaseAlg baseAlg, System.Byte[] salt)
-    // Offset: 0x132B61C
+    // Offset: 0x134632C
     static Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::Array<::Il2CppChar>* password, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg baseAlg, ::Array<uint8_t>* salt);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PemUtilities::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PemUtilities::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PemUtilities::ParseDekAlgName
+  // Il2CppName: ParseDekAlgName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&, Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&)>(&PemUtilities::ParseDekAlgName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemUtilities*), "ParseDekAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemUtilities::Crypt
+  // Il2CppName: Crypt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(bool, ::Array<uint8_t>*, ::Array<::Il2CppChar>*, ::Il2CppString*, ::Array<uint8_t>*)>(&PemUtilities::Crypt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemUtilities*), "Crypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemUtilities::GetCipherParameters
+  // Il2CppName: GetCipherParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, ::Array<uint8_t>*)>(&PemUtilities::GetCipherParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemUtilities*), "GetCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemUtilities*, "Org.BouncyCastle.OpenSsl", "PemUtilities");

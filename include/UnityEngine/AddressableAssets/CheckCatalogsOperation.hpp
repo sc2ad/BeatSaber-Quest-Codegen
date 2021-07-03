@@ -60,36 +60,90 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: CheckCatalogsOperation
     CheckCatalogsOperation(UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* m_LocalHashes_ = {}, System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* m_LocatorInfos_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp_ = {}) noexcept : m_Addressables{m_Addressables_}, m_LocalHashes{m_LocalHashes_}, m_LocatorInfos{m_LocatorInfos_}, m_DepOp{m_DepOp_} {}
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl aa)
-    // Offset: 0x13D2C18
+    // Offset: 0x13ED928
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CheckCatalogsOperation* New_ctor(UnityEngine::AddressableAssets::AddressablesImpl* aa) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::CheckCatalogsOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CheckCatalogsOperation*, creationType>(aa)));
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.List`1<System.String>> Start(System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/ResourceLocatorInfo> locatorInfos)
-    // Offset: 0x13D2C7C
+    // Offset: 0x13ED98C
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> Start(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>* locatorInfos);
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x13D5FA4
+    // Offset: 0x13F0CB4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Destroy()
-    // Offset: 0x13D60BC
+    // Offset: 0x13F0DCC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Destroy()
     void Destroy();
     // protected override System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> dependencies)
-    // Offset: 0x13D6144
+    // Offset: 0x13F0E54
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> dependencies)
     void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
     // protected override System.Void Execute()
-    // Offset: 0x13D61F0
+    // Offset: 0x13F0F00
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
   }; // UnityEngine.AddressableAssets.CheckCatalogsOperation
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: CheckCatalogsOperation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CheckCatalogsOperation::*)(UnityEngine::AddressableAssets::AddressablesImpl*)>(&CheckCatalogsOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CheckCatalogsOperation::*)(UnityEngine::AddressableAssets::AddressablesImpl*)>(&CheckCatalogsOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CheckCatalogsOperation::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::List_1<::Il2CppString*>*> (CheckCatalogsOperation::*)(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>*)>(&CheckCatalogsOperation::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CheckCatalogsOperation::InvokeWaitForCompletion
+  // Il2CppName: InvokeWaitForCompletion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CheckCatalogsOperation::*)()>(&CheckCatalogsOperation::InvokeWaitForCompletion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CheckCatalogsOperation::Destroy
+  // Il2CppName: Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CheckCatalogsOperation::*)()>(&CheckCatalogsOperation::Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CheckCatalogsOperation::GetDependencies
+  // Il2CppName: GetDependencies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CheckCatalogsOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&CheckCatalogsOperation::GetDependencies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CheckCatalogsOperation::Execute
+  // Il2CppName: Execute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CheckCatalogsOperation::*)()>(&CheckCatalogsOperation::Execute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CheckCatalogsOperation*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::CheckCatalogsOperation*, "UnityEngine.AddressableAssets", "CheckCatalogsOperation");

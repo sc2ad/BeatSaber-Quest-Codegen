@@ -38,14 +38,14 @@ namespace TMPro {
       return sprite;
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex, UnityEngine.Sprite sprite)
-    // Offset: 0x11596F0
+    // Offset: 0x1170EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteGlyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex, UnityEngine::Sprite* sprite) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SpriteGlyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteGlyph*, creationType>(index, metrics, glyphRect, scale, atlasIndex, sprite)));
     }
     // public System.Void .ctor()
-    // Offset: 0x11593C0
+    // Offset: 0x1170BBC
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -55,7 +55,7 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteGlyph*, creationType>()));
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
-    // Offset: 0x1159630
+    // Offset: 0x1170E2C
     // Implemented from: UnityEngine.TextCore.Glyph
     // Base method: System.Void Glyph::.ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,5 +67,47 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_SpriteGlyph), 64 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_SpriteGlyphSizeCheck;
   static_assert(sizeof(TMP_SpriteGlyph) == 0x48);
+  // Writing MetadataGetter for method: TMP_SpriteGlyph::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteGlyph::*)(uint, UnityEngine::TextCore::GlyphMetrics, UnityEngine::TextCore::GlyphRect, float, int, UnityEngine::Sprite*)>(&TMP_SpriteGlyph::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteGlyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphMetrics>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphRect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteGlyph::*)(uint, UnityEngine::TextCore::GlyphMetrics, UnityEngine::TextCore::GlyphRect, float, int, UnityEngine::Sprite*)>(&TMP_SpriteGlyph::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteGlyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphMetrics>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphRect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_SpriteGlyph::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteGlyph::*)()>(&TMP_SpriteGlyph::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteGlyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteGlyph::*)()>(&TMP_SpriteGlyph::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteGlyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_SpriteGlyph::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteGlyph::*)(uint, UnityEngine::TextCore::GlyphMetrics, UnityEngine::TextCore::GlyphRect, float, int)>(&TMP_SpriteGlyph::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteGlyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphMetrics>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphRect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteGlyph::*)(uint, UnityEngine::TextCore::GlyphMetrics, UnityEngine::TextCore::GlyphRect, float, int)>(&TMP_SpriteGlyph::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_SpriteGlyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphMetrics>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphRect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");

@@ -39,24 +39,24 @@ namespace Org::BouncyCastle::Asn1 {
       return str;
     }
     // System.Void .ctor(System.Char[] str)
-    // Offset: 0x16DC2B4
+    // Offset: 0x16F2FC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerBmpString* New_ctor(::Array<::Il2CppChar>* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBmpString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBmpString*, creationType>(str)));
     }
     // public override System.String GetString()
-    // Offset: 0x16E8390
+    // Offset: 0x16FF0A0
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
     ::Il2CppString* GetString();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16E8398
+    // Offset: 0x16FF0A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16E844C
+    // Offset: 0x16FF15C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
@@ -64,5 +64,43 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
   static check_size<sizeof(DerBmpString), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerBmpStringSizeCheck;
   static_assert(sizeof(DerBmpString) == 0x18);
+  // Writing MetadataGetter for method: DerBmpString::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBmpString::*)(::Array<::Il2CppChar>*)>(&DerBmpString::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerBmpString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBmpString::*)(::Array<::Il2CppChar>*)>(&DerBmpString::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerBmpString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerBmpString::GetString
+  // Il2CppName: GetString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerBmpString::*)()>(&DerBmpString::GetString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerBmpString*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerBmpString::Asn1Equals
+  // Il2CppName: Asn1Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerBmpString::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerBmpString::Asn1Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerBmpString*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerBmpString::Encode
+  // Il2CppName: Encode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerBmpString::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerBmpString::Encode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerBmpString*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBmpString*, "Org.BouncyCastle.Asn1", "DerBmpString");

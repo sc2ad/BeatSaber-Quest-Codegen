@@ -34,22 +34,60 @@ namespace System {
     // Creating value type constructor for type: MatchNumberDelegate
     MatchNumberDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AE6AA8
+    // Offset: 0x1B027B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DateTimeParse::MatchNumberDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DateTimeParse::MatchNumberDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DateTimeParse::MatchNumberDelegate*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(ref System.__DTString str, System.Int32 digitLen, out System.Int32 result)
-    // Offset: 0x1AE6068
+    // Offset: 0x1B01D78
     bool Invoke(System::__DTString& str, int digitLen, int& result);
     // public System.IAsyncResult BeginInvoke(ref System.__DTString str, System.Int32 digitLen, out System.Int32 result, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AE6AB8
+    // Offset: 0x1B027C8
     System::IAsyncResult* BeginInvoke(System::__DTString& str, int digitLen, int& result, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.__DTString str, out System.Int32 result, System.IAsyncResult __result)
-    // Offset: 0x1AE6B84
+    // Offset: 0x1B02894
     bool EndInvoke(System::__DTString& str, int& result, System::IAsyncResult* __result);
   }; // System.DateTimeParse/MatchNumberDelegate
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DateTimeParse::MatchNumberDelegate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeParse::MatchNumberDelegate::*)(::Il2CppObject*, System::IntPtr)>(&DateTimeParse::MatchNumberDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeParse::MatchNumberDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeParse::MatchNumberDelegate::*)(::Il2CppObject*, System::IntPtr)>(&DateTimeParse::MatchNumberDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeParse::MatchNumberDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeParse::MatchNumberDelegate::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DateTimeParse::MatchNumberDelegate::*)(System::__DTString&, int, int&)>(&DateTimeParse::MatchNumberDelegate::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeParse::MatchNumberDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::__DTString&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeParse::MatchNumberDelegate::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (DateTimeParse::MatchNumberDelegate::*)(System::__DTString&, int, int&, System::AsyncCallback*, ::Il2CppObject*)>(&DateTimeParse::MatchNumberDelegate::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeParse::MatchNumberDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::__DTString&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeParse::MatchNumberDelegate::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DateTimeParse::MatchNumberDelegate::*)(System::__DTString&, int&, System::IAsyncResult*)>(&DateTimeParse::MatchNumberDelegate::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeParse::MatchNumberDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::__DTString&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::MatchNumberDelegate*, "System", "DateTimeParse/MatchNumberDelegate");

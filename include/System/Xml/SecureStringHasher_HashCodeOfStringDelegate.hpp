@@ -32,22 +32,60 @@ namespace System::Xml {
     // Creating value type constructor for type: HashCodeOfStringDelegate
     HashCodeOfStringDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x191A5DC
+    // Offset: 0x19322EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureStringHasher::HashCodeOfStringDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::SecureStringHasher::HashCodeOfStringDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureStringHasher::HashCodeOfStringDelegate*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
-    // Offset: 0x191A128
+    // Offset: 0x1931E38
     int Invoke(::Il2CppString* s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x191A5EC
+    // Offset: 0x19322FC
     System::IAsyncResult* BeginInvoke(::Il2CppString* s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x191A6A4
+    // Offset: 0x19323B4
     int EndInvoke(System::IAsyncResult* result);
   }; // System.Xml.SecureStringHasher/HashCodeOfStringDelegate
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SecureStringHasher::HashCodeOfStringDelegate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecureStringHasher::HashCodeOfStringDelegate::*)(::Il2CppObject*, System::IntPtr)>(&SecureStringHasher::HashCodeOfStringDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureStringHasher::HashCodeOfStringDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecureStringHasher::HashCodeOfStringDelegate::*)(::Il2CppObject*, System::IntPtr)>(&SecureStringHasher::HashCodeOfStringDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureStringHasher::HashCodeOfStringDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SecureStringHasher::HashCodeOfStringDelegate::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SecureStringHasher::HashCodeOfStringDelegate::*)(::Il2CppString*, int, int64_t)>(&SecureStringHasher::HashCodeOfStringDelegate::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureStringHasher::HashCodeOfStringDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SecureStringHasher::HashCodeOfStringDelegate::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (SecureStringHasher::HashCodeOfStringDelegate::*)(::Il2CppString*, int, int64_t, System::AsyncCallback*, ::Il2CppObject*)>(&SecureStringHasher::HashCodeOfStringDelegate::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureStringHasher::HashCodeOfStringDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SecureStringHasher::HashCodeOfStringDelegate::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SecureStringHasher::HashCodeOfStringDelegate::*)(System::IAsyncResult*)>(&SecureStringHasher::HashCodeOfStringDelegate::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureStringHasher::HashCodeOfStringDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher::HashCodeOfStringDelegate*, "System.Xml", "SecureStringHasher/HashCodeOfStringDelegate");

@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: movementSensitivityThreshold and: saberManager
     char __padding4[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1F52C
+    // [InjectAttribute] Offset: 0xE1F508
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1F53C
+    // [CompilerGeneratedAttribute] Offset: 0xE1F518
     // private System.Action`1<System.Single> totalDistanceDidChangeEvent
     // Size: 0x8
     // Offset: 0x38
@@ -170,40 +170,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x10B128C
+    // Offset: 0x10B4568
     void add_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_totalDistanceDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x10B1330
+    // Offset: 0x10B460C
     void remove_totalDistanceDidChangeEvent(System::Action_1<float>* value);
     // public System.Single get_leftSaberMovementDistance()
-    // Offset: 0x10B13D4
+    // Offset: 0x10B46B0
     float get_leftSaberMovementDistance();
     // public System.Single get_rightSaberMovementDistance()
-    // Offset: 0x10B13DC
+    // Offset: 0x10B46B8
     float get_rightSaberMovementDistance();
     // public System.Single get_leftHandMovementDistance()
-    // Offset: 0x10B13E4
+    // Offset: 0x10B46C0
     float get_leftHandMovementDistance();
     // public System.Single get_rightHandMovementDistance()
-    // Offset: 0x10B13EC
+    // Offset: 0x10B46C8
     float get_rightHandMovementDistance();
     // public AveragingValueRecorder get_saberMovementAveragingValueRecorder()
-    // Offset: 0x10A3BBC
+    // Offset: 0x10A6E74
     GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
     // public AveragingValueRecorder get_handMovementAveragingValueRecorder()
-    // Offset: 0x10A3BD8
+    // Offset: 0x10A6E90
     GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
     // protected System.Void Awake()
-    // Offset: 0x10B13F4
+    // Offset: 0x10B46D0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10B14B4
+    // Offset: 0x10B4790
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10B14DC
+    // Offset: 0x10B47B8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10B188C
+    // Offset: 0x10B4B68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -219,5 +219,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SaberActivityCounter), 160 + sizeof(GlobalNamespace::MovementHistoryRecorder*)> __GlobalNamespace_SaberActivityCounterSizeCheck;
   static_assert(sizeof(SaberActivityCounter) == 0xA8);
+  // Writing MetadataGetter for method: SaberActivityCounter::add_totalDistanceDidChangeEvent
+  // Il2CppName: add_totalDistanceDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)(System::Action_1<float>*)>(&SaberActivityCounter::add_totalDistanceDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "add_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::remove_totalDistanceDidChangeEvent
+  // Il2CppName: remove_totalDistanceDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)(System::Action_1<float>*)>(&SaberActivityCounter::remove_totalDistanceDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "remove_totalDistanceDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::get_leftSaberMovementDistance
+  // Il2CppName: get_leftSaberMovementDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberActivityCounter::*)()>(&SaberActivityCounter::get_leftSaberMovementDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "get_leftSaberMovementDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::get_rightSaberMovementDistance
+  // Il2CppName: get_rightSaberMovementDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberActivityCounter::*)()>(&SaberActivityCounter::get_rightSaberMovementDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "get_rightSaberMovementDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::get_leftHandMovementDistance
+  // Il2CppName: get_leftHandMovementDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberActivityCounter::*)()>(&SaberActivityCounter::get_leftHandMovementDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "get_leftHandMovementDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::get_rightHandMovementDistance
+  // Il2CppName: get_rightHandMovementDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberActivityCounter::*)()>(&SaberActivityCounter::get_rightHandMovementDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "get_rightHandMovementDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::get_saberMovementAveragingValueRecorder
+  // Il2CppName: get_saberMovementAveragingValueRecorder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AveragingValueRecorder* (SaberActivityCounter::*)()>(&SaberActivityCounter::get_saberMovementAveragingValueRecorder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "get_saberMovementAveragingValueRecorder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::get_handMovementAveragingValueRecorder
+  // Il2CppName: get_handMovementAveragingValueRecorder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AveragingValueRecorder* (SaberActivityCounter::*)()>(&SaberActivityCounter::get_handMovementAveragingValueRecorder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "get_handMovementAveragingValueRecorder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)()>(&SaberActivityCounter::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)()>(&SaberActivityCounter::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)()>(&SaberActivityCounter::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityCounter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)()>(&SaberActivityCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityCounter::*)()>(&SaberActivityCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityCounter*, "", "SaberActivityCounter");

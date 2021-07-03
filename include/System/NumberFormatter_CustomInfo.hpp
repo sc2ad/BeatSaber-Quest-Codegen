@@ -123,16 +123,16 @@ namespace System {
     // Creating value type constructor for type: CustomInfo
     CustomInfo(bool UseGroup_ = {}, int DecimalDigits_ = {}, int DecimalPointPos_ = {}, int DecimalTailSharpDigits_ = {}, int IntegerDigits_ = {}, int IntegerHeadSharpDigits_ = {}, int IntegerHeadPos_ = {}, bool UseExponent_ = {}, int ExponentDigits_ = {}, int ExponentTailSharpDigits_ = {}, bool ExponentNegativeSignOnly_ = {}, int DividePlaces_ = {}, int Percents_ = {}, int Permilles_ = {}) noexcept : UseGroup{UseGroup_}, DecimalDigits{DecimalDigits_}, DecimalPointPos{DecimalPointPos_}, DecimalTailSharpDigits{DecimalTailSharpDigits_}, IntegerDigits{IntegerDigits_}, IntegerHeadSharpDigits{IntegerHeadSharpDigits_}, IntegerHeadPos{IntegerHeadPos_}, UseExponent{UseExponent_}, ExponentDigits{ExponentDigits_}, ExponentTailSharpDigits{ExponentTailSharpDigits_}, ExponentNegativeSignOnly{ExponentNegativeSignOnly_}, DividePlaces{DividePlaces_}, Percents{Percents_}, Permilles{Permilles_} {}
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1813B34
+    // Offset: 0x182B844
     static void GetActiveSection(::Il2CppString* format, bool& positive, bool zero, int& offset, int& length);
     // static public System.NumberFormatter/CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1813E20
+    // Offset: 0x182BB30
     static System::NumberFormatter::CustomInfo* Parse(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
-    // Offset: 0x1814644
+    // Offset: 0x182C354
     ::Il2CppString* Format(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
-    // Offset: 0x1814FFC
+    // Offset: 0x182CD0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -144,5 +144,43 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(NumberFormatter::CustomInfo), 68 + sizeof(int)> __System_NumberFormatter_CustomInfoSizeCheck;
   static_assert(sizeof(NumberFormatter::CustomInfo) == 0x48);
+  // Writing MetadataGetter for method: NumberFormatter::CustomInfo::GetActiveSection
+  // Il2CppName: GetActiveSection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool&, bool, int&, int&)>(&NumberFormatter::CustomInfo::GetActiveSection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter::CustomInfo*), "GetActiveSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::CustomInfo::Parse
+  // Il2CppName: Parse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter::CustomInfo* (*)(::Il2CppString*, int, int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::CustomInfo::Parse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter::CustomInfo*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::CustomInfo::Format
+  // Il2CppName: Format
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::CustomInfo::*)(::Il2CppString*, int, int, System::Globalization::NumberFormatInfo*, bool, System::Text::StringBuilder*, System::Text::StringBuilder*, System::Text::StringBuilder*)>(&NumberFormatter::CustomInfo::Format)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter::CustomInfo*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::CustomInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::CustomInfo::*)()>(&NumberFormatter::CustomInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter::CustomInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::CustomInfo::*)()>(&NumberFormatter::CustomInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter::CustomInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");

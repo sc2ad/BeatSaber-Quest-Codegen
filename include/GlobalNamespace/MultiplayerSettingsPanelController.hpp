@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* connectionSettingsWrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24B00
+    // [InjectAttribute] Offset: 0xE24B94
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x38
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: refreshed and: playerActiveStateChangedEvent
     char __padding7[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE24B10
+    // [CompilerGeneratedAttribute] Offset: 0xE24BA4
     // private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     // Size: 0x8
     // Offset: 0x58
@@ -119,40 +119,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x23E7638
+    // Offset: 0x10121B4
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x23E76DC
+    // Offset: 0x1012258
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerDataModel lobbyPlayerDataModel)
-    // Offset: 0x23E7780
+    // Offset: 0x10122FC
     void SetLobbyPlayerDataModel(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerDataModel);
     // public System.Void HideConnectionSettings(System.Boolean hide)
-    // Offset: 0x23E78D8
+    // Offset: 0x1012454
     void HideConnectionSettings(bool hide);
     // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0x23E78FC
+    // Offset: 0x1012478
     void SetLobbyCode(::Il2CppString* code);
     // protected System.Void Awake()
-    // Offset: 0x23E7918
+    // Offset: 0x1012494
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x23E7A1C
+    // Offset: 0x1012598
     void OnDestroy();
     // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x23E7A30
+    // Offset: 0x10125AC
     void UpdateLocalPlayerIsActiveState(bool isActive);
     // private System.Void HandleJoinableToggleChange(System.Boolean value)
-    // Offset: 0x23E7AA8
+    // Offset: 0x1012624
     void HandleJoinableToggleChange(bool value);
     // public System.Void Refresh()
-    // Offset: 0x23E778C
+    // Offset: 0x1012308
     void Refresh();
     // private System.Void <Awake>b__14_0(System.Boolean on)
-    // Offset: 0x23E7ADC
+    // Offset: 0x1012658
     void $Awake$b__14_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x23E7AD4
+    // Offset: 0x1012650
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -168,5 +168,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerSettingsPanelController), 88 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_MultiplayerSettingsPanelControllerSizeCheck;
   static_assert(sizeof(MultiplayerSettingsPanelController) == 0x60);
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::add_playerActiveStateChangedEvent
+  // Il2CppName: add_playerActiveStateChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(System::Action_1<bool>*)>(&MultiplayerSettingsPanelController::add_playerActiveStateChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "add_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::remove_playerActiveStateChangedEvent
+  // Il2CppName: remove_playerActiveStateChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(System::Action_1<bool>*)>(&MultiplayerSettingsPanelController::remove_playerActiveStateChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "remove_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::SetLobbyPlayerDataModel
+  // Il2CppName: SetLobbyPlayerDataModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&MultiplayerSettingsPanelController::SetLobbyPlayerDataModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "SetLobbyPlayerDataModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::HideConnectionSettings
+  // Il2CppName: HideConnectionSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(bool)>(&MultiplayerSettingsPanelController::HideConnectionSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "HideConnectionSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::SetLobbyCode
+  // Il2CppName: SetLobbyCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(::Il2CppString*)>(&MultiplayerSettingsPanelController::SetLobbyCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "SetLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)()>(&MultiplayerSettingsPanelController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)()>(&MultiplayerSettingsPanelController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::UpdateLocalPlayerIsActiveState
+  // Il2CppName: UpdateLocalPlayerIsActiveState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(bool)>(&MultiplayerSettingsPanelController::UpdateLocalPlayerIsActiveState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "UpdateLocalPlayerIsActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::HandleJoinableToggleChange
+  // Il2CppName: HandleJoinableToggleChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(bool)>(&MultiplayerSettingsPanelController::HandleJoinableToggleChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "HandleJoinableToggleChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::Refresh
+  // Il2CppName: Refresh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)()>(&MultiplayerSettingsPanelController::Refresh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::$Awake$b__14_0
+  // Il2CppName: <Awake>b__14_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)(bool)>(&MultiplayerSettingsPanelController::$Awake$b__14_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), "<Awake>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerSettingsPanelController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)()>(&MultiplayerSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSettingsPanelController::*)()>(&MultiplayerSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSettingsPanelController*, "", "MultiplayerSettingsPanelController");

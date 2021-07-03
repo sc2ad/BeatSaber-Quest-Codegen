@@ -115,49 +115,49 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BDA0
+    // [InjectAttribute] Offset: 0xE1BD7C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BDB0
+    // [InjectAttribute] Offset: 0xE1BD8C
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BDC0
+    // [InjectAttribute] Offset: 0xE1BD9C
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BDD0
+    // [InjectAttribute] Offset: 0xE1BDAC
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BDE0
+    // [InjectAttribute] Offset: 0xE1BDBC
     // private readonly MissionLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MissionLevelGameplayManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelGameplayManager::InitData*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1BDF0
+    // [CompilerGeneratedAttribute] Offset: 0xE1BDCC
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* levelFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1BE00
+    // [CompilerGeneratedAttribute] Offset: 0xE1BDDC
     // private System.Action levelFinishedEvent
     // Size: 0x8
     // Offset: 0x50
@@ -179,46 +179,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1050D60
+    // Offset: 0x1095448
     void add_levelFailedEvent(System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x1050E04
+    // Offset: 0x10954EC
     void remove_levelFailedEvent(System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x1050EA8
+    // Offset: 0x1095590
     void add_levelFinishedEvent(System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x1050F4C
+    // Offset: 0x1095634
     void remove_levelFinishedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x1050FF0
+    // Offset: 0x10956D8
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1050FF8
+    // Offset: 0x10956E0
     System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1051094
+    // Offset: 0x109577C
     void OnDestroy();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x10513EC
+    // Offset: 0x1095AD4
     void HandleGameEnergyDidReach0();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveDidFail()
-    // Offset: 0x1051438
+    // Offset: 0x1095B20
     void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x1051468
+    // Offset: 0x1095B50
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1051498
+    // Offset: 0x1095B80
     void HandlePauseControllerCanPause(System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x1051514
+    // Offset: 0x1095BFC
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x105152C
+    // Offset: 0x1095C14
     void HandlePauseControllerDidResume();
     // public System.Void .ctor()
-    // Offset: 0x1051544
+    // Offset: 0x1095C2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -234,6 +234,124 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelGameplayManager), 88 + sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState)> __GlobalNamespace_MissionLevelGameplayManagerSizeCheck;
   static_assert(sizeof(MissionLevelGameplayManager) == 0x5C);
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::add_levelFailedEvent
+  // Il2CppName: add_levelFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)(System::Action*)>(&MissionLevelGameplayManager::add_levelFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "add_levelFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::remove_levelFailedEvent
+  // Il2CppName: remove_levelFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)(System::Action*)>(&MissionLevelGameplayManager::remove_levelFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "remove_levelFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::add_levelFinishedEvent
+  // Il2CppName: add_levelFinishedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)(System::Action*)>(&MissionLevelGameplayManager::add_levelFinishedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "add_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::remove_levelFinishedEvent
+  // Il2CppName: remove_levelFinishedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)(System::Action*)>(&MissionLevelGameplayManager::remove_levelFinishedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::HandleGameEnergyDidReach0
+  // Il2CppName: HandleGameEnergyDidReach0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::HandleGameEnergyDidReach0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "HandleGameEnergyDidReach0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::HandleMissionObjectiveCheckersManagerObjectiveDidFail
+  // Il2CppName: HandleMissionObjectiveCheckersManagerObjectiveDidFail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::HandleMissionObjectiveCheckersManagerObjectiveDidFail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "HandleMissionObjectiveCheckersManagerObjectiveDidFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::HandleSongDidFinish
+  // Il2CppName: HandleSongDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::HandleSongDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "HandleSongDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::HandlePauseControllerCanPause
+  // Il2CppName: HandlePauseControllerCanPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)(System::Action_1<bool>*)>(&MissionLevelGameplayManager::HandlePauseControllerCanPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "HandlePauseControllerCanPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::HandlePauseControllerDidPause
+  // Il2CppName: HandlePauseControllerDidPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::HandlePauseControllerDidPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "HandlePauseControllerDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::HandlePauseControllerDidResume
+  // Il2CppName: HandlePauseControllerDidResume
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::HandlePauseControllerDidResume)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), "HandlePauseControllerDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelGameplayManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelGameplayManager::*)()>(&MissionLevelGameplayManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::GameState, "", "MissionLevelGameplayManager/GameState");

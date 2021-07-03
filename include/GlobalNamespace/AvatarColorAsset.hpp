@@ -59,15 +59,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x112E088
+    // Offset: 0x11338F0
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public override UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
-    // Offset: 0x112E090
+    // Offset: 0x11338F8
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: UnityEngine.Playables.Playable PlayableAsset::CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go)
     UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go);
     // public System.Void .ctor()
-    // Offset: 0x112E130
+    // Offset: 0x1133998
     // Implemented from: UnityEngine.Playables.PlayableAsset
     // Base method: System.Void PlayableAsset::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -82,5 +82,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AvatarColorAsset), 24 + sizeof(GlobalNamespace::AvatarColorBehaviour*)> __GlobalNamespace_AvatarColorAssetSizeCheck;
   static_assert(sizeof(AvatarColorAsset) == 0x20);
+  // Writing MetadataGetter for method: AvatarColorAsset::get_clipCaps
+  // Il2CppName: get_clipCaps
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (AvatarColorAsset::*)()>(&AvatarColorAsset::get_clipCaps)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarColorAsset::CreatePlayable
+  // Il2CppName: CreatePlayable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AvatarColorAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&AvatarColorAsset::CreatePlayable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarColorAsset::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorAsset::*)()>(&AvatarColorAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorAsset::*)()>(&AvatarColorAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorAsset*, "", "AvatarColorAsset");

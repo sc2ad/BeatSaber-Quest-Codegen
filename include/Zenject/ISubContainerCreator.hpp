@@ -35,6 +35,14 @@ namespace Zenject {
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
   }; // Zenject.ISubContainerCreator
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ISubContainerCreator::CreateSubContainer
+  // Il2CppName: CreateSubContainer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (ISubContainerCreator::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&ISubContainerCreator::CreateSubContainer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ISubContainerCreator*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ISubContainerCreator*, "Zenject", "ISubContainerCreator");

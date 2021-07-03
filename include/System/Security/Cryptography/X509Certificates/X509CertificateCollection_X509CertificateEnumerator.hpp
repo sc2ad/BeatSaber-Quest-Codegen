@@ -44,30 +44,84 @@ namespace System::Security::Cryptography::X509Certificates {
       return enumerator;
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection mappings)
-    // Offset: 0x1834208
+    // Offset: 0x184BF18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CertificateCollection::X509CertificateEnumerator* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* mappings) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateCollection::X509CertificateEnumerator*, creationType>(mappings)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate get_Current()
-    // Offset: 0x18342FC
+    // Offset: 0x184C00C
     System::Security::Cryptography::X509Certificates::X509Certificate* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x18343F0
+    // Offset: 0x184C100
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // private System.Boolean System.Collections.IEnumerator.MoveNext()
-    // Offset: 0x18344A4
+    // Offset: 0x184C1B4
     bool System_Collections_IEnumerator_MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1834554
+    // Offset: 0x184C264
     void System_Collections_IEnumerator_Reset();
     // public System.Boolean MoveNext()
-    // Offset: 0x1834608
+    // Offset: 0x184C318
     bool MoveNext();
   }; // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
   #pragma pack(pop)
   static check_size<sizeof(X509CertificateCollection::X509CertificateEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __System_Security_Cryptography_X509Certificates_X509CertificateCollection_X509CertificateEnumeratorSizeCheck;
   static_assert(sizeof(X509CertificateCollection::X509CertificateEnumerator) == 0x18);
+  // Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateCollection::X509CertificateEnumerator::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&X509CertificateCollection::X509CertificateEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateCollection::X509CertificateEnumerator::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&X509CertificateCollection::X509CertificateEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_get_Current
+  // Il2CppName: System.Collections.IEnumerator.get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext
+  // Il2CppName: System.Collections.IEnumerator.MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_Reset
+  // Il2CppName: System.Collections.IEnumerator.Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*, "System.Security.Cryptography.X509Certificates", "X509CertificateCollection/X509CertificateEnumerator");

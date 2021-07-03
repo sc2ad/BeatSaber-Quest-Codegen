@@ -15,13 +15,29 @@ namespace System {
     // Creating value type constructor for type: UncNameHelper
     UncNameHelper() noexcept {}
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, System.Int32 end, ref System.Boolean loopback)
-    // Offset: 0x1981ED8
+    // Offset: 0x1998BE8
     static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, int end, bool& loopback);
     // static System.Boolean IsValid(System.Char* name, System.UInt16 start, ref System.Int32 returnedEnd, System.Boolean notImplicitFile)
-    // Offset: 0x1981EE0
+    // Offset: 0x1998BF0
     static bool IsValid(::Il2CppChar* name, uint16_t start, int& returnedEnd, bool notImplicitFile);
   }; // System.UncNameHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UncNameHelper::ParseCanonicalName
+  // Il2CppName: ParseCanonicalName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, bool&)>(&UncNameHelper::ParseCanonicalName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UncNameHelper*), "ParseCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: UncNameHelper::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool)>(&UncNameHelper::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UncNameHelper*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");

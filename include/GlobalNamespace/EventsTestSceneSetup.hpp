@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EventsTestSceneSetup
     EventsTestSceneSetup(GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic_ = {}, GlobalNamespace::BeatmapDifficulty beatmapDifficulty_ = {}, GlobalNamespace::ColorSchemeSO* colorScheme_ = {}) noexcept : beatmapLevel{beatmapLevel_}, beatmapCharacteristic{beatmapCharacteristic_}, beatmapDifficulty{beatmapDifficulty_}, colorScheme{colorScheme_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x10C1F0C
+    // Offset: 0x1040684
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10C25C8
+    // Offset: 0x1040D40
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -83,5 +83,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EventsTestSceneSetup), 56 + sizeof(GlobalNamespace::ColorSchemeSO*)> __GlobalNamespace_EventsTestSceneSetupSizeCheck;
   static_assert(sizeof(EventsTestSceneSetup) == 0x40);
+  // Writing MetadataGetter for method: EventsTestSceneSetup::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventsTestSceneSetup::*)()>(&EventsTestSceneSetup::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventsTestSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EventsTestSceneSetup::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventsTestSceneSetup::*)()>(&EventsTestSceneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventsTestSceneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventsTestSceneSetup::*)()>(&EventsTestSceneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventsTestSceneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestSceneSetup*, "", "EventsTestSceneSetup");

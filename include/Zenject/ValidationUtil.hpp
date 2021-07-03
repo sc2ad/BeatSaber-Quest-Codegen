@@ -36,7 +36,7 @@ namespace Zenject {
     // Creating value type constructor for type: ValidationUtil
     ValidationUtil() noexcept {}
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    // Offset: 0x239FCF4
+    // Offset: 0x23BB328
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::Array<System::Type*>* argTypes);
     // Creating initializer_list -> params proxy for: System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(std::initializer_list<System::Type*> argTypes);
@@ -47,6 +47,14 @@ namespace Zenject {
     }
   }; // Zenject.ValidationUtil
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ValidationUtil::CreateDefaultArgs
+  // Il2CppName: CreateDefaultArgs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(::Array<System::Type*>*)>(&ValidationUtil::CreateDefaultArgs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidationUtil*), "CreateDefaultArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil*, "Zenject", "ValidationUtil");

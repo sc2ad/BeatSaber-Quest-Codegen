@@ -38,18 +38,40 @@ namespace UnityEngine {
       return mRunnable;
     }
     // public System.Void .ctor(UnityEngine.AndroidJavaRunnable runnable)
-    // Offset: 0x23619D8
+    // Offset: 0x2376B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaRunnableProxy* New_ctor(UnityEngine::AndroidJavaRunnable* runnable) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaRunnableProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaRunnableProxy*, creationType>(runnable)));
     }
     // public System.Void run()
-    // Offset: 0x2361A5C
+    // Offset: 0x2376BB8
     void run();
   }; // UnityEngine.AndroidJavaRunnableProxy
   #pragma pack(pop)
   static check_size<sizeof(AndroidJavaRunnableProxy), 32 + sizeof(UnityEngine::AndroidJavaRunnable*)> __UnityEngine_AndroidJavaRunnableProxySizeCheck;
   static_assert(sizeof(AndroidJavaRunnableProxy) == 0x28);
+  // Writing MetadataGetter for method: AndroidJavaRunnableProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AndroidJavaRunnableProxy::*)(UnityEngine::AndroidJavaRunnable*)>(&AndroidJavaRunnableProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AndroidJavaRunnableProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaRunnable*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AndroidJavaRunnableProxy::*)(UnityEngine::AndroidJavaRunnable*)>(&AndroidJavaRunnableProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AndroidJavaRunnableProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AndroidJavaRunnable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AndroidJavaRunnableProxy::run
+  // Il2CppName: run
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AndroidJavaRunnableProxy::*)()>(&AndroidJavaRunnableProxy::run)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AndroidJavaRunnableProxy*), "run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnableProxy*, "UnityEngine", "AndroidJavaRunnableProxy");

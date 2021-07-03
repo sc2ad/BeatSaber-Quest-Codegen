@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TrieNode
     TrieNode(System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* children_ = {}, int shortestWord_ = {}) noexcept : children{children_}, shortestWord{shortestWord_} {}
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x2362EB8
+    // Offset: 0x2378014
     void AddWord(::Il2CppString* word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x23632B4
+    // Offset: 0x2378410
     bool IsMatch(::Il2CppString* word, int index);
     // public System.Void .ctor()
-    // Offset: 0x23632A4
+    // Offset: 0x2378400
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,5 +59,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ProfanityFilter::TrieNode), 24 + sizeof(int)> __GlobalNamespace_ProfanityFilter_TrieNodeSizeCheck;
   static_assert(sizeof(ProfanityFilter::TrieNode) == 0x1C);
+  // Writing MetadataGetter for method: ProfanityFilter::TrieNode::AddWord
+  // Il2CppName: AddWord
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::TrieNode::*)(::Il2CppString*, int)>(&ProfanityFilter::TrieNode::AddWord)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter::TrieNode*), "AddWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProfanityFilter::TrieNode::IsMatch
+  // Il2CppName: IsMatch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProfanityFilter::TrieNode::*)(::Il2CppString*, int)>(&ProfanityFilter::TrieNode::IsMatch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter::TrieNode*), "IsMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProfanityFilter::TrieNode::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::TrieNode::*)()>(&ProfanityFilter::TrieNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter::TrieNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::TrieNode::*)()>(&ProfanityFilter::TrieNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter::TrieNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::TrieNode*, "", "ProfanityFilter/TrieNode");

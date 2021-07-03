@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithCloudStorageMetadataList
     MessageWithCloudStorageMetadataList() noexcept {}
     // protected Oculus.Platform.Models.CloudStorageMetadataList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14B3728
+    // Offset: 0x14CE438
     Oculus::Platform::Models::CloudStorageMetadataList* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14AF968
+    // Offset: 0x14CA678
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,10 +40,40 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageMetadataList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageMetadataList GetCloudStorageMetadataList()
-    // Offset: 0x14B36E4
+    // Offset: 0x14CE3F4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageMetadataList Message::GetCloudStorageMetadataList()
     Oculus::Platform::Models::CloudStorageMetadataList* GetCloudStorageMetadataList();
   }; // Oculus.Platform.MessageWithCloudStorageMetadataList
+  // Writing MetadataGetter for method: MessageWithCloudStorageMetadataList::GetDataFromMessage
+  // Il2CppName: GetDataFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadataList* (MessageWithCloudStorageMetadataList::*)(System::IntPtr)>(&MessageWithCloudStorageMetadataList::GetDataFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithCloudStorageMetadataList::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageMetadataList::*)(System::IntPtr)>(&MessageWithCloudStorageMetadataList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageMetadataList::*)(System::IntPtr)>(&MessageWithCloudStorageMetadataList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithCloudStorageMetadataList::GetCloudStorageMetadataList
+  // Il2CppName: GetCloudStorageMetadataList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadataList* (MessageWithCloudStorageMetadataList::*)()>(&MessageWithCloudStorageMetadataList::GetCloudStorageMetadataList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataList*), "GetCloudStorageMetadataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageMetadataList*, "Oculus.Platform", "MessageWithCloudStorageMetadataList");

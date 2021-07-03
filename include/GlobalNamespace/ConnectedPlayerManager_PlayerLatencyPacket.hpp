@@ -58,22 +58,22 @@ namespace GlobalNamespace {
       return latency;
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerLatencyPacket> get_pool()
-    // Offset: 0x130A588
+    // Offset: 0x1325298
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x130D8EC
+    // Offset: 0x13285FC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x130D90C
+    // Offset: 0x132861C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public ConnectedPlayerManager/PlayerLatencyPacket Init(System.Single latency)
-    // Offset: 0x130BD0C
+    // Offset: 0x1326A1C
     GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* Init(float latency);
     // public System.Void Release()
-    // Offset: 0x130CAE4
+    // Offset: 0x13277F4
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x130D940
+    // Offset: 0x1328650
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,5 +85,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerLatencyPacket), 16 + sizeof(float)> __GlobalNamespace_ConnectedPlayerManager_PlayerLatencyPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerLatencyPacket) == 0x14);
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerLatencyPacket::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*>* (*)()>(&ConnectedPlayerManager::PlayerLatencyPacket::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerLatencyPacket::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerLatencyPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectedPlayerManager::PlayerLatencyPacket::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerLatencyPacket::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerLatencyPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectedPlayerManager::PlayerLatencyPacket::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerLatencyPacket::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket* (ConnectedPlayerManager::PlayerLatencyPacket::*)(float)>(&ConnectedPlayerManager::PlayerLatencyPacket::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerLatencyPacket::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerLatencyPacket::*)()>(&ConnectedPlayerManager::PlayerLatencyPacket::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerLatencyPacket::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerLatencyPacket::*)()>(&ConnectedPlayerManager::PlayerLatencyPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerLatencyPacket::*)()>(&ConnectedPlayerManager::PlayerLatencyPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerLatencyPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerLatencyPacket*, "", "ConnectedPlayerManager/PlayerLatencyPacket");

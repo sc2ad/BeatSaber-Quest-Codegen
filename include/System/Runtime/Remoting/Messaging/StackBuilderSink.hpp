@@ -56,30 +56,84 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
     }
     // public System.Void .ctor(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
-    // Offset: 0x1A2AED4
+    // Offset: 0x1A44BE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackBuilderSink* New_ctor(System::MarshalByRefObject* obj, bool forceInternalExecute) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::StackBuilderSink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackBuilderSink*, creationType>(obj, forceInternalExecute)));
     }
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1A2AF5C
+    // Offset: 0x1A44C6C
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x1A2BEB4
+    // Offset: 0x1A45BC4
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
     // private System.Void ExecuteAsyncMessage(System.Object ob)
-    // Offset: 0x1A2BFC8
+    // Offset: 0x1A45CD8
     void ExecuteAsyncMessage(::Il2CppObject* ob);
     // private System.Void CheckParameters(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x1A2B034
+    // Offset: 0x1A44D44
     void CheckParameters(System::Runtime::Remoting::Messaging::IMessage* msg);
     // private System.Void <AsyncProcessMessage>b__4_0(System.Object data)
-    // Offset: 0x1A2C1C8
+    // Offset: 0x1A45ED8
     void $AsyncProcessMessage$b__4_0(::Il2CppObject* data);
   }; // System.Runtime.Remoting.Messaging.StackBuilderSink
   #pragma pack(pop)
   static check_size<sizeof(StackBuilderSink), 24 + sizeof(System::Runtime::Remoting::Proxies::RealProxy*)> __System_Runtime_Remoting_Messaging_StackBuilderSinkSizeCheck;
   static_assert(sizeof(StackBuilderSink) == 0x20);
+  // Writing MetadataGetter for method: StackBuilderSink::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackBuilderSink::*)(System::MarshalByRefObject*, bool)>(&StackBuilderSink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackBuilderSink::*)(System::MarshalByRefObject*, bool)>(&StackBuilderSink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: StackBuilderSink::SyncProcessMessage
+  // Il2CppName: SyncProcessMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (StackBuilderSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&StackBuilderSink::SyncProcessMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StackBuilderSink::AsyncProcessMessage
+  // Il2CppName: AsyncProcessMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (StackBuilderSink::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&StackBuilderSink::AsyncProcessMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StackBuilderSink::ExecuteAsyncMessage
+  // Il2CppName: ExecuteAsyncMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackBuilderSink::*)(::Il2CppObject*)>(&StackBuilderSink::ExecuteAsyncMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), "ExecuteAsyncMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StackBuilderSink::CheckParameters
+  // Il2CppName: CheckParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackBuilderSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&StackBuilderSink::CheckParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), "CheckParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StackBuilderSink::$AsyncProcessMessage$b__4_0
+  // Il2CppName: <AsyncProcessMessage>b__4_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackBuilderSink::*)(::Il2CppObject*)>(&StackBuilderSink::$AsyncProcessMessage$b__4_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StackBuilderSink*), "<AsyncProcessMessage>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::StackBuilderSink*, "System.Runtime.Remoting.Messaging", "StackBuilderSink");

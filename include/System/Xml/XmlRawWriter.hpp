@@ -48,121 +48,121 @@ namespace System::Xml {
     // Creating value type constructor for type: XmlRawWriter
     XmlRawWriter(System::Xml::XmlRawWriterBase64Encoder* base64Encoder_ = {}, System::Xml::IXmlNamespaceResolver* resolver_ = {}) noexcept : base64Encoder{base64Encoder_}, resolver{resolver_} {}
     // System.Void set_NamespaceResolver(System.Xml.IXmlNamespaceResolver value)
-    // Offset: 0x1922C5C
+    // Offset: 0x193A96C
     void set_NamespaceResolver(System::Xml::IXmlNamespaceResolver* value);
     // System.Void WriteXmlDeclaration(System.Xml.XmlStandalone standalone)
-    // Offset: 0x1922C64
+    // Offset: 0x193A974
     void WriteXmlDeclaration(System::Xml::XmlStandalone standalone);
     // System.Void WriteXmlDeclaration(System.String xmldecl)
-    // Offset: 0x1922C68
+    // Offset: 0x193A978
     void WriteXmlDeclaration(::Il2CppString* xmldecl);
     // System.Void StartElementContent()
     // Offset: 0xFFFFFFFF
     void StartElementContent();
     // System.Void OnRootElement(System.Xml.ConformanceLevel conformanceLevel)
-    // Offset: 0x1922C6C
+    // Offset: 0x193A97C
     void OnRootElement(System::Xml::ConformanceLevel conformanceLevel);
     // System.Void WriteEndElement(System.String prefix, System.String localName, System.String ns)
     // Offset: 0xFFFFFFFF
     void WriteEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // System.Void WriteFullEndElement(System.String prefix, System.String localName, System.String ns)
-    // Offset: 0x1922C70
+    // Offset: 0x193A980
     void WriteFullEndElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
     // System.Void WriteNamespaceDeclaration(System.String prefix, System.String ns)
     // Offset: 0xFFFFFFFF
     void WriteNamespaceDeclaration(::Il2CppString* prefix, ::Il2CppString* ns);
     // System.Boolean get_SupportsNamespaceDeclarationInChunks()
-    // Offset: 0x1922C80
+    // Offset: 0x193A990
     bool get_SupportsNamespaceDeclarationInChunks();
     // System.Void WriteStartNamespaceDeclaration(System.String prefix)
-    // Offset: 0x1922C88
+    // Offset: 0x193A998
     void WriteStartNamespaceDeclaration(::Il2CppString* prefix);
     // System.Void WriteEndNamespaceDeclaration()
-    // Offset: 0x1922CE8
+    // Offset: 0x193A9F8
     void WriteEndNamespaceDeclaration();
     // System.Void WriteEndBase64()
-    // Offset: 0x1922D48
+    // Offset: 0x193AA58
     void WriteEndBase64();
     // System.Void Close(System.Xml.WriteState currentState)
-    // Offset: 0x1922D60
+    // Offset: 0x193AA70
     void Close(System::Xml::WriteState currentState);
     // public override System.Void WriteStartDocument()
-    // Offset: 0x19227F0
+    // Offset: 0x193A500
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartDocument()
     void WriteStartDocument();
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    // Offset: 0x1922860
+    // Offset: 0x193A570
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     void WriteDocType(::Il2CppString* name, ::Il2CppString* pubid, ::Il2CppString* sysid, ::Il2CppString* subset);
     // public override System.Void WriteEndElement()
-    // Offset: 0x1922864
+    // Offset: 0x193A574
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEndElement()
     void WriteEndElement();
     // public override System.Void WriteFullEndElement()
-    // Offset: 0x19228D4
+    // Offset: 0x193A5E4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteFullEndElement()
     void WriteFullEndElement();
     // public override System.Void WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1920860
+    // Offset: 0x1938570
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     void WriteBase64(::Array<uint8_t>* buffer, int index, int count);
     // public override System.String LookupPrefix(System.String ns)
-    // Offset: 0x192296C
+    // Offset: 0x193A67C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.String XmlWriter::LookupPrefix(System.String ns)
     ::Il2CppString* LookupPrefix(::Il2CppString* ns);
     // public override System.Xml.WriteState get_WriteState()
-    // Offset: 0x19229DC
+    // Offset: 0x193A6EC
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Xml.WriteState XmlWriter::get_WriteState()
     System::Xml::WriteState get_WriteState();
     // public override System.Void WriteCData(System.String text)
-    // Offset: 0x1922A4C
+    // Offset: 0x193A75C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCData(System.String text)
     void WriteCData(::Il2CppString* text);
     // public override System.Void WriteCharEntity(System.Char ch)
-    // Offset: 0x1922A5C
+    // Offset: 0x193A76C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCharEntity(System.Char ch)
     void WriteCharEntity(::Il2CppChar ch);
     // public override System.Void WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
-    // Offset: 0x1922B00
+    // Offset: 0x193A810
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteSurrogateCharEntity(System.Char lowChar, System.Char highChar)
     void WriteSurrogateCharEntity(::Il2CppChar lowChar, ::Il2CppChar highChar);
     // public override System.Void WriteWhitespace(System.String ws)
-    // Offset: 0x1922BB4
+    // Offset: 0x193A8C4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteWhitespace(System.String ws)
     void WriteWhitespace(::Il2CppString* ws);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1922BC4
+    // Offset: 0x193A8D4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteChars(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1922C00
+    // Offset: 0x193A910
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void WriteRaw(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
-    // Offset: 0x1922C3C
+    // Offset: 0x193A94C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.String data)
     void WriteRaw(::Il2CppString* data);
     // public override System.Void WriteValue(System.String value)
-    // Offset: 0x1922C4C
+    // Offset: 0x193A95C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteValue(System.String value)
     void WriteValue(::Il2CppString* value);
     // protected System.Void .ctor()
-    // Offset: 0x19194B4
+    // Offset: 0x19311C4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -175,5 +175,243 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(XmlRawWriter), 24 + sizeof(System::Xml::IXmlNamespaceResolver*)> __System_Xml_XmlRawWriterSizeCheck;
   static_assert(sizeof(XmlRawWriter) == 0x20);
+  // Writing MetadataGetter for method: XmlRawWriter::set_NamespaceResolver
+  // Il2CppName: set_NamespaceResolver
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(System::Xml::IXmlNamespaceResolver*)>(&XmlRawWriter::set_NamespaceResolver)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "set_NamespaceResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::IXmlNamespaceResolver*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteXmlDeclaration
+  // Il2CppName: WriteXmlDeclaration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(System::Xml::XmlStandalone)>(&XmlRawWriter::WriteXmlDeclaration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteXmlDeclaration
+  // Il2CppName: WriteXmlDeclaration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::WriteXmlDeclaration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::StartElementContent
+  // Il2CppName: StartElementContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::StartElementContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::OnRootElement
+  // Il2CppName: OnRootElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(System::Xml::ConformanceLevel)>(&XmlRawWriter::OnRootElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "OnRootElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::ConformanceLevel>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteEndElement
+  // Il2CppName: WriteEndElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlRawWriter::WriteEndElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteFullEndElement
+  // Il2CppName: WriteFullEndElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlRawWriter::WriteFullEndElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteNamespaceDeclaration
+  // Il2CppName: WriteNamespaceDeclaration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*, ::Il2CppString*)>(&XmlRawWriter::WriteNamespaceDeclaration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::get_SupportsNamespaceDeclarationInChunks
+  // Il2CppName: get_SupportsNamespaceDeclarationInChunks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlRawWriter::*)()>(&XmlRawWriter::get_SupportsNamespaceDeclarationInChunks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "get_SupportsNamespaceDeclarationInChunks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteStartNamespaceDeclaration
+  // Il2CppName: WriteStartNamespaceDeclaration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::WriteStartNamespaceDeclaration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteStartNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteEndNamespaceDeclaration
+  // Il2CppName: WriteEndNamespaceDeclaration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::WriteEndNamespaceDeclaration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteEndNamespaceDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteEndBase64
+  // Il2CppName: WriteEndBase64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::WriteEndBase64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteEndBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::Close
+  // Il2CppName: Close
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(System::Xml::WriteState)>(&XmlRawWriter::Close)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::WriteState>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteStartDocument
+  // Il2CppName: WriteStartDocument
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::WriteStartDocument)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteStartDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteDocType
+  // Il2CppName: WriteDocType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlRawWriter::WriteDocType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteEndElement
+  // Il2CppName: WriteEndElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::WriteEndElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteFullEndElement
+  // Il2CppName: WriteFullEndElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::WriteFullEndElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteBase64
+  // Il2CppName: WriteBase64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Array<uint8_t>*, int, int)>(&XmlRawWriter::WriteBase64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::LookupPrefix
+  // Il2CppName: LookupPrefix
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::LookupPrefix)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::get_WriteState
+  // Il2CppName: get_WriteState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::WriteState (XmlRawWriter::*)()>(&XmlRawWriter::get_WriteState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteCData
+  // Il2CppName: WriteCData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::WriteCData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteCharEntity
+  // Il2CppName: WriteCharEntity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppChar)>(&XmlRawWriter::WriteCharEntity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteSurrogateCharEntity
+  // Il2CppName: WriteSurrogateCharEntity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppChar, ::Il2CppChar)>(&XmlRawWriter::WriteSurrogateCharEntity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteWhitespace
+  // Il2CppName: WriteWhitespace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::WriteWhitespace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteChars
+  // Il2CppName: WriteChars
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Array<::Il2CppChar>*, int, int)>(&XmlRawWriter::WriteChars)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteRaw
+  // Il2CppName: WriteRaw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Array<::Il2CppChar>*, int, int)>(&XmlRawWriter::WriteRaw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteRaw
+  // Il2CppName: WriteRaw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::WriteRaw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::WriteValue
+  // Il2CppName: WriteValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)(::Il2CppString*)>(&XmlRawWriter::WriteValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlRawWriter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlRawWriter::*)()>(&XmlRawWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlRawWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriter*, "System.Xml", "XmlRawWriter");

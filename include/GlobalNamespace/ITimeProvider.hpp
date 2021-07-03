@@ -18,6 +18,14 @@ namespace GlobalNamespace {
     float get_time();
   }; // ITimeProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ITimeProvider::get_time
+  // Il2CppName: get_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ITimeProvider::*)()>(&ITimeProvider::get_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITimeProvider*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ITimeProvider*, "", "ITimeProvider");

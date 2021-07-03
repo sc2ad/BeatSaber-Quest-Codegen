@@ -42,24 +42,40 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kBakedLightTexturePackingShaderName();
     // Set static field: static private System.String kBakedLightTexturePackingShaderName
     static void _set_kBakedLightTexturePackingShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27CEC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D30
     // Get static field: static private readonly System.Int32[] _texPropertyIds
     static ::Array<int>* _get__texPropertyIds();
     // Set static field: static private readonly System.Int32[] _texPropertyIds
     static void _set__texPropertyIds(::Array<int>* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27CFC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D40
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // static public UnityEngine.RenderTexture PackTextures(System.Collections.Generic.IReadOnlyList`1<UnityEngine.RenderTexture> textures, UnityEngine.RenderTextureDescriptor descriptor)
-    // Offset: 0x119CAC4
+    // Offset: 0x11B6F94
     static UnityEngine::RenderTexture* PackTextures(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>* textures, UnityEngine::RenderTextureDescriptor descriptor);
     // static private System.Void .cctor()
-    // Offset: 0x119CE28
+    // Offset: 0x11B72F8
     static void _cctor();
   }; // BakedLightTexturePacking
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BakedLightTexturePacking::PackTextures
+  // Il2CppName: PackTextures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*, UnityEngine::RenderTextureDescriptor)>(&BakedLightTexturePacking::PackTextures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakedLightTexturePacking*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureDescriptor>()});
+    }
+  };
+  // Writing MetadataGetter for method: BakedLightTexturePacking::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightTexturePacking::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakedLightTexturePacking*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightTexturePacking*, "", "BakedLightTexturePacking");

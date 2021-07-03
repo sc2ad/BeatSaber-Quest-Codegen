@@ -49,21 +49,21 @@ namespace GlobalNamespace {
     class $$c__DisplayClass8_0;
     // Nested type: GlobalNamespace::MainMenuDestinationRequestController::$ProcessDestinationRequest$d__8
     struct $ProcessDestinationRequest$d__8;
-    // [InjectAttribute] Offset: 0xE16134
+    // [InjectAttribute] Offset: 0xE16110
     // private readonly IDestinationRequestManager _destinationRequestManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IDestinationRequestManager* destinationRequestManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDestinationRequestManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE16144
+    // [InjectAttribute] Offset: 0xE16120
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE16154
+    // [InjectAttribute] Offset: 0xE16130
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -87,22 +87,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void Initialize()
-    // Offset: 0x10D73B0
+    // Offset: 0x2402530
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x10D7660
+    // Offset: 0x24027E0
     void Dispose();
     // private System.Void HandleGameScenesManagerInstallEarlyBindings(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x10D77F8
+    // Offset: 0x2402978
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleDestinationRequestManagerDidSendMenuDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x10D7A88
+    // Offset: 0x2402C08
     void HandleDestinationRequestManagerDidSendMenuDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // private System.Void ProcessDestinationRequest(MenuDestination menuDestination)
-    // Offset: 0x10D7598
+    // Offset: 0x2402718
     void ProcessDestinationRequest(GlobalNamespace::MenuDestination* menuDestination);
     // public System.Void .ctor()
-    // Offset: 0x10D7A8C
+    // Offset: 0x2402C0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -114,5 +114,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainMenuDestinationRequestController), 40 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_MainMenuDestinationRequestControllerSizeCheck;
   static_assert(sizeof(MainMenuDestinationRequestController) == 0x30);
+  // Writing MetadataGetter for method: MainMenuDestinationRequestController::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)()>(&MainMenuDestinationRequestController::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MainMenuDestinationRequestController::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)()>(&MainMenuDestinationRequestController::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MainMenuDestinationRequestController::HandleGameScenesManagerInstallEarlyBindings
+  // Il2CppName: HandleGameScenesManagerInstallEarlyBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&MainMenuDestinationRequestController::HandleGameScenesManagerInstallEarlyBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), "HandleGameScenesManagerInstallEarlyBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainMenuDestinationRequestController::HandleDestinationRequestManagerDidSendMenuDestinationRequest
+  // Il2CppName: HandleDestinationRequestManagerDidSendMenuDestinationRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)(GlobalNamespace::MenuDestination*)>(&MainMenuDestinationRequestController::HandleDestinationRequestManagerDidSendMenuDestinationRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), "HandleDestinationRequestManagerDidSendMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainMenuDestinationRequestController::ProcessDestinationRequest
+  // Il2CppName: ProcessDestinationRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)(GlobalNamespace::MenuDestination*)>(&MainMenuDestinationRequestController::ProcessDestinationRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), "ProcessDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainMenuDestinationRequestController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)()>(&MainMenuDestinationRequestController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainMenuDestinationRequestController::*)()>(&MainMenuDestinationRequestController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainMenuDestinationRequestController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestController*, "", "MainMenuDestinationRequestController");

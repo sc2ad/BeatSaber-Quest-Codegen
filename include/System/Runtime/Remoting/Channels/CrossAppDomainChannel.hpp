@@ -42,28 +42,28 @@ namespace System::Runtime::Remoting::Channels {
     // Set static field: static private System.Object s_lock
     static void _set_s_lock(::Il2CppObject* value);
     // static System.Void RegisterCrossAppDomainChannel()
-    // Offset: 0x140B294
+    // Offset: 0x1425FA4
     static void RegisterCrossAppDomainChannel();
     // public System.String get_ChannelName()
-    // Offset: 0x140B3A8
+    // Offset: 0x14260B8
     ::Il2CppString* get_ChannelName();
     // public System.Int32 get_ChannelPriority()
-    // Offset: 0x140B3F0
+    // Offset: 0x1426100
     int get_ChannelPriority();
     // public System.Object get_ChannelData()
-    // Offset: 0x140B3F8
+    // Offset: 0x1426108
     ::Il2CppObject* get_ChannelData();
     // public System.Void StartListening(System.Object data)
-    // Offset: 0x140B508
+    // Offset: 0x1426218
     void StartListening(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object data, out System.String uri)
-    // Offset: 0x140B50C
+    // Offset: 0x142621C
     System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* data, ::Il2CppString*& uri);
     // static private System.Void .cctor()
-    // Offset: 0x140B8F4
+    // Offset: 0x1426604
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x140B3A0
+    // Offset: 0x14260B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,5 +73,75 @@ namespace System::Runtime::Remoting::Channels {
     }
   }; // System.Runtime.Remoting.Channels.CrossAppDomainChannel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CrossAppDomainChannel::RegisterCrossAppDomainChannel
+  // Il2CppName: RegisterCrossAppDomainChannel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CrossAppDomainChannel::RegisterCrossAppDomainChannel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), "RegisterCrossAppDomainChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::get_ChannelName
+  // Il2CppName: get_ChannelName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrossAppDomainChannel::*)()>(&CrossAppDomainChannel::get_ChannelName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), "get_ChannelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::get_ChannelPriority
+  // Il2CppName: get_ChannelPriority
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CrossAppDomainChannel::*)()>(&CrossAppDomainChannel::get_ChannelPriority)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), "get_ChannelPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::get_ChannelData
+  // Il2CppName: get_ChannelData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CrossAppDomainChannel::*)()>(&CrossAppDomainChannel::get_ChannelData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::StartListening
+  // Il2CppName: StartListening
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossAppDomainChannel::*)(::Il2CppObject*)>(&CrossAppDomainChannel::StartListening)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), "StartListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::CreateMessageSink
+  // Il2CppName: CreateMessageSink
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (CrossAppDomainChannel::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&CrossAppDomainChannel::CreateMessageSink)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), "CreateMessageSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CrossAppDomainChannel::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainChannel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossAppDomainChannel::*)()>(&CrossAppDomainChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossAppDomainChannel::*)()>(&CrossAppDomainChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainChannel*, "System.Runtime.Remoting.Channels", "CrossAppDomainChannel");

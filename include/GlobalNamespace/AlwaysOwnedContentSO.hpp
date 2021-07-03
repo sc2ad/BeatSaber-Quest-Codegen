@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BeatmapLevelPackSO[] get_alwaysOwnedPacks()
-    // Offset: 0x1127454
+    // Offset: 0x112CD3C
     ::Array<GlobalNamespace::BeatmapLevelPackSO*>* get_alwaysOwnedPacks();
     // public BeatmapLevelSO[] get_alwaysOwnedBeatmapLevels()
-    // Offset: 0x112745C
+    // Offset: 0x112CD44
     ::Array<GlobalNamespace::BeatmapLevelSO*>* get_alwaysOwnedBeatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x1127464
+    // Offset: 0x112CD4C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -65,5 +65,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AlwaysOwnedContentSO), 32 + sizeof(::Array<GlobalNamespace::BeatmapLevelSO*>*)> __GlobalNamespace_AlwaysOwnedContentSOSizeCheck;
   static_assert(sizeof(AlwaysOwnedContentSO) == 0x28);
+  // Writing MetadataGetter for method: AlwaysOwnedContentSO::get_alwaysOwnedPacks
+  // Il2CppName: get_alwaysOwnedPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapLevelPackSO*>* (AlwaysOwnedContentSO::*)()>(&AlwaysOwnedContentSO::get_alwaysOwnedPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AlwaysOwnedContentSO*), "get_alwaysOwnedPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AlwaysOwnedContentSO::get_alwaysOwnedBeatmapLevels
+  // Il2CppName: get_alwaysOwnedBeatmapLevels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapLevelSO*>* (AlwaysOwnedContentSO::*)()>(&AlwaysOwnedContentSO::get_alwaysOwnedBeatmapLevels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AlwaysOwnedContentSO*), "get_alwaysOwnedBeatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AlwaysOwnedContentSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlwaysOwnedContentSO::*)()>(&AlwaysOwnedContentSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AlwaysOwnedContentSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlwaysOwnedContentSO::*)()>(&AlwaysOwnedContentSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AlwaysOwnedContentSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentSO*, "", "AlwaysOwnedContentSO");

@@ -23,6 +23,22 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRSkeleton::SkeletonPoseData GetSkeletonPoseData();
   }; // OVRSkeleton/IOVRSkeletonDataProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonType
+  // Il2CppName: GetSkeletonType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSkeleton::SkeletonType (OVRSkeleton::IOVRSkeletonDataProvider::*)()>(&OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSkeleton::IOVRSkeletonDataProvider*), "GetSkeletonType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonPoseData
+  // Il2CppName: GetSkeletonPoseData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSkeleton::SkeletonPoseData (OVRSkeleton::IOVRSkeletonDataProvider::*)()>(&OVRSkeleton::IOVRSkeletonDataProvider::GetSkeletonPoseData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSkeleton::IOVRSkeletonDataProvider*), "GetSkeletonPoseData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*, "", "OVRSkeleton/IOVRSkeletonDataProvider");

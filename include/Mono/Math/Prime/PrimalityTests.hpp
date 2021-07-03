@@ -27,13 +27,29 @@ namespace Mono::Math::Prime {
     // Creating value type constructor for type: PrimalityTests
     PrimalityTests() noexcept {}
     // static private System.Int32 GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1D53B58
+    // Offset: 0x1D6F868
     static int GetSPPRounds(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // static public System.Boolean RabinMillerTest(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1D53D0C
+    // Offset: 0x1D6FA1C
     static bool RabinMillerTest(Mono::Math::BigInteger* n, Mono::Math::Prime::ConfidenceFactor confidence);
   }; // Mono.Math.Prime.PrimalityTests
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PrimalityTests::GetSPPRounds
+  // Il2CppName: GetSPPRounds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&PrimalityTests::GetSPPRounds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimalityTests*), "GetSPPRounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::Prime::ConfidenceFactor>()});
+    }
+  };
+  // Writing MetadataGetter for method: PrimalityTests::RabinMillerTest
+  // Il2CppName: RabinMillerTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&PrimalityTests::RabinMillerTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimalityTests*), "RabinMillerTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::Prime::ConfidenceFactor>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");

@@ -43,21 +43,51 @@ namespace System::Xml {
     // Creating value type constructor for type: ByteStack
     ByteStack(::Array<uint8_t>* stack_ = {}, int growthRate_ = {}, int top_ = {}, int size_ = {}) noexcept : stack{stack_}, growthRate{growthRate_}, top{top_}, size{size_} {}
     // public System.Void .ctor(System.Int32 growthRate)
-    // Offset: 0x19125F8
+    // Offset: 0x192A308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)
-    // Offset: 0x1912670
+    // Offset: 0x192A380
     void Push(uint8_t data);
     // public System.Byte Pop()
-    // Offset: 0x1912758
+    // Offset: 0x192A468
     uint8_t Pop();
   }; // System.Xml.ByteStack
   #pragma pack(pop)
   static check_size<sizeof(ByteStack), 32 + sizeof(int)> __System_Xml_ByteStackSizeCheck;
   static_assert(sizeof(ByteStack) == 0x24);
+  // Writing MetadataGetter for method: ByteStack::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteStack::*)(int)>(&ByteStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteStack::*)(int)>(&ByteStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ByteStack::Push
+  // Il2CppName: Push
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteStack::*)(uint8_t)>(&ByteStack::Push)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteStack*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: ByteStack::Pop
+  // Il2CppName: Pop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (ByteStack::*)()>(&ByteStack::Pop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");

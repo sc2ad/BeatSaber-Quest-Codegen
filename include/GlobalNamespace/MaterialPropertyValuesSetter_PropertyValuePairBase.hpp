@@ -24,7 +24,7 @@ namespace GlobalNamespace {
     ::Il2CppString* propertyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF5264
+    // [CompilerGeneratedAttribute] Offset: 0xDF7260
     // private System.Int32 <propertyId>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -34,16 +34,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PropertyValuePairBase
     PropertyValuePairBase(::Il2CppString* propertyName_ = {}, int propertyId_ = {}) noexcept : propertyName{propertyName_}, propertyId{propertyId_} {}
     // public System.Int32 get_propertyId()
-    // Offset: 0x1D7495C
+    // Offset: 0x1D8F6B8
     int get_propertyId();
     // private System.Void set_propertyId(System.Int32 value)
-    // Offset: 0x1D74964
+    // Offset: 0x1D8F6C0
     void set_propertyId(int value);
     // public System.Void RefreshPropertyId()
-    // Offset: 0x1D74824
+    // Offset: 0x1D8F580
     void RefreshPropertyId();
     // public System.Void .ctor()
-    // Offset: 0x1D7488C
+    // Offset: 0x1D8F5E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,5 +55,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase), 24 + sizeof(int)> __GlobalNamespace_MaterialPropertyValuesSetter_PropertyValuePairBaseSizeCheck;
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase) == 0x1C);
+  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::PropertyValuePairBase::get_propertyId
+  // Il2CppName: get_propertyId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MaterialPropertyValuesSetter::PropertyValuePairBase::*)()>(&MaterialPropertyValuesSetter::PropertyValuePairBase::get_propertyId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter::PropertyValuePairBase*), "get_propertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::PropertyValuePairBase::set_propertyId
+  // Il2CppName: set_propertyId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::PropertyValuePairBase::*)(int)>(&MaterialPropertyValuesSetter::PropertyValuePairBase::set_propertyId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter::PropertyValuePairBase*), "set_propertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::PropertyValuePairBase::RefreshPropertyId
+  // Il2CppName: RefreshPropertyId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::PropertyValuePairBase::*)()>(&MaterialPropertyValuesSetter::PropertyValuePairBase::RefreshPropertyId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter::PropertyValuePairBase*), "RefreshPropertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialPropertyValuesSetter::PropertyValuePairBase::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::PropertyValuePairBase::*)()>(&MaterialPropertyValuesSetter::PropertyValuePairBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter::PropertyValuePairBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::PropertyValuePairBase::*)()>(&MaterialPropertyValuesSetter::PropertyValuePairBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter::PropertyValuePairBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*, "", "MaterialPropertyValuesSetter/PropertyValuePairBase");

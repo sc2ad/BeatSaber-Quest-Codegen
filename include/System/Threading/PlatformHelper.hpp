@@ -23,13 +23,29 @@ namespace System::Threading {
     // Set static field: static private System.Int32 s_lastProcessorCountRefreshTicks
     static void _set_s_lastProcessorCountRefreshTicks(int value);
     // static System.Int32 get_ProcessorCount()
-    // Offset: 0x1892C90
+    // Offset: 0x18AA9A0
     static int get_ProcessorCount();
     // static System.Boolean get_IsSingleProcessor()
-    // Offset: 0x18952E0
+    // Offset: 0x18ACFF0
     static bool get_IsSingleProcessor();
   }; // System.Threading.PlatformHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PlatformHelper::get_ProcessorCount
+  // Il2CppName: get_ProcessorCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&PlatformHelper::get_ProcessorCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformHelper*), "get_ProcessorCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformHelper::get_IsSingleProcessor
+  // Il2CppName: get_IsSingleProcessor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&PlatformHelper::get_IsSingleProcessor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformHelper*), "get_IsSingleProcessor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");

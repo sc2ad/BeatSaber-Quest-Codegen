@@ -21,7 +21,7 @@ namespace System::Resources {
     // Creating value type constructor for type: CultureNameResourceSetPair
     CultureNameResourceSetPair() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x13FA53C
+    // Offset: 0x141524C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -31,5 +31,19 @@ namespace System::Resources {
     }
   }; // System.Resources.ResourceManager/CultureNameResourceSetPair
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ResourceManager::CultureNameResourceSetPair::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::CultureNameResourceSetPair::*)()>(&ResourceManager::CultureNameResourceSetPair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::CultureNameResourceSetPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::CultureNameResourceSetPair::*)()>(&ResourceManager::CultureNameResourceSetPair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::CultureNameResourceSetPair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");

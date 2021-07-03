@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelProductData
     LevelProductData(::Il2CppString* entitlementLabel_ = {}, ::Il2CppString* productLabel_ = {}, ::Il2CppString* levelId_ = {}) noexcept : entitlementLabel{entitlementLabel_}, productLabel{productLabel_}, levelId{levelId_} {}
     // public System.String get_entitlementLabel()
-    // Offset: 0x1006624
+    // Offset: 0x104A848
     ::Il2CppString* get_entitlementLabel();
     // public System.String get_productLabel()
-    // Offset: 0x100662C
+    // Offset: 0x104A850
     ::Il2CppString* get_productLabel();
     // public System.String get_levelId()
-    // Offset: 0x1006634
+    // Offset: 0x104A858
     ::Il2CppString* get_levelId();
     // public System.Void .ctor()
-    // Offset: 0x100663C
+    // Offset: 0x104A860
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PS4LevelProductsModelSO::LevelProductData), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PS4LevelProductsModelSO_LevelProductDataSizeCheck;
   static_assert(sizeof(PS4LevelProductsModelSO::LevelProductData) == 0x28);
+  // Writing MetadataGetter for method: PS4LevelProductsModelSO::LevelProductData::get_entitlementLabel
+  // Il2CppName: get_entitlementLabel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4LevelProductsModelSO::LevelProductData::*)()>(&PS4LevelProductsModelSO::LevelProductData::get_entitlementLabel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4LevelProductsModelSO::LevelProductData*), "get_entitlementLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PS4LevelProductsModelSO::LevelProductData::get_productLabel
+  // Il2CppName: get_productLabel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4LevelProductsModelSO::LevelProductData::*)()>(&PS4LevelProductsModelSO::LevelProductData::get_productLabel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4LevelProductsModelSO::LevelProductData*), "get_productLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PS4LevelProductsModelSO::LevelProductData::get_levelId
+  // Il2CppName: get_levelId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4LevelProductsModelSO::LevelProductData::*)()>(&PS4LevelProductsModelSO::LevelProductData::get_levelId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4LevelProductsModelSO::LevelProductData*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PS4LevelProductsModelSO::LevelProductData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4LevelProductsModelSO::LevelProductData::*)()>(&PS4LevelProductsModelSO::LevelProductData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4LevelProductsModelSO::LevelProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4LevelProductsModelSO::LevelProductData::*)()>(&PS4LevelProductsModelSO::LevelProductData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4LevelProductsModelSO::LevelProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*, "", "PS4LevelProductsModelSO/LevelProductData");

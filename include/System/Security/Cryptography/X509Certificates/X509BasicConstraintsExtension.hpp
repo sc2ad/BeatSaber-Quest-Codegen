@@ -74,36 +74,36 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static System.String friendlyName
     static void _set_friendlyName(::Il2CppString* value);
     // public System.Void .ctor(System.Security.Cryptography.AsnEncodedData encodedBasicConstraints, System.Boolean critical)
-    // Offset: 0x182D590
+    // Offset: 0x18452A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509BasicConstraintsExtension* New_ctor(System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509BasicConstraintsExtension*, creationType>(encodedBasicConstraints, critical)));
     }
     // public System.Void .ctor(System.Boolean certificateAuthority, System.Boolean hasPathLengthConstraint, System.Int32 pathLengthConstraint, System.Boolean critical)
-    // Offset: 0x182D838
+    // Offset: 0x1845548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509BasicConstraintsExtension* New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int pathLengthConstraint, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509BasicConstraintsExtension*, creationType>(certificateAuthority, hasPathLengthConstraint, pathLengthConstraint, critical)));
     }
     // public System.Boolean get_CertificateAuthority()
-    // Offset: 0x182DAC0
+    // Offset: 0x18457D0
     bool get_CertificateAuthority();
     // public System.Boolean get_HasPathLengthConstraint()
-    // Offset: 0x182DB50
+    // Offset: 0x1845860
     bool get_HasPathLengthConstraint();
     // public System.Int32 get_PathLengthConstraint()
-    // Offset: 0x182DBE0
+    // Offset: 0x18458F0
     int get_PathLengthConstraint();
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
-    // Offset: 0x182D654
+    // Offset: 0x1845364
     System::Security::Cryptography::AsnDecodeStatus Decode(::Array<uint8_t>* extension);
     // System.Byte[] Encode()
-    // Offset: 0x182D954
+    // Offset: 0x1845664
     ::Array<uint8_t>* Encode();
     // public System.Void .ctor()
-    // Offset: 0x182D4F8
+    // Offset: 0x1845208
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::.ctor()
     // Base method: System.Void AsnEncodedData::.ctor()
@@ -114,12 +114,12 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509BasicConstraintsExtension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x182DC70
+    // Offset: 0x1845980
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
     // Base method: System.Void X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // override System.String ToString(System.Boolean multiLine)
-    // Offset: 0x182DE14
+    // Offset: 0x1845B24
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
     ::Il2CppString* ToString(bool multiLine);
@@ -127,5 +127,103 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
   static check_size<sizeof(X509BasicConstraintsExtension), 40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)> __System_Security_Cryptography_X509Certificates_X509BasicConstraintsExtensionSizeCheck;
   static_assert(sizeof(X509BasicConstraintsExtension) == 0x2C);
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)(System::Security::Cryptography::AsnEncodedData*, bool)>(&X509BasicConstraintsExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)(System::Security::Cryptography::AsnEncodedData*, bool)>(&X509BasicConstraintsExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)(bool, bool, int, bool)>(&X509BasicConstraintsExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)(bool, bool, int, bool)>(&X509BasicConstraintsExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::get_CertificateAuthority
+  // Il2CppName: get_CertificateAuthority
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509BasicConstraintsExtension::*)()>(&X509BasicConstraintsExtension::get_CertificateAuthority)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "get_CertificateAuthority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::get_HasPathLengthConstraint
+  // Il2CppName: get_HasPathLengthConstraint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509BasicConstraintsExtension::*)()>(&X509BasicConstraintsExtension::get_HasPathLengthConstraint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "get_HasPathLengthConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::get_PathLengthConstraint
+  // Il2CppName: get_PathLengthConstraint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509BasicConstraintsExtension::*)()>(&X509BasicConstraintsExtension::get_PathLengthConstraint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "get_PathLengthConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::Decode
+  // Il2CppName: Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (X509BasicConstraintsExtension::*)(::Array<uint8_t>*)>(&X509BasicConstraintsExtension::Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::Encode
+  // Il2CppName: Encode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509BasicConstraintsExtension::*)()>(&X509BasicConstraintsExtension::Encode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)()>(&X509BasicConstraintsExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)()>(&X509BasicConstraintsExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::CopyFrom
+  // Il2CppName: CopyFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509BasicConstraintsExtension::*)(System::Security::Cryptography::AsnEncodedData*)>(&X509BasicConstraintsExtension::CopyFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509BasicConstraintsExtension::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509BasicConstraintsExtension::*)(bool)>(&X509BasicConstraintsExtension::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509BasicConstraintsExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*, "System.Security.Cryptography.X509Certificates", "X509BasicConstraintsExtension");

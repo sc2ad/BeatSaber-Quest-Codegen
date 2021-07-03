@@ -60,22 +60,22 @@ namespace GlobalNamespace {
       return playerAvatar;
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerAvatarPacket> get_pool()
-    // Offset: 0x130A6A8
+    // Offset: 0x13253B8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x130D61C
+    // Offset: 0x132832C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x130D628
+    // Offset: 0x1328338
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x130D66C
+    // Offset: 0x132837C
     void Release();
     // public ConnectedPlayerManager/PlayerAvatarPacket Init(MultiplayerAvatarData avatar)
-    // Offset: 0x130D3F0
+    // Offset: 0x1328100
     GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* Init(GlobalNamespace::MultiplayerAvatarData avatar);
     // public System.Void .ctor()
-    // Offset: 0x130D6C8
+    // Offset: 0x13283D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerAvatarPacket), 16 + sizeof(GlobalNamespace::MultiplayerAvatarData)> __GlobalNamespace_ConnectedPlayerManager_PlayerAvatarPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerAvatarPacket) == 0x80);
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerAvatarPacket::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*>* (*)()>(&ConnectedPlayerManager::PlayerAvatarPacket::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerAvatarPacket::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerAvatarPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectedPlayerManager::PlayerAvatarPacket::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerAvatarPacket::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerAvatarPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectedPlayerManager::PlayerAvatarPacket::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerAvatarPacket::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerAvatarPacket::*)()>(&ConnectedPlayerManager::PlayerAvatarPacket::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerAvatarPacket::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* (ConnectedPlayerManager::PlayerAvatarPacket::*)(GlobalNamespace::MultiplayerAvatarData)>(&ConnectedPlayerManager::PlayerAvatarPacket::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerAvatarPacket::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerAvatarPacket::*)()>(&ConnectedPlayerManager::PlayerAvatarPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerAvatarPacket::*)()>(&ConnectedPlayerManager::PlayerAvatarPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerAvatarPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*, "", "ConnectedPlayerManager/PlayerAvatarPacket");

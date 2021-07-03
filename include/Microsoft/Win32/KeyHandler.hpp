@@ -92,90 +92,90 @@ namespace Microsoft::Win32 {
     // Set static field: static private System.String machine_store
     static void _set_machine_store(::Il2CppString* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A36238
+    // Offset: 0x1A4FF48
     static void _cctor();
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir)
-    // Offset: 0x1A36554
+    // Offset: 0x1A50264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyHandler* New_ctor(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* basedir) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir)));
     }
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir, System.Boolean is_volatile)
-    // Offset: 0x1A3655C
+    // Offset: 0x1A5026C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyHandler* New_ctor(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* basedir, bool is_volatile) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir, is_volatile)));
     }
     // public System.Void Load()
-    // Offset: 0x1A367EC
+    // Offset: 0x1A504FC
     void Load();
     // private System.Void LoadKey(System.Security.SecurityElement se)
-    // Offset: 0x1A36E24
+    // Offset: 0x1A50B34
     void LoadKey(System::Security::SecurityElement* se);
     // public Microsoft.Win32.RegistryKey Ensure(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable, System.Boolean is_volatile)
-    // Offset: 0x1A3749C
+    // Offset: 0x1A511AC
     Microsoft::Win32::RegistryKey* Ensure(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* extra, bool writable, bool is_volatile);
     // public Microsoft.Win32.RegistryKey Probe(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable)
-    // Offset: 0x1A3783C
+    // Offset: 0x1A5154C
     Microsoft::Win32::RegistryKey* Probe(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* extra, bool writable);
     // static private System.String CombineName(Microsoft.Win32.RegistryKey rkey, System.String extra)
-    // Offset: 0x1A37754
+    // Offset: 0x1A51464
     static ::Il2CppString* CombineName(Microsoft::Win32::RegistryKey* rkey, ::Il2CppString* extra);
     // static private System.Int64 GetSystemBootTime()
-    // Offset: 0x1A37DD4
+    // Offset: 0x1A51AE4
     static int64_t GetSystemBootTime();
     // static private System.Int64 GetRegisteredBootTime(System.String path)
-    // Offset: 0x1A380C0
+    // Offset: 0x1A51DD0
     static int64_t GetRegisteredBootTime(::Il2CppString* path);
     // static private System.Void SaveRegisteredBootTime(System.String path, System.Int64 btime)
-    // Offset: 0x1A38360
+    // Offset: 0x1A52070
     static void SaveRegisteredBootTime(::Il2CppString* path, int64_t btime);
     // static private System.Void CleanVolatileKeys()
-    // Offset: 0x1A36334
+    // Offset: 0x1A50044
     static void CleanVolatileKeys();
     // static public System.Boolean VolatileKeyExists(System.String dir)
-    // Offset: 0x1A37BC0
+    // Offset: 0x1A518D0
     static bool VolatileKeyExists(::Il2CppString* dir);
     // static public System.String GetVolatileDir(System.String dir)
-    // Offset: 0x1A3672C
+    // Offset: 0x1A5043C
     static ::Il2CppString* GetVolatileDir(::Il2CppString* dir);
     // static public Microsoft.Win32.KeyHandler Lookup(Microsoft.Win32.RegistryKey rkey, System.Boolean createNonExisting)
-    // Offset: 0x1A38914
+    // Offset: 0x1A52624
     static Microsoft::Win32::KeyHandler* Lookup(Microsoft::Win32::RegistryKey* rkey, bool createNonExisting);
     // static private System.String GetRootFromDir(System.String dir)
-    // Offset: 0x1A387D4
+    // Offset: 0x1A524E4
     static ::Il2CppString* GetRootFromDir(::Il2CppString* dir);
     // static public System.Void Drop(Microsoft.Win32.RegistryKey rkey)
-    // Offset: 0x1A38E14
+    // Offset: 0x1A52B24
     static void Drop(Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(System.String name, Microsoft.Win32.RegistryValueOptions options)
-    // Offset: 0x1A392A0
+    // Offset: 0x1A52FB0
     ::Il2CppObject* GetValue(::Il2CppString* name, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames()
-    // Offset: 0x1A394A8
+    // Offset: 0x1A531B8
     ::Array<::Il2CppString*>* GetSubKeyNames();
     // public System.Void Flush()
-    // Offset: 0x1A398D4
+    // Offset: 0x1A535E4
     void Flush();
     // public System.Boolean ValueExists(System.String name)
-    // Offset: 0x1A3A3B4
+    // Offset: 0x1A540C4
     bool ValueExists(::Il2CppString* name);
     // public System.Boolean get_IsMarkedForDeletion()
-    // Offset: 0x1A39418
+    // Offset: 0x1A53128
     bool get_IsMarkedForDeletion();
     // private System.Void Save()
-    // Offset: 0x1A399D0
+    // Offset: 0x1A536E0
     void Save();
     // static private System.String get_UserStore()
-    // Offset: 0x1A3852C
+    // Offset: 0x1A5223C
     static ::Il2CppString* get_UserStore();
     // static private System.String get_MachineStore()
-    // Offset: 0x1A38638
+    // Offset: 0x1A52348
     static ::Il2CppString* get_MachineStore();
     // protected override System.Void Finalize()
-    // Offset: 0x1A3A4AC
+    // Offset: 0x1A541BC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -183,5 +183,225 @@ namespace Microsoft::Win32 {
   #pragma pack(pop)
   static check_size<sizeof(KeyHandler), 56 + sizeof(bool)> __Microsoft_Win32_KeyHandlerSizeCheck;
   static_assert(sizeof(KeyHandler) == 0x39);
+  // Writing MetadataGetter for method: KeyHandler::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KeyHandler::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*)>(&KeyHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*)>(&KeyHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&KeyHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&KeyHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Load
+  // Il2CppName: Load
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)()>(&KeyHandler::Load)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::LoadKey
+  // Il2CppName: LoadKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)(System::Security::SecurityElement*)>(&KeyHandler::LoadKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "LoadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::SecurityElement*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Ensure
+  // Il2CppName: Ensure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool, bool)>(&KeyHandler::Ensure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Ensure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Probe
+  // Il2CppName: Probe
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&KeyHandler::Probe)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Probe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::CombineName
+  // Il2CppName: CombineName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*)>(&KeyHandler::CombineName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "CombineName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::GetSystemBootTime
+  // Il2CppName: GetSystemBootTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&KeyHandler::GetSystemBootTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "GetSystemBootTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::GetRegisteredBootTime
+  // Il2CppName: GetRegisteredBootTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*)>(&KeyHandler::GetRegisteredBootTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "GetRegisteredBootTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::SaveRegisteredBootTime
+  // Il2CppName: SaveRegisteredBootTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int64_t)>(&KeyHandler::SaveRegisteredBootTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "SaveRegisteredBootTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::CleanVolatileKeys
+  // Il2CppName: CleanVolatileKeys
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KeyHandler::CleanVolatileKeys)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "CleanVolatileKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::VolatileKeyExists
+  // Il2CppName: VolatileKeyExists
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&KeyHandler::VolatileKeyExists)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "VolatileKeyExists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::GetVolatileDir
+  // Il2CppName: GetVolatileDir
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&KeyHandler::GetVolatileDir)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "GetVolatileDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Lookup
+  // Il2CppName: Lookup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::KeyHandler* (*)(Microsoft::Win32::RegistryKey*, bool)>(&KeyHandler::Lookup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::GetRootFromDir
+  // Il2CppName: GetRootFromDir
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&KeyHandler::GetRootFromDir)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "GetRootFromDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Drop
+  // Il2CppName: Drop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Microsoft::Win32::RegistryKey*)>(&KeyHandler::Drop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Drop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::GetValue
+  // Il2CppName: GetValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (KeyHandler::*)(::Il2CppString*, Microsoft::Win32::RegistryValueOptions)>(&KeyHandler::GetValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueOptions>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::GetSubKeyNames
+  // Il2CppName: GetSubKeyNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (KeyHandler::*)()>(&KeyHandler::GetSubKeyNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Flush
+  // Il2CppName: Flush
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)()>(&KeyHandler::Flush)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::ValueExists
+  // Il2CppName: ValueExists
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyHandler::*)(::Il2CppString*)>(&KeyHandler::ValueExists)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "ValueExists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::get_IsMarkedForDeletion
+  // Il2CppName: get_IsMarkedForDeletion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyHandler::*)()>(&KeyHandler::get_IsMarkedForDeletion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "get_IsMarkedForDeletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Save
+  // Il2CppName: Save
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)()>(&KeyHandler::Save)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::get_UserStore
+  // Il2CppName: get_UserStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&KeyHandler::get_UserStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "get_UserStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::get_MachineStore
+  // Il2CppName: get_MachineStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&KeyHandler::get_MachineStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "get_MachineStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyHandler::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyHandler::*)()>(&KeyHandler::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyHandler*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");

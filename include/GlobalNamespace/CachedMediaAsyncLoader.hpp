@@ -83,16 +83,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ClearCache()
-    // Offset: 0x23A9818
+    // Offset: 0x23C5E4C
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23A9890
+    // Offset: 0x23C5EC4
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23A99A4
+    // Offset: 0x23C5FD8
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x23A9AB8
+    // Offset: 0x23C60EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -108,5 +108,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CachedMediaAsyncLoader), 40 + sizeof(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*)> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
   static_assert(sizeof(CachedMediaAsyncLoader) == 0x30);
+  // Writing MetadataGetter for method: CachedMediaAsyncLoader::ClearCache
+  // Il2CppName: ClearCache
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedMediaAsyncLoader::*)()>(&CachedMediaAsyncLoader::ClearCache)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CachedMediaAsyncLoader*), "ClearCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CachedMediaAsyncLoader::LoadAudioClipAsync
+  // Il2CppName: LoadAudioClipAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (CachedMediaAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&CachedMediaAsyncLoader::LoadAudioClipAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CachedMediaAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: CachedMediaAsyncLoader::LoadSpriteAsync
+  // Il2CppName: LoadSpriteAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (CachedMediaAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&CachedMediaAsyncLoader::LoadSpriteAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CachedMediaAsyncLoader*), "LoadSpriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: CachedMediaAsyncLoader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedMediaAsyncLoader::*)()>(&CachedMediaAsyncLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CachedMediaAsyncLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedMediaAsyncLoader::*)()>(&CachedMediaAsyncLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CachedMediaAsyncLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CachedMediaAsyncLoader*, "", "CachedMediaAsyncLoader");

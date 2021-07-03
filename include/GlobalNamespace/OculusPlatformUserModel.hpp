@@ -76,19 +76,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x11D2D58
+    // Offset: 0x11ED6AC
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x11D2E58
+    // Offset: 0x11ED7AC
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
-    // Offset: 0x11D2F84
+    // Offset: 0x11ED8D8
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x11D3084
+    // Offset: 0x11ED9D8
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x11D3184
+    // Offset: 0x11EDAD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,5 +100,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformUserModel), 24 + sizeof(GlobalNamespace::UserInfo*)> __GlobalNamespace_OculusPlatformUserModelSizeCheck;
   static_assert(sizeof(OculusPlatformUserModel) == 0x20);
+  // Writing MetadataGetter for method: OculusPlatformUserModel::GetUserInfo
+  // Il2CppName: GetUserInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* (OculusPlatformUserModel::*)()>(&OculusPlatformUserModel::GetUserInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel*), "GetUserInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformUserModel::GetUserFriendsUserIds
+  // Il2CppName: GetUserFriendsUserIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* (OculusPlatformUserModel::*)(bool)>(&OculusPlatformUserModel::GetUserFriendsUserIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformUserModel::GetUserAuthToken
+  // Il2CppName: GetUserAuthToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserAuthTokenData*>* (OculusPlatformUserModel::*)()>(&OculusPlatformUserModel::GetUserAuthToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel*), "GetUserAuthToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformUserModel::GetUserNamesForUserIds
+  // Il2CppName: GetUserNamesForUserIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>* (OculusPlatformUserModel::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&OculusPlatformUserModel::GetUserNamesForUserIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel*), "GetUserNamesForUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformUserModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::*)()>(&OculusPlatformUserModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformUserModel::*)()>(&OculusPlatformUserModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformUserModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel*, "", "OculusPlatformUserModel");

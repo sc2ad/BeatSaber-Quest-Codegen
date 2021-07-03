@@ -65,19 +65,51 @@ namespace GlobalNamespace {
     // Set static field: static public OVRComposition currentComposition
     static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
     // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x12D0C60
+    // Offset: 0x12EA970
     static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void Cleanup()
-    // Offset: 0x12D14E8
+    // Offset: 0x12EB1F8
     static void Cleanup();
     // static public System.Void RecenterPose()
-    // Offset: 0x12D16E4
+    // Offset: 0x12EB3F4
     static void RecenterPose();
     // static private System.Void .cctor()
-    // Offset: 0x12D1790
+    // Offset: 0x12EB4A0
     static void _cctor();
   }; // OVRMixedReality
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRMixedReality::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&OVRMixedReality::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TrackingOrigin>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedReality::Cleanup
+  // Il2CppName: Cleanup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRMixedReality::Cleanup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedReality::RecenterPose
+  // Il2CppName: RecenterPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRMixedReality::RecenterPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedReality::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRMixedReality::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");

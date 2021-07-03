@@ -141,14 +141,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* adaptiveSfxToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE24C40
+    // [SpaceAttribute] Offset: 0xE24CD4
     // private UnityEngine.CanvasGroup _singleplayerOnlyCanvasGroup
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::CanvasGroup* singleplayerOnlyCanvasGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE24C78
+    // [CompilerGeneratedAttribute] Offset: 0xE24D0C
     // private System.Action didChangePlayerSettingsEvent
     // Size: 0x8
     // Offset: 0x90
@@ -194,76 +194,76 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledSectionAlpha
     static void _set_kDisabledSectionAlpha(float value);
     // public System.Void add_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x1015148
+    // Offset: 0x1059458
     void add_didChangePlayerSettingsEvent(System::Action* value);
     // public System.Void remove_didChangePlayerSettingsEvent(System.Action value)
-    // Offset: 0x10151EC
+    // Offset: 0x10594FC
     void remove_didChangePlayerSettingsEvent(System::Action* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x1014C4C
+    // Offset: 0x1058F5C
     GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void SetData(PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x1014990
+    // Offset: 0x1058CA0
     void SetData(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
     // public System.Void SetLayout(PlayerSettingsPanelController/PlayerSettingsPanelLayout layout)
-    // Offset: 0x1014960
+    // Offset: 0x1058C70
     void SetLayout(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout layout);
     // protected System.Void Awake()
-    // Offset: 0x10152FC
+    // Offset: 0x105960C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x1015724
+    // Offset: 0x1059A34
     void OnDestroy();
     // public System.Void Refresh()
-    // Offset: 0x10149D4
+    // Offset: 0x1058CE4
     void Refresh();
     // private System.Void HandleSFXVolumeSettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x10159FC
+    // Offset: 0x1059D0C
     void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandleSaberTrailIntensitySettingsControllerValueDidChange(FormattedFloatListSettingsController settingsController, System.Single value)
-    // Offset: 0x1015A3C
+    // Offset: 0x1059D4C
     void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController* settingsController, float value);
     // private System.Void HandlePlayerHeightSettingsControllerValueDidChange(System.Single value)
-    // Offset: 0x1015A5C
+    // Offset: 0x1059D6C
     void HandlePlayerHeightSettingsControllerValueDidChange(float value);
     // private System.Void HandleNoteJumpStartBeatOffsetPositionSelected(System.Int32 idx)
-    // Offset: 0x1015A7C
+    // Offset: 0x1059D8C
     void HandleNoteJumpStartBeatOffsetPositionSelected(int idx);
     // private System.Void HandleLightReductionAmountSelected(System.Int32 obj)
-    // Offset: 0x1015A9C
+    // Offset: 0x1059DAC
     void HandleLightReductionAmountSelected(int obj);
     // private System.Void HandleAdvancedHudToggleChanged(System.Boolean on)
-    // Offset: 0x1015ABC
+    // Offset: 0x1059DCC
     void HandleAdvancedHudToggleChanged(bool on);
     // private System.Void HandleNoTextsAndHudsToggleChanged(System.Boolean on)
-    // Offset: 0x1015B14
+    // Offset: 0x1059E24
     void HandleNoTextsAndHudsToggleChanged(bool on);
     // private System.Void SetIsDirty()
-    // Offset: 0x1015A1C
+    // Offset: 0x1059D2C
     void SetIsDirty();
     // private System.Void SetSection(UnityEngine.CanvasGroup sectionCanvasGroup, System.Boolean block)
-    // Offset: 0x1015290
+    // Offset: 0x10595A0
     void SetSection(UnityEngine::CanvasGroup* sectionCanvasGroup, bool block);
     // private System.Void <Awake>b__28_0(System.Boolean on)
-    // Offset: 0x1015B74
+    // Offset: 0x1059E84
     void $Awake$b__28_0(bool on);
     // private System.Void <Awake>b__28_1(System.Boolean on)
-    // Offset: 0x1015B94
+    // Offset: 0x1059EA4
     void $Awake$b__28_1(bool on);
     // private System.Void <Awake>b__28_2(System.Boolean on)
-    // Offset: 0x1015BB4
+    // Offset: 0x1059EC4
     void $Awake$b__28_2(bool on);
     // private System.Void <Awake>b__28_3(System.Boolean on)
-    // Offset: 0x1015BD4
+    // Offset: 0x1059EE4
     void $Awake$b__28_3(bool on);
     // private System.Void <Awake>b__28_4(System.Boolean on)
-    // Offset: 0x1015BF4
+    // Offset: 0x1059F04
     void $Awake$b__28_4(bool on);
     // private System.Void <Awake>b__28_5(System.Boolean on)
-    // Offset: 0x1015C14
+    // Offset: 0x1059F24
     void $Awake$b__28_5(bool on);
     // public System.Void .ctor()
-    // Offset: 0x1015B6C
+    // Offset: 0x1059E7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -279,5 +279,203 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSettingsPanelController), 169 + sizeof(bool)> __GlobalNamespace_PlayerSettingsPanelControllerSizeCheck;
   static_assert(sizeof(PlayerSettingsPanelController) == 0xAA);
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::add_didChangePlayerSettingsEvent
+  // Il2CppName: add_didChangePlayerSettingsEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(System::Action*)>(&PlayerSettingsPanelController::add_didChangePlayerSettingsEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "add_didChangePlayerSettingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::remove_didChangePlayerSettingsEvent
+  // Il2CppName: remove_didChangePlayerSettingsEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(System::Action*)>(&PlayerSettingsPanelController::remove_didChangePlayerSettingsEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "remove_didChangePlayerSettingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::get_playerSpecificSettings
+  // Il2CppName: get_playerSpecificSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::get_playerSpecificSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "get_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(GlobalNamespace::PlayerSpecificSettings*)>(&PlayerSettingsPanelController::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::SetLayout
+  // Il2CppName: SetLayout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout)>(&PlayerSettingsPanelController::SetLayout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "SetLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::Refresh
+  // Il2CppName: Refresh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::Refresh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandleSFXVolumeSettingsControllerValueDidChange
+  // Il2CppName: HandleSFXVolumeSettingsControllerValueDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(GlobalNamespace::FormattedFloatListSettingsController*, float)>(&PlayerSettingsPanelController::HandleSFXVolumeSettingsControllerValueDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandleSFXVolumeSettingsControllerValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FormattedFloatListSettingsController*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandleSaberTrailIntensitySettingsControllerValueDidChange
+  // Il2CppName: HandleSaberTrailIntensitySettingsControllerValueDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(GlobalNamespace::FormattedFloatListSettingsController*, float)>(&PlayerSettingsPanelController::HandleSaberTrailIntensitySettingsControllerValueDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandleSaberTrailIntensitySettingsControllerValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FormattedFloatListSettingsController*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandlePlayerHeightSettingsControllerValueDidChange
+  // Il2CppName: HandlePlayerHeightSettingsControllerValueDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(float)>(&PlayerSettingsPanelController::HandlePlayerHeightSettingsControllerValueDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandlePlayerHeightSettingsControllerValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandleNoteJumpStartBeatOffsetPositionSelected
+  // Il2CppName: HandleNoteJumpStartBeatOffsetPositionSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(int)>(&PlayerSettingsPanelController::HandleNoteJumpStartBeatOffsetPositionSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandleNoteJumpStartBeatOffsetPositionSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandleLightReductionAmountSelected
+  // Il2CppName: HandleLightReductionAmountSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(int)>(&PlayerSettingsPanelController::HandleLightReductionAmountSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandleLightReductionAmountSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandleAdvancedHudToggleChanged
+  // Il2CppName: HandleAdvancedHudToggleChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::HandleAdvancedHudToggleChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandleAdvancedHudToggleChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::HandleNoTextsAndHudsToggleChanged
+  // Il2CppName: HandleNoTextsAndHudsToggleChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::HandleNoTextsAndHudsToggleChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "HandleNoTextsAndHudsToggleChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::SetIsDirty
+  // Il2CppName: SetIsDirty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::SetIsDirty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "SetIsDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::SetSection
+  // Il2CppName: SetSection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(UnityEngine::CanvasGroup*, bool)>(&PlayerSettingsPanelController::SetSection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "SetSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::$Awake$b__28_0
+  // Il2CppName: <Awake>b__28_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::$Awake$b__28_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "<Awake>b__28_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::$Awake$b__28_1
+  // Il2CppName: <Awake>b__28_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::$Awake$b__28_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "<Awake>b__28_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::$Awake$b__28_2
+  // Il2CppName: <Awake>b__28_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::$Awake$b__28_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "<Awake>b__28_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::$Awake$b__28_3
+  // Il2CppName: <Awake>b__28_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::$Awake$b__28_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "<Awake>b__28_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::$Awake$b__28_4
+  // Il2CppName: <Awake>b__28_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::$Awake$b__28_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "<Awake>b__28_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::$Awake$b__28_5
+  // Il2CppName: <Awake>b__28_5
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)(bool)>(&PlayerSettingsPanelController::$Awake$b__28_5)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), "<Awake>b__28_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerSettingsPanelController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSettingsPanelController::*)()>(&PlayerSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");

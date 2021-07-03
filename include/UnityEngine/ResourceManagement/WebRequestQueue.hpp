@@ -55,22 +55,62 @@ namespace UnityEngine::ResourceManagement {
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> s_ActiveRequests
     static void _set_s_ActiveRequests(System::Collections::Generic::List_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* value);
     // static public System.Void SetMaxConcurrentRequests(System.Int32 maxRequests)
-    // Offset: 0x19B8BCC
+    // Offset: 0x19CF8DC
     static void SetMaxConcurrentRequests(int maxRequests);
     // static public System.Boolean get_ShouldQueueNextRequest()
-    // Offset: 0x19B1F88
+    // Offset: 0x19C8C98
     static bool get_ShouldQueueNextRequest();
     // static public UnityEngine.ResourceManagement.WebRequestQueueOperation QueueRequest(UnityEngine.Networking.UnityWebRequest request)
-    // Offset: 0x19B260C
+    // Offset: 0x19C931C
     static UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(UnityEngine::Networking::UnityWebRequest* request);
     // static private System.Void OnWebAsyncOpComplete(UnityEngine.AsyncOperation operation)
-    // Offset: 0x19B8CB4
+    // Offset: 0x19CF9C4
     static void OnWebAsyncOpComplete(UnityEngine::AsyncOperation* operation);
     // static private System.Void .cctor()
-    // Offset: 0x19B8EF0
+    // Offset: 0x19CFC00
     static void _cctor();
   }; // UnityEngine.ResourceManagement.WebRequestQueue
   #pragma pack(pop)
+  // Writing MetadataGetter for method: WebRequestQueue::SetMaxConcurrentRequests
+  // Il2CppName: SetMaxConcurrentRequests
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&WebRequestQueue::SetMaxConcurrentRequests)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "SetMaxConcurrentRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebRequestQueue::get_ShouldQueueNextRequest
+  // Il2CppName: get_ShouldQueueNextRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&WebRequestQueue::get_ShouldQueueNextRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "get_ShouldQueueNextRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebRequestQueue::QueueRequest
+  // Il2CppName: QueueRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::WebRequestQueueOperation* (*)(UnityEngine::Networking::UnityWebRequest*)>(&WebRequestQueue::QueueRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "QueueRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebRequestQueue::OnWebAsyncOpComplete
+  // Il2CppName: OnWebAsyncOpComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AsyncOperation*)>(&WebRequestQueue::OnWebAsyncOpComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), "OnWebAsyncOpComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebRequestQueue::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebRequestQueue::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueue*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueue*, "UnityEngine.ResourceManagement", "WebRequestQueue");

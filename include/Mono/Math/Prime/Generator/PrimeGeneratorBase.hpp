@@ -33,19 +33,19 @@ namespace Mono::Math::Prime::Generator {
     // Creating value type constructor for type: PrimeGeneratorBase
     PrimeGeneratorBase() noexcept {}
     // public Mono.Math.Prime.ConfidenceFactor get_Confidence()
-    // Offset: 0x1D53254
+    // Offset: 0x1D6EF64
     Mono::Math::Prime::ConfidenceFactor get_Confidence();
     // public Mono.Math.Prime.PrimalityTest get_PrimalityTest()
-    // Offset: 0x1D5325C
+    // Offset: 0x1D6EF6C
     Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
     // public System.Int32 get_TrialDivisionBounds()
-    // Offset: 0x1D532D0
+    // Offset: 0x1D6EFE0
     int get_TrialDivisionBounds();
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
     // Offset: 0xFFFFFFFF
     Mono::Math::BigInteger* GenerateNewPrime(int bits);
     // protected System.Void .ctor()
-    // Offset: 0x1D532D8
+    // Offset: 0x1D6EFE8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,5 +55,51 @@ namespace Mono::Math::Prime::Generator {
     }
   }; // Mono.Math.Prime.Generator.PrimeGeneratorBase
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PrimeGeneratorBase::get_Confidence
+  // Il2CppName: get_Confidence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::Prime::ConfidenceFactor (PrimeGeneratorBase::*)()>(&PrimeGeneratorBase::get_Confidence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimeGeneratorBase*), "get_Confidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PrimeGeneratorBase::get_PrimalityTest
+  // Il2CppName: get_PrimalityTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::Prime::PrimalityTest* (PrimeGeneratorBase::*)()>(&PrimeGeneratorBase::get_PrimalityTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimeGeneratorBase*), "get_PrimalityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PrimeGeneratorBase::get_TrialDivisionBounds
+  // Il2CppName: get_TrialDivisionBounds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PrimeGeneratorBase::*)()>(&PrimeGeneratorBase::get_TrialDivisionBounds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimeGeneratorBase*), "get_TrialDivisionBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PrimeGeneratorBase::GenerateNewPrime
+  // Il2CppName: GenerateNewPrime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (PrimeGeneratorBase::*)(int)>(&PrimeGeneratorBase::GenerateNewPrime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PrimeGeneratorBase::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrimeGeneratorBase::*)()>(&PrimeGeneratorBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimeGeneratorBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrimeGeneratorBase::*)()>(&PrimeGeneratorBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrimeGeneratorBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::PrimeGeneratorBase*, "Mono.Math.Prime.Generator", "PrimeGeneratorBase");

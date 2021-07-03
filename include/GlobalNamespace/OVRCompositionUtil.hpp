@@ -42,28 +42,28 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRCompositionUtil
     OVRCompositionUtil() noexcept {}
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x1261C28
+    // Offset: 0x127E938
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x1261CC8
+    // Offset: 0x127E9D8
     static void SafeDestroy_(UnityEngine::GameObject*& obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x1261D4C
+    // Offset: 0x127EA5C
     static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager_CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x1261D78
+    // Offset: 0x127EA88
     static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager_VirtualGreenScreenType type);
     // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x1261E0C
+    // Offset: 0x127EB1C
     static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x1261EB8
+    // Offset: 0x127EBC8
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x12620F8
+    // Offset: 0x127EE08
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0x12625A0
+    // Offset: 0x127F2B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,5 +73,75 @@ namespace GlobalNamespace {
     }
   }; // OVRCompositionUtil
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRCompositionUtil::SafeDestroy
+  // Il2CppName: SafeDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&OVRCompositionUtil::SafeDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::SafeDestroy_
+  // Il2CppName: SafeDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*&)>(&OVRCompositionUtil::SafeDestroy_)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::ConvertCameraDevice
+  // Il2CppName: ConvertCameraDevice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::CameraDevice (*)(GlobalNamespace::OVRManager_CameraDevice)>(&OVRCompositionUtil::ConvertCameraDevice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "ConvertCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_CameraDevice>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::ToBoundaryType
+  // Il2CppName: ToBoundaryType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryType (*)(GlobalNamespace::OVRManager_VirtualGreenScreenType)>(&OVRCompositionUtil::ToBoundaryType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "ToBoundaryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_VirtualGreenScreenType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::GetWorldPosition
+  // Il2CppName: GetWorldPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&OVRCompositionUtil::GetWorldPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "GetWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::GetMaximumBoundaryDistance
+  // Il2CppName: GetMaximumBoundaryDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Camera*, GlobalNamespace::OVRBoundary::BoundaryType)>(&OVRCompositionUtil::GetMaximumBoundaryDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "GetMaximumBoundaryDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::BuildBoundaryMesh
+  // Il2CppName: BuildBoundaryMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(GlobalNamespace::OVRBoundary::BoundaryType, float, float)>(&OVRCompositionUtil::BuildBoundaryMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), "BuildBoundaryMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRCompositionUtil::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCompositionUtil::*)()>(&OVRCompositionUtil::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRCompositionUtil::*)()>(&OVRCompositionUtil::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRCompositionUtil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCompositionUtil*, "", "OVRCompositionUtil");

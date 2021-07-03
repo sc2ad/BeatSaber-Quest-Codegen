@@ -50,21 +50,51 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static void _set_m_LoadedAssemblies(System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* value);
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
-    // Offset: 0x23C39E8
+    // Offset: 0x23DEF14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerTestAssemblyProvider* New_ctor(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, System::Collections::Generic::List_1<::Il2CppString*>* assembliesToLoad) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTestAssemblyProvider*, creationType>(assemblyLoadProxy, assembliesToLoad)));
     }
     // public System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> GetUserAssemblies()
-    // Offset: 0x23C3CB0
+    // Offset: 0x23DF1DC
     System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* GetUserAssemblies();
     // private System.Void LoadAssemblies()
-    // Offset: 0x23C3A24
+    // Offset: 0x23DEF50
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
   #pragma pack(pop)
   static check_size<sizeof(PlayerTestAssemblyProvider), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __UnityEngine_TestTools_Utils_PlayerTestAssemblyProviderSizeCheck;
   static_assert(sizeof(PlayerTestAssemblyProvider) == 0x20);
+  // Writing MetadataGetter for method: PlayerTestAssemblyProvider::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerTestAssemblyProvider::*)(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*, System::Collections::Generic::List_1<::Il2CppString*>*)>(&PlayerTestAssemblyProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerTestAssemblyProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerTestAssemblyProvider::*)(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*, System::Collections::Generic::List_1<::Il2CppString*>*)>(&PlayerTestAssemblyProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerTestAssemblyProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Utils::IAssemblyLoadProxy*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerTestAssemblyProvider::GetUserAssemblies
+  // Il2CppName: GetUserAssemblies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* (PlayerTestAssemblyProvider::*)()>(&PlayerTestAssemblyProvider::GetUserAssemblies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerTestAssemblyProvider*), "GetUserAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerTestAssemblyProvider::LoadAssemblies
+  // Il2CppName: LoadAssemblies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerTestAssemblyProvider::*)()>(&PlayerTestAssemblyProvider::LoadAssemblies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerTestAssemblyProvider*), "LoadAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*, "UnityEngine.TestTools.Utils", "PlayerTestAssemblyProvider");

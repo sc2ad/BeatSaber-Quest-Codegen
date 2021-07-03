@@ -107,54 +107,172 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[,] blake2b_sigma
     static void _set_blake2b_sigma(::Array<uint8_t>* value);
     // public System.Void .ctor(System.Int32 digestSize)
-    // Offset: 0x1CB2514
+    // Offset: 0x1CCE224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Blake2bDigest* New_ctor(int digestSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Blake2bDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Blake2bDigest*, creationType>(digestSize)));
     }
     // private System.Void Init()
-    // Offset: 0x1CB261C
+    // Offset: 0x1CCE32C
     void Init();
     // private System.Void InitializeInternalState()
-    // Offset: 0x1CB2994
+    // Offset: 0x1CCE6A4
     void InitializeInternalState();
     // public System.Void Update(System.Byte b)
-    // Offset: 0x1CB2B48
+    // Offset: 0x1CCE858
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] message, System.Int32 offset, System.Int32 len)
-    // Offset: 0x1CB3198
+    // Offset: 0x1CCEEA8
     void BlockUpdate(::Array<uint8_t>* message, int offset, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOffset)
-    // Offset: 0x1CB32DC
+    // Offset: 0x1CCEFEC
     int DoFinal(::Array<uint8_t>* output, int outOffset);
     // public System.Void Reset()
-    // Offset: 0x1CB343C
+    // Offset: 0x1CCF14C
     void Reset();
     // private System.Void Compress(System.Byte[] message, System.Int32 messagePos)
-    // Offset: 0x1CB2C0C
+    // Offset: 0x1CCE91C
     void Compress(::Array<uint8_t>* message, int messagePos);
     // private System.Void G(System.UInt64 m1, System.UInt64 m2, System.Int32 posA, System.Int32 posB, System.Int32 posC, System.Int32 posD)
-    // Offset: 0x1CB34AC
+    // Offset: 0x1CCF1BC
     void G(uint64_t m1, uint64_t m2, int posA, int posB, int posC, int posD);
     // static private System.UInt64 Rotr64(System.UInt64 x, System.Int32 rot)
-    // Offset: 0x1CB374C
+    // Offset: 0x1CCF45C
     static uint64_t Rotr64(uint64_t x, int rot);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1CB3754
+    // Offset: 0x1CCF464
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1CB379C
+    // Offset: 0x1CCF4AC
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1CB37A4
+    // Offset: 0x1CCF4B4
     int GetByteLength();
     // static private System.Void .cctor()
-    // Offset: 0x1CB37AC
+    // Offset: 0x1CCF4BC
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Digests.Blake2bDigest
   #pragma pack(pop)
   static check_size<sizeof(Blake2bDigest), 96 + sizeof(uint64_t)> __Org_BouncyCastle_Crypto_Digests_Blake2bDigestSizeCheck;
   static_assert(sizeof(Blake2bDigest) == 0x68);
+  // Writing MetadataGetter for method: Blake2bDigest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)(int)>(&Blake2bDigest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)(int)>(&Blake2bDigest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)()>(&Blake2bDigest::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::InitializeInternalState
+  // Il2CppName: InitializeInternalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)()>(&Blake2bDigest::InitializeInternalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "InitializeInternalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)(uint8_t)>(&Blake2bDigest::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::BlockUpdate
+  // Il2CppName: BlockUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)(::Array<uint8_t>*, int, int)>(&Blake2bDigest::BlockUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::DoFinal
+  // Il2CppName: DoFinal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Blake2bDigest::*)(::Array<uint8_t>*, int)>(&Blake2bDigest::DoFinal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)()>(&Blake2bDigest::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::Compress
+  // Il2CppName: Compress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)(::Array<uint8_t>*, int)>(&Blake2bDigest::Compress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "Compress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::G
+  // Il2CppName: G
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Blake2bDigest::*)(uint64_t, uint64_t, int, int, int, int)>(&Blake2bDigest::G)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::Rotr64
+  // Il2CppName: Rotr64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int)>(&Blake2bDigest::Rotr64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "Rotr64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::get_AlgorithmName
+  // Il2CppName: get_AlgorithmName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Blake2bDigest::*)()>(&Blake2bDigest::get_AlgorithmName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::GetDigestSize
+  // Il2CppName: GetDigestSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Blake2bDigest::*)()>(&Blake2bDigest::GetDigestSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "GetDigestSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::GetByteLength
+  // Il2CppName: GetByteLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Blake2bDigest::*)()>(&Blake2bDigest::GetByteLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), "GetByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Blake2bDigest::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Blake2bDigest::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Blake2bDigest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Blake2bDigest*, "Org.BouncyCastle.Crypto.Digests", "Blake2bDigest");

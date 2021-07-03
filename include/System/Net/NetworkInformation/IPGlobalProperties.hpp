@@ -18,25 +18,25 @@ namespace System::Net::NetworkInformation {
     public:
     // Creating value type constructor for type: IPGlobalProperties
     IPGlobalProperties() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xD88AB4
+    // [CompilerGeneratedAttribute] Offset: 0xD88A34
     // Get static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static bool _get_$PlatformNeedsLibCWorkaround$k__BackingField();
     // Set static field: static private readonly System.Boolean <PlatformNeedsLibCWorkaround>k__BackingField
     static void _set_$PlatformNeedsLibCWorkaround$k__BackingField(bool value);
     // static private System.Boolean get_PlatformNeedsLibCWorkaround()
-    // Offset: 0x1472F18
+    // Offset: 0x148DC28
     static bool get_PlatformNeedsLibCWorkaround();
     // static public System.Net.NetworkInformation.IPGlobalProperties GetIPGlobalProperties()
-    // Offset: 0x1472F68
+    // Offset: 0x148DC78
     static System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
     // static System.Net.NetworkInformation.IPGlobalProperties InternalGetIPGlobalProperties()
-    // Offset: 0x1473138
+    // Offset: 0x148DE48
     static System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
     // public System.String get_DomainName()
     // Offset: 0xFFFFFFFF
     ::Il2CppString* get_DomainName();
     // protected System.Void .ctor()
-    // Offset: 0x147313C
+    // Offset: 0x148DE4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,5 +46,51 @@ namespace System::Net::NetworkInformation {
     }
   }; // System.Net.NetworkInformation.IPGlobalProperties
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IPGlobalProperties::get_PlatformNeedsLibCWorkaround
+  // Il2CppName: get_PlatformNeedsLibCWorkaround
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&IPGlobalProperties::get_PlatformNeedsLibCWorkaround)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPGlobalProperties*), "get_PlatformNeedsLibCWorkaround", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPGlobalProperties::GetIPGlobalProperties
+  // Il2CppName: GetIPGlobalProperties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&IPGlobalProperties::GetIPGlobalProperties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPGlobalProperties*), "GetIPGlobalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPGlobalProperties::InternalGetIPGlobalProperties
+  // Il2CppName: InternalGetIPGlobalProperties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&IPGlobalProperties::InternalGetIPGlobalProperties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPGlobalProperties*), "InternalGetIPGlobalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPGlobalProperties::get_DomainName
+  // Il2CppName: get_DomainName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPGlobalProperties::*)()>(&IPGlobalProperties::get_DomainName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPGlobalProperties*), "get_DomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPGlobalProperties::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPGlobalProperties::*)()>(&IPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPGlobalProperties::*)()>(&IPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");

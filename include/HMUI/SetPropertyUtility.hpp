@@ -31,7 +31,7 @@ namespace HMUI {
     // Creating value type constructor for type: SetPropertyUtility
     SetPropertyUtility() noexcept {}
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x12A08E0
+    // Offset: 0x12BB5F0
     static bool SetColor(UnityEngine::Color& currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
@@ -54,5 +54,19 @@ namespace HMUI {
     }
   }; // HMUI.SetPropertyUtility
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SetPropertyUtility::SetColor
+  // Il2CppName: SetColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&SetPropertyUtility::SetColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: SetPropertyUtility::SetStruct
+  // Il2CppName: SetStruct
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: SetPropertyUtility::SetClass
+  // Il2CppName: SetClass
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");

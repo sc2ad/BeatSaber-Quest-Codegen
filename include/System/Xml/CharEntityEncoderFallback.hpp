@@ -67,16 +67,16 @@ namespace System::Xml {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // System.Void set_StartOffset(System.Int32 value)
-    // Offset: 0x19128A4
+    // Offset: 0x192A5B4
     void set_StartOffset(int value);
     // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
-    // Offset: 0x19128AC
+    // Offset: 0x192A5BC
     void Reset(::Array<int>* textContentMarks, int endMarkPos);
     // System.Boolean CanReplaceAt(System.Int32 index)
-    // Offset: 0x19128B8
+    // Offset: 0x192A5C8
     bool CanReplaceAt(int index);
     // System.Void .ctor()
-    // Offset: 0x19127AC
+    // Offset: 0x192A4BC
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Void EncoderFallback::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -86,12 +86,12 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallback*, creationType>()));
     }
     // public override System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
-    // Offset: 0x19127B4
+    // Offset: 0x192A4C4
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Text.EncoderFallbackBuffer EncoderFallback::CreateFallbackBuffer()
     System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // public override System.Int32 get_MaxCharCount()
-    // Offset: 0x191289C
+    // Offset: 0x192A5AC
     // Implemented from: System.Text.EncoderFallback
     // Base method: System.Int32 EncoderFallback::get_MaxCharCount()
     int get_MaxCharCount();
@@ -99,5 +99,59 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(CharEntityEncoderFallback), 48 + sizeof(int)> __System_Xml_CharEntityEncoderFallbackSizeCheck;
   static_assert(sizeof(CharEntityEncoderFallback) == 0x34);
+  // Writing MetadataGetter for method: CharEntityEncoderFallback::set_StartOffset
+  // Il2CppName: set_StartOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallback::*)(int)>(&CharEntityEncoderFallback::set_StartOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), "set_StartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallback::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallback::*)(::Array<int>*, int)>(&CharEntityEncoderFallback::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallback::CanReplaceAt
+  // Il2CppName: CanReplaceAt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CharEntityEncoderFallback::*)(int)>(&CharEntityEncoderFallback::CanReplaceAt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), "CanReplaceAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallback::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallback::*)()>(&CharEntityEncoderFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallback::*)()>(&CharEntityEncoderFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallback::CreateFallbackBuffer
+  // Il2CppName: CreateFallbackBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (CharEntityEncoderFallback::*)()>(&CharEntityEncoderFallback::CreateFallbackBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallback::get_MaxCharCount
+  // Il2CppName: get_MaxCharCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CharEntityEncoderFallback::*)()>(&CharEntityEncoderFallback::get_MaxCharCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback*, "System.Xml", "CharEntityEncoderFallback");

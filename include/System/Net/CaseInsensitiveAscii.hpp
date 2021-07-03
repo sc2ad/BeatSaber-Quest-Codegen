@@ -39,22 +39,22 @@ namespace System::Net {
     // Set static field: static readonly System.Byte[] AsciiToLower
     static void _set_AsciiToLower(::Array<uint8_t>* value);
     // public System.Int32 GetHashCode(System.Object myObject)
-    // Offset: 0x1694574
+    // Offset: 0x16AB284
     int GetHashCode(::Il2CppObject* myObject);
     // public System.Int32 Compare(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1694698
+    // Offset: 0x16AB3A8
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // private System.Int32 FastGetHashCode(System.String myString)
-    // Offset: 0x169481C
+    // Offset: 0x16AB52C
     int FastGetHashCode(::Il2CppString* myString);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
-    // Offset: 0x1694924
+    // Offset: 0x16AB634
     bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // static private System.Void .cctor()
-    // Offset: 0x1694AB8
+    // Offset: 0x16AB7C8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1694AB0
+    // Offset: 0x16AB7C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,5 +64,59 @@ namespace System::Net {
     }
   }; // System.Net.CaseInsensitiveAscii
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CaseInsensitiveAscii::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CaseInsensitiveAscii::*)(::Il2CppObject*)>(&CaseInsensitiveAscii::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CaseInsensitiveAscii::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CaseInsensitiveAscii::*)(::Il2CppObject*, ::Il2CppObject*)>(&CaseInsensitiveAscii::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CaseInsensitiveAscii::FastGetHashCode
+  // Il2CppName: FastGetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CaseInsensitiveAscii::*)(::Il2CppString*)>(&CaseInsensitiveAscii::FastGetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), "FastGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CaseInsensitiveAscii::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CaseInsensitiveAscii::*)(::Il2CppObject*, ::Il2CppObject*)>(&CaseInsensitiveAscii::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CaseInsensitiveAscii::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CaseInsensitiveAscii::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CaseInsensitiveAscii::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveAscii::*)()>(&CaseInsensitiveAscii::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveAscii::*)()>(&CaseInsensitiveAscii::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveAscii*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii*, "System.Net", "CaseInsensitiveAscii");

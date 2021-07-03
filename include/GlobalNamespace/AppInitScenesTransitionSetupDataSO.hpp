@@ -32,16 +32,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AppInitScenesTransitionSetupDataSO
     AppInitScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init()
-    // Offset: 0x112A8B8
+    // Offset: 0x11301A0
     void Init();
     // public System.Void InitAsAppStart()
-    // Offset: 0x112A92C
+    // Offset: 0x1130214
     void InitAsAppStart();
     // public System.Void __Init(AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType appInitOverrideStartType, MockPlayersModel mockPlayersModel)
-    // Offset: 0x112A9A0
+    // Offset: 0x1130288
     void __Init(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void .ctor()
-    // Offset: 0x112AA20
+    // Offset: 0x1130308
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -56,5 +56,43 @@ namespace GlobalNamespace {
     }
   }; // AppInitScenesTransitionSetupDataSO
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::*)()>(&AppInitScenesTransitionSetupDataSO::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::InitAsAppStart
+  // Il2CppName: InitAsAppStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::*)()>(&AppInitScenesTransitionSetupDataSO::InitAsAppStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO*), "InitAsAppStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::__Init
+  // Il2CppName: __Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&AppInitScenesTransitionSetupDataSO::__Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AppInitScenesTransitionSetupDataSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::*)()>(&AppInitScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInitScenesTransitionSetupDataSO::*)()>(&AppInitScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AppInitScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "", "AppInitScenesTransitionSetupDataSO");

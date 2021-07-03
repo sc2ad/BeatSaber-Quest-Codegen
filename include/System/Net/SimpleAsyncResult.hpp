@@ -106,74 +106,246 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // private System.Void .ctor(System.Net.SimpleAsyncCallback cb)
-    // Offset: 0x147E8AC
+    // Offset: 0x14995BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(System::Net::SimpleAsyncCallback* cb) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb)));
     }
     // protected System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x147E928
+    // Offset: 0x1499638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SimpleAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleAsyncResult*, creationType>(cb, state)));
     }
     // static public System.Void Run(System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x147EA08
+    // Offset: 0x1499718
     static void Run(System::Func_2<System::Net::SimpleAsyncResult*, bool>* func, System::Net::SimpleAsyncCallback* callback);
     // static public System.Void RunWithLock(System.Object locker, System.Func`2<System.Net.SimpleAsyncResult,System.Boolean> func, System.Net.SimpleAsyncCallback callback)
-    // Offset: 0x147EBDC
+    // Offset: 0x14998EC
     static void RunWithLock(::Il2CppObject* locker, System::Func_2<System::Net::SimpleAsyncResult*, bool>* func, System::Net::SimpleAsyncCallback* callback);
     // protected System.Void Reset_internal()
-    // Offset: 0x147ECC4
+    // Offset: 0x14999D4
     void Reset_internal();
     // System.Void SetCompleted(System.Boolean synch, System.Exception e)
-    // Offset: 0x147EB90
+    // Offset: 0x14998A0
     void SetCompleted(bool synch, System::Exception* e);
     // System.Void SetCompleted(System.Boolean synch)
-    // Offset: 0x147EB40
+    // Offset: 0x1499850
     void SetCompleted(bool synch);
     // private System.Void SetCompleted_internal(System.Boolean synch, System.Exception e)
-    // Offset: 0x147ED6C
+    // Offset: 0x1499A7C
     void SetCompleted_internal(bool synch, System::Exception* e);
     // protected System.Void SetCompleted_internal(System.Boolean synch)
-    // Offset: 0x147EE40
+    // Offset: 0x1499B50
     void SetCompleted_internal(bool synch);
     // private System.Void DoCallback_private()
-    // Offset: 0x147EE1C
+    // Offset: 0x1499B2C
     void DoCallback_private();
     // protected System.Void DoCallback_internal()
-    // Offset: 0x147EE4C
+    // Offset: 0x1499B5C
     void DoCallback_internal();
     // System.Void WaitUntilComplete()
-    // Offset: 0x147EE70
+    // Offset: 0x1499B80
     void WaitUntilComplete();
     // System.Boolean WaitUntilComplete(System.Int32 timeout, System.Boolean exitContext)
-    // Offset: 0x147F03C
+    // Offset: 0x1499D4C
     bool WaitUntilComplete(int timeout, bool exitContext);
     // public System.Object get_AsyncState()
-    // Offset: 0x147F0A4
+    // Offset: 0x1499DB4
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x147EF4C
+    // Offset: 0x1499C5C
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x147F0AC
+    // Offset: 0x1499DBC
     bool get_CompletedSynchronously();
     // System.Boolean get_CompletedSynchronouslyPeek()
-    // Offset: 0x147F15C
+    // Offset: 0x1499E6C
     bool get_CompletedSynchronouslyPeek();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x147EEB8
+    // Offset: 0x1499BC8
     bool get_IsCompleted();
     // System.Boolean get_GotException()
-    // Offset: 0x147F164
+    // Offset: 0x1499E74
     bool get_GotException();
     // System.Exception get_Exception()
-    // Offset: 0x147F174
+    // Offset: 0x1499E84
     System::Exception* get_Exception();
   }; // System.Net.SimpleAsyncResult
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: SimpleAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(System::Net::SimpleAsyncCallback*)>(&SimpleAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncCallback*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(System::Net::SimpleAsyncCallback*)>(&SimpleAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&SimpleAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&SimpleAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::Run
+  // Il2CppName: Run
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Func_2<System::Net::SimpleAsyncResult*, bool>*, System::Net::SimpleAsyncCallback*)>(&SimpleAsyncResult::Run)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Net::SimpleAsyncResult*, bool>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::RunWithLock
+  // Il2CppName: RunWithLock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Func_2<System::Net::SimpleAsyncResult*, bool>*, System::Net::SimpleAsyncCallback*)>(&SimpleAsyncResult::RunWithLock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "RunWithLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Net::SimpleAsyncResult*, bool>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::Reset_internal
+  // Il2CppName: Reset_internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)()>(&SimpleAsyncResult::Reset_internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "Reset_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::SetCompleted
+  // Il2CppName: SetCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(bool, System::Exception*)>(&SimpleAsyncResult::SetCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::SetCompleted
+  // Il2CppName: SetCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(bool)>(&SimpleAsyncResult::SetCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::SetCompleted_internal
+  // Il2CppName: SetCompleted_internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(bool, System::Exception*)>(&SimpleAsyncResult::SetCompleted_internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "SetCompleted_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::SetCompleted_internal
+  // Il2CppName: SetCompleted_internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)(bool)>(&SimpleAsyncResult::SetCompleted_internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "SetCompleted_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::DoCallback_private
+  // Il2CppName: DoCallback_private
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)()>(&SimpleAsyncResult::DoCallback_private)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "DoCallback_private", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::DoCallback_internal
+  // Il2CppName: DoCallback_internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)()>(&SimpleAsyncResult::DoCallback_internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "DoCallback_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::WaitUntilComplete
+  // Il2CppName: WaitUntilComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::*)()>(&SimpleAsyncResult::WaitUntilComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "WaitUntilComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::WaitUntilComplete
+  // Il2CppName: WaitUntilComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleAsyncResult::*)(int, bool)>(&SimpleAsyncResult::WaitUntilComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "WaitUntilComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_AsyncState
+  // Il2CppName: get_AsyncState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_AsyncState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_AsyncWaitHandle
+  // Il2CppName: get_AsyncWaitHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_AsyncWaitHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_CompletedSynchronously
+  // Il2CppName: get_CompletedSynchronously
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_CompletedSynchronously)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_CompletedSynchronouslyPeek
+  // Il2CppName: get_CompletedSynchronouslyPeek
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_CompletedSynchronouslyPeek)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_CompletedSynchronouslyPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_IsCompleted
+  // Il2CppName: get_IsCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_IsCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_GotException
+  // Il2CppName: get_GotException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_GotException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_GotException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleAsyncResult::get_Exception
+  // Il2CppName: get_Exception
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (SimpleAsyncResult::*)()>(&SimpleAsyncResult::get_Exception)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult*), "get_Exception", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult*, "System.Net", "SimpleAsyncResult");

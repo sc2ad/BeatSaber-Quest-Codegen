@@ -48,25 +48,25 @@ namespace VRUIControls {
     // Creating value type constructor for type: ButtonState
     ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button_ = {}, VRUIControls::MouseButtonEventData* eventData_ = {}, float pressedValue_ = {}) noexcept : button{button_}, eventData{eventData_}, pressedValue{pressedValue_} {}
     // public VRUIControls.MouseButtonEventData get_eventData()
-    // Offset: 0x234A320
+    // Offset: 0x236507C
     VRUIControls::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(VRUIControls.MouseButtonEventData value)
-    // Offset: 0x234A328
+    // Offset: 0x2365084
     void set_eventData(VRUIControls::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0x234A330
+    // Offset: 0x236508C
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0x234A338
+    // Offset: 0x2365094
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Single get_pressedValue()
-    // Offset: 0x234A340
+    // Offset: 0x236509C
     float get_pressedValue();
     // public System.Void set_pressedValue(System.Single value)
-    // Offset: 0x234A348
+    // Offset: 0x23650A4
     void set_pressedValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x234A350
+    // Offset: 0x23650AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,5 +78,67 @@ namespace VRUIControls {
   #pragma pack(pop)
   static check_size<sizeof(ButtonState), 32 + sizeof(float)> __VRUIControls_ButtonStateSizeCheck;
   static_assert(sizeof(ButtonState) == 0x24);
+  // Writing MetadataGetter for method: ButtonState::get_eventData
+  // Il2CppName: get_eventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseButtonEventData* (ButtonState::*)()>(&ButtonState::get_eventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), "get_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ButtonState::set_eventData
+  // Il2CppName: set_eventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)(VRUIControls::MouseButtonEventData*)>(&ButtonState::set_eventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), "set_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::MouseButtonEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ButtonState::get_button
+  // Il2CppName: get_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (ButtonState::*)()>(&ButtonState::get_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ButtonState::set_button
+  // Il2CppName: set_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&ButtonState::set_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
+    }
+  };
+  // Writing MetadataGetter for method: ButtonState::get_pressedValue
+  // Il2CppName: get_pressedValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ButtonState::*)()>(&ButtonState::get_pressedValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), "get_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ButtonState::set_pressedValue
+  // Il2CppName: set_pressedValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)(float)>(&ButtonState::set_pressedValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), "set_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ButtonState::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)()>(&ButtonState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonState::*)()>(&ButtonState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState");

@@ -59,19 +59,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Button get_buyLevelButton()
-    // Offset: 0x11774E8
+    // Offset: 0x115B6AC
     UnityEngine::UI::Button* get_buyLevelButton();
     // public UnityEngine.UI.Button get_openPackButton()
-    // Offset: 0x11774F0
+    // Offset: 0x115B6B4
     UnityEngine::UI::Button* get_openPackButton();
     // public UnityEngine.UI.Button get_buyPackButton()
-    // Offset: 0x11774F8
+    // Offset: 0x115B6BC
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
-    // Offset: 0x1177500
+    // Offset: 0x115B6C4
     void RefreshView(::Il2CppString* infoText, bool canBuyPack);
     // public System.Void .ctor()
-    // Offset: 0x1177574
+    // Offset: 0x115B738
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -87,5 +87,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelBuyInfoView), 48 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_StandardLevelBuyInfoViewSizeCheck;
   static_assert(sizeof(StandardLevelBuyInfoView) == 0x38);
+  // Writing MetadataGetter for method: StandardLevelBuyInfoView::get_buyLevelButton
+  // Il2CppName: get_buyLevelButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (StandardLevelBuyInfoView::*)()>(&StandardLevelBuyInfoView::get_buyLevelButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyInfoView*), "get_buyLevelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelBuyInfoView::get_openPackButton
+  // Il2CppName: get_openPackButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (StandardLevelBuyInfoView::*)()>(&StandardLevelBuyInfoView::get_openPackButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyInfoView*), "get_openPackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelBuyInfoView::get_buyPackButton
+  // Il2CppName: get_buyPackButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (StandardLevelBuyInfoView::*)()>(&StandardLevelBuyInfoView::get_buyPackButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyInfoView*), "get_buyPackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelBuyInfoView::RefreshView
+  // Il2CppName: RefreshView
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelBuyInfoView::*)(::Il2CppString*, bool)>(&StandardLevelBuyInfoView::RefreshView)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyInfoView*), "RefreshView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelBuyInfoView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelBuyInfoView::*)()>(&StandardLevelBuyInfoView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyInfoView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelBuyInfoView::*)()>(&StandardLevelBuyInfoView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyInfoView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyInfoView*, "", "StandardLevelBuyInfoView");

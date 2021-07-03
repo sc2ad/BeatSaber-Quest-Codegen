@@ -32,13 +32,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x11802DC
+    // Offset: 0x11644A0
     void SetPresence(GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x11802E0
+    // Offset: 0x11644A4
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x11802E4
+    // Offset: 0x11644A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,5 +48,35 @@ namespace GlobalNamespace {
     }
   }; // SteamRichPresencePlatformHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SteamRichPresencePlatformHandler::SetPresence
+  // Il2CppName: SetPresence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&SteamRichPresencePlatformHandler::SetPresence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamRichPresencePlatformHandler::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamRichPresencePlatformHandler::*)()>(&SteamRichPresencePlatformHandler::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamRichPresencePlatformHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamRichPresencePlatformHandler::*)()>(&SteamRichPresencePlatformHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamRichPresencePlatformHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamRichPresencePlatformHandler::*)()>(&SteamRichPresencePlatformHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamRichPresencePlatformHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamRichPresencePlatformHandler*, "", "SteamRichPresencePlatformHandler");

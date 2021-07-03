@@ -29,7 +29,7 @@ namespace GlobalNamespace {
       return speedMul;
     }
     // public System.Void .ctor(System.Single speedMul)
-    // Offset: 0x11743CC
+    // Offset: 0x1158590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongSpeedData* New_ctor(float speedMul) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongSpeedData::.ctor");
@@ -39,5 +39,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SongSpeedData), 16 + sizeof(float)> __GlobalNamespace_SongSpeedDataSizeCheck;
   static_assert(sizeof(SongSpeedData) == 0x14);
+  // Writing MetadataGetter for method: SongSpeedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongSpeedData::*)(float)>(&SongSpeedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongSpeedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongSpeedData::*)(float)>(&SongSpeedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongSpeedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongSpeedData*, "", "SongSpeedData");

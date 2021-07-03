@@ -34,10 +34,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>(this);
     }
     // public System.Int32 Compare(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem x, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem y)
-    // Offset: 0x148F270
+    // Offset: 0x14A9F80
     int Compare(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* x, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* y);
     // public System.Void .ctor()
-    // Offset: 0x148CEF4
+    // Offset: 0x14A7C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,5 +47,27 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     }
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/UnityWorkItemOrderComparer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CompositeWorkItem::UnityWorkItemOrderComparer::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompositeWorkItem::UnityWorkItemOrderComparer::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*)>(&CompositeWorkItem::UnityWorkItemOrderComparer::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::UnityWorkItemOrderComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::UnityWorkItemOrderComparer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::UnityWorkItemOrderComparer::*)()>(&CompositeWorkItem::UnityWorkItemOrderComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::UnityWorkItemOrderComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::UnityWorkItemOrderComparer::*)()>(&CompositeWorkItem::UnityWorkItemOrderComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem::UnityWorkItemOrderComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::UnityWorkItemOrderComparer*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem/UnityWorkItemOrderComparer");

@@ -88,14 +88,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* closeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE211B8
+    // [CompilerGeneratedAttribute] Offset: 0xE21194
     // private System.Action didFinishEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE211C8
+    // [CompilerGeneratedAttribute] Offset: 0xE211A4
     // private System.Action`1<ColorScheme> didChangeColorSchemeEvent
     // Size: 0x8
     // Offset: 0x48
@@ -113,43 +113,43 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x10BCB54
+    // Offset: 0x103B2CC
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x10BCBF8
+    // Offset: 0x103B370
     void remove_didFinishEvent(System::Action* value);
     // public System.Void add_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0x10BCC9C
+    // Offset: 0x103B414
     void add_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
     // public System.Void remove_didChangeColorSchemeEvent(System.Action`1<ColorScheme> value)
-    // Offset: 0x10BCD40
+    // Offset: 0x103B4B8
     void remove_didChangeColorSchemeEvent(System::Action_1<GlobalNamespace::ColorScheme*>* value);
     // public System.Void SetColorScheme(ColorScheme colorScheme)
-    // Offset: 0x10BCDE4
+    // Offset: 0x103B55C
     void SetColorScheme(GlobalNamespace::ColorScheme* colorScheme);
     // protected System.Void Start()
-    // Offset: 0x10BCE00
+    // Offset: 0x103B578
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10BD03C
+    // Offset: 0x103B7B4
     void OnDestroy();
     // private System.Void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine.Color color)
-    // Offset: 0x10BD210
+    // Offset: 0x103B988
     void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(UnityEngine::Color color);
     // private System.Void HandleRGBPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x10BD29C
+    // Offset: 0x103BA14
     void HandleRGBPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandleHSVPanelControllerColorDidChange(UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x10BD3B8
+    // Offset: 0x103BB30
     void HandleHSVPanelControllerColorDidChange(UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine.Color color)
-    // Offset: 0x10BD4D4
+    // Offset: 0x103BC4C
     void HandlePreviousColorPanelControllerColorWasSelected(UnityEngine::Color color);
     // private System.Void <Start>b__13_0()
-    // Offset: 0x10BD5E0
+    // Offset: 0x103BD58
     void $Start$b__13_0();
     // public System.Void .ctor()
-    // Offset: 0x10BD5D8
+    // Offset: 0x103BD50
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -165,5 +165,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EditColorSchemeController), 80 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_EditColorSchemeControllerSizeCheck;
   static_assert(sizeof(EditColorSchemeController) == 0x58);
+  // Writing MetadataGetter for method: EditColorSchemeController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(System::Action*)>(&EditColorSchemeController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(System::Action*)>(&EditColorSchemeController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::add_didChangeColorSchemeEvent
+  // Il2CppName: add_didChangeColorSchemeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(System::Action_1<GlobalNamespace::ColorScheme*>*)>(&EditColorSchemeController::add_didChangeColorSchemeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "add_didChangeColorSchemeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ColorScheme*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::remove_didChangeColorSchemeEvent
+  // Il2CppName: remove_didChangeColorSchemeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(System::Action_1<GlobalNamespace::ColorScheme*>*)>(&EditColorSchemeController::remove_didChangeColorSchemeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "remove_didChangeColorSchemeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ColorScheme*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::SetColorScheme
+  // Il2CppName: SetColorScheme
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(GlobalNamespace::ColorScheme*)>(&EditColorSchemeController::SetColorScheme)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "SetColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)()>(&EditColorSchemeController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)()>(&EditColorSchemeController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::HandleColorSchemeColorsToggleGroupSelectedColorDidChange
+  // Il2CppName: HandleColorSchemeColorsToggleGroupSelectedColorDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(UnityEngine::Color)>(&EditColorSchemeController::HandleColorSchemeColorsToggleGroupSelectedColorDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "HandleColorSchemeColorsToggleGroupSelectedColorDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::HandleRGBPanelControllerColorDidChange
+  // Il2CppName: HandleRGBPanelControllerColorDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType)>(&EditColorSchemeController::HandleRGBPanelControllerColorDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "HandleRGBPanelControllerColorDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::HandleHSVPanelControllerColorDidChange
+  // Il2CppName: HandleHSVPanelControllerColorDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType)>(&EditColorSchemeController::HandleHSVPanelControllerColorDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "HandleHSVPanelControllerColorDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::HandlePreviousColorPanelControllerColorWasSelected
+  // Il2CppName: HandlePreviousColorPanelControllerColorWasSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)(UnityEngine::Color)>(&EditColorSchemeController::HandlePreviousColorPanelControllerColorWasSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "HandlePreviousColorPanelControllerColorWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::$Start$b__13_0
+  // Il2CppName: <Start>b__13_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)()>(&EditColorSchemeController::$Start$b__13_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), "<Start>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditColorSchemeController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)()>(&EditColorSchemeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorSchemeController::*)()>(&EditColorSchemeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditColorSchemeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorSchemeController*, "", "EditColorSchemeController");

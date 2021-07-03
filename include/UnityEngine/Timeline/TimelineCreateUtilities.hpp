@@ -46,22 +46,62 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineCreateUtilities
     TimelineCreateUtilities() noexcept {}
     // static public System.String GenerateUniqueActorName(System.Collections.Generic.List`1<UnityEngine.ScriptableObject> tracks, System.String name)
-    // Offset: 0x2320B48
+    // Offset: 0x233A8A4
     static ::Il2CppString* GenerateUniqueActorName(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* tracks, ::Il2CppString* name);
     // static public System.Void SaveAssetIntoObject(UnityEngine.Object childAsset, UnityEngine.Object masterAsset)
-    // Offset: 0x23207C4
+    // Offset: 0x233A520
     static void SaveAssetIntoObject(UnityEngine::Object* childAsset, UnityEngine::Object* masterAsset);
     // static public System.Void RemoveAssetFromObject(UnityEngine.Object childAsset, UnityEngine.Object masterAsset)
-    // Offset: 0x2320A38
+    // Offset: 0x233A794
     static void RemoveAssetFromObject(UnityEngine::Object* childAsset, UnityEngine::Object* masterAsset);
     // static public UnityEngine.AnimationClip CreateAnimationClipForTrack(System.String name, UnityEngine.Timeline.TrackAsset track, System.Boolean isLegacy)
-    // Offset: 0x231F850
+    // Offset: 0x23395AC
     static UnityEngine::AnimationClip* CreateAnimationClipForTrack(::Il2CppString* name, UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
     // static public System.Boolean ValidateParentTrack(UnityEngine.Timeline.TrackAsset parent, System.Type childType)
-    // Offset: 0x2320E9C
+    // Offset: 0x233ABF8
     static bool ValidateParentTrack(UnityEngine::Timeline::TrackAsset* parent, System::Type* childType);
   }; // UnityEngine.Timeline.TimelineCreateUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimelineCreateUtilities::GenerateUniqueActorName
+  // Il2CppName: GenerateUniqueActorName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>*, ::Il2CppString*)>(&TimelineCreateUtilities::GenerateUniqueActorName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities*), "GenerateUniqueActorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineCreateUtilities::SaveAssetIntoObject
+  // Il2CppName: SaveAssetIntoObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*)>(&TimelineCreateUtilities::SaveAssetIntoObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities*), "SaveAssetIntoObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineCreateUtilities::RemoveAssetFromObject
+  // Il2CppName: RemoveAssetFromObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*)>(&TimelineCreateUtilities::RemoveAssetFromObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities*), "RemoveAssetFromObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineCreateUtilities::CreateAnimationClipForTrack
+  // Il2CppName: CreateAnimationClipForTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (*)(::Il2CppString*, UnityEngine::Timeline::TrackAsset*, bool)>(&TimelineCreateUtilities::CreateAnimationClipForTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities*), "CreateAnimationClipForTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineCreateUtilities::ValidateParentTrack
+  // Il2CppName: ValidateParentTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TrackAsset*, System::Type*)>(&TimelineCreateUtilities::ValidateParentTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineCreateUtilities*), "ValidateParentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities*, "UnityEngine.Timeline", "TimelineCreateUtilities");

@@ -52,7 +52,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Team
     Team(Oculus::Platform::Models::UserList* AssignedUsers_ = {}, int MaxUsers_ = {}, int MinUsers_ = {}, ::Il2CppString* Name_ = {}) noexcept : AssignedUsers{AssignedUsers_}, MaxUsers{MaxUsers_}, MinUsers{MinUsers_}, Name{Name_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14BC80C
+    // Offset: 0x14D751C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Team* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Team::.ctor");
@@ -62,5 +62,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(Team), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_TeamSizeCheck;
   static_assert(sizeof(Team) == 0x28);
+  // Writing MetadataGetter for method: Team::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Team::*)(System::IntPtr)>(&Team::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Team*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Team::*)(System::IntPtr)>(&Team::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Team*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Team*, "Oculus.Platform.Models", "Team");

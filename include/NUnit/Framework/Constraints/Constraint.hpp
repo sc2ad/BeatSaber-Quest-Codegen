@@ -40,24 +40,24 @@ namespace NUnit::Framework::Constraints {
     System::Lazy_1<::Il2CppString*>* displayName;
     // Field size check
     static_assert(sizeof(System::Lazy_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE04E60
-    // [DebuggerBrowsableAttribute] Offset: 0xE04E60
+    // [CompilerGeneratedAttribute] Offset: 0xE05E5C
+    // [DebuggerBrowsableAttribute] Offset: 0xE05E5C
     // private System.String <Description>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Description;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE04E9C
-    // [CompilerGeneratedAttribute] Offset: 0xE04E9C
+    // [DebuggerBrowsableAttribute] Offset: 0xE05E98
+    // [CompilerGeneratedAttribute] Offset: 0xE05E98
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     ::Array<::Il2CppObject*>* Arguments;
     // Field size check
     static_assert(sizeof(::Array<::Il2CppObject*>*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE04ED8
-    // [CompilerGeneratedAttribute] Offset: 0xE04ED8
+    // [DebuggerBrowsableAttribute] Offset: 0xE05ED4
+    // [CompilerGeneratedAttribute] Offset: 0xE05ED4
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -71,7 +71,7 @@ namespace NUnit::Framework::Constraints {
       return *reinterpret_cast<NUnit::Framework::Constraints::IConstraint*>(this);
     }
     // protected System.Void .ctor(params System.Object[] args)
-    // Offset: 0x170BEC0
+    // Offset: 0x1723BD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor(::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
@@ -88,43 +88,43 @@ namespace NUnit::Framework::Constraints {
       return New_ctor<creationType>({args...});
     }
     // public System.String get_DisplayName()
-    // Offset: 0x170C2B0
+    // Offset: 0x1723FC0
     ::Il2CppString* get_DisplayName();
     // public System.String get_Description()
-    // Offset: 0x170C308
+    // Offset: 0x1724018
     ::Il2CppString* get_Description();
     // protected System.Void set_Description(System.String value)
-    // Offset: 0x170C310
+    // Offset: 0x1724020
     void set_Description(::Il2CppString* value);
     // public System.Object[] get_Arguments()
-    // Offset: 0x170C318
+    // Offset: 0x1724028
     ::Array<::Il2CppObject*>* get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
-    // Offset: 0x170C320
+    // Offset: 0x1724030
     void set_Arguments(::Array<::Il2CppObject*>* value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
-    // Offset: 0x170C328
+    // Offset: 0x1724038
     NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
-    // Offset: 0x170C330
+    // Offset: 0x1724040
     void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
     // public NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
     // protected System.String GetStringRepresentation()
-    // Offset: 0x170C3B8
+    // Offset: 0x17240C8
     ::Il2CppString* GetStringRepresentation();
     // static private System.String _displayable(System.Object o)
-    // Offset: 0x170C50C
+    // Offset: 0x172421C
     static ::Il2CppString* _displayable(::Il2CppObject* o);
     // private NUnit.Framework.Constraints.IConstraint NUnit.Framework.Constraints.IResolveConstraint.Resolve()
-    // Offset: 0x170C638
+    // Offset: 0x1724348
     NUnit::Framework::Constraints::IConstraint* NUnit_Framework_Constraints_IResolveConstraint_Resolve();
     // private System.String <.ctor>b__1_0()
-    // Offset: 0x170C714
+    // Offset: 0x1724424
     ::Il2CppString* $_ctor$b__1_0();
     // public override System.String ToString()
-    // Offset: 0x170C338
+    // Offset: 0x1724048
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -132,5 +132,123 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(Constraint), 40 + sizeof(NUnit::Framework::Constraints::ConstraintBuilder*)> __NUnit_Framework_Constraints_ConstraintSizeCheck;
   static_assert(sizeof(Constraint) == 0x30);
+  // Writing MetadataGetter for method: Constraint::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Array<::Il2CppObject*>*)>(&Constraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Array<::Il2CppObject*>*)>(&Constraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::get_DisplayName
+  // Il2CppName: get_DisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::get_DisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::get_Description
+  // Il2CppName: get_Description
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::get_Description)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::set_Description
+  // Il2CppName: set_Description
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Il2CppString*)>(&Constraint::set_Description)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "set_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::get_Arguments
+  // Il2CppName: get_Arguments
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (Constraint::*)()>(&Constraint::get_Arguments)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::set_Arguments
+  // Il2CppName: set_Arguments
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Array<::Il2CppObject*>*)>(&Constraint::set_Arguments)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::get_Builder
+  // Il2CppName: get_Builder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintBuilder* (Constraint::*)()>(&Constraint::get_Builder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::set_Builder
+  // Il2CppName: set_Builder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(NUnit::Framework::Constraints::ConstraintBuilder*)>(&Constraint::set_Builder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "set_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintBuilder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::ApplyTo
+  // Il2CppName: ApplyTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (Constraint::*)(::Il2CppObject*)>(&Constraint::ApplyTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::GetStringRepresentation
+  // Il2CppName: GetStringRepresentation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::GetStringRepresentation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "GetStringRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::_displayable
+  // Il2CppName: _displayable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&Constraint::_displayable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "_displayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::NUnit_Framework_Constraints_IResolveConstraint_Resolve
+  // Il2CppName: NUnit.Framework.Constraints.IResolveConstraint.Resolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (Constraint::*)()>(&Constraint::NUnit_Framework_Constraints_IResolveConstraint_Resolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "NUnit.Framework.Constraints.IResolveConstraint.Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::$_ctor$b__1_0
+  // Il2CppName: <.ctor>b__1_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::$_ctor$b__1_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "<.ctor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraint::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Constraint*, "NUnit.Framework.Constraints", "Constraint");

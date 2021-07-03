@@ -41,46 +41,46 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IScoreSyncStateManager*>(this);
     }
     // protected IPacketPool`1<StandardScoreSyncStateNetSerializable> get_serializablePool()
-    // Offset: 0x10E7468
+    // Offset: 0x10D8600
     GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_serializablePool();
     // protected IPacketPool`1<StandardScoreSyncStateDeltaNetSerializable> get_deltaSerializablePool()
-    // Offset: 0x10E7470
+    // Offset: 0x10D8608
     GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
     // protected System.Int32 Interpolate(System.Int32 prev, System.Single prevTime, System.Int32 curr, System.Single currTime, System.Single time)
-    // Offset: 0x10E74E8
+    // Offset: 0x10D8680
     int Interpolate(int prev, float prevTime, int curr, float currTime, float time);
     // protected override System.Single get_deltaUpdateFrequency()
-    // Offset: 0x10E7444
+    // Offset: 0x10D85DC
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Single MultiplayerSyncStateManager_5::get_deltaUpdateFrequency()
     float get_deltaUpdateFrequency();
     // protected override System.Single get_fullStateUpdateFrequency()
-    // Offset: 0x10E7450
+    // Offset: 0x10D85E8
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Single MultiplayerSyncStateManager_5::get_fullStateUpdateFrequency()
     float get_fullStateUpdateFrequency();
     // protected override System.Int32 get_localBufferSize()
-    // Offset: 0x10E7458
+    // Offset: 0x10D85F0
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Int32 MultiplayerSyncStateManager_5::get_localBufferSize()
     int get_localBufferSize();
     // protected override System.Int32 get_remoteBufferSize()
-    // Offset: 0x10E7460
+    // Offset: 0x10D85F8
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Int32 MultiplayerSyncStateManager_5::get_remoteBufferSize()
     int get_remoteBufferSize();
     // protected override MultiplayerSessionManager/MessageType get_messageType()
-    // Offset: 0x10E74D8
+    // Offset: 0x10D8670
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_messageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
     // protected override MultiplayerSessionManager/MessageType get_deltaMessageType()
-    // Offset: 0x10E74E0
+    // Offset: 0x10D8678
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_deltaMessageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
     // public System.Void .ctor()
-    // Offset: 0x10E75FC
+    // Offset: 0x10D8794
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Void MultiplayerSyncStateManager_5::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -94,5 +94,91 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ScoreSyncStateManager*, creationType>()));
     }
   }; // ScoreSyncStateManager
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_serializablePool
+  // Il2CppName: get_serializablePool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_serializablePool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_serializablePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_deltaSerializablePool
+  // Il2CppName: get_deltaSerializablePool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_deltaSerializablePool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_deltaSerializablePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::Interpolate
+  // Il2CppName: Interpolate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ScoreSyncStateManager::*)(int, float, int, float, float)>(&ScoreSyncStateManager::Interpolate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_deltaUpdateFrequency
+  // Il2CppName: get_deltaUpdateFrequency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_deltaUpdateFrequency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_deltaUpdateFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_fullStateUpdateFrequency
+  // Il2CppName: get_fullStateUpdateFrequency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_fullStateUpdateFrequency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_fullStateUpdateFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_localBufferSize
+  // Il2CppName: get_localBufferSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_localBufferSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_localBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_remoteBufferSize
+  // Il2CppName: get_remoteBufferSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_remoteBufferSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_remoteBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_messageType
+  // Il2CppName: get_messageType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerSessionManager_MessageType (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_messageType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_messageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::get_deltaMessageType
+  // Il2CppName: get_deltaMessageType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerSessionManager_MessageType (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::get_deltaMessageType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), "get_deltaMessageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScoreSyncStateManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreSyncStateManager::*)()>(&ScoreSyncStateManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScoreSyncStateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreSyncStateManager*, "", "ScoreSyncStateManager");

@@ -58,19 +58,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_nameText(System.String value)
-    // Offset: 0x104AE90
+    // Offset: 0x108FB1C
     void set_nameText(::Il2CppString* value);
     // public System.Void set_buttonPressed(System.Action value)
-    // Offset: 0x104AEAC
+    // Offset: 0x108FB38
     void set_buttonPressed(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x104AEB4
+    // Offset: 0x108FB40
     void Awake();
     // private System.Void <Awake>b__7_0()
-    // Offset: 0x104AF50
+    // Offset: 0x108FBDC
     void $Awake$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x104AF48
+    // Offset: 0x108FBD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,5 +86,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GuestNameButtonsListItem), 40 + sizeof(System::Action*)> __GlobalNamespace_GuestNameButtonsListItemSizeCheck;
   static_assert(sizeof(GuestNameButtonsListItem) == 0x30);
+  // Writing MetadataGetter for method: GuestNameButtonsListItem::set_nameText
+  // Il2CppName: set_nameText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuestNameButtonsListItem::*)(::Il2CppString*)>(&GuestNameButtonsListItem::set_nameText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuestNameButtonsListItem*), "set_nameText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GuestNameButtonsListItem::set_buttonPressed
+  // Il2CppName: set_buttonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuestNameButtonsListItem::*)(System::Action*)>(&GuestNameButtonsListItem::set_buttonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuestNameButtonsListItem*), "set_buttonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GuestNameButtonsListItem::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuestNameButtonsListItem::*)()>(&GuestNameButtonsListItem::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuestNameButtonsListItem*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GuestNameButtonsListItem::$Awake$b__7_0
+  // Il2CppName: <Awake>b__7_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuestNameButtonsListItem::*)()>(&GuestNameButtonsListItem::$Awake$b__7_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuestNameButtonsListItem*), "<Awake>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GuestNameButtonsListItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuestNameButtonsListItem::*)()>(&GuestNameButtonsListItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuestNameButtonsListItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuestNameButtonsListItem::*)()>(&GuestNameButtonsListItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuestNameButtonsListItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GuestNameButtonsListItem*, "", "GuestNameButtonsListItem");

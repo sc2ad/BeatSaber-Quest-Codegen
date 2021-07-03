@@ -52,18 +52,40 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kScorePerHit
     static void _set_kScorePerHit(int value);
     // public System.Void .ctor(System.Single hitChance)
-    // Offset: 0x10B5F94
+    // Offset: 0x103470C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeterministicHitChanceScoreCalculator* New_ctor(float hitChance) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DeterministicHitChanceScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeterministicHitChanceScoreCalculator*, creationType>(hitChance)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x10B5FC8
+    // Offset: 0x1034740
     int GetScoreForNote(GlobalNamespace::MockNoteData* noteData);
   }; // DeterministicHitChanceScoreCalculator
   #pragma pack(pop)
   static check_size<sizeof(DeterministicHitChanceScoreCalculator), 20 + sizeof(float)> __GlobalNamespace_DeterministicHitChanceScoreCalculatorSizeCheck;
   static_assert(sizeof(DeterministicHitChanceScoreCalculator) == 0x18);
+  // Writing MetadataGetter for method: DeterministicHitChanceScoreCalculator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeterministicHitChanceScoreCalculator::*)(float)>(&DeterministicHitChanceScoreCalculator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DeterministicHitChanceScoreCalculator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeterministicHitChanceScoreCalculator::*)(float)>(&DeterministicHitChanceScoreCalculator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DeterministicHitChanceScoreCalculator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: DeterministicHitChanceScoreCalculator::GetScoreForNote
+  // Il2CppName: GetScoreForNote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DeterministicHitChanceScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&DeterministicHitChanceScoreCalculator::GetScoreForNote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DeterministicHitChanceScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeterministicHitChanceScoreCalculator*, "", "DeterministicHitChanceScoreCalculator");

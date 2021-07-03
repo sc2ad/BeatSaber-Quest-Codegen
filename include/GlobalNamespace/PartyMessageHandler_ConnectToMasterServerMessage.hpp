@@ -123,22 +123,22 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x14ED594
+    // Offset: 0x15082A4
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
     // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.Net.IPEndPoint endPoint, System.String serverName, System.String password, System.String secret, System.String userId, System.String userName, DiscoveryPolicy discoveryPolicy, InvitePolicy invitePolicy, System.Int32 maxPlayerCount, GameplayServerConfiguration configuration)
-    // Offset: 0x14EE18C
+    // Offset: 0x1508E9C
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(System::Net::IPEndPoint* endPoint, ::Il2CppString* serverName, ::Il2CppString* password, ::Il2CppString* secret, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::DiscoveryPolicy discoveryPolicy, GlobalNamespace::InvitePolicy invitePolicy, int maxPlayerCount, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14EEA88
+    // Offset: 0x1509798
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14EEB68
+    // Offset: 0x1509878
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x14EE8EC
+    // Offset: 0x15095FC
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x14EEC64
+    // Offset: 0x1509974
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -150,5 +150,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PartyMessageHandler::ConnectToMasterServerMessage), 80 + sizeof(GlobalNamespace::GameplayServerConfiguration)> __GlobalNamespace_PartyMessageHandler_ConnectToMasterServerMessageSizeCheck;
   static_assert(sizeof(PartyMessageHandler::ConnectToMasterServerMessage) == 0x68);
+  // Writing MetadataGetter for method: PartyMessageHandler::ConnectToMasterServerMessage::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* (*)()>(&PartyMessageHandler::ConnectToMasterServerMessage::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PartyMessageHandler::ConnectToMasterServerMessage::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* (PartyMessageHandler::ConnectToMasterServerMessage::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&PartyMessageHandler::ConnectToMasterServerMessage::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    }
+  };
+  // Writing MetadataGetter for method: PartyMessageHandler::ConnectToMasterServerMessage::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ConnectToMasterServerMessage::*)(LiteNetLib::Utils::NetDataWriter*)>(&PartyMessageHandler::ConnectToMasterServerMessage::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PartyMessageHandler::ConnectToMasterServerMessage::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ConnectToMasterServerMessage::*)(LiteNetLib::Utils::NetDataReader*)>(&PartyMessageHandler::ConnectToMasterServerMessage::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PartyMessageHandler::ConnectToMasterServerMessage::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ConnectToMasterServerMessage::*)()>(&PartyMessageHandler::ConnectToMasterServerMessage::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PartyMessageHandler::ConnectToMasterServerMessage::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ConnectToMasterServerMessage::*)()>(&PartyMessageHandler::ConnectToMasterServerMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyMessageHandler::ConnectToMasterServerMessage::*)()>(&PartyMessageHandler::ConnectToMasterServerMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyMessageHandler::ConnectToMasterServerMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*, "", "PartyMessageHandler/ConnectToMasterServerMessage");

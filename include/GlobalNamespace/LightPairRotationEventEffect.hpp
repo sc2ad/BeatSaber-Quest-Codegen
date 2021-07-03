@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 rotationVector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xE1AD10
+    // [SpaceAttribute] Offset: 0xE1ACEC
     // private System.Boolean _overrideRandomValues
     // Size: 0x1
     // Offset: 0x30
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: startRotation and: transformL
     char __padding7[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE1AD78
+    // [SpaceAttribute] Offset: 0xE1AD54
     // private UnityEngine.Transform _transformL
     // Size: 0x8
     // Offset: 0x40
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transformR;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1ADC0
+    // [InjectAttribute] Offset: 0xE1AD9C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x50
@@ -150,22 +150,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSpeedMultiplier
     static void _set_kSpeedMultiplier(float value);
     // protected System.Void Start()
-    // Offset: 0x11FEA30
+    // Offset: 0x1202454
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11FED34
+    // Offset: 0x1202758
     void Update();
     // private System.Void OnDestroy()
-    // Offset: 0x11FF030
+    // Offset: 0x1202A54
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x11FF130
+    // Offset: 0x1202B54
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void UpdateRotationData(System.Int32 beatmapEventDataValue, LightPairRotationEventEffect/RotationData rotationData, System.Single startRotationOffset, System.Single direction)
-    // Offset: 0x11FF3B8
+    // Offset: 0x1202DDC
     void UpdateRotationData(int beatmapEventDataValue, GlobalNamespace::LightPairRotationEventEffect::RotationData* rotationData, float startRotationOffset, float direction);
     // public System.Void .ctor()
-    // Offset: 0x11FF62C
+    // Offset: 0x1203050
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -181,5 +181,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LightPairRotationEventEffect), 112 + sizeof(float)> __GlobalNamespace_LightPairRotationEventEffectSizeCheck;
   static_assert(sizeof(LightPairRotationEventEffect) == 0x74);
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)()>(&LightPairRotationEventEffect::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)()>(&LightPairRotationEventEffect::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)()>(&LightPairRotationEventEffect::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&LightPairRotationEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::UpdateRotationData
+  // Il2CppName: UpdateRotationData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)(int, GlobalNamespace::LightPairRotationEventEffect::RotationData*, float, float)>(&LightPairRotationEventEffect::UpdateRotationData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), "UpdateRotationData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightPairRotationEventEffect::RotationData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)()>(&LightPairRotationEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::*)()>(&LightPairRotationEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect*, "", "LightPairRotationEventEffect");

@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0x1227374
+    // Offset: 0x1243B0C
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1227410
+    // Offset: 0x1243BA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -60,5 +60,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EnableComponentWithCommandArgument), 32 + sizeof(UnityEngine::Behaviour*)> __GlobalNamespace_EnableComponentWithCommandArgumentSizeCheck;
   static_assert(sizeof(EnableComponentWithCommandArgument) == 0x28);
+  // Writing MetadataGetter for method: EnableComponentWithCommandArgument::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableComponentWithCommandArgument::*)()>(&EnableComponentWithCommandArgument::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnableComponentWithCommandArgument*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnableComponentWithCommandArgument::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableComponentWithCommandArgument::*)()>(&EnableComponentWithCommandArgument::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnableComponentWithCommandArgument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableComponentWithCommandArgument::*)()>(&EnableComponentWithCommandArgument::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnableComponentWithCommandArgument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableComponentWithCommandArgument*, "", "EnableComponentWithCommandArgument");

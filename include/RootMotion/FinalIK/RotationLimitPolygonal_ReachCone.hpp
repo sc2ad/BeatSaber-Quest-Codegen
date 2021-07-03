@@ -47,33 +47,95 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: ReachCone
     ReachCone(::Array<UnityEngine::Vector3>* tetrahedron_ = {}, float volume_ = {}, UnityEngine::Vector3 S_ = {}, UnityEngine::Vector3 B_ = {}) noexcept : tetrahedron{tetrahedron_}, volume{volume_}, S{S_}, B{B_} {}
     // public UnityEngine.Vector3 get_o()
-    // Offset: 0x1A8EC6C
+    // Offset: 0x1AA897C
     UnityEngine::Vector3 get_o();
     // public UnityEngine.Vector3 get_a()
-    // Offset: 0x1A8ECA4
+    // Offset: 0x1AA89B4
     UnityEngine::Vector3 get_a();
     // public UnityEngine.Vector3 get_b()
-    // Offset: 0x1A8ECE0
+    // Offset: 0x1AA89F0
     UnityEngine::Vector3 get_b();
     // public UnityEngine.Vector3 get_c()
-    // Offset: 0x1A8ED1C
+    // Offset: 0x1AA8A2C
     UnityEngine::Vector3 get_c();
     // public System.Void .ctor(UnityEngine.Vector3 _o, UnityEngine.Vector3 _a, UnityEngine.Vector3 _b, UnityEngine.Vector3 _c)
-    // Offset: 0x1A8E41C
+    // Offset: 0x1AA812C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal::ReachCone* New_ctor(UnityEngine::Vector3 _o, UnityEngine::Vector3 _a, UnityEngine::Vector3 _b, UnityEngine::Vector3 _c) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitPolygonal::ReachCone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal::ReachCone*, creationType>(_o, _a, _b, _c)));
     }
     // public System.Boolean get_isValid()
-    // Offset: 0x1A8DDD0
+    // Offset: 0x1AA7AE0
     bool get_isValid();
     // public System.Void Calculate()
-    // Offset: 0x1A8E57C
+    // Offset: 0x1AA828C
     void Calculate();
   }; // RootMotion.FinalIK.RotationLimitPolygonal/ReachCone
   #pragma pack(pop)
   static check_size<sizeof(RotationLimitPolygonal::ReachCone), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_RotationLimitPolygonal_ReachConeSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal::ReachCone) == 0x34);
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::get_o
+  // Il2CppName: get_o
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::ReachCone::*)()>(&RotationLimitPolygonal::ReachCone::get_o)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), "get_o", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::get_a
+  // Il2CppName: get_a
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::ReachCone::*)()>(&RotationLimitPolygonal::ReachCone::get_a)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), "get_a", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::get_b
+  // Il2CppName: get_b
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::ReachCone::*)()>(&RotationLimitPolygonal::ReachCone::get_b)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), "get_b", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::get_c
+  // Il2CppName: get_c
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimitPolygonal::ReachCone::*)()>(&RotationLimitPolygonal::ReachCone::get_c)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), "get_c", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::ReachCone::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RotationLimitPolygonal::ReachCone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::ReachCone::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RotationLimitPolygonal::ReachCone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::get_isValid
+  // Il2CppName: get_isValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RotationLimitPolygonal::ReachCone::*)()>(&RotationLimitPolygonal::ReachCone::get_isValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimitPolygonal::ReachCone::Calculate
+  // Il2CppName: Calculate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitPolygonal::ReachCone::*)()>(&RotationLimitPolygonal::ReachCone::Calculate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimitPolygonal::ReachCone*), "Calculate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*, "RootMotion.FinalIK", "RotationLimitPolygonal/ReachCone");

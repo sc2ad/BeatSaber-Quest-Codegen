@@ -72,28 +72,84 @@ namespace Mono::Net::Security {
     // Set static field: static readonly System.Guid LegacyId
     static void _set_LegacyId(System::Guid value);
     // static Mono.Security.Interface.MonoTlsProvider GetProviderInternal()
-    // Offset: 0x15DABB4
+    // Offset: 0x15F38C4
     static Mono::Security::Interface::MonoTlsProvider* GetProviderInternal();
     // static System.Void InitializeInternal()
-    // Offset: 0x15DACB0
+    // Offset: 0x15F39C0
     static void InitializeInternal();
     // static private Mono.Security.Interface.MonoTlsProvider LookupProvider(System.String name, System.Boolean throwOnError)
-    // Offset: 0x15DB470
+    // Offset: 0x15F4180
     static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::Il2CppString* name, bool throwOnError);
     // static private System.Void InitializeProviderRegistration()
-    // Offset: 0x15DB010
+    // Offset: 0x15F3D20
     static void InitializeProviderRegistration();
     // static private Mono.Security.Interface.MonoTlsProvider CreateDefaultProviderImpl()
-    // Offset: 0x15DB3D4
+    // Offset: 0x15F40E4
     static Mono::Security::Interface::MonoTlsProvider* CreateDefaultProviderImpl();
     // static Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x15D69F4
+    // Offset: 0x15EF704
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
     // static private System.Void .cctor()
-    // Offset: 0x15DB97C
+    // Offset: 0x15F468C
     static void _cctor();
   }; // Mono.Net.Security.MonoTlsProviderFactory
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::GetProviderInternal
+  // Il2CppName: GetProviderInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&MonoTlsProviderFactory::GetProviderInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "GetProviderInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::InitializeInternal
+  // Il2CppName: InitializeInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoTlsProviderFactory::InitializeInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "InitializeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::LookupProvider
+  // Il2CppName: LookupProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)(::Il2CppString*, bool)>(&MonoTlsProviderFactory::LookupProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "LookupProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::InitializeProviderRegistration
+  // Il2CppName: InitializeProviderRegistration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoTlsProviderFactory::InitializeProviderRegistration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "InitializeProviderRegistration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::CreateDefaultProviderImpl
+  // Il2CppName: CreateDefaultProviderImpl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "CreateDefaultProviderImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::GetProvider
+  // Il2CppName: GetProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&MonoTlsProviderFactory::GetProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MonoTlsProviderFactory::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsProviderFactory*, "Mono.Net.Security", "MonoTlsProviderFactory");

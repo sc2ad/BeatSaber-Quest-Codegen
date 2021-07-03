@@ -28,10 +28,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HealthWarningScenesTransitionSetupDataSO
     HealthWarningScenesTransitionSetupDataSO() noexcept {}
     // public System.Void Init(HealthWarningSceneSetupData healthWarningSceneSetupData)
-    // Offset: 0x1061AA8
+    // Offset: 0x10BC678
     void Init(GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
     // public System.Void .ctor()
-    // Offset: 0x1061E18
+    // Offset: 0x10BC9E8
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
@@ -46,5 +46,27 @@ namespace GlobalNamespace {
     }
   }; // HealthWarningScenesTransitionSetupDataSO
   #pragma pack(pop)
+  // Writing MetadataGetter for method: HealthWarningScenesTransitionSetupDataSO::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningScenesTransitionSetupDataSO::*)(GlobalNamespace::HealthWarningSceneSetupData*)>(&HealthWarningScenesTransitionSetupDataSO::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HealthWarningSceneSetupData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HealthWarningScenesTransitionSetupDataSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningScenesTransitionSetupDataSO::*)()>(&HealthWarningScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningScenesTransitionSetupDataSO::*)()>(&HealthWarningScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HealthWarningScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*, "", "HealthWarningScenesTransitionSetupDataSO");

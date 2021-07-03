@@ -39,7 +39,7 @@ namespace System::Net::Http::Headers {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE5D4C
+    // [CompilerGeneratedAttribute] Offset: 0xDE5C80
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -53,38 +53,38 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // protected internal System.Void .ctor(System.Net.Http.Headers.NameValueHeaderValue source)
-    // Offset: 0x1576B68
+    // Offset: 0x1590878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueHeaderValue* New_ctor(System::Net::Http::Headers::NameValueHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::NameValueHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueHeaderValue*, creationType>(source)));
     }
     // public System.String get_Name()
-    // Offset: 0x157D4E4
+    // Offset: 0x15971F4
     ::Il2CppString* get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x157D4EC
+    // Offset: 0x15971FC
     void set_Name(::Il2CppString* value);
     // public System.String get_Value()
-    // Offset: 0x157D4F4
+    // Offset: 0x1597204
     ::Il2CppString* get_Value();
     // static System.Net.Http.Headers.NameValueHeaderValue Create(System.String name, System.String value)
-    // Offset: 0x157604C
+    // Offset: 0x158FD5C
     static System::Net::Http::Headers::NameValueHeaderValue* Create(::Il2CppString* name, ::Il2CppString* value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x157D4FC
+    // Offset: 0x159720C
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParsePragma(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> result)
-    // Offset: 0x157D6D4
+    // Offset: 0x15973E4
     static bool TryParsePragma(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& result);
     // static System.Boolean TryParseParameters(System.Net.Http.Headers.Lexer lexer, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> result, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1576F24
+    // Offset: 0x1590C34
     static bool TryParseParameters(System::Net::Http::Headers::Lexer* lexer, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& result, System::Net::Http::Headers::Token& t);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.NameValueHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x157D7F0
+    // Offset: 0x1597500
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, System::Net::Http::Headers::NameValueHeaderValue*& parsedValue, System::Net::Http::Headers::Token& t);
     // System.Void .ctor()
-    // Offset: 0x157D4DC
+    // Offset: 0x15971EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -93,17 +93,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<NameValueHeaderValue*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x157D55C
+    // Offset: 0x159726C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x157D5DC
+    // Offset: 0x15972EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x157D774
+    // Offset: 0x1597484
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -111,5 +111,121 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
   static check_size<sizeof(NameValueHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_NameValueHeaderValueSizeCheck;
   static_assert(sizeof(NameValueHeaderValue) == 0x20);
+  // Writing MetadataGetter for method: NameValueHeaderValue::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameValueHeaderValue::*)(System::Net::Http::Headers::NameValueHeaderValue*)>(&NameValueHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::NameValueHeaderValue*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameValueHeaderValue::*)(System::Net::Http::Headers::NameValueHeaderValue*)>(&NameValueHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::NameValueHeaderValue*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NameValueHeaderValue::*)()>(&NameValueHeaderValue::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::set_Name
+  // Il2CppName: set_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameValueHeaderValue::*)(::Il2CppString*)>(&NameValueHeaderValue::set_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NameValueHeaderValue::*)()>(&NameValueHeaderValue::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::Create
+  // Il2CppName: Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::NameValueHeaderValue* (*)(::Il2CppString*, ::Il2CppString*)>(&NameValueHeaderValue::Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::System_ICloneable_Clone
+  // Il2CppName: System.ICloneable.Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NameValueHeaderValue::*)()>(&NameValueHeaderValue::System_ICloneable_Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::TryParsePragma
+  // Il2CppName: TryParsePragma
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*&)>(&NameValueHeaderValue::TryParsePragma)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "TryParsePragma", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::TryParseParameters
+  // Il2CppName: TryParseParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*&, System::Net::Http::Headers::Token&)>(&NameValueHeaderValue::TryParseParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "TryParseParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::TryParseElement
+  // Il2CppName: TryParseElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::NameValueHeaderValue*&, System::Net::Http::Headers::Token&)>(&NameValueHeaderValue::TryParseElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::NameValueHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameValueHeaderValue::*)()>(&NameValueHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameValueHeaderValue::*)()>(&NameValueHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NameValueHeaderValue::*)()>(&NameValueHeaderValue::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NameValueHeaderValue::*)(::Il2CppObject*)>(&NameValueHeaderValue::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameValueHeaderValue::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NameValueHeaderValue::*)()>(&NameValueHeaderValue::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameValueHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::NameValueHeaderValue*, "System.Net.Http.Headers", "NameValueHeaderValue");

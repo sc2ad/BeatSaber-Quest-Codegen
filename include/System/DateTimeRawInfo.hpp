@@ -84,18 +84,42 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0xF03C34
+    // Offset: 0xF04BEC
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0xF03C58
+    // Offset: 0xF04C10
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0xF03C70
+    // Offset: 0xF04C28
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)
   static check_size<sizeof(DateTimeRawInfo), 41 + sizeof(bool)> __System_DateTimeRawInfoSizeCheck;
   static_assert(sizeof(DateTimeRawInfo) == 0x2A);
+  // Writing MetadataGetter for method: DateTimeRawInfo::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeRawInfo::*)(int*)>(&DateTimeRawInfo::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeRawInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeRawInfo::AddNumber
+  // Il2CppName: AddNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeRawInfo::*)(int)>(&DateTimeRawInfo::AddNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeRawInfo), "AddNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeRawInfo::GetNumber
+  // Il2CppName: GetNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DateTimeRawInfo::*)(int)>(&DateTimeRawInfo::GetNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeRawInfo), "GetNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");

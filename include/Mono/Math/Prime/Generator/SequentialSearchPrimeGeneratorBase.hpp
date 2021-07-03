@@ -28,21 +28,21 @@ namespace Mono::Math::Prime::Generator {
     // Creating value type constructor for type: SequentialSearchPrimeGeneratorBase
     SequentialSearchPrimeGeneratorBase() noexcept {}
     // protected Mono.Math.BigInteger GenerateSearchBase(System.Int32 bits, System.Object context)
-    // Offset: 0x1D532E0
+    // Offset: 0x1D6EFF0
     Mono::Math::BigInteger* GenerateSearchBase(int bits, ::Il2CppObject* context);
     // public Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits, System.Object context)
-    // Offset: 0x1D53374
+    // Offset: 0x1D6F084
     Mono::Math::BigInteger* GenerateNewPrime(int bits, ::Il2CppObject* context);
     // protected System.Boolean IsPrimeAcceptable(Mono.Math.BigInteger bi, System.Object context)
-    // Offset: 0x1D53A88
+    // Offset: 0x1D6F798
     bool IsPrimeAcceptable(Mono::Math::BigInteger* bi, ::Il2CppObject* context);
     // public override Mono.Math.BigInteger GenerateNewPrime(System.Int32 bits)
-    // Offset: 0x1D53364
+    // Offset: 0x1D6F074
     // Implemented from: Mono.Math.Prime.Generator.PrimeGeneratorBase
     // Base method: Mono.Math.BigInteger PrimeGeneratorBase::GenerateNewPrime(System.Int32 bits)
     Mono::Math::BigInteger* GenerateNewPrime(int bits);
     // public System.Void .ctor()
-    // Offset: 0x1D521DC
+    // Offset: 0x1D6DEEC
     // Implemented from: Mono.Math.Prime.Generator.PrimeGeneratorBase
     // Base method: System.Void PrimeGeneratorBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -53,5 +53,51 @@ namespace Mono::Math::Prime::Generator {
     }
   }; // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SequentialSearchPrimeGeneratorBase::GenerateSearchBase
+  // Il2CppName: GenerateSearchBase
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (SequentialSearchPrimeGeneratorBase::*)(int, ::Il2CppObject*)>(&SequentialSearchPrimeGeneratorBase::GenerateSearchBase)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequentialSearchPrimeGeneratorBase*), "GenerateSearchBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SequentialSearchPrimeGeneratorBase::GenerateNewPrime
+  // Il2CppName: GenerateNewPrime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (SequentialSearchPrimeGeneratorBase::*)(int, ::Il2CppObject*)>(&SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequentialSearchPrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable
+  // Il2CppName: IsPrimeAcceptable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SequentialSearchPrimeGeneratorBase::*)(Mono::Math::BigInteger*, ::Il2CppObject*)>(&SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequentialSearchPrimeGeneratorBase*), "IsPrimeAcceptable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SequentialSearchPrimeGeneratorBase::GenerateNewPrime
+  // Il2CppName: GenerateNewPrime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (SequentialSearchPrimeGeneratorBase::*)(int)>(&SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequentialSearchPrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SequentialSearchPrimeGeneratorBase::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SequentialSearchPrimeGeneratorBase::*)()>(&SequentialSearchPrimeGeneratorBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequentialSearchPrimeGeneratorBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SequentialSearchPrimeGeneratorBase::*)()>(&SequentialSearchPrimeGeneratorBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequentialSearchPrimeGeneratorBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");

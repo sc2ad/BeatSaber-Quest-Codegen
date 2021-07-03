@@ -48,7 +48,7 @@ namespace UnityEngine::UI {
     UnityEngine::Events::UnityAction_1<T>* m_ActionOnRelease;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityAction_1<T>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8ADC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7A10
     // private System.Int32 <countAll>k__BackingField
     // Size: 0x4
     // Offset: 0x0

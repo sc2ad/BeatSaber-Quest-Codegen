@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool oneSaberMode_ = {}, GlobalNamespace::SaberType oneSaberType_ = {}) noexcept : oneSaberMode{oneSaberMode_}, oneSaberType{oneSaberType_} {}
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
-    // Offset: 0x10B5428
+    // Offset: 0x10B8704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberManager::InitData::.ctor");
@@ -47,5 +47,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SaberManager::InitData), 20 + sizeof(GlobalNamespace::SaberType)> __GlobalNamespace_SaberManager_InitDataSizeCheck;
   static_assert(sizeof(SaberManager::InitData) == 0x18);
+  // Writing MetadataGetter for method: SaberManager::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberManager::InitData::*)(bool, GlobalNamespace::SaberType)>(&SaberManager::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberManager::InitData::*)(bool, GlobalNamespace::SaberType)>(&SaberManager::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager::InitData*, "", "SaberManager/InitData");

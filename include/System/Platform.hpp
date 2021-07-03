@@ -34,19 +34,51 @@ namespace System {
     // Set static field: static private System.Boolean isFreeBSD
     static void _set_isFreeBSD(bool value);
     // static private System.Int32 uname(System.IntPtr buf)
-    // Offset: 0x15B3CF8
+    // Offset: 0x15CDA08
     static int uname(System::IntPtr buf);
     // static private System.Void CheckOS()
-    // Offset: 0x15B3D78
+    // Offset: 0x15CDA88
     static void CheckOS();
     // static public System.Boolean get_IsMacOS()
-    // Offset: 0x15B3F44
+    // Offset: 0x15CDC54
     static bool get_IsMacOS();
     // static public System.Boolean get_IsFreeBSD()
-    // Offset: 0x15B402C
+    // Offset: 0x15CDD3C
     static bool get_IsFreeBSD();
   }; // System.Platform
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Platform::uname
+  // Il2CppName: uname
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Platform::uname)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Platform*), "uname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Platform::CheckOS
+  // Il2CppName: CheckOS
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Platform::CheckOS)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Platform*), "CheckOS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Platform::get_IsMacOS
+  // Il2CppName: get_IsMacOS
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Platform::get_IsMacOS)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Platform*), "get_IsMacOS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Platform::get_IsFreeBSD
+  // Il2CppName: get_IsFreeBSD
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Platform::get_IsFreeBSD)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Platform*), "get_IsFreeBSD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Platform*, "System", "Platform");

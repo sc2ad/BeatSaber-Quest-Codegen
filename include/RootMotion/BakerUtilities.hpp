@@ -26,22 +26,62 @@ namespace RootMotion {
     // Creating value type constructor for type: BakerUtilities
     BakerUtilities() noexcept {}
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1C888B4
+    // Offset: 0x1CA45C4
     static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
-    // Offset: 0x1C89D88
+    // Offset: 0x1CA5A98
     static ::Array<UnityEngine::Keyframe>* GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
-    // Offset: 0x1C882C8
+    // Offset: 0x1CA3FD8
     static void SetLoopFrame(float time, UnityEngine::AnimationCurve* curve);
     // static public System.Void SetTangentMode(UnityEngine.AnimationCurve curve)
-    // Offset: 0x1C888FC
+    // Offset: 0x1CA460C
     static void SetTangentMode(UnityEngine::AnimationCurve* curve);
     // static public UnityEngine.Quaternion EnsureQuaternionContinuity(UnityEngine.Quaternion lastQ, UnityEngine.Quaternion q)
-    // Offset: 0x1C87E00
+    // Offset: 0x1CA3B10
     static UnityEngine::Quaternion EnsureQuaternionContinuity(UnityEngine::Quaternion lastQ, UnityEngine::Quaternion q);
   }; // RootMotion.BakerUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BakerUtilities::ReduceKeyframes
+  // Il2CppName: ReduceKeyframes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationCurve*, float)>(&BakerUtilities::ReduceKeyframes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakerUtilities*), "ReduceKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BakerUtilities::GetReducedKeyframes
+  // Il2CppName: GetReducedKeyframes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (*)(UnityEngine::AnimationCurve*, float)>(&BakerUtilities::GetReducedKeyframes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakerUtilities*), "GetReducedKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BakerUtilities::SetLoopFrame
+  // Il2CppName: SetLoopFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::AnimationCurve*)>(&BakerUtilities::SetLoopFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakerUtilities*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BakerUtilities::SetTangentMode
+  // Il2CppName: SetTangentMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationCurve*)>(&BakerUtilities::SetTangentMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakerUtilities*), "SetTangentMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BakerUtilities::EnsureQuaternionContinuity
+  // Il2CppName: EnsureQuaternionContinuity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&BakerUtilities::EnsureQuaternionContinuity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakerUtilities*), "EnsureQuaternionContinuity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");

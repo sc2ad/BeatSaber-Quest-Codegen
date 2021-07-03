@@ -37,10 +37,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InternetConnectionChecker
     InternetConnectionChecker() noexcept {}
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x23AA02C
+    // Offset: 0x23C6660
     static System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x23AA12C
+    // Offset: 0x23C6760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,5 +50,27 @@ namespace GlobalNamespace {
     }
   }; // InternetConnectionChecker
   #pragma pack(pop)
+  // Writing MetadataGetter for method: InternetConnectionChecker::IsConnectedToInternetAsync
+  // Il2CppName: IsConnectedToInternetAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (*)(System::Threading::CancellationToken)>(&InternetConnectionChecker::IsConnectedToInternetAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternetConnectionChecker*), "IsConnectedToInternetAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternetConnectionChecker::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternetConnectionChecker::*)()>(&InternetConnectionChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternetConnectionChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternetConnectionChecker::*)()>(&InternetConnectionChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternetConnectionChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InternetConnectionChecker*, "", "InternetConnectionChecker");

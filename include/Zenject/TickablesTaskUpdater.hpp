@@ -27,10 +27,10 @@ namespace Zenject {
     // Creating value type constructor for type: TickablesTaskUpdater
     TickablesTaskUpdater() noexcept {}
     // protected System.Void UpdateItem(Zenject.ITickable task)
-    // Offset: 0x16D679C
+    // Offset: 0x16ED4AC
     void UpdateItem(Zenject::ITickable* task);
     // public System.Void .ctor()
-    // Offset: 0x16D4E28
+    // Offset: 0x16EBB38
     // Implemented from: Zenject.TaskUpdater`1
     // Base method: System.Void TaskUpdater_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -40,5 +40,27 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<TickablesTaskUpdater*, creationType>()));
     }
   }; // Zenject.TickablesTaskUpdater
+  // Writing MetadataGetter for method: TickablesTaskUpdater::UpdateItem
+  // Il2CppName: UpdateItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TickablesTaskUpdater::*)(Zenject::ITickable*)>(&TickablesTaskUpdater::UpdateItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TickablesTaskUpdater*), "UpdateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ITickable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TickablesTaskUpdater::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TickablesTaskUpdater::*)()>(&TickablesTaskUpdater::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TickablesTaskUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TickablesTaskUpdater::*)()>(&TickablesTaskUpdater::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TickablesTaskUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickablesTaskUpdater*, "Zenject", "TickablesTaskUpdater");

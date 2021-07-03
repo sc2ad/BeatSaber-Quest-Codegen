@@ -116,21 +116,21 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* avatarContainerGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE226E4
+    // [InjectAttribute] Offset: 0xE226C0
     // private readonly EditAvatarViewController _editAvatarViewController
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::EditAvatarViewController* editAvatarViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE226F4
+    // [InjectAttribute] Offset: 0xE226D0
     // private readonly EditColorController _editColorViewController
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::EditColorController* editColorViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditColorController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22704
+    // [InjectAttribute] Offset: 0xE226E0
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0xD0
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType) == 0x4);
     // Padding between fields: editAvatarType and: didFinishEvent
     char __padding7[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE22714
+    // [CompilerGeneratedAttribute] Offset: 0xE226F0
     // private System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> didFinishEvent
     // Size: 0x8
     // Offset: 0xE8
@@ -161,41 +161,41 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EditAvatarFlowCoordinator
     EditAvatarFlowCoordinator(GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, GlobalNamespace::AvatarTweenController* avatarTweenController_ = {}, UnityEngine::GameObject* avatarContainerGameObject_ = {}, GlobalNamespace::EditAvatarViewController* editAvatarViewController_ = {}, GlobalNamespace::EditColorController* editColorViewController_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::EditAvatarViewController::AvatarEditPart, System::Action*>* parameterChangedAnimationCallbacks_ = {}, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType_ = {}, System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* didFinishEvent_ = {}) noexcept : avatarVisualController{avatarVisualController_}, avatarTweenController{avatarTweenController_}, avatarContainerGameObject{avatarContainerGameObject_}, editAvatarViewController{editAvatarViewController_}, editColorViewController{editColorViewController_}, avatarDataModel{avatarDataModel_}, parameterChangedAnimationCallbacks{parameterChangedAnimationCallbacks_}, editAvatarType{editAvatarType_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x10B9DD0
+    // Offset: 0x1038548
     void add_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EditAvatarFlowCoordinator,EditAvatarFlowCoordinator/EditAvatarType> value)
-    // Offset: 0x10B9E74
+    // Offset: 0x10385EC
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>* value);
     // public System.Void Setup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x10B9F18
+    // Offset: 0x1038690
     void Setup(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
     // private System.Void HandleEditAvatarViewControllerDidRequestColorChange(System.Action`1<UnityEngine.Color> colorCallback, UnityEngine.Color currentColor, EditAvatarViewController/AvatarEditPart editPart, System.Int32 uvSegment)
-    // Offset: 0x10BAC08
+    // Offset: 0x1039380
     void HandleEditAvatarViewControllerDidRequestColorChange(System::Action_1<UnityEngine::Color>* colorCallback, UnityEngine::Color currentColor, GlobalNamespace::EditAvatarViewController::AvatarEditPart editPart, int uvSegment);
     // private System.Void HandleEditAvatarViewControllerChangedAvatarPart(EditAvatarViewController/AvatarEditPart avatarPart)
-    // Offset: 0x10BACF8
+    // Offset: 0x1039470
     void HandleEditAvatarViewControllerChangedAvatarPart(GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarPart);
     // private System.Void HandleEditAvatarViewControllerDidFinished()
-    // Offset: 0x10BAD98
+    // Offset: 0x1039510
     void HandleEditAvatarViewControllerDidFinished();
     // private System.Void HandleEditColorViewControllerDidChangedColor(UnityEngine.Color color)
-    // Offset: 0x10BAE00
+    // Offset: 0x1039578
     void HandleEditColorViewControllerDidChangedColor(UnityEngine::Color color);
     // private System.Void HandleEditColorViewControllerDidFinish(System.Boolean apply)
-    // Offset: 0x10BAE2C
+    // Offset: 0x10395A4
     void HandleEditColorViewControllerDidFinish(bool apply);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10B9FC8
+    // Offset: 0x1038740
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x10BA710
+    // Offset: 0x1038E88
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x10BAEBC
+    // Offset: 0x1039634
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -212,6 +212,100 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EditAvatarFlowCoordinator), 232 + sizeof(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)> __GlobalNamespace_EditAvatarFlowCoordinatorSizeCheck;
   static_assert(sizeof(EditAvatarFlowCoordinator) == 0xF0);
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&EditAvatarFlowCoordinator::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&EditAvatarFlowCoordinator::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&EditAvatarFlowCoordinator::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange
+  // Il2CppName: HandleEditAvatarViewControllerDidRequestColorChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidRequestColorChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart
+  // Il2CppName: HandleEditAvatarViewControllerChangedAvatarPart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerChangedAvatarPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished
+  // Il2CppName: HandleEditAvatarViewControllerDidFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor
+  // Il2CppName: HandleEditColorViewControllerDidChangedColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(UnityEngine::Color)>(&EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidChangedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish
+  // Il2CppName: HandleEditColorViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool)>(&EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool, bool, bool)>(&EditAvatarFlowCoordinator::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)(bool, bool)>(&EditAvatarFlowCoordinator::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarFlowCoordinator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarFlowCoordinator::*)()>(&EditAvatarFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator*, "", "EditAvatarFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType, "", "EditAvatarFlowCoordinator/EditAvatarType");

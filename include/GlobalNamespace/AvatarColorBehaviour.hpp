@@ -71,22 +71,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AvatarColorBehaviour
     AvatarColorBehaviour(UnityEngine::Color startColor_ = {}, UnityEngine::Color endColor_ = {}, Tweening::EaseType easeType_ = {}, GlobalNamespace::AvatarVisualController* avatarVisualController_ = {}, float duration_ = {}) noexcept : startColor{startColor_}, endColor{endColor_}, easeType{easeType_}, avatarVisualController{avatarVisualController_}, duration{duration_} {}
     // public override System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
-    // Offset: 0x112E138
+    // Offset: 0x11339A0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnGraphStart(UnityEngine.Playables.Playable playable)
     void OnGraphStart(UnityEngine::Playables::Playable playable);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x112E1B4
+    // Offset: 0x1133A1C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x112E3A0
+    // Offset: 0x1133C08
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public System.Void .ctor()
-    // Offset: 0x112E438
+    // Offset: 0x1133CA0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -99,5 +99,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AvatarColorBehaviour), 64 + sizeof(float)> __GlobalNamespace_AvatarColorBehaviourSizeCheck;
   static_assert(sizeof(AvatarColorBehaviour) == 0x44);
+  // Writing MetadataGetter for method: AvatarColorBehaviour::OnGraphStart
+  // Il2CppName: OnGraphStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorBehaviour::*)(UnityEngine::Playables::Playable)>(&AvatarColorBehaviour::OnGraphStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarColorBehaviour::ProcessFrame
+  // Il2CppName: ProcessFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&AvatarColorBehaviour::ProcessFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarColorBehaviour::OnPlayableDestroy
+  // Il2CppName: OnPlayableDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorBehaviour::*)(UnityEngine::Playables::Playable)>(&AvatarColorBehaviour::OnPlayableDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarColorBehaviour::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorBehaviour::*)()>(&AvatarColorBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarColorBehaviour::*)()>(&AvatarColorBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorBehaviour*, "", "AvatarColorBehaviour");

@@ -61,24 +61,62 @@ namespace Zenject {
     // Creating value type constructor for type: InitializableManager
     InitializableManager(System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>* initializables_ = {}, bool hasInitialized_ = {}) noexcept : initializables{initializables_}, hasInitialized{hasInitialized_} {}
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1627374
+    // Offset: 0x163F084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable*>* initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager*, creationType>(initializables, priorities)));
     }
     // public System.Void Add(Zenject.IInitializable initializable)
-    // Offset: 0x1627660
+    // Offset: 0x163F370
     void Add(Zenject::IInitializable* initializable);
     // public System.Void Add(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1627668
+    // Offset: 0x163F378
     void Add(Zenject::IInitializable* initializable, int priority);
     // public System.Void Initialize()
-    // Offset: 0x1627710
+    // Offset: 0x163F420
     void Initialize();
   }; // Zenject.InitializableManager
   #pragma pack(pop)
   static check_size<sizeof(InitializableManager), 24 + sizeof(bool)> __Zenject_InitializableManagerSizeCheck;
   static_assert(sizeof(InitializableManager) == 0x19);
+  // Writing MetadataGetter for method: InitializableManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::*)(System::Collections::Generic::List_1<Zenject::IInitializable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&InitializableManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InitializableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IInitializable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::*)(System::Collections::Generic::List_1<Zenject::IInitializable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&InitializableManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InitializableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IInitializable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InitializableManager::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::*)(Zenject::IInitializable*)>(&InitializableManager::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InitializableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IInitializable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InitializableManager::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::*)(Zenject::IInitializable*, int)>(&InitializableManager::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InitializableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IInitializable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: InitializableManager::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InitializableManager::*)()>(&InitializableManager::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InitializableManager*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager*, "Zenject", "InitializableManager");

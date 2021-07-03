@@ -119,54 +119,172 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x18B6628
+    // Offset: 0x18CE338
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EaxBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EaxBlockCipher*, creationType>(cipher)));
     }
     // public System.Int32 GetBlockSize()
-    // Offset: 0x18B6864
+    // Offset: 0x18CE574
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18B6888
+    // Offset: 0x18CE598
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void InitCipher()
-    // Offset: 0x18B6D28
+    // Offset: 0x18CEA38
     void InitCipher();
     // private System.Void CalculateMac()
-    // Offset: 0x18B6ED4
+    // Offset: 0x18CEBE4
     void CalculateMac();
     // public System.Void Reset()
-    // Offset: 0x18B7040
+    // Offset: 0x18CED50
     void Reset();
     // private System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x18B7048
+    // Offset: 0x18CED58
     void Reset(bool clearMac);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x18B7260
+    // Offset: 0x18CEF70
     void ProcessAadBytes(::Array<uint8_t>* inBytes, int inOff, int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x18B7380
+    // Offset: 0x18CF090
     int ProcessBytes(::Array<uint8_t>* inBytes, int inOff, int len, ::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x18B76A0
+    // Offset: 0x18CF3B0
     int DoFinal(::Array<uint8_t>* outBytes, int outOff);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x18B7A84
+    // Offset: 0x18CF794
     int GetUpdateOutputSize(int len);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x18B7AB8
+    // Offset: 0x18CF7C8
     int GetOutputSize(int len);
     // private System.Int32 Process(System.Byte b, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x18B7428
+    // Offset: 0x18CF138
     int Process(uint8_t b, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Boolean VerifyMac(System.Byte[] mac, System.Int32 off)
-    // Offset: 0x18B79E4
+    // Offset: 0x18CF6F4
     bool VerifyMac(::Array<uint8_t>* mac, int off);
   }; // Org.BouncyCastle.Crypto.Modes.EaxBlockCipher
   #pragma pack(pop)
   static check_size<sizeof(EaxBlockCipher), 88 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Modes_EaxBlockCipherSizeCheck;
   static_assert(sizeof(EaxBlockCipher) == 0x60);
+  // Writing MetadataGetter for method: EaxBlockCipher::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)(Org::BouncyCastle::Crypto::IBlockCipher*)>(&EaxBlockCipher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)(Org::BouncyCastle::Crypto::IBlockCipher*)>(&EaxBlockCipher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::GetBlockSize
+  // Il2CppName: GetBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EaxBlockCipher::*)()>(&EaxBlockCipher::GetBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&EaxBlockCipher::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::InitCipher
+  // Il2CppName: InitCipher
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)()>(&EaxBlockCipher::InitCipher)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "InitCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::CalculateMac
+  // Il2CppName: CalculateMac
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)()>(&EaxBlockCipher::CalculateMac)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "CalculateMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)()>(&EaxBlockCipher::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)(bool)>(&EaxBlockCipher::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::ProcessAadBytes
+  // Il2CppName: ProcessAadBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EaxBlockCipher::*)(::Array<uint8_t>*, int, int)>(&EaxBlockCipher::ProcessAadBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "ProcessAadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::ProcessBytes
+  // Il2CppName: ProcessBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EaxBlockCipher::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&EaxBlockCipher::ProcessBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::DoFinal
+  // Il2CppName: DoFinal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EaxBlockCipher::*)(::Array<uint8_t>*, int)>(&EaxBlockCipher::DoFinal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::GetUpdateOutputSize
+  // Il2CppName: GetUpdateOutputSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EaxBlockCipher::*)(int)>(&EaxBlockCipher::GetUpdateOutputSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "GetUpdateOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::GetOutputSize
+  // Il2CppName: GetOutputSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EaxBlockCipher::*)(int)>(&EaxBlockCipher::GetOutputSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "GetOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::Process
+  // Il2CppName: Process
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EaxBlockCipher::*)(uint8_t, ::Array<uint8_t>*, int)>(&EaxBlockCipher::Process)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EaxBlockCipher::VerifyMac
+  // Il2CppName: VerifyMac
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EaxBlockCipher::*)(::Array<uint8_t>*, int)>(&EaxBlockCipher::VerifyMac)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EaxBlockCipher*), "VerifyMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::EaxBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "EaxBlockCipher");

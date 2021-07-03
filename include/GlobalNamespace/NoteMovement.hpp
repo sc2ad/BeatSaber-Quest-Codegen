@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteJump* jump;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteJump*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE19780
+    // [SpaceAttribute] Offset: 0xE1975C
     // private System.Single _zOffset
     // Size: 0x4
     // Offset: 0x28
@@ -106,56 +106,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: zOffset and: didInitEvent
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE197B8
+    // [CompilerGeneratedAttribute] Offset: 0xE19794
     // private System.Action didInitEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* didInitEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE197C8
+    // [CompilerGeneratedAttribute] Offset: 0xE197A4
     // private System.Action noteDidStartJumpEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action* noteDidStartJumpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE197D8
+    // [CompilerGeneratedAttribute] Offset: 0xE197B4
     // private System.Action noteDidFinishJumpEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action* noteDidFinishJumpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE197E8
+    // [CompilerGeneratedAttribute] Offset: 0xE197C4
     // private System.Action noteDidPassMissedMarkerEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action* noteDidPassMissedMarkerEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE197F8
+    // [CompilerGeneratedAttribute] Offset: 0xE197D4
     // private System.Action noteDidPassHalfJumpEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action* noteDidPassHalfJumpEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE19808
+    // [CompilerGeneratedAttribute] Offset: 0xE197E4
     // private System.Action`1<NoteMovement> noteDidPassJumpThreeQuartersEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_1<GlobalNamespace::NoteMovement*>* noteDidPassJumpThreeQuartersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::NoteMovement*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE19818
+    // [CompilerGeneratedAttribute] Offset: 0xE197F4
     // private System.Action noteDidMoveInJumpPhaseEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action* noteDidMoveInJumpPhaseEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE19828
+    // [CompilerGeneratedAttribute] Offset: 0xE19804
     // private NoteMovement/MovementPhase <movementPhase>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -191,121 +191,121 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didInitEvent(System.Action value)
-    // Offset: 0x11C07C0
+    // Offset: 0x11DB114
     void add_didInitEvent(System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
-    // Offset: 0x11C0864
+    // Offset: 0x11DB1B8
     void remove_didInitEvent(System::Action* value);
     // public System.Void add_noteDidStartJumpEvent(System.Action value)
-    // Offset: 0x11B7008
+    // Offset: 0x11D195C
     void add_noteDidStartJumpEvent(System::Action* value);
     // public System.Void remove_noteDidStartJumpEvent(System.Action value)
-    // Offset: 0x11B7420
+    // Offset: 0x11D1D74
     void remove_noteDidStartJumpEvent(System::Action* value);
     // public System.Void add_noteDidFinishJumpEvent(System.Action value)
-    // Offset: 0x11B6F64
+    // Offset: 0x11D18B8
     void add_noteDidFinishJumpEvent(System::Action* value);
     // public System.Void remove_noteDidFinishJumpEvent(System.Action value)
-    // Offset: 0x11B737C
+    // Offset: 0x11D1CD0
     void remove_noteDidFinishJumpEvent(System::Action* value);
     // public System.Void add_noteDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x11B7150
+    // Offset: 0x11D1AA4
     void add_noteDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void remove_noteDidPassMissedMarkerEvent(System.Action value)
-    // Offset: 0x11B7568
+    // Offset: 0x11D1EBC
     void remove_noteDidPassMissedMarkerEvent(System::Action* value);
     // public System.Void add_noteDidPassHalfJumpEvent(System.Action value)
-    // Offset: 0x11C0908
+    // Offset: 0x11DB25C
     void add_noteDidPassHalfJumpEvent(System::Action* value);
     // public System.Void remove_noteDidPassHalfJumpEvent(System.Action value)
-    // Offset: 0x11C09AC
+    // Offset: 0x11DB300
     void remove_noteDidPassHalfJumpEvent(System::Action* value);
     // public System.Void add_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteMovement> value)
-    // Offset: 0x11B70AC
+    // Offset: 0x11D1A00
     void add_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteMovement*>* value);
     // public System.Void remove_noteDidPassJumpThreeQuartersEvent(System.Action`1<NoteMovement> value)
-    // Offset: 0x11B74C4
+    // Offset: 0x11D1E18
     void remove_noteDidPassJumpThreeQuartersEvent(System::Action_1<GlobalNamespace::NoteMovement*>* value);
     // public System.Void add_noteDidMoveInJumpPhaseEvent(System.Action value)
-    // Offset: 0x11C0A50
+    // Offset: 0x11DB3A4
     void add_noteDidMoveInJumpPhaseEvent(System::Action* value);
     // public System.Void remove_noteDidMoveInJumpPhaseEvent(System.Action value)
-    // Offset: 0x11C0AF4
+    // Offset: 0x11DB448
     void remove_noteDidMoveInJumpPhaseEvent(System::Action* value);
     // public NoteMovement/MovementPhase get_movementPhase()
-    // Offset: 0x11C0B98
+    // Offset: 0x11DB4EC
     GlobalNamespace::NoteMovement::MovementPhase get_movementPhase();
     // private System.Void set_movementPhase(NoteMovement/MovementPhase value)
-    // Offset: 0x11C0BA0
+    // Offset: 0x11DB4F4
     void set_movementPhase(GlobalNamespace::NoteMovement::MovementPhase value);
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x11C0BA8
+    // Offset: 0x11DB4FC
     UnityEngine::Vector3 get_position();
     // public UnityEngine.Vector3 get_prevPosition()
-    // Offset: 0x11C0BB4
+    // Offset: 0x11DB508
     UnityEngine::Vector3 get_prevPosition();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x11C0BC0
+    // Offset: 0x11DB514
     UnityEngine::Vector3 get_localPosition();
     // public UnityEngine.Vector3 get_prevLocalPosition()
-    // Offset: 0x11C0BCC
+    // Offset: 0x11DB520
     UnityEngine::Vector3 get_prevLocalPosition();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x11B6B3C
+    // Offset: 0x11D1490
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x11B6B88
+    // Offset: 0x11D14DC
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_moveEndPos()
-    // Offset: 0x11B6D28
+    // Offset: 0x11D167C
     UnityEngine::Vector3 get_moveEndPos();
     // public System.Single get_moveStartTime()
-    // Offset: 0x11B6BD0
+    // Offset: 0x11D1524
     float get_moveStartTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x11B6C14
+    // Offset: 0x11D1568
     float get_moveDuration();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x11B6CE4
+    // Offset: 0x11D1638
     UnityEngine::Vector3 get_beatPos();
     // public System.Single get_jumpDuration()
-    // Offset: 0x11B6C58
+    // Offset: 0x11D15AC
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_jumpMoveVec()
-    // Offset: 0x11B6CA0
+    // Offset: 0x11D15F4
     UnityEngine::Vector3 get_jumpMoveVec();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x11C0BD8
+    // Offset: 0x11DB52C
     float get_distanceToPlayer();
     // public System.Void Init(System.Single beatTime, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single flipYSide, System.Single endRotation)
-    // Offset: 0x11B81CC
+    // Offset: 0x11D2B20
     void Init(float beatTime, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float flipYSide, float endRotation);
     // protected System.Void Awake()
-    // Offset: 0x11C0C10
+    // Offset: 0x11DB564
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C0D8C
+    // Offset: 0x11DB6E0
     void OnDestroy();
     // private System.Void HandleFloorMovementDidFinish()
-    // Offset: 0x11C0F7C
+    // Offset: 0x11DB8D0
     void HandleFloorMovementDidFinish();
     // private System.Void HandleNoteJumpDidFinish()
-    // Offset: 0x11C0FE8
+    // Offset: 0x11DB93C
     void HandleNoteJumpDidFinish();
     // private System.Void HandleNoteJumpDidPassMissedMark()
-    // Offset: 0x11C1004
+    // Offset: 0x11DB958
     void HandleNoteJumpDidPassMissedMark();
     // private System.Void HandleNoteJumpDidPassThreeQuarters(NoteJump noteJump)
-    // Offset: 0x11C1018
+    // Offset: 0x11DB96C
     void HandleNoteJumpDidPassThreeQuarters(GlobalNamespace::NoteJump* noteJump);
     // private System.Void HandleNoteJumpNoteJumpDidPassHalf()
-    // Offset: 0x11C107C
+    // Offset: 0x11DB9D0
     void HandleNoteJumpNoteJumpDidPassHalf();
     // public System.Void ManualUpdate()
-    // Offset: 0x11B7634
+    // Offset: 0x11D1F88
     void ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x11C1090
+    // Offset: 0x11DB9E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -321,6 +321,324 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteMovement), 144 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteMovementSizeCheck;
   static_assert(sizeof(NoteMovement) == 0x9C);
+  // Writing MetadataGetter for method: NoteMovement::add_didInitEvent
+  // Il2CppName: add_didInitEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::add_didInitEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_didInitEvent
+  // Il2CppName: remove_didInitEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::remove_didInitEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::add_noteDidStartJumpEvent
+  // Il2CppName: add_noteDidStartJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::add_noteDidStartJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_noteDidStartJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_noteDidStartJumpEvent
+  // Il2CppName: remove_noteDidStartJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::remove_noteDidStartJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_noteDidStartJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::add_noteDidFinishJumpEvent
+  // Il2CppName: add_noteDidFinishJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::add_noteDidFinishJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_noteDidFinishJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_noteDidFinishJumpEvent
+  // Il2CppName: remove_noteDidFinishJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::remove_noteDidFinishJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_noteDidFinishJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::add_noteDidPassMissedMarkerEvent
+  // Il2CppName: add_noteDidPassMissedMarkerEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::add_noteDidPassMissedMarkerEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_noteDidPassMissedMarkerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_noteDidPassMissedMarkerEvent
+  // Il2CppName: remove_noteDidPassMissedMarkerEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::remove_noteDidPassMissedMarkerEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_noteDidPassMissedMarkerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::add_noteDidPassHalfJumpEvent
+  // Il2CppName: add_noteDidPassHalfJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::add_noteDidPassHalfJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_noteDidPassHalfJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_noteDidPassHalfJumpEvent
+  // Il2CppName: remove_noteDidPassHalfJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::remove_noteDidPassHalfJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_noteDidPassHalfJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::add_noteDidPassJumpThreeQuartersEvent
+  // Il2CppName: add_noteDidPassJumpThreeQuartersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action_1<GlobalNamespace::NoteMovement*>*)>(&NoteMovement::add_noteDidPassJumpThreeQuartersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_noteDidPassJumpThreeQuartersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteMovement*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_noteDidPassJumpThreeQuartersEvent
+  // Il2CppName: remove_noteDidPassJumpThreeQuartersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action_1<GlobalNamespace::NoteMovement*>*)>(&NoteMovement::remove_noteDidPassJumpThreeQuartersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_noteDidPassJumpThreeQuartersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteMovement*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::add_noteDidMoveInJumpPhaseEvent
+  // Il2CppName: add_noteDidMoveInJumpPhaseEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::add_noteDidMoveInJumpPhaseEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "add_noteDidMoveInJumpPhaseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::remove_noteDidMoveInJumpPhaseEvent
+  // Il2CppName: remove_noteDidMoveInJumpPhaseEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(System::Action*)>(&NoteMovement::remove_noteDidMoveInJumpPhaseEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "remove_noteDidMoveInJumpPhaseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_movementPhase
+  // Il2CppName: get_movementPhase
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement::MovementPhase (NoteMovement::*)()>(&NoteMovement::get_movementPhase)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_movementPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::set_movementPhase
+  // Il2CppName: set_movementPhase
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(GlobalNamespace::NoteMovement::MovementPhase)>(&NoteMovement::set_movementPhase)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "set_movementPhase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteMovement::MovementPhase>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_position
+  // Il2CppName: get_position
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_position)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_prevPosition
+  // Il2CppName: get_prevPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_prevPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_prevPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_localPosition
+  // Il2CppName: get_localPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_localPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_prevLocalPosition
+  // Il2CppName: get_prevLocalPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_prevLocalPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_prevLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_worldRotation
+  // Il2CppName: get_worldRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteMovement::*)()>(&NoteMovement::get_worldRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_worldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_inverseWorldRotation
+  // Il2CppName: get_inverseWorldRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteMovement::*)()>(&NoteMovement::get_inverseWorldRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_inverseWorldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_moveEndPos
+  // Il2CppName: get_moveEndPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_moveEndPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_moveEndPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_moveStartTime
+  // Il2CppName: get_moveStartTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteMovement::*)()>(&NoteMovement::get_moveStartTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_moveStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_moveDuration
+  // Il2CppName: get_moveDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteMovement::*)()>(&NoteMovement::get_moveDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_beatPos
+  // Il2CppName: get_beatPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_beatPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_beatPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_jumpDuration
+  // Il2CppName: get_jumpDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteMovement::*)()>(&NoteMovement::get_jumpDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_jumpMoveVec
+  // Il2CppName: get_jumpMoveVec
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteMovement::*)()>(&NoteMovement::get_jumpMoveVec)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_jumpMoveVec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::get_distanceToPlayer
+  // Il2CppName: get_distanceToPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteMovement::*)()>(&NoteMovement::get_distanceToPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "get_distanceToPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(float, float, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float, float, float, float, float)>(&NoteMovement::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::HandleFloorMovementDidFinish
+  // Il2CppName: HandleFloorMovementDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::HandleFloorMovementDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "HandleFloorMovementDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::HandleNoteJumpDidFinish
+  // Il2CppName: HandleNoteJumpDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::HandleNoteJumpDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "HandleNoteJumpDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::HandleNoteJumpDidPassMissedMark
+  // Il2CppName: HandleNoteJumpDidPassMissedMark
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::HandleNoteJumpDidPassMissedMark)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "HandleNoteJumpDidPassMissedMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::HandleNoteJumpDidPassThreeQuarters
+  // Il2CppName: HandleNoteJumpDidPassThreeQuarters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)(GlobalNamespace::NoteJump*)>(&NoteMovement::HandleNoteJumpDidPassThreeQuarters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "HandleNoteJumpDidPassThreeQuarters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteJump*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::HandleNoteJumpNoteJumpDidPassHalf
+  // Il2CppName: HandleNoteJumpNoteJumpDidPassHalf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::HandleNoteJumpNoteJumpDidPassHalf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "HandleNoteJumpNoteJumpDidPassHalf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::ManualUpdate
+  // Il2CppName: ManualUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::ManualUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteMovement::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteMovement::*)()>(&NoteMovement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteMovement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement::MovementPhase, "", "NoteMovement/MovementPhase");

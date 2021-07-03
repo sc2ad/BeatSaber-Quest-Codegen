@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType), 0 + sizeof(int)> __GlobalNamespace_BeatmapObjectExecutionRating_BeatmapObjectExecutionRatingTypeSizeCheck;
     static_assert(sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE16074
+    // [CompilerGeneratedAttribute] Offset: 0xE16050
     // private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE16084
+    // [CompilerGeneratedAttribute] Offset: 0xE16060
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -86,19 +86,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapObjectExecutionRating
     BeatmapObjectExecutionRating(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType beatmapObjectRatingType_ = {}, float time_ = {}) noexcept : beatmapObjectRatingType{beatmapObjectRatingType_}, time{time_} {}
     // public BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType get_beatmapObjectRatingType()
-    // Offset: 0x107C3B4
+    // Offset: 0x1106D10
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType get_beatmapObjectRatingType();
     // public System.Void set_beatmapObjectRatingType(BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType value)
-    // Offset: 0x107C3BC
+    // Offset: 0x1106D18
     void set_beatmapObjectRatingType(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType value);
     // public System.Single get_time()
-    // Offset: 0x107C3C4
+    // Offset: 0x1106D20
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x107C3CC
+    // Offset: 0x1106D28
     void set_time(float value);
     // public System.Void .ctor()
-    // Offset: 0x107C3D4
+    // Offset: 0x1106D30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -110,6 +110,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectExecutionRating), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectExecutionRatingSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRating) == 0x18);
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRating::get_beatmapObjectRatingType
+  // Il2CppName: get_beatmapObjectRatingType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::get_beatmapObjectRatingType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "get_beatmapObjectRatingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRating::set_beatmapObjectRatingType
+  // Il2CppName: set_beatmapObjectRatingType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType)>(&BeatmapObjectExecutionRating::set_beatmapObjectRatingType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "set_beatmapObjectRatingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRating::get_time
+  // Il2CppName: get_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::get_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRating::set_time
+  // Il2CppName: set_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)(float)>(&BeatmapObjectExecutionRating::set_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRating::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType, "", "BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType");

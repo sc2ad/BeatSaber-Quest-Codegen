@@ -44,22 +44,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: MemberPrimitiveUnTyped
     MemberPrimitiveUnTyped(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation_ = {}, ::Il2CppObject* value_ = {}) noexcept : typeInformation{typeInformation_}, value{value_} {}
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation, System.Object value)
-    // Offset: 0x15F33F4
+    // Offset: 0x160C104
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::Il2CppObject* value);
     // System.Void Set(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE typeInformation)
-    // Offset: 0x15F3400
+    // Offset: 0x160C110
     void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15F3408
+    // Offset: 0x160C118
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15F3430
+    // Offset: 0x160C140
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x15F3468
+    // Offset: 0x160C178
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15F33EC
+    // Offset: 0x160C0FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,5 +71,59 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   #pragma pack(pop)
   static check_size<sizeof(MemberPrimitiveUnTyped), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Serialization_Formatters_Binary_MemberPrimitiveUnTypedSizeCheck;
   static_assert(sizeof(MemberPrimitiveUnTyped) == 0x20);
+  // Writing MetadataGetter for method: MemberPrimitiveUnTyped::Set
+  // Il2CppName: Set
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, ::Il2CppObject*)>(&MemberPrimitiveUnTyped::Set)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MemberPrimitiveUnTyped::Set
+  // Il2CppName: Set
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&MemberPrimitiveUnTyped::Set)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: MemberPrimitiveUnTyped::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&MemberPrimitiveUnTyped::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MemberPrimitiveUnTyped::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&MemberPrimitiveUnTyped::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MemberPrimitiveUnTyped::Dump
+  // Il2CppName: Dump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)()>(&MemberPrimitiveUnTyped::Dump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MemberPrimitiveUnTyped::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)()>(&MemberPrimitiveUnTyped::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemberPrimitiveUnTyped::*)()>(&MemberPrimitiveUnTyped::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MemberPrimitiveUnTyped*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");

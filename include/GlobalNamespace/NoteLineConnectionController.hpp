@@ -52,28 +52,28 @@ namespace GlobalNamespace {
     UnityEngine::LineRenderer* lineRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::LineRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE19720
+    // [InjectAttribute] Offset: 0xE196FC
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xE19730
+    // [InjectAttribute] Offset: 0xE1970C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE19740
+    // [InjectAttribute] Offset: 0xE1971C
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE19750
+    // [CompilerGeneratedAttribute] Offset: 0xE1972C
     // private System.Action`1<NoteLineConnectionController> didFinishEvent
     // Size: 0x8
     // Offset: 0x38
@@ -133,22 +133,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x11C02F4
+    // Offset: 0x11DAC48
     void add_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x11C0398
+    // Offset: 0x11DACEC
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0x11C043C
+    // Offset: 0x11DAD90
     void Setup(GlobalNamespace::NoteController* noteController0, GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0x11C06D0
+    // Offset: 0x11DB024
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0x11C04E4
+    // Offset: 0x11DAE38
     void UpdatePositionsAndColors();
     // public System.Void .ctor()
-    // Offset: 0x11C0768
+    // Offset: 0x11DB0BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -164,5 +164,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteLineConnectionController), 124 + sizeof(bool)> __GlobalNamespace_NoteLineConnectionControllerSizeCheck;
   static_assert(sizeof(NoteLineConnectionController) == 0x7D);
+  // Writing MetadataGetter for method: NoteLineConnectionController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)(System::Action_1<GlobalNamespace::NoteLineConnectionController*>*)>(&NoteLineConnectionController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteLineConnectionController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteLineConnectionController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)(System::Action_1<GlobalNamespace::NoteLineConnectionController*>*)>(&NoteLineConnectionController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteLineConnectionController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteLineConnectionController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteController*, float, float, float)>(&NoteLineConnectionController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteLineConnectionController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)()>(&NoteLineConnectionController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteLineConnectionController::UpdatePositionsAndColors
+  // Il2CppName: UpdatePositionsAndColors
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)()>(&NoteLineConnectionController::UpdatePositionsAndColors)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), "UpdatePositionsAndColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteLineConnectionController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)()>(&NoteLineConnectionController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteLineConnectionController::*)()>(&NoteLineConnectionController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteLineConnectionController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");

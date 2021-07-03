@@ -47,27 +47,73 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);
     }
     // public System.Single get_time()
-    // Offset: 0x1083450
+    // Offset: 0x110DDAC
     float get_time();
     // public BeatmapSaveData/BeatmapEventType get_type()
-    // Offset: 0x1083458
+    // Offset: 0x110DDB4
     GlobalNamespace::BeatmapSaveData::BeatmapEventType get_type();
     // public System.Int32 get_value()
-    // Offset: 0x1083460
+    // Offset: 0x110DDBC
     int get_value();
     // public System.Void .ctor(System.Single time, BeatmapSaveData/BeatmapEventType type, System.Int32 value)
-    // Offset: 0x1083468
+    // Offset: 0x110DDC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::EventData* New_ctor(float time, GlobalNamespace::BeatmapSaveData::BeatmapEventType type, int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::EventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::EventData*, creationType>(time, type, value)));
     }
     // public System.Void MoveTime(System.Single offset)
-    // Offset: 0x10834B0
+    // Offset: 0x110DE0C
     void MoveTime(float offset);
   }; // BeatmapSaveData/EventData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapSaveData::EventData), 24 + sizeof(int)> __GlobalNamespace_BeatmapSaveData_EventDataSizeCheck;
   static_assert(sizeof(BeatmapSaveData::EventData) == 0x1C);
+  // Writing MetadataGetter for method: BeatmapSaveData::EventData::get_time
+  // Il2CppName: get_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapSaveData::EventData::*)()>(&BeatmapSaveData::EventData::get_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::EventData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapSaveData::EventData::get_type
+  // Il2CppName: get_type
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData::BeatmapEventType (BeatmapSaveData::EventData::*)()>(&BeatmapSaveData::EventData::get_type)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::EventData*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapSaveData::EventData::get_value
+  // Il2CppName: get_value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapSaveData::EventData::*)()>(&BeatmapSaveData::EventData::get_value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::EventData*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapSaveData::EventData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::EventData::*)(float, GlobalNamespace::BeatmapSaveData::BeatmapEventType, int)>(&BeatmapSaveData::EventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::EventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapSaveData::BeatmapEventType>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::EventData::*)(float, GlobalNamespace::BeatmapSaveData::BeatmapEventType, int)>(&BeatmapSaveData::EventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::EventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapSaveData::BeatmapEventType>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapSaveData::EventData::MoveTime
+  // Il2CppName: MoveTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::EventData::*)(float)>(&BeatmapSaveData::EventData::MoveTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::EventData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::EventData*, "", "BeatmapSaveData/EventData");

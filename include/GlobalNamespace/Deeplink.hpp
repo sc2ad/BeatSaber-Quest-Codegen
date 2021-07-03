@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Deeplink
     Deeplink(::Il2CppString* Destination_ = {}, ::Il2CppString* LevelID_ = {}, ::Il2CppString* PackID_ = {}, ::Il2CppString* Difficulty_ = {}, ::Il2CppString* Characteristic_ = {}, ::Il2CppString* MultiplayerLobbyCode_ = {}, uint64_t MultiplayerRoomId_ = {}) noexcept : Destination{Destination_}, LevelID{LevelID_}, PackID{PackID_}, Difficulty{Difficulty_}, Characteristic{Characteristic_}, MultiplayerLobbyCode{MultiplayerLobbyCode_}, MultiplayerRoomId{MultiplayerRoomId_} {}
     // public System.Void .ctor()
-    // Offset: 0x109F030
+    // Offset: 0x119D0C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,5 +73,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(Deeplink), 64 + sizeof(uint64_t)> __GlobalNamespace_DeeplinkSizeCheck;
   static_assert(sizeof(Deeplink) == 0x48);
+  // Writing MetadataGetter for method: Deeplink::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Deeplink::*)()>(&Deeplink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Deeplink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Deeplink::*)()>(&Deeplink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Deeplink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");

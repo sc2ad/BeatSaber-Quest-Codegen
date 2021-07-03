@@ -38,19 +38,51 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Byte[] emptySHA512
     static void _set_emptySHA512(::Array<uint8_t>* value);
     // static System.String HashNameFromOid(System.String oid, System.Boolean throwOnError)
-    // Offset: 0x1D597F0
+    // Offset: 0x1D75500
     static ::Il2CppString* HashNameFromOid(::Il2CppString* oid, bool throwOnError);
     // static System.Security.Cryptography.HashAlgorithm CreateFromOid(System.String oid)
-    // Offset: 0x1D59AC0
+    // Offset: 0x1D757D0
     static System::Security::Cryptography::HashAlgorithm* CreateFromOid(::Il2CppString* oid);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
-    // Offset: 0x1D59B2C
+    // Offset: 0x1D7583C
     static System::Security::Cryptography::HashAlgorithm* CreateFromName(::Il2CppString* name);
     // static private System.Void .cctor()
-    // Offset: 0x1D59EA4
+    // Offset: 0x1D75BB4
     static void _cctor();
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PKCS1::HashNameFromOid
+  // Il2CppName: HashNameFromOid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&PKCS1::HashNameFromOid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS1*), "HashNameFromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS1::CreateFromOid
+  // Il2CppName: CreateFromOid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(::Il2CppString*)>(&PKCS1::CreateFromOid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS1*), "CreateFromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS1::CreateFromName
+  // Il2CppName: CreateFromName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(::Il2CppString*)>(&PKCS1::CreateFromName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS1*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS1::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PKCS1::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS1*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");

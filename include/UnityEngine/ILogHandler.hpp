@@ -44,6 +44,22 @@ namespace UnityEngine {
     void LogException(System::Exception* exception, UnityEngine::Object* context);
   }; // UnityEngine.ILogHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILogHandler::LogFormat
+  // Il2CppName: LogFormat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILogHandler::*)(UnityEngine::LogType, UnityEngine::Object*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ILogHandler::LogFormat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILogHandler*), "LogFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILogHandler::LogException
+  // Il2CppName: LogException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILogHandler::*)(System::Exception*, UnityEngine::Object*)>(&ILogHandler::LogException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILogHandler*), "LogException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ILogHandler*, "UnityEngine", "ILogHandler");

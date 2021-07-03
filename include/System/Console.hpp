@@ -74,52 +74,172 @@ namespace System {
     // Set static field: static private readonly System.Console/InternalCancelHandler cancel_handler
     static void _set_cancel_handler(System::Console::InternalCancelHandler* value);
     // static private System.Void .cctor()
-    // Offset: 0x1961FE8
+    // Offset: 0x1978CF8
     static void _cctor();
     // static private System.Void SetupStreams(System.Text.Encoding inputEncoding, System.Text.Encoding outputEncoding)
-    // Offset: 0x19622C0
+    // Offset: 0x1978FD0
     static void SetupStreams(System::Text::Encoding* inputEncoding, System::Text::Encoding* outputEncoding);
     // static public System.IO.TextWriter get_Error()
-    // Offset: 0x19629B4
+    // Offset: 0x19796C4
     static System::IO::TextWriter* get_Error();
     // static public System.IO.TextWriter get_Out()
-    // Offset: 0x1962A1C
+    // Offset: 0x197972C
     static System::IO::TextWriter* get_Out();
     // static private System.IO.Stream Open(System.IntPtr handle, System.IO.FileAccess access, System.Int32 bufferSize)
-    // Offset: 0x1962A84
+    // Offset: 0x1979794
     static System::IO::Stream* Open(System::IntPtr handle, System::IO::FileAccess access, int bufferSize);
     // static public System.IO.Stream OpenStandardError(System.Int32 bufferSize)
-    // Offset: 0x1962918
+    // Offset: 0x1979628
     static System::IO::Stream* OpenStandardError(int bufferSize);
     // static public System.IO.Stream OpenStandardInput(System.Int32 bufferSize)
-    // Offset: 0x19627E0
+    // Offset: 0x19794F0
     static System::IO::Stream* OpenStandardInput(int bufferSize);
     // static public System.IO.Stream OpenStandardOutput(System.Int32 bufferSize)
-    // Offset: 0x196287C
+    // Offset: 0x197958C
     static System::IO::Stream* OpenStandardOutput(int bufferSize);
     // static public System.Void SetOut(System.IO.TextWriter newOut)
-    // Offset: 0x1962BA8
+    // Offset: 0x19798B8
     static void SetOut(System::IO::TextWriter* newOut);
     // static public System.Void WriteLine(System.String value)
-    // Offset: 0x1962C54
+    // Offset: 0x1979964
     static void WriteLine(::Il2CppString* value);
     // static public System.Text.Encoding get_InputEncoding()
-    // Offset: 0x1962CD8
+    // Offset: 0x19799E8
     static System::Text::Encoding* get_InputEncoding();
     // static public System.Text.Encoding get_OutputEncoding()
-    // Offset: 0x1962D40
+    // Offset: 0x1979A50
     static System::Text::Encoding* get_OutputEncoding();
     // static public System.ConsoleKeyInfo ReadKey()
-    // Offset: 0x1962DA8
+    // Offset: 0x1979AB8
     static System::ConsoleKeyInfo ReadKey();
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
-    // Offset: 0x1962E10
+    // Offset: 0x1979B20
     static System::ConsoleKeyInfo ReadKey(bool intercept);
     // static System.Void DoConsoleCancelEvent()
-    // Offset: 0x1962F60
+    // Offset: 0x1979C70
     static void DoConsoleCancelEvent();
   }; // System.Console
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Console::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Console::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Console::SetupStreams
+  // Il2CppName: SetupStreams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::Encoding*, System::Text::Encoding*)>(&Console::SetupStreams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "SetupStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::get_Error
+  // Il2CppName: get_Error
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (*)()>(&Console::get_Error)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Console::get_Out
+  // Il2CppName: get_Out
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (*)()>(&Console::get_Out)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "get_Out", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Console::Open
+  // Il2CppName: Open
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(System::IntPtr, System::IO::FileAccess, int)>(&Console::Open)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::OpenStandardError
+  // Il2CppName: OpenStandardError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&Console::OpenStandardError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "OpenStandardError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::OpenStandardInput
+  // Il2CppName: OpenStandardInput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&Console::OpenStandardInput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "OpenStandardInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::OpenStandardOutput
+  // Il2CppName: OpenStandardOutput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&Console::OpenStandardOutput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "OpenStandardOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::SetOut
+  // Il2CppName: SetOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::TextWriter*)>(&Console::SetOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "SetOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::WriteLine
+  // Il2CppName: WriteLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Console::WriteLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::get_InputEncoding
+  // Il2CppName: get_InputEncoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&Console::get_InputEncoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "get_InputEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Console::get_OutputEncoding
+  // Il2CppName: get_OutputEncoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&Console::get_OutputEncoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "get_OutputEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Console::ReadKey
+  // Il2CppName: ReadKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)()>(&Console::ReadKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Console::ReadKey
+  // Il2CppName: ReadKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)(bool)>(&Console::ReadKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Console::DoConsoleCancelEvent
+  // Il2CppName: DoConsoleCancelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Console::DoConsoleCancelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Console*), "DoConsoleCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Console*, "System", "Console");

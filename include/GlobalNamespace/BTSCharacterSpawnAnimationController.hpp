@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* spawnCharacterPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE12D8C
+    // [SpaceAttribute] Offset: 0xE12D88
     // private JumpReceiver _jumpReceiver
     // Size: 0x8
     // Offset: 0x20
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     float disappearAnimationStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE12DE4
+    // [SpaceAttribute] Offset: 0xE12DE0
     // private MaterialPropertyBlockColorSetter _rimLightColorSetter
     // Size: 0x8
     // Offset: 0x30
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE12E3C
+    // [InjectAttribute] Offset: 0xE12E38
     // private readonly SongSpeedData _songSpeedData
     // Size: 0x8
     // Offset: 0x48
@@ -142,37 +142,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCharacterActivationStreamName
     static void _set_kCharacterActivationStreamName(::Il2CppString* value);
     // public System.Boolean get_isCharacterVisible()
-    // Offset: 0x1135048
+    // Offset: 0x113A8B0
     bool get_isCharacterVisible();
     // public System.Single get_duration()
-    // Offset: 0x1135074
+    // Offset: 0x113A8DC
     float get_duration();
     // private UnityEngine.Timeline.ActivationTrack get_characterActivationTrack()
-    // Offset: 0x11350B8
+    // Offset: 0x113A920
     UnityEngine::Timeline::ActivationTrack* get_characterActivationTrack();
     // public System.Void PlayAnimation()
-    // Offset: 0x1135408
+    // Offset: 0x113AC70
     void PlayAnimation();
     // public System.Void EndEarlyAnimation()
-    // Offset: 0x11354DC
+    // Offset: 0x113AD44
     void EndEarlyAnimation();
     // public System.Void StopAnimation()
-    // Offset: 0x1135560
+    // Offset: 0x113ADC8
     void StopAnimation();
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x113557C
+    // Offset: 0x113ADE4
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void WillResumeAnimation()
-    // Offset: 0x1135618
+    // Offset: 0x113AE80
     void WillResumeAnimation();
     // public System.Void ResumeAnimation()
-    // Offset: 0x1135684
+    // Offset: 0x113AEEC
     void ResumeAnimation();
     // public System.Void PauseAnimation()
-    // Offset: 0x11356F0
+    // Offset: 0x113AF58
     void PauseAnimation();
     // public System.Void .ctor()
-    // Offset: 0x1135798
+    // Offset: 0x113B000
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -188,5 +188,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterSpawnAnimationController), 112 + sizeof(float)> __GlobalNamespace_BTSCharacterSpawnAnimationControllerSizeCheck;
   static_assert(sizeof(BTSCharacterSpawnAnimationController) == 0x74);
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::get_isCharacterVisible
+  // Il2CppName: get_isCharacterVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::get_isCharacterVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "get_isCharacterVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::get_duration
+  // Il2CppName: get_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::get_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::get_characterActivationTrack
+  // Il2CppName: get_characterActivationTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ActivationTrack* (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::get_characterActivationTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "get_characterActivationTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::PlayAnimation
+  // Il2CppName: PlayAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::PlayAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "PlayAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::EndEarlyAnimation
+  // Il2CppName: EndEarlyAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::EndEarlyAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "EndEarlyAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::StopAnimation
+  // Il2CppName: StopAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::StopAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "StopAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::SetCharacter
+  // Il2CppName: SetCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)(GlobalNamespace::BTSCharacter*)>(&BTSCharacterSpawnAnimationController::SetCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "SetCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::WillResumeAnimation
+  // Il2CppName: WillResumeAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::WillResumeAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "WillResumeAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::ResumeAnimation
+  // Il2CppName: ResumeAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::ResumeAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "ResumeAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::PauseAnimation
+  // Il2CppName: PauseAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::PauseAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), "PauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnAnimationController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnAnimationController::*)()>(&BTSCharacterSpawnAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnAnimationController*, "", "BTSCharacterSpawnAnimationController");

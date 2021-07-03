@@ -33,19 +33,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: MessageEnd
     MessageEnd() noexcept {}
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
-    // Offset: 0x15F350C
+    // Offset: 0x160C21C
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15F352C
+    // Offset: 0x160C23C
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x15F3530
+    // Offset: 0x160C240
     void Dump();
     // public System.Void Dump(System.IO.Stream sout)
-    // Offset: 0x15F3534
+    // Offset: 0x160C244
     void Dump(System::IO::Stream* sout);
     // System.Void .ctor()
-    // Offset: 0x15F3504
+    // Offset: 0x160C214
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,5 +55,51 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.MessageEnd
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MessageEnd::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageEnd::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&MessageEnd::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageEnd*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageEnd::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageEnd::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&MessageEnd::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageEnd*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageEnd::Dump
+  // Il2CppName: Dump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageEnd::*)()>(&MessageEnd::Dump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageEnd*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageEnd::Dump
+  // Il2CppName: Dump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageEnd::*)(System::IO::Stream*)>(&MessageEnd::Dump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageEnd*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageEnd::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageEnd::*)()>(&MessageEnd::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageEnd*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageEnd::*)()>(&MessageEnd::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageEnd*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MessageEnd*, "System.Runtime.Serialization.Formatters.Binary", "MessageEnd");

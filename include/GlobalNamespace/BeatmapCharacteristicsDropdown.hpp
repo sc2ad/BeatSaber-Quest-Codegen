@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE23D58
+    // [CompilerGeneratedAttribute] Offset: 0xE23D34
     // private System.Action`1<BeatmapCharacteristicSO> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x28
@@ -66,28 +66,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x11A6288
+    // Offset: 0x11C030C
     void add_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<BeatmapCharacteristicSO> value)
-    // Offset: 0x11A632C
+    // Offset: 0x11C03B0
     void remove_didSelectCellWithIdxEvent(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // protected System.Void Start()
-    // Offset: 0x11A63D0
+    // Offset: 0x11C0454
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11A6560
+    // Offset: 0x11C05E4
     void OnDestroy();
     // public BeatmapCharacteristicSO GetSelectedBeatmapCharacteristic()
-    // Offset: 0x11A663C
+    // Offset: 0x11C06C0
     GlobalNamespace::BeatmapCharacteristicSO* GetSelectedBeatmapCharacteristic();
     // public System.Void SelectCellWithBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x11A668C
+    // Offset: 0x11C0710
     void SelectCellWithBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x11A6738
+    // Offset: 0x11C07BC
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x11A67DC
+    // Offset: 0x11C0860
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,5 +103,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicsDropdown), 40 + sizeof(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*)> __GlobalNamespace_BeatmapCharacteristicsDropdownSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicsDropdown) == 0x30);
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent
+  // Il2CppName: add_didSelectCellWithIdxEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent
+  // Il2CppName: remove_didSelectCellWithIdxEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)(System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)()>(&BeatmapCharacteristicsDropdown::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)()>(&BeatmapCharacteristicsDropdown::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic
+  // Il2CppName: GetSelectedBeatmapCharacteristic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (BeatmapCharacteristicsDropdown::*)()>(&BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "GetSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic
+  // Il2CppName: SelectCellWithBeatmapCharacteristic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "SelectCellWithBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
+  // Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)(HMUI::DropdownWithTableView*, int)>(&BeatmapCharacteristicsDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicsDropdown::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)()>(&BeatmapCharacteristicsDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicsDropdown::*)()>(&BeatmapCharacteristicsDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicsDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsDropdown*, "", "BeatmapCharacteristicsDropdown");

@@ -62,10 +62,10 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: PlaymodeTestsControllerSettings
     PlaymodeTestsControllerSettings(::Array<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>* filters_ = {}, bool sceneBased_ = {}, ::Il2CppString* originalScene_ = {}, ::Il2CppString* bootstrapScene_ = {}) noexcept : filters{filters_}, sceneBased{sceneBased_}, originalScene{originalScene_}, bootstrapScene{bootstrapScene_} {}
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x14A3C74
+    // Offset: 0x14BE984
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
-    // Offset: 0x14A3720
+    // Offset: 0x14BE430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,5 +77,27 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
   static check_size<sizeof(PlaymodeTestsControllerSettings), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSettingsSizeCheck;
   static_assert(sizeof(PlaymodeTestsControllerSettings) == 0x30);
+  // Writing MetadataGetter for method: PlaymodeTestsControllerSettings::BuildNUnitFilter
+  // Il2CppName: BuildNUnitFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (PlaymodeTestsControllerSettings::*)()>(&PlaymodeTestsControllerSettings::BuildNUnitFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsControllerSettings*), "BuildNUnitFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlaymodeTestsControllerSettings::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsControllerSettings::*)()>(&PlaymodeTestsControllerSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsControllerSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsControllerSettings::*)()>(&PlaymodeTestsControllerSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsControllerSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings");

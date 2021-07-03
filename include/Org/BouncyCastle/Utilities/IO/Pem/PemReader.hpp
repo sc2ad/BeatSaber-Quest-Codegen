@@ -41,21 +41,51 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
       return reader;
     }
     // public System.Void .ctor(System.IO.TextReader reader)
-    // Offset: 0x1F72090
+    // Offset: 0x1F8BDEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemReader* New_ctor(System::IO::TextReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemReader*, creationType>(reader)));
     }
     // public Org.BouncyCastle.Utilities.IO.Pem.PemObject ReadPemObject()
-    // Offset: 0x1F7212C
+    // Offset: 0x1F8BE88
     Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
     // private Org.BouncyCastle.Utilities.IO.Pem.PemObject LoadObject(System.String type)
-    // Offset: 0x1F723A0
+    // Offset: 0x1F8C0FC
     Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::Il2CppString* type);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemReader
   #pragma pack(pop)
   static check_size<sizeof(PemReader), 16 + sizeof(System::IO::TextReader*)> __Org_BouncyCastle_Utilities_IO_Pem_PemReaderSizeCheck;
   static_assert(sizeof(PemReader) == 0x18);
+  // Writing MetadataGetter for method: PemReader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemReader::*)(System::IO::TextReader*)>(&PemReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemReader::*)(System::IO::TextReader*)>(&PemReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadPemObject
+  // Il2CppName: ReadPemObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IO::Pem::PemObject* (PemReader::*)()>(&PemReader::ReadPemObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadPemObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::LoadObject
+  // Il2CppName: LoadObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IO::Pem::PemObject* (PemReader::*)(::Il2CppString*)>(&PemReader::LoadObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");

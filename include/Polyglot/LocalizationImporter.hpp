@@ -69,52 +69,172 @@ namespace Polyglot {
     // Set static field: static private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> InputFiles
     static void _set_InputFiles(System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x23355CC
+    // Offset: 0x234F328
     static void _cctor();
     // static private System.Void Initialize()
-    // Offset: 0x23356A0
+    // Offset: 0x234F3FC
     static void Initialize();
     // static private System.Void ImportFromGoogle(Polyglot.Localization settings)
-    // Offset: 0x2335854
+    // Offset: 0x234F5B0
     static void ImportFromGoogle(Polyglot::Localization* settings);
     // static private System.Void Import(System.String text, Polyglot.GoogleDriveDownloadFormat format)
-    // Offset: 0x2335978
+    // Offset: 0x234F6D4
     static void Import(::Il2CppString* text, Polyglot::GoogleDriveDownloadFormat format);
     // static private System.Collections.IEnumerator Download(Polyglot.LocalizationDocument document, System.Action`1<System.String> done, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x2335950
+    // Offset: 0x234F6AC
     static System::Collections::IEnumerator* Download(Polyglot::LocalizationDocument* document, System::Action_1<::Il2CppString*>* done, System::Func_2<float, bool>* progressbar);
     // static public System.Collections.IEnumerator DownloadCustomSheet(System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x2335E64
+    // Offset: 0x234FBC0
     static System::Collections::IEnumerator* DownloadCustomSheet(System::Func_2<float, bool>* progressbar);
     // static private System.Void ImportFromFiles(Polyglot.Localization settings)
-    // Offset: 0x23357A8
+    // Offset: 0x234F504
     static void ImportFromFiles(Polyglot::Localization* settings);
     // static private System.Void ImportInputFiles()
-    // Offset: 0x2335FCC
+    // Offset: 0x234FD28
     static void ImportInputFiles();
     // static private System.Void ImportTextFile(System.String text, Polyglot.GoogleDriveDownloadFormat format)
-    // Offset: 0x23359EC
+    // Offset: 0x234F748
     static void ImportTextFile(::Il2CppString* text, Polyglot::GoogleDriveDownloadFormat format);
     // static public System.Boolean IsLineBreak(System.String currentString)
-    // Offset: 0x2335098
+    // Offset: 0x234EDF4
     static bool IsLineBreak(::Il2CppString* currentString);
     // static public System.Collections.Generic.List`1<System.String> GetLanguages(System.String key, System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages)
-    // Offset: 0x23347A0
+    // Offset: 0x234E4FC
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLanguages(::Il2CppString* key, System::Collections::Generic::List_1<Polyglot::Language>* supportedLanguages);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> GetLanguagesStartsWith(System.String key)
-    // Offset: 0x2336360
+    // Offset: 0x23500BC
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* GetLanguagesStartsWith(::Il2CppString* key);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> GetLanguagesContains(System.String key)
-    // Offset: 0x23365D0
+    // Offset: 0x235032C
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* GetLanguagesContains(::Il2CppString* key);
     // static public System.Void Refresh()
-    // Offset: 0x2336840
+    // Offset: 0x235059C
     static void Refresh();
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
-    // Offset: 0x2335248
+    // Offset: 0x234EFA4
     static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
   }; // Polyglot.LocalizationImporter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LocalizationImporter::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LocalizationImporter::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LocalizationImporter::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::ImportFromGoogle
+  // Il2CppName: ImportFromGoogle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&LocalizationImporter::ImportFromGoogle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "ImportFromGoogle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Localization*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::Import
+  // Il2CppName: Import
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Polyglot::GoogleDriveDownloadFormat)>(&LocalizationImporter::Import)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::Download
+  // Il2CppName: Download
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(Polyglot::LocalizationDocument*, System::Action_1<::Il2CppString*>*, System::Func_2<float, bool>*)>(&LocalizationImporter::Download)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "Download", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::LocalizationDocument*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<float, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::DownloadCustomSheet
+  // Il2CppName: DownloadCustomSheet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(System::Func_2<float, bool>*)>(&LocalizationImporter::DownloadCustomSheet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "DownloadCustomSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<float, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::ImportFromFiles
+  // Il2CppName: ImportFromFiles
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&LocalizationImporter::ImportFromFiles)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "ImportFromFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Localization*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::ImportInputFiles
+  // Il2CppName: ImportInputFiles
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LocalizationImporter::ImportInputFiles)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "ImportInputFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::ImportTextFile
+  // Il2CppName: ImportTextFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Polyglot::GoogleDriveDownloadFormat)>(&LocalizationImporter::ImportTextFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "ImportTextFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::IsLineBreak
+  // Il2CppName: IsLineBreak
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&LocalizationImporter::IsLineBreak)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "IsLineBreak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::GetLanguages
+  // Il2CppName: GetLanguages
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(::Il2CppString*, System::Collections::Generic::List_1<Polyglot::Language>*)>(&LocalizationImporter::GetLanguages)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "GetLanguages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Polyglot::Language>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::GetLanguagesStartsWith
+  // Il2CppName: GetLanguagesStartsWith
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* (*)(::Il2CppString*)>(&LocalizationImporter::GetLanguagesStartsWith)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "GetLanguagesStartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::GetLanguagesContains
+  // Il2CppName: GetLanguagesContains
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* (*)(::Il2CppString*)>(&LocalizationImporter::GetLanguagesContains)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "GetLanguagesContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::Refresh
+  // Il2CppName: Refresh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LocalizationImporter::Refresh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalizationImporter::GetKeys
+  // Il2CppName: GetKeys
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)()>(&LocalizationImporter::GetKeys)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizationImporter*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter*, "Polyglot", "LocalizationImporter");

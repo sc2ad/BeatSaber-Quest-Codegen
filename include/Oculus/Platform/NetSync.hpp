@@ -26,13 +26,29 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: NetSync
     NetSync() noexcept {}
     // static public System.Void SetConnectionStatusChangedNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.NetSyncConnection> callback)
-    // Offset: 0x14BD64C
+    // Offset: 0x14D835C
     static void SetConnectionStatusChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback* callback);
     // static public System.Void SetSessionsChangedNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.NetSyncSessionsChangedNotification> callback)
-    // Offset: 0x14BD6C4
+    // Offset: 0x14D83D4
     static void SetSessionsChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback* callback);
   }; // Oculus.Platform.NetSync
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NetSync::SetConnectionStatusChangedNotificationCallback
+  // Il2CppName: SetConnectionStatusChangedNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback*)>(&NetSync::SetConnectionStatusChangedNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSync*), "SetConnectionStatusChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetSync::SetSessionsChangedNotificationCallback
+  // Il2CppName: SetSessionsChangedNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback*)>(&NetSync::SetSessionsChangedNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSync*), "SetSessionsChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSync*, "Oculus.Platform", "NetSync");

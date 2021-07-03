@@ -26,12 +26,12 @@ namespace HMUI {
     // Creating value type constructor for type: CustomFormatRangeValuesSlider
     CustomFormatRangeValuesSlider(::Il2CppString* formatString_ = {}) noexcept : formatString{formatString_} {}
     // protected override System.String TextForValue(System.Single value)
-    // Offset: 0x12F5BB8
+    // Offset: 0x130F8C8
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
     ::Il2CppString* TextForValue(float value);
     // public System.Void .ctor()
-    // Offset: 0x12F5C30
+    // Offset: 0x130F940
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.Void RangeValuesTextSlider::.ctor()
     // Base method: System.Void TextSlider::.ctor()
@@ -49,5 +49,27 @@ namespace HMUI {
     }
   }; // HMUI.CustomFormatRangeValuesSlider
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: CustomFormatRangeValuesSlider::TextForValue
+  // Il2CppName: TextForValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomFormatRangeValuesSlider::*)(float)>(&CustomFormatRangeValuesSlider::TextForValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomFormatRangeValuesSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CustomFormatRangeValuesSlider::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomFormatRangeValuesSlider::*)()>(&CustomFormatRangeValuesSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomFormatRangeValuesSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomFormatRangeValuesSlider::*)()>(&CustomFormatRangeValuesSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomFormatRangeValuesSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");

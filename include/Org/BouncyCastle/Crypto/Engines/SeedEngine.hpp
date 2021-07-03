@@ -64,61 +64,61 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.UInt32[] KC
     static void _set_KC(::Array<uint>* value);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1E2F78C
+    // Offset: 0x1E4A4E8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1E2FA08
+    // Offset: 0x1E4A764
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1E2FA50
+    // Offset: 0x1E4A7AC
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1E2FA58
+    // Offset: 0x1E4A7B4
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Byte[] outBuf, System.Int32 outOff)
-    // Offset: 0x1E2FA60
+    // Offset: 0x1E4A7BC
     int ProcessBlock(::Array<uint8_t>* inBuf, int inOff, ::Array<uint8_t>* outBuf, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1E2FDA8
+    // Offset: 0x1E4AB04
     void Reset();
     // private System.Int32[] createWorkingKey(System.Byte[] inKey)
-    // Offset: 0x1E2F844
+    // Offset: 0x1E4A5A0
     ::Array<int>* createWorkingKey(::Array<uint8_t>* inKey);
     // private System.Int32 extractW1(System.Int64 lVal)
-    // Offset: 0x1E2FDB4
+    // Offset: 0x1E4AB10
     int extractW1(int64_t lVal);
     // private System.Int32 extractW0(System.Int64 lVal)
-    // Offset: 0x1E2FDAC
+    // Offset: 0x1E4AB08
     int extractW0(int64_t lVal);
     // private System.Int64 rotateLeft8(System.Int64 x)
-    // Offset: 0x1E2FEC8
+    // Offset: 0x1E4AC24
     int64_t rotateLeft8(int64_t x);
     // private System.Int64 rotateRight8(System.Int64 x)
-    // Offset: 0x1E2FEC0
+    // Offset: 0x1E4AC1C
     int64_t rotateRight8(int64_t x);
     // private System.Int64 bytesToLong(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x1E2FC5C
+    // Offset: 0x1E4A9B8
     int64_t bytesToLong(::Array<uint8_t>* src, int srcOff);
     // private System.Void longToBytes(System.Byte[] dest, System.Int32 destOff, System.Int64 value)
-    // Offset: 0x1E2FD38
+    // Offset: 0x1E4AA94
     void longToBytes(::Array<uint8_t>* dest, int destOff, int64_t value);
     // private System.Int32 G(System.Int32 x)
-    // Offset: 0x1E2FDBC
+    // Offset: 0x1E4AB18
     int G(int x);
     // private System.Int64 F(System.Int32 ki0, System.Int32 ki1, System.Int64 r)
-    // Offset: 0x1E2FCC8
+    // Offset: 0x1E4AA24
     int64_t F(int ki0, int ki1, int64_t r);
     // private System.Int32 phaseCalc1(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x1E2FF14
+    // Offset: 0x1E4AC70
     int phaseCalc1(int r0, int ki0, int r1, int ki1);
     // private System.Int32 phaseCalc2(System.Int32 r0, System.Int32 ki0, System.Int32 r1, System.Int32 ki1)
-    // Offset: 0x1E2FED0
+    // Offset: 0x1E4AC2C
     int phaseCalc2(int r0, int ki0, int r1, int ki1);
     // static private System.Void .cctor()
-    // Offset: 0x1E2FF40
+    // Offset: 0x1E4AC9C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E30084
+    // Offset: 0x1E4ADE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -130,5 +130,163 @@ namespace Org::BouncyCastle::Crypto::Engines {
   #pragma pack(pop)
   static check_size<sizeof(SeedEngine), 24 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_SeedEngineSizeCheck;
   static_assert(sizeof(SeedEngine) == 0x19);
+  // Writing MetadataGetter for method: SeedEngine::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SeedEngine::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&SeedEngine::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::get_AlgorithmName
+  // Il2CppName: get_AlgorithmName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SeedEngine::*)()>(&SeedEngine::get_AlgorithmName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::get_IsPartialBlockOkay
+  // Il2CppName: get_IsPartialBlockOkay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SeedEngine::*)()>(&SeedEngine::get_IsPartialBlockOkay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::GetBlockSize
+  // Il2CppName: GetBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)()>(&SeedEngine::GetBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::ProcessBlock
+  // Il2CppName: ProcessBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&SeedEngine::ProcessBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SeedEngine::*)()>(&SeedEngine::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::createWorkingKey
+  // Il2CppName: createWorkingKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (SeedEngine::*)(::Array<uint8_t>*)>(&SeedEngine::createWorkingKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "createWorkingKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::extractW1
+  // Il2CppName: extractW1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)(int64_t)>(&SeedEngine::extractW1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "extractW1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::extractW0
+  // Il2CppName: extractW0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)(int64_t)>(&SeedEngine::extractW0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "extractW0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::rotateLeft8
+  // Il2CppName: rotateLeft8
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SeedEngine::*)(int64_t)>(&SeedEngine::rotateLeft8)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "rotateLeft8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::rotateRight8
+  // Il2CppName: rotateRight8
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SeedEngine::*)(int64_t)>(&SeedEngine::rotateRight8)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "rotateRight8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::bytesToLong
+  // Il2CppName: bytesToLong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SeedEngine::*)(::Array<uint8_t>*, int)>(&SeedEngine::bytesToLong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "bytesToLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::longToBytes
+  // Il2CppName: longToBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SeedEngine::*)(::Array<uint8_t>*, int, int64_t)>(&SeedEngine::longToBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "longToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::G
+  // Il2CppName: G
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)(int)>(&SeedEngine::G)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::F
+  // Il2CppName: F
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SeedEngine::*)(int, int, int64_t)>(&SeedEngine::F)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::phaseCalc1
+  // Il2CppName: phaseCalc1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)(int, int, int, int)>(&SeedEngine::phaseCalc1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "phaseCalc1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::phaseCalc2
+  // Il2CppName: phaseCalc2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SeedEngine::*)(int, int, int, int)>(&SeedEngine::phaseCalc2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), "phaseCalc2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SeedEngine::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SeedEngine::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SeedEngine::*)()>(&SeedEngine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SeedEngine::*)()>(&SeedEngine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SeedEngine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SeedEngine*, "Org.BouncyCastle.Crypto.Engines", "SeedEngine");

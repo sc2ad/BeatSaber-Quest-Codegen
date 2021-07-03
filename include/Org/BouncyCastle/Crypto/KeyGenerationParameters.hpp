@@ -38,21 +38,51 @@ namespace Org::BouncyCastle::Crypto {
     // Creating value type constructor for type: KeyGenerationParameters
     KeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom* random_ = {}, int strength_ = {}) noexcept : random{random_}, strength{strength_} {}
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, System.Int32 strength)
-    // Offset: 0x18A9F48
+    // Offset: 0x18C1C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyGenerationParameters*, creationType>(random, strength)));
     }
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x18AA02C
+    // Offset: 0x18C1D3C
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public System.Int32 get_Strength()
-    // Offset: 0x18AA034
+    // Offset: 0x18C1D44
     int get_Strength();
   }; // Org.BouncyCastle.Crypto.KeyGenerationParameters
   #pragma pack(pop)
   static check_size<sizeof(KeyGenerationParameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_KeyGenerationParametersSizeCheck;
   static_assert(sizeof(KeyGenerationParameters) == 0x1C);
+  // Writing MetadataGetter for method: KeyGenerationParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyGenerationParameters::*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&KeyGenerationParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyGenerationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyGenerationParameters::*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&KeyGenerationParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyGenerationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyGenerationParameters::get_Random
+  // Il2CppName: get_Random
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Security::SecureRandom* (KeyGenerationParameters::*)()>(&KeyGenerationParameters::get_Random)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyGenerationParameters*), "get_Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KeyGenerationParameters::get_Strength
+  // Il2CppName: get_Strength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeyGenerationParameters::*)()>(&KeyGenerationParameters::get_Strength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyGenerationParameters*), "get_Strength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");

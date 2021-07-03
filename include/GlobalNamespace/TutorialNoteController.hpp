@@ -91,55 +91,55 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteMirrorable*>(this);
     }
     // public NoteMovement get_noteMovement()
-    // Offset: 0x10FBDC0
+    // Offset: 0x111E604
     GlobalNamespace::NoteMovement* get_noteMovement();
     // public GameNoteController/GameNoteType get_gameNoteType()
-    // Offset: 0x10FBDC8
+    // Offset: 0x111E60C
     GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
     // public System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single cutDirectionAngleOffset, System.Single cutAngleTolerance, System.Single uniformScale)
-    // Offset: 0x10F9D98
+    // Offset: 0x111C5DC
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float cutDirectionAngleOffset, float cutAngleTolerance, float uniformScale);
     // private System.Void HandleBeforeNoteWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10FC050
+    // Offset: 0x111E894
     void HandleBeforeNoteWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private System.Void HandleCoreWasCutBySaber(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x10FC160
+    // Offset: 0x111E9A4
     void HandleCoreWasCutBySaber(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);
     // private UnityEngine.Transform INoteMirrorable.get_transform()
-    // Offset: 0x10FC47C
+    // Offset: 0x111ECC0
     UnityEngine::Transform* INoteMirrorable_get_transform();
     // public override System.Void set_hide(System.Boolean value)
-    // Offset: 0x10FBD64
+    // Offset: 0x111E5A8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_hide(System.Boolean value)
     void set_hide(bool value);
     // public override System.Boolean get_hide()
-    // Offset: 0x10FBDA8
+    // Offset: 0x111E5EC
     // Implemented from: NoteController
     // Base method: System.Boolean NoteController::get_hide()
     bool get_hide();
     // public override System.Void set_pause(System.Boolean value)
-    // Offset: 0x10FBDB0
+    // Offset: 0x111E5F4
     // Implemented from: NoteController
     // Base method: System.Void NoteController::set_pause(System.Boolean value)
     void set_pause(bool value);
     // protected override System.Void Awake()
-    // Offset: 0x10FBDD0
+    // Offset: 0x111E614
     // Implemented from: NoteController
     // Base method: System.Void NoteController::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x10FBEA4
+    // Offset: 0x111E6E8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::OnDestroy()
     void OnDestroy();
     // protected override System.Void NoteDidPassMissedMarker()
-    // Offset: 0x10FBFF8
+    // Offset: 0x111E83C
     // Implemented from: NoteController
     // Base method: System.Void NoteController::NoteDidPassMissedMarker()
     void NoteDidPassMissedMarker();
     // public System.Void .ctor()
-    // Offset: 0x10FC474
+    // Offset: 0x111ECB8
     // Implemented from: NoteController
     // Base method: System.Void NoteController::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()
@@ -157,5 +157,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TutorialNoteController), 148 + sizeof(float)> __GlobalNamespace_TutorialNoteControllerSizeCheck;
   static_assert(sizeof(TutorialNoteController) == 0x98);
+  // Writing MetadataGetter for method: TutorialNoteController::get_noteMovement
+  // Il2CppName: get_noteMovement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (TutorialNoteController::*)()>(&TutorialNoteController::get_noteMovement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::get_gameNoteType
+  // Il2CppName: get_gameNoteType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (TutorialNoteController::*)()>(&TutorialNoteController::get_gameNoteType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)(GlobalNamespace::NoteData*, float, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float, float, float, float, float, float)>(&TutorialNoteController::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::HandleBeforeNoteWasCutBySaber
+  // Il2CppName: HandleBeforeNoteWasCutBySaber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&TutorialNoteController::HandleBeforeNoteWasCutBySaber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "HandleBeforeNoteWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::HandleCoreWasCutBySaber
+  // Il2CppName: HandleCoreWasCutBySaber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&TutorialNoteController::HandleCoreWasCutBySaber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "HandleCoreWasCutBySaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::INoteMirrorable_get_transform
+  // Il2CppName: INoteMirrorable.get_transform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (TutorialNoteController::*)()>(&TutorialNoteController::INoteMirrorable_get_transform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "INoteMirrorable.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::set_hide
+  // Il2CppName: set_hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)(bool)>(&TutorialNoteController::set_hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::get_hide
+  // Il2CppName: get_hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TutorialNoteController::*)()>(&TutorialNoteController::get_hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::set_pause
+  // Il2CppName: set_pause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)(bool)>(&TutorialNoteController::set_pause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)()>(&TutorialNoteController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)()>(&TutorialNoteController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::NoteDidPassMissedMarker
+  // Il2CppName: NoteDidPassMissedMarker
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)()>(&TutorialNoteController::NoteDidPassMissedMarker)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), "NoteDidPassMissedMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TutorialNoteController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)()>(&TutorialNoteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::*)()>(&TutorialNoteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteController*, "", "TutorialNoteController");

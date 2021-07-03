@@ -60,49 +60,49 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static private readonly System.Int32 Q32
     static void _set_Q32(int value);
     // public System.String get_AlgorithmName()
-    // Offset: 0x1D8CC38
+    // Offset: 0x1DA6994
     ::Il2CppString* get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
-    // Offset: 0x1D8CC80
+    // Offset: 0x1DA69DC
     bool get_IsPartialBlockOkay();
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1D8CC88
+    // Offset: 0x1DA69E4
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1D8CC90
+    // Offset: 0x1DA69EC
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1D8D140
+    // Offset: 0x1DA6E9C
     int ProcessBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1D8D3A8
+    // Offset: 0x1DA7104
     void Reset();
     // private System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1D8CEB4
+    // Offset: 0x1DA6C10
     void SetKey(::Array<uint8_t>* key);
     // private System.Int32 EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1D8D284
+    // Offset: 0x1DA6FE0
     int EncryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1D8D168
+    // Offset: 0x1DA6EC4
     int DecryptBlock(::Array<uint8_t>* input, int inOff, ::Array<uint8_t>* outBytes, int outOff);
     // private System.Int32 RotateLeft(System.Int32 x, System.Int32 y)
-    // Offset: 0x1D8D3AC
+    // Offset: 0x1DA7108
     int RotateLeft(int x, int y);
     // private System.Int32 RotateRight(System.Int32 x, System.Int32 y)
-    // Offset: 0x1D8D4C0
+    // Offset: 0x1DA721C
     int RotateRight(int x, int y);
     // private System.Int32 BytesToWord(System.Byte[] src, System.Int32 srcOff)
-    // Offset: 0x1D8D3B8
+    // Offset: 0x1DA7114
     int BytesToWord(::Array<uint8_t>* src, int srcOff);
     // private System.Void WordToBytes(System.Int32 word, System.Byte[] dst, System.Int32 dstOff)
-    // Offset: 0x1D8D434
+    // Offset: 0x1DA7190
     void WordToBytes(int word, ::Array<uint8_t>* dst, int dstOff);
     // static private System.Void .cctor()
-    // Offset: 0x1D8D4C8
+    // Offset: 0x1DA7224
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D8CC0C
+    // Offset: 0x1DA6968
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -114,5 +114,131 @@ namespace Org::BouncyCastle::Crypto::Engines {
   #pragma pack(pop)
   static check_size<sizeof(RC532Engine), 32 + sizeof(bool)> __Org_BouncyCastle_Crypto_Engines_RC532EngineSizeCheck;
   static_assert(sizeof(RC532Engine) == 0x21);
+  // Writing MetadataGetter for method: RC532Engine::get_AlgorithmName
+  // Il2CppName: get_AlgorithmName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RC532Engine::*)()>(&RC532Engine::get_AlgorithmName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::get_IsPartialBlockOkay
+  // Il2CppName: get_IsPartialBlockOkay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RC532Engine::*)()>(&RC532Engine::get_IsPartialBlockOkay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::GetBlockSize
+  // Il2CppName: GetBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)()>(&RC532Engine::GetBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC532Engine::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&RC532Engine::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::ProcessBlock
+  // Il2CppName: ProcessBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&RC532Engine::ProcessBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC532Engine::*)()>(&RC532Engine::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::SetKey
+  // Il2CppName: SetKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC532Engine::*)(::Array<uint8_t>*)>(&RC532Engine::SetKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::EncryptBlock
+  // Il2CppName: EncryptBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&RC532Engine::EncryptBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::DecryptBlock
+  // Il2CppName: DecryptBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&RC532Engine::DecryptBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::RotateLeft
+  // Il2CppName: RotateLeft
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)(int, int)>(&RC532Engine::RotateLeft)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "RotateLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::RotateRight
+  // Il2CppName: RotateRight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)(int, int)>(&RC532Engine::RotateRight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::BytesToWord
+  // Il2CppName: BytesToWord
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC532Engine::*)(::Array<uint8_t>*, int)>(&RC532Engine::BytesToWord)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "BytesToWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::WordToBytes
+  // Il2CppName: WordToBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC532Engine::*)(int, ::Array<uint8_t>*, int)>(&RC532Engine::WordToBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), "WordToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RC532Engine::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RC532Engine::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC532Engine::*)()>(&RC532Engine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC532Engine::*)()>(&RC532Engine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RC532Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC532Engine*, "Org.BouncyCastle.Crypto.Engines", "RC532Engine");

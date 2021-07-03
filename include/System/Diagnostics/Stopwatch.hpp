@@ -52,34 +52,34 @@ namespace System::Diagnostics {
     // Set static field: static public readonly System.Boolean IsHighResolution
     static void _set_IsHighResolution(bool value);
     // static public System.Int64 GetTimestamp()
-    // Offset: 0x18540B0
+    // Offset: 0x186BDC0
     static int64_t GetTimestamp();
     // public System.TimeSpan get_Elapsed()
-    // Offset: 0x18540BC
+    // Offset: 0x186BDCC
     System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
-    // Offset: 0x1854258
+    // Offset: 0x186BF68
     int64_t get_ElapsedMilliseconds();
     // public System.Int64 get_ElapsedTicks()
-    // Offset: 0x18541D8
+    // Offset: 0x186BEE8
     int64_t get_ElapsedTicks();
     // public System.Boolean get_IsRunning()
-    // Offset: 0x1854364
+    // Offset: 0x186C074
     bool get_IsRunning();
     // public System.Void Reset()
-    // Offset: 0x185436C
+    // Offset: 0x186C07C
     void Reset();
     // public System.Void Start()
-    // Offset: 0x1854378
+    // Offset: 0x186C088
     void Start();
     // public System.Void Stop()
-    // Offset: 0x18543F0
+    // Offset: 0x186C100
     void Stop();
     // static private System.Void .cctor()
-    // Offset: 0x1854478
+    // Offset: 0x186C188
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x18540B4
+    // Offset: 0x186BDC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,5 +91,91 @@ namespace System::Diagnostics {
   #pragma pack(pop)
   static check_size<sizeof(Stopwatch), 32 + sizeof(bool)> __System_Diagnostics_StopwatchSizeCheck;
   static_assert(sizeof(Stopwatch) == 0x21);
+  // Writing MetadataGetter for method: Stopwatch::GetTimestamp
+  // Il2CppName: GetTimestamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&Stopwatch::GetTimestamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "GetTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::get_Elapsed
+  // Il2CppName: get_Elapsed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (Stopwatch::*)()>(&Stopwatch::get_Elapsed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "get_Elapsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::get_ElapsedMilliseconds
+  // Il2CppName: get_ElapsedMilliseconds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Stopwatch::*)()>(&Stopwatch::get_ElapsedMilliseconds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "get_ElapsedMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::get_ElapsedTicks
+  // Il2CppName: get_ElapsedTicks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Stopwatch::*)()>(&Stopwatch::get_ElapsedTicks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "get_ElapsedTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::get_IsRunning
+  // Il2CppName: get_IsRunning
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Stopwatch::*)()>(&Stopwatch::get_IsRunning)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "get_IsRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stopwatch::*)()>(&Stopwatch::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stopwatch::*)()>(&Stopwatch::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::Stop
+  // Il2CppName: Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stopwatch::*)()>(&Stopwatch::Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Stopwatch::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stopwatch::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stopwatch::*)()>(&Stopwatch::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stopwatch::*)()>(&Stopwatch::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stopwatch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");

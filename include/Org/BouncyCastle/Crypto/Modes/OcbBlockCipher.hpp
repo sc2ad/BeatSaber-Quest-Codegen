@@ -173,75 +173,249 @@ namespace Org::BouncyCastle::Crypto::Modes {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher hashCipher, Org.BouncyCastle.Crypto.IBlockCipher mainCipher)
-    // Offset: 0x18BBECC
+    // Offset: 0x18D3BDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OcbBlockCipher* New_ctor(Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, Org::BouncyCastle::Crypto::IBlockCipher* mainCipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OcbBlockCipher*, creationType>(hashCipher, mainCipher)));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x18BC298
+    // Offset: 0x18D3FA8
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Int32 ProcessNonce(System.Byte[] N)
-    // Offset: 0x18BC9F8
+    // Offset: 0x18D4708
     int ProcessNonce(::Array<uint8_t>* N);
     // public System.Int32 GetBlockSize()
-    // Offset: 0x18BCC44
+    // Offset: 0x18D4954
     int GetBlockSize();
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x18BCC4C
+    // Offset: 0x18D495C
     int GetOutputSize(int len);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x18BCC74
+    // Offset: 0x18D4984
     int GetUpdateOutputSize(int len);
     // public System.Void ProcessAadBytes(System.Byte[] input, System.Int32 off, System.Int32 len)
-    // Offset: 0x18BCCAC
+    // Offset: 0x18D49BC
     void ProcessAadBytes(::Array<uint8_t>* input, int off, int len);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18BCD7C
+    // Offset: 0x18D4A8C
     int ProcessBytes(::Array<uint8_t>* input, int inOff, int len, ::Array<uint8_t>* output, int outOff);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18BCE78
+    // Offset: 0x18D4B88
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x18BD34C
+    // Offset: 0x18D505C
     void Reset();
     // protected System.Void Clear(System.Byte[] bs)
-    // Offset: 0x18BD360
+    // Offset: 0x18D5070
     void Clear(::Array<uint8_t>* bs);
     // protected System.Byte[] GetLSub(System.Int32 n)
-    // Offset: 0x18BD37C
+    // Offset: 0x18D508C
     ::Array<uint8_t>* GetLSub(int n);
     // protected System.Void ProcessHashBlock()
-    // Offset: 0x18BD664
+    // Offset: 0x18D5374
     void ProcessHashBlock();
     // protected System.Void ProcessMainBlock(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x18BD714
+    // Offset: 0x18D5424
     void ProcessMainBlock(::Array<uint8_t>* output, int outOff);
     // protected System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x18BD8F0
+    // Offset: 0x18D5600
     void Reset(bool clearMac);
     // protected System.Void UpdateHASH(System.Byte[] LSub)
-    // Offset: 0x18BDAF4
+    // Offset: 0x18D5804
     void UpdateHASH(::Array<uint8_t>* LSub);
     // static protected System.Byte[] OCB_double(System.Byte[] block)
-    // Offset: 0x18BC950
+    // Offset: 0x18D4660
     static ::Array<uint8_t>* OCB_double(::Array<uint8_t>* block);
     // static protected System.Void OCB_extend(System.Byte[] block, System.Int32 pos)
-    // Offset: 0x18BD27C
+    // Offset: 0x18D4F8C
     static void OCB_extend(::Array<uint8_t>* block, int pos);
     // static protected System.Int32 OCB_ntz(System.Int64 x)
-    // Offset: 0x18BD6E0
+    // Offset: 0x18D53F0
     static int OCB_ntz(int64_t x);
     // static protected System.Int32 ShiftLeft(System.Byte[] block, System.Byte[] output)
-    // Offset: 0x18BDBEC
+    // Offset: 0x18D58FC
     static int ShiftLeft(::Array<uint8_t>* block, ::Array<uint8_t>* output);
     // static protected System.Void Xor(System.Byte[] block, System.Byte[] val)
-    // Offset: 0x18BD2E8
+    // Offset: 0x18D4FF8
     static void Xor(::Array<uint8_t>* block, ::Array<uint8_t>* val);
   }; // Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
   #pragma pack(pop)
   static check_size<sizeof(OcbBlockCipher), 168 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Modes_OcbBlockCipherSizeCheck;
   static_assert(sizeof(OcbBlockCipher) == 0xB0);
+  // Writing MetadataGetter for method: OcbBlockCipher::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(Org::BouncyCastle::Crypto::IBlockCipher*, Org::BouncyCastle::Crypto::IBlockCipher*)>(&OcbBlockCipher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(Org::BouncyCastle::Crypto::IBlockCipher*, Org::BouncyCastle::Crypto::IBlockCipher*)>(&OcbBlockCipher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&OcbBlockCipher::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::ProcessNonce
+  // Il2CppName: ProcessNonce
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OcbBlockCipher::*)(::Array<uint8_t>*)>(&OcbBlockCipher::ProcessNonce)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "ProcessNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::GetBlockSize
+  // Il2CppName: GetBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OcbBlockCipher::*)()>(&OcbBlockCipher::GetBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::GetOutputSize
+  // Il2CppName: GetOutputSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OcbBlockCipher::*)(int)>(&OcbBlockCipher::GetOutputSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "GetOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::GetUpdateOutputSize
+  // Il2CppName: GetUpdateOutputSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OcbBlockCipher::*)(int)>(&OcbBlockCipher::GetUpdateOutputSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "GetUpdateOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::ProcessAadBytes
+  // Il2CppName: ProcessAadBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(::Array<uint8_t>*, int, int)>(&OcbBlockCipher::ProcessAadBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "ProcessAadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::ProcessBytes
+  // Il2CppName: ProcessBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OcbBlockCipher::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&OcbBlockCipher::ProcessBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::DoFinal
+  // Il2CppName: DoFinal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OcbBlockCipher::*)(::Array<uint8_t>*, int)>(&OcbBlockCipher::DoFinal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)()>(&OcbBlockCipher::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(::Array<uint8_t>*)>(&OcbBlockCipher::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::GetLSub
+  // Il2CppName: GetLSub
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (OcbBlockCipher::*)(int)>(&OcbBlockCipher::GetLSub)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "GetLSub", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::ProcessHashBlock
+  // Il2CppName: ProcessHashBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)()>(&OcbBlockCipher::ProcessHashBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "ProcessHashBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::ProcessMainBlock
+  // Il2CppName: ProcessMainBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(::Array<uint8_t>*, int)>(&OcbBlockCipher::ProcessMainBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "ProcessMainBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(bool)>(&OcbBlockCipher::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::UpdateHASH
+  // Il2CppName: UpdateHASH
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OcbBlockCipher::*)(::Array<uint8_t>*)>(&OcbBlockCipher::UpdateHASH)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "UpdateHASH", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::OCB_double
+  // Il2CppName: OCB_double
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&OcbBlockCipher::OCB_double)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "OCB_double", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::OCB_extend
+  // Il2CppName: OCB_extend
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int)>(&OcbBlockCipher::OCB_extend)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "OCB_extend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::OCB_ntz
+  // Il2CppName: OCB_ntz
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&OcbBlockCipher::OCB_ntz)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "OCB_ntz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::ShiftLeft
+  // Il2CppName: ShiftLeft
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&OcbBlockCipher::ShiftLeft)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "ShiftLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OcbBlockCipher::Xor
+  // Il2CppName: Xor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&OcbBlockCipher::Xor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OcbBlockCipher*), "Xor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::OcbBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "OcbBlockCipher");

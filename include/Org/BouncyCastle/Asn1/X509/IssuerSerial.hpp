@@ -59,20 +59,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: IssuerSerial
     IssuerSerial(Org::BouncyCastle::Asn1::X509::GeneralNames* issuer_ = {}, Org::BouncyCastle::Asn1::DerInteger* serial_ = {}, Org::BouncyCastle::Asn1::DerBitString* issuerUid_ = {}) noexcept : issuer{issuer_}, serial{serial_}, issuerUid{issuerUid_} {}
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(System.Object obj)
-    // Offset: 0x19EF350
+    // Offset: 0x1A08060
     static Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Il2CppObject* obj);
     // static public Org.BouncyCastle.Asn1.X509.IssuerSerial GetInstance(Org.BouncyCastle.Asn1.Asn1TaggedObject obj, System.Boolean explicitly)
-    // Offset: 0x19EF1E4
+    // Offset: 0x1A07EF4
     static Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19EF4D0
+    // Offset: 0x1A081E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IssuerSerial* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::IssuerSerial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IssuerSerial*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19EF68C
+    // Offset: 0x1A0839C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -80,5 +80,43 @@ namespace Org::BouncyCastle::Asn1::X509 {
   #pragma pack(pop)
   static check_size<sizeof(IssuerSerial), 32 + sizeof(Org::BouncyCastle::Asn1::DerBitString*)> __Org_BouncyCastle_Asn1_X509_IssuerSerialSizeCheck;
   static_assert(sizeof(IssuerSerial) == 0x28);
+  // Writing MetadataGetter for method: IssuerSerial::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::IssuerSerial* (*)(::Il2CppObject*)>(&IssuerSerial::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuerSerial*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IssuerSerial::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::IssuerSerial* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&IssuerSerial::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuerSerial*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IssuerSerial::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IssuerSerial::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&IssuerSerial::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuerSerial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IssuerSerial::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&IssuerSerial::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuerSerial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IssuerSerial::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (IssuerSerial::*)()>(&IssuerSerial::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuerSerial*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuerSerial*, "Org.BouncyCastle.Asn1.X509", "IssuerSerial");

@@ -29,23 +29,55 @@ namespace System::Configuration {
     // Creating value type constructor for type: ConfigurationSection
     ConfigurationSection() noexcept {}
     // protected internal System.Void DeserializeSection(System.Xml.XmlReader reader)
-    // Offset: 0x23D8100
+    // Offset: 0x23F362C
     void DeserializeSection(System::Xml::XmlReader* reader);
     // protected internal System.String SerializeSection(System.Configuration.ConfigurationElement parentElement, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
-    // Offset: 0x23D81C0
+    // Offset: 0x23F36EC
     ::Il2CppString* SerializeSection(System::Configuration::ConfigurationElement* parentElement, ::Il2CppString* name, System::Configuration::ConfigurationSaveMode saveMode);
     // protected internal override System.Boolean IsModified()
-    // Offset: 0x23D8140
+    // Offset: 0x23F366C
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Boolean ConfigurationElement::IsModified()
     bool IsModified();
     // protected internal override System.Void ResetModified()
-    // Offset: 0x23D8180
+    // Offset: 0x23F36AC
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Void ConfigurationElement::ResetModified()
     void ResetModified();
   }; // System.Configuration.ConfigurationSection
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ConfigurationSection::DeserializeSection
+  // Il2CppName: DeserializeSection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigurationSection::*)(System::Xml::XmlReader*)>(&ConfigurationSection::DeserializeSection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigurationSection*), "DeserializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigurationSection::SerializeSection
+  // Il2CppName: SerializeSection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigurationSection::*)(System::Configuration::ConfigurationElement*, ::Il2CppString*, System::Configuration::ConfigurationSaveMode)>(&ConfigurationSection::SerializeSection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigurationSection*), "SerializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationSaveMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigurationSection::IsModified
+  // Il2CppName: IsModified
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConfigurationSection::*)()>(&ConfigurationSection::IsModified)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigurationSection*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigurationSection::ResetModified
+  // Il2CppName: ResetModified
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigurationSection::*)()>(&ConfigurationSection::ResetModified)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigurationSection*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationSection*, "System.Configuration", "ConfigurationSection");

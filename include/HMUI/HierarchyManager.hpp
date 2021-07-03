@@ -45,7 +45,7 @@ namespace HMUI {
     HMUI::ScreenSystem* screenSystem;
     // Field size check
     static_assert(sizeof(HMUI::ScreenSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xDF6A6C
+    // [InjectAttribute] Offset: 0xDF8A68
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -63,22 +63,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x12FDDB4
+    // Offset: 0x1317AC4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x12FDF70
+    // Offset: 0x1317C80
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x12FDEB4
+    // Offset: 0x1317BC4
     void HandleSceneTransitionDidFinish(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x12FE048
+    // Offset: 0x1317D58
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x12FE104
+    // Offset: 0x1317E14
     void StartWithFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator);
     // public System.Void .ctor()
-    // Offset: 0x12FE128
+    // Offset: 0x1317E38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -94,5 +94,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(HierarchyManager), 40 + sizeof(HMUI::FlowCoordinator*)> __HMUI_HierarchyManagerSizeCheck;
   static_assert(sizeof(HierarchyManager) == 0x30);
+  // Writing MetadataGetter for method: HierarchyManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)()>(&HierarchyManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HierarchyManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)()>(&HierarchyManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HierarchyManager::HandleSceneTransitionDidFinish
+  // Il2CppName: HandleSceneTransitionDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&HierarchyManager::HandleSceneTransitionDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), "HandleSceneTransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HierarchyManager::HandleBeforeDismissingScenes
+  // Il2CppName: HandleBeforeDismissingScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)()>(&HierarchyManager::HandleBeforeDismissingScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), "HandleBeforeDismissingScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HierarchyManager::StartWithFlowCoordinator
+  // Il2CppName: StartWithFlowCoordinator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)(HMUI::FlowCoordinator*)>(&HierarchyManager::StartWithFlowCoordinator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), "StartWithFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HierarchyManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)()>(&HierarchyManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HierarchyManager::*)()>(&HierarchyManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HierarchyManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HierarchyManager*, "HMUI", "HierarchyManager");

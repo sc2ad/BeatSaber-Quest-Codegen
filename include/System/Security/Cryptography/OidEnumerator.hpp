@@ -44,24 +44,62 @@ namespace System::Security::Cryptography {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // System.Void .ctor(System.Security.Cryptography.OidCollection oids)
-    // Offset: 0x182BAD0
+    // Offset: 0x18437E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidEnumerator* New_ctor(System::Security::Cryptography::OidCollection* oids) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::OidEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidEnumerator*, creationType>(oids)));
     }
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x182BCFC
+    // Offset: 0x1843A0C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Boolean MoveNext()
-    // Offset: 0x182BD1C
+    // Offset: 0x1843A2C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x182BD84
+    // Offset: 0x1843A94
     void Reset();
   }; // System.Security.Cryptography.OidEnumerator
   #pragma pack(pop)
   static check_size<sizeof(OidEnumerator), 24 + sizeof(int)> __System_Security_Cryptography_OidEnumeratorSizeCheck;
   static_assert(sizeof(OidEnumerator) == 0x1C);
+  // Writing MetadataGetter for method: OidEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OidEnumerator::*)(System::Security::Cryptography::OidCollection*)>(&OidEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidCollection*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OidEnumerator::*)(System::Security::Cryptography::OidCollection*)>(&OidEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidCollection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OidEnumerator::System_Collections_IEnumerator_get_Current
+  // Il2CppName: System.Collections.IEnumerator.get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (OidEnumerator::*)()>(&OidEnumerator::System_Collections_IEnumerator_get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OidEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OidEnumerator::*)()>(&OidEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OidEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OidEnumerator::*)()>(&OidEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidEnumerator*, "System.Security.Cryptography", "OidEnumerator");

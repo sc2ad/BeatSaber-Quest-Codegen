@@ -31,7 +31,7 @@ namespace System::Security::Util {
     // Creating value type constructor for type: TokenizerShortBlock
     TokenizerShortBlock(::Array<int16_t>* m_block_ = {}, System::Security::Util::TokenizerShortBlock* m_next_ = {}) noexcept : m_block{m_block_}, m_next{m_next_} {}
     // public System.Void .ctor()
-    // Offset: 0x1B34680
+    // Offset: 0x1B50390
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -43,5 +43,19 @@ namespace System::Security::Util {
   #pragma pack(pop)
   static check_size<sizeof(TokenizerShortBlock), 24 + sizeof(System::Security::Util::TokenizerShortBlock*)> __System_Security_Util_TokenizerShortBlockSizeCheck;
   static_assert(sizeof(TokenizerShortBlock) == 0x20);
+  // Writing MetadataGetter for method: TokenizerShortBlock::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TokenizerShortBlock::*)()>(&TokenizerShortBlock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TokenizerShortBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TokenizerShortBlock::*)()>(&TokenizerShortBlock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TokenizerShortBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerShortBlock*, "System.Security.Util", "TokenizerShortBlock");

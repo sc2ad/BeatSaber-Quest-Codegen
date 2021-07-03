@@ -15,12 +15,20 @@ namespace System {
     // Creating value type constructor for type: __Il2CppComObject
     __Il2CppComObject() noexcept {}
     // protected override System.Void Finalize()
-    // Offset: 0x231BDD4
+    // Offset: 0x2335B30
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
   }; // System.__Il2CppComObject
   #pragma pack(pop)
+  // Writing MetadataGetter for method: __Il2CppComObject::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__Il2CppComObject::*)()>(&__Il2CppComObject::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__Il2CppComObject*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComObject*, "System", "__Il2CppComObject");

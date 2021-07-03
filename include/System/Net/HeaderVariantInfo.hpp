@@ -40,18 +40,48 @@ namespace System::Net {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(System.String name, System.Net.CookieVariant variant)
-    // Offset: 0xEF9580
+    // Offset: 0xEF9538
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  HeaderVariantInfo(::Il2CppString* name, System::Net::CookieVariant variant)
     // System.String get_Name()
-    // Offset: 0xEF958C
+    // Offset: 0xEF9544
     ::Il2CppString* get_Name();
     // System.Net.CookieVariant get_Variant()
-    // Offset: 0xEF9594
+    // Offset: 0xEF954C
     System::Net::CookieVariant get_Variant();
   }; // System.Net.HeaderVariantInfo
   #pragma pack(pop)
   static check_size<sizeof(HeaderVariantInfo), 8 + sizeof(System::Net::CookieVariant)> __System_Net_HeaderVariantInfoSizeCheck;
   static_assert(sizeof(HeaderVariantInfo) == 0xC);
+  // Writing MetadataGetter for method: HeaderVariantInfo::HeaderVariantInfo
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderVariantInfo::*)(::Il2CppString*, System::Net::CookieVariant)>(&HeaderVariantInfo::HeaderVariantInfo<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderVariantInfo::*)(::Il2CppString*, System::Net::CookieVariant)>(&HeaderVariantInfo::HeaderVariantInfo<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>()});
+    }
+  };
+  // Writing MetadataGetter for method: HeaderVariantInfo::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HeaderVariantInfo::*)()>(&HeaderVariantInfo::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HeaderVariantInfo::get_Variant
+  // Il2CppName: get_Variant
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieVariant (HeaderVariantInfo::*)()>(&HeaderVariantInfo::get_Variant)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), "get_Variant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");

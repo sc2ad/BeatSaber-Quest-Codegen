@@ -30,16 +30,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FileBrowserModel
     FileBrowserModel() noexcept {}
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
-    // Offset: 0x10C379C
+    // Offset: 0x104235C
     static void GetContentOfDirectory(::Il2CppString* direcotryPath, ::Array<::Il2CppString*>* extensions, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>* callback);
     // static private FileBrowserItem[] GetContentOfDirectory(System.String directoryPath, System.String[] extensions)
-    // Offset: 0x10C38A0
+    // Offset: 0x1042460
     static ::Array<GlobalNamespace::FileBrowserItem*>* GetContentOfDirectory(::Il2CppString* directoryPath, ::Array<::Il2CppString*>* extensions);
     // static private System.Boolean CanOpenDirectory(System.String path)
-    // Offset: 0x10C3C6C
+    // Offset: 0x104282C
     static bool CanOpenDirectory(::Il2CppString* path);
   }; // FileBrowserModel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: FileBrowserModel::GetContentOfDirectory
+  // Il2CppName: GetContentOfDirectory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*)>(&FileBrowserModel::GetContentOfDirectory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileBrowserModel*), "GetContentOfDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Array<GlobalNamespace::FileBrowserItem*>*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FileBrowserModel::GetContentOfDirectory
+  // Il2CppName: GetContentOfDirectory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::FileBrowserItem*>* (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&FileBrowserModel::GetContentOfDirectory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileBrowserModel*), "GetContentOfDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FileBrowserModel::CanOpenDirectory
+  // Il2CppName: CanOpenDirectory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&FileBrowserModel::CanOpenDirectory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileBrowserModel*), "CanOpenDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel*, "", "FileBrowserModel");

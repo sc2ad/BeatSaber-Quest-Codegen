@@ -32,26 +32,64 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalKeys
     static void _set_InternalKeys(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage message)
-    // Offset: 0x1A211D0
+    // Offset: 0x1A3AEE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructionCallDictionary* New_ctor(System::Runtime::Remoting::Activation::IConstructionCallMessage* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ConstructionCallDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionCallDictionary*, creationType>(message)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A22D88
+    // Offset: 0x1A3CA98
     static void _cctor();
     // protected override System.Object GetMethodProperty(System.String key)
-    // Offset: 0x1A21F2C
+    // Offset: 0x1A3BC3C
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Object MessageDictionary::GetMethodProperty(System.String key)
     ::Il2CppObject* GetMethodProperty(::Il2CppString* key);
     // protected override System.Void SetMethodProperty(System.String key, System.Object value)
-    // Offset: 0x1A228D4
+    // Offset: 0x1A3C5E4
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::SetMethodProperty(System.String key, System.Object value)
     void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
   }; // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ConstructionCallDictionary::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCallDictionary::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&ConstructionCallDictionary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstructionCallDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCallDictionary::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&ConstructionCallDictionary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstructionCallDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstructionCallDictionary::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ConstructionCallDictionary::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstructionCallDictionary*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstructionCallDictionary::GetMethodProperty
+  // Il2CppName: GetMethodProperty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ConstructionCallDictionary::*)(::Il2CppString*)>(&ConstructionCallDictionary::GetMethodProperty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstructionCallDictionary*), "GetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstructionCallDictionary::SetMethodProperty
+  // Il2CppName: SetMethodProperty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCallDictionary::*)(::Il2CppString*, ::Il2CppObject*)>(&ConstructionCallDictionary::SetMethodProperty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstructionCallDictionary*), "SetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionCallDictionary*, "System.Runtime.Remoting.Messaging", "ConstructionCallDictionary");

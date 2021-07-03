@@ -152,74 +152,74 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[] C2
     static void _set_C2(::Array<uint8_t>* value);
     // static private System.Byte[][] MakeC()
-    // Offset: 0x1CB6450
+    // Offset: 0x1CD2160
     static ::Array<::Array<uint8_t>*>* MakeC();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411Digest t)
-    // Offset: 0x1CB6900
+    // Offset: 0x1CD2610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411Digest* New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411Digest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Digests::Gost3411Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411Digest*, creationType>(t)));
     }
     // public System.String get_AlgorithmName()
-    // Offset: 0x1CB6D64
+    // Offset: 0x1CD2A74
     ::Il2CppString* get_AlgorithmName();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1CB6DAC
+    // Offset: 0x1CD2ABC
     int GetDigestSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1CB6DB4
+    // Offset: 0x1CD2AC4
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1CB7208
+    // Offset: 0x1CD2F18
     void BlockUpdate(::Array<uint8_t>* input, int inOff, int length);
     // private System.Byte[] P(System.Byte[] input)
-    // Offset: 0x1CB7350
+    // Offset: 0x1CD3060
     ::Array<uint8_t>* P(::Array<uint8_t>* input);
     // private System.Byte[] A(System.Byte[] input)
-    // Offset: 0x1CB7470
+    // Offset: 0x1CD3180
     ::Array<uint8_t>* A(::Array<uint8_t>* input);
     // private System.Void E(System.Byte[] key, System.Byte[] s, System.Int32 sOff, System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1CB753C
+    // Offset: 0x1CD324C
     void E(::Array<uint8_t>* key, ::Array<uint8_t>* s, int sOff, ::Array<uint8_t>* input, int inOff);
     // private System.Void fw(System.Byte[] input)
-    // Offset: 0x1CB76C0
+    // Offset: 0x1CD33D0
     void fw(::Array<uint8_t>* input);
     // private System.Void processBlock(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x1CB6ECC
+    // Offset: 0x1CD2BDC
     void processBlock(::Array<uint8_t>* input, int inOff);
     // private System.Void finish()
-    // Offset: 0x1CB7934
+    // Offset: 0x1CD3644
     void finish();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1CB7998
+    // Offset: 0x1CD36A8
     int DoFinal(::Array<uint8_t>* output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1CB6788
+    // Offset: 0x1CD2498
     void Reset();
     // private System.Void sumByteArray(System.Byte[] input)
-    // Offset: 0x1CB6E48
+    // Offset: 0x1CD2B58
     void sumByteArray(::Array<uint8_t>* input);
     // static private System.Void cpyBytesToShort(System.Byte[] S, System.Int16[] wS)
-    // Offset: 0x1CB77E8
+    // Offset: 0x1CD34F8
     static void cpyBytesToShort(::Array<uint8_t>* S, ::Array<int16_t>* wS);
     // static private System.Void cpyShortToBytes(System.Int16[] wS, System.Byte[] S)
-    // Offset: 0x1CB788C
+    // Offset: 0x1CD359C
     static void cpyShortToBytes(::Array<int16_t>* wS, ::Array<uint8_t>* S);
     // public System.Int32 GetByteLength()
-    // Offset: 0x1CB79F0
+    // Offset: 0x1CD3700
     int GetByteLength();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1CB79F8
+    // Offset: 0x1CD3708
     Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1CB6A88
+    // Offset: 0x1CD2798
     void Reset(Org::BouncyCastle::Utilities::IMemoable* other);
     // static private System.Void .cctor()
-    // Offset: 0x1CB7A58
+    // Offset: 0x1CD3768
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1CB6530
+    // Offset: 0x1CD2240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -231,5 +231,193 @@ namespace Org::BouncyCastle::Crypto::Digests {
   #pragma pack(pop)
   static check_size<sizeof(Gost3411Digest), 152 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Digests_Gost3411DigestSizeCheck;
   static_assert(sizeof(Gost3411Digest) == 0xA0);
+  // Writing MetadataGetter for method: Gost3411Digest::MakeC
+  // Il2CppName: MakeC
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Array<uint8_t>*>* (*)()>(&Gost3411Digest::MakeC)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "MakeC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*)>(&Gost3411Digest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::Gost3411Digest*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*)>(&Gost3411Digest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::Gost3411Digest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::get_AlgorithmName
+  // Il2CppName: get_AlgorithmName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Gost3411Digest::*)()>(&Gost3411Digest::get_AlgorithmName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::GetDigestSize
+  // Il2CppName: GetDigestSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Gost3411Digest::*)()>(&Gost3411Digest::GetDigestSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "GetDigestSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(uint8_t)>(&Gost3411Digest::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::BlockUpdate
+  // Il2CppName: BlockUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(::Array<uint8_t>*, int, int)>(&Gost3411Digest::BlockUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::P
+  // Il2CppName: P
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Gost3411Digest::*)(::Array<uint8_t>*)>(&Gost3411Digest::P)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "P", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::A
+  // Il2CppName: A
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Gost3411Digest::*)(::Array<uint8_t>*)>(&Gost3411Digest::A)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "A", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::E
+  // Il2CppName: E
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Gost3411Digest::E)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "E", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::fw
+  // Il2CppName: fw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(::Array<uint8_t>*)>(&Gost3411Digest::fw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "fw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::processBlock
+  // Il2CppName: processBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(::Array<uint8_t>*, int)>(&Gost3411Digest::processBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "processBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::finish
+  // Il2CppName: finish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)()>(&Gost3411Digest::finish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::DoFinal
+  // Il2CppName: DoFinal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Gost3411Digest::*)(::Array<uint8_t>*, int)>(&Gost3411Digest::DoFinal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)()>(&Gost3411Digest::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::sumByteArray
+  // Il2CppName: sumByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(::Array<uint8_t>*)>(&Gost3411Digest::sumByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "sumByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::cpyBytesToShort
+  // Il2CppName: cpyBytesToShort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<int16_t>*)>(&Gost3411Digest::cpyBytesToShort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "cpyBytesToShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::cpyShortToBytes
+  // Il2CppName: cpyShortToBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int16_t>*, ::Array<uint8_t>*)>(&Gost3411Digest::cpyShortToBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "cpyShortToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::GetByteLength
+  // Il2CppName: GetByteLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Gost3411Digest::*)()>(&Gost3411Digest::GetByteLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "GetByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::Copy
+  // Il2CppName: Copy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IMemoable* (Gost3411Digest::*)()>(&Gost3411Digest::Copy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)(Org::BouncyCastle::Utilities::IMemoable*)>(&Gost3411Digest::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IMemoable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Gost3411Digest::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3411Digest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)()>(&Gost3411Digest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3411Digest::*)()>(&Gost3411Digest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3411Digest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411Digest*, "Org.BouncyCastle.Crypto.Digests", "Gost3411Digest");

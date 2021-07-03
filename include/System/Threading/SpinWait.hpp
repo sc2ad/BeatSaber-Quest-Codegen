@@ -31,15 +31,31 @@ namespace System::Threading {
       return m_count;
     }
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0xF00134
+    // Offset: 0xF010EC
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0xF00164
+    // Offset: 0xF0111C
     void SpinOnce();
   }; // System.Threading.SpinWait
   #pragma pack(pop)
   static check_size<sizeof(SpinWait), 0 + sizeof(int)> __System_Threading_SpinWaitSizeCheck;
   static_assert(sizeof(SpinWait) == 0x4);
+  // Writing MetadataGetter for method: SpinWait::get_NextSpinWillYield
+  // Il2CppName: get_NextSpinWillYield
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpinWait::*)()>(&SpinWait::get_NextSpinWillYield)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpinWait), "get_NextSpinWillYield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SpinWait::SpinOnce
+  // Il2CppName: SpinOnce
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpinWait::*)()>(&SpinWait::SpinOnce)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpinWait), "SpinOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");

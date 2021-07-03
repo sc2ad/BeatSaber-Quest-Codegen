@@ -34,6 +34,22 @@ namespace NUnit::Framework::Interfaces {
     System::Type* get_ParameterType();
   }; // NUnit.Framework.Interfaces.IParameterInfo
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IParameterInfo::get_IsOptional
+  // Il2CppName: get_IsOptional
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IParameterInfo::*)()>(&IParameterInfo::get_IsOptional)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IParameterInfo*), "get_IsOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IParameterInfo::get_ParameterType
+  // Il2CppName: get_ParameterType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (IParameterInfo::*)()>(&IParameterInfo::get_ParameterType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IParameterInfo*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterInfo*, "NUnit.Framework.Interfaces", "IParameterInfo");

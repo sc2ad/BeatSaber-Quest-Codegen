@@ -84,36 +84,106 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable, System.Int32 getObjRetType)
-    // Offset: 0x195A558
+    // Offset: 0x1971268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::HashtableEnumerator* New_ctor(System::Collections::Hashtable* hashtable, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::HashtableEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::HashtableEnumerator*, creationType>(hashtable, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x195A5BC
+    // Offset: 0x19712CC
     ::Il2CppObject* Clone();
     // public System.Object get_Key()
-    // Offset: 0x195A5C4
+    // Offset: 0x19712D4
     ::Il2CppObject* get_Key();
     // public System.Boolean MoveNext()
-    // Offset: 0x195A660
+    // Offset: 0x1971370
     bool MoveNext();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x195A7A8
+    // Offset: 0x19714B8
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x195A860
+    // Offset: 0x1971570
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x195A954
+    // Offset: 0x1971664
     ::Il2CppObject* get_Value();
     // public System.Void Reset()
-    // Offset: 0x195A9F0
+    // Offset: 0x1971700
     void Reset();
   }; // System.Collections.Hashtable/HashtableEnumerator
   #pragma pack(pop)
   static check_size<sizeof(Hashtable::HashtableEnumerator), 48 + sizeof(::Il2CppObject*)> __System_Collections_Hashtable_HashtableEnumeratorSizeCheck;
   static_assert(sizeof(Hashtable::HashtableEnumerator) == 0x38);
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::HashtableEnumerator::*)(System::Collections::Hashtable*, int)>(&Hashtable::HashtableEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::HashtableEnumerator::*)(System::Collections::Hashtable*, int)>(&Hashtable::HashtableEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::get_Key
+  // Il2CppName: get_Key
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::get_Key)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::get_Entry
+  // Il2CppName: get_Entry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::get_Entry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::HashtableEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::HashtableEnumerator::*)()>(&Hashtable::HashtableEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::HashtableEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");

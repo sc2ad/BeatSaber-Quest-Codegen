@@ -65,7 +65,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xE00270
+    // [ObsoleteAttribute] Offset: 0xE0126C
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
@@ -84,7 +84,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* ParticipantsOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xE002A8
+    // [ObsoleteAttribute] Offset: 0xE012A4
     // public readonly Oculus.Platform.Models.UserList Participants
     // Size: 0x8
     // Offset: 0x50
@@ -112,7 +112,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: Challenge
     Challenge(Oculus::Platform::ChallengeCreationType CreationType_ = {}, ::Il2CppString* Description_ = {}, System::DateTime EndDate_ = {}, uint64_t _ID_ = {}, Oculus::Platform::Models::UserList* InvitedUsersOptional_ = {}, Oculus::Platform::Models::UserList* InvitedUsers_ = {}, Oculus::Platform::Models::Leaderboard* Leaderboard_ = {}, Oculus::Platform::Models::UserList* ParticipantsOptional_ = {}, Oculus::Platform::Models::UserList* Participants_ = {}, System::DateTime StartDate_ = {}, ::Il2CppString* Title_ = {}, Oculus::Platform::ChallengeVisibility Visibility_ = {}) noexcept : CreationType{CreationType_}, Description{Description_}, EndDate{EndDate_}, _ID{_ID_}, InvitedUsersOptional{InvitedUsersOptional_}, InvitedUsers{InvitedUsers_}, Leaderboard{Leaderboard_}, ParticipantsOptional{ParticipantsOptional_}, Participants{Participants_}, StartDate{StartDate_}, Title{Title_}, Visibility{Visibility_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B2B90
+    // Offset: 0x14CD8A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Challenge* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Challenge::.ctor");
@@ -122,5 +122,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(Challenge), 104 + sizeof(Oculus::Platform::ChallengeVisibility)> __Oculus_Platform_Models_ChallengeSizeCheck;
   static_assert(sizeof(Challenge) == 0x6C);
+  // Writing MetadataGetter for method: Challenge::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Challenge::*)(System::IntPtr)>(&Challenge::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Challenge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Challenge::*)(System::IntPtr)>(&Challenge::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Challenge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Challenge*, "Oculus.Platform.Models", "Challenge");

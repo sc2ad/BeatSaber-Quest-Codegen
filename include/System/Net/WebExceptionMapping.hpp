@@ -26,13 +26,29 @@ namespace System::Net {
     // Set static field: static private readonly System.String[] s_Mapping
     static void _set_s_Mapping(::Array<::Il2CppString*>* value);
     // static System.String GetWebStatusString(System.Net.WebExceptionStatus status)
-    // Offset: 0x15AD360
+    // Offset: 0x15C7070
     static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus status);
     // static private System.Void .cctor()
-    // Offset: 0x15AD518
+    // Offset: 0x15C7228
     static void _cctor();
   }; // System.Net.WebExceptionMapping
   #pragma pack(pop)
+  // Writing MetadataGetter for method: WebExceptionMapping::GetWebStatusString
+  // Il2CppName: GetWebStatusString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&WebExceptionMapping::GetWebStatusString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebExceptionMapping::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebExceptionMapping::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebExceptionMapping*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionMapping*, "System.Net", "WebExceptionMapping");

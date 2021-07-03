@@ -55,69 +55,227 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16BE518
+    // Offset: 0x16D5228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRRenderModels* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRRenderModels::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRRenderModels*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRRenderModelError LoadRenderModel_Async(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
-    // Offset: 0x16BE620
+    // Offset: 0x16D5330
     Valve::VR::EVRRenderModelError LoadRenderModel_Async(::Il2CppString* pchRenderModelName, System::IntPtr& ppRenderModel);
     // public System.Void FreeRenderModel(System.IntPtr pRenderModel)
-    // Offset: 0x16BE63C
+    // Offset: 0x16D534C
     void FreeRenderModel(System::IntPtr pRenderModel);
     // public Valve.VR.EVRRenderModelError LoadTexture_Async(System.Int32 textureId, ref System.IntPtr ppTexture)
-    // Offset: 0x16BE658
+    // Offset: 0x16D5368
     Valve::VR::EVRRenderModelError LoadTexture_Async(int textureId, System::IntPtr& ppTexture);
     // public System.Void FreeTexture(System.IntPtr pTexture)
-    // Offset: 0x16BE674
+    // Offset: 0x16D5384
     void FreeTexture(System::IntPtr pTexture);
     // public Valve.VR.EVRRenderModelError LoadTextureD3D11_Async(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D)
-    // Offset: 0x16BE690
+    // Offset: 0x16D53A0
     Valve::VR::EVRRenderModelError LoadTextureD3D11_Async(int textureId, System::IntPtr pD3D11Device, System::IntPtr& ppD3D11Texture2D);
     // public Valve.VR.EVRRenderModelError LoadIntoTextureD3D11_Async(System.Int32 textureId, System.IntPtr pDstTexture)
-    // Offset: 0x16BE6AC
+    // Offset: 0x16D53BC
     Valve::VR::EVRRenderModelError LoadIntoTextureD3D11_Async(int textureId, System::IntPtr pDstTexture);
     // public System.Void FreeTextureD3D11(System.IntPtr pD3D11Texture2D)
-    // Offset: 0x16BE6C8
+    // Offset: 0x16D53D8
     void FreeTextureD3D11(System::IntPtr pD3D11Texture2D);
     // public System.UInt32 GetRenderModelName(System.UInt32 unRenderModelIndex, System.Text.StringBuilder pchRenderModelName, System.UInt32 unRenderModelNameLen)
-    // Offset: 0x16BE6E4
+    // Offset: 0x16D53F4
     uint GetRenderModelName(uint unRenderModelIndex, System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen);
     // public System.UInt32 GetRenderModelCount()
-    // Offset: 0x16BE700
+    // Offset: 0x16D5410
     uint GetRenderModelCount();
     // public System.UInt32 GetComponentCount(System.String pchRenderModelName)
-    // Offset: 0x16BE71C
+    // Offset: 0x16D542C
     uint GetComponentCount(::Il2CppString* pchRenderModelName);
     // public System.UInt32 GetComponentName(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen)
-    // Offset: 0x16BE738
+    // Offset: 0x16D5448
     uint GetComponentName(::Il2CppString* pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
     // public System.UInt64 GetComponentButtonMask(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x16BE754
+    // Offset: 0x16D5464
     uint64_t GetComponentButtonMask(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.UInt32 GetComponentRenderModelName(System.String pchRenderModelName, System.String pchComponentName, System.Text.StringBuilder pchComponentRenderModelName, System.UInt32 unComponentRenderModelNameLen)
-    // Offset: 0x16BE770
+    // Offset: 0x16D5480
     uint GetComponentRenderModelName(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
     // public System.Boolean GetComponentState(System.String pchRenderModelName, System.String pchComponentName, ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState)
-    // Offset: 0x16BE78C
+    // Offset: 0x16D549C
     bool GetComponentState(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, Valve::VR::VRControllerState_t& pControllerState, Valve::VR::RenderModel_ControllerMode_State_t& pState, Valve::VR::RenderModel_ComponentState_t& pComponentState);
     // public System.Boolean RenderModelHasComponent(System.String pchRenderModelName, System.String pchComponentName)
-    // Offset: 0x16BED18
+    // Offset: 0x16D5A28
     bool RenderModelHasComponent(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
     // public System.UInt32 GetRenderModelThumbnailURL(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref Valve.VR.EVRRenderModelError peError)
-    // Offset: 0x16BED34
+    // Offset: 0x16D5A44
     uint GetRenderModelThumbnailURL(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, Valve::VR::EVRRenderModelError& peError);
     // public System.UInt32 GetRenderModelOriginalPath(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref Valve.VR.EVRRenderModelError peError)
-    // Offset: 0x16BED50
+    // Offset: 0x16D5A60
     uint GetRenderModelOriginalPath(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, Valve::VR::EVRRenderModelError& peError);
     // public System.String GetRenderModelErrorNameFromEnum(Valve.VR.EVRRenderModelError error)
-    // Offset: 0x16BED6C
+    // Offset: 0x16D5A7C
     ::Il2CppString* GetRenderModelErrorNameFromEnum(Valve::VR::EVRRenderModelError error);
   }; // Valve.VR.CVRRenderModels
   #pragma pack(pop)
   static check_size<sizeof(CVRRenderModels), 16 + sizeof(Valve::VR::IVRRenderModels)> __Valve_VR_CVRRenderModelsSizeCheck;
   static_assert(sizeof(CVRRenderModels) == 0xA0);
+  // Writing MetadataGetter for method: CVRRenderModels::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::LoadRenderModel_Async
+  // Il2CppName: LoadRenderModel_Async
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (CVRRenderModels::*)(::Il2CppString*, System::IntPtr&)>(&CVRRenderModels::LoadRenderModel_Async)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadRenderModel_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::FreeRenderModel
+  // Il2CppName: FreeRenderModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::FreeRenderModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "FreeRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::LoadTexture_Async
+  // Il2CppName: LoadTexture_Async
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (CVRRenderModels::*)(int, System::IntPtr&)>(&CVRRenderModels::LoadTexture_Async)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadTexture_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::FreeTexture
+  // Il2CppName: FreeTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::FreeTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "FreeTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::LoadTextureD3D11_Async
+  // Il2CppName: LoadTextureD3D11_Async
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (CVRRenderModels::*)(int, System::IntPtr, System::IntPtr&)>(&CVRRenderModels::LoadTextureD3D11_Async)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadTextureD3D11_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::LoadIntoTextureD3D11_Async
+  // Il2CppName: LoadIntoTextureD3D11_Async
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (CVRRenderModels::*)(int, System::IntPtr)>(&CVRRenderModels::LoadIntoTextureD3D11_Async)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadIntoTextureD3D11_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::FreeTextureD3D11
+  // Il2CppName: FreeTextureD3D11
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::FreeTextureD3D11)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "FreeTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetRenderModelName
+  // Il2CppName: GetRenderModelName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(uint, System::Text::StringBuilder*, uint)>(&CVRRenderModels::GetRenderModelName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetRenderModelCount
+  // Il2CppName: GetRenderModelCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)()>(&CVRRenderModels::GetRenderModelCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetComponentCount
+  // Il2CppName: GetComponentCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*)>(&CVRRenderModels::GetComponentCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetComponentName
+  // Il2CppName: GetComponentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, uint, System::Text::StringBuilder*, uint)>(&CVRRenderModels::GetComponentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetComponentButtonMask
+  // Il2CppName: GetComponentButtonMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&CVRRenderModels::GetComponentButtonMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentButtonMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetComponentRenderModelName
+  // Il2CppName: GetComponentRenderModelName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRRenderModels::GetComponentRenderModelName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentRenderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetComponentState
+  // Il2CppName: GetComponentState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::VRControllerState_t&, Valve::VR::RenderModel_ControllerMode_State_t&, Valve::VR::RenderModel_ComponentState_t&)>(&CVRRenderModels::GetComponentState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ComponentState_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::RenderModelHasComponent
+  // Il2CppName: RenderModelHasComponent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&CVRRenderModels::RenderModelHasComponent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "RenderModelHasComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetRenderModelThumbnailURL
+  // Il2CppName: GetRenderModelThumbnailURL
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, Valve::VR::EVRRenderModelError&)>(&CVRRenderModels::GetRenderModelThumbnailURL)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelThumbnailURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRRenderModelError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetRenderModelOriginalPath
+  // Il2CppName: GetRenderModelOriginalPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, Valve::VR::EVRRenderModelError&)>(&CVRRenderModels::GetRenderModelOriginalPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelOriginalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRRenderModelError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRRenderModels::GetRenderModelErrorNameFromEnum
+  // Il2CppName: GetRenderModelErrorNameFromEnum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRRenderModels::*)(Valve::VR::EVRRenderModelError)>(&CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRRenderModelError>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");

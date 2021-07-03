@@ -104,28 +104,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // public System.Int32 get_scoreWithMultiplier()
-    // Offset: 0x109CA3C
+    // Offset: 0x119AB80
     int get_scoreWithMultiplier();
     // public System.Int32 get_multiplier()
-    // Offset: 0x109CA50
+    // Offset: 0x119AB94
     int get_multiplier();
     // public ILazyCopyHashSet`1<ICutScoreBufferDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x109CA58
+    // Offset: 0x119AB9C
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Init(in NoteCutInfo noteCutInfo, System.Int32 multiplier)
-    // Offset: 0x109CA60
+    // Offset: 0x119ABA4
     void Init(GlobalNamespace::NoteCutInfo& noteCutInfo, int multiplier);
     // private System.Void RefreshScores()
-    // Offset: 0x109CBBC
+    // Offset: 0x119AD00
     void RefreshScores();
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x109CC2C
+    // Offset: 0x119AD70
     void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x109CC30
+    // Offset: 0x119AD74
     void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
     // public System.Void .ctor()
-    // Offset: 0x109CE8C
+    // Offset: 0x119AFD0
     // Implemented from: HMAutoincrementedRequestId
     // Base method: System.Void HMAutoincrementedRequestId::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -138,5 +138,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CutScoreBuffer), 56 + sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>*)> __GlobalNamespace_CutScoreBufferSizeCheck;
   static_assert(sizeof(CutScoreBuffer) == 0x40);
+  // Writing MetadataGetter for method: CutScoreBuffer::get_scoreWithMultiplier
+  // Il2CppName: get_scoreWithMultiplier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CutScoreBuffer::*)()>(&CutScoreBuffer::get_scoreWithMultiplier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "get_scoreWithMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::get_multiplier
+  // Il2CppName: get_multiplier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CutScoreBuffer::*)()>(&CutScoreBuffer::get_multiplier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "get_multiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::get_didFinishEvent
+  // Il2CppName: get_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* (CutScoreBuffer::*)()>(&CutScoreBuffer::get_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutScoreBuffer::*)(GlobalNamespace::NoteCutInfo&, int)>(&CutScoreBuffer::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::RefreshScores
+  // Il2CppName: RefreshScores
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutScoreBuffer::*)()>(&CutScoreBuffer::RefreshScores)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "RefreshScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::HandleSaberSwingRatingCounterDidChange
+  // Il2CppName: HandleSaberSwingRatingCounterDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutScoreBuffer::*)(GlobalNamespace::ISaberSwingRatingCounter*, float)>(&CutScoreBuffer::HandleSaberSwingRatingCounterDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "HandleSaberSwingRatingCounterDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::HandleSaberSwingRatingCounterDidFinish
+  // Il2CppName: HandleSaberSwingRatingCounterDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutScoreBuffer::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&CutScoreBuffer::HandleSaberSwingRatingCounterDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CutScoreBuffer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutScoreBuffer::*)()>(&CutScoreBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CutScoreBuffer::*)()>(&CutScoreBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CutScoreBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");

@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuScenesTransitionSetupDataSO* arcadeMenuTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE13CCC
+    // [InjectAttribute] Offset: 0xE13CC8
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE13CDC
+    // [InjectAttribute] Offset: 0xE13CD8
     // private NetEaseManager _netEaseManager
     // Size: 0x8
     // Offset: 0x28
@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x23ED0BC
+    // Offset: 0x1017C38
     System::Collections::IEnumerator* Start();
     // private System.Void LoginAsync()
-    // Offset: 0x23ED158
+    // Offset: 0x1017CD4
     void LoginAsync();
     // public System.Void .ctor()
-    // Offset: 0x23ED218
+    // Offset: 0x1017D94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,5 +85,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NetEaseLoginController), 40 + sizeof(GlobalNamespace::NetEaseManager*)> __GlobalNamespace_NetEaseLoginControllerSizeCheck;
   static_assert(sizeof(NetEaseLoginController) == 0x30);
+  // Writing MetadataGetter for method: NetEaseLoginController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NetEaseLoginController::*)()>(&NetEaseLoginController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLoginController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLoginController::LoginAsync
+  // Il2CppName: LoginAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLoginController::*)()>(&NetEaseLoginController::LoginAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLoginController*), "LoginAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLoginController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLoginController::*)()>(&NetEaseLoginController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLoginController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLoginController::*)()>(&NetEaseLoginController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLoginController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController*, "", "NetEaseLoginController");

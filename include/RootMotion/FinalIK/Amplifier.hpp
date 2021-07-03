@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Amplifier::Body
     class Body;
-    // [TooltipAttribute] Offset: 0xE098C8
+    // [TooltipAttribute] Offset: 0xE0A8C4
     // public RootMotion.FinalIK.Amplifier/Body[] bodies
     // Size: 0x8
     // Offset: 0x30
@@ -37,12 +37,12 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Amplifier
     Amplifier(::Array<RootMotion::FinalIK::Amplifier::Body*>* bodies_ = {}) noexcept : bodies{bodies_} {}
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1C92C48
+    // Offset: 0x1CAE958
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::OnModifyOffset()
     void OnModifyOffset();
     // public System.Void .ctor()
-    // Offset: 0x1C931EC
+    // Offset: 0x1CAEEFC
     // Implemented from: RootMotion.FinalIK.OffsetModifier
     // Base method: System.Void OffsetModifier::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -59,5 +59,27 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(Amplifier), 48 + sizeof(::Array<RootMotion::FinalIK::Amplifier::Body*>*)> __RootMotion_FinalIK_AmplifierSizeCheck;
   static_assert(sizeof(Amplifier) == 0x38);
+  // Writing MetadataGetter for method: Amplifier::OnModifyOffset
+  // Il2CppName: OnModifyOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Amplifier::*)()>(&Amplifier::OnModifyOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Amplifier*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Amplifier::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Amplifier::*)()>(&Amplifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Amplifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Amplifier::*)()>(&Amplifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Amplifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");

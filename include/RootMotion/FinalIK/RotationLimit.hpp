@@ -24,14 +24,14 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 axis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HideInInspector] Offset: 0xE092A0
+    // [HideInInspector] Offset: 0xE0A29C
     // public UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x24
     UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xE092B0
+    // [CompilerGeneratedAttribute] Offset: 0xE0A2AC
     // private System.Boolean <defaultLocalRotationOverride>k__BackingField
     // Size: 0x1
     // Offset: 0x34
@@ -61,55 +61,55 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetDefaultLocalRotation()
-    // Offset: 0x1A8BAB4
+    // Offset: 0x1AA57C4
     void SetDefaultLocalRotation();
     // public System.Void SetDefaultLocalRotation(UnityEngine.Quaternion localRotation)
-    // Offset: 0x1A8BAFC
+    // Offset: 0x1AA580C
     void SetDefaultLocalRotation(UnityEngine::Quaternion localRotation);
     // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, out System.Boolean changed)
-    // Offset: 0x1A8BB14
+    // Offset: 0x1AA5824
     UnityEngine::Quaternion GetLimitedLocalRotation(UnityEngine::Quaternion localRotation, bool& changed);
     // public System.Boolean Apply()
-    // Offset: 0x1A8BDA8
+    // Offset: 0x1AA5AB8
     bool Apply();
     // public System.Void Disable()
-    // Offset: 0x1A8BE18
+    // Offset: 0x1AA5B28
     void Disable();
     // public UnityEngine.Vector3 get_secondaryAxis()
-    // Offset: 0x1A8BE50
+    // Offset: 0x1AA5B60
     UnityEngine::Vector3 get_secondaryAxis();
     // public UnityEngine.Vector3 get_crossAxis()
-    // Offset: 0x1A8BE8C
+    // Offset: 0x1AA5B9C
     UnityEngine::Vector3 get_crossAxis();
     // public System.Boolean get_defaultLocalRotationOverride()
-    // Offset: 0x1A8BF5C
+    // Offset: 0x1AA5C6C
     bool get_defaultLocalRotationOverride();
     // private System.Void set_defaultLocalRotationOverride(System.Boolean value)
-    // Offset: 0x1A8BF64
+    // Offset: 0x1AA5C74
     void set_defaultLocalRotationOverride(bool value);
     // protected UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0xFFFFFFFF
     UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
     // private System.Void Awake()
-    // Offset: 0x1A8BCB8
+    // Offset: 0x1AA59C8
     void Awake();
     // private System.Void LateUpdate()
-    // Offset: 0x1A8BF70
+    // Offset: 0x1AA5C80
     void LateUpdate();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x1A8BF74
+    // Offset: 0x1AA5C84
     void LogWarning(::Il2CppString* message);
     // static protected UnityEngine.Quaternion Limit1DOF(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis)
-    // Offset: 0x1A8BFA4
+    // Offset: 0x1AA5CB4
     static UnityEngine::Quaternion Limit1DOF(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis);
     // static protected UnityEngine.Quaternion LimitTwist(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis, UnityEngine.Vector3 orthoAxis, System.Single twistLimit)
-    // Offset: 0x1A8C088
+    // Offset: 0x1AA5D98
     static UnityEngine::Quaternion LimitTwist(UnityEngine::Quaternion rotation, UnityEngine::Vector3 axis, UnityEngine::Vector3 orthoAxis, float twistLimit);
     // static protected System.Single GetOrthogonalAngle(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, UnityEngine.Vector3 normal)
-    // Offset: 0x1A8C304
+    // Offset: 0x1AA6014
     static float GetOrthogonalAngle(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, UnityEngine::Vector3 normal);
     // protected System.Void .ctor()
-    // Offset: 0x1A8C3C0
+    // Offset: 0x1AA60D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -125,5 +125,147 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(RotationLimit), 55 + sizeof(bool)> __RootMotion_FinalIK_RotationLimitSizeCheck;
   static_assert(sizeof(RotationLimit) == 0x38);
+  // Writing MetadataGetter for method: RotationLimit::SetDefaultLocalRotation
+  // Il2CppName: SetDefaultLocalRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)()>(&RotationLimit::SetDefaultLocalRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "SetDefaultLocalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::SetDefaultLocalRotation
+  // Il2CppName: SetDefaultLocalRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)(UnityEngine::Quaternion)>(&RotationLimit::SetDefaultLocalRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "SetDefaultLocalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::GetLimitedLocalRotation
+  // Il2CppName: GetLimitedLocalRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimit::*)(UnityEngine::Quaternion, bool&)>(&RotationLimit::GetLimitedLocalRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "GetLimitedLocalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::Apply
+  // Il2CppName: Apply
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RotationLimit::*)()>(&RotationLimit::Apply)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::Disable
+  // Il2CppName: Disable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)()>(&RotationLimit::Disable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "Disable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::get_secondaryAxis
+  // Il2CppName: get_secondaryAxis
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimit::*)()>(&RotationLimit::get_secondaryAxis)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "get_secondaryAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::get_crossAxis
+  // Il2CppName: get_crossAxis
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RotationLimit::*)()>(&RotationLimit::get_crossAxis)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "get_crossAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::get_defaultLocalRotationOverride
+  // Il2CppName: get_defaultLocalRotationOverride
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RotationLimit::*)()>(&RotationLimit::get_defaultLocalRotationOverride)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "get_defaultLocalRotationOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::set_defaultLocalRotationOverride
+  // Il2CppName: set_defaultLocalRotationOverride
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)(bool)>(&RotationLimit::set_defaultLocalRotationOverride)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "set_defaultLocalRotationOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::LimitRotation
+  // Il2CppName: LimitRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimit::*)(UnityEngine::Quaternion)>(&RotationLimit::LimitRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)()>(&RotationLimit::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)()>(&RotationLimit::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::LogWarning
+  // Il2CppName: LogWarning
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)(::Il2CppString*)>(&RotationLimit::LogWarning)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::Limit1DOF
+  // Il2CppName: Limit1DOF
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&RotationLimit::Limit1DOF)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "Limit1DOF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::LimitTwist
+  // Il2CppName: LimitTwist
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RotationLimit::LimitTwist)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "LimitTwist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::GetOrthogonalAngle
+  // Il2CppName: GetOrthogonalAngle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RotationLimit::GetOrthogonalAngle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), "GetOrthogonalAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotationLimit::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)()>(&RotationLimit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimit::*)()>(&RotationLimit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotationLimit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");

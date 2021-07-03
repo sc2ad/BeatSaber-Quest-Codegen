@@ -56,49 +56,49 @@ namespace RootMotion::FinalIK {
     ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* eyes;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*) == 0x8);
-    // [RangeAttribute] Offset: 0xE0869C
+    // [RangeAttribute] Offset: 0xE09698
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x78
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE086B4
+    // [RangeAttribute] Offset: 0xE096B0
     // public System.Single headWeight
     // Size: 0x4
     // Offset: 0x7C
     float headWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE086CC
+    // [RangeAttribute] Offset: 0xE096C8
     // public System.Single eyesWeight
     // Size: 0x4
     // Offset: 0x80
     float eyesWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE086E4
+    // [RangeAttribute] Offset: 0xE096E0
     // public System.Single clampWeight
     // Size: 0x4
     // Offset: 0x84
     float clampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE086FC
+    // [RangeAttribute] Offset: 0xE096F8
     // public System.Single clampWeightHead
     // Size: 0x4
     // Offset: 0x88
     float clampWeightHead;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE08714
+    // [RangeAttribute] Offset: 0xE09710
     // public System.Single clampWeightEyes
     // Size: 0x4
     // Offset: 0x8C
     float clampWeightEyes;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE0872C
+    // [RangeAttribute] Offset: 0xE09728
     // public System.Int32 clampSmoothing
     // Size: 0x4
     // Offset: 0x90
@@ -142,96 +142,96 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKSolverLookAt
     IKSolverLookAt(UnityEngine::Transform* target_ = {}, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* spine_ = {}, RootMotion::FinalIK::IKSolverLookAt::LookAtBone* head_ = {}, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>* eyes_ = {}, float bodyWeight_ = {}, float headWeight_ = {}, float eyesWeight_ = {}, float clampWeight_ = {}, float clampWeightHead_ = {}, float clampWeightEyes_ = {}, int clampSmoothing_ = {}, UnityEngine::AnimationCurve* spineWeightCurve_ = {}, UnityEngine::Vector3 spineTargetOffset_ = {}, ::Array<UnityEngine::Vector3>* spineForwards_ = {}, ::Array<UnityEngine::Vector3>* headForwards_ = {}, ::Array<UnityEngine::Vector3>* eyeForward_ = {}) noexcept : target{target_}, spine{spine_}, head{head_}, eyes{eyes_}, bodyWeight{bodyWeight_}, headWeight{headWeight_}, eyesWeight{eyesWeight_}, clampWeight{clampWeight_}, clampWeightHead{clampWeightHead_}, clampWeightEyes{clampWeightEyes_}, clampSmoothing{clampSmoothing_}, spineWeightCurve{spineWeightCurve_}, spineTargetOffset{spineTargetOffset_}, spineForwards{spineForwards_}, headForwards{headForwards_}, eyeForward{eyeForward_} {}
     // public System.Void SetLookAtWeight(System.Single weight)
-    // Offset: 0x1BE41A4
+    // Offset: 0x1BFFEB4
     void SetLookAtWeight(float weight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight)
-    // Offset: 0x1BE4228
+    // Offset: 0x1BFFF38
     void SetLookAtWeight(float weight, float bodyWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight)
-    // Offset: 0x1BE42D4
+    // Offset: 0x1BFFFE4
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight)
-    // Offset: 0x1BE439C
+    // Offset: 0x1C000AC
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight)
-    // Offset: 0x1BE4488
+    // Offset: 0x1C00198
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight, System.Single clampWeightHead, System.Single clampWeightEyes)
-    // Offset: 0x1BE4594
+    // Offset: 0x1C002A4
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight, float clampWeightHead, float clampWeightEyes);
     // public System.Boolean SetChain(UnityEngine.Transform[] spine, UnityEngine.Transform head, UnityEngine.Transform[] eyes, UnityEngine.Transform root)
-    // Offset: 0x1BE5158
+    // Offset: 0x1C00E68
     bool SetChain(::Array<UnityEngine::Transform*>* spine, UnityEngine::Transform* head, ::Array<UnityEngine::Transform*>* eyes, UnityEngine::Transform* root);
     // protected System.Boolean get_spineIsValid()
-    // Offset: 0x1BE4AE4
+    // Offset: 0x1C007F4
     bool get_spineIsValid();
     // protected System.Boolean get_spineIsEmpty()
-    // Offset: 0x1BE4CBC
+    // Offset: 0x1C009CC
     bool get_spineIsEmpty();
     // protected System.Void SolveSpine()
-    // Offset: 0x1BE58FC
+    // Offset: 0x1C0160C
     void SolveSpine();
     // protected System.Boolean get_headIsValid()
-    // Offset: 0x1BE4BC8
+    // Offset: 0x1C008D8
     bool get_headIsValid();
     // protected System.Boolean get_headIsEmpty()
-    // Offset: 0x1BE4CE0
+    // Offset: 0x1C009F0
     bool get_headIsEmpty();
     // protected System.Void SolveHead()
-    // Offset: 0x1BE5B28
+    // Offset: 0x1C01838
     void SolveHead();
     // protected System.Boolean get_eyesIsValid()
-    // Offset: 0x1BE4BD8
+    // Offset: 0x1C008E8
     bool get_eyesIsValid();
     // protected System.Boolean get_eyesIsEmpty()
-    // Offset: 0x1BE4D5C
+    // Offset: 0x1C00A6C
     bool get_eyesIsEmpty();
     // protected System.Void SolveEyes()
-    // Offset: 0x1BE5D84
+    // Offset: 0x1C01A94
     void SolveEyes();
     // protected UnityEngine.Vector3[] GetForwards(ref UnityEngine.Vector3[] forwards, UnityEngine.Vector3 baseForward, UnityEngine.Vector3 targetForward, System.Int32 bones, System.Single clamp)
-    // Offset: 0x1BE62B0
+    // Offset: 0x1C01FC0
     ::Array<UnityEngine::Vector3>* GetForwards(::Array<UnityEngine::Vector3>*& forwards, UnityEngine::Vector3 baseForward, UnityEngine::Vector3 targetForward, int bones, float clamp);
     // protected System.Void SetBones(UnityEngine.Transform[] array, ref RootMotion.FinalIK.IKSolverLookAt/LookAtBone[] bones)
-    // Offset: 0x1BE5208
+    // Offset: 0x1C00F18
     void SetBones(::Array<UnityEngine::Transform*>* array, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*& bones);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1BE46DC
+    // Offset: 0x1C003EC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1BE480C
+    // Offset: 0x1C0051C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1BE4950
+    // Offset: 0x1C00660
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // public override RootMotion.FinalIK.IKSolver/Point[] GetPoints()
-    // Offset: 0x1BE4D80
+    // Offset: 0x1C00A90
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point[] IKSolver::GetPoints()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1BE4FB8
+    // Offset: 0x1C00CC8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1BE53AC
+    // Offset: 0x1C010BC
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1BE57F8
+    // Offset: 0x1C01508
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1BE6750
+    // Offset: 0x1C02460
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -244,5 +244,219 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolverLookAt), 192 + sizeof(::Array<UnityEngine::Vector3>*)> __RootMotion_FinalIK_IKSolverLookAtSizeCheck;
   static_assert(sizeof(IKSolverLookAt) == 0xC8);
+  // Writing MetadataGetter for method: IKSolverLookAt::SetLookAtWeight
+  // Il2CppName: SetLookAtWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(float)>(&IKSolverLookAt::SetLookAtWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetLookAtWeight
+  // Il2CppName: SetLookAtWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(float, float)>(&IKSolverLookAt::SetLookAtWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetLookAtWeight
+  // Il2CppName: SetLookAtWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(float, float, float)>(&IKSolverLookAt::SetLookAtWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetLookAtWeight
+  // Il2CppName: SetLookAtWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(float, float, float, float)>(&IKSolverLookAt::SetLookAtWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetLookAtWeight
+  // Il2CppName: SetLookAtWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(float, float, float, float, float)>(&IKSolverLookAt::SetLookAtWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetLookAtWeight
+  // Il2CppName: SetLookAtWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(float, float, float, float, float, float, float)>(&IKSolverLookAt::SetLookAtWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetChain
+  // Il2CppName: SetChain
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*, UnityEngine::Transform*)>(&IKSolverLookAt::SetChain)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::get_spineIsValid
+  // Il2CppName: get_spineIsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)()>(&IKSolverLookAt::get_spineIsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "get_spineIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::get_spineIsEmpty
+  // Il2CppName: get_spineIsEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)()>(&IKSolverLookAt::get_spineIsEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "get_spineIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SolveSpine
+  // Il2CppName: SolveSpine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::SolveSpine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SolveSpine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::get_headIsValid
+  // Il2CppName: get_headIsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)()>(&IKSolverLookAt::get_headIsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "get_headIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::get_headIsEmpty
+  // Il2CppName: get_headIsEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)()>(&IKSolverLookAt::get_headIsEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "get_headIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SolveHead
+  // Il2CppName: SolveHead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::SolveHead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SolveHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::get_eyesIsValid
+  // Il2CppName: get_eyesIsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)()>(&IKSolverLookAt::get_eyesIsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "get_eyesIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::get_eyesIsEmpty
+  // Il2CppName: get_eyesIsEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)()>(&IKSolverLookAt::get_eyesIsEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "get_eyesIsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SolveEyes
+  // Il2CppName: SolveEyes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::SolveEyes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SolveEyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::GetForwards
+  // Il2CppName: GetForwards
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (IKSolverLookAt::*)(::Array<UnityEngine::Vector3>*&, UnityEngine::Vector3, UnityEngine::Vector3, int, float)>(&IKSolverLookAt::GetForwards)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "GetForwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::SetBones
+  // Il2CppName: SetBones
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*&)>(&IKSolverLookAt::SetBones)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::StoreDefaultLocalState
+  // Il2CppName: StoreDefaultLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::StoreDefaultLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::FixTransforms
+  // Il2CppName: FixTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::FixTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverLookAt::*)(::Il2CppString*&)>(&IKSolverLookAt::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::GetPoints
+  // Il2CppName: GetPoints
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (IKSolverLookAt::*)()>(&IKSolverLookAt::GetPoints)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::GetPoint
+  // Il2CppName: GetPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Point* (IKSolverLookAt::*)(UnityEngine::Transform*)>(&IKSolverLookAt::GetPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::OnInitiate
+  // Il2CppName: OnInitiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::OnInitiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::OnUpdate
+  // Il2CppName: OnUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::OnUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverLookAt::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverLookAt::*)()>(&IKSolverLookAt::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverLookAt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt*, "RootMotion.FinalIK", "IKSolverLookAt");

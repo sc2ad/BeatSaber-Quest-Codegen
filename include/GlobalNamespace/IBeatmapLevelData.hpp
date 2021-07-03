@@ -37,6 +37,22 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
   }; // IBeatmapLevelData
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IBeatmapLevelData::get_audioClip
+  // Il2CppName: get_audioClip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (IBeatmapLevelData::*)()>(&IBeatmapLevelData::get_audioClip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBeatmapLevelData*), "get_audioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IBeatmapLevelData::get_difficultyBeatmapSets
+  // Il2CppName: get_difficultyBeatmapSets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IDifficultyBeatmapSet*>* (IBeatmapLevelData::*)()>(&IBeatmapLevelData::get_difficultyBeatmapSets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBeatmapLevelData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelData*, "", "IBeatmapLevelData");

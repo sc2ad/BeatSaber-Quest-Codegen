@@ -44,34 +44,106 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509Helper2
     X509Helper2() noexcept {}
     // static System.Void Initialize()
-    // Offset: 0x183A390
+    // Offset: 0x18520A0
     static void Initialize();
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
-    // Offset: 0x182E1DC
+    // Offset: 0x1845EEC
     static void ThrowIfContextInvalid(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // static System.Security.Cryptography.X509Certificates.X509Certificate2Impl Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags, System.Boolean disableProvider)
-    // Offset: 0x182E7C4
+    // Offset: 0x18464D4
     static System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::Array<uint8_t>* rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags, bool disableProvider);
     // static System.Security.Cryptography.X509Certificates.X509Certificate2Impl Import(System.Security.Cryptography.X509Certificates.X509Certificate cert, System.Boolean disableProvider)
-    // Offset: 0x182E3E0
+    // Offset: 0x18460F0
     static System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(System::Security::Cryptography::X509Certificates::X509Certificate* cert, bool disableProvider);
     // static Mono.Security.X509.X509Certificate GetMonoCertificate(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x182EF10
+    // Offset: 0x1846C20
     static Mono::Security::X509::X509Certificate* GetMonoCertificate(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static System.Security.Cryptography.X509Certificates.X509ChainImpl CreateChainImpl(System.Boolean useMachineContext)
-    // Offset: 0x1834C08
+    // Offset: 0x184C918
     static System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
     // static public System.Boolean IsValid(System.Security.Cryptography.X509Certificates.X509ChainImpl impl)
-    // Offset: 0x183A3F8
+    // Offset: 0x1852108
     static bool IsValid(System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
     // static System.Void ThrowIfContextInvalid(System.Security.Cryptography.X509Certificates.X509ChainImpl impl)
-    // Offset: 0x1834B38
+    // Offset: 0x184C848
     static void ThrowIfContextInvalid(System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
     // static System.Exception GetInvalidChainContextException()
-    // Offset: 0x183A40C
+    // Offset: 0x185211C
     static System::Exception* GetInvalidChainContextException();
   }; // System.Security.Cryptography.X509Certificates.X509Helper2
   #pragma pack(pop)
+  // Writing MetadataGetter for method: X509Helper2::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X509Helper2::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::ThrowIfContextInvalid
+  // Il2CppName: ThrowIfContextInvalid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509CertificateImpl*)>(&X509Helper2::ThrowIfContextInvalid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "ThrowIfContextInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::Import
+  // Il2CppName: Import
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (*)(::Array<uint8_t>*, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, bool)>(&X509Helper2::Import)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509KeyStorageFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::Import
+  // Il2CppName: Import
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (*)(System::Security::Cryptography::X509Certificates::X509Certificate*, bool)>(&X509Helper2::Import)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::GetMonoCertificate
+  // Il2CppName: GetMonoCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509Helper2::GetMonoCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "GetMonoCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::CreateChainImpl
+  // Il2CppName: CreateChainImpl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainImpl* (*)(bool)>(&X509Helper2::CreateChainImpl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "CreateChainImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::X509Certificates::X509ChainImpl*)>(&X509Helper2::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainImpl*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::ThrowIfContextInvalid
+  // Il2CppName: ThrowIfContextInvalid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509ChainImpl*)>(&X509Helper2::ThrowIfContextInvalid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "ThrowIfContextInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainImpl*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Helper2::GetInvalidChainContextException
+  // Il2CppName: GetInvalidChainContextException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&X509Helper2::GetInvalidChainContextException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Helper2*), "GetInvalidChainContextException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Helper2*, "System.Security.Cryptography.X509Certificates", "X509Helper2");

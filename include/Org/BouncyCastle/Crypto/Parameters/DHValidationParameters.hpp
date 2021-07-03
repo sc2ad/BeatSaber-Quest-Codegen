@@ -31,22 +31,22 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Creating value type constructor for type: DHValidationParameters
     DHValidationParameters(::Array<uint8_t>* seed_ = {}, int counter_ = {}) noexcept : seed{seed_}, counter{counter_} {}
     // public System.Void .ctor(System.Byte[] seed, System.Int32 counter)
-    // Offset: 0x123BD4C
+    // Offset: 0x1258A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParameters* New_ctor(::Array<uint8_t>* seed, int counter) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
-    // Offset: 0x123BED8
+    // Offset: 0x1258BE8
     bool Equals(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x123BE28
+    // Offset: 0x1258B38
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x123BF84
+    // Offset: 0x1258C94
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -54,5 +54,43 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   #pragma pack(pop)
   static check_size<sizeof(DHValidationParameters), 24 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_DHValidationParametersSizeCheck;
   static_assert(sizeof(DHValidationParameters) == 0x1C);
+  // Writing MetadataGetter for method: DHValidationParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHValidationParameters::*)(::Array<uint8_t>*, int)>(&DHValidationParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHValidationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHValidationParameters::*)(::Array<uint8_t>*, int)>(&DHValidationParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHValidationParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHValidationParameters::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DHValidationParameters::*)(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*)>(&DHValidationParameters::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHValidationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHValidationParameters::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DHValidationParameters::*)(::Il2CppObject*)>(&DHValidationParameters::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHValidationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHValidationParameters::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DHValidationParameters::*)()>(&DHValidationParameters::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHValidationParameters*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");

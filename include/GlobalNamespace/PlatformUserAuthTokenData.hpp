@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlatformUserAuthTokenData::PlatformEnviroment), 0 + sizeof(uint8_t)> __GlobalNamespace_PlatformUserAuthTokenData_PlatformEnviromentSizeCheck;
     static_assert(sizeof(PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xE18164
+    // [CompilerGeneratedAttribute] Offset: 0xE18140
     // private System.String <token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* token;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE18174
+    // [CompilerGeneratedAttribute] Offset: 0xE18150
     // private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -86,19 +86,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlatformUserAuthTokenData
     PlatformUserAuthTokenData(::Il2CppString* token_ = {}, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment_ = {}) noexcept : token{token_}, validPlatformEnvironment{validPlatformEnvironment_} {}
     // public System.String get_token()
-    // Offset: 0x100E5A0
+    // Offset: 0x1052B5C
     ::Il2CppString* get_token();
     // private System.Void set_token(System.String value)
-    // Offset: 0x100E5A8
+    // Offset: 0x1052B64
     void set_token(::Il2CppString* value);
     // public PlatformUserAuthTokenData/PlatformEnviroment get_validPlatformEnvironment()
-    // Offset: 0x100E5B0
+    // Offset: 0x1052B6C
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment get_validPlatformEnvironment();
     // private System.Void set_validPlatformEnvironment(PlatformUserAuthTokenData/PlatformEnviroment value)
-    // Offset: 0x100E5B8
+    // Offset: 0x1052B74
     void set_validPlatformEnvironment(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment value);
     // public System.Void .ctor(System.String token, PlatformUserAuthTokenData/PlatformEnviroment validPlatformEnvironment)
-    // Offset: 0x100E5C0
+    // Offset: 0x1052B7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformUserAuthTokenData* New_ctor(::Il2CppString* token, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformUserAuthTokenData::.ctor");
@@ -108,6 +108,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlatformUserAuthTokenData), 24 + sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)> __GlobalNamespace_PlatformUserAuthTokenDataSizeCheck;
   static_assert(sizeof(PlatformUserAuthTokenData) == 0x19);
+  // Writing MetadataGetter for method: PlatformUserAuthTokenData::get_token
+  // Il2CppName: get_token
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlatformUserAuthTokenData::*)()>(&PlatformUserAuthTokenData::get_token)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformUserAuthTokenData*), "get_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformUserAuthTokenData::set_token
+  // Il2CppName: set_token
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformUserAuthTokenData::*)(::Il2CppString*)>(&PlatformUserAuthTokenData::set_token)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformUserAuthTokenData*), "set_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformUserAuthTokenData::get_validPlatformEnvironment
+  // Il2CppName: get_validPlatformEnvironment
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment (PlatformUserAuthTokenData::*)()>(&PlatformUserAuthTokenData::get_validPlatformEnvironment)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformUserAuthTokenData*), "get_validPlatformEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformUserAuthTokenData::set_validPlatformEnvironment
+  // Il2CppName: set_validPlatformEnvironment
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformUserAuthTokenData::*)(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)>(&PlatformUserAuthTokenData::set_validPlatformEnvironment)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformUserAuthTokenData*), "set_validPlatformEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformUserAuthTokenData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformUserAuthTokenData::*)(::Il2CppString*, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)>(&PlatformUserAuthTokenData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformUserAuthTokenData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformUserAuthTokenData::*)(::Il2CppString*, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)>(&PlatformUserAuthTokenData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformUserAuthTokenData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "PlatformUserAuthTokenData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment, "", "PlatformUserAuthTokenData/PlatformEnviroment");

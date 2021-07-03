@@ -92,42 +92,128 @@ namespace Mono::Net {
     // Set static field: static private System.IntPtr kCFProxyTypeSOCKS
     static void _set_kCFProxyTypeSOCKS(System::IntPtr value);
     // static private System.Void .cctor()
-    // Offset: 0x15D3B5C
+    // Offset: 0x15EC86C
     static void _cctor();
     // System.Void .ctor(Mono.Net.CFDictionary settings)
-    // Offset: 0x15D1830
+    // Offset: 0x15EA540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CFProxy* New_ctor(Mono::Net::CFDictionary* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::CFProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CFProxy*, creationType>(settings)));
     }
     // static private Mono.Net.CFProxyType CFProxyTypeToEnum(System.IntPtr type)
-    // Offset: 0x15D3D58
+    // Offset: 0x15ECA68
     static Mono::Net::CFProxyType CFProxyTypeToEnum(System::IntPtr type);
     // public System.IntPtr get_AutoConfigurationJavaScript()
-    // Offset: 0x15D3458
+    // Offset: 0x15EC168
     System::IntPtr get_AutoConfigurationJavaScript();
     // public System.IntPtr get_AutoConfigurationUrl()
-    // Offset: 0x15D3518
+    // Offset: 0x15EC228
     System::IntPtr get_AutoConfigurationUrl();
     // public System.String get_HostName()
-    // Offset: 0x15D2DBC
+    // Offset: 0x15EBACC
     ::Il2CppString* get_HostName();
     // public System.String get_Password()
-    // Offset: 0x15D2CF8
+    // Offset: 0x15EBA08
     ::Il2CppString* get_Password();
     // public System.Int32 get_Port()
-    // Offset: 0x15D2E80
+    // Offset: 0x15EBB90
     int get_Port();
     // public Mono.Net.CFProxyType get_ProxyType()
-    // Offset: 0x15D2B70
+    // Offset: 0x15EB880
     Mono::Net::CFProxyType get_ProxyType();
     // public System.String get_Username()
-    // Offset: 0x15D2C34
+    // Offset: 0x15EB944
     ::Il2CppString* get_Username();
   }; // Mono.Net.CFProxy
   #pragma pack(pop)
   static check_size<sizeof(CFProxy), 16 + sizeof(Mono::Net::CFDictionary*)> __Mono_Net_CFProxySizeCheck;
   static_assert(sizeof(CFProxy) == 0x18);
+  // Writing MetadataGetter for method: CFProxy::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CFProxy::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFProxy::*)(Mono::Net::CFDictionary*)>(&CFProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFProxy::*)(Mono::Net::CFDictionary*)>(&CFProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::CFProxyTypeToEnum
+  // Il2CppName: CFProxyTypeToEnum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (*)(System::IntPtr)>(&CFProxy::CFProxyTypeToEnum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "CFProxyTypeToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_AutoConfigurationJavaScript
+  // Il2CppName: get_AutoConfigurationJavaScript
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (CFProxy::*)()>(&CFProxy::get_AutoConfigurationJavaScript)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_AutoConfigurationJavaScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_AutoConfigurationUrl
+  // Il2CppName: get_AutoConfigurationUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (CFProxy::*)()>(&CFProxy::get_AutoConfigurationUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_AutoConfigurationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_HostName
+  // Il2CppName: get_HostName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CFProxy::*)()>(&CFProxy::get_HostName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_Password
+  // Il2CppName: get_Password
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CFProxy::*)()>(&CFProxy::get_Password)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_Port
+  // Il2CppName: get_Port
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CFProxy::*)()>(&CFProxy::get_Port)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_ProxyType
+  // Il2CppName: get_ProxyType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (CFProxy::*)()>(&CFProxy::get_ProxyType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_ProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CFProxy::get_Username
+  // Il2CppName: get_Username
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CFProxy::*)()>(&CFProxy::get_Username)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");

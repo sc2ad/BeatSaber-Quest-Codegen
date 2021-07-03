@@ -53,24 +53,62 @@ namespace Mono::Security::X509 {
     // Creating value type constructor for type: X509CrlEntry
     X509CrlEntry(::Array<uint8_t>* sn_ = {}, System::DateTime revocationDate_ = {}, Mono::Security::X509::X509ExtensionCollection* extensions_ = {}) noexcept : sn{sn_}, revocationDate{revocationDate_}, extensions{extensions_} {}
     // System.Void .ctor(Mono.Security.ASN1 entry)
-    // Offset: 0x238EDA8
+    // Offset: 0x23A93DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl::X509CrlEntry*, creationType>(entry)));
     }
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x238F2AC
+    // Offset: 0x23A98E0
     ::Array<uint8_t>* get_SerialNumber();
     // public System.DateTime get_RevocationDate()
-    // Offset: 0x238F81C
+    // Offset: 0x23A9E50
     System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x238F824
+    // Offset: 0x23A9E58
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
   }; // Mono.Security.X509.X509Crl/X509CrlEntry
   #pragma pack(pop)
   static check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
   static_assert(sizeof(X509Crl::X509CrlEntry) == 0x28);
+  // Writing MetadataGetter for method: X509Crl::X509CrlEntry::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Crl::X509CrlEntry::*)(Mono::Security::ASN1*)>(&X509Crl::X509CrlEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl::X509CrlEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Crl::X509CrlEntry::*)(Mono::Security::ASN1*)>(&X509Crl::X509CrlEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl::X509CrlEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::X509CrlEntry::get_SerialNumber
+  // Il2CppName: get_SerialNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509Crl::X509CrlEntry::*)()>(&X509Crl::X509CrlEntry::get_SerialNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl::X509CrlEntry*), "get_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::X509CrlEntry::get_RevocationDate
+  // Il2CppName: get_RevocationDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (X509Crl::X509CrlEntry::*)()>(&X509Crl::X509CrlEntry::get_RevocationDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl::X509CrlEntry*), "get_RevocationDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::X509CrlEntry::get_Extensions
+  // Il2CppName: get_Extensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509ExtensionCollection* (X509Crl::X509CrlEntry::*)()>(&X509Crl::X509CrlEntry::get_Extensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl::X509CrlEntry*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");

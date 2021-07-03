@@ -69,28 +69,28 @@ namespace MasterServer {
     // Creating value type constructor for type: ConnectToMatchmakingServerRequest
     ConnectToMatchmakingServerRequest(GlobalNamespace::GameplayServerConfiguration configuration_ = {}, ::Il2CppString* secret_ = {}, ::Il2CppString* code_ = {}, GlobalNamespace::DiscoveryPolicy discoveryPolicy_ = {}) noexcept : configuration{configuration_}, secret{secret_}, code{code_}, discoveryPolicy{discoveryPolicy_} {}
     // static public IVersionedPacketPool`1<MasterServer.ConnectToMatchmakingServerRequest> get_pool()
-    // Offset: 0x12BE11C
+    // Offset: 0x12D8E2C
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::ConnectToMatchmakingServerRequest*>* get_pool();
     // public MasterServer.ConnectToMatchmakingServerRequest Init(System.String userId, System.String userName, GameplayServerConfiguration configuration, DiscoveryPolicy discoveryPolicy, System.String secret, System.String code)
-    // Offset: 0x12BE164
+    // Offset: 0x12D8E74
     MasterServer::ConnectToMatchmakingServerRequest* Init(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::Il2CppString* secret, ::Il2CppString* code);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12BE184
+    // Offset: 0x12D8E94
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12BE1CC
+    // Offset: 0x12D8EDC
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12BE238
+    // Offset: 0x12D8F48
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x12BE2FC
+    // Offset: 0x12D900C
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
@@ -104,5 +104,59 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(ConnectToMatchmakingServerRequest), 96 + sizeof(GlobalNamespace::DiscoveryPolicy)> __MasterServer_ConnectToMatchmakingServerRequestSizeCheck;
   static_assert(sizeof(ConnectToMatchmakingServerRequest) == 0x61);
+  // Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IVersionedPacketPool_1<MasterServer::ConnectToMatchmakingServerRequest*>* (*)()>(&ConnectToMatchmakingServerRequest::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToMatchmakingServerRequest* (ConnectToMatchmakingServerRequest::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&ConnectToMatchmakingServerRequest::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectToMatchmakingServerRequest::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectToMatchmakingServerRequest::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)()>(&ConnectToMatchmakingServerRequest::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectToMatchmakingServerRequest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)()>(&ConnectToMatchmakingServerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectToMatchmakingServerRequest::*)()>(&ConnectToMatchmakingServerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectToMatchmakingServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToMatchmakingServerRequest*, "MasterServer", "ConnectToMatchmakingServerRequest");

@@ -91,50 +91,148 @@ namespace System::IO {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // System.Void .ctor(System.Int32 bytesRead, System.Object asyncStateObject)
-    // Offset: 0x1941730
+    // Offset: 0x1958440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(int bytesRead, ::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(bytesRead, asyncStateObject)));
     }
     // System.Void .ctor(System.Object asyncStateObject)
-    // Offset: 0x1941864
+    // Offset: 0x1958574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(::Il2CppObject* asyncStateObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(asyncStateObject)));
     }
     // System.Void .ctor(System.Exception ex, System.Object asyncStateObject, System.Boolean isWrite)
-    // Offset: 0x194176C
+    // Offset: 0x195847C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::SynchronousAsyncResult* New_ctor(System::Exception* ex, ::Il2CppObject* asyncStateObject, bool isWrite) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::SynchronousAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::SynchronousAsyncResult*, creationType>(ex, asyncStateObject, isWrite)));
     }
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x194271C
+    // Offset: 0x195942C
     bool get_IsCompleted();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1942724
+    // Offset: 0x1959434
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
-    // Offset: 0x1942814
+    // Offset: 0x1959524
     ::Il2CppObject* get_AsyncState();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x194281C
+    // Offset: 0x195952C
     bool get_CompletedSynchronously();
     // System.Void ThrowIfError()
-    // Offset: 0x1942824
+    // Offset: 0x1959534
     void ThrowIfError();
     // static System.Int32 EndRead(System.IAsyncResult asyncResult)
-    // Offset: 0x19417C0
+    // Offset: 0x19584D0
     static int EndRead(System::IAsyncResult* asyncResult);
     // static System.Void EndWrite(System.IAsyncResult asyncResult)
-    // Offset: 0x1941898
+    // Offset: 0x19585A8
     static void EndWrite(System::IAsyncResult* asyncResult);
   }; // System.IO.Stream/SynchronousAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(Stream::SynchronousAsyncResult), 52 + sizeof(int)> __System_IO_Stream_SynchronousAsyncResultSizeCheck;
   static_assert(sizeof(Stream::SynchronousAsyncResult) == 0x38);
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)(int, ::Il2CppObject*)>(&Stream::SynchronousAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)(int, ::Il2CppObject*)>(&Stream::SynchronousAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)(::Il2CppObject*)>(&Stream::SynchronousAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)(::Il2CppObject*)>(&Stream::SynchronousAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)(System::Exception*, ::Il2CppObject*, bool)>(&Stream::SynchronousAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)(System::Exception*, ::Il2CppObject*, bool)>(&Stream::SynchronousAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::get_IsCompleted
+  // Il2CppName: get_IsCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Stream::SynchronousAsyncResult::*)()>(&Stream::SynchronousAsyncResult::get_IsCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::get_AsyncWaitHandle
+  // Il2CppName: get_AsyncWaitHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (Stream::SynchronousAsyncResult::*)()>(&Stream::SynchronousAsyncResult::get_AsyncWaitHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::get_AsyncState
+  // Il2CppName: get_AsyncState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Stream::SynchronousAsyncResult::*)()>(&Stream::SynchronousAsyncResult::get_AsyncState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::get_CompletedSynchronously
+  // Il2CppName: get_CompletedSynchronously
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Stream::SynchronousAsyncResult::*)()>(&Stream::SynchronousAsyncResult::get_CompletedSynchronously)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::ThrowIfError
+  // Il2CppName: ThrowIfError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Stream::SynchronousAsyncResult::*)()>(&Stream::SynchronousAsyncResult::ThrowIfError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "ThrowIfError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::EndRead
+  // Il2CppName: EndRead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IAsyncResult*)>(&Stream::SynchronousAsyncResult::EndRead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Stream::SynchronousAsyncResult::EndWrite
+  // Il2CppName: EndWrite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&Stream::SynchronousAsyncResult::EndWrite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Stream::SynchronousAsyncResult*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::SynchronousAsyncResult*, "System.IO", "Stream/SynchronousAsyncResult");

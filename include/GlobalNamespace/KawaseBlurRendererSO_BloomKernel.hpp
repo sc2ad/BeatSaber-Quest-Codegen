@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomKernel
     BloomKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize_ = {}, int sharedPartWithNext_ = {}) noexcept : kernelSize{kernelSize_}, sharedPartWithNext{sharedPartWithNext_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D6F800
+    // Offset: 0x1D8A510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,5 +47,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(KawaseBlurRendererSO::BloomKernel), 20 + sizeof(int)> __GlobalNamespace_KawaseBlurRendererSO_BloomKernelSizeCheck;
   static_assert(sizeof(KawaseBlurRendererSO::BloomKernel) == 0x18);
+  // Writing MetadataGetter for method: KawaseBlurRendererSO::BloomKernel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBlurRendererSO::BloomKernel::*)()>(&KawaseBlurRendererSO::BloomKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KawaseBlurRendererSO::BloomKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBlurRendererSO::BloomKernel::*)()>(&KawaseBlurRendererSO::BloomKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KawaseBlurRendererSO::BloomKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");

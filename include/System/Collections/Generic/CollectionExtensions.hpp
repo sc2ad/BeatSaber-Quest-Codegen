@@ -47,5 +47,11 @@ namespace System::Collections::Generic {
     }
   }; // System.Collections.Generic.CollectionExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CollectionExtensions::GetValueOrDefault
+  // Il2CppName: GetValueOrDefault
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: CollectionExtensions::GetValueOrDefault
+  // Il2CppName: GetValueOrDefault
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");

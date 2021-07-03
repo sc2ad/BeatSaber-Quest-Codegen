@@ -24,6 +24,30 @@ namespace UnityEngine::Timeline {
     void OnControlTimeStop();
   }; // UnityEngine.Timeline.ITimeControl
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ITimeControl::SetTime
+  // Il2CppName: SetTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITimeControl::*)(double)>(&ITimeControl::SetTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITimeControl*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: ITimeControl::OnControlTimeStart
+  // Il2CppName: OnControlTimeStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITimeControl::*)()>(&ITimeControl::OnControlTimeStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITimeControl*), "OnControlTimeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ITimeControl::OnControlTimeStop
+  // Il2CppName: OnControlTimeStop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITimeControl::*)()>(&ITimeControl::OnControlTimeStop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITimeControl*), "OnControlTimeStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeline", "ITimeControl");

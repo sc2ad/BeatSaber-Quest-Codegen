@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* failAudioPitchGainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1FAEC
+    // [InjectAttribute] Offset: 0xE1FAC8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -68,43 +68,43 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);
     }
     // public System.Single get_songLength()
-    // Offset: 0x10422D0
+    // Offset: 0x1086F5C
     float get_songLength();
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
-    // Offset: 0x10422EC
+    // Offset: 0x1086F78
     UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // protected System.Void LateUpdate()
-    // Offset: 0x1042308
+    // Offset: 0x1086F94
     void LateUpdate();
     // public System.Void StartSong(System.Single songTimeOffset)
-    // Offset: 0x1042380
+    // Offset: 0x108700C
     void StartSong(float songTimeOffset);
     // public System.Void FailStopSong()
-    // Offset: 0x1042548
+    // Offset: 0x10871D4
     void FailStopSong();
     // public System.Void SeekTo(System.Single songTime)
-    // Offset: 0x104270C
+    // Offset: 0x1087398
     void SeekTo(float songTime);
     // private System.Void <FailStopSong>b__13_0()
-    // Offset: 0x1042730
+    // Offset: 0x10873BC
     void $FailStopSong$b__13_0();
     // public override System.Void StopSong()
-    // Offset: 0x10423A4
+    // Offset: 0x1087030
     // Implemented from: SongController
     // Base method: System.Void SongController::StopSong()
     void StopSong();
     // public override System.Void PauseSong()
-    // Offset: 0x10423C0
+    // Offset: 0x108704C
     // Implemented from: SongController
     // Base method: System.Void SongController::PauseSong()
     void PauseSong();
     // public override System.Void ResumeSong()
-    // Offset: 0x1042484
+    // Offset: 0x1087110
     // Implemented from: SongController
     // Base method: System.Void SongController::ResumeSong()
     void ResumeSong();
     // public System.Void .ctor()
-    // Offset: 0x1042728
+    // Offset: 0x10873B4
     // Implemented from: SongController
     // Base method: System.Void SongController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -121,5 +121,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameSongController), 56 + sizeof(bool)> __GlobalNamespace_GameSongControllerSizeCheck;
   static_assert(sizeof(GameSongController) == 0x39);
+  // Writing MetadataGetter for method: GameSongController::get_songLength
+  // Il2CppName: get_songLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameSongController::*)()>(&GameSongController::get_songLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "get_songLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::get_waitUntilIsReadyToStartTheSong
+  // Il2CppName: get_waitUntilIsReadyToStartTheSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::WaitUntil* (GameSongController::*)()>(&GameSongController::get_waitUntilIsReadyToStartTheSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "get_waitUntilIsReadyToStartTheSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::StartSong
+  // Il2CppName: StartSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)(float)>(&GameSongController::StartSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::FailStopSong
+  // Il2CppName: FailStopSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::FailStopSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "FailStopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::SeekTo
+  // Il2CppName: SeekTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)(float)>(&GameSongController::SeekTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "SeekTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::$FailStopSong$b__13_0
+  // Il2CppName: <FailStopSong>b__13_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::$FailStopSong$b__13_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "<FailStopSong>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::StopSong
+  // Il2CppName: StopSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::StopSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::PauseSong
+  // Il2CppName: PauseSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::PauseSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "PauseSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::ResumeSong
+  // Il2CppName: ResumeSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::ResumeSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameSongController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameSongController::*)()>(&GameSongController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameSongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameSongController*, "", "GameSongController");

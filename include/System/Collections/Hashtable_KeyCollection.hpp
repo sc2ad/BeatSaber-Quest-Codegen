@@ -49,24 +49,62 @@ namespace System::Collections {
       return hashtable;
     }
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x195AAC8
+    // Offset: 0x19717D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x195AAF4
+    // Offset: 0x1971804
     void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x195AC7C
+    // Offset: 0x197198C
     System::Collections::IEnumerator* GetEnumerator();
     // public System.Int32 get_Count()
-    // Offset: 0x195ACE4
+    // Offset: 0x19719F4
     int get_Count();
   }; // System.Collections.Hashtable/KeyCollection
   #pragma pack(pop)
   static check_size<sizeof(Hashtable::KeyCollection), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Hashtable_KeyCollectionSizeCheck;
   static_assert(sizeof(Hashtable::KeyCollection) == 0x18);
+  // Writing MetadataGetter for method: Hashtable::KeyCollection::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::KeyCollection::*)(System::Collections::Hashtable*)>(&Hashtable::KeyCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::KeyCollection::*)(System::Collections::Hashtable*)>(&Hashtable::KeyCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::KeyCollection::CopyTo
+  // Il2CppName: CopyTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::KeyCollection::*)(System::Array*, int)>(&Hashtable::KeyCollection::CopyTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::KeyCollection::GetEnumerator
+  // Il2CppName: GetEnumerator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Hashtable::KeyCollection::*)()>(&Hashtable::KeyCollection::GetEnumerator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Hashtable::KeyCollection::get_Count
+  // Il2CppName: get_Count
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Hashtable::KeyCollection::*)()>(&Hashtable::KeyCollection::get_Count)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::KeyCollection*, "System.Collections", "Hashtable/KeyCollection");

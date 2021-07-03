@@ -39,21 +39,51 @@ namespace System::Runtime::Remoting::Channels {
     // Creating value type constructor for type: CrossAppDomainData
     CrossAppDomainData(::Il2CppObject* ContextID_ = {}, int DomainID_ = {}, ::Il2CppString* processGuid_ = {}) noexcept : ContextID{ContextID_}, DomainID{DomainID_}, processGuid{processGuid_} {}
     // System.Void .ctor(System.Int32 domainId)
-    // Offset: 0x140B464
+    // Offset: 0x1426174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrossAppDomainData* New_ctor(int domainId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::CrossAppDomainData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrossAppDomainData*, creationType>(domainId)));
     }
     // System.Int32 get_DomainID()
-    // Offset: 0x140B960
+    // Offset: 0x1426670
     int get_DomainID();
     // System.String get_ProcessID()
-    // Offset: 0x140B968
+    // Offset: 0x1426678
     ::Il2CppString* get_ProcessID();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainData
   #pragma pack(pop)
   static check_size<sizeof(CrossAppDomainData), 32 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
   static_assert(sizeof(CrossAppDomainData) == 0x28);
+  // Writing MetadataGetter for method: CrossAppDomainData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossAppDomainData::*)(int)>(&CrossAppDomainData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossAppDomainData::*)(int)>(&CrossAppDomainData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainData::get_DomainID
+  // Il2CppName: get_DomainID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CrossAppDomainData::*)()>(&CrossAppDomainData::get_DomainID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainData*), "get_DomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossAppDomainData::get_ProcessID
+  // Il2CppName: get_ProcessID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrossAppDomainData::*)()>(&CrossAppDomainData::get_ProcessID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossAppDomainData*), "get_ProcessID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");

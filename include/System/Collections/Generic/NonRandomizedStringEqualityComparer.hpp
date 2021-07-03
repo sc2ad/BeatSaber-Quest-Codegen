@@ -20,13 +20,13 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: NonRandomizedStringEqualityComparer
     NonRandomizedStringEqualityComparer() noexcept {}
     // public System.Boolean Equals(System.String x, System.String y)
-    // Offset: 0x176DF80
+    // Offset: 0x1786C90
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // public System.Int32 GetHashCode(System.String obj)
-    // Offset: 0x176DF90
+    // Offset: 0x1786CA0
     int GetHashCode(::Il2CppString* obj);
     // public System.Void .ctor()
-    // Offset: 0x176DFA8
+    // Offset: 0x1786CB8
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Void EqualityComparer_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -36,5 +36,35 @@ namespace System::Collections::Generic {
       return THROW_UNLESS((::il2cpp_utils::New<NonRandomizedStringEqualityComparer*, creationType>()));
     }
   }; // System.Collections.Generic.NonRandomizedStringEqualityComparer
+  // Writing MetadataGetter for method: NonRandomizedStringEqualityComparer::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NonRandomizedStringEqualityComparer::*)(::Il2CppString*, ::Il2CppString*)>(&NonRandomizedStringEqualityComparer::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NonRandomizedStringEqualityComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NonRandomizedStringEqualityComparer::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NonRandomizedStringEqualityComparer::*)(::Il2CppString*)>(&NonRandomizedStringEqualityComparer::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NonRandomizedStringEqualityComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NonRandomizedStringEqualityComparer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NonRandomizedStringEqualityComparer::*)()>(&NonRandomizedStringEqualityComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NonRandomizedStringEqualityComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NonRandomizedStringEqualityComparer::*)()>(&NonRandomizedStringEqualityComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NonRandomizedStringEqualityComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NonRandomizedStringEqualityComparer*, "System.Collections.Generic", "NonRandomizedStringEqualityComparer");

@@ -88,28 +88,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: IssuingDistributionPoint
     IssuingDistributionPoint(Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint_ = {}, bool onlyContainsUserCerts_ = {}, bool onlyContainsCACerts_ = {}, Org::BouncyCastle::Asn1::X509::ReasonFlags* onlySomeReasons_ = {}, bool indirectCRL_ = {}, bool onlyContainsAttributeCerts_ = {}, Org::BouncyCastle::Asn1::Asn1Sequence* seq_ = {}) noexcept : distributionPoint{distributionPoint_}, onlyContainsUserCerts{onlyContainsUserCerts_}, onlyContainsCACerts{onlyContainsCACerts_}, onlySomeReasons{onlySomeReasons_}, indirectCRL{indirectCRL_}, onlyContainsAttributeCerts{onlyContainsAttributeCerts_}, seq{seq_} {}
     // static public Org.BouncyCastle.Asn1.X509.IssuingDistributionPoint GetInstance(System.Object obj)
-    // Offset: 0x19EF7F4
+    // Offset: 0x1A08504
     static Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19EF974
+    // Offset: 0x1A08684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IssuingDistributionPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IssuingDistributionPoint*, creationType>(seq)));
     }
     // public System.Boolean get_IsIndirectCrl()
-    // Offset: 0x19EFC20
+    // Offset: 0x1A08930
     bool get_IsIndirectCrl();
     // private System.Void appendObject(System.Text.StringBuilder buf, System.String sep, System.String name, System.String val)
-    // Offset: 0x19EFE68
+    // Offset: 0x1A08B78
     void appendObject(System::Text::StringBuilder* buf, ::Il2CppString* sep, ::Il2CppString* name, ::Il2CppString* val);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19EFC28
+    // Offset: 0x1A08938
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x19EFC30
+    // Offset: 0x1A08940
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -117,5 +117,59 @@ namespace Org::BouncyCastle::Asn1::X509 {
   #pragma pack(pop)
   static check_size<sizeof(IssuingDistributionPoint), 48 + sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*)> __Org_BouncyCastle_Asn1_X509_IssuingDistributionPointSizeCheck;
   static_assert(sizeof(IssuingDistributionPoint) == 0x38);
+  // Writing MetadataGetter for method: IssuingDistributionPoint::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint* (*)(::Il2CppObject*)>(&IssuingDistributionPoint::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IssuingDistributionPoint::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IssuingDistributionPoint::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&IssuingDistributionPoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IssuingDistributionPoint::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&IssuingDistributionPoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IssuingDistributionPoint::get_IsIndirectCrl
+  // Il2CppName: get_IsIndirectCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IssuingDistributionPoint::*)()>(&IssuingDistributionPoint::get_IsIndirectCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), "get_IsIndirectCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IssuingDistributionPoint::appendObject
+  // Il2CppName: appendObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IssuingDistributionPoint::*)(System::Text::StringBuilder*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&IssuingDistributionPoint::appendObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), "appendObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IssuingDistributionPoint::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (IssuingDistributionPoint::*)()>(&IssuingDistributionPoint::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IssuingDistributionPoint::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IssuingDistributionPoint::*)()>(&IssuingDistributionPoint::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IssuingDistributionPoint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint*, "Org.BouncyCastle.Asn1.X509", "IssuingDistributionPoint");

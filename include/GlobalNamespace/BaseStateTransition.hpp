@@ -43,61 +43,61 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected Tweening.TweeningManager get_tweeningManager()
-    // Offset: 0x119F37C
+    // Offset: 0x11B9400
     Tweening::TweeningManager* get_tweeningManager();
     // protected BaseTransitionSO get_transition()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void SetState(SelectableStateController/ViewState viewState)
-    // Offset: 0x119F398
+    // Offset: 0x11B941C
     void SetState(GlobalNamespace::SelectableStateController::ViewState viewState);
     // protected System.Void OnEnable()
-    // Offset: 0x119F410
+    // Offset: 0x11B9494
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x119F4A4
+    // Offset: 0x11B9528
     void OnDisable();
     // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state)
-    // Offset: 0x119F538
+    // Offset: 0x11B95BC
     void HandleSelectableStateControllerStateDidChange(GlobalNamespace::SelectableStateController::ViewState state);
     // protected System.Void TransitionToNormalState()
-    // Offset: 0x119F5A0
+    // Offset: 0x11B9624
     void TransitionToNormalState();
     // protected System.Void TransitionToHighlightedState()
-    // Offset: 0x119F5A4
+    // Offset: 0x11B9628
     void TransitionToHighlightedState();
     // protected System.Void TransitionToPressedState()
-    // Offset: 0x119F5A8
+    // Offset: 0x11B962C
     void TransitionToPressedState();
     // protected System.Void TransitionToDisabledState()
-    // Offset: 0x119F5AC
+    // Offset: 0x11B9630
     void TransitionToDisabledState();
     // protected System.Void TransitionToSelectedState()
-    // Offset: 0x119F5B0
+    // Offset: 0x11B9634
     void TransitionToSelectedState();
     // protected System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x119F5B4
+    // Offset: 0x11B9638
     void TransitionToSelectedAndHighlightedState();
     // protected System.Void SetNormalState()
-    // Offset: 0x119F5B8
+    // Offset: 0x11B963C
     void SetNormalState();
     // protected System.Void SetHighlightedState()
-    // Offset: 0x119F5BC
+    // Offset: 0x11B9640
     void SetHighlightedState();
     // protected System.Void SetPressedState()
-    // Offset: 0x119F5C0
+    // Offset: 0x11B9644
     void SetPressedState();
     // protected System.Void SetDisabledState()
-    // Offset: 0x119F5C4
+    // Offset: 0x11B9648
     void SetDisabledState();
     // protected System.Void SetSelectedState()
-    // Offset: 0x119F5C8
+    // Offset: 0x11B964C
     void SetSelectedState();
     // protected System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x119F5CC
+    // Offset: 0x11B9650
     void SetSelectedAndHighlightedState();
     // protected System.Void .ctor()
-    // Offset: 0x119F5D0
+    // Offset: 0x11B9654
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -113,5 +113,163 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BaseStateTransition), 24 + sizeof(GlobalNamespace::SelectableStateController*)> __GlobalNamespace_BaseStateTransitionSizeCheck;
   static_assert(sizeof(BaseStateTransition) == 0x20);
+  // Writing MetadataGetter for method: BaseStateTransition::get_tweeningManager
+  // Il2CppName: get_tweeningManager
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TweeningManager* (BaseStateTransition::*)()>(&BaseStateTransition::get_tweeningManager)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::get_transition
+  // Il2CppName: get_transition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (BaseStateTransition::*)()>(&BaseStateTransition::get_transition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetState
+  // Il2CppName: SetState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)(GlobalNamespace::SelectableStateController::ViewState)>(&BaseStateTransition::SetState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::HandleSelectableStateControllerStateDidChange
+  // Il2CppName: HandleSelectableStateControllerStateDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)(GlobalNamespace::SelectableStateController::ViewState)>(&BaseStateTransition::HandleSelectableStateControllerStateDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "HandleSelectableStateControllerStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::TransitionToNormalState
+  // Il2CppName: TransitionToNormalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::TransitionToNormalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "TransitionToNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::TransitionToHighlightedState
+  // Il2CppName: TransitionToHighlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::TransitionToHighlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "TransitionToHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::TransitionToPressedState
+  // Il2CppName: TransitionToPressedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::TransitionToPressedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "TransitionToPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::TransitionToDisabledState
+  // Il2CppName: TransitionToDisabledState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::TransitionToDisabledState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "TransitionToDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::TransitionToSelectedState
+  // Il2CppName: TransitionToSelectedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::TransitionToSelectedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "TransitionToSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::TransitionToSelectedAndHighlightedState
+  // Il2CppName: TransitionToSelectedAndHighlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::TransitionToSelectedAndHighlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "TransitionToSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetNormalState
+  // Il2CppName: SetNormalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::SetNormalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetNormalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetHighlightedState
+  // Il2CppName: SetHighlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::SetHighlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetPressedState
+  // Il2CppName: SetPressedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::SetPressedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetPressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetDisabledState
+  // Il2CppName: SetDisabledState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::SetDisabledState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetDisabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetSelectedState
+  // Il2CppName: SetSelectedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::SetSelectedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetSelectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::SetSelectedAndHighlightedState
+  // Il2CppName: SetSelectedAndHighlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::SetSelectedAndHighlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), "SetSelectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseStateTransition::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseStateTransition::*)()>(&BaseStateTransition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseStateTransition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseStateTransition*, "", "BaseStateTransition");

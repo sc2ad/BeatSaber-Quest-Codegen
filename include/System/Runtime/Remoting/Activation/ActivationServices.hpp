@@ -45,31 +45,95 @@ namespace System::Runtime::Remoting::Activation {
     // Set static field: static private System.Runtime.Remoting.Activation.IActivator _constructionActivator
     static void _set__constructionActivator(System::Runtime::Remoting::Activation::IActivator* value);
     // static private System.Runtime.Remoting.Activation.IActivator get_ConstructionActivator()
-    // Offset: 0x1404F60
+    // Offset: 0x141FC70
     static System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator();
     // static public System.Runtime.Remoting.Messaging.IMessage Activate(System.Runtime.Remoting.Proxies.RemotingProxy proxy, System.Runtime.Remoting.Messaging.ConstructionCall ctorCall)
-    // Offset: 0x1404FF0
+    // Offset: 0x141FD00
     static System::Runtime::Remoting::Messaging::IMessage* Activate(System::Runtime::Remoting::Proxies::RemotingProxy* proxy, System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall);
     // static public System.Runtime.Remoting.Messaging.IMessage RemoteActivate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1405484
+    // Offset: 0x1420194
     static System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
     // static public System.Runtime.Remoting.Messaging.ConstructionCall CreateConstructionCall(System.Type type, System.String activationUrl, System.Object[] activationAttributes)
-    // Offset: 0x1405664
+    // Offset: 0x1420374
     static System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(System::Type* type, ::Il2CppString* activationUrl, ::Array<::Il2CppObject*>* activationAttributes);
     // static public System.Runtime.Remoting.Messaging.IMessage CreateInstanceFromMessage(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
-    // Offset: 0x1405FE0
+    // Offset: 0x1420CF0
     static System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
     // static public System.Object CreateProxyForType(System.Type type)
-    // Offset: 0x14063E0
+    // Offset: 0x14210F0
     static ::Il2CppObject* CreateProxyForType(System::Type* type);
     // static public System.Object AllocateUninitializedClassInstance(System.Type type)
-    // Offset: 0x14063DC
+    // Offset: 0x14210EC
     static ::Il2CppObject* AllocateUninitializedClassInstance(System::Type* type);
     // static public System.Void EnableProxyActivation(System.Type type, System.Boolean enable)
-    // Offset: 0x1406554
+    // Offset: 0x1421264
     static void EnableProxyActivation(System::Type* type, bool enable);
   }; // System.Runtime.Remoting.Activation.ActivationServices
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ActivationServices::get_ConstructionActivator
+  // Il2CppName: get_ConstructionActivator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (*)()>(&ActivationServices::get_ConstructionActivator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "get_ConstructionActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::Activate
+  // Il2CppName: Activate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Proxies::RemotingProxy*, System::Runtime::Remoting::Messaging::ConstructionCall*)>(&ActivationServices::Activate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Proxies::RemotingProxy*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::ConstructionCall*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::RemoteActivate
+  // Il2CppName: RemoteActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&ActivationServices::RemoteActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "RemoteActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::CreateConstructionCall
+  // Il2CppName: CreateConstructionCall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::ConstructionCall* (*)(System::Type*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ActivationServices::CreateConstructionCall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "CreateConstructionCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::CreateInstanceFromMessage
+  // Il2CppName: CreateInstanceFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&ActivationServices::CreateInstanceFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "CreateInstanceFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::CreateProxyForType
+  // Il2CppName: CreateProxyForType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&ActivationServices::CreateProxyForType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "CreateProxyForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::AllocateUninitializedClassInstance
+  // Il2CppName: AllocateUninitializedClassInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&ActivationServices::AllocateUninitializedClassInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "AllocateUninitializedClassInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActivationServices::EnableProxyActivation
+  // Il2CppName: EnableProxyActivation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, bool)>(&ActivationServices::EnableProxyActivation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActivationServices*), "EnableProxyActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ActivationServices*, "System.Runtime.Remoting.Activation", "ActivationServices");

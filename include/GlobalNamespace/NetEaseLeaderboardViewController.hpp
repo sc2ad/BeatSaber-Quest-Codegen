@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
-    // [InjectAttribute] Offset: 0xE13CAC
+    // [InjectAttribute] Offset: 0xE13CA8
     // private NetEaseManager _netEaseManager
     // Size: 0x8
     // Offset: 0x80
@@ -92,45 +92,45 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetEaseLeaderboardViewController
     NetEaseLeaderboardViewController(GlobalNamespace::LeaderboardTableView* leaderboardTableView_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, GlobalNamespace::NetEaseManager* netEaseManager_ = {}, System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores_ = {}, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, bool refreshIsNeeded_ = {}, bool hasScoresData_ = {}) noexcept : leaderboardTableView{leaderboardTableView_}, loadingControl{loadingControl_}, netEaseManager{netEaseManager_}, scores{scores_}, difficultyBeatmap{difficultyBeatmap_}, refreshIsNeeded{refreshIsNeeded_}, hasScoresData{hasScoresData_} {}
     // private System.Void HandleLoadingControlDidPressRefreshButton()
-    // Offset: 0x23EC79C
+    // Offset: 0x1017318
     void HandleLoadingControlDidPressRefreshButton();
     // public System.Void Refresh()
-    // Offset: 0x23EBDBC
+    // Offset: 0x1016938
     void Refresh();
     // private System.Void Refresh(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x23EC430
+    // Offset: 0x1016FAC
     void Refresh(bool showLoadingIndicator, bool clear);
     // private System.Collections.IEnumerator RefreshDelayed(System.Boolean showLoadingIndicator, System.Boolean clear)
-    // Offset: 0x23EC81C
+    // Offset: 0x1017398
     System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
     // private System.Void LoadScoresAsync()
-    // Offset: 0x23EC8D8
+    // Offset: 0x1017454
     void LoadScoresAsync();
     // private System.Void ClearContent()
-    // Offset: 0x23EC7A8
+    // Offset: 0x1017324
     void ClearContent();
     // public override System.Void SetData(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x23EC3F8
+    // Offset: 0x1016F74
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::SetData(IDifficultyBeatmap difficultyBeatmap)
     void SetData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x23EC5D0
+    // Offset: 0x101714C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x23EC694
+    // Offset: 0x1017210
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x23EC6C0
+    // Offset: 0x101723C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x23EC998
+    // Offset: 0x1017514
     // Implemented from: LeaderboardViewController
     // Base method: System.Void LeaderboardViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -148,5 +148,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NetEaseLeaderboardViewController), 153 + sizeof(bool)> __GlobalNamespace_NetEaseLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(NetEaseLeaderboardViewController) == 0x9A);
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton
+  // Il2CppName: HandleLoadingControlDidPressRefreshButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "HandleLoadingControlDidPressRefreshButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::Refresh
+  // Il2CppName: Refresh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::Refresh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::Refresh
+  // Il2CppName: Refresh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(bool, bool)>(&NetEaseLeaderboardViewController::Refresh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::RefreshDelayed
+  // Il2CppName: RefreshDelayed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NetEaseLeaderboardViewController::*)(bool, bool)>(&NetEaseLeaderboardViewController::RefreshDelayed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "RefreshDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::LoadScoresAsync
+  // Il2CppName: LoadScoresAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::LoadScoresAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "LoadScoresAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::ClearContent
+  // Il2CppName: ClearContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::ClearContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&NetEaseLeaderboardViewController::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(bool, bool, bool)>(&NetEaseLeaderboardViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(bool, bool)>(&NetEaseLeaderboardViewController::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetEaseLeaderboardViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");

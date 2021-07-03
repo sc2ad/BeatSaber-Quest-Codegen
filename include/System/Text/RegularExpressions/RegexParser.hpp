@@ -175,228 +175,810 @@ namespace System::Text::RegularExpressions {
     // Set static field: static readonly System.Byte[] _category
     static void _set__category(::Array<uint8_t>* value);
     // static System.Text.RegularExpressions.RegexTree Parse(System.String re, System.Text.RegularExpressions.RegexOptions op)
-    // Offset: 0x197AB28
+    // Offset: 0x1991838
     static System::Text::RegularExpressions::RegexTree* Parse(::Il2CppString* re, System::Text::RegularExpressions::RegexOptions op);
     // private System.Void .ctor(System.Globalization.CultureInfo culture)
-    // Offset: 0x197ACC0
+    // Offset: 0x19919D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexParser* New_ctor(System::Globalization::CultureInfo* culture) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexParser*, creationType>(culture)));
     }
     // System.Void SetPattern(System.String Re)
-    // Offset: 0x197AD64
+    // Offset: 0x1991A74
     void SetPattern(::Il2CppString* Re);
     // System.Void Reset(System.Text.RegularExpressions.RegexOptions topopts)
-    // Offset: 0x197B124
+    // Offset: 0x1991E34
     void Reset(System::Text::RegularExpressions::RegexOptions topopts);
     // System.Text.RegularExpressions.RegexNode ScanRegex()
-    // Offset: 0x197B1B4
+    // Offset: 0x1991EC4
     System::Text::RegularExpressions::RegexNode* ScanRegex();
     // System.Text.RegularExpressions.RegexCharClass ScanCharClass(System.Boolean caseInsensitive)
-    // Offset: 0x197C4CC
+    // Offset: 0x19931DC
     System::Text::RegularExpressions::RegexCharClass* ScanCharClass(bool caseInsensitive);
     // System.Text.RegularExpressions.RegexCharClass ScanCharClass(System.Boolean caseInsensitive, System.Boolean scanOnly)
-    // Offset: 0x197DD6C
+    // Offset: 0x1994A7C
     System::Text::RegularExpressions::RegexCharClass* ScanCharClass(bool caseInsensitive, bool scanOnly);
     // System.Text.RegularExpressions.RegexNode ScanGroupOpen()
-    // Offset: 0x197C5B4
+    // Offset: 0x19932C4
     System::Text::RegularExpressions::RegexNode* ScanGroupOpen();
     // System.Void ScanBlank()
-    // Offset: 0x197BA6C
+    // Offset: 0x199277C
     void ScanBlank();
     // System.Text.RegularExpressions.RegexNode ScanBackslash()
-    // Offset: 0x197D574
+    // Offset: 0x1994284
     System::Text::RegularExpressions::RegexNode* ScanBackslash();
     // System.Text.RegularExpressions.RegexNode ScanBasicBackslash()
-    // Offset: 0x197EBC8
+    // Offset: 0x19958D8
     System::Text::RegularExpressions::RegexNode* ScanBasicBackslash();
     // System.String ScanCapname()
-    // Offset: 0x197E704
+    // Offset: 0x1995414
     ::Il2CppString* ScanCapname();
     // System.Char ScanOctal()
-    // Offset: 0x197F1F8
+    // Offset: 0x1995F08
     ::Il2CppChar ScanOctal();
     // System.Int32 ScanDecimal()
-    // Offset: 0x197DC34
+    // Offset: 0x1994944
     int ScanDecimal();
     // System.Char ScanHex(System.Int32 c)
-    // Offset: 0x197F2B8
+    // Offset: 0x1995FC8
     ::Il2CppChar ScanHex(int c);
     // static System.Int32 HexDigit(System.Char ch)
-    // Offset: 0x197F404
+    // Offset: 0x1996114
     static int HexDigit(::Il2CppChar ch);
     // System.Char ScanControl()
-    // Offset: 0x197F43C
+    // Offset: 0x199614C
     ::Il2CppChar ScanControl();
     // System.Boolean IsOnlyTopOption(System.Text.RegularExpressions.RegexOptions option)
-    // Offset: 0x197F504
+    // Offset: 0x1996214
     bool IsOnlyTopOption(System::Text::RegularExpressions::RegexOptions option);
     // System.Void ScanOptions()
-    // Offset: 0x197E970
+    // Offset: 0x1995680
     void ScanOptions();
     // System.Char ScanCharEscape()
-    // Offset: 0x197E548
+    // Offset: 0x1995258
     ::Il2CppChar ScanCharEscape();
     // System.String ParseProperty()
-    // Offset: 0x197E3CC
+    // Offset: 0x19950DC
     ::Il2CppString* ParseProperty();
     // System.Int32 TypeFromCode(System.Char ch)
-    // Offset: 0x197EB34
+    // Offset: 0x1995844
     int TypeFromCode(::Il2CppChar ch);
     // static System.Text.RegularExpressions.RegexOptions OptionFromCode(System.Char ch)
-    // Offset: 0x197F52C
+    // Offset: 0x199623C
     static System::Text::RegularExpressions::RegexOptions OptionFromCode(::Il2CppChar ch);
     // System.Void CountCaptures()
-    // Offset: 0x197ADD0
+    // Offset: 0x1991AE0
     void CountCaptures();
     // System.Void NoteCaptureSlot(System.Int32 i, System.Int32 pos)
-    // Offset: 0x197F58C
+    // Offset: 0x199629C
     void NoteCaptureSlot(int i, int pos);
     // System.Void NoteCaptureName(System.String name, System.Int32 pos)
-    // Offset: 0x197F6F4
+    // Offset: 0x1996404
     void NoteCaptureName(::Il2CppString* name, int pos);
     // System.Void AssignNameSlots()
-    // Offset: 0x197F818
+    // Offset: 0x1996528
     void AssignNameSlots();
     // System.Int32 CaptureSlotFromName(System.String capname)
-    // Offset: 0x197E8D4
+    // Offset: 0x19955E4
     int CaptureSlotFromName(::Il2CppString* capname);
     // System.Boolean IsCaptureSlot(System.Int32 i)
-    // Offset: 0x197E814
+    // Offset: 0x1995524
     bool IsCaptureSlot(int i);
     // System.Boolean IsCaptureName(System.String capname)
-    // Offset: 0x197E8B8
+    // Offset: 0x19955C8
     bool IsCaptureName(::Il2CppString* capname);
     // System.Boolean UseOptionN()
-    // Offset: 0x197E808
+    // Offset: 0x1995518
     bool UseOptionN();
     // System.Boolean UseOptionI()
-    // Offset: 0x197C4C0
+    // Offset: 0x19931D0
     bool UseOptionI();
     // System.Boolean UseOptionM()
-    // Offset: 0x197DA74
+    // Offset: 0x1994784
     bool UseOptionM();
     // System.Boolean UseOptionS()
-    // Offset: 0x197DAF8
+    // Offset: 0x1994808
     bool UseOptionS();
     // System.Boolean UseOptionX()
-    // Offset: 0x197BD68
+    // Offset: 0x1992A78
     bool UseOptionX();
     // System.Boolean UseOptionE()
-    // Offset: 0x197E3C0
+    // Offset: 0x19950D0
     bool UseOptionE();
     // static System.Boolean IsSpecial(System.Char ch)
-    // Offset: 0x197C044
+    // Offset: 0x1992D54
     static bool IsSpecial(::Il2CppChar ch);
     // static System.Boolean IsStopperX(System.Char ch)
-    // Offset: 0x197BDCC
+    // Offset: 0x1992ADC
     static bool IsStopperX(::Il2CppChar ch);
     // static System.Boolean IsQuantifier(System.Char ch)
-    // Offset: 0x197C0F8
+    // Offset: 0x1992E08
     static bool IsQuantifier(::Il2CppChar ch);
     // System.Boolean IsTrueQuantifier()
-    // Offset: 0x197BE80
+    // Offset: 0x1992B90
     bool IsTrueQuantifier();
     // static System.Boolean IsSpace(System.Char ch)
-    // Offset: 0x197EA80
+    // Offset: 0x1995790
     static bool IsSpace(::Il2CppChar ch);
     // System.Void AddConcatenate(System.Int32 pos, System.Int32 cch, System.Boolean isReplacement)
-    // Offset: 0x197C1AC
+    // Offset: 0x1992EBC
     void AddConcatenate(int pos, int cch, bool isReplacement);
     // System.Void PushGroup()
-    // Offset: 0x197D01C
+    // Offset: 0x1993D2C
     void PushGroup();
     // System.Void PopGroup()
-    // Offset: 0x197D3E0
+    // Offset: 0x19940F0
     void PopGroup();
     // System.Boolean EmptyStack()
-    // Offset: 0x197D140
+    // Offset: 0x1993E50
     bool EmptyStack();
     // System.Void StartGroup(System.Text.RegularExpressions.RegexNode openGroup)
-    // Offset: 0x197B9C4
+    // Offset: 0x19926D4
     void StartGroup(System::Text::RegularExpressions::RegexNode* openGroup);
     // System.Void AddAlternate()
-    // Offset: 0x197D068
+    // Offset: 0x1993D78
     void AddAlternate();
     // System.Void AddConcatenate()
-    // Offset: 0x197DBD4
+    // Offset: 0x19948E4
     void AddConcatenate();
     // System.Void AddConcatenate(System.Boolean lazy, System.Int32 min, System.Int32 max)
-    // Offset: 0x197DD24
+    // Offset: 0x1994A34
     void AddConcatenate(bool lazy, int min, int max);
     // System.Text.RegularExpressions.RegexNode Unit()
-    // Offset: 0x197FDCC
+    // Offset: 0x1996ADC
     System::Text::RegularExpressions::RegexNode* Unit();
     // System.Void AddUnitOne(System.Char ch)
-    // Offset: 0x197C400
+    // Offset: 0x1993110
     void AddUnitOne(::Il2CppChar ch);
     // System.Void AddUnitNotone(System.Char ch)
-    // Offset: 0x197DB04
+    // Offset: 0x1994814
     void AddUnitNotone(::Il2CppChar ch);
     // System.Void AddUnitSet(System.String cc)
-    // Offset: 0x197C4D8
+    // Offset: 0x19931E8
     void AddUnitSet(::Il2CppString* cc);
     // System.Void AddUnitNode(System.Text.RegularExpressions.RegexNode node)
-    // Offset: 0x197FDD4
+    // Offset: 0x1996AE4
     void AddUnitNode(System::Text::RegularExpressions::RegexNode* node);
     // System.Void AddUnitType(System.Int32 type)
-    // Offset: 0x197DA80
+    // Offset: 0x1994790
     void AddUnitType(int type);
     // System.Void AddGroup()
-    // Offset: 0x197D268
+    // Offset: 0x1993F78
     void AddGroup();
     // System.Void PushOptions()
-    // Offset: 0x197C558
+    // Offset: 0x1993268
     void PushOptions();
     // System.Void PopOptions()
-    // Offset: 0x197D4DC
+    // Offset: 0x19941EC
     void PopOptions();
     // System.Boolean EmptyOptionsStack()
-    // Offset: 0x197F69C
+    // Offset: 0x19963AC
     bool EmptyOptionsStack();
     // System.Void PopKeepOptions()
-    // Offset: 0x197CFBC
+    // Offset: 0x1993CCC
     void PopKeepOptions();
     // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x197D150
+    // Offset: 0x1993E60
     System::ArgumentException* MakeException(::Il2CppString* message);
     // System.Int32 Textpos()
-    // Offset: 0x197FDDC
+    // Offset: 0x1996AEC
     int Textpos();
     // System.Void Textto(System.Int32 pos)
-    // Offset: 0x197FDE4
+    // Offset: 0x1996AF4
     void Textto(int pos);
     // System.Char MoveRightGetChar()
-    // Offset: 0x197DC08
+    // Offset: 0x1994918
     ::Il2CppChar MoveRightGetChar();
     // System.Void MoveRight()
-    // Offset: 0x197BD74
+    // Offset: 0x1992A84
     void MoveRight();
     // System.Void MoveRight(System.Int32 i)
-    // Offset: 0x197E7F8
+    // Offset: 0x1995508
     void MoveRight(int i);
     // System.Void MoveLeft()
-    // Offset: 0x197DBC4
+    // Offset: 0x19948D4
     void MoveLeft();
     // System.Char CharAt(System.Int32 i)
-    // Offset: 0x197C3E4
+    // Offset: 0x19930F4
     ::Il2CppChar CharAt(int i);
     // System.Char RightChar()
-    // Offset: 0x197BDA8
+    // Offset: 0x1992AB8
     ::Il2CppChar RightChar();
     // System.Char RightChar(System.Int32 i)
-    // Offset: 0x197E7D0
+    // Offset: 0x19954E0
     ::Il2CppChar RightChar(int i);
     // System.Int32 CharsRight()
-    // Offset: 0x197BD84
+    // Offset: 0x1992A94
     int CharsRight();
     // static private System.Void .cctor()
-    // Offset: 0x197FDEC
+    // Offset: 0x1996AFC
     static void _cctor();
   }; // System.Text.RegularExpressions.RegexParser
   #pragma pack(pop)
   static check_size<sizeof(RegexParser), 144 + sizeof(bool)> __System_Text_RegularExpressions_RegexParserSizeCheck;
   static_assert(sizeof(RegexParser) == 0x91);
+  // Writing MetadataGetter for method: RegexParser::Parse
+  // Il2CppName: Parse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexTree* (*)(::Il2CppString*, System::Text::RegularExpressions::RegexOptions)>(&RegexParser::Parse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexOptions>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(System::Globalization::CultureInfo*)>(&RegexParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(System::Globalization::CultureInfo*)>(&RegexParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::SetPattern
+  // Il2CppName: SetPattern
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(::Il2CppString*)>(&RegexParser::SetPattern)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "SetPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(System::Text::RegularExpressions::RegexOptions)>(&RegexParser::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexOptions>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanRegex
+  // Il2CppName: ScanRegex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (RegexParser::*)()>(&RegexParser::ScanRegex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanCharClass
+  // Il2CppName: ScanCharClass
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCharClass* (RegexParser::*)(bool)>(&RegexParser::ScanCharClass)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanCharClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanCharClass
+  // Il2CppName: ScanCharClass
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCharClass* (RegexParser::*)(bool, bool)>(&RegexParser::ScanCharClass)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanCharClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanGroupOpen
+  // Il2CppName: ScanGroupOpen
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (RegexParser::*)()>(&RegexParser::ScanGroupOpen)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanGroupOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanBlank
+  // Il2CppName: ScanBlank
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::ScanBlank)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanBlank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanBackslash
+  // Il2CppName: ScanBackslash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (RegexParser::*)()>(&RegexParser::ScanBackslash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanBackslash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanBasicBackslash
+  // Il2CppName: ScanBasicBackslash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (RegexParser::*)()>(&RegexParser::ScanBasicBackslash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanBasicBackslash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanCapname
+  // Il2CppName: ScanCapname
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegexParser::*)()>(&RegexParser::ScanCapname)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanCapname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanOctal
+  // Il2CppName: ScanOctal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)()>(&RegexParser::ScanOctal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanOctal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanDecimal
+  // Il2CppName: ScanDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexParser::*)()>(&RegexParser::ScanDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanHex
+  // Il2CppName: ScanHex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)(int)>(&RegexParser::ScanHex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::HexDigit
+  // Il2CppName: HexDigit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&RegexParser::HexDigit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "HexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanControl
+  // Il2CppName: ScanControl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)()>(&RegexParser::ScanControl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsOnlyTopOption
+  // Il2CppName: IsOnlyTopOption
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)(System::Text::RegularExpressions::RegexOptions)>(&RegexParser::IsOnlyTopOption)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsOnlyTopOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexOptions>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanOptions
+  // Il2CppName: ScanOptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::ScanOptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ScanCharEscape
+  // Il2CppName: ScanCharEscape
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)()>(&RegexParser::ScanCharEscape)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ScanCharEscape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::ParseProperty
+  // Il2CppName: ParseProperty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegexParser::*)()>(&RegexParser::ParseProperty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "ParseProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::TypeFromCode
+  // Il2CppName: TypeFromCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexParser::*)(::Il2CppChar)>(&RegexParser::TypeFromCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "TypeFromCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::OptionFromCode
+  // Il2CppName: OptionFromCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexOptions (*)(::Il2CppChar)>(&RegexParser::OptionFromCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "OptionFromCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::CountCaptures
+  // Il2CppName: CountCaptures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::CountCaptures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "CountCaptures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::NoteCaptureSlot
+  // Il2CppName: NoteCaptureSlot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(int, int)>(&RegexParser::NoteCaptureSlot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "NoteCaptureSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::NoteCaptureName
+  // Il2CppName: NoteCaptureName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(::Il2CppString*, int)>(&RegexParser::NoteCaptureName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "NoteCaptureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AssignNameSlots
+  // Il2CppName: AssignNameSlots
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::AssignNameSlots)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AssignNameSlots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::CaptureSlotFromName
+  // Il2CppName: CaptureSlotFromName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexParser::*)(::Il2CppString*)>(&RegexParser::CaptureSlotFromName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "CaptureSlotFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsCaptureSlot
+  // Il2CppName: IsCaptureSlot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)(int)>(&RegexParser::IsCaptureSlot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsCaptureSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsCaptureName
+  // Il2CppName: IsCaptureName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)(::Il2CppString*)>(&RegexParser::IsCaptureName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsCaptureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::UseOptionN
+  // Il2CppName: UseOptionN
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::UseOptionN)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "UseOptionN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::UseOptionI
+  // Il2CppName: UseOptionI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::UseOptionI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "UseOptionI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::UseOptionM
+  // Il2CppName: UseOptionM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::UseOptionM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "UseOptionM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::UseOptionS
+  // Il2CppName: UseOptionS
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::UseOptionS)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "UseOptionS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::UseOptionX
+  // Il2CppName: UseOptionX
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::UseOptionX)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "UseOptionX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::UseOptionE
+  // Il2CppName: UseOptionE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::UseOptionE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "UseOptionE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsSpecial
+  // Il2CppName: IsSpecial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&RegexParser::IsSpecial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsStopperX
+  // Il2CppName: IsStopperX
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&RegexParser::IsStopperX)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsStopperX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsQuantifier
+  // Il2CppName: IsQuantifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&RegexParser::IsQuantifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsQuantifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsTrueQuantifier
+  // Il2CppName: IsTrueQuantifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::IsTrueQuantifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsTrueQuantifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::IsSpace
+  // Il2CppName: IsSpace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&RegexParser::IsSpace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "IsSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddConcatenate
+  // Il2CppName: AddConcatenate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(int, int, bool)>(&RegexParser::AddConcatenate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddConcatenate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::PushGroup
+  // Il2CppName: PushGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::PushGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "PushGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::PopGroup
+  // Il2CppName: PopGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::PopGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "PopGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::EmptyStack
+  // Il2CppName: EmptyStack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::EmptyStack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "EmptyStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::StartGroup
+  // Il2CppName: StartGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(System::Text::RegularExpressions::RegexNode*)>(&RegexParser::StartGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "StartGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddAlternate
+  // Il2CppName: AddAlternate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::AddAlternate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddAlternate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddConcatenate
+  // Il2CppName: AddConcatenate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::AddConcatenate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddConcatenate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddConcatenate
+  // Il2CppName: AddConcatenate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(bool, int, int)>(&RegexParser::AddConcatenate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddConcatenate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::Unit
+  // Il2CppName: Unit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (RegexParser::*)()>(&RegexParser::Unit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "Unit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddUnitOne
+  // Il2CppName: AddUnitOne
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(::Il2CppChar)>(&RegexParser::AddUnitOne)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddUnitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddUnitNotone
+  // Il2CppName: AddUnitNotone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(::Il2CppChar)>(&RegexParser::AddUnitNotone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddUnitNotone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddUnitSet
+  // Il2CppName: AddUnitSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(::Il2CppString*)>(&RegexParser::AddUnitSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddUnitSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddUnitNode
+  // Il2CppName: AddUnitNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(System::Text::RegularExpressions::RegexNode*)>(&RegexParser::AddUnitNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddUnitNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddUnitType
+  // Il2CppName: AddUnitType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(int)>(&RegexParser::AddUnitType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddUnitType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::AddGroup
+  // Il2CppName: AddGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::AddGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "AddGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::PushOptions
+  // Il2CppName: PushOptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::PushOptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "PushOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::PopOptions
+  // Il2CppName: PopOptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::PopOptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "PopOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::EmptyOptionsStack
+  // Il2CppName: EmptyOptionsStack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexParser::*)()>(&RegexParser::EmptyOptionsStack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "EmptyOptionsStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::PopKeepOptions
+  // Il2CppName: PopKeepOptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::PopKeepOptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "PopKeepOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::MakeException
+  // Il2CppName: MakeException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (RegexParser::*)(::Il2CppString*)>(&RegexParser::MakeException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "MakeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::Textpos
+  // Il2CppName: Textpos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexParser::*)()>(&RegexParser::Textpos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "Textpos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::Textto
+  // Il2CppName: Textto
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(int)>(&RegexParser::Textto)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "Textto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::MoveRightGetChar
+  // Il2CppName: MoveRightGetChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)()>(&RegexParser::MoveRightGetChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "MoveRightGetChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::MoveRight
+  // Il2CppName: MoveRight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::MoveRight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "MoveRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::MoveRight
+  // Il2CppName: MoveRight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)(int)>(&RegexParser::MoveRight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "MoveRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::MoveLeft
+  // Il2CppName: MoveLeft
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexParser::*)()>(&RegexParser::MoveLeft)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "MoveLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::CharAt
+  // Il2CppName: CharAt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)(int)>(&RegexParser::CharAt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "CharAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::RightChar
+  // Il2CppName: RightChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)()>(&RegexParser::RightChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "RightChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::RightChar
+  // Il2CppName: RightChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (RegexParser::*)(int)>(&RegexParser::RightChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "RightChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::CharsRight
+  // Il2CppName: CharsRight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexParser::*)()>(&RegexParser::CharsRight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), "CharsRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RegexParser::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RegexParser::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser*, "System.Text.RegularExpressions", "RegexParser");

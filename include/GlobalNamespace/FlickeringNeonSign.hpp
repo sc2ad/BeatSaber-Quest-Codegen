@@ -131,22 +131,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10C7224
+    // Offset: 0x1045DE4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10C72A4
+    // Offset: 0x1045E64
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x10C72EC
+    // Offset: 0x1045EAC
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x10C7318
+    // Offset: 0x1045ED8
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x10C73B4
+    // Offset: 0x1045F74
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0x10C74D0
+    // Offset: 0x1046090
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -162,5 +162,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FlickeringNeonSign), 120 + sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*)> __GlobalNamespace_FlickeringNeonSignSizeCheck;
   static_assert(sizeof(FlickeringNeonSign) == 0x80);
+  // Writing MetadataGetter for method: FlickeringNeonSign::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlickeringNeonSign::*)()>(&FlickeringNeonSign::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlickeringNeonSign::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlickeringNeonSign::*)()>(&FlickeringNeonSign::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlickeringNeonSign::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlickeringNeonSign::*)()>(&FlickeringNeonSign::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlickeringNeonSign::FlickeringCoroutine
+  // Il2CppName: FlickeringCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FlickeringNeonSign::*)()>(&FlickeringNeonSign::FlickeringCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), "FlickeringCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlickeringNeonSign::SetOn
+  // Il2CppName: SetOn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlickeringNeonSign::*)(bool)>(&FlickeringNeonSign::SetOn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), "SetOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlickeringNeonSign::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlickeringNeonSign::*)()>(&FlickeringNeonSign::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlickeringNeonSign::*)()>(&FlickeringNeonSign::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlickeringNeonSign*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");

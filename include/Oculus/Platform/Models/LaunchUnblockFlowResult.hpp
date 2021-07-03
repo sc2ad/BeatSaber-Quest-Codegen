@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LaunchUnblockFlowResult
     LaunchUnblockFlowResult(bool DidCancel_ = {}, bool DidUnblock_ = {}) noexcept : DidCancel{DidCancel_}, DidUnblock{DidUnblock_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B5220
+    // Offset: 0x14CFF30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchUnblockFlowResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchUnblockFlowResult::.ctor");
@@ -43,5 +43,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(LaunchUnblockFlowResult), 17 + sizeof(bool)> __Oculus_Platform_Models_LaunchUnblockFlowResultSizeCheck;
   static_assert(sizeof(LaunchUnblockFlowResult) == 0x12);
+  // Writing MetadataGetter for method: LaunchUnblockFlowResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LaunchUnblockFlowResult::*)(System::IntPtr)>(&LaunchUnblockFlowResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LaunchUnblockFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LaunchUnblockFlowResult::*)(System::IntPtr)>(&LaunchUnblockFlowResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LaunchUnblockFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchUnblockFlowResult*, "Oculus.Platform.Models", "LaunchUnblockFlowResult");

@@ -89,33 +89,97 @@ namespace System::Globalization {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // System.String get_Start()
-      // Offset: 0xF02658
+      // Offset: 0xF03610
       ::Il2CppString* get_Start();
       // System.String get_DayHourSep()
-      // Offset: 0xF02660
+      // Offset: 0xF03618
       ::Il2CppString* get_DayHourSep();
       // System.String get_HourMinuteSep()
-      // Offset: 0xF02668
+      // Offset: 0xF03620
       ::Il2CppString* get_HourMinuteSep();
       // System.String get_MinuteSecondSep()
-      // Offset: 0xF02670
+      // Offset: 0xF03628
       ::Il2CppString* get_MinuteSecondSep();
       // System.String get_SecondFractionSep()
-      // Offset: 0xF02678
+      // Offset: 0xF03630
       ::Il2CppString* get_SecondFractionSep();
       // System.String get_End()
-      // Offset: 0xF02680
+      // Offset: 0xF03638
       ::Il2CppString* get_End();
       // static System.Globalization.TimeSpanFormat/FormatLiterals InitInvariant(System.Boolean isNegative)
-      // Offset: 0x19E50F8
+      // Offset: 0x19FCE08
       static System::Globalization::TimeSpanFormat::FormatLiterals InitInvariant(bool isNegative);
       // System.Void Init(System.String format, System.Boolean useInvariantFieldLengths)
-      // Offset: 0xF02688
+      // Offset: 0xF03640
       void Init(::Il2CppString* format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/FormatLiterals
     #pragma pack(pop)
     static check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(::Array<::Il2CppString*>*)> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
     static_assert(sizeof(TimeSpanFormat::FormatLiterals) == 0x28);
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::get_Start
+    // Il2CppName: get_Start
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpanFormat::FormatLiterals::*)()>(&TimeSpanFormat::FormatLiterals::get_Start)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "get_Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::get_DayHourSep
+    // Il2CppName: get_DayHourSep
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpanFormat::FormatLiterals::*)()>(&TimeSpanFormat::FormatLiterals::get_DayHourSep)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "get_DayHourSep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::get_HourMinuteSep
+    // Il2CppName: get_HourMinuteSep
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpanFormat::FormatLiterals::*)()>(&TimeSpanFormat::FormatLiterals::get_HourMinuteSep)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "get_HourMinuteSep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::get_MinuteSecondSep
+    // Il2CppName: get_MinuteSecondSep
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpanFormat::FormatLiterals::*)()>(&TimeSpanFormat::FormatLiterals::get_MinuteSecondSep)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "get_MinuteSecondSep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::get_SecondFractionSep
+    // Il2CppName: get_SecondFractionSep
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpanFormat::FormatLiterals::*)()>(&TimeSpanFormat::FormatLiterals::get_SecondFractionSep)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "get_SecondFractionSep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::get_End
+    // Il2CppName: get_End
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpanFormat::FormatLiterals::*)()>(&TimeSpanFormat::FormatLiterals::get_End)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "get_End", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::InitInvariant
+    // Il2CppName: InitInvariant
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::TimeSpanFormat::FormatLiterals (*)(bool)>(&TimeSpanFormat::FormatLiterals::InitInvariant)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "InitInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+      }
+    };
+    // Writing MetadataGetter for method: TimeSpanFormat::FormatLiterals::Init
+    // Il2CppName: Init
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpanFormat::FormatLiterals::*)(::Il2CppString*, bool)>(&TimeSpanFormat::FormatLiterals::Init)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat::FormatLiterals), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+      }
+    };
     // Creating value type constructor for type: TimeSpanFormat
     TimeSpanFormat() noexcept {}
     // Get static field: static readonly System.Globalization.TimeSpanFormat/FormatLiterals PositiveInvariantFormatLiterals
@@ -127,22 +191,62 @@ namespace System::Globalization {
     // Set static field: static readonly System.Globalization.TimeSpanFormat/FormatLiterals NegativeInvariantFormatLiterals
     static void _set_NegativeInvariantFormatLiterals(System::Globalization::TimeSpanFormat::FormatLiterals value);
     // static private System.String IntToString(System.Int32 n, System.Int32 digits)
-    // Offset: 0x19E3C00
+    // Offset: 0x19FB910
     static ::Il2CppString* IntToString(int n, int digits);
     // static System.String Format(System.TimeSpan value, System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x19E3C18
+    // Offset: 0x19FB928
     static ::Il2CppString* Format(System::TimeSpan value, ::Il2CppString* format, System::IFormatProvider* formatProvider);
     // static private System.String FormatStandard(System.TimeSpan value, System.Boolean isInvariant, System.String format, System.Globalization.TimeSpanFormat/Pattern pattern)
-    // Offset: 0x19E3E5C
+    // Offset: 0x19FBB6C
     static ::Il2CppString* FormatStandard(System::TimeSpan value, bool isInvariant, ::Il2CppString* format, System::Globalization::TimeSpanFormat::Pattern pattern);
     // static System.String FormatCustomized(System.TimeSpan value, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x19E4360
+    // Offset: 0x19FC070
     static ::Il2CppString* FormatCustomized(System::TimeSpan value, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void .cctor()
-    // Offset: 0x19E505C
+    // Offset: 0x19FCD6C
     static void _cctor();
   }; // System.Globalization.TimeSpanFormat
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimeSpanFormat::IntToString
+  // Il2CppName: IntToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, int)>(&TimeSpanFormat::IntToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeSpanFormat::Format
+  // Il2CppName: Format
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, ::Il2CppString*, System::IFormatProvider*)>(&TimeSpanFormat::Format)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeSpanFormat::FormatStandard
+  // Il2CppName: FormatStandard
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, bool, ::Il2CppString*, System::Globalization::TimeSpanFormat::Pattern)>(&TimeSpanFormat::FormatStandard)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "FormatStandard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::TimeSpanFormat::Pattern>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeSpanFormat::FormatCustomized
+  // Il2CppName: FormatCustomized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, ::Il2CppString*, System::Globalization::DateTimeFormatInfo*)>(&TimeSpanFormat::FormatCustomized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "FormatCustomized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimeSpanFormat::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimeSpanFormat::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat*, "System.Globalization", "TimeSpanFormat");

@@ -44,15 +44,31 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ConstraintBuilder
     ConstraintBuilder(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack* ops_ = {}, NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* constraints_ = {}, ::Il2CppObject* lastPushed_ = {}) noexcept : ops{ops_}, constraints{constraints_}, lastPushed{lastPushed_} {}
     // public NUnit.Framework.Constraints.IConstraint Resolve()
-    // Offset: 0x170C650
+    // Offset: 0x1724360
     NUnit::Framework::Constraints::IConstraint* Resolve();
     // private System.Boolean get_IsResolvable()
-    // Offset: 0x170C7FC
+    // Offset: 0x172450C
     bool get_IsResolvable();
   }; // NUnit.Framework.Constraints.ConstraintBuilder
   #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder), 32 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ConstraintBuilderSizeCheck;
   static_assert(sizeof(ConstraintBuilder) == 0x28);
+  // Writing MetadataGetter for method: ConstraintBuilder::Resolve
+  // Il2CppName: Resolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (ConstraintBuilder::*)()>(&ConstraintBuilder::Resolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintBuilder::get_IsResolvable
+  // Il2CppName: get_IsResolvable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintBuilder::*)()>(&ConstraintBuilder::get_IsResolvable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");

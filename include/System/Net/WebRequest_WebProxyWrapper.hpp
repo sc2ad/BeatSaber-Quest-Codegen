@@ -26,10 +26,18 @@ namespace System::Net {
     // Creating value type constructor for type: WebProxyWrapper
     WebProxyWrapper() noexcept {}
     // System.Net.WebProxy get_WebProxy()
-    // Offset: 0x15B2C4C
+    // Offset: 0x15CC95C
     System::Net::WebProxy* get_WebProxy();
   }; // System.Net.WebRequest/WebProxyWrapper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: WebRequest::WebProxyWrapper::get_WebProxy
+  // Il2CppName: get_WebProxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebProxy* (WebRequest::WebProxyWrapper::*)()>(&WebRequest::WebProxyWrapper::get_WebProxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequest::WebProxyWrapper*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapper*, "System.Net", "WebRequest/WebProxyWrapper");

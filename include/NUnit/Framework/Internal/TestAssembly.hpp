@@ -27,8 +27,8 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x90
     char ___base_padding[0x7] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xE049EC
-    // [CompilerGeneratedAttribute] Offset: 0xE049EC
+    // [DebuggerBrowsableAttribute] Offset: 0xE059E8
+    // [CompilerGeneratedAttribute] Offset: 0xE059E8
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x90
@@ -42,20 +42,20 @@ namespace NUnit::Framework::Internal {
       return Assembly;
     }
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
-    // Offset: 0x2294390
+    // Offset: 0x22AF0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(assembly, path)));
     }
     // public System.Reflection.Assembly get_Assembly()
-    // Offset: 0x2294560
+    // Offset: 0x22AF2BC
     System::Reflection::Assembly* get_Assembly();
     // private System.Void set_Assembly(System.Reflection.Assembly value)
-    // Offset: 0x2294568
+    // Offset: 0x22AF2C4
     void set_Assembly(System::Reflection::Assembly* value);
     // public System.Void .ctor(System.String path)
-    // Offset: 0x22944D8
+    // Offset: 0x22AF234
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)
@@ -65,7 +65,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(path)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x2294570
+    // Offset: 0x22AF2CC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
@@ -73,5 +73,57 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(TestAssembly), 144 + sizeof(System::Reflection::Assembly*)> __NUnit_Framework_Internal_TestAssemblySizeCheck;
   static_assert(sizeof(TestAssembly) == 0x98);
+  // Writing MetadataGetter for method: TestAssembly::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAssembly::*)(System::Reflection::Assembly*, ::Il2CppString*)>(&TestAssembly::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAssembly::*)(System::Reflection::Assembly*, ::Il2CppString*)>(&TestAssembly::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestAssembly::get_Assembly
+  // Il2CppName: get_Assembly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (TestAssembly::*)()>(&TestAssembly::get_Assembly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestAssembly::set_Assembly
+  // Il2CppName: set_Assembly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAssembly::*)(System::Reflection::Assembly*)>(&TestAssembly::set_Assembly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), "set_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestAssembly::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAssembly::*)(::Il2CppString*)>(&TestAssembly::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestAssembly::*)(::Il2CppString*)>(&TestAssembly::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestAssembly::get_TestType
+  // Il2CppName: get_TestType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestAssembly::*)()>(&TestAssembly::get_TestType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestAssembly*), "get_TestType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestAssembly*, "NUnit.Framework.Internal", "TestAssembly");

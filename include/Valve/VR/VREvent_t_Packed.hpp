@@ -51,7 +51,7 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(Valve.VR.VREvent_t unpacked)
-    // Offset: 0xF21C6C
+    // Offset: 0xF22C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     VREvent_t_Packed(Valve::VR::VREvent_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::VREvent_t_Packed::.ctor");
@@ -59,9 +59,31 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.VREvent_t unpacked)
-    // Offset: 0xF21CBC
+    // Offset: 0xF22C74
     void Unpack(Valve::VR::VREvent_t& unpacked);
   }; // Valve.VR.VREvent_t_Packed
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: VREvent_t_Packed::VREvent_t_Packed
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VREvent_t_Packed::*)(Valve::VR::VREvent_t)>(&VREvent_t_Packed::VREvent_t_Packed<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VREvent_t_Packed), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VREvent_t_Packed::*)(Valve::VR::VREvent_t)>(&VREvent_t_Packed::VREvent_t_Packed<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VREvent_t_Packed), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: VREvent_t_Packed::Unpack
+  // Il2CppName: Unpack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VREvent_t_Packed::*)(Valve::VR::VREvent_t&)>(&VREvent_t_Packed::Unpack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VREvent_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_t_Packed, "Valve.VR", "VREvent_t_Packed");

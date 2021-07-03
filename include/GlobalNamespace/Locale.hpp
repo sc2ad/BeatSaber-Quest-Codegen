@@ -15,10 +15,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Locale
     Locale() noexcept {}
     // static public System.String GetText(System.String msg)
-    // Offset: 0x1D4F70C
+    // Offset: 0x1D6B41C
     static ::Il2CppString* GetText(::Il2CppString* msg);
   }; // Locale
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Locale::GetText
+  // Il2CppName: GetText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Locale::GetText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Locale*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Locale*, "", "Locale");

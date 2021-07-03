@@ -221,58 +221,194 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Type typeofMarshalByRefObject
     static void _set_typeofMarshalByRefObject(System::Type* value);
     // static System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE ToCode(System.Type type)
-    // Offset: 0x15EE8F0
+    // Offset: 0x1607600
     static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToCode(System::Type* type);
     // static System.Boolean IsWriteAsByteArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15F138C
+    // Offset: 0x160A09C
     static bool IsWriteAsByteArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static System.Int32 TypeLength(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15F13B0
+    // Offset: 0x160A0C0
     static int TypeLength(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static System.Type ToArrayType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15EEF9C
+    // Offset: 0x1607CAC
     static System::Type* ToArrayType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitTypeA()
-    // Offset: 0x15F17A0
+    // Offset: 0x160A4B0
     static void InitTypeA();
     // static private System.Void InitArrayTypeA()
-    // Offset: 0x15F13D4
+    // Offset: 0x160A0E4
     static void InitArrayTypeA();
     // static System.Type ToType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15EEEB4
+    // Offset: 0x1607BC4
     static System::Type* ToType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static System.Array CreatePrimitiveArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Int32 length)
-    // Offset: 0x15F1B6C
+    // Offset: 0x160A87C
     static System::Array* CreatePrimitiveArray(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, int length);
     // static System.Boolean IsPrimitiveArray(System.Type type, out System.Object typeInformation)
-    // Offset: 0x15EE2A4
+    // Offset: 0x1606FB4
     static bool IsPrimitiveArray(System::Type* type, ::Il2CppObject*& typeInformation);
     // static private System.Void InitValueA()
-    // Offset: 0x15F1BF8
+    // Offset: 0x160A908
     static void InitValueA();
     // static System.String ToComType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15EEDCC
+    // Offset: 0x1607ADC
     static ::Il2CppString* ToComType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitTypeCodeA()
-    // Offset: 0x15F1FC4
+    // Offset: 0x160ACD4
     static void InitTypeCodeA();
     // static System.TypeCode ToTypeCode(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15F2164
+    // Offset: 0x160AE74
     static System::TypeCode ToTypeCode(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitCodeA()
-    // Offset: 0x15F224C
+    // Offset: 0x160AF5C
     static void InitCodeA();
     // static System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE ToPrimitiveTypeEnum(System.TypeCode typeCode)
-    // Offset: 0x15F12A4
+    // Offset: 0x1609FB4
     static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToPrimitiveTypeEnum(System::TypeCode typeCode);
     // static System.Object FromString(System.String value, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
-    // Offset: 0x15F2400
+    // Offset: 0x160B110
     static ::Il2CppObject* FromString(::Il2CppString* value, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void .cctor()
-    // Offset: 0x15F24F4
+    // Offset: 0x160B204
     static void _cctor();
   }; // System.Runtime.Serialization.Formatters.Binary.Converter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Converter::ToCode
+  // Il2CppName: ToCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE (*)(System::Type*)>(&Converter::ToCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "ToCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::IsWriteAsByteArray
+  // Il2CppName: IsWriteAsByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::IsWriteAsByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "IsWriteAsByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::TypeLength
+  // Il2CppName: TypeLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::TypeLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "TypeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::ToArrayType
+  // Il2CppName: ToArrayType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::ToArrayType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "ToArrayType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::InitTypeA
+  // Il2CppName: InitTypeA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Converter::InitTypeA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "InitTypeA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::InitArrayTypeA
+  // Il2CppName: InitArrayTypeA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Converter::InitArrayTypeA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "InitArrayTypeA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::ToType
+  // Il2CppName: ToType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::ToType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::CreatePrimitiveArray
+  // Il2CppName: CreatePrimitiveArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, int)>(&Converter::CreatePrimitiveArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "CreatePrimitiveArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::IsPrimitiveArray
+  // Il2CppName: IsPrimitiveArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppObject*&)>(&Converter::IsPrimitiveArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "IsPrimitiveArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::InitValueA
+  // Il2CppName: InitValueA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Converter::InitValueA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "InitValueA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::ToComType
+  // Il2CppName: ToComType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::ToComType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "ToComType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::InitTypeCodeA
+  // Il2CppName: InitTypeCodeA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Converter::InitTypeCodeA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "InitTypeCodeA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::ToTypeCode
+  // Il2CppName: ToTypeCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::ToTypeCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "ToTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::InitCodeA
+  // Il2CppName: InitCodeA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Converter::InitCodeA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "InitCodeA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::ToPrimitiveTypeEnum
+  // Il2CppName: ToPrimitiveTypeEnum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE (*)(System::TypeCode)>(&Converter::ToPrimitiveTypeEnum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "ToPrimitiveTypeEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeCode>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::FromString
+  // Il2CppName: FromString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&Converter::FromString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), "FromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>()});
+    }
+  };
+  // Writing MetadataGetter for method: Converter::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Converter::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Converter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Converter*, "System.Runtime.Serialization.Formatters.Binary", "Converter");

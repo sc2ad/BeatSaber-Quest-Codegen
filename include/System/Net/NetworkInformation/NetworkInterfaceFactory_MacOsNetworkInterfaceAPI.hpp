@@ -30,12 +30,12 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: MacOsNetworkInterfaceAPI
     MacOsNetworkInterfaceAPI() noexcept {}
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x14755AC
+    // Offset: 0x14902BC
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::Array<System::Net::NetworkInformation::NetworkInterface*>* GetAllNetworkInterfaces();
     // public System.Void .ctor()
-    // Offset: 0x1474AD0
+    // Offset: 0x148F7E0
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
@@ -47,5 +47,27 @@ namespace System::Net::NetworkInformation {
     }
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/MacOsNetworkInterfaceAPI
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces
+  // Il2CppName: GetAllNetworkInterfaces
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::*)()>(&NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::*)()>(&NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::*)()>(&NetworkInterfaceFactory::MacOsNetworkInterfaceAPI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/MacOsNetworkInterfaceAPI");

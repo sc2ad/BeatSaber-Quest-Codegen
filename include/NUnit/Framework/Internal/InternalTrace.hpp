@@ -39,13 +39,29 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private NUnit.Framework.Internal.InternalTraceWriter traceWriter
     static void _set_traceWriter(NUnit::Framework::Internal::InternalTraceWriter* value);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.String name)
-    // Offset: 0x228FF40
+    // Offset: 0x22AAC9C
     static NUnit::Framework::Internal::Logger* GetLogger(::Il2CppString* name);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.Type type)
-    // Offset: 0x2290044
+    // Offset: 0x22AADA0
     static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
   }; // NUnit.Framework.Internal.InternalTrace
   #pragma pack(pop)
+  // Writing MetadataGetter for method: InternalTrace::GetLogger
+  // Il2CppName: GetLogger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(::Il2CppString*)>(&InternalTrace::GetLogger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternalTrace::GetLogger
+  // Il2CppName: GetLogger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(System::Type*)>(&InternalTrace::GetLogger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");

@@ -72,35 +72,35 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Creating value type constructor for type: DHDomainParameters
     DHDomainParameters(Org::BouncyCastle::Asn1::DerInteger* p_ = {}, Org::BouncyCastle::Asn1::DerInteger* g_ = {}, Org::BouncyCastle::Asn1::DerInteger* q_ = {}, Org::BouncyCastle::Asn1::DerInteger* j_ = {}, Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms_ = {}) noexcept : p{p_}, g{g_}, q{q_}, j{j_}, validationParms{validationParms_} {}
     // static public Org.BouncyCastle.Asn1.X9.DHDomainParameters GetInstance(System.Object obj)
-    // Offset: 0x19F6DE4
+    // Offset: 0x1A0FAF4
     static Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x19F6F64
+    // Offset: 0x1A0FC74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHDomainParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::DHDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHDomainParameters*, creationType>(seq)));
     }
     // static private Org.BouncyCastle.Asn1.Asn1Encodable GetNext(System.Collections.IEnumerator e)
-    // Offset: 0x19F7144
+    // Offset: 0x1A0FE54
     static Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(System::Collections::IEnumerator* e);
     // public Org.BouncyCastle.Asn1.DerInteger get_P()
-    // Offset: 0x19F7420
+    // Offset: 0x1A10130
     Org::BouncyCastle::Asn1::DerInteger* get_P();
     // public Org.BouncyCastle.Asn1.DerInteger get_G()
-    // Offset: 0x19F7428
+    // Offset: 0x1A10138
     Org::BouncyCastle::Asn1::DerInteger* get_G();
     // public Org.BouncyCastle.Asn1.DerInteger get_Q()
-    // Offset: 0x19F7430
+    // Offset: 0x1A10140
     Org::BouncyCastle::Asn1::DerInteger* get_Q();
     // public Org.BouncyCastle.Asn1.DerInteger get_J()
-    // Offset: 0x19F7438
+    // Offset: 0x1A10148
     Org::BouncyCastle::Asn1::DerInteger* get_J();
     // public Org.BouncyCastle.Asn1.X9.DHValidationParms get_ValidationParms()
-    // Offset: 0x19F7440
+    // Offset: 0x1A10150
     Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19F7448
+    // Offset: 0x1A10158
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -108,5 +108,83 @@ namespace Org::BouncyCastle::Asn1::X9 {
   #pragma pack(pop)
   static check_size<sizeof(DHDomainParameters), 48 + sizeof(Org::BouncyCastle::Asn1::X9::DHValidationParms*)> __Org_BouncyCastle_Asn1_X9_DHDomainParametersSizeCheck;
   static_assert(sizeof(DHDomainParameters) == 0x38);
+  // Writing MetadataGetter for method: DHDomainParameters::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::DHDomainParameters* (*)(::Il2CppObject*)>(&DHDomainParameters::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHDomainParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&DHDomainParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHDomainParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&DHDomainParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::GetNext
+  // Il2CppName: GetNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Encodable* (*)(System::Collections::IEnumerator*)>(&DHDomainParameters::GetNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::get_P
+  // Il2CppName: get_P
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (DHDomainParameters::*)()>(&DHDomainParameters::get_P)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "get_P", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::get_G
+  // Il2CppName: get_G
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (DHDomainParameters::*)()>(&DHDomainParameters::get_G)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "get_G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::get_Q
+  // Il2CppName: get_Q
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (DHDomainParameters::*)()>(&DHDomainParameters::get_Q)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "get_Q", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::get_J
+  // Il2CppName: get_J
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (DHDomainParameters::*)()>(&DHDomainParameters::get_J)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "get_J", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::get_ValidationParms
+  // Il2CppName: get_ValidationParms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::DHValidationParms* (DHDomainParameters::*)()>(&DHDomainParameters::get_ValidationParms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "get_ValidationParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DHDomainParameters::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DHDomainParameters::*)()>(&DHDomainParameters::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHDomainParameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHDomainParameters*, "Org.BouncyCastle.Asn1.X9", "DHDomainParameters");

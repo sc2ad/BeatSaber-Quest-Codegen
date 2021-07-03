@@ -55,39 +55,39 @@ namespace Org::BouncyCastle::Math::EC {
       return si;
     }
     // static private Org.BouncyCastle.Math.Field.IFiniteField BuildField(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x1CF21AC
+    // Offset: 0x1D0EEBC
     static Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int m, int k1, int k2, int k3);
     // protected System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x1CF2378
+    // Offset: 0x1D0F088
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractF2mCurve* New_ctor(int m, int k1, int k2, int k3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::AbstractF2mCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractF2mCurve*, creationType>(m, k1, k2, k3)));
     }
     // Org.BouncyCastle.Math.EC.ECFieldElement SolveQuadraticEquation(Org.BouncyCastle.Math.EC.ECFieldElement beta)
-    // Offset: 0x1CF2844
+    // Offset: 0x1D0F554
     Org::BouncyCastle::Math::EC::ECFieldElement* SolveQuadraticEquation(Org::BouncyCastle::Math::EC::ECFieldElement* beta);
     // Org.BouncyCastle.Math.BigInteger[] GetSi()
-    // Offset: 0x1CF2B34
+    // Offset: 0x1D0F844
     ::Array<Org::BouncyCastle::Math::BigInteger*>* GetSi();
     // public System.Boolean get_IsKoblitz()
-    // Offset: 0x1CF2C04
+    // Offset: 0x1D0F914
     bool get_IsKoblitz();
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, System.Int32 m)
-    // Offset: 0x1CF25D8
+    // Offset: 0x1D0F2E8
     static Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r, int m);
     // public override Org.BouncyCastle.Math.EC.ECPoint CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
-    // Offset: 0x1CF23B8
+    // Offset: 0x1D0F0C8
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreatePoint(Org.BouncyCastle.Math.BigInteger x, Org.BouncyCastle.Math.BigInteger y, System.Boolean withCompression)
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(Org::BouncyCastle::Math::BigInteger* x, Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0x1CF2540
+    // Offset: 0x1D0F250
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r);
     // protected override Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
-    // Offset: 0x1CF261C
+    // Offset: 0x1D0F32C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, Org::BouncyCastle::Math::BigInteger* X1);
@@ -95,5 +95,83 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
   static check_size<sizeof(AbstractF2mCurve), 80 + sizeof(::Array<Org::BouncyCastle::Math::BigInteger*>*)> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
+  // Writing MetadataGetter for method: AbstractF2mCurve::BuildField
+  // Il2CppName: BuildField
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IFiniteField* (*)(int, int, int, int)>(&AbstractF2mCurve::BuildField)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "BuildField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractF2mCurve::*)(int, int, int, int)>(&AbstractF2mCurve::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractF2mCurve::*)(int, int, int, int)>(&AbstractF2mCurve::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::SolveQuadraticEquation
+  // Il2CppName: SolveQuadraticEquation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (AbstractF2mCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&AbstractF2mCurve::SolveQuadraticEquation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "SolveQuadraticEquation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::GetSi
+  // Il2CppName: GetSi
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (AbstractF2mCurve::*)()>(&AbstractF2mCurve::GetSi)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::get_IsKoblitz
+  // Il2CppName: get_IsKoblitz
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AbstractF2mCurve::*)()>(&AbstractF2mCurve::get_IsKoblitz)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "get_IsKoblitz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::ImplRandomFieldElementMult
+  // Il2CppName: ImplRandomFieldElementMult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&AbstractF2mCurve::ImplRandomFieldElementMult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "ImplRandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::CreatePoint
+  // Il2CppName: CreatePoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (AbstractF2mCurve::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, bool)>(&AbstractF2mCurve::CreatePoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::RandomFieldElementMult
+  // Il2CppName: RandomFieldElementMult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (AbstractF2mCurve::*)(Org::BouncyCastle::Security::SecureRandom*)>(&AbstractF2mCurve::RandomFieldElementMult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "RandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractF2mCurve::DecompressPoint
+  // Il2CppName: DecompressPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (AbstractF2mCurve::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&AbstractF2mCurve::DecompressPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "DecompressPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");

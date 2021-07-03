@@ -105,59 +105,59 @@ namespace Org::BouncyCastle::X509 {
     // Creating value type constructor for type: X509Certificate
     X509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::Array<uint8_t>* sigAlgParams_ = {}, Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints_ = {}, ::Array<bool>* keyUsage_ = {}, ::Il2CppObject* cacheLock_ = {}, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, basicConstraints{basicConstraints_}, keyUsage{keyUsage_}, cacheLock{cacheLock_}, publicKeyValue{publicKeyValue_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.X509CertificateStructure c)
-    // Offset: 0x1F739B0
+    // Offset: 0x1F8D70C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(c)));
     }
     // public System.Int32 get_Version()
-    // Offset: 0x1F74180
+    // Offset: 0x1F8DEDC
     int get_Version();
     // public Org.BouncyCastle.Math.BigInteger get_SerialNumber()
-    // Offset: 0x1F7419C
+    // Offset: 0x1F8DEF8
     Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_IssuerDN()
-    // Offset: 0x1F741C8
+    // Offset: 0x1F8DF24
     Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_SubjectDN()
-    // Offset: 0x1F741E4
+    // Offset: 0x1F8DF40
     Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN();
     // public System.DateTime get_NotBefore()
-    // Offset: 0x1F74200
+    // Offset: 0x1F8DF5C
     System::DateTime get_NotBefore();
     // public System.DateTime get_NotAfter()
-    // Offset: 0x1F7422C
+    // Offset: 0x1F8DF88
     System::DateTime get_NotAfter();
     // public System.Byte[] GetSignature()
-    // Offset: 0x1F74258
+    // Offset: 0x1F8DFB4
     ::Array<uint8_t>* GetSignature();
     // public System.String get_SigAlgName()
-    // Offset: 0x1F74274
+    // Offset: 0x1F8DFD0
     ::Il2CppString* get_SigAlgName();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter GetPublicKey()
-    // Offset: 0x1F742CC
+    // Offset: 0x1F8E028
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
     // public System.Byte[] GetEncoded()
-    // Offset: 0x1F74364
+    // Offset: 0x1F8E0C0
     ::Array<uint8_t>* GetEncoded();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1F7427C
+    // Offset: 0x1F8DFD8
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1F74380
+    // Offset: 0x1F8E0DC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F744A8
+    // Offset: 0x1F8E204
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1F74510
+    // Offset: 0x1F8E26C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -165,5 +165,131 @@ namespace Org::BouncyCastle::X509 {
   #pragma pack(pop)
   static check_size<sizeof(X509Certificate), 76 + sizeof(int)> __Org_BouncyCastle_X509_X509CertificateSizeCheck;
   static_assert(sizeof(X509Certificate) == 0x50);
+  // Writing MetadataGetter for method: X509Certificate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Certificate::*)(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&X509Certificate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Certificate::*)(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&X509Certificate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_Version
+  // Il2CppName: get_Version
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509Certificate::*)()>(&X509Certificate::get_Version)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_SerialNumber
+  // Il2CppName: get_SerialNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (X509Certificate::*)()>(&X509Certificate::get_SerialNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_IssuerDN
+  // Il2CppName: get_IssuerDN
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509Certificate::*)()>(&X509Certificate::get_IssuerDN)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_IssuerDN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_SubjectDN
+  // Il2CppName: get_SubjectDN
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509Certificate::*)()>(&X509Certificate::get_SubjectDN)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_SubjectDN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_NotBefore
+  // Il2CppName: get_NotBefore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (X509Certificate::*)()>(&X509Certificate::get_NotBefore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_NotBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_NotAfter
+  // Il2CppName: get_NotAfter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (X509Certificate::*)()>(&X509Certificate::get_NotAfter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_NotAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::GetSignature
+  // Il2CppName: GetSignature
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509Certificate::*)()>(&X509Certificate::GetSignature)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::get_SigAlgName
+  // Il2CppName: get_SigAlgName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509Certificate::*)()>(&X509Certificate::get_SigAlgName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "get_SigAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::GetPublicKey
+  // Il2CppName: GetPublicKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (X509Certificate::*)()>(&X509Certificate::GetPublicKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "GetPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::GetEncoded
+  // Il2CppName: GetEncoded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509Certificate::*)()>(&X509Certificate::GetEncoded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::GetX509Extensions
+  // Il2CppName: GetX509Extensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Extensions* (X509Certificate::*)()>(&X509Certificate::GetX509Extensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "GetX509Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Certificate::*)(::Il2CppObject*)>(&X509Certificate::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509Certificate::*)()>(&X509Certificate::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Certificate::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509Certificate::*)()>(&X509Certificate::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Certificate*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509Certificate*, "Org.BouncyCastle.X509", "X509Certificate");

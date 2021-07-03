@@ -46,7 +46,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x11CA600
+    // Offset: 0x11E4F54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,5 +58,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusConnectionManager::ConnectToServerParams), 24 + sizeof(uint64_t)> __GlobalNamespace_OculusConnectionManager_ConnectToServerParamsSizeCheck;
   static_assert(sizeof(OculusConnectionManager::ConnectToServerParams) == 0x20);
+  // Writing MetadataGetter for method: OculusConnectionManager::ConnectToServerParams::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::ConnectToServerParams::*)()>(&OculusConnectionManager::ConnectToServerParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::ConnectToServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::ConnectToServerParams::*)()>(&OculusConnectionManager::ConnectToServerParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::ConnectToServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::ConnectToServerParams*, "", "OculusConnectionManager/ConnectToServerParams");

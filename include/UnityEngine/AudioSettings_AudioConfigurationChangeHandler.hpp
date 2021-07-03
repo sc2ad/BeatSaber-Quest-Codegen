@@ -32,22 +32,60 @@ namespace UnityEngine {
     // Creating value type constructor for type: AudioConfigurationChangeHandler
     AudioConfigurationChangeHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23B89DC
+    // Offset: 0x23D4F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioSettings::AudioConfigurationChangeHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioSettings::AudioConfigurationChangeHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioSettings::AudioConfigurationChangeHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Boolean deviceWasChanged)
-    // Offset: 0x23B8704
+    // Offset: 0x23D4C80
     void Invoke(bool deviceWasChanged);
     // public System.IAsyncResult BeginInvoke(System.Boolean deviceWasChanged, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23B89EC
+    // Offset: 0x23D4F68
     System::IAsyncResult* BeginInvoke(bool deviceWasChanged, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23B8A7C
+    // Offset: 0x23D4FF8
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(::Il2CppObject*, System::IntPtr)>(&AudioSettings::AudioConfigurationChangeHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(::Il2CppObject*, System::IntPtr)>(&AudioSettings::AudioConfigurationChangeHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(bool)>(&AudioSettings::AudioConfigurationChangeHandler::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AudioSettings::AudioConfigurationChangeHandler::*)(bool, System::AsyncCallback*, ::Il2CppObject*)>(&AudioSettings::AudioConfigurationChangeHandler::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::AudioConfigurationChangeHandler::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioSettings::AudioConfigurationChangeHandler::*)(System::IAsyncResult*)>(&AudioSettings::AudioConfigurationChangeHandler::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::AudioConfigurationChangeHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings::AudioConfigurationChangeHandler*, "UnityEngine", "AudioSettings/AudioConfigurationChangeHandler");

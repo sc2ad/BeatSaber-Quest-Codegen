@@ -29,17 +29,17 @@ namespace Microsoft::Win32 {
       return value;
     }
     // public System.Void .ctor(System.String s)
-    // Offset: 0x1A36064
+    // Offset: 0x1A4FD74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::Il2CppString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()
-    // Offset: 0x1A36098
+    // Offset: 0x1A4FDA8
     ::Il2CppString* Expand();
     // public override System.String ToString()
-    // Offset: 0x1A36090
+    // Offset: 0x1A4FDA0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -47,5 +47,35 @@ namespace Microsoft::Win32 {
   #pragma pack(pop)
   static check_size<sizeof(ExpandString), 16 + sizeof(::Il2CppString*)> __Microsoft_Win32_ExpandStringSizeCheck;
   static_assert(sizeof(ExpandString) == 0x18);
+  // Writing MetadataGetter for method: ExpandString::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExpandString::*)(::Il2CppString*)>(&ExpandString::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExpandString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExpandString::*)(::Il2CppString*)>(&ExpandString::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExpandString*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExpandString::Expand
+  // Il2CppName: Expand
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ExpandString::*)()>(&ExpandString::Expand)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExpandString*), "Expand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExpandString::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ExpandString::*)()>(&ExpandString::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExpandString*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");

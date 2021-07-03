@@ -157,147 +157,513 @@ namespace System::Globalization {
     // Set static field: static private System.Globalization.CultureData s_Invariant
     static void _set_s_Invariant(System::Globalization::CultureData* value);
     // private System.Void .ctor(System.String name)
-    // Offset: 0x179C3A8
+    // Offset: 0x17B50B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureData* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureData*, creationType>(name)));
     }
     // static public System.Globalization.CultureData get_Invariant()
-    // Offset: 0x179C3D4
+    // Offset: 0x17B50E4
     static System::Globalization::CultureData* get_Invariant();
     // static public System.Globalization.CultureData GetCultureData(System.String cultureName, System.Boolean useUserOverride)
-    // Offset: 0x179C6D8
+    // Offset: 0x17B53E8
     static System::Globalization::CultureData* GetCultureData(::Il2CppString* cultureName, bool useUserOverride);
     // static public System.Globalization.CultureData GetCultureData(System.String cultureName, System.Boolean useUserOverride, System.Int32 datetimeIndex, System.Int32 calendarId, System.Int32 numberIndex, System.String iso2lang, System.Int32 ansiCodePage, System.Int32 oemCodePage, System.Int32 macCodePage, System.Int32 ebcdicCodePage, System.Boolean rightToLeft, System.String listSeparator)
-    // Offset: 0x179C7D4
+    // Offset: 0x17B54E4
     static System::Globalization::CultureData* GetCultureData(::Il2CppString* cultureName, bool useUserOverride, int datetimeIndex, int calendarId, int numberIndex, ::Il2CppString* iso2lang, int ansiCodePage, int oemCodePage, int macCodePage, int ebcdicCodePage, bool rightToLeft, ::Il2CppString* listSeparator);
     // static System.Globalization.CultureData GetCultureData(System.Int32 culture, System.Boolean bUseUserOverride)
-    // Offset: 0x179C908
+    // Offset: 0x17B5618
     static System::Globalization::CultureData* GetCultureData(int culture, bool bUseUserOverride);
     // private System.Void fill_culture_data(System.Int32 datetimeIndex)
-    // Offset: 0x179C904
+    // Offset: 0x17B5614
     void fill_culture_data(int datetimeIndex);
     // public System.Globalization.CalendarData GetCalendar(System.Int32 calendarId)
-    // Offset: 0x1799B38
+    // Offset: 0x17B2848
     System::Globalization::CalendarData* GetCalendar(int calendarId);
     // System.String[] get_LongTimes()
-    // Offset: 0x179C910
+    // Offset: 0x17B5620
     ::Array<::Il2CppString*>* get_LongTimes();
     // System.String[] get_ShortTimes()
-    // Offset: 0x179C934
+    // Offset: 0x17B5644
     ::Array<::Il2CppString*>* get_ShortTimes();
     // System.String get_SISO639LANGNAME()
-    // Offset: 0x179C958
+    // Offset: 0x17B5668
     ::Il2CppString* get_SISO639LANGNAME();
     // System.Int32 get_IFIRSTDAYOFWEEK()
-    // Offset: 0x179C960
+    // Offset: 0x17B5670
     int get_IFIRSTDAYOFWEEK();
     // System.Int32 get_IFIRSTWEEKOFYEAR()
-    // Offset: 0x179C968
+    // Offset: 0x17B5678
     int get_IFIRSTWEEKOFYEAR();
     // System.String get_SAM1159()
-    // Offset: 0x179C970
+    // Offset: 0x17B5680
     ::Il2CppString* get_SAM1159();
     // System.String get_SPM2359()
-    // Offset: 0x179C978
+    // Offset: 0x17B5688
     ::Il2CppString* get_SPM2359();
     // System.String get_TimeSeparator()
-    // Offset: 0x179C980
+    // Offset: 0x17B5690
     ::Il2CppString* get_TimeSeparator();
     // System.Int32[] get_CalendarIds()
-    // Offset: 0x179C988
+    // Offset: 0x17B5698
     ::Array<int>* get_CalendarIds();
     // System.Boolean get_IsInvariantCulture()
-    // Offset: 0x179CADC
+    // Offset: 0x17B57EC
     bool get_IsInvariantCulture();
     // System.String get_CultureName()
-    // Offset: 0x179CAE8
+    // Offset: 0x17B57F8
     ::Il2CppString* get_CultureName();
     // System.String get_SCOMPAREINFO()
-    // Offset: 0x179CAF0
+    // Offset: 0x17B5800
     ::Il2CppString* get_SCOMPAREINFO();
     // System.String get_STEXTINFO()
-    // Offset: 0x179CB38
+    // Offset: 0x17B5848
     ::Il2CppString* get_STEXTINFO();
     // System.Int32 get_ILANGUAGE()
-    // Offset: 0x179CB40
+    // Offset: 0x17B5850
     int get_ILANGUAGE();
     // System.Boolean get_UseUserOverride()
-    // Offset: 0x179CB48
+    // Offset: 0x17B5858
     bool get_UseUserOverride();
     // System.String[] EraNames(System.Int32 calendarId)
-    // Offset: 0x179CB50
+    // Offset: 0x17B5860
     ::Array<::Il2CppString*>* EraNames(int calendarId);
     // System.String[] AbbrevEraNames(System.Int32 calendarId)
-    // Offset: 0x179CB70
+    // Offset: 0x17B5880
     ::Array<::Il2CppString*>* AbbrevEraNames(int calendarId);
     // System.String[] AbbreviatedEnglishEraNames(System.Int32 calendarId)
-    // Offset: 0x179CB90
+    // Offset: 0x17B58A0
     ::Array<::Il2CppString*>* AbbreviatedEnglishEraNames(int calendarId);
     // System.String[] ShortDates(System.Int32 calendarId)
-    // Offset: 0x179CBB0
+    // Offset: 0x17B58C0
     ::Array<::Il2CppString*>* ShortDates(int calendarId);
     // System.String[] LongDates(System.Int32 calendarId)
-    // Offset: 0x179CBD0
+    // Offset: 0x17B58E0
     ::Array<::Il2CppString*>* LongDates(int calendarId);
     // System.String[] YearMonths(System.Int32 calendarId)
-    // Offset: 0x179CBF0
+    // Offset: 0x17B5900
     ::Array<::Il2CppString*>* YearMonths(int calendarId);
     // System.String[] DayNames(System.Int32 calendarId)
-    // Offset: 0x179CC10
+    // Offset: 0x17B5920
     ::Array<::Il2CppString*>* DayNames(int calendarId);
     // System.String[] AbbreviatedDayNames(System.Int32 calendarId)
-    // Offset: 0x179CC30
+    // Offset: 0x17B5940
     ::Array<::Il2CppString*>* AbbreviatedDayNames(int calendarId);
     // System.String[] MonthNames(System.Int32 calendarId)
-    // Offset: 0x179CC50
+    // Offset: 0x17B5960
     ::Array<::Il2CppString*>* MonthNames(int calendarId);
     // System.String[] GenitiveMonthNames(System.Int32 calendarId)
-    // Offset: 0x179CC70
+    // Offset: 0x17B5980
     ::Array<::Il2CppString*>* GenitiveMonthNames(int calendarId);
     // System.String[] AbbreviatedMonthNames(System.Int32 calendarId)
-    // Offset: 0x179CC90
+    // Offset: 0x17B59A0
     ::Array<::Il2CppString*>* AbbreviatedMonthNames(int calendarId);
     // System.String[] AbbreviatedGenitiveMonthNames(System.Int32 calendarId)
-    // Offset: 0x179CCB0
+    // Offset: 0x17B59C0
     ::Array<::Il2CppString*>* AbbreviatedGenitiveMonthNames(int calendarId);
     // System.String[] LeapYearMonthNames(System.Int32 calendarId)
-    // Offset: 0x179CCD0
+    // Offset: 0x17B59E0
     ::Array<::Il2CppString*>* LeapYearMonthNames(int calendarId);
     // System.String MonthDay(System.Int32 calendarId)
-    // Offset: 0x179CCF0
+    // Offset: 0x17B5A00
     ::Il2CppString* MonthDay(int calendarId);
     // System.String DateSeparator(System.Int32 calendarId)
-    // Offset: 0x179CD10
+    // Offset: 0x17B5A20
     ::Il2CppString* DateSeparator(int calendarId);
     // static private System.String GetDateSeparator(System.String format)
-    // Offset: 0x179CD4C
+    // Offset: 0x17B5A5C
     static ::Il2CppString* GetDateSeparator(::Il2CppString* format);
     // static private System.String GetSeparator(System.String format, System.String timeParts)
-    // Offset: 0x179CD9C
+    // Offset: 0x17B5AAC
     static ::Il2CppString* GetSeparator(::Il2CppString* format, ::Il2CppString* timeParts);
     // static private System.Int32 IndexOfTimePart(System.String format, System.Int32 startIndex, System.String timeParts)
-    // Offset: 0x179CEA8
+    // Offset: 0x17B5BB8
     static int IndexOfTimePart(::Il2CppString* format, int startIndex, ::Il2CppString* timeParts);
     // static private System.String UnescapeNlsString(System.String str, System.Int32 start, System.Int32 end)
-    // Offset: 0x179CFA0
+    // Offset: 0x17B5CB0
     static ::Il2CppString* UnescapeNlsString(::Il2CppString* str, int start, int end);
     // static System.String[] ReescapeWin32Strings(System.String[] array)
-    // Offset: 0x1799308
+    // Offset: 0x17B2018
     static ::Array<::Il2CppString*>* ReescapeWin32Strings(::Array<::Il2CppString*>* array);
     // static System.String ReescapeWin32String(System.String str)
-    // Offset: 0x179930C
+    // Offset: 0x17B201C
     static ::Il2CppString* ReescapeWin32String(::Il2CppString* str);
     // System.Void GetNFIValues(System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x179D154
+    // Offset: 0x17B5E64
     void GetNFIValues(System::Globalization::NumberFormatInfo* nfi);
     // static private System.Void fill_number_data(System.Globalization.NumberFormatInfo nfi, System.Int32 numberIndex)
-    // Offset: 0x179D1B0
+    // Offset: 0x17B5EC0
     static void fill_number_data(System::Globalization::NumberFormatInfo* nfi, int numberIndex);
   }; // System.Globalization.CultureData
   #pragma pack(pop)
   static check_size<sizeof(CultureData), 128 + sizeof(::Il2CppString*)> __System_Globalization_CultureDataSizeCheck;
   static_assert(sizeof(CultureData) == 0x88);
+  // Writing MetadataGetter for method: CultureData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CultureData::*)(::Il2CppString*)>(&CultureData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CultureData::*)(::Il2CppString*)>(&CultureData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_Invariant
+  // Il2CppName: get_Invariant
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)()>(&CultureData::get_Invariant)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_Invariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetCultureData
+  // Il2CppName: GetCultureData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)(::Il2CppString*, bool)>(&CultureData::GetCultureData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetCultureData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetCultureData
+  // Il2CppName: GetCultureData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)(::Il2CppString*, bool, int, int, int, ::Il2CppString*, int, int, int, int, bool, ::Il2CppString*)>(&CultureData::GetCultureData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetCultureData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetCultureData
+  // Il2CppName: GetCultureData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)(int, bool)>(&CultureData::GetCultureData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetCultureData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::fill_culture_data
+  // Il2CppName: fill_culture_data
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CultureData::*)(int)>(&CultureData::fill_culture_data)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "fill_culture_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetCalendar
+  // Il2CppName: GetCalendar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CalendarData* (CultureData::*)(int)>(&CultureData::GetCalendar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetCalendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_LongTimes
+  // Il2CppName: get_LongTimes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)()>(&CultureData::get_LongTimes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_LongTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_ShortTimes
+  // Il2CppName: get_ShortTimes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)()>(&CultureData::get_ShortTimes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_ShortTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_SISO639LANGNAME
+  // Il2CppName: get_SISO639LANGNAME
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_SISO639LANGNAME)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_SISO639LANGNAME", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_IFIRSTDAYOFWEEK
+  // Il2CppName: get_IFIRSTDAYOFWEEK
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CultureData::*)()>(&CultureData::get_IFIRSTDAYOFWEEK)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_IFIRSTDAYOFWEEK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_IFIRSTWEEKOFYEAR
+  // Il2CppName: get_IFIRSTWEEKOFYEAR
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CultureData::*)()>(&CultureData::get_IFIRSTWEEKOFYEAR)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_IFIRSTWEEKOFYEAR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_SAM1159
+  // Il2CppName: get_SAM1159
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_SAM1159)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_SAM1159", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_SPM2359
+  // Il2CppName: get_SPM2359
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_SPM2359)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_SPM2359", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_TimeSeparator
+  // Il2CppName: get_TimeSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_TimeSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_TimeSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_CalendarIds
+  // Il2CppName: get_CalendarIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (CultureData::*)()>(&CultureData::get_CalendarIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_CalendarIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_IsInvariantCulture
+  // Il2CppName: get_IsInvariantCulture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CultureData::*)()>(&CultureData::get_IsInvariantCulture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_IsInvariantCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_CultureName
+  // Il2CppName: get_CultureName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_CultureName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_SCOMPAREINFO
+  // Il2CppName: get_SCOMPAREINFO
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_SCOMPAREINFO)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_SCOMPAREINFO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_STEXTINFO
+  // Il2CppName: get_STEXTINFO
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)()>(&CultureData::get_STEXTINFO)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_STEXTINFO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_ILANGUAGE
+  // Il2CppName: get_ILANGUAGE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CultureData::*)()>(&CultureData::get_ILANGUAGE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_ILANGUAGE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::get_UseUserOverride
+  // Il2CppName: get_UseUserOverride
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CultureData::*)()>(&CultureData::get_UseUserOverride)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "get_UseUserOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::EraNames
+  // Il2CppName: EraNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::EraNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "EraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::AbbrevEraNames
+  // Il2CppName: AbbrevEraNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::AbbrevEraNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "AbbrevEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::AbbreviatedEnglishEraNames
+  // Il2CppName: AbbreviatedEnglishEraNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::AbbreviatedEnglishEraNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "AbbreviatedEnglishEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::ShortDates
+  // Il2CppName: ShortDates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::ShortDates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "ShortDates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::LongDates
+  // Il2CppName: LongDates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::LongDates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "LongDates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::YearMonths
+  // Il2CppName: YearMonths
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::YearMonths)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "YearMonths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::DayNames
+  // Il2CppName: DayNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::DayNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "DayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::AbbreviatedDayNames
+  // Il2CppName: AbbreviatedDayNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::AbbreviatedDayNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "AbbreviatedDayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::MonthNames
+  // Il2CppName: MonthNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::MonthNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "MonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GenitiveMonthNames
+  // Il2CppName: GenitiveMonthNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::GenitiveMonthNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GenitiveMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::AbbreviatedMonthNames
+  // Il2CppName: AbbreviatedMonthNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::AbbreviatedMonthNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "AbbreviatedMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::AbbreviatedGenitiveMonthNames
+  // Il2CppName: AbbreviatedGenitiveMonthNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::AbbreviatedGenitiveMonthNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "AbbreviatedGenitiveMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::LeapYearMonthNames
+  // Il2CppName: LeapYearMonthNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (CultureData::*)(int)>(&CultureData::LeapYearMonthNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "LeapYearMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::MonthDay
+  // Il2CppName: MonthDay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)(int)>(&CultureData::MonthDay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "MonthDay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::DateSeparator
+  // Il2CppName: DateSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CultureData::*)(int)>(&CultureData::DateSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "DateSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetDateSeparator
+  // Il2CppName: GetDateSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&CultureData::GetDateSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetDateSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetSeparator
+  // Il2CppName: GetSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&CultureData::GetSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::IndexOfTimePart
+  // Il2CppName: IndexOfTimePart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ::Il2CppString*)>(&CultureData::IndexOfTimePart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "IndexOfTimePart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::UnescapeNlsString
+  // Il2CppName: UnescapeNlsString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&CultureData::UnescapeNlsString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "UnescapeNlsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::ReescapeWin32Strings
+  // Il2CppName: ReescapeWin32Strings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*)>(&CultureData::ReescapeWin32Strings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "ReescapeWin32Strings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::ReescapeWin32String
+  // Il2CppName: ReescapeWin32String
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&CultureData::ReescapeWin32String)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "ReescapeWin32String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::GetNFIValues
+  // Il2CppName: GetNFIValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CultureData::*)(System::Globalization::NumberFormatInfo*)>(&CultureData::GetNFIValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "GetNFIValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CultureData::fill_number_data
+  // Il2CppName: fill_number_data
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::NumberFormatInfo*, int)>(&CultureData::fill_number_data)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CultureData*), "fill_number_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureData*, "System.Globalization", "CultureData");

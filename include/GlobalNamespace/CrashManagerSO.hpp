@@ -42,22 +42,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_logString()
-    // Offset: 0x10987F0
+    // Offset: 0x1196934
     ::Il2CppString* get_logString();
     // public System.String get_stackTrace()
-    // Offset: 0x10987F8
+    // Offset: 0x119693C
     ::Il2CppString* get_stackTrace();
     // public System.Void StartCatchingExceptions()
-    // Offset: 0x1098800
+    // Offset: 0x1196944
     void StartCatchingExceptions();
     // protected System.Void OnDisable()
-    // Offset: 0x1098874
+    // Offset: 0x11969B8
     void OnDisable();
     // private System.Void HandleLog(System.String logString, System.String stackTrace, UnityEngine.LogType type)
-    // Offset: 0x10988E8
+    // Offset: 0x1196A2C
     void HandleLog(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type);
     // public System.Void .ctor()
-    // Offset: 0x109898C
+    // Offset: 0x1196AD0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -72,5 +72,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CrashManagerSO), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_CrashManagerSOSizeCheck;
   static_assert(sizeof(CrashManagerSO) == 0x28);
+  // Writing MetadataGetter for method: CrashManagerSO::get_logString
+  // Il2CppName: get_logString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrashManagerSO::*)()>(&CrashManagerSO::get_logString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "get_logString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrashManagerSO::get_stackTrace
+  // Il2CppName: get_stackTrace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrashManagerSO::*)()>(&CrashManagerSO::get_stackTrace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "get_stackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrashManagerSO::StartCatchingExceptions
+  // Il2CppName: StartCatchingExceptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::StartCatchingExceptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "StartCatchingExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrashManagerSO::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrashManagerSO::HandleLog
+  // Il2CppName: HandleLog
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&CrashManagerSO::HandleLog)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "HandleLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrashManagerSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");

@@ -99,7 +99,7 @@ namespace Mono::Security::Cryptography {
     Mono::Math::BigInteger* e;
     // Field size check
     static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD86814
+    // [CompilerGeneratedAttribute] Offset: 0xD86794
     // private Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler KeyGenerated
     // Size: 0x8
     // Offset: 0x68
@@ -109,21 +109,21 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: RSAManaged
     RSAManaged(bool isCRTpossible_ = {}, bool keypairGenerated_ = {}, bool m_disposed_ = {}, Mono::Math::BigInteger* d_ = {}, Mono::Math::BigInteger* p_ = {}, Mono::Math::BigInteger* q_ = {}, Mono::Math::BigInteger* dp_ = {}, Mono::Math::BigInteger* dq_ = {}, Mono::Math::BigInteger* qInv_ = {}, Mono::Math::BigInteger* n_ = {}, Mono::Math::BigInteger* e_ = {}, Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* KeyGenerated_ = {}) noexcept : isCRTpossible{isCRTpossible_}, keypairGenerated{keypairGenerated_}, m_disposed{m_disposed_}, d{d_}, p{p_}, q{q_}, dp{dp_}, dq{dq_}, qInv{qInv_}, n{n_}, e{e_}, KeyGenerated{KeyGenerated_} {}
     // private System.Void GenerateKeyPair()
-    // Offset: 0x1D5B1CC
+    // Offset: 0x1D76EDC
     void GenerateKeyPair();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x1D5B85C
+    // Offset: 0x1D7756C
     bool get_PublicOnly();
     // private System.Byte[] GetPaddedValue(Mono.Math.BigInteger value, System.Int32 length)
-    // Offset: 0x1D5BC60
+    // Offset: 0x1D77970
     ::Array<uint8_t>* GetPaddedValue(Mono::Math::BigInteger* value, int length);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x1D5B920
+    // Offset: 0x1D77630
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Security.Cryptography.RSAParameters RSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.RSAParameters parameters)
-    // Offset: 0x1D5BD20
+    // Offset: 0x1D77A30
     // Implemented from: System.Security.Cryptography.RSA
     // Base method: System.Void RSA::ImportParameters(System.Security.Cryptography.RSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::RSAParameters parameters);
@@ -131,6 +131,46 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(RSAManaged), 104 + sizeof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*)> __Mono_Security_Cryptography_RSAManagedSizeCheck;
   static_assert(sizeof(RSAManaged) == 0x70);
+  // Writing MetadataGetter for method: RSAManaged::GenerateKeyPair
+  // Il2CppName: GenerateKeyPair
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::*)()>(&RSAManaged::GenerateKeyPair)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RSAManaged::get_PublicOnly
+  // Il2CppName: get_PublicOnly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSAManaged::*)()>(&RSAManaged::get_PublicOnly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RSAManaged::GetPaddedValue
+  // Il2CppName: GetPaddedValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RSAManaged::*)(Mono::Math::BigInteger*, int)>(&RSAManaged::GetPaddedValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "GetPaddedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RSAManaged::ExportParameters
+  // Il2CppName: ExportParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSAParameters (RSAManaged::*)(bool)>(&RSAManaged::ExportParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RSAManaged::ImportParameters
+  // Il2CppName: ImportParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::*)(System::Security::Cryptography::RSAParameters)>(&RSAManaged::ImportParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSAParameters>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged*, "Mono.Security.Cryptography", "RSAManaged");

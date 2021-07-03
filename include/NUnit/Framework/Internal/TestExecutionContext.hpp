@@ -111,32 +111,32 @@ namespace NUnit::Framework::Internal {
     System::Security::Principal::IPrincipal* currentPrincipal;
     // Field size check
     static_assert(sizeof(System::Security::Principal::IPrincipal*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE045B4
-    // [DebuggerBrowsableAttribute] Offset: 0xE045B4
+    // [CompilerGeneratedAttribute] Offset: 0xE055B0
+    // [DebuggerBrowsableAttribute] Offset: 0xE055B0
     // private NUnit.Framework.Internal.Test <CurrentTest>k__BackingField
     // Size: 0x8
     // Offset: 0x50
     NUnit::Framework::Internal::Test* CurrentTest;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE045F0
-    // [CompilerGeneratedAttribute] Offset: 0xE045F0
+    // [DebuggerBrowsableAttribute] Offset: 0xE055EC
+    // [CompilerGeneratedAttribute] Offset: 0xE055EC
     // private System.IO.TextWriter <OutWriter>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE0462C
-    // [CompilerGeneratedAttribute] Offset: 0xE0462C
+    // [DebuggerBrowsableAttribute] Offset: 0xE05628
+    // [CompilerGeneratedAttribute] Offset: 0xE05628
     // private System.Object <TestObject>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     ::Il2CppObject* TestObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE04668
-    // [DebuggerBrowsableAttribute] Offset: 0xE04668
+    // [CompilerGeneratedAttribute] Offset: 0xE05664
+    // [DebuggerBrowsableAttribute] Offset: 0xE05664
     // private System.Int32 <TestCaseTimeout>k__BackingField
     // Size: 0x4
     // Offset: 0x68
@@ -145,24 +145,24 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: TestCaseTimeout and: UpstreamActions
     char __padding10[0x4] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xE046A4
-    // [CompilerGeneratedAttribute] Offset: 0xE046A4
+    // [DebuggerBrowsableAttribute] Offset: 0xE056A0
+    // [CompilerGeneratedAttribute] Offset: 0xE056A0
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* UpstreamActions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE046E0
-    // [DebuggerBrowsableAttribute] Offset: 0xE046E0
+    // [CompilerGeneratedAttribute] Offset: 0xE056DC
+    // [DebuggerBrowsableAttribute] Offset: 0xE056DC
     // private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
     // Size: 0x8
     // Offset: 0x78
     NUnit::Framework::Constraints::ValueFormatter* CurrentValueFormatter;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE0471C
-    // [DebuggerBrowsableAttribute] Offset: 0xE0471C
+    // [CompilerGeneratedAttribute] Offset: 0xE05718
+    // [DebuggerBrowsableAttribute] Offset: 0xE05718
     // private System.Boolean <IsSingleThreaded>k__BackingField
     // Size: 0x1
     // Offset: 0x80
@@ -182,58 +182,58 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.String CONTEXT_KEY
     static void _set_CONTEXT_KEY(::Il2CppString* value);
     // static public NUnit.Framework.Internal.ITestExecutionContext get_CurrentContext()
-    // Offset: 0x2294AE4
+    // Offset: 0x22AF840
     static NUnit::Framework::Internal::ITestExecutionContext* get_CurrentContext();
     // static public NUnit.Framework.Internal.TestExecutionContext GetTestExecutionContext()
-    // Offset: 0x2294B90
+    // Offset: 0x22AF8EC
     static NUnit::Framework::Internal::TestExecutionContext* GetTestExecutionContext();
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x2294C38
+    // Offset: 0x22AF994
     NUnit::Framework::Internal::Test* get_CurrentTest();
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x2294C40
+    // Offset: 0x22AF99C
     NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x2294C48
+    // Offset: 0x22AF9A4
     void set_CurrentResult(NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x2294C5C
+    // Offset: 0x22AF9B8
     System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x2294C64
+    // Offset: 0x22AF9C0
     void set_OutWriter(System::IO::TextWriter* value);
     // public System.Object get_TestObject()
-    // Offset: 0x2294C6C
+    // Offset: 0x22AF9C8
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x2294C74
+    // Offset: 0x22AF9D0
     void set_TestObject(::Il2CppObject* value);
     // NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x2294C7C
+    // Offset: 0x22AF9D8
     NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x2294C84
+    // Offset: 0x22AF9E0
     void set_TestCaseTimeout(int value);
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x2294C8C
+    // Offset: 0x22AF9E8
     void set_UpstreamActions(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x2294C94
+    // Offset: 0x22AF9F0
     NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // private System.Void set_CurrentValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x2294C9C
+    // Offset: 0x22AF9F8
     void set_CurrentValueFormatter(NUnit::Framework::Constraints::ValueFormatter* value);
     // public System.Void set_IsSingleThreaded(System.Boolean value)
-    // Offset: 0x2294CA4
+    // Offset: 0x22AFA00
     void set_IsSingleThreaded(bool value);
     // public System.Void IncrementAssertCount()
-    // Offset: 0x2294CB0
+    // Offset: 0x22AFA0C
     void IncrementAssertCount();
     // static private System.Void .cctor()
-    // Offset: 0x2294CC4
+    // Offset: 0x22AFA20
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2294928
+    // Offset: 0x22AF684
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Void LongLivedMarshalByRefObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -244,7 +244,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<TestExecutionContext*, creationType>()));
     }
     // public override System.Object InitializeLifetimeService()
-    // Offset: 0x2294CBC
+    // Offset: 0x22AFA18
     // Implemented from: NUnit.Compatibility.LongLivedMarshalByRefObject
     // Base method: System.Object LongLivedMarshalByRefObject::InitializeLifetimeService()
     ::Il2CppObject* InitializeLifetimeService();
@@ -252,5 +252,163 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(TestExecutionContext), 128 + sizeof(bool)> __NUnit_Framework_Internal_TestExecutionContextSizeCheck;
   static_assert(sizeof(TestExecutionContext) == 0x81);
+  // Writing MetadataGetter for method: TestExecutionContext::get_CurrentContext
+  // Il2CppName: get_CurrentContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::ITestExecutionContext* (*)()>(&TestExecutionContext::get_CurrentContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::GetTestExecutionContext
+  // Il2CppName: GetTestExecutionContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestExecutionContext* (*)()>(&TestExecutionContext::GetTestExecutionContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "GetTestExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::get_CurrentTest
+  // Il2CppName: get_CurrentTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (TestExecutionContext::*)()>(&TestExecutionContext::get_CurrentTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_CurrentTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::get_CurrentResult
+  // Il2CppName: get_CurrentResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestExecutionContext::*)()>(&TestExecutionContext::get_CurrentResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_CurrentResult
+  // Il2CppName: set_CurrentResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&TestExecutionContext::set_CurrentResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::get_OutWriter
+  // Il2CppName: get_OutWriter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (TestExecutionContext::*)()>(&TestExecutionContext::get_OutWriter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_OutWriter
+  // Il2CppName: set_OutWriter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(System::IO::TextWriter*)>(&TestExecutionContext::set_OutWriter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::get_TestObject
+  // Il2CppName: get_TestObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestExecutionContext::*)()>(&TestExecutionContext::get_TestObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_TestObject
+  // Il2CppName: set_TestObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(::Il2CppObject*)>(&TestExecutionContext::set_TestObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::get_Listener
+  // Il2CppName: get_Listener
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (TestExecutionContext::*)()>(&TestExecutionContext::get_Listener)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_TestCaseTimeout
+  // Il2CppName: set_TestCaseTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(int)>(&TestExecutionContext::set_TestCaseTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_TestCaseTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_UpstreamActions
+  // Il2CppName: set_UpstreamActions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&TestExecutionContext::set_UpstreamActions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_UpstreamActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::get_CurrentValueFormatter
+  // Il2CppName: get_CurrentValueFormatter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (TestExecutionContext::*)()>(&TestExecutionContext::get_CurrentValueFormatter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_CurrentValueFormatter
+  // Il2CppName: set_CurrentValueFormatter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&TestExecutionContext::set_CurrentValueFormatter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::set_IsSingleThreaded
+  // Il2CppName: set_IsSingleThreaded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)(bool)>(&TestExecutionContext::set_IsSingleThreaded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "set_IsSingleThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::IncrementAssertCount
+  // Il2CppName: IncrementAssertCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)()>(&TestExecutionContext::IncrementAssertCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TestExecutionContext::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)()>(&TestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestExecutionContext::*)()>(&TestExecutionContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestExecutionContext::InitializeLifetimeService
+  // Il2CppName: InitializeLifetimeService
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestExecutionContext::*)()>(&TestExecutionContext::InitializeLifetimeService)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestExecutionContext*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext*, "NUnit.Framework.Internal", "TestExecutionContext");

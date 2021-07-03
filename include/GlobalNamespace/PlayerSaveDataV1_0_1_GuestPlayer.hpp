@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GuestPlayer
     GuestPlayer(::Il2CppString* playerName_ = {}, GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings_ = {}) noexcept : playerName{playerName_}, playerSpecificSettings{playerSpecificSettings_} {}
     // public System.Void .ctor()
-    // Offset: 0x1014F74
+    // Offset: 0x1059284
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,5 +45,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSaveDataV1_0_1::GuestPlayer), 24 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*)> __GlobalNamespace_PlayerSaveDataV1_0_1_GuestPlayerSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::GuestPlayer) == 0x20);
+  // Writing MetadataGetter for method: PlayerSaveDataV1_0_1::GuestPlayer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::GuestPlayer::*)()>(&PlayerSaveDataV1_0_1::GuestPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::GuestPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::GuestPlayer::*)()>(&PlayerSaveDataV1_0_1::GuestPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::GuestPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer*, "", "PlayerSaveDataV1_0_1/GuestPlayer");

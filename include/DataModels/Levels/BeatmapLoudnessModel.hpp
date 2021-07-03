@@ -68,18 +68,22 @@ namespace DataModels::Levels {
       static auto ___internal__logger = ::Logger::get().WithContext("DataModels::Levels::BeatmapLoudnessModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLoudnessModel*, creationType>(loudnessPerLevelCSV)));
     }
-    // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
-    // Offset: 0x109E210
-    float GetLoudnessCorrectionByLevelId(::Il2CppString* levelId);
-    // public System.Single GetMaxSFXVolumeByLevelId(System.String levelId)
-    // Offset: 0x109E378
-    float GetMaxSFXVolumeByLevelId(::Il2CppString* levelId);
-    // private System.Single GetLoudnessByLevelId(System.String levelId)
-    // Offset: 0x109E2A4
-    float GetLoudnessByLevelId(::Il2CppString* levelId);
-  }; // DataModels.Levels.BeatmapLoudnessModel
-  #pragma pack(pop)
-  static check_size<sizeof(BeatmapLoudnessModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*)> __DataModels_Levels_BeatmapLoudnessModelSizeCheck;
-  static_assert(sizeof(BeatmapLoudnessModel) == 0x18);
+    // MethodInfo getter for: New_ctor
+    static inline MethodInfo* get() const {
+    }
+  };
+  // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
+  // Offset: 0x109E210
+  float GetLoudnessCorrectionByLevelId(::Il2CppString* levelId);
+  // public System.Single GetMaxSFXVolumeByLevelId(System.String levelId)
+  // Offset: 0x109E378
+  float GetMaxSFXVolumeByLevelId(::Il2CppString* levelId);
+  // private System.Single GetLoudnessByLevelId(System.String levelId)
+  // Offset: 0x109E2A4
+  float GetLoudnessByLevelId(::Il2CppString* levelId);
+}; // DataModels.Levels.BeatmapLoudnessModel
+#pragma pack(pop)
+static check_size<sizeof(BeatmapLoudnessModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*)> __DataModels_Levels_BeatmapLoudnessModelSizeCheck;
+static_assert(sizeof(BeatmapLoudnessModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(DataModels::Levels::BeatmapLoudnessModel*, "DataModels.Levels", "BeatmapLoudnessModel");

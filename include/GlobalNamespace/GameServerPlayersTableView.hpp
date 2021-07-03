@@ -81,35 +81,35 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerPlayerTableCell* gameServerPlayerCellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerPlayerTableCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xE26F4C
+    // [InjectAttribute] Offset: 0xE26F90
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE26F5C
+    // [InjectAttribute] Offset: 0xE26FA0
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26F6C
+    // [CompilerGeneratedAttribute] Offset: 0xE26FB0
     // private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26F7C
+    // [CompilerGeneratedAttribute] Offset: 0xE26FC0
     // private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_1<GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::GameplayModifiers*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26F8C
+    // [CompilerGeneratedAttribute] Offset: 0xE26FD0
     // private System.Action`1<System.String> kickPlayerEvent
     // Size: 0x8
     // Offset: 0x48
@@ -163,52 +163,52 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCellId
     static void _set_kCellId(::Il2CppString* value);
     // public System.Void add_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x1040040
+    // Offset: 0x1084CCC
     void add_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
-    // Offset: 0x10400E4
+    // Offset: 0x1084D70
     void remove_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x1040188
+    // Offset: 0x1084E14
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
-    // Offset: 0x104022C
+    // Offset: 0x1084EB8
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x10402D0
+    // Offset: 0x1084F5C
     void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
-    // Offset: 0x1040374
+    // Offset: 0x1085000
     void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Single CellSize()
-    // Offset: 0x1040418
+    // Offset: 0x10850A4
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1040424
+    // Offset: 0x10850B0
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1040474
+    // Offset: 0x1085100
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // private System.Boolean TryGetLobbyPlayerData(System.Int32 idx, out IConnectedPlayer player, out ILobbyPlayerDataModel playerDataModel)
-    // Offset: 0x10408D4
+    // Offset: 0x1085560
     bool TryGetLobbyPlayerData(int idx, GlobalNamespace::IConnectedPlayer*& player, GlobalNamespace::ILobbyPlayerDataModel*& playerDataModel);
     // private System.Void HandleCellUseBeatmap(System.Int32 idx)
-    // Offset: 0x1040A5C
+    // Offset: 0x10856E8
     void HandleCellUseBeatmap(int idx);
     // private System.Void HandleCellUseModifiers(System.Int32 idx)
-    // Offset: 0x1040E08
+    // Offset: 0x1085A94
     void HandleCellUseModifiers(int idx);
     // private System.Void HandleCellKickPlayer(System.Int32 idx)
-    // Offset: 0x1040F98
+    // Offset: 0x1085C24
     void HandleCellKickPlayer(int idx);
     // public System.Void SetData(System.Collections.Generic.List`1<IConnectedPlayer> sortedPlayers, ILobbyPlayersDataModel lobbyPlayersDataModel, System.Boolean isHost, System.Boolean clearSelection)
-    // Offset: 0x10410AC
+    // Offset: 0x1085D38
     void SetData(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* sortedPlayers, GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel, bool isHost, bool clearSelection);
     // private System.Void Init()
-    // Offset: 0x1041118
+    // Offset: 0x1085DA4
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x1041150
+    // Offset: 0x1085DDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -224,5 +224,139 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameServerPlayersTableView), 104 + sizeof(GlobalNamespace::ILobbyPlayersDataModel*)> __GlobalNamespace_GameServerPlayersTableViewSizeCheck;
   static_assert(sizeof(GameServerPlayersTableView) == 0x70);
+  // Writing MetadataGetter for method: GameServerPlayersTableView::add_selectSuggestedLevelEvent
+  // Il2CppName: add_selectSuggestedLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "add_selectSuggestedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::remove_selectSuggestedLevelEvent
+  // Il2CppName: remove_selectSuggestedLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "remove_selectSuggestedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::add_selectSuggestedGameplayModifiersEvent
+  // Il2CppName: add_selectSuggestedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Action_1<GlobalNamespace::GameplayModifiers*>*)>(&GameServerPlayersTableView::add_selectSuggestedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "add_selectSuggestedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayModifiers*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::remove_selectSuggestedGameplayModifiersEvent
+  // Il2CppName: remove_selectSuggestedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Action_1<GlobalNamespace::GameplayModifiers*>*)>(&GameServerPlayersTableView::remove_selectSuggestedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "remove_selectSuggestedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayModifiers*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::add_kickPlayerEvent
+  // Il2CppName: add_kickPlayerEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Action_1<::Il2CppString*>*)>(&GameServerPlayersTableView::add_kickPlayerEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "add_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::remove_kickPlayerEvent
+  // Il2CppName: remove_kickPlayerEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Action_1<::Il2CppString*>*)>(&GameServerPlayersTableView::remove_kickPlayerEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::CellSize
+  // Il2CppName: CellSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameServerPlayersTableView::*)()>(&GameServerPlayersTableView::CellSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::NumberOfCells
+  // Il2CppName: NumberOfCells
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameServerPlayersTableView::*)()>(&GameServerPlayersTableView::NumberOfCells)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::CellForIdx
+  // Il2CppName: CellForIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GameServerPlayersTableView::*)(HMUI::TableView*, int)>(&GameServerPlayersTableView::CellForIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::TryGetLobbyPlayerData
+  // Il2CppName: TryGetLobbyPlayerData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameServerPlayersTableView::*)(int, GlobalNamespace::IConnectedPlayer*&, GlobalNamespace::ILobbyPlayerDataModel*&)>(&GameServerPlayersTableView::TryGetLobbyPlayerData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "TryGetLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::HandleCellUseBeatmap
+  // Il2CppName: HandleCellUseBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(int)>(&GameServerPlayersTableView::HandleCellUseBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "HandleCellUseBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::HandleCellUseModifiers
+  // Il2CppName: HandleCellUseModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(int)>(&GameServerPlayersTableView::HandleCellUseModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "HandleCellUseModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::HandleCellKickPlayer
+  // Il2CppName: HandleCellKickPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(int)>(&GameServerPlayersTableView::HandleCellKickPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "HandleCellKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*, GlobalNamespace::ILobbyPlayersDataModel*, bool, bool)>(&GameServerPlayersTableView::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayersDataModel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)()>(&GameServerPlayersTableView::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameServerPlayersTableView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)()>(&GameServerPlayersTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayersTableView::*)()>(&GameServerPlayersTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameServerPlayersTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayersTableView*, "", "GameServerPlayersTableView");

@@ -24,10 +24,18 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: Uri
     Uri() noexcept {}
     // static public System.Boolean TryParse(System.String input, out System.Uri result)
-    // Offset: 0x157E9F8
+    // Offset: 0x1598708
     static bool TryParse(::Il2CppString* input, System::Uri*& result);
   }; // System.Net.Http.Headers.Parser/Uri
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Parser::Uri::TryParse
+  // Il2CppName: TryParse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Uri*&)>(&Parser::Uri::TryParse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Parser::Uri*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Uri*, "System.Net.Http.Headers", "Parser/Uri");

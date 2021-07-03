@@ -48,7 +48,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: LazyCAttrData
     LazyCAttrData(System::Reflection::Assembly* assembly_ = {}, System::IntPtr data_ = {}, uint data_length_ = {}) noexcept : assembly{assembly_}, data{data_}, data_length{data_length_} {}
     // public System.Void .ctor()
-    // Offset: 0x1C5AD48
+    // Offset: 0x1C75A58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,19 @@ namespace System::Reflection {
   #pragma pack(pop)
   static check_size<sizeof(CustomAttributeData::LazyCAttrData), 32 + sizeof(uint)> __System_Reflection_CustomAttributeData_LazyCAttrDataSizeCheck;
   static_assert(sizeof(CustomAttributeData::LazyCAttrData) == 0x24);
+  // Writing MetadataGetter for method: CustomAttributeData::LazyCAttrData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomAttributeData::LazyCAttrData::*)()>(&CustomAttributeData::LazyCAttrData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomAttributeData::LazyCAttrData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomAttributeData::LazyCAttrData::*)()>(&CustomAttributeData::LazyCAttrData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomAttributeData::LazyCAttrData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");

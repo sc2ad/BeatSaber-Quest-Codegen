@@ -46,30 +46,84 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);
     }
     // System.Void .ctor(System.Collections.IComparer comparer, System.Collections.IHashCodeProvider hashCodeProvider)
-    // Offset: 0x176CB98
+    // Offset: 0x17858A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompatibleComparer* New_ctor(System::Collections::IComparer* comparer, System::Collections::IHashCodeProvider* hashCodeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CompatibleComparer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompatibleComparer*, creationType>(comparer, hashCodeProvider)));
     }
     // public System.Int32 Compare(System.Object a, System.Object b)
-    // Offset: 0x176CBD0
+    // Offset: 0x17858E0
     int Compare(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Boolean Equals(System.Object a, System.Object b)
-    // Offset: 0x176CDA0
+    // Offset: 0x1785AB0
     bool Equals(::Il2CppObject* a, ::Il2CppObject* b);
     // public System.Int32 GetHashCode(System.Object obj)
-    // Offset: 0x176CDBC
+    // Offset: 0x1785ACC
     int GetHashCode(::Il2CppObject* obj);
     // System.Collections.IComparer get_Comparer()
-    // Offset: 0x176CED0
+    // Offset: 0x1785BE0
     System::Collections::IComparer* get_Comparer();
     // System.Collections.IHashCodeProvider get_HashCodeProvider()
-    // Offset: 0x176CED8
+    // Offset: 0x1785BE8
     System::Collections::IHashCodeProvider* get_HashCodeProvider();
   }; // System.Collections.CompatibleComparer
   #pragma pack(pop)
   static check_size<sizeof(CompatibleComparer), 24 + sizeof(System::Collections::IHashCodeProvider*)> __System_Collections_CompatibleComparerSizeCheck;
   static_assert(sizeof(CompatibleComparer) == 0x20);
+  // Writing MetadataGetter for method: CompatibleComparer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompatibleComparer::*)(System::Collections::IComparer*, System::Collections::IHashCodeProvider*)>(&CompatibleComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IHashCodeProvider*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompatibleComparer::*)(System::Collections::IComparer*, System::Collections::IHashCodeProvider*)>(&CompatibleComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IHashCodeProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompatibleComparer::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompatibleComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&CompatibleComparer::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompatibleComparer::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompatibleComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&CompatibleComparer::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompatibleComparer::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CompatibleComparer::*)(::Il2CppObject*)>(&CompatibleComparer::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompatibleComparer::get_Comparer
+  // Il2CppName: get_Comparer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (CompatibleComparer::*)()>(&CompatibleComparer::get_Comparer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), "get_Comparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompatibleComparer::get_HashCodeProvider
+  // Il2CppName: get_HashCodeProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IHashCodeProvider* (CompatibleComparer::*)()>(&CompatibleComparer::get_HashCodeProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompatibleComparer*), "get_HashCodeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CompatibleComparer*, "System.Collections", "CompatibleComparer");

@@ -36,13 +36,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x2351580
+    // Offset: 0x238A38C
     void Awake();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x2351584
+    // Offset: 0x238A390
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x23515A0
+    // Offset: 0x238A3AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -58,5 +58,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SleepRigidbody2DWhenInvisible), 24 + sizeof(UnityEngine::Rigidbody2D*)> __GlobalNamespace_SleepRigidbody2DWhenInvisibleSizeCheck;
   static_assert(sizeof(SleepRigidbody2DWhenInvisible) == 0x20);
+  // Writing MetadataGetter for method: SleepRigidbody2DWhenInvisible::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SleepRigidbody2DWhenInvisible::*)()>(&SleepRigidbody2DWhenInvisible::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SleepRigidbody2DWhenInvisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SleepRigidbody2DWhenInvisible::OnBecameInvisible
+  // Il2CppName: OnBecameInvisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SleepRigidbody2DWhenInvisible::*)()>(&SleepRigidbody2DWhenInvisible::OnBecameInvisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SleepRigidbody2DWhenInvisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SleepRigidbody2DWhenInvisible::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SleepRigidbody2DWhenInvisible::*)()>(&SleepRigidbody2DWhenInvisible::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SleepRigidbody2DWhenInvisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SleepRigidbody2DWhenInvisible::*)()>(&SleepRigidbody2DWhenInvisible::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SleepRigidbody2DWhenInvisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SleepRigidbody2DWhenInvisible*, "", "SleepRigidbody2DWhenInvisible");

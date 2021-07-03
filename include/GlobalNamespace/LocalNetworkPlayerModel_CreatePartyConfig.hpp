@@ -41,7 +41,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::LocalNetworkPlayerModel*>*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x10D3FFC
+    // Offset: 0x23FF17C
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
     // Base method: System.Void PartyConfig::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -54,5 +54,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LocalNetworkPlayerModel::CreatePartyConfig), 57 + sizeof(bool)> __GlobalNamespace_LocalNetworkPlayerModel_CreatePartyConfigSizeCheck;
   static_assert(sizeof(LocalNetworkPlayerModel::CreatePartyConfig) == 0x3A);
+  // Writing MetadataGetter for method: LocalNetworkPlayerModel::CreatePartyConfig::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::CreatePartyConfig::*)()>(&LocalNetworkPlayerModel::CreatePartyConfig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::CreatePartyConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkPlayerModel::CreatePartyConfig::*)()>(&LocalNetworkPlayerModel::CreatePartyConfig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkPlayerModel::CreatePartyConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::CreatePartyConfig*, "", "LocalNetworkPlayerModel/CreatePartyConfig");

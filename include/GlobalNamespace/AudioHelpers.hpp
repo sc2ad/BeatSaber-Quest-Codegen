@@ -15,10 +15,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioHelpers
     AudioHelpers() noexcept {}
     // static public System.Single NormalizedVolumeToDB(System.Single normalizedVolume)
-    // Offset: 0x12227B4
+    // Offset: 0x123EF4C
     static float NormalizedVolumeToDB(float normalizedVolume);
   }; // AudioHelpers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AudioHelpers::NormalizedVolumeToDB
+  // Il2CppName: NormalizedVolumeToDB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&AudioHelpers::NormalizedVolumeToDB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioHelpers*), "NormalizedVolumeToDB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioHelpers*, "", "AudioHelpers");

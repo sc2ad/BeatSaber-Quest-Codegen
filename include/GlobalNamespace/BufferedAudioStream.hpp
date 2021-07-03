@@ -90,24 +90,62 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single playbackDelayTimeSeconds
     static void _set_playbackDelayTimeSeconds(float value);
     // public System.Void .ctor(UnityEngine.AudioSource audio)
-    // Offset: 0x1BADD04
+    // Offset: 0x1BC8A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferedAudioStream* New_ctor(UnityEngine::AudioSource* audio) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()
-    // Offset: 0x1BADE14
+    // Offset: 0x1BC8B24
     void Update();
     // private System.Void Stop()
-    // Offset: 0x1BADDC4
+    // Offset: 0x1BC8AD4
     void Stop();
     // public System.Void AddData(System.Single[] samples)
-    // Offset: 0x1BADFEC
+    // Offset: 0x1BC8CFC
     void AddData(::Array<float>* samples);
   }; // BufferedAudioStream
   #pragma pack(pop)
   static check_size<sizeof(BufferedAudioStream), 40 + sizeof(float)> __GlobalNamespace_BufferedAudioStreamSizeCheck;
   static_assert(sizeof(BufferedAudioStream) == 0x2C);
+  // Writing MetadataGetter for method: BufferedAudioStream::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedAudioStream::*)(UnityEngine::AudioSource*)>(&BufferedAudioStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferedAudioStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedAudioStream::*)(UnityEngine::AudioSource*)>(&BufferedAudioStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferedAudioStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BufferedAudioStream::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedAudioStream::*)()>(&BufferedAudioStream::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferedAudioStream*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BufferedAudioStream::Stop
+  // Il2CppName: Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedAudioStream::*)()>(&BufferedAudioStream::Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferedAudioStream*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BufferedAudioStream::AddData
+  // Il2CppName: AddData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedAudioStream::*)(::Array<float>*)>(&BufferedAudioStream::AddData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferedAudioStream*), "AddData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedAudioStream*, "", "BufferedAudioStream");

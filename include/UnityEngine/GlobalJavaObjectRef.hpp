@@ -35,17 +35,17 @@ namespace UnityEngine {
     // Creating value type constructor for type: GlobalJavaObjectRef
     GlobalJavaObjectRef(bool m_disposed_ = {}, System::IntPtr m_jobject_ = {}) noexcept : m_disposed{m_disposed_}, m_jobject{m_jobject_} {}
     // public System.Void .ctor(System.IntPtr jobject)
-    // Offset: 0x235E8C4
+    // Offset: 0x2373A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlobalJavaObjectRef* New_ctor(System::IntPtr jobject) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GlobalJavaObjectRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlobalJavaObjectRef*, creationType>(jobject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x235F868
+    // Offset: 0x23749C4
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x2362480
+    // Offset: 0x23775DC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -53,5 +53,35 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(GlobalJavaObjectRef), 24 + sizeof(System::IntPtr)> __UnityEngine_GlobalJavaObjectRefSizeCheck;
   static_assert(sizeof(GlobalJavaObjectRef) == 0x20);
+  // Writing MetadataGetter for method: GlobalJavaObjectRef::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalJavaObjectRef::*)(System::IntPtr)>(&GlobalJavaObjectRef::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlobalJavaObjectRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalJavaObjectRef::*)(System::IntPtr)>(&GlobalJavaObjectRef::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlobalJavaObjectRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: GlobalJavaObjectRef::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalJavaObjectRef::*)()>(&GlobalJavaObjectRef::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlobalJavaObjectRef*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GlobalJavaObjectRef::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalJavaObjectRef::*)()>(&GlobalJavaObjectRef::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlobalJavaObjectRef*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");

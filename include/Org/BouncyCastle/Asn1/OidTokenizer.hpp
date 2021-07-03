@@ -31,21 +31,51 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: OidTokenizer
     OidTokenizer(::Il2CppString* oid_ = {}, int index_ = {}) noexcept : oid{oid_}, index{index_} {}
     // public System.Void .ctor(System.String oid)
-    // Offset: 0x1727328
+    // Offset: 0x173F038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::Il2CppString* oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.Boolean get_HasMoreTokens()
-    // Offset: 0x1727354
+    // Offset: 0x173F064
     bool get_HasMoreTokens();
     // public System.String NextToken()
-    // Offset: 0x1727364
+    // Offset: 0x173F074
     ::Il2CppString* NextToken();
   }; // Org.BouncyCastle.Asn1.OidTokenizer
   #pragma pack(pop)
   static check_size<sizeof(OidTokenizer), 24 + sizeof(int)> __Org_BouncyCastle_Asn1_OidTokenizerSizeCheck;
   static_assert(sizeof(OidTokenizer) == 0x1C);
+  // Writing MetadataGetter for method: OidTokenizer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OidTokenizer::*)(::Il2CppString*)>(&OidTokenizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidTokenizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OidTokenizer::*)(::Il2CppString*)>(&OidTokenizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidTokenizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OidTokenizer::get_HasMoreTokens
+  // Il2CppName: get_HasMoreTokens
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OidTokenizer::*)()>(&OidTokenizer::get_HasMoreTokens)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidTokenizer*), "get_HasMoreTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OidTokenizer::NextToken
+  // Il2CppName: NextToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OidTokenizer::*)()>(&OidTokenizer::NextToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OidTokenizer*), "NextToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");

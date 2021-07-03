@@ -37,39 +37,117 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private System.Byte[] header
     static void _set_header(::Array<uint8_t>* value);
     // protected System.Void .ctor(System.Int32 messageType)
-    // Offset: 0x1D5FFF0
+    // Offset: 0x1D7BD00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageBase* New_ctor(int messageType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::MessageBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageBase*, creationType>(messageType)));
     }
     // public Mono.Security.Protocol.Ntlm.NtlmFlags get_Flags()
-    // Offset: 0x1D6001C
+    // Offset: 0x1D7BD2C
     Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
     // public System.Void set_Flags(Mono.Security.Protocol.Ntlm.NtlmFlags value)
-    // Offset: 0x1D60024
+    // Offset: 0x1D7BD34
     void set_Flags(Mono::Security::Protocol::Ntlm::NtlmFlags value);
     // public System.Int32 get_Type()
-    // Offset: 0x1D6002C
+    // Offset: 0x1D7BD3C
     int get_Type();
     // protected System.Byte[] PrepareMessage(System.Int32 messageSize)
-    // Offset: 0x1D60034
+    // Offset: 0x1D7BD44
     ::Array<uint8_t>* PrepareMessage(int messageSize);
     // protected System.Void Decode(System.Byte[] message)
-    // Offset: 0x1D60140
+    // Offset: 0x1D7BE50
     void Decode(::Array<uint8_t>* message);
     // protected System.Boolean CheckHeader(System.Byte[] message)
-    // Offset: 0x1D602E4
+    // Offset: 0x1D7BFF4
     bool CheckHeader(::Array<uint8_t>* message);
     // public System.Byte[] GetBytes()
     // Offset: 0xFFFFFFFF
     ::Array<uint8_t>* GetBytes();
     // static private System.Void .cctor()
-    // Offset: 0x1D60420
+    // Offset: 0x1D7C130
     static void _cctor();
   }; // Mono.Security.Protocol.Ntlm.MessageBase
   #pragma pack(pop)
   static check_size<sizeof(MessageBase), 20 + sizeof(Mono::Security::Protocol::Ntlm::NtlmFlags)> __Mono_Security_Protocol_Ntlm_MessageBaseSizeCheck;
   static_assert(sizeof(MessageBase) == 0x18);
+  // Writing MetadataGetter for method: MessageBase::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageBase::*)(int)>(&MessageBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageBase::*)(int)>(&MessageBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::get_Flags
+  // Il2CppName: get_Flags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Protocol::Ntlm::NtlmFlags (MessageBase::*)()>(&MessageBase::get_Flags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "get_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::set_Flags
+  // Il2CppName: set_Flags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageBase::*)(Mono::Security::Protocol::Ntlm::NtlmFlags)>(&MessageBase::set_Flags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "set_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::NtlmFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::get_Type
+  // Il2CppName: get_Type
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MessageBase::*)()>(&MessageBase::get_Type)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::PrepareMessage
+  // Il2CppName: PrepareMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MessageBase::*)(int)>(&MessageBase::PrepareMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "PrepareMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::Decode
+  // Il2CppName: Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageBase::*)(::Array<uint8_t>*)>(&MessageBase::Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::CheckHeader
+  // Il2CppName: CheckHeader
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageBase::*)(::Array<uint8_t>*)>(&MessageBase::CheckHeader)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "CheckHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::GetBytes
+  // Il2CppName: GetBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MessageBase::*)()>(&MessageBase::GetBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageBase::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MessageBase::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageBase*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::MessageBase*, "Mono.Security.Protocol.Ntlm", "MessageBase");

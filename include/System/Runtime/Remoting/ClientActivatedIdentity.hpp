@@ -49,30 +49,30 @@ namespace System::Runtime::Remoting {
       return targetThis;
     }
     // public System.Void .ctor(System.String objectUri, System.Type objectType)
-    // Offset: 0x140C2FC
+    // Offset: 0x142700C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClientActivatedIdentity* New_ctor(::Il2CppString* objectUri, System::Type* objectType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ClientActivatedIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClientActivatedIdentity*, creationType>(objectUri, objectType)));
     }
     // public System.MarshalByRefObject GetServerObject()
-    // Offset: 0x140C30C
+    // Offset: 0x142701C
     System::MarshalByRefObject* GetServerObject();
     // public System.Void SetClientProxy(System.MarshalByRefObject obj)
-    // Offset: 0x140C314
+    // Offset: 0x1427024
     void SetClientProxy(System::MarshalByRefObject* obj);
     // public override System.Void OnLifetimeExpired()
-    // Offset: 0x140C31C
+    // Offset: 0x142702C
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Void ServerIdentity::OnLifetimeExpired()
     void OnLifetimeExpired();
     // public override System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
-    // Offset: 0x140C390
+    // Offset: 0x14270A0
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessage ServerIdentity::SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg)
     System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // public override System.Runtime.Remoting.Messaging.IMessageCtrl AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
-    // Offset: 0x140C610
+    // Offset: 0x1427320
     // Implemented from: System.Runtime.Remoting.ServerIdentity
     // Base method: System.Runtime.Remoting.Messaging.IMessageCtrl ServerIdentity::AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msg, System::Runtime::Remoting::Messaging::IMessageSink* replySink);
@@ -80,5 +80,59 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(ClientActivatedIdentity), 112 + sizeof(System::MarshalByRefObject*)> __System_Runtime_Remoting_ClientActivatedIdentitySizeCheck;
   static_assert(sizeof(ClientActivatedIdentity) == 0x78);
+  // Writing MetadataGetter for method: ClientActivatedIdentity::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientActivatedIdentity::*)(::Il2CppString*, System::Type*)>(&ClientActivatedIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientActivatedIdentity::*)(::Il2CppString*, System::Type*)>(&ClientActivatedIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ClientActivatedIdentity::GetServerObject
+  // Il2CppName: GetServerObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MarshalByRefObject* (ClientActivatedIdentity::*)()>(&ClientActivatedIdentity::GetServerObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), "GetServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ClientActivatedIdentity::SetClientProxy
+  // Il2CppName: SetClientProxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientActivatedIdentity::*)(System::MarshalByRefObject*)>(&ClientActivatedIdentity::SetClientProxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), "SetClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ClientActivatedIdentity::OnLifetimeExpired
+  // Il2CppName: OnLifetimeExpired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientActivatedIdentity::*)()>(&ClientActivatedIdentity::OnLifetimeExpired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), "OnLifetimeExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ClientActivatedIdentity::SyncObjectProcessMessage
+  // Il2CppName: SyncObjectProcessMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (ClientActivatedIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ClientActivatedIdentity::SyncObjectProcessMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), "SyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ClientActivatedIdentity::AsyncObjectProcessMessage
+  // Il2CppName: AsyncObjectProcessMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (ClientActivatedIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&ClientActivatedIdentity::AsyncObjectProcessMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ClientActivatedIdentity*), "AsyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ClientActivatedIdentity*, "System.Runtime.Remoting", "ClientActivatedIdentity");

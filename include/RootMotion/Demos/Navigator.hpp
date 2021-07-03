@@ -81,7 +81,7 @@ namespace RootMotion::Demos {
     #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
-    // [TooltipAttribute] Offset: 0xE06C84
+    // [TooltipAttribute] Offset: 0xE07C80
     // public System.Boolean activeTargetSeeking
     // Size: 0x1
     // Offset: 0x10
@@ -90,42 +90,42 @@ namespace RootMotion::Demos {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: activeTargetSeeking and: cornerRadius
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE06CBC
+    // [TooltipAttribute] Offset: 0xE07CB8
     // public System.Single cornerRadius
     // Size: 0x4
     // Offset: 0x14
     float cornerRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE06CF4
+    // [TooltipAttribute] Offset: 0xE07CF0
     // public System.Single recalculateOnPathDistance
     // Size: 0x4
     // Offset: 0x18
     float recalculateOnPathDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE06D2C
+    // [TooltipAttribute] Offset: 0xE07D28
     // public System.Single maxSampleDistance
     // Size: 0x4
     // Offset: 0x1C
     float maxSampleDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE06D64
+    // [TooltipAttribute] Offset: 0xE07D60
     // public System.Single nextPathInterval
     // Size: 0x4
     // Offset: 0x20
     float nextPathInterval;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE06D9C
+    // [CompilerGeneratedAttribute] Offset: 0xE07D98
     // private UnityEngine.Vector3 <normalizedDeltaPosition>k__BackingField
     // Size: 0xC
     // Offset: 0x24
     UnityEngine::Vector3 normalizedDeltaPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xE06DAC
+    // [CompilerGeneratedAttribute] Offset: 0xE07DA8
     // private RootMotion.Demos.Navigator/State <state>k__BackingField
     // Size: 0x4
     // Offset: 0x30
@@ -183,40 +183,40 @@ namespace RootMotion::Demos {
     // Creating value type constructor for type: Navigator
     Navigator(bool activeTargetSeeking_ = {}, float cornerRadius_ = {}, float recalculateOnPathDistance_ = {}, float maxSampleDistance_ = {}, float nextPathInterval_ = {}, UnityEngine::Vector3 normalizedDeltaPosition_ = {}, RootMotion::Demos::Navigator::State state_ = {}, UnityEngine::Transform* transform_ = {}, int cornerIndex_ = {}, ::Array<UnityEngine::Vector3>* corners_ = {}, UnityEngine::AI::NavMeshPath* path_ = {}, UnityEngine::Vector3 lastTargetPosition_ = {}, bool initiated_ = {}, float nextPathTime_ = {}) noexcept : activeTargetSeeking{activeTargetSeeking_}, cornerRadius{cornerRadius_}, recalculateOnPathDistance{recalculateOnPathDistance_}, maxSampleDistance{maxSampleDistance_}, nextPathInterval{nextPathInterval_}, normalizedDeltaPosition{normalizedDeltaPosition_}, state{state_}, transform{transform_}, cornerIndex{cornerIndex_}, corners{corners_}, path{path_}, lastTargetPosition{lastTargetPosition_}, initiated{initiated_}, nextPathTime{nextPathTime_} {}
     // public UnityEngine.Vector3 get_normalizedDeltaPosition()
-    // Offset: 0x1C90A4C
+    // Offset: 0x1CAC75C
     UnityEngine::Vector3 get_normalizedDeltaPosition();
     // private System.Void set_normalizedDeltaPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1C90A58
+    // Offset: 0x1CAC768
     void set_normalizedDeltaPosition(UnityEngine::Vector3 value);
     // public RootMotion.Demos.Navigator/State get_state()
-    // Offset: 0x1C90A64
+    // Offset: 0x1CAC774
     RootMotion::Demos::Navigator::State get_state();
     // private System.Void set_state(RootMotion.Demos.Navigator/State value)
-    // Offset: 0x1C90A6C
+    // Offset: 0x1CAC77C
     void set_state(RootMotion::Demos::Navigator::State value);
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1C90A74
+    // Offset: 0x1CAC784
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1C90B48
+    // Offset: 0x1CAC858
     void Update(UnityEngine::Vector3 targetPosition);
     // private System.Void CalculatePath(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1C9108C
+    // Offset: 0x1CACD9C
     void CalculatePath(UnityEngine::Vector3 targetPosition);
     // private System.Boolean Find(UnityEngine.Vector3 targetPosition)
-    // Offset: 0x1C910FC
+    // Offset: 0x1CACE0C
     bool Find(UnityEngine::Vector3 targetPosition);
     // private System.Void Stop()
-    // Offset: 0x1C90F54
+    // Offset: 0x1CACC64
     void Stop();
     // private System.Single HorDistance(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x1C90FC8
+    // Offset: 0x1CACCD8
     float HorDistance(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public System.Void Visualize()
-    // Offset: 0x1C91244
+    // Offset: 0x1CACF54
     void Visualize();
     // public System.Void .ctor()
-    // Offset: 0x1C913F4
+    // Offset: 0x1CAD104
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -228,6 +228,108 @@ namespace RootMotion::Demos {
   #pragma pack(pop)
   static check_size<sizeof(Navigator), 104 + sizeof(float)> __RootMotion_Demos_NavigatorSizeCheck;
   static_assert(sizeof(Navigator) == 0x6C);
+  // Writing MetadataGetter for method: Navigator::get_normalizedDeltaPosition
+  // Il2CppName: get_normalizedDeltaPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Navigator::*)()>(&Navigator::get_normalizedDeltaPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "get_normalizedDeltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::set_normalizedDeltaPosition
+  // Il2CppName: set_normalizedDeltaPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)(UnityEngine::Vector3)>(&Navigator::set_normalizedDeltaPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "set_normalizedDeltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::get_state
+  // Il2CppName: get_state
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Demos::Navigator::State (Navigator::*)()>(&Navigator::get_state)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::set_state
+  // Il2CppName: set_state
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)(RootMotion::Demos::Navigator::State)>(&Navigator::set_state)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::Demos::Navigator::State>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::Initiate
+  // Il2CppName: Initiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)(UnityEngine::Transform*)>(&Navigator::Initiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)(UnityEngine::Vector3)>(&Navigator::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::CalculatePath
+  // Il2CppName: CalculatePath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)(UnityEngine::Vector3)>(&Navigator::CalculatePath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "CalculatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::Find
+  // Il2CppName: Find
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Navigator::*)(UnityEngine::Vector3)>(&Navigator::Find)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::Stop
+  // Il2CppName: Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)()>(&Navigator::Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::HorDistance
+  // Il2CppName: HorDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Navigator::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Navigator::HorDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "HorDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::Visualize
+  // Il2CppName: Visualize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)()>(&Navigator::Visualize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), "Visualize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Navigator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)()>(&Navigator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Navigator::*)()>(&Navigator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Navigator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator::State, "RootMotion.Demos", "Navigator/State");

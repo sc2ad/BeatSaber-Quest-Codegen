@@ -15,13 +15,29 @@ namespace System::Collections::Generic {
     // Creating value type constructor for type: IntrospectiveSortUtilities
     IntrospectiveSortUtilities() noexcept {}
     // static System.Int32 FloorLog2(System.Int32 n)
-    // Offset: 0x175EF34
+    // Offset: 0x1777C44
     static int FloorLog2(int n);
     // static System.Void ThrowOrIgnoreBadComparer(System.Object comparer)
-    // Offset: 0x175F094
+    // Offset: 0x1777DA4
     static void ThrowOrIgnoreBadComparer(::Il2CppObject* comparer);
   }; // System.Collections.Generic.IntrospectiveSortUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IntrospectiveSortUtilities::FloorLog2
+  // Il2CppName: FloorLog2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&IntrospectiveSortUtilities::FloorLog2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntrospectiveSortUtilities*), "FloorLog2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: IntrospectiveSortUtilities::ThrowOrIgnoreBadComparer
+  // Il2CppName: ThrowOrIgnoreBadComparer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&IntrospectiveSortUtilities::ThrowOrIgnoreBadComparer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntrospectiveSortUtilities*), "ThrowOrIgnoreBadComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::IntrospectiveSortUtilities*, "System.Collections.Generic", "IntrospectiveSortUtilities");

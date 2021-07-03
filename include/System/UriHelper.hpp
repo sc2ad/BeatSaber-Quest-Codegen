@@ -28,43 +28,139 @@ namespace System {
     // Set static field: static private readonly System.Char[] HexUpperChars
     static void _set_HexUpperChars(::Array<::Il2CppChar>* value);
     // static System.Char[] EscapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPos, System.Boolean isUriString, System.Char force1, System.Char force2, System.Char rsvd)
-    // Offset: 0x23A47C0
+    // Offset: 0x23C0DF4
     static ::Array<::Il2CppChar>* EscapeString(::Il2CppString* input, int start, int end, ::Array<::Il2CppChar>* dest, int& destPos, bool isUriString, ::Il2CppChar force1, ::Il2CppChar force2, ::Il2CppChar rsvd);
     // static private System.Char[] EnsureDestinationSize(System.Char* pStr, System.Char[] dest, System.Int32 currentInputPos, System.Int16 charsToAdd, System.Int16 minReallocateChars, ref System.Int32 destPos, System.Int32 prevInputPos)
-    // Offset: 0x23A4D34
+    // Offset: 0x23C1368
     static ::Array<::Il2CppChar>* EnsureDestinationSize(::Il2CppChar* pStr, ::Array<::Il2CppChar>* dest, int currentInputPos, int16_t charsToAdd, int16_t minReallocateChars, int& destPos, int prevInputPos);
     // static System.Char[] UnescapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
-    // Offset: 0x23A5234
+    // Offset: 0x23C1868
     static ::Array<::Il2CppChar>* UnescapeString(::Il2CppString* input, int start, int end, ::Array<::Il2CppChar>* dest, int& destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
     // static System.Char[] UnescapeString(System.Char* pStr, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
-    // Offset: 0x23A531C
+    // Offset: 0x23C1950
     static ::Array<::Il2CppChar>* UnescapeString(::Il2CppChar* pStr, int start, int end, ::Array<::Il2CppChar>* dest, int& destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
     // static System.Void MatchUTF8Sequence(System.Char* pDest, System.Char[] dest, ref System.Int32 destOffset, System.Char[] unescapedChars, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteCount, System.Boolean isQuery, System.Boolean iriParsing)
-    // Offset: 0x23A5D7C
+    // Offset: 0x23C23B0
     static void MatchUTF8Sequence(::Il2CppChar* pDest, ::Array<::Il2CppChar>* dest, int& destOffset, ::Array<::Il2CppChar>* unescapedChars, int charCount, ::Array<uint8_t>* bytes, int byteCount, bool isQuery, bool iriParsing);
     // static System.Void EscapeAsciiChar(System.Char ch, System.Char[] to, ref System.Int32 pos)
-    // Offset: 0x23A4E60
+    // Offset: 0x23C1494
     static void EscapeAsciiChar(::Il2CppChar ch, ::Array<::Il2CppChar>* to, int& pos);
     // static System.Char EscapedAscii(System.Char digit, System.Char next)
-    // Offset: 0x23A4FA4
+    // Offset: 0x23C15D8
     static ::Il2CppChar EscapedAscii(::Il2CppChar digit, ::Il2CppChar next);
     // static System.Boolean IsNotSafeForUnescape(System.Char ch)
-    // Offset: 0x23A5CF0
+    // Offset: 0x23C2324
     static bool IsNotSafeForUnescape(::Il2CppChar ch);
     // static private System.Boolean IsReservedUnreservedOrHash(System.Char c)
-    // Offset: 0x23A5138
+    // Offset: 0x23C176C
     static bool IsReservedUnreservedOrHash(::Il2CppChar c);
     // static System.Boolean IsUnreserved(System.Char c)
-    // Offset: 0x23A5064
+    // Offset: 0x23C1698
     static bool IsUnreserved(::Il2CppChar c);
     // static System.Boolean Is3986Unreserved(System.Char c)
-    // Offset: 0x23A62C8
+    // Offset: 0x23C28FC
     static bool Is3986Unreserved(::Il2CppChar c);
     // static private System.Void .cctor()
-    // Offset: 0x23A6368
+    // Offset: 0x23C299C
     static void _cctor();
   }; // System.UriHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UriHelper::EscapeString
+  // Il2CppName: EscapeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, int&, bool, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar)>(&UriHelper::EscapeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "EscapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::EnsureDestinationSize
+  // Il2CppName: EnsureDestinationSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int16_t, int16_t, int&, int)>(&UriHelper::EnsureDestinationSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "EnsureDestinationSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::UnescapeString
+  // Il2CppName: UnescapeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppString*, int, int, ::Array<::Il2CppChar>*, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&UriHelper::UnescapeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "UnescapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UnescapeMode>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::UnescapeString
+  // Il2CppName: UnescapeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, int, int, ::Array<::Il2CppChar>*, int&, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&UriHelper::UnescapeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "UnescapeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::UnescapeMode>(), ::il2cpp_utils::ExtractIndependentType<System::UriParser*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::MatchUTF8Sequence
+  // Il2CppName: MatchUTF8Sequence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int&, ::Array<::Il2CppChar>*, int, ::Array<uint8_t>*, int, bool, bool)>(&UriHelper::MatchUTF8Sequence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "MatchUTF8Sequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::EscapeAsciiChar
+  // Il2CppName: EscapeAsciiChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar, ::Array<::Il2CppChar>*, int&)>(&UriHelper::EscapeAsciiChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "EscapeAsciiChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::EscapedAscii
+  // Il2CppName: EscapedAscii
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar, ::Il2CppChar)>(&UriHelper::EscapedAscii)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "EscapedAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::IsNotSafeForUnescape
+  // Il2CppName: IsNotSafeForUnescape
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&UriHelper::IsNotSafeForUnescape)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "IsNotSafeForUnescape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::IsReservedUnreservedOrHash
+  // Il2CppName: IsReservedUnreservedOrHash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&UriHelper::IsReservedUnreservedOrHash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "IsReservedUnreservedOrHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::IsUnreserved
+  // Il2CppName: IsUnreserved
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&UriHelper::IsUnreserved)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "IsUnreserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::Is3986Unreserved
+  // Il2CppName: Is3986Unreserved
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&UriHelper::Is3986Unreserved)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), "Is3986Unreserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UriHelper::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UriHelper::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UriHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriHelper*, "System", "UriHelper");

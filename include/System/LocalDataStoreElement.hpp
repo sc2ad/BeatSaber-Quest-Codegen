@@ -31,24 +31,62 @@ namespace System {
     // Creating value type constructor for type: LocalDataStoreElement
     LocalDataStoreElement(::Il2CppObject* m_value_ = {}, int64_t m_cookie_ = {}) noexcept : m_value{m_value_}, m_cookie{m_cookie_} {}
     // public System.Void .ctor(System.Int64 cookie)
-    // Offset: 0x1809028
+    // Offset: 0x1820D38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreElement*, creationType>(cookie)));
     }
     // public System.Object get_Value()
-    // Offset: 0x1809054
+    // Offset: 0x1820D64
     ::Il2CppObject* get_Value();
     // public System.Void set_Value(System.Object value)
-    // Offset: 0x180905C
+    // Offset: 0x1820D6C
     void set_Value(::Il2CppObject* value);
     // public System.Int64 get_Cookie()
-    // Offset: 0x1809064
+    // Offset: 0x1820D74
     int64_t get_Cookie();
   }; // System.LocalDataStoreElement
   #pragma pack(pop)
   static check_size<sizeof(LocalDataStoreElement), 24 + sizeof(int64_t)> __System_LocalDataStoreElementSizeCheck;
   static_assert(sizeof(LocalDataStoreElement) == 0x20);
+  // Writing MetadataGetter for method: LocalDataStoreElement::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalDataStoreElement::*)(int64_t)>(&LocalDataStoreElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalDataStoreElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalDataStoreElement::*)(int64_t)>(&LocalDataStoreElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalDataStoreElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalDataStoreElement::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (LocalDataStoreElement::*)()>(&LocalDataStoreElement::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalDataStoreElement*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalDataStoreElement::set_Value
+  // Il2CppName: set_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalDataStoreElement::*)(::Il2CppObject*)>(&LocalDataStoreElement::set_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalDataStoreElement*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalDataStoreElement::get_Cookie
+  // Il2CppName: get_Cookie
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LocalDataStoreElement::*)()>(&LocalDataStoreElement::get_Cookie)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalDataStoreElement*), "get_Cookie", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");

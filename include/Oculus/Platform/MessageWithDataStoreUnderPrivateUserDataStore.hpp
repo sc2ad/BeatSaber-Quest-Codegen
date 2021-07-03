@@ -28,10 +28,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithDataStoreUnderPrivateUserDataStore
     MessageWithDataStoreUnderPrivateUserDataStore() noexcept {}
     // protected System.Collections.Generic.Dictionary`2<System.String,System.String> GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14B3D78
+    // Offset: 0x14CEA88
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14AFA28
+    // Offset: 0x14CA738
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -41,10 +41,40 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithDataStoreUnderPrivateUserDataStore*, creationType>(c_message)));
     }
     // public override System.Collections.Generic.Dictionary`2<System.String,System.String> GetDataStore()
-    // Offset: 0x14B3D34
+    // Offset: 0x14CEA44
     // Implemented from: Oculus.Platform.Message
     // Base method: System.Collections.Generic.Dictionary`2<System.String,System.String> Message::GetDataStore()
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetDataStore();
   }; // Oculus.Platform.MessageWithDataStoreUnderPrivateUserDataStore
+  // Writing MetadataGetter for method: MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage
+  // Il2CppName: GetDataFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithDataStoreUnderPrivateUserDataStore::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&MessageWithDataStoreUnderPrivateUserDataStore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&MessageWithDataStoreUnderPrivateUserDataStore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore
+  // Il2CppName: GetDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (MessageWithDataStoreUnderPrivateUserDataStore::*)()>(&MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*, "Oculus.Platform", "MessageWithDataStoreUnderPrivateUserDataStore");

@@ -48,10 +48,10 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Creating value type constructor for type: DiagnosticInfo
     DiagnosticInfo(::Il2CppString* DisplayName_ = {}, int ObjectId_ = {}, ::Array<int>* Dependencies_ = {}) noexcept : DisplayName{DisplayName_}, ObjectId{ObjectId_}, Dependencies{Dependencies_} {}
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
-    // Offset: 0x23A1258
+    // Offset: 0x23BD88C
     UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::Il2CppString* category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
     // public System.Void .ctor()
-    // Offset: 0x23A12A0
+    // Offset: 0x23BD8D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,5 +63,27 @@ namespace UnityEngine::AddressableAssets::Utility {
   #pragma pack(pop)
   static check_size<sizeof(DiagnosticInfo), 32 + sizeof(::Array<int>*)> __UnityEngine_AddressableAssets_Utility_DiagnosticInfoSizeCheck;
   static_assert(sizeof(DiagnosticInfo) == 0x28);
+  // Writing MetadataGetter for method: DiagnosticInfo::CreateEvent
+  // Il2CppName: CreateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (DiagnosticInfo::*)(::Il2CppString*, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&DiagnosticInfo::CreateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DiagnosticInfo*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DiagnosticInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticInfo::*)()>(&DiagnosticInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DiagnosticInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiagnosticInfo::*)()>(&DiagnosticInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DiagnosticInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");

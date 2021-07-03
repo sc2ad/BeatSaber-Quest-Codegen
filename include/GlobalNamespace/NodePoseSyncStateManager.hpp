@@ -41,49 +41,49 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INodePoseSyncStateManager*>(this);
     }
     // protected IPacketPool`1<NodePoseSyncStateNetSerializable> get_serializablePool()
-    // Offset: 0x11B6968
+    // Offset: 0x11D12BC
     GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();
     // protected IPacketPool`1<NodePoseSyncStateDeltaNetSerializable> get_deltaSerializablePool()
-    // Offset: 0x11B6970
+    // Offset: 0x11D12C4
     GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
     // protected PoseSerializable Interpolate(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
-    // Offset: 0x11B69E8
+    // Offset: 0x11D133C
     GlobalNamespace::PoseSerializable Interpolate(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // protected PoseSerializable Smooth(PoseSerializable a, PoseSerializable b, System.Single smooth)
-    // Offset: 0x11B6A30
+    // Offset: 0x11D1384
     GlobalNamespace::PoseSerializable Smooth(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float smooth);
     // protected override System.Single get_deltaUpdateFrequency()
-    // Offset: 0x11B6940
+    // Offset: 0x11D1294
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Single MultiplayerSyncStateManager_5::get_deltaUpdateFrequency()
     float get_deltaUpdateFrequency();
     // protected override System.Single get_fullStateUpdateFrequency()
-    // Offset: 0x11B694C
+    // Offset: 0x11D12A0
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Single MultiplayerSyncStateManager_5::get_fullStateUpdateFrequency()
     float get_fullStateUpdateFrequency();
     // protected override System.Int32 get_localBufferSize()
-    // Offset: 0x11B6958
+    // Offset: 0x11D12AC
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Int32 MultiplayerSyncStateManager_5::get_localBufferSize()
     int get_localBufferSize();
     // protected override System.Int32 get_remoteBufferSize()
-    // Offset: 0x11B6960
+    // Offset: 0x11D12B4
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Int32 MultiplayerSyncStateManager_5::get_remoteBufferSize()
     int get_remoteBufferSize();
     // protected override MultiplayerSessionManager/MessageType get_messageType()
-    // Offset: 0x11B69D8
+    // Offset: 0x11D132C
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_messageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
     // protected override MultiplayerSessionManager/MessageType get_deltaMessageType()
-    // Offset: 0x11B69E0
+    // Offset: 0x11D1334
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: MultiplayerSessionManager/MessageType MultiplayerSyncStateManager_5::get_deltaMessageType()
     GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
     // public System.Void .ctor()
-    // Offset: 0x11B6A78
+    // Offset: 0x11D13CC
     // Implemented from: MultiplayerSyncStateManager`5
     // Base method: System.Void MultiplayerSyncStateManager_5::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -97,5 +97,99 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NodePoseSyncStateManager*, creationType>()));
     }
   }; // NodePoseSyncStateManager
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_serializablePool
+  // Il2CppName: get_serializablePool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerializable*>* (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_serializablePool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_serializablePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_deltaSerializablePool
+  // Il2CppName: get_deltaSerializablePool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_deltaSerializablePool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_deltaSerializablePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::Interpolate
+  // Il2CppName: Interpolate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (NodePoseSyncStateManager::*)(GlobalNamespace::PoseSerializable, float, GlobalNamespace::PoseSerializable, float, float)>(&NodePoseSyncStateManager::Interpolate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::Smooth
+  // Il2CppName: Smooth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (NodePoseSyncStateManager::*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, float)>(&NodePoseSyncStateManager::Smooth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "Smooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_deltaUpdateFrequency
+  // Il2CppName: get_deltaUpdateFrequency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_deltaUpdateFrequency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_deltaUpdateFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_fullStateUpdateFrequency
+  // Il2CppName: get_fullStateUpdateFrequency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_fullStateUpdateFrequency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_fullStateUpdateFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_localBufferSize
+  // Il2CppName: get_localBufferSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_localBufferSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_localBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_remoteBufferSize
+  // Il2CppName: get_remoteBufferSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_remoteBufferSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_remoteBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_messageType
+  // Il2CppName: get_messageType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerSessionManager_MessageType (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_messageType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_messageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::get_deltaMessageType
+  // Il2CppName: get_deltaMessageType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerSessionManager_MessageType (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::get_deltaMessageType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), "get_deltaMessageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncStateManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncStateManager::*)()>(&NodePoseSyncStateManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncStateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateManager*, "", "NodePoseSyncStateManager");

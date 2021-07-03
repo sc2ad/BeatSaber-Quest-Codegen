@@ -59,7 +59,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: NetSyncConnection
     NetSyncConnection(int64_t ConnectionId_ = {}, Oculus::Platform::NetSyncDisconnectReason DisconnectReason_ = {}, uint64_t SessionId_ = {}, Oculus::Platform::NetSyncConnectionStatus Status_ = {}, ::Il2CppString* ZoneId_ = {}) noexcept : ConnectionId{ConnectionId_}, DisconnectReason{DisconnectReason_}, SessionId{SessionId_}, Status{Status_}, ZoneId{ZoneId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B7224
+    // Offset: 0x14D1F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncConnection* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncConnection::.ctor");
@@ -69,5 +69,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(NetSyncConnection), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_NetSyncConnectionSizeCheck;
   static_assert(sizeof(NetSyncConnection) == 0x38);
+  // Writing MetadataGetter for method: NetSyncConnection::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncConnection::*)(System::IntPtr)>(&NetSyncConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncConnection::*)(System::IntPtr)>(&NetSyncConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");

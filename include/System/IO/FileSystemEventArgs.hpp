@@ -43,7 +43,7 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEventArgs
     FileSystemEventArgs(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* directory_ = {}, ::Il2CppString* name_ = {}) noexcept : changeType{changeType_}, directory{directory_}, name{name_} {}
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0x185CBC4
+    // Offset: 0x18748D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventArgs::.ctor");
@@ -53,5 +53,19 @@ namespace System::IO {
   #pragma pack(pop)
   static check_size<sizeof(FileSystemEventArgs), 32 + sizeof(::Il2CppString*)> __System_IO_FileSystemEventArgsSizeCheck;
   static_assert(sizeof(FileSystemEventArgs) == 0x28);
+  // Writing MetadataGetter for method: FileSystemEventArgs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemEventArgs::*)(System::IO::WatcherChangeTypes, ::Il2CppString*, ::Il2CppString*)>(&FileSystemEventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileSystemEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::WatcherChangeTypes>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileSystemEventArgs::*)(System::IO::WatcherChangeTypes, ::Il2CppString*, ::Il2CppString*)>(&FileSystemEventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileSystemEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::WatcherChangeTypes>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEventArgs*, "System.IO", "FileSystemEventArgs");

@@ -61,33 +61,95 @@ namespace MasterServer {
     // Creating value type constructor for type: RequestResponseWaiter
     RequestResponseWaiter(System::Threading::Tasks::TaskCompletionSource_1<MasterServer::IMasterServerMessage*>* taskCompletionSource_ = {}, System::Threading::CancellationTokenRegistration disposedCancellationTokenRegistration_ = {}, System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration_ = {}) noexcept : taskCompletionSource{taskCompletionSource_}, disposedCancellationTokenRegistration{disposedCancellationTokenRegistration_}, requestCancellationTokenRegistration{requestCancellationTokenRegistration_} {}
     // public System.Void .ctor(System.Threading.CancellationToken disposedCancellationToken, System.Threading.CancellationToken requestCancellationToken)
-    // Offset: 0x12C88A0
+    // Offset: 0x12E35B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::RequestResponseWaiter* New_ctor(System::Threading::CancellationToken disposedCancellationToken, System::Threading::CancellationToken requestCancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::RequestResponseWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::RequestResponseWaiter*, creationType>(disposedCancellationToken, requestCancellationToken)));
     }
     // public System.Void Complete(MasterServer.IMasterServerMessage response)
-    // Offset: 0x12C4960
+    // Offset: 0x12DF670
     void Complete(MasterServer::IMasterServerMessage* response);
     // public System.Void Fail(System.Exception ex)
-    // Offset: 0x12C8B08
+    // Offset: 0x12E3818
     void Fail(System::Exception* ex);
     // public System.Void Cancel()
-    // Offset: 0x12C8B70
+    // Offset: 0x12E3880
     void Cancel();
     // public System.Threading.Tasks.Task`1<MasterServer.IMasterServerMessage> get_task()
-    // Offset: 0x12C8BC8
+    // Offset: 0x12E38D8
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerMessage*>* get_task();
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12C8A98
+    // Offset: 0x12E37A8
     bool get_isWaiting();
     // public override System.Void Dispose()
-    // Offset: 0x12C89BC
+    // Offset: 0x12E36CC
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();
   }; // MasterServer.MessageHandler/RequestResponseWaiter
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestResponseWaiter::*)(System::Threading::CancellationToken, System::Threading::CancellationToken)>(&MessageHandler::RequestResponseWaiter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestResponseWaiter::*)(System::Threading::CancellationToken, System::Threading::CancellationToken)>(&MessageHandler::RequestResponseWaiter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestResponseWaiter::*)(MasterServer::IMasterServerMessage*)>(&MessageHandler::RequestResponseWaiter::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::Fail
+  // Il2CppName: Fail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestResponseWaiter::*)(System::Exception*)>(&MessageHandler::RequestResponseWaiter::Fail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::Cancel
+  // Il2CppName: Cancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestResponseWaiter::*)()>(&MessageHandler::RequestResponseWaiter::Cancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::get_task
+  // Il2CppName: get_task
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::IMasterServerMessage*>* (MessageHandler::RequestResponseWaiter::*)()>(&MessageHandler::RequestResponseWaiter::get_task)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), "get_task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::get_isWaiting
+  // Il2CppName: get_isWaiting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::RequestResponseWaiter::*)()>(&MessageHandler::RequestResponseWaiter::get_isWaiting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), "get_isWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestResponseWaiter::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestResponseWaiter::*)()>(&MessageHandler::RequestResponseWaiter::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestResponseWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "MasterServer", "MessageHandler/RequestResponseWaiter");

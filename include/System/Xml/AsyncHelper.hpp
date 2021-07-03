@@ -42,10 +42,18 @@ namespace System::Xml {
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Int32> DoneTaskZero
     static void _set_DoneTaskZero(System::Threading::Tasks::Task_1<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1911C18
+    // Offset: 0x1929928
     static void _cctor();
   }; // System.Xml.AsyncHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AsyncHelper::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncHelper::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");

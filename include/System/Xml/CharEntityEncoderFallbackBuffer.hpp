@@ -46,42 +46,42 @@ namespace System::Xml {
     // Creating value type constructor for type: CharEntityEncoderFallbackBuffer
     CharEntityEncoderFallbackBuffer(System::Xml::CharEntityEncoderFallback* parent_ = {}, ::Il2CppString* charEntity_ = {}, int charEntityIndex_ = {}) noexcept : parent{parent_}, charEntity{charEntity_}, charEntityIndex{charEntityIndex_} {}
     // System.Void .ctor(System.Xml.CharEntityEncoderFallback parent)
-    // Offset: 0x1912820
+    // Offset: 0x192A530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CharEntityEncoderFallbackBuffer* New_ctor(System::Xml::CharEntityEncoderFallback* parent) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::CharEntityEncoderFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEntityEncoderFallbackBuffer*, creationType>(parent)));
     }
     // private System.Int32 SurrogateCharToUtf32(System.Char highSurrogate, System.Char lowSurrogate)
-    // Offset: 0x1912DEC
+    // Offset: 0x192AAFC
     int SurrogateCharToUtf32(::Il2CppChar highSurrogate, ::Il2CppChar lowSurrogate);
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1912924
+    // Offset: 0x192A634
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1912B04
+    // Offset: 0x192A814
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1912E08
+    // Offset: 0x192AB18
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1912E5C
+    // Offset: 0x192AB6C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1912E7C
+    // Offset: 0x192AB8C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
     // public override System.Void Reset()
-    // Offset: 0x1912EB0
+    // Offset: 0x192ABC0
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::Reset()
     void Reset();
@@ -89,5 +89,75 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(CharEntityEncoderFallbackBuffer), 64 + sizeof(int)> __System_Xml_CharEntityEncoderFallbackBufferSizeCheck;
   static_assert(sizeof(CharEntityEncoderFallbackBuffer) == 0x44);
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallbackBuffer::*)(System::Xml::CharEntityEncoderFallback*)>(&CharEntityEncoderFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::CharEntityEncoderFallback*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallbackBuffer::*)(System::Xml::CharEntityEncoderFallback*)>(&CharEntityEncoderFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::CharEntityEncoderFallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::SurrogateCharToUtf32
+  // Il2CppName: SurrogateCharToUtf32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CharEntityEncoderFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar)>(&CharEntityEncoderFallbackBuffer::SurrogateCharToUtf32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "SurrogateCharToUtf32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::Fallback
+  // Il2CppName: Fallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CharEntityEncoderFallbackBuffer::*)(::Il2CppChar, int)>(&CharEntityEncoderFallbackBuffer::Fallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::Fallback
+  // Il2CppName: Fallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CharEntityEncoderFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&CharEntityEncoderFallbackBuffer::Fallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::GetNextChar
+  // Il2CppName: GetNextChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (CharEntityEncoderFallbackBuffer::*)()>(&CharEntityEncoderFallbackBuffer::GetNextChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::MovePrevious
+  // Il2CppName: MovePrevious
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CharEntityEncoderFallbackBuffer::*)()>(&CharEntityEncoderFallbackBuffer::MovePrevious)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::get_Remaining
+  // Il2CppName: get_Remaining
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CharEntityEncoderFallbackBuffer::*)()>(&CharEntityEncoderFallbackBuffer::get_Remaining)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CharEntityEncoderFallbackBuffer::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEntityEncoderFallbackBuffer::*)()>(&CharEntityEncoderFallbackBuffer::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CharEntityEncoderFallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");

@@ -32,28 +32,28 @@ namespace System {
     // Creating value type constructor for type: ThrowHelper
     ThrowHelper() noexcept {}
     // static System.Void ThrowArgumentNullException(System.ExceptionArgument argument)
-    // Offset: 0x187F7FC
+    // Offset: 0x189850C
     static void ThrowArgumentNullException(System::ExceptionArgument argument);
     // static private System.Exception CreateArgumentNullException(System.ExceptionArgument argument)
-    // Offset: 0x187F848
+    // Offset: 0x1898558
     static System::Exception* CreateArgumentNullException(System::ExceptionArgument argument);
     // static System.Void ThrowArgumentOutOfRangeException()
-    // Offset: 0x187F8F4
+    // Offset: 0x1898604
     static void ThrowArgumentOutOfRangeException();
     // static System.Void ThrowWrongValueTypeArgumentException(System.Object value, System.Type targetType)
-    // Offset: 0x187F9DC
+    // Offset: 0x18986EC
     static void ThrowWrongValueTypeArgumentException(::Il2CppObject* value, System::Type* targetType);
     // static System.Void ThrowArgumentException(System.ExceptionResource resource)
-    // Offset: 0x187FAD4
+    // Offset: 0x18987E4
     static void ThrowArgumentException(System::ExceptionResource resource);
     // static System.Void ThrowArgumentOutOfRangeException(System.ExceptionArgument argument, System.ExceptionResource resource)
-    // Offset: 0x187F908
+    // Offset: 0x1898618
     static void ThrowArgumentOutOfRangeException(System::ExceptionArgument argument, System::ExceptionResource resource);
     // static System.Void ThrowInvalidOperationException(System.ExceptionResource resource)
-    // Offset: 0x187FC2C
+    // Offset: 0x189893C
     static void ThrowInvalidOperationException(System::ExceptionResource resource);
     // static System.Void ThrowNotSupportedException(System.ExceptionResource resource)
-    // Offset: 0x187FCAC
+    // Offset: 0x18989BC
     static void ThrowNotSupportedException(System::ExceptionResource resource);
     // static System.Void IfNullAndNullsAreIllegalThenThrow(System.Object value, System.ExceptionArgument argName)
     // Offset: 0xFFFFFFFF
@@ -65,12 +65,95 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, value, argName);
     }
     // static System.String GetArgumentName(System.ExceptionArgument argument)
-    // Offset: 0x187FBC0
+    // Offset: 0x18988D0
     static ::Il2CppString* GetArgumentName(System::ExceptionArgument argument);
     // static System.String GetResourceName(System.ExceptionResource resource)
-    // Offset: 0x187FB54
+    // Offset: 0x1898864
     static ::Il2CppString* GetResourceName(System::ExceptionResource resource);
   }; // System.ThrowHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ThrowHelper::ThrowArgumentNullException
+  // Il2CppName: ThrowArgumentNullException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument)>(&ThrowHelper::ThrowArgumentNullException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowArgumentNullException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::CreateArgumentNullException
+  // Il2CppName: CreateArgumentNullException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::ExceptionArgument)>(&ThrowHelper::CreateArgumentNullException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "CreateArgumentNullException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::ThrowArgumentOutOfRangeException
+  // Il2CppName: ThrowArgumentOutOfRangeException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThrowHelper::ThrowArgumentOutOfRangeException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowArgumentOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::ThrowWrongValueTypeArgumentException
+  // Il2CppName: ThrowWrongValueTypeArgumentException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Type*)>(&ThrowHelper::ThrowWrongValueTypeArgumentException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowWrongValueTypeArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::ThrowArgumentException
+  // Il2CppName: ThrowArgumentException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&ThrowHelper::ThrowArgumentException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::ThrowArgumentOutOfRangeException
+  // Il2CppName: ThrowArgumentOutOfRangeException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument, System::ExceptionResource)>(&ThrowHelper::ThrowArgumentOutOfRangeException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowArgumentOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>(), ::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::ThrowInvalidOperationException
+  // Il2CppName: ThrowInvalidOperationException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&ThrowHelper::ThrowInvalidOperationException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowInvalidOperationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::ThrowNotSupportedException
+  // Il2CppName: ThrowNotSupportedException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&ThrowHelper::ThrowNotSupportedException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "ThrowNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::IfNullAndNullsAreIllegalThenThrow
+  // Il2CppName: IfNullAndNullsAreIllegalThenThrow
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: ThrowHelper::GetArgumentName
+  // Il2CppName: GetArgumentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::ExceptionArgument)>(&ThrowHelper::GetArgumentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "GetArgumentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionArgument>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThrowHelper::GetResourceName
+  // Il2CppName: GetResourceName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::ExceptionResource)>(&ThrowHelper::GetResourceName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThrowHelper*), "GetResourceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ExceptionResource>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");

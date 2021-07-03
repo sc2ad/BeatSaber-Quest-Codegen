@@ -42,7 +42,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0xEFDD74
+    // Offset: 0xEFED2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainStatus::.ctor");
@@ -50,20 +50,66 @@ namespace System::Security::Cryptography::X509Certificates {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, flag);
     }
     // public System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_Status()
-    // Offset: 0xEFDDA0
+    // Offset: 0xEFED58
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
     // public System.Void set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags value)
-    // Offset: 0xEFDDA8
+    // Offset: 0xEFED60
     void set_Status(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
     // public System.Void set_StatusInformation(System.String value)
-    // Offset: 0xEFDDB0
+    // Offset: 0xEFED68
     void set_StatusInformation(::Il2CppString* value);
     // static System.String GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags)
-    // Offset: 0x1835028
+    // Offset: 0x184CD38
     static ::Il2CppString* GetInformation(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509ChainStatus
   #pragma pack(pop)
   static check_size<sizeof(X509ChainStatus), 8 + sizeof(::Il2CppString*)> __System_Security_Cryptography_X509Certificates_X509ChainStatusSizeCheck;
   static_assert(sizeof(X509ChainStatus) == 0x10);
+  // Writing MetadataGetter for method: X509ChainStatus::X509ChainStatus
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainStatus::*)(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&X509ChainStatus::X509ChainStatus<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainStatus), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainStatus::*)(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&X509ChainStatus::X509ChainStatus<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainStatus), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainStatus::get_Status
+  // Il2CppName: get_Status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (X509ChainStatus::*)()>(&X509ChainStatus::get_Status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainStatus), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainStatus::set_Status
+  // Il2CppName: set_Status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainStatus::*)(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&X509ChainStatus::set_Status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainStatus), "set_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainStatus::set_StatusInformation
+  // Il2CppName: set_StatusInformation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainStatus::*)(::Il2CppString*)>(&X509ChainStatus::set_StatusInformation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainStatus), "set_StatusInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainStatus::GetInformation
+  // Il2CppName: GetInformation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&X509ChainStatus::GetInformation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainStatus), "GetInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatus, "System.Security.Cryptography.X509Certificates", "X509ChainStatus");

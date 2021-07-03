@@ -33,7 +33,7 @@ namespace System::IO {
     // Creating value type constructor for type: UnexceptionalStreamWriter
     UnexceptionalStreamWriter() noexcept {}
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
-    // Offset: 0x1802EC0
+    // Offset: 0x181ABD0
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::.ctor(System.IO.Stream stream, System.Text.Encoding encoding)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -42,31 +42,85 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<UnexceptionalStreamWriter*, creationType>(stream, encoding)));
     }
     // public override System.Void Flush()
-    // Offset: 0x1802F48
+    // Offset: 0x181AC58
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Flush()
     void Flush();
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x1803008
+    // Offset: 0x181AD18
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     void Write(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.Void Write(System.Char value)
-    // Offset: 0x18030F8
+    // Offset: 0x181AE08
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char value)
     void Write(::Il2CppChar value);
     // public override System.Void Write(System.Char[] value)
-    // Offset: 0x18031CC
+    // Offset: 0x181AEDC
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.Char[] value)
     void Write(::Array<::Il2CppChar>* value);
     // public override System.Void Write(System.String value)
-    // Offset: 0x18032A0
+    // Offset: 0x181AFB0
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String value)
     void Write(::Il2CppString* value);
   }; // System.IO.UnexceptionalStreamWriter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnexceptionalStreamWriter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)(System::IO::Stream*, System::Text::Encoding*)>(&UnexceptionalStreamWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)(System::IO::Stream*, System::Text::Encoding*)>(&UnexceptionalStreamWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnexceptionalStreamWriter::Flush
+  // Il2CppName: Flush
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)()>(&UnexceptionalStreamWriter::Flush)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnexceptionalStreamWriter::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)(::Array<::Il2CppChar>*, int, int)>(&UnexceptionalStreamWriter::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnexceptionalStreamWriter::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)(::Il2CppChar)>(&UnexceptionalStreamWriter::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnexceptionalStreamWriter::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)(::Array<::Il2CppChar>*)>(&UnexceptionalStreamWriter::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnexceptionalStreamWriter::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamWriter::*)(::Il2CppString*)>(&UnexceptionalStreamWriter::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamWriter*, "System.IO", "UnexceptionalStreamWriter");

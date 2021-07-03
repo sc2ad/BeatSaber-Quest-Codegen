@@ -36,28 +36,84 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly System.Type NonmatchingType
     static void _set_NonmatchingType(System::Type* value);
     // static public System.String GetDisplayName(System.Type type)
-    // Offset: 0x229B47C
+    // Offset: 0x22B61D8
     static ::Il2CppString* GetDisplayName(System::Type* type);
     // static public System.String GetDisplayName(System.Type type, System.Object[] arglist)
-    // Offset: 0x229B834
+    // Offset: 0x22B6590
     static ::Il2CppString* GetDisplayName(System::Type* type, ::Array<::Il2CppObject*>* arglist);
     // static public System.Type BestCommonType(System.Type type1, System.Type type2)
-    // Offset: 0x228F910
+    // Offset: 0x22AA66C
     static System::Type* BestCommonType(System::Type* type1, System::Type* type2);
     // static public System.Boolean IsNumeric(System.Type type)
-    // Offset: 0x229BB54
+    // Offset: 0x22B68B0
     static bool IsNumeric(System::Type* type);
     // static public System.Void ConvertArgumentList(System.Object[] arglist, NUnit.Framework.Interfaces.IParameterInfo[] parameters)
-    // Offset: 0x229BE14
+    // Offset: 0x22B6B70
     static void ConvertArgumentList(::Array<::Il2CppObject*>* arglist, ::Array<NUnit::Framework::Interfaces::IParameterInfo*>* parameters);
     // static public System.Boolean CanDeduceTypeArgsFromArgs(System.Type type, System.Object[] arglist, ref System.Type[] typeArgsOut)
-    // Offset: 0x229C238
+    // Offset: 0x22B6F94
     static bool CanDeduceTypeArgsFromArgs(System::Type* type, ::Array<::Il2CppObject*>* arglist, ::Array<System::Type*>*& typeArgsOut);
     // static private System.Void .cctor()
-    // Offset: 0x229C51C
+    // Offset: 0x22B7278
     static void _cctor();
   }; // NUnit.Framework.Internal.TypeHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TypeHelper::GetDisplayName
+  // Il2CppName: GetDisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&TypeHelper::GetDisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeHelper::GetDisplayName
+  // Il2CppName: GetDisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Array<::Il2CppObject*>*)>(&TypeHelper::GetDisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeHelper::BestCommonType
+  // Il2CppName: BestCommonType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, System::Type*)>(&TypeHelper::BestCommonType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), "BestCommonType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeHelper::IsNumeric
+  // Il2CppName: IsNumeric
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&TypeHelper::IsNumeric)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), "IsNumeric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeHelper::ConvertArgumentList
+  // Il2CppName: ConvertArgumentList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<::Il2CppObject*>*, ::Array<NUnit::Framework::Interfaces::IParameterInfo*>*)>(&TypeHelper::ConvertArgumentList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), "ConvertArgumentList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<NUnit::Framework::Interfaces::IParameterInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeHelper::CanDeduceTypeArgsFromArgs
+  // Il2CppName: CanDeduceTypeArgsFromArgs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Array<::Il2CppObject*>*, ::Array<System::Type*>*&)>(&TypeHelper::CanDeduceTypeArgsFromArgs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), "CanDeduceTypeArgsFromArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeHelper::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TypeHelper::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeHelper*, "NUnit.Framework.Internal", "TypeHelper");

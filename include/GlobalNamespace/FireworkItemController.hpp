@@ -60,15 +60,15 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: GlobalNamespace::FireworkItemController::$FireCoroutine$d__29
     class $FireCoroutine$d__29;
-    // [HeaderAttribute] Offset: 0xE1A190
-    // [NullAllowed] Offset: 0xE1A190
+    // [HeaderAttribute] Offset: 0xE1A16C
+    // [NullAllowed] Offset: 0xE1A16C
     // private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
     ::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>* particleSystems;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE1A1EC
+    // [HeaderAttribute] Offset: 0xE1A1C8
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x20
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1A248
+    // [SpaceAttribute] Offset: 0xE1A224
     // private System.Single _lightFlashDuration
     // Size: 0x4
     // Offset: 0x30
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     float lightIntensityMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE1A2A0
+    // [HeaderAttribute] Offset: 0xE1A27C
     // private System.Boolean _randomizeColor
     // Size: 0x1
     // Offset: 0x44
@@ -111,21 +111,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomizeColor and: lightsColor
     char __padding6[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE1A2EC
+    // [DrawIfAttribute] Offset: 0xE1A2C8
     // private UnityEngine.Color _lightsColor
     // Size: 0x10
     // Offset: 0x48
     UnityEngine::Color lightsColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [DrawIfAttribute] Offset: 0xE1A390
+    // [DrawIfAttribute] Offset: 0xE1A36C
     // private UnityEngine.Gradient _lightsColorGradient
     // Size: 0x8
     // Offset: 0x58
     UnityEngine::Gradient* lightsColorGradient;
     // Field size check
     static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1A438
+    // [SpaceAttribute] Offset: 0xE1A414
     // private System.Boolean _randomizeSpeed
     // Size: 0x1
     // Offset: 0x60
@@ -134,14 +134,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomizeSpeed and: minSpeedMultiplier
     char __padding9[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE1A470
+    // [DrawIfAttribute] Offset: 0xE1A44C
     // private System.Single _minSpeedMultiplier
     // Size: 0x4
     // Offset: 0x64
     float minSpeedMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xE1A518
+    // [DrawIfAttribute] Offset: 0xE1A4F4
     // private System.Single _maxSpeedMultiplier
     // Size: 0x4
     // Offset: 0x68
@@ -182,7 +182,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initialized and: didFinishEvent
     char __padding16[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE1A5D0
+    // [CompilerGeneratedAttribute] Offset: 0xE1A5AC
     // private System.Action`1<FireworkItemController> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -194,40 +194,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_directionalLight(DirectionalLight value)
-    // Offset: 0x10C5964
+    // Offset: 0x1044524
     void set_directionalLight(GlobalNamespace::DirectionalLight* value);
     // public System.Void set_directionalLightIntensity(System.Single value)
-    // Offset: 0x10C596C
+    // Offset: 0x104452C
     void set_directionalLightIntensity(float value);
     // public System.Void add_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x10C5974
+    // Offset: 0x1044534
     void add_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<FireworkItemController> value)
-    // Offset: 0x10C5A18
+    // Offset: 0x10445D8
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::FireworkItemController*>* value);
     // protected System.Void Awake()
-    // Offset: 0x10C5ABC
+    // Offset: 0x104467C
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x10C5B3C
+    // Offset: 0x10446FC
     void OnDisable();
     // public System.Void Fire()
-    // Offset: 0x10C5CFC
+    // Offset: 0x10448BC
     void Fire();
     // private System.Collections.IEnumerator FireCoroutine()
-    // Offset: 0x10C5D28
+    // Offset: 0x10448E8
     System::Collections::IEnumerator* FireCoroutine();
     // private System.Void SetLightsColor(System.Single intensity)
-    // Offset: 0x10C5BC8
+    // Offset: 0x1044788
     void SetLightsColor(float intensity);
     // private System.Void PlayExplosionSound()
-    // Offset: 0x10C5DC4
+    // Offset: 0x1044984
     void PlayExplosionSound();
     // private System.Void InitializeParticleSystem()
-    // Offset: 0x10C5EB0
+    // Offset: 0x1044A70
     void InitializeParticleSystem();
     // public System.Void .ctor()
-    // Offset: 0x10C61BC
+    // Offset: 0x1044D7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -243,5 +243,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FireworkItemController), 144 + sizeof(System::Action_1<GlobalNamespace::FireworkItemController*>*)> __GlobalNamespace_FireworkItemControllerSizeCheck;
   static_assert(sizeof(FireworkItemController) == 0x98);
+  // Writing MetadataGetter for method: FireworkItemController::set_directionalLight
+  // Il2CppName: set_directionalLight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(GlobalNamespace::DirectionalLight*)>(&FireworkItemController::set_directionalLight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "set_directionalLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DirectionalLight*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::set_directionalLightIntensity
+  // Il2CppName: set_directionalLightIntensity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(float)>(&FireworkItemController::set_directionalLightIntensity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "set_directionalLightIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&FireworkItemController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(System::Action_1<GlobalNamespace::FireworkItemController*>*)>(&FireworkItemController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::FireworkItemController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::Fire
+  // Il2CppName: Fire
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::Fire)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "Fire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::FireCoroutine
+  // Il2CppName: FireCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FireworkItemController::*)()>(&FireworkItemController::FireCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "FireCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::SetLightsColor
+  // Il2CppName: SetLightsColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)(float)>(&FireworkItemController::SetLightsColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "SetLightsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::PlayExplosionSound
+  // Il2CppName: PlayExplosionSound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::PlayExplosionSound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "PlayExplosionSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::InitializeParticleSystem
+  // Il2CppName: InitializeParticleSystem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::InitializeParticleSystem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), "InitializeParticleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworkItemController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::*)()>(&FireworkItemController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController*, "", "FireworkItemController");

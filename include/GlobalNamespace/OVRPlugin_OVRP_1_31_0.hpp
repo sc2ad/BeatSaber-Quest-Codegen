@@ -33,16 +33,40 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Result ovrp_GetTimeInSeconds(out System.Double value)
-    // Offset: 0x16098A4
+    // Offset: 0x16215B4
     static GlobalNamespace::OVRPlugin::Result ovrp_GetTimeInSeconds(double& value);
     // static public OVRPlugin/Result ovrp_SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, OVRPlugin/Bool applyToAllLayers)
-    // Offset: 0x1609924
+    // Offset: 0x1621634
     static GlobalNamespace::OVRPlugin::Result ovrp_SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, GlobalNamespace::OVRPlugin::Bool applyToAllLayers);
     // static private System.Void .cctor()
-    // Offset: 0x1609A04
+    // Offset: 0x1621714
     static void _cctor();
   }; // OVRPlugin/OVRP_1_31_0
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds
+  // Il2CppName: ovrp_GetTimeInSeconds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(double&)>(&OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_31_0*), "ovrp_GetTimeInSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_31_0::ovrp_SetColorScaleAndOffset
+  // Il2CppName: ovrp_SetColorScaleAndOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(UnityEngine::Vector4, UnityEngine::Vector4, GlobalNamespace::OVRPlugin::Bool)>(&OVRPlugin::OVRP_1_31_0::ovrp_SetColorScaleAndOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_31_0*), "ovrp_SetColorScaleAndOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_31_0::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_31_0::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_31_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_31_0*, "", "OVRPlugin/OVRP_1_31_0");

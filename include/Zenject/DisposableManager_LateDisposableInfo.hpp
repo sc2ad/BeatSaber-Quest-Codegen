@@ -40,7 +40,7 @@ namespace Zenject {
     // Creating value type constructor for type: LateDisposableInfo
     LateDisposableInfo(Zenject::ILateDisposable* LateDisposable_ = {}, int Priority_ = {}) noexcept : LateDisposable{LateDisposable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
-    // Offset: 0x161BC68
+    // Offset: 0x1633978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::LateDisposableInfo::.ctor");
@@ -50,5 +50,19 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(DisposableManager::LateDisposableInfo), 24 + sizeof(int)> __Zenject_DisposableManager_LateDisposableInfoSizeCheck;
   static_assert(sizeof(DisposableManager::LateDisposableInfo) == 0x1C);
+  // Writing MetadataGetter for method: DisposableManager::LateDisposableInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::LateDisposableInfo::*)(Zenject::ILateDisposable*, int)>(&DisposableManager::LateDisposableInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisposableManager::LateDisposableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateDisposable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::LateDisposableInfo::*)(Zenject::ILateDisposable*, int)>(&DisposableManager::LateDisposableInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DisposableManager::LateDisposableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateDisposable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");

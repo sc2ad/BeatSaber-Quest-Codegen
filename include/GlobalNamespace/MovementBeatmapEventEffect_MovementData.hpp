@@ -33,10 +33,10 @@ namespace GlobalNamespace {
       return localPositionOffset;
     }
     // public UnityEngine.Vector3 get_localPositionOffset()
-    // Offset: 0x113F3FC
+    // Offset: 0x1144C64
     UnityEngine::Vector3 get_localPositionOffset();
     // public System.Void .ctor()
-    // Offset: 0x113F408
+    // Offset: 0x1144C70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,5 +48,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MovementBeatmapEventEffect::MovementData), 16 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_MovementBeatmapEventEffect_MovementDataSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect::MovementData) == 0x1C);
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::MovementData::get_localPositionOffset
+  // Il2CppName: get_localPositionOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (MovementBeatmapEventEffect::MovementData::*)()>(&MovementBeatmapEventEffect::MovementData::get_localPositionOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect::MovementData*), "get_localPositionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::MovementData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::MovementData::*)()>(&MovementBeatmapEventEffect::MovementData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect::MovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::MovementData::*)()>(&MovementBeatmapEventEffect::MovementData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect::MovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");

@@ -21,12 +21,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LobbyDataModelInstaller
     LobbyDataModelInstaller() noexcept {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1202630
+    // Offset: 0x1206054
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1202A60
+    // Offset: 0x1206484
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -42,5 +42,27 @@ namespace GlobalNamespace {
     }
   }; // LobbyDataModelInstaller
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LobbyDataModelInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LobbyDataModelInstaller::*)()>(&LobbyDataModelInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LobbyDataModelInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LobbyDataModelInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LobbyDataModelInstaller::*)()>(&LobbyDataModelInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LobbyDataModelInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LobbyDataModelInstaller::*)()>(&LobbyDataModelInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LobbyDataModelInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelInstaller*, "", "LobbyDataModelInstaller");

@@ -116,32 +116,32 @@ namespace Mono::Net::Security {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean serverMode, System.String targetHost, System.Security.Authentication.SslProtocols enabledProtocols, System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.Security.Cryptography.X509Certificates.X509CertificateCollection clientCertificates, System.Boolean askForClientCert)
-    // Offset: 0x15DA63C
+    // Offset: 0x15F334C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileTlsContext* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool serverMode, ::Il2CppString* targetHost, System::Security::Authentication::SslProtocols enabledProtocols, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, bool askForClientCert) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MobileTlsContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileTlsContext*, creationType>(parent, serverMode, targetHost, enabledProtocols, serverCertificate, clientCertificates, askForClientCert)));
     }
     // Mono.Net.Security.MobileAuthenticatedStream get_Parent()
-    // Offset: 0x15DA76C
+    // Offset: 0x15F347C
     Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
-    // Offset: 0x15DA774
+    // Offset: 0x15F3484
     Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean get_IsAuthenticated()
     // Offset: 0xFFFFFFFF
     bool get_IsAuthenticated();
     // public System.Boolean get_IsServer()
-    // Offset: 0x15DA790
+    // Offset: 0x15F34A0
     bool get_IsServer();
     // protected System.String get_TargetHost()
-    // Offset: 0x15DA798
+    // Offset: 0x15F34A8
     ::Il2CppString* get_TargetHost();
     // protected System.String get_ServerName()
-    // Offset: 0x15DA7A0
+    // Offset: 0x15F34B0
     ::Il2CppString* get_ServerName();
     // protected System.Security.Cryptography.X509Certificates.X509CertificateCollection get_ClientCertificates()
-    // Offset: 0x15DA7A8
+    // Offset: 0x15F34B8
     System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
     // public System.Void StartHandshake()
     // Offset: 0xFFFFFFFF
@@ -153,7 +153,7 @@ namespace Mono::Net::Security {
     // Offset: 0xFFFFFFFF
     void FinishHandshake();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalServerCertificate()
-    // Offset: 0x15DA7B0
+    // Offset: 0x15F34C0
     System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
     // System.Security.Cryptography.X509Certificates.X509Certificate get_LocalClientCertificate()
     // Offset: 0xFFFFFFFF
@@ -168,22 +168,22 @@ namespace Mono::Net::Security {
     // Offset: 0xFFFFFFFF
     void Shutdown();
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509Certificate leaf, System.Security.Cryptography.X509Certificates.X509Chain chain)
-    // Offset: 0x15DA7B8
+    // Offset: 0x15F34C8
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* leaf, System::Security::Cryptography::X509Certificates::X509Chain* chain);
     // protected System.Boolean ValidateCertificate(System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
-    // Offset: 0x15DA8C0
+    // Offset: 0x15F35D0
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
     // protected System.Security.Cryptography.X509Certificates.X509Certificate SelectClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.String[] acceptableIssuers)
-    // Offset: 0x15DA9BC
+    // Offset: 0x15F36CC
     System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::Array<::Il2CppString*>* acceptableIssuers);
     // public System.Void Dispose()
-    // Offset: 0x15D8B6C
+    // Offset: 0x15F187C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x15DAB38
+    // Offset: 0x15F3848
     void Dispose(bool disposing);
     // protected override System.Void Finalize()
-    // Offset: 0x15DAB3C
+    // Offset: 0x15F384C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -191,5 +191,187 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
   static check_size<sizeof(MobileTlsContext), 80 + sizeof(Mono::Security::Interface::ICertificateValidator2*)> __Mono_Net_Security_MobileTlsContextSizeCheck;
   static_assert(sizeof(MobileTlsContext) == 0x58);
+  // Writing MetadataGetter for method: MobileTlsContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&MobileTlsContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&MobileTlsContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_Parent
+  // Il2CppName: get_Parent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileAuthenticatedStream* (MobileTlsContext::*)()>(&MobileTlsContext::get_Parent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_Settings
+  // Il2CppName: get_Settings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (MobileTlsContext::*)()>(&MobileTlsContext::get_Settings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_IsAuthenticated
+  // Il2CppName: get_IsAuthenticated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileTlsContext::*)()>(&MobileTlsContext::get_IsAuthenticated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_IsServer
+  // Il2CppName: get_IsServer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileTlsContext::*)()>(&MobileTlsContext::get_IsServer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_IsServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_TargetHost
+  // Il2CppName: get_TargetHost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MobileTlsContext::*)()>(&MobileTlsContext::get_TargetHost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_TargetHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_ServerName
+  // Il2CppName: get_ServerName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MobileTlsContext::*)()>(&MobileTlsContext::get_ServerName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_ServerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_ClientCertificates
+  // Il2CppName: get_ClientCertificates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateCollection* (MobileTlsContext::*)()>(&MobileTlsContext::get_ClientCertificates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_ClientCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::StartHandshake
+  // Il2CppName: StartHandshake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)()>(&MobileTlsContext::StartHandshake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "StartHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::ProcessHandshake
+  // Il2CppName: ProcessHandshake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileTlsContext::*)()>(&MobileTlsContext::ProcessHandshake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "ProcessHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::FinishHandshake
+  // Il2CppName: FinishHandshake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)()>(&MobileTlsContext::FinishHandshake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "FinishHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_LocalServerCertificate
+  // Il2CppName: get_LocalServerCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (MobileTlsContext::*)()>(&MobileTlsContext::get_LocalServerCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_LocalServerCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::get_LocalClientCertificate
+  // Il2CppName: get_LocalClientCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (MobileTlsContext::*)()>(&MobileTlsContext::get_LocalClientCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "get_LocalClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileTlsContext::*)(::Array<uint8_t>*, int, int)>(&MobileTlsContext::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::Write
+  // Il2CppName: Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (MobileTlsContext::*)(::Array<uint8_t>*, int, int)>(&MobileTlsContext::Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::Shutdown
+  // Il2CppName: Shutdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)()>(&MobileTlsContext::Shutdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::ValidateCertificate
+  // Il2CppName: ValidateCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*)>(&MobileTlsContext::ValidateCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::ValidateCertificate
+  // Il2CppName: ValidateCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&MobileTlsContext::ValidateCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::SelectClientCertificate
+  // Il2CppName: SelectClientCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*)>(&MobileTlsContext::SelectClientCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "SelectClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)()>(&MobileTlsContext::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)(bool)>(&MobileTlsContext::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MobileTlsContext::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MobileTlsContext::*)()>(&MobileTlsContext::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MobileTlsContext*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext*, "Mono.Net.Security", "MobileTlsContext");

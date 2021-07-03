@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     Libraries::HM::HMLib::VR::HapticPresetSO* rumblePreset;
     // Field size check
     static_assert(sizeof(Libraries::HM::HMLib::VR::HapticPresetSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1A7FC
+    // [InjectAttribute] Offset: 0xE1A7D8
     // private readonly HapticFeedbackController _hapticFeedbackController
     // Size: 0x8
     // Offset: 0x20
@@ -50,10 +50,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void HitNote(SaberType saberType)
-    // Offset: 0x11B8F84
+    // Offset: 0x11D38D8
     void HitNote(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x11B9D5C
+    // Offset: 0x11D46B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,5 +69,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteCutHapticEffect), 32 + sizeof(GlobalNamespace::HapticFeedbackController*)> __GlobalNamespace_NoteCutHapticEffectSizeCheck;
   static_assert(sizeof(NoteCutHapticEffect) == 0x28);
+  // Writing MetadataGetter for method: NoteCutHapticEffect::HitNote
+  // Il2CppName: HitNote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutHapticEffect::*)(GlobalNamespace::SaberType)>(&NoteCutHapticEffect::HitNote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutHapticEffect*), "HitNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteCutHapticEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutHapticEffect::*)()>(&NoteCutHapticEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutHapticEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutHapticEffect::*)()>(&NoteCutHapticEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutHapticEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");

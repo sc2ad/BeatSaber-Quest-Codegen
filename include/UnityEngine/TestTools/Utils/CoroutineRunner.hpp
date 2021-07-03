@@ -90,33 +90,95 @@ namespace UnityEngine::TestTools::Utils {
     // Creating value type constructor for type: CoroutineRunner
     CoroutineRunner(bool m_Running_ = {}, bool m_Timeout_ = {}, UnityEngine::MonoBehaviour* m_Controller_ = {}, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context_ = {}, UnityEngine::Coroutine* m_TimeOutCoroutine_ = {}, System::Collections::IEnumerator* m_TestCoroutine_ = {}) noexcept : m_Running{m_Running_}, m_Timeout{m_Timeout_}, m_Controller{m_Controller_}, m_Context{m_Context_}, m_TimeOutCoroutine{m_TimeOutCoroutine_}, m_TestCoroutine{m_TestCoroutine_} {}
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x23C3248
+    // Offset: 0x23DE774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineRunner* New_ctor(UnityEngine::MonoBehaviour* playmodeTestsController, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner*, creationType>(playmodeTestsController, context)));
     }
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)
-    // Offset: 0x23C3280
+    // Offset: 0x23DE7AC
     System::Collections::IEnumerator* HandleEnumerableTest(System::Collections::IEnumerator* testEnumerator);
     // private System.Void StopAllRunningCoroutines()
-    // Offset: 0x23C3328
+    // Offset: 0x23DE854
     void StopAllRunningCoroutines();
     // private System.Collections.IEnumerator ExMethod(System.Collections.IEnumerator e, System.Int32 timeout)
-    // Offset: 0x23C3380
+    // Offset: 0x23DE8AC
     System::Collections::IEnumerator* ExMethod(System::Collections::IEnumerator* e, int timeout);
     // private System.Collections.IEnumerator StartTimer(System.Collections.IEnumerator coroutineToBeKilled, System.Int32 timeout, System.Action onTimeout)
-    // Offset: 0x23C3430
+    // Offset: 0x23DE95C
     System::Collections::IEnumerator* StartTimer(System::Collections::IEnumerator* coroutineToBeKilled, int timeout, System::Action* onTimeout);
     // public System.Boolean HasFailedWithTimeout()
-    // Offset: 0x23C34F0
+    // Offset: 0x23DEA1C
     bool HasFailedWithTimeout();
     // private System.Void <ExMethod>b__10_0()
-    // Offset: 0x23C34F8
+    // Offset: 0x23DEA24
     void $ExMethod$b__10_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
   #pragma pack(pop)
   static check_size<sizeof(CoroutineRunner), 48 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;
   static_assert(sizeof(CoroutineRunner) == 0x38);
+  // Writing MetadataGetter for method: CoroutineRunner::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineRunner::*)(UnityEngine::MonoBehaviour*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&CoroutineRunner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineRunner::*)(UnityEngine::MonoBehaviour*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&CoroutineRunner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineRunner::HandleEnumerableTest
+  // Il2CppName: HandleEnumerableTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CoroutineRunner::*)(System::Collections::IEnumerator*)>(&CoroutineRunner::HandleEnumerableTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineRunner::StopAllRunningCoroutines
+  // Il2CppName: StopAllRunningCoroutines
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineRunner::*)()>(&CoroutineRunner::StopAllRunningCoroutines)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), "StopAllRunningCoroutines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineRunner::ExMethod
+  // Il2CppName: ExMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CoroutineRunner::*)(System::Collections::IEnumerator*, int)>(&CoroutineRunner::ExMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), "ExMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineRunner::StartTimer
+  // Il2CppName: StartTimer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (CoroutineRunner::*)(System::Collections::IEnumerator*, int, System::Action*)>(&CoroutineRunner::StartTimer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), "StartTimer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineRunner::HasFailedWithTimeout
+  // Il2CppName: HasFailedWithTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CoroutineRunner::*)()>(&CoroutineRunner::HasFailedWithTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), "HasFailedWithTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineRunner::$ExMethod$b__10_0
+  // Il2CppName: <ExMethod>b__10_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineRunner::*)()>(&CoroutineRunner::$ExMethod$b__10_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineRunner*), "<ExMethod>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner*, "UnityEngine.TestTools.Utils", "CoroutineRunner");

@@ -31,16 +31,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerMissionStatsData
     PlayerMissionStatsData(::Il2CppString* missionId_ = {}, bool cleared_ = {}) noexcept : missionId{missionId_}, cleared{cleared_} {}
     // public System.String get_missionId()
-    // Offset: 0x1014710
+    // Offset: 0x1058A20
     ::Il2CppString* get_missionId();
     // public System.Boolean get_cleared()
-    // Offset: 0x1014718
+    // Offset: 0x1058A28
     bool get_cleared();
     // public System.Void set_cleared(System.Boolean value)
-    // Offset: 0x1014720
+    // Offset: 0x1058A30
     void set_cleared(bool value);
     // public System.Void .ctor(System.String missionId, System.Boolean cleared)
-    // Offset: 0x1010298
+    // Offset: 0x10545D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerMissionStatsData* New_ctor(::Il2CppString* missionId, bool cleared) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerMissionStatsData::.ctor");
@@ -50,5 +50,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerMissionStatsData), 24 + sizeof(bool)> __GlobalNamespace_PlayerMissionStatsDataSizeCheck;
   static_assert(sizeof(PlayerMissionStatsData) == 0x19);
+  // Writing MetadataGetter for method: PlayerMissionStatsData::get_missionId
+  // Il2CppName: get_missionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayerMissionStatsData::*)()>(&PlayerMissionStatsData::get_missionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerMissionStatsData*), "get_missionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerMissionStatsData::get_cleared
+  // Il2CppName: get_cleared
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerMissionStatsData::*)()>(&PlayerMissionStatsData::get_cleared)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerMissionStatsData*), "get_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerMissionStatsData::set_cleared
+  // Il2CppName: set_cleared
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerMissionStatsData::*)(bool)>(&PlayerMissionStatsData::set_cleared)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerMissionStatsData*), "set_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerMissionStatsData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerMissionStatsData::*)(::Il2CppString*, bool)>(&PlayerMissionStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerMissionStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerMissionStatsData::*)(::Il2CppString*, bool)>(&PlayerMissionStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerMissionStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerMissionStatsData*, "", "PlayerMissionStatsData");

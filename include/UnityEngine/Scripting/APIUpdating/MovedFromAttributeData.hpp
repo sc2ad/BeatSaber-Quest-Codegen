@@ -66,12 +66,20 @@ namespace UnityEngine::Scripting::APIUpdating {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
-    // Offset: 0xF05E20
+    // Offset: 0xF06DD8
     void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)
   static check_size<sizeof(MovedFromAttributeData), 27 + sizeof(bool)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeDataSizeCheck;
   static_assert(sizeof(MovedFromAttributeData) == 0x1C);
+  // Writing MetadataGetter for method: MovedFromAttributeData::Set
+  // Il2CppName: Set
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovedFromAttributeData::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&MovedFromAttributeData::Set)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovedFromAttributeData), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");

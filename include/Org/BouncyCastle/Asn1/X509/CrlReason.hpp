@@ -25,23 +25,53 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static private readonly System.String[] ReasonString
     static void _set_ReasonString(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
-    // Offset: 0x19ED098
+    // Offset: 0x1A05DA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlReason* New_ctor(Org::BouncyCastle::Asn1::DerEnumerated* reason) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlReason::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlReason*, creationType>(reason)));
     }
     // public override System.String ToString()
-    // Offset: 0x19ED124
+    // Offset: 0x1A05E34
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // static private System.Void .cctor()
-    // Offset: 0x19ED1F0
+    // Offset: 0x1A05F00
     // Implemented from: Org.BouncyCastle.Asn1.DerEnumerated
     // Base method: System.Void DerEnumerated::.cctor()
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.X509.CrlReason
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CrlReason::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrlReason::*)(Org::BouncyCastle::Asn1::DerEnumerated*)>(&CrlReason::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrlReason*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerEnumerated*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrlReason::*)(Org::BouncyCastle::Asn1::DerEnumerated*)>(&CrlReason::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrlReason*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerEnumerated*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrlReason::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrlReason::*)()>(&CrlReason::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrlReason*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrlReason::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CrlReason::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrlReason*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::CrlReason*, "Org.BouncyCastle.Asn1.X509", "CrlReason");

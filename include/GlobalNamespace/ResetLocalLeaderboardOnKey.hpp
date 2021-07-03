@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Update()
-    // Offset: 0x10AC534
+    // Offset: 0x10AF824
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10AC580
+    // Offset: 0x10AF870
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -63,5 +63,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ResetLocalLeaderboardOnKey), 32 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_ResetLocalLeaderboardOnKeySizeCheck;
   static_assert(sizeof(ResetLocalLeaderboardOnKey) == 0x24);
+  // Writing MetadataGetter for method: ResetLocalLeaderboardOnKey::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetLocalLeaderboardOnKey::*)()>(&ResetLocalLeaderboardOnKey::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetLocalLeaderboardOnKey*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResetLocalLeaderboardOnKey::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetLocalLeaderboardOnKey::*)()>(&ResetLocalLeaderboardOnKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetLocalLeaderboardOnKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetLocalLeaderboardOnKey::*)()>(&ResetLocalLeaderboardOnKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetLocalLeaderboardOnKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetLocalLeaderboardOnKey*, "", "ResetLocalLeaderboardOnKey");

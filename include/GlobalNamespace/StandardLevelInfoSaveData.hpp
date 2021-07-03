@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::Il2CppString* songSubName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE16F8C
+    // [FormerlySerializedAsAttribute] Offset: 0xE16F68
     // private System.String _songAuthorName
     // Size: 0x8
     // Offset: 0x28
@@ -99,14 +99,14 @@ namespace GlobalNamespace {
     float previewDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE17048
+    // [FormerlySerializedAsAttribute] Offset: 0xE17024
     // private System.String _songFilename
     // Size: 0x8
     // Offset: 0x50
     ::Il2CppString* songFilename;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE17094
+    // [FormerlySerializedAsAttribute] Offset: 0xE17070
     // private System.String _coverImageFilename
     // Size: 0x8
     // Offset: 0x58
@@ -146,75 +146,249 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kDefaultBeatmapCharacteristicName
     static void _set_kDefaultBeatmapCharacteristicName(::Il2CppString* value);
     // public System.String get_version()
-    // Offset: 0x117D134
+    // Offset: 0x11612F8
     ::Il2CppString* get_version();
     // public System.String get_songName()
-    // Offset: 0x117D13C
+    // Offset: 0x1161300
     ::Il2CppString* get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x117D144
+    // Offset: 0x1161308
     ::Il2CppString* get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x117D14C
+    // Offset: 0x1161310
     ::Il2CppString* get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x117D154
+    // Offset: 0x1161318
     ::Il2CppString* get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x117D15C
+    // Offset: 0x1161320
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x117D164
+    // Offset: 0x1161328
     float get_songTimeOffset();
     // public System.Single get_shuffle()
-    // Offset: 0x117D16C
+    // Offset: 0x1161330
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x117D174
+    // Offset: 0x1161338
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x117D17C
+    // Offset: 0x1161340
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x117D184
+    // Offset: 0x1161348
     float get_previewDuration();
     // public System.String get_songFilename()
-    // Offset: 0x117D18C
+    // Offset: 0x1161350
     ::Il2CppString* get_songFilename();
     // public System.String get_coverImageFilename()
-    // Offset: 0x117D194
+    // Offset: 0x1161358
     ::Il2CppString* get_coverImageFilename();
     // public System.String get_environmentName()
-    // Offset: 0x117D19C
+    // Offset: 0x1161360
     ::Il2CppString* get_environmentName();
     // public System.String get_allDirectionsEnvironmentName()
-    // Offset: 0x117D1A4
+    // Offset: 0x1161368
     ::Il2CppString* get_allDirectionsEnvironmentName();
     // public StandardLevelInfoSaveData/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
-    // Offset: 0x117D1AC
+    // Offset: 0x1161370
     ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor(System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, System.String songFilename, System.String coverImageFilename, System.String environmentName, System.String allDirectionsEnvironmentName, StandardLevelInfoSaveData/DifficultyBeatmapSet[] difficultyBeatmapSets)
-    // Offset: 0x117D1B4
+    // Offset: 0x1161378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData* New_ctor(::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::Il2CppString* songFilename, ::Il2CppString* coverImageFilename, ::Il2CppString* environmentName, ::Il2CppString* allDirectionsEnvironmentName, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>* difficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData*, creationType>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, allDirectionsEnvironmentName, difficultyBeatmapSets)));
     }
     // public System.Boolean get_hasAllData()
-    // Offset: 0x117D2AC
+    // Offset: 0x1161470
     bool get_hasAllData();
     // public System.Void SetSongFilename(System.String songFilename)
-    // Offset: 0x117D310
+    // Offset: 0x11614D4
     void SetSongFilename(::Il2CppString* songFilename);
     // public System.String SerializeToJSONString()
-    // Offset: 0x117D318
+    // Offset: 0x11614DC
     ::Il2CppString* SerializeToJSONString();
     // static public StandardLevelInfoSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x117D320
+    // Offset: 0x11614E4
     static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
   }; // StandardLevelInfoSaveData
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData), 112 + sizeof(::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>*)> __GlobalNamespace_StandardLevelInfoSaveDataSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData) == 0x78);
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_version
+  // Il2CppName: get_version
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_version)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_songName
+  // Il2CppName: get_songName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_songName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_songSubName
+  // Il2CppName: get_songSubName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_songSubName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_songAuthorName
+  // Il2CppName: get_songAuthorName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_songAuthorName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_levelAuthorName
+  // Il2CppName: get_levelAuthorName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_levelAuthorName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_beatsPerMinute
+  // Il2CppName: get_beatsPerMinute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_beatsPerMinute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_beatsPerMinute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_songTimeOffset
+  // Il2CppName: get_songTimeOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_songTimeOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_songTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_shuffle
+  // Il2CppName: get_shuffle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_shuffle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_shuffle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_shufflePeriod
+  // Il2CppName: get_shufflePeriod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_shufflePeriod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_shufflePeriod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_previewStartTime
+  // Il2CppName: get_previewStartTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_previewStartTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_previewStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_previewDuration
+  // Il2CppName: get_previewDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_previewDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_previewDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_songFilename
+  // Il2CppName: get_songFilename
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_songFilename)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_songFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_coverImageFilename
+  // Il2CppName: get_coverImageFilename
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_coverImageFilename)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_coverImageFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_environmentName
+  // Il2CppName: get_environmentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_environmentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_environmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_allDirectionsEnvironmentName
+  // Il2CppName: get_allDirectionsEnvironmentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_allDirectionsEnvironmentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_allDirectionsEnvironmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_difficultyBeatmapSets
+  // Il2CppName: get_difficultyBeatmapSets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_difficultyBeatmapSets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, float, float, float, float, float, float, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>*)>(&StandardLevelInfoSaveData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, float, float, float, float, float, float, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>*)>(&StandardLevelInfoSaveData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::get_hasAllData
+  // Il2CppName: get_hasAllData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::get_hasAllData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "get_hasAllData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::SetSongFilename
+  // Il2CppName: SetSongFilename
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::*)(::Il2CppString*)>(&StandardLevelInfoSaveData::SetSongFilename)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "SetSongFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::SerializeToJSONString
+  // Il2CppName: SerializeToJSONString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::*)()>(&StandardLevelInfoSaveData::SerializeToJSONString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "SerializeToJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DeserializeFromJSONString
+  // Il2CppName: DeserializeFromJSONString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&StandardLevelInfoSaveData::DeserializeFromJSONString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData*, "", "StandardLevelInfoSaveData");

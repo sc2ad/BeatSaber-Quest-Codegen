@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MaterialPropertyBlockFloatAnimator* rimLightEdgeStartAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE12D44
+    // [SpaceAttribute] Offset: 0xE12D40
     // private UnityEngine.GameObject _collidersGameObject
     // Size: 0x8
     // Offset: 0x30
@@ -64,13 +64,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetCharacter(BTSCharacter btsCharacter)
-    // Offset: 0x1134FB0
+    // Offset: 0x113A818
     void SetCharacter(GlobalNamespace::BTSCharacter* btsCharacter);
     // public System.Void StopAnimation()
-    // Offset: 0x1135020
+    // Offset: 0x113A888
     void StopAnimation();
     // public System.Void .ctor()
-    // Offset: 0x1135040
+    // Offset: 0x113A8A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -86,5 +86,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterResultAnimationController), 48 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_BTSCharacterResultAnimationControllerSizeCheck;
   static_assert(sizeof(BTSCharacterResultAnimationController) == 0x38);
+  // Writing MetadataGetter for method: BTSCharacterResultAnimationController::SetCharacter
+  // Il2CppName: SetCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterResultAnimationController::*)(GlobalNamespace::BTSCharacter*)>(&BTSCharacterResultAnimationController::SetCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterResultAnimationController*), "SetCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterResultAnimationController::StopAnimation
+  // Il2CppName: StopAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterResultAnimationController::*)()>(&BTSCharacterResultAnimationController::StopAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterResultAnimationController*), "StopAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterResultAnimationController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterResultAnimationController::*)()>(&BTSCharacterResultAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterResultAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterResultAnimationController::*)()>(&BTSCharacterResultAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterResultAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterResultAnimationController*, "", "BTSCharacterResultAnimationController");

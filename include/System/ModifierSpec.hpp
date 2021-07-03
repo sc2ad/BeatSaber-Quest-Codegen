@@ -33,6 +33,22 @@ namespace System {
     System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
   }; // System.ModifierSpec
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ModifierSpec::Resolve
+  // Il2CppName: Resolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ModifierSpec::*)(System::Type*)>(&ModifierSpec::Resolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ModifierSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ModifierSpec::Append
+  // Il2CppName: Append
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (ModifierSpec::*)(System::Text::StringBuilder*)>(&ModifierSpec::Append)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ModifierSpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ModifierSpec*, "System", "ModifierSpec");

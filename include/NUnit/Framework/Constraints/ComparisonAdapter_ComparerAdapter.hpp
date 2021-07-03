@@ -38,14 +38,14 @@ namespace NUnit::Framework::Constraints {
       return comparer;
     }
     // public System.Void .ctor(System.Collections.IComparer comparer)
-    // Offset: 0x170BC1C
+    // Offset: 0x172392C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComparisonAdapter::ComparerAdapter* New_ctor(System::Collections::IComparer* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComparisonAdapter::ComparerAdapter*, creationType>(comparer)));
     }
     // public override System.Int32 Compare(System.Object expected, System.Object actual)
-    // Offset: 0x170BC48
+    // Offset: 0x1723958
     // Implemented from: NUnit.Framework.Constraints.ComparisonAdapter
     // Base method: System.Int32 ComparisonAdapter::Compare(System.Object expected, System.Object actual)
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
@@ -53,5 +53,27 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(ComparisonAdapter::ComparerAdapter), 16 + sizeof(System::Collections::IComparer*)> __NUnit_Framework_Constraints_ComparisonAdapter_ComparerAdapterSizeCheck;
   static_assert(sizeof(ComparisonAdapter::ComparerAdapter) == 0x18);
+  // Writing MetadataGetter for method: ComparisonAdapter::ComparerAdapter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComparisonAdapter::ComparerAdapter::*)(System::Collections::IComparer*)>(&ComparisonAdapter::ComparerAdapter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComparisonAdapter::ComparerAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComparisonAdapter::ComparerAdapter::*)(System::Collections::IComparer*)>(&ComparisonAdapter::ComparerAdapter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComparisonAdapter::ComparerAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ComparisonAdapter::ComparerAdapter::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ComparisonAdapter::ComparerAdapter::*)(::Il2CppObject*, ::Il2CppObject*)>(&ComparisonAdapter::ComparerAdapter::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComparisonAdapter::ComparerAdapter*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/ComparerAdapter");

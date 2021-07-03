@@ -95,14 +95,14 @@ namespace System::Runtime::Remoting {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);
     }
     // public System.Void .ctor(System.Boolean onlyDelayedChannels)
-    // Offset: 0x140C950
+    // Offset: 0x1427660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConfigHandler* New_ctor(bool onlyDelayedChannels) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ConfigHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConfigHandler*, creationType>(onlyDelayedChannels)));
     }
     // private System.Void ValidatePath(System.String element, params System.String[] paths)
-    // Offset: 0x140C9F8
+    // Offset: 0x1427708
     void ValidatePath(::Il2CppString* element, ::Array<::Il2CppString*>* paths);
     // Creating initializer_list -> params proxy for: System.Void ValidatePath(System.String element, params System.String[] paths)
     void ValidatePath(::Il2CppString* element, std::initializer_list<::Il2CppString*> paths);
@@ -112,74 +112,272 @@ namespace System::Runtime::Remoting {
       ValidatePath(element, {paths...});
     }
     // private System.Boolean CheckPath(System.String path)
-    // Offset: 0x140CB04
+    // Offset: 0x1427814
     bool CheckPath(::Il2CppString* path);
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x140CBE8
+    // Offset: 0x14278F8
     void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
-    // Offset: 0x140CBEC
+    // Offset: 0x14278FC
     void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
     // public System.Void OnIgnorableWhitespace(System.String s)
-    // Offset: 0x140CBF0
+    // Offset: 0x1427900
     void OnIgnorableWhitespace(::Il2CppString* s);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140CBF4
+    // Offset: 0x1427904
     void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void ParseElement(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140CD94
+    // Offset: 0x1427AA4
     void ParseElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
-    // Offset: 0x140F5FC
+    // Offset: 0x142A30C
     void OnEndElement(::Il2CppString* name);
     // private System.Void ReadCustomProviderData(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140DCE0
+    // Offset: 0x14289F0
     void ReadCustomProviderData(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadLifetine(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140E050
+    // Offset: 0x1428D60
     void ReadLifetine(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.TimeSpan ParseTime(System.String s)
-    // Offset: 0x140F680
+    // Offset: 0x142A390
     System::TimeSpan ParseTime(::Il2CppString* s);
     // private System.Void ReadChannel(Mono.Xml.SmallXmlParser/IAttrList attrs, System.Boolean isTemplate)
-    // Offset: 0x140E608
+    // Offset: 0x1429318
     void ReadChannel(Mono::Xml::SmallXmlParser::IAttrList* attrs, bool isTemplate);
     // private System.Runtime.Remoting.ProviderData ReadProvider(System.String name, Mono.Xml.SmallXmlParser/IAttrList attrs, System.Boolean isTemplate)
-    // Offset: 0x140E99C
+    // Offset: 0x14296AC
     System::Runtime::Remoting::ProviderData* ReadProvider(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs, bool isTemplate);
     // private System.Void ReadClientActivated(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140EFD0
+    // Offset: 0x1429CE0
     void ReadClientActivated(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadServiceActivated(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140F0F8
+    // Offset: 0x1429E08
     void ReadServiceActivated(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadClientWellKnown(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140ED44
+    // Offset: 0x1429A54
     void ReadClientWellKnown(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadServiceWellKnown(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140EE28
+    // Offset: 0x1429B38
     void ReadServiceWellKnown(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.Void ReadInteropXml(Mono.Xml.SmallXmlParser/IAttrList attrs, System.Boolean isElement)
-    // Offset: 0x140F1BC
+    // Offset: 0x1429ECC
     void ReadInteropXml(Mono::Xml::SmallXmlParser::IAttrList* attrs, bool isElement);
     // private System.Void ReadPreload(Mono.Xml.SmallXmlParser/IAttrList attrs)
-    // Offset: 0x140F390
+    // Offset: 0x142A0A0
     void ReadPreload(Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // private System.String GetNotNull(Mono.Xml.SmallXmlParser/IAttrList attrs, System.String name)
-    // Offset: 0x140FA54
+    // Offset: 0x142A764
     ::Il2CppString* GetNotNull(Mono::Xml::SmallXmlParser::IAttrList* attrs, ::Il2CppString* name);
     // private System.String ExtractAssembly(ref System.String type)
-    // Offset: 0x140FB90
+    // Offset: 0x142A8A0
     ::Il2CppString* ExtractAssembly(::Il2CppString*& type);
     // public System.Void OnChars(System.String ch)
-    // Offset: 0x140FC60
+    // Offset: 0x142A970
     void OnChars(::Il2CppString* ch);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
-    // Offset: 0x140FC64
+    // Offset: 0x142A974
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
   }; // System.Runtime.Remoting.ConfigHandler
   #pragma pack(pop)
   static check_size<sizeof(ConfigHandler), 72 + sizeof(bool)> __System_Runtime_Remoting_ConfigHandlerSizeCheck;
   static_assert(sizeof(ConfigHandler) == 0x49);
+  // Writing MetadataGetter for method: ConfigHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(bool)>(&ConfigHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(bool)>(&ConfigHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ValidatePath
+  // Il2CppName: ValidatePath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&ConfigHandler::ValidatePath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ValidatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::CheckPath
+  // Il2CppName: CheckPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::CheckPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "CheckPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnStartParsing
+  // Il2CppName: OnStartParsing
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&ConfigHandler::OnStartParsing)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnStartParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnProcessingInstruction
+  // Il2CppName: OnProcessingInstruction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, ::Il2CppString*)>(&ConfigHandler::OnProcessingInstruction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnIgnorableWhitespace
+  // Il2CppName: OnIgnorableWhitespace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnIgnorableWhitespace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnIgnorableWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnStartElement
+  // Il2CppName: OnStartElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::OnStartElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ParseElement
+  // Il2CppName: ParseElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ParseElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnEndElement
+  // Il2CppName: OnEndElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnEndElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadCustomProviderData
+  // Il2CppName: ReadCustomProviderData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadCustomProviderData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadCustomProviderData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadLifetine
+  // Il2CppName: ReadLifetine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadLifetine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadLifetine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ParseTime
+  // Il2CppName: ParseTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::ParseTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ParseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadChannel
+  // Il2CppName: ReadChannel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadChannel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadProvider
+  // Il2CppName: ReadProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ProviderData* (ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadClientActivated
+  // Il2CppName: ReadClientActivated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadClientActivated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadClientActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadServiceActivated
+  // Il2CppName: ReadServiceActivated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadServiceActivated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadServiceActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadClientWellKnown
+  // Il2CppName: ReadClientWellKnown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadClientWellKnown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadClientWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadServiceWellKnown
+  // Il2CppName: ReadServiceWellKnown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadServiceWellKnown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadServiceWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadInteropXml
+  // Il2CppName: ReadInteropXml
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&ConfigHandler::ReadInteropXml)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadInteropXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ReadPreload
+  // Il2CppName: ReadPreload
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&ConfigHandler::ReadPreload)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ReadPreload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::GetNotNull
+  // Il2CppName: GetNotNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, ::Il2CppString*)>(&ConfigHandler::GetNotNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "GetNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser::IAttrList*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::ExtractAssembly
+  // Il2CppName: ExtractAssembly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConfigHandler::*)(::Il2CppString*&)>(&ConfigHandler::ExtractAssembly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "ExtractAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnChars
+  // Il2CppName: OnChars
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(::Il2CppString*)>(&ConfigHandler::OnChars)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfigHandler::OnEndParsing
+  // Il2CppName: OnEndParsing
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&ConfigHandler::OnEndParsing)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfigHandler*), "OnEndParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Xml::SmallXmlParser*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtime.Remoting", "ConfigHandler");

@@ -45,7 +45,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AssetFileDeleteResult
     AssetFileDeleteResult(uint64_t AssetFileId_ = {}, uint64_t AssetId_ = {}, ::Il2CppString* Filepath_ = {}, bool Success_ = {}) noexcept : AssetFileId{AssetFileId_}, AssetId{AssetId_}, Filepath{Filepath_}, Success{Success_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B1F34
+    // Offset: 0x14CCC44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetFileDeleteResult* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDeleteResult::.ctor");
@@ -55,5 +55,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(AssetFileDeleteResult), 40 + sizeof(bool)> __Oculus_Platform_Models_AssetFileDeleteResultSizeCheck;
   static_assert(sizeof(AssetFileDeleteResult) == 0x29);
+  // Writing MetadataGetter for method: AssetFileDeleteResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetFileDeleteResult::*)(System::IntPtr)>(&AssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetFileDeleteResult::*)(System::IntPtr)>(&AssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");

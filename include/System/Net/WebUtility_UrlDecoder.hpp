@@ -66,27 +66,73 @@ namespace System::Net {
     // Creating value type constructor for type: UrlDecoder
     UrlDecoder(int bufferSize_ = {}, int numChars_ = {}, ::Array<::Il2CppChar>* charBuffer_ = {}, int numBytes_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, System::Text::Encoding* encoding_ = {}) noexcept : bufferSize{bufferSize_}, numChars{numChars_}, charBuffer{charBuffer_}, numBytes{numBytes_}, byteBuffer{byteBuffer_}, encoding{encoding_} {}
     // private System.Void FlushBytes()
-    // Offset: 0x15B3C94
+    // Offset: 0x15CD9A4
     void FlushBytes();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
-    // Offset: 0x15B38DC
+    // Offset: 0x15CD5EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // System.Void AddChar(System.Char ch)
-    // Offset: 0x15B3A58
+    // Offset: 0x15CD768
     void AddChar(::Il2CppChar ch);
     // System.Void AddByte(System.Byte b)
-    // Offset: 0x15B39A8
+    // Offset: 0x15CD6B8
     void AddByte(uint8_t b);
     // System.String GetString()
-    // Offset: 0x15B3AC4
+    // Offset: 0x15CD7D4
     ::Il2CppString* GetString();
   }; // System.Net.WebUtility/UrlDecoder
   #pragma pack(pop)
   static check_size<sizeof(WebUtility::UrlDecoder), 48 + sizeof(System::Text::Encoding*)> __System_Net_WebUtility_UrlDecoderSizeCheck;
   static_assert(sizeof(WebUtility::UrlDecoder) == 0x38);
+  // Writing MetadataGetter for method: WebUtility::UrlDecoder::FlushBytes
+  // Il2CppName: FlushBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)()>(&WebUtility::UrlDecoder::FlushBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "FlushBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebUtility::UrlDecoder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(int, System::Text::Encoding*)>(&WebUtility::UrlDecoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(int, System::Text::Encoding*)>(&WebUtility::UrlDecoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebUtility::UrlDecoder::AddChar
+  // Il2CppName: AddChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(::Il2CppChar)>(&WebUtility::UrlDecoder::AddChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "AddChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebUtility::UrlDecoder::AddByte
+  // Il2CppName: AddByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(uint8_t)>(&WebUtility::UrlDecoder::AddByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebUtility::UrlDecoder::GetString
+  // Il2CppName: GetString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebUtility::UrlDecoder::*)()>(&WebUtility::UrlDecoder::GetString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");

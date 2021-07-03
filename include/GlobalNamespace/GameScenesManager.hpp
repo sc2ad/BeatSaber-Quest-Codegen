@@ -88,35 +88,35 @@ namespace GlobalNamespace {
     GlobalNamespace::SceneInfo* emptyTransitionSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
-    // [InjectAttribute] Offset: 0xDE3ADC
+    // [InjectAttribute] Offset: 0xDE3A10
     // private readonly Zenject.ZenjectSceneLoader _zenjectSceneLoader
     // Size: 0x8
     // Offset: 0x20
     Zenject::ZenjectSceneLoader* zenjectSceneLoader;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSceneLoader*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE3AEC
+    // [CompilerGeneratedAttribute] Offset: 0xDE3A20
     // private System.Action`1<System.Single> transitionDidStartEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<float>* transitionDidStartEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE3AFC
+    // [CompilerGeneratedAttribute] Offset: 0xDE3A30
     // private System.Action beforeDismissingScenesEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action* beforeDismissingScenesEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE3B0C
+    // [CompilerGeneratedAttribute] Offset: 0xDE3A40
     // private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> transitionDidFinishEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* transitionDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDE3B1C
+    // [CompilerGeneratedAttribute] Offset: 0xDE3A50
     // private System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> installEarlyBindingsEvent
     // Size: 0x8
     // Offset: 0x40
@@ -172,85 +172,85 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kRootContainerGOName
     static void _set_kRootContainerGOName(::Il2CppString* value);
     // public System.Void add_transitionDidStartEvent(System.Action`1<System.Single> value)
-    // Offset: 0x122A230
+    // Offset: 0x12469D4
     void add_transitionDidStartEvent(System::Action_1<float>* value);
     // public System.Void remove_transitionDidStartEvent(System.Action`1<System.Single> value)
-    // Offset: 0x122A2D4
+    // Offset: 0x1246A78
     void remove_transitionDidStartEvent(System::Action_1<float>* value);
     // public System.Void add_beforeDismissingScenesEvent(System.Action value)
-    // Offset: 0x122A378
+    // Offset: 0x1246B1C
     void add_beforeDismissingScenesEvent(System::Action* value);
     // public System.Void remove_beforeDismissingScenesEvent(System.Action value)
-    // Offset: 0x122A41C
+    // Offset: 0x1246BC0
     void remove_beforeDismissingScenesEvent(System::Action* value);
     // public System.Void add_transitionDidFinishEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x122A4C0
+    // Offset: 0x1246C64
     void add_transitionDidFinishEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public System.Void remove_transitionDidFinishEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x122A564
+    // Offset: 0x1246D08
     void remove_transitionDidFinishEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public System.Void add_installEarlyBindingsEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x122A608
+    // Offset: 0x1246DAC
     void add_installEarlyBindingsEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public System.Void remove_installEarlyBindingsEvent(System.Action`2<ScenesTransitionSetupDataSO,Zenject.DiContainer> value)
-    // Offset: 0x122A6AC
+    // Offset: 0x1246E50
     void remove_installEarlyBindingsEvent(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>* value);
     // public Zenject.DiContainer get_currentScenesContainer()
-    // Offset: 0x122A750
+    // Offset: 0x1246EF4
     Zenject::DiContainer* get_currentScenesContainer();
     // public System.Boolean get_isInTransition()
-    // Offset: 0x122A7B0
+    // Offset: 0x1246F54
     bool get_isInTransition();
     // public UnityEngine.WaitUntil get_waitUntilSceneTransitionFinish()
-    // Offset: 0x122A7B8
+    // Offset: 0x1246F5C
     UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
     // public System.Void MarkSceneAsPersistent(System.String sceneName)
-    // Offset: 0x122A850
+    // Offset: 0x1246FF4
     void MarkSceneAsPersistent(::Il2CppString* sceneName);
     // public System.Collections.Generic.List`1<System.String> GetCurrentlyLoadedSceneNames()
-    // Offset: 0x122A8B8
+    // Offset: 0x124705C
     System::Collections::Generic::List_1<::Il2CppString*>* GetCurrentlyLoadedSceneNames();
     // public System.Void PushScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x122AA14
+    // Offset: 0x12471B8
     void PushScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // public System.Void PopScenes(System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x122AE80
+    // Offset: 0x1247600
     void PopScenes(float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // public System.Void ReplaceScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x122B0AC
+    // Offset: 0x12477D0
     void ReplaceScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // public System.Void ClearAndOpenScenes(ScenesTransitionSetupDataSO scenesTransitionSetupData, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> finishCallback, System.Boolean unloadAllScenes)
-    // Offset: 0x122B2F0
+    // Offset: 0x1247A14
     void ClearAndOpenScenes(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* finishCallback, bool unloadAllScenes);
     // private System.Collections.IEnumerator ScenesTransitionCoroutine(System.Collections.Generic.List`1<System.String> scenesToPresent, GameScenesManager/ScenePresentType presentType, System.Collections.Generic.List`1<System.String> scenesToDismiss, GameScenesManager/SceneDismissType dismissType, System.Single minDuration, System.Action afterMinDurationCallback, System.Action`1<Zenject.DiContainer> extraBindingsCallback, System.Action`1<Zenject.DiContainer> finishCallback)
-    // Offset: 0x122ADB0
+    // Offset: 0x1247530
     System::Collections::IEnumerator* ScenesTransitionCoroutine(System::Collections::Generic::List_1<::Il2CppString*>* scenesToPresent, GlobalNamespace::GameScenesManager::ScenePresentType presentType, System::Collections::Generic::List_1<::Il2CppString*>* scenesToDismiss, GlobalNamespace::GameScenesManager::SceneDismissType dismissType, float minDuration, System::Action* afterMinDurationCallback, System::Action_1<Zenject::DiContainer*>* extraBindingsCallback, System::Action_1<Zenject::DiContainer*>* finishCallback);
     // private System.Boolean IsAnySceneInStack(System.Collections.Generic.List`1<System.String> sceneNames)
-    // Offset: 0x122B728
+    // Offset: 0x1247E4C
     bool IsAnySceneInStack(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames);
     // private System.Boolean IsSceneInStack(System.String searchSceneName)
-    // Offset: 0x122B830
+    // Offset: 0x1247F54
     bool IsSceneInStack(::Il2CppString* searchSceneName);
     // private System.Collections.Generic.List`1<System.String> SceneNamesFromSceneInfoArray(SceneInfo[] sceneInfos)
-    // Offset: 0x122ACA4
+    // Offset: 0x1247424
     System::Collections::Generic::List_1<::Il2CppString*>* SceneNamesFromSceneInfoArray(::Array<GlobalNamespace::SceneInfo*>* sceneInfos);
     // private System.Void SetActiveRootObjectsInScenes(System.Collections.Generic.List`1<System.String> sceneNames, System.Boolean value)
-    // Offset: 0x122BAAC
+    // Offset: 0x12481D0
     void SetActiveRootObjectsInScenes(System::Collections::Generic::List_1<::Il2CppString*>* sceneNames, bool value);
     // private System.Void ReparentRootGameObjectsToDisabledGameObject(System.String sceneName)
-    // Offset: 0x122BBE4
+    // Offset: 0x1248308
     void ReparentRootGameObjectsToDisabledGameObject(::Il2CppString* sceneName);
     // private System.Void MoveGameObjectsFromContainerToSceneRoot(System.String sceneName)
-    // Offset: 0x122BDE8
+    // Offset: 0x124850C
     void MoveGameObjectsFromContainerToSceneRoot(::Il2CppString* sceneName);
     // static public System.Void Log(System.String message)
-    // Offset: 0x122C090
+    // Offset: 0x12487B4
     static void Log(::Il2CppString* message);
     // private System.Boolean <get_waitUntilSceneTransitionFinish>b__22_0()
-    // Offset: 0x122C190
+    // Offset: 0x12488B4
     bool $get_waitUntilSceneTransitionFinish$b__22_0();
     // public System.Void .ctor()
-    // Offset: 0x122C0F8
+    // Offset: 0x124881C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -266,5 +266,227 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameScenesManager), 88 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_GameScenesManagerSizeCheck;
   static_assert(sizeof(GameScenesManager) == 0x60);
+  // Writing MetadataGetter for method: GameScenesManager::add_transitionDidStartEvent
+  // Il2CppName: add_transitionDidStartEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action_1<float>*)>(&GameScenesManager::add_transitionDidStartEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "add_transitionDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::remove_transitionDidStartEvent
+  // Il2CppName: remove_transitionDidStartEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action_1<float>*)>(&GameScenesManager::remove_transitionDidStartEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "remove_transitionDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::add_beforeDismissingScenesEvent
+  // Il2CppName: add_beforeDismissingScenesEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action*)>(&GameScenesManager::add_beforeDismissingScenesEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "add_beforeDismissingScenesEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::remove_beforeDismissingScenesEvent
+  // Il2CppName: remove_beforeDismissingScenesEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action*)>(&GameScenesManager::remove_beforeDismissingScenesEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "remove_beforeDismissingScenesEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::add_transitionDidFinishEvent
+  // Il2CppName: add_transitionDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GameScenesManager::add_transitionDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "add_transitionDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::remove_transitionDidFinishEvent
+  // Il2CppName: remove_transitionDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GameScenesManager::remove_transitionDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "remove_transitionDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::add_installEarlyBindingsEvent
+  // Il2CppName: add_installEarlyBindingsEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GameScenesManager::add_installEarlyBindingsEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "add_installEarlyBindingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::remove_installEarlyBindingsEvent
+  // Il2CppName: remove_installEarlyBindingsEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GameScenesManager::remove_installEarlyBindingsEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "remove_installEarlyBindingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::get_currentScenesContainer
+  // Il2CppName: get_currentScenesContainer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GameScenesManager::*)()>(&GameScenesManager::get_currentScenesContainer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "get_currentScenesContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::get_isInTransition
+  // Il2CppName: get_isInTransition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameScenesManager::*)()>(&GameScenesManager::get_isInTransition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "get_isInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::get_waitUntilSceneTransitionFinish
+  // Il2CppName: get_waitUntilSceneTransitionFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::WaitUntil* (GameScenesManager::*)()>(&GameScenesManager::get_waitUntilSceneTransitionFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "get_waitUntilSceneTransitionFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::MarkSceneAsPersistent
+  // Il2CppName: MarkSceneAsPersistent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(::Il2CppString*)>(&GameScenesManager::MarkSceneAsPersistent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "MarkSceneAsPersistent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::GetCurrentlyLoadedSceneNames
+  // Il2CppName: GetCurrentlyLoadedSceneNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GameScenesManager::*)()>(&GameScenesManager::GetCurrentlyLoadedSceneNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "GetCurrentlyLoadedSceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::PushScenes
+  // Il2CppName: PushScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, float, System::Action*, System::Action_1<Zenject::DiContainer*>*)>(&GameScenesManager::PushScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "PushScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::PopScenes
+  // Il2CppName: PopScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(float, System::Action*, System::Action_1<Zenject::DiContainer*>*)>(&GameScenesManager::PopScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "PopScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::ReplaceScenes
+  // Il2CppName: ReplaceScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, float, System::Action*, System::Action_1<Zenject::DiContainer*>*)>(&GameScenesManager::ReplaceScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "ReplaceScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::ClearAndOpenScenes
+  // Il2CppName: ClearAndOpenScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, float, System::Action*, System::Action_1<Zenject::DiContainer*>*, bool)>(&GameScenesManager::ClearAndOpenScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "ClearAndOpenScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::ScenesTransitionCoroutine
+  // Il2CppName: ScenesTransitionCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GameScenesManager::*)(System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::GameScenesManager::ScenePresentType, System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::GameScenesManager::SceneDismissType, float, System::Action*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*)>(&GameScenesManager::ScenesTransitionCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "ScenesTransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameScenesManager::ScenePresentType>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameScenesManager::SceneDismissType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::IsAnySceneInStack
+  // Il2CppName: IsAnySceneInStack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameScenesManager::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GameScenesManager::IsAnySceneInStack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "IsAnySceneInStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::IsSceneInStack
+  // Il2CppName: IsSceneInStack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameScenesManager::*)(::Il2CppString*)>(&GameScenesManager::IsSceneInStack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "IsSceneInStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::SceneNamesFromSceneInfoArray
+  // Il2CppName: SceneNamesFromSceneInfoArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GameScenesManager::*)(::Array<GlobalNamespace::SceneInfo*>*)>(&GameScenesManager::SceneNamesFromSceneInfoArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "SceneNamesFromSceneInfoArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SceneInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::SetActiveRootObjectsInScenes
+  // Il2CppName: SetActiveRootObjectsInScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(System::Collections::Generic::List_1<::Il2CppString*>*, bool)>(&GameScenesManager::SetActiveRootObjectsInScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "SetActiveRootObjectsInScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::ReparentRootGameObjectsToDisabledGameObject
+  // Il2CppName: ReparentRootGameObjectsToDisabledGameObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(::Il2CppString*)>(&GameScenesManager::ReparentRootGameObjectsToDisabledGameObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "ReparentRootGameObjectsToDisabledGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::MoveGameObjectsFromContainerToSceneRoot
+  // Il2CppName: MoveGameObjectsFromContainerToSceneRoot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)(::Il2CppString*)>(&GameScenesManager::MoveGameObjectsFromContainerToSceneRoot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "MoveGameObjectsFromContainerToSceneRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::Log
+  // Il2CppName: Log
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GameScenesManager::Log)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::$get_waitUntilSceneTransitionFinish$b__22_0
+  // Il2CppName: <get_waitUntilSceneTransitionFinish>b__22_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameScenesManager::*)()>(&GameScenesManager::$get_waitUntilSceneTransitionFinish$b__22_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), "<get_waitUntilSceneTransitionFinish>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameScenesManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)()>(&GameScenesManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameScenesManager::*)()>(&GameScenesManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameScenesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager*, "", "GameScenesManager");

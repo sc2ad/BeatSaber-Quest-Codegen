@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept = delete;
     // public System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex, NoteLineLayer noteLineLayer, NoteCutDirection cutDirection, ColorType colorType)
-    // Offset: 0x10FD3E0
+    // Offset: 0x111FC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialBasicNoteSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData::.ctor");
@@ -58,5 +58,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TutorialSongController::TutorialBasicNoteSpawnData), 44 + sizeof(GlobalNamespace::ColorType)> __GlobalNamespace_TutorialSongController_TutorialBasicNoteSpawnDataSizeCheck;
   static_assert(sizeof(TutorialSongController::TutorialBasicNoteSpawnData) == 0x30);
+  // Writing MetadataGetter for method: TutorialSongController::TutorialBasicNoteSpawnData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialBasicNoteSpawnData::*)(GlobalNamespace::Signal*, int, int, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteCutDirection, GlobalNamespace::ColorType)>(&TutorialSongController::TutorialBasicNoteSpawnData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialBasicNoteSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialBasicNoteSpawnData::*)(GlobalNamespace::Signal*, int, int, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteCutDirection, GlobalNamespace::ColorType)>(&TutorialSongController::TutorialBasicNoteSpawnData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialBasicNoteSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*, "", "TutorialSongController/TutorialBasicNoteSpawnData");

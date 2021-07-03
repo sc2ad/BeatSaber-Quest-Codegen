@@ -37,14 +37,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1B64C
+    // [SpaceAttribute] Offset: 0xE1B628
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x20
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE1B684
+    // [SpaceAttribute] Offset: 0xE1B660
     // private System.Single _minPositionStep
     // Size: 0x4
     // Offset: 0x24
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     float moveSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE1B6DC
+    // [InjectAttribute] Offset: 0xE1B6B8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -81,16 +81,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10F6DA4
+    // Offset: 0x11195E8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10F6E94
+    // Offset: 0x11196D8
     void OnDestroy();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x10F6F94
+    // Offset: 0x11197D8
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x10F7040
+    // Offset: 0x1119884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -106,5 +106,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TrackLaneRingsPositionStepEffectSpawner), 56 + sizeof(bool)> __GlobalNamespace_TrackLaneRingsPositionStepEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsPositionStepEffectSpawner) == 0x39);
+  // Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)(GlobalNamespace::BeatmapEventData*)>(&TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");

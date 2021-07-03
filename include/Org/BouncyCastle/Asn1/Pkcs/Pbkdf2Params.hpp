@@ -72,35 +72,35 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Set static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
     static void _set_algid_hmacWithSHA1(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
     // static public Org.BouncyCastle.Asn1.Pkcs.Pbkdf2Params GetInstance(System.Object obj)
-    // Offset: 0x1729BB0
+    // Offset: 0x17418C0
     static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1729E38
+    // Offset: 0x1741B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pbkdf2Params* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pbkdf2Params*, creationType>(seq)));
     }
     // public System.Byte[] GetSalt()
-    // Offset: 0x172A0E4
+    // Offset: 0x1741DF4
     ::Array<uint8_t>* GetSalt();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x172A104
+    // Offset: 0x1741E14
     Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_KeyLength()
-    // Offset: 0x172A120
+    // Offset: 0x1741E30
     Org::BouncyCastle::Math::BigInteger* get_KeyLength();
     // public System.Boolean get_IsDefaultPrf()
-    // Offset: 0x172A134
+    // Offset: 0x1741E44
     bool get_IsDefaultPrf();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_Prf()
-    // Offset: 0x172A1C0
+    // Offset: 0x1741ED0
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
     // static private System.Void .cctor()
-    // Offset: 0x172A3B8
+    // Offset: 0x17420C8
     static void _cctor();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x172A234
+    // Offset: 0x1741F44
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -108,5 +108,83 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   #pragma pack(pop)
   static check_size<sizeof(Pbkdf2Params), 40 + sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)> __Org_BouncyCastle_Asn1_Pkcs_Pbkdf2ParamsSizeCheck;
   static_assert(sizeof(Pbkdf2Params) == 0x30);
+  // Writing MetadataGetter for method: Pbkdf2Params::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* (*)(::Il2CppObject*)>(&Pbkdf2Params::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::GetSalt
+  // Il2CppName: GetSalt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Pbkdf2Params::*)()>(&Pbkdf2Params::GetSalt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::get_IterationCount
+  // Il2CppName: get_IterationCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_IterationCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::get_KeyLength
+  // Il2CppName: get_KeyLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_KeyLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_KeyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::get_IsDefaultPrf
+  // Il2CppName: get_IsDefaultPrf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Pbkdf2Params::*)()>(&Pbkdf2Params::get_IsDefaultPrf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_IsDefaultPrf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::get_Prf
+  // Il2CppName: get_Prf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_Prf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_Prf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Pbkdf2Params::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Pbkdf2Params::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Pbkdf2Params::*)()>(&Pbkdf2Params::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*, "Org.BouncyCastle.Asn1.Pkcs", "Pbkdf2Params");

@@ -39,12 +39,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DirectionalLightWithIds
     DirectionalLightWithIds(GlobalNamespace::DirectionalLight* directionalLight_ = {}) noexcept : directionalLight{directionalLight_} {}
     // protected override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1D6EC6C
+    // Offset: 0x1D8997C
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1D6EC8C
+    // Offset: 0x1D8999C
     // Implemented from: RuntimeLightWithIds
     // Base method: System.Void RuntimeLightWithIds::.ctor()
     // Base method: System.Void LightWithIds::.ctor()
@@ -62,5 +62,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DirectionalLightWithIds), 56 + sizeof(GlobalNamespace::DirectionalLight*)> __GlobalNamespace_DirectionalLightWithIdsSizeCheck;
   static_assert(sizeof(DirectionalLightWithIds) == 0x40);
+  // Writing MetadataGetter for method: DirectionalLightWithIds::ColorWasSet
+  // Il2CppName: ColorWasSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectionalLightWithIds::*)(UnityEngine::Color)>(&DirectionalLightWithIds::ColorWasSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DirectionalLightWithIds*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: DirectionalLightWithIds::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectionalLightWithIds::*)()>(&DirectionalLightWithIds::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DirectionalLightWithIds*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DirectionalLightWithIds::*)()>(&DirectionalLightWithIds::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DirectionalLightWithIds*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithIds*, "", "DirectionalLightWithIds");

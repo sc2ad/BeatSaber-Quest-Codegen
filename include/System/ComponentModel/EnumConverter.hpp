@@ -40,7 +40,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: EnumConverter
     EnumConverter(System::ComponentModel::TypeConverter::StandardValuesCollection* values_ = {}, System::Type* type_ = {}) noexcept : values{values_}, type{type_} {}
     // public System.Void .ctor(System.Type type)
-    // Offset: 0x185014C
+    // Offset: 0x1867E5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumConverter* New_ctor(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EnumConverter::.ctor");
@@ -50,5 +50,19 @@ namespace System::ComponentModel {
   #pragma pack(pop)
   static check_size<sizeof(EnumConverter), 24 + sizeof(System::Type*)> __System_ComponentModel_EnumConverterSizeCheck;
   static_assert(sizeof(EnumConverter) == 0x20);
+  // Writing MetadataGetter for method: EnumConverter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumConverter::*)(System::Type*)>(&EnumConverter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnumConverter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumConverter::*)(System::Type*)>(&EnumConverter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnumConverter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter*, "System.ComponentModel", "EnumConverter");

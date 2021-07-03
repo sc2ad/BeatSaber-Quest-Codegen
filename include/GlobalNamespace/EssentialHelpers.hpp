@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EssentialHelpers
     EssentialHelpers() noexcept {}
     // static public System.Double get_CurrentTimeStamp()
-    // Offset: 0x122798C
+    // Offset: 0x1244124
     static double get_CurrentTimeStamp();
     // static public System.Void SafeDestroy(UnityEngine.Object obj)
-    // Offset: 0x1227A50
+    // Offset: 0x12441E8
     static void SafeDestroy(UnityEngine::Object* obj);
     // static public T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
@@ -47,5 +47,24 @@ namespace GlobalNamespace {
     }
   }; // EssentialHelpers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EssentialHelpers::get_CurrentTimeStamp
+  // Il2CppName: get_CurrentTimeStamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&EssentialHelpers::get_CurrentTimeStamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "get_CurrentTimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EssentialHelpers::SafeDestroy
+  // Il2CppName: SafeDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&EssentialHelpers::SafeDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EssentialHelpers::GetOrAddComponent
+  // Il2CppName: GetOrAddComponent
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EssentialHelpers*, "", "EssentialHelpers");

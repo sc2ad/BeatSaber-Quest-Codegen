@@ -103,19 +103,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x12D3208
+    // Offset: 0x12ECF18
     void Start();
     // private System.Void Initialize()
-    // Offset: 0x12D32B8
+    // Offset: 0x12ECFC8
     void Initialize();
     // private System.Void UpdateDefaultExternalCamera()
-    // Offset: 0x12D36E8
+    // Offset: 0x12ED3F8
     void UpdateDefaultExternalCamera();
     // private System.Void Update()
-    // Offset: 0x12D3F58
+    // Offset: 0x12EDC68
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12D4B8C
+    // Offset: 0x12EE89C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -131,6 +131,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRMixedRealityCaptureTest), 40 + sizeof(GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRMixedRealityCaptureTestSizeCheck;
   static_assert(sizeof(OVRMixedRealityCaptureTest) == 0x38);
+  // Writing MetadataGetter for method: OVRMixedRealityCaptureTest::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedRealityCaptureTest::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera
+  // Il2CppName: UpdateDefaultExternalCamera
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "UpdateDefaultExternalCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedRealityCaptureTest::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMixedRealityCaptureTest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");

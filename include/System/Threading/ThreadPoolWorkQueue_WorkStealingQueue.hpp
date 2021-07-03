@@ -60,22 +60,22 @@ namespace System::Threading {
     // Creating value type constructor for type: WorkStealingQueue
     WorkStealingQueue(::Array<System::Threading::IThreadPoolWorkItem*>* m_array_ = {}, int m_mask_ = {}, int m_headIndex_ = {}, int m_tailIndex_ = {}, System::Threading::SpinLock m_foreignLock_ = {}) noexcept : m_array{m_array_}, m_mask{m_mask_}, m_headIndex{m_headIndex_}, m_tailIndex{m_tailIndex_}, m_foreignLock{m_foreignLock_} {}
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x187AB38
+    // Offset: 0x1893848
     void LocalPush(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x187B044
+    // Offset: 0x1893D54
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
-    // Offset: 0x187B4DC
+    // Offset: 0x18941EC
     bool LocalPop(System::Threading::IThreadPoolWorkItem*& obj);
     // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
-    // Offset: 0x187B8C8
+    // Offset: 0x18945D8
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal);
     // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
-    // Offset: 0x187BF8C
+    // Offset: 0x1894C9C
     bool TrySteal(System::Threading::IThreadPoolWorkItem*& obj, bool& missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()
-    // Offset: 0x187C20C
+    // Offset: 0x1894F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,59 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(ThreadPoolWorkQueue::WorkStealingQueue), 36 + sizeof(System::Threading::SpinLock)> __System_Threading_ThreadPoolWorkQueue_WorkStealingQueueSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::WorkStealingQueue) == 0x28);
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::WorkStealingQueue::LocalPush
+  // Il2CppName: LocalPush
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*)>(&ThreadPoolWorkQueue::WorkStealingQueue::LocalPush)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), "LocalPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::WorkStealingQueue::LocalFindAndPop
+  // Il2CppName: LocalFindAndPop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*)>(&ThreadPoolWorkQueue::WorkStealingQueue::LocalFindAndPop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), "LocalFindAndPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::WorkStealingQueue::LocalPop
+  // Il2CppName: LocalPop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*&)>(&ThreadPoolWorkQueue::WorkStealingQueue::LocalPop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), "LocalPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::WorkStealingQueue::TrySteal
+  // Il2CppName: TrySteal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*&, bool&)>(&ThreadPoolWorkQueue::WorkStealingQueue::TrySteal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), "TrySteal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::WorkStealingQueue::TrySteal
+  // Il2CppName: TrySteal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*&, bool&, int)>(&ThreadPoolWorkQueue::WorkStealingQueue::TrySteal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), "TrySteal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::WorkStealingQueue::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueue::WorkStealingQueue::*)()>(&ThreadPoolWorkQueue::WorkStealingQueue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueue::WorkStealingQueue::*)()>(&ThreadPoolWorkQueue::WorkStealingQueue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::WorkStealingQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");

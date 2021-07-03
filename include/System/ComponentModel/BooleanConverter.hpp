@@ -25,7 +25,7 @@ namespace System::ComponentModel {
     // Set static field: static private System.ComponentModel.TypeConverter/StandardValuesCollection values
     static void _set_values(System::ComponentModel::TypeConverter::StandardValuesCollection* value);
     // public System.Void .ctor()
-    // Offset: 0x184E81C
+    // Offset: 0x186652C
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -36,5 +36,19 @@ namespace System::ComponentModel {
     }
   }; // System.ComponentModel.BooleanConverter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BooleanConverter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BooleanConverter::*)()>(&BooleanConverter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BooleanConverter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BooleanConverter::*)()>(&BooleanConverter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BooleanConverter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BooleanConverter*, "System.ComponentModel", "BooleanConverter");

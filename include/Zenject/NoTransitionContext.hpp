@@ -44,16 +44,16 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Action`1<Zenject.DiContainer> get_installMethod()
-    // Offset: 0x16C64C4
+    // Offset: 0x16DD1D4
     System::Action_1<Zenject::DiContainer*>* get_installMethod();
     // public System.Action`1<Zenject.DiContainer> get_postInstallMethod()
-    // Offset: 0x16C6544
+    // Offset: 0x16DD254
     System::Action_1<Zenject::DiContainer*>* get_postInstallMethod();
     // protected System.Void Awake()
-    // Offset: 0x16C65C4
+    // Offset: 0x16DD2D4
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x16C6644
+    // Offset: 0x16DD354
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,5 +69,43 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(NoTransitionContext), 24 + sizeof(Zenject::NoTransitionInstaller*)> __Zenject_NoTransitionContextSizeCheck;
   static_assert(sizeof(NoTransitionContext) == 0x20);
+  // Writing MetadataGetter for method: NoTransitionContext::get_installMethod
+  // Il2CppName: get_installMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action_1<Zenject::DiContainer*>* (NoTransitionContext::*)()>(&NoTransitionContext::get_installMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionContext*), "get_installMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionContext::get_postInstallMethod
+  // Il2CppName: get_postInstallMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action_1<Zenject::DiContainer*>* (NoTransitionContext::*)()>(&NoTransitionContext::get_postInstallMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionContext*), "get_postInstallMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionContext::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionContext::*)()>(&NoTransitionContext::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionContext*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionContext::*)()>(&NoTransitionContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionContext::*)()>(&NoTransitionContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionContext*, "Zenject", "NoTransitionContext");

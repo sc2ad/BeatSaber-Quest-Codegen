@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xDF4CBC
+    // [SpaceAttribute] Offset: 0xDF6CB8
     // private System.Boolean _hideIfAlphaOutOfRange
     // Size: 0x1
     // Offset: 0x38
@@ -44,21 +44,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideIfAlphaOutOfRange and: hideAlphaRangeMin
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xDF4CF4
+    // [DrawIfAttribute] Offset: 0xDF6CF0
     // private System.Single _hideAlphaRangeMin
     // Size: 0x4
     // Offset: 0x3C
     float hideAlphaRangeMin;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0xDF4D9C
+    // [DrawIfAttribute] Offset: 0xDF6D98
     // private System.Single _hideAlphaRangeMax
     // Size: 0x4
     // Offset: 0x40
     float hideAlphaRangeMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDF4E44
+    // [SpaceAttribute] Offset: 0xDF6E40
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x44
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [SpaceAttribute] Offset: 0xDF4E9C
+    // [SpaceAttribute] Offset: 0xDF6E98
     // private System.Boolean _setOnlyOnce
     // Size: 0x1
     // Offset: 0x4D
@@ -87,15 +87,15 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SpriteLightWithId
     SpriteLightWithId(UnityEngine::SpriteRenderer* spriteRenderer_ = {}, bool hideIfAlphaOutOfRange_ = {}, float hideAlphaRangeMin_ = {}, float hideAlphaRangeMax_ = {}, float intensity_ = {}, float minAlpha_ = {}, bool setColorOnly_ = {}, bool setOnlyOnce_ = {}) noexcept : spriteRenderer{spriteRenderer_}, hideIfAlphaOutOfRange{hideIfAlphaOutOfRange_}, hideAlphaRangeMin{hideAlphaRangeMin_}, hideAlphaRangeMax{hideAlphaRangeMax_}, intensity{intensity_}, minAlpha{minAlpha_}, setColorOnly{setColorOnly_}, setOnlyOnce{setOnlyOnce_} {}
     // public UnityEngine.Color get_color()
-    // Offset: 0x1D77678
+    // Offset: 0x1D923D4
     UnityEngine::Color get_color();
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x1D77694
+    // Offset: 0x1D923F0
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1D777F0
+    // Offset: 0x1D9254C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -112,5 +112,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SpriteLightWithId), 77 + sizeof(bool)> __GlobalNamespace_SpriteLightWithIdSizeCheck;
   static_assert(sizeof(SpriteLightWithId) == 0x4E);
+  // Writing MetadataGetter for method: SpriteLightWithId::get_color
+  // Il2CppName: get_color
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (SpriteLightWithId::*)()>(&SpriteLightWithId::get_color)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteLightWithId::ColorWasSet
+  // Il2CppName: ColorWasSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteLightWithId::*)(UnityEngine::Color)>(&SpriteLightWithId::ColorWasSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteLightWithId::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteLightWithId::*)()>(&SpriteLightWithId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteLightWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteLightWithId::*)()>(&SpriteLightWithId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteLightWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteLightWithId*, "", "SpriteLightWithId");

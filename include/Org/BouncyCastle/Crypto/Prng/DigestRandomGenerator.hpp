@@ -62,42 +62,128 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x12420B0
+    // Offset: 0x125EDC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestRandomGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestRandomGenerator*, creationType>(digest)));
     }
     // public System.Void AddSeedMaterial(System.Byte[] inSeed)
-    // Offset: 0x1242224
+    // Offset: 0x125EF34
     void AddSeedMaterial(::Array<uint8_t>* inSeed);
     // public System.Void AddSeedMaterial(System.Int64 rSeed)
-    // Offset: 0x124245C
+    // Offset: 0x125F16C
     void AddSeedMaterial(int64_t rSeed);
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x1242600
+    // Offset: 0x125F310
     void NextBytes(::Array<uint8_t>* bytes);
     // public System.Void NextBytes(System.Byte[] bytes, System.Int32 start, System.Int32 len)
-    // Offset: 0x124261C
+    // Offset: 0x125F32C
     void NextBytes(::Array<uint8_t>* bytes, int start, int len);
     // private System.Void CycleSeed()
-    // Offset: 0x12427FC
+    // Offset: 0x125F50C
     void CycleSeed();
     // private System.Void GenerateState()
-    // Offset: 0x1242778
+    // Offset: 0x125F488
     void GenerateState();
     // private System.Void DigestAddCounter(System.Int64 seedVal)
-    // Offset: 0x12424F8
+    // Offset: 0x125F208
     void DigestAddCounter(int64_t seedVal);
     // private System.Void DigestUpdate(System.Byte[] inSeed)
-    // Offset: 0x12422C0
+    // Offset: 0x125EFD0
     void DigestUpdate(::Array<uint8_t>* inSeed);
     // private System.Void DigestDoFinal(System.Byte[] result)
-    // Offset: 0x1242394
+    // Offset: 0x125F0A4
     void DigestDoFinal(::Array<uint8_t>* result);
   }; // Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator
   #pragma pack(pop)
   static check_size<sizeof(DigestRandomGenerator), 48 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Prng_DigestRandomGeneratorSizeCheck;
   static_assert(sizeof(DigestRandomGenerator) == 0x38);
+  // Writing MetadataGetter for method: DigestRandomGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(Org::BouncyCastle::Crypto::IDigest*)>(&DigestRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(Org::BouncyCastle::Crypto::IDigest*)>(&DigestRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::AddSeedMaterial
+  // Il2CppName: AddSeedMaterial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(::Array<uint8_t>*)>(&DigestRandomGenerator::AddSeedMaterial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "AddSeedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::AddSeedMaterial
+  // Il2CppName: AddSeedMaterial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(int64_t)>(&DigestRandomGenerator::AddSeedMaterial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "AddSeedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::NextBytes
+  // Il2CppName: NextBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(::Array<uint8_t>*)>(&DigestRandomGenerator::NextBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::NextBytes
+  // Il2CppName: NextBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(::Array<uint8_t>*, int, int)>(&DigestRandomGenerator::NextBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::CycleSeed
+  // Il2CppName: CycleSeed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)()>(&DigestRandomGenerator::CycleSeed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "CycleSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::GenerateState
+  // Il2CppName: GenerateState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)()>(&DigestRandomGenerator::GenerateState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "GenerateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::DigestAddCounter
+  // Il2CppName: DigestAddCounter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(int64_t)>(&DigestRandomGenerator::DigestAddCounter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "DigestAddCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::DigestUpdate
+  // Il2CppName: DigestUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(::Array<uint8_t>*)>(&DigestRandomGenerator::DigestUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "DigestUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestRandomGenerator::DigestDoFinal
+  // Il2CppName: DigestDoFinal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestRandomGenerator::*)(::Array<uint8_t>*)>(&DigestRandomGenerator::DigestDoFinal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestRandomGenerator*), "DigestDoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "DigestRandomGenerator");

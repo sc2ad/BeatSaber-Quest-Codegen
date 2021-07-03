@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithUserDataStoreUpdateResponse
     MessageWithUserDataStoreUpdateResponse() noexcept {}
     // protected Oculus.Platform.Models.UserDataStoreUpdateResponse GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14BAB58
+    // Offset: 0x14D5868
     Oculus::Platform::Models::UserDataStoreUpdateResponse* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14B0808
+    // Offset: 0x14CB518
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,10 +40,40 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserDataStoreUpdateResponse*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserDataStoreUpdateResponse GetUserDataStoreUpdateResponse()
-    // Offset: 0x14BAB14
+    // Offset: 0x14D5824
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserDataStoreUpdateResponse Message::GetUserDataStoreUpdateResponse()
     Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
   }; // Oculus.Platform.MessageWithUserDataStoreUpdateResponse
+  // Writing MetadataGetter for method: MessageWithUserDataStoreUpdateResponse::GetDataFromMessage
+  // Il2CppName: GetDataFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserDataStoreUpdateResponse* (MessageWithUserDataStoreUpdateResponse::*)(System::IntPtr)>(&MessageWithUserDataStoreUpdateResponse::GetDataFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserDataStoreUpdateResponse*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithUserDataStoreUpdateResponse::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserDataStoreUpdateResponse::*)(System::IntPtr)>(&MessageWithUserDataStoreUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserDataStoreUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserDataStoreUpdateResponse::*)(System::IntPtr)>(&MessageWithUserDataStoreUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserDataStoreUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithUserDataStoreUpdateResponse::GetUserDataStoreUpdateResponse
+  // Il2CppName: GetUserDataStoreUpdateResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserDataStoreUpdateResponse* (MessageWithUserDataStoreUpdateResponse::*)()>(&MessageWithUserDataStoreUpdateResponse::GetUserDataStoreUpdateResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithUserDataStoreUpdateResponse*), "GetUserDataStoreUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserDataStoreUpdateResponse*, "Oculus.Platform", "MessageWithUserDataStoreUpdateResponse");

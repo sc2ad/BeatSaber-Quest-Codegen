@@ -21,6 +21,22 @@ namespace UnityEngine::UI {
     void SetLayoutVertical();
   }; // UnityEngine.UI.ILayoutController
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILayoutController::SetLayoutHorizontal
+  // Il2CppName: SetLayoutHorizontal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILayoutController::*)()>(&ILayoutController::SetLayoutHorizontal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutController*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutController::SetLayoutVertical
+  // Il2CppName: SetLayoutVertical
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILayoutController::*)()>(&ILayoutController::SetLayoutVertical)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutController*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");

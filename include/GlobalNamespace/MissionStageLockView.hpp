@@ -65,16 +65,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x1058930
+    // Offset: 0x109CFF0
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
     // protected System.Void Update()
-    // Offset: 0x10589D4
+    // Offset: 0x109D094
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
-    // Offset: 0x1058B28
+    // Offset: 0x109D1E8
     void UpdateStageLockText(::Il2CppString* text);
     // public System.Void .ctor()
-    // Offset: 0x1058B44
+    // Offset: 0x109D204
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,5 +90,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionStageLockView), 48 + sizeof(float)> __GlobalNamespace_MissionStageLockViewSizeCheck;
   static_assert(sizeof(MissionStageLockView) == 0x34);
+  // Writing MetadataGetter for method: MissionStageLockView::UpdateLocalPositionY
+  // Il2CppName: UpdateLocalPositionY
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStageLockView::*)(float, bool, float)>(&MissionStageLockView::UpdateLocalPositionY)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionStageLockView*), "UpdateLocalPositionY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionStageLockView::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStageLockView::*)()>(&MissionStageLockView::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionStageLockView*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionStageLockView::UpdateStageLockText
+  // Il2CppName: UpdateStageLockText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStageLockView::*)(::Il2CppString*)>(&MissionStageLockView::UpdateStageLockText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionStageLockView*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionStageLockView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStageLockView::*)()>(&MissionStageLockView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionStageLockView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStageLockView::*)()>(&MissionStageLockView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionStageLockView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStageLockView");

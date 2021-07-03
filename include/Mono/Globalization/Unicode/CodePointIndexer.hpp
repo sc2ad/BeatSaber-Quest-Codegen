@@ -63,7 +63,7 @@ namespace Mono::Globalization::Unicode {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Int32 start, System.Int32 end, System.Int32 indexStart)
-      // Offset: 0xF02A74
+      // Offset: 0xF03A2C
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       TableRange(int start, int end, int indexStart) {
         static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::TableRange::.ctor");
@@ -74,6 +74,20 @@ namespace Mono::Globalization::Unicode {
     #pragma pack(pop)
     static check_size<sizeof(CodePointIndexer::TableRange), 16 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexer_TableRangeSizeCheck;
     static_assert(sizeof(CodePointIndexer::TableRange) == 0x14);
+    // Writing MetadataGetter for method: CodePointIndexer::TableRange::TableRange
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CodePointIndexer::TableRange::*)(int, int, int)>(&CodePointIndexer::TableRange::TableRange<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CodePointIndexer::TableRange), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CodePointIndexer::TableRange::*)(int, int, int)>(&CodePointIndexer::TableRange::TableRange<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CodePointIndexer::TableRange), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+      }
+    };
     // private readonly Mono.Globalization.Unicode.CodePointIndexer/TableRange[] ranges
     // Size: 0x8
     // Offset: 0x10
@@ -101,19 +115,41 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: CodePointIndexer
     CodePointIndexer(::Array<Mono::Globalization::Unicode::CodePointIndexer::TableRange>* ranges_ = {}, int TotalCount_ = {}, int defaultIndex_ = {}, int defaultCP_ = {}) noexcept : ranges{ranges_}, TotalCount{TotalCount_}, defaultIndex{defaultIndex_}, defaultCP{defaultCP_} {}
     // public System.Void .ctor(System.Int32[] starts, System.Int32[] ends, System.Int32 defaultIndex, System.Int32 defaultCP)
-    // Offset: 0x1A3D1F8
+    // Offset: 0x1A56F08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePointIndexer* New_ctor(::Array<int>* starts, ::Array<int>* ends, int defaultIndex, int defaultCP) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::CodePointIndexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePointIndexer*, creationType>(starts, ends, defaultIndex, defaultCP)));
     }
     // public System.Int32 ToIndex(System.Int32 cp)
-    // Offset: 0x1A3D384
+    // Offset: 0x1A57094
     int ToIndex(int cp);
   }; // Mono.Globalization.Unicode.CodePointIndexer
   #pragma pack(pop)
   static check_size<sizeof(CodePointIndexer), 32 + sizeof(int)> __Mono_Globalization_Unicode_CodePointIndexerSizeCheck;
   static_assert(sizeof(CodePointIndexer) == 0x24);
+  // Writing MetadataGetter for method: CodePointIndexer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CodePointIndexer::*)(::Array<int>*, ::Array<int>*, int, int)>(&CodePointIndexer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePointIndexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CodePointIndexer::*)(::Array<int>*, ::Array<int>*, int, int)>(&CodePointIndexer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePointIndexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CodePointIndexer::ToIndex
+  // Il2CppName: ToIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CodePointIndexer::*)(int)>(&CodePointIndexer::ToIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePointIndexer*), "ToIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer*, "Mono.Globalization.Unicode", "CodePointIndexer");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRange, "Mono.Globalization.Unicode", "CodePointIndexer/TableRange");

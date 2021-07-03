@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRPlugin/Vector4s zero
     static void _set_zero(GlobalNamespace::OVRPlugin::Vector4s value);
     // static private System.Void .cctor()
-    // Offset: 0x160E2F4
+    // Offset: 0x1626004
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0xEF9258
+    // Offset: 0xEF9210
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -63,6 +63,22 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::Vector4s), 6 + sizeof(int16_t)> __GlobalNamespace_OVRPlugin_Vector4sSizeCheck;
   static_assert(sizeof(OVRPlugin::Vector4s) == 0x8);
+  // Writing MetadataGetter for method: OVRPlugin::Vector4s::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::Vector4s::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::Vector4s), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::Vector4s::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRPlugin::Vector4s::*)()>(&OVRPlugin::Vector4s::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::Vector4s), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector4s, "", "OVRPlugin/Vector4s");

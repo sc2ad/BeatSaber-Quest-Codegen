@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE241F8
+    // [CompilerGeneratedAttribute] Offset: 0xE2428C
     // private System.Action`1<System.Int32> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x20
@@ -71,34 +71,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x11BF488
+    // Offset: 0x11D9DDC
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x11BF52C
+    // Offset: 0x11D9E80
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> get_noteJumpStartBeatOffsetData()
-    // Offset: 0x11BF5D0
+    // Offset: 0x11D9F24
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* get_noteJumpStartBeatOffsetData();
     // protected System.Void Start()
-    // Offset: 0x11BF71C
+    // Offset: 0x11DA070
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11BF89C
+    // Offset: 0x11DA1F0
     void OnDestroy();
     // public System.Single GetSelectedOffset()
-    // Offset: 0x11BF978
+    // Offset: 0x11DA2CC
     float GetSelectedOffset();
     // public System.Void SelectCellWithOffset(System.Single offset)
-    // Offset: 0x11BFA4C
+    // Offset: 0x11DA3A0
     void SelectCellWithOffset(float offset);
     // private System.Int32 GetIdxForOffset(System.Single offset)
-    // Offset: 0x11BFA88
+    // Offset: 0x11DA3DC
     int GetIdxForOffset(float offset);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x11BFCDC
+    // Offset: 0x11DA630
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // public System.Void .ctor()
-    // Offset: 0x11BFD50
+    // Offset: 0x11DA6A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -114,5 +114,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteJumpStartBeatOffsetDropdown), 40 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>*)> __GlobalNamespace_NoteJumpStartBeatOffsetDropdownSizeCheck;
   static_assert(sizeof(NoteJumpStartBeatOffsetDropdown) == 0x30);
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent
+  // Il2CppName: add_didSelectCellWithIdxEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(System::Action_1<int>*)>(&NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::remove_didSelectCellWithIdxEvent
+  // Il2CppName: remove_didSelectCellWithIdxEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(System::Action_1<int>*)>(&NoteJumpStartBeatOffsetDropdown::remove_didSelectCellWithIdxEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData
+  // Il2CppName: get_noteJumpStartBeatOffsetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "get_noteJumpStartBeatOffsetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::GetSelectedOffset
+  // Il2CppName: GetSelectedOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::GetSelectedOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "GetSelectedOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::SelectCellWithOffset
+  // Il2CppName: SelectCellWithOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(float)>(&NoteJumpStartBeatOffsetDropdown::SelectCellWithOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "SelectCellWithOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::GetIdxForOffset
+  // Il2CppName: GetIdxForOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteJumpStartBeatOffsetDropdown::*)(float)>(&NoteJumpStartBeatOffsetDropdown::GetIdxForOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "GetIdxForOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
+  // Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(HMUI::DropdownWithTableView*, int)>(&NoteJumpStartBeatOffsetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*, "", "NoteJumpStartBeatOffsetDropdown");

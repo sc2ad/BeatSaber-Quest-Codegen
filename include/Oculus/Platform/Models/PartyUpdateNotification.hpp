@@ -67,7 +67,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: PartyUpdateNotification
     PartyUpdateNotification(Oculus::Platform::PartyUpdateAction Action_ = {}, uint64_t PartyId_ = {}, uint64_t SenderId_ = {}, ::Il2CppString* UpdateTimestamp_ = {}, ::Il2CppString* UserAlias_ = {}, uint64_t UserId_ = {}, ::Il2CppString* UserName_ = {}) noexcept : Action{Action_}, PartyId{PartyId_}, SenderId{SenderId_}, UpdateTimestamp{UpdateTimestamp_}, UserAlias{UserAlias_}, UserId{UserId_}, UserName{UserName_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B8634
+    // Offset: 0x14D3344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PartyUpdateNotification* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PartyUpdateNotification::.ctor");
@@ -77,5 +77,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(PartyUpdateNotification), 64 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PartyUpdateNotificationSizeCheck;
   static_assert(sizeof(PartyUpdateNotification) == 0x48);
+  // Writing MetadataGetter for method: PartyUpdateNotification::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyUpdateNotification::*)(System::IntPtr)>(&PartyUpdateNotification::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyUpdateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PartyUpdateNotification::*)(System::IntPtr)>(&PartyUpdateNotification::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PartyUpdateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PartyUpdateNotification*, "Oculus.Platform.Models", "PartyUpdateNotification");

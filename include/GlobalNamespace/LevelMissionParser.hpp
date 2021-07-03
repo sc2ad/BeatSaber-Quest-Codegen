@@ -42,19 +42,19 @@ namespace GlobalNamespace {
       return functions;
     }
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
-    // Offset: 0x11F8CD0
+    // Offset: 0x11FC700
     void AddFunction(::Il2CppString* name, GlobalNamespace::LevelMissionParser::ParserFunction* function);
     // public System.Boolean Parse(System.String s)
-    // Offset: 0x11F8D40
+    // Offset: 0x11FC770
     bool Parse(::Il2CppString* s);
     // private System.Boolean Parse(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x11F8D5C
+    // Offset: 0x11FC78C
     bool Parse(::Il2CppString* s, int start, int length);
     // private System.Boolean ParseFunction(System.String s, System.Int32 start, System.Int32 length)
-    // Offset: 0x11F9038
+    // Offset: 0x11FCA68
     bool ParseFunction(::Il2CppString* s, int start, int length);
     // public System.Void .ctor()
-    // Offset: 0x11F8C58
+    // Offset: 0x11FC688
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,5 +66,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelMissionParser), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*)> __GlobalNamespace_LevelMissionParserSizeCheck;
   static_assert(sizeof(LevelMissionParser) == 0x18);
+  // Writing MetadataGetter for method: LevelMissionParser::AddFunction
+  // Il2CppName: AddFunction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelMissionParser::*)(::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*)>(&LevelMissionParser::AddFunction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelMissionParser*), "AddFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelMissionParser::ParserFunction*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelMissionParser::Parse
+  // Il2CppName: Parse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelMissionParser::*)(::Il2CppString*)>(&LevelMissionParser::Parse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelMissionParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelMissionParser::Parse
+  // Il2CppName: Parse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelMissionParser::*)(::Il2CppString*, int, int)>(&LevelMissionParser::Parse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelMissionParser*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelMissionParser::ParseFunction
+  // Il2CppName: ParseFunction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelMissionParser::*)(::Il2CppString*, int, int)>(&LevelMissionParser::ParseFunction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelMissionParser*), "ParseFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelMissionParser::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelMissionParser::*)()>(&LevelMissionParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelMissionParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelMissionParser::*)()>(&LevelMissionParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelMissionParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser*, "", "LevelMissionParser");

@@ -60,34 +60,34 @@ namespace TMPro {
     // Creating value type constructor for type: TMP_TextElement
     TMP_TextElement(TMPro::TextElementType m_ElementType_ = {}, uint m_Unicode_ = {}, UnityEngine::TextCore::Glyph* m_Glyph_ = {}, uint m_GlyphIndex_ = {}, float m_Scale_ = {}) noexcept : m_ElementType{m_ElementType_}, m_Unicode{m_Unicode_}, m_Glyph{m_Glyph_}, m_GlyphIndex{m_GlyphIndex_}, m_Scale{m_Scale_} {}
     // public TMPro.TextElementType get_elementType()
-    // Offset: 0x13E0178
+    // Offset: 0x13FAE88
     TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
-    // Offset: 0x13E0180
+    // Offset: 0x13FAE90
     uint get_unicode();
     // public System.Void set_unicode(System.UInt32 value)
-    // Offset: 0x13E0188
+    // Offset: 0x13FAE98
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
-    // Offset: 0x13E0190
+    // Offset: 0x13FAEA0
     UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
-    // Offset: 0x13E0198
+    // Offset: 0x13FAEA8
     void set_glyph(UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
-    // Offset: 0x13E01A0
+    // Offset: 0x13FAEB0
     uint get_glyphIndex();
     // public System.Void set_glyphIndex(System.UInt32 value)
-    // Offset: 0x13E01A8
+    // Offset: 0x13FAEB8
     void set_glyphIndex(uint value);
     // public System.Single get_scale()
-    // Offset: 0x13E01B0
+    // Offset: 0x13FAEC0
     float get_scale();
     // public System.Void set_scale(System.Single value)
-    // Offset: 0x13E01B8
+    // Offset: 0x13FAEC8
     void set_scale(float value);
     // public System.Void .ctor()
-    // Offset: 0x13E01C0
+    // Offset: 0x13FAED0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,5 +99,91 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_TextElement), 36 + sizeof(float)> __TMPro_TMP_TextElementSizeCheck;
   static_assert(sizeof(TMP_TextElement) == 0x28);
+  // Writing MetadataGetter for method: TMP_TextElement::get_elementType
+  // Il2CppName: get_elementType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextElementType (TMP_TextElement::*)()>(&TMP_TextElement::get_elementType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "get_elementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::get_unicode
+  // Il2CppName: get_unicode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_TextElement::*)()>(&TMP_TextElement::get_unicode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "get_unicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::set_unicode
+  // Il2CppName: set_unicode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextElement::*)(uint)>(&TMP_TextElement::set_unicode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "set_unicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::get_glyph
+  // Il2CppName: get_glyph
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::Glyph* (TMP_TextElement::*)()>(&TMP_TextElement::get_glyph)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "get_glyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::set_glyph
+  // Il2CppName: set_glyph
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextElement::*)(UnityEngine::TextCore::Glyph*)>(&TMP_TextElement::set_glyph)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "set_glyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::get_glyphIndex
+  // Il2CppName: get_glyphIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_TextElement::*)()>(&TMP_TextElement::get_glyphIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "get_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::set_glyphIndex
+  // Il2CppName: set_glyphIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextElement::*)(uint)>(&TMP_TextElement::set_glyphIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "set_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::get_scale
+  // Il2CppName: get_scale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_TextElement::*)()>(&TMP_TextElement::get_scale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "get_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::set_scale
+  // Il2CppName: set_scale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextElement::*)(float)>(&TMP_TextElement::set_scale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), "set_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_TextElement::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextElement::*)()>(&TMP_TextElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextElement::*)()>(&TMP_TextElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_TextElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");

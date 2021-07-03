@@ -76,17 +76,17 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::BitMask256>*>(this);
     }
     // public System.Int32 get_bitCount()
-    // Offset: 0xF1FD9C
+    // Offset: 0xF20D54
     int get_bitCount();
     // static public BitMask256 get_maxValue()
-    // Offset: 0x232BB84
+    // Offset: 0x23458E0
     static GlobalNamespace::BitMask256 get_maxValue();
     // public System.Void .ctor(System.UInt64 d0, System.UInt64 d1, System.UInt64 d2, System.UInt64 d3)
-    // Offset: 0xF1FDA4
+    // Offset: 0xF20D5C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BitMask256(uint64_t d0, uint64_t d1, uint64_t d2, uint64_t d3)
     // public System.Void .ctor(System.UInt64 value)
-    // Offset: 0xF1FDB0
+    // Offset: 0xF20D68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     BitMask256(uint64_t value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMask256::.ctor");
@@ -94,35 +94,35 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, value);
     }
     // public BitMask256 SetBits(System.Int32 offset, System.UInt64 bits)
-    // Offset: 0xF1FDBC
+    // Offset: 0xF20D74
     GlobalNamespace::BitMask256 SetBits(int offset, uint64_t bits);
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
-    // Offset: 0xF1FDC4
+    // Offset: 0xF20D7C
     uint64_t GetBits(int offset, int count);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xF1FDCC
+    // Offset: 0xF20D84
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public BitMask256 CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xF1FDD4
+    // Offset: 0xF20D8C
     GlobalNamespace::BitMask256 CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public BitMask256 Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x232BFE0
+    // Offset: 0x2345D3C
     static GlobalNamespace::BitMask256 Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(BitMask256 other)
-    // Offset: 0xF1FDE4
+    // Offset: 0xF20D9C
     bool Equals(GlobalNamespace::BitMask256 other);
     // public override System.String ToString()
-    // Offset: 0xF1FDDC
+    // Offset: 0xF20D94
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF1FE30
+    // Offset: 0xF20DE8
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF1FE38
+    // Offset: 0xF20DF0
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -131,25 +131,197 @@ namespace GlobalNamespace {
   static check_size<sizeof(BitMask256), 24 + sizeof(uint64_t)> __GlobalNamespace_BitMask256SizeCheck;
   static_assert(sizeof(BitMask256) == 0x20);
   // static public BitMask256 op_BitwiseOr(in BitMask256 a, in BitMask256 b)
-  // Offset: 0x232BDF0
+  // Offset: 0x2345B4C
   GlobalNamespace::BitMask256 operator|(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
   // static public BitMask256 op_BitwiseAnd(in BitMask256 a, in BitMask256 b)
-  // Offset: 0x232BE08
+  // Offset: 0x2345B64
   GlobalNamespace::BitMask256 operator&(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
   // static public BitMask256 op_ExclusiveOr(in BitMask256 a, in BitMask256 b)
-  // Offset: 0x232BE20
+  // Offset: 0x2345B7C
   GlobalNamespace::BitMask256 operator^(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
   // static public BitMask256 op_LeftShift(in BitMask256 a, System.Int32 bits)
-  // Offset: 0x232BE38
+  // Offset: 0x2345B94
   GlobalNamespace::BitMask256 operator<<(const GlobalNamespace::BitMask256&& a, const int& bits);
   // static public BitMask256 op_RightShift(in BitMask256 a, System.Int32 bits)
-  // Offset: 0x232BE84
+  // Offset: 0x2345BE0
   GlobalNamespace::BitMask256 operator>>(const GlobalNamespace::BitMask256&& a, const int& bits);
   // static public System.Boolean op_Equality(in BitMask256 a, in BitMask256 b)
-  // Offset: 0x232BED0
+  // Offset: 0x2345C2C
   bool operator ==(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
   // static public System.Boolean op_Inequality(in BitMask256 a, in BitMask256 b)
-  // Offset: 0x232BF1C
+  // Offset: 0x2345C78
   bool operator !=(const GlobalNamespace::BitMask256&& a, const GlobalNamespace::BitMask256&& b);
+  // Writing MetadataGetter for method: BitMask256::get_bitCount
+  // Il2CppName: get_bitCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BitMask256::*)()>(&BitMask256::get_bitCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "get_bitCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::get_maxValue
+  // Il2CppName: get_maxValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)()>(&BitMask256::get_maxValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "get_maxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::BitMask256
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMask256::*)(uint64_t, uint64_t, uint64_t, uint64_t)>(&BitMask256::BitMask256<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMask256::*)(uint64_t, uint64_t, uint64_t, uint64_t)>(&BitMask256::BitMask256<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::BitMask256
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMask256::*)(uint64_t)>(&BitMask256::BitMask256<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMask256::*)(uint64_t)>(&BitMask256::BitMask256<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::SetBits
+  // Il2CppName: SetBits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (BitMask256::*)(int, uint64_t)>(&BitMask256::SetBits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::GetBits
+  // Il2CppName: GetBits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (BitMask256::*)(int, int)>(&BitMask256::GetBits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMask256::*)(LiteNetLib::Utils::NetDataWriter*)>(&BitMask256::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::CreateFromSerializedData
+  // Il2CppName: CreateFromSerializedData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (BitMask256::*)(LiteNetLib::Utils::NetDataReader*)>(&BitMask256::CreateFromSerializedData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)(LiteNetLib::Utils::NetDataReader*)>(&BitMask256::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitMask256::*)(GlobalNamespace::BitMask256)>(&BitMask256::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask256>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BitMask256::*)()>(&BitMask256::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitMask256::*)(::Il2CppObject*)>(&BitMask256::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BitMask256::*)()>(&BitMask256::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator|
+  // Il2CppName: op_BitwiseOr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)(const GlobalNamespace::BitMask256&&, const GlobalNamespace::BitMask256&&)>(&BitMask256::operator|)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_BitwiseOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator&
+  // Il2CppName: op_BitwiseAnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)(const GlobalNamespace::BitMask256&&, const GlobalNamespace::BitMask256&&)>(&BitMask256::operator&)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_BitwiseAnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator^
+  // Il2CppName: op_ExclusiveOr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)(const GlobalNamespace::BitMask256&&, const GlobalNamespace::BitMask256&&)>(&BitMask256::operator^)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_ExclusiveOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator<<
+  // Il2CppName: op_LeftShift
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)(const GlobalNamespace::BitMask256&&, const int&)>(&BitMask256::operator<<)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_LeftShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator>>
+  // Il2CppName: op_RightShift
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMask256 (*)(const GlobalNamespace::BitMask256&&, const int&)>(&BitMask256::operator>>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_RightShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator ==
+  // Il2CppName: op_Equality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::BitMask256&&, const GlobalNamespace::BitMask256&&)>(&BitMask256::operator ==)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitMask256::operator !=
+  // Il2CppName: op_Inequality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::BitMask256&&, const GlobalNamespace::BitMask256&&)>(&BitMask256::operator !=)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitMask256), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::BitMask256&&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask256, "", "BitMask256");

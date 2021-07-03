@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: Threefish512Cipher
     Threefish512Cipher() noexcept {}
     // System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
-    // Offset: 0x1E36984
+    // Offset: 0x1E516E0
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
     // Base method: System.Void ThreefishCipher::.ctor(System.UInt64[] kw, System.UInt64[] t)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -32,16 +32,46 @@ namespace Org::BouncyCastle::Crypto::Engines {
       return THROW_UNLESS((::il2cpp_utils::New<ThreefishEngine::Threefish512Cipher*, creationType>(kw, t)));
     }
     // override System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
-    // Offset: 0x1E395BC
+    // Offset: 0x1E54318
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
     // Base method: System.Void ThreefishCipher::EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     void EncryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* outWords);
     // override System.Void DecryptBlock(System.UInt64[] block, System.UInt64[] state)
-    // Offset: 0x1E39B24
+    // Offset: 0x1E54880
     // Implemented from: Org.BouncyCastle.Crypto.Engines.ThreefishEngine/ThreefishCipher
     // Base method: System.Void ThreefishCipher::DecryptBlock(System.UInt64[] block, System.UInt64[] state)
     void DecryptBlock(::Array<uint64_t>* block, ::Array<uint64_t>* state);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Threefish512Cipher
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ThreefishEngine::Threefish512Cipher::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreefishEngine::Threefish512Cipher::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&ThreefishEngine::Threefish512Cipher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreefishEngine::Threefish512Cipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreefishEngine::Threefish512Cipher::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&ThreefishEngine::Threefish512Cipher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreefishEngine::Threefish512Cipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreefishEngine::Threefish512Cipher::EncryptBlock
+  // Il2CppName: EncryptBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreefishEngine::Threefish512Cipher::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&ThreefishEngine::Threefish512Cipher::EncryptBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreefishEngine::Threefish512Cipher*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreefishEngine::Threefish512Cipher::DecryptBlock
+  // Il2CppName: DecryptBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreefishEngine::Threefish512Cipher::*)(::Array<uint64_t>*, ::Array<uint64_t>*)>(&ThreefishEngine::Threefish512Cipher::DecryptBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreefishEngine::Threefish512Cipher*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish512Cipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish512Cipher");

@@ -71,25 +71,25 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixNetworkInterface
     UnixNetworkInterface(System::Net::NetworkInformation::IPInterfaceProperties* ipproperties_ = {}, ::Il2CppString* name_ = {}, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses_ = {}, ::Array<uint8_t>* macAddress_ = {}, System::Net::NetworkInformation::NetworkInterfaceType type_ = {}) noexcept : ipproperties{ipproperties_}, name{name_}, addresses{addresses_}, macAddress{macAddress_}, type{type_} {}
     // System.Void .ctor(System.String name)
-    // Offset: 0x14739EC
+    // Offset: 0x148E6FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnixNetworkInterface* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
     // System.Void AddAddress(System.Net.IPAddress address)
-    // Offset: 0x1475530
+    // Offset: 0x1490240
     void AddAddress(System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
-    // Offset: 0x1475598
+    // Offset: 0x14902A8
     void SetLinkLayerInfo(int index, ::Array<uint8_t>* macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
-    // Offset: 0x1476BAC
+    // Offset: 0x14918BC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
-    // Offset: 0x1476BB4
+    // Offset: 0x14918C4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.NetworkInterfaceType NetworkInterface::get_NetworkInterfaceType()
     System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
@@ -97,5 +97,51 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(UnixNetworkInterface), 48 + sizeof(System::Net::NetworkInformation::NetworkInterfaceType)> __System_Net_NetworkInformation_UnixNetworkInterfaceSizeCheck;
   static_assert(sizeof(UnixNetworkInterface) == 0x34);
+  // Writing MetadataGetter for method: UnixNetworkInterface::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(::Il2CppString*)>(&UnixNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(::Il2CppString*)>(&UnixNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnixNetworkInterface::AddAddress
+  // Il2CppName: AddAddress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(System::Net::IPAddress*)>(&UnixNetworkInterface::AddAddress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "AddAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnixNetworkInterface::SetLinkLayerInfo
+  // Il2CppName: SetLinkLayerInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(int, ::Array<uint8_t>*, System::Net::NetworkInformation::NetworkInterfaceType)>(&UnixNetworkInterface::SetLinkLayerInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "SetLinkLayerInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceType>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnixNetworkInterface::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnixNetworkInterface::*)()>(&UnixNetworkInterface::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnixNetworkInterface::get_NetworkInterfaceType
+  // Il2CppName: get_NetworkInterfaceType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (UnixNetworkInterface::*)()>(&UnixNetworkInterface::get_NetworkInterfaceType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "System.Net.NetworkInformation", "UnixNetworkInterface");

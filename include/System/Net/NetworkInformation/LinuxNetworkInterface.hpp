@@ -50,13 +50,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxNetworkInterface
     LinuxNetworkInterface(::Il2CppString* iface_path_ = {}, ::Il2CppString* iface_operstate_path_ = {}, ::Il2CppString* iface_flags_path_ = {}) noexcept : iface_path{iface_path_}, iface_operstate_path{iface_operstate_path_}, iface_flags_path{iface_flags_path_} {}
     // System.String get_IfacePath()
-    // Offset: 0x1473930
+    // Offset: 0x148E640
     ::Il2CppString* get_IfacePath();
     // static System.String ReadLine(System.String path)
-    // Offset: 0x1473D68
+    // Offset: 0x148EA78
     static ::Il2CppString* ReadLine(::Il2CppString* path);
     // System.Void .ctor(System.String name)
-    // Offset: 0x1473938
+    // Offset: 0x148E648
     // Implemented from: System.Net.NetworkInformation.UnixNetworkInterface
     // Base method: System.Void UnixNetworkInterface::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,12 +65,12 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<LinuxNetworkInterface*, creationType>(name)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1473A70
+    // Offset: 0x148E780
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x1473AEC
+    // Offset: 0x148E7FC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
@@ -78,5 +78,51 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(LinuxNetworkInterface), 72 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_LinuxNetworkInterfaceSizeCheck;
   static_assert(sizeof(LinuxNetworkInterface) == 0x50);
+  // Writing MetadataGetter for method: LinuxNetworkInterface::get_IfacePath
+  // Il2CppName: get_IfacePath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LinuxNetworkInterface::*)()>(&LinuxNetworkInterface::get_IfacePath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxNetworkInterface*), "get_IfacePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LinuxNetworkInterface::ReadLine
+  // Il2CppName: ReadLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&LinuxNetworkInterface::ReadLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxNetworkInterface*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LinuxNetworkInterface::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LinuxNetworkInterface::*)(::Il2CppString*)>(&LinuxNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LinuxNetworkInterface::*)(::Il2CppString*)>(&LinuxNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LinuxNetworkInterface::GetIPProperties
+  // Il2CppName: GetIPProperties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (LinuxNetworkInterface::*)()>(&LinuxNetworkInterface::GetIPProperties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxNetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LinuxNetworkInterface::get_OperationalStatus
+  // Il2CppName: get_OperationalStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (LinuxNetworkInterface::*)()>(&LinuxNetworkInterface::get_OperationalStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxNetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");

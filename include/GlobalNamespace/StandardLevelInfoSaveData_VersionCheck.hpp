@@ -31,10 +31,10 @@ namespace GlobalNamespace {
       return version;
     }
     // public System.String get_version()
-    // Offset: 0x117D7AC
+    // Offset: 0x1161970
     ::Il2CppString* get_version();
     // public System.Void .ctor()
-    // Offset: 0x117D7B4
+    // Offset: 0x1161978
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -46,5 +46,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData::VersionCheck), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_StandardLevelInfoSaveData_VersionCheckSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData::VersionCheck) == 0x18);
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::VersionCheck::get_version
+  // Il2CppName: get_version
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::VersionCheck::*)()>(&StandardLevelInfoSaveData::VersionCheck::get_version)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::VersionCheck*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::VersionCheck::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::VersionCheck::*)()>(&StandardLevelInfoSaveData::VersionCheck::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::VersionCheck*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::VersionCheck::*)()>(&StandardLevelInfoSaveData::VersionCheck::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::VersionCheck*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::VersionCheck*, "", "StandardLevelInfoSaveData/VersionCheck");

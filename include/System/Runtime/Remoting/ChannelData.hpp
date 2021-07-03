@@ -70,19 +70,19 @@ namespace System::Runtime::Remoting {
     // Creating value type constructor for type: ChannelData
     ChannelData(::Il2CppString* Ref_ = {}, ::Il2CppString* Type_ = {}, ::Il2CppString* Id_ = {}, ::Il2CppString* DelayLoadAsClientChannel_ = {}, System::Collections::ArrayList* serverProviders_ = {}, System::Collections::ArrayList* clientProviders_ = {}, System::Collections::Hashtable* customProperties_ = {}) noexcept : Ref{Ref_}, Type{Type_}, Id{Id_}, DelayLoadAsClientChannel{DelayLoadAsClientChannel_}, serverProviders{serverProviders_}, clientProviders{clientProviders_}, customProperties{customProperties_} {}
     // System.Collections.ArrayList get_ServerProviders()
-    // Offset: 0x14077D0
+    // Offset: 0x14224E0
     System::Collections::ArrayList* get_ServerProviders();
     // public System.Collections.ArrayList get_ClientProviders()
-    // Offset: 0x140783C
+    // Offset: 0x142254C
     System::Collections::ArrayList* get_ClientProviders();
     // public System.Collections.Hashtable get_CustomProperties()
-    // Offset: 0x14078A8
+    // Offset: 0x14225B8
     System::Collections::Hashtable* get_CustomProperties();
     // public System.Void CopyFrom(System.Runtime.Remoting.ChannelData other)
-    // Offset: 0x1407914
+    // Offset: 0x1422624
     void CopyFrom(System::Runtime::Remoting::ChannelData* other);
     // public System.Void .ctor()
-    // Offset: 0x1408168
+    // Offset: 0x1422E78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -94,5 +94,51 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
   static check_size<sizeof(ChannelData), 64 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_ChannelDataSizeCheck;
   static_assert(sizeof(ChannelData) == 0x48);
+  // Writing MetadataGetter for method: ChannelData::get_ServerProviders
+  // Il2CppName: get_ServerProviders
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (ChannelData::*)()>(&ChannelData::get_ServerProviders)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChannelData*), "get_ServerProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ChannelData::get_ClientProviders
+  // Il2CppName: get_ClientProviders
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (ChannelData::*)()>(&ChannelData::get_ClientProviders)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChannelData*), "get_ClientProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ChannelData::get_CustomProperties
+  // Il2CppName: get_CustomProperties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (ChannelData::*)()>(&ChannelData::get_CustomProperties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChannelData*), "get_CustomProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ChannelData::CopyFrom
+  // Il2CppName: CopyFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChannelData::*)(System::Runtime::Remoting::ChannelData*)>(&ChannelData::CopyFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChannelData*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ChannelData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChannelData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChannelData::*)()>(&ChannelData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChannelData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChannelData::*)()>(&ChannelData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChannelData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");

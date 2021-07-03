@@ -27,17 +27,17 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     double get_duration();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x17CCBC8
+    // Offset: 0x17E58D8
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x17CCC48
+    // Offset: 0x17E5958
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // protected System.Void .ctor()
-    // Offset: 0x17CC5C8
+    // Offset: 0x17E52D8
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -48,5 +48,51 @@ namespace UnityEngine::Timeline {
     }
   }; // UnityEngine.Timeline.RuntimeClipBase
   #pragma pack(pop)
+  // Writing MetadataGetter for method: RuntimeClipBase::get_start
+  // Il2CppName: get_start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (RuntimeClipBase::*)()>(&RuntimeClipBase::get_start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClipBase*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClipBase::get_duration
+  // Il2CppName: get_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (RuntimeClipBase::*)()>(&RuntimeClipBase::get_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClipBase*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClipBase::get_intervalStart
+  // Il2CppName: get_intervalStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (RuntimeClipBase::*)()>(&RuntimeClipBase::get_intervalStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClipBase*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClipBase::get_intervalEnd
+  // Il2CppName: get_intervalEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (RuntimeClipBase::*)()>(&RuntimeClipBase::get_intervalEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClipBase*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClipBase::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClipBase::*)()>(&RuntimeClipBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClipBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClipBase::*)()>(&RuntimeClipBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClipBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClipBase*, "UnityEngine.Timeline", "RuntimeClipBase");

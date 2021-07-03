@@ -35,21 +35,51 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 KeySize
     static void _set_KeySize(int value);
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x123ECA8
+    // Offset: 0x125B9B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519PublicKeyParameters* New_ctor(::Array<uint8_t>* buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519PublicKeyParameters*, creationType>(buf, off)));
     }
     // public System.Void Encode(System.Byte[] buf, System.Int32 off)
-    // Offset: 0x123EFFC
+    // Offset: 0x125BD0C
     void Encode(::Array<uint8_t>* buf, int off);
     // static private System.Void .cctor()
-    // Offset: 0x123F124
+    // Offset: 0x125BE34
     static void _cctor();
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters
   #pragma pack(pop)
   static check_size<sizeof(Ed25519PublicKeyParameters), 24 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_Ed25519PublicKeyParametersSizeCheck;
   static_assert(sizeof(Ed25519PublicKeyParameters) == 0x20);
+  // Writing MetadataGetter for method: Ed25519PublicKeyParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed25519PublicKeyParameters::*)(::Array<uint8_t>*, int)>(&Ed25519PublicKeyParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Ed25519PublicKeyParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed25519PublicKeyParameters::*)(::Array<uint8_t>*, int)>(&Ed25519PublicKeyParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Ed25519PublicKeyParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Ed25519PublicKeyParameters::Encode
+  // Il2CppName: Encode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed25519PublicKeyParameters::*)(::Array<uint8_t>*, int)>(&Ed25519PublicKeyParameters::Encode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Ed25519PublicKeyParameters*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Ed25519PublicKeyParameters::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Ed25519PublicKeyParameters::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Ed25519PublicKeyParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Ed25519PublicKeyParameters");

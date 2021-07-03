@@ -116,68 +116,68 @@ namespace UnityEngine::UI {
     // Set static field: static private readonly UnityEngine.Vector3 s_DefaultNormal
     static void _set_s_DefaultNormal(UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Mesh m)
-    // Offset: 0x2386980
+    // Offset: 0x23A2FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VertexHelper* New_ctor(UnityEngine::Mesh* m) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::VertexHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VertexHelper*, creationType>(m)));
     }
     // private System.Void InitializeListIfRequired()
-    // Offset: 0x2386B5C
+    // Offset: 0x23A3190
     void InitializeListIfRequired();
     // public System.Void Dispose()
-    // Offset: 0x2386CE8
+    // Offset: 0x23A331C
     void Dispose();
     // public System.Void Clear()
-    // Offset: 0x23854F4
+    // Offset: 0x23A1B28
     void Clear();
     // public System.Int32 get_currentVertCount()
-    // Offset: 0x2386E9C
+    // Offset: 0x23A34D0
     int get_currentVertCount();
     // public System.Int32 get_currentIndexCount()
-    // Offset: 0x2386EF0
+    // Offset: 0x23A3524
     int get_currentIndexCount();
     // public System.Void PopulateUIVertex(ref UnityEngine.UIVertex vertex, System.Int32 i)
-    // Offset: 0x2386F44
+    // Offset: 0x23A3578
     void PopulateUIVertex(UnityEngine::UIVertex& vertex, int i);
     // public System.Void SetUIVertex(UnityEngine.UIVertex vertex, System.Int32 i)
-    // Offset: 0x2387124
+    // Offset: 0x23A3758
     void SetUIVertex(UnityEngine::UIVertex vertex, int i);
     // public System.Void FillMesh(UnityEngine.Mesh mesh)
-    // Offset: 0x2387270
+    // Offset: 0x23A38A4
     void FillMesh(UnityEngine::Mesh* mesh);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0, UnityEngine.Vector2 uv1, UnityEngine.Vector2 uv2, UnityEngine.Vector2 uv3, UnityEngine.Vector3 normal, UnityEngine.Vector4 tangent)
-    // Offset: 0x23873D4
+    // Offset: 0x23A3A08
     void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0, UnityEngine::Vector2 uv1, UnityEngine::Vector2 uv2, UnityEngine::Vector2 uv3, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0, UnityEngine.Vector2 uv1, UnityEngine.Vector3 normal, UnityEngine.Vector4 tangent)
-    // Offset: 0x2387594
+    // Offset: 0x23A3BC8
     void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0, UnityEngine::Vector2 uv1, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent);
     // public System.Void AddVert(UnityEngine.Vector3 position, UnityEngine.Color32 color, UnityEngine.Vector2 uv0)
-    // Offset: 0x23876A0
+    // Offset: 0x23A3CD4
     void AddVert(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0);
     // public System.Void AddVert(UnityEngine.UIVertex v)
-    // Offset: 0x23877D0
+    // Offset: 0x23A3E04
     void AddVert(UnityEngine::UIVertex v);
     // public System.Void AddTriangle(System.Int32 idx0, System.Int32 idx1, System.Int32 idx2)
-    // Offset: 0x2387840
+    // Offset: 0x23A3E74
     void AddTriangle(int idx0, int idx1, int idx2);
     // public System.Void AddUIVertexQuad(UnityEngine.UIVertex[] verts)
-    // Offset: 0x238560C
+    // Offset: 0x23A1C40
     void AddUIVertexQuad(::Array<UnityEngine::UIVertex>* verts);
     // public System.Void AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts, System.Collections.Generic.List`1<System.Int32> indices)
-    // Offset: 0x23878E8
+    // Offset: 0x23A3F1C
     void AddUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts, System::Collections::Generic::List_1<int>* indices);
     // public System.Void AddUIVertexTriangleStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts)
-    // Offset: 0x238799C
+    // Offset: 0x23A3FD0
     void AddUIVertexTriangleStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts);
     // public System.Void GetUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex> stream)
-    // Offset: 0x23879F0
+    // Offset: 0x23A4024
     void GetUIVertexStream(System::Collections::Generic::List_1<UnityEngine::UIVertex>* stream);
     // static private System.Void .cctor()
-    // Offset: 0x2387A44
+    // Offset: 0x23A4078
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2386978
+    // Offset: 0x23A2FAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -189,5 +189,177 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
   static check_size<sizeof(VertexHelper), 88 + sizeof(bool)> __UnityEngine_UI_VertexHelperSizeCheck;
   static_assert(sizeof(VertexHelper) == 0x59);
+  // Writing MetadataGetter for method: VertexHelper::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::Mesh*)>(&VertexHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::Mesh*)>(&VertexHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::InitializeListIfRequired
+  // Il2CppName: InitializeListIfRequired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)()>(&VertexHelper::InitializeListIfRequired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "InitializeListIfRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)()>(&VertexHelper::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)()>(&VertexHelper::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::get_currentVertCount
+  // Il2CppName: get_currentVertCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VertexHelper::*)()>(&VertexHelper::get_currentVertCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "get_currentVertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::get_currentIndexCount
+  // Il2CppName: get_currentIndexCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VertexHelper::*)()>(&VertexHelper::get_currentIndexCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "get_currentIndexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::PopulateUIVertex
+  // Il2CppName: PopulateUIVertex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::UIVertex&, int)>(&VertexHelper::PopulateUIVertex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "PopulateUIVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UIVertex&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::SetUIVertex
+  // Il2CppName: SetUIVertex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::UIVertex, int)>(&VertexHelper::SetUIVertex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "SetUIVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UIVertex>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::FillMesh
+  // Il2CppName: FillMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::Mesh*)>(&VertexHelper::FillMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "FillMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddVert
+  // Il2CppName: AddVert
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::Vector3, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector3, UnityEngine::Vector4)>(&VertexHelper::AddVert)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddVert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddVert
+  // Il2CppName: AddVert
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::Vector3, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector3, UnityEngine::Vector4)>(&VertexHelper::AddVert)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddVert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddVert
+  // Il2CppName: AddVert
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::Vector3, UnityEngine::Color32, UnityEngine::Vector2)>(&VertexHelper::AddVert)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddVert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddVert
+  // Il2CppName: AddVert
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(UnityEngine::UIVertex)>(&VertexHelper::AddVert)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddVert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UIVertex>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddTriangle
+  // Il2CppName: AddTriangle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(int, int, int)>(&VertexHelper::AddTriangle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddUIVertexQuad
+  // Il2CppName: AddUIVertexQuad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(::Array<UnityEngine::UIVertex>*)>(&VertexHelper::AddUIVertexQuad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddUIVertexQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::UIVertex>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddUIVertexStream
+  // Il2CppName: AddUIVertexStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, System::Collections::Generic::List_1<int>*)>(&VertexHelper::AddUIVertexStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddUIVertexStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::AddUIVertexTriangleStream
+  // Il2CppName: AddUIVertexTriangleStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&VertexHelper::AddUIVertexTriangleStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "AddUIVertexTriangleStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::GetUIVertexStream
+  // Il2CppName: GetUIVertexStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&VertexHelper::GetUIVertexStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), "GetUIVertexStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VertexHelper::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VertexHelper::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)()>(&VertexHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VertexHelper::*)()>(&VertexHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VertexHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");

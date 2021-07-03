@@ -81,7 +81,7 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     static_assert(sizeof(NoTransitionsButton::SelectionState) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDF6F7C
+    // [CompilerGeneratedAttribute] Offset: 0xDF8F78
     // private System.Action`1<HMUI.NoTransitionsButton/SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x100
@@ -97,21 +97,21 @@ namespace HMUI {
     // Creating value type constructor for type: NoTransitionsButton
     NoTransitionsButton(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* selectionStateDidChangeEvent_ = {}, HMUI::NoTransitionsButton::SelectionState selectionState_ = {}) noexcept : selectionStateDidChangeEvent{selectionStateDidChangeEvent_}, selectionState{selectionState_} {}
     // public HMUI.NoTransitionsButton/SelectionState get_selectionState()
-    // Offset: 0x12989B0
+    // Offset: 0x12B36C0
     HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x12989B8
+    // Offset: 0x12B36C8
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/SelectionState> value)
-    // Offset: 0x1298A60
+    // Offset: 0x12B3770
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x1298B08
+    // Offset: 0x12B3818
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x1298B9C
+    // Offset: 0x12B38AC
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -130,6 +130,52 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(NoTransitionsButton), 264 + sizeof(HMUI::NoTransitionsButton::SelectionState)> __HMUI_NoTransitionsButtonSizeCheck;
   static_assert(sizeof(NoTransitionsButton) == 0x10C);
+  // Writing MetadataGetter for method: NoTransitionsButton::get_selectionState
+  // Il2CppName: get_selectionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::NoTransitionsButton::SelectionState (NoTransitionsButton::*)()>(&NoTransitionsButton::get_selectionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionsButton::add_selectionStateDidChangeEvent
+  // Il2CppName: add_selectionStateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)(System::Action_1<HMUI::NoTransitionsButton::SelectionState>*)>(&NoTransitionsButton::add_selectionStateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "add_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::NoTransitionsButton::SelectionState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionsButton::remove_selectionStateDidChangeEvent
+  // Il2CppName: remove_selectionStateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)(System::Action_1<HMUI::NoTransitionsButton::SelectionState>*)>(&NoTransitionsButton::remove_selectionStateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "remove_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::NoTransitionsButton::SelectionState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionsButton::DoStateTransition
+  // Il2CppName: DoStateTransition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&NoTransitionsButton::DoStateTransition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionsButton::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)()>(&NoTransitionsButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)()>(&NoTransitionsButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");

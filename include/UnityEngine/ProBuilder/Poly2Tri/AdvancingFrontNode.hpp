@@ -58,21 +58,51 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: AdvancingFrontNode
     AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev_ = {}, double Value_ = {}, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point_ = {}, UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle_ = {}) noexcept : Next{Next_}, Prev{Prev_}, Value{Value_}, Point{Point_}, Triangle{Triangle_} {}
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x237C7D4
+    // Offset: 0x2398E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFrontNode* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancingFrontNode*, creationType>(point)));
     }
     // public System.Boolean get_HasNext()
-    // Offset: 0x237C810
+    // Offset: 0x2398E44
     bool get_HasNext();
     // public System.Boolean get_HasPrev()
-    // Offset: 0x237C820
+    // Offset: 0x2398E54
     bool get_HasPrev();
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
   #pragma pack(pop)
   static check_size<sizeof(AdvancingFrontNode), 48 + sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontNodeSizeCheck;
   static_assert(sizeof(AdvancingFrontNode) == 0x38);
+  // Writing MetadataGetter for method: AdvancingFrontNode::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdvancingFrontNode::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&AdvancingFrontNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFrontNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdvancingFrontNode::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&AdvancingFrontNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFrontNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFrontNode::get_HasNext
+  // Il2CppName: get_HasNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AdvancingFrontNode::*)()>(&AdvancingFrontNode::get_HasNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFrontNode*), "get_HasNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFrontNode::get_HasPrev
+  // Il2CppName: get_HasPrev
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AdvancingFrontNode::*)()>(&AdvancingFrontNode::get_HasPrev)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFrontNode*), "get_HasPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");

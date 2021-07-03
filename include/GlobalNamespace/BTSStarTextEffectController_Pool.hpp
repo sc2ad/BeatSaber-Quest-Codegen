@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // protected System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform transform, System.Single desiredAnimationLength, BTSStarTextEffectController starTextEffectController)
-    // Offset: 0x11374EC
+    // Offset: 0x113CD54
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* transform, float desiredAnimationLength, GlobalNamespace::BTSStarTextEffectController* starTextEffectController);
     // public System.Void .ctor()
-    // Offset: 0x1137504
+    // Offset: 0x113CD6C
     // Implemented from: Zenject.MonoMemoryPool`4
     // Base method: System.Void MonoMemoryPool_4::.ctor()
     // Base method: System.Void MemoryPool_4::.ctor()
@@ -46,5 +46,27 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEffectController::Pool*, creationType>()));
     }
   }; // BTSStarTextEffectController/Pool
+  // Writing MetadataGetter for method: BTSStarTextEffectController::Pool::Reinitialize
+  // Il2CppName: Reinitialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEffectController::Pool::*)(UnityEngine::Sprite*, UnityEngine::Transform*, float, GlobalNamespace::BTSStarTextEffectController*)>(&BTSStarTextEffectController::Pool::Reinitialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController::Pool*), "Reinitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSStarTextEffectController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSStarTextEffectController::Pool::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEffectController::Pool::*)()>(&BTSStarTextEffectController::Pool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEffectController::Pool::*)()>(&BTSStarTextEffectController::Pool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController::Pool*, "", "BTSStarTextEffectController/Pool");

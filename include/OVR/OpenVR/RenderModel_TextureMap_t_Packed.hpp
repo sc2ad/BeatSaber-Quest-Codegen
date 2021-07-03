@@ -48,7 +48,7 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xEE5BA4
+    // Offset: 0xEE6B5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_TextureMap_t_Packed(OVR::OpenVR::RenderModel_TextureMap_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::RenderModel_TextureMap_t_Packed::.ctor");
@@ -56,11 +56,33 @@ namespace OVR::OpenVR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xEE5BB8
+    // Offset: 0xEE6B70
     void Unpack(OVR::OpenVR::RenderModel_TextureMap_t& unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 4 + sizeof(System::IntPtr)> __OVR_OpenVR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
+  // Writing MetadataGetter for method: RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderModel_TextureMap_t_Packed::*)(OVR::OpenVR::RenderModel_TextureMap_t)>(&RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RenderModel_TextureMap_t_Packed), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_TextureMap_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderModel_TextureMap_t_Packed::*)(OVR::OpenVR::RenderModel_TextureMap_t)>(&RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RenderModel_TextureMap_t_Packed), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_TextureMap_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: RenderModel_TextureMap_t_Packed::Unpack
+  // Il2CppName: Unpack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderModel_TextureMap_t_Packed::*)(OVR::OpenVR::RenderModel_TextureMap_t&)>(&RenderModel_TextureMap_t_Packed::Unpack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RenderModel_TextureMap_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_TextureMap_t&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");

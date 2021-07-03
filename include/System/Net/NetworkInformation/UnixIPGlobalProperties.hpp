@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixIPGlobalProperties
     UnixIPGlobalProperties() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1473128
+    // Offset: 0x148DE38
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()
     // Base method: System.Void IPGlobalProperties::.ctor()
@@ -33,5 +33,19 @@ namespace System::Net::NetworkInformation {
     }
   }; // System.Net.NetworkInformation.UnixIPGlobalProperties
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnixIPGlobalProperties::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixIPGlobalProperties::*)()>(&UnixIPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixIPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixIPGlobalProperties::*)()>(&UnixIPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnixIPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPGlobalProperties*, "System.Net.NetworkInformation", "UnixIPGlobalProperties");

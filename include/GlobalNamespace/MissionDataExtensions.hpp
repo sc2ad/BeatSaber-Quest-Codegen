@@ -18,10 +18,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionDataExtensions
     MissionDataExtensions() noexcept {}
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
-    // Offset: 0x104F030
+    // Offset: 0x1093718
     static ::Il2CppString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MissionDataExtensions::Name
+  // Il2CppName: Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MissionObjective::ReferenceValueComparisonType)>(&MissionDataExtensions::Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionDataExtensions*), "Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective::ReferenceValueComparisonType>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataExtensions*, "", "MissionDataExtensions");

@@ -105,25 +105,25 @@ namespace System::Net {
       return *reinterpret_cast<System::IAsyncResult*>(this);
     }
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x163ADD8
+    // Offset: 0x1651AE8
     void Complete(System::Exception* e);
     // public System.Void Complete()
-    // Offset: 0x163ADE0
+    // Offset: 0x1651AF0
     void Complete();
     // public System.Object get_AsyncState()
-    // Offset: 0x163AEAC
+    // Offset: 0x1651BBC
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x163AEB4
+    // Offset: 0x1651BC4
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x163AFA4
+    // Offset: 0x1651CB4
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x163AFB8
+    // Offset: 0x1651CC8
     bool get_IsCompleted();
     // public System.Void .ctor()
-    // Offset: 0x163B04C
+    // Offset: 0x1651D5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -135,5 +135,67 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(HttpStreamAsyncResult), 80 + sizeof(System::Exception*)> __System_Net_HttpStreamAsyncResultSizeCheck;
   static_assert(sizeof(HttpStreamAsyncResult) == 0x58);
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpStreamAsyncResult::*)(System::Exception*)>(&HttpStreamAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::get_AsyncState
+  // Il2CppName: get_AsyncState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::get_AsyncState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::get_AsyncWaitHandle
+  // Il2CppName: get_AsyncWaitHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::get_AsyncWaitHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::get_CompletedSynchronously
+  // Il2CppName: get_CompletedSynchronously
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::get_CompletedSynchronously)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::get_IsCompleted
+  // Il2CppName: get_IsCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::get_IsCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpStreamAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpStreamAsyncResult::*)()>(&HttpStreamAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpStreamAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStreamAsyncResult*, "System.Net", "HttpStreamAsyncResult");

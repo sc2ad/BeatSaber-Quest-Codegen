@@ -39,18 +39,42 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public System.Byte[] GetDerivationV()
-    // Offset: 0x1240640
+    // Offset: 0x125D350
     ::Array<uint8_t>* GetDerivationV();
     // public System.Byte[] GetEncodingV()
-    // Offset: 0x1240648
+    // Offset: 0x125D358
     ::Array<uint8_t>* GetEncodingV();
     // public System.Int32 get_MacKeySize()
-    // Offset: 0x1240650
+    // Offset: 0x125D360
     int get_MacKeySize();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)
   static check_size<sizeof(IesParameters), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_IesParametersSizeCheck;
   static_assert(sizeof(IesParameters) == 0x24);
+  // Writing MetadataGetter for method: IesParameters::GetDerivationV
+  // Il2CppName: GetDerivationV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (IesParameters::*)()>(&IesParameters::GetDerivationV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IesParameters*), "GetDerivationV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IesParameters::GetEncodingV
+  // Il2CppName: GetEncodingV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (IesParameters::*)()>(&IesParameters::GetEncodingV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IesParameters*), "GetEncodingV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IesParameters::get_MacKeySize
+  // Il2CppName: get_MacKeySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IesParameters::*)()>(&IesParameters::get_MacKeySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IesParameters*), "get_MacKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesParameters");

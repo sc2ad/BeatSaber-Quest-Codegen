@@ -34,16 +34,40 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
     static void _set_s_MaterialArray(System::Collections::Generic::List_1<UnityEngine::Material*>* value);
     // static System.Int32 GetMaterialCount(UnityEngine.Renderer renderer)
-    // Offset: 0x1AA61E0
+    // Offset: 0x1ABEEF0
     static int GetMaterialCount(UnityEngine::Renderer* renderer);
     // static UnityEngine.Material GetSharedMaterial(UnityEngine.Renderer renderer, System.Int32 index)
-    // Offset: 0x1AA6294
+    // Offset: 0x1ABEFA4
     static UnityEngine::Material* GetSharedMaterial(UnityEngine::Renderer* renderer, int index);
     // static private System.Void .cctor()
-    // Offset: 0x1AA63E4
+    // Offset: 0x1ABF0F4
     static void _cctor();
   }; // UnityEngine.ProBuilder.MaterialUtility
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MaterialUtility::GetMaterialCount
+  // Il2CppName: GetMaterialCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Renderer*)>(&MaterialUtility::GetMaterialCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialUtility*), "GetMaterialCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Renderer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialUtility::GetSharedMaterial
+  // Il2CppName: GetSharedMaterial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Renderer*, int)>(&MaterialUtility::GetSharedMaterial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialUtility*), "GetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Renderer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialUtility::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MaterialUtility::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MaterialUtility*, "UnityEngine.ProBuilder", "MaterialUtility");

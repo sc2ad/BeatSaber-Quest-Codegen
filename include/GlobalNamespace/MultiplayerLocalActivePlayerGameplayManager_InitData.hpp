@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return failOn0Energy;
     }
     // public System.Void .ctor(System.Boolean failOn0Energy)
-    // Offset: 0x2401AFC
+    // Offset: 0x102C678
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerGameplayManager::InitData* New_ctor(bool failOn0Energy) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData::.ctor");
@@ -41,5 +41,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLocalActivePlayerGameplayManager::InitData), 16 + sizeof(bool)> __GlobalNamespace_MultiplayerLocalActivePlayerGameplayManager_InitDataSizeCheck;
   static_assert(sizeof(MultiplayerLocalActivePlayerGameplayManager::InitData) == 0x11);
+  // Writing MetadataGetter for method: MultiplayerLocalActivePlayerGameplayManager::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::InitData::*)(bool)>(&MultiplayerLocalActivePlayerGameplayManager::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerGameplayManager::InitData::*)(bool)>(&MultiplayerLocalActivePlayerGameplayManager::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerGameplayManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData*, "", "MultiplayerLocalActivePlayerGameplayManager/InitData");

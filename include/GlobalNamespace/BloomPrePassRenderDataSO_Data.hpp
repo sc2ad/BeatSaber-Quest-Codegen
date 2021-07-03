@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Data
     Data(UnityEngine::RenderTexture* bloomPrePassRenderTexture_ = {}, UnityEngine::Vector2 textureToScreenRatio_ = {}, UnityEngine::Matrix4x4 viewMatrix_ = {}, UnityEngine::Matrix4x4 projectionMatrix_ = {}, float stereoCameraEyeOffset_ = {}, GlobalNamespace::ToneMapping toneMapping_ = {}) noexcept : bloomPrePassRenderTexture{bloomPrePassRenderTexture_}, textureToScreenRatio{textureToScreenRatio_}, viewMatrix{viewMatrix_}, projectionMatrix{projectionMatrix_}, stereoCameraEyeOffset{stereoCameraEyeOffset_}, toneMapping{toneMapping_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D69690
+    // Offset: 0x1D843A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,5 +82,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassRenderDataSO::Data), 164 + sizeof(GlobalNamespace::ToneMapping)> __GlobalNamespace_BloomPrePassRenderDataSO_DataSizeCheck;
   static_assert(sizeof(BloomPrePassRenderDataSO::Data) == 0xA8);
+  // Writing MetadataGetter for method: BloomPrePassRenderDataSO::Data::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRenderDataSO::Data::*)()>(&BloomPrePassRenderDataSO::Data::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRenderDataSO::Data*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRenderDataSO::Data::*)()>(&BloomPrePassRenderDataSO::Data::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassRenderDataSO::Data*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO::Data*, "", "BloomPrePassRenderDataSO/Data");

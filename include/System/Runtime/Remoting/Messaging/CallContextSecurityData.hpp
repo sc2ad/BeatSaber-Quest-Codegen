@@ -42,13 +42,13 @@ namespace System::Runtime::Remoting::Messaging {
       return principal;
     }
     // System.Boolean get_HasInfo()
-    // Offset: 0x1A2098C
+    // Offset: 0x1A3A69C
     bool get_HasInfo();
     // public System.Object Clone()
-    // Offset: 0x1A2099C
+    // Offset: 0x1A3A6AC
     ::Il2CppObject* Clone();
     // public System.Void .ctor()
-    // Offset: 0x1A20A0C
+    // Offset: 0x1A3A71C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,35 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
   static check_size<sizeof(CallContextSecurityData), 16 + sizeof(System::Security::Principal::IPrincipal*)> __System_Runtime_Remoting_Messaging_CallContextSecurityDataSizeCheck;
   static_assert(sizeof(CallContextSecurityData) == 0x18);
+  // Writing MetadataGetter for method: CallContextSecurityData::get_HasInfo
+  // Il2CppName: get_HasInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CallContextSecurityData::*)()>(&CallContextSecurityData::get_HasInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CallContextSecurityData*), "get_HasInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CallContextSecurityData::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CallContextSecurityData::*)()>(&CallContextSecurityData::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CallContextSecurityData*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CallContextSecurityData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallContextSecurityData::*)()>(&CallContextSecurityData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CallContextSecurityData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallContextSecurityData::*)()>(&CallContextSecurityData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CallContextSecurityData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextSecurityData*, "System.Runtime.Remoting.Messaging", "CallContextSecurityData");

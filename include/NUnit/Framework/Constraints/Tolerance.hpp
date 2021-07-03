@@ -35,37 +35,105 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: Tolerance
     Tolerance(NUnit::Framework::Constraints::ToleranceMode mode_ = {}, ::Il2CppObject* amount_ = {}) noexcept : mode{mode_}, amount{amount_} {}
     // static public NUnit.Framework.Constraints.Tolerance get_Default()
-    // Offset: 0x170AB48
+    // Offset: 0x1722858
     static NUnit::Framework::Constraints::Tolerance* get_Default();
     // static public NUnit.Framework.Constraints.Tolerance get_Exact()
-    // Offset: 0x1713214
+    // Offset: 0x172AF24
     static NUnit::Framework::Constraints::Tolerance* get_Exact();
     // public System.Void .ctor(System.Object amount)
-    // Offset: 0x1715F90
+    // Offset: 0x172DCA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount)));
     }
     // private System.Void .ctor(System.Object amount, NUnit.Framework.Constraints.ToleranceMode mode)
-    // Offset: 0x17167F4
+    // Offset: 0x172E504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tolerance* New_ctor(::Il2CppObject* amount, NUnit::Framework::Constraints::ToleranceMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Tolerance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tolerance*, creationType>(amount, mode)));
     }
     // public NUnit.Framework.Constraints.ToleranceMode get_Mode()
-    // Offset: 0x170D0E4
+    // Offset: 0x1724DF4
     NUnit::Framework::Constraints::ToleranceMode get_Mode();
     // public System.Object get_Value()
-    // Offset: 0x170D0DC
+    // Offset: 0x1724DEC
     ::Il2CppObject* get_Value();
     // public System.Boolean get_IsUnsetOrDefault()
-    // Offset: 0x170D0CC
+    // Offset: 0x1724DDC
     bool get_IsUnsetOrDefault();
   }; // NUnit.Framework.Constraints.Tolerance
   #pragma pack(pop)
   static check_size<sizeof(Tolerance), 24 + sizeof(::Il2CppObject*)> __NUnit_Framework_Constraints_ToleranceSizeCheck;
   static_assert(sizeof(Tolerance) == 0x20);
+  // Writing MetadataGetter for method: Tolerance::get_Default
+  // Il2CppName: get_Default
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::Tolerance* (*)()>(&Tolerance::get_Default)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Tolerance::get_Exact
+  // Il2CppName: get_Exact
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::Tolerance* (*)()>(&Tolerance::get_Exact)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), "get_Exact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Tolerance::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tolerance::*)(::Il2CppObject*)>(&Tolerance::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tolerance::*)(::Il2CppObject*)>(&Tolerance::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tolerance::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tolerance::*)(::Il2CppObject*, NUnit::Framework::Constraints::ToleranceMode)>(&Tolerance::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ToleranceMode>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tolerance::*)(::Il2CppObject*, NUnit::Framework::Constraints::ToleranceMode)>(&Tolerance::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ToleranceMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tolerance::get_Mode
+  // Il2CppName: get_Mode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ToleranceMode (Tolerance::*)()>(&Tolerance::get_Mode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Tolerance::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Tolerance::*)()>(&Tolerance::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Tolerance::get_IsUnsetOrDefault
+  // Il2CppName: get_IsUnsetOrDefault
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Tolerance::*)()>(&Tolerance::get_IsUnsetOrDefault)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tolerance*), "get_IsUnsetOrDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");

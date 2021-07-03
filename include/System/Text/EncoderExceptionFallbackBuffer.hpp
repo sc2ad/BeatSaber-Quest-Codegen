@@ -21,7 +21,7 @@ namespace System::Text {
     // Creating value type constructor for type: EncoderExceptionFallbackBuffer
     EncoderExceptionFallbackBuffer() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1B483F4
+    // Offset: 0x1B64104
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Void EncoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -31,31 +31,85 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<EncoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Char charUnknown, System.Int32 index)
-    // Offset: 0x1B48478
+    // Offset: 0x1B64188
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknown, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknown, int index);
     // public override System.Boolean Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
-    // Offset: 0x1B485A8
+    // Offset: 0x1B642B8
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::Fallback(System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     bool Fallback(::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1B48934
+    // Offset: 0x1B64644
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Char EncoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Boolean MovePrevious()
-    // Offset: 0x1B4893C
+    // Offset: 0x1B6464C
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Boolean EncoderFallbackBuffer::MovePrevious()
     bool MovePrevious();
     // public override System.Int32 get_Remaining()
-    // Offset: 0x1B48944
+    // Offset: 0x1B64654
     // Implemented from: System.Text.EncoderFallbackBuffer
     // Base method: System.Int32 EncoderFallbackBuffer::get_Remaining()
     int get_Remaining();
   }; // System.Text.EncoderExceptionFallbackBuffer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::Fallback
+  // Il2CppName: Fallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)(::Il2CppChar, int)>(&EncoderExceptionFallbackBuffer::Fallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::Fallback
+  // Il2CppName: Fallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&EncoderExceptionFallbackBuffer::Fallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::GetNextChar
+  // Il2CppName: GetNextChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::GetNextChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::MovePrevious
+  // Il2CppName: MovePrevious
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::MovePrevious)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EncoderExceptionFallbackBuffer::get_Remaining
+  // Il2CppName: get_Remaining
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EncoderExceptionFallbackBuffer::*)()>(&EncoderExceptionFallbackBuffer::get_Remaining)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");

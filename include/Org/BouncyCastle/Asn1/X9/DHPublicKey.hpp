@@ -40,20 +40,20 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return y;
     }
     // static public Org.BouncyCastle.Asn1.X9.DHPublicKey GetInstance(System.Object obj)
-    // Offset: 0x19F7608
+    // Offset: 0x1A10318
     static Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerInteger y)
-    // Offset: 0x19F7788
+    // Offset: 0x1A10498
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHPublicKey* New_ctor(Org::BouncyCastle::Asn1::DerInteger* y) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::DHPublicKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHPublicKey*, creationType>(y)));
     }
     // public Org.BouncyCastle.Asn1.DerInteger get_Y()
-    // Offset: 0x19F7824
+    // Offset: 0x1A10534
     Org::BouncyCastle::Asn1::DerInteger* get_Y();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x19F782C
+    // Offset: 0x1A1053C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -61,5 +61,43 @@ namespace Org::BouncyCastle::Asn1::X9 {
   #pragma pack(pop)
   static check_size<sizeof(DHPublicKey), 16 + sizeof(Org::BouncyCastle::Asn1::DerInteger*)> __Org_BouncyCastle_Asn1_X9_DHPublicKeySizeCheck;
   static_assert(sizeof(DHPublicKey) == 0x18);
+  // Writing MetadataGetter for method: DHPublicKey::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::DHPublicKey* (*)(::Il2CppObject*)>(&DHPublicKey::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHPublicKey*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHPublicKey::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHPublicKey::*)(Org::BouncyCastle::Asn1::DerInteger*)>(&DHPublicKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHPublicKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHPublicKey::*)(Org::BouncyCastle::Asn1::DerInteger*)>(&DHPublicKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHPublicKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerInteger*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DHPublicKey::get_Y
+  // Il2CppName: get_Y
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (DHPublicKey::*)()>(&DHPublicKey::get_Y)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHPublicKey*), "get_Y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DHPublicKey::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DHPublicKey::*)()>(&DHPublicKey::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DHPublicKey*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHPublicKey*, "Org.BouncyCastle.Asn1.X9", "DHPublicKey");

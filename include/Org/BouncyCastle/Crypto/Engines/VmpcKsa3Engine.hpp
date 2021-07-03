@@ -21,12 +21,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Creating value type constructor for type: VmpcKsa3Engine
     VmpcKsa3Engine() noexcept {}
     // protected override System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x18A5CE8
+    // Offset: 0x18BD9F8
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
     void InitKey(::Array<uint8_t>* keyBytes, ::Array<uint8_t>* ivBytes);
     // public System.Void .ctor()
-    // Offset: 0x18A5FCC
+    // Offset: 0x18BDCDC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.VmpcEngine
     // Base method: System.Void VmpcEngine::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -37,5 +37,27 @@ namespace Org::BouncyCastle::Crypto::Engines {
     }
   }; // Org.BouncyCastle.Crypto.Engines.VmpcKsa3Engine
   #pragma pack(pop)
+  // Writing MetadataGetter for method: VmpcKsa3Engine::InitKey
+  // Il2CppName: InitKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcKsa3Engine::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&VmpcKsa3Engine::InitKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VmpcKsa3Engine*), "InitKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VmpcKsa3Engine::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcKsa3Engine::*)()>(&VmpcKsa3Engine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VmpcKsa3Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VmpcKsa3Engine::*)()>(&VmpcKsa3Engine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VmpcKsa3Engine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*, "Org.BouncyCastle.Crypto.Engines", "VmpcKsa3Engine");

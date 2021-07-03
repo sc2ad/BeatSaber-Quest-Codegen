@@ -256,37 +256,37 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_LoadLevel _active
     static void _set__active(GlobalNamespace::SteamVR_LoadLevel* value);
     // static public System.Boolean get_loading()
-    // Offset: 0x13B7ED4
+    // Offset: 0x13D2BE4
     static bool get_loading();
     // static public System.Single get_progress()
-    // Offset: 0x13B7F6C
+    // Offset: 0x13D2C7C
     static float get_progress();
     // static public UnityEngine.Texture get_progressTexture()
-    // Offset: 0x13B8080
+    // Offset: 0x13D2D90
     static UnityEngine::Texture* get_progressTexture();
     // private System.Void OnEnable()
-    // Offset: 0x13B8158
+    // Offset: 0x13D2E68
     void OnEnable();
     // public System.Void Trigger()
-    // Offset: 0x13B8168
+    // Offset: 0x13D2E78
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
-    // Offset: 0x13B8270
+    // Offset: 0x13D2F80
     static void Begin(::Il2CppString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
-    // Offset: 0x13B837C
+    // Offset: 0x13D308C
     void OnGUI();
     // private System.Void Update()
-    // Offset: 0x13B8B5C
+    // Offset: 0x13D386C
     void Update();
     // private System.Collections.IEnumerator LoadLevel()
-    // Offset: 0x13B8200
+    // Offset: 0x13D2F10
     System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
-    // Offset: 0x13B87C0
+    // Offset: 0x13D34D0
     uint64_t GetOverlayHandle(::Il2CppString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
-    // Offset: 0x13B8DD8
+    // Offset: 0x13D3AE8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -299,7 +299,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_LoadLevel*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13B8E3C
+    // Offset: 0x13D3B4C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -307,5 +307,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_LoadLevel), 240 + sizeof(bool)> __GlobalNamespace_SteamVR_LoadLevelSizeCheck;
   static_assert(sizeof(SteamVR_LoadLevel) == 0xF1);
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::get_loading
+  // Il2CppName: get_loading
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&SteamVR_LoadLevel::get_loading)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "get_loading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::get_progress
+  // Il2CppName: get_progress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&SteamVR_LoadLevel::get_progress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "get_progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::get_progressTexture
+  // Il2CppName: get_progressTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)()>(&SteamVR_LoadLevel::get_progressTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "get_progressTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::Trigger
+  // Il2CppName: Trigger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::Trigger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "Trigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::Begin
+  // Il2CppName: Begin
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, float, float, float, float, float)>(&SteamVR_LoadLevel::Begin)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::OnGUI
+  // Il2CppName: OnGUI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::OnGUI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::LoadLevel
+  // Il2CppName: LoadLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::LoadLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "LoadLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::GetOverlayHandle
+  // Il2CppName: GetOverlayHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (SteamVR_LoadLevel::*)(::Il2CppString*, UnityEngine::Transform*, float)>(&SteamVR_LoadLevel::GetOverlayHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), "GetOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_LoadLevel::*)()>(&SteamVR_LoadLevel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_LoadLevel::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SteamVR_LoadLevel::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_LoadLevel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel*, "", "SteamVR_LoadLevel");

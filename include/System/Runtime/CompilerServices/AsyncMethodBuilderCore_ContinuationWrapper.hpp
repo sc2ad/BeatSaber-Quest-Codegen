@@ -51,18 +51,40 @@ namespace System::Runtime::CompilerServices {
     // Creating value type constructor for type: ContinuationWrapper
     ContinuationWrapper(System::Action* m_continuation_ = {}, System::Action* m_invokeAction_ = {}, System::Threading::Tasks::Task* m_innerTask_ = {}) noexcept : m_continuation{m_continuation_}, m_invokeAction{m_invokeAction_}, m_innerTask{m_innerTask_} {}
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
-    // Offset: 0x1400C68
+    // Offset: 0x141B978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::ContinuationWrapper*, creationType>(continuation, invokeAction, innerTask)));
     }
     // System.Void Invoke()
-    // Offset: 0x1400F3C
+    // Offset: 0x141BC4C
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/ContinuationWrapper
   #pragma pack(pop)
   static check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::ContinuationWrapper) == 0x28);
+  // Writing MetadataGetter for method: AsyncMethodBuilderCore::ContinuationWrapper::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncMethodBuilderCore::ContinuationWrapper::*)(System::Action*, System::Action*, System::Threading::Tasks::Task*)>(&AsyncMethodBuilderCore::ContinuationWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::ContinuationWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncMethodBuilderCore::ContinuationWrapper::*)(System::Action*, System::Action*, System::Threading::Tasks::Task*)>(&AsyncMethodBuilderCore::ContinuationWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::ContinuationWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncMethodBuilderCore::ContinuationWrapper::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncMethodBuilderCore::ContinuationWrapper::*)()>(&AsyncMethodBuilderCore::ContinuationWrapper::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::ContinuationWrapper*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");

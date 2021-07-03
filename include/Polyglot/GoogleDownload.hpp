@@ -38,10 +38,18 @@ namespace Polyglot {
     // Creating value type constructor for type: GoogleDownload
     GoogleDownload() noexcept {}
     // static public System.Collections.IEnumerator DownloadSheet(System.String docsId, System.String sheetId, System.Action`1<System.String> done, Polyglot.GoogleDriveDownloadFormat format, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x2333220
+    // Offset: 0x234CF7C
     static System::Collections::IEnumerator* DownloadSheet(::Il2CppString* docsId, ::Il2CppString* sheetId, System::Action_1<::Il2CppString*>* done, Polyglot::GoogleDriveDownloadFormat format, System::Func_2<float, bool>* progressbar);
   }; // Polyglot.GoogleDownload
   #pragma pack(pop)
+  // Writing MetadataGetter for method: GoogleDownload::DownloadSheet
+  // Il2CppName: DownloadSheet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<::Il2CppString*>*, Polyglot::GoogleDriveDownloadFormat, System::Func_2<float, bool>*)>(&GoogleDownload::DownloadSheet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GoogleDownload*), "DownloadSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<float, bool>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");

@@ -36,16 +36,16 @@ namespace System::IO {
     // Set static field: static private System.IO.IFileWatcher instance
     static void _set_instance(System::IO::IFileWatcher* value);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x185DE14
+    // Offset: 0x1875B24
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x185DE18
+    // Offset: 0x1875B28
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x185D428
+    // Offset: 0x1875138
     static bool GetInstance(System::IO::IFileWatcher*& watcher);
     // public System.Void .ctor()
-    // Offset: 0x185DE1C
+    // Offset: 0x1875B2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -55,5 +55,43 @@ namespace System::IO {
     }
   }; // System.IO.NullFileWatcher
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NullFileWatcher::StartDispatching
+  // Il2CppName: StartDispatching
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullFileWatcher::*)(System::IO::FileSystemWatcher*)>(&NullFileWatcher::StartDispatching)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NullFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NullFileWatcher::StopDispatching
+  // Il2CppName: StopDispatching
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullFileWatcher::*)(System::IO::FileSystemWatcher*)>(&NullFileWatcher::StopDispatching)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NullFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NullFileWatcher::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::IFileWatcher*&)>(&NullFileWatcher::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NullFileWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::IFileWatcher*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NullFileWatcher::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullFileWatcher::*)()>(&NullFileWatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NullFileWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullFileWatcher::*)()>(&NullFileWatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NullFileWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::NullFileWatcher*, "System.IO", "NullFileWatcher");

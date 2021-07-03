@@ -59,5 +59,11 @@ namespace GlobalNamespace {
     }
   }; // SortExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SortExtensions::InsertSorted
+  // Il2CppName: InsertSorted
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: SortExtensions::Sort
+  // Il2CppName: Sort
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortExtensions*, "", "SortExtensions");

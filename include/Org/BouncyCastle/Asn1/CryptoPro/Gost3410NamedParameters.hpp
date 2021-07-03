@@ -52,13 +52,29 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Set static field: static private readonly Org.BouncyCastle.Asn1.CryptoPro.Gost3410ParamSetParameters cryptoProXchA
     static void _set_cryptoProXchA(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
     // static private System.Void .cctor()
-    // Offset: 0x16E6308
+    // Offset: 0x16FD018
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410ParamSetParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x16E69AC
+    // Offset: 0x16FD6BC
     static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Asn1.CryptoPro.Gost3410NamedParameters
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Gost3410NamedParameters::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Gost3410NamedParameters::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410NamedParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3410NamedParameters::GetByOid
+  // Il2CppName: GetByOid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Gost3410NamedParameters::GetByOid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410NamedParameters*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410NamedParameters");

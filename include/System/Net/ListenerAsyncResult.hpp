@@ -120,45 +120,139 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback InvokeCB
     static void _set_InvokeCB(System::Threading::WaitCallback* value);
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state)
-    // Offset: 0x163577C
+    // Offset: 0x164C48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerAsyncResult*, creationType>(cb, state)));
     }
     // System.Void Complete(System.Exception exc)
-    // Offset: 0x163535C
+    // Offset: 0x164C06C
     void Complete(System::Exception* exc);
     // static private System.Void InvokeCallback(System.Object o)
-    // Offset: 0x1644084
+    // Offset: 0x165AD94
     static void InvokeCallback(::Il2CppObject* o);
     // System.Void Complete(System.Net.HttpListenerContext context)
-    // Offset: 0x163665C
+    // Offset: 0x164D36C
     void Complete(System::Net::HttpListenerContext* context);
     // System.Void Complete(System.Net.HttpListenerContext context, System.Boolean synch)
-    // Offset: 0x16358C8
+    // Offset: 0x164C5D8
     void Complete(System::Net::HttpListenerContext* context, bool synch);
     // System.Net.HttpListenerContext GetContext()
-    // Offset: 0x163626C
+    // Offset: 0x164CF7C
     System::Net::HttpListenerContext* GetContext();
     // public System.Object get_AsyncState()
-    // Offset: 0x16441D8
+    // Offset: 0x165AEE8
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1636168
+    // Offset: 0x164CE78
     System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x16441EC
+    // Offset: 0x165AEFC
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x16360BC
+    // Offset: 0x164CDCC
     bool get_IsCompleted();
     // static private System.Void .cctor()
-    // Offset: 0x1644200
+    // Offset: 0x165AF10
     static void _cctor();
   }; // System.Net.ListenerAsyncResult
   #pragma pack(pop)
   static check_size<sizeof(ListenerAsyncResult), 81 + sizeof(bool)> __System_Net_ListenerAsyncResultSizeCheck;
   static_assert(sizeof(ListenerAsyncResult) == 0x52);
+  // Writing MetadataGetter for method: ListenerAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&ListenerAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&ListenerAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerAsyncResult::*)(System::Exception*)>(&ListenerAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::InvokeCallback
+  // Il2CppName: InvokeCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&ListenerAsyncResult::InvokeCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "InvokeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerAsyncResult::*)(System::Net::HttpListenerContext*)>(&ListenerAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListenerAsyncResult::*)(System::Net::HttpListenerContext*, bool)>(&ListenerAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::GetContext
+  // Il2CppName: GetContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerContext* (ListenerAsyncResult::*)()>(&ListenerAsyncResult::GetContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "GetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::get_AsyncState
+  // Il2CppName: get_AsyncState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ListenerAsyncResult::*)()>(&ListenerAsyncResult::get_AsyncState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::get_AsyncWaitHandle
+  // Il2CppName: get_AsyncWaitHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (ListenerAsyncResult::*)()>(&ListenerAsyncResult::get_AsyncWaitHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::get_CompletedSynchronously
+  // Il2CppName: get_CompletedSynchronously
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListenerAsyncResult::*)()>(&ListenerAsyncResult::get_CompletedSynchronously)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::get_IsCompleted
+  // Il2CppName: get_IsCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ListenerAsyncResult::*)()>(&ListenerAsyncResult::get_IsCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ListenerAsyncResult::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ListenerAsyncResult::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListenerAsyncResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerAsyncResult*, "System.Net", "ListenerAsyncResult");

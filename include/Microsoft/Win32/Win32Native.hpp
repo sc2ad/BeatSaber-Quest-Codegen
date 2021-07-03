@@ -22,13 +22,29 @@ namespace Microsoft::Win32 {
     // Creating value type constructor for type: Win32Native
     Win32Native() noexcept {}
     // static public System.String GetMessage(System.Int32 hr)
-    // Offset: 0x1A3BF40
+    // Offset: 0x1A55C50
     static ::Il2CppString* GetMessage(int hr);
     // static public System.Int32 MakeHRFromErrorCode(System.Int32 errorCode)
-    // Offset: 0x1A3BFBC
+    // Offset: 0x1A55CCC
     static int MakeHRFromErrorCode(int errorCode);
   }; // Microsoft.Win32.Win32Native
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Win32Native::GetMessage
+  // Il2CppName: GetMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Win32Native::GetMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Win32Native*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Win32Native::MakeHRFromErrorCode
+  // Il2CppName: MakeHRFromErrorCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Win32Native::MakeHRFromErrorCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Win32Native*), "MakeHRFromErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native*, "Microsoft.Win32", "Win32Native");

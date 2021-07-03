@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE23DD8
+    // [SpaceAttribute] Offset: 0xE23DB4
     // private SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE23E10
+    // [CompilerGeneratedAttribute] Offset: 0xE23DEC
     // private System.Action`1<System.Int32> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x28
@@ -99,40 +99,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10AA684
+    // Offset: 0x10AD974
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x10AA728
+    // Offset: 0x10ADA18
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x10AA7CC
+    // Offset: 0x10ADABC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10AA860
+    // Offset: 0x10ADB50
     void OnDestroy();
     // public System.Void SetOverrideSongPacks(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlaySongPacksOverride)
-    // Offset: 0x10AA93C
+    // Offset: 0x10ADC2C
     void SetOverrideSongPacks(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride);
     // public System.String GetSelectedSerializedName()
-    // Offset: 0x10AA944
+    // Offset: 0x10ADC34
     ::Il2CppString* GetSelectedSerializedName();
     // public System.Void SelectCellWithSerializedName(System.String serializedName)
-    // Offset: 0x10AAD14
+    // Offset: 0x10AE004
     void SelectCellWithSerializedName(::Il2CppString* serializedName);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x10AAE64
+    // Offset: 0x10AE154
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void LazyInit()
-    // Offset: 0x10AA9CC
+    // Offset: 0x10ADCBC
     void LazyInit();
     // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_0(System.String serializedName)
-    // Offset: 0x10AAEE0
+    // Offset: 0x10AE1D0
     GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_0(::Il2CppString* serializedName);
     // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_1(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack pack)
-    // Offset: 0x10AAF88
+    // Offset: 0x10AE278
     GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_1(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x10AAED8
+    // Offset: 0x10AE1C8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -148,5 +148,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(QuickPlaySongPacksDropdown), 64 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>*)> __GlobalNamespace_QuickPlaySongPacksDropdownSizeCheck;
   static_assert(sizeof(QuickPlaySongPacksDropdown) == 0x48);
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::add_didSelectCellWithIdxEvent
+  // Il2CppName: add_didSelectCellWithIdxEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)(System::Action_1<int>*)>(&QuickPlaySongPacksDropdown::add_didSelectCellWithIdxEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::remove_didSelectCellWithIdxEvent
+  // Il2CppName: remove_didSelectCellWithIdxEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)(System::Action_1<int>*)>(&QuickPlaySongPacksDropdown::remove_didSelectCellWithIdxEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)()>(&QuickPlaySongPacksDropdown::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)()>(&QuickPlaySongPacksDropdown::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::SetOverrideSongPacks
+  // Il2CppName: SetOverrideSongPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*)>(&QuickPlaySongPacksDropdown::SetOverrideSongPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "SetOverrideSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::GetSelectedSerializedName
+  // Il2CppName: GetSelectedSerializedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (QuickPlaySongPacksDropdown::*)()>(&QuickPlaySongPacksDropdown::GetSelectedSerializedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "GetSelectedSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::SelectCellWithSerializedName
+  // Il2CppName: SelectCellWithSerializedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)(::Il2CppString*)>(&QuickPlaySongPacksDropdown::SelectCellWithSerializedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "SelectCellWithSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
+  // Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)(HMUI::DropdownWithTableView*, int)>(&QuickPlaySongPacksDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::LazyInit
+  // Il2CppName: LazyInit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)()>(&QuickPlaySongPacksDropdown::LazyInit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$LazyInit$b__15_0
+  // Il2CppName: <LazyInit>b__15_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* (QuickPlaySongPacksDropdown::*)(::Il2CppString*)>(&QuickPlaySongPacksDropdown::$LazyInit$b__15_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "<LazyInit>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::$LazyInit$b__15_1
+  // Il2CppName: <LazyInit>b__15_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* (QuickPlaySongPacksDropdown::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*)>(&QuickPlaySongPacksDropdown::$LazyInit$b__15_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), "<LazyInit>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>()});
+    }
+  };
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)()>(&QuickPlaySongPacksDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::*)()>(&QuickPlaySongPacksDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown*, "", "QuickPlaySongPacksDropdown");

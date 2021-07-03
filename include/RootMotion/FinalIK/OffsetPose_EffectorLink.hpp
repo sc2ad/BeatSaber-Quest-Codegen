@@ -61,10 +61,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: EffectorLink
     EffectorLink(RootMotion::FinalIK::FullBodyBipedEffector effector_ = {}, UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 pin_ = {}, UnityEngine::Vector3 pinWeight_ = {}) noexcept : effector{effector_}, offset{offset_}, pin{pin_}, pinWeight{pinWeight_} {}
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
-    // Offset: 0x1A87F24
+    // Offset: 0x1AA1C34
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
-    // Offset: 0x1A88374
+    // Offset: 0x1AA2084
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,5 +76,27 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
   static_assert(sizeof(OffsetPose::EffectorLink) == 0x38);
+  // Writing MetadataGetter for method: OffsetPose::EffectorLink::Apply
+  // Il2CppName: Apply
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetPose::EffectorLink::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float, UnityEngine::Quaternion)>(&OffsetPose::EffectorLink::Apply)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OffsetPose::EffectorLink*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: OffsetPose::EffectorLink::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetPose::EffectorLink::*)()>(&OffsetPose::EffectorLink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OffsetPose::EffectorLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetPose::EffectorLink::*)()>(&OffsetPose::EffectorLink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OffsetPose::EffectorLink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");

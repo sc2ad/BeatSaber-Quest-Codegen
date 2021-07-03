@@ -61,21 +61,21 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* audioLatency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1D118
+    // [InjectAttribute] Offset: 0xE1D0F4
     // private readonly MultiplayerConnectedPlayerSongTimeSyncController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1D128
+    // [InjectAttribute] Offset: 0xE1D104
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D138
+    // [CompilerGeneratedAttribute] Offset: 0xE1D114
     // private System.Single <songTime>k__BackingField
     // Size: 0x4
     // Offset: 0x40
@@ -115,34 +115,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_songTime()
-    // Offset: 0x114A46C
+    // Offset: 0x114FCD4
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x114A474
+    // Offset: 0x114FCDC
     void set_songTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x114A47C
+    // Offset: 0x114FCE4
     float get_songEndTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x114A488
+    // Offset: 0x114FCF0
     bool get_isReady();
     // protected System.Void Start()
-    // Offset: 0x114A490
+    // Offset: 0x114FCF8
     void Start();
     // protected System.Void Update()
-    // Offset: 0x114A49C
+    // Offset: 0x114FD04
     void Update();
     // public System.Void StartSong(System.Single songStartSyncTime)
-    // Offset: 0x1146594
+    // Offset: 0x114BDFC
     void StartSong(float songStartSyncTime);
     // public System.Void SetConnectedPlayerSongTime(System.Single syncTime, System.Single songTime)
-    // Offset: 0x114942C
+    // Offset: 0x114EC94
     void SetConnectedPlayerSongTime(float syncTime, float songTime);
     // public System.Void StopSong()
-    // Offset: 0x114686C
+    // Offset: 0x114C0D4
     void StopSong();
     // public System.Void .ctor()
-    // Offset: 0x114A628
+    // Offset: 0x114FE90
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -158,5 +158,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerConnectedPlayerSongTimeSyncController), 77 + sizeof(bool)> __GlobalNamespace_MultiplayerConnectedPlayerSongTimeSyncControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerSongTimeSyncController) == 0x4E);
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::get_songTime
+  // Il2CppName: get_songTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::get_songTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "get_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::set_songTime
+  // Il2CppName: set_songTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)(float)>(&MultiplayerConnectedPlayerSongTimeSyncController::set_songTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "set_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::get_songEndTime
+  // Il2CppName: get_songEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::get_songEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::get_isReady
+  // Il2CppName: get_isReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::get_isReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::StartSong
+  // Il2CppName: StartSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)(float)>(&MultiplayerConnectedPlayerSongTimeSyncController::StartSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::SetConnectedPlayerSongTime
+  // Il2CppName: SetConnectedPlayerSongTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)(float, float)>(&MultiplayerConnectedPlayerSongTimeSyncController::SetConnectedPlayerSongTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "SetConnectedPlayerSongTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::StopSong
+  // Il2CppName: StopSong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::StopSong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerConnectedPlayerSongTimeSyncController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerSongTimeSyncController::*)()>(&MultiplayerConnectedPlayerSongTimeSyncController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerSongTimeSyncController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*, "", "MultiplayerConnectedPlayerSongTimeSyncController");

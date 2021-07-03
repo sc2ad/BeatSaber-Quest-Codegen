@@ -33,7 +33,7 @@ namespace System::IO {
     // Creating value type constructor for type: NullStreamReader
     NullStreamReader() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x1943FD4
+    // Offset: 0x195ACE4
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::.ctor()
     // Base method: System.Void TextReader::.ctor()
@@ -45,51 +45,137 @@ namespace System::IO {
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader::NullStreamReader*, creationType>()));
     }
     // public override System.IO.Stream get_BaseStream()
-    // Offset: 0x1944074
+    // Offset: 0x195AD84
     // Implemented from: System.IO.StreamReader
     // Base method: System.IO.Stream StreamReader::get_BaseStream()
     System::IO::Stream* get_BaseStream();
     // public override System.Text.Encoding get_CurrentEncoding()
-    // Offset: 0x19440DC
+    // Offset: 0x195ADEC
     // Implemented from: System.IO.StreamReader
     // Base method: System.Text.Encoding StreamReader::get_CurrentEncoding()
     System::Text::Encoding* get_CurrentEncoding();
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x19440E4
+    // Offset: 0x195ADF4
     // Implemented from: System.IO.StreamReader
     // Base method: System.Void StreamReader::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Int32 Peek()
-    // Offset: 0x19440E8
+    // Offset: 0x195ADF8
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Peek()
     int Peek();
     // public override System.Int32 Read()
-    // Offset: 0x19440F0
+    // Offset: 0x195AE00
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read()
     int Read();
     // public override System.Int32 Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x19440F8
+    // Offset: 0x195AE08
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
     int Read(::Array<::Il2CppChar>* buffer, int index, int count);
     // public override System.String ReadLine()
-    // Offset: 0x1944100
+    // Offset: 0x195AE10
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadLine()
     ::Il2CppString* ReadLine();
     // public override System.String ReadToEnd()
-    // Offset: 0x1944108
+    // Offset: 0x195AE18
     // Implemented from: System.IO.StreamReader
     // Base method: System.String StreamReader::ReadToEnd()
     ::Il2CppString* ReadToEnd();
     // override System.Int32 ReadBuffer()
-    // Offset: 0x1944158
+    // Offset: 0x195AE68
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::ReadBuffer()
     int ReadBuffer();
   }; // System.IO.StreamReader/NullStreamReader
   #pragma pack(pop)
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::get_BaseStream
+  // Il2CppName: get_BaseStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::get_BaseStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "get_BaseStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::get_CurrentEncoding
+  // Il2CppName: get_CurrentEncoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::get_CurrentEncoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "get_CurrentEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamReader::NullStreamReader::*)(bool)>(&StreamReader::NullStreamReader::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::Peek
+  // Il2CppName: Peek
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::Peek)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StreamReader::NullStreamReader::*)(::Array<::Il2CppChar>*, int, int)>(&StreamReader::NullStreamReader::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::ReadLine
+  // Il2CppName: ReadLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::ReadLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::ReadToEnd
+  // Il2CppName: ReadToEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::ReadToEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StreamReader::NullStreamReader::ReadBuffer
+  // Il2CppName: ReadBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StreamReader::NullStreamReader::*)()>(&StreamReader::NullStreamReader::ReadBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StreamReader::NullStreamReader*), "ReadBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader::NullStreamReader*, "System.IO", "StreamReader/NullStreamReader");

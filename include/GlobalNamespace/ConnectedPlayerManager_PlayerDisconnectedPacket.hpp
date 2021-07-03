@@ -60,22 +60,22 @@ namespace GlobalNamespace {
       return disconnectedReason;
     }
     // static public PacketPool`1<ConnectedPlayerManager/PlayerDisconnectedPacket> get_pool()
-    // Offset: 0x130A5D0
+    // Offset: 0x13252E0
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket*>* get_pool();
     // public ConnectedPlayerManager/PlayerDisconnectedPacket Init(DisconnectedReason disconnectedReason)
-    // Offset: 0x130BF28
+    // Offset: 0x1326C38
     GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket* Init(GlobalNamespace::DisconnectedReason disconnectedReason);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x130D7A8
+    // Offset: 0x13284B8
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x130D7BC
+    // Offset: 0x13284CC
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x130CBF0
+    // Offset: 0x1327900
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x130D7E8
+    // Offset: 0x13284F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ConnectedPlayerManager::PlayerDisconnectedPacket), 16 + sizeof(GlobalNamespace::DisconnectedReason)> __GlobalNamespace_ConnectedPlayerManager_PlayerDisconnectedPacketSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager::PlayerDisconnectedPacket) == 0x14);
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerDisconnectedPacket::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket*>* (*)()>(&ConnectedPlayerManager::PlayerDisconnectedPacket::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerDisconnectedPacket::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket* (ConnectedPlayerManager::PlayerDisconnectedPacket::*)(GlobalNamespace::DisconnectedReason)>(&ConnectedPlayerManager::PlayerDisconnectedPacket::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerDisconnectedPacket::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerDisconnectedPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectedPlayerManager::PlayerDisconnectedPacket::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerDisconnectedPacket::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerDisconnectedPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectedPlayerManager::PlayerDisconnectedPacket::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerDisconnectedPacket::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerDisconnectedPacket::*)()>(&ConnectedPlayerManager::PlayerDisconnectedPacket::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConnectedPlayerManager::PlayerDisconnectedPacket::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerDisconnectedPacket::*)()>(&ConnectedPlayerManager::PlayerDisconnectedPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerDisconnectedPacket::*)()>(&ConnectedPlayerManager::PlayerDisconnectedPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerDisconnectedPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerDisconnectedPacket*, "", "ConnectedPlayerManager/PlayerDisconnectedPacket");

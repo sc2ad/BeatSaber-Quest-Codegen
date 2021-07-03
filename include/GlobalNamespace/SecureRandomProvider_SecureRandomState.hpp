@@ -60,16 +60,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kBufferSize
     static void _set_kBufferSize(int value);
     // public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x23657EC
+    // Offset: 0x237A948
     void GetBytes(::Array<uint8_t>* buffer, int offset, int length);
     // public System.Byte GetByte()
-    // Offset: 0x2365920
+    // Offset: 0x237AA7C
     uint8_t GetByte();
     // private System.Void FillBuffer()
-    // Offset: 0x2365BF0
+    // Offset: 0x237AD4C
     void FillBuffer();
     // public System.Void .ctor()
-    // Offset: 0x2365B50
+    // Offset: 0x237ACAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,5 +81,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SecureRandomProvider::SecureRandomState), 40 + sizeof(int)> __GlobalNamespace_SecureRandomProvider_SecureRandomStateSizeCheck;
   static_assert(sizeof(SecureRandomProvider::SecureRandomState) == 0x2C);
+  // Writing MetadataGetter for method: SecureRandomProvider::SecureRandomState::GetBytes
+  // Il2CppName: GetBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecureRandomProvider::SecureRandomState::*)(::Array<uint8_t>*, int, int)>(&SecureRandomProvider::SecureRandomState::GetBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureRandomProvider::SecureRandomState*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SecureRandomProvider::SecureRandomState::GetByte
+  // Il2CppName: GetByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (SecureRandomProvider::SecureRandomState::*)()>(&SecureRandomProvider::SecureRandomState::GetByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureRandomProvider::SecureRandomState*), "GetByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SecureRandomProvider::SecureRandomState::FillBuffer
+  // Il2CppName: FillBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecureRandomProvider::SecureRandomState::*)()>(&SecureRandomProvider::SecureRandomState::FillBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureRandomProvider::SecureRandomState*), "FillBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SecureRandomProvider::SecureRandomState::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecureRandomProvider::SecureRandomState::*)()>(&SecureRandomProvider::SecureRandomState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureRandomProvider::SecureRandomState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecureRandomProvider::SecureRandomState::*)()>(&SecureRandomProvider::SecureRandomState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SecureRandomProvider::SecureRandomState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");

@@ -77,33 +77,95 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HMTask
     HMTask(System::Threading::Thread* thread_ = {}, System::Action* job_ = {}, System::Action* finishCallback_ = {}, bool canceled_ = {}, bool started_ = {}, bool finished_ = {}) noexcept : thread{thread_}, job{job_}, finishCallback{finishCallback_}, canceled{canceled_}, started{started_}, finished{finished_} {}
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
-    // Offset: 0x1228940
+    // Offset: 0x12450D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMTask* New_ctor(System::Action* job, System::Action* finishCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask*, creationType>(job, finishCallback)));
     }
     // public System.Void Run()
-    // Offset: 0x1228A50
+    // Offset: 0x12451E8
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
-    // Offset: 0x122E6D8
+    // Offset: 0x124AD30
     System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
-    // Offset: 0x122E774
+    // Offset: 0x124ADCC
     void RunJob();
     // public System.Void Cancel()
-    // Offset: 0x122E848
+    // Offset: 0x124AEA0
     void Cancel();
     // private System.Boolean <RunCoroutine>b__8_0()
-    // Offset: 0x122E854
+    // Offset: 0x124AEAC
     bool $RunCoroutine$b__8_0();
     // private System.Void <RunJob>b__9_0()
-    // Offset: 0x122E85C
+    // Offset: 0x124AEB4
     void $RunJob$b__9_0();
   }; // HMTask
   #pragma pack(pop)
   static check_size<sizeof(HMTask), 42 + sizeof(bool)> __GlobalNamespace_HMTaskSizeCheck;
   static_assert(sizeof(HMTask) == 0x2B);
+  // Writing MetadataGetter for method: HMTask::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMTask::*)(System::Action*, System::Action*)>(&HMTask::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMTask::*)(System::Action*, System::Action*)>(&HMTask::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HMTask::Run
+  // Il2CppName: Run
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMTask::*)()>(&HMTask::Run)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HMTask::RunCoroutine
+  // Il2CppName: RunCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMTask::*)()>(&HMTask::RunCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), "RunCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HMTask::RunJob
+  // Il2CppName: RunJob
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMTask::*)()>(&HMTask::RunJob)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), "RunJob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HMTask::Cancel
+  // Il2CppName: Cancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMTask::*)()>(&HMTask::Cancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HMTask::$RunCoroutine$b__8_0
+  // Il2CppName: <RunCoroutine>b__8_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMTask::*)()>(&HMTask::$RunCoroutine$b__8_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), "<RunCoroutine>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HMTask::$RunJob$b__9_0
+  // Il2CppName: <RunJob>b__9_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMTask::*)()>(&HMTask::$RunJob$b__9_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HMTask*), "<RunJob>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask*, "", "HMTask");

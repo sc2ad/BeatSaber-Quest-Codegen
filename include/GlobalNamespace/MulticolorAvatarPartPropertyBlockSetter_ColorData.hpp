@@ -41,16 +41,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorData
     ColorData(UnityEngine::Color defaultColor_ = {}, float darkerColorMultiplier_ = {}, float whiteBoost_ = {}) noexcept : defaultColor{defaultColor_}, darkerColorMultiplier{darkerColorMultiplier_}, whiteBoost{whiteBoost_} {}
     // public UnityEngine.Color get_defaultColor()
-    // Offset: 0x113FB98
+    // Offset: 0x1145400
     UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
-    // Offset: 0x113FBA4
+    // Offset: 0x114540C
     float get_darkerColorMultiplier();
     // public System.Single get_whiteBoost()
-    // Offset: 0x113FBAC
+    // Offset: 0x1145414
     float get_whiteBoost();
     // public System.Void .ctor()
-    // Offset: 0x113FBB4
+    // Offset: 0x114541C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,5 +62,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MulticolorAvatarPartPropertyBlockSetter::ColorData), 36 + sizeof(float)> __GlobalNamespace_MulticolorAvatarPartPropertyBlockSetter_ColorDataSizeCheck;
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter::ColorData) == 0x28);
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor
+  // Il2CppName: get_defaultColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_defaultColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::ColorData::get_darkerColorMultiplier
+  // Il2CppName: get_darkerColorMultiplier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&MulticolorAvatarPartPropertyBlockSetter::ColorData::get_darkerColorMultiplier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_darkerColorMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::ColorData::get_whiteBoost
+  // Il2CppName: get_whiteBoost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&MulticolorAvatarPartPropertyBlockSetter::ColorData::get_whiteBoost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_whiteBoost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::ColorData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&MulticolorAvatarPartPropertyBlockSetter::ColorData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter::ColorData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&MulticolorAvatarPartPropertyBlockSetter::ColorData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter::ColorData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");

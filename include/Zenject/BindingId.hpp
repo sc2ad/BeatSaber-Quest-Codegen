@@ -55,36 +55,36 @@ namespace Zenject {
       return *reinterpret_cast<System::IEquatable_1<Zenject::BindingId>*>(this);
     }
     // public System.Void .ctor(System.Type type, System.Object identifier)
-    // Offset: 0xEE9F58
+    // Offset: 0xEEAF10
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  BindingId(System::Type* type, ::Il2CppObject* identifier)
     // public System.Type get_Type()
-    // Offset: 0xEE9F60
+    // Offset: 0xEEAF18
     System::Type* get_Type();
     // public System.Void set_Type(System.Type value)
-    // Offset: 0xEE9F68
+    // Offset: 0xEEAF20
     void set_Type(System::Type* value);
     // public System.Object get_Identifier()
-    // Offset: 0xEE9F70
+    // Offset: 0xEEAF28
     ::Il2CppObject* get_Identifier();
     // public System.Void set_Identifier(System.Object value)
-    // Offset: 0xEE9F78
+    // Offset: 0xEEAF30
     void set_Identifier(::Il2CppObject* value);
     // public System.Boolean Equals(Zenject.BindingId that)
-    // Offset: 0xEE9F98
+    // Offset: 0xEEAF50
     bool Equals(Zenject::BindingId that);
     // public override System.String ToString()
-    // Offset: 0xEE9F80
+    // Offset: 0xEEAF38
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEE9F88
+    // Offset: 0xEEAF40
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0xEE9F90
+    // Offset: 0xEEAF48
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
@@ -93,10 +93,104 @@ namespace Zenject {
   static check_size<sizeof(BindingId), 8 + sizeof(::Il2CppObject*)> __Zenject_BindingIdSizeCheck;
   static_assert(sizeof(BindingId) == 0x10);
   // static public System.Boolean op_Equality(Zenject.BindingId left, Zenject.BindingId right)
-  // Offset: 0x136E93C
+  // Offset: 0x138964C
   bool operator ==(const Zenject::BindingId& left, const Zenject::BindingId& right);
   // static public System.Boolean op_Inequality(Zenject.BindingId left, Zenject.BindingId right)
-  // Offset: 0x136EA08
+  // Offset: 0x1389718
   bool operator !=(const Zenject::BindingId& left, const Zenject::BindingId& right);
+  // Writing MetadataGetter for method: BindingId::BindingId
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindingId::*)(System::Type*, ::Il2CppObject*)>(&BindingId::BindingId<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindingId::*)(System::Type*, ::Il2CppObject*)>(&BindingId::BindingId<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::get_Type
+  // Il2CppName: get_Type
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (BindingId::*)()>(&BindingId::get_Type)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::set_Type
+  // Il2CppName: set_Type
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindingId::*)(System::Type*)>(&BindingId::set_Type)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::get_Identifier
+  // Il2CppName: get_Identifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (BindingId::*)()>(&BindingId::get_Identifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::set_Identifier
+  // Il2CppName: set_Identifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BindingId::*)(::Il2CppObject*)>(&BindingId::set_Identifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "set_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BindingId::*)(Zenject::BindingId)>(&BindingId::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BindingId::*)()>(&BindingId::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BindingId::*)()>(&BindingId::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BindingId::*)(::Il2CppObject*)>(&BindingId::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::operator ==
+  // Il2CppName: op_Equality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const Zenject::BindingId&, const Zenject::BindingId&)>(&BindingId::operator ==)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const Zenject::BindingId&>(), ::il2cpp_utils::ExtractIndependentType<const Zenject::BindingId&>()});
+    }
+  };
+  // Writing MetadataGetter for method: BindingId::operator !=
+  // Il2CppName: op_Inequality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const Zenject::BindingId&, const Zenject::BindingId&)>(&BindingId::operator !=)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BindingId), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const Zenject::BindingId&>(), ::il2cpp_utils::ExtractIndependentType<const Zenject::BindingId&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");

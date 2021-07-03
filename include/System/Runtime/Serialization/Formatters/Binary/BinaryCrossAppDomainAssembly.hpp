@@ -38,13 +38,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: BinaryCrossAppDomainAssembly
     BinaryCrossAppDomainAssembly(int assemId_ = {}, int assemblyIndex_ = {}) noexcept : assemId{assemId_}, assemblyIndex{assemblyIndex_} {}
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
-    // Offset: 0x15EF244
+    // Offset: 0x1607F54
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
     // public System.Void Dump()
-    // Offset: 0x15EF2A4
+    // Offset: 0x1607FB4
     void Dump();
     // System.Void .ctor()
-    // Offset: 0x15EF23C
+    // Offset: 0x1607F4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,5 +56,35 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   #pragma pack(pop)
   static check_size<sizeof(BinaryCrossAppDomainAssembly), 20 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_BinaryCrossAppDomainAssemblySizeCheck;
   static_assert(sizeof(BinaryCrossAppDomainAssembly) == 0x18);
+  // Writing MetadataGetter for method: BinaryCrossAppDomainAssembly::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryCrossAppDomainAssembly::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&BinaryCrossAppDomainAssembly::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BinaryCrossAppDomainAssembly*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BinaryCrossAppDomainAssembly::Dump
+  // Il2CppName: Dump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryCrossAppDomainAssembly::*)()>(&BinaryCrossAppDomainAssembly::Dump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BinaryCrossAppDomainAssembly*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BinaryCrossAppDomainAssembly::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryCrossAppDomainAssembly::*)()>(&BinaryCrossAppDomainAssembly::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BinaryCrossAppDomainAssembly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryCrossAppDomainAssembly::*)()>(&BinaryCrossAppDomainAssembly::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BinaryCrossAppDomainAssembly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainAssembly");

@@ -85,40 +85,128 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly UnityEngine.Vector2 k_Billboard3
     static void _set_k_Billboard3(UnityEngine::Vector2 value);
     // static System.Void CreateFaceMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x1AACA60
+    // Offset: 0x1AC5770
     static void CreateFaceMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x1AACBB8
+    // Offset: 0x1AC58C8
     static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, UnityEngine.ProBuilder.Edge[] edges)
-    // Offset: 0x1AACF38
+    // Offset: 0x1AC5C48
     static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, ::Array<UnityEngine::ProBuilder::Edge>* edges);
     // static System.Void CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x1AAD18C
+    // Offset: 0x1AC5E9C
     static void CreateVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x1AAD330
+    // Offset: 0x1AC6040
     static void CreateVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void CreatePointMesh(UnityEngine.Vector3[] positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Mesh target)
-    // Offset: 0x1AAD414
+    // Offset: 0x1AC6124
     static void CreatePointMesh(::Array<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Mesh* target);
     // static System.Void CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, UnityEngine.Mesh target)
-    // Offset: 0x1AADC24
+    // Offset: 0x1AC6934
     static void CreatePointBillboardMesh(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, UnityEngine::Mesh* target);
     // static private System.Void CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Mesh target)
-    // Offset: 0x1AAD5A4
+    // Offset: 0x1AC62B4
     static void CreatePointBillboardMesh(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
-    // Offset: 0x1AAE220
+    // Offset: 0x1AC6F30
     static void CreateEdgeBillboardMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeBillboardMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, System.Collections.Generic.ICollection`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x1AAE82C
+    // Offset: 0x1AC753C
     static void CreateEdgeBillboardMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, System::Collections::Generic::ICollection_1<UnityEngine::ProBuilder::Edge>* edges);
     // static private System.Void .cctor()
-    // Offset: 0x1AAF0A0
+    // Offset: 0x1AC7DB0
     static void _cctor();
   }; // UnityEngine.ProBuilder.MeshHandles
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MeshHandles::CreateFaceMesh
+  // Il2CppName: CreateFaceMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*)>(&MeshHandles::CreateFaceMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateFaceMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreateEdgeMesh
+  // Il2CppName: CreateEdgeMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*)>(&MeshHandles::CreateEdgeMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateEdgeMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreateEdgeMesh
+  // Il2CppName: CreateEdgeMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, ::Array<UnityEngine::ProBuilder::Edge>*)>(&MeshHandles::CreateEdgeMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateEdgeMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreateVertexMesh
+  // Il2CppName: CreateVertexMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*)>(&MeshHandles::CreateVertexMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateVertexMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreateVertexMesh
+  // Il2CppName: CreateVertexMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, System::Collections::Generic::IList_1<int>*)>(&MeshHandles::CreateVertexMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateVertexMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreatePointMesh
+  // Il2CppName: CreatePointMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*, UnityEngine::Mesh*)>(&MeshHandles::CreatePointMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreatePointMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreatePointBillboardMesh
+  // Il2CppName: CreatePointBillboardMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, UnityEngine::Mesh*)>(&MeshHandles::CreatePointBillboardMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreatePointBillboardMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreatePointBillboardMesh
+  // Il2CppName: CreatePointBillboardMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*, UnityEngine::Mesh*)>(&MeshHandles::CreatePointBillboardMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreatePointBillboardMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreateEdgeBillboardMesh
+  // Il2CppName: CreateEdgeBillboardMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*)>(&MeshHandles::CreateEdgeBillboardMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateEdgeBillboardMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::CreateEdgeBillboardMesh
+  // Il2CppName: CreateEdgeBillboardMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, System::Collections::Generic::ICollection_1<UnityEngine::ProBuilder::Edge>*)>(&MeshHandles::CreateEdgeBillboardMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), "CreateEdgeBillboardMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::ICollection_1<UnityEngine::ProBuilder::Edge>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MeshHandles::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MeshHandles::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MeshHandles*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandles*, "UnityEngine.ProBuilder", "MeshHandles");

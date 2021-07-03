@@ -27,10 +27,10 @@ namespace System::Text::RegularExpressions {
       return *reinterpret_cast<System::Collections::Generic::IComparer_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*>(this);
     }
     // public System.Int32 Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange x, System.Text.RegularExpressions.RegexCharClass/SingleRange y)
-    // Offset: 0x1975CE8
+    // Offset: 0x198C9F8
     int Compare(System::Text::RegularExpressions::RegexCharClass::SingleRange* x, System::Text::RegularExpressions::RegexCharClass::SingleRange* y);
     // public System.Void .ctor()
-    // Offset: 0x1975D24
+    // Offset: 0x198CA34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,5 +40,27 @@ namespace System::Text::RegularExpressions {
     }
   }; // System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: RegexCharClass::SingleRangeComparer::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexCharClass::SingleRangeComparer::*)(System::Text::RegularExpressions::RegexCharClass::SingleRange*, System::Text::RegularExpressions::RegexCharClass::SingleRange*)>(&RegexCharClass::SingleRangeComparer::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRangeComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCharClass::SingleRange*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexCharClass::SingleRange*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RegexCharClass::SingleRangeComparer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCharClass::SingleRangeComparer::*)()>(&RegexCharClass::SingleRangeComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRangeComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCharClass::SingleRangeComparer::*)()>(&RegexCharClass::SingleRangeComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRangeComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");

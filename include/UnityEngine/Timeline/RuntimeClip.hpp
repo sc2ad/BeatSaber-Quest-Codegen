@@ -59,52 +59,52 @@ namespace UnityEngine::Timeline {
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x17BFCC4
+    // Offset: 0x17D89D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeClip* New_ctor(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::RuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeClip*, creationType>(clip, clipPlayable, parentMixer)));
     }
     // private System.Void Create(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Playables.Playable clipPlayable, UnityEngine.Playables.Playable parentMixer)
-    // Offset: 0x17CC5D0
+    // Offset: 0x17E52E0
     void Create(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer);
     // public UnityEngine.Timeline.TimelineClip get_clip()
-    // Offset: 0x17CC65C
+    // Offset: 0x17E536C
     UnityEngine::Timeline::TimelineClip* get_clip();
     // public UnityEngine.Playables.Playable get_mixer()
-    // Offset: 0x17CC664
+    // Offset: 0x17E5374
     UnityEngine::Playables::Playable get_mixer();
     // public UnityEngine.Playables.Playable get_playable()
-    // Offset: 0x17CC670
+    // Offset: 0x17E5380
     UnityEngine::Playables::Playable get_playable();
     // public System.Void SetTime(System.Double time)
-    // Offset: 0x17CC790
+    // Offset: 0x17E54A0
     void SetTime(double time);
     // public System.Void SetDuration(System.Double duration)
-    // Offset: 0x17CC7F0
+    // Offset: 0x17E5500
     void SetDuration(double duration);
     // public override System.Double get_start()
-    // Offset: 0x17CC590
+    // Offset: 0x17E52A0
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_start()
     double get_start();
     // public override System.Double get_duration()
-    // Offset: 0x17CC5AC
+    // Offset: 0x17E52BC
     // Implemented from: UnityEngine.Timeline.RuntimeClipBase
     // Base method: System.Double RuntimeClipBase::get_duration()
     double get_duration();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x17CC67C
+    // Offset: 0x17E538C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x17CC850
+    // Offset: 0x17E5560
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public override System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x17CCA50
+    // Offset: 0x17E5760
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
     void DisableAt(double localTime, double rootDuration, UnityEngine::Playables::FrameData frameData);
@@ -112,5 +112,107 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(RuntimeClip), 48 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_RuntimeClipSizeCheck;
   static_assert(sizeof(RuntimeClip) == 0x3C);
+  // Writing MetadataGetter for method: RuntimeClip::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable)>(&RuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable)>(&RuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::Create
+  // Il2CppName: Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable)>(&RuntimeClip::Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::get_clip
+  // Il2CppName: get_clip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (RuntimeClip::*)()>(&RuntimeClip::get_clip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::get_mixer
+  // Il2CppName: get_mixer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (RuntimeClip::*)()>(&RuntimeClip::get_mixer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "get_mixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::get_playable
+  // Il2CppName: get_playable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (RuntimeClip::*)()>(&RuntimeClip::get_playable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "get_playable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::SetTime
+  // Il2CppName: SetTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(double)>(&RuntimeClip::SetTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::SetDuration
+  // Il2CppName: SetDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(double)>(&RuntimeClip::SetDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "SetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::get_start
+  // Il2CppName: get_start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (RuntimeClip::*)()>(&RuntimeClip::get_start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::get_duration
+  // Il2CppName: get_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (RuntimeClip::*)()>(&RuntimeClip::get_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::set_enable
+  // Il2CppName: set_enable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(bool)>(&RuntimeClip::set_enable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::EvaluateAt
+  // Il2CppName: EvaluateAt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&RuntimeClip::EvaluateAt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeClip::DisableAt
+  // Il2CppName: DisableAt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&RuntimeClip::DisableAt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClip*, "UnityEngine.Timeline", "RuntimeClip");

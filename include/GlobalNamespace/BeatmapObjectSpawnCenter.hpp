@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: defaultDistnace and: spawnCenterDistanceWasFoundEvent
     char __padding1[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE18EB4
+    // [CompilerGeneratedAttribute] Offset: 0xE18E90
     // private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent
     // Size: 0x8
     // Offset: 0x28
@@ -71,25 +71,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_spawnCenterDistance()
-    // Offset: 0x107F43C
+    // Offset: 0x1109D98
     float get_spawnCenterDistance();
     // public System.Boolean get_spawnCenterDistanceWasFound()
-    // Offset: 0x107F444
+    // Offset: 0x1109DA0
     bool get_spawnCenterDistanceWasFound();
     // public System.Void add_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x107F44C
+    // Offset: 0x1109DA8
     void add_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Void remove_spawnCenterDistanceWasFoundEvent(System.Action`1<System.Single> value)
-    // Offset: 0x107F4F0
+    // Offset: 0x1109E4C
     void remove_spawnCenterDistanceWasFoundEvent(System::Action_1<float>* value);
     // public System.Single CalculateSpawnCenterPosition(System.Int32 numberOfPlayers)
-    // Offset: 0x107F594
+    // Offset: 0x1109EF0
     float CalculateSpawnCenterPosition(int numberOfPlayers);
     // private System.Void ReportAndSaveSpawnCenterDistance(System.Single distance)
-    // Offset: 0x107F6C0
+    // Offset: 0x110A01C
     void ReportAndSaveSpawnCenterDistance(float distance);
     // public System.Void .ctor()
-    // Offset: 0x107F740
+    // Offset: 0x110A09C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,5 +105,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectSpawnCenter), 52 + sizeof(float)> __GlobalNamespace_BeatmapObjectSpawnCenterSizeCheck;
   static_assert(sizeof(BeatmapObjectSpawnCenter) == 0x38);
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::get_spawnCenterDistance
+  // Il2CppName: get_spawnCenterDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::get_spawnCenterDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "get_spawnCenterDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound
+  // Il2CppName: get_spawnCenterDistanceWasFound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "get_spawnCenterDistanceWasFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent
+  // Il2CppName: add_spawnCenterDistanceWasFoundEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)(System::Action_1<float>*)>(&BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "add_spawnCenterDistanceWasFoundEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent
+  // Il2CppName: remove_spawnCenterDistanceWasFoundEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)(System::Action_1<float>*)>(&BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "remove_spawnCenterDistanceWasFoundEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition
+  // Il2CppName: CalculateSpawnCenterPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnCenter::*)(int)>(&BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "CalculateSpawnCenterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance
+  // Il2CppName: ReportAndSaveSpawnCenterDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)(float)>(&BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "ReportAndSaveSpawnCenterDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectSpawnCenter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter*, "", "BeatmapObjectSpawnCenter");

@@ -42,13 +42,13 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return digest;
     }
     // public System.Void Init(System.Byte[] password, System.Byte[] salt)
-    // Offset: 0x18A7AC0
+    // Offset: 0x18BF7D0
     void Init(::Array<uint8_t>* password, ::Array<uint8_t>* salt);
     // private System.Byte[] GenerateDerivedKey(System.Int32 bytesNeeded)
-    // Offset: 0x18A7ACC
+    // Offset: 0x18BF7DC
     ::Array<uint8_t>* GenerateDerivedKey(int bytesNeeded);
     // public System.Void .ctor()
-    // Offset: 0x18A7A4C
+    // Offset: 0x18BF75C
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: System.Void PbeParametersGenerator::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -58,22 +58,22 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return THROW_UNLESS((::il2cpp_utils::New<OpenSslPbeParametersGenerator*, creationType>()));
     }
     // public override System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x18A7AB4
+    // Offset: 0x18BF7C4
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: System.Void PbeParametersGenerator::Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
     void Init(::Array<uint8_t>* password, ::Array<uint8_t>* salt, int iterationCount);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
-    // Offset: 0x18A7E84
+    // Offset: 0x18BFB94
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
-    // Offset: 0x18A7F2C
+    // Offset: 0x18BFC3C
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize, int ivSize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
-    // Offset: 0x18A802C
+    // Offset: 0x18BFD3C
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedMacParameters(System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
@@ -81,5 +81,67 @@ namespace Org::BouncyCastle::Crypto::Generators {
   #pragma pack(pop)
   static check_size<sizeof(OpenSslPbeParametersGenerator), 40 + sizeof(Org::BouncyCastle::Crypto::IDigest*)> __Org_BouncyCastle_Crypto_Generators_OpenSslPbeParametersGeneratorSizeCheck;
   static_assert(sizeof(OpenSslPbeParametersGenerator) == 0x30);
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenSslPbeParametersGenerator::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&OpenSslPbeParametersGenerator::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::GenerateDerivedKey
+  // Il2CppName: GenerateDerivedKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (OpenSslPbeParametersGenerator::*)(int)>(&OpenSslPbeParametersGenerator::GenerateDerivedKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), "GenerateDerivedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenSslPbeParametersGenerator::*)()>(&OpenSslPbeParametersGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenSslPbeParametersGenerator::*)()>(&OpenSslPbeParametersGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenSslPbeParametersGenerator::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&OpenSslPbeParametersGenerator::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::GenerateDerivedParameters
+  // Il2CppName: GenerateDerivedParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (OpenSslPbeParametersGenerator::*)(::Il2CppString*, int)>(&OpenSslPbeParametersGenerator::GenerateDerivedParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), "GenerateDerivedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::GenerateDerivedParameters
+  // Il2CppName: GenerateDerivedParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (OpenSslPbeParametersGenerator::*)(::Il2CppString*, int, int)>(&OpenSslPbeParametersGenerator::GenerateDerivedParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), "GenerateDerivedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenSslPbeParametersGenerator::GenerateDerivedMacParameters
+  // Il2CppName: GenerateDerivedMacParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (OpenSslPbeParametersGenerator::*)(int)>(&OpenSslPbeParametersGenerator::GenerateDerivedMacParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenSslPbeParametersGenerator*), "GenerateDerivedMacParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "OpenSslPbeParametersGenerator");

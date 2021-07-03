@@ -62,21 +62,21 @@ namespace GlobalNamespace {
     struct $GetLeaderboardEntriesAsync$d__10;
     // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11
     struct $SendLevelScoreResultAsync$d__11;
-    // [InjectAttribute] Offset: 0xE18104
+    // [InjectAttribute] Offset: 0xE180E0
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
     // Offset: 0x10
     OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
     // Field size check
     static_assert(sizeof(OnlineServices::API::IUserLoginDtoDataSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE18114
+    // [InjectAttribute] Offset: 0xE180F0
     // private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
     // Size: 0x8
     // Offset: 0x18
     OnlineServices::API::IApiLeaderboardsModel* apiLeaderboardsModel;
     // Field size check
     static_assert(sizeof(OnlineServices::API::IApiLeaderboardsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE18124
+    // [CompilerGeneratedAttribute] Offset: 0xE18100
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x20
@@ -108,25 +108,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);
     }
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x105F498
+    // Offset: 0x10BA068
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x105F53C
+    // Offset: 0x10BA10C
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void LogoutAsync()
-    // Offset: 0x105F5E0
+    // Offset: 0x10BA1B0
     void LogoutAsync();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x105F694
+    // Offset: 0x10BA264
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x105F974
+    // Offset: 0x10BA544
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelResultsData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x105FAA4
+    // Offset: 0x10BA674
     System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelResultsData, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x105FBDC
+    // Offset: 0x10BA7AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -138,5 +138,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HTTPLeaderboardsModel), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_HTTPLeaderboardsModelSizeCheck;
   static_assert(sizeof(HTTPLeaderboardsModel) == 0x40);
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent
+  // Il2CppName: add_scoreForLeaderboardDidUploadEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent
+  // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&HTTPLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::LogoutAsync
+  // Il2CppName: LogoutAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsModel::*)()>(&HTTPLeaderboardsModel::LogoutAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::GetLeaderboardId
+  // Il2CppName: GetLeaderboardId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HTTPLeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&HTTPLeaderboardsModel::GetLeaderboardId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::GetLeaderboardEntriesAsync
+  // Il2CppName: GetLeaderboardEntriesAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* (HTTPLeaderboardsModel::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&HTTPLeaderboardsModel::GetLeaderboardEntriesAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::SendLevelScoreResultAsync
+  // Il2CppName: SendLevelScoreResultAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* (HTTPLeaderboardsModel::*)(OnlineServices::LevelScoreResultsData, System::Threading::CancellationToken)>(&HTTPLeaderboardsModel::SendLevelScoreResultAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: HTTPLeaderboardsModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsModel::*)()>(&HTTPLeaderboardsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsModel::*)()>(&HTTPLeaderboardsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel*, "", "HTTPLeaderboardsModel");

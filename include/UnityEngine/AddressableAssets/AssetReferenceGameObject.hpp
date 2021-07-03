@@ -27,7 +27,7 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: AssetReferenceGameObject
     AssetReferenceGameObject() noexcept {}
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x13D5DBC
+    // Offset: 0x13F0ACC
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)
@@ -37,5 +37,19 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceGameObject*, creationType>(guid)));
     }
   }; // UnityEngine.AddressableAssets.AssetReferenceGameObject
+  // Writing MetadataGetter for method: AssetReferenceGameObject::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReferenceGameObject::*)(::Il2CppString*)>(&AssetReferenceGameObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetReferenceGameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReferenceGameObject::*)(::Il2CppString*)>(&AssetReferenceGameObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetReferenceGameObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceGameObject*, "UnityEngine.AddressableAssets", "AssetReferenceGameObject");

@@ -28,16 +28,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BaseResultsEnvironmentController
     BaseResultsEnvironmentController() noexcept {}
     // public System.Void Activate(System.Boolean immediately)
-    // Offset: 0x119F324
+    // Offset: 0x11B93A8
     void Activate(bool immediately);
     // public System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x119F34C
+    // Offset: 0x11B93D0
     void Deactivate(bool immediately);
     // public System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
     void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // protected System.Void .ctor()
-    // Offset: 0x119F374
+    // Offset: 0x11B93F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -51,5 +51,43 @@ namespace GlobalNamespace {
     }
   }; // BaseResultsEnvironmentController
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BaseResultsEnvironmentController::Activate
+  // Il2CppName: Activate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseResultsEnvironmentController::*)(bool)>(&BaseResultsEnvironmentController::Activate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseResultsEnvironmentController*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseResultsEnvironmentController::Deactivate
+  // Il2CppName: Deactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseResultsEnvironmentController::*)(bool)>(&BaseResultsEnvironmentController::Deactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseResultsEnvironmentController*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseResultsEnvironmentController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseResultsEnvironmentController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&BaseResultsEnvironmentController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseResultsEnvironmentController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseResultsEnvironmentController::*)()>(&BaseResultsEnvironmentController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseResultsEnvironmentController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseResultsEnvironmentController::*)()>(&BaseResultsEnvironmentController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseResultsEnvironmentController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseResultsEnvironmentController*, "", "BaseResultsEnvironmentController");

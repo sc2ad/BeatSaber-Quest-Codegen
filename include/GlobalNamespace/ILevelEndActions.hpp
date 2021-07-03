@@ -34,6 +34,38 @@ namespace GlobalNamespace {
     void remove_levelFinishedEvent(System::Action* value);
   }; // ILevelEndActions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILevelEndActions::add_levelFailedEvent
+  // Il2CppName: add_levelFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILevelEndActions::*)(System::Action*)>(&ILevelEndActions::add_levelFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILevelEndActions*), "add_levelFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILevelEndActions::remove_levelFailedEvent
+  // Il2CppName: remove_levelFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILevelEndActions::*)(System::Action*)>(&ILevelEndActions::remove_levelFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILevelEndActions*), "remove_levelFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILevelEndActions::add_levelFinishedEvent
+  // Il2CppName: add_levelFinishedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILevelEndActions::*)(System::Action*)>(&ILevelEndActions::add_levelFinishedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILevelEndActions*), "add_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILevelEndActions::remove_levelFinishedEvent
+  // Il2CppName: remove_levelFinishedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILevelEndActions::*)(System::Action*)>(&ILevelEndActions::remove_levelFinishedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILevelEndActions*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILevelEndActions*, "", "ILevelEndActions");

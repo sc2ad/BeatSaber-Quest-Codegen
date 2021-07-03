@@ -118,41 +118,41 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);
     }
     // static public PacketPool`1<MasterServer.UserServerStatusUpdateResponse> get_pool()
-    // Offset: 0x14DE6B8
+    // Offset: 0x14F93C8
     static GlobalNamespace::PacketPool_1<MasterServer::UserServerStatusUpdateResponse*>* get_pool();
     // public MasterServer.UserServerStatusUpdateResponse InitForFailure(MasterServer.UserServerStatusUpdateResponse/Result result)
-    // Offset: 0x14DE798
+    // Offset: 0x14F94A8
     MasterServer::UserServerStatusUpdateResponse* InitForFailure(MasterServer::UserServerStatusUpdateResponse::Result result);
     // public MasterServer.UserServerStatusUpdateResponse InitForSuccess(System.Net.IPEndPoint remoteEndPoint, System.String code)
-    // Offset: 0x14DE830
+    // Offset: 0x14F9540
     MasterServer::UserServerStatusUpdateResponse* InitForSuccess(System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* code);
     // public override System.Byte get_resultCode()
-    // Offset: 0x14DE700
+    // Offset: 0x14F9410
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Byte BaseMasterServerReliableResponse::get_resultCode()
     uint8_t get_resultCode();
     // public override System.String get_resultCodeString()
-    // Offset: 0x14DE708
+    // Offset: 0x14F9418
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
     ::Il2CppString* get_resultCodeString();
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14DE83C
+    // Offset: 0x14F954C
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14DE8AC
+    // Offset: 0x14F95BC
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x14DE914
+    // Offset: 0x14F9624
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x14DE970
+    // Offset: 0x14F9680
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.Void BaseMasterServerReliableResponse::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -165,6 +165,84 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(UserServerStatusUpdateResponse), 40 + sizeof(::Il2CppString*)> __MasterServer_UserServerStatusUpdateResponseSizeCheck;
   static_assert(sizeof(UserServerStatusUpdateResponse) == 0x30);
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerStatusUpdateResponse*>* (*)()>(&UserServerStatusUpdateResponse::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::InitForFailure
+  // Il2CppName: InitForFailure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerStatusUpdateResponse* (UserServerStatusUpdateResponse::*)(MasterServer::UserServerStatusUpdateResponse::Result)>(&UserServerStatusUpdateResponse::InitForFailure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerStatusUpdateResponse::Result>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::InitForSuccess
+  // Il2CppName: InitForSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerStatusUpdateResponse* (UserServerStatusUpdateResponse::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&UserServerStatusUpdateResponse::InitForSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::get_resultCode
+  // Il2CppName: get_resultCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (UserServerStatusUpdateResponse::*)()>(&UserServerStatusUpdateResponse::get_resultCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::get_resultCodeString
+  // Il2CppName: get_resultCodeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UserServerStatusUpdateResponse::*)()>(&UserServerStatusUpdateResponse::get_resultCodeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&UserServerStatusUpdateResponse::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&UserServerStatusUpdateResponse::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateResponse::*)()>(&UserServerStatusUpdateResponse::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UserServerStatusUpdateResponse::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateResponse::*)()>(&UserServerStatusUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateResponse::*)()>(&UserServerStatusUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerStatusUpdateResponse*, "MasterServer", "UserServerStatusUpdateResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerStatusUpdateResponse::Result, "MasterServer", "UserServerStatusUpdateResponse/Result");

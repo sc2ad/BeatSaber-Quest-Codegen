@@ -77,35 +77,35 @@ namespace Org::BouncyCastle::X509 {
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
     static void _set_PemCrlParser(Org::BouncyCastle::X509::PemParser* value);
     // public System.Void .ctor(System.Boolean lazyAsn1)
-    // Offset: 0x1F77E9C
+    // Offset: 0x1F91BF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor(bool lazyAsn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>(lazyAsn1)));
     }
     // private Org.BouncyCastle.X509.X509Crl ReadPemCrl(System.IO.Stream inStream)
-    // Offset: 0x1F77ECC
+    // Offset: 0x1F91C28
     Org::BouncyCastle::X509::X509Crl* ReadPemCrl(System::IO::Stream* inStream);
     // private Org.BouncyCastle.X509.X509Crl ReadDerCrl(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x1F77F80
+    // Offset: 0x1F91CDC
     Org::BouncyCastle::X509::X509Crl* ReadDerCrl(Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Crl GetCrl()
-    // Offset: 0x1F78184
+    // Offset: 0x1F91EE0
     Org::BouncyCastle::X509::X509Crl* GetCrl();
     // protected Org.BouncyCastle.X509.X509Crl CreateX509Crl(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x1F7820C
+    // Offset: 0x1F91F68
     Org::BouncyCastle::X509::X509Crl* CreateX509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
-    // Offset: 0x1F7826C
+    // Offset: 0x1F91FC8
     Org::BouncyCastle::X509::X509Crl* ReadCrl(::Array<uint8_t>* input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
-    // Offset: 0x1F782E4
+    // Offset: 0x1F92040
     Org::BouncyCastle::X509::X509Crl* ReadCrl(System::IO::Stream* inStream);
     // static private System.Void .cctor()
-    // Offset: 0x1F785E0
+    // Offset: 0x1F9233C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1F77E74
+    // Offset: 0x1F91BD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -117,5 +117,89 @@ namespace Org::BouncyCastle::X509 {
   #pragma pack(pop)
   static check_size<sizeof(X509CrlParser), 40 + sizeof(System::IO::Stream*)> __Org_BouncyCastle_X509_X509CrlParserSizeCheck;
   static_assert(sizeof(X509CrlParser) == 0x30);
+  // Writing MetadataGetter for method: X509CrlParser::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CrlParser::*)(bool)>(&X509CrlParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CrlParser::*)(bool)>(&X509CrlParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::ReadPemCrl
+  // Il2CppName: ReadPemCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (X509CrlParser::*)(System::IO::Stream*)>(&X509CrlParser::ReadPemCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), "ReadPemCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::ReadDerCrl
+  // Il2CppName: ReadDerCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (X509CrlParser::*)(Org::BouncyCastle::Asn1::Asn1InputStream*)>(&X509CrlParser::ReadDerCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), "ReadDerCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1InputStream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::GetCrl
+  // Il2CppName: GetCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (X509CrlParser::*)()>(&X509CrlParser::GetCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), "GetCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::CreateX509Crl
+  // Il2CppName: CreateX509Crl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (X509CrlParser::*)(Org::BouncyCastle::Asn1::X509::CertificateList*)>(&X509CrlParser::CreateX509Crl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), "CreateX509Crl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::CertificateList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::ReadCrl
+  // Il2CppName: ReadCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (X509CrlParser::*)(::Array<uint8_t>*)>(&X509CrlParser::ReadCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), "ReadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::ReadCrl
+  // Il2CppName: ReadCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (X509CrlParser::*)(System::IO::Stream*)>(&X509CrlParser::ReadCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), "ReadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X509CrlParser::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509CrlParser::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CrlParser::*)()>(&X509CrlParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CrlParser::*)()>(&X509CrlParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509CrlParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlParser*, "Org.BouncyCastle.X509", "X509CrlParser");

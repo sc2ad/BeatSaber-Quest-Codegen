@@ -21,16 +21,24 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Creating value type constructor for type: EditModeTestCallbacks
     EditModeTestCallbacks() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xE3CBBC
+    // [CompilerGeneratedAttribute] Offset: 0xE3DBE0
     // Get static field: static private System.Action <RestoringTestContext>k__BackingField
     static System::Action* _get_$RestoringTestContext$k__BackingField();
     // Set static field: static private System.Action <RestoringTestContext>k__BackingField
     static void _set_$RestoringTestContext$k__BackingField(System::Action* value);
     // static public System.Action get_RestoringTestContext()
-    // Offset: 0x14911B0
+    // Offset: 0x14ABEC0
     static System::Action* get_RestoringTestContext();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.EditModeTestCallbacks
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EditModeTestCallbacks::get_RestoringTestContext
+  // Il2CppName: get_RestoringTestContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (*)()>(&EditModeTestCallbacks::get_RestoringTestContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditModeTestCallbacks*), "get_RestoringTestContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::EditModeTestCallbacks*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "EditModeTestCallbacks");

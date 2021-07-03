@@ -96,36 +96,106 @@ namespace System::Collections {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // System.Void .ctor(System.Collections.SortedList sortedList, System.Int32 index, System.Int32 count, System.Int32 getObjRetType)
-    // Offset: 0x195EEB4
+    // Offset: 0x1975BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList::SortedListEnumerator* New_ctor(System::Collections::SortedList* sortedList, int index, int count, int getObjRetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::SortedListEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList::SortedListEnumerator*, creationType>(sortedList, index, count, getObjRetType)));
     }
     // public System.Object Clone()
-    // Offset: 0x195FDD4
+    // Offset: 0x1976AE4
     ::Il2CppObject* Clone();
     // public System.Object get_Key()
-    // Offset: 0x195FDDC
+    // Offset: 0x1976AEC
     ::Il2CppObject* get_Key();
     // public System.Boolean MoveNext()
-    // Offset: 0x195FEA0
+    // Offset: 0x1976BB0
     bool MoveNext();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x195FFC8
+    // Offset: 0x1976CD8
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Current()
-    // Offset: 0x19600A8
+    // Offset: 0x1976DB8
     ::Il2CppObject* get_Current();
     // public System.Object get_Value()
-    // Offset: 0x196019C
+    // Offset: 0x1976EAC
     ::Il2CppObject* get_Value();
     // public System.Void Reset()
-    // Offset: 0x1960260
+    // Offset: 0x1976F70
     void Reset();
   }; // System.Collections.SortedList/SortedListEnumerator
   #pragma pack(pop)
   static check_size<sizeof(SortedList::SortedListEnumerator), 60 + sizeof(int)> __System_Collections_SortedList_SortedListEnumeratorSizeCheck;
   static_assert(sizeof(SortedList::SortedListEnumerator) == 0x40);
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::SortedListEnumerator::*)(System::Collections::SortedList*, int, int, int)>(&SortedList::SortedListEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::SortedList*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::SortedListEnumerator::*)(System::Collections::SortedList*, int, int, int)>(&SortedList::SortedListEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::SortedList*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::get_Key
+  // Il2CppName: get_Key
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::get_Key)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::get_Entry
+  // Il2CppName: get_Entry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::get_Entry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SortedList::SortedListEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::SortedListEnumerator::*)()>(&SortedList::SortedListEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SortedList::SortedListEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListEnumerator*, "System.Collections", "SortedList/SortedListEnumerator");

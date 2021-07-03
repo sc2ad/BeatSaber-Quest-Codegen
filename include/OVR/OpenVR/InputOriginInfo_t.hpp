@@ -805,12 +805,20 @@ namespace OVR::OpenVR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.String get_rchRenderModelComponentName()
-    // Offset: 0xEE5B9C
+    // Offset: 0xEE6B54
     ::Il2CppString* get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)
   static check_size<sizeof(InputOriginInfo_t), 139 + sizeof(uint8_t)> __OVR_OpenVR_InputOriginInfo_tSizeCheck;
   static_assert(sizeof(InputOriginInfo_t) == 0x8C);
+  // Writing MetadataGetter for method: InputOriginInfo_t::get_rchRenderModelComponentName
+  // Il2CppName: get_rchRenderModelComponentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputOriginInfo_t::*)()>(&InputOriginInfo_t::get_rchRenderModelComponentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputOriginInfo_t), "get_rchRenderModelComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");

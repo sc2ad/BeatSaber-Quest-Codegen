@@ -21,7 +21,7 @@ namespace UnityEngine {
     // Creating value type constructor for type: ExitGUIException
     ExitGUIException() noexcept {}
     // System.Void .ctor(System.String message)
-    // Offset: 0x1A6929C
+    // Offset: 0x1A82FAC
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -31,5 +31,19 @@ namespace UnityEngine {
     }
   }; // UnityEngine.ExitGUIException
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ExitGUIException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExitGUIException::*)(::Il2CppString*)>(&ExitGUIException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExitGUIException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExitGUIException::*)(::Il2CppString*)>(&ExitGUIException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExitGUIException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExitGUIException*, "UnityEngine", "ExitGUIException");

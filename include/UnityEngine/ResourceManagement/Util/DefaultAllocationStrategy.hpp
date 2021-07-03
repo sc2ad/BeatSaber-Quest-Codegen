@@ -32,13 +32,13 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x19B70CC
+    // Offset: 0x19CDDDC
     ::Il2CppObject* New(System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x19B70D8
+    // Offset: 0x19CDDE8
     void Release(int typeHash, ::Il2CppObject* obj);
     // public System.Void .ctor()
-    // Offset: 0x19B70DC
+    // Offset: 0x19CDDEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,5 +48,35 @@ namespace UnityEngine::ResourceManagement::Util {
     }
   }; // UnityEngine.ResourceManagement.Util.DefaultAllocationStrategy
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DefaultAllocationStrategy::New
+  // Il2CppName: New
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DefaultAllocationStrategy::*)(System::Type*, int)>(&DefaultAllocationStrategy::New)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultAllocationStrategy*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultAllocationStrategy::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultAllocationStrategy::*)(int, ::Il2CppObject*)>(&DefaultAllocationStrategy::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultAllocationStrategy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultAllocationStrategy::*)()>(&DefaultAllocationStrategy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultAllocationStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultAllocationStrategy::*)()>(&DefaultAllocationStrategy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultAllocationStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "DefaultAllocationStrategy");

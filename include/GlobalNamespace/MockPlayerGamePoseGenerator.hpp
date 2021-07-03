@@ -84,27 +84,73 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
-    // Offset: 0x2399D40
+    // Offset: 0x23B5374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGenerator* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerGamePoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGenerator*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2399F58
+    // Offset: 0x23B558C
     void Dispose();
     // public System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     // Offset: 0xFFFFFFFF
     void SendPoses(float introStartTime, GlobalNamespace::MockBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, System::Threading::CancellationToken cancellationToken, System::Action* onSongFinished);
     // public System.Void SimulateFail()
-    // Offset: 0x2399F68
+    // Offset: 0x23B559C
     void SimulateFail();
     // public System.Void SimulateGiveUp()
-    // Offset: 0x239A104
+    // Offset: 0x23B5738
     void SimulateGiveUp();
   }; // MockPlayerGamePoseGenerator
   #pragma pack(pop)
   static check_size<sizeof(MockPlayerGamePoseGenerator), 48 + sizeof(GlobalNamespace::MockScoreSyncStateSender*)> __GlobalNamespace_MockPlayerGamePoseGeneratorSizeCheck;
   static_assert(sizeof(MockPlayerGamePoseGenerator) == 0x38);
+  // Writing MetadataGetter for method: MockPlayerGamePoseGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerGamePoseGenerator::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, bool)>(&MockPlayerGamePoseGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockPlayerGamePoseGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerGamePoseGenerator::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, bool)>(&MockPlayerGamePoseGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockPlayerGamePoseGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockPlayerGamePoseGenerator::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerGamePoseGenerator::*)()>(&MockPlayerGamePoseGenerator::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockPlayerGamePoseGenerator*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockPlayerGamePoseGenerator::SendPoses
+  // Il2CppName: SendPoses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerGamePoseGenerator::*)(float, GlobalNamespace::MockBeatmapData*, GlobalNamespace::GameplayModifiers*, System::Threading::CancellationToken, System::Action*)>(&MockPlayerGamePoseGenerator::SendPoses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockPlayerGamePoseGenerator*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockPlayerGamePoseGenerator::SimulateFail
+  // Il2CppName: SimulateFail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerGamePoseGenerator::*)()>(&MockPlayerGamePoseGenerator::SimulateFail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockPlayerGamePoseGenerator*), "SimulateFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockPlayerGamePoseGenerator::SimulateGiveUp
+  // Il2CppName: SimulateGiveUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayerGamePoseGenerator::*)()>(&MockPlayerGamePoseGenerator::SimulateGiveUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockPlayerGamePoseGenerator*), "SimulateGiveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGenerator*, "", "MockPlayerGamePoseGenerator");

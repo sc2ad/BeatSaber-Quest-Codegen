@@ -33,18 +33,40 @@ namespace System::Net {
     // Creating value type constructor for type: Chunk
     Chunk(::Array<uint8_t>* Bytes_ = {}, int Offset_ = {}) noexcept : Bytes{Bytes_}, Offset{Offset_} {}
     // public System.Void .ctor(System.Byte[] chunk)
-    // Offset: 0x1645B8C
+    // Offset: 0x165C89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream::Chunk* New_ctor(::Array<uint8_t>* chunk) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::Chunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream::Chunk*, creationType>(chunk)));
     }
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1645070
+    // Offset: 0x165BD80
     int Read(::Array<uint8_t>* buffer, int offset, int size);
   }; // System.Net.MonoChunkStream/Chunk
   #pragma pack(pop)
   static check_size<sizeof(MonoChunkStream::Chunk), 24 + sizeof(int)> __System_Net_MonoChunkStream_ChunkSizeCheck;
   static_assert(sizeof(MonoChunkStream::Chunk) == 0x1C);
+  // Writing MetadataGetter for method: MonoChunkStream::Chunk::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoChunkStream::Chunk::*)(::Array<uint8_t>*)>(&MonoChunkStream::Chunk::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoChunkStream::Chunk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoChunkStream::Chunk::*)(::Array<uint8_t>*)>(&MonoChunkStream::Chunk::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoChunkStream::Chunk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoChunkStream::Chunk::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MonoChunkStream::Chunk::*)(::Array<uint8_t>*, int, int)>(&MonoChunkStream::Chunk::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoChunkStream::Chunk*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::Chunk*, "System.Net", "MonoChunkStream/Chunk");

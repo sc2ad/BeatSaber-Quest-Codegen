@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1D74338
+    // Offset: 0x1D8F094
     ::Array<UnityEngine::Renderer*>* get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1D740B8
+    // Offset: 0x1D8EE14
     UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void ApplyChanges()
-    // Offset: 0x1D73F80
+    // Offset: 0x1D8ECDC
     void ApplyChanges();
     // public System.Void .ctor()
-    // Offset: 0x1D74340
+    // Offset: 0x1D8F09C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -69,5 +69,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MaterialPropertyBlockController), 32 + sizeof(UnityEngine::MaterialPropertyBlock*)> __GlobalNamespace_MaterialPropertyBlockControllerSizeCheck;
   static_assert(sizeof(MaterialPropertyBlockController) == 0x28);
+  // Writing MetadataGetter for method: MaterialPropertyBlockController::get_renderers
+  // Il2CppName: get_renderers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Renderer*>* (MaterialPropertyBlockController::*)()>(&MaterialPropertyBlockController::get_renderers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockController*), "get_renderers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialPropertyBlockController::get_materialPropertyBlock
+  // Il2CppName: get_materialPropertyBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MaterialPropertyBlock* (MaterialPropertyBlockController::*)()>(&MaterialPropertyBlockController::get_materialPropertyBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockController*), "get_materialPropertyBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialPropertyBlockController::ApplyChanges
+  // Il2CppName: ApplyChanges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockController::*)()>(&MaterialPropertyBlockController::ApplyChanges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockController*), "ApplyChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MaterialPropertyBlockController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockController::*)()>(&MaterialPropertyBlockController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockController::*)()>(&MaterialPropertyBlockController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController*, "", "MaterialPropertyBlockController");

@@ -82,80 +82,80 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Grounding::Quality), 0 + sizeof(int)> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
     static_assert(sizeof(Grounding::Quality) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07710
+    // [TooltipAttribute] Offset: 0xE0870C
     // public UnityEngine.LayerMask layers
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::LayerMask layers;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07748
+    // [TooltipAttribute] Offset: 0xE08744
     // public System.Single maxStep
     // Size: 0x4
     // Offset: 0x14
     float maxStep;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07780
+    // [TooltipAttribute] Offset: 0xE0877C
     // public System.Single heightOffset
     // Size: 0x4
     // Offset: 0x18
     float heightOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE077B8
+    // [TooltipAttribute] Offset: 0xE087B4
     // public System.Single footSpeed
     // Size: 0x4
     // Offset: 0x1C
     float footSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE077F0
+    // [TooltipAttribute] Offset: 0xE087EC
     // public System.Single footRadius
     // Size: 0x4
     // Offset: 0x20
     float footRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07828
-    // [HideInInspector] Offset: 0xE07828
+    // [TooltipAttribute] Offset: 0xE08824
+    // [HideInInspector] Offset: 0xE08824
     // public System.Single footCenterOffset
     // Size: 0x4
     // Offset: 0x24
     float footCenterOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07874
+    // [TooltipAttribute] Offset: 0xE08870
     // public System.Single prediction
     // Size: 0x4
     // Offset: 0x28
     float prediction;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE078AC
-    // [RangeAttribute] Offset: 0xE078AC
+    // [TooltipAttribute] Offset: 0xE088A8
+    // [RangeAttribute] Offset: 0xE088A8
     // public System.Single footRotationWeight
     // Size: 0x4
     // Offset: 0x2C
     float footRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07900
+    // [TooltipAttribute] Offset: 0xE088FC
     // public System.Single footRotationSpeed
     // Size: 0x4
     // Offset: 0x30
     float footRotationSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07938
-    // [RangeAttribute] Offset: 0xE07938
+    // [TooltipAttribute] Offset: 0xE08934
+    // [RangeAttribute] Offset: 0xE08934
     // public System.Single maxFootRotationAngle
     // Size: 0x4
     // Offset: 0x34
     float maxFootRotationAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07990
+    // [TooltipAttribute] Offset: 0xE0898C
     // public System.Boolean rotateSolver
     // Size: 0x1
     // Offset: 0x38
@@ -164,43 +164,43 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: rotateSolver and: pelvisSpeed
     char __padding10[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE079C8
+    // [TooltipAttribute] Offset: 0xE089C4
     // public System.Single pelvisSpeed
     // Size: 0x4
     // Offset: 0x3C
     float pelvisSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07A00
-    // [RangeAttribute] Offset: 0xE07A00
+    // [TooltipAttribute] Offset: 0xE089FC
+    // [RangeAttribute] Offset: 0xE089FC
     // public System.Single pelvisDamper
     // Size: 0x4
     // Offset: 0x40
     float pelvisDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07A54
+    // [TooltipAttribute] Offset: 0xE08A50
     // public System.Single lowerPelvisWeight
     // Size: 0x4
     // Offset: 0x44
     float lowerPelvisWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07A8C
+    // [TooltipAttribute] Offset: 0xE08A88
     // public System.Single liftPelvisWeight
     // Size: 0x4
     // Offset: 0x48
     float liftPelvisWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07AC4
+    // [TooltipAttribute] Offset: 0xE08AC0
     // public System.Single rootSphereCastRadius
     // Size: 0x4
     // Offset: 0x4C
     float rootSphereCastRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07AFC
+    // [TooltipAttribute] Offset: 0xE08AF8
     // public System.Boolean overstepFallsDown
     // Size: 0x1
     // Offset: 0x50
@@ -209,28 +209,28 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overstepFallsDown and: quality
     char __padding16[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE07B34
+    // [TooltipAttribute] Offset: 0xE08B30
     // public RootMotion.FinalIK.Grounding/Quality quality
     // Size: 0x4
     // Offset: 0x54
     RootMotion::FinalIK::Grounding::Quality quality;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Grounding::Quality) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE07B6C
+    // [CompilerGeneratedAttribute] Offset: 0xE08B68
     // private RootMotion.FinalIK.Grounding/Leg[] <legs>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     ::Array<RootMotion::FinalIK::Grounding::Leg*>* legs;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::Grounding::Leg*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE07B7C
+    // [CompilerGeneratedAttribute] Offset: 0xE08B78
     // private RootMotion.FinalIK.Grounding/Pelvis <pelvis>k__BackingField
     // Size: 0x8
     // Offset: 0x60
     RootMotion::FinalIK::Grounding::Pelvis* pelvis;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Grounding::Pelvis*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE07B8C
+    // [CompilerGeneratedAttribute] Offset: 0xE08B88
     // private System.Boolean <isGrounded>k__BackingField
     // Size: 0x1
     // Offset: 0x68
@@ -239,14 +239,14 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isGrounded and: root
     char __padding20[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE07B9C
+    // [CompilerGeneratedAttribute] Offset: 0xE08B98
     // private UnityEngine.Transform <root>k__BackingField
     // Size: 0x8
     // Offset: 0x70
     UnityEngine::Transform* root;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE07BAC
+    // [CompilerGeneratedAttribute] Offset: 0xE08BA8
     // private UnityEngine.RaycastHit <rootHit>k__BackingField
     // Size: 0x2C
     // Offset: 0x78
@@ -262,76 +262,76 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Grounding
     Grounding(UnityEngine::LayerMask layers_ = {}, float maxStep_ = {}, float heightOffset_ = {}, float footSpeed_ = {}, float footRadius_ = {}, float footCenterOffset_ = {}, float prediction_ = {}, float footRotationWeight_ = {}, float footRotationSpeed_ = {}, float maxFootRotationAngle_ = {}, bool rotateSolver_ = {}, float pelvisSpeed_ = {}, float pelvisDamper_ = {}, float lowerPelvisWeight_ = {}, float liftPelvisWeight_ = {}, float rootSphereCastRadius_ = {}, bool overstepFallsDown_ = {}, RootMotion::FinalIK::Grounding::Quality quality_ = {}, ::Array<RootMotion::FinalIK::Grounding::Leg*>* legs_ = {}, RootMotion::FinalIK::Grounding::Pelvis* pelvis_ = {}, bool isGrounded_ = {}, UnityEngine::Transform* root_ = {}, UnityEngine::RaycastHit rootHit_ = {}, bool initiated_ = {}) noexcept : layers{layers_}, maxStep{maxStep_}, heightOffset{heightOffset_}, footSpeed{footSpeed_}, footRadius{footRadius_}, footCenterOffset{footCenterOffset_}, prediction{prediction_}, footRotationWeight{footRotationWeight_}, footRotationSpeed{footRotationSpeed_}, maxFootRotationAngle{maxFootRotationAngle_}, rotateSolver{rotateSolver_}, pelvisSpeed{pelvisSpeed_}, pelvisDamper{pelvisDamper_}, lowerPelvisWeight{lowerPelvisWeight_}, liftPelvisWeight{liftPelvisWeight_}, rootSphereCastRadius{rootSphereCastRadius_}, overstepFallsDown{overstepFallsDown_}, quality{quality_}, legs{legs_}, pelvis{pelvis_}, isGrounded{isGrounded_}, root{root_}, rootHit{rootHit_}, initiated{initiated_} {}
     // public RootMotion.FinalIK.Grounding/Leg[] get_legs()
-    // Offset: 0x1C45098
+    // Offset: 0x1C5FDA8
     ::Array<RootMotion::FinalIK::Grounding::Leg*>* get_legs();
     // private System.Void set_legs(RootMotion.FinalIK.Grounding/Leg[] value)
-    // Offset: 0x1C450A0
+    // Offset: 0x1C5FDB0
     void set_legs(::Array<RootMotion::FinalIK::Grounding::Leg*>* value);
     // public RootMotion.FinalIK.Grounding/Pelvis get_pelvis()
-    // Offset: 0x1C450A8
+    // Offset: 0x1C5FDB8
     RootMotion::FinalIK::Grounding::Pelvis* get_pelvis();
     // private System.Void set_pelvis(RootMotion.FinalIK.Grounding/Pelvis value)
-    // Offset: 0x1C450B0
+    // Offset: 0x1C5FDC0
     void set_pelvis(RootMotion::FinalIK::Grounding::Pelvis* value);
     // public System.Boolean get_isGrounded()
-    // Offset: 0x1C450B8
+    // Offset: 0x1C5FDC8
     bool get_isGrounded();
     // private System.Void set_isGrounded(System.Boolean value)
-    // Offset: 0x1C450C0
+    // Offset: 0x1C5FDD0
     void set_isGrounded(bool value);
     // public UnityEngine.Transform get_root()
-    // Offset: 0x1C450CC
+    // Offset: 0x1C5FDDC
     UnityEngine::Transform* get_root();
     // private System.Void set_root(UnityEngine.Transform value)
-    // Offset: 0x1C450D4
+    // Offset: 0x1C5FDE4
     void set_root(UnityEngine::Transform* value);
     // public UnityEngine.RaycastHit get_rootHit()
-    // Offset: 0x1C450DC
+    // Offset: 0x1C5FDEC
     UnityEngine::RaycastHit get_rootHit();
     // private System.Void set_rootHit(UnityEngine.RaycastHit value)
-    // Offset: 0x1C450F4
+    // Offset: 0x1C5FE04
     void set_rootHit(UnityEngine::RaycastHit value);
     // public System.Boolean get_rootGrounded()
-    // Offset: 0x1C45114
+    // Offset: 0x1C5FE24
     bool get_rootGrounded();
     // public UnityEngine.RaycastHit GetRootHit(System.Single maxDistanceMlp)
-    // Offset: 0x1C45168
+    // Offset: 0x1C5FE78
     UnityEngine::RaycastHit GetRootHit(float maxDistanceMlp);
     // public System.Boolean IsValid(ref System.String errorMessage)
-    // Offset: 0x1C45548
+    // Offset: 0x1C60258
     bool IsValid(::Il2CppString*& errorMessage);
     // public System.Void Initiate(UnityEngine.Transform root, UnityEngine.Transform[] feet)
-    // Offset: 0x1C3EAD0
+    // Offset: 0x1C597E0
     void Initiate(UnityEngine::Transform* root, ::Array<UnityEngine::Transform*>* feet);
     // public System.Void Update()
-    // Offset: 0x1C3F2D0
+    // Offset: 0x1C59FE0
     void Update();
     // public UnityEngine.Vector3 GetLegsPlaneNormal()
-    // Offset: 0x1C41128
+    // Offset: 0x1C5BE38
     UnityEngine::Vector3 GetLegsPlaneNormal();
     // public System.Void Reset()
-    // Offset: 0x1C3E634
+    // Offset: 0x1C59344
     void Reset();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x1C457C8
+    // Offset: 0x1C604D8
     void LogWarning(::Il2CppString* message);
     // public UnityEngine.Vector3 get_up()
-    // Offset: 0x1C3F60C
+    // Offset: 0x1C5A31C
     UnityEngine::Vector3 get_up();
     // public System.Single GetVerticalOffset(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x1C46554
+    // Offset: 0x1C61264
     float GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
     // public UnityEngine.Vector3 Flatten(UnityEngine.Vector3 v)
-    // Offset: 0x1C466BC
+    // Offset: 0x1C613CC
     UnityEngine::Vector3 Flatten(UnityEngine::Vector3 v);
     // private System.Boolean get_useRootRotation()
-    // Offset: 0x1C46484
+    // Offset: 0x1C61194
     bool get_useRootRotation();
     // public UnityEngine.Vector3 GetFootCenterOffset()
-    // Offset: 0x1C467C0
+    // Offset: 0x1C614D0
     UnityEngine::Vector3 GetFootCenterOffset();
     // public System.Void .ctor()
-    // Offset: 0x1C3E274
+    // Offset: 0x1C58F84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -343,6 +343,204 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(Grounding), 164 + sizeof(bool)> __RootMotion_FinalIK_GroundingSizeCheck;
   static_assert(sizeof(Grounding) == 0xA5);
+  // Writing MetadataGetter for method: Grounding::get_legs
+  // Il2CppName: get_legs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::Grounding::Leg*>* (Grounding::*)()>(&Grounding::get_legs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_legs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::set_legs
+  // Il2CppName: set_legs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(::Array<RootMotion::FinalIK::Grounding::Leg*>*)>(&Grounding::set_legs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "set_legs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::Grounding::Leg*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_pelvis
+  // Il2CppName: get_pelvis
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::Grounding::Pelvis* (Grounding::*)()>(&Grounding::get_pelvis)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_pelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::set_pelvis
+  // Il2CppName: set_pelvis
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(RootMotion::FinalIK::Grounding::Pelvis*)>(&Grounding::set_pelvis)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "set_pelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Pelvis*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_isGrounded
+  // Il2CppName: get_isGrounded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Grounding::*)()>(&Grounding::get_isGrounded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_isGrounded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::set_isGrounded
+  // Il2CppName: set_isGrounded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(bool)>(&Grounding::set_isGrounded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "set_isGrounded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_root
+  // Il2CppName: get_root
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Grounding::*)()>(&Grounding::get_root)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_root", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::set_root
+  // Il2CppName: set_root
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(UnityEngine::Transform*)>(&Grounding::set_root)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "set_root", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_rootHit
+  // Il2CppName: get_rootHit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (Grounding::*)()>(&Grounding::get_rootHit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_rootHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::set_rootHit
+  // Il2CppName: set_rootHit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(UnityEngine::RaycastHit)>(&Grounding::set_rootHit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "set_rootHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_rootGrounded
+  // Il2CppName: get_rootGrounded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Grounding::*)()>(&Grounding::get_rootGrounded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_rootGrounded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::GetRootHit
+  // Il2CppName: GetRootHit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (Grounding::*)(float)>(&Grounding::GetRootHit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "GetRootHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Grounding::*)(::Il2CppString*&)>(&Grounding::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::Initiate
+  // Il2CppName: Initiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&Grounding::Initiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)()>(&Grounding::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::GetLegsPlaneNormal
+  // Il2CppName: GetLegsPlaneNormal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounding::*)()>(&Grounding::GetLegsPlaneNormal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "GetLegsPlaneNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)()>(&Grounding::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::LogWarning
+  // Il2CppName: LogWarning
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)(::Il2CppString*)>(&Grounding::LogWarning)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_up
+  // Il2CppName: get_up
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounding::*)()>(&Grounding::get_up)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_up", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::GetVerticalOffset
+  // Il2CppName: GetVerticalOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Grounding::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Grounding::GetVerticalOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "GetVerticalOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::Flatten
+  // Il2CppName: Flatten
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounding::*)(UnityEngine::Vector3)>(&Grounding::Flatten)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "Flatten", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::get_useRootRotation
+  // Il2CppName: get_useRootRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Grounding::*)()>(&Grounding::get_useRootRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "get_useRootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::GetFootCenterOffset
+  // Il2CppName: GetFootCenterOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounding::*)()>(&Grounding::GetFootCenterOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), "GetFootCenterOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounding::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)()>(&Grounding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounding::*)()>(&Grounding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding*, "RootMotion.FinalIK", "Grounding");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Quality, "RootMotion.FinalIK", "Grounding/Quality");

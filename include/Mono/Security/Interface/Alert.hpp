@@ -35,23 +35,23 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: Alert
     Alert(Mono::Security::Interface::AlertLevel level_ = {}, Mono::Security::Interface::AlertDescription description_ = {}) noexcept : level{level_}, description{description_} {}
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x1D5C1E4
+    // Offset: 0x1D77EF4
     Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x1D5C1EC
+    // Offset: 0x1D77EFC
     Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x1D5C1F4
+    // Offset: 0x1D77F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(Mono::Security::Interface::AlertDescription description) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()
-    // Offset: 0x1D5C26C
+    // Offset: 0x1D77F7C
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x1D5C2AC
+    // Offset: 0x1D77FBC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -59,5 +59,51 @@ namespace Mono::Security::Interface {
   #pragma pack(pop)
   static check_size<sizeof(Alert), 17 + sizeof(Mono::Security::Interface::AlertDescription)> __Mono_Security_Interface_AlertSizeCheck;
   static_assert(sizeof(Alert) == 0x12);
+  // Writing MetadataGetter for method: Alert::get_Level
+  // Il2CppName: get_Level
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertLevel (Alert::*)()>(&Alert::get_Level)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Alert*), "get_Level", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Alert::get_Description
+  // Il2CppName: get_Description
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::AlertDescription (Alert::*)()>(&Alert::get_Description)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Alert*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Alert::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Alert::*)(Mono::Security::Interface::AlertDescription)>(&Alert::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Alert*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Alert::*)(Mono::Security::Interface::AlertDescription)>(&Alert::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Alert*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+    }
+  };
+  // Writing MetadataGetter for method: Alert::inferAlertLevel
+  // Il2CppName: inferAlertLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Alert::*)()>(&Alert::inferAlertLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Alert*), "inferAlertLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Alert::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Alert::*)()>(&Alert::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Alert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::Alert*, "Mono.Security.Interface", "Alert");

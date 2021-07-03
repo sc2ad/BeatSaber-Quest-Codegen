@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return hideNoteSpawnEffect;
     }
     // public System.Void .ctor(System.Boolean hideNoteSpawnEffect)
-    // Offset: 0x11A1A10
+    // Offset: 0x11BBA94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffectSpawner::InitData* New_ctor(bool hideNoteSpawnEffect) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatEffectSpawner::InitData::.ctor");
@@ -41,5 +41,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatEffectSpawner::InitData), 16 + sizeof(bool)> __GlobalNamespace_BeatEffectSpawner_InitDataSizeCheck;
   static_assert(sizeof(BeatEffectSpawner::InitData) == 0x11);
+  // Writing MetadataGetter for method: BeatEffectSpawner::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatEffectSpawner::InitData::*)(bool)>(&BeatEffectSpawner::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatEffectSpawner::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatEffectSpawner::InitData::*)(bool)>(&BeatEffectSpawner::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatEffectSpawner::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner::InitData*, "", "BeatEffectSpawner/InitData");

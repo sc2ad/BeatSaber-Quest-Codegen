@@ -43,23 +43,23 @@ namespace System::Net {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.UInt16[] addr, System.Int64 scopeId)
-    // Offset: 0xEF9720
+    // Offset: 0xEF96D8
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  IPv6AddressFormatter(::Array<uint16_t>* addr, int64_t scopeId)
     // static private System.UInt16 SwapUShort(System.UInt16 number)
-    // Offset: 0x16430A8
+    // Offset: 0x1659DB8
     static uint16_t SwapUShort(uint16_t number);
     // private System.UInt32 AsIPv4Int()
-    // Offset: 0xEF9728
+    // Offset: 0xEF96E0
     uint AsIPv4Int();
     // private System.Boolean IsIPv4Compatible()
-    // Offset: 0xEF9730
+    // Offset: 0xEF96E8
     bool IsIPv4Compatible();
     // private System.Boolean IsIPv4Mapped()
-    // Offset: 0xEF9738
+    // Offset: 0xEF96F0
     bool IsIPv4Mapped();
     // public override System.String ToString()
-    // Offset: 0xEF9740
+    // Offset: 0xEF96F8
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -67,5 +67,59 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(IPv6AddressFormatter), 8 + sizeof(int64_t)> __System_Net_IPv6AddressFormatterSizeCheck;
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
+  // Writing MetadataGetter for method: IPv6AddressFormatter::IPv6AddressFormatter
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPv6AddressFormatter::*)(::Array<uint16_t>*, int64_t)>(&IPv6AddressFormatter::IPv6AddressFormatter<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint16_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPv6AddressFormatter::*)(::Array<uint16_t>*, int64_t)>(&IPv6AddressFormatter::IPv6AddressFormatter<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint16_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: IPv6AddressFormatter::SwapUShort
+  // Il2CppName: SwapUShort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint16_t)>(&IPv6AddressFormatter::SwapUShort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), "SwapUShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: IPv6AddressFormatter::AsIPv4Int
+  // Il2CppName: AsIPv4Int
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IPv6AddressFormatter::*)()>(&IPv6AddressFormatter::AsIPv4Int)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), "AsIPv4Int", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPv6AddressFormatter::IsIPv4Compatible
+  // Il2CppName: IsIPv4Compatible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPv6AddressFormatter::*)()>(&IPv6AddressFormatter::IsIPv4Compatible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), "IsIPv4Compatible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPv6AddressFormatter::IsIPv4Mapped
+  // Il2CppName: IsIPv4Mapped
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPv6AddressFormatter::*)()>(&IPv6AddressFormatter::IsIPv4Mapped)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), "IsIPv4Mapped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IPv6AddressFormatter::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPv6AddressFormatter::*)()>(&IPv6AddressFormatter::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv6AddressFormatter), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");

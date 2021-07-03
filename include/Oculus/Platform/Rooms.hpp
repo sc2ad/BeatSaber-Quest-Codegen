@@ -50,79 +50,271 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Rooms
     Rooms() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdateDataStore(System.UInt64 roomID, System.Collections.Generic.Dictionary`2<System.String,System.String> data)
-    // Offset: 0x239361C
+    // Offset: 0x23ADC50
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* UpdateDataStore(uint64_t roomID, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* data);
     // static public System.Void SetRoomInviteNotificationCallback(Oculus.Platform.Message`1/Callback<System.String> callback)
-    // Offset: 0x239389C
+    // Offset: 0x23ADED0
     static void SetRoomInviteNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateAndJoinPrivate(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x2393918
+    // Offset: 0x23ADF4C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* CreateAndJoinPrivate(Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, bool subscribeToUpdates);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateAndJoinPrivate2(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, Oculus.Platform.RoomOptions roomOptions)
-    // Offset: 0x2393A4C
+    // Offset: 0x23AE080
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* CreateAndJoinPrivate2(Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, Oculus::Platform::RoomOptions* roomOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Get(System.UInt64 roomID)
-    // Offset: 0x2393BAC
+    // Offset: 0x23AE1E0
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* Get(uint64_t roomID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> GetCurrent()
-    // Offset: 0x2393CC8
+    // Offset: 0x23AE2FC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> GetCurrentForUser(System.UInt64 userID)
-    // Offset: 0x2393DD4
+    // Offset: 0x23AE408
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* GetCurrentForUser(uint64_t userID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserList> GetInvitableUsers()
-    // Offset: 0x2393EF0
+    // Offset: 0x23AE524
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* GetInvitableUsers();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.UserList> GetInvitableUsers2(Oculus.Platform.RoomOptions roomOptions)
-    // Offset: 0x2393FFC
+    // Offset: 0x23AE630
     static Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* GetInvitableUsers2(Oculus::Platform::RoomOptions* roomOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomList> GetModeratedRooms()
-    // Offset: 0x2394144
+    // Offset: 0x23AE778
     static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomList*>* GetModeratedRooms();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> InviteUser(System.UInt64 roomID, System.String inviteToken)
-    // Offset: 0x2394250
+    // Offset: 0x23AE884
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* InviteUser(uint64_t roomID, ::Il2CppString* inviteToken);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Join(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x2394374
+    // Offset: 0x23AE9A8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* Join(uint64_t roomID, bool subscribeToUpdates);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Join2(System.UInt64 roomID, Oculus.Platform.RoomOptions roomOptions)
-    // Offset: 0x2394498
+    // Offset: 0x23AEACC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* Join2(uint64_t roomID, Oculus::Platform::RoomOptions* roomOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> KickUser(System.UInt64 roomID, System.UInt64 userID, System.Int32 kickDurationSeconds)
-    // Offset: 0x23945E8
+    // Offset: 0x23AEC1C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* KickUser(uint64_t roomID, uint64_t userID, int kickDurationSeconds);
     // static public Oculus.Platform.Request LaunchInvitableUserFlow(System.UInt64 roomID)
-    // Offset: 0x239471C
+    // Offset: 0x23AED50
     static Oculus::Platform::Request* LaunchInvitableUserFlow(uint64_t roomID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> Leave(System.UInt64 roomID)
-    // Offset: 0x2394830
+    // Offset: 0x23AEE64
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* Leave(uint64_t roomID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> SetDescription(System.UInt64 roomID, System.String description)
-    // Offset: 0x239494C
+    // Offset: 0x23AEF80
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* SetDescription(uint64_t roomID, ::Il2CppString* description);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdateMembershipLockStatus(System.UInt64 roomID, Oculus.Platform.RoomMembershipLockStatus membershipLockStatus)
-    // Offset: 0x2394A70
+    // Offset: 0x23AF0A4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* UpdateMembershipLockStatus(uint64_t roomID, Oculus::Platform::RoomMembershipLockStatus membershipLockStatus);
     // static public Oculus.Platform.Request UpdateOwner(System.UInt64 roomID, System.UInt64 userID)
-    // Offset: 0x2394B94
+    // Offset: 0x23AF1C8
     static Oculus::Platform::Request* UpdateOwner(uint64_t roomID, uint64_t userID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> UpdatePrivateRoomJoinPolicy(System.UInt64 roomID, Oculus.Platform.RoomJoinPolicy newJoinPolicy)
-    // Offset: 0x2394CB0
+    // Offset: 0x23AF2E4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* UpdatePrivateRoomJoinPolicy(uint64_t roomID, Oculus::Platform::RoomJoinPolicy newJoinPolicy);
     // static public System.Void SetRoomInviteAcceptedNotificationCallback(Oculus.Platform.Message`1/Callback<System.String> callback)
-    // Offset: 0x23938A0
+    // Offset: 0x23ADED4
     static void SetRoomInviteAcceptedNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
     // static public System.Void SetRoomInviteReceivedNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.RoomInviteNotification> callback)
-    // Offset: 0x2394DD4
+    // Offset: 0x23AF408
     static void SetRoomInviteReceivedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>::Callback* callback);
     // static public System.Void SetUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<Oculus.Platform.Models.Room> callback)
-    // Offset: 0x2394E4C
+    // Offset: 0x23AF480
     static void SetUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback* callback);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomList> GetNextRoomListPage(Oculus.Platform.Models.RoomList list)
-    // Offset: 0x2394EC4
+    // Offset: 0x23AF4F8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomList*>* GetNextRoomListPage(Oculus::Platform::Models::RoomList* list);
   }; // Oculus.Platform.Rooms
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Rooms::UpdateDataStore
+  // Il2CppName: UpdateDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&Rooms::UpdateDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "UpdateDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::SetRoomInviteNotificationCallback
+  // Il2CppName: SetRoomInviteNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Rooms::SetRoomInviteNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "SetRoomInviteNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::CreateAndJoinPrivate
+  // Il2CppName: CreateAndJoinPrivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(Oculus::Platform::RoomJoinPolicy, uint, bool)>(&Rooms::CreateAndJoinPrivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "CreateAndJoinPrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::CreateAndJoinPrivate2
+  // Il2CppName: CreateAndJoinPrivate2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(Oculus::Platform::RoomJoinPolicy, uint, Oculus::Platform::RoomOptions*)>(&Rooms::CreateAndJoinPrivate2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "CreateAndJoinPrivate2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomOptions*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::Get
+  // Il2CppName: Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t)>(&Rooms::Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::GetCurrent
+  // Il2CppName: GetCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)()>(&Rooms::GetCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::GetCurrentForUser
+  // Il2CppName: GetCurrentForUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t)>(&Rooms::GetCurrentForUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::GetInvitableUsers
+  // Il2CppName: GetInvitableUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)()>(&Rooms::GetInvitableUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "GetInvitableUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::GetInvitableUsers2
+  // Il2CppName: GetInvitableUsers2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)(Oculus::Platform::RoomOptions*)>(&Rooms::GetInvitableUsers2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "GetInvitableUsers2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomOptions*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::GetModeratedRooms
+  // Il2CppName: GetModeratedRooms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomList*>* (*)()>(&Rooms::GetModeratedRooms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "GetModeratedRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::InviteUser
+  // Il2CppName: InviteUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, ::Il2CppString*)>(&Rooms::InviteUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "InviteUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::Join
+  // Il2CppName: Join
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, bool)>(&Rooms::Join)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::Join2
+  // Il2CppName: Join2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, Oculus::Platform::RoomOptions*)>(&Rooms::Join2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "Join2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomOptions*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::KickUser
+  // Il2CppName: KickUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, uint64_t, int)>(&Rooms::KickUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "KickUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::LaunchInvitableUserFlow
+  // Il2CppName: LaunchInvitableUserFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Rooms::LaunchInvitableUserFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "LaunchInvitableUserFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::Leave
+  // Il2CppName: Leave
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t)>(&Rooms::Leave)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::SetDescription
+  // Il2CppName: SetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, ::Il2CppString*)>(&Rooms::SetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::UpdateMembershipLockStatus
+  // Il2CppName: UpdateMembershipLockStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, Oculus::Platform::RoomMembershipLockStatus)>(&Rooms::UpdateMembershipLockStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "UpdateMembershipLockStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomMembershipLockStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::UpdateOwner
+  // Il2CppName: UpdateOwner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t, uint64_t)>(&Rooms::UpdateOwner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "UpdateOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::UpdatePrivateRoomJoinPolicy
+  // Il2CppName: UpdatePrivateRoomJoinPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, Oculus::Platform::RoomJoinPolicy)>(&Rooms::UpdatePrivateRoomJoinPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "UpdatePrivateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::SetRoomInviteAcceptedNotificationCallback
+  // Il2CppName: SetRoomInviteAcceptedNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Rooms::SetRoomInviteAcceptedNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "SetRoomInviteAcceptedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::SetRoomInviteReceivedNotificationCallback
+  // Il2CppName: SetRoomInviteReceivedNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>::Callback*)>(&Rooms::SetRoomInviteReceivedNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "SetRoomInviteReceivedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>::Callback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::SetUpdateNotificationCallback
+  // Il2CppName: SetUpdateNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback*)>(&Rooms::SetUpdateNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "SetUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Rooms::GetNextRoomListPage
+  // Il2CppName: GetNextRoomListPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomList*>* (*)(Oculus::Platform::Models::RoomList*)>(&Rooms::GetNextRoomListPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rooms*), "GetNextRoomListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::RoomList*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Rooms*, "Oculus.Platform", "Rooms");

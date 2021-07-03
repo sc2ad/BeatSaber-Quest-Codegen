@@ -164,28 +164,28 @@ namespace GlobalNamespace {
     UnityEngine::SkinnedMeshRenderer* skinnedMeshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SkinnedMeshRenderer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1004
+    // [CompilerGeneratedAttribute] Offset: 0xDCFF38
     // private System.Boolean <IsInitialized>k__BackingField
     // Size: 0x1
     // Offset: 0x50
     bool IsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1014
+    // [CompilerGeneratedAttribute] Offset: 0xDCFF48
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x51
     bool IsDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1024
+    // [CompilerGeneratedAttribute] Offset: 0xDCFF58
     // private System.Boolean <IsDataHighConfidence>k__BackingField
     // Size: 0x1
     // Offset: 0x52
     bool IsDataHighConfidence;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1034
+    // [CompilerGeneratedAttribute] Offset: 0xDCFF68
     // private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     // Size: 0x1
     // Offset: 0x53
@@ -197,46 +197,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x12D0188
+    // Offset: 0x12E9E98
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x12D0190
+    // Offset: 0x12E9EA0
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x12D019C
+    // Offset: 0x12E9EAC
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x12D01A4
+    // Offset: 0x12E9EB4
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x12D01B0
+    // Offset: 0x12E9EC0
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x12D01B8
+    // Offset: 0x12E9EC8
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x12D01C4
+    // Offset: 0x12E9ED4
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x12D01CC
+    // Offset: 0x12E9EDC
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x12D01D8
+    // Offset: 0x12E9EE8
     void Awake();
     // private System.Void Start()
-    // Offset: 0x12D02D8
+    // Offset: 0x12E9FE8
     void Start();
     // private System.Boolean ShouldInitialize()
-    // Offset: 0x12D0384
+    // Offset: 0x12EA094
     bool ShouldInitialize();
     // private System.Void Initialize()
-    // Offset: 0x12D049C
+    // Offset: 0x12EA1AC
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x12D0938
+    // Offset: 0x12EA648
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x12D0C14
+    // Offset: 0x12EA924
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -252,6 +252,124 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRMeshRenderer), 83 + sizeof(bool)> __GlobalNamespace_OVRMeshRendererSizeCheck;
   static_assert(sizeof(OVRMeshRenderer) == 0x54);
+  // Writing MetadataGetter for method: OVRMeshRenderer::get_IsInitialized
+  // Il2CppName: get_IsInitialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_IsInitialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::set_IsInitialized
+  // Il2CppName: set_IsInitialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_IsInitialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::get_IsDataValid
+  // Il2CppName: get_IsDataValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_IsDataValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::set_IsDataValid
+  // Il2CppName: set_IsDataValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_IsDataValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::get_IsDataHighConfidence
+  // Il2CppName: get_IsDataHighConfidence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_IsDataHighConfidence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::set_IsDataHighConfidence
+  // Il2CppName: set_IsDataHighConfidence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_IsDataHighConfidence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::get_ShouldUseSystemGestureMaterial
+  // Il2CppName: get_ShouldUseSystemGestureMaterial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_ShouldUseSystemGestureMaterial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::set_ShouldUseSystemGestureMaterial
+  // Il2CppName: set_ShouldUseSystemGestureMaterial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_ShouldUseSystemGestureMaterial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::ShouldInitialize
+  // Il2CppName: ShouldInitialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::ShouldInitialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "ShouldInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRMeshRenderer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");

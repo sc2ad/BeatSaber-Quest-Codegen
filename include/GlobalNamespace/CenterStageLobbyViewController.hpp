@@ -44,10 +44,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CenterStageLobbyViewController
     CenterStageLobbyViewController(GlobalNamespace::BeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::ModifiersSelectionView* modifiersSelectionView_ = {}) noexcept : beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_} {}
     // public System.Void SetLevelGameplaySetupData(ILevelGameplaySetupData levelGameplaySetupData)
-    // Offset: 0x108AD54
+    // Offset: 0x1188E98
     void SetLevelGameplaySetupData(GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
     // public System.Void .ctor()
-    // Offset: 0x108AF88
+    // Offset: 0x11890CC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -64,5 +64,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CenterStageLobbyViewController), 120 + sizeof(GlobalNamespace::ModifiersSelectionView*)> __GlobalNamespace_CenterStageLobbyViewControllerSizeCheck;
   static_assert(sizeof(CenterStageLobbyViewController) == 0x80);
+  // Writing MetadataGetter for method: CenterStageLobbyViewController::SetLevelGameplaySetupData
+  // Il2CppName: SetLevelGameplaySetupData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageLobbyViewController::*)(GlobalNamespace::ILevelGameplaySetupData*)>(&CenterStageLobbyViewController::SetLevelGameplaySetupData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageLobbyViewController*), "SetLevelGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILevelGameplaySetupData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageLobbyViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageLobbyViewController::*)()>(&CenterStageLobbyViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageLobbyViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageLobbyViewController::*)()>(&CenterStageLobbyViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageLobbyViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageLobbyViewController*, "", "CenterStageLobbyViewController");

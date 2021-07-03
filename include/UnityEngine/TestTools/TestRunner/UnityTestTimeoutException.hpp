@@ -28,26 +28,64 @@ namespace UnityEngine::TestTools::TestRunner {
     // Creating value type constructor for type: UnityTestTimeoutException
     UnityTestTimeoutException() noexcept {}
     // public System.Void .ctor(System.Int32 timeout)
-    // Offset: 0x23C301C
+    // Offset: 0x23DE548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestTimeoutException* New_ctor(int timeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestTimeoutException*, creationType>(timeout)));
     }
     // static private System.String BuildMessage(System.Int32 timeout)
-    // Offset: 0x23C304C
+    // Offset: 0x23DE578
     static ::Il2CppString* BuildMessage(int timeout);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
-    // Offset: 0x23C30C8
+    // Offset: 0x23DE5F4
     // Implemented from: NUnit.Framework.ResultStateException
     // Base method: NUnit.Framework.Interfaces.ResultState ResultStateException::get_ResultState()
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public override System.String get_StackTrace()
-    // Offset: 0x23C3130
+    // Offset: 0x23DE65C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
     ::Il2CppString* get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnityTestTimeoutException
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnityTestTimeoutException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestTimeoutException::*)(int)>(&UnityTestTimeoutException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestTimeoutException::*)(int)>(&UnityTestTimeoutException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTestTimeoutException::BuildMessage
+  // Il2CppName: BuildMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityTestTimeoutException::BuildMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTestTimeoutException::get_ResultState
+  // Il2CppName: get_ResultState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityTestTimeoutException::*)()>(&UnityTestTimeoutException::get_ResultState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTestTimeoutException::get_StackTrace
+  // Il2CppName: get_StackTrace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityTestTimeoutException::*)()>(&UnityTestTimeoutException::get_StackTrace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*, "UnityEngine.TestTools.TestRunner", "UnityTestTimeoutException");

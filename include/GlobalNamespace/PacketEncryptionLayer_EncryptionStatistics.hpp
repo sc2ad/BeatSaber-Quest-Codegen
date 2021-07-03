@@ -69,55 +69,55 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EncryptionStatistics
     EncryptionStatistics(int64_t packetsReceivedPlaintext_ = {}, int64_t packetsReceivedEncrypted_ = {}, int64_t packetsReceivedRejected_ = {}, int64_t packetsSentPlaintext_ = {}, int64_t packetsSentEncrypted_ = {}, int64_t packetsSentRejected_ = {}, int64_t encryptionProcessingTime_ = {}, int64_t decryptionProcessingTime_ = {}) noexcept : packetsReceivedPlaintext{packetsReceivedPlaintext_}, packetsReceivedEncrypted{packetsReceivedEncrypted_}, packetsReceivedRejected{packetsReceivedRejected_}, packetsSentPlaintext{packetsSentPlaintext_}, packetsSentEncrypted{packetsSentEncrypted_}, packetsSentRejected{packetsSentRejected_}, encryptionProcessingTime{encryptionProcessingTime_}, decryptionProcessingTime{decryptionProcessingTime_} {}
     // public System.Int64 get_packetsReceivedPlaintext()
-    // Offset: 0x14ECEF4
+    // Offset: 0x1507C04
     int64_t get_packetsReceivedPlaintext();
     // public System.Int64 get_packetsReceivedEncrypted()
-    // Offset: 0x14ECF00
+    // Offset: 0x1507C10
     int64_t get_packetsReceivedEncrypted();
     // public System.Int64 get_packetsReceivedRejected()
-    // Offset: 0x14ECF0C
+    // Offset: 0x1507C1C
     int64_t get_packetsReceivedRejected();
     // public System.Int64 get_packetsSentPlaintext()
-    // Offset: 0x14ECF18
+    // Offset: 0x1507C28
     int64_t get_packetsSentPlaintext();
     // public System.Int64 get_packetsSentEncrypted()
-    // Offset: 0x14ECF24
+    // Offset: 0x1507C34
     int64_t get_packetsSentEncrypted();
     // public System.Int64 get_packetsSentRejected()
-    // Offset: 0x14ECF30
+    // Offset: 0x1507C40
     int64_t get_packetsSentRejected();
     // public System.Int64 get_encryptionProcessingTime()
-    // Offset: 0x14ECF3C
+    // Offset: 0x1507C4C
     int64_t get_encryptionProcessingTime();
     // public System.Int64 get_decryptionProcessingTime()
-    // Offset: 0x14ECFC8
+    // Offset: 0x1507CD8
     int64_t get_decryptionProcessingTime();
     // public System.Void IncrementPacketsReceivedPlaintext()
-    // Offset: 0x14EB054
+    // Offset: 0x1505D64
     void IncrementPacketsReceivedPlaintext();
     // public System.Void IncrementPacketsReceivedEncrypted()
-    // Offset: 0x14EB03C
+    // Offset: 0x1505D4C
     void IncrementPacketsReceivedEncrypted();
     // public System.Void IncrementPacketsReceivedRejected()
-    // Offset: 0x14EB060
+    // Offset: 0x1505D70
     void IncrementPacketsReceivedRejected();
     // public System.Void IncrementPacketsSentPlaintext()
-    // Offset: 0x14EB41C
+    // Offset: 0x150612C
     void IncrementPacketsSentPlaintext();
     // public System.Void IncrementPacketsSentEncrypted()
-    // Offset: 0x14EB404
+    // Offset: 0x1506114
     void IncrementPacketsSentEncrypted();
     // public System.Void IncrementPacketsSentRejected()
-    // Offset: 0x14EB428
+    // Offset: 0x1506138
     void IncrementPacketsSentRejected();
     // public System.Void AddEncryptionProcessingTime(System.Int64 time)
-    // Offset: 0x14EB410
+    // Offset: 0x1506120
     void AddEncryptionProcessingTime(int64_t time);
     // public System.Void AddDecryptionProcessingTime(System.Int64 time)
-    // Offset: 0x14EB048
+    // Offset: 0x1505D58
     void AddDecryptionProcessingTime(int64_t time);
     // public System.Void .ctor()
-    // Offset: 0x14EAB54
+    // Offset: 0x1505864
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -129,5 +129,147 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PacketEncryptionLayer::EncryptionStatistics), 72 + sizeof(int64_t)> __GlobalNamespace_PacketEncryptionLayer_EncryptionStatisticsSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer::EncryptionStatistics) == 0x50);
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedPlaintext
+  // Il2CppName: get_packetsReceivedPlaintext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedPlaintext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_packetsReceivedPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedEncrypted
+  // Il2CppName: get_packetsReceivedEncrypted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedEncrypted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_packetsReceivedEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedRejected
+  // Il2CppName: get_packetsReceivedRejected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_packetsReceivedRejected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_packetsReceivedRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_packetsSentPlaintext
+  // Il2CppName: get_packetsSentPlaintext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_packetsSentPlaintext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_packetsSentPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_packetsSentEncrypted
+  // Il2CppName: get_packetsSentEncrypted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_packetsSentEncrypted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_packetsSentEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_packetsSentRejected
+  // Il2CppName: get_packetsSentRejected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_packetsSentRejected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_packetsSentRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_encryptionProcessingTime
+  // Il2CppName: get_encryptionProcessingTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_encryptionProcessingTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_encryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::get_decryptionProcessingTime
+  // Il2CppName: get_decryptionProcessingTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::get_decryptionProcessingTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "get_decryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedPlaintext
+  // Il2CppName: IncrementPacketsReceivedPlaintext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedPlaintext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsReceivedPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedEncrypted
+  // Il2CppName: IncrementPacketsReceivedEncrypted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedEncrypted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsReceivedEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedRejected
+  // Il2CppName: IncrementPacketsReceivedRejected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsReceivedRejected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsReceivedRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentPlaintext
+  // Il2CppName: IncrementPacketsSentPlaintext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentPlaintext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsSentPlaintext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentEncrypted
+  // Il2CppName: IncrementPacketsSentEncrypted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentEncrypted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsSentEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentRejected
+  // Il2CppName: IncrementPacketsSentRejected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::IncrementPacketsSentRejected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "IncrementPacketsSentRejected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::AddEncryptionProcessingTime
+  // Il2CppName: AddEncryptionProcessingTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)(int64_t)>(&PacketEncryptionLayer::EncryptionStatistics::AddEncryptionProcessingTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "AddEncryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::AddDecryptionProcessingTime
+  // Il2CppName: AddDecryptionProcessingTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)(int64_t)>(&PacketEncryptionLayer::EncryptionStatistics::AddDecryptionProcessingTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), "AddDecryptionProcessingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::EncryptionStatistics::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::EncryptionStatistics::*)()>(&PacketEncryptionLayer::EncryptionStatistics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer::EncryptionStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::EncryptionStatistics*, "", "PacketEncryptionLayer/EncryptionStatistics");

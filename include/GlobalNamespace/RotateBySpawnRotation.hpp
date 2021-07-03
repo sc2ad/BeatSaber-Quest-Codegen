@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     float smooth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE1B4BC
+    // [InjectAttribute] Offset: 0xE1B498
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -79,25 +79,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10AF81C
+    // Offset: 0x10B2AF8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10AF83C
+    // Offset: 0x10B2B18
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10AF9B8
+    // Offset: 0x10B2C94
     void OnDestroy();
     // private System.Void BeatmapEventAtNoteSpawnCallback(BeatmapEventData beatmapEventData)
-    // Offset: 0x10AFA74
+    // Offset: 0x10B2D50
     void BeatmapEventAtNoteSpawnCallback(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // protected System.Void FixedUpdate()
-    // Offset: 0x10AFB84
+    // Offset: 0x10B2E60
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x10AFC60
+    // Offset: 0x10B2F3C
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x10AFD90
+    // Offset: 0x10B306C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -113,5 +113,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(RotateBySpawnRotation), 60 + sizeof(float)> __GlobalNamespace_RotateBySpawnRotationSizeCheck;
   static_assert(sizeof(RotateBySpawnRotation) == 0x40);
+  // Writing MetadataGetter for method: RotateBySpawnRotation::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotateBySpawnRotation::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotateBySpawnRotation::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotateBySpawnRotation::BeatmapEventAtNoteSpawnCallback
+  // Il2CppName: BeatmapEventAtNoteSpawnCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)(GlobalNamespace::BeatmapEventData*)>(&RotateBySpawnRotation::BeatmapEventAtNoteSpawnCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), "BeatmapEventAtNoteSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RotateBySpawnRotation::FixedUpdate
+  // Il2CppName: FixedUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::FixedUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotateBySpawnRotation::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RotateBySpawnRotation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateBySpawnRotation::*)()>(&RotateBySpawnRotation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RotateBySpawnRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RotateBySpawnRotation*, "", "RotateBySpawnRotation");

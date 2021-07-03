@@ -52,121 +52,425 @@ namespace System {
     // Set static field: static public System.Double E
     static void _set_E(double value);
     // static public System.Double Acos(System.Double d)
-    // Offset: 0x1809BB0
+    // Offset: 0x18218C0
     static double Acos(double d);
     // static public System.Double Asin(System.Double d)
-    // Offset: 0x1809BB4
+    // Offset: 0x18218C4
     static double Asin(double d);
     // static public System.Double Atan(System.Double d)
-    // Offset: 0x1809BB8
+    // Offset: 0x18218C8
     static double Atan(double d);
     // static public System.Double Atan2(System.Double y, System.Double x)
-    // Offset: 0x1809BBC
+    // Offset: 0x18218CC
     static double Atan2(double y, double x);
     // static public System.Double Ceiling(System.Double a)
-    // Offset: 0x1809BC0
+    // Offset: 0x18218D0
     static double Ceiling(double a);
     // static public System.Double Cos(System.Double d)
-    // Offset: 0x1809BC8
+    // Offset: 0x18218D8
     static double Cos(double d);
     // static public System.Double Floor(System.Double d)
-    // Offset: 0x1809BCC
+    // Offset: 0x18218DC
     static double Floor(double d);
     // static private System.Double InternalTruncate(System.Double d)
-    // Offset: 0x1809BD4
+    // Offset: 0x18218E4
     static double InternalTruncate(double d);
     // static public System.Double Sin(System.Double a)
-    // Offset: 0x1809C44
+    // Offset: 0x1821954
     static double Sin(double a);
     // static public System.Double Tan(System.Double a)
-    // Offset: 0x1809C48
+    // Offset: 0x1821958
     static double Tan(double a);
     // static public System.Double Round(System.Double a)
-    // Offset: 0x1809C4C
+    // Offset: 0x182195C
     static double Round(double a);
     // static private System.Double SplitFractionDouble(System.Double* value)
-    // Offset: 0x1809C40
+    // Offset: 0x1821950
     static double SplitFractionDouble(double* value);
     // static public System.Double Truncate(System.Double d)
-    // Offset: 0x1809CCC
+    // Offset: 0x18219DC
     static double Truncate(double d);
     // static public System.Double Sqrt(System.Double d)
-    // Offset: 0x1809D38
+    // Offset: 0x1821A48
     static double Sqrt(double d);
     // static public System.Double Log(System.Double d)
-    // Offset: 0x1809D50
+    // Offset: 0x1821A60
     static double Log(double d);
     // static public System.Double Log10(System.Double d)
-    // Offset: 0x1809D54
+    // Offset: 0x1821A64
     static double Log10(double d);
     // static public System.Double Pow(System.Double x, System.Double y)
-    // Offset: 0x1809D58
+    // Offset: 0x1821A68
     static double Pow(double x, double y);
     // static public System.Int32 Abs(System.Int32 value)
-    // Offset: 0x1809D5C
+    // Offset: 0x1821A6C
     static int Abs(int value);
     // static private System.Int32 AbsHelper(System.Int32 value)
-    // Offset: 0x1809DD4
+    // Offset: 0x1821AE4
     static int AbsHelper(int value);
     // static public System.Int64 Abs(System.Int64 value)
-    // Offset: 0x1809E74
+    // Offset: 0x1821B84
     static int64_t Abs(int64_t value);
     // static private System.Int64 AbsHelper(System.Int64 value)
-    // Offset: 0x1809EEC
+    // Offset: 0x1821BFC
     static int64_t AbsHelper(int64_t value);
     // static public System.Single Abs(System.Single value)
-    // Offset: 0x1809F8C
+    // Offset: 0x1821C9C
     static float Abs(float value);
     // static public System.Double Abs(System.Double value)
-    // Offset: 0x1809F94
+    // Offset: 0x1821CA4
     static double Abs(double value);
     // static public System.Decimal Abs(System.Decimal value)
-    // Offset: 0x1809F9C
+    // Offset: 0x1821CAC
     static System::Decimal Abs(System::Decimal value);
     // static public System.Int32 Max(System.Int32 val1, System.Int32 val2)
-    // Offset: 0x180A014
+    // Offset: 0x1821D24
     static int Max(int val1, int val2);
     // static public System.UInt32 Max(System.UInt32 val1, System.UInt32 val2)
-    // Offset: 0x180A020
+    // Offset: 0x1821D30
     static uint Max(uint val1, uint val2);
     // static public System.Int64 Max(System.Int64 val1, System.Int64 val2)
-    // Offset: 0x180A02C
+    // Offset: 0x1821D3C
     static int64_t Max(int64_t val1, int64_t val2);
     // static public System.UInt64 Max(System.UInt64 val1, System.UInt64 val2)
-    // Offset: 0x180A038
+    // Offset: 0x1821D48
     static uint64_t Max(uint64_t val1, uint64_t val2);
     // static public System.Single Max(System.Single val1, System.Single val2)
-    // Offset: 0x180A044
+    // Offset: 0x1821D54
     static float Max(float val1, float val2);
     // static public System.Double Max(System.Double val1, System.Double val2)
-    // Offset: 0x180A088
+    // Offset: 0x1821D98
     static double Max(double val1, double val2);
     // static public System.Int32 Min(System.Int32 val1, System.Int32 val2)
-    // Offset: 0x180A118
+    // Offset: 0x1821E28
     static int Min(int val1, int val2);
     // static public System.UInt32 Min(System.UInt32 val1, System.UInt32 val2)
-    // Offset: 0x180A124
+    // Offset: 0x1821E34
     static uint Min(uint val1, uint val2);
     // static public System.Int64 Min(System.Int64 val1, System.Int64 val2)
-    // Offset: 0x180A130
+    // Offset: 0x1821E40
     static int64_t Min(int64_t val1, int64_t val2);
     // static public System.UInt64 Min(System.UInt64 val1, System.UInt64 val2)
-    // Offset: 0x180A13C
+    // Offset: 0x1821E4C
     static uint64_t Min(uint64_t val1, uint64_t val2);
     // static public System.Single Min(System.Single val1, System.Single val2)
-    // Offset: 0x180A148
+    // Offset: 0x1821E58
     static float Min(float val1, float val2);
     // static public System.Double Min(System.Double val1, System.Double val2)
-    // Offset: 0x180A18C
+    // Offset: 0x1821E9C
     static double Min(double val1, double val2);
     // static public System.Double Log(System.Double a, System.Double newBase)
-    // Offset: 0x180A21C
+    // Offset: 0x1821F2C
     static double Log(double a, double newBase);
     // static private System.Void .cctor()
-    // Offset: 0x180A360
+    // Offset: 0x1822070
     static void _cctor();
   }; // System.Math
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Math::Acos
+  // Il2CppName: Acos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Acos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Acos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Asin
+  // Il2CppName: Asin
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Asin)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Asin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Atan
+  // Il2CppName: Atan
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Atan)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Atan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Atan2
+  // Il2CppName: Atan2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&Math::Atan2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Atan2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Ceiling
+  // Il2CppName: Ceiling
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Ceiling)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Ceiling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Cos
+  // Il2CppName: Cos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Cos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Cos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Floor
+  // Il2CppName: Floor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Floor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Floor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::InternalTruncate
+  // Il2CppName: InternalTruncate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::InternalTruncate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "InternalTruncate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Sin
+  // Il2CppName: Sin
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Sin)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Sin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Tan
+  // Il2CppName: Tan
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Tan)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Tan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Round
+  // Il2CppName: Round
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Round)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::SplitFractionDouble
+  // Il2CppName: SplitFractionDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double*)>(&Math::SplitFractionDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "SplitFractionDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Truncate
+  // Il2CppName: Truncate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Truncate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Truncate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Sqrt
+  // Il2CppName: Sqrt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Sqrt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Sqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Log
+  // Il2CppName: Log
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Log)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Log10
+  // Il2CppName: Log10
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Log10)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Log10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Pow
+  // Il2CppName: Pow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&Math::Pow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Math::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::AbsHelper
+  // Il2CppName: AbsHelper
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Math::AbsHelper)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "AbsHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t)>(&Math::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::AbsHelper
+  // Il2CppName: AbsHelper
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t)>(&Math::AbsHelper)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "AbsHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Math::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&Math::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Abs
+  // Il2CppName: Abs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&Math::Abs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Max
+  // Il2CppName: Max
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Math::Max)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Max
+  // Il2CppName: Max
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint)>(&Math::Max)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Max
+  // Il2CppName: Max
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t, int64_t)>(&Math::Max)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Max
+  // Il2CppName: Max
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&Math::Max)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Max
+  // Il2CppName: Max
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&Math::Max)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Max
+  // Il2CppName: Max
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&Math::Max)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Min
+  // Il2CppName: Min
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Math::Min)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Min
+  // Il2CppName: Min
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint)>(&Math::Min)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Min
+  // Il2CppName: Min
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t, int64_t)>(&Math::Min)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Min
+  // Il2CppName: Min
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&Math::Min)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Min
+  // Il2CppName: Min
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&Math::Min)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Min
+  // Il2CppName: Min
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&Math::Min)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::Log
+  // Il2CppName: Log
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&Math::Log)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Math::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Math::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Math*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Math*, "System", "Math");

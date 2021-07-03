@@ -41,14 +41,14 @@ namespace TMPro {
     // Creating value type constructor for type: Compute_DT_EventArgs
     Compute_DT_EventArgs(TMPro::Compute_DistanceTransform_EventTypes EventType_ = {}, float ProgressPercentage_ = {}, ::Array<UnityEngine::Color>* Colors_ = {}) noexcept : EventType{EventType_}, ProgressPercentage{ProgressPercentage_}, Colors{Colors_} {}
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
-    // Offset: 0x1108148
+    // Offset: 0x10E2FC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, progress)));
     }
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
-    // Offset: 0x1108184
+    // Offset: 0x10E3000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::Array<UnityEngine::Color>* colors) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
@@ -58,5 +58,33 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::Array<UnityEngine::Color>*)> __TMPro_Compute_DT_EventArgsSizeCheck;
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
+  // Writing MetadataGetter for method: Compute_DT_EventArgs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, float)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, float)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Compute_DT_EventArgs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, ::Array<UnityEngine::Color>*)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, ::Array<UnityEngine::Color>*)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");

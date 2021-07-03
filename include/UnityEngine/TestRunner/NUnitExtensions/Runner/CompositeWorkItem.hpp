@@ -96,7 +96,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::Commands::TestCommand* teardownCommand;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE3CBAC
+    // [CompilerGeneratedAttribute] Offset: 0xE3DBD0
     // private System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> <Children>k__BackingField
     // Size: 0x8
     // Offset: 0x80
@@ -120,61 +120,61 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Creating value type constructor for type: CompositeWorkItem
     CompositeWorkItem(NUnit::Framework::Internal::TestSuite* suite_ = {}, NUnit::Framework::Internal::TestSuiteResult* suiteResult_ = {}, NUnit::Framework::Interfaces::ITestFilter* childFilter_ = {}, NUnit::Framework::Internal::Commands::TestCommand* setupCommand_ = {}, NUnit::Framework::Internal::Commands::TestCommand* teardownCommand_ = {}, System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* Children_ = {}, int countOrder_ = {}, NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown_ = {}) noexcept : suite{suite_}, suiteResult{suiteResult_}, childFilter{childFilter_}, setupCommand{setupCommand_}, teardownCommand{teardownCommand_}, Children{Children_}, countOrder{countOrder_}, childTestCountdown{childTestCountdown_} {}
     // public System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> get_Children()
-    // Offset: 0x148BA74
+    // Offset: 0x14A6784
     System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* get_Children();
     // private System.Void set_Children(System.Collections.Generic.List`1<UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem> value)
-    // Offset: 0x148BA7C
+    // Offset: 0x14A678C
     void set_Children(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ITestFilter childFilter, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
-    // Offset: 0x148BA84
+    // Offset: 0x14A6794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CompositeWorkItem* New_ctor(NUnit::Framework::Internal::TestSuite* suite, NUnit::Framework::Interfaces::ITestFilter* childFilter, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeWorkItem*, creationType>(suite, childFilter, factory)));
     }
     // private System.Boolean CheckForCancellation()
-    // Offset: 0x148BCC8
+    // Offset: 0x14A69D8
     bool CheckForCancellation();
     // private System.Void InitializeSetUpAndTearDownCommands()
-    // Offset: 0x148BDA0
+    // Offset: 0x14A6AB0
     void InitializeSetUpAndTearDownCommands();
     // private System.Void PerformOneTimeSetUp()
-    // Offset: 0x148C2B4
+    // Offset: 0x14A6FC4
     void PerformOneTimeSetUp();
     // private System.Collections.IEnumerable RunChildren()
-    // Offset: 0x148C630
+    // Offset: 0x14A7340
     System::Collections::IEnumerable* RunChildren();
     // private System.Void CreateChildWorkItems()
-    // Offset: 0x148C6E8
+    // Offset: 0x14A73F8
     void CreateChildWorkItems();
     // private System.Void SortChildren()
-    // Offset: 0x148CE64
+    // Offset: 0x14A7B74
     void SortChildren();
     // private System.Void SkipFixture(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
-    // Offset: 0x148CEFC
+    // Offset: 0x14A7C0C
     void SkipFixture(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message, ::Il2CppString* stackTrace);
     // private System.Void SkipChildren(NUnit.Framework.Internal.TestSuite suite, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
-    // Offset: 0x148D008
+    // Offset: 0x14A7D18
     void SkipChildren(NUnit::Framework::Internal::TestSuite* suite, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
     // private System.Void PerformOneTimeTearDown()
-    // Offset: 0x148D554
+    // Offset: 0x14A8264
     void PerformOneTimeTearDown();
     // private System.String GetSkipReason()
-    // Offset: 0x148D714
+    // Offset: 0x14A8424
     ::Il2CppString* GetSkipReason();
     // private System.String GetProviderStackTrace()
-    // Offset: 0x148D804
+    // Offset: 0x14A8514
     ::Il2CppString* GetProviderStackTrace();
     // private System.Void CountDownChildTest()
-    // Offset: 0x148D8F4
+    // Offset: 0x14A8604
     void CountDownChildTest();
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x148BC10
+    // Offset: 0x14A6920
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
     // public override System.Void Cancel(System.Boolean force)
-    // Offset: 0x148DEB8
+    // Offset: 0x14A8BC8
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Void UnityWorkItem::Cancel(System.Boolean force)
     void Cancel(bool force);
@@ -182,5 +182,147 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(CompositeWorkItem), 144 + sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CompositeWorkItemSizeCheck;
   static_assert(sizeof(CompositeWorkItem) == 0x98);
+  // Writing MetadataGetter for method: CompositeWorkItem::get_Children
+  // Il2CppName: get_Children
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>* (CompositeWorkItem::*)()>(&CompositeWorkItem::get_Children)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::set_Children
+  // Il2CppName: set_Children
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*)>(&CompositeWorkItem::set_Children)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "set_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ITestFilter*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&CompositeWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ITestFilter*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&CompositeWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::CheckForCancellation
+  // Il2CppName: CheckForCancellation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeWorkItem::*)()>(&CompositeWorkItem::CheckForCancellation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CheckForCancellation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::InitializeSetUpAndTearDownCommands
+  // Il2CppName: InitializeSetUpAndTearDownCommands
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::InitializeSetUpAndTearDownCommands)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "InitializeSetUpAndTearDownCommands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::PerformOneTimeSetUp
+  // Il2CppName: PerformOneTimeSetUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformOneTimeSetUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformOneTimeSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::RunChildren
+  // Il2CppName: RunChildren
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CompositeWorkItem::*)()>(&CompositeWorkItem::RunChildren)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "RunChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::CreateChildWorkItems
+  // Il2CppName: CreateChildWorkItems
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::CreateChildWorkItems)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CreateChildWorkItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::SortChildren
+  // Il2CppName: SortChildren
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::SortChildren)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SortChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::SkipFixture
+  // Il2CppName: SkipFixture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*, ::Il2CppString*)>(&CompositeWorkItem::SkipFixture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SkipFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::SkipChildren
+  // Il2CppName: SkipChildren
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*)>(&CompositeWorkItem::SkipChildren)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "SkipChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ResultState*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::PerformOneTimeTearDown
+  // Il2CppName: PerformOneTimeTearDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformOneTimeTearDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformOneTimeTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::GetSkipReason
+  // Il2CppName: GetSkipReason
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeWorkItem::*)()>(&CompositeWorkItem::GetSkipReason)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::GetProviderStackTrace
+  // Il2CppName: GetProviderStackTrace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeWorkItem::*)()>(&CompositeWorkItem::GetProviderStackTrace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::CountDownChildTest
+  // Il2CppName: CountDownChildTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)()>(&CompositeWorkItem::CountDownChildTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "CountDownChildTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::PerformWork
+  // Il2CppName: PerformWork
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CompositeWorkItem::*)()>(&CompositeWorkItem::PerformWork)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CompositeWorkItem::Cancel
+  // Il2CppName: Cancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeWorkItem::*)(bool)>(&CompositeWorkItem::Cancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CompositeWorkItem*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");

@@ -153,15 +153,15 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 distanceMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0xE28890
-    // [TooltipAttribute] Offset: 0xE28890
+    // [SpaceAttribute] Offset: 0xE288D4
+    // [TooltipAttribute] Offset: 0xE288D4
     // public System.Boolean _useStartTransform
     // Size: 0x1
     // Offset: 0x34
     bool useStartTransform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xE288DC
+    // [TooltipAttribute] Offset: 0xE28920
     // public System.Boolean _useEndTransform
     // Size: 0x1
     // Offset: 0x35
@@ -170,8 +170,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useEndTransform and: startLocalPosition
     char __padding5[0x2] = {};
-    // [SpaceAttribute] Offset: 0xE28914
-    // [DrawIfAttribute] Offset: 0xE28914
+    // [SpaceAttribute] Offset: 0xE28958
+    // [DrawIfAttribute] Offset: 0xE28958
     // public UnityEngine.Vector3 _startLocalPosition
     // Size: 0xC
     // Offset: 0x38
@@ -180,15 +180,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: startLocalPosition and: startTransform
     char __padding6[0x4] = {};
-    // [DrawIfAttribute] Offset: 0xE289B8
-    // [NullAllowed] Offset: 0xE289B8
+    // [DrawIfAttribute] Offset: 0xE289FC
+    // [NullAllowed] Offset: 0xE289FC
     // public UnityEngine.Transform _startTransform
     // Size: 0x8
     // Offset: 0x48
     UnityEngine::Transform* startTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [DrawIfAttribute] Offset: 0xE28A60
+    // [DrawIfAttribute] Offset: 0xE28AA4
     // public UnityEngine.Vector3 _endLocalPosition
     // Size: 0xC
     // Offset: 0x50
@@ -197,8 +197,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: endLocalPosition and: endTransform
     char __padding8[0x4] = {};
-    // [DrawIfAttribute] Offset: 0xE28AF4
-    // [NullAllowed] Offset: 0xE28AF4
+    // [DrawIfAttribute] Offset: 0xE28B38
+    // [NullAllowed] Offset: 0xE28B38
     // public UnityEngine.Transform _endTransform
     // Size: 0x8
     // Offset: 0x60
@@ -211,7 +211,7 @@ namespace GlobalNamespace {
     Tweening::EaseType positionEasing;
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE28B9C
+    // [SpaceAttribute] Offset: 0xE28BE0
     // public GhostEffectBehaviour/EndBehavior _endBehavior
     // Size: 0x4
     // Offset: 0x6C
@@ -226,23 +226,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: progress and: textMeshPros
     char __padding12[0x4] = {};
-    // [HideInInspector] Offset: 0xE28BAC
-    // [NullAllowed] Offset: 0xE28BAC
+    // [HideInInspector] Offset: 0xE28BF0
+    // [NullAllowed] Offset: 0xE28BF0
     // public TMPro.TextMeshPro[] textMeshPros
     // Size: 0x8
     // Offset: 0x78
     ::Array<TMPro::TextMeshPro*>* textMeshPros;
     // Field size check
     static_assert(sizeof(::Array<TMPro::TextMeshPro*>*) == 0x8);
-    // [HideInInspector] Offset: 0xE28BE4
-    // [NullAllowed] Offset: 0xE28BE4
+    // [HideInInspector] Offset: 0xE28C28
+    // [NullAllowed] Offset: 0xE28C28
     // public UnityEngine.CanvasGroup[] _canvasGroups
     // Size: 0x8
     // Offset: 0x80
     ::Array<UnityEngine::CanvasGroup*>* canvasGroups;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::CanvasGroup*>*) == 0x8);
-    // [HideInInspector] Offset: 0xE28C1C
+    // [HideInInspector] Offset: 0xE28C60
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4
     // Offset: 0x88
@@ -251,8 +251,8 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour::GhostEffectType) == 0x4);
     // Padding between fields: ghostEffectType and: ghostEffectTransform
     char __padding15[0x4] = {};
-    // [HideInInspector] Offset: 0xE28C2C
-    // [NullAllowed] Offset: 0xE28C2C
+    // [HideInInspector] Offset: 0xE28C70
+    // [NullAllowed] Offset: 0xE28C70
     // public UnityEngine.Transform _ghostEffectTransform
     // Size: 0x8
     // Offset: 0x90
@@ -274,20 +274,20 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GhostEffectBehaviour
     GhostEffectBehaviour(UnityEngine::AnimationCurve* alphaCurve_ = {}, UnityEngine::AnimationCurve* sizeCurve_ = {}, UnityEngine::AnimationCurve* distanceCurve_ = {}, UnityEngine::Vector3 distanceMultiplier_ = {}, bool useStartTransform_ = {}, bool useEndTransform_ = {}, UnityEngine::Vector3 startLocalPosition_ = {}, UnityEngine::Transform* startTransform_ = {}, UnityEngine::Vector3 endLocalPosition_ = {}, UnityEngine::Transform* endTransform_ = {}, Tweening::EaseType positionEasing_ = {}, GlobalNamespace::GhostEffectBehaviour::EndBehavior endBehavior_ = {}, float progress_ = {}, ::Array<TMPro::TextMeshPro*>* textMeshPros_ = {}, ::Array<UnityEngine::CanvasGroup*>* canvasGroups_ = {}, GlobalNamespace::GhostEffectBehaviour::GhostEffectType ghostEffectType_ = {}, UnityEngine::Transform* ghostEffectTransform_ = {}, UnityEngine::Vector3 direction_ = {}, bool finished_ = {}) noexcept : alphaCurve{alphaCurve_}, sizeCurve{sizeCurve_}, distanceCurve{distanceCurve_}, distanceMultiplier{distanceMultiplier_}, useStartTransform{useStartTransform_}, useEndTransform{useEndTransform_}, startLocalPosition{startLocalPosition_}, startTransform{startTransform_}, endLocalPosition{endLocalPosition_}, endTransform{endTransform_}, positionEasing{positionEasing_}, endBehavior{endBehavior_}, progress{progress_}, textMeshPros{textMeshPros_}, canvasGroups{canvasGroups_}, ghostEffectType{ghostEffectType_}, ghostEffectTransform{ghostEffectTransform_}, direction{direction_}, finished{finished_} {}
     // private System.Void EnableObjects(System.Boolean on)
-    // Offset: 0x10498E0
+    // Offset: 0x108E56C
     void EnableObjects(bool on);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1049784
+    // Offset: 0x108E410
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x1049A08
+    // Offset: 0x108E694
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public System.Void .ctor()
-    // Offset: 0x1049EA8
+    // Offset: 0x108EB34
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -300,6 +300,44 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GhostEffectBehaviour), 164 + sizeof(bool)> __GlobalNamespace_GhostEffectBehaviourSizeCheck;
   static_assert(sizeof(GhostEffectBehaviour) == 0xA5);
+  // Writing MetadataGetter for method: GhostEffectBehaviour::EnableObjects
+  // Il2CppName: EnableObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostEffectBehaviour::*)(bool)>(&GhostEffectBehaviour::EnableObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostEffectBehaviour*), "EnableObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostEffectBehaviour::OnBehaviourPlay
+  // Il2CppName: OnBehaviourPlay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostEffectBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&GhostEffectBehaviour::OnBehaviourPlay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostEffectBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostEffectBehaviour::ProcessFrame
+  // Il2CppName: ProcessFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostEffectBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&GhostEffectBehaviour::ProcessFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostEffectBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostEffectBehaviour::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostEffectBehaviour::*)()>(&GhostEffectBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostEffectBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostEffectBehaviour::*)()>(&GhostEffectBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostEffectBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour*, "", "GhostEffectBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::EndBehavior, "", "GhostEffectBehaviour/EndBehavior");

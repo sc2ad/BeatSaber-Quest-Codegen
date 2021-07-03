@@ -34,14 +34,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3
     class $FadeInAfterSceneTransitionCoroutine$d__3;
-    // [InjectAttribute] Offset: 0xE00A58
+    // [InjectAttribute] Offset: 0xE01A54
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE00A68
+    // [InjectAttribute] Offset: 0xE01A64
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -53,13 +53,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x2344F28
+    // Offset: 0x235EC84
     void OnEnable();
     // private System.Collections.IEnumerator FadeInAfterSceneTransitionCoroutine()
-    // Offset: 0x2344F7C
+    // Offset: 0x235ECD8
     System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x2345018
+    // Offset: 0x235ED74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -75,5 +75,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FadeInOnSceneTransitionFinished), 32 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_FadeInOnSceneTransitionFinishedSizeCheck;
   static_assert(sizeof(FadeInOnSceneTransitionFinished) == 0x28);
+  // Writing MetadataGetter for method: FadeInOnSceneTransitionFinished::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOnSceneTransitionFinished::FadeInAfterSceneTransitionCoroutine
+  // Il2CppName: FadeInAfterSceneTransitionCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::FadeInAfterSceneTransitionCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), "FadeInAfterSceneTransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOnSceneTransitionFinished::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");

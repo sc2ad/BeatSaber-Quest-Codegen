@@ -70,48 +70,152 @@ namespace TMPro {
       return *reinterpret_cast<TMPro::ITweenValue*>(this);
     }
     // public System.Single get_startValue()
-    // Offset: 0xEE46F8
+    // Offset: 0xEE4E80
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0xEE4700
+    // Offset: 0xEE4E88
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0xEE4708
+    // Offset: 0xEE4E90
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0xEE4710
+    // Offset: 0xEE4E98
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0xEE4718
+    // Offset: 0xEE4EA0
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0xEE4720
+    // Offset: 0xEE4EA8
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0xEE4728
+    // Offset: 0xEE4EB0
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0xEE4730
+    // Offset: 0xEE4EB8
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0xEE473C
+    // Offset: 0xEE4EC4
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0xEE4744
+    // Offset: 0xEE4ECC
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0xEE474C
+    // Offset: 0xEE4ED4
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0xEE4754
+    // Offset: 0xEE4EDC
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0xEE475C
+    // Offset: 0xEE4EE4
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)
   static check_size<sizeof(FloatTween), 20 + sizeof(bool)> __TMPro_FloatTweenSizeCheck;
   static_assert(sizeof(FloatTween) == 0x15);
+  // Writing MetadataGetter for method: FloatTween::get_startValue
+  // Il2CppName: get_startValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::get_startValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_startValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::set_startValue
+  // Il2CppName: set_startValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::set_startValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_startValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::get_targetValue
+  // Il2CppName: get_targetValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::get_targetValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_targetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::set_targetValue
+  // Il2CppName: set_targetValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::set_targetValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_targetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::get_duration
+  // Il2CppName: get_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::get_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::set_duration
+  // Il2CppName: set_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::set_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::get_ignoreTimeScale
+  // Il2CppName: get_ignoreTimeScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatTween::*)()>(&FloatTween::get_ignoreTimeScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::set_ignoreTimeScale
+  // Il2CppName: set_ignoreTimeScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(bool)>(&FloatTween::set_ignoreTimeScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::TweenValue
+  // Il2CppName: TweenValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::TweenValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "TweenValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::AddOnChangedCallback
+  // Il2CppName: AddOnChangedCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(UnityEngine::Events::UnityAction_1<float>*)>(&FloatTween::AddOnChangedCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "AddOnChangedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::GetIgnoreTimescale
+  // Il2CppName: GetIgnoreTimescale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatTween::*)()>(&FloatTween::GetIgnoreTimescale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "GetIgnoreTimescale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::GetDuration
+  // Il2CppName: GetDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::GetDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "GetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatTween::ValidTarget
+  // Il2CppName: ValidTarget
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatTween::*)()>(&FloatTween::ValidTarget)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatTween), "ValidTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");

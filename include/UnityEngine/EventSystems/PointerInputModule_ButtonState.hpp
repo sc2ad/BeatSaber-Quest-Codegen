@@ -37,19 +37,19 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: ButtonState
     ButtonState(UnityEngine::EventSystems::PointerEventData::InputButton m_Button_ = {}, UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* m_EventData_ = {}) noexcept : m_Button{m_Button_}, m_EventData{m_EventData_} {}
     // public UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData get_eventData()
-    // Offset: 0x1419CD8
+    // Offset: 0x14349E8
     UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* get_eventData();
     // public System.Void set_eventData(UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData value)
-    // Offset: 0x1419CE0
+    // Offset: 0x14349F0
     void set_eventData(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0x1419CE8
+    // Offset: 0x14349F8
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0x1419CF0
+    // Offset: 0x1434A00
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Void .ctor()
-    // Offset: 0x1419CF8
+    // Offset: 0x1434A08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,5 +61,51 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(PointerInputModule::ButtonState), 24 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)> __UnityEngine_EventSystems_PointerInputModule_ButtonStateSizeCheck;
   static_assert(sizeof(PointerInputModule::ButtonState) == 0x20);
+  // Writing MetadataGetter for method: PointerInputModule::ButtonState::get_eventData
+  // Il2CppName: get_eventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData* (PointerInputModule::ButtonState::*)()>(&PointerInputModule::ButtonState::get_eventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::ButtonState*), "get_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ButtonState::set_eventData
+  // Il2CppName: set_eventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::ButtonState::*)(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)>(&PointerInputModule::ButtonState::set_eventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::ButtonState*), "set_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ButtonState::get_button
+  // Il2CppName: get_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (PointerInputModule::ButtonState::*)()>(&PointerInputModule::ButtonState::get_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::ButtonState*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ButtonState::set_button
+  // Il2CppName: set_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::ButtonState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&PointerInputModule::ButtonState::set_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::ButtonState*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ButtonState::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::ButtonState::*)()>(&PointerInputModule::ButtonState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::ButtonState::*)()>(&PointerInputModule::ButtonState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::ButtonState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::ButtonState*, "UnityEngine.EventSystems", "PointerInputModule/ButtonState");

@@ -55,37 +55,37 @@ namespace System::Threading {
     // Set static field: static private System.Threading.Timer/Scheduler instance
     static void _set_instance(System::Threading::Timer::Scheduler* value);
     // static private System.Void .cctor()
-    // Offset: 0x187CCD8
+    // Offset: 0x18959E8
     static void _cctor();
     // static public System.Threading.Timer/Scheduler get_Instance()
-    // Offset: 0x187CE54
+    // Offset: 0x1895B64
     static System::Threading::Timer::Scheduler* get_Instance();
     // public System.Void Remove(System.Threading.Timer timer)
-    // Offset: 0x187C9E4
+    // Offset: 0x18956F4
     void Remove(System::Threading::Timer* timer);
     // public System.Void Change(System.Threading.Timer timer, System.Int64 new_next_run)
-    // Offset: 0x187CA94
+    // Offset: 0x18957A4
     void Change(System::Threading::Timer* timer, int64_t new_next_run);
     // private System.Int32 FindByDueTime(System.Int64 nr)
-    // Offset: 0x187D054
+    // Offset: 0x1895D64
     int FindByDueTime(int64_t nr);
     // private System.Void Add(System.Threading.Timer timer)
-    // Offset: 0x187CF24
+    // Offset: 0x1895C34
     void Add(System::Threading::Timer* timer);
     // private System.Int32 InternalRemove(System.Threading.Timer timer)
-    // Offset: 0x187CEC4
+    // Offset: 0x1895BD4
     int InternalRemove(System::Threading::Timer* timer);
     // static private System.Void TimerCB(System.Object o)
-    // Offset: 0x187D1B0
+    // Offset: 0x1895EC0
     static void TimerCB(::Il2CppObject* o);
     // private System.Void SchedulerThread()
-    // Offset: 0x187D5B8
+    // Offset: 0x18962C8
     void SchedulerThread();
     // private System.Void ShrinkIfNeeded(System.Collections.Generic.List`1<System.Threading.Timer> list, System.Int32 initial)
-    // Offset: 0x187DB18
+    // Offset: 0x1896828
     void ShrinkIfNeeded(System::Collections::Generic::List_1<System::Threading::Timer*>* list, int initial);
     // private System.Void .ctor()
-    // Offset: 0x187CD38
+    // Offset: 0x1895A48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,5 +97,99 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(Timer::Scheduler), 24 + sizeof(System::Threading::ManualResetEvent*)> __System_Threading_Timer_SchedulerSizeCheck;
   static_assert(sizeof(Timer::Scheduler) == 0x20);
+  // Writing MetadataGetter for method: Timer::Scheduler::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Timer::Scheduler::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::get_Instance
+  // Il2CppName: get_Instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Timer::Scheduler* (*)()>(&Timer::Scheduler::get_Instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::Remove
+  // Il2CppName: Remove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)(System::Threading::Timer*)>(&Timer::Scheduler::Remove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Timer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::Change
+  // Il2CppName: Change
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)(System::Threading::Timer*, int64_t)>(&Timer::Scheduler::Change)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Timer*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::FindByDueTime
+  // Il2CppName: FindByDueTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Timer::Scheduler::*)(int64_t)>(&Timer::Scheduler::FindByDueTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "FindByDueTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)(System::Threading::Timer*)>(&Timer::Scheduler::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Timer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::InternalRemove
+  // Il2CppName: InternalRemove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Timer::Scheduler::*)(System::Threading::Timer*)>(&Timer::Scheduler::InternalRemove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "InternalRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Timer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::TimerCB
+  // Il2CppName: TimerCB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Timer::Scheduler::TimerCB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "TimerCB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::SchedulerThread
+  // Il2CppName: SchedulerThread
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)()>(&Timer::Scheduler::SchedulerThread)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "SchedulerThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::ShrinkIfNeeded
+  // Il2CppName: ShrinkIfNeeded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)(System::Collections::Generic::List_1<System::Threading::Timer*>*, int)>(&Timer::Scheduler::ShrinkIfNeeded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), "ShrinkIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Threading::Timer*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Timer::Scheduler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)()>(&Timer::Scheduler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Timer::Scheduler::*)()>(&Timer::Scheduler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Timer::Scheduler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer::Scheduler*, "System.Threading", "Timer/Scheduler");

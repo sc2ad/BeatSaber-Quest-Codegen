@@ -59,7 +59,7 @@ namespace UnityEngine::Timeline {
     static_assert(sizeof(uint) == 0x4);
     // Padding between fields: m_RandomSeed and: particleSystem
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDD8838
+    // [CompilerGeneratedAttribute] Offset: 0xDD876C
     // private UnityEngine.ParticleSystem <particleSystem>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -75,40 +75,40 @@ namespace UnityEngine::Timeline {
     // Set static field: static private System.Single kUnsetTime
     static void _set_kUnsetTime(float value);
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ParticleControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.ParticleSystem component, System.UInt32 randomSeed)
-    // Offset: 0x17C5DD4
+    // Offset: 0x17DEAE4
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ParticleControlPlayable*> Create(UnityEngine::Playables::PlayableGraph graph, UnityEngine::ParticleSystem* component, uint randomSeed);
     // public UnityEngine.ParticleSystem get_particleSystem()
-    // Offset: 0x17CB930
+    // Offset: 0x17E4640
     UnityEngine::ParticleSystem* get_particleSystem();
     // private System.Void set_particleSystem(UnityEngine.ParticleSystem value)
-    // Offset: 0x17CB938
+    // Offset: 0x17E4648
     void set_particleSystem(UnityEngine::ParticleSystem* value);
     // public System.Void Initialize(UnityEngine.ParticleSystem ps, System.UInt32 randomSeed)
-    // Offset: 0x17CB8A0
+    // Offset: 0x17E45B0
     void Initialize(UnityEngine::ParticleSystem* ps, uint randomSeed);
     // static private System.Void SetRandomSeed(UnityEngine.ParticleSystem particleSystem, System.UInt32 randomSeed)
-    // Offset: 0x17CB940
+    // Offset: 0x17E4650
     static void SetRandomSeed(UnityEngine::ParticleSystem* particleSystem, uint randomSeed);
     // private System.Void Simulate(System.Single time, System.Boolean restart)
-    // Offset: 0x17CBC0C
+    // Offset: 0x17E491C
     void Simulate(float time, bool restart);
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
-    // Offset: 0x17CBA8C
+    // Offset: 0x17E479C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
     void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData data);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x17CBCD4
+    // Offset: 0x17E49E4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x17CBCE0
+    // Offset: 0x17E49F0
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
     // public System.Void .ctor()
-    // Offset: 0x17CBCEC
+    // Offset: 0x17E49FC
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -121,5 +121,91 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(ParticleControlPlayable), 32 + sizeof(UnityEngine::ParticleSystem*)> __UnityEngine_Timeline_ParticleControlPlayableSizeCheck;
   static_assert(sizeof(ParticleControlPlayable) == 0x28);
+  // Writing MetadataGetter for method: ParticleControlPlayable::Create
+  // Il2CppName: Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ParticleControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::ParticleSystem*, uint)>(&ParticleControlPlayable::Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::get_particleSystem
+  // Il2CppName: get_particleSystem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (ParticleControlPlayable::*)()>(&ParticleControlPlayable::get_particleSystem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "get_particleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::set_particleSystem
+  // Il2CppName: set_particleSystem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)(UnityEngine::ParticleSystem*)>(&ParticleControlPlayable::set_particleSystem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "set_particleSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)(UnityEngine::ParticleSystem*, uint)>(&ParticleControlPlayable::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::SetRandomSeed
+  // Il2CppName: SetRandomSeed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem*, uint)>(&ParticleControlPlayable::SetRandomSeed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "SetRandomSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::Simulate
+  // Il2CppName: Simulate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)(float, bool)>(&ParticleControlPlayable::Simulate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "Simulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::PrepareFrame
+  // Il2CppName: PrepareFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&ParticleControlPlayable::PrepareFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::OnBehaviourPlay
+  // Il2CppName: OnBehaviourPlay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&ParticleControlPlayable::OnBehaviourPlay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::OnBehaviourPause
+  // Il2CppName: OnBehaviourPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&ParticleControlPlayable::OnBehaviourPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParticleControlPlayable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)()>(&ParticleControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleControlPlayable::*)()>(&ParticleControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParticleControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable*, "UnityEngine.Timeline", "ParticleControlPlayable");

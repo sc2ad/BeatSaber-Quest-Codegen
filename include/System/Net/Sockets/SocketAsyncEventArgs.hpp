@@ -82,7 +82,7 @@ namespace System::Net::Sockets {
     System::Net::Sockets::SocketAsyncResult* socket_async_result;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketAsyncResult*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD88A34
+    // [CompilerGeneratedAttribute] Offset: 0xD889B4
     // private System.Net.Sockets.Socket <AcceptSocket>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -95,35 +95,35 @@ namespace System::Net::Sockets {
     System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* m_BufferList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD88A44
+    // [CompilerGeneratedAttribute] Offset: 0xD889C4
     // private System.Int32 <BytesTransferred>k__BackingField
     // Size: 0x4
     // Offset: 0x40
     int BytesTransferred;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD88A54
+    // [CompilerGeneratedAttribute] Offset: 0xD889D4
     // private System.Int32 <Count>k__BackingField
     // Size: 0x4
     // Offset: 0x44
     int Count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD88A64
+    // [CompilerGeneratedAttribute] Offset: 0xD889E4
     // private System.Net.Sockets.SocketAsyncOperation <LastOperation>k__BackingField
     // Size: 0x4
     // Offset: 0x48
     System::Net::Sockets::SocketAsyncOperation LastOperation;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::SocketAsyncOperation) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD88A74
+    // [CompilerGeneratedAttribute] Offset: 0xD889F4
     // private System.Int32 <SendPacketsSendSize>k__BackingField
     // Size: 0x4
     // Offset: 0x4C
     int SendPacketsSendSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD88A84
+    // [CompilerGeneratedAttribute] Offset: 0xD88A04
     // private System.Net.Sockets.SocketError <SocketError>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -132,14 +132,14 @@ namespace System::Net::Sockets {
     static_assert(sizeof(System::Net::Sockets::SocketError) == 0x4);
     // Padding between fields: SocketError and: UserToken
     char __padding11[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xD88A94
+    // [CompilerGeneratedAttribute] Offset: 0xD88A14
     // private System.Object <UserToken>k__BackingField
     // Size: 0x8
     // Offset: 0x58
     ::Il2CppObject* UserToken;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD88AA4
+    // [CompilerGeneratedAttribute] Offset: 0xD88A24
     // private System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> Completed
     // Size: 0x8
     // Offset: 0x60
@@ -153,61 +153,61 @@ namespace System::Net::Sockets {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Net.Sockets.Socket get_AcceptSocket()
-    // Offset: 0x159EEA0
+    // Offset: 0x15B8BB0
     System::Net::Sockets::Socket* get_AcceptSocket();
     // public System.Void set_AcceptSocket(System.Net.Sockets.Socket value)
-    // Offset: 0x159EEA8
+    // Offset: 0x15B8BB8
     void set_AcceptSocket(System::Net::Sockets::Socket* value);
     // public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> get_BufferList()
-    // Offset: 0x159EEB0
+    // Offset: 0x15B8BC0
     System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* get_BufferList();
     // System.Void set_BytesTransferred(System.Int32 value)
-    // Offset: 0x159EEB8
+    // Offset: 0x15B8BC8
     void set_BytesTransferred(int value);
     // public System.Int32 get_Count()
-    // Offset: 0x159EEC0
+    // Offset: 0x15B8BD0
     int get_Count();
     // private System.Void set_LastOperation(System.Net.Sockets.SocketAsyncOperation value)
-    // Offset: 0x159EEC8
+    // Offset: 0x15B8BD8
     void set_LastOperation(System::Net::Sockets::SocketAsyncOperation value);
     // public System.Void set_SendPacketsSendSize(System.Int32 value)
-    // Offset: 0x159EED0
+    // Offset: 0x15B8BE0
     void set_SendPacketsSendSize(int value);
     // public System.Net.Sockets.SocketError get_SocketError()
-    // Offset: 0x159EED8
+    // Offset: 0x15B8BE8
     System::Net::Sockets::SocketError get_SocketError();
     // public System.Void set_SocketError(System.Net.Sockets.SocketError value)
-    // Offset: 0x159EEE0
+    // Offset: 0x15B8BF0
     void set_SocketError(System::Net::Sockets::SocketError value);
     // public System.Object get_UserToken()
-    // Offset: 0x159EEE8
+    // Offset: 0x15B8BF8
     ::Il2CppObject* get_UserToken();
     // public System.Void set_UserToken(System.Object value)
-    // Offset: 0x159EEF0
+    // Offset: 0x15B8C00
     void set_UserToken(::Il2CppObject* value);
     // public System.Void add_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x159EEF8
+    // Offset: 0x15B8C08
     void add_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // public System.Void remove_Completed(System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> value)
-    // Offset: 0x159EF9C
+    // Offset: 0x15B8CAC
     void remove_Completed(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* value);
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x159F0EC
+    // Offset: 0x15B8DFC
     void Dispose(bool disposing);
     // public System.Void Dispose()
-    // Offset: 0x159F100
+    // Offset: 0x15B8E10
     void Dispose();
     // System.Void SetLastOperation(System.Net.Sockets.SocketAsyncOperation op)
-    // Offset: 0x159F174
+    // Offset: 0x15B8E84
     void SetLastOperation(System::Net::Sockets::SocketAsyncOperation op);
     // System.Void Complete()
-    // Offset: 0x159D058
+    // Offset: 0x15B6D68
     void Complete();
     // protected System.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs e)
-    // Offset: 0x159F250
+    // Offset: 0x15B8F60
     void OnCompleted(System::Net::Sockets::SocketAsyncEventArgs* e);
     // public System.Void .ctor()
-    // Offset: 0x159F040
+    // Offset: 0x15B8D50
     // Implemented from: System.EventArgs
     // Base method: System.Void EventArgs::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -217,7 +217,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncEventArgs*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x159F0DC
+    // Offset: 0x15B8DEC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -225,5 +225,171 @@ namespace System::Net::Sockets {
   #pragma pack(pop)
   static check_size<sizeof(SocketAsyncEventArgs), 96 + sizeof(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)> __System_Net_Sockets_SocketAsyncEventArgsSizeCheck;
   static_assert(sizeof(SocketAsyncEventArgs) == 0x68);
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::get_AcceptSocket
+  // Il2CppName: get_AcceptSocket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::get_AcceptSocket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "get_AcceptSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::set_AcceptSocket
+  // Il2CppName: set_AcceptSocket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::Net::Sockets::Socket*)>(&SocketAsyncEventArgs::set_AcceptSocket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "set_AcceptSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::get_BufferList
+  // Il2CppName: get_BufferList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::get_BufferList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "get_BufferList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::set_BytesTransferred
+  // Il2CppName: set_BytesTransferred
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(int)>(&SocketAsyncEventArgs::set_BytesTransferred)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "set_BytesTransferred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::get_Count
+  // Il2CppName: get_Count
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::get_Count)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::set_LastOperation
+  // Il2CppName: set_LastOperation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::Net::Sockets::SocketAsyncOperation)>(&SocketAsyncEventArgs::set_LastOperation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "set_LastOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncOperation>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::set_SendPacketsSendSize
+  // Il2CppName: set_SendPacketsSendSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(int)>(&SocketAsyncEventArgs::set_SendPacketsSendSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "set_SendPacketsSendSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::get_SocketError
+  // Il2CppName: get_SocketError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketError (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::get_SocketError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "get_SocketError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::set_SocketError
+  // Il2CppName: set_SocketError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::Net::Sockets::SocketError)>(&SocketAsyncEventArgs::set_SocketError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "set_SocketError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::get_UserToken
+  // Il2CppName: get_UserToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::get_UserToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "get_UserToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::set_UserToken
+  // Il2CppName: set_UserToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(::Il2CppObject*)>(&SocketAsyncEventArgs::set_UserToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "set_UserToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::add_Completed
+  // Il2CppName: add_Completed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)>(&SocketAsyncEventArgs::add_Completed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "add_Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::remove_Completed
+  // Il2CppName: remove_Completed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*)>(&SocketAsyncEventArgs::remove_Completed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "remove_Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(bool)>(&SocketAsyncEventArgs::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::SetLastOperation
+  // Il2CppName: SetLastOperation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::Net::Sockets::SocketAsyncOperation)>(&SocketAsyncEventArgs::SetLastOperation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "SetLastOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncOperation>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::OnCompleted
+  // Il2CppName: OnCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&SocketAsyncEventArgs::OnCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncEventArgs::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncEventArgs::*)()>(&SocketAsyncEventArgs::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncEventArgs*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");

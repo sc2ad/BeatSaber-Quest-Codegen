@@ -36,15 +36,15 @@ namespace HMUI {
     // Creating value type constructor for type: EmptyBoxGraphic
     EmptyBoxGraphic(float depth_ = {}) noexcept : depth{depth_} {}
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x12F682C
+    // Offset: 0x131053C
     void OnDrawGizmosSelected();
     // protected override System.Void OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    // Offset: 0x12F646C
+    // Offset: 0x131017C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
     // public System.Void .ctor()
-    // Offset: 0x12F6A98
+    // Offset: 0x13107A8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -62,5 +62,35 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(EmptyBoxGraphic), 140 + sizeof(float)> __HMUI_EmptyBoxGraphicSizeCheck;
   static_assert(sizeof(EmptyBoxGraphic) == 0x90);
+  // Writing MetadataGetter for method: EmptyBoxGraphic::OnDrawGizmosSelected
+  // Il2CppName: OnDrawGizmosSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyBoxGraphic::*)()>(&EmptyBoxGraphic::OnDrawGizmosSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyBoxGraphic*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyBoxGraphic::OnPopulateMesh
+  // Il2CppName: OnPopulateMesh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyBoxGraphic::*)(UnityEngine::UI::VertexHelper*)>(&EmptyBoxGraphic::OnPopulateMesh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyBoxGraphic*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyBoxGraphic::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyBoxGraphic::*)()>(&EmptyBoxGraphic::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyBoxGraphic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyBoxGraphic::*)()>(&EmptyBoxGraphic::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyBoxGraphic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");

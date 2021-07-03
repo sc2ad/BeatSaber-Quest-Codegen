@@ -37,13 +37,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Variant
     Variant(UnityEngine::Rendering::PassType passType_ = {}, ::Il2CppString* keywords_ = {}) noexcept : passType{passType_}, keywords{keywords_} {}
     // public UnityEngine.Rendering.PassType get_passType()
-    // Offset: 0x23499C0
+    // Offset: 0x236371C
     UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
-    // Offset: 0x23499C8
+    // Offset: 0x2363724
     ::Il2CppString* get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
-    // Offset: 0x23499D0
+    // Offset: 0x236372C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(UnityEngine::Rendering::PassType passType, ::Il2CppString* keywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");
@@ -53,5 +53,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShaderVariantsSO::ShaderVariant::Variant), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_ShaderVariantsSO_ShaderVariant_VariantSizeCheck;
   static_assert(sizeof(ShaderVariantsSO::ShaderVariant::Variant) == 0x20);
+  // Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::Variant::get_passType
+  // Il2CppName: get_passType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::PassType (ShaderVariantsSO::ShaderVariant::Variant::*)()>(&ShaderVariantsSO::ShaderVariant::Variant::get_passType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant::Variant*), "get_passType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::Variant::get_keywords
+  // Il2CppName: get_keywords
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ShaderVariantsSO::ShaderVariant::Variant::*)()>(&ShaderVariantsSO::ShaderVariant::Variant::get_keywords)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant::Variant*), "get_keywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShaderVariantsSO::ShaderVariant::Variant::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderVariantsSO::ShaderVariant::Variant::*)(UnityEngine::Rendering::PassType, ::Il2CppString*)>(&ShaderVariantsSO::ShaderVariant::Variant::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant::Variant*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::PassType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderVariantsSO::ShaderVariant::Variant::*)(UnityEngine::Rendering::PassType, ::Il2CppString*)>(&ShaderVariantsSO::ShaderVariant::Variant::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShaderVariantsSO::ShaderVariant::Variant*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::PassType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");

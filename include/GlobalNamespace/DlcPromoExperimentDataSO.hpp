@@ -50,16 +50,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
-    // Offset: 0x10B7AF0
+    // Offset: 0x1036268
     ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* get_musicPackPromoInfos();
     // public ExperimentDefinitionSO get_aaTestExperimentDefinition()
-    // Offset: 0x10B7AF8
+    // Offset: 0x1036270
     GlobalNamespace::ExperimentDefinitionSO* get_aaTestExperimentDefinition();
     // public ExperimentDefinitionSO get_abTestExperimentDefinition()
-    // Offset: 0x10B7B00
+    // Offset: 0x1036278
     GlobalNamespace::ExperimentDefinitionSO* get_abTestExperimentDefinition();
     // public System.Void .ctor()
-    // Offset: 0x10B7B08
+    // Offset: 0x1036280
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -73,5 +73,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DlcPromoExperimentDataSO), 40 + sizeof(GlobalNamespace::ExperimentDefinitionSO*)> __GlobalNamespace_DlcPromoExperimentDataSOSizeCheck;
   static_assert(sizeof(DlcPromoExperimentDataSO) == 0x30);
+  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::get_musicPackPromoInfos
+  // Il2CppName: get_musicPackPromoInfos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* (DlcPromoExperimentDataSO::*)()>(&DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO*), "get_musicPackPromoInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::get_aaTestExperimentDefinition
+  // Il2CppName: get_aaTestExperimentDefinition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO* (DlcPromoExperimentDataSO::*)()>(&DlcPromoExperimentDataSO::get_aaTestExperimentDefinition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO*), "get_aaTestExperimentDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::get_abTestExperimentDefinition
+  // Il2CppName: get_abTestExperimentDefinition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO* (DlcPromoExperimentDataSO::*)()>(&DlcPromoExperimentDataSO::get_abTestExperimentDefinition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO*), "get_abTestExperimentDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentDataSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentDataSO::*)()>(&DlcPromoExperimentDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentDataSO::*)()>(&DlcPromoExperimentDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO*, "", "DlcPromoExperimentDataSO");

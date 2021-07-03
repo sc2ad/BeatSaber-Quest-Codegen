@@ -46,32 +46,32 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: AdvancingFront
     AdvancingFront(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search_ = {}) noexcept : Head{Head_}, Tail{Tail_}, Search{Search_} {}
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode head, UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode tail)
-    // Offset: 0x237C500
+    // Offset: 0x2398B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AdvancingFront* New_ctor(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancingFront*, creationType>(head, tail)));
     }
     // public System.Void AddNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x237C53C
+    // Offset: 0x2398B70
     void AddNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // public System.Void RemoveNode(UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode node)
-    // Offset: 0x237C540
+    // Offset: 0x2398B74
     void RemoveNode(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
     // private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode FindSearchNode(System.Double x)
-    // Offset: 0x237C62C
+    // Offset: 0x2398C60
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double x);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x237C634
+    // Offset: 0x2398C68
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // private UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocateNode(System.Double x)
-    // Offset: 0x237C64C
+    // Offset: 0x2398C80
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double x);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode LocatePoint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
-    // Offset: 0x237C6B4
+    // Offset: 0x2398CE8
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
     // public override System.String ToString()
-    // Offset: 0x237C544
+    // Offset: 0x2398B78
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -79,5 +79,75 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   #pragma pack(pop)
   static check_size<sizeof(AdvancingFront), 32 + sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontSizeCheck;
   static_assert(sizeof(AdvancingFront) == 0x28);
+  // Writing MetadataGetter for method: AdvancingFront::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdvancingFront::*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&AdvancingFront::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdvancingFront::*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&AdvancingFront::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::AddNode
+  // Il2CppName: AddNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdvancingFront::*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&AdvancingFront::AddNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "AddNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::RemoveNode
+  // Il2CppName: RemoveNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdvancingFront::*)(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(&AdvancingFront::RemoveNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "RemoveNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::FindSearchNode
+  // Il2CppName: FindSearchNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (AdvancingFront::*)(double)>(&AdvancingFront::FindSearchNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "FindSearchNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::LocateNode
+  // Il2CppName: LocateNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (AdvancingFront::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&AdvancingFront::LocateNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "LocateNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::LocateNode
+  // Il2CppName: LocateNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (AdvancingFront::*)(double)>(&AdvancingFront::LocateNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "LocateNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::LocatePoint
+  // Il2CppName: LocatePoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (AdvancingFront::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&AdvancingFront::LocatePoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "LocatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdvancingFront::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AdvancingFront::*)()>(&AdvancingFront::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdvancingFront*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");

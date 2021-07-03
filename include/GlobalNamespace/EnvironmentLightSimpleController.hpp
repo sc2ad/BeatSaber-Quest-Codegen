@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: colorId and: lightManager
     char __padding1[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1A7AC
+    // [InjectAttribute] Offset: 0xE1A788
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x30
@@ -53,10 +53,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void LateUpdate()
-    // Offset: 0x10BFB70
+    // Offset: 0x103E2E8
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x10BFB9C
+    // Offset: 0x103E314
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -72,5 +72,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentLightSimpleController), 48 + sizeof(GlobalNamespace::LightWithIdManager*)> __GlobalNamespace_EnvironmentLightSimpleControllerSizeCheck;
   static_assert(sizeof(EnvironmentLightSimpleController) == 0x38);
+  // Writing MetadataGetter for method: EnvironmentLightSimpleController::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentLightSimpleController::*)()>(&EnvironmentLightSimpleController::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentLightSimpleController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentLightSimpleController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentLightSimpleController::*)()>(&EnvironmentLightSimpleController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentLightSimpleController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentLightSimpleController::*)()>(&EnvironmentLightSimpleController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentLightSimpleController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");

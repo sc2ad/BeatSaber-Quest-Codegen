@@ -79,33 +79,95 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.StoreName storeName, System.Security.Cryptography.X509Certificates.StoreLocation storeLocation)
-    // Offset: 0x1836CB4
+    // Offset: 0x184E9C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Store* New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Store::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Store*, creationType>(storeName, storeLocation)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Certificates()
-    // Offset: 0x1836978
+    // Offset: 0x184E688
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
     // private Mono.Security.X509.X509Stores get_Factory()
-    // Offset: 0x183AF80
+    // Offset: 0x1852C90
     Mono::Security::X509::X509Stores* get_Factory();
     // Mono.Security.X509.X509Store get_Store()
-    // Offset: 0x183AF9C
+    // Offset: 0x1852CAC
     Mono::Security::X509::X509Store* get_Store();
     // public System.Void Close()
-    // Offset: 0x18366A8
+    // Offset: 0x184E3B8
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x183AFA4
+    // Offset: 0x1852CB4
     void Dispose();
     // public System.Void Open(System.Security.Cryptography.X509Certificates.OpenFlags flags)
-    // Offset: 0x1836DF0
+    // Offset: 0x184EB00
     void Open(System::Security::Cryptography::X509Certificates::OpenFlags flags);
   }; // System.Security.Cryptography.X509Certificates.X509Store
   #pragma pack(pop)
   static check_size<sizeof(X509Store), 48 + sizeof(Mono::Security::X509::X509Store*)> __System_Security_Cryptography_X509Certificates_X509StoreSizeCheck;
   static_assert(sizeof(X509Store) == 0x38);
+  // Writing MetadataGetter for method: X509Store::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(System::Security::Cryptography::X509Certificates::StoreName, System::Security::Cryptography::X509Certificates::StoreLocation)>(&X509Store::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::StoreName>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::StoreLocation>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(System::Security::Cryptography::X509Certificates::StoreName, System::Security::Cryptography::X509Certificates::StoreLocation)>(&X509Store::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::StoreName>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::StoreLocation>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Store::get_Certificates
+  // Il2CppName: get_Certificates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (X509Store::*)()>(&X509Store::get_Certificates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Certificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Store::get_Factory
+  // Il2CppName: get_Factory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (X509Store::*)()>(&X509Store::get_Factory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Factory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Store::get_Store
+  // Il2CppName: get_Store
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Store* (X509Store::*)()>(&X509Store::get_Store)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), "get_Store", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Store::Close
+  // Il2CppName: Close
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)()>(&X509Store::Close)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Store::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)()>(&X509Store::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Store::Open
+  // Il2CppName: Open
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Store::*)(System::Security::Cryptography::X509Certificates::OpenFlags)>(&X509Store::Open)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Store*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::OpenFlags>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Store*, "System.Security.Cryptography.X509Certificates", "X509Store");

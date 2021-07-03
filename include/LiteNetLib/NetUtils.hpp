@@ -47,37 +47,117 @@ namespace LiteNetLib {
     // Set static field: static private readonly System.Collections.Generic.List`1<System.String> IpList
     static void _set_IpList(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // static public System.Net.IPEndPoint MakeEndPoint(System.String hostStr, System.Int32 port)
-    // Offset: 0x1B22880
+    // Offset: 0x1B3E590
     static System::Net::IPEndPoint* MakeEndPoint(::Il2CppString* hostStr, int port);
     // static public System.Net.IPAddress ResolveAddress(System.String hostStr)
-    // Offset: 0x1B2890C
+    // Offset: 0x1B4461C
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr);
     // static private System.Net.IPAddress ResolveAddress(System.String hostStr, System.Net.Sockets.AddressFamily addressFamily)
-    // Offset: 0x1B2D4E8
+    // Offset: 0x1B491F8
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr, System::Net::Sockets::AddressFamily addressFamily);
     // static private System.Net.IPAddress[] ResolveAddresses(System.String hostStr)
-    // Offset: 0x1B2D5BC
+    // Offset: 0x1B492CC
     static ::Array<System::Net::IPAddress*>* ResolveAddresses(::Il2CppString* hostStr);
     // static public System.Collections.Generic.List`1<System.String> GetLocalIpList(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1B2D5E0
+    // Offset: 0x1B492F0
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLocalIpList(LiteNetLib::LocalAddrType addrType);
     // static public System.Void GetLocalIpList(System.Collections.Generic.IList`1<System.String> targetList, LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1B2D674
+    // Offset: 0x1B49384
     static void GetLocalIpList(System::Collections::Generic::IList_1<::Il2CppString*>* targetList, LiteNetLib::LocalAddrType addrType);
     // static public System.String GetLocalIp(LiteNetLib.LocalAddrType addrType)
-    // Offset: 0x1B22A48
+    // Offset: 0x1B3E758
     static ::Il2CppString* GetLocalIp(LiteNetLib::LocalAddrType addrType);
     // static System.Void PrintInterfaceInfos()
-    // Offset: 0x1B2DE68
+    // Offset: 0x1B49B78
     static void PrintInterfaceInfos();
     // static System.Int32 RelativeSequenceNumber(System.Int32 number, System.Int32 expected)
-    // Offset: 0x1B2C188
+    // Offset: 0x1B47E98
     static int RelativeSequenceNumber(int number, int expected);
     // static private System.Void .cctor()
-    // Offset: 0x1B2E23C
+    // Offset: 0x1B49F4C
     static void _cctor();
   }; // LiteNetLib.NetUtils
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NetUtils::MakeEndPoint
+  // Il2CppName: MakeEndPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (*)(::Il2CppString*, int)>(&NetUtils::MakeEndPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "MakeEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::ResolveAddress
+  // Il2CppName: ResolveAddress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*)>(&NetUtils::ResolveAddress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "ResolveAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::ResolveAddress
+  // Il2CppName: ResolveAddress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*, System::Net::Sockets::AddressFamily)>(&NetUtils::ResolveAddress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "ResolveAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::ResolveAddresses
+  // Il2CppName: ResolveAddresses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (*)(::Il2CppString*)>(&NetUtils::ResolveAddresses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "ResolveAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::GetLocalIpList
+  // Il2CppName: GetLocalIpList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(LiteNetLib::LocalAddrType)>(&NetUtils::GetLocalIpList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "GetLocalIpList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::LocalAddrType>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::GetLocalIpList
+  // Il2CppName: GetLocalIpList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<::Il2CppString*>*, LiteNetLib::LocalAddrType)>(&NetUtils::GetLocalIpList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "GetLocalIpList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::LocalAddrType>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::GetLocalIp
+  // Il2CppName: GetLocalIp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(LiteNetLib::LocalAddrType)>(&NetUtils::GetLocalIp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "GetLocalIp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::LocalAddrType>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::PrintInterfaceInfos
+  // Il2CppName: PrintInterfaceInfos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetUtils::PrintInterfaceInfos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "PrintInterfaceInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::RelativeSequenceNumber
+  // Il2CppName: RelativeSequenceNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&NetUtils::RelativeSequenceNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), "RelativeSequenceNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetUtils::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetUtils::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetUtils*, "LiteNetLib", "NetUtils");

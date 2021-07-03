@@ -118,13 +118,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnvironmentSizeData
     EnvironmentSizeData(GlobalNamespace::EnvironmentSizeData::FloorType floorType_ = {}, GlobalNamespace::EnvironmentSizeData::CeilingType ceilingType_ = {}) noexcept : floorType{floorType_}, ceilingType{ceilingType_} {}
     // public EnvironmentSizeData/FloorType get_floorType()
-    // Offset: 0x10C0BA4
+    // Offset: 0x103F31C
     GlobalNamespace::EnvironmentSizeData::FloorType get_floorType();
     // public EnvironmentSizeData/CeilingType get_ceilingType()
-    // Offset: 0x10C0BAC
+    // Offset: 0x103F324
     GlobalNamespace::EnvironmentSizeData::CeilingType get_ceilingType();
     // public System.Void .ctor()
-    // Offset: 0x10C0BB4
+    // Offset: 0x103F32C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -136,6 +136,36 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentSizeData), 20 + sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType)> __GlobalNamespace_EnvironmentSizeDataSizeCheck;
   static_assert(sizeof(EnvironmentSizeData) == 0x18);
+  // Writing MetadataGetter for method: EnvironmentSizeData::get_floorType
+  // Il2CppName: get_floorType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentSizeData::FloorType (EnvironmentSizeData::*)()>(&EnvironmentSizeData::get_floorType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentSizeData*), "get_floorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentSizeData::get_ceilingType
+  // Il2CppName: get_ceilingType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentSizeData::CeilingType (EnvironmentSizeData::*)()>(&EnvironmentSizeData::get_ceilingType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentSizeData*), "get_ceilingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentSizeData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentSizeData::*)()>(&EnvironmentSizeData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentSizeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentSizeData::*)()>(&EnvironmentSizeData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentSizeData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData*, "", "EnvironmentSizeData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::FloorType, "", "EnvironmentSizeData/FloorType");

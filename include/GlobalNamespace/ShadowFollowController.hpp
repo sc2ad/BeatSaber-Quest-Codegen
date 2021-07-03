@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* shadowTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [NullAllowed] Offset: 0xE15BB4
+    // [NullAllowed] Offset: 0xE15B90
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* shadowSpriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15BFC
+    // [SpaceAttribute] Offset: 0xE15BD8
     // private UnityEngine.Vector2 _shadowHeightRange
     // Size: 0x8
     // Offset: 0x30
@@ -72,13 +72,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetTargetTransform(UnityEngine.Transform target)
-    // Offset: 0x10EC260
+    // Offset: 0x10DD3F8
     void SetTargetTransform(UnityEngine::Transform* target);
     // protected System.Void Update()
-    // Offset: 0x10EC268
+    // Offset: 0x10DD400
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10EC404
+    // Offset: 0x10DD59C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -94,5 +94,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShadowFollowController), 64 + sizeof(UnityEngine::Vector2)> __GlobalNamespace_ShadowFollowControllerSizeCheck;
   static_assert(sizeof(ShadowFollowController) == 0x48);
+  // Writing MetadataGetter for method: ShadowFollowController::SetTargetTransform
+  // Il2CppName: SetTargetTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShadowFollowController::*)(UnityEngine::Transform*)>(&ShadowFollowController::SetTargetTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShadowFollowController*), "SetTargetTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ShadowFollowController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShadowFollowController::*)()>(&ShadowFollowController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShadowFollowController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShadowFollowController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShadowFollowController::*)()>(&ShadowFollowController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShadowFollowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShadowFollowController::*)()>(&ShadowFollowController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShadowFollowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShadowFollowController*, "", "ShadowFollowController");

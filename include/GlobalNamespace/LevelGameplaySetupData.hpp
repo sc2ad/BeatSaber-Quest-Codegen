@@ -37,21 +37,21 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE178DC
+    // [CompilerGeneratedAttribute] Offset: 0xE178B8
     // private IPreviewBeatmapLevel <beatmapLevel>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE178EC
+    // [CompilerGeneratedAttribute] Offset: 0xE178C8
     // private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE178FC
+    // [CompilerGeneratedAttribute] Offset: 0xE178D8
     // private BeatmapDifficulty <beatmapDifficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -65,31 +65,31 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);
     }
     // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x11F7C10
+    // Offset: 0x11FB640
     GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x11F7C18
+    // Offset: 0x11FB648
     void set_beatmapLevel(GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x11F7C20
+    // Offset: 0x11FB650
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x11F7C28
+    // Offset: 0x11FB658
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x11F7C30
+    // Offset: 0x11FB660
     GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x11F7C38
+    // Offset: 0x11FB668
     void set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x11F7C40
+    // Offset: 0x11FB670
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x11F7CAC
+    // Offset: 0x11FB6DC
     void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
     // public System.Void .ctor()
-    // Offset: 0x11F7CB4
+    // Offset: 0x11FB6E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,5 +101,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelGameplaySetupData), 40 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_LevelGameplaySetupDataSizeCheck;
   static_assert(sizeof(LevelGameplaySetupData) == 0x2C);
+  // Writing MetadataGetter for method: LevelGameplaySetupData::get_beatmapLevel
+  // Il2CppName: get_beatmapLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (LevelGameplaySetupData::*)()>(&LevelGameplaySetupData::get_beatmapLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "get_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::set_beatmapLevel
+  // Il2CppName: set_beatmapLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelGameplaySetupData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&LevelGameplaySetupData::set_beatmapLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "set_beatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::get_beatmapCharacteristic
+  // Il2CppName: get_beatmapCharacteristic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (LevelGameplaySetupData::*)()>(&LevelGameplaySetupData::get_beatmapCharacteristic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::set_beatmapCharacteristic
+  // Il2CppName: set_beatmapCharacteristic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelGameplaySetupData::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelGameplaySetupData::set_beatmapCharacteristic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "set_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::get_beatmapDifficulty
+  // Il2CppName: get_beatmapDifficulty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (LevelGameplaySetupData::*)()>(&LevelGameplaySetupData::get_beatmapDifficulty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "get_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::set_beatmapDifficulty
+  // Il2CppName: set_beatmapDifficulty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelGameplaySetupData::*)(GlobalNamespace::BeatmapDifficulty)>(&LevelGameplaySetupData::set_beatmapDifficulty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "set_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::get_gameplayModifiers
+  // Il2CppName: get_gameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (LevelGameplaySetupData::*)()>(&LevelGameplaySetupData::get_gameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::set_gameplayModifiers
+  // Il2CppName: set_gameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelGameplaySetupData::*)(GlobalNamespace::GameplayModifiers*)>(&LevelGameplaySetupData::set_gameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelGameplaySetupData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelGameplaySetupData::*)()>(&LevelGameplaySetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelGameplaySetupData::*)()>(&LevelGameplaySetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelGameplaySetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelGameplaySetupData*, "", "LevelGameplaySetupData");

@@ -21,21 +21,51 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Creating value type constructor for type: KeyUsage
     KeyUsage() noexcept {}
     // static public Org.BouncyCastle.Asn1.X509.KeyUsage GetInstance(System.Object obj)
-    // Offset: 0x19EFF5C
+    // Offset: 0x1A08C6C
     static Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.DerBitString usage)
-    // Offset: 0x19F0074
+    // Offset: 0x1A08D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyUsage* New_ctor(Org::BouncyCastle::Asn1::DerBitString* usage) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::KeyUsage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyUsage*, creationType>(usage)));
     }
     // public override System.String ToString()
-    // Offset: 0x19F0120
+    // Offset: 0x1A08E30
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.X509.KeyUsage
   #pragma pack(pop)
+  // Writing MetadataGetter for method: KeyUsage::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::KeyUsage* (*)(::Il2CppObject*)>(&KeyUsage::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyUsage*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyUsage::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyUsage::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&KeyUsage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyUsage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyUsage::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&KeyUsage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyUsage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: KeyUsage::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (KeyUsage::*)()>(&KeyUsage::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KeyUsage*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::KeyUsage*, "Org.BouncyCastle.Asn1.X509", "KeyUsage");

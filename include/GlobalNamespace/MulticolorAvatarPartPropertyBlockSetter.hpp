@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* colorDataList;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15A34
+    // [SpaceAttribute] Offset: 0xE15A10
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15A6C
+    // [SpaceAttribute] Offset: 0xE15A48
     // private System.Boolean _editInPlayMode
     // Size: 0x1
     // Offset: 0x28
@@ -97,16 +97,16 @@ namespace GlobalNamespace {
     MulticolorAvatarPartPropertyBlockSetter(::Array<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>* colorDataList_ = {}, UnityEngine::Renderer* renderer_ = {}, bool editInPlayMode_ = {}, ::Array<UnityEngine::Vector4>* colors_ = {}, ::Array<UnityEngine::Vector4>* rimLightColors_ = {}, ::Array<UnityEngine::Color>* boostColors_ = {}, bool highlighted_ = {}, int uvSegment_ = {}) noexcept : colorDataList{colorDataList_}, renderer{renderer_}, editInPlayMode{editInPlayMode_}, colors{colors_}, rimLightColors{rimLightColors_}, boostColors{boostColors_}, highlighted{highlighted_}, uvSegment{uvSegment_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE15AA4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE15A80
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // protected System.Void OnValidate()
-    // Offset: 0x113F58C
+    // Offset: 0x1144DF4
     void OnValidate();
     // public System.Void SetColors(params UnityEngine.Color[] colors)
-    // Offset: 0x113F704
+    // Offset: 0x1144F6C
     void SetColors(::Array<UnityEngine::Color>* colors);
     // Creating initializer_list -> params proxy for: System.Void SetColors(params UnityEngine.Color[] colors)
     void SetColors(std::initializer_list<UnityEngine::Color> colors);
@@ -116,13 +116,13 @@ namespace GlobalNamespace {
       SetColors({colors...});
     }
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x113FA90
+    // Offset: 0x11452F8
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x113F924
+    // Offset: 0x114518C
     void UpdateRenderer();
     // public System.Void .ctor()
-    // Offset: 0x113FAA0
+    // Offset: 0x1145308
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -138,5 +138,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MulticolorAvatarPartPropertyBlockSetter), 76 + sizeof(int)> __GlobalNamespace_MulticolorAvatarPartPropertyBlockSetterSizeCheck;
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter) == 0x50);
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::OnValidate
+  // Il2CppName: OnValidate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::*)()>(&MulticolorAvatarPartPropertyBlockSetter::OnValidate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::SetColors
+  // Il2CppName: SetColors
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::*)(::Array<UnityEngine::Color>*)>(&MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::SetHighlight
+  // Il2CppName: SetHighlight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::*)(bool, int)>(&MulticolorAvatarPartPropertyBlockSetter::SetHighlight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::UpdateRenderer
+  // Il2CppName: UpdateRenderer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::*)()>(&MulticolorAvatarPartPropertyBlockSetter::UpdateRenderer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter*), "UpdateRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MulticolorAvatarPartPropertyBlockSetter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::*)()>(&MulticolorAvatarPartPropertyBlockSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MulticolorAvatarPartPropertyBlockSetter::*)()>(&MulticolorAvatarPartPropertyBlockSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MulticolorAvatarPartPropertyBlockSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter*, "", "MulticolorAvatarPartPropertyBlockSetter");

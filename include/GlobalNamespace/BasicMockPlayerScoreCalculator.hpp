@@ -63,18 +63,40 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IMockPlayerScoreCalculator*>(this);
     }
     // public System.Void .ctor(System.Single hitFrequency, System.Int32 minScore, System.Int32 maxScore)
-    // Offset: 0x23995AC
+    // Offset: 0x23B4BE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicMockPlayerScoreCalculator* New_ctor(float hitFrequency, int minScore, int maxScore) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicMockPlayerScoreCalculator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicMockPlayerScoreCalculator*, creationType>(hitFrequency, minScore, maxScore)));
     }
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
-    // Offset: 0x2399694
+    // Offset: 0x23B4CC8
     int GetScoreForNote(GlobalNamespace::MockNoteData* noteData);
   }; // BasicMockPlayerScoreCalculator
   #pragma pack(pop)
   static check_size<sizeof(BasicMockPlayerScoreCalculator), 32 + sizeof(System::Random*)> __GlobalNamespace_BasicMockPlayerScoreCalculatorSizeCheck;
   static_assert(sizeof(BasicMockPlayerScoreCalculator) == 0x28);
+  // Writing MetadataGetter for method: BasicMockPlayerScoreCalculator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicMockPlayerScoreCalculator::*)(float, int, int)>(&BasicMockPlayerScoreCalculator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BasicMockPlayerScoreCalculator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicMockPlayerScoreCalculator::*)(float, int, int)>(&BasicMockPlayerScoreCalculator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BasicMockPlayerScoreCalculator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BasicMockPlayerScoreCalculator::GetScoreForNote
+  // Il2CppName: GetScoreForNote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BasicMockPlayerScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&BasicMockPlayerScoreCalculator::GetScoreForNote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BasicMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator*, "", "BasicMockPlayerScoreCalculator");

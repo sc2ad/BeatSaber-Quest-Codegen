@@ -187,19 +187,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single MAX_ROLL
     static void _set_MAX_ROLL(float value);
     // private System.Void Start()
-    // Offset: 0x14F9A60
+    // Offset: 0x1514770
     void Start();
     // private System.Void Update()
-    // Offset: 0x14F9A64
+    // Offset: 0x1514774
     void Update();
     // private System.Boolean IsEmulationActivated()
-    // Offset: 0x14F9E4C
+    // Offset: 0x1514B5C
     bool IsEmulationActivated();
     // private System.Boolean IsTweakingPitch()
-    // Offset: 0x14FA168
+    // Offset: 0x1514E78
     bool IsTweakingPitch();
     // public System.Void .ctor()
-    // Offset: 0x14FA1F8
+    // Offset: 0x1514F08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -215,6 +215,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRHeadsetEmulator), 88 + sizeof(UnityEngine::CursorLockMode)> __GlobalNamespace_OVRHeadsetEmulatorSizeCheck;
   static_assert(sizeof(OVRHeadsetEmulator) == 0x5C);
+  // Writing MetadataGetter for method: OVRHeadsetEmulator::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHeadsetEmulator::*)()>(&OVRHeadsetEmulator::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHeadsetEmulator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHeadsetEmulator::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHeadsetEmulator::*)()>(&OVRHeadsetEmulator::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHeadsetEmulator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHeadsetEmulator::IsEmulationActivated
+  // Il2CppName: IsEmulationActivated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRHeadsetEmulator::*)()>(&OVRHeadsetEmulator::IsEmulationActivated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHeadsetEmulator*), "IsEmulationActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHeadsetEmulator::IsTweakingPitch
+  // Il2CppName: IsTweakingPitch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRHeadsetEmulator::*)()>(&OVRHeadsetEmulator::IsTweakingPitch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHeadsetEmulator*), "IsTweakingPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHeadsetEmulator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHeadsetEmulator::*)()>(&OVRHeadsetEmulator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHeadsetEmulator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHeadsetEmulator::*)()>(&OVRHeadsetEmulator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHeadsetEmulator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator::OpMode, "", "OVRHeadsetEmulator/OpMode");

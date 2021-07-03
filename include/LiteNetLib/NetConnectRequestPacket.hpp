@@ -72,24 +72,62 @@ namespace LiteNetLib {
     // Set static field: static public System.Int32 HeaderSize
     static void _set_HeaderSize(int value);
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
-    // Offset: 0x1B2369C
+    // Offset: 0x1B3F3AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::Array<uint8_t>* targetAddress, LiteNetLib::Utils::NetDataReader* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectRequestPacket*, creationType>(connectionTime, connectionNumber, targetAddress, data)));
     }
     // static public System.Int32 GetProtocolId(LiteNetLib.NetPacket packet)
-    // Offset: 0x1B236EC
+    // Offset: 0x1B3F3FC
     static int GetProtocolId(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetConnectRequestPacket FromData(LiteNetLib.NetPacket packet)
-    // Offset: 0x1B23764
+    // Offset: 0x1B3F474
     static LiteNetLib::NetConnectRequestPacket* FromData(LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(LiteNetLib.Utils.NetDataWriter connectData, System.Net.SocketAddress addressBytes, System.Int64 connectId)
-    // Offset: 0x1B2397C
+    // Offset: 0x1B3F68C
     static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
   #pragma pack(pop)
   static check_size<sizeof(NetConnectRequestPacket), 40 + sizeof(LiteNetLib::Utils::NetDataReader*)> __LiteNetLib_NetConnectRequestPacketSizeCheck;
   static_assert(sizeof(NetConnectRequestPacket) == 0x30);
+  // Writing MetadataGetter for method: NetConnectRequestPacket::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetConnectRequestPacket::*)(int64_t, uint8_t, ::Array<uint8_t>*, LiteNetLib::Utils::NetDataReader*)>(&NetConnectRequestPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetConnectRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetConnectRequestPacket::*)(int64_t, uint8_t, ::Array<uint8_t>*, LiteNetLib::Utils::NetDataReader*)>(&NetConnectRequestPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetConnectRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetConnectRequestPacket::GetProtocolId
+  // Il2CppName: GetProtocolId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::NetPacket*)>(&NetConnectRequestPacket::GetProtocolId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetConnectRequestPacket*), "GetProtocolId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetConnectRequestPacket::FromData
+  // Il2CppName: FromData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectRequestPacket* (*)(LiteNetLib::NetPacket*)>(&NetConnectRequestPacket::FromData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetConnectRequestPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetConnectRequestPacket::Make
+  // Il2CppName: Make
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(LiteNetLib::Utils::NetDataWriter*, System::Net::SocketAddress*, int64_t)>(&NetConnectRequestPacket::Make)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetConnectRequestPacket*), "Make", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetConnectRequestPacket");

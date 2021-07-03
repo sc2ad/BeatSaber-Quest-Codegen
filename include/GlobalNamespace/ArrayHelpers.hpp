@@ -29,5 +29,8 @@ namespace GlobalNamespace {
     }
   }; // ArrayHelpers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ArrayHelpers::CreateOrEnlargeArray
+  // Il2CppName: CreateOrEnlargeArray
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArrayHelpers*, "", "ArrayHelpers");

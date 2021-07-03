@@ -51,108 +51,370 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16B35DC
+    // Offset: 0x16CA2EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRApplications* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRApplications::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRApplications*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRApplicationError AddApplicationManifest(System.String pchApplicationManifestFullPath, System.Boolean bTemporary)
-    // Offset: 0x16B36E4
+    // Offset: 0x16CA3F4
     Valve::VR::EVRApplicationError AddApplicationManifest(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary);
     // public Valve.VR.EVRApplicationError RemoveApplicationManifest(System.String pchApplicationManifestFullPath)
-    // Offset: 0x16B3B30
+    // Offset: 0x16CA840
     Valve::VR::EVRApplicationError RemoveApplicationManifest(::Il2CppString* pchApplicationManifestFullPath);
     // public System.Boolean IsApplicationInstalled(System.String pchAppKey)
-    // Offset: 0x16B3EE4
+    // Offset: 0x16CABF4
     bool IsApplicationInstalled(::Il2CppString* pchAppKey);
     // public System.UInt32 GetApplicationCount()
-    // Offset: 0x16B429C
+    // Offset: 0x16CAFAC
     uint GetApplicationCount();
     // public Valve.VR.EVRApplicationError GetApplicationKeyByIndex(System.UInt32 unApplicationIndex, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x16B44C8
+    // Offset: 0x16CB1D8
     Valve::VR::EVRApplicationError GetApplicationKeyByIndex(uint unApplicationIndex, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public Valve.VR.EVRApplicationError GetApplicationKeyByProcessId(System.UInt32 unProcessId, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x16B4780
+    // Offset: 0x16CB490
     Valve::VR::EVRApplicationError GetApplicationKeyByProcessId(uint unProcessId, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public Valve.VR.EVRApplicationError LaunchApplication(System.String pchAppKey)
-    // Offset: 0x16B4A38
+    // Offset: 0x16CB748
     Valve::VR::EVRApplicationError LaunchApplication(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError LaunchTemplateApplication(System.String pchTemplateAppKey, System.String pchNewAppKey, Valve.VR.AppOverrideKeys_t[] pKeys)
-    // Offset: 0x16B4DEC
+    // Offset: 0x16CBAFC
     Valve::VR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::Array<Valve::VR::AppOverrideKeys_t>* pKeys);
     // public Valve.VR.EVRApplicationError LaunchApplicationFromMimeType(System.String pchMimeType, System.String pchArgs)
-    // Offset: 0x16B5250
+    // Offset: 0x16CBF60
     Valve::VR::EVRApplicationError LaunchApplicationFromMimeType(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
     // public Valve.VR.EVRApplicationError LaunchDashboardOverlay(System.String pchAppKey)
-    // Offset: 0x16B5658
+    // Offset: 0x16CC368
     Valve::VR::EVRApplicationError LaunchDashboardOverlay(::Il2CppString* pchAppKey);
     // public System.Boolean CancelApplicationLaunch(System.String pchAppKey)
-    // Offset: 0x16B5A0C
+    // Offset: 0x16CC71C
     bool CancelApplicationLaunch(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError IdentifyApplication(System.UInt32 unProcessId, System.String pchAppKey)
-    // Offset: 0x16B5DC4
+    // Offset: 0x16CCAD4
     Valve::VR::EVRApplicationError IdentifyApplication(uint unProcessId, ::Il2CppString* pchAppKey);
     // public System.UInt32 GetApplicationProcessId(System.String pchAppKey)
-    // Offset: 0x16B6060
+    // Offset: 0x16CCD70
     uint GetApplicationProcessId(::Il2CppString* pchAppKey);
     // public System.String GetApplicationsErrorNameFromEnum(Valve.VR.EVRApplicationError error)
-    // Offset: 0x16B6414
+    // Offset: 0x16CD124
     ::Il2CppString* GetApplicationsErrorNameFromEnum(Valve::VR::EVRApplicationError error);
     // public System.UInt32 GetApplicationPropertyString(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, System.Text.StringBuilder pchPropertyValueBuffer, System.UInt32 unPropertyValueBufferLen, ref Valve.VR.EVRApplicationError peError)
-    // Offset: 0x16B671C
+    // Offset: 0x16CD42C
     uint GetApplicationPropertyString(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, System::Text::StringBuilder* pchPropertyValueBuffer, uint unPropertyValueBufferLen, Valve::VR::EVRApplicationError& peError);
     // public System.Boolean GetApplicationPropertyBool(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, ref Valve.VR.EVRApplicationError peError)
-    // Offset: 0x16B6BC4
+    // Offset: 0x16CD8D4
     bool GetApplicationPropertyBool(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, Valve::VR::EVRApplicationError& peError);
     // public System.UInt64 GetApplicationPropertyUint64(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, ref Valve.VR.EVRApplicationError peError)
-    // Offset: 0x16B701C
+    // Offset: 0x16CDD2C
     uint64_t GetApplicationPropertyUint64(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, Valve::VR::EVRApplicationError& peError);
     // public Valve.VR.EVRApplicationError SetApplicationAutoLaunch(System.String pchAppKey, System.Boolean bAutoLaunch)
-    // Offset: 0x16B7470
+    // Offset: 0x16CE180
     Valve::VR::EVRApplicationError SetApplicationAutoLaunch(::Il2CppString* pchAppKey, bool bAutoLaunch);
     // public System.Boolean GetApplicationAutoLaunch(System.String pchAppKey)
-    // Offset: 0x16B78BC
+    // Offset: 0x16CE5CC
     bool GetApplicationAutoLaunch(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError SetDefaultApplicationForMimeType(System.String pchAppKey, System.String pchMimeType)
-    // Offset: 0x16B7C74
+    // Offset: 0x16CE984
     Valve::VR::EVRApplicationError SetDefaultApplicationForMimeType(::Il2CppString* pchAppKey, ::Il2CppString* pchMimeType);
     // public System.Boolean GetDefaultApplicationForMimeType(System.String pchMimeType, System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x16B807C
+    // Offset: 0x16CED8C
     bool GetDefaultApplicationForMimeType(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public System.Boolean GetApplicationSupportedMimeTypes(System.String pchAppKey, System.Text.StringBuilder pchMimeTypesBuffer, System.UInt32 unMimeTypesBuffer)
-    // Offset: 0x16B84B0
+    // Offset: 0x16CF1C0
     bool GetApplicationSupportedMimeTypes(::Il2CppString* pchAppKey, System::Text::StringBuilder* pchMimeTypesBuffer, uint unMimeTypesBuffer);
     // public System.UInt32 GetApplicationsThatSupportMimeType(System.String pchMimeType, System.Text.StringBuilder pchAppKeysThatSupportBuffer, System.UInt32 unAppKeysThatSupportBuffer)
-    // Offset: 0x16B88E4
+    // Offset: 0x16CF5F4
     uint GetApplicationsThatSupportMimeType(::Il2CppString* pchMimeType, System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint unAppKeysThatSupportBuffer);
     // public System.UInt32 GetApplicationLaunchArguments(System.UInt32 unHandle, System.Text.StringBuilder pchArgs, System.UInt32 unArgs)
-    // Offset: 0x16B8D14
+    // Offset: 0x16CFA24
     uint GetApplicationLaunchArguments(uint unHandle, System::Text::StringBuilder* pchArgs, uint unArgs);
     // public Valve.VR.EVRApplicationError GetStartingApplication(System.Text.StringBuilder pchAppKeyBuffer, System.UInt32 unAppKeyBufferLen)
-    // Offset: 0x16B8FCC
+    // Offset: 0x16CFCDC
     Valve::VR::EVRApplicationError GetStartingApplication(System::Text::StringBuilder* pchAppKeyBuffer, uint unAppKeyBufferLen);
     // public Valve.VR.EVRApplicationTransitionState GetTransitionState()
-    // Offset: 0x16B93F8
+    // Offset: 0x16D0108
     Valve::VR::EVRApplicationTransitionState GetTransitionState();
     // public Valve.VR.EVRApplicationError PerformApplicationPrelaunchCheck(System.String pchAppKey)
-    // Offset: 0x16B9624
+    // Offset: 0x16D0334
     Valve::VR::EVRApplicationError PerformApplicationPrelaunchCheck(::Il2CppString* pchAppKey);
     // public System.String GetApplicationsTransitionStateNameFromEnum(Valve.VR.EVRApplicationTransitionState state)
-    // Offset: 0x16B99D8
+    // Offset: 0x16D06E8
     ::Il2CppString* GetApplicationsTransitionStateNameFromEnum(Valve::VR::EVRApplicationTransitionState state);
     // public System.Boolean IsQuitUserPromptRequested()
-    // Offset: 0x16B9CE0
+    // Offset: 0x16D09F0
     bool IsQuitUserPromptRequested();
     // public Valve.VR.EVRApplicationError LaunchInternalProcess(System.String pchBinaryPath, System.String pchArguments, System.String pchWorkingDirectory)
-    // Offset: 0x16B9F10
+    // Offset: 0x16D0C20
     Valve::VR::EVRApplicationError LaunchInternalProcess(::Il2CppString* pchBinaryPath, ::Il2CppString* pchArguments, ::Il2CppString* pchWorkingDirectory);
     // public System.UInt32 GetCurrentSceneProcessId()
-    // Offset: 0x16BA340
+    // Offset: 0x16D1050
     uint GetCurrentSceneProcessId();
   }; // Valve.VR.CVRApplications
   #pragma pack(pop)
   static check_size<sizeof(CVRApplications), 16 + sizeof(Valve::VR::IVRApplications)> __Valve_VR_CVRApplicationsSizeCheck;
   static_assert(sizeof(CVRApplications) == 0x108);
+  // Writing MetadataGetter for method: CVRApplications::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRApplications::*)(System::IntPtr)>(&CVRApplications::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRApplications::*)(System::IntPtr)>(&CVRApplications::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::AddApplicationManifest
+  // Il2CppName: AddApplicationManifest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, bool)>(&CVRApplications::AddApplicationManifest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "AddApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::RemoveApplicationManifest
+  // Il2CppName: RemoveApplicationManifest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::RemoveApplicationManifest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "RemoveApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::IsApplicationInstalled
+  // Il2CppName: IsApplicationInstalled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::IsApplicationInstalled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "IsApplicationInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationCount
+  // Il2CppName: GetApplicationCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)()>(&CVRApplications::GetApplicationCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationKeyByIndex
+  // Il2CppName: GetApplicationKeyByIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationKeyByIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationKeyByIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationKeyByProcessId
+  // Il2CppName: GetApplicationKeyByProcessId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationKeyByProcessId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationKeyByProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::LaunchApplication
+  // Il2CppName: LaunchApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::LaunchApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::LaunchTemplateApplication
+  // Il2CppName: LaunchTemplateApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Array<Valve::VR::AppOverrideKeys_t>*)>(&CVRApplications::LaunchTemplateApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchTemplateApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::AppOverrideKeys_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::LaunchApplicationFromMimeType
+  // Il2CppName: LaunchApplicationFromMimeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&CVRApplications::LaunchApplicationFromMimeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchApplicationFromMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::LaunchDashboardOverlay
+  // Il2CppName: LaunchDashboardOverlay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::LaunchDashboardOverlay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::CancelApplicationLaunch
+  // Il2CppName: CancelApplicationLaunch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::CancelApplicationLaunch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "CancelApplicationLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::IdentifyApplication
+  // Il2CppName: IdentifyApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(uint, ::Il2CppString*)>(&CVRApplications::IdentifyApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "IdentifyApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationProcessId
+  // Il2CppName: GetApplicationProcessId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::GetApplicationProcessId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationsErrorNameFromEnum
+  // Il2CppName: GetApplicationsErrorNameFromEnum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRApplications::*)(Valve::VR::EVRApplicationError)>(&CVRApplications::GetApplicationsErrorNameFromEnum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationPropertyString
+  // Il2CppName: GetApplicationPropertyString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, System::Text::StringBuilder*, uint, Valve::VR::EVRApplicationError&)>(&CVRApplications::GetApplicationPropertyString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationPropertyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationPropertyBool
+  // Il2CppName: GetApplicationPropertyBool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, Valve::VR::EVRApplicationError&)>(&CVRApplications::GetApplicationPropertyBool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationPropertyBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationPropertyUint64
+  // Il2CppName: GetApplicationPropertyUint64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRApplications::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, Valve::VR::EVRApplicationError&)>(&CVRApplications::GetApplicationPropertyUint64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationPropertyUint64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::SetApplicationAutoLaunch
+  // Il2CppName: SetApplicationAutoLaunch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, bool)>(&CVRApplications::SetApplicationAutoLaunch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "SetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationAutoLaunch
+  // Il2CppName: GetApplicationAutoLaunch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::GetApplicationAutoLaunch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::SetDefaultApplicationForMimeType
+  // Il2CppName: SetDefaultApplicationForMimeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&CVRApplications::SetDefaultApplicationForMimeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "SetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetDefaultApplicationForMimeType
+  // Il2CppName: GetDefaultApplicationForMimeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRApplications::GetDefaultApplicationForMimeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationSupportedMimeTypes
+  // Il2CppName: GetApplicationSupportedMimeTypes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationSupportedMimeTypes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationSupportedMimeTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationsThatSupportMimeType
+  // Il2CppName: GetApplicationsThatSupportMimeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationsThatSupportMimeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationsThatSupportMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationLaunchArguments
+  // Il2CppName: GetApplicationLaunchArguments
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationLaunchArguments)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationLaunchArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetStartingApplication
+  // Il2CppName: GetStartingApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(System::Text::StringBuilder*, uint)>(&CVRApplications::GetStartingApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetStartingApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetTransitionState
+  // Il2CppName: GetTransitionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationTransitionState (CVRApplications::*)()>(&CVRApplications::GetTransitionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetTransitionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::PerformApplicationPrelaunchCheck
+  // Il2CppName: PerformApplicationPrelaunchCheck
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::PerformApplicationPrelaunchCheck)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "PerformApplicationPrelaunchCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetApplicationsTransitionStateNameFromEnum
+  // Il2CppName: GetApplicationsTransitionStateNameFromEnum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRApplications::*)(Valve::VR::EVRApplicationTransitionState)>(&CVRApplications::GetApplicationsTransitionStateNameFromEnum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationsTransitionStateNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationTransitionState>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::IsQuitUserPromptRequested
+  // Il2CppName: IsQuitUserPromptRequested
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)()>(&CVRApplications::IsQuitUserPromptRequested)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "IsQuitUserPromptRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::LaunchInternalProcess
+  // Il2CppName: LaunchInternalProcess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CVRApplications::LaunchInternalProcess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchInternalProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRApplications::GetCurrentSceneProcessId
+  // Il2CppName: GetCurrentSceneProcessId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)()>(&CVRApplications::GetCurrentSceneProcessId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetCurrentSceneProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRApplications*, "Valve.VR", "CVRApplications");

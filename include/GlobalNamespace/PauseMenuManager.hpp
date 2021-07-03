@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PauseAnimationController* pauseAnimationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseAnimationController*) == 0x8);
-    // [NullAllowed] Offset: 0xE1C558
+    // [NullAllowed] Offset: 0xE1C534
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x20
@@ -101,49 +101,49 @@ namespace GlobalNamespace {
     UnityEngine::Transform* pauseContainerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1C5E0
+    // [InjectAttribute] Offset: 0xE1C5BC
     // private readonly PauseMenuManager/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::PauseMenuManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PauseMenuManager::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1C5F0
+    // [InjectAttribute] Offset: 0xE1C5CC
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1C600
+    // [InjectAttribute] Offset: 0xE1C5DC
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::EnvironmentSpawnRotation* environmentSpawnRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentSpawnRotation*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1C610
+    // [CompilerGeneratedAttribute] Offset: 0xE1C5EC
     // private System.Action didPressContinueButtonEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action* didPressContinueButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1C620
+    // [CompilerGeneratedAttribute] Offset: 0xE1C5FC
     // private System.Action didPressMenuButtonEvent
     // Size: 0x8
     // Offset: 0x70
     System::Action* didPressMenuButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1C630
+    // [CompilerGeneratedAttribute] Offset: 0xE1C60C
     // private System.Action didPressRestartButtonEvent
     // Size: 0x8
     // Offset: 0x78
     System::Action* didPressRestartButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1C640
+    // [CompilerGeneratedAttribute] Offset: 0xE1C61C
     // private System.Action didFinishResumeAnimationEvent
     // Size: 0x8
     // Offset: 0x80
@@ -173,61 +173,61 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDisabledInteractionDuration
     static void _set_kDisabledInteractionDuration(float value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x100A0EC
+    // Offset: 0x104E654
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x100A6DC
+    // Offset: 0x104EC44
     void remove_didPressContinueButtonEvent(System::Action* value);
     // public System.Void add_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x100A234
+    // Offset: 0x104E79C
     void add_didPressMenuButtonEvent(System::Action* value);
     // public System.Void remove_didPressMenuButtonEvent(System.Action value)
-    // Offset: 0x100A824
+    // Offset: 0x104ED8C
     void remove_didPressMenuButtonEvent(System::Action* value);
     // public System.Void add_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x100A190
+    // Offset: 0x104E6F8
     void add_didPressRestartButtonEvent(System::Action* value);
     // public System.Void remove_didPressRestartButtonEvent(System.Action value)
-    // Offset: 0x100A780
+    // Offset: 0x104ECE8
     void remove_didPressRestartButtonEvent(System::Action* value);
     // public System.Void add_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x100A048
+    // Offset: 0x104E5B0
     void add_didFinishResumeAnimationEvent(System::Action* value);
     // public System.Void remove_didFinishResumeAnimationEvent(System.Action value)
-    // Offset: 0x100A638
+    // Offset: 0x104EBA0
     void remove_didFinishResumeAnimationEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x100AE44
+    // Offset: 0x104F3AC
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x100AFCC
+    // Offset: 0x104F534
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x100B10C
+    // Offset: 0x104F674
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x100B1EC
+    // Offset: 0x104F754
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x100A9FC
+    // Offset: 0x104EF64
     void ShowMenu();
     // public System.Void StartResumeAnimation()
-    // Offset: 0x100AC80
+    // Offset: 0x104F1E8
     void StartResumeAnimation();
     // private System.Void HandleResumeFromPauseAnimationDidFinish()
-    // Offset: 0x100B378
+    // Offset: 0x104F8E0
     void HandleResumeFromPauseAnimationDidFinish();
     // private System.Void MenuButtonPressed()
-    // Offset: 0x100B338
+    // Offset: 0x104F8A0
     void MenuButtonPressed();
     // private System.Void RestartButtonPressed()
-    // Offset: 0x100B2E4
+    // Offset: 0x104F84C
     void RestartButtonPressed();
     // private System.Void ContinueButtonPressed()
-    // Offset: 0x100B2A4
+    // Offset: 0x104F80C
     void ContinueButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x100B38C
+    // Offset: 0x104F8F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -243,5 +243,163 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PauseMenuManager), 144 + sizeof(float)> __GlobalNamespace_PauseMenuManagerSizeCheck;
   static_assert(sizeof(PauseMenuManager) == 0x94);
+  // Writing MetadataGetter for method: PauseMenuManager::add_didPressContinueButtonEvent
+  // Il2CppName: add_didPressContinueButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::add_didPressContinueButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "add_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::remove_didPressContinueButtonEvent
+  // Il2CppName: remove_didPressContinueButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::remove_didPressContinueButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "remove_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::add_didPressMenuButtonEvent
+  // Il2CppName: add_didPressMenuButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::add_didPressMenuButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "add_didPressMenuButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::remove_didPressMenuButtonEvent
+  // Il2CppName: remove_didPressMenuButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::remove_didPressMenuButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "remove_didPressMenuButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::add_didPressRestartButtonEvent
+  // Il2CppName: add_didPressRestartButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::add_didPressRestartButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "add_didPressRestartButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::remove_didPressRestartButtonEvent
+  // Il2CppName: remove_didPressRestartButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::remove_didPressRestartButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "remove_didPressRestartButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::add_didFinishResumeAnimationEvent
+  // Il2CppName: add_didFinishResumeAnimationEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::add_didFinishResumeAnimationEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "add_didFinishResumeAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::remove_didFinishResumeAnimationEvent
+  // Il2CppName: remove_didFinishResumeAnimationEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)(System::Action*)>(&PauseMenuManager::remove_didFinishResumeAnimationEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "remove_didFinishResumeAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::ShowMenu
+  // Il2CppName: ShowMenu
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::ShowMenu)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "ShowMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::StartResumeAnimation
+  // Il2CppName: StartResumeAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::StartResumeAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "StartResumeAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::HandleResumeFromPauseAnimationDidFinish
+  // Il2CppName: HandleResumeFromPauseAnimationDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::HandleResumeFromPauseAnimationDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "HandleResumeFromPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::MenuButtonPressed
+  // Il2CppName: MenuButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::MenuButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "MenuButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::RestartButtonPressed
+  // Il2CppName: RestartButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::RestartButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "RestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::ContinueButtonPressed
+  // Il2CppName: ContinueButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::ContinueButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), "ContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PauseMenuManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseMenuManager::*)()>(&PauseMenuManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PauseMenuManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager*, "", "PauseMenuManager");

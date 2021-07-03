@@ -75,7 +75,7 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(ActionResult::Status), 0 + sizeof(int)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
     static_assert(sizeof(ActionResult::Status) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE39588
+    // [CompilerGeneratedAttribute] Offset: 0xE3A5AC
     // private UnityEngine.ProBuilder.ActionResult/Status <status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -84,7 +84,7 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(UnityEngine::ProBuilder::ActionResult::Status) == 0x4);
     // Padding between fields: status and: notification
     char __padding0[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE39598
+    // [CompilerGeneratedAttribute] Offset: 0xE3A5BC
     // private System.String <notification>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -94,43 +94,129 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: ActionResult
     ActionResult(UnityEngine::ProBuilder::ActionResult::Status status_ = {}, ::Il2CppString* notification_ = {}) noexcept : status{status_}, notification{notification_} {}
     // public UnityEngine.ProBuilder.ActionResult/Status get_status()
-    // Offset: 0x1F41104
+    // Offset: 0x1F5CE60
     UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/Status value)
-    // Offset: 0x1F4110C
+    // Offset: 0x1F5CE68
     void set_status(UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x1F41114
+    // Offset: 0x1F5CE70
     ::Il2CppString* get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x1F4111C
+    // Offset: 0x1F5CE78
     void set_notification(::Il2CppString* value);
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/Status status, System.String notification)
-    // Offset: 0x1F41124
+    // Offset: 0x1F5CE80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::Il2CppString* notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x1F41174
+    // Offset: 0x1F5CED0
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x1F41184
+    // Offset: 0x1F5CEE0
     static bool FromBool(bool success);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x1F41220
+    // Offset: 0x1F5CF7C
     static UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x1F41290
+    // Offset: 0x1F5CFEC
     static UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x1F41304
+    // Offset: 0x1F5D060
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)
   static check_size<sizeof(ActionResult), 24 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_ActionResultSizeCheck;
   static_assert(sizeof(ActionResult) == 0x20);
+  // Writing MetadataGetter for method: ActionResult::get_status
+  // Il2CppName: get_status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult::Status (ActionResult::*)()>(&ActionResult::get_status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::set_status
+  // Il2CppName: set_status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status)>(&ActionResult::set_status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "set_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::get_notification
+  // Il2CppName: get_notification
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ActionResult::*)()>(&ActionResult::get_notification)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_notification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::set_notification
+  // Il2CppName: set_notification
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(::Il2CppString*)>(&ActionResult::set_notification)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "set_notification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status, ::Il2CppString*)>(&ActionResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status, ::Il2CppString*)>(&ActionResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::ToBool
+  // Il2CppName: ToBool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ActionResult::*)()>(&ActionResult::ToBool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "ToBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::FromBool
+  // Il2CppName: FromBool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&ActionResult::FromBool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "FromBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::get_Success
+  // Il2CppName: get_Success
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&ActionResult::get_Success)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_Success", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::get_NoSelection
+  // Il2CppName: get_NoSelection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&ActionResult::get_NoSelection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_NoSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ActionResult::get_UserCanceled
+  // Il2CppName: get_UserCanceled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&ActionResult::get_UserCanceled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_UserCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");

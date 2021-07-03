@@ -81,21 +81,21 @@ namespace Zenject {
     #pragma pack(pop)
     static check_size<sizeof(ZenjectBinding::BindTypes), 0 + sizeof(int)> __Zenject_ZenjectBinding_BindTypesSizeCheck;
     static_assert(sizeof(ZenjectBinding::BindTypes) == 0x4);
-    // [TooltipAttribute] Offset: 0xDDF048
+    // [TooltipAttribute] Offset: 0xDDEF7C
     // private UnityEngine.Component[] _components
     // Size: 0x8
     // Offset: 0x18
     ::Array<UnityEngine::Component*>* components;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Component*>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDDF094
+    // [TooltipAttribute] Offset: 0xDDEFC8
     // private System.String _identifier
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* identifier;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDDF0E0
+    // [TooltipAttribute] Offset: 0xDDF014
     // private System.Boolean _useSceneContext
     // Size: 0x1
     // Offset: 0x28
@@ -110,16 +110,16 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ifNotBound and: context
     char __padding3[0x6] = {};
-    // [TooltipAttribute] Offset: 0xDDF13C
-    // [NullAllowed] Offset: 0xDDF13C
-    // [FormerlySerializedAsAttribute] Offset: 0xDDF13C
+    // [TooltipAttribute] Offset: 0xDDF070
+    // [NullAllowed] Offset: 0xDDF070
+    // [FormerlySerializedAsAttribute] Offset: 0xDDF070
     // private Zenject.Context _context
     // Size: 0x8
     // Offset: 0x30
     Zenject::Context* context;
     // Field size check
     static_assert(sizeof(Zenject::Context*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDDF1BC
+    // [TooltipAttribute] Offset: 0xDDF0F0
     // private Zenject.ZenjectBinding/BindTypes _bindType
     // Size: 0x4
     // Offset: 0x38
@@ -131,31 +131,31 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_UseSceneContext()
-    // Offset: 0x23A0254
+    // Offset: 0x23BB888
     bool get_UseSceneContext();
     // public System.Boolean get_IfNotBound()
-    // Offset: 0x23A025C
+    // Offset: 0x23BB890
     bool get_IfNotBound();
     // public Zenject.Context get_Context()
-    // Offset: 0x23A0264
+    // Offset: 0x23BB898
     Zenject::Context* get_Context();
     // public System.Void set_Context(Zenject.Context value)
-    // Offset: 0x23A026C
+    // Offset: 0x23BB8A0
     void set_Context(Zenject::Context* value);
     // public UnityEngine.Component[] get_Components()
-    // Offset: 0x23A0274
+    // Offset: 0x23BB8A8
     ::Array<UnityEngine::Component*>* get_Components();
     // public System.String get_Identifier()
-    // Offset: 0x23A027C
+    // Offset: 0x23BB8B0
     ::Il2CppString* get_Identifier();
     // public Zenject.ZenjectBinding/BindTypes get_BindType()
-    // Offset: 0x23A0284
+    // Offset: 0x23BB8B8
     Zenject::ZenjectBinding::BindTypes get_BindType();
     // public System.Void Start()
-    // Offset: 0x23A028C
+    // Offset: 0x23BB8C0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x23A0290
+    // Offset: 0x23BB8C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -171,6 +171,84 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ZenjectBinding), 56 + sizeof(Zenject::ZenjectBinding::BindTypes)> __Zenject_ZenjectBindingSizeCheck;
   static_assert(sizeof(ZenjectBinding) == 0x3C);
+  // Writing MetadataGetter for method: ZenjectBinding::get_UseSceneContext
+  // Il2CppName: get_UseSceneContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectBinding::*)()>(&ZenjectBinding::get_UseSceneContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_UseSceneContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::get_IfNotBound
+  // Il2CppName: get_IfNotBound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectBinding::*)()>(&ZenjectBinding::get_IfNotBound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_IfNotBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::get_Context
+  // Il2CppName: get_Context
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Context* (ZenjectBinding::*)()>(&ZenjectBinding::get_Context)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::set_Context
+  // Il2CppName: set_Context
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)(Zenject::Context*)>(&ZenjectBinding::set_Context)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Context*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::get_Components
+  // Il2CppName: get_Components
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (ZenjectBinding::*)()>(&ZenjectBinding::get_Components)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Components", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::get_Identifier
+  // Il2CppName: get_Identifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ZenjectBinding::*)()>(&ZenjectBinding::get_Identifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::get_BindType
+  // Il2CppName: get_BindType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectBinding::BindTypes (ZenjectBinding::*)()>(&ZenjectBinding::get_BindType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "get_BindType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectBinding::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectBinding::*)()>(&ZenjectBinding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");

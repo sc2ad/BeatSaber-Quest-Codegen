@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Vector3 get_headNeckOffset()
-    // Offset: 0x1060BD0
+    // Offset: 0x10BB7A0
     UnityEngine::Vector3 get_headNeckOffset();
     // public System.Single get_verticalOffset()
-    // Offset: 0x1060BDC
+    // Offset: 0x10BB7AC
     float get_verticalOffset();
     // public System.Void .ctor()
-    // Offset: 0x1060BE4
+    // Offset: 0x10BB7B4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -56,5 +56,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HeadBodyOffsetSO), 36 + sizeof(float)> __GlobalNamespace_HeadBodyOffsetSOSizeCheck;
   static_assert(sizeof(HeadBodyOffsetSO) == 0x28);
+  // Writing MetadataGetter for method: HeadBodyOffsetSO::get_headNeckOffset
+  // Il2CppName: get_headNeckOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HeadBodyOffsetSO::*)()>(&HeadBodyOffsetSO::get_headNeckOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeadBodyOffsetSO*), "get_headNeckOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HeadBodyOffsetSO::get_verticalOffset
+  // Il2CppName: get_verticalOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HeadBodyOffsetSO::*)()>(&HeadBodyOffsetSO::get_verticalOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeadBodyOffsetSO*), "get_verticalOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HeadBodyOffsetSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeadBodyOffsetSO::*)()>(&HeadBodyOffsetSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeadBodyOffsetSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeadBodyOffsetSO::*)()>(&HeadBodyOffsetSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HeadBodyOffsetSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");

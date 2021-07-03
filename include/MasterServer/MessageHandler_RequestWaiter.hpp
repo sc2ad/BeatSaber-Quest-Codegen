@@ -30,7 +30,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     void Dispose();
     // protected System.Void .ctor()
-    // Offset: 0x12C7D98
+    // Offset: 0x12E2AA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,5 +40,27 @@ namespace MasterServer {
     }
   }; // MasterServer.MessageHandler/RequestWaiter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MessageHandler::RequestWaiter::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestWaiter::*)()>(&MessageHandler::RequestWaiter::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::RequestWaiter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestWaiter::*)()>(&MessageHandler::RequestWaiter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::RequestWaiter::*)()>(&MessageHandler::RequestWaiter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::RequestWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiter*, "MasterServer", "MessageHandler/RequestWaiter");

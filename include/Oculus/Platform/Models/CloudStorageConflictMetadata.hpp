@@ -40,7 +40,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CloudStorageConflictMetadata
     CloudStorageConflictMetadata(Oculus::Platform::Models::CloudStorageMetadata* Local_ = {}, Oculus::Platform::Models::CloudStorageMetadata* Remote_ = {}) noexcept : Local{Local_}, Remote{Remote_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B346C
+    // Offset: 0x14CE17C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageConflictMetadata* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageConflictMetadata::.ctor");
@@ -50,5 +50,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(CloudStorageConflictMetadata), 24 + sizeof(Oculus::Platform::Models::CloudStorageMetadata*)> __Oculus_Platform_Models_CloudStorageConflictMetadataSizeCheck;
   static_assert(sizeof(CloudStorageConflictMetadata) == 0x20);
+  // Writing MetadataGetter for method: CloudStorageConflictMetadata::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CloudStorageConflictMetadata::*)(System::IntPtr)>(&CloudStorageConflictMetadata::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CloudStorageConflictMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CloudStorageConflictMetadata::*)(System::IntPtr)>(&CloudStorageConflictMetadata::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CloudStorageConflictMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageConflictMetadata*, "Oculus.Platform.Models", "CloudStorageConflictMetadata");

@@ -78,16 +78,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1225FE0
+    // Offset: 0x1242778
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1226054
+    // Offset: 0x12427EC
     void Update();
     // private System.Void RefreshText()
-    // Offset: 0x1226140
+    // Offset: 0x12428D8
     void RefreshText();
     // public System.Void .ctor()
-    // Offset: 0x1226264
+    // Offset: 0x12429FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,5 +103,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DroppedFramesLabel), 56 + sizeof(int)> __GlobalNamespace_DroppedFramesLabelSizeCheck;
   static_assert(sizeof(DroppedFramesLabel) == 0x3C);
+  // Writing MetadataGetter for method: DroppedFramesLabel::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DroppedFramesLabel::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DroppedFramesLabel::RefreshText
+  // Il2CppName: RefreshText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::RefreshText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), "RefreshText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DroppedFramesLabel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");

@@ -39,19 +39,19 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestFilter*>(this);
     }
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
-    // Offset: 0x14A25E4
+    // Offset: 0x14BD2F4
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
     // public NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x14A264C
+    // Offset: 0x14BD35C
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14A26A8
+    // Offset: 0x14BD3B8
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14A2F00
+    // Offset: 0x14BDC10
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void .ctor()
-    // Offset: 0x14A21D4
+    // Offset: 0x14BCEE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,5 +61,51 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     }
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SynchronousFilter::ToXml
+  // Il2CppName: ToXml
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (SynchronousFilter::*)(bool)>(&SynchronousFilter::ToXml)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronousFilter::AddToXml
+  // Il2CppName: AddToXml
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (SynchronousFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&SynchronousFilter::AddToXml)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronousFilter::Pass
+  // Il2CppName: Pass
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&SynchronousFilter::Pass)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronousFilter::IsExplicitMatch
+  // Il2CppName: IsExplicitMatch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&SynchronousFilter::IsExplicitMatch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronousFilter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronousFilter::*)()>(&SynchronousFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronousFilter::*)()>(&SynchronousFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter");

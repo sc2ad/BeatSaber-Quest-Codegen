@@ -21,16 +21,40 @@ namespace System::Xml {
     // Set static field: static private System.Xml.XmlCharType xmlCharType
     static void _set_xmlCharType(System::Xml::XmlCharType value);
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
-    // Offset: 0x191A9B4
+    // Offset: 0x19326C4
     static int ParseNCName(::Il2CppString* s, int offset);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
-    // Offset: 0x191AB00
+    // Offset: 0x1932810
     static int ParseQName(::Il2CppString* s, int offset, int& colonOffset);
     // static private System.Void .cctor()
-    // Offset: 0x191ABFC
+    // Offset: 0x193290C
     static void _cctor();
   }; // System.Xml.ValidateNames
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ValidateNames::ParseNCName
+  // Il2CppName: ParseNCName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&ValidateNames::ParseNCName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidateNames*), "ParseNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ValidateNames::ParseQName
+  // Il2CppName: ParseQName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int&)>(&ValidateNames::ParseQName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidateNames*), "ParseQName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ValidateNames::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ValidateNames::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidateNames*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidateNames*, "System.Xml", "ValidateNames");

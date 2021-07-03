@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector2 instanceOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [SpaceAttribute] Offset: 0xE13D8C
+    // [SpaceAttribute] Offset: 0xE13D88
     // private UnityEngine.GameObject _object
     // Size: 0x8
     // Offset: 0x28
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* defaultMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE13DC4
+    // [HeaderAttribute] Offset: 0xE13DC0
     // private SampleMaterialGrid/MaterialSetting _horizontalProperty
     // Size: 0x10
     // Offset: 0x38
@@ -142,19 +142,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<System.Int32> get_floatPropertyIds()
-    // Offset: 0x10E22C0
+    // Offset: 0x10D3458
     System::Collections::Generic::List_1<int>* get_floatPropertyIds();
     // private System.Void OnDestroy()
-    // Offset: 0x10E22C8
+    // Offset: 0x10D3460
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x10E240C
+    // Offset: 0x10D35A4
     void OnValidate();
     // public System.Void CreateGrid()
-    // Offset: 0x10E25E4
+    // Offset: 0x10D377C
     void CreateGrid();
     // public System.Void .ctor()
-    // Offset: 0x10E2EF8
+    // Offset: 0x10D4090
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -170,6 +170,52 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SampleMaterialGrid), 112 + sizeof(System::Collections::Generic::List_1<int>*)> __GlobalNamespace_SampleMaterialGridSizeCheck;
   static_assert(sizeof(SampleMaterialGrid) == 0x78);
+  // Writing MetadataGetter for method: SampleMaterialGrid::get_floatPropertyIds
+  // Il2CppName: get_floatPropertyIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (SampleMaterialGrid::*)()>(&SampleMaterialGrid::get_floatPropertyIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SampleMaterialGrid*), "get_floatPropertyIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SampleMaterialGrid::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SampleMaterialGrid::*)()>(&SampleMaterialGrid::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SampleMaterialGrid*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SampleMaterialGrid::OnValidate
+  // Il2CppName: OnValidate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SampleMaterialGrid::*)()>(&SampleMaterialGrid::OnValidate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SampleMaterialGrid*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SampleMaterialGrid::CreateGrid
+  // Il2CppName: CreateGrid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SampleMaterialGrid::*)()>(&SampleMaterialGrid::CreateGrid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SampleMaterialGrid*), "CreateGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SampleMaterialGrid::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SampleMaterialGrid::*)()>(&SampleMaterialGrid::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SampleMaterialGrid*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SampleMaterialGrid::*)()>(&SampleMaterialGrid::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SampleMaterialGrid*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SampleMaterialGrid*, "", "SampleMaterialGrid");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SampleMaterialGrid::MaterialSetting, "", "SampleMaterialGrid/MaterialSetting");

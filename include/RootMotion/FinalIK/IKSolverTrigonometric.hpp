@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xE08744
+    // [RangeAttribute] Offset: 0xE09740
     // public System.Single IKRotationWeight
     // Size: 0x4
     // Offset: 0x60
@@ -90,87 +90,87 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKSolverTrigonometric
     IKSolverTrigonometric(UnityEngine::Transform* target_ = {}, float IKRotationWeight_ = {}, UnityEngine::Quaternion IKRotation_ = {}, UnityEngine::Vector3 bendNormal_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone1_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone2_ = {}, RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone* bone3_ = {}, UnityEngine::Vector3 weightIKPosition_ = {}, bool directHierarchy_ = {}) noexcept : target{target_}, IKRotationWeight{IKRotationWeight_}, IKRotation{IKRotation_}, bendNormal{bendNormal_}, bone1{bone1_}, bone2{bone2_}, bone3{bone3_}, weightIKPosition{weightIKPosition_}, directHierarchy{directHierarchy_} {}
     // public System.Void SetBendGoalPosition(UnityEngine.Vector3 goalPosition, System.Single weight)
-    // Offset: 0x1BE6938
+    // Offset: 0x1C02648
     void SetBendGoalPosition(UnityEngine::Vector3 goalPosition, float weight);
     // public System.Void SetBendPlaneToCurrent()
-    // Offset: 0x1BE6B28
+    // Offset: 0x1C02838
     void SetBendPlaneToCurrent();
     // public System.Void SetIKRotation(UnityEngine.Quaternion rotation)
-    // Offset: 0x1BE6CDC
+    // Offset: 0x1C029EC
     void SetIKRotation(UnityEngine::Quaternion rotation);
     // public System.Void SetIKRotationWeight(System.Single weight)
-    // Offset: 0x1BE6CE8
+    // Offset: 0x1C029F8
     void SetIKRotationWeight(float weight);
     // public UnityEngine.Quaternion GetIKRotation()
-    // Offset: 0x1BE6D6C
+    // Offset: 0x1C02A7C
     UnityEngine::Quaternion GetIKRotation();
     // public System.Single GetIKRotationWeight()
-    // Offset: 0x1BE6D78
+    // Offset: 0x1C02A88
     float GetIKRotationWeight();
     // public System.Boolean SetChain(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Transform root)
-    // Offset: 0x1BE742C
+    // Offset: 0x1C0313C
     bool SetChain(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Transform* root);
     // static public System.Void Solve(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, UnityEngine.Vector3 targetPosition, UnityEngine.Vector3 bendNormal, System.Single weight)
-    // Offset: 0x1BE7484
+    // Offset: 0x1C03194
     static void Solve(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, UnityEngine::Vector3 targetPosition, UnityEngine::Vector3 bendNormal, float weight);
     // static private UnityEngine.Vector3 GetDirectionToBendPoint(UnityEngine.Vector3 direction, System.Single directionMag, UnityEngine.Vector3 bendDirection, System.Single sqrMag1, System.Single sqrMag2)
-    // Offset: 0x1BE7A2C
+    // Offset: 0x1C0373C
     static UnityEngine::Vector3 GetDirectionToBendPoint(UnityEngine::Vector3 direction, float directionMag, UnityEngine::Vector3 bendDirection, float sqrMag1, float sqrMag2);
     // private System.Boolean IsDirectHierarchy()
-    // Offset: 0x1BE7E00
+    // Offset: 0x1C03B10
     bool IsDirectHierarchy();
     // private System.Void InitiateBones()
-    // Offset: 0x1BE7D7C
+    // Offset: 0x1C03A8C
     void InitiateBones();
     // protected System.Void OnInitiateVirtual()
-    // Offset: 0x1BE8B7C
+    // Offset: 0x1C0488C
     void OnInitiateVirtual();
     // protected System.Void OnUpdateVirtual()
-    // Offset: 0x1BE8B80
+    // Offset: 0x1C04890
     void OnUpdateVirtual();
     // protected System.Void OnPostSolveVirtual()
-    // Offset: 0x1BE8B84
+    // Offset: 0x1C04894
     void OnPostSolveVirtual();
     // protected UnityEngine.Vector3 GetBendDirection(UnityEngine.Vector3 IKPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x1BE87B4
+    // Offset: 0x1C044C4
     UnityEngine::Vector3 GetBendDirection(UnityEngine::Vector3 IKPosition, UnityEngine::Vector3 bendNormal);
     // public override RootMotion.FinalIK.IKSolver/Point[] GetPoints()
-    // Offset: 0x1BE6D80
+    // Offset: 0x1C02A90
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point[] IKSolver::GetPoints()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1BE6E84
+    // Offset: 0x1C02B94
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1BE6FA4
+    // Offset: 0x1C02CB4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1BE6FF0
+    // Offset: 0x1C02D00
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1BE7050
+    // Offset: 0x1C02D60
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1BE7C44
+    // Offset: 0x1C03954
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1BE80A8
+    // Offset: 0x1C03DB8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1BE3F90
+    // Offset: 0x1BFFCA0
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -183,5 +183,195 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolverTrigonometric), 164 + sizeof(bool)> __RootMotion_FinalIK_IKSolverTrigonometricSizeCheck;
   static_assert(sizeof(IKSolverTrigonometric) == 0xA5);
+  // Writing MetadataGetter for method: IKSolverTrigonometric::SetBendGoalPosition
+  // Il2CppName: SetBendGoalPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)(UnityEngine::Vector3, float)>(&IKSolverTrigonometric::SetBendGoalPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "SetBendGoalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::SetBendPlaneToCurrent
+  // Il2CppName: SetBendPlaneToCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::SetBendPlaneToCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "SetBendPlaneToCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::SetIKRotation
+  // Il2CppName: SetIKRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)(UnityEngine::Quaternion)>(&IKSolverTrigonometric::SetIKRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "SetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::SetIKRotationWeight
+  // Il2CppName: SetIKRotationWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)(float)>(&IKSolverTrigonometric::SetIKRotationWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "SetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::GetIKRotation
+  // Il2CppName: GetIKRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::GetIKRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::GetIKRotationWeight
+  // Il2CppName: GetIKRotationWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::GetIKRotationWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::SetChain
+  // Il2CppName: SetChain
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverTrigonometric::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&IKSolverTrigonometric::SetChain)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::Solve
+  // Il2CppName: Solve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&IKSolverTrigonometric::Solve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::GetDirectionToBendPoint
+  // Il2CppName: GetDirectionToBendPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, float, UnityEngine::Vector3, float, float)>(&IKSolverTrigonometric::GetDirectionToBendPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "GetDirectionToBendPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::IsDirectHierarchy
+  // Il2CppName: IsDirectHierarchy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::IsDirectHierarchy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "IsDirectHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::InitiateBones
+  // Il2CppName: InitiateBones
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::InitiateBones)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "InitiateBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::OnInitiateVirtual
+  // Il2CppName: OnInitiateVirtual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::OnInitiateVirtual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "OnInitiateVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::OnUpdateVirtual
+  // Il2CppName: OnUpdateVirtual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::OnUpdateVirtual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "OnUpdateVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::OnPostSolveVirtual
+  // Il2CppName: OnPostSolveVirtual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::OnPostSolveVirtual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "OnPostSolveVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::GetBendDirection
+  // Il2CppName: GetBendDirection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKSolverTrigonometric::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&IKSolverTrigonometric::GetBendDirection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "GetBendDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::GetPoints
+  // Il2CppName: GetPoints
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::GetPoints)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::GetPoint
+  // Il2CppName: GetPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Point* (IKSolverTrigonometric::*)(UnityEngine::Transform*)>(&IKSolverTrigonometric::GetPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::StoreDefaultLocalState
+  // Il2CppName: StoreDefaultLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::StoreDefaultLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::FixTransforms
+  // Il2CppName: FixTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::FixTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverTrigonometric::*)(::Il2CppString*&)>(&IKSolverTrigonometric::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::OnInitiate
+  // Il2CppName: OnInitiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::OnInitiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::OnUpdate
+  // Il2CppName: OnUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::OnUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverTrigonometric::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverTrigonometric::*)()>(&IKSolverTrigonometric::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverTrigonometric*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric*, "RootMotion.FinalIK", "IKSolverTrigonometric");

@@ -22,16 +22,40 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: AssemblyHelper
     AssemblyHelper() noexcept {}
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
-    // Offset: 0x1707D8C
+    // Offset: 0x171FA9C
     static ::Il2CppString* GetAssemblyPath(System::Reflection::Assembly* assembly);
     // static private System.Boolean IsFileUri(System.String uri)
-    // Offset: 0x171896C
+    // Offset: 0x173067C
     static bool IsFileUri(::Il2CppString* uri);
     // static public System.String GetAssemblyPathFromCodeBase(System.String codeBase)
-    // Offset: 0x1718A00
+    // Offset: 0x1730710
     static ::Il2CppString* GetAssemblyPathFromCodeBase(::Il2CppString* codeBase);
   }; // NUnit.Framework.Internal.AssemblyHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AssemblyHelper::GetAssemblyPath
+  // Il2CppName: GetAssemblyPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::Assembly*)>(&AssemblyHelper::GetAssemblyPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyHelper*), "GetAssemblyPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssemblyHelper::IsFileUri
+  // Il2CppName: IsFileUri
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&AssemblyHelper::IsFileUri)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyHelper*), "IsFileUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssemblyHelper::GetAssemblyPathFromCodeBase
+  // Il2CppName: GetAssemblyPathFromCodeBase
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&AssemblyHelper::GetAssemblyPathFromCodeBase)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyHelper*), "GetAssemblyPathFromCodeBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::AssemblyHelper*, "NUnit.Framework.Internal", "AssemblyHelper");

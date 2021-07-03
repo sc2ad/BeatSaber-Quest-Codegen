@@ -53,7 +53,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: InstalledApplication
     InstalledApplication(::Il2CppString* ApplicationId_ = {}, ::Il2CppString* PackageName_ = {}, ::Il2CppString* Status_ = {}, int VersionCode_ = {}, ::Il2CppString* VersionName_ = {}) noexcept : ApplicationId{ApplicationId_}, PackageName{PackageName_}, Status{Status_}, VersionCode{VersionCode_}, VersionName{VersionName_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14BB81C
+    // Offset: 0x14D652C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstalledApplication* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::InstalledApplication::.ctor");
@@ -63,5 +63,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(InstalledApplication), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_InstalledApplicationSizeCheck;
   static_assert(sizeof(InstalledApplication) == 0x38);
+  // Writing MetadataGetter for method: InstalledApplication::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstalledApplication::*)(System::IntPtr)>(&InstalledApplication::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InstalledApplication*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstalledApplication::*)(System::IntPtr)>(&InstalledApplication::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InstalledApplication*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::InstalledApplication*, "Oculus.Platform.Models", "InstalledApplication");

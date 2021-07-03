@@ -46,16 +46,16 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x13DC8F8
+    // Offset: 0x13F7608
     bool Locate(::Il2CppObject* key, System::Type* type, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& locations);
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x13DCB4C
+    // Offset: 0x13F785C
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.String get_LocatorId()
-    // Offset: 0x13DCB54
+    // Offset: 0x13F7864
     ::Il2CppString* get_LocatorId();
     // public System.Void .ctor()
-    // Offset: 0x13DCB9C
+    // Offset: 0x13F78AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,5 +65,43 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     }
   }; // UnityEngine.AddressableAssets.ResourceLocators.LegacyResourcesLocator
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LegacyResourcesLocator::Locate
+  // Il2CppName: Locate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LegacyResourcesLocator::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&LegacyResourcesLocator::Locate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesLocator*), "Locate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: LegacyResourcesLocator::get_Keys
+  // Il2CppName: get_Keys
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (LegacyResourcesLocator::*)()>(&LegacyResourcesLocator::get_Keys)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesLocator*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LegacyResourcesLocator::get_LocatorId
+  // Il2CppName: get_LocatorId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LegacyResourcesLocator::*)()>(&LegacyResourcesLocator::get_LocatorId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesLocator*), "get_LocatorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LegacyResourcesLocator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesLocator::*)()>(&LegacyResourcesLocator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesLocator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LegacyResourcesLocator::*)()>(&LegacyResourcesLocator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LegacyResourcesLocator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");

@@ -47,67 +47,67 @@ namespace System::Runtime::InteropServices {
     // Set static field: static public readonly System.Int32 SystemDefaultCharSize
     static void _set_SystemDefaultCharSize(int value);
     // static public System.IntPtr AllocCoTaskMem(System.Int32 cb)
-    // Offset: 0x1403978
+    // Offset: 0x141E688
     static System::IntPtr AllocCoTaskMem(int cb);
     // static public System.IntPtr AllocHGlobal(System.IntPtr cb)
-    // Offset: 0x140397C
+    // Offset: 0x141E68C
     static System::IntPtr AllocHGlobal(System::IntPtr cb);
     // static public System.IntPtr AllocHGlobal(System.Int32 cb)
-    // Offset: 0x1403980
+    // Offset: 0x141E690
     static System::IntPtr AllocHGlobal(int cb);
     // static System.Void copy_to_unmanaged(System.Array source, System.Int32 startIndex, System.IntPtr destination, System.Int32 length)
-    // Offset: 0x14039F8
+    // Offset: 0x141E708
     static void copy_to_unmanaged(System::Array* source, int startIndex, System::IntPtr destination, int length);
     // static System.Void copy_from_unmanaged(System.IntPtr source, System.Int32 startIndex, System.Array destination, System.Int32 length)
-    // Offset: 0x14039FC
+    // Offset: 0x141E70C
     static void copy_from_unmanaged(System::IntPtr source, int startIndex, System::Array* destination, int length);
     // static public System.Void Copy(System.Byte[] source, System.Int32 startIndex, System.IntPtr destination, System.Int32 length)
-    // Offset: 0x1403A00
+    // Offset: 0x141E710
     static void Copy(::Array<uint8_t>* source, int startIndex, System::IntPtr destination, int length);
     // static public System.Void Copy(System.IntPtr source, System.Byte[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1403A8C
+    // Offset: 0x141E79C
     static void Copy(System::IntPtr source, ::Array<uint8_t>* destination, int startIndex, int length);
     // static public System.Void Copy(System.IntPtr source, System.Char[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1403B18
+    // Offset: 0x141E828
     static void Copy(System::IntPtr source, ::Array<::Il2CppChar>* destination, int startIndex, int length);
     // static public System.Void Copy(System.IntPtr source, System.Int16[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1403BA4
+    // Offset: 0x141E8B4
     static void Copy(System::IntPtr source, ::Array<int16_t>* destination, int startIndex, int length);
     // static public System.Void Copy(System.IntPtr source, System.Single[] destination, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1403C30
+    // Offset: 0x141E940
     static void Copy(System::IntPtr source, ::Array<float>* destination, int startIndex, int length);
     // static public System.Void FreeBSTR(System.IntPtr ptr)
-    // Offset: 0x1403CBC
+    // Offset: 0x141E9CC
     static void FreeBSTR(System::IntPtr ptr);
     // static public System.Void FreeCoTaskMem(System.IntPtr ptr)
-    // Offset: 0x1403CC0
+    // Offset: 0x141E9D0
     static void FreeCoTaskMem(System::IntPtr ptr);
     // static public System.Void FreeHGlobal(System.IntPtr hglobal)
-    // Offset: 0x1403CC4
+    // Offset: 0x141E9D4
     static void FreeHGlobal(System::IntPtr hglobal);
     // static private System.Void ClearUnicode(System.IntPtr ptr)
-    // Offset: 0x1403CC8
+    // Offset: 0x141E9D8
     static void ClearUnicode(System::IntPtr ptr);
     // static public System.Void ZeroFreeGlobalAllocUnicode(System.IntPtr s)
-    // Offset: 0x1403E14
+    // Offset: 0x141EB24
     static void ZeroFreeGlobalAllocUnicode(System::IntPtr s);
     // static public System.Int32 GetHRForException(System.Exception e)
-    // Offset: 0x1403E80
+    // Offset: 0x141EB90
     static int GetHRForException(System::Exception* e);
     // static public System.Int32 GetLastWin32Error()
-    // Offset: 0x1403E8C
+    // Offset: 0x141EB9C
     static int GetLastWin32Error();
     // static public System.String PtrToStringAnsi(System.IntPtr ptr)
-    // Offset: 0x1403E90
+    // Offset: 0x141EBA0
     static ::Il2CppString* PtrToStringAnsi(System::IntPtr ptr);
     // static public System.String PtrToStringUni(System.IntPtr ptr)
-    // Offset: 0x1403E94
+    // Offset: 0x141EBA4
     static ::Il2CppString* PtrToStringUni(System::IntPtr ptr);
     // static public System.Void PtrToStructure(System.IntPtr ptr, System.Object structure)
-    // Offset: 0x1403E98
+    // Offset: 0x141EBA8
     static void PtrToStructure(System::IntPtr ptr, ::Il2CppObject* structure);
     // static public System.Object PtrToStructure(System.IntPtr ptr, System.Type structureType)
-    // Offset: 0x1403E9C
+    // Offset: 0x141EBAC
     static ::Il2CppObject* PtrToStructure(System::IntPtr ptr, System::Type* structureType);
     // static public System.Void PtrToStructure(System.IntPtr ptr, T structure)
     // Offset: 0xFFFFFFFF
@@ -128,31 +128,31 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, ptr);
     }
     // static public System.Byte ReadByte(System.IntPtr ptr, System.Int32 ofs)
-    // Offset: 0x1403EA0
+    // Offset: 0x141EBB0
     static uint8_t ReadByte(System::IntPtr ptr, int ofs);
     // static public System.Int16 ReadInt16(System.IntPtr ptr, System.Int32 ofs)
-    // Offset: 0x1403DCC
+    // Offset: 0x141EADC
     static int16_t ReadInt16(System::IntPtr ptr, int ofs);
     // static public System.Int32 ReadInt32(System.IntPtr ptr)
-    // Offset: 0x1403EC8
+    // Offset: 0x141EBD8
     static int ReadInt32(System::IntPtr ptr);
     // static public System.Int64 ReadInt64(System.IntPtr ptr)
-    // Offset: 0x1403F10
+    // Offset: 0x141EC20
     static int64_t ReadInt64(System::IntPtr ptr);
     // static public System.IntPtr ReadIntPtr(System.IntPtr ptr)
-    // Offset: 0x1403F70
+    // Offset: 0x141EC80
     static System::IntPtr ReadIntPtr(System::IntPtr ptr);
     // static private System.Int32 ReleaseInternal(System.IntPtr pUnk)
-    // Offset: 0x140401C
+    // Offset: 0x141ED2C
     static int ReleaseInternal(System::IntPtr pUnk);
     // static public System.Int32 Release(System.IntPtr pUnk)
-    // Offset: 0x1404020
+    // Offset: 0x141ED30
     static int Release(System::IntPtr pUnk);
     // static public System.Int32 SizeOf(System.Object structure)
-    // Offset: 0x14040E0
+    // Offset: 0x141EDF0
     static int SizeOf(::Il2CppObject* structure);
     // static public System.Int32 SizeOf(System.Type t)
-    // Offset: 0x1404160
+    // Offset: 0x141EE70
     static int SizeOf(System::Type* t);
     // static public System.Int32 SizeOf(T structure)
     // Offset: 0xFFFFFFFF
@@ -164,13 +164,13 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, structure);
     }
     // static public System.IntPtr SecureStringToCoTaskMemUnicode(System.Security.SecureString s)
-    // Offset: 0x1404164
+    // Offset: 0x141EE74
     static System::IntPtr SecureStringToCoTaskMemUnicode(System::Security::SecureString* s);
     // static public System.IntPtr SecureStringToGlobalAllocUnicode(System.Security.SecureString s)
-    // Offset: 0x14043D8
+    // Offset: 0x141F0E8
     static System::IntPtr SecureStringToGlobalAllocUnicode(System::Security::SecureString* s);
     // static public System.Void StructureToPtr(System.Object structure, System.IntPtr ptr, System.Boolean fDeleteOld)
-    // Offset: 0x140447C
+    // Offset: 0x141F18C
     static void StructureToPtr(::Il2CppObject* structure, System::IntPtr ptr, bool fDeleteOld);
     // static public System.Void StructureToPtr(T structure, System.IntPtr ptr, System.Boolean fDeleteOld)
     // Offset: 0xFFFFFFFF
@@ -182,7 +182,7 @@ namespace System::Runtime::InteropServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, structure, ptr, fDeleteOld);
     }
     // static public System.IntPtr UnsafeAddrOfPinnedArrayElement(System.Array arr, System.Int32 index)
-    // Offset: 0x1404484
+    // Offset: 0x141F194
     static System::IntPtr UnsafeAddrOfPinnedArrayElement(System::Array* arr, int index);
     // static public System.IntPtr UnsafeAddrOfPinnedArrayElement(T[] arr, System.Int32 index)
     // Offset: 0xFFFFFFFF
@@ -194,10 +194,10 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arr, index);
     }
     // static public System.Void WriteInt16(System.IntPtr ptr, System.Int32 ofs, System.Int16 val)
-    // Offset: 0x1403D78
+    // Offset: 0x141EA88
     static void WriteInt16(System::IntPtr ptr, int ofs, int16_t val);
     // static private System.IntPtr GetFunctionPointerForDelegateInternal(System.Delegate d)
-    // Offset: 0x1404488
+    // Offset: 0x141F198
     static System::IntPtr GetFunctionPointerForDelegateInternal(System::Delegate* d);
     // static public System.IntPtr GetFunctionPointerForDelegate(TDelegate d)
     // Offset: 0xFFFFFFFF
@@ -209,9 +209,323 @@ namespace System::Runtime::InteropServices {
       return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, d);
     }
     // static private System.Void .cctor()
-    // Offset: 0x140448C
+    // Offset: 0x141F19C
     static void _cctor();
   }; // System.Runtime.InteropServices.Marshal
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Marshal::AllocCoTaskMem
+  // Il2CppName: AllocCoTaskMem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&Marshal::AllocCoTaskMem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "AllocCoTaskMem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::AllocHGlobal
+  // Il2CppName: AllocHGlobal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Marshal::AllocHGlobal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "AllocHGlobal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::AllocHGlobal
+  // Il2CppName: AllocHGlobal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&Marshal::AllocHGlobal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "AllocHGlobal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::copy_to_unmanaged
+  // Il2CppName: copy_to_unmanaged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, int, System::IntPtr, int)>(&Marshal::copy_to_unmanaged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "copy_to_unmanaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::copy_from_unmanaged
+  // Il2CppName: copy_from_unmanaged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, System::Array*, int)>(&Marshal::copy_from_unmanaged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "copy_from_unmanaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::Copy
+  // Il2CppName: Copy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, System::IntPtr, int)>(&Marshal::Copy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::Copy
+  // Il2CppName: Copy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<uint8_t>*, int, int)>(&Marshal::Copy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::Copy
+  // Il2CppName: Copy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<::Il2CppChar>*, int, int)>(&Marshal::Copy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::Copy
+  // Il2CppName: Copy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<int16_t>*, int, int)>(&Marshal::Copy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::Copy
+  // Il2CppName: Copy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<float>*, int, int)>(&Marshal::Copy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::FreeBSTR
+  // Il2CppName: FreeBSTR
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Marshal::FreeBSTR)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "FreeBSTR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::FreeCoTaskMem
+  // Il2CppName: FreeCoTaskMem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Marshal::FreeCoTaskMem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "FreeCoTaskMem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::FreeHGlobal
+  // Il2CppName: FreeHGlobal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Marshal::FreeHGlobal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "FreeHGlobal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ClearUnicode
+  // Il2CppName: ClearUnicode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Marshal::ClearUnicode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ClearUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ZeroFreeGlobalAllocUnicode
+  // Il2CppName: ZeroFreeGlobalAllocUnicode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Marshal::ZeroFreeGlobalAllocUnicode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ZeroFreeGlobalAllocUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::GetHRForException
+  // Il2CppName: GetHRForException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Exception*)>(&Marshal::GetHRForException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "GetHRForException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::GetLastWin32Error
+  // Il2CppName: GetLastWin32Error
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Marshal::GetLastWin32Error)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "GetLastWin32Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::PtrToStringAnsi
+  // Il2CppName: PtrToStringAnsi
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Marshal::PtrToStringAnsi)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "PtrToStringAnsi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::PtrToStringUni
+  // Il2CppName: PtrToStringUni
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Marshal::PtrToStringUni)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "PtrToStringUni", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::PtrToStructure
+  // Il2CppName: PtrToStructure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppObject*)>(&Marshal::PtrToStructure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "PtrToStructure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::PtrToStructure
+  // Il2CppName: PtrToStructure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::IntPtr, System::Type*)>(&Marshal::PtrToStructure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "PtrToStructure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::PtrToStructure
+  // Il2CppName: PtrToStructure
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Marshal::PtrToStructure
+  // Il2CppName: PtrToStructure
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Marshal::ReadByte
+  // Il2CppName: ReadByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IntPtr, int)>(&Marshal::ReadByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ReadInt16
+  // Il2CppName: ReadInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::IntPtr, int)>(&Marshal::ReadInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ReadInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ReadInt32
+  // Il2CppName: ReadInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Marshal::ReadInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ReadInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ReadInt64
+  // Il2CppName: ReadInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&Marshal::ReadInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ReadInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ReadIntPtr
+  // Il2CppName: ReadIntPtr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&Marshal::ReadIntPtr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ReadIntPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::ReleaseInternal
+  // Il2CppName: ReleaseInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Marshal::ReleaseInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "ReleaseInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Marshal::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::SizeOf
+  // Il2CppName: SizeOf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*)>(&Marshal::SizeOf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "SizeOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::SizeOf
+  // Il2CppName: SizeOf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&Marshal::SizeOf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "SizeOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::SizeOf
+  // Il2CppName: SizeOf
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Marshal::SecureStringToCoTaskMemUnicode
+  // Il2CppName: SecureStringToCoTaskMemUnicode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Security::SecureString*)>(&Marshal::SecureStringToCoTaskMemUnicode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "SecureStringToCoTaskMemUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::SecureString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::SecureStringToGlobalAllocUnicode
+  // Il2CppName: SecureStringToGlobalAllocUnicode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Security::SecureString*)>(&Marshal::SecureStringToGlobalAllocUnicode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "SecureStringToGlobalAllocUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::SecureString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::StructureToPtr
+  // Il2CppName: StructureToPtr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::IntPtr, bool)>(&Marshal::StructureToPtr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "StructureToPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::StructureToPtr
+  // Il2CppName: StructureToPtr
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Marshal::UnsafeAddrOfPinnedArrayElement
+  // Il2CppName: UnsafeAddrOfPinnedArrayElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Array*, int)>(&Marshal::UnsafeAddrOfPinnedArrayElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "UnsafeAddrOfPinnedArrayElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::UnsafeAddrOfPinnedArrayElement
+  // Il2CppName: UnsafeAddrOfPinnedArrayElement
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Marshal::WriteInt16
+  // Il2CppName: WriteInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int16_t)>(&Marshal::WriteInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "WriteInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::GetFunctionPointerForDelegateInternal
+  // Il2CppName: GetFunctionPointerForDelegateInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Delegate*)>(&Marshal::GetFunctionPointerForDelegateInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), "GetFunctionPointerForDelegateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Marshal::GetFunctionPointerForDelegate
+  // Il2CppName: GetFunctionPointerForDelegate
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Marshal::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Marshal::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Marshal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::Marshal*, "System.Runtime.InteropServices", "Marshal");

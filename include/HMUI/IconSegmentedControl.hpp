@@ -54,7 +54,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideCellSize and: padding
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xDF6344
+    // [DrawIfAttribute] Offset: 0xDF8340
     // private System.Single _padding
     // Size: 0x4
     // Offset: 0x60
@@ -69,7 +69,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: hideCellBackground and: firstCellPrefab
     char __padding3[0x3] = {};
-    // [SpaceAttribute] Offset: 0xDF63FC
+    // [SpaceAttribute] Offset: 0xDF83F8
     // private HMUI.IconSegmentedControlCell _firstCellPrefab
     // Size: 0x8
     // Offset: 0x68
@@ -94,7 +94,7 @@ namespace HMUI {
     HMUI::IconSegmentedControlCell* singleCellPrefab;
     // Field size check
     static_assert(sizeof(HMUI::IconSegmentedControlCell*) == 0x8);
-    // [InjectAttribute] Offset: 0xDF6464
+    // [InjectAttribute] Offset: 0xDF8460
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -120,22 +120,22 @@ namespace HMUI {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);
     }
     // protected System.Void Init()
-    // Offset: 0x12FFA3C
+    // Offset: 0x131974C
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/DataItem[] dataItems)
-    // Offset: 0x12FFA5C
+    // Offset: 0x131976C
     void SetData(::Array<HMUI::IconSegmentedControl::DataItem*>* dataItems);
     // public System.Int32 NumberOfCells()
-    // Offset: 0x12FFAA8
+    // Offset: 0x13197B8
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
-    // Offset: 0x12FFAC0
+    // Offset: 0x13197D0
     HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
     // private HMUI.IconSegmentedControlCell InstantiateCell(UnityEngine.Object prefab)
-    // Offset: 0x12FFC6C
+    // Offset: 0x131997C
     HMUI::IconSegmentedControlCell* InstantiateCell(UnityEngine::Object* prefab);
     // public System.Void .ctor()
-    // Offset: 0x12FFF1C
+    // Offset: 0x1319C2C
     // Implemented from: HMUI.SegmentedControl
     // Base method: System.Void SegmentedControl::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -152,5 +152,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(IconSegmentedControl), 152 + sizeof(bool)> __HMUI_IconSegmentedControlSizeCheck;
   static_assert(sizeof(IconSegmentedControl) == 0x99);
+  // Writing MetadataGetter for method: IconSegmentedControl::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControl::*)()>(&IconSegmentedControl::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControl::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControl::*)(::Array<HMUI::IconSegmentedControl::DataItem*>*)>(&IconSegmentedControl::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::IconSegmentedControl::DataItem*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControl::NumberOfCells
+  // Il2CppName: NumberOfCells
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IconSegmentedControl::*)()>(&IconSegmentedControl::NumberOfCells)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControl::CellForCellNumber
+  // Il2CppName: CellForCellNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (IconSegmentedControl::*)(int)>(&IconSegmentedControl::CellForCellNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControl::InstantiateCell
+  // Il2CppName: InstantiateCell
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControlCell* (IconSegmentedControl::*)(UnityEngine::Object*)>(&IconSegmentedControl::InstantiateCell)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), "InstantiateCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControl::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControl::*)()>(&IconSegmentedControl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControl::*)()>(&IconSegmentedControl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedControl");

@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     GlobalNamespace::LanguageSettingsController* languageSettingsController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LanguageSettingsController*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26A1C
+    // [CompilerGeneratedAttribute] Offset: 0xE26A60
     // private System.Action didChangeLanguageEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action* didChangeLanguageEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26A2C
+    // [CompilerGeneratedAttribute] Offset: 0xE26A70
     // private System.Action didPressContinueButtonEvent
     // Size: 0x8
     // Offset: 0x88
@@ -64,35 +64,35 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SelectLanguageViewController
     SelectLanguageViewController(UnityEngine::UI::Button* continueButton_ = {}, GlobalNamespace::LanguageSettingsController* languageSettingsController_ = {}, System::Action* didChangeLanguageEvent_ = {}, System::Action* didPressContinueButtonEvent_ = {}) noexcept : continueButton{continueButton_}, languageSettingsController{languageSettingsController_}, didChangeLanguageEvent{didChangeLanguageEvent_}, didPressContinueButtonEvent{didPressContinueButtonEvent_} {}
     // public System.Void add_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x10E8568
+    // Offset: 0x10D9700
     void add_didChangeLanguageEvent(System::Action* value);
     // public System.Void remove_didChangeLanguageEvent(System.Action value)
-    // Offset: 0x10E860C
+    // Offset: 0x10D97A4
     void remove_didChangeLanguageEvent(System::Action* value);
     // public System.Void add_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x10E86B0
+    // Offset: 0x10D9848
     void add_didPressContinueButtonEvent(System::Action* value);
     // public System.Void remove_didPressContinueButtonEvent(System.Action value)
-    // Offset: 0x10E8754
+    // Offset: 0x10D98EC
     void remove_didPressContinueButtonEvent(System::Action* value);
     // private System.Void HandleLanguageSettingsControllerOndropDownValueDidChange()
-    // Offset: 0x10E89C0
+    // Offset: 0x10D9B58
     void HandleLanguageSettingsControllerOndropDownValueDidChange();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x10E89DC
+    // Offset: 0x10D9B74
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10E87F8
+    // Offset: 0x10D9990
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x10E88E0
+    // Offset: 0x10D9A78
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10E89D4
+    // Offset: 0x10D9B6C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -109,5 +109,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SelectLanguageViewController), 136 + sizeof(System::Action*)> __GlobalNamespace_SelectLanguageViewControllerSizeCheck;
   static_assert(sizeof(SelectLanguageViewController) == 0x90);
+  // Writing MetadataGetter for method: SelectLanguageViewController::add_didChangeLanguageEvent
+  // Il2CppName: add_didChangeLanguageEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::add_didChangeLanguageEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "add_didChangeLanguageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::remove_didChangeLanguageEvent
+  // Il2CppName: remove_didChangeLanguageEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::remove_didChangeLanguageEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "remove_didChangeLanguageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::add_didPressContinueButtonEvent
+  // Il2CppName: add_didPressContinueButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::add_didPressContinueButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "add_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::remove_didPressContinueButtonEvent
+  // Il2CppName: remove_didPressContinueButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::remove_didPressContinueButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "remove_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange
+  // Il2CppName: HandleLanguageSettingsControllerOndropDownValueDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "HandleLanguageSettingsControllerOndropDownValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::$DidActivate$b__8_0
+  // Il2CppName: <DidActivate>b__8_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::$DidActivate$b__8_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(bool, bool, bool)>(&SelectLanguageViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SelectLanguageViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLanguageViewController*, "", "SelectLanguageViewController");

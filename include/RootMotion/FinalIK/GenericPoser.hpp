@@ -41,33 +41,33 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: GenericPoser
     GenericPoser(::Array<RootMotion::FinalIK::GenericPoser::Map*>* maps_ = {}) noexcept : maps{maps_} {}
     // private System.Void StoreDefaultState()
-    // Offset: 0x1C3D870
+    // Offset: 0x1C58580
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
-    // Offset: 0x1C3D794
+    // Offset: 0x1C584A4
     UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::Array<UnityEngine::Transform*>* array);
     // public override System.Void AutoMapping()
-    // Offset: 0x1C3D54C
+    // Offset: 0x1C5825C
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1C3D8D8
+    // Offset: 0x1C585E8
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1C3D8DC
+    // Offset: 0x1C585EC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1C3DB84
+    // Offset: 0x1C58894
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // public System.Void .ctor()
-    // Offset: 0x1C3DC88
+    // Offset: 0x1C58998
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -85,5 +85,67 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(GenericPoser), 80 + sizeof(::Array<RootMotion::FinalIK::GenericPoser::Map*>*)> __RootMotion_FinalIK_GenericPoserSizeCheck;
   static_assert(sizeof(GenericPoser) == 0x58);
+  // Writing MetadataGetter for method: GenericPoser::StoreDefaultState
+  // Il2CppName: StoreDefaultState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::StoreDefaultState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), "StoreDefaultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GenericPoser::GetTargetNamed
+  // Il2CppName: GetTargetNamed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GenericPoser::*)(::Il2CppString*, ::Array<UnityEngine::Transform*>*)>(&GenericPoser::GetTargetNamed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), "GetTargetNamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GenericPoser::AutoMapping
+  // Il2CppName: AutoMapping
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::AutoMapping)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), "AutoMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GenericPoser::InitiatePoser
+  // Il2CppName: InitiatePoser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::InitiatePoser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), "InitiatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GenericPoser::UpdatePoser
+  // Il2CppName: UpdatePoser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::UpdatePoser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), "UpdatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GenericPoser::FixPoserTransforms
+  // Il2CppName: FixPoserTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::FixPoserTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), "FixPoserTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GenericPoser::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPoser::*)()>(&GenericPoser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GenericPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");

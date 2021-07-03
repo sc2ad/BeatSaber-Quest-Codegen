@@ -33,8 +33,8 @@ namespace GlobalNamespace {
     UnityEngine::Shader* fadeShader;
     // Field size check
     static_assert(sizeof(UnityEngine::Shader*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE00CD0
-    // [RangeAttribute] Offset: 0xE00CD0
+    // [SpaceAttribute] Offset: 0xE01CCC
+    // [RangeAttribute] Offset: 0xE01CCC
     // private System.Single _baseColorBoost
     // Size: 0x4
     // Offset: 0x20
@@ -58,33 +58,33 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDisable()
-    // Offset: 0x23482CC
+    // Offset: 0x2362028
     void OnDisable();
     // public System.Void DrawFadeQuad(System.Single alpha)
-    // Offset: 0x2348358
+    // Offset: 0x23620B4
     void DrawFadeQuad(float alpha);
     // public override System.Boolean get_hasPostProcessEffect()
-    // Offset: 0x2348234
+    // Offset: 0x2361F90
     // Implemented from: MainEffectSO
     // Base method: System.Boolean MainEffectSO::get_hasPostProcessEffect()
     bool get_hasPostProcessEffect();
     // protected override System.Void OnEnable()
-    // Offset: 0x234823C
+    // Offset: 0x2361F98
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();
     // public override System.Void PreRender()
-    // Offset: 0x23482D8
+    // Offset: 0x2362034
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PreRender()
     void PreRender();
     // public override System.Void PostRender(System.Single fade)
-    // Offset: 0x234834C
+    // Offset: 0x23620A8
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::PostRender(System.Single fade)
     void PostRender(float fade);
     // public System.Void .ctor()
-    // Offset: 0x234846C
+    // Offset: 0x23621C8
     // Implemented from: MainEffectSO
     // Base method: System.Void MainEffectSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -100,5 +100,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoPostProcessMainEffectSO), 40 + sizeof(UnityEngine::Material*)> __GlobalNamespace_NoPostProcessMainEffectSOSizeCheck;
   static_assert(sizeof(NoPostProcessMainEffectSO) == 0x30);
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::DrawFadeQuad
+  // Il2CppName: DrawFadeQuad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)(float)>(&NoPostProcessMainEffectSO::DrawFadeQuad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "DrawFadeQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::get_hasPostProcessEffect
+  // Il2CppName: get_hasPostProcessEffect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::get_hasPostProcessEffect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::PreRender
+  // Il2CppName: PreRender
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::PreRender)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::PostRender
+  // Il2CppName: PostRender
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)(float)>(&NoPostProcessMainEffectSO::PostRender)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), "PostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoPostProcessMainEffectSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoPostProcessMainEffectSO::*)()>(&NoPostProcessMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoPostProcessMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");

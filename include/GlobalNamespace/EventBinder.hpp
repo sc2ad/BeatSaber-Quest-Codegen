@@ -42,13 +42,13 @@ namespace GlobalNamespace {
       return unsubscribes;
     }
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x1227B28
+    // Offset: 0x12442C0
     void Bind(System::Action* subscribe, System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x1227BA4
+    // Offset: 0x124433C
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0x1227CB4
+    // Offset: 0x124444C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EventBinder), 16 + sizeof(System::Collections::Generic::List_1<System::Action*>*)> __GlobalNamespace_EventBinderSizeCheck;
   static_assert(sizeof(EventBinder) == 0x18);
+  // Writing MetadataGetter for method: EventBinder::Bind
+  // Il2CppName: Bind
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)(System::Action*, System::Action*)>(&EventBinder::Bind)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventBinder*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EventBinder::ClearAllBindings
+  // Il2CppName: ClearAllBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)()>(&EventBinder::ClearAllBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventBinder*), "ClearAllBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EventBinder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)()>(&EventBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)()>(&EventBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventBinder*, "", "EventBinder");

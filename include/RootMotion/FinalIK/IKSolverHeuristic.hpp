@@ -78,72 +78,72 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKSolverHeuristic
     IKSolverHeuristic(UnityEngine::Transform* target_ = {}, float tolerance_ = {}, int maxIterations_ = {}, bool useRotationLimits_ = {}, bool XY_ = {}, ::Array<RootMotion::FinalIK::IKSolver::Bone*>* bones_ = {}, UnityEngine::Vector3 lastLocalDirection_ = {}, float chainLength_ = {}) noexcept : target{target_}, tolerance{tolerance_}, maxIterations{maxIterations_}, useRotationLimits{useRotationLimits_}, XY{XY_}, bones{bones_}, lastLocalDirection{lastLocalDirection_}, chainLength{chainLength_} {}
     // public System.Boolean SetChain(UnityEngine.Transform[] hierarchy, UnityEngine.Transform root)
-    // Offset: 0x1BE0EAC
+    // Offset: 0x1BFCBBC
     bool SetChain(::Array<UnityEngine::Transform*>* hierarchy, UnityEngine::Transform* root);
     // public System.Void AddBone(UnityEngine.Transform bone)
-    // Offset: 0x1BE1040
+    // Offset: 0x1BFCD50
     void AddBone(UnityEngine::Transform* bone);
     // protected System.Int32 get_minBones()
-    // Offset: 0x1BE16F0
+    // Offset: 0x1BFD400
     int get_minBones();
     // protected System.Boolean get_boneLengthCanBeZero()
-    // Offset: 0x1BE16F8
+    // Offset: 0x1BFD408
     bool get_boneLengthCanBeZero();
     // protected System.Boolean get_allowCommonParent()
-    // Offset: 0x1BE1700
+    // Offset: 0x1BFD410
     bool get_allowCommonParent();
     // protected System.Void InitiateBones()
-    // Offset: 0x1BD7A54
+    // Offset: 0x1BF3764
     void InitiateBones();
     // protected UnityEngine.Vector3 get_localDirection()
-    // Offset: 0x1BE1710
+    // Offset: 0x1BFD420
     UnityEngine::Vector3 get_localDirection();
     // protected System.Single get_positionOffset()
-    // Offset: 0x1BD8670
+    // Offset: 0x1BF4380
     float get_positionOffset();
     // protected UnityEngine.Vector3 GetSingularityOffset()
-    // Offset: 0x1BD82CC
+    // Offset: 0x1BF3FDC
     UnityEngine::Vector3 GetSingularityOffset();
     // private System.Boolean SingularityDetected()
-    // Offset: 0x1BE1844
+    // Offset: 0x1BFD554
     bool SingularityDetected();
     // public override System.Void StoreDefaultLocalState()
-    // Offset: 0x1BE117C
+    // Offset: 0x1BFCE8C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::StoreDefaultLocalState()
     void StoreDefaultLocalState();
     // public override System.Void FixTransforms()
-    // Offset: 0x1BE11E8
+    // Offset: 0x1BFCEF8
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::FixTransforms()
     void FixTransforms();
     // public override System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1BE1268
+    // Offset: 0x1BFCF78
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Boolean IKSolver::IsValid(ref System.String message)
     bool IsValid(::Il2CppString*& message);
     // public override RootMotion.FinalIK.IKSolver/Point[] GetPoints()
-    // Offset: 0x1BE15F4
+    // Offset: 0x1BFD304
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point[] IKSolver::GetPoints()
     ::Array<RootMotion::FinalIK::IKSolver::Point*>* GetPoints();
     // public override RootMotion.FinalIK.IKSolver/Point GetPoint(UnityEngine.Transform transform)
-    // Offset: 0x1BE15FC
+    // Offset: 0x1BFD30C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/Point IKSolver::GetPoint(UnityEngine.Transform transform)
     RootMotion::FinalIK::IKSolver::Point* GetPoint(UnityEngine::Transform* transform);
     // protected override System.Void OnInitiate()
-    // Offset: 0x1BE1708
+    // Offset: 0x1BFD418
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnInitiate()
     void OnInitiate();
     // protected override System.Void OnUpdate()
-    // Offset: 0x1BE170C
+    // Offset: 0x1BFD41C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::OnUpdate()
     void OnUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1BD6A24
+    // Offset: 0x1BF2734
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: System.Void IKSolver::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -156,5 +156,155 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolverHeuristic), 132 + sizeof(float)> __RootMotion_FinalIK_IKSolverHeuristicSizeCheck;
   static_assert(sizeof(IKSolverHeuristic) == 0x88);
+  // Writing MetadataGetter for method: IKSolverHeuristic::SetChain
+  // Il2CppName: SetChain
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverHeuristic::*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*)>(&IKSolverHeuristic::SetChain)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::AddBone
+  // Il2CppName: AddBone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)(UnityEngine::Transform*)>(&IKSolverHeuristic::AddBone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "AddBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::get_minBones
+  // Il2CppName: get_minBones
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IKSolverHeuristic::*)()>(&IKSolverHeuristic::get_minBones)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "get_minBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::get_boneLengthCanBeZero
+  // Il2CppName: get_boneLengthCanBeZero
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverHeuristic::*)()>(&IKSolverHeuristic::get_boneLengthCanBeZero)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "get_boneLengthCanBeZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::get_allowCommonParent
+  // Il2CppName: get_allowCommonParent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverHeuristic::*)()>(&IKSolverHeuristic::get_allowCommonParent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "get_allowCommonParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::InitiateBones
+  // Il2CppName: InitiateBones
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::InitiateBones)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "InitiateBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::get_localDirection
+  // Il2CppName: get_localDirection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKSolverHeuristic::*)()>(&IKSolverHeuristic::get_localDirection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "get_localDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::get_positionOffset
+  // Il2CppName: get_positionOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IKSolverHeuristic::*)()>(&IKSolverHeuristic::get_positionOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::GetSingularityOffset
+  // Il2CppName: GetSingularityOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKSolverHeuristic::*)()>(&IKSolverHeuristic::GetSingularityOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "GetSingularityOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::SingularityDetected
+  // Il2CppName: SingularityDetected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverHeuristic::*)()>(&IKSolverHeuristic::SingularityDetected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "SingularityDetected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::StoreDefaultLocalState
+  // Il2CppName: StoreDefaultLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::StoreDefaultLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::FixTransforms
+  // Il2CppName: FixTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::FixTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverHeuristic::*)(::Il2CppString*&)>(&IKSolverHeuristic::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::GetPoints
+  // Il2CppName: GetPoints
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::IKSolver::Point*>* (IKSolverHeuristic::*)()>(&IKSolverHeuristic::GetPoints)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::GetPoint
+  // Il2CppName: GetPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Point* (IKSolverHeuristic::*)(UnityEngine::Transform*)>(&IKSolverHeuristic::GetPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::OnInitiate
+  // Il2CppName: OnInitiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::OnInitiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "OnInitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::OnUpdate
+  // Il2CppName: OnUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::OnUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), "OnUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverHeuristic::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverHeuristic::*)()>(&IKSolverHeuristic::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverHeuristic*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverHeuristic*, "RootMotion.FinalIK", "IKSolverHeuristic");

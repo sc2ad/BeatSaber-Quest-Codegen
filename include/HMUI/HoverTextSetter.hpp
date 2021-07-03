@@ -59,22 +59,22 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_text()
-    // Offset: 0x12FF9D4
+    // Offset: 0x13196E4
     ::Il2CppString* get_text();
     // public System.Void set_text(System.String value)
-    // Offset: 0x12FF9DC
+    // Offset: 0x13196EC
     void set_text(::Il2CppString* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x12FF9E4
+    // Offset: 0x13196F4
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnPointerExit(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x12FFA04
+    // Offset: 0x1319714
     void OnPointerExit(UnityEngine::EventSystems::PointerEventData* eventData);
     // protected System.Void OnDisable()
-    // Offset: 0x12FFA1C
+    // Offset: 0x131972C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x12FFA34
+    // Offset: 0x1319744
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -90,5 +90,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(HoverTextSetter), 32 + sizeof(::Il2CppString*)> __HMUI_HoverTextSetterSizeCheck;
   static_assert(sizeof(HoverTextSetter) == 0x28);
+  // Writing MetadataGetter for method: HoverTextSetter::get_text
+  // Il2CppName: get_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoverTextSetter::*)()>(&HoverTextSetter::get_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HoverTextSetter::set_text
+  // Il2CppName: set_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverTextSetter::*)(::Il2CppString*)>(&HoverTextSetter::set_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HoverTextSetter::OnPointerEnter
+  // Il2CppName: OnPointerEnter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverTextSetter::*)(UnityEngine::EventSystems::PointerEventData*)>(&HoverTextSetter::OnPointerEnter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HoverTextSetter::OnPointerExit
+  // Il2CppName: OnPointerExit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverTextSetter::*)(UnityEngine::EventSystems::PointerEventData*)>(&HoverTextSetter::OnPointerExit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HoverTextSetter::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverTextSetter::*)()>(&HoverTextSetter::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HoverTextSetter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverTextSetter::*)()>(&HoverTextSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverTextSetter::*)()>(&HoverTextSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HoverTextSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextSetter*, "HMUI", "HoverTextSetter");

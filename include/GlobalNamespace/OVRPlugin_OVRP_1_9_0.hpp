@@ -30,28 +30,84 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/SystemHeadset ovrp_GetSystemHeadsetType()
-    // Offset: 0x160D1A8
+    // Offset: 0x1624EB8
     static GlobalNamespace::OVRPlugin::SystemHeadset ovrp_GetSystemHeadsetType();
     // static public OVRPlugin/Controller ovrp_GetActiveController()
-    // Offset: 0x160D21C
+    // Offset: 0x1624F2C
     static GlobalNamespace::OVRPlugin::Controller ovrp_GetActiveController();
     // static public OVRPlugin/Controller ovrp_GetConnectedControllers()
-    // Offset: 0x160D290
+    // Offset: 0x1624FA0
     static GlobalNamespace::OVRPlugin::Controller ovrp_GetConnectedControllers();
     // static public OVRPlugin/Bool ovrp_GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
-    // Offset: 0x160D304
+    // Offset: 0x1625014
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, int& pointsCount);
     // static public OVRPlugin/AppPerfStats ovrp_GetAppPerfStats()
-    // Offset: 0x160D39C
+    // Offset: 0x16250AC
     static GlobalNamespace::OVRPlugin::AppPerfStats ovrp_GetAppPerfStats();
     // static public OVRPlugin/Bool ovrp_ResetAppPerfStats()
-    // Offset: 0x160D430
+    // Offset: 0x1625140
     static GlobalNamespace::OVRPlugin::Bool ovrp_ResetAppPerfStats();
     // static private System.Void .cctor()
-    // Offset: 0x160D4A4
+    // Offset: 0x16251B4
     static void _cctor();
   }; // OVRPlugin/OVRP_1_9_0
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::ovrp_GetSystemHeadsetType
+  // Il2CppName: ovrp_GetSystemHeadsetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::SystemHeadset (*)()>(&OVRPlugin::OVRP_1_9_0::ovrp_GetSystemHeadsetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), "ovrp_GetSystemHeadsetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::ovrp_GetActiveController
+  // Il2CppName: ovrp_GetActiveController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Controller (*)()>(&OVRPlugin::OVRP_1_9_0::ovrp_GetActiveController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), "ovrp_GetActiveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::ovrp_GetConnectedControllers
+  // Il2CppName: ovrp_GetConnectedControllers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Controller (*)()>(&OVRPlugin::OVRP_1_9_0::ovrp_GetConnectedControllers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), "ovrp_GetConnectedControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::ovrp_GetBoundaryGeometry2
+  // Il2CppName: ovrp_GetBoundaryGeometry2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::BoundaryType, System::IntPtr, int&)>(&OVRPlugin::OVRP_1_9_0::ovrp_GetBoundaryGeometry2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), "ovrp_GetBoundaryGeometry2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::BoundaryType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::ovrp_GetAppPerfStats
+  // Il2CppName: ovrp_GetAppPerfStats
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::AppPerfStats (*)()>(&OVRPlugin::OVRP_1_9_0::ovrp_GetAppPerfStats)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), "ovrp_GetAppPerfStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::ovrp_ResetAppPerfStats
+  // Il2CppName: ovrp_ResetAppPerfStats
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_9_0::ovrp_ResetAppPerfStats)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), "ovrp_ResetAppPerfStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_9_0::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_9_0::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_9_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_9_0*, "", "OVRPlugin/OVRP_1_9_0");

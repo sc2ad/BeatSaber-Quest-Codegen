@@ -40,15 +40,31 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x124084C
+    // Offset: 0x125D55C
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
-    // Offset: 0x1240854
+    // Offset: 0x125D564
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithRandom
   #pragma pack(pop)
   static check_size<sizeof(ParametersWithRandom), 24 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithRandomSizeCheck;
   static_assert(sizeof(ParametersWithRandom) == 0x20);
+  // Writing MetadataGetter for method: ParametersWithRandom::get_Random
+  // Il2CppName: get_Random
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Security::SecureRandom* (ParametersWithRandom::*)()>(&ParametersWithRandom::get_Random)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParametersWithRandom*), "get_Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ParametersWithRandom::get_Parameters
+  // Il2CppName: get_Parameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (ParametersWithRandom::*)()>(&ParametersWithRandom::get_Parameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParametersWithRandom*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithRandom");

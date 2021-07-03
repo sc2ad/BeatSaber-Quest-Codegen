@@ -87,19 +87,51 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] initial
     static void _set_initial(::Array<uint8_t>* value);
     // static public System.String ToString(Mono.Security.ASN1 seq)
-    // Offset: 0x238B40C
+    // Offset: 0x23A5A40
     static ::Il2CppString* ToString(Mono::Security::ASN1* seq);
     // static public System.String ToString(Mono.Security.ASN1 seq, System.Boolean reversed, System.String separator, System.Boolean quotes)
-    // Offset: 0x238BC64
+    // Offset: 0x23A6298
     static ::Il2CppString* ToString(Mono::Security::ASN1* seq, bool reversed, ::Il2CppString* separator, bool quotes);
     // static private System.Void AppendEntry(System.Text.StringBuilder sb, Mono.Security.ASN1 entry, System.Boolean quotes)
-    // Offset: 0x238B53C
+    // Offset: 0x23A5B70
     static void AppendEntry(System::Text::StringBuilder* sb, Mono::Security::ASN1* entry, bool quotes);
     // static private System.Void .cctor()
-    // Offset: 0x238BE2C
+    // Offset: 0x23A6460
     static void _cctor();
   }; // Mono.Security.X509.X501
   #pragma pack(pop)
+  // Writing MetadataGetter for method: X501::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*)>(&X501::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X501*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X501::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*, bool, ::Il2CppString*, bool)>(&X501::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X501*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X501::AppendEntry
+  // Il2CppName: AppendEntry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, Mono::Security::ASN1*, bool)>(&X501::AppendEntry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X501*), "AppendEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X501::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X501::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X501*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X501*, "Mono.Security.X509", "X501");

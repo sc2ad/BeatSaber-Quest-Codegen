@@ -128,144 +128,144 @@ namespace UnityEngine::Rendering {
     #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_LightmapMixedBakeModesSizeCheck;
     static_assert(sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94C98
-    // [CompilerGeneratedAttribute] Offset: 0xD94C98
+    // [DebuggerBrowsableAttribute] Offset: 0xD94C18
+    // [CompilerGeneratedAttribute] Offset: 0xD94C18
     // private UnityEngine.Rendering.SupportedRenderingFeatures/ReflectionProbeModes <reflectionProbeModes>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes reflectionProbeModes;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94CD4
-    // [CompilerGeneratedAttribute] Offset: 0xD94CD4
+    // [DebuggerBrowsableAttribute] Offset: 0xD94C54
+    // [CompilerGeneratedAttribute] Offset: 0xD94C54
     // private UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes <defaultMixedLightingModes>k__BackingField
     // Size: 0x4
     // Offset: 0x14
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes defaultMixedLightingModes;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94D10
-    // [CompilerGeneratedAttribute] Offset: 0xD94D10
+    // [DebuggerBrowsableAttribute] Offset: 0xD94C90
+    // [CompilerGeneratedAttribute] Offset: 0xD94C90
     // private UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes <mixedLightingModes>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes mixedLightingModes;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD94D4C
-    // [DebuggerBrowsableAttribute] Offset: 0xD94D4C
+    // [CompilerGeneratedAttribute] Offset: 0xD94CCC
+    // [DebuggerBrowsableAttribute] Offset: 0xD94CCC
     // private UnityEngine.LightmapBakeType <lightmapBakeTypes>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     UnityEngine::LightmapBakeType lightmapBakeTypes;
     // Field size check
     static_assert(sizeof(UnityEngine::LightmapBakeType) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xD94D88
-    // [DebuggerBrowsableAttribute] Offset: 0xD94D88
+    // [CompilerGeneratedAttribute] Offset: 0xD94D08
+    // [DebuggerBrowsableAttribute] Offset: 0xD94D08
     // private UnityEngine.LightmapsMode <lightmapsModes>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     UnityEngine::LightmapsMode lightmapsModes;
     // Field size check
     static_assert(sizeof(UnityEngine::LightmapsMode) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94DC4
-    // [CompilerGeneratedAttribute] Offset: 0xD94DC4
+    // [DebuggerBrowsableAttribute] Offset: 0xD94D44
+    // [CompilerGeneratedAttribute] Offset: 0xD94D44
     // private System.Boolean <enlighten>k__BackingField
     // Size: 0x1
     // Offset: 0x24
     bool enlighten;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94E00
-    // [CompilerGeneratedAttribute] Offset: 0xD94E00
+    // [DebuggerBrowsableAttribute] Offset: 0xD94D80
+    // [CompilerGeneratedAttribute] Offset: 0xD94D80
     // private System.Boolean <lightProbeProxyVolumes>k__BackingField
     // Size: 0x1
     // Offset: 0x25
     bool lightProbeProxyVolumes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD94E3C
-    // [DebuggerBrowsableAttribute] Offset: 0xD94E3C
+    // [CompilerGeneratedAttribute] Offset: 0xD94DBC
+    // [DebuggerBrowsableAttribute] Offset: 0xD94DBC
     // private System.Boolean <motionVectors>k__BackingField
     // Size: 0x1
     // Offset: 0x26
     bool motionVectors;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94E78
-    // [CompilerGeneratedAttribute] Offset: 0xD94E78
+    // [DebuggerBrowsableAttribute] Offset: 0xD94DF8
+    // [CompilerGeneratedAttribute] Offset: 0xD94DF8
     // private System.Boolean <receiveShadows>k__BackingField
     // Size: 0x1
     // Offset: 0x27
     bool receiveShadows;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD94EB4
-    // [DebuggerBrowsableAttribute] Offset: 0xD94EB4
+    // [CompilerGeneratedAttribute] Offset: 0xD94E34
+    // [DebuggerBrowsableAttribute] Offset: 0xD94E34
     // private System.Boolean <reflectionProbes>k__BackingField
     // Size: 0x1
     // Offset: 0x28
     bool reflectionProbes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94EF0
-    // [CompilerGeneratedAttribute] Offset: 0xD94EF0
+    // [DebuggerBrowsableAttribute] Offset: 0xD94E70
+    // [CompilerGeneratedAttribute] Offset: 0xD94E70
     // private System.Boolean <rendererPriority>k__BackingField
     // Size: 0x1
     // Offset: 0x29
     bool rendererPriority;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD94F2C
-    // [DebuggerBrowsableAttribute] Offset: 0xD94F2C
+    // [CompilerGeneratedAttribute] Offset: 0xD94EAC
+    // [DebuggerBrowsableAttribute] Offset: 0xD94EAC
     // private System.Boolean <terrainDetailUnsupported>k__BackingField
     // Size: 0x1
     // Offset: 0x2A
     bool terrainDetailUnsupported;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD94F68
-    // [DebuggerBrowsableAttribute] Offset: 0xD94F68
+    // [CompilerGeneratedAttribute] Offset: 0xD94EE8
+    // [DebuggerBrowsableAttribute] Offset: 0xD94EE8
     // private System.Boolean <overridesEnvironmentLighting>k__BackingField
     // Size: 0x1
     // Offset: 0x2B
     bool overridesEnvironmentLighting;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DebuggerBrowsableAttribute] Offset: 0xD94FA4
-    // [CompilerGeneratedAttribute] Offset: 0xD94FA4
+    // [DebuggerBrowsableAttribute] Offset: 0xD94F24
+    // [CompilerGeneratedAttribute] Offset: 0xD94F24
     // private System.Boolean <overridesFog>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
     bool overridesFog;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD94FE0
-    // [DebuggerBrowsableAttribute] Offset: 0xD94FE0
+    // [CompilerGeneratedAttribute] Offset: 0xD94F60
+    // [DebuggerBrowsableAttribute] Offset: 0xD94F60
     // private System.Boolean <overridesOtherLightingSettings>k__BackingField
     // Size: 0x1
     // Offset: 0x2D
     bool overridesOtherLightingSettings;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD9501C
-    // [DebuggerBrowsableAttribute] Offset: 0xD9501C
+    // [CompilerGeneratedAttribute] Offset: 0xD94F9C
+    // [DebuggerBrowsableAttribute] Offset: 0xD94F9C
     // private System.Boolean <editableMaterialRenderQueue>k__BackingField
     // Size: 0x1
     // Offset: 0x2E
     bool editableMaterialRenderQueue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD95058
-    // [DebuggerBrowsableAttribute] Offset: 0xD95058
+    // [CompilerGeneratedAttribute] Offset: 0xD94FD8
+    // [DebuggerBrowsableAttribute] Offset: 0xD94FD8
     // private System.Boolean <overridesLODBias>k__BackingField
     // Size: 0x1
     // Offset: 0x2F
     bool overridesLODBias;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xD95094
-    // [DebuggerBrowsableAttribute] Offset: 0xD95094
+    // [CompilerGeneratedAttribute] Offset: 0xD95014
+    // [DebuggerBrowsableAttribute] Offset: 0xD95014
     // private System.Boolean <overridesMaximumLODLevel>k__BackingField
     // Size: 0x1
     // Offset: 0x30
@@ -279,55 +279,55 @@ namespace UnityEngine::Rendering {
     // Set static field: static private UnityEngine.Rendering.SupportedRenderingFeatures s_Active
     static void _set_s_Active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // static public UnityEngine.Rendering.SupportedRenderingFeatures get_active()
-    // Offset: 0x1B141B4
+    // Offset: 0x1B30EC4
     static UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
     // static public System.Void set_active(UnityEngine.Rendering.SupportedRenderingFeatures value)
-    // Offset: 0x1B1308C
+    // Offset: 0x1B2FD9C
     static void set_active(UnityEngine::Rendering::SupportedRenderingFeatures* value);
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_defaultMixedLightingModes()
-    // Offset: 0x1B142AC
+    // Offset: 0x1B30FBC
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_defaultMixedLightingModes();
     // public UnityEngine.Rendering.SupportedRenderingFeatures/LightmapMixedBakeModes get_mixedLightingModes()
-    // Offset: 0x1B142B4
+    // Offset: 0x1B30FC4
     UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes get_mixedLightingModes();
     // public UnityEngine.LightmapBakeType get_lightmapBakeTypes()
-    // Offset: 0x1B142BC
+    // Offset: 0x1B30FCC
     UnityEngine::LightmapBakeType get_lightmapBakeTypes();
     // public UnityEngine.LightmapsMode get_lightmapsModes()
-    // Offset: 0x1B142C4
+    // Offset: 0x1B30FD4
     UnityEngine::LightmapsMode get_lightmapsModes();
     // public System.Boolean get_enlighten()
-    // Offset: 0x1B142CC
+    // Offset: 0x1B30FDC
     bool get_enlighten();
     // static System.Void FallbackMixedLightingModeByRef(System.IntPtr fallbackModePtr)
-    // Offset: 0x1B142D4
+    // Offset: 0x1B30FE4
     static void FallbackMixedLightingModeByRef(System::IntPtr fallbackModePtr);
     // static System.Boolean IsMixedLightingModeSupported(UnityEngine.MixedLightingMode mixedMode)
-    // Offset: 0x1B14438
+    // Offset: 0x1B31148
     static bool IsMixedLightingModeSupported(UnityEngine::MixedLightingMode mixedMode);
     // static System.Void IsMixedLightingModeSupportedByRef(UnityEngine.MixedLightingMode mixedMode, System.IntPtr isSupportedPtr)
-    // Offset: 0x1B144B4
+    // Offset: 0x1B311C4
     static void IsMixedLightingModeSupportedByRef(UnityEngine::MixedLightingMode mixedMode, System::IntPtr isSupportedPtr);
     // static System.Boolean IsLightmapBakeTypeSupported(UnityEngine.LightmapBakeType bakeType)
-    // Offset: 0x1B145E4
+    // Offset: 0x1B312F4
     static bool IsLightmapBakeTypeSupported(UnityEngine::LightmapBakeType bakeType);
     // static System.Void IsLightmapBakeTypeSupportedByRef(UnityEngine.LightmapBakeType bakeType, System.IntPtr isSupportedPtr)
-    // Offset: 0x1B14660
+    // Offset: 0x1B31370
     static void IsLightmapBakeTypeSupportedByRef(UnityEngine::LightmapBakeType bakeType, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapsModeSupportedByRef(UnityEngine.LightmapsMode mode, System.IntPtr isSupportedPtr)
-    // Offset: 0x1B147B0
+    // Offset: 0x1B314C0
     static void IsLightmapsModeSupportedByRef(UnityEngine::LightmapsMode mode, System::IntPtr isSupportedPtr);
     // static System.Void IsLightmapperSupportedByRef(System.Int32 lightmapper, System.IntPtr isSupportedPtr)
-    // Offset: 0x1B1484C
+    // Offset: 0x1B3155C
     static void IsLightmapperSupportedByRef(int lightmapper, System::IntPtr isSupportedPtr);
     // static System.Void FallbackLightmapperByRef(System.IntPtr lightmapperPtr)
-    // Offset: 0x1B14914
+    // Offset: 0x1B31624
     static void FallbackLightmapperByRef(System::IntPtr lightmapperPtr);
     // static private System.Void .cctor()
-    // Offset: 0x1B14934
+    // Offset: 0x1B31644
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1B13050
+    // Offset: 0x1B2FD60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -339,6 +339,148 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
   static check_size<sizeof(SupportedRenderingFeatures), 48 + sizeof(bool)> __UnityEngine_Rendering_SupportedRenderingFeaturesSizeCheck;
   static_assert(sizeof(SupportedRenderingFeatures) == 0x31);
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_active
+  // Il2CppName: get_active
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures* (*)()>(&SupportedRenderingFeatures::get_active)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::set_active
+  // Il2CppName: set_active
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::SupportedRenderingFeatures*)>(&SupportedRenderingFeatures::set_active)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::SupportedRenderingFeatures*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_defaultMixedLightingModes
+  // Il2CppName: get_defaultMixedLightingModes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_defaultMixedLightingModes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_defaultMixedLightingModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_mixedLightingModes
+  // Il2CppName: get_mixedLightingModes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SupportedRenderingFeatures::LightmapMixedBakeModes (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_mixedLightingModes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_mixedLightingModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_lightmapBakeTypes
+  // Il2CppName: get_lightmapBakeTypes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightmapBakeType (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_lightmapBakeTypes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_lightmapBakeTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_lightmapsModes
+  // Il2CppName: get_lightmapsModes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightmapsMode (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_lightmapsModes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_lightmapsModes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::get_enlighten
+  // Il2CppName: get_enlighten
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::get_enlighten)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "get_enlighten", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::FallbackMixedLightingModeByRef
+  // Il2CppName: FallbackMixedLightingModeByRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&SupportedRenderingFeatures::FallbackMixedLightingModeByRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "FallbackMixedLightingModeByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsMixedLightingModeSupported
+  // Il2CppName: IsMixedLightingModeSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MixedLightingMode)>(&SupportedRenderingFeatures::IsMixedLightingModeSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsMixedLightingModeSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MixedLightingMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef
+  // Il2CppName: IsMixedLightingModeSupportedByRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MixedLightingMode, System::IntPtr)>(&SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsMixedLightingModeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MixedLightingMode>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapBakeTypeSupported
+  // Il2CppName: IsLightmapBakeTypeSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LightmapBakeType)>(&SupportedRenderingFeatures::IsLightmapBakeTypeSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapBakeTypeSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapBakeType>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef
+  // Il2CppName: IsLightmapBakeTypeSupportedByRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::LightmapBakeType, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapBakeTypeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapBakeType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapsModeSupportedByRef
+  // Il2CppName: IsLightmapsModeSupportedByRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::LightmapsMode, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapsModeSupportedByRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapsModeSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LightmapsMode>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::IsLightmapperSupportedByRef
+  // Il2CppName: IsLightmapperSupportedByRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::IntPtr)>(&SupportedRenderingFeatures::IsLightmapperSupportedByRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "IsLightmapperSupportedByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::FallbackLightmapperByRef
+  // Il2CppName: FallbackLightmapperByRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&SupportedRenderingFeatures::FallbackLightmapperByRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), "FallbackLightmapperByRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SupportedRenderingFeatures::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SupportedRenderingFeatures::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SupportedRenderingFeatures::*)()>(&SupportedRenderingFeatures::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SupportedRenderingFeatures*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures*, "UnityEngine.Rendering", "SupportedRenderingFeatures");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SupportedRenderingFeatures::ReflectionProbeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/ReflectionProbeModes");

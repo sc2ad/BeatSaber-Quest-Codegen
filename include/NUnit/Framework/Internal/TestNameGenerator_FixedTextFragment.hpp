@@ -40,14 +40,14 @@ namespace NUnit::Framework::Internal {
       return text;
     }
     // public System.Void .ctor(System.String text)
-    // Offset: 0x22967B8
+    // Offset: 0x22B1514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::FixedTextFragment*, creationType>(text)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    // Offset: 0x22974C4
+    // Offset: 0x22B2220
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
     ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::Array<::Il2CppObject*>* args);
@@ -55,5 +55,27 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(TestNameGenerator::FixedTextFragment), 16 + sizeof(::Il2CppString*)> __NUnit_Framework_Internal_TestNameGenerator_FixedTextFragmentSizeCheck;
   static_assert(sizeof(TestNameGenerator::FixedTextFragment) == 0x18);
+  // Writing MetadataGetter for method: TestNameGenerator::FixedTextFragment::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::FixedTextFragment::*)(::Il2CppString*)>(&TestNameGenerator::FixedTextFragment::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestNameGenerator::FixedTextFragment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::FixedTextFragment::*)(::Il2CppString*)>(&TestNameGenerator::FixedTextFragment::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestNameGenerator::FixedTextFragment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestNameGenerator::FixedTextFragment::GetText
+  // Il2CppName: GetText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestNameGenerator::FixedTextFragment::*)(System::Reflection::MethodInfo*, ::Array<::Il2CppObject*>*)>(&TestNameGenerator::FixedTextFragment::GetText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestNameGenerator::FixedTextFragment*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment*, "NUnit.Framework.Internal", "TestNameGenerator/FixedTextFragment");

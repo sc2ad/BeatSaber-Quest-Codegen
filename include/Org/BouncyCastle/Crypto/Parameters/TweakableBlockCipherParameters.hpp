@@ -40,15 +40,31 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
-    // Offset: 0x1241970
+    // Offset: 0x125E680
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Byte[] get_Tweak()
-    // Offset: 0x1241978
+    // Offset: 0x125E688
     ::Array<uint8_t>* get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
   #pragma pack(pop)
   static check_size<sizeof(TweakableBlockCipherParameters), 24 + sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*)> __Org_BouncyCastle_Crypto_Parameters_TweakableBlockCipherParametersSizeCheck;
   static_assert(sizeof(TweakableBlockCipherParameters) == 0x20);
+  // Writing MetadataGetter for method: TweakableBlockCipherParameters::get_Key
+  // Il2CppName: get_Key
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::KeyParameter* (TweakableBlockCipherParameters::*)()>(&TweakableBlockCipherParameters::get_Key)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TweakableBlockCipherParameters*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TweakableBlockCipherParameters::get_Tweak
+  // Il2CppName: get_Tweak
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (TweakableBlockCipherParameters::*)()>(&TweakableBlockCipherParameters::get_Tweak)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TweakableBlockCipherParameters*), "get_Tweak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters*, "Org.BouncyCastle.Crypto.Parameters", "TweakableBlockCipherParameters");

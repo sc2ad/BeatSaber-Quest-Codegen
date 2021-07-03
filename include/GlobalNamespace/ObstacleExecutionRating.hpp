@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ObstacleExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_ObstacleExecutionRating_RatingSizeCheck;
     static_assert(sizeof(ObstacleExecutionRating::Rating) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE180F4
+    // [CompilerGeneratedAttribute] Offset: 0xE180D0
     // private ObstacleExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -77,13 +77,13 @@ namespace GlobalNamespace {
       return rating;
     }
     // public ObstacleExecutionRating/Rating get_rating()
-    // Offset: 0x11C3124
+    // Offset: 0x11DDA78
     GlobalNamespace::ObstacleExecutionRating::Rating get_rating();
     // public System.Void set_rating(ObstacleExecutionRating/Rating value)
-    // Offset: 0x11C312C
+    // Offset: 0x11DDA80
     void set_rating(GlobalNamespace::ObstacleExecutionRating::Rating value);
     // public System.Void .ctor(System.Single time, ObstacleExecutionRating/Rating rating)
-    // Offset: 0x11C3134
+    // Offset: 0x11DDA88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObstacleExecutionRating* New_ctor(float time, GlobalNamespace::ObstacleExecutionRating::Rating rating) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObstacleExecutionRating::.ctor");
@@ -93,6 +93,36 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ObstacleExecutionRating), 24 + sizeof(GlobalNamespace::ObstacleExecutionRating::Rating)> __GlobalNamespace_ObstacleExecutionRatingSizeCheck;
   static_assert(sizeof(ObstacleExecutionRating) == 0x1C);
+  // Writing MetadataGetter for method: ObstacleExecutionRating::get_rating
+  // Il2CppName: get_rating
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleExecutionRating::Rating (ObstacleExecutionRating::*)()>(&ObstacleExecutionRating::get_rating)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObstacleExecutionRating*), "get_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ObstacleExecutionRating::set_rating
+  // Il2CppName: set_rating
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleExecutionRating::*)(GlobalNamespace::ObstacleExecutionRating::Rating)>(&ObstacleExecutionRating::set_rating)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObstacleExecutionRating*), "set_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleExecutionRating::Rating>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObstacleExecutionRating::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleExecutionRating::*)(float, GlobalNamespace::ObstacleExecutionRating::Rating)>(&ObstacleExecutionRating::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObstacleExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleExecutionRating::Rating>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleExecutionRating::*)(float, GlobalNamespace::ObstacleExecutionRating::Rating)>(&ObstacleExecutionRating::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObstacleExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleExecutionRating::Rating>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");

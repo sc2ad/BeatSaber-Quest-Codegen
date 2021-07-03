@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* bone;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xE08448
+    // [RangeAttribute] Offset: 0xE09444
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0x18
@@ -56,31 +56,31 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKMappingBone
     IKMappingBone(UnityEngine::Transform* bone_ = {}, float maintainRotationWeight_ = {}, RootMotion::FinalIK::IKMapping::BoneMap* boneMap_ = {}) noexcept : bone{bone_}, maintainRotationWeight{maintainRotationWeight_}, boneMap{boneMap_} {}
     // public System.Void .ctor(UnityEngine.Transform bone)
-    // Offset: 0x1C4F7D8
+    // Offset: 0x1C6A4E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingBone* New_ctor(UnityEngine::Transform* bone) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMappingBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingBone*, creationType>(bone)));
     }
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1C4F870
+    // Offset: 0x1C6A580
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x1C4F888
+    // Offset: 0x1C6A598
     void FixTransforms();
     // public System.Void ReadPose()
-    // Offset: 0x1C4F940
+    // Offset: 0x1C6A650
     void ReadPose();
     // public System.Void WritePose(System.Single solverWeight)
-    // Offset: 0x1C4F958
+    // Offset: 0x1C6A668
     void WritePose(float solverWeight);
     // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x1C4F6B4
+    // Offset: 0x1C6A3C4
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void .ctor()
-    // Offset: 0x1C4F754
+    // Offset: 0x1C6A464
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -90,7 +90,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingBone*, creationType>()));
     }
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4F8A4
+    // Offset: 0x1C6A5B4
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
@@ -98,5 +98,81 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKMappingBone), 32 + sizeof(RootMotion::FinalIK::IKMapping::BoneMap*)> __RootMotion_FinalIK_IKMappingBoneSizeCheck;
   static_assert(sizeof(IKMappingBone) == 0x28);
+  // Writing MetadataGetter for method: IKMappingBone::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)(UnityEngine::Transform*)>(&IKMappingBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)(UnityEngine::Transform*)>(&IKMappingBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::StoreDefaultLocalState
+  // Il2CppName: StoreDefaultLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)()>(&IKMappingBone::StoreDefaultLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::FixTransforms
+  // Il2CppName: FixTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)()>(&IKMappingBone::FixTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::ReadPose
+  // Il2CppName: ReadPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)()>(&IKMappingBone::ReadPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), "ReadPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::WritePose
+  // Il2CppName: WritePose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)(float)>(&IKMappingBone::WritePose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), "WritePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKMappingBone::*)(RootMotion::FinalIK::IKSolver*, ::Il2CppString*&)>(&IKMappingBone::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolver*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)()>(&IKMappingBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)()>(&IKMappingBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKMappingBone::Initiate
+  // Il2CppName: Initiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKMappingBone::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKMappingBone::Initiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKMappingBone*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingBone*, "RootMotion.FinalIK", "IKMappingBone");

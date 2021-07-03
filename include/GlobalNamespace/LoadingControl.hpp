@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* loadingText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE2199C
+    // [SpaceAttribute] Offset: 0xE21978
     // private TMPro.TextMeshProUGUI _refreshText
     // Size: 0x8
     // Offset: 0x28
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* refreshContainer;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE219F4
+    // [SpaceAttribute] Offset: 0xE219D0
     // private UnityEngine.GameObject _downloadingContainer
     // Size: 0x8
     // Offset: 0x40
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* donwloadingProgressImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE21A4C
+    // [CompilerGeneratedAttribute] Offset: 0xE21A28
     // private System.Action didPressRefreshButtonEvent
     // Size: 0x8
     // Offset: 0x58
@@ -115,37 +115,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x11FA518
+    // Offset: 0x11FDF48
     void add_didPressRefreshButtonEvent(System::Action* value);
     // public System.Void remove_didPressRefreshButtonEvent(System.Action value)
-    // Offset: 0x11FA5E8
+    // Offset: 0x11FE018
     void remove_didPressRefreshButtonEvent(System::Action* value);
     // public System.Boolean get_isLoading()
-    // Offset: 0x1202420
+    // Offset: 0x1205E44
     bool get_isLoading();
     // protected System.Void Awake()
-    // Offset: 0x120243C
+    // Offset: 0x1205E60
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x12024EC
+    // Offset: 0x1205F10
     void OnDestroy();
     // public System.Void ShowLoading(System.String text)
-    // Offset: 0x11FA318
+    // Offset: 0x11FDD48
     void ShowLoading(::Il2CppString* text);
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
-    // Offset: 0x11FA3A0
+    // Offset: 0x11FDDD0
     void ShowText(::Il2CppString* text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
-    // Offset: 0x1202508
+    // Offset: 0x1205F2C
     void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
     // public System.Void Hide()
-    // Offset: 0x11FA454
+    // Offset: 0x11FDE84
     void Hide();
     // private System.Void <Awake>b__14_0()
-    // Offset: 0x12025B8
+    // Offset: 0x1205FDC
     void $Awake$b__14_0();
     // public System.Void .ctor()
-    // Offset: 0x12025B0
+    // Offset: 0x1205FD4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -161,5 +161,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LoadingControl), 96 + sizeof(HMUI::ButtonBinder*)> __GlobalNamespace_LoadingControlSizeCheck;
   static_assert(sizeof(LoadingControl) == 0x68);
+  // Writing MetadataGetter for method: LoadingControl::add_didPressRefreshButtonEvent
+  // Il2CppName: add_didPressRefreshButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)(System::Action*)>(&LoadingControl::add_didPressRefreshButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "add_didPressRefreshButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::remove_didPressRefreshButtonEvent
+  // Il2CppName: remove_didPressRefreshButtonEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)(System::Action*)>(&LoadingControl::remove_didPressRefreshButtonEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "remove_didPressRefreshButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::get_isLoading
+  // Il2CppName: get_isLoading
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LoadingControl::*)()>(&LoadingControl::get_isLoading)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "get_isLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)()>(&LoadingControl::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)()>(&LoadingControl::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::ShowLoading
+  // Il2CppName: ShowLoading
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)(::Il2CppString*)>(&LoadingControl::ShowLoading)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::ShowText
+  // Il2CppName: ShowText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)(::Il2CppString*, bool)>(&LoadingControl::ShowText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::ShowDownloadingProgress
+  // Il2CppName: ShowDownloadingProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)(::Il2CppString*, float)>(&LoadingControl::ShowDownloadingProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "ShowDownloadingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::Hide
+  // Il2CppName: Hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)()>(&LoadingControl::Hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::$Awake$b__14_0
+  // Il2CppName: <Awake>b__14_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)()>(&LoadingControl::$Awake$b__14_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), "<Awake>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LoadingControl::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)()>(&LoadingControl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LoadingControl::*)()>(&LoadingControl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LoadingControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");

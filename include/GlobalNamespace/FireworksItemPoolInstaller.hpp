@@ -42,12 +42,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FireworksItemPoolInstaller
     FireworksItemPoolInstaller(GlobalNamespace::FireworksController* fireworksController_ = {}, GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab_ = {}) noexcept : fireworksController{fireworksController_}, fireworkItemControllerPrefab{fireworkItemControllerPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x10C6A8C
+    // Offset: 0x104564C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x10C6B1C
+    // Offset: 0x10456DC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -65,5 +65,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FireworksItemPoolInstaller), 40 + sizeof(GlobalNamespace::FireworkItemController*)> __GlobalNamespace_FireworksItemPoolInstallerSizeCheck;
   static_assert(sizeof(FireworksItemPoolInstaller) == 0x30);
+  // Writing MetadataGetter for method: FireworksItemPoolInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksItemPoolInstaller::*)()>(&FireworksItemPoolInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksItemPoolInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FireworksItemPoolInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksItemPoolInstaller::*)()>(&FireworksItemPoolInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksItemPoolInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworksItemPoolInstaller::*)()>(&FireworksItemPoolInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworksItemPoolInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksItemPoolInstaller*, "", "FireworksItemPoolInstaller");

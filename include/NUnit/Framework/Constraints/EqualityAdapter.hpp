@@ -18,10 +18,26 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool AreEqual(::Il2CppObject* x, ::Il2CppObject* y);
     // public System.Boolean CanCompare(System.Object x, System.Object y)
-    // Offset: 0x170ECE8
+    // Offset: 0x17269F8
     bool CanCompare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // NUnit.Framework.Constraints.EqualityAdapter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EqualityAdapter::AreEqual
+  // Il2CppName: AreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EqualityAdapter::*)(::Il2CppObject*, ::Il2CppObject*)>(&EqualityAdapter::AreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EqualityAdapter*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EqualityAdapter::CanCompare
+  // Il2CppName: CanCompare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EqualityAdapter::*)(::Il2CppObject*, ::Il2CppObject*)>(&EqualityAdapter::CanCompare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EqualityAdapter*), "CanCompare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualityAdapter*, "NUnit.Framework.Constraints", "EqualityAdapter");

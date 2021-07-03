@@ -23,28 +23,84 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorExtensions
     ColorExtensions() noexcept {}
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
-    // Offset: 0x12234F8
+    // Offset: 0x123FC90
     static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float saturation);
     // static public UnityEngine.Color ColorWithAlpha(UnityEngine.Color color, System.Single alpha)
-    // Offset: 0x1223550
+    // Offset: 0x123FCE8
     static UnityEngine::Color ColorWithAlpha(UnityEngine::Color color, float alpha);
     // static public UnityEngine.Color ColorWithR(UnityEngine.Color color, System.Single r)
-    // Offset: 0x1223558
+    // Offset: 0x123FCF0
     static UnityEngine::Color ColorWithR(UnityEngine::Color color, float r);
     // static public UnityEngine.Color ColorWithG(UnityEngine.Color color, System.Single g)
-    // Offset: 0x1223560
+    // Offset: 0x123FCF8
     static UnityEngine::Color ColorWithG(UnityEngine::Color color, float g);
     // static public UnityEngine.Color ColorWithB(UnityEngine.Color color, System.Single b)
-    // Offset: 0x1223568
+    // Offset: 0x123FD00
     static UnityEngine::Color ColorWithB(UnityEngine::Color color, float b);
     // static public UnityEngine.Color ColorWithValue(UnityEngine.Color color, System.Single value)
-    // Offset: 0x1223570
+    // Offset: 0x123FD08
     static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float value);
     // static public UnityEngine.Color LerpRGBUnclamped(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
-    // Offset: 0x12235C4
+    // Offset: 0x123FD5C
     static UnityEngine::Color LerpRGBUnclamped(UnityEngine::Color a, UnityEngine::Color b, float t);
   }; // ColorExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ColorExtensions::SaturatedColor
+  // Il2CppName: SaturatedColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::SaturatedColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "SaturatedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorExtensions::ColorWithAlpha
+  // Il2CppName: ColorWithAlpha
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithAlpha)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorExtensions::ColorWithR
+  // Il2CppName: ColorWithR
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithR)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorExtensions::ColorWithG
+  // Il2CppName: ColorWithG
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithG)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorExtensions::ColorWithB
+  // Il2CppName: ColorWithB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorExtensions::ColorWithValue
+  // Il2CppName: ColorWithValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorExtensions::LerpRGBUnclamped
+  // Il2CppName: LerpRGBUnclamped
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&ColorExtensions::LerpRGBUnclamped)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "LerpRGBUnclamped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorExtensions*, "", "ColorExtensions");

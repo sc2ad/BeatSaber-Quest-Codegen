@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*>(this);
     }
     // protected System.Void .ctor()
-    // Offset: 0x14E1518
+    // Offset: 0x14FC228
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,5 +72,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase), 40 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerConnectionManager_MasterServerConnectionManagerParamsBaseSizeCheck;
   static_assert(sizeof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase) == 0x30);
+  // Writing MetadataGetter for method: MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::*)()>(&MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::*)()>(&MasterServerConnectionManager::MasterServerConnectionManagerParamsBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase*, "", "MasterServerConnectionManager/MasterServerConnectionManagerParamsBase");

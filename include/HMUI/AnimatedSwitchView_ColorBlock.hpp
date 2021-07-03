@@ -38,7 +38,7 @@ namespace HMUI {
     UnityEngine::Color knobColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [SpaceAttribute] Offset: 0xDF7F0C
+    // [SpaceAttribute] Offset: 0xDF9F08
     // public UnityEngine.Color backgroundColor
     // Size: 0x10
     // Offset: 0x40
@@ -60,7 +60,7 @@ namespace HMUI {
     // Creating value type constructor for type: ColorBlock
     ColorBlock(UnityEngine::Color knobColor_ = {}, UnityEngine::Color knobColor0_ = {}, UnityEngine::Color knobColor1_ = {}, UnityEngine::Color backgroundColor_ = {}, UnityEngine::Color backgroundColor0_ = {}, UnityEngine::Color backgroundColor1_ = {}) noexcept : knobColor{knobColor_}, knobColor0{knobColor0_}, knobColor1{knobColor1_}, backgroundColor{backgroundColor_}, backgroundColor0{backgroundColor0_}, backgroundColor1{backgroundColor1_} {}
     // public System.Void .ctor()
-    // Offset: 0x12F1934
+    // Offset: 0x130B644
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,5 +72,19 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(UnityEngine::Color)> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
   static_assert(sizeof(AnimatedSwitchView::ColorBlock) == 0x70);
+  // Writing MetadataGetter for method: AnimatedSwitchView::ColorBlock::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatedSwitchView::ColorBlock::*)()>(&AnimatedSwitchView::ColorBlock::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::ColorBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatedSwitchView::ColorBlock::*)()>(&AnimatedSwitchView::ColorBlock::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::ColorBlock*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");

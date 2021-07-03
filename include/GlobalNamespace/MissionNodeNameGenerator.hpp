@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void .ctor()
-    // Offset: 0x1053C08
+    // Offset: 0x10982F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -52,5 +52,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionNodeNameGenerator), 24 + sizeof(GlobalNamespace::MissionNodesManager*)> __GlobalNamespace_MissionNodeNameGeneratorSizeCheck;
   static_assert(sizeof(MissionNodeNameGenerator) == 0x20);
+  // Writing MetadataGetter for method: MissionNodeNameGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeNameGenerator::*)()>(&MissionNodeNameGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeNameGenerator::*)()>(&MissionNodeNameGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeNameGenerator*, "", "MissionNodeNameGenerator");

@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Text get_text()
-    // Offset: 0x10F5DC4
+    // Offset: 0x1118608
     UnityEngine::UI::Text* get_text();
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x10F5DCC
+    // Offset: 0x1118610
     UnityEngine::UI::Button* get_button();
     // public System.Void .ctor()
-    // Offset: 0x10F5DD4
+    // Offset: 0x1118618
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,5 +66,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TextButton), 32 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_TextButtonSizeCheck;
   static_assert(sizeof(TextButton) == 0x28);
+  // Writing MetadataGetter for method: TextButton::get_text
+  // Il2CppName: get_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Text* (TextButton::*)()>(&TextButton::get_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextButton*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TextButton::get_button
+  // Il2CppName: get_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (TextButton::*)()>(&TextButton::get_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextButton*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TextButton::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextButton::*)()>(&TextButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextButton::*)()>(&TextButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextButton*, "", "TextButton");

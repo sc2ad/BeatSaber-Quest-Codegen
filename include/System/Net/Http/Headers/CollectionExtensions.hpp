@@ -61,5 +61,14 @@ namespace System::Net::Http::Headers {
     }
   }; // System.Net.Http.Headers.CollectionExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CollectionExtensions::SequenceEqual
+  // Il2CppName: SequenceEqual
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: CollectionExtensions::ToString
+  // Il2CppName: ToString
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: CollectionExtensions::ToStringBuilder
+  // Il2CppName: ToStringBuilder
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionExtensions*, "System.Net.Http.Headers", "CollectionExtensions");

@@ -53,7 +53,7 @@ namespace LiteNetLib {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>*>(this);
     }
     // public System.Void .ctor(LiteNetLib.NetPeer p)
-    // Offset: 0xF05F48
+    // Offset: 0xF06F00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     NetPeerEnumerator(LiteNetLib::NetPeer* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetManager::NetPeerEnumerator::.ctor");
@@ -61,23 +61,77 @@ namespace LiteNetLib {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, p);
     }
     // public System.Void Dispose()
-    // Offset: 0xF05F50
+    // Offset: 0xF06F08
     void Dispose();
     // public System.Boolean MoveNext()
-    // Offset: 0xF05F54
+    // Offset: 0xF06F0C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0xF05F94
+    // Offset: 0xF06F4C
     void Reset();
     // public LiteNetLib.NetPeer get_Current()
-    // Offset: 0xF05FA0
+    // Offset: 0xF06F58
     LiteNetLib::NetPeer* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0xF05FA8
+    // Offset: 0xF06F60
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
   }; // LiteNetLib.NetManager/NetPeerEnumerator
   #pragma pack(pop)
   static check_size<sizeof(NetManager::NetPeerEnumerator), 8 + sizeof(LiteNetLib::NetPeer*)> __LiteNetLib_NetManager_NetPeerEnumeratorSizeCheck;
   static_assert(sizeof(NetManager::NetPeerEnumerator) == 0x10);
+  // Writing MetadataGetter for method: NetManager::NetPeerEnumerator::NetPeerEnumerator
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::NetPeerEnumerator::*)(LiteNetLib::NetPeer*)>(&NetManager::NetPeerEnumerator::NetPeerEnumerator<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::NetPeerEnumerator::*)(LiteNetLib::NetPeer*)>(&NetManager::NetPeerEnumerator::NetPeerEnumerator<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetManager::NetPeerEnumerator::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::NetPeerEnumerator::*)()>(&NetManager::NetPeerEnumerator::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetManager::NetPeerEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetManager::NetPeerEnumerator::*)()>(&NetManager::NetPeerEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetManager::NetPeerEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetManager::NetPeerEnumerator::*)()>(&NetManager::NetPeerEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetManager::NetPeerEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (NetManager::NetPeerEnumerator::*)()>(&NetManager::NetPeerEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetManager::NetPeerEnumerator::System_Collections_IEnumerator_get_Current
+  // Il2CppName: System.Collections.IEnumerator.get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NetManager::NetPeerEnumerator::*)()>(&NetManager::NetPeerEnumerator::System_Collections_IEnumerator_get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetManager::NetPeerEnumerator), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");

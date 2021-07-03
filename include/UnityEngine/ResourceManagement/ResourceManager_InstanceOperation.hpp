@@ -79,48 +79,48 @@ namespace UnityEngine::ResourceManagement {
     // Creating value type constructor for type: InstanceOperation
     InstanceOperation(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> m_dependency_ = {}, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters m_instantiationParams_ = {}, UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_instanceProvider_ = {}, UnityEngine::GameObject* m_instance_ = {}, UnityEngine::SceneManagement::Scene m_scene_ = {}) noexcept : m_dependency{m_dependency_}, m_instantiationParams{m_instantiationParams_}, m_instanceProvider{m_instanceProvider_}, m_instance{m_instance_}, m_scene{m_scene_} {}
     // public System.Void Init(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider instanceProvider, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiationParams, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> dependency)
-    // Offset: 0x19AF9DC
+    // Offset: 0x19C66EC
     void Init(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* instanceProvider, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiationParams, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> dependency);
     // public UnityEngine.SceneManagement.Scene InstanceScene()
-    // Offset: 0x19B0498
+    // Offset: 0x19C71A8
     UnityEngine::SceneManagement::Scene InstanceScene();
     // override UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
-    // Offset: 0x19B0244
+    // Offset: 0x19C6F54
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus AsyncOperationBase_1::GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
     UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited);
     // protected override System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
-    // Offset: 0x19B0304
+    // Offset: 0x19C7014
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
     void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
     // protected override System.String get_DebugName()
-    // Offset: 0x19B03B0
+    // Offset: 0x19C70C0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::Il2CppString* get_DebugName();
     // protected override System.Void Destroy()
-    // Offset: 0x19B04A0
+    // Offset: 0x19C71B0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Destroy()
     void Destroy();
     // protected override System.Single get_Progress()
-    // Offset: 0x19B056C
+    // Offset: 0x19C727C
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x19B05BC
+    // Offset: 0x19C72CC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x19B06E0
+    // Offset: 0x19C73F0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // public System.Void .ctor()
-    // Offset: 0x19B0900
+    // Offset: 0x19C7610
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -131,5 +131,91 @@ namespace UnityEngine::ResourceManagement {
     }
   }; // UnityEngine.ResourceManagement.ResourceManager/InstanceOperation
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::InstanceOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>)>(&ResourceManager::InstanceOperation::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>()});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::InstanceScene
+  // Il2CppName: InstanceScene
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::InstanceScene)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "InstanceScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::GetDownloadStatus
+  // Il2CppName: GetDownloadStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (ResourceManager::InstanceOperation::*)(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)>(&ResourceManager::InstanceOperation::GetDownloadStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::GetDependencies
+  // Il2CppName: GetDependencies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::InstanceOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&ResourceManager::InstanceOperation::GetDependencies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::get_DebugName
+  // Il2CppName: get_DebugName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::get_DebugName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::Destroy
+  // Il2CppName: Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::get_Progress
+  // Il2CppName: get_Progress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::get_Progress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "get_Progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::InvokeWaitForCompletion
+  // Il2CppName: InvokeWaitForCompletion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::InvokeWaitForCompletion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::Execute
+  // Il2CppName: Execute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::Execute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResourceManager::InstanceOperation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::InstanceOperation::*)()>(&ResourceManager::InstanceOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::InstanceOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*, "UnityEngine.ResourceManagement", "ResourceManager/InstanceOperation");

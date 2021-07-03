@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnEnable()
-    // Offset: 0x2350940
+    // Offset: 0x2389740
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x23509D4
+    // Offset: 0x23897D4
     void OnDisable();
     // private System.Void HandleEvent()
-    // Offset: 0x2350A5C
+    // Offset: 0x238985C
     void HandleEvent();
     // public System.Void .ctor()
-    // Offset: 0x2350A78
+    // Offset: 0x2389878
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -72,5 +72,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SignalListener), 32 + sizeof(UnityEngine::Events::UnityEvent*)> __GlobalNamespace_SignalListenerSizeCheck;
   static_assert(sizeof(SignalListener) == 0x28);
+  // Writing MetadataGetter for method: SignalListener::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalListener::*)()>(&SignalListener::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignalListener*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SignalListener::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalListener::*)()>(&SignalListener::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignalListener*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SignalListener::HandleEvent
+  // Il2CppName: HandleEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalListener::*)()>(&SignalListener::HandleEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignalListener*), "HandleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SignalListener::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalListener::*)()>(&SignalListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignalListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalListener::*)()>(&SignalListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignalListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalListener*, "", "SignalListener");

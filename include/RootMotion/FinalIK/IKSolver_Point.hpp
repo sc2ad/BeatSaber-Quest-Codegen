@@ -35,7 +35,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xE0A6C0
+    // [RangeAttribute] Offset: 0xE0B6BC
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -69,25 +69,25 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Point
     Point(UnityEngine::Transform* transform_ = {}, float weight_ = {}, UnityEngine::Vector3 solverPosition_ = {}, UnityEngine::Quaternion solverRotation_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Quaternion defaultLocalRotation_ = {}) noexcept : transform{transform_}, weight{weight_}, solverPosition{solverPosition_}, solverRotation{solverRotation_}, defaultLocalPosition{defaultLocalPosition_}, defaultLocalRotation{defaultLocalRotation_} {}
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x1C534B0
+    // Offset: 0x1C6E1C0
     void StoreDefaultLocalState();
     // public System.Void FixTransform()
-    // Offset: 0x1C53500
+    // Offset: 0x1C6E210
     void FixTransform();
     // public System.Void UpdateSolverPosition()
-    // Offset: 0x1C53688
+    // Offset: 0x1C6E398
     void UpdateSolverPosition();
     // public System.Void UpdateSolverLocalPosition()
-    // Offset: 0x1C536C0
+    // Offset: 0x1C6E3D0
     void UpdateSolverLocalPosition();
     // public System.Void UpdateSolverState()
-    // Offset: 0x1C536F8
+    // Offset: 0x1C6E408
     void UpdateSolverState();
     // public System.Void UpdateSolverLocalState()
-    // Offset: 0x1C53748
+    // Offset: 0x1C6E458
     void UpdateSolverLocalState();
     // public System.Void .ctor()
-    // Offset: 0x1C52F84
+    // Offset: 0x1C6DC94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,5 +99,67 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKSolver::Point), 68 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
   static_assert(sizeof(IKSolver::Point) == 0x54);
+  // Writing MetadataGetter for method: IKSolver::Point::StoreDefaultLocalState
+  // Il2CppName: StoreDefaultLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::StoreDefaultLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolver::Point::FixTransform
+  // Il2CppName: FixTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::FixTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolver::Point::UpdateSolverPosition
+  // Il2CppName: UpdateSolverPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolver::Point::UpdateSolverLocalPosition
+  // Il2CppName: UpdateSolverLocalPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverLocalPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolver::Point::UpdateSolverState
+  // Il2CppName: UpdateSolverState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolver::Point::UpdateSolverLocalState
+  // Il2CppName: UpdateSolverLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolver::Point::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");

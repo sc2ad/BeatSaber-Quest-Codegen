@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fullScaleJumpPart and: targetTransform
     char __padding0[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE196B8
+    // [SpaceAttribute] Offset: 0xE19694
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x20
@@ -72,22 +72,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x11BFE10
+    // Offset: 0x11DA764
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11C0078
+    // Offset: 0x11DA9CC
     void OnDestroy();
     // private System.Void UpdateScale(System.Single progress)
-    // Offset: 0x11BFEE4
+    // Offset: 0x11DA838
     void UpdateScale(float progress);
     // private System.Void HandleNoteJumpDidUpdateProgress(System.Single progress)
-    // Offset: 0x11C020C
+    // Offset: 0x11DAB60
     void HandleNoteJumpDidUpdateProgress(float progress);
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x11C0210
+    // Offset: 0x11DAB64
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void .ctor()
-    // Offset: 0x11C02E4
+    // Offset: 0x11DAC38
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,5 +103,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteJumpStartScaleUp), 48 + sizeof(GlobalNamespace::NoteJump*)> __GlobalNamespace_NoteJumpStartScaleUpSizeCheck;
   static_assert(sizeof(NoteJumpStartScaleUp) == 0x38);
+  // Writing MetadataGetter for method: NoteJumpStartScaleUp::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartScaleUp::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartScaleUp::UpdateScale
+  // Il2CppName: UpdateScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)(float)>(&NoteJumpStartScaleUp::UpdateScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "UpdateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress
+  // Il2CppName: HandleNoteJumpDidUpdateProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)(float)>(&NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "HandleNoteJumpDidUpdateProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartScaleUp::HandleNoteControllerDidInit
+  // Il2CppName: HandleNoteControllerDidInit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)(GlobalNamespace::NoteControllerBase*)>(&NoteJumpStartScaleUp::HandleNoteControllerDidInit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteJumpStartScaleUp::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartScaleUp*, "", "NoteJumpStartScaleUp");

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StringSO
     StringSO() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2351E08
+    // Offset: 0x238AC14
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -33,5 +33,19 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<StringSO*, creationType>()));
     }
   }; // StringSO
+  // Writing MetadataGetter for method: StringSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringSO::*)()>(&StringSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringSO::*)()>(&StringSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringSO*, "", "StringSO");

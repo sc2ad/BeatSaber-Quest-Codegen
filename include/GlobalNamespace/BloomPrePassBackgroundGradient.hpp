@@ -40,12 +40,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BloomPrePassBackgroundGradient
     BloomPrePassBackgroundGradient(UnityEngine::Gradient* gradient_ = {}) noexcept : gradient{gradient_} {}
     // protected override System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
-    // Offset: 0x1D6B3C8
+    // Offset: 0x1D860D8
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);
     // public System.Void .ctor()
-    // Offset: 0x1D6B440
+    // Offset: 0x1D86150
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -63,5 +63,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundGradient), 48 + sizeof(UnityEngine::Gradient*)> __GlobalNamespace_BloomPrePassBackgroundGradientSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundGradient) == 0x38);
+  // Writing MetadataGetter for method: BloomPrePassBackgroundGradient::UpdatePixels
+  // Il2CppName: UpdatePixels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundGradient::*)(Unity::Collections::NativeArray_1<UnityEngine::Color32>, int)>(&BloomPrePassBackgroundGradient::UpdatePixels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundGradient*), "UpdatePixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Color32>>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BloomPrePassBackgroundGradient::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundGradient::*)()>(&BloomPrePassBackgroundGradient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundGradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundGradient::*)()>(&BloomPrePassBackgroundGradient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundGradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundGradient*, "", "BloomPrePassBackgroundGradient");

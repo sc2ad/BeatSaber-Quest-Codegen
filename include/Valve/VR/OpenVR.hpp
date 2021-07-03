@@ -1172,7 +1172,7 @@ namespace Valve::VR {
     static ::Il2CppString* _get_IVRDriverManager_Version();
     // Set static field: static public System.String IVRDriverManager_Version
     static void _set_IVRDriverManager_Version(::Il2CppString* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDD4DE0
+    // [CompilerGeneratedAttribute] Offset: 0xDD4D14
     // Get static field: static private System.UInt32 <VRToken>k__BackingField
     static uint _get_$VRToken$k__BackingField();
     // Set static field: static private System.UInt32 <VRToken>k__BackingField
@@ -1188,82 +1188,82 @@ namespace Valve::VR {
     // Set static field: static private Valve.VR.OpenVR/COpenVRContext _OpenVRInternal_ModuleContext
     static void _set__OpenVRInternal_ModuleContext(Valve::VR::OpenVR::COpenVRContext* value);
     // static public System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x1C85D1C
+    // Offset: 0x1CA0A2C
     static uint InitInternal(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
     // static public System.Void ShutdownInternal()
-    // Offset: 0x1C85D24
+    // Offset: 0x1CA0A34
     static void ShutdownInternal();
     // static public System.Boolean IsHmdPresent()
-    // Offset: 0x1C85D2C
+    // Offset: 0x1CA0A3C
     static bool IsHmdPresent();
     // static public System.Boolean IsRuntimeInstalled()
-    // Offset: 0x1C85D34
+    // Offset: 0x1CA0A44
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x1C85D3C
+    // Offset: 0x1CA0A4C
     static ::Il2CppString* GetStringForHmdError(Valve::VR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x1C85DB8
+    // Offset: 0x1CA0AC8
     static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, Valve::VR::EVRInitError& peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
-    // Offset: 0x1C85DC0
+    // Offset: 0x1CA0AD0
     static bool IsInterfaceVersionValid(::Il2CppString* pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
-    // Offset: 0x1C85DC8
+    // Offset: 0x1CA0AD8
     static uint GetInitToken();
     // static private System.UInt32 get_VRToken()
-    // Offset: 0x1C85DD0
+    // Offset: 0x1CA0AE0
     static uint get_VRToken();
     // static private System.Void set_VRToken(System.UInt32 value)
-    // Offset: 0x1C85E38
+    // Offset: 0x1CA0B48
     static void set_VRToken(uint value);
     // static private Valve.VR.OpenVR/COpenVRContext get_OpenVRInternal_ModuleContext()
-    // Offset: 0x1C85EA4
+    // Offset: 0x1CA0BB4
     static Valve::VR::OpenVR::COpenVRContext* get_OpenVRInternal_ModuleContext();
     // static public Valve.VR.CVRSystem get_System()
-    // Offset: 0x1C85F70
+    // Offset: 0x1CA0C80
     static Valve::VR::CVRSystem* get_System();
     // static public Valve.VR.CVRChaperone get_Chaperone()
-    // Offset: 0x1C85FDC
+    // Offset: 0x1CA0CEC
     static Valve::VR::CVRChaperone* get_Chaperone();
     // static public Valve.VR.CVRChaperoneSetup get_ChaperoneSetup()
-    // Offset: 0x1C86048
+    // Offset: 0x1CA0D58
     static Valve::VR::CVRChaperoneSetup* get_ChaperoneSetup();
     // static public Valve.VR.CVRCompositor get_Compositor()
-    // Offset: 0x1C860B4
+    // Offset: 0x1CA0DC4
     static Valve::VR::CVRCompositor* get_Compositor();
     // static public Valve.VR.CVROverlay get_Overlay()
-    // Offset: 0x1C86120
+    // Offset: 0x1CA0E30
     static Valve::VR::CVROverlay* get_Overlay();
     // static public Valve.VR.CVRRenderModels get_RenderModels()
-    // Offset: 0x1C8618C
+    // Offset: 0x1CA0E9C
     static Valve::VR::CVRRenderModels* get_RenderModels();
     // static public Valve.VR.CVRExtendedDisplay get_ExtendedDisplay()
-    // Offset: 0x1C861F8
+    // Offset: 0x1CA0F08
     static Valve::VR::CVRExtendedDisplay* get_ExtendedDisplay();
     // static public Valve.VR.CVRSettings get_Settings()
-    // Offset: 0x1C86264
+    // Offset: 0x1CA0F74
     static Valve::VR::CVRSettings* get_Settings();
     // static public Valve.VR.CVRApplications get_Applications()
-    // Offset: 0x1C862D0
+    // Offset: 0x1CA0FE0
     static Valve::VR::CVRApplications* get_Applications();
     // static public Valve.VR.CVRScreenshots get_Screenshots()
-    // Offset: 0x1C8633C
+    // Offset: 0x1CA104C
     static Valve::VR::CVRScreenshots* get_Screenshots();
     // static public Valve.VR.CVRTrackedCamera get_TrackedCamera()
-    // Offset: 0x1C863A8
+    // Offset: 0x1CA10B8
     static Valve::VR::CVRTrackedCamera* get_TrackedCamera();
     // static public Valve.VR.CVRSystem Init(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x1C86414
+    // Offset: 0x1CA1124
     static Valve::VR::CVRSystem* Init(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
     // static public System.Void Shutdown()
-    // Offset: 0x1C8657C
+    // Offset: 0x1CA128C
     static void Shutdown();
     // static private System.Void .cctor()
-    // Offset: 0x1C865E4
+    // Offset: 0x1CA12F4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1C865DC
+    // Offset: 0x1CA12EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -1273,5 +1273,219 @@ namespace Valve::VR {
     }
   }; // Valve.VR.OpenVR
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OpenVR::InitInternal
+  // Il2CppName: InitInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Valve::VR::EVRInitError&, Valve::VR::EVRApplicationType)>(&OpenVR::InitInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "InitInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::ShutdownInternal
+  // Il2CppName: ShutdownInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OpenVR::ShutdownInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "ShutdownInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::IsHmdPresent
+  // Il2CppName: IsHmdPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OpenVR::IsHmdPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "IsHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::IsRuntimeInstalled
+  // Il2CppName: IsRuntimeInstalled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OpenVR::IsRuntimeInstalled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "IsRuntimeInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::GetStringForHmdError
+  // Il2CppName: GetStringForHmdError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Valve::VR::EVRInitError)>(&OpenVR::GetStringForHmdError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "GetStringForHmdError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::GetGenericInterface
+  // Il2CppName: GetGenericInterface
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, Valve::VR::EVRInitError&)>(&OpenVR::GetGenericInterface)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "GetGenericInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::IsInterfaceVersionValid
+  // Il2CppName: IsInterfaceVersionValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&OpenVR::IsInterfaceVersionValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "IsInterfaceVersionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::GetInitToken
+  // Il2CppName: GetInitToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&OpenVR::GetInitToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "GetInitToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_VRToken
+  // Il2CppName: get_VRToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&OpenVR::get_VRToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_VRToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::set_VRToken
+  // Il2CppName: set_VRToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint)>(&OpenVR::set_VRToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "set_VRToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_OpenVRInternal_ModuleContext
+  // Il2CppName: get_OpenVRInternal_ModuleContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::OpenVR::COpenVRContext* (*)()>(&OpenVR::get_OpenVRInternal_ModuleContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_OpenVRInternal_ModuleContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_System
+  // Il2CppName: get_System
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSystem* (*)()>(&OpenVR::get_System)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_System", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_Chaperone
+  // Il2CppName: get_Chaperone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRChaperone* (*)()>(&OpenVR::get_Chaperone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_Chaperone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_ChaperoneSetup
+  // Il2CppName: get_ChaperoneSetup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRChaperoneSetup* (*)()>(&OpenVR::get_ChaperoneSetup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_ChaperoneSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_Compositor
+  // Il2CppName: get_Compositor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRCompositor* (*)()>(&OpenVR::get_Compositor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_Compositor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_Overlay
+  // Il2CppName: get_Overlay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVROverlay* (*)()>(&OpenVR::get_Overlay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_Overlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_RenderModels
+  // Il2CppName: get_RenderModels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRRenderModels* (*)()>(&OpenVR::get_RenderModels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_RenderModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_ExtendedDisplay
+  // Il2CppName: get_ExtendedDisplay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRExtendedDisplay* (*)()>(&OpenVR::get_ExtendedDisplay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_ExtendedDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_Settings
+  // Il2CppName: get_Settings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSettings* (*)()>(&OpenVR::get_Settings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_Applications
+  // Il2CppName: get_Applications
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRApplications* (*)()>(&OpenVR::get_Applications)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_Applications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_Screenshots
+  // Il2CppName: get_Screenshots
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRScreenshots* (*)()>(&OpenVR::get_Screenshots)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_Screenshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::get_TrackedCamera
+  // Il2CppName: get_TrackedCamera
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRTrackedCamera* (*)()>(&OpenVR::get_TrackedCamera)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "get_TrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::CVRSystem* (*)(Valve::VR::EVRInitError&, Valve::VR::EVRApplicationType)>(&OpenVR::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::Shutdown
+  // Il2CppName: Shutdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OpenVR::Shutdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OpenVR::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVR::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVR::*)()>(&OpenVR::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVR::*)()>(&OpenVR::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVR*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR*, "Valve.VR", "OpenVR");

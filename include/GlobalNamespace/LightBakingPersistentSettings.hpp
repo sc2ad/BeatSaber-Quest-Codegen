@@ -293,9 +293,13 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LightBakingPersistentSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightBakingPersistentSettings*, creationType>()));
     }
-  }; // LightBakingPersistentSettings
-  #pragma pack(pop)
-  static check_size<sizeof(LightBakingPersistentSettings), 160 + sizeof(UnityEngine::Material*)> __GlobalNamespace_LightBakingPersistentSettingsSizeCheck;
-  static_assert(sizeof(LightBakingPersistentSettings) == 0xA8);
+    // MethodInfo getter for: New_ctor
+    static inline MethodInfo* get() const {
+    }
+  };
+}; // LightBakingPersistentSettings
+#pragma pack(pop)
+static check_size<sizeof(LightBakingPersistentSettings), 160 + sizeof(UnityEngine::Material*)> __GlobalNamespace_LightBakingPersistentSettingsSizeCheck;
+static_assert(sizeof(LightBakingPersistentSettings) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightBakingPersistentSettings*, "", "LightBakingPersistentSettings");

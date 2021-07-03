@@ -66,37 +66,37 @@ namespace Polyglot {
     Polyglot::LocalizationDocument* customDocument;
     // Field size check
     static_assert(sizeof(Polyglot::LocalizationDocument*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDFA5E4
+    // [TooltipAttribute] Offset: 0xDFC5E0
     // private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> inputFiles
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* inputFiles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDFA630
-    // [TooltipAttribute] Offset: 0xDFA630
+    // [HeaderAttribute] Offset: 0xDFC62C
+    // [TooltipAttribute] Offset: 0xDFC62C
     // private System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages
     // Size: 0x8
     // Offset: 0x28
     System::Collections::Generic::List_1<Polyglot::Language>* supportedLanguages;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Polyglot::Language>*) == 0x8);
-    // [TooltipAttribute] Offset: 0xDFA6A0
+    // [TooltipAttribute] Offset: 0xDFC69C
     // private Polyglot.Language selectedLanguage
     // Size: 0x4
     // Offset: 0x30
     Polyglot::Language selectedLanguage;
     // Field size check
     static_assert(sizeof(Polyglot::Language) == 0x4);
-    // [TooltipAttribute] Offset: 0xDFA6EC
+    // [TooltipAttribute] Offset: 0xDFC6E8
     // private Polyglot.Language fallbackLanguage
     // Size: 0x4
     // Offset: 0x34
     Polyglot::Language fallbackLanguage;
     // Field size check
     static_assert(sizeof(Polyglot::Language) == 0x4);
-    // [HeaderAttribute] Offset: 0xDFA738
-    // [TooltipAttribute] Offset: 0xDFA738
+    // [HeaderAttribute] Offset: 0xDFC734
+    // [TooltipAttribute] Offset: 0xDFC734
     // public UnityEngine.Events.UnityEvent Localize
     // Size: 0x8
     // Offset: 0x38
@@ -124,88 +124,88 @@ namespace Polyglot {
     // Set static field: static private Polyglot.Localization instance
     static void _set_instance(Polyglot::Localization* value);
     // public Polyglot.LocalizationDocument get_CustomDocument()
-    // Offset: 0x2334494
+    // Offset: 0x234E1F0
     Polyglot::LocalizationDocument* get_CustomDocument();
     // public System.Collections.Generic.List`1<Polyglot.LocalizationAsset> get_InputFiles()
-    // Offset: 0x233449C
+    // Offset: 0x234E1F8
     System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* get_InputFiles();
     // static public Polyglot.Localization get_Instance()
-    // Offset: 0x2333844
+    // Offset: 0x234D5A0
     static Polyglot::Localization* get_Instance();
     // static public System.Void set_Instance(Polyglot.Localization value)
-    // Offset: 0x2334554
+    // Offset: 0x234E2B0
     static void set_Instance(Polyglot::Localization* value);
     // static private System.Boolean get_HasInstance()
-    // Offset: 0x23344A4
+    // Offset: 0x234E200
     static bool get_HasInstance();
     // public System.Collections.Generic.List`1<Polyglot.Language> get_SupportedLanguages()
-    // Offset: 0x23345A8
+    // Offset: 0x234E304
     System::Collections::Generic::List_1<Polyglot::Language>* get_SupportedLanguages();
     // public Polyglot.LanguageDirection get_SelectedLanguageDirection()
-    // Offset: 0x23345B0
+    // Offset: 0x234E30C
     Polyglot::LanguageDirection get_SelectedLanguageDirection();
     // private Polyglot.LanguageDirection GetLanguageDirection(Polyglot.Language language)
-    // Offset: 0x23345C4
+    // Offset: 0x234E320
     Polyglot::LanguageDirection GetLanguageDirection(Polyglot::Language language);
     // public System.Int32 get_SelectedLanguageIndex()
-    // Offset: 0x2333B24
+    // Offset: 0x234D880
     int get_SelectedLanguageIndex();
     // public System.Globalization.CultureInfo get_SelectedCultureInfo()
-    // Offset: 0x23345E0
+    // Offset: 0x234E33C
     System::Globalization::CultureInfo* get_SelectedCultureInfo();
     // public Polyglot.Language get_SelectedLanguage()
-    // Offset: 0x23345E8
+    // Offset: 0x234E344
     Polyglot::Language get_SelectedLanguage();
     // public System.Void set_SelectedLanguage(Polyglot.Language value)
-    // Offset: 0x23345F0
+    // Offset: 0x234E34C
     void set_SelectedLanguage(Polyglot::Language value);
     // private System.Boolean IsLanguageSupported(Polyglot.Language language)
-    // Offset: 0x233470C
+    // Offset: 0x234E468
     bool IsLanguageSupported(Polyglot::Language language);
     // public System.Void InvokeOnLocalize()
-    // Offset: 0x233478C
+    // Offset: 0x234E4E8
     void InvokeOnLocalize();
     // public System.Collections.Generic.List`1<System.String> get_EnglishLanguageNames()
-    // Offset: 0x2333AB0
+    // Offset: 0x234D80C
     System::Collections::Generic::List_1<::Il2CppString*>* get_EnglishLanguageNames();
     // public System.Collections.Generic.List`1<System.String> get_LocalizedLanguageNames()
-    // Offset: 0x2334A3C
+    // Offset: 0x234E798
     System::Collections::Generic::List_1<::Il2CppString*>* get_LocalizedLanguageNames();
     // public System.String get_EnglishLanguageName()
-    // Offset: 0x2334AB0
+    // Offset: 0x234E80C
     ::Il2CppString* get_EnglishLanguageName();
     // public System.String get_LocalizedLanguageName()
-    // Offset: 0x2334B28
+    // Offset: 0x234E884
     ::Il2CppString* get_LocalizedLanguageName();
     // public System.Void SelectLanguage(System.Int32 selected)
-    // Offset: 0x2334B70
+    // Offset: 0x234E8CC
     void SelectLanguage(int selected);
     // public System.Void SelectLanguage(Polyglot.Language selected)
-    // Offset: 0x2334BF8
+    // Offset: 0x234E954
     void SelectLanguage(Polyglot::Language selected);
     // public Polyglot.Language ConvertSystemLanguage(UnityEngine.SystemLanguage selected)
-    // Offset: 0x2334BFC
+    // Offset: 0x234E958
     Polyglot::Language ConvertSystemLanguage(UnityEngine::SystemLanguage selected);
     // public System.Void AddOnLocalizeEvent(Polyglot.ILocalize localize)
-    // Offset: 0x23338D0
+    // Offset: 0x234D62C
     void AddOnLocalizeEvent(Polyglot::ILocalize* localize);
     // public System.Void RemoveOnLocalizeEvent(Polyglot.ILocalize localize)
-    // Offset: 0x2334C38
+    // Offset: 0x234E994
     void RemoveOnLocalizeEvent(Polyglot::ILocalize* localize);
     // static public System.String Get(System.String key)
-    // Offset: 0x2334AF8
+    // Offset: 0x234E854
     static ::Il2CppString* Get(::Il2CppString* key);
     // static public System.String Get(System.String key, Polyglot.Language language)
-    // Offset: 0x2334D24
+    // Offset: 0x234EA80
     static ::Il2CppString* Get(::Il2CppString* key, Polyglot::Language language);
     // static public System.Boolean KeyExist(System.String key)
-    // Offset: 0x2335138
+    // Offset: 0x234EE94
     static bool KeyExist(::Il2CppString* key);
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
-    // Offset: 0x23351EC
+    // Offset: 0x234EF48
     static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
     // static public System.String GetFormat(System.String key, params System.Object[] arguments)
-    // Offset: 0x23352D4
+    // Offset: 0x234F030
     static ::Il2CppString* GetFormat(::Il2CppString* key, ::Array<::Il2CppObject*>* arguments);
     // Creating initializer_list -> params proxy for: System.String GetFormat(System.String key, params System.Object[] arguments)
     static ::Il2CppString* GetFormat(::Il2CppString* key, std::initializer_list<::Il2CppObject*> arguments);
@@ -215,10 +215,10 @@ namespace Polyglot {
       return GetFormat(key, {arguments...});
     }
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
-    // Offset: 0x2335350
+    // Offset: 0x234F0AC
     bool InputFilesContains(Polyglot::LocalizationDocument* doc);
     // public System.Void .ctor()
-    // Offset: 0x23354B4
+    // Offset: 0x234F210
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -232,5 +232,251 @@ namespace Polyglot {
   #pragma pack(pop)
   static check_size<sizeof(Localization), 64 + sizeof(System::Globalization::CultureInfo*)> __Polyglot_LocalizationSizeCheck;
   static_assert(sizeof(Localization) == 0x48);
+  // Writing MetadataGetter for method: Localization::get_CustomDocument
+  // Il2CppName: get_CustomDocument
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::LocalizationDocument* (Localization::*)()>(&Localization::get_CustomDocument)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_CustomDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_InputFiles
+  // Il2CppName: get_InputFiles
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* (Localization::*)()>(&Localization::get_InputFiles)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_InputFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_Instance
+  // Il2CppName: get_Instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Localization* (*)()>(&Localization::get_Instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::set_Instance
+  // Il2CppName: set_Instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&Localization::set_Instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "set_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Localization*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_HasInstance
+  // Il2CppName: get_HasInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Localization::get_HasInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_HasInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_SupportedLanguages
+  // Il2CppName: get_SupportedLanguages
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Polyglot::Language>* (Localization::*)()>(&Localization::get_SupportedLanguages)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_SupportedLanguages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_SelectedLanguageDirection
+  // Il2CppName: get_SelectedLanguageDirection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::LanguageDirection (Localization::*)()>(&Localization::get_SelectedLanguageDirection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_SelectedLanguageDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::GetLanguageDirection
+  // Il2CppName: GetLanguageDirection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::LanguageDirection (Localization::*)(Polyglot::Language)>(&Localization::GetLanguageDirection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "GetLanguageDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_SelectedLanguageIndex
+  // Il2CppName: get_SelectedLanguageIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Localization::*)()>(&Localization::get_SelectedLanguageIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_SelectedLanguageIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_SelectedCultureInfo
+  // Il2CppName: get_SelectedCultureInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (Localization::*)()>(&Localization::get_SelectedCultureInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_SelectedCultureInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_SelectedLanguage
+  // Il2CppName: get_SelectedLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (Localization::*)()>(&Localization::get_SelectedLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_SelectedLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::set_SelectedLanguage
+  // Il2CppName: set_SelectedLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)(Polyglot::Language)>(&Localization::set_SelectedLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "set_SelectedLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::IsLanguageSupported
+  // Il2CppName: IsLanguageSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Localization::*)(Polyglot::Language)>(&Localization::IsLanguageSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "IsLanguageSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::InvokeOnLocalize
+  // Il2CppName: InvokeOnLocalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)()>(&Localization::InvokeOnLocalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "InvokeOnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_EnglishLanguageNames
+  // Il2CppName: get_EnglishLanguageNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (Localization::*)()>(&Localization::get_EnglishLanguageNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_EnglishLanguageNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_LocalizedLanguageNames
+  // Il2CppName: get_LocalizedLanguageNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (Localization::*)()>(&Localization::get_LocalizedLanguageNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_LocalizedLanguageNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_EnglishLanguageName
+  // Il2CppName: get_EnglishLanguageName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Localization::*)()>(&Localization::get_EnglishLanguageName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_EnglishLanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::get_LocalizedLanguageName
+  // Il2CppName: get_LocalizedLanguageName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Localization::*)()>(&Localization::get_LocalizedLanguageName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "get_LocalizedLanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::SelectLanguage
+  // Il2CppName: SelectLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)(int)>(&Localization::SelectLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "SelectLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::SelectLanguage
+  // Il2CppName: SelectLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)(Polyglot::Language)>(&Localization::SelectLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "SelectLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::ConvertSystemLanguage
+  // Il2CppName: ConvertSystemLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (Localization::*)(UnityEngine::SystemLanguage)>(&Localization::ConvertSystemLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "ConvertSystemLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SystemLanguage>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::AddOnLocalizeEvent
+  // Il2CppName: AddOnLocalizeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)(Polyglot::ILocalize*)>(&Localization::AddOnLocalizeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "AddOnLocalizeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::ILocalize*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::RemoveOnLocalizeEvent
+  // Il2CppName: RemoveOnLocalizeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)(Polyglot::ILocalize*)>(&Localization::RemoveOnLocalizeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "RemoveOnLocalizeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::ILocalize*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::Get
+  // Il2CppName: Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Localization::Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::Get
+  // Il2CppName: Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, Polyglot::Language)>(&Localization::Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::KeyExist
+  // Il2CppName: KeyExist
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Localization::KeyExist)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "KeyExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::GetKeys
+  // Il2CppName: GetKeys
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)()>(&Localization::GetKeys)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::GetFormat
+  // Il2CppName: GetFormat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Localization::GetFormat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::InputFilesContains
+  // Il2CppName: InputFilesContains
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Localization::*)(Polyglot::LocalizationDocument*)>(&Localization::InputFilesContains)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), "InputFilesContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::LocalizationDocument*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Localization::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)()>(&Localization::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Localization::*)()>(&Localization::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Localization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Localization*, "Polyglot", "Localization");

@@ -19,7 +19,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ManualUpdateManager
     ManualUpdateManager() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x123024C
+    // Offset: 0x124C8A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -29,5 +29,19 @@ namespace GlobalNamespace {
     }
   }; // ManualUpdateManager
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ManualUpdateManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManualUpdateManager::*)()>(&ManualUpdateManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ManualUpdateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManualUpdateManager::*)()>(&ManualUpdateManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ManualUpdateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ManualUpdateManager*, "", "ManualUpdateManager");

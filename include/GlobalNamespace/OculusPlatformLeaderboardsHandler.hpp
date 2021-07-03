@@ -65,13 +65,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OculusPlatformLeaderboardsHandler
     OculusPlatformLeaderboardsHandler(System::Collections::Generic::HashSet_1<uint64_t>* oculusRequestIds_ = {}, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel_ = {}) noexcept : oculusRequestIds{oculusRequestIds_}, gameplayModifiersModel{gameplayModifiersModel_} {}
     // private System.Void AddOculusRequest(Oculus.Platform.Request oculusRequest, HMAsyncRequest asyncRequest)
-    // Offset: 0x11D24D4
+    // Offset: 0x11ECE28
     void AddOculusRequest(Oculus::Platform::Request* oculusRequest, GlobalNamespace::HMAsyncRequest* asyncRequest);
     // private System.Boolean CheckMessageForValidRequest(Oculus.Platform.Message message)
-    // Offset: 0x11D25A8
+    // Offset: 0x11ECEFC
     bool CheckMessageForValidRequest(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0x11D23C8
+    // Offset: 0x11ECD1C
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: System.Void PlatformLeaderboardsHandler::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler*, creationType>()));
     }
     // public override HMAsyncRequest GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
-    // Offset: 0x11D2644
+    // Offset: 0x11ECF98
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::GetScores(IDifficultyBeatmap beatmap, System.Int32 count, System.Int32 fromRank, PlatformLeaderboardsModel/ScoresScope scope, System.String referencePlayerId, PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* GetScores(GlobalNamespace::IDifficultyBeatmap* beatmap, int count, int fromRank, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope scope, ::Il2CppString* referencePlayerId, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler* completionHandler);
     // public override HMAsyncRequest UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
-    // Offset: 0x11D27D0
+    // Offset: 0x11ED124
     // Implemented from: PlatformLeaderboardsHandler
     // Base method: HMAsyncRequest PlatformLeaderboardsHandler::UploadScore(LeaderboardScoreUploader/ScoreData scoreData, PlatformLeaderboardsModel/UploadScoreCompletionHandler completionHandler)
     GlobalNamespace::HMAsyncRequest* UploadScore(GlobalNamespace::LeaderboardScoreUploader::ScoreData* scoreData, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler* completionHandler);
@@ -94,5 +94,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OculusPlatformLeaderboardsHandler), 24 + sizeof(GlobalNamespace::GameplayModifiersModelSO*)> __GlobalNamespace_OculusPlatformLeaderboardsHandlerSizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler) == 0x20);
+  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::AddOculusRequest
+  // Il2CppName: AddOculusRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::*)(Oculus::Platform::Request*, GlobalNamespace::HMAsyncRequest*)>(&OculusPlatformLeaderboardsHandler::AddOculusRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler*), "AddOculusRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Request*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::CheckMessageForValidRequest
+  // Il2CppName: CheckMessageForValidRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusPlatformLeaderboardsHandler::*)(Oculus::Platform::Message*)>(&OculusPlatformLeaderboardsHandler::CheckMessageForValidRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler*), "CheckMessageForValidRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::*)()>(&OculusPlatformLeaderboardsHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::*)()>(&OculusPlatformLeaderboardsHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::GetScores
+  // Il2CppName: GetScores
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (OculusPlatformLeaderboardsHandler::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, ::Il2CppString*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&OculusPlatformLeaderboardsHandler::GetScores)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler*), "GetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::UploadScore
+  // Il2CppName: UploadScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (OculusPlatformLeaderboardsHandler::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&OculusPlatformLeaderboardsHandler::UploadScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler*, "", "OculusPlatformLeaderboardsHandler");

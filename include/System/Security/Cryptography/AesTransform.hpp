@@ -90,26 +90,26 @@ namespace System::Security::Cryptography {
     // Set static field: static private readonly System.UInt32[] iT3
     static void _set_iT3(::Array<uint>* value);
     // public System.Void .ctor(System.Security.Cryptography.Aes algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x2375474
+    // Offset: 0x2390AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AesTransform* New_ctor(System::Security::Cryptography::Aes* algo, bool encryption, ::Array<uint8_t>* key, ::Array<uint8_t>* iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AesTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AesTransform*, creationType>(algo, encryption, key, iv)));
     }
     // private System.UInt32 SubByte(System.UInt32 a)
-    // Offset: 0x2376570
+    // Offset: 0x2391BA4
     uint SubByte(uint a);
     // private System.Void Encrypt128(System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey)
-    // Offset: 0x2376660
+    // Offset: 0x2391C94
     void Encrypt128(::Array<uint8_t>* indata, ::Array<uint8_t>* outdata, ::Array<uint>* ekey);
     // private System.Void Decrypt128(System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey)
-    // Offset: 0x2378478
+    // Offset: 0x2393AAC
     void Decrypt128(::Array<uint8_t>* indata, ::Array<uint8_t>* outdata, ::Array<uint>* ekey);
     // static private System.Void .cctor()
-    // Offset: 0x237A288
+    // Offset: 0x23958BC
     static void _cctor();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x237664C
+    // Offset: 0x2391C80
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
@@ -117,5 +117,59 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(AesTransform), 100 + sizeof(int)> __System_Security_Cryptography_AesTransformSizeCheck;
   static_assert(sizeof(AesTransform) == 0x68);
+  // Writing MetadataGetter for method: AesTransform::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesTransform::*)(System::Security::Cryptography::Aes*, bool, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::Aes*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesTransform::*)(System::Security::Cryptography::Aes*, bool, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::Aes*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AesTransform::SubByte
+  // Il2CppName: SubByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (AesTransform::*)(uint)>(&AesTransform::SubByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), "SubByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: AesTransform::Encrypt128
+  // Il2CppName: Encrypt128
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint>*)>(&AesTransform::Encrypt128)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), "Encrypt128", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AesTransform::Decrypt128
+  // Il2CppName: Decrypt128
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint>*)>(&AesTransform::Decrypt128)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), "Decrypt128", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AesTransform::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AesTransform::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AesTransform::ECB
+  // Il2CppName: ECB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AesTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&AesTransform::ECB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AesTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AesTransform*, "System.Security.Cryptography", "AesTransform");

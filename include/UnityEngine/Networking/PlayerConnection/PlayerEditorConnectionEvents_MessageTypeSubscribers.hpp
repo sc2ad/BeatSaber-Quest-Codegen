@@ -48,13 +48,13 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Creating value type constructor for type: MessageTypeSubscribers
     MessageTypeSubscribers(::Il2CppString* m_messageTypeId_ = {}, int subscriberCount_ = {}, UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback_ = {}) noexcept : m_messageTypeId{m_messageTypeId_}, subscriberCount{subscriberCount_}, messageCallback{messageCallback_} {}
     // public System.Guid get_MessageTypeId()
-    // Offset: 0x1C00A30
+    // Offset: 0x1C1C740
     System::Guid get_MessageTypeId();
     // public System.Void set_MessageTypeId(System.Guid value)
-    // Offset: 0x1C00B98
+    // Offset: 0x1C1C8A8
     void set_MessageTypeId(System::Guid value);
     // public System.Void .ctor()
-    // Offset: 0x1C00B30
+    // Offset: 0x1C1C840
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,5 +66,35 @@ namespace UnityEngine::Networking::PlayerConnection {
   #pragma pack(pop)
   static check_size<sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers), 32 + sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*)> __UnityEngine_Networking_PlayerConnection_PlayerEditorConnectionEvents_MessageTypeSubscribersSizeCheck;
   static_assert(sizeof(PlayerEditorConnectionEvents::MessageTypeSubscribers) == 0x28);
+  // Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId
+  // Il2CppName: get_MessageTypeId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::get_MessageTypeId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), "get_MessageTypeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::set_MessageTypeId
+  // Il2CppName: set_MessageTypeId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)(System::Guid)>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::set_MessageTypeId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), "set_MessageTypeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerEditorConnectionEvents::MessageTypeSubscribers::*)()>(&PlayerEditorConnectionEvents::MessageTypeSubscribers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerEditorConnectionEvents::MessageTypeSubscribers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/MessageTypeSubscribers");

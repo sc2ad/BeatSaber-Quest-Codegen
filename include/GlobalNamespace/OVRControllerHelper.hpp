@@ -147,13 +147,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x12625A8
+    // Offset: 0x127F2B8
     void Start();
     // private System.Void Update()
-    // Offset: 0x12627C8
+    // Offset: 0x127F4D8
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1262D2C
+    // Offset: 0x127FA3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -169,6 +169,36 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRControllerHelper), 93 + sizeof(bool)> __GlobalNamespace_OVRControllerHelperSizeCheck;
   static_assert(sizeof(OVRControllerHelper) == 0x5E);
+  // Writing MetadataGetter for method: OVRControllerHelper::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerHelper::*)()>(&OVRControllerHelper::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerHelper*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRControllerHelper::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerHelper::*)()>(&OVRControllerHelper::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRControllerHelper::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerHelper::*)()>(&OVRControllerHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerHelper::*)()>(&OVRControllerHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");

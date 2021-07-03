@@ -161,7 +161,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalPlayer
     LocalPlayer(::Il2CppString* playerId_ = {}, ::Il2CppString* playerName_ = {}, bool shouldShowTutorialPrompt_ = {}, bool shouldShow360Warning_ = {}, bool agreedToEula_ = {}, bool didSelectLanguage_ = {}, bool agreedToMultiplayerDisclaimer_ = {}, bool avatarCreated_ = {}, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty_ = {}, ::Il2CppString* lastSelectedBeatmapCharacteristicName_ = {}, GlobalNamespace::PlayerSaveData::GameplayModifiers* gameplayModifiers_ = {}, GlobalNamespace::PlayerSaveData::PlayerSpecificSettings* playerSpecificSettings_ = {}, GlobalNamespace::PlayerSaveData::PracticeSettings* practiceSettings_ = {}, GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* playerAllOverallStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*>* levelsStatsData_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*>* missionsStatsData_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds_ = {}, GlobalNamespace::PlayerSaveData::ColorSchemesSettings* colorSchemesSettings_ = {}, GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings* overrideEnvironmentSettings_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* favoritesLevelIds_ = {}, GlobalNamespace::PlayerSaveData::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : playerId{playerId_}, playerName{playerName_}, shouldShowTutorialPrompt{shouldShowTutorialPrompt_}, shouldShow360Warning{shouldShow360Warning_}, agreedToEula{agreedToEula_}, didSelectLanguage{didSelectLanguage_}, agreedToMultiplayerDisclaimer{agreedToMultiplayerDisclaimer_}, avatarCreated{avatarCreated_}, lastSelectedBeatmapDifficulty{lastSelectedBeatmapDifficulty_}, lastSelectedBeatmapCharacteristicName{lastSelectedBeatmapCharacteristicName_}, gameplayModifiers{gameplayModifiers_}, playerSpecificSettings{playerSpecificSettings_}, practiceSettings{practiceSettings_}, playerAllOverallStatsData{playerAllOverallStatsData_}, levelsStatsData{levelsStatsData_}, missionsStatsData{missionsStatsData_}, showedMissionHelpIds{showedMissionHelpIds_}, colorSchemesSettings{colorSchemesSettings_}, overrideEnvironmentSettings{overrideEnvironmentSettings_}, favoritesLevelIds{favoritesLevelIds_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void .ctor()
-    // Offset: 0x1011590
+    // Offset: 0x10558A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -173,5 +173,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::LocalPlayer), 136 + sizeof(GlobalNamespace::PlayerSaveData::MultiplayerModeSettings*)> __GlobalNamespace_PlayerSaveData_LocalPlayerSizeCheck;
   static_assert(sizeof(PlayerSaveData::LocalPlayer) == 0x90);
+  // Writing MetadataGetter for method: PlayerSaveData::LocalPlayer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveData::LocalPlayer::*)()>(&PlayerSaveData::LocalPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveData::LocalPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveData::LocalPlayer::*)()>(&PlayerSaveData::LocalPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveData::LocalPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::LocalPlayer*, "", "PlayerSaveData/LocalPlayer");

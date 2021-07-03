@@ -43,12 +43,20 @@ namespace System::Net::NetworkInformation {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Net.IPAddress GetIPAddress()
-    // Offset: 0xEEFD3C
+    // Offset: 0xEEFCF4
     System::Net::IPAddress* GetIPAddress();
   }; // System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
   #pragma pack(pop)
   static check_size<sizeof(Win32_SOCKET_ADDRESS), 8 + sizeof(int)> __System_Net_NetworkInformation_Win32_SOCKET_ADDRESSSizeCheck;
   static_assert(sizeof(Win32_SOCKET_ADDRESS) == 0xC);
+  // Writing MetadataGetter for method: Win32_SOCKET_ADDRESS::GetIPAddress
+  // Il2CppName: GetIPAddress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (Win32_SOCKET_ADDRESS::*)()>(&Win32_SOCKET_ADDRESS::GetIPAddress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Win32_SOCKET_ADDRESS), "GetIPAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS, "System.Net.NetworkInformation", "Win32_SOCKET_ADDRESS");

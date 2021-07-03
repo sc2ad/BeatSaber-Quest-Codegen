@@ -72,48 +72,48 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: DerExternal
     DerExternal(Org::BouncyCastle::Asn1::DerObjectIdentifier* directReference_ = {}, Org::BouncyCastle::Asn1::DerInteger* indirectReference_ = {}, Org::BouncyCastle::Asn1::Asn1Object* dataValueDescriptor_ = {}, int encoding_ = {}, Org::BouncyCastle::Asn1::Asn1Object* externalContent_ = {}) noexcept : directReference{directReference_}, indirectReference{indirectReference_}, dataValueDescriptor{dataValueDescriptor_}, encoding{encoding_}, externalContent{externalContent_} {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1EncodableVector vector)
-    // Offset: 0x16DA2D0
+    // Offset: 0x16F0FE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DerExternal* New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector* vector) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerExternal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerExternal*, creationType>(vector)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Object get_DataValueDescriptor()
-    // Offset: 0x16E9764
+    // Offset: 0x1700474
     Org::BouncyCastle::Asn1::Asn1Object* get_DataValueDescriptor();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DirectReference()
-    // Offset: 0x16E976C
+    // Offset: 0x170047C
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DirectReference();
     // public System.Int32 get_Encoding()
-    // Offset: 0x16E9774
+    // Offset: 0x1700484
     int get_Encoding();
     // public System.Void set_Encoding(System.Int32 value)
-    // Offset: 0x16E93D0
+    // Offset: 0x17000E0
     void set_Encoding(int value);
     // public Org.BouncyCastle.Asn1.Asn1Object get_ExternalContent()
-    // Offset: 0x16E977C
+    // Offset: 0x170048C
     Org::BouncyCastle::Asn1::Asn1Object* get_ExternalContent();
     // public Org.BouncyCastle.Asn1.DerInteger get_IndirectReference()
-    // Offset: 0x16E9784
+    // Offset: 0x1700494
     Org::BouncyCastle::Asn1::DerInteger* get_IndirectReference();
     // static private Org.BouncyCastle.Asn1.Asn1Object GetObjFromVector(Org.BouncyCastle.Asn1.Asn1EncodableVector v, System.Int32 index)
-    // Offset: 0x16E9310
+    // Offset: 0x1700020
     static Org::BouncyCastle::Asn1::Asn1Object* GetObjFromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int index);
     // static private System.Void WriteEncodable(System.IO.MemoryStream ms, Org.BouncyCastle.Asn1.Asn1Encodable e)
-    // Offset: 0x16E95A4
+    // Offset: 0x17002B4
     static void WriteEncodable(System::IO::MemoryStream* ms, Org::BouncyCastle::Asn1::Asn1Encodable* e);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
-    // Offset: 0x16E949C
+    // Offset: 0x17001AC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Void Asn1Object::Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
     // protected override System.Int32 Asn1GetHashCode()
-    // Offset: 0x16E9600
+    // Offset: 0x1700310
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Int32 Asn1Object::Asn1GetHashCode()
     int Asn1GetHashCode();
     // protected override System.Boolean Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
-    // Offset: 0x16E9668
+    // Offset: 0x1700378
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
     // Base method: System.Boolean Asn1Object::Asn1Equals(Org.BouncyCastle.Asn1.Asn1Object asn1Object)
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
@@ -121,5 +121,107 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
   static check_size<sizeof(DerExternal), 48 + sizeof(Org::BouncyCastle::Asn1::Asn1Object*)> __Org_BouncyCastle_Asn1_DerExternalSizeCheck;
   static_assert(sizeof(DerExternal) == 0x38);
+  // Writing MetadataGetter for method: DerExternal::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerExternal::*)(Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(&DerExternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1EncodableVector*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerExternal::*)(Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(&DerExternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1EncodableVector*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::get_DataValueDescriptor
+  // Il2CppName: get_DataValueDescriptor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DerExternal::*)()>(&DerExternal::get_DataValueDescriptor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "get_DataValueDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::get_DirectReference
+  // Il2CppName: get_DirectReference
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (DerExternal::*)()>(&DerExternal::get_DirectReference)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "get_DirectReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::get_Encoding
+  // Il2CppName: get_Encoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerExternal::*)()>(&DerExternal::get_Encoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::set_Encoding
+  // Il2CppName: set_Encoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerExternal::*)(int)>(&DerExternal::set_Encoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "set_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::get_ExternalContent
+  // Il2CppName: get_ExternalContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DerExternal::*)()>(&DerExternal::get_ExternalContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "get_ExternalContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::get_IndirectReference
+  // Il2CppName: get_IndirectReference
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (DerExternal::*)()>(&DerExternal::get_IndirectReference)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "get_IndirectReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::GetObjFromVector
+  // Il2CppName: GetObjFromVector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(Org::BouncyCastle::Asn1::Asn1EncodableVector*, int)>(&DerExternal::GetObjFromVector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "GetObjFromVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::WriteEncodable
+  // Il2CppName: WriteEncodable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::MemoryStream*, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&DerExternal::WriteEncodable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "WriteEncodable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::Encode
+  // Il2CppName: Encode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerExternal::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerExternal::Encode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::Asn1GetHashCode
+  // Il2CppName: Asn1GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerExternal::*)()>(&DerExternal::Asn1GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DerExternal::Asn1Equals
+  // Il2CppName: Asn1Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerExternal::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerExternal::Asn1Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DerExternal*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerExternal*, "Org.BouncyCastle.Asn1", "DerExternal");

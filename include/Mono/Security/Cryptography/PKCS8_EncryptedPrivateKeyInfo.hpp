@@ -47,29 +47,29 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: EncryptedPrivateKeyInfo
     EncryptedPrivateKeyInfo(::Il2CppString* algorithm_ = {}, ::Array<uint8_t>* salt_ = {}, int iterations_ = {}, ::Array<uint8_t>* data_ = {}) noexcept : algorithm{algorithm_}, salt{salt_}, iterations{iterations_}, data{data_} {}
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x1D59FC0
+    // Offset: 0x1D75CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::Array<uint8_t>* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // public System.String get_Algorithm()
-    // Offset: 0x1D5A270
+    // Offset: 0x1D75F80
     ::Il2CppString* get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x1D5A278
+    // Offset: 0x1D75F88
     ::Array<uint8_t>* get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x1D5A2F4
+    // Offset: 0x1D76004
     ::Array<uint8_t>* get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x1D5A3B8
+    // Offset: 0x1D760C8
     int get_IterationCount();
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x1D59FF0
+    // Offset: 0x1D75D00
     void Decode(::Array<uint8_t>* data);
     // public System.Void .ctor()
-    // Offset: 0x1D59FB8
+    // Offset: 0x1D75CC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,5 +81,73 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(PKCS8::EncryptedPrivateKeyInfo), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_Cryptography_PKCS8_EncryptedPrivateKeyInfoSizeCheck;
   static_assert(sizeof(PKCS8::EncryptedPrivateKeyInfo) == 0x30);
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS8::EncryptedPrivateKeyInfo::*)(::Array<uint8_t>*)>(&PKCS8::EncryptedPrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS8::EncryptedPrivateKeyInfo::*)(::Array<uint8_t>*)>(&PKCS8::EncryptedPrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::get_Algorithm
+  // Il2CppName: get_Algorithm
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PKCS8::EncryptedPrivateKeyInfo::*)()>(&PKCS8::EncryptedPrivateKeyInfo::get_Algorithm)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::get_EncryptedData
+  // Il2CppName: get_EncryptedData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS8::EncryptedPrivateKeyInfo::*)()>(&PKCS8::EncryptedPrivateKeyInfo::get_EncryptedData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), "get_EncryptedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::get_Salt
+  // Il2CppName: get_Salt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS8::EncryptedPrivateKeyInfo::*)()>(&PKCS8::EncryptedPrivateKeyInfo::get_Salt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), "get_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::get_IterationCount
+  // Il2CppName: get_IterationCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PKCS8::EncryptedPrivateKeyInfo::*)()>(&PKCS8::EncryptedPrivateKeyInfo::get_IterationCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::Decode
+  // Il2CppName: Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS8::EncryptedPrivateKeyInfo::*)(::Array<uint8_t>*)>(&PKCS8::EncryptedPrivateKeyInfo::Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS8::EncryptedPrivateKeyInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS8::EncryptedPrivateKeyInfo::*)()>(&PKCS8::EncryptedPrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS8::EncryptedPrivateKeyInfo::*)()>(&PKCS8::EncryptedPrivateKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS8::EncryptedPrivateKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");

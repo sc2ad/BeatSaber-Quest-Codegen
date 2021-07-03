@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ConnectToServerParams
     ConnectToServerParams(System::Net::IPEndPoint* endPoint_ = {}, ::Il2CppString* serverUserId_ = {}, ::Il2CppString* serverUserName_ = {}, bool serverIsConnectionOwner_ = {}) noexcept : endPoint{endPoint_}, serverUserId{serverUserId_}, serverUserName{serverUserName_}, serverIsConnectionOwner{serverIsConnectionOwner_} {}
     // public System.Void .ctor()
-    // Offset: 0x1318264
+    // Offset: 0x1332F74
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -69,5 +69,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LiteNetLibConnectionManager::ConnectToServerParams), 80 + sizeof(bool)> __GlobalNamespace_LiteNetLibConnectionManager_ConnectToServerParamsSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::ConnectToServerParams) == 0x51);
+  // Writing MetadataGetter for method: LiteNetLibConnectionManager::ConnectToServerParams::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::ConnectToServerParams::*)()>(&LiteNetLibConnectionManager::ConnectToServerParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::ConnectToServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::ConnectToServerParams::*)()>(&LiteNetLibConnectionManager::ConnectToServerParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::ConnectToServerParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams*, "", "LiteNetLibConnectionManager/ConnectToServerParams");

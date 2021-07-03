@@ -18,6 +18,8 @@ namespace GlobalNamespace {
   class MainSettingsModelSO;
   // Forward declaring type: AudioManagerSO
   class AudioManagerSO;
+  // Forward declaring type: PerceivedLoudnessPerLevelSO
+  class PerceivedLoudnessPerLevelSO;
   // Forward declaring type: AvatarDataModel
   class AvatarDataModel;
   // Forward declaring type: AvatarPartsModelSO
@@ -127,11 +129,6 @@ namespace GlobalNamespace {
   // Forward declaring type: MockPlayersModel
   class MockPlayersModel;
 }
-// Forward declaring namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TextAsset
-  class TextAsset;
-}
 // Forward declaring namespace: Tweening
 namespace Tweening {
   // Forward declaring type: TweeningManager
@@ -167,12 +164,12 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
-    // private UnityEngine.TextAsset _loudnessPerLevelCSV
+    // private PerceivedLoudnessPerLevelSO _perceivedLoudnessPerLevel
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::TextAsset* loudnessPerLevelCSV;
+    GlobalNamespace::PerceivedLoudnessPerLevelSO* perceivedLoudnessPerLevel;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::PerceivedLoudnessPerLevelSO*) == 0x8);
     // private AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x30
@@ -239,14 +236,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerMockSettings*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE14514
+    // [SpaceAttribute] Offset: 0xE14510
     // private AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1454C
+    // [SpaceAttribute] Offset: 0xE14548
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x90
@@ -265,7 +262,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE145A4
+    // [SpaceAttribute] Offset: 0xE145A0
     // private TimeHelper _timeHelperPrefab
     // Size: 0x8
     // Offset: 0xA8
@@ -350,21 +347,21 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassLightsUpdateSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE146AC
+    // [SpaceAttribute] Offset: 0xE146A8
     // private NodePoseSyncStateManager _nodePoseSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x118
     GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE146E4
+    // [SpaceAttribute] Offset: 0xE146E0
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
     // Offset: 0x120
     GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AlwaysOwnedContentContainerSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1471C
+    // [SpaceAttribute] Offset: 0xE14718
     // private PSVRHelper _psVRHelperPrefab
     // Size: 0x8
     // Offset: 0x128
@@ -389,7 +386,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DevicelessVRHelper*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE14784
+    // [SpaceAttribute] Offset: 0xE14780
     // private TestPlatformAdditionalContentModel _testPlatformAdditionalContentModelPrefab
     // Size: 0x8
     // Offset: 0x148
@@ -414,7 +411,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamPlatformAdditionalContentModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE147EC
+    // [SpaceAttribute] Offset: 0xE147E8
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
     // Offset: 0x168
@@ -457,7 +454,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentDataSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE14884
+    // [SpaceAttribute] Offset: 0xE14880
     // private NetworkConfigSO _networkConfig
     // Size: 0x8
     // Offset: 0x1A0
@@ -488,14 +485,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4NetworkPlayerModel*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE148FC
+    // [SpaceAttribute] Offset: 0xE148F8
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x1C8
     GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicCollectionSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE14934
+    // [SpaceAttribute] Offset: 0xE14930
     // private LeaderboardScoreUploader _leaderboardScoreUploader
     // Size: 0x8
     // Offset: 0x1D0
@@ -521,32 +518,32 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockPlayersModel*) == 0x8);
     // Creating value type constructor for type: MainSystemInit
-    MainSystemInit(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, UnityEngine::TextAsset* loudnessPerLevelCSV_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, GlobalNamespace::AvatarPartsModelSO* avatarPartsModel_ = {}, GlobalNamespace::SkinColorSetSO* skinColorSet_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}, GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* mainEffectGraphicsSettingsPresets_ = {}, GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* bloomPrePassGraphicsSettingsPresets_ = {}, GlobalNamespace::MirrorRendererSO* mirrorRenderer_ = {}, GlobalNamespace::MainEffectContainerSO* mainEffectContainer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::TimeHelper* timeHelperPrefab_ = {}, GlobalNamespace::PlayerDataModel* playerDataModelPrefab_ = {}, GlobalNamespace::CampaignProgressModel* campaignProgressModelPrefab_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModelPrefab_ = {}, GlobalNamespace::CustomLevelLoader* customLevelLoaderPrefab_ = {}, GlobalNamespace::CachedMediaAsyncLoader* cachedMediaAsyncLoaderPrefab_ = {}, GlobalNamespace::ExternalCamerasManager* externalCamerasManagerPrefab_ = {}, GlobalNamespace::MultiplayerSessionManager* multiplayerSessionManagerPrefab_ = {}, GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModelPrefab_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* unifiedNetworkModelPrefab_ = {}, GlobalNamespace::NetworkPlayerEntitlementChecker* networkPlayerEntitlementCheckerPrefab_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackControllerPrefab_ = {}, Tweening::TweeningManager* tweeningManagerPrefab_ = {}, GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab_ = {}, GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab_ = {}, GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer_ = {}, GlobalNamespace::PSVRHelper* psVRHelperPrefab_ = {}, GlobalNamespace::OculusVRHelper* oculusVRHelperPrefab_ = {}, GlobalNamespace::OpenVRHelper* openVRHelperPrefab_ = {}, GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* testPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::PS4PlatformAdditionalContentModel* ps4PlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::SteamLevelProductsModelSO* steamLevelProductsModel_ = {}, GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProducsModel_ = {}, GlobalNamespace::PS4LevelProductsModelSO* ps4LevelProductsModel_ = {}, GlobalNamespace::PS4LeaderboardIdsModelSO* ps4LeaderboardIdsModel_ = {}, OnlineServices::ServerManager* onlineServicesServerManagerPrefab_ = {}, GlobalNamespace::RichPresenceManager* richPresenceManagerPrefab_ = {}, GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData_ = {}, GlobalNamespace::NetworkConfigSO* networkConfig_ = {}, GlobalNamespace::MockMultiplayerSessionManager* mockMultiplayerSessionManagerPrefab_ = {}, GlobalNamespace::SteamNetworkPlayerModel* steamNetworkPlayerModelPrefab_ = {}, GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModelPrefab_ = {}, GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel_ = {}, GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO_ = {}, GlobalNamespace::MockPlayersModel* mockPlayersModel_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, audioManager{audioManager_}, loudnessPerLevelCSV{loudnessPerLevelCSV_}, avatarDataModel{avatarDataModel_}, avatarPartsModel{avatarPartsModel_}, skinColorSet{skinColorSet_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_}, mainEffectGraphicsSettingsPresets{mainEffectGraphicsSettingsPresets_}, bloomPrePassGraphicsSettingsPresets{bloomPrePassGraphicsSettingsPresets_}, mirrorRenderer{mirrorRenderer_}, mainEffectContainer{mainEffectContainer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, songPackMaskModel{songPackMaskModel_}, multiplayerMockSettings{multiplayerMockSettings_}, appStaticSettings{appStaticSettings_}, standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, timeHelperPrefab{timeHelperPrefab_}, playerDataModelPrefab{playerDataModelPrefab_}, campaignProgressModelPrefab{campaignProgressModelPrefab_}, beatmapLevelsModelPrefab{beatmapLevelsModelPrefab_}, customLevelLoaderPrefab{customLevelLoaderPrefab_}, cachedMediaAsyncLoaderPrefab{cachedMediaAsyncLoaderPrefab_}, externalCamerasManagerPrefab{externalCamerasManagerPrefab_}, multiplayerSessionManagerPrefab{multiplayerSessionManagerPrefab_}, localNetworkPlayerModelPrefab{localNetworkPlayerModelPrefab_}, unifiedNetworkModelPrefab{unifiedNetworkModelPrefab_}, networkPlayerEntitlementCheckerPrefab{networkPlayerEntitlementCheckerPrefab_}, hapticFeedbackControllerPrefab{hapticFeedbackControllerPrefab_}, tweeningManagerPrefab{tweeningManagerPrefab_}, lightsUpdateSystemPrefab{lightsUpdateSystemPrefab_}, nodePoseSyncStateManagerPrefab{nodePoseSyncStateManagerPrefab_}, alwaysOwnedContentContainer{alwaysOwnedContentContainer_}, psVRHelperPrefab{psVRHelperPrefab_}, oculusVRHelperPrefab{oculusVRHelperPrefab_}, openVRHelperPrefab{openVRHelperPrefab_}, devicelessVRHelperPrefab{devicelessVRHelperPrefab_}, testPlatformAdditionalContentModelPrefab{testPlatformAdditionalContentModelPrefab_}, ps4PlatformAdditionalContentModelPrefab{ps4PlatformAdditionalContentModelPrefab_}, oculusPlatformAdditionalContentModelPrefab{oculusPlatformAdditionalContentModelPrefab_}, steamPlatformAdditionalContentModelPrefab{steamPlatformAdditionalContentModelPrefab_}, steamLevelProductsModel{steamLevelProductsModel_}, oculusLevelProducsModel{oculusLevelProducsModel_}, ps4LevelProductsModel{ps4LevelProductsModel_}, ps4LeaderboardIdsModel{ps4LeaderboardIdsModel_}, onlineServicesServerManagerPrefab{onlineServicesServerManagerPrefab_}, richPresenceManagerPrefab{richPresenceManagerPrefab_}, dlcPromoExperimentData{dlcPromoExperimentData_}, networkConfig{networkConfig_}, mockMultiplayerSessionManagerPrefab{mockMultiplayerSessionManagerPrefab_}, steamNetworkPlayerModelPrefab{steamNetworkPlayerModelPrefab_}, oculusNetworkPlayerModelPrefab{oculusNetworkPlayerModelPrefab_}, ps4NetworkPlayerModelPrefab{ps4NetworkPlayerModelPrefab_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformLeaderboardsModel{platformLeaderboardsModel_}, anyBeatmapLevelSO{anyBeatmapLevelSO_}, mockPlayersModel{mockPlayersModel_} {}
+    MainSystemInit(GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::PerceivedLoudnessPerLevelSO* perceivedLoudnessPerLevel_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, GlobalNamespace::AvatarPartsModelSO* avatarPartsModel_ = {}, GlobalNamespace::SkinColorSetSO* skinColorSet_ = {}, GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets_ = {}, GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* mainEffectGraphicsSettingsPresets_ = {}, GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* bloomPrePassGraphicsSettingsPresets_ = {}, GlobalNamespace::MirrorRendererSO* mirrorRenderer_ = {}, GlobalNamespace::MainEffectContainerSO* mainEffectContainer_ = {}, GlobalNamespace::BloomPrePassEffectContainerSO* bloomPrePassEffectContainer_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::MultiplayerMockSettings* multiplayerMockSettings_ = {}, GlobalNamespace::AppStaticSettingsSO* appStaticSettings_ = {}, GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData_ = {}, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData_ = {}, GlobalNamespace::TimeHelper* timeHelperPrefab_ = {}, GlobalNamespace::PlayerDataModel* playerDataModelPrefab_ = {}, GlobalNamespace::CampaignProgressModel* campaignProgressModelPrefab_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModelPrefab_ = {}, GlobalNamespace::CustomLevelLoader* customLevelLoaderPrefab_ = {}, GlobalNamespace::CachedMediaAsyncLoader* cachedMediaAsyncLoaderPrefab_ = {}, GlobalNamespace::ExternalCamerasManager* externalCamerasManagerPrefab_ = {}, GlobalNamespace::MultiplayerSessionManager* multiplayerSessionManagerPrefab_ = {}, GlobalNamespace::LocalNetworkPlayerModel* localNetworkPlayerModelPrefab_ = {}, GlobalNamespace::UnifiedNetworkPlayerModel* unifiedNetworkModelPrefab_ = {}, GlobalNamespace::NetworkPlayerEntitlementChecker* networkPlayerEntitlementCheckerPrefab_ = {}, GlobalNamespace::HapticFeedbackController* hapticFeedbackControllerPrefab_ = {}, Tweening::TweeningManager* tweeningManagerPrefab_ = {}, GlobalNamespace::BloomPrePassLightsUpdateSystem* lightsUpdateSystemPrefab_ = {}, GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManagerPrefab_ = {}, GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer_ = {}, GlobalNamespace::PSVRHelper* psVRHelperPrefab_ = {}, GlobalNamespace::OculusVRHelper* oculusVRHelperPrefab_ = {}, GlobalNamespace::OpenVRHelper* openVRHelperPrefab_ = {}, GlobalNamespace::DevicelessVRHelper* devicelessVRHelperPrefab_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* testPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::PS4PlatformAdditionalContentModel* ps4PlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::SteamPlatformAdditionalContentModel* steamPlatformAdditionalContentModelPrefab_ = {}, GlobalNamespace::SteamLevelProductsModelSO* steamLevelProductsModel_ = {}, GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProducsModel_ = {}, GlobalNamespace::PS4LevelProductsModelSO* ps4LevelProductsModel_ = {}, GlobalNamespace::PS4LeaderboardIdsModelSO* ps4LeaderboardIdsModel_ = {}, OnlineServices::ServerManager* onlineServicesServerManagerPrefab_ = {}, GlobalNamespace::RichPresenceManager* richPresenceManagerPrefab_ = {}, GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData_ = {}, GlobalNamespace::NetworkConfigSO* networkConfig_ = {}, GlobalNamespace::MockMultiplayerSessionManager* mockMultiplayerSessionManagerPrefab_ = {}, GlobalNamespace::SteamNetworkPlayerModel* steamNetworkPlayerModelPrefab_ = {}, GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModelPrefab_ = {}, GlobalNamespace::PS4NetworkPlayerModel* ps4NetworkPlayerModelPrefab_ = {}, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection_ = {}, GlobalNamespace::LeaderboardScoreUploader* leaderboardScoreUploader_ = {}, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel_ = {}, GlobalNamespace::BeatmapLevelSO* anyBeatmapLevelSO_ = {}, GlobalNamespace::MockPlayersModel* mockPlayersModel_ = {}) noexcept : mainSettingsModel{mainSettingsModel_}, audioManager{audioManager_}, perceivedLoudnessPerLevel{perceivedLoudnessPerLevel_}, avatarDataModel{avatarDataModel_}, avatarPartsModel{avatarPartsModel_}, skinColorSet{skinColorSet_}, mirrorRendererGraphicsSettingsPresets{mirrorRendererGraphicsSettingsPresets_}, mainEffectGraphicsSettingsPresets{mainEffectGraphicsSettingsPresets_}, bloomPrePassGraphicsSettingsPresets{bloomPrePassGraphicsSettingsPresets_}, mirrorRenderer{mirrorRenderer_}, mainEffectContainer{mainEffectContainer_}, bloomPrePassEffectContainer{bloomPrePassEffectContainer_}, songPackMaskModel{songPackMaskModel_}, multiplayerMockSettings{multiplayerMockSettings_}, appStaticSettings{appStaticSettings_}, standardLevelScenesTransitionSetupData{standardLevelScenesTransitionSetupData_}, missionLevelScenesTransitionSetupData{missionLevelScenesTransitionSetupData_}, multiplayerLevelScenesTransitionSetupData{multiplayerLevelScenesTransitionSetupData_}, timeHelperPrefab{timeHelperPrefab_}, playerDataModelPrefab{playerDataModelPrefab_}, campaignProgressModelPrefab{campaignProgressModelPrefab_}, beatmapLevelsModelPrefab{beatmapLevelsModelPrefab_}, customLevelLoaderPrefab{customLevelLoaderPrefab_}, cachedMediaAsyncLoaderPrefab{cachedMediaAsyncLoaderPrefab_}, externalCamerasManagerPrefab{externalCamerasManagerPrefab_}, multiplayerSessionManagerPrefab{multiplayerSessionManagerPrefab_}, localNetworkPlayerModelPrefab{localNetworkPlayerModelPrefab_}, unifiedNetworkModelPrefab{unifiedNetworkModelPrefab_}, networkPlayerEntitlementCheckerPrefab{networkPlayerEntitlementCheckerPrefab_}, hapticFeedbackControllerPrefab{hapticFeedbackControllerPrefab_}, tweeningManagerPrefab{tweeningManagerPrefab_}, lightsUpdateSystemPrefab{lightsUpdateSystemPrefab_}, nodePoseSyncStateManagerPrefab{nodePoseSyncStateManagerPrefab_}, alwaysOwnedContentContainer{alwaysOwnedContentContainer_}, psVRHelperPrefab{psVRHelperPrefab_}, oculusVRHelperPrefab{oculusVRHelperPrefab_}, openVRHelperPrefab{openVRHelperPrefab_}, devicelessVRHelperPrefab{devicelessVRHelperPrefab_}, testPlatformAdditionalContentModelPrefab{testPlatformAdditionalContentModelPrefab_}, ps4PlatformAdditionalContentModelPrefab{ps4PlatformAdditionalContentModelPrefab_}, oculusPlatformAdditionalContentModelPrefab{oculusPlatformAdditionalContentModelPrefab_}, steamPlatformAdditionalContentModelPrefab{steamPlatformAdditionalContentModelPrefab_}, steamLevelProductsModel{steamLevelProductsModel_}, oculusLevelProducsModel{oculusLevelProducsModel_}, ps4LevelProductsModel{ps4LevelProductsModel_}, ps4LeaderboardIdsModel{ps4LeaderboardIdsModel_}, onlineServicesServerManagerPrefab{onlineServicesServerManagerPrefab_}, richPresenceManagerPrefab{richPresenceManagerPrefab_}, dlcPromoExperimentData{dlcPromoExperimentData_}, networkConfig{networkConfig_}, mockMultiplayerSessionManagerPrefab{mockMultiplayerSessionManagerPrefab_}, steamNetworkPlayerModelPrefab{steamNetworkPlayerModelPrefab_}, oculusNetworkPlayerModelPrefab{oculusNetworkPlayerModelPrefab_}, ps4NetworkPlayerModelPrefab{ps4NetworkPlayerModelPrefab_}, beatmapCharacteristicCollection{beatmapCharacteristicCollection_}, leaderboardScoreUploader{leaderboardScoreUploader_}, platformLeaderboardsModel{platformLeaderboardsModel_}, anyBeatmapLevelSO{anyBeatmapLevelSO_}, mockPlayersModel{mockPlayersModel_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Init()
-    // Offset: 0x10D9B90
+    // Offset: 0x2404D3C
     void Init();
     // public System.Void PreInstall(MockPlayersModel mockPlayersModel)
-    // Offset: 0x10D9F48
+    // Offset: 0x24050F4
     void PreInstall(GlobalNamespace::MockPlayersModel* mockPlayersModel);
     // public System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x10D9F50
+    // Offset: 0x24050FC
     void InstallBindings(Zenject::DiContainer* container);
     // private System.Void InstallRichPresence(Zenject.DiContainer container)
-    // Offset: 0x10DB160
+    // Offset: 0x240630C
     void InstallRichPresence(Zenject::DiContainer* container);
     // private System.Void InstallOculusDestinationBindings(Zenject.DiContainer container)
-    // Offset: 0x10DB084
+    // Offset: 0x2406230
     void InstallOculusDestinationBindings(Zenject::DiContainer* container);
     // private System.Void InstallPlatformLeaderboardsModel(Zenject.DiContainer container)
-    // Offset: 0x10DB220
+    // Offset: 0x24063CC
     void InstallPlatformLeaderboardsModel(Zenject::DiContainer* container);
     // private System.Boolean IsRunningFromNUnit()
-    // Offset: 0x10DB07C
+    // Offset: 0x2406228
     bool IsRunningFromNUnit();
     // public System.Void .ctor()
-    // Offset: 0x10DB364
+    // Offset: 0x2406510
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -562,5 +559,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainSystemInit), 488 + sizeof(GlobalNamespace::MockPlayersModel*)> __GlobalNamespace_MainSystemInitSizeCheck;
   static_assert(sizeof(MainSystemInit) == 0x1F0);
+  // Writing MetadataGetter for method: MainSystemInit::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::PreInstall
+  // Il2CppName: PreInstall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(GlobalNamespace::MockPlayersModel*)>(&MainSystemInit::PreInstall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::InstallRichPresence
+  // Il2CppName: InstallRichPresence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallRichPresence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::InstallOculusDestinationBindings
+  // Il2CppName: InstallOculusDestinationBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallOculusDestinationBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallOculusDestinationBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::InstallPlatformLeaderboardsModel
+  // Il2CppName: InstallPlatformLeaderboardsModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)(Zenject::DiContainer*)>(&MainSystemInit::InstallPlatformLeaderboardsModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "InstallPlatformLeaderboardsModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::IsRunningFromNUnit
+  // Il2CppName: IsRunningFromNUnit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSystemInit::*)()>(&MainSystemInit::IsRunningFromNUnit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), "IsRunningFromNUnit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MainSystemInit::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSystemInit::*)()>(&MainSystemInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSystemInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");

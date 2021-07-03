@@ -38,20 +38,20 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: FixupHolderList
     FixupHolderList(::Array<System::Runtime::Serialization::FixupHolder*>* m_values_ = {}, int m_count_ = {}) noexcept : m_values{m_values_}, m_count{m_count_} {}
     // System.Void .ctor(System.Int32 startingSize)
-    // Offset: 0x15EA8B0
+    // Offset: 0x16035C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolderList* New_ctor(int startingSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.FixupHolder fixup)
-    // Offset: 0x15EA924
+    // Offset: 0x1603634
     void Add(System::Runtime::Serialization::FixupHolder* fixup);
     // private System.Void EnlargeArray()
-    // Offset: 0x15EA9D8
+    // Offset: 0x16036E8
     void EnlargeArray();
     // System.Void .ctor()
-    // Offset: 0x15EA8A8
+    // Offset: 0x16035B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,5 +63,49 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
   static check_size<sizeof(FixupHolderList), 24 + sizeof(int)> __System_Runtime_Serialization_FixupHolderListSizeCheck;
   static_assert(sizeof(FixupHolderList) == 0x1C);
+  // Writing MetadataGetter for method: FixupHolderList::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)(int)>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)(int)>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: FixupHolderList::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)(System::Runtime::Serialization::FixupHolder*)>(&FixupHolderList::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::FixupHolder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FixupHolderList::EnlargeArray
+  // Il2CppName: EnlargeArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)()>(&FixupHolderList::EnlargeArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), "EnlargeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FixupHolderList::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)()>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)()>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");

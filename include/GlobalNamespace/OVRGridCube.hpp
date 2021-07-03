@@ -107,22 +107,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Update()
-    // Offset: 0x14F4D64
+    // Offset: 0x150FA74
     void Update();
     // public System.Void SetOVRCameraController(ref OVRCameraRig cameraController)
-    // Offset: 0x14F4FCC
+    // Offset: 0x150FCDC
     void SetOVRCameraController(GlobalNamespace::OVRCameraRig*& cameraController);
     // private System.Void UpdateCubeGrid()
-    // Offset: 0x14F4D68
+    // Offset: 0x150FA78
     void UpdateCubeGrid();
     // private System.Void CreateCubeGrid()
-    // Offset: 0x14F4FD8
+    // Offset: 0x150FCE8
     void CreateCubeGrid();
     // private System.Void CubeGridSwitchColor(System.Boolean CubeSwitchColor)
-    // Offset: 0x14F5384
+    // Offset: 0x1510094
     void CubeGridSwitchColor(bool CubeSwitchColor);
     // public System.Void .ctor()
-    // Offset: 0x14F5728
+    // Offset: 0x1510438
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -138,5 +138,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRGridCube), 64 + sizeof(GlobalNamespace::OVRCameraRig*)> __GlobalNamespace_OVRGridCubeSizeCheck;
   static_assert(sizeof(OVRGridCube) == 0x48);
+  // Writing MetadataGetter for method: OVRGridCube::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)()>(&OVRGridCube::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGridCube::SetOVRCameraController
+  // Il2CppName: SetOVRCameraController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)(GlobalNamespace::OVRCameraRig*&)>(&OVRGridCube::SetOVRCameraController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), "SetOVRCameraController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGridCube::UpdateCubeGrid
+  // Il2CppName: UpdateCubeGrid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)()>(&OVRGridCube::UpdateCubeGrid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), "UpdateCubeGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGridCube::CreateCubeGrid
+  // Il2CppName: CreateCubeGrid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)()>(&OVRGridCube::CreateCubeGrid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), "CreateCubeGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGridCube::CubeGridSwitchColor
+  // Il2CppName: CubeGridSwitchColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)(bool)>(&OVRGridCube::CubeGridSwitchColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), "CubeGridSwitchColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGridCube::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)()>(&OVRGridCube::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGridCube::*)()>(&OVRGridCube::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGridCube*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube*, "", "OVRGridCube");

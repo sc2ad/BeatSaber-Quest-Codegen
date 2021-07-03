@@ -23,85 +23,293 @@ namespace Org::BouncyCastle::Utilities {
     // Set static field: static public readonly System.Int32[] EmptyInts
     static void _set_EmptyInts(::Array<int>* value);
     // static public System.Boolean AreEqual(System.Byte[] a, System.Byte[] b)
-    // Offset: 0x1353408
+    // Offset: 0x136E118
     static bool AreEqual(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static public System.Boolean ConstantTimeAreEqual(System.Byte[] a, System.Byte[] b)
-    // Offset: 0x1363134
+    // Offset: 0x137DE44
     static bool ConstantTimeAreEqual(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static public System.Boolean ConstantTimeAreEqual(System.Int32 len, System.Byte[] a, System.Int32 aOff, System.Byte[] b, System.Int32 bOff)
-    // Offset: 0x1363258
+    // Offset: 0x137DF68
     static bool ConstantTimeAreEqual(int len, ::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b, int bOff);
     // static public System.Boolean AreEqual(System.Int32[] a, System.Int32[] b)
-    // Offset: 0x136344C
+    // Offset: 0x137E15C
     static bool AreEqual(::Array<int>* a, ::Array<int>* b);
     // static public System.Boolean AreEqual(System.UInt32[] a, System.UInt32[] b)
-    // Offset: 0x1363560
+    // Offset: 0x137E270
     static bool AreEqual(::Array<uint>* a, ::Array<uint>* b);
     // static private System.Boolean HaveSameContents(System.Byte[] a, System.Byte[] b)
-    // Offset: 0x13630BC
+    // Offset: 0x137DDCC
     static bool HaveSameContents(::Array<uint8_t>* a, ::Array<uint8_t>* b);
     // static private System.Boolean HaveSameContents(System.Int32[] a, System.Int32[] b)
-    // Offset: 0x13634E8
+    // Offset: 0x137E1F8
     static bool HaveSameContents(::Array<int>* a, ::Array<int>* b);
     // static private System.Boolean HaveSameContents(System.UInt32[] a, System.UInt32[] b)
-    // Offset: 0x13635FC
+    // Offset: 0x137E30C
     static bool HaveSameContents(::Array<uint>* a, ::Array<uint>* b);
     // static public System.Int32 GetHashCode(System.Byte[] data)
-    // Offset: 0x1363674
+    // Offset: 0x137E384
     static int GetHashCode(::Array<uint8_t>* data);
     // static public System.Int32 GetHashCode(System.Int32[] data)
-    // Offset: 0x13636D4
+    // Offset: 0x137E3E4
     static int GetHashCode(::Array<int>* data);
     // static public System.Int32 GetHashCode(System.UInt32[] data, System.Int32 off, System.Int32 len)
-    // Offset: 0x1363734
+    // Offset: 0x137E444
     static int GetHashCode(::Array<uint>* data, int off, int len);
     // static public System.Int32 GetHashCode(System.UInt64[] data, System.Int32 off, System.Int32 len)
-    // Offset: 0x1363790
+    // Offset: 0x137E4A0
     static int GetHashCode(::Array<uint64_t>* data, int off, int len);
     // static public System.Byte[] Clone(System.Byte[] data)
-    // Offset: 0x13637F4
+    // Offset: 0x137E504
     static ::Array<uint8_t>* Clone(::Array<uint8_t>* data);
     // static public System.Int32[] Clone(System.Int32[] data)
-    // Offset: 0x1363874
+    // Offset: 0x137E584
     static ::Array<int>* Clone(::Array<int>* data);
     // static public System.UInt32[] Clone(System.UInt32[] data)
-    // Offset: 0x13638F4
+    // Offset: 0x137E604
     static ::Array<uint>* Clone(::Array<uint>* data);
     // static public System.Int64[] Clone(System.Int64[] data)
-    // Offset: 0x1363974
+    // Offset: 0x137E684
     static ::Array<int64_t>* Clone(::Array<int64_t>* data);
     // static public System.UInt64[] Clone(System.UInt64[] data)
-    // Offset: 0x13639F4
+    // Offset: 0x137E704
     static ::Array<uint64_t>* Clone(::Array<uint64_t>* data);
     // static public System.Boolean Contains(System.Byte[] a, System.Byte n)
-    // Offset: 0x1363A74
+    // Offset: 0x137E784
     static bool Contains(::Array<uint8_t>* a, uint8_t n);
     // static public System.Void Fill(System.Byte[] buf, System.Byte b)
-    // Offset: 0x1363AD8
+    // Offset: 0x137E7E8
     static void Fill(::Array<uint8_t>* buf, uint8_t b);
     // static public System.Void Fill(System.Byte[] buf, System.Int32 from, System.Int32 to, System.Byte b)
-    // Offset: 0x1363B40
+    // Offset: 0x137E850
     static void Fill(::Array<uint8_t>* buf, int from, int to, uint8_t b);
     // static public System.Byte[] CopyOfRange(System.Byte[] data, System.Int32 from, System.Int32 to)
-    // Offset: 0x1363B9C
+    // Offset: 0x137E8AC
     static ::Array<uint8_t>* CopyOfRange(::Array<uint8_t>* data, int from, int to);
     // static private System.Int32 GetLength(System.Int32 from, System.Int32 to)
-    // Offset: 0x1363C94
+    // Offset: 0x137E9A4
     static int GetLength(int from, int to);
     // static public System.Byte[] Prepend(System.Byte[] a, System.Byte b)
-    // Offset: 0x1363D6C
+    // Offset: 0x137EA7C
     static ::Array<uint8_t>* Prepend(::Array<uint8_t>* a, uint8_t b);
     // static public System.Byte[] Reverse(System.Byte[] a)
-    // Offset: 0x1355038
+    // Offset: 0x136FD48
     static ::Array<uint8_t>* Reverse(::Array<uint8_t>* a);
     // static public System.Boolean IsNullOrContainsNull(System.Object[] array)
-    // Offset: 0x1363E38
+    // Offset: 0x137EB48
     static bool IsNullOrContainsNull(::Array<::Il2CppObject*>* array);
     // static private System.Void .cctor()
-    // Offset: 0x1363E74
+    // Offset: 0x137EB84
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Arrays
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Arrays::AreEqual
+  // Il2CppName: AreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Arrays::AreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::ConstantTimeAreEqual
+  // Il2CppName: ConstantTimeAreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Arrays::ConstantTimeAreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "ConstantTimeAreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::ConstantTimeAreEqual
+  // Il2CppName: ConstantTimeAreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Arrays::ConstantTimeAreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "ConstantTimeAreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::AreEqual
+  // Il2CppName: AreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<int>*, ::Array<int>*)>(&Arrays::AreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::AreEqual
+  // Il2CppName: AreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, ::Array<uint>*)>(&Arrays::AreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::HaveSameContents
+  // Il2CppName: HaveSameContents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Arrays::HaveSameContents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "HaveSameContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::HaveSameContents
+  // Il2CppName: HaveSameContents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<int>*, ::Array<int>*)>(&Arrays::HaveSameContents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "HaveSameContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::HaveSameContents
+  // Il2CppName: HaveSameContents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, ::Array<uint>*)>(&Arrays::HaveSameContents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "HaveSameContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*)>(&Arrays::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int>*)>(&Arrays::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*, int, int)>(&Arrays::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint64_t>*, int, int)>(&Arrays::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Arrays::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(::Array<int>*)>(&Arrays::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint>* (*)(::Array<uint>*)>(&Arrays::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int64_t>* (*)(::Array<int64_t>*)>(&Arrays::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint64_t>* (*)(::Array<uint64_t>*)>(&Arrays::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Contains
+  // Il2CppName: Contains
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, uint8_t)>(&Arrays::Contains)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Fill
+  // Il2CppName: Fill
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, uint8_t)>(&Arrays::Fill)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Fill
+  // Il2CppName: Fill
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, uint8_t)>(&Arrays::Fill)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::CopyOfRange
+  // Il2CppName: CopyOfRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int, int)>(&Arrays::CopyOfRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "CopyOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::GetLength
+  // Il2CppName: GetLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&Arrays::GetLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Prepend
+  // Il2CppName: Prepend
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, uint8_t)>(&Arrays::Prepend)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Prepend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::Reverse
+  // Il2CppName: Reverse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Arrays::Reverse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::IsNullOrContainsNull
+  // Il2CppName: IsNullOrContainsNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<::Il2CppObject*>*)>(&Arrays::IsNullOrContainsNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), "IsNullOrContainsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Arrays::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Arrays::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Arrays*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Arrays*, "Org.BouncyCastle.Utilities", "Arrays");

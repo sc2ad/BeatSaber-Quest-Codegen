@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockServerSettings
     MockServerSettings() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x113D0E8
+    // Offset: 0x1142950
     // Implemented from: MockPlayerSettings
     // Base method: System.Void MockPlayerSettings::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,5 +32,19 @@ namespace GlobalNamespace {
     }
   }; // MockServerSettings
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MockServerSettings::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServerSettings::*)()>(&MockServerSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockServerSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServerSettings::*)()>(&MockServerSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockServerSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServerSettings*, "", "MockServerSettings");

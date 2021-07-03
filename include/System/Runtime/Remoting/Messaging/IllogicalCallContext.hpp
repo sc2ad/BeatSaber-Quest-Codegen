@@ -43,31 +43,31 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: IllogicalCallContext
     IllogicalCallContext(System::Collections::Hashtable* m_Datastore_ = {}, ::Il2CppObject* m_HostContext_ = {}) noexcept : m_Datastore{m_Datastore_}, m_HostContext{m_HostContext_} {}
     // private System.Collections.Hashtable get_Datastore()
-    // Offset: 0x1A23A84
+    // Offset: 0x1A3D794
     System::Collections::Hashtable* get_Datastore();
     // System.Object get_HostContext()
-    // Offset: 0x1A23AF0
+    // Offset: 0x1A3D800
     ::Il2CppObject* get_HostContext();
     // System.Void set_HostContext(System.Object value)
-    // Offset: 0x1A23AF8
+    // Offset: 0x1A3D808
     void set_HostContext(::Il2CppObject* value);
     // System.Boolean get_HasUserData()
-    // Offset: 0x1A23B00
+    // Offset: 0x1A3D810
     bool get_HasUserData();
     // public System.Void FreeNamedDataSlot(System.String name)
-    // Offset: 0x1A2081C
+    // Offset: 0x1A3A52C
     void FreeNamedDataSlot(::Il2CppString* name);
     // public System.Object GetData(System.String name)
-    // Offset: 0x1A23B30
+    // Offset: 0x1A3D840
     ::Il2CppObject* GetData(::Il2CppString* name);
     // public System.Void SetData(System.String name, System.Object data)
-    // Offset: 0x1A207DC
+    // Offset: 0x1A3A4EC
     void SetData(::Il2CppString* name, ::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
-    // Offset: 0x1A23B68
+    // Offset: 0x1A3D878
     System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
     // public System.Void .ctor()
-    // Offset: 0x1A23DC0
+    // Offset: 0x1A3DAD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,5 +79,83 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
   static check_size<sizeof(IllogicalCallContext), 24 + sizeof(::Il2CppObject*)> __System_Runtime_Remoting_Messaging_IllogicalCallContextSizeCheck;
   static_assert(sizeof(IllogicalCallContext) == 0x20);
+  // Writing MetadataGetter for method: IllogicalCallContext::get_Datastore
+  // Il2CppName: get_Datastore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (IllogicalCallContext::*)()>(&IllogicalCallContext::get_Datastore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "get_Datastore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::get_HostContext
+  // Il2CppName: get_HostContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IllogicalCallContext::*)()>(&IllogicalCallContext::get_HostContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "get_HostContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::set_HostContext
+  // Il2CppName: set_HostContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::*)(::Il2CppObject*)>(&IllogicalCallContext::set_HostContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "set_HostContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::get_HasUserData
+  // Il2CppName: get_HasUserData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IllogicalCallContext::*)()>(&IllogicalCallContext::get_HasUserData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "get_HasUserData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::FreeNamedDataSlot
+  // Il2CppName: FreeNamedDataSlot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::*)(::Il2CppString*)>(&IllogicalCallContext::FreeNamedDataSlot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "FreeNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::GetData
+  // Il2CppName: GetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IllogicalCallContext::*)(::Il2CppString*)>(&IllogicalCallContext::GetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::*)(::Il2CppString*, ::Il2CppObject*)>(&IllogicalCallContext::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::CreateCopy
+  // Il2CppName: CreateCopy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IllogicalCallContext* (IllogicalCallContext::*)()>(&IllogicalCallContext::CreateCopy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), "CreateCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IllogicalCallContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::*)()>(&IllogicalCallContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IllogicalCallContext::*)()>(&IllogicalCallContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IllogicalCallContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");

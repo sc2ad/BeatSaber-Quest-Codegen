@@ -49,7 +49,7 @@ namespace HMUI {
     HMUI::HoverHint* hoverHint;
     // Field size check
     static_assert(sizeof(HMUI::HoverHint*) == 0x8);
-    // [NullAllowed] Offset: 0xDF6494
+    // [NullAllowed] Offset: 0xDF8490
     // private UnityEngine.GameObject _backgroundGameObject
     // Size: 0x8
     // Offset: 0x58
@@ -59,22 +59,22 @@ namespace HMUI {
     // Creating value type constructor for type: IconSegmentedControlCell
     IconSegmentedControlCell(UnityEngine::UI::Image* icon_ = {}, HMUI::HoverHint* hoverHint_ = {}, UnityEngine::GameObject* backgroundGameObject_ = {}) noexcept : icon{icon_}, hoverHint{hoverHint_}, backgroundGameObject{backgroundGameObject_} {}
     // public System.Void set_sprite(UnityEngine.Sprite value)
-    // Offset: 0x12FFDC8
+    // Offset: 0x1319AD8
     void set_sprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x12FFF88
+    // Offset: 0x1319C98
     UnityEngine::Sprite* get_sprite();
     // public System.Void set_hintText(System.String value)
-    // Offset: 0x12FFDE4
+    // Offset: 0x1319AF4
     void set_hintText(::Il2CppString* value);
     // public System.Void set_iconSize(System.Single value)
-    // Offset: 0x12FFEAC
+    // Offset: 0x1319BBC
     void set_iconSize(float value);
     // public System.Void set_hideBackgroundImage(System.Boolean value)
-    // Offset: 0x12FFE00
+    // Offset: 0x1319B10
     void set_hideBackgroundImage(bool value);
     // public System.Void .ctor()
-    // Offset: 0x12FFFA4
+    // Offset: 0x1319CB4
     // Implemented from: HMUI.SegmentedControlCell
     // Base method: System.Void SegmentedControlCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -93,5 +93,59 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(IconSegmentedControlCell), 88 + sizeof(UnityEngine::GameObject*)> __HMUI_IconSegmentedControlCellSizeCheck;
   static_assert(sizeof(IconSegmentedControlCell) == 0x60);
+  // Writing MetadataGetter for method: IconSegmentedControlCell::set_sprite
+  // Il2CppName: set_sprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(UnityEngine::Sprite*)>(&IconSegmentedControlCell::set_sprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControlCell::get_sprite
+  // Il2CppName: get_sprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::get_sprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControlCell::set_hintText
+  // Il2CppName: set_hintText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(::Il2CppString*)>(&IconSegmentedControlCell::set_hintText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControlCell::set_iconSize
+  // Il2CppName: set_iconSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(float)>(&IconSegmentedControlCell::set_iconSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_iconSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControlCell::set_hideBackgroundImage
+  // Il2CppName: set_hideBackgroundImage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)(bool)>(&IconSegmentedControlCell::set_hideBackgroundImage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), "set_hideBackgroundImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IconSegmentedControlCell::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IconSegmentedControlCell::*)()>(&IconSegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IconSegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");

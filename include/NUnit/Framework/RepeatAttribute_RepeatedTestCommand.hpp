@@ -34,7 +34,7 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: RepeatedTestCommand
     RepeatedTestCommand(int repeatCount_ = {}) noexcept : repeatCount{repeatCount_} {}
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x229CF38
+    // Offset: 0x22B7C94
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
@@ -42,6 +42,14 @@ namespace NUnit::Framework {
   #pragma pack(pop)
   static check_size<sizeof(RepeatAttribute::RepeatedTestCommand), 32 + sizeof(int)> __NUnit_Framework_RepeatAttribute_RepeatedTestCommandSizeCheck;
   static_assert(sizeof(RepeatAttribute::RepeatedTestCommand) == 0x24);
+  // Writing MetadataGetter for method: RepeatAttribute::RepeatedTestCommand::Execute
+  // Il2CppName: Execute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (RepeatAttribute::RepeatedTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&RepeatAttribute::RepeatedTestCommand::Execute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RepeatAttribute::RepeatedTestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*, "NUnit.Framework", "RepeatAttribute/RepeatedTestCommand");

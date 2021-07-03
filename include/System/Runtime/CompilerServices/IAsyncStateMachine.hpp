@@ -21,6 +21,22 @@ namespace System::Runtime::CompilerServices {
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // System.Runtime.CompilerServices.IAsyncStateMachine
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAsyncStateMachine::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAsyncStateMachine::*)()>(&IAsyncStateMachine::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAsyncStateMachine*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IAsyncStateMachine::SetStateMachine
+  // Il2CppName: SetStateMachine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAsyncStateMachine::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&IAsyncStateMachine::SetStateMachine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAsyncStateMachine*), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IAsyncStateMachine*, "System.Runtime.CompilerServices", "IAsyncStateMachine");

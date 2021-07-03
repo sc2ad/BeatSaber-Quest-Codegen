@@ -27,7 +27,7 @@ namespace UnityEngine::AddressableAssets {
     // Creating value type constructor for type: AssetReferenceSprite
     AssetReferenceSprite() noexcept {}
     // public System.Void .ctor(System.String guid)
-    // Offset: 0x13D5E1C
+    // Offset: 0x13F0B2C
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)
@@ -37,10 +37,32 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceSprite*, creationType>(guid)));
     }
     // public override System.Boolean ValidateAsset(System.String path)
-    // Offset: 0x13D5E7C
+    // Offset: 0x13F0B8C
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Boolean AssetReferenceT_1::ValidateAsset(System.String path)
     bool ValidateAsset(::Il2CppString* path);
   }; // UnityEngine.AddressableAssets.AssetReferenceSprite
+  // Writing MetadataGetter for method: AssetReferenceSprite::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReferenceSprite::*)(::Il2CppString*)>(&AssetReferenceSprite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetReferenceSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReferenceSprite::*)(::Il2CppString*)>(&AssetReferenceSprite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetReferenceSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssetReferenceSprite::ValidateAsset
+  // Il2CppName: ValidateAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReferenceSprite::*)(::Il2CppString*)>(&AssetReferenceSprite::ValidateAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetReferenceSprite*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceSprite*, "UnityEngine.AddressableAssets", "AssetReferenceSprite");

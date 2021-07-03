@@ -50,30 +50,30 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Creating value type constructor for type: Pkcs12ParametersGenerator
     Pkcs12ParametersGenerator(Org::BouncyCastle::Crypto::IDigest* digest_ = {}, int u_ = {}, int v_ = {}) noexcept : digest{digest_}, u{u_}, v{v_} {}
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x18A80C8
+    // Offset: 0x18BFDD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Pkcs12ParametersGenerator* New_ctor(Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs12ParametersGenerator*, creationType>(digest)));
     }
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x18A8204
+    // Offset: 0x18BFF14
     void Adjust(::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b);
     // private System.Byte[] GenerateDerivedKey(System.Int32 idByte, System.Int32 n)
-    // Offset: 0x18A82E4
+    // Offset: 0x18BFFF4
     ::Array<uint8_t>* GenerateDerivedKey(int idByte, int n);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
-    // Offset: 0x18A890C
+    // Offset: 0x18C061C
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
-    // Offset: 0x18A89B8
+    // Offset: 0x18C06C8
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::Il2CppString* algorithm, int keySize, int ivSize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
-    // Offset: 0x18A8AD0
+    // Offset: 0x18C07E0
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedMacParameters(System.Int32 keySize)
     Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
@@ -81,5 +81,59 @@ namespace Org::BouncyCastle::Crypto::Generators {
   #pragma pack(pop)
   static check_size<sizeof(Pkcs12ParametersGenerator), 52 + sizeof(int)> __Org_BouncyCastle_Crypto_Generators_Pkcs12ParametersGeneratorSizeCheck;
   static_assert(sizeof(Pkcs12ParametersGenerator) == 0x38);
+  // Writing MetadataGetter for method: Pkcs12ParametersGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs12ParametersGenerator::*)(Org::BouncyCastle::Crypto::IDigest*)>(&Pkcs12ParametersGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs12ParametersGenerator::*)(Org::BouncyCastle::Crypto::IDigest*)>(&Pkcs12ParametersGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pkcs12ParametersGenerator::Adjust
+  // Il2CppName: Adjust
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs12ParametersGenerator::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Pkcs12ParametersGenerator::Adjust)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), "Adjust", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pkcs12ParametersGenerator::GenerateDerivedKey
+  // Il2CppName: GenerateDerivedKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Pkcs12ParametersGenerator::*)(int, int)>(&Pkcs12ParametersGenerator::GenerateDerivedKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), "GenerateDerivedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pkcs12ParametersGenerator::GenerateDerivedParameters
+  // Il2CppName: GenerateDerivedParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Pkcs12ParametersGenerator::*)(::Il2CppString*, int)>(&Pkcs12ParametersGenerator::GenerateDerivedParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), "GenerateDerivedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pkcs12ParametersGenerator::GenerateDerivedParameters
+  // Il2CppName: GenerateDerivedParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Pkcs12ParametersGenerator::*)(::Il2CppString*, int, int)>(&Pkcs12ParametersGenerator::GenerateDerivedParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), "GenerateDerivedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pkcs12ParametersGenerator::GenerateDerivedMacParameters
+  // Il2CppName: GenerateDerivedMacParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Pkcs12ParametersGenerator::*)(int)>(&Pkcs12ParametersGenerator::GenerateDerivedMacParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pkcs12ParametersGenerator*), "GenerateDerivedMacParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "Pkcs12ParametersGenerator");

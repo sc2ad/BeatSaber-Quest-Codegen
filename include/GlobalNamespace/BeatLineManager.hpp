@@ -50,21 +50,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: linesYPosition and: beatmapObjectManager
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xE18D14
+    // [InjectAttribute] Offset: 0xE18CF0
     // private BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE18D24
+    // [InjectAttribute] Offset: 0xE18D00
     // private BeatLine/Pool _beatLinePool
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatLine::Pool* beatLinePool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLine::Pool*) == 0x8);
-    // [InjectAttribute] Offset: 0xE18D34
+    // [InjectAttribute] Offset: 0xE18D10
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x30
@@ -108,28 +108,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isMidRotationValid()
-    // Offset: 0x11A1EC0
+    // Offset: 0x11BBF44
     bool get_isMidRotationValid();
     // public System.Single get_midRotation()
-    // Offset: 0x11A1EC8
+    // Offset: 0x11BBF4C
     float get_midRotation();
     // public System.Single get_rotationRange()
-    // Offset: 0x11A1ED0
+    // Offset: 0x11BBF54
     float get_rotationRange();
     // protected System.Void Start()
-    // Offset: 0x11A1ED8
+    // Offset: 0x11BBF5C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11A1F6C
+    // Offset: 0x11BBFF0
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x11A2000
+    // Offset: 0x11BC084
     void Update();
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x11A23B4
+    // Offset: 0x11BC438
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // public System.Void .ctor()
-    // Offset: 0x11A25B0
+    // Offset: 0x11BC634
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -145,5 +145,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatLineManager), 80 + sizeof(float)> __GlobalNamespace_BeatLineManagerSizeCheck;
   static_assert(sizeof(BeatLineManager) == 0x54);
+  // Writing MetadataGetter for method: BeatLineManager::get_isMidRotationValid
+  // Il2CppName: get_isMidRotationValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatLineManager::*)()>(&BeatLineManager::get_isMidRotationValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "get_isMidRotationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::get_midRotation
+  // Il2CppName: get_midRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatLineManager::*)()>(&BeatLineManager::get_midRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "get_midRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::get_rotationRange
+  // Il2CppName: get_rotationRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatLineManager::*)()>(&BeatLineManager::get_rotationRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "get_rotationRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatLineManager::*)()>(&BeatLineManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatLineManager::*)()>(&BeatLineManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatLineManager::*)()>(&BeatLineManager::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::HandleNoteWasSpawned
+  // Il2CppName: HandleNoteWasSpawned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatLineManager::*)(GlobalNamespace::NoteController*)>(&BeatLineManager::HandleNoteWasSpawned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatLineManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatLineManager::*)()>(&BeatLineManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatLineManager::*)()>(&BeatLineManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatLineManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLineManager*, "", "BeatLineManager");

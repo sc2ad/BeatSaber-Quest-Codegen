@@ -22,10 +22,18 @@ namespace UnityEngine {
     // Creating value type constructor for type: ScriptingUtility
     ScriptingUtility() noexcept {}
     // static private System.Boolean IsManagedCodeWorking()
-    // Offset: 0x1B173A4
+    // Offset: 0x1B340B4
     static bool IsManagedCodeWorking();
   }; // UnityEngine.ScriptingUtility
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ScriptingUtility::IsManagedCodeWorking
+  // Il2CppName: IsManagedCodeWorking
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ScriptingUtility::IsManagedCodeWorking)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScriptingUtility*), "IsManagedCodeWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility*, "UnityEngine", "ScriptingUtility");

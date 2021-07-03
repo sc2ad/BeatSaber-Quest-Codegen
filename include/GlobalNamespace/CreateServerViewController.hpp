@@ -59,14 +59,14 @@ namespace GlobalNamespace {
     GlobalNamespace::CreateServerFormController* createServerFormController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreateServerFormController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE25C18
+    // [InjectAttribute] Offset: 0xE25C7C
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x88
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE25C28
+    // [CompilerGeneratedAttribute] Offset: 0xE25C8C
     // private System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
@@ -82,33 +82,33 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CreateServerViewController
     CreateServerViewController(UnityEngine::UI::Button* createServerButton_ = {}, UnityEngine::UI::Button* cancelCreateServerButton_ = {}, GlobalNamespace::CreateServerFormController* createServerFormController_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* didFinishEvent_ = {}, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings_ = {}) noexcept : createServerButton{createServerButton_}, cancelCreateServerButton{cancelCreateServerButton_}, createServerFormController{createServerFormController_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, didFinishEvent{didFinishEvent_}, multiplayerModeSettings{multiplayerModeSettings_} {}
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> value)
-    // Offset: 0x1098ACC
+    // Offset: 0x1196C10
     void add_didFinishEvent(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,UnifiedNetworkPlayerModel/CreatePartyConfig> value)
-    // Offset: 0x1098B70
+    // Offset: 0x1196CB4
     void remove_didFinishEvent(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x1098C14
+    // Offset: 0x1196D58
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void Setup(MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x1098C1C
+    // Offset: 0x1196D60
     void Setup(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private UnifiedNetworkPlayerModel/CreatePartyConfig CreatePartyConfig()
-    // Offset: 0x1098D64
+    // Offset: 0x1196EA8
     GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* CreatePartyConfig();
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x1098FB0
+    // Offset: 0x11970F4
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x1099024
+    // Offset: 0x1197168
     void $DidActivate$b__11_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1098C68
+    // Offset: 0x1196DAC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1098FA8
+    // Offset: 0x11970EC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -125,5 +125,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CreateServerViewController), 152 + sizeof(GlobalNamespace::MultiplayerModeSettings*)> __GlobalNamespace_CreateServerViewControllerSizeCheck;
   static_assert(sizeof(CreateServerViewController) == 0xA0);
+  // Writing MetadataGetter for method: CreateServerViewController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*)>(&CreateServerViewController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*)>(&CreateServerViewController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::get_multiplayerModeSettings
+  // Il2CppName: get_multiplayerModeSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (CreateServerViewController::*)()>(&CreateServerViewController::get_multiplayerModeSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(GlobalNamespace::MultiplayerModeSettings*)>(&CreateServerViewController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::CreatePartyConfig
+  // Il2CppName: CreatePartyConfig
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* (CreateServerViewController::*)()>(&CreateServerViewController::CreatePartyConfig)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "CreatePartyConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::$DidActivate$b__11_0
+  // Il2CppName: <DidActivate>b__11_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::$DidActivate$b__11_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::$DidActivate$b__11_1
+  // Il2CppName: <DidActivate>b__11_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::$DidActivate$b__11_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "<DidActivate>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(bool, bool, bool)>(&CreateServerViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerViewController*, "", "CreateServerViewController");

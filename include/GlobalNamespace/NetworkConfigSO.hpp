@@ -80,25 +80,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x23EE618
+    // Offset: 0x1019194
     int get_maxPartySize();
     // public System.Int32 get_discoveryPort()
-    // Offset: 0x23EE620
+    // Offset: 0x101919C
     int get_discoveryPort();
     // public System.Int32 get_partyPort()
-    // Offset: 0x23EE628
+    // Offset: 0x10191A4
     int get_partyPort();
     // public System.Int32 get_multiplayerPort()
-    // Offset: 0x23EE630
+    // Offset: 0x10191AC
     int get_multiplayerPort();
     // public MasterServerEndPoint get_masterServerEndPoint()
-    // Offset: 0x23EE638
+    // Offset: 0x10191B4
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
-    // Offset: 0x23EE6B0
+    // Offset: 0x101922C
     ::Il2CppString* get_masterServerStatusUrl();
     // public System.Void .ctor()
-    // Offset: 0x23EE6B8
+    // Offset: 0x1019234
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -113,5 +113,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NetworkConfigSO), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_NetworkConfigSOSizeCheck;
   static_assert(sizeof(NetworkConfigSO) == 0x40);
+  // Writing MetadataGetter for method: NetworkConfigSO::get_maxPartySize
+  // Il2CppName: get_maxPartySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkConfigSO::*)()>(&NetworkConfigSO::get_maxPartySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkConfigSO::get_discoveryPort
+  // Il2CppName: get_discoveryPort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkConfigSO::*)()>(&NetworkConfigSO::get_discoveryPort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), "get_discoveryPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkConfigSO::get_partyPort
+  // Il2CppName: get_partyPort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkConfigSO::*)()>(&NetworkConfigSO::get_partyPort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), "get_partyPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkConfigSO::get_multiplayerPort
+  // Il2CppName: get_multiplayerPort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetworkConfigSO::*)()>(&NetworkConfigSO::get_multiplayerPort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), "get_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkConfigSO::get_masterServerEndPoint
+  // Il2CppName: get_masterServerEndPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerEndPoint* (NetworkConfigSO::*)()>(&NetworkConfigSO::get_masterServerEndPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), "get_masterServerEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkConfigSO::get_masterServerStatusUrl
+  // Il2CppName: get_masterServerStatusUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkConfigSO::*)()>(&NetworkConfigSO::get_masterServerStatusUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), "get_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkConfigSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkConfigSO::*)()>(&NetworkConfigSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkConfigSO::*)()>(&NetworkConfigSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkConfigSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConfigSO*, "", "NetworkConfigSO");

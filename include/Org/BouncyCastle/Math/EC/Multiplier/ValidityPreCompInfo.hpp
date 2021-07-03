@@ -47,28 +47,28 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static readonly System.String PRECOMP_NAME
     static void _set_PRECOMP_NAME(::Il2CppString* value);
     // System.Boolean HasFailed()
-    // Offset: 0x1D09EFC
+    // Offset: 0x1D25C0C
     bool HasFailed();
     // System.Void ReportFailed()
-    // Offset: 0x1D09F04
+    // Offset: 0x1D25C14
     void ReportFailed();
     // System.Boolean HasCurveEquationPassed()
-    // Offset: 0x1D09F10
+    // Offset: 0x1D25C20
     bool HasCurveEquationPassed();
     // System.Void ReportCurveEquationPassed()
-    // Offset: 0x1D09F18
+    // Offset: 0x1D25C28
     void ReportCurveEquationPassed();
     // System.Boolean HasOrderPassed()
-    // Offset: 0x1D09F24
+    // Offset: 0x1D25C34
     bool HasOrderPassed();
     // System.Void ReportOrderPassed()
-    // Offset: 0x1D09F2C
+    // Offset: 0x1D25C3C
     void ReportOrderPassed();
     // static private System.Void .cctor()
-    // Offset: 0x1D09F38
+    // Offset: 0x1D25C48
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D09F94
+    // Offset: 0x1D25CA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,5 +80,75 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
   static check_size<sizeof(ValidityPreCompInfo), 18 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_ValidityPreCompInfoSizeCheck;
   static_assert(sizeof(ValidityPreCompInfo) == 0x13);
+  // Writing MetadataGetter for method: ValidityPreCompInfo::HasFailed
+  // Il2CppName: HasFailed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::HasFailed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), "HasFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::ReportFailed
+  // Il2CppName: ReportFailed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::ReportFailed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), "ReportFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::HasCurveEquationPassed
+  // Il2CppName: HasCurveEquationPassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::HasCurveEquationPassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), "HasCurveEquationPassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::ReportCurveEquationPassed
+  // Il2CppName: ReportCurveEquationPassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::ReportCurveEquationPassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), "ReportCurveEquationPassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::HasOrderPassed
+  // Il2CppName: HasOrderPassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::HasOrderPassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), "HasOrderPassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::ReportOrderPassed
+  // Il2CppName: ReportOrderPassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::ReportOrderPassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), "ReportOrderPassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ValidityPreCompInfo::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ValidityPreCompInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidityPreCompInfo::*)()>(&ValidityPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ValidityPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "ValidityPreCompInfo");

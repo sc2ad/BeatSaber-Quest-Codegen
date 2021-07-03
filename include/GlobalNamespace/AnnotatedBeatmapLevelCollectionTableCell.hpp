@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::GameObject*>* newPromoRibbonObjects;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::GameObject*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE212B8
+    // [SpaceAttribute] Offset: 0xE21294
     // private UnityEngine.Color _selectedColor0
     // Size: 0x10
     // Offset: 0x70
@@ -120,40 +120,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AnnotatedBeatmapLevelCollectionTableCell
     AnnotatedBeatmapLevelCollectionTableCell(TMPro::TextMeshProUGUI* infoText_ = {}, UnityEngine::UI::Image* coverImage_ = {}, HMUI::ImageView* selectionImage_ = {}, ::Array<UnityEngine::GameObject*>* newPromoRibbonObjects_ = {}, UnityEngine::Color selectedColor0_ = {}, UnityEngine::Color selectedColor1_ = {}, UnityEngine::Color highlightedColor0_ = {}, UnityEngine::Color highlightedColor1_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}) noexcept : infoText{infoText_}, coverImage{coverImage_}, selectionImage{selectionImage_}, newPromoRibbonObjects{newPromoRibbonObjects_}, selectedColor0{selectedColor0_}, selectedColor1{selectedColor1_}, highlightedColor0{highlightedColor0_}, highlightedColor1{highlightedColor1_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_}, cancellationTokenSource{cancellationTokenSource_} {}
     // public System.Void set_showNewRibbon(System.Boolean value)
-    // Offset: 0x1127960
+    // Offset: 0x112D248
     void set_showNewRibbon(bool value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x11279DC
+    // Offset: 0x112D2C4
     void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // private System.Void RefreshVisuals()
-    // Offset: 0x1127D0C
+    // Offset: 0x112D5F4
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
-    // Offset: 0x1127C20
+    // Offset: 0x112D508
     ::Il2CppString* GetInfoText(::Il2CppString* name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
-    // Offset: 0x1127E34
+    // Offset: 0x112D71C
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel);
     // public System.Void CancelAsyncOperations()
-    // Offset: 0x1127E20
+    // Offset: 0x112D708
     void CancelAsyncOperations();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1127D08
+    // Offset: 0x112D5F0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x1127E08
+    // Offset: 0x112D6F0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void WasPreparedForReuse()
-    // Offset: 0x1127E0C
+    // Offset: 0x112D6F4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::WasPreparedForReuse()
     void WasPreparedForReuse();
     // public System.Void .ctor()
-    // Offset: 0x1127EFC
+    // Offset: 0x112D7E4
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -172,5 +172,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AnnotatedBeatmapLevelCollectionTableCell), 184 + sizeof(System::Threading::CancellationTokenSource*)> __GlobalNamespace_AnnotatedBeatmapLevelCollectionTableCellSizeCheck;
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionTableCell) == 0xC0);
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::set_showNewRibbon
+  // Il2CppName: set_showNewRibbon
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)(bool)>(&AnnotatedBeatmapLevelCollectionTableCell::set_showNewRibbon)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "set_showNewRibbon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*)>(&AnnotatedBeatmapLevelCollectionTableCell::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::RefreshVisuals
+  // Il2CppName: RefreshVisuals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)()>(&AnnotatedBeatmapLevelCollectionTableCell::RefreshVisuals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::GetInfoText
+  // Il2CppName: GetInfoText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AnnotatedBeatmapLevelCollectionTableCell::*)(::Il2CppString*, int, int)>(&AnnotatedBeatmapLevelCollectionTableCell::GetInfoText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "GetInfoText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::RefreshAvailabilityAsync
+  // Il2CppName: RefreshAvailabilityAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)(GlobalNamespace::AdditionalContentModel*)>(&AnnotatedBeatmapLevelCollectionTableCell::RefreshAvailabilityAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "RefreshAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AdditionalContentModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::CancelAsyncOperations
+  // Il2CppName: CancelAsyncOperations
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)()>(&AnnotatedBeatmapLevelCollectionTableCell::CancelAsyncOperations)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "CancelAsyncOperations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::SelectionDidChange
+  // Il2CppName: SelectionDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)(HMUI::SelectableCell::TransitionType)>(&AnnotatedBeatmapLevelCollectionTableCell::SelectionDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::HighlightDidChange
+  // Il2CppName: HighlightDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)(HMUI::SelectableCell::TransitionType)>(&AnnotatedBeatmapLevelCollectionTableCell::HighlightDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::WasPreparedForReuse
+  // Il2CppName: WasPreparedForReuse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)()>(&AnnotatedBeatmapLevelCollectionTableCell::WasPreparedForReuse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), "WasPreparedForReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionTableCell::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)()>(&AnnotatedBeatmapLevelCollectionTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionTableCell::*)()>(&AnnotatedBeatmapLevelCollectionTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*, "", "AnnotatedBeatmapLevelCollectionTableCell");

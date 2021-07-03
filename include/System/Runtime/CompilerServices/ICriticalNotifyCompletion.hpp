@@ -31,6 +31,14 @@ namespace System::Runtime::CompilerServices {
     void UnsafeOnCompleted(System::Action* continuation);
   }; // System.Runtime.CompilerServices.ICriticalNotifyCompletion
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ICriticalNotifyCompletion::UnsafeOnCompleted
+  // Il2CppName: UnsafeOnCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICriticalNotifyCompletion::*)(System::Action*)>(&ICriticalNotifyCompletion::UnsafeOnCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ICriticalNotifyCompletion*), "UnsafeOnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ICriticalNotifyCompletion*, "System.Runtime.CompilerServices", "ICriticalNotifyCompletion");

@@ -58,42 +58,128 @@ namespace System::Net {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);
     }
     // System.Void .ctor(System.Net.HttpListener listener)
-    // Offset: 0x1634768
+    // Offset: 0x164B478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerPrefixCollection* New_ctor(System::Net::HttpListener* listener) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerPrefixCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerPrefixCollection*, creationType>(listener)));
     }
     // public System.Int32 get_Count()
-    // Offset: 0x1636524
+    // Offset: 0x164D234
     int get_Count();
     // public System.Boolean get_IsReadOnly()
-    // Offset: 0x1636E18
+    // Offset: 0x164DB28
     bool get_IsReadOnly();
     // public System.Void Add(System.String uriPrefix)
-    // Offset: 0x1636E20
+    // Offset: 0x164DB30
     void Add(::Il2CppString* uriPrefix);
     // public System.Void Clear()
-    // Offset: 0x1637200
+    // Offset: 0x164DF10
     void Clear();
     // public System.Boolean Contains(System.String uriPrefix)
-    // Offset: 0x16372AC
+    // Offset: 0x164DFBC
     bool Contains(::Il2CppString* uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
-    // Offset: 0x1637320
+    // Offset: 0x164E030
     void CopyTo(::Array<::Il2CppString*>* array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
-    // Offset: 0x163739C
+    // Offset: 0x164E0AC
     System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1637428
+    // Offset: 0x164E138
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Boolean Remove(System.String uriPrefix)
-    // Offset: 0x16374B4
+    // Offset: 0x164E1C4
     bool Remove(::Il2CppString* uriPrefix);
   }; // System.Net.HttpListenerPrefixCollection
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerPrefixCollection), 24 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerPrefixCollectionSizeCheck;
   static_assert(sizeof(HttpListenerPrefixCollection) == 0x20);
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerPrefixCollection::*)(System::Net::HttpListener*)>(&HttpListenerPrefixCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerPrefixCollection::*)(System::Net::HttpListener*)>(&HttpListenerPrefixCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::get_Count
+  // Il2CppName: get_Count
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HttpListenerPrefixCollection::*)()>(&HttpListenerPrefixCollection::get_Count)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::get_IsReadOnly
+  // Il2CppName: get_IsReadOnly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerPrefixCollection::*)()>(&HttpListenerPrefixCollection::get_IsReadOnly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerPrefixCollection::*)(::Il2CppString*)>(&HttpListenerPrefixCollection::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerPrefixCollection::*)()>(&HttpListenerPrefixCollection::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::Contains
+  // Il2CppName: Contains
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerPrefixCollection::*)(::Il2CppString*)>(&HttpListenerPrefixCollection::Contains)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::CopyTo
+  // Il2CppName: CopyTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerPrefixCollection::*)(::Array<::Il2CppString*>*, int)>(&HttpListenerPrefixCollection::CopyTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::GetEnumerator
+  // Il2CppName: GetEnumerator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppString*>* (HttpListenerPrefixCollection::*)()>(&HttpListenerPrefixCollection::GetEnumerator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::System_Collections_IEnumerable_GetEnumerator
+  // Il2CppName: System.Collections.IEnumerable.GetEnumerator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HttpListenerPrefixCollection::*)()>(&HttpListenerPrefixCollection::System_Collections_IEnumerable_GetEnumerator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerPrefixCollection::Remove
+  // Il2CppName: Remove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerPrefixCollection::*)(::Il2CppString*)>(&HttpListenerPrefixCollection::Remove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerPrefixCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerPrefixCollection*, "System.Net", "HttpListenerPrefixCollection");

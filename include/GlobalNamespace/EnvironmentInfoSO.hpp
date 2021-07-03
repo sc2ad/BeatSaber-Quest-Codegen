@@ -95,31 +95,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x10BF9C4
+    // Offset: 0x103E13C
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x10BF9CC
+    // Offset: 0x103E144
     ::Il2CppString* get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x10BF9D4
+    // Offset: 0x103E14C
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x10BF9DC
+    // Offset: 0x103E154
     ::Il2CppString* get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x10BF9E4
+    // Offset: 0x103E15C
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x10BF9EC
+    // Offset: 0x103E164
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x10BF9F4
+    // Offset: 0x103E16C
     GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x10BF9FC
+    // Offset: 0x103E174
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
     // public System.Void .ctor()
-    // Offset: 0x10BFA04
+    // Offset: 0x103E17C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -134,5 +134,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EnvironmentInfoSO), 80 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_EnvironmentInfoSOSizeCheck;
   static_assert(sizeof(EnvironmentInfoSO) == 0x58);
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_sceneInfo
+  // Il2CppName: get_sceneInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SceneInfo* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_sceneInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_sceneInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_environmentName
+  // Il2CppName: get_environmentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_environmentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_environmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_colorScheme
+  // Il2CppName: get_colorScheme
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemeSO* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_colorScheme)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_serializedName
+  // Il2CppName: get_serializedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_serializedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_environmentType
+  // Il2CppName: get_environmentType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentTypeSO* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_environmentType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_environmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_environmentSizeData
+  // Il2CppName: get_environmentSizeData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentSizeData* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_environmentSizeData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_environmentSizeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_environmentIntensityReductionOptions
+  // Il2CppName: get_environmentIntensityReductionOptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_environmentIntensityReductionOptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_environmentIntensityReductionOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::get_environmentKeywords
+  // Il2CppName: get_environmentKeywords
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::get_environmentKeywords)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), "get_environmentKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnvironmentInfoSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentInfoSO::*)()>(&EnvironmentInfoSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnvironmentInfoSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentInfoSO*, "", "EnvironmentInfoSO");

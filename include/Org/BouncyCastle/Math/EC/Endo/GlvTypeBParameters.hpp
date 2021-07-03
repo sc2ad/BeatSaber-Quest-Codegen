@@ -49,21 +49,51 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Creating value type constructor for type: GlvTypeBParameters
     GlvTypeBParameters(Org::BouncyCastle::Math::BigInteger* m_beta_ = {}, Org::BouncyCastle::Math::BigInteger* m_lambda_ = {}, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams_ = {}) noexcept : m_beta{m_beta_}, m_lambda{m_lambda_}, m_splitParams{m_splitParams_} {}
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger beta, Org.BouncyCastle.Math.BigInteger lambda, Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters splitParams)
-    // Offset: 0x213621C
+    // Offset: 0x2151F78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GlvTypeBParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* beta, Org::BouncyCastle::Math::BigInteger* lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBParameters*, creationType>(beta, lambda, splitParams)));
     }
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
-    // Offset: 0x213625C
+    // Offset: 0x2151FB8
     Org::BouncyCastle::Math::BigInteger* get_Beta();
     // public Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters get_SplitParams()
-    // Offset: 0x2136264
+    // Offset: 0x2151FC0
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters
   #pragma pack(pop)
   static check_size<sizeof(GlvTypeBParameters), 32 + sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBParametersSizeCheck;
   static_assert(sizeof(GlvTypeBParameters) == 0x28);
+  // Writing MetadataGetter for method: GlvTypeBParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlvTypeBParameters::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)>(&GlvTypeBParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlvTypeBParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlvTypeBParameters::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)>(&GlvTypeBParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlvTypeBParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GlvTypeBParameters::get_Beta
+  // Il2CppName: get_Beta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (GlvTypeBParameters::*)()>(&GlvTypeBParameters::get_Beta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlvTypeBParameters*), "get_Beta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GlvTypeBParameters::get_SplitParams
+  // Il2CppName: get_SplitParams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (GlvTypeBParameters::*)()>(&GlvTypeBParameters::get_SplitParams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlvTypeBParameters*), "get_SplitParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");

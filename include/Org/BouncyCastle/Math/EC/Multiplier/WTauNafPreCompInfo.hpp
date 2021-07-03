@@ -42,13 +42,13 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return m_preComp;
     }
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] get_PreComp()
-    // Offset: 0x1D0D058
+    // Offset: 0x1D28D68
     ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint[] value)
-    // Offset: 0x1D0D060
+    // Offset: 0x1D28D70
     void set_PreComp(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1D0D050
+    // Offset: 0x1D28D60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,35 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
   static check_size<sizeof(WTauNafPreCompInfo), 16 + sizeof(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*)> __Org_BouncyCastle_Math_EC_Multiplier_WTauNafPreCompInfoSizeCheck;
   static_assert(sizeof(WTauNafPreCompInfo) == 0x18);
+  // Writing MetadataGetter for method: WTauNafPreCompInfo::get_PreComp
+  // Il2CppName: get_PreComp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* (WTauNafPreCompInfo::*)()>(&WTauNafPreCompInfo::get_PreComp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WTauNafPreCompInfo*), "get_PreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WTauNafPreCompInfo::set_PreComp
+  // Il2CppName: set_PreComp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafPreCompInfo::*)(::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*)>(&WTauNafPreCompInfo::set_PreComp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WTauNafPreCompInfo*), "set_PreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WTauNafPreCompInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafPreCompInfo::*)()>(&WTauNafPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WTauNafPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafPreCompInfo::*)()>(&WTauNafPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WTauNafPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafPreCompInfo");

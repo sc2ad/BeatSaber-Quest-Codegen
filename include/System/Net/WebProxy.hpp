@@ -126,85 +126,85 @@ namespace System::Net {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Void .ctor(System.Uri Address, System.Boolean BypassOnLocal, System.String[] BypassList, System.Net.ICredentials Credentials)
-    // Offset: 0x15AF73C
+    // Offset: 0x15C944C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::Array<::Il2CppString*>* BypassList, System::Net::ICredentials* Credentials) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(Address, BypassOnLocal, BypassList, Credentials)));
     }
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x15AFA2C
+    // Offset: 0x15C973C
     System::Net::ICredentials* get_Credentials();
     // public System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x15AFA34
+    // Offset: 0x15C9744
     bool get_UseDefaultCredentials();
     // public System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x15AFAB8
+    // Offset: 0x15C97C8
     void set_UseDefaultCredentials(bool value);
     // public System.Uri GetProxy(System.Uri destination)
-    // Offset: 0x15AFB40
+    // Offset: 0x15C9850
     System::Uri* GetProxy(System::Uri* destination);
     // private System.Void UpdateRegExList(System.Boolean canThrow)
-    // Offset: 0x15AF7F4
+    // Offset: 0x15C9504
     void UpdateRegExList(bool canThrow);
     // private System.Boolean IsMatchInBypassList(System.Uri input)
-    // Offset: 0x15AFF60
+    // Offset: 0x15C9C70
     bool IsMatchInBypassList(System::Uri* input);
     // private System.Boolean IsLocal(System.Uri host)
-    // Offset: 0x15B00F8
+    // Offset: 0x15C9E08
     bool IsLocal(System::Uri* host);
     // private System.Boolean IsLocalInProxyHash(System.Uri host)
-    // Offset: 0x15B0268
+    // Offset: 0x15C9F78
     bool IsLocalInProxyHash(System::Uri* host);
     // public System.Boolean IsBypassed(System.Uri host)
-    // Offset: 0x15B0370
+    // Offset: 0x15CA080
     bool IsBypassed(System::Uri* host);
     // private System.Boolean IsBypassedManual(System.Uri host)
-    // Offset: 0x15AFE7C
+    // Offset: 0x15C9B8C
     bool IsBypassedManual(System::Uri* host);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15B0584
+    // Offset: 0x15CA294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(serializationInfo, streamingContext)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15B0848
+    // Offset: 0x15CA558
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // protected System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x15B0854
+    // Offset: 0x15CA564
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
     // System.Net.AutoWebProxyScriptEngine get_ScriptEngine()
-    // Offset: 0x15B0950
+    // Offset: 0x15CA660
     System::Net::AutoWebProxyScriptEngine* get_ScriptEngine();
     // static public System.Net.IWebProxy CreateDefaultProxy()
-    // Offset: 0x15B0958
+    // Offset: 0x15CA668
     static System::Net::IWebProxy* CreateDefaultProxy();
     // System.Void .ctor(System.Boolean enableAutoproxy)
-    // Offset: 0x15B09C0
+    // Offset: 0x15CA6D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxy* New_ctor(bool enableAutoproxy) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(enableAutoproxy)));
     }
     // System.Void UnsafeUpdateFromRegistry()
-    // Offset: 0x15B083C
+    // Offset: 0x15CA54C
     void UnsafeUpdateFromRegistry();
     // private System.Boolean GetProxyAuto(System.Uri destination, out System.Uri proxyUri)
-    // Offset: 0x15AFCE0
+    // Offset: 0x15C99F0
     bool GetProxyAuto(System::Uri* destination, System::Uri*& proxyUri);
     // private System.Boolean IsBypassedAuto(System.Uri destination, out System.Boolean isBypassed)
-    // Offset: 0x15B0464
+    // Offset: 0x15CA174
     bool IsBypassedAuto(System::Uri* destination, bool& isBypassed);
     // static private System.Boolean AreAllBypassed(System.Collections.Generic.IEnumerable`1<System.String> proxies, System.Boolean checkFirstOnly)
-    // Offset: 0x15B09F8
+    // Offset: 0x15CA708
     static bool AreAllBypassed(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* proxies, bool checkFirstOnly);
     // static private System.Uri ProxyUri(System.String proxyName)
-    // Offset: 0x15B0C64
+    // Offset: 0x15CA974
     static System::Uri* ProxyUri(::Il2CppString* proxyName);
     // public System.Void .ctor()
-    // Offset: 0x15AF728
+    // Offset: 0x15C9438
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -216,5 +216,213 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(WebProxy), 64 + sizeof(System::Net::AutoWebProxyScriptEngine*)> __System_Net_WebProxySizeCheck;
   static_assert(sizeof(WebProxy) == 0x48);
+  // Writing MetadataGetter for method: WebProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(System::Uri*, bool, ::Array<::Il2CppString*>*, System::Net::ICredentials*)>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(System::Uri*, bool, ::Array<::Il2CppString*>*, System::Net::ICredentials*)>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::get_Credentials
+  // Il2CppName: get_Credentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (WebProxy::*)()>(&WebProxy::get_Credentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::get_UseDefaultCredentials
+  // Il2CppName: get_UseDefaultCredentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)()>(&WebProxy::get_UseDefaultCredentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "get_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::set_UseDefaultCredentials
+  // Il2CppName: set_UseDefaultCredentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(bool)>(&WebProxy::set_UseDefaultCredentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "set_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::GetProxy
+  // Il2CppName: GetProxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (WebProxy::*)(System::Uri*)>(&WebProxy::GetProxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::UpdateRegExList
+  // Il2CppName: UpdateRegExList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(bool)>(&WebProxy::UpdateRegExList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "UpdateRegExList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::IsMatchInBypassList
+  // Il2CppName: IsMatchInBypassList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*)>(&WebProxy::IsMatchInBypassList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "IsMatchInBypassList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::IsLocal
+  // Il2CppName: IsLocal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*)>(&WebProxy::IsLocal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "IsLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::IsLocalInProxyHash
+  // Il2CppName: IsLocalInProxyHash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*)>(&WebProxy::IsLocalInProxyHash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "IsLocalInProxyHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::IsBypassed
+  // Il2CppName: IsBypassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*)>(&WebProxy::IsBypassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::IsBypassedManual
+  // Il2CppName: IsBypassedManual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*)>(&WebProxy::IsBypassedManual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "IsBypassedManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::System_Runtime_Serialization_ISerializable_GetObjectData
+  // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebProxy::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::GetObjectData
+  // Il2CppName: GetObjectData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WebProxy::GetObjectData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::get_ScriptEngine
+  // Il2CppName: get_ScriptEngine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::AutoWebProxyScriptEngine* (WebProxy::*)()>(&WebProxy::get_ScriptEngine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "get_ScriptEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::CreateDefaultProxy
+  // Il2CppName: CreateDefaultProxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&WebProxy::CreateDefaultProxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "CreateDefaultProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(bool)>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)(bool)>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::UnsafeUpdateFromRegistry
+  // Il2CppName: UnsafeUpdateFromRegistry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)()>(&WebProxy::UnsafeUpdateFromRegistry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "UnsafeUpdateFromRegistry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::GetProxyAuto
+  // Il2CppName: GetProxyAuto
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*, System::Uri*&)>(&WebProxy::GetProxyAuto)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "GetProxyAuto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::IsBypassedAuto
+  // Il2CppName: IsBypassedAuto
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebProxy::*)(System::Uri*, bool&)>(&WebProxy::IsBypassedAuto)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "IsBypassedAuto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::AreAllBypassed
+  // Il2CppName: AreAllBypassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, bool)>(&WebProxy::AreAllBypassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "AreAllBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::ProxyUri
+  // Il2CppName: ProxyUri
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Il2CppString*)>(&WebProxy::ProxyUri)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), "ProxyUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)()>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebProxy::*)()>(&WebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebProxy*, "System.Net", "WebProxy");

@@ -40,7 +40,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: MatchmakingAdminSnapshot
     MatchmakingAdminSnapshot(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* Candidates_ = {}, double MyCurrentThreshold_ = {}) noexcept : Candidates{Candidates_}, MyCurrentThreshold{MyCurrentThreshold_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B6480
+    // Offset: 0x14D1190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MatchmakingAdminSnapshot* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingAdminSnapshot::.ctor");
@@ -50,5 +50,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(MatchmakingAdminSnapshot), 24 + sizeof(double)> __Oculus_Platform_Models_MatchmakingAdminSnapshotSizeCheck;
   static_assert(sizeof(MatchmakingAdminSnapshot) == 0x20);
+  // Writing MetadataGetter for method: MatchmakingAdminSnapshot::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingAdminSnapshot::*)(System::IntPtr)>(&MatchmakingAdminSnapshot::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MatchmakingAdminSnapshot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchmakingAdminSnapshot::*)(System::IntPtr)>(&MatchmakingAdminSnapshot::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MatchmakingAdminSnapshot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");

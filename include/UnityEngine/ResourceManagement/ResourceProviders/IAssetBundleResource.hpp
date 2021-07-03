@@ -25,6 +25,14 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::AssetBundle* GetAssetBundle();
   }; // UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAssetBundleResource::GetAssetBundle
+  // Il2CppName: GetAssetBundle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (IAssetBundleResource::*)()>(&IAssetBundleResource::GetAssetBundle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAssetBundleResource*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");

@@ -30,13 +30,29 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Application
     Application() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ApplicationVersion> GetVersion()
-    // Offset: 0x1BAFF34
+    // Offset: 0x1BCAC44
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
     // static public Oculus.Platform.Request`1<System.String> LaunchOtherApp(System.UInt64 appID, Oculus.Platform.ApplicationOptions deeplink_options)
-    // Offset: 0x1BB00B0
+    // Offset: 0x1BCADC0
     static Oculus::Platform::Request_1<::Il2CppString*>* LaunchOtherApp(uint64_t appID, Oculus::Platform::ApplicationOptions* deeplink_options);
   }; // Oculus.Platform.Application
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Application::GetVersion
+  // Il2CppName: GetVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* (*)()>(&Application::GetVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Application*), "GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Application::LaunchOtherApp
+  // Il2CppName: LaunchOtherApp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)(uint64_t, Oculus::Platform::ApplicationOptions*)>(&Application::LaunchOtherApp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Application*), "LaunchOtherApp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ApplicationOptions*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Application*, "Oculus.Platform", "Application");

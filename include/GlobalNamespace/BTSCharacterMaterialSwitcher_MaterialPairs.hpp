@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MaterialPairs
     MaterialPairs(int materialIndex_ = {}, UnityEngine::Material* defaultMaterial_ = {}, UnityEngine::Material* alternativeMaterial_ = {}) noexcept : materialIndex{materialIndex_}, defaultMaterial{defaultMaterial_}, alternativeMaterial{alternativeMaterial_} {}
     // public System.Void .ctor()
-    // Offset: 0x1134F14
+    // Offset: 0x113A77C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterMaterialSwitcher::MaterialPairs), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_MaterialPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::MaterialPairs) == 0x28);
+  // Writing MetadataGetter for method: BTSCharacterMaterialSwitcher::MaterialPairs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::MaterialPairs::*)()>(&BTSCharacterMaterialSwitcher::MaterialPairs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher::MaterialPairs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::MaterialPairs::*)()>(&BTSCharacterMaterialSwitcher::MaterialPairs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher::MaterialPairs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");

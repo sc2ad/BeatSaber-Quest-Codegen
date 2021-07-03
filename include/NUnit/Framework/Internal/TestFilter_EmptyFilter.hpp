@@ -30,27 +30,27 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: EmptyFilter
     EmptyFilter() noexcept {}
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x22955D8
+    // Offset: 0x22B0334
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean Pass(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x22955E0
+    // Offset: 0x22B033C
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Pass(NUnit.Framework.Interfaces.ITest test)
     bool Pass(NUnit::Framework::Interfaces::ITest* test);
     // public override System.Boolean IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x22955E8
+    // Offset: 0x22B0344
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::IsExplicitMatch(NUnit.Framework.Interfaces.ITest test)
     bool IsExplicitMatch(NUnit::Framework::Interfaces::ITest* test);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x22955F0
+    // Offset: 0x22B034C
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: NUnit.Framework.Interfaces.TNode TestFilter::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);
     // public System.Void .ctor()
-    // Offset: 0x2295570
+    // Offset: 0x22B02CC
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Void TestFilter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -61,5 +61,51 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.TestFilter/EmptyFilter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TestFilter::EmptyFilter::Match
+  // Il2CppName: Match
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestFilter::EmptyFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&TestFilter::EmptyFilter::Match)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestFilter::EmptyFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestFilter::EmptyFilter::Pass
+  // Il2CppName: Pass
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestFilter::EmptyFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&TestFilter::EmptyFilter::Pass)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestFilter::EmptyFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestFilter::EmptyFilter::IsExplicitMatch
+  // Il2CppName: IsExplicitMatch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestFilter::EmptyFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&TestFilter::EmptyFilter::IsExplicitMatch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestFilter::EmptyFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestFilter::EmptyFilter::AddToXml
+  // Il2CppName: AddToXml
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (TestFilter::EmptyFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&TestFilter::EmptyFilter::AddToXml)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestFilter::EmptyFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestFilter::EmptyFilter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestFilter::EmptyFilter::*)()>(&TestFilter::EmptyFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestFilter::EmptyFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestFilter::EmptyFilter::*)()>(&TestFilter::EmptyFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestFilter::EmptyFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFilter::EmptyFilter*, "NUnit.Framework.Internal", "TestFilter/EmptyFilter");

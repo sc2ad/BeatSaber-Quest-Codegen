@@ -37,24 +37,62 @@ namespace Org::BouncyCastle::Asn1::X509 {
       return e;
     }
     // System.Void .ctor(System.Collections.IEnumerator e)
-    // Offset: 0x19F1510
+    // Offset: 0x1A0A220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator* New_ctor(System::Collections::IEnumerator* e) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, creationType>(e)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x19F153C
+    // Offset: 0x1A0A24C
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19F15EC
+    // Offset: 0x1A0A2FC
     void Reset();
     // public System.Object get_Current()
-    // Offset: 0x19F16A0
+    // Offset: 0x1A0A3B0
     ::Il2CppObject* get_Current();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator
   #pragma pack(pop)
   static check_size<sizeof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator), 16 + sizeof(System::Collections::IEnumerator*)> __Org_BouncyCastle_Asn1_X509_TbsCertificateList_RevokedCertificatesEnumeration_RevokedCertificatesEnumeratorSizeCheck;
   static_assert(sizeof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator) == 0x18);
+  // Writing MetadataGetter for method: TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::*)(System::Collections::IEnumerator*)>(&TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::*)(System::Collections::IEnumerator*)>(&TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::*)()>(&TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::*)()>(&TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::*)()>(&TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration/RevokedCertificatesEnumerator");

@@ -28,7 +28,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Creating value type constructor for type: AssemblyNameFilter
     AssemblyNameFilter() noexcept {}
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0x148B03C
+    // Offset: 0x14A5D4C
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -37,16 +37,46 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyNameFilter*, creationType>(assemblyName)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x148B044
+    // Offset: 0x14A5D54
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);
     // protected override System.String get_ElementName()
-    // Offset: 0x148B534
+    // Offset: 0x14A6244
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::Il2CppString* get_ElementName();
   }; // UnityEngine.TestRunner.NUnitExtensions.Filters.AssemblyNameFilter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AssemblyNameFilter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyNameFilter::*)(::Il2CppString*)>(&AssemblyNameFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyNameFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyNameFilter::*)(::Il2CppString*)>(&AssemblyNameFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyNameFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssemblyNameFilter::Match
+  // Il2CppName: Match
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssemblyNameFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&AssemblyNameFilter::Match)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyNameFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssemblyNameFilter::get_ElementName
+  // Il2CppName: get_ElementName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssemblyNameFilter::*)()>(&AssemblyNameFilter::get_ElementName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssemblyNameFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "AssemblyNameFilter");

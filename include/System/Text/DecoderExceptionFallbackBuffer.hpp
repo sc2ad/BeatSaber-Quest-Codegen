@@ -21,20 +21,20 @@ namespace System::Text {
     // Creating value type constructor for type: DecoderExceptionFallbackBuffer
     DecoderExceptionFallbackBuffer() noexcept {}
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1B46078
+    // Offset: 0x1B61D88
     void Throw(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1B4606C
+    // Offset: 0x1B61D7C
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::Array<uint8_t>* bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1B462AC
+    // Offset: 0x1B61FBC
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public System.Void .ctor()
-    // Offset: 0x1B45FF0
+    // Offset: 0x1B61D00
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -45,5 +45,43 @@ namespace System::Text {
     }
   }; // System.Text.DecoderExceptionFallbackBuffer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DecoderExceptionFallbackBuffer::Throw
+  // Il2CppName: Throw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderExceptionFallbackBuffer::*)(::Array<uint8_t>*, int)>(&DecoderExceptionFallbackBuffer::Throw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DecoderExceptionFallbackBuffer*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DecoderExceptionFallbackBuffer::Fallback
+  // Il2CppName: Fallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DecoderExceptionFallbackBuffer::*)(::Array<uint8_t>*, int)>(&DecoderExceptionFallbackBuffer::Fallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DecoderExceptionFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DecoderExceptionFallbackBuffer::GetNextChar
+  // Il2CppName: GetNextChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (DecoderExceptionFallbackBuffer::*)()>(&DecoderExceptionFallbackBuffer::GetNextChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DecoderExceptionFallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DecoderExceptionFallbackBuffer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderExceptionFallbackBuffer::*)()>(&DecoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DecoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderExceptionFallbackBuffer::*)()>(&DecoderExceptionFallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DecoderExceptionFallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderExceptionFallbackBuffer*, "System.Text", "DecoderExceptionFallbackBuffer");

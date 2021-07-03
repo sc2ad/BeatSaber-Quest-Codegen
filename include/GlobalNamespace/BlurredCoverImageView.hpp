@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* coverImage;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE26CC4
+    // [SpaceAttribute] Offset: 0xE26D08
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x20
@@ -80,13 +80,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x1085E7C
+    // Offset: 0x11107D8
     void OnDestroy();
     // public System.Void SetTextureAsync(IPreviewBeatmapLevel level)
-    // Offset: 0x1085F44
+    // Offset: 0x11108A0
     void SetTextureAsync(GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void .ctor()
-    // Offset: 0x1086008
+    // Offset: 0x1110964
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,5 +102,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BlurredCoverImageView), 56 + sizeof(UnityEngine::Texture2D*)> __GlobalNamespace_BlurredCoverImageViewSizeCheck;
   static_assert(sizeof(BlurredCoverImageView) == 0x40);
+  // Writing MetadataGetter for method: BlurredCoverImageView::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlurredCoverImageView::*)()>(&BlurredCoverImageView::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BlurredCoverImageView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BlurredCoverImageView::SetTextureAsync
+  // Il2CppName: SetTextureAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlurredCoverImageView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&BlurredCoverImageView::SetTextureAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BlurredCoverImageView*), "SetTextureAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BlurredCoverImageView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlurredCoverImageView::*)()>(&BlurredCoverImageView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BlurredCoverImageView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlurredCoverImageView::*)()>(&BlurredCoverImageView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BlurredCoverImageView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlurredCoverImageView*, "", "BlurredCoverImageView");

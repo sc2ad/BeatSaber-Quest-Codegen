@@ -40,17 +40,17 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Int32 begin, System.Int32 end)
-    // Offset: 0xF12C3C
+    // Offset: 0xF13BF4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  SearchRange(int begin, int end)
     // public System.Boolean Valid()
-    // Offset: 0xF12C44
+    // Offset: 0xF13BFC
     bool Valid();
     // public System.Int32 Center()
-    // Offset: 0xF12C58
+    // Offset: 0xF13C10
     int Center();
     // public override System.String ToString()
-    // Offset: 0xF12C70
+    // Offset: 0xF13C28
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -58,5 +58,43 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(ArrayUtility::SearchRange), 4 + sizeof(int)> __UnityEngine_ProBuilder_ArrayUtility_SearchRangeSizeCheck;
   static_assert(sizeof(ArrayUtility::SearchRange) == 0x8);
+  // Writing MetadataGetter for method: ArrayUtility::SearchRange::SearchRange
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayUtility::SearchRange::*)(int, int)>(&ArrayUtility::SearchRange::SearchRange<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayUtility::SearchRange), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayUtility::SearchRange::*)(int, int)>(&ArrayUtility::SearchRange::SearchRange<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayUtility::SearchRange), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayUtility::SearchRange::Valid
+  // Il2CppName: Valid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArrayUtility::SearchRange::*)()>(&ArrayUtility::SearchRange::Valid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayUtility::SearchRange), "Valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayUtility::SearchRange::Center
+  // Il2CppName: Center
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArrayUtility::SearchRange::*)()>(&ArrayUtility::SearchRange::Center)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayUtility::SearchRange), "Center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayUtility::SearchRange::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ArrayUtility::SearchRange::*)()>(&ArrayUtility::SearchRange::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayUtility::SearchRange), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility::SearchRange, "UnityEngine.ProBuilder", "ArrayUtility/SearchRange");

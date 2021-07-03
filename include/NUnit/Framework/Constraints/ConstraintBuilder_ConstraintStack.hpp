@@ -40,12 +40,20 @@ namespace NUnit::Framework::Constraints {
       return stack;
     }
     // public NUnit.Framework.Constraints.IConstraint Pop()
-    // Offset: 0x170C964
+    // Offset: 0x1724674
     NUnit::Framework::Constraints::IConstraint* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/ConstraintStack
   #pragma pack(pop)
   static check_size<sizeof(ConstraintBuilder::ConstraintStack), 16 + sizeof(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::IConstraint*>*)> __NUnit_Framework_Constraints_ConstraintBuilder_ConstraintStackSizeCheck;
   static_assert(sizeof(ConstraintBuilder::ConstraintStack) == 0x18);
+  // Writing MetadataGetter for method: ConstraintBuilder::ConstraintStack::Pop
+  // Il2CppName: Pop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (ConstraintBuilder::ConstraintStack::*)()>(&ConstraintBuilder::ConstraintStack::Pop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder::ConstraintStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack");

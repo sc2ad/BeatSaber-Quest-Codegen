@@ -27,13 +27,29 @@ namespace UnityEngine::ProBuilder {
     // Creating value type constructor for type: Clipping
     Clipping() noexcept {}
     // static private UnityEngine.ProBuilder.Clipping/OutCode ComputeOutCode(UnityEngine.Rect rect, System.Single x, System.Single y)
-    // Offset: 0x1F47598
+    // Offset: 0x1F632F4
     static UnityEngine::ProBuilder::Clipping::OutCode ComputeOutCode(UnityEngine::Rect rect, float x, float y);
     // static System.Boolean RectContainsLineSegment(UnityEngine.Rect rect, System.Single x0, System.Single y0, System.Single x1, System.Single y1)
-    // Offset: 0x1F47640
+    // Offset: 0x1F6339C
     static bool RectContainsLineSegment(UnityEngine::Rect rect, float x0, float y0, float x1, float y1);
   }; // UnityEngine.ProBuilder.Clipping
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Clipping::ComputeOutCode
+  // Il2CppName: ComputeOutCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Clipping::OutCode (*)(UnityEngine::Rect, float, float)>(&Clipping::ComputeOutCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Clipping*), "ComputeOutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Clipping::RectContainsLineSegment
+  // Il2CppName: RectContainsLineSegment
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, float, float, float, float)>(&Clipping::RectContainsLineSegment)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Clipping*), "RectContainsLineSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping*, "UnityEngine.ProBuilder", "Clipping");

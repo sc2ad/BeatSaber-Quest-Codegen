@@ -21,6 +21,22 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void set_Hash(int value);
   }; // UnityEngine.ResourceManagement.AsyncOperations.ICachable
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ICachable::get_Hash
+  // Il2CppName: get_Hash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ICachable::*)()>(&ICachable::get_Hash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ICachable*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ICachable::set_Hash
+  // Il2CppName: set_Hash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICachable::*)(int)>(&ICachable::set_Hash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ICachable*), "set_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::ICachable*, "UnityEngine.ResourceManagement.AsyncOperations", "ICachable");

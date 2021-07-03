@@ -67,20 +67,20 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static private UnityEngine.MonoBehaviour m_MonoBehaviourCoroutineRunner
     static void _set_m_MonoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // static public UnityEngine.MonoBehaviour get_monoBehaviourCoroutineRunner()
-    // Offset: 0x148F644
+    // Offset: 0x14AA354
     static UnityEngine::MonoBehaviour* get_monoBehaviourCoroutineRunner();
     // static public System.Void set_monoBehaviourCoroutineRunner(UnityEngine.MonoBehaviour value)
-    // Offset: 0x148F710
+    // Offset: 0x14AA420
     static void set_monoBehaviourCoroutineRunner(UnityEngine::MonoBehaviour* value);
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
-    // Offset: 0x148F764
+    // Offset: 0x14AA474
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoroutineTestWorkItem* New_ctor(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineTestWorkItem*, creationType>(test, filter)));
     }
     // protected override System.Collections.IEnumerable PerformWork()
-    // Offset: 0x148FFE0
+    // Offset: 0x14AACF0
     // Implemented from: UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
     // Base method: System.Collections.IEnumerable UnityWorkItem::PerformWork()
     System::Collections::IEnumerable* PerformWork();
@@ -88,5 +88,43 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
   static check_size<sizeof(CoroutineTestWorkItem), 88 + sizeof(NUnit::Framework::Internal::Commands::TestCommand*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_CoroutineTestWorkItemSizeCheck;
   static_assert(sizeof(CoroutineTestWorkItem) == 0x60);
+  // Writing MetadataGetter for method: CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner
+  // Il2CppName: get_monoBehaviourCoroutineRunner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MonoBehaviour* (*)()>(&CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "get_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner
+  // Il2CppName: set_monoBehaviourCoroutineRunner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "set_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineTestWorkItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineTestWorkItem::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&CoroutineTestWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineTestWorkItem::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&CoroutineTestWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CoroutineTestWorkItem::PerformWork
+  // Il2CppName: PerformWork
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (CoroutineTestWorkItem::*)()>(&CoroutineTestWorkItem::PerformWork)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CoroutineTestWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");

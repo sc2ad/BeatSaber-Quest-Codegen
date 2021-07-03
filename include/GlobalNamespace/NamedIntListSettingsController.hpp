@@ -42,22 +42,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NamedIntListSettingsController
     NamedIntListSettingsController(GlobalNamespace::IntSO* settingsValue_ = {}, ::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>* textValuePairs_ = {}) noexcept : settingsValue{settingsValue_}, textValuePairs{textValuePairs_} {}
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x23EAA68
+    // Offset: 0x10155E4
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x23EAB50
+    // Offset: 0x10156CC
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x23EABE4
+    // Offset: 0x1015760
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x23EAC38
+    // Offset: 0x10157B4
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -75,5 +75,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NamedIntListSettingsController), 48 + sizeof(::Array<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>*)> __GlobalNamespace_NamedIntListSettingsControllerSizeCheck;
   static_assert(sizeof(NamedIntListSettingsController) == 0x38);
+  // Writing MetadataGetter for method: NamedIntListSettingsController::GetInitValues
+  // Il2CppName: GetInitValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NamedIntListSettingsController::*)(int&, int&)>(&NamedIntListSettingsController::GetInitValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamedIntListSettingsController::ApplyValue
+  // Il2CppName: ApplyValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListSettingsController::*)(int)>(&NamedIntListSettingsController::ApplyValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamedIntListSettingsController::TextForValue
+  // Il2CppName: TextForValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NamedIntListSettingsController::*)(int)>(&NamedIntListSettingsController::TextForValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamedIntListSettingsController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListSettingsController::*)()>(&NamedIntListSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListSettingsController::*)()>(&NamedIntListSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController*, "", "NamedIntListSettingsController");

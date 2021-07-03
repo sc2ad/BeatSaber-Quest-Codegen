@@ -90,13 +90,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StrobeStreakData
     StrobeStreakData(bool isActive_ = {}, float strobeStartTime_ = {}, GlobalNamespace::ColorType startColorType_ = {}, float lastSwitchTime_ = {}, GlobalNamespace::ColorType lastColorType_ = {}, bool lastIsOn_ = {}, int lastSwitchBeatmapIndex_ = {}, GlobalNamespace::BeatmapEventData* originalBeatmapEventData_ = {}, int originalBeatmapDataIndex_ = {}) noexcept : isActive{isActive_}, strobeStartTime{strobeStartTime_}, startColorType{startColorType_}, lastSwitchTime{lastSwitchTime_}, lastColorType{lastColorType_}, lastIsOn{lastIsOn_}, lastSwitchBeatmapIndex{lastSwitchBeatmapIndex_}, originalBeatmapEventData{originalBeatmapEventData_}, originalBeatmapDataIndex{originalBeatmapDataIndex_} {}
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
-    // Offset: 0x11AC790
+    // Offset: 0x11C6814
     void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
     // public System.Void AddStrobeData(BeatmapEventData startEventData, System.Int32 beatmapIndex)
-    // Offset: 0x11AC5F4
+    // Offset: 0x11C6678
     void AddStrobeData(GlobalNamespace::BeatmapEventData* startEventData, int beatmapIndex);
     // public System.Void .ctor()
-    // Offset: 0x11AC5EC
+    // Offset: 0x11C6670
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,5 +108,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData), 56 + sizeof(int)> __GlobalNamespace_BeatmapDataStrobeFilterTransform_StrobeStreakDataSizeCheck;
   static_assert(sizeof(BeatmapDataStrobeFilterTransform::StrobeStreakData) == 0x3C);
+  // Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe
+  // Il2CppName: StartPotentialStrobe
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(GlobalNamespace::BeatmapEventData*, int)>(&BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform::StrobeStreakData*), "StartPotentialStrobe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::StrobeStreakData::AddStrobeData
+  // Il2CppName: AddStrobeData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(GlobalNamespace::BeatmapEventData*, int)>(&BeatmapDataStrobeFilterTransform::StrobeStreakData::AddStrobeData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform::StrobeStreakData*), "AddStrobeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapDataStrobeFilterTransform::StrobeStreakData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDataStrobeFilterTransform::StrobeStreakData::*)()>(&BeatmapDataStrobeFilterTransform::StrobeStreakData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform::StrobeStreakData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDataStrobeFilterTransform::StrobeStreakData::*)()>(&BeatmapDataStrobeFilterTransform::StrobeStreakData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapDataStrobeFilterTransform::StrobeStreakData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*, "", "BeatmapDataStrobeFilterTransform/StrobeStreakData");

@@ -31,7 +31,7 @@ namespace OnlineServices::API {
       return exist;
     }
     // public System.Void .ctor()
-    // Offset: 0x11D65C0
+    // Offset: 0x11F0F14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -43,5 +43,19 @@ namespace OnlineServices::API {
   #pragma pack(pop)
   static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto), 16 + sizeof(bool)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto) == 0x11);
+  // Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::*)()>(&HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::*)()>(&HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto");

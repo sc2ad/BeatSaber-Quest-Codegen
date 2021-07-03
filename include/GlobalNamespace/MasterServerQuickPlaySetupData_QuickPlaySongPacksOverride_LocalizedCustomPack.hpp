@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedCustomPack
     LocalizedCustomPack(::Il2CppString* serializedName_ = {}, int order_ = {}, ::Array<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>* localizedNames_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* packIds_ = {}) noexcept : serializedName{serializedName_}, order{order_}, localizedNames{localizedNames_}, packIds{packIds_} {}
     // public System.Void .ctor()
-    // Offset: 0x10DBB24
+    // Offset: 0x2406CD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,5 +67,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack), 40 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack) == 0x30);
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack");

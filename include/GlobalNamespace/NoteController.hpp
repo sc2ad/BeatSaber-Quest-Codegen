@@ -156,52 +156,52 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ILazyCopyHashSet`1<INoteControllerNoteDidStartJumpEvent> get_noteDidStartJumpEvent()
-    // Offset: 0x11B6AD0
+    // Offset: 0x11D1424
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* get_noteDidStartJumpEvent();
     // public ILazyCopyHashSet`1<INoteControllerNoteDidFinishJumpEvent> get_noteDidFinishJumpEvent()
-    // Offset: 0x11B6AD8
+    // Offset: 0x11D142C
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* get_noteDidFinishJumpEvent();
     // public ILazyCopyHashSet`1<INoteControllerNoteWasCutEvent> get_noteWasCutEvent()
-    // Offset: 0x11B6AE8
+    // Offset: 0x11D143C
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent*>* get_noteWasCutEvent();
     // public ILazyCopyHashSet`1<INoteControllerNoteWasMissedEvent> get_noteWasMissedEvent()
-    // Offset: 0x11B6AF0
+    // Offset: 0x11D1444
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent*>* get_noteWasMissedEvent();
     // public ILazyCopyHashSet`1<INoteControllerNoteDidDissolveEvent> get_noteDidDissolveEvent()
-    // Offset: 0x11B6B00
+    // Offset: 0x11D1454
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* get_noteDidDissolveEvent();
     // public UnityEngine.Transform get_noteTransform()
-    // Offset: 0x11B6B08
+    // Offset: 0x11D145C
     UnityEngine::Transform* get_noteTransform();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x11B6B10
+    // Offset: 0x11D1464
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x11B6B5C
+    // Offset: 0x11D14B0
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public System.Single get_moveStartTime()
-    // Offset: 0x11B6BA8
+    // Offset: 0x11D14FC
     float get_moveStartTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x11B6BEC
+    // Offset: 0x11D1540
     float get_moveDuration();
     // public System.Single get_jumpDuration()
-    // Offset: 0x11B6C30
+    // Offset: 0x11D1584
     float get_jumpDuration();
     // public UnityEngine.Vector3 get_jumpMoveVec()
-    // Offset: 0x11B6C74
+    // Offset: 0x11D15C8
     UnityEngine::Vector3 get_jumpMoveVec();
     // public UnityEngine.Vector3 get_beatPos()
-    // Offset: 0x11B6CC0
+    // Offset: 0x11D1614
     UnityEngine::Vector3 get_beatPos();
     // public UnityEngine.Vector3 get_jumpStartPos()
-    // Offset: 0x11B6CFC
+    // Offset: 0x11D1650
     UnityEngine::Vector3 get_jumpStartPos();
     // public UnityEngine.Vector3 get_moveVec()
-    // Offset: 0x11B6D50
+    // Offset: 0x11D16A4
     UnityEngine::Vector3 get_moveVec();
     // public System.Single get_uniformScale()
-    // Offset: 0x11B6E1C
+    // Offset: 0x11D1770
     float get_uniformScale();
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0xFFFFFFFF
@@ -213,84 +213,84 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void set_pause(bool value);
     // protected System.Void Awake()
-    // Offset: 0x11B6E24
+    // Offset: 0x11D1778
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B71F4
+    // Offset: 0x11D1B48
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x11B760C
+    // Offset: 0x11D1F60
     void Update();
     // public System.Void ManualUpdate()
-    // Offset: 0x11B761C
+    // Offset: 0x11D1F70
     void ManualUpdate();
     // private System.Void HandleNoteDidStartJump()
-    // Offset: 0x11B76F4
+    // Offset: 0x11D2048
     void HandleNoteDidStartJump();
     // private System.Void HandleNoteDidFinishJump()
-    // Offset: 0x11B7880
+    // Offset: 0x11D21D4
     void HandleNoteDidFinishJump();
     // private System.Void HandleNoteDidPassJumpThreeQuarters(NoteMovement noteMovement)
-    // Offset: 0x11B7A14
+    // Offset: 0x11D2368
     void HandleNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteMovement* noteMovement);
     // private System.Void HandleNoteDidPassMissedMarkerEvent()
-    // Offset: 0x11B7BB0
+    // Offset: 0x11D2504
     void HandleNoteDidPassMissedMarkerEvent();
     // protected System.Void NoteDidStartJump()
-    // Offset: 0x11B7BCC
+    // Offset: 0x11D2520
     void NoteDidStartJump();
     // protected System.Void NoteDidFinishJump()
-    // Offset: 0x11B7BD0
+    // Offset: 0x11D2524
     void NoteDidFinishJump();
     // protected System.Void NoteDidPassJumpThreeQuarters(NoteMovement noteMovement)
-    // Offset: 0x11B7BD4
+    // Offset: 0x11D2528
     void NoteDidPassJumpThreeQuarters(GlobalNamespace::NoteMovement* noteMovement);
     // protected System.Void NoteDidPassMissedMarker()
-    // Offset: 0x11B7BD8
+    // Offset: 0x11D252C
     void NoteDidPassMissedMarker();
     // protected System.Void NoteDidStartDissolving()
-    // Offset: 0x11B7BDC
+    // Offset: 0x11D2530
     void NoteDidStartDissolving();
     // protected System.Void SendNoteWasMissedEvent()
-    // Offset: 0x11B7BE0
+    // Offset: 0x11D2534
     void SendNoteWasMissedEvent();
     // protected System.Void SendNoteWasCutEvent(in NoteCutInfo noteCutInfo)
-    // Offset: 0x11B7D58
+    // Offset: 0x11D26AC
     void SendNoteWasCutEvent(GlobalNamespace::NoteCutInfo& noteCutInfo);
     // protected System.Void Init(NoteData noteData, System.Single worldRotation, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single moveDuration, System.Single jumpDuration, System.Single jumpGravity, System.Single endRotation, System.Single uniformScale)
-    // Offset: 0x11B7EE0
+    // Offset: 0x11D2834
     void Init(GlobalNamespace::NoteData* noteData, float worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float moveDuration, float jumpDuration, float jumpGravity, float endRotation, float uniformScale);
     // private System.Collections.IEnumerator DissolveCoroutine(System.Single duration)
-    // Offset: 0x11B8350
+    // Offset: 0x11D2CA4
     System::Collections::IEnumerator* DissolveCoroutine(float duration);
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0x11B83FC
+    // Offset: 0x11D2D50
     void Dissolve(float duration);
     // private UnityEngine.Transform INoteMirrorable.get_transform()
-    // Offset: 0x11B85F0
+    // Offset: 0x11D2F44
     UnityEngine::Transform* INoteMirrorable_get_transform();
     // public override ILazyCopyHashSet`1<INoteControllerDidInitEvent> get_didInitEvent()
-    // Offset: 0x11B6AC8
+    // Offset: 0x11D141C
     // Implemented from: NoteControllerBase
     // Base method: ILazyCopyHashSet`1<INoteControllerDidInitEvent> NoteControllerBase::get_didInitEvent()
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent();
     // public override ILazyCopyHashSet`1<INoteControllerNoteDidPassJumpThreeQuartersEvent> get_noteDidPassJumpThreeQuartersEvent()
-    // Offset: 0x11B6AE0
+    // Offset: 0x11D1434
     // Implemented from: NoteControllerBase
     // Base method: ILazyCopyHashSet`1<INoteControllerNoteDidPassJumpThreeQuartersEvent> NoteControllerBase::get_noteDidPassJumpThreeQuartersEvent()
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* get_noteDidPassJumpThreeQuartersEvent();
     // public override ILazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent()
-    // Offset: 0x11B6AF8
+    // Offset: 0x11D144C
     // Implemented from: NoteControllerBase
     // Base method: ILazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> NoteControllerBase::get_noteDidStartDissolvingEvent()
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
     // public override NoteData get_noteData()
-    // Offset: 0x11B6D48
+    // Offset: 0x11D169C
     // Implemented from: NoteControllerBase
     // Base method: NoteData NoteControllerBase::get_noteData()
     GlobalNamespace::NoteData* get_noteData();
     // protected System.Void .ctor()
-    // Offset: 0x11B8460
+    // Offset: 0x11D2DB4
     // Implemented from: NoteControllerBase
     // Base method: System.Void NoteControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -307,5 +307,355 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteController), 116 + sizeof(float)> __GlobalNamespace_NoteControllerSizeCheck;
   static_assert(sizeof(NoteController) == 0x78);
+  // Writing MetadataGetter for method: NoteController::get_noteDidStartJumpEvent
+  // Il2CppName: get_noteDidStartJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* (NoteController::*)()>(&NoteController::get_noteDidStartJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteDidStartJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteDidFinishJumpEvent
+  // Il2CppName: get_noteDidFinishJumpEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* (NoteController::*)()>(&NoteController::get_noteDidFinishJumpEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteDidFinishJumpEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteWasCutEvent
+  // Il2CppName: get_noteWasCutEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasCutEvent*>* (NoteController::*)()>(&NoteController::get_noteWasCutEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteWasMissedEvent
+  // Il2CppName: get_noteWasMissedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteWasMissedEvent*>* (NoteController::*)()>(&NoteController::get_noteWasMissedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteDidDissolveEvent
+  // Il2CppName: get_noteDidDissolveEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* (NoteController::*)()>(&NoteController::get_noteDidDissolveEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteDidDissolveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteTransform
+  // Il2CppName: get_noteTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (NoteController::*)()>(&NoteController::get_noteTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_worldRotation
+  // Il2CppName: get_worldRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteController::*)()>(&NoteController::get_worldRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_worldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_inverseWorldRotation
+  // Il2CppName: get_inverseWorldRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (NoteController::*)()>(&NoteController::get_inverseWorldRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_inverseWorldRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_moveStartTime
+  // Il2CppName: get_moveStartTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteController::*)()>(&NoteController::get_moveStartTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_moveStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_moveDuration
+  // Il2CppName: get_moveDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteController::*)()>(&NoteController::get_moveDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_jumpDuration
+  // Il2CppName: get_jumpDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteController::*)()>(&NoteController::get_jumpDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_jumpMoveVec
+  // Il2CppName: get_jumpMoveVec
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteController::*)()>(&NoteController::get_jumpMoveVec)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_jumpMoveVec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_beatPos
+  // Il2CppName: get_beatPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteController::*)()>(&NoteController::get_beatPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_beatPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_jumpStartPos
+  // Il2CppName: get_jumpStartPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteController::*)()>(&NoteController::get_jumpStartPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_jumpStartPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_moveVec
+  // Il2CppName: get_moveVec
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteController::*)()>(&NoteController::get_moveVec)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_moveVec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_uniformScale
+  // Il2CppName: get_uniformScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteController::*)()>(&NoteController::get_uniformScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_uniformScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::set_hide
+  // Il2CppName: set_hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(bool)>(&NoteController::set_hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_hide
+  // Il2CppName: get_hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoteController::*)()>(&NoteController::get_hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::set_pause
+  // Il2CppName: set_pause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(bool)>(&NoteController::set_pause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::ManualUpdate
+  // Il2CppName: ManualUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::ManualUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::HandleNoteDidStartJump
+  // Il2CppName: HandleNoteDidStartJump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::HandleNoteDidStartJump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "HandleNoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::HandleNoteDidFinishJump
+  // Il2CppName: HandleNoteDidFinishJump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::HandleNoteDidFinishJump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "HandleNoteDidFinishJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::HandleNoteDidPassJumpThreeQuarters
+  // Il2CppName: HandleNoteDidPassJumpThreeQuarters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(GlobalNamespace::NoteMovement*)>(&NoteController::HandleNoteDidPassJumpThreeQuarters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "HandleNoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteMovement*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::HandleNoteDidPassMissedMarkerEvent
+  // Il2CppName: HandleNoteDidPassMissedMarkerEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::HandleNoteDidPassMissedMarkerEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "HandleNoteDidPassMissedMarkerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::NoteDidStartJump
+  // Il2CppName: NoteDidStartJump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::NoteDidStartJump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "NoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::NoteDidFinishJump
+  // Il2CppName: NoteDidFinishJump
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::NoteDidFinishJump)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "NoteDidFinishJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::NoteDidPassJumpThreeQuarters
+  // Il2CppName: NoteDidPassJumpThreeQuarters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(GlobalNamespace::NoteMovement*)>(&NoteController::NoteDidPassJumpThreeQuarters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "NoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteMovement*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::NoteDidPassMissedMarker
+  // Il2CppName: NoteDidPassMissedMarker
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::NoteDidPassMissedMarker)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "NoteDidPassMissedMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::NoteDidStartDissolving
+  // Il2CppName: NoteDidStartDissolving
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::NoteDidStartDissolving)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "NoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::SendNoteWasMissedEvent
+  // Il2CppName: SendNoteWasMissedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::SendNoteWasMissedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "SendNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::SendNoteWasCutEvent
+  // Il2CppName: SendNoteWasCutEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(GlobalNamespace::NoteCutInfo&)>(&NoteController::SendNoteWasCutEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "SendNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(GlobalNamespace::NoteData*, float, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float, float, float, float, float)>(&NoteController::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::DissolveCoroutine
+  // Il2CppName: DissolveCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NoteController::*)(float)>(&NoteController::DissolveCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "DissolveCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::Dissolve
+  // Il2CppName: Dissolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)(float)>(&NoteController::Dissolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "Dissolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::INoteMirrorable_get_transform
+  // Il2CppName: INoteMirrorable.get_transform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (NoteController::*)()>(&NoteController::INoteMirrorable_get_transform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "INoteMirrorable.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_didInitEvent
+  // Il2CppName: get_didInitEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerDidInitEvent*>* (NoteController::*)()>(&NoteController::get_didInitEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteDidPassJumpThreeQuartersEvent
+  // Il2CppName: get_noteDidPassJumpThreeQuartersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* (NoteController::*)()>(&NoteController::get_noteDidPassJumpThreeQuartersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteDidPassJumpThreeQuartersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteDidStartDissolvingEvent
+  // Il2CppName: get_noteDidStartDissolvingEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (NoteController::*)()>(&NoteController::get_noteDidStartDissolvingEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::get_noteData
+  // Il2CppName: get_noteData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (NoteController::*)()>(&NoteController::get_noteData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), "get_noteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteController::*)()>(&NoteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController*, "", "NoteController");

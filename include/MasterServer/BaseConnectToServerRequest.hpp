@@ -36,14 +36,14 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDF031C
+    // [CompilerGeneratedAttribute] Offset: 0xDF1250
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF032C
+    // [CompilerGeneratedAttribute] Offset: 0xDF1260
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -71,37 +71,37 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // public System.String get_userId()
-    // Offset: 0x12BD6A0
+    // Offset: 0x12D83B0
     ::Il2CppString* get_userId();
     // protected System.Void set_userId(System.String value)
-    // Offset: 0x12BD6A8
+    // Offset: 0x12D83B8
     void set_userId(::Il2CppString* value);
     // public System.String get_userName()
-    // Offset: 0x12BD6B0
+    // Offset: 0x12D83C0
     ::Il2CppString* get_userName();
     // protected System.Void set_userName(System.String value)
-    // Offset: 0x12BD6B8
+    // Offset: 0x12D83C8
     void set_userName(::Il2CppString* value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
-    // Offset: 0x12BD6C0
+    // Offset: 0x12D83D0
     MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::Array<uint8_t>* random, ::Array<uint8_t>* publicKey);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12BD70C
+    // Offset: 0x12D841C
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12BD780
+    // Offset: 0x12D8490
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12BD7F8
+    // Offset: 0x12D8508
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // protected System.Void .ctor()
-    // Offset: 0x12BD834
+    // Offset: 0x12D8544
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -114,5 +114,83 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(BaseConnectToServerRequest), 48 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_BaseConnectToServerRequestSizeCheck;
   static_assert(sizeof(BaseConnectToServerRequest) == 0x38);
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::get_userId
+  // Il2CppName: get_userId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::get_userId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::set_userId
+  // Il2CppName: set_userId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(::Il2CppString*)>(&BaseConnectToServerRequest::set_userId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::get_userName
+  // Il2CppName: get_userName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::get_userName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::set_userName
+  // Il2CppName: set_userName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(::Il2CppString*)>(&BaseConnectToServerRequest::set_userName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::WithEncryptionParams
+  // Il2CppName: WithEncryptionParams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseConnectToServerRequest* (BaseConnectToServerRequest::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&BaseConnectToServerRequest::WithEncryptionParams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "WithEncryptionParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseConnectToServerRequest::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseConnectToServerRequest::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseConnectToServerRequest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseConnectToServerRequest::*)()>(&BaseConnectToServerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseConnectToServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseConnectToServerRequest*, "MasterServer", "BaseConnectToServerRequest");

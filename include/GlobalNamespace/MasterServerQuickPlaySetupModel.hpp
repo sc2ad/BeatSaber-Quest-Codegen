@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
-    // [InjectAttribute] Offset: 0xE177AC
+    // [InjectAttribute] Offset: 0xE17788
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -104,25 +104,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kQuickPlayOverrideSetupJson
     static void _set_kQuickPlayOverrideSetupJson(::Il2CppString* value);
     // public System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x10DBBA8
+    // Offset: 0x2406D54
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Void Init()
-    // Offset: 0x10DBDA0
+    // Offset: 0x2406F4C
     void Init();
     // private System.Void StartRequest()
-    // Offset: 0x10DBD28
+    // Offset: 0x2406ED4
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MasterServerQuickPlaySetupData> GetQuickPlaySetupInternal()
-    // Offset: 0x10DBDA4
+    // Offset: 0x2406F50
     System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* GetQuickPlaySetupInternal();
     // private System.Boolean IsQuickPlaySetupTaskValid()
-    // Offset: 0x10DBC1C
+    // Offset: 0x2406DC8
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
-    // Offset: 0x10DBEA4
+    // Offset: 0x2407050
     bool IsUrlValid(::Il2CppString* url);
     // public System.Void .ctor()
-    // Offset: 0x10DBF10
+    // Offset: 0x24070BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -134,5 +134,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MasterServerQuickPlaySetupModel), 40 + sizeof(System::DateTime)> __GlobalNamespace_MasterServerQuickPlaySetupModelSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupModel) == 0x30);
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
+  // Il2CppName: GetQuickPlaySetupAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (MasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&MasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupModel::*)()>(&MasterServerQuickPlaySetupModel::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::StartRequest
+  // Il2CppName: StartRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupModel::*)()>(&MasterServerQuickPlaySetupModel::StartRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), "StartRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::GetQuickPlaySetupInternal
+  // Il2CppName: GetQuickPlaySetupInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (MasterServerQuickPlaySetupModel::*)()>(&MasterServerQuickPlaySetupModel::GetQuickPlaySetupInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), "GetQuickPlaySetupInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::IsQuickPlaySetupTaskValid
+  // Il2CppName: IsQuickPlaySetupTaskValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServerQuickPlaySetupModel::*)()>(&MasterServerQuickPlaySetupModel::IsQuickPlaySetupTaskValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), "IsQuickPlaySetupTaskValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::IsUrlValid
+  // Il2CppName: IsUrlValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServerQuickPlaySetupModel::*)(::Il2CppString*)>(&MasterServerQuickPlaySetupModel::IsUrlValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), "IsUrlValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupModel::*)()>(&MasterServerQuickPlaySetupModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupModel::*)()>(&MasterServerQuickPlaySetupModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupModel*, "", "MasterServerQuickPlaySetupModel");

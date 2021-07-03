@@ -105,43 +105,43 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GradientTransitionSO
     GradientTransitionSO(GlobalNamespace::ColorSO* normalColor1_ = {}, GlobalNamespace::ColorSO* normalColor2_ = {}, GlobalNamespace::ColorSO* highlightColor1_ = {}, GlobalNamespace::ColorSO* highlightColor2_ = {}, GlobalNamespace::ColorSO* pressedColor1_ = {}, GlobalNamespace::ColorSO* pressedColor2_ = {}, GlobalNamespace::ColorSO* disabledColor1_ = {}, GlobalNamespace::ColorSO* disabledColor2_ = {}, GlobalNamespace::ColorSO* selectedColor1_ = {}, GlobalNamespace::ColorSO* selectedColor2_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor1_ = {}, GlobalNamespace::ColorSO* selectedAndHighlightedColor2_ = {}) noexcept : normalColor1{normalColor1_}, normalColor2{normalColor2_}, highlightColor1{highlightColor1_}, highlightColor2{highlightColor2_}, pressedColor1{pressedColor1_}, pressedColor2{pressedColor2_}, disabledColor1{disabledColor1_}, disabledColor2{disabledColor2_}, selectedColor1{selectedColor1_}, selectedColor2{selectedColor2_}, selectedAndHighlightedColor1{selectedAndHighlightedColor1_}, selectedAndHighlightedColor2{selectedAndHighlightedColor2_} {}
     // public UnityEngine.Color get_normalColor1()
-    // Offset: 0x104A248
+    // Offset: 0x108EED4
     UnityEngine::Color get_normalColor1();
     // public UnityEngine.Color get_normalColor2()
-    // Offset: 0x104A254
+    // Offset: 0x108EEE0
     UnityEngine::Color get_normalColor2();
     // public UnityEngine.Color get_highlightColor1()
-    // Offset: 0x104A4B4
+    // Offset: 0x108F140
     UnityEngine::Color get_highlightColor1();
     // public UnityEngine.Color get_highlightColor2()
-    // Offset: 0x104A4C0
+    // Offset: 0x108F14C
     UnityEngine::Color get_highlightColor2();
     // public UnityEngine.Color get_pressedColor1()
-    // Offset: 0x104A558
+    // Offset: 0x108F1E4
     UnityEngine::Color get_pressedColor1();
     // public UnityEngine.Color get_pressedColor2()
-    // Offset: 0x104A564
+    // Offset: 0x108F1F0
     UnityEngine::Color get_pressedColor2();
     // public UnityEngine.Color get_disabledColor1()
-    // Offset: 0x104A5FC
+    // Offset: 0x108F288
     UnityEngine::Color get_disabledColor1();
     // public UnityEngine.Color get_disabledColor2()
-    // Offset: 0x104A608
+    // Offset: 0x108F294
     UnityEngine::Color get_disabledColor2();
     // public UnityEngine.Color get_selectedColor1()
-    // Offset: 0x104A6A0
+    // Offset: 0x108F32C
     UnityEngine::Color get_selectedColor1();
     // public UnityEngine.Color get_selectedColor2()
-    // Offset: 0x104A6AC
+    // Offset: 0x108F338
     UnityEngine::Color get_selectedColor2();
     // public UnityEngine.Color get_selectedAndHighlightedColor1()
-    // Offset: 0x104A744
+    // Offset: 0x108F3D0
     UnityEngine::Color get_selectedAndHighlightedColor1();
     // public UnityEngine.Color get_selectedAndHighlightedColor2()
-    // Offset: 0x104A750
+    // Offset: 0x108F3DC
     UnityEngine::Color get_selectedAndHighlightedColor2();
     // public System.Void .ctor()
-    // Offset: 0x104AE88
+    // Offset: 0x108FB14
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -157,5 +157,115 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GradientTransitionSO), 120 + sizeof(GlobalNamespace::ColorSO*)> __GlobalNamespace_GradientTransitionSOSizeCheck;
   static_assert(sizeof(GradientTransitionSO) == 0x80);
+  // Writing MetadataGetter for method: GradientTransitionSO::get_normalColor1
+  // Il2CppName: get_normalColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_normalColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_normalColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_normalColor2
+  // Il2CppName: get_normalColor2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_normalColor2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_normalColor2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_highlightColor1
+  // Il2CppName: get_highlightColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_highlightColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_highlightColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_highlightColor2
+  // Il2CppName: get_highlightColor2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_highlightColor2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_highlightColor2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_pressedColor1
+  // Il2CppName: get_pressedColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_pressedColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_pressedColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_pressedColor2
+  // Il2CppName: get_pressedColor2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_pressedColor2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_pressedColor2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_disabledColor1
+  // Il2CppName: get_disabledColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_disabledColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_disabledColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_disabledColor2
+  // Il2CppName: get_disabledColor2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_disabledColor2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_disabledColor2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_selectedColor1
+  // Il2CppName: get_selectedColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_selectedColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_selectedColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_selectedColor2
+  // Il2CppName: get_selectedColor2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_selectedColor2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_selectedColor2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_selectedAndHighlightedColor1
+  // Il2CppName: get_selectedAndHighlightedColor1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_selectedAndHighlightedColor1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_selectedAndHighlightedColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::get_selectedAndHighlightedColor2
+  // Il2CppName: get_selectedAndHighlightedColor2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GradientTransitionSO::*)()>(&GradientTransitionSO::get_selectedAndHighlightedColor2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), "get_selectedAndHighlightedColor2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GradientTransitionSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientTransitionSO::*)()>(&GradientTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GradientTransitionSO::*)()>(&GradientTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GradientTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientTransitionSO*, "", "GradientTransitionSO");

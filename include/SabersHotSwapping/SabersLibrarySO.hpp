@@ -36,13 +36,13 @@ namespace SabersHotSwapping {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public SaberModelController[] get_saberModelControllerPrefabs()
-    // Offset: 0x10E1F64
+    // Offset: 0x10D30FC
     ::Array<GlobalNamespace::SaberModelController*>* get_saberModelControllerPrefabs();
     // public System.Int32 get_sabersCount()
-    // Offset: 0x10E1EBC
+    // Offset: 0x10D3054
     int get_sabersCount();
     // public System.Void .ctor()
-    // Offset: 0x10E1F6C
+    // Offset: 0x10D3104
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -57,5 +57,35 @@ namespace SabersHotSwapping {
   #pragma pack(pop)
   static check_size<sizeof(SabersLibrarySO), 24 + sizeof(::Array<GlobalNamespace::SaberModelController*>*)> __SabersHotSwapping_SabersLibrarySOSizeCheck;
   static_assert(sizeof(SabersLibrarySO) == 0x20);
+  // Writing MetadataGetter for method: SabersLibrarySO::get_saberModelControllerPrefabs
+  // Il2CppName: get_saberModelControllerPrefabs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SaberModelController*>* (SabersLibrarySO::*)()>(&SabersLibrarySO::get_saberModelControllerPrefabs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SabersLibrarySO*), "get_saberModelControllerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SabersLibrarySO::get_sabersCount
+  // Il2CppName: get_sabersCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SabersLibrarySO::*)()>(&SabersLibrarySO::get_sabersCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SabersLibrarySO*), "get_sabersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SabersLibrarySO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersLibrarySO::*)()>(&SabersLibrarySO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SabersLibrarySO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersLibrarySO::*)()>(&SabersLibrarySO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SabersLibrarySO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SabersLibrarySO*, "SabersHotSwapping", "SabersLibrarySO");

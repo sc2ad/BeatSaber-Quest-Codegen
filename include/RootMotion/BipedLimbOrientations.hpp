@@ -50,21 +50,51 @@ namespace RootMotion {
     // Creating value type constructor for type: BipedLimbOrientations
     BipedLimbOrientations(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg_ = {}, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg_ = {}) noexcept : leftArm{leftArm_}, rightArm{rightArm_}, leftLeg{leftLeg_}, rightLeg{rightLeg_} {}
     // public System.Void .ctor(RootMotion.BipedLimbOrientations/LimbOrientation leftArm, RootMotion.BipedLimbOrientations/LimbOrientation rightArm, RootMotion.BipedLimbOrientations/LimbOrientation leftLeg, RootMotion.BipedLimbOrientations/LimbOrientation rightLeg)
-    // Offset: 0x1C8A170
+    // Offset: 0x1CA5E80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedLimbOrientations* New_ctor(RootMotion::BipedLimbOrientations::LimbOrientation* leftArm, RootMotion::BipedLimbOrientations::LimbOrientation* rightArm, RootMotion::BipedLimbOrientations::LimbOrientation* leftLeg, RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedLimbOrientations*, creationType>(leftArm, rightArm, leftLeg, rightLeg)));
     }
     // static public RootMotion.BipedLimbOrientations get_UMA()
-    // Offset: 0x1C8A1BC
+    // Offset: 0x1CA5ECC
     static RootMotion::BipedLimbOrientations* get_UMA();
     // static public RootMotion.BipedLimbOrientations get_MaxBiped()
-    // Offset: 0x1C8A4A8
+    // Offset: 0x1CA61B8
     static RootMotion::BipedLimbOrientations* get_MaxBiped();
   }; // RootMotion.BipedLimbOrientations
   #pragma pack(pop)
   static check_size<sizeof(BipedLimbOrientations), 40 + sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*)> __RootMotion_BipedLimbOrientationsSizeCheck;
   static_assert(sizeof(BipedLimbOrientations) == 0x30);
+  // Writing MetadataGetter for method: BipedLimbOrientations::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedLimbOrientations::*)(RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&BipedLimbOrientations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedLimbOrientations::*)(RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*, RootMotion::BipedLimbOrientations::LimbOrientation*)>(&BipedLimbOrientations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedLimbOrientations::LimbOrientation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BipedLimbOrientations::get_UMA
+  // Il2CppName: get_UMA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&BipedLimbOrientations::get_UMA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), "get_UMA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BipedLimbOrientations::get_MaxBiped
+  // Il2CppName: get_MaxBiped
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&BipedLimbOrientations::get_MaxBiped)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BipedLimbOrientations*), "get_MaxBiped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");

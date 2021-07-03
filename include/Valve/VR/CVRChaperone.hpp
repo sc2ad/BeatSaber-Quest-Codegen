@@ -44,39 +44,117 @@ namespace Valve::VR {
       return FnTable;
     }
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x16BA56C
+    // Offset: 0x16D127C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperone* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRChaperone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperone*, creationType>(pInterface)));
     }
     // public Valve.VR.ChaperoneCalibrationState GetCalibrationState()
-    // Offset: 0x16BA674
+    // Offset: 0x16D1384
     Valve::VR::ChaperoneCalibrationState GetCalibrationState();
     // public System.Boolean GetPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x16BA8A0
+    // Offset: 0x16D15B0
     bool GetPlayAreaSize(float& pSizeX, float& pSizeZ);
     // public System.Boolean GetPlayAreaRect(ref Valve.VR.HmdQuad_t rect)
-    // Offset: 0x16BAB38
+    // Offset: 0x16D1848
     bool GetPlayAreaRect(Valve::VR::HmdQuad_t& rect);
     // public System.Void ReloadInfo()
-    // Offset: 0x16BADB0
+    // Offset: 0x16D1AC0
     void ReloadInfo();
     // public System.Void SetSceneColor(Valve.VR.HmdColor_t color)
-    // Offset: 0x16BAFD4
+    // Offset: 0x16D1CE4
     void SetSceneColor(Valve::VR::HmdColor_t color);
     // public System.Void GetBoundsColor(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor)
-    // Offset: 0x16BB29C
+    // Offset: 0x16D1FAC
     void GetBoundsColor(Valve::VR::HmdColor_t& pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, Valve::VR::HmdColor_t& pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()
-    // Offset: 0x16BB564
+    // Offset: 0x16D2274
     bool AreBoundsVisible();
     // public System.Void ForceBoundsVisible(System.Boolean bForce)
-    // Offset: 0x16BB794
+    // Offset: 0x16D24A4
     void ForceBoundsVisible(bool bForce);
   }; // Valve.VR.CVRChaperone
   #pragma pack(pop)
   static check_size<sizeof(CVRChaperone), 16 + sizeof(Valve::VR::IVRChaperone)> __Valve_VR_CVRChaperoneSizeCheck;
   static_assert(sizeof(CVRChaperone) == 0x50);
+  // Writing MetadataGetter for method: CVRChaperone::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(System::IntPtr)>(&CVRChaperone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(System::IntPtr)>(&CVRChaperone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::GetCalibrationState
+  // Il2CppName: GetCalibrationState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ChaperoneCalibrationState (CVRChaperone::*)()>(&CVRChaperone::GetCalibrationState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetCalibrationState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::GetPlayAreaSize
+  // Il2CppName: GetPlayAreaSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperone::*)(float&, float&)>(&CVRChaperone::GetPlayAreaSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::GetPlayAreaRect
+  // Il2CppName: GetPlayAreaRect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperone::*)(Valve::VR::HmdQuad_t&)>(&CVRChaperone::GetPlayAreaRect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::ReloadInfo
+  // Il2CppName: ReloadInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)()>(&CVRChaperone::ReloadInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "ReloadInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::SetSceneColor
+  // Il2CppName: SetSceneColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(Valve::VR::HmdColor_t)>(&CVRChaperone::SetSceneColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "SetSceneColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::GetBoundsColor
+  // Il2CppName: GetBoundsColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(Valve::VR::HmdColor_t&, int, float, Valve::VR::HmdColor_t&)>(&CVRChaperone::GetBoundsColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetBoundsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::AreBoundsVisible
+  // Il2CppName: AreBoundsVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperone::*)()>(&CVRChaperone::AreBoundsVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "AreBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CVRChaperone::ForceBoundsVisible
+  // Il2CppName: ForceBoundsVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(bool)>(&CVRChaperone::ForceBoundsVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "ForceBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperone*, "Valve.VR", "CVRChaperone");

@@ -59,27 +59,73 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int64 kGranularity
     static void _set_kGranularity(int64_t value);
     // public System.Single get_currentAverage()
-    // Offset: 0x2363728
+    // Offset: 0x2378884
     float get_currentAverage();
     // public System.Boolean get_hasValue()
-    // Offset: 0x2363730
+    // Offset: 0x237888C
     bool get_hasValue();
     // public System.Void .ctor(System.Int32 window)
-    // Offset: 0x2363740
+    // Offset: 0x237889C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)
-    // Offset: 0x23637B0
+    // Offset: 0x237890C
     void Update(float value);
     // public System.Void Reset()
-    // Offset: 0x23638E8
+    // Offset: 0x2378A44
     void Reset();
   }; // RollingAverage
   #pragma pack(pop)
   static check_size<sizeof(RollingAverage), 44 + sizeof(int)> __GlobalNamespace_RollingAverageSizeCheck;
   static_assert(sizeof(RollingAverage) == 0x30);
+  // Writing MetadataGetter for method: RollingAverage::get_currentAverage
+  // Il2CppName: get_currentAverage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RollingAverage::*)()>(&RollingAverage::get_currentAverage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "get_currentAverage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RollingAverage::get_hasValue
+  // Il2CppName: get_hasValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RollingAverage::*)()>(&RollingAverage::get_hasValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "get_hasValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RollingAverage::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)(int)>(&RollingAverage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RollingAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)(int)>(&RollingAverage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RollingAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: RollingAverage::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)(float)>(&RollingAverage::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: RollingAverage::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)()>(&RollingAverage::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");

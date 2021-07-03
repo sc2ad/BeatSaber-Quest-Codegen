@@ -38,7 +38,7 @@ namespace NUnit::Framework::Internal {
       return genericFixture;
     }
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
-    // Offset: 0x22910B8
+    // Offset: 0x22ABE14
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Base method: System.Void Test::.ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
@@ -48,7 +48,7 @@ namespace NUnit::Framework::Internal {
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedFixtureSuite*, creationType>(typeInfo)));
     }
     // public override System.String get_TestType()
-    // Offset: 0x229131C
+    // Offset: 0x22AC078
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
     ::Il2CppString* get_TestType();
@@ -56,5 +56,27 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(ParameterizedFixtureSuite), 137 + sizeof(bool)> __NUnit_Framework_Internal_ParameterizedFixtureSuiteSizeCheck;
   static_assert(sizeof(ParameterizedFixtureSuite) == 0x8A);
+  // Writing MetadataGetter for method: ParameterizedFixtureSuite::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedFixtureSuite::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&ParameterizedFixtureSuite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedFixtureSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterizedFixtureSuite::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&ParameterizedFixtureSuite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedFixtureSuite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterizedFixtureSuite::get_TestType
+  // Il2CppName: get_TestType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ParameterizedFixtureSuite::*)()>(&ParameterizedFixtureSuite::get_TestType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterizedFixtureSuite*), "get_TestType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterizedFixtureSuite*, "NUnit.Framework.Internal", "ParameterizedFixtureSuite");

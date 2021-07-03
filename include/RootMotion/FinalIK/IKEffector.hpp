@@ -46,14 +46,14 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xE083F0
+    // [RangeAttribute] Offset: 0xE093EC
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE08408
+    // [RangeAttribute] Offset: 0xE09404
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x24
@@ -78,7 +78,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 positionOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xE08420
+    // [CompilerGeneratedAttribute] Offset: 0xE0941C
     // private System.Boolean <isEndEffector>k__BackingField
     // Size: 0x1
     // Offset: 0x50
@@ -93,7 +93,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: effectChildNodes and: maintainRelativePositionWeight
     char __padding8[0x2] = {};
-    // [RangeAttribute] Offset: 0xE08430
+    // [RangeAttribute] Offset: 0xE0942C
     // public System.Single maintainRelativePositionWeight
     // Size: 0x4
     // Offset: 0x54
@@ -241,53 +241,53 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: IKEffector
     IKEffector(UnityEngine::Transform* bone_ = {}, UnityEngine::Transform* target_ = {}, float positionWeight_ = {}, float rotationWeight_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 positionOffset_ = {}, bool isEndEffector_ = {}, bool effectChildNodes_ = {}, float maintainRelativePositionWeight_ = {}, ::Array<UnityEngine::Transform*>* childBones_ = {}, UnityEngine::Transform* planeBone1_ = {}, UnityEngine::Transform* planeBone2_ = {}, UnityEngine::Transform* planeBone3_ = {}, UnityEngine::Quaternion planeRotationOffset_ = {}, float posW_ = {}, float rotW_ = {}, ::Array<UnityEngine::Vector3>* localPositions_ = {}, bool usePlaneNodes_ = {}, UnityEngine::Quaternion animatedPlaneRotation_ = {}, UnityEngine::Vector3 animatedPosition_ = {}, bool firstUpdate_ = {}, int chainIndex_ = {}, int nodeIndex_ = {}, int plane1ChainIndex_ = {}, int plane1NodeIndex_ = {}, int plane2ChainIndex_ = {}, int plane2NodeIndex_ = {}, int plane3ChainIndex_ = {}, int plane3NodeIndex_ = {}, ::Array<int>* childChainIndexes_ = {}, ::Array<int>* childNodeIndexes_ = {}) noexcept : bone{bone_}, target{target_}, positionWeight{positionWeight_}, rotationWeight{rotationWeight_}, position{position_}, rotation{rotation_}, positionOffset{positionOffset_}, isEndEffector{isEndEffector_}, effectChildNodes{effectChildNodes_}, maintainRelativePositionWeight{maintainRelativePositionWeight_}, childBones{childBones_}, planeBone1{planeBone1_}, planeBone2{planeBone2_}, planeBone3{planeBone3_}, planeRotationOffset{planeRotationOffset_}, posW{posW_}, rotW{rotW_}, localPositions{localPositions_}, usePlaneNodes{usePlaneNodes_}, animatedPlaneRotation{animatedPlaneRotation_}, animatedPosition{animatedPosition_}, firstUpdate{firstUpdate_}, chainIndex{chainIndex_}, nodeIndex{nodeIndex_}, plane1ChainIndex{plane1ChainIndex_}, plane1NodeIndex{plane1NodeIndex_}, plane2ChainIndex{plane2ChainIndex_}, plane2NodeIndex{plane2NodeIndex_}, plane3ChainIndex{plane3ChainIndex_}, plane3NodeIndex{plane3NodeIndex_}, childChainIndexes{childChainIndexes_}, childNodeIndexes{childNodeIndexes_} {}
     // public RootMotion.FinalIK.IKSolver/Node GetNode(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4BF5C
+    // Offset: 0x1C66C6C
     RootMotion::FinalIK::IKSolver::Node* GetNode(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Boolean get_isEndEffector()
-    // Offset: 0x1C4BFC4
+    // Offset: 0x1C66CD4
     bool get_isEndEffector();
     // private System.Void set_isEndEffector(System.Boolean value)
-    // Offset: 0x1C4BFCC
+    // Offset: 0x1C66CDC
     void set_isEndEffector(bool value);
     // public System.Void PinToBone(System.Single positionWeight, System.Single rotationWeight)
-    // Offset: 0x1C4BFD8
+    // Offset: 0x1C66CE8
     void PinToBone(float positionWeight, float rotationWeight);
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform[] childBones)
-    // Offset: 0x1C4C1E8
+    // Offset: 0x1C66EF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKEffector* New_ctor(UnityEngine::Transform* bone, ::Array<UnityEngine::Transform*>* childBones) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>(bone, childBones)));
     }
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x1C4C340
+    // Offset: 0x1C67050
     bool IsValid(RootMotion::FinalIK::IKSolver* solver, ::Il2CppString*& message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4C630
+    // Offset: 0x1C67340
     void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ResetOffset(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4C8D0
+    // Offset: 0x1C675E0
     void ResetOffset(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void SetToTarget()
-    // Offset: 0x1C4CA10
+    // Offset: 0x1C67720
     void SetToTarget();
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4CABC
+    // Offset: 0x1C677CC
     void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPostWrite()
-    // Offset: 0x1C4D110
+    // Offset: 0x1C67E20
     void OnPostWrite();
     // private UnityEngine.Quaternion GetPlaneRotation(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4D180
+    // Offset: 0x1C67E90
     UnityEngine::Quaternion GetPlaneRotation(RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x1C4D398
+    // Offset: 0x1C680A8
     void Update(RootMotion::FinalIK::IKSolverFullBody* solver);
     // private UnityEngine.Vector3 GetPosition(RootMotion.FinalIK.IKSolverFullBody solver, out UnityEngine.Quaternion planeRotationOffset)
-    // Offset: 0x1C4D6E0
+    // Offset: 0x1C683F0
     UnityEngine::Vector3 GetPosition(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Quaternion& planeRotationOffset);
     // public System.Void .ctor()
-    // Offset: 0x1C4C0AC
+    // Offset: 0x1C66DBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -299,5 +299,137 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(IKEffector), 232 + sizeof(::Array<int>*)> __RootMotion_FinalIK_IKEffectorSizeCheck;
   static_assert(sizeof(IKEffector) == 0xF0);
+  // Writing MetadataGetter for method: IKEffector::GetNode
+  // Il2CppName: GetNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Node* (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKEffector::GetNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "GetNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::get_isEndEffector
+  // Il2CppName: get_isEndEffector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKEffector::*)()>(&IKEffector::get_isEndEffector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "get_isEndEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::set_isEndEffector
+  // Il2CppName: set_isEndEffector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(bool)>(&IKEffector::set_isEndEffector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "set_isEndEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::PinToBone
+  // Il2CppName: PinToBone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(float, float)>(&IKEffector::PinToBone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "PinToBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&IKEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&IKEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKEffector::*)(RootMotion::FinalIK::IKSolver*, ::Il2CppString*&)>(&IKEffector::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolver*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::Initiate
+  // Il2CppName: Initiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKEffector::Initiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::ResetOffset
+  // Il2CppName: ResetOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKEffector::ResetOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "ResetOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::SetToTarget
+  // Il2CppName: SetToTarget
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)()>(&IKEffector::SetToTarget)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "SetToTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::OnPreSolve
+  // Il2CppName: OnPreSolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKEffector::OnPreSolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "OnPreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::OnPostWrite
+  // Il2CppName: OnPostWrite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)()>(&IKEffector::OnPostWrite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "OnPostWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::GetPlaneRotation
+  // Il2CppName: GetPlaneRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKEffector::GetPlaneRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "GetPlaneRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKEffector::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::GetPosition
+  // Il2CppName: GetPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKEffector::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Quaternion&)>(&IKEffector::GetPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), "GetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKEffector::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)()>(&IKEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKEffector::*)()>(&IKEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKEffector*, "RootMotion.FinalIK", "IKEffector");

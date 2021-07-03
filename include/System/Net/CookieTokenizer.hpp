@@ -45,19 +45,49 @@ namespace System::Net {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // System.Void .ctor(System.String name, System.Net.CookieToken token)
-      // Offset: 0xEFA02C
+      // Offset: 0xEF9FE4
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token)
       // System.Net.CookieToken get_Token()
-      // Offset: 0xEFA038
+      // Offset: 0xEF9FF0
       System::Net::CookieToken get_Token();
       // System.Boolean IsEqualTo(System.String value)
-      // Offset: 0xEFA040
+      // Offset: 0xEF9FF8
       bool IsEqualTo(::Il2CppString* value);
     }; // System.Net.CookieTokenizer/RecognizedAttribute
     #pragma pack(pop)
     static check_size<sizeof(CookieTokenizer::RecognizedAttribute), 8 + sizeof(System::Net::CookieToken)> __System_Net_CookieTokenizer_RecognizedAttributeSizeCheck;
     static_assert(sizeof(CookieTokenizer::RecognizedAttribute) == 0xC);
+    // Writing MetadataGetter for method: CookieTokenizer::RecognizedAttribute::RecognizedAttribute
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::RecognizedAttribute::*)(::Il2CppString*, System::Net::CookieToken)>(&CookieTokenizer::RecognizedAttribute::RecognizedAttribute<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CookieTokenizer::RecognizedAttribute), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieToken>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::RecognizedAttribute::*)(::Il2CppString*, System::Net::CookieToken)>(&CookieTokenizer::RecognizedAttribute::RecognizedAttribute<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CookieTokenizer::RecognizedAttribute), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieToken>()});
+      }
+    };
+    // Writing MetadataGetter for method: CookieTokenizer::RecognizedAttribute::get_Token
+    // Il2CppName: get_Token
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieToken (CookieTokenizer::RecognizedAttribute::*)()>(&CookieTokenizer::RecognizedAttribute::get_Token)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CookieTokenizer::RecognizedAttribute), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: CookieTokenizer::RecognizedAttribute::IsEqualTo
+    // Il2CppName: IsEqualTo
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CookieTokenizer::RecognizedAttribute::*)(::Il2CppString*)>(&CookieTokenizer::RecognizedAttribute::IsEqualTo)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CookieTokenizer::RecognizedAttribute), "IsEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+      }
+    };
     // private System.Boolean m_eofCookie
     // Size: 0x1
     // Offset: 0x10
@@ -135,67 +165,217 @@ namespace System::Net {
     // Set static field: static private System.Net.CookieTokenizer/RecognizedAttribute[] RecognizedServerAttributes
     static void _set_RecognizedServerAttributes(::Array<System::Net::CookieTokenizer::RecognizedAttribute>* value);
     // System.Void .ctor(System.String tokenStream)
-    // Offset: 0x169CF00
+    // Offset: 0x16B3C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieTokenizer* New_ctor(::Il2CppString* tokenStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieTokenizer*, creationType>(tokenStream)));
     }
     // System.Boolean get_EndOfCookie()
-    // Offset: 0x169D050
+    // Offset: 0x16B3D60
     bool get_EndOfCookie();
     // System.Void set_EndOfCookie(System.Boolean value)
-    // Offset: 0x169D058
+    // Offset: 0x16B3D68
     void set_EndOfCookie(bool value);
     // System.Boolean get_Eof()
-    // Offset: 0x169D040
+    // Offset: 0x16B3D50
     bool get_Eof();
     // System.String get_Name()
-    // Offset: 0x169D064
+    // Offset: 0x16B3D74
     ::Il2CppString* get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x169D06C
+    // Offset: 0x16B3D7C
     void set_Name(::Il2CppString* value);
     // System.Boolean get_Quoted()
-    // Offset: 0x169D074
+    // Offset: 0x16B3D84
     bool get_Quoted();
     // System.Void set_Quoted(System.Boolean value)
-    // Offset: 0x169D07C
+    // Offset: 0x16B3D8C
     void set_Quoted(bool value);
     // System.Net.CookieToken get_Token()
-    // Offset: 0x169D088
+    // Offset: 0x16B3D98
     System::Net::CookieToken get_Token();
     // System.Void set_Token(System.Net.CookieToken value)
-    // Offset: 0x169D090
+    // Offset: 0x16B3DA0
     void set_Token(System::Net::CookieToken value);
     // System.String get_Value()
-    // Offset: 0x169D098
+    // Offset: 0x16B3DA8
     ::Il2CppString* get_Value();
     // System.Void set_Value(System.String value)
-    // Offset: 0x169D0A0
+    // Offset: 0x16B3DB0
     void set_Value(::Il2CppString* value);
     // System.String Extract()
-    // Offset: 0x169D0A8
+    // Offset: 0x16B3DB8
     ::Il2CppString* Extract();
     // System.Net.CookieToken FindNext(System.Boolean ignoreComma, System.Boolean ignoreEquals)
-    // Offset: 0x169D138
+    // Offset: 0x16B3E48
     System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
     // System.Net.CookieToken Next(System.Boolean first, System.Boolean parseResponseCookies)
-    // Offset: 0x169CF3C
+    // Offset: 0x16B3C4C
     System::Net::CookieToken Next(bool first, bool parseResponseCookies);
     // System.Void Reset()
-    // Offset: 0x169D3F4
+    // Offset: 0x16B4104
     void Reset();
     // System.Net.CookieToken TokenFromName(System.Boolean parseResponseCookies)
-    // Offset: 0x169D46C
+    // Offset: 0x16B417C
     System::Net::CookieToken TokenFromName(bool parseResponseCookies);
     // static private System.Void .cctor()
-    // Offset: 0x169D69C
+    // Offset: 0x16B43AC
     static void _cctor();
   }; // System.Net.CookieTokenizer
   #pragma pack(pop)
   static check_size<sizeof(CookieTokenizer), 64 + sizeof(::Il2CppString*)> __System_Net_CookieTokenizerSizeCheck;
   static_assert(sizeof(CookieTokenizer) == 0x48);
+  // Writing MetadataGetter for method: CookieTokenizer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(::Il2CppString*)>(&CookieTokenizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(::Il2CppString*)>(&CookieTokenizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::get_EndOfCookie
+  // Il2CppName: get_EndOfCookie
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CookieTokenizer::*)()>(&CookieTokenizer::get_EndOfCookie)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "get_EndOfCookie", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::set_EndOfCookie
+  // Il2CppName: set_EndOfCookie
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(bool)>(&CookieTokenizer::set_EndOfCookie)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "set_EndOfCookie", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::get_Eof
+  // Il2CppName: get_Eof
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CookieTokenizer::*)()>(&CookieTokenizer::get_Eof)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "get_Eof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CookieTokenizer::*)()>(&CookieTokenizer::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::set_Name
+  // Il2CppName: set_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(::Il2CppString*)>(&CookieTokenizer::set_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::get_Quoted
+  // Il2CppName: get_Quoted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CookieTokenizer::*)()>(&CookieTokenizer::get_Quoted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "get_Quoted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::set_Quoted
+  // Il2CppName: set_Quoted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(bool)>(&CookieTokenizer::set_Quoted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "set_Quoted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::get_Token
+  // Il2CppName: get_Token
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieToken (CookieTokenizer::*)()>(&CookieTokenizer::get_Token)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::set_Token
+  // Il2CppName: set_Token
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(System::Net::CookieToken)>(&CookieTokenizer::set_Token)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CookieTokenizer::*)()>(&CookieTokenizer::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::set_Value
+  // Il2CppName: set_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)(::Il2CppString*)>(&CookieTokenizer::set_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::Extract
+  // Il2CppName: Extract
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CookieTokenizer::*)()>(&CookieTokenizer::Extract)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::FindNext
+  // Il2CppName: FindNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieToken (CookieTokenizer::*)(bool, bool)>(&CookieTokenizer::FindNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "FindNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::Next
+  // Il2CppName: Next
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieToken (CookieTokenizer::*)(bool, bool)>(&CookieTokenizer::Next)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieTokenizer::*)()>(&CookieTokenizer::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::TokenFromName
+  // Il2CppName: TokenFromName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieToken (CookieTokenizer::*)(bool)>(&CookieTokenizer::TokenFromName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), "TokenFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CookieTokenizer::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CookieTokenizer::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CookieTokenizer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer*, "System.Net", "CookieTokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieTokenizer::RecognizedAttribute, "System.Net", "CookieTokenizer/RecognizedAttribute");

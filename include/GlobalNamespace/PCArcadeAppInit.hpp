@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE14A4C
+    // [SpaceAttribute] Offset: 0xE14A48
     // private VRsenalLogger _vrsenalLoggerPrefab
     // Size: 0x8
     // Offset: 0x60
@@ -67,27 +67,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PCArcadeAppInit
     PCArcadeAppInit(GlobalNamespace::MainSystemInit* mainSystemInit_ = {}, GlobalNamespace::SteamInit* steamInit_ = {}, GlobalNamespace::DefaultScenesTransitionsFromInit* defaultScenesTransitionsFromInit_ = {}, GlobalNamespace::MainSettingsModelSO* mainSettingsModel_ = {}, GlobalNamespace::VRsenalLogger* vrsenalLoggerPrefab_ = {}) noexcept : mainSystemInit{mainSystemInit_}, steamInit{steamInit_}, defaultScenesTransitionsFromInit{defaultScenesTransitionsFromInit_}, mainSettingsModel{mainSettingsModel_}, vrsenalLoggerPrefab{vrsenalLoggerPrefab_} {}
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x1004D70
+    // Offset: 0x1048F94
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x1004DDC
+    // Offset: 0x1049000
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x1004E28
+    // Offset: 0x104904C
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x1004E64
+    // Offset: 0x1049088
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1004F60
+    // Offset: 0x1049184
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     // Base method: System.Void MonoInstaller::.ctor()
@@ -106,5 +106,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PCArcadeAppInit), 96 + sizeof(GlobalNamespace::VRsenalLogger*)> __GlobalNamespace_PCArcadeAppInitSizeCheck;
   static_assert(sizeof(PCArcadeAppInit) == 0x68);
+  // Writing MetadataGetter for method: PCArcadeAppInit::AppStartAndMultiSceneEditorSetup
+  // Il2CppName: AppStartAndMultiSceneEditorSetup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::AppStartAndMultiSceneEditorSetup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PCArcadeAppInit::RepeatableSetup
+  // Il2CppName: RepeatableSetup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::RepeatableSetup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PCArcadeAppInit::TransitionToNextScene
+  // Il2CppName: TransitionToNextScene
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::TransitionToNextScene)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PCArcadeAppInit::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PCArcadeAppInit::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PCArcadeAppInit::*)()>(&PCArcadeAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PCArcadeAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCArcadeAppInit*, "", "PCArcadeAppInit");

@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(TestSaberModulationData::ModulationType), 0 + sizeof(int)> __GlobalNamespace_TestSaberModulationData_ModulationTypeSizeCheck;
     static_assert(sizeof(TestSaberModulationData::ModulationType) == 0x4);
-    // [RangeAttribute] Offset: 0xE14294
+    // [RangeAttribute] Offset: 0xE14290
     // private System.Single _baseValue
     // Size: 0x4
     // Offset: 0x10
@@ -94,14 +94,14 @@ namespace GlobalNamespace {
     GlobalNamespace::TestSaberModulationData::ModulationType modulationType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TestSaberModulationData::ModulationType) == 0x4);
-    // [RangeAttribute] Offset: 0xE142D4
+    // [RangeAttribute] Offset: 0xE142D0
     // private System.Single _speed
     // Size: 0x4
     // Offset: 0x18
     float speed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE14314
+    // [RangeAttribute] Offset: 0xE14310
     // private System.Single _amount
     // Size: 0x4
     // Offset: 0x1C
@@ -117,10 +117,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TestSaberModulationData
     TestSaberModulationData(float baseValue_ = {}, GlobalNamespace::TestSaberModulationData::ModulationType modulationType_ = {}, float speed_ = {}, float amount_ = {}, float multiplier_ = {}) noexcept : baseValue{baseValue_}, modulationType{modulationType_}, speed{speed_}, amount{amount_}, multiplier{multiplier_} {}
     // public System.Single Evaluate(System.Single time)
-    // Offset: 0x10F5C24
+    // Offset: 0x1118468
     float Evaluate(float time);
     // public System.Void .ctor()
-    // Offset: 0x10F5DA8
+    // Offset: 0x11185EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -132,6 +132,28 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TestSaberModulationData), 32 + sizeof(float)> __GlobalNamespace_TestSaberModulationDataSizeCheck;
   static_assert(sizeof(TestSaberModulationData) == 0x24);
+  // Writing MetadataGetter for method: TestSaberModulationData::Evaluate
+  // Il2CppName: Evaluate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TestSaberModulationData::*)(float)>(&TestSaberModulationData::Evaluate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestSaberModulationData*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestSaberModulationData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSaberModulationData::*)()>(&TestSaberModulationData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestSaberModulationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestSaberModulationData::*)()>(&TestSaberModulationData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestSaberModulationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData*, "", "TestSaberModulationData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData::ModulationType, "", "TestSaberModulationData/ModulationType");

@@ -100,25 +100,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Single get_controlGroupSize()
-    // Offset: 0x10C2798
+    // Offset: 0x1040F10
     float get_controlGroupSize();
     // public System.String get_experimentName()
-    // Offset: 0x10C27A0
+    // Offset: 0x1040F18
     ::Il2CppString* get_experimentName();
     // public ExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
-    // Offset: 0x10C27A8
+    // Offset: 0x1040F20
     GlobalNamespace::ExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
-    // Offset: 0x10B8F34
+    // Offset: 0x10376AC
     void ComputeCurrentUserTreatment(::Il2CppString* userId);
     // public System.Void ForceSetTreatmentGroup(ExperimentDefinitionSO/Group group)
-    // Offset: 0x10C2994
+    // Offset: 0x104110C
     void ForceSetTreatmentGroup(GlobalNamespace::ExperimentDefinitionSO::Group group);
     // private ExperimentDefinitionSO/Group AbSplit(System.String userId)
-    // Offset: 0x10C27B0
+    // Offset: 0x1040F28
     GlobalNamespace::ExperimentDefinitionSO::Group AbSplit(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x10C299C
+    // Offset: 0x1041114
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -133,6 +133,68 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ExperimentDefinitionSO), 48 + sizeof(GlobalNamespace::ExperimentDefinitionSO::Group)> __GlobalNamespace_ExperimentDefinitionSOSizeCheck;
   static_assert(sizeof(ExperimentDefinitionSO) == 0x34);
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::get_controlGroupSize
+  // Il2CppName: get_controlGroupSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ExperimentDefinitionSO::*)()>(&ExperimentDefinitionSO::get_controlGroupSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), "get_controlGroupSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::get_experimentName
+  // Il2CppName: get_experimentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ExperimentDefinitionSO::*)()>(&ExperimentDefinitionSO::get_experimentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), "get_experimentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::get_currentUserTreatmentGroup
+  // Il2CppName: get_currentUserTreatmentGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO::Group (ExperimentDefinitionSO::*)()>(&ExperimentDefinitionSO::get_currentUserTreatmentGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), "get_currentUserTreatmentGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::ComputeCurrentUserTreatment
+  // Il2CppName: ComputeCurrentUserTreatment
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExperimentDefinitionSO::*)(::Il2CppString*)>(&ExperimentDefinitionSO::ComputeCurrentUserTreatment)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), "ComputeCurrentUserTreatment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::ForceSetTreatmentGroup
+  // Il2CppName: ForceSetTreatmentGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExperimentDefinitionSO::*)(GlobalNamespace::ExperimentDefinitionSO::Group)>(&ExperimentDefinitionSO::ForceSetTreatmentGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), "ForceSetTreatmentGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ExperimentDefinitionSO::Group>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::AbSplit
+  // Il2CppName: AbSplit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO::Group (ExperimentDefinitionSO::*)(::Il2CppString*)>(&ExperimentDefinitionSO::AbSplit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), "AbSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExperimentDefinitionSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExperimentDefinitionSO::*)()>(&ExperimentDefinitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExperimentDefinitionSO::*)()>(&ExperimentDefinitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExperimentDefinitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExperimentDefinitionSO*, "", "ExperimentDefinitionSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExperimentDefinitionSO::Group, "", "ExperimentDefinitionSO/Group");

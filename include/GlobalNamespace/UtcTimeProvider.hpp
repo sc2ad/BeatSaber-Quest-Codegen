@@ -38,22 +38,22 @@ namespace GlobalNamespace {
     operator MasterServer::ITimeProvider() noexcept {
       return *reinterpret_cast<MasterServer::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF012C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF1060
     // Get static field: static private readonly System.DateTime _epoch
     static System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(System::DateTime value);
     // public System.Int64 GetTimeMs()
-    // Offset: 0x2368AE0
+    // Offset: 0x237DC3C
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x2368BA4
+    // Offset: 0x237DD00
     System::Threading::Tasks::Task* DelayMs(int millis, System::Threading::CancellationToken cancellationToken);
     // static private System.Void .cctor()
-    // Offset: 0x2368C24
+    // Offset: 0x237DD80
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2368C1C
+    // Offset: 0x237DD78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,5 +63,43 @@ namespace GlobalNamespace {
     }
   }; // UtcTimeProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UtcTimeProvider::GetTimeMs
+  // Il2CppName: GetTimeMs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UtcTimeProvider::*)()>(&UtcTimeProvider::GetTimeMs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UtcTimeProvider*), "GetTimeMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UtcTimeProvider::DelayMs
+  // Il2CppName: DelayMs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (UtcTimeProvider::*)(int, System::Threading::CancellationToken)>(&UtcTimeProvider::DelayMs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UtcTimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: UtcTimeProvider::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UtcTimeProvider::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UtcTimeProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UtcTimeProvider::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UtcTimeProvider::*)()>(&UtcTimeProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UtcTimeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UtcTimeProvider::*)()>(&UtcTimeProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UtcTimeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UtcTimeProvider*, "", "UtcTimeProvider");

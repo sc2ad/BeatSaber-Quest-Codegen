@@ -161,72 +161,238 @@ namespace System::Net {
     // Set static field: static private System.Char[] separators
     static void _set_separators(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.Net.HttpListenerContext context)
-    // Offset: 0x1636874
+    // Offset: 0x164D584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpListenerRequest* New_ctor(System::Net::HttpListenerContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequest*, creationType>(context)));
     }
     // System.Void SetRequestLine(System.String req)
-    // Offset: 0x1632804
+    // Offset: 0x1649514
     void SetRequestLine(::Il2CppString* req);
     // private System.Void CreateQueryString(System.String query)
-    // Offset: 0x16375BC
+    // Offset: 0x164E2CC
     void CreateQueryString(::Il2CppString* query);
     // static private System.Boolean MaybeUri(System.String s)
-    // Offset: 0x1637814
+    // Offset: 0x164E524
     static bool MaybeUri(::Il2CppString* s);
     // static private System.Boolean IsPredefinedScheme(System.String scheme)
-    // Offset: 0x16378CC
+    // Offset: 0x164E5DC
     static bool IsPredefinedScheme(::Il2CppString* scheme);
     // System.Void FinishInitialization()
-    // Offset: 0x1631CE0
+    // Offset: 0x16489F0
     void FinishInitialization();
     // static System.String Unquote(System.String str)
-    // Offset: 0x1637BB8
+    // Offset: 0x164E8C8
     static ::Il2CppString* Unquote(::Il2CppString* str);
     // System.Void AddHeader(System.String header)
-    // Offset: 0x1632B08
+    // Offset: 0x1649818
     void AddHeader(::Il2CppString* header);
     // System.Boolean FlushInput()
-    // Offset: 0x1633B7C
+    // Offset: 0x164A88C
     bool FlushInput();
     // public System.Boolean get_HasEntityBody()
-    // Offset: 0x1637C28
+    // Offset: 0x164E938
     bool get_HasEntityBody();
     // public System.Collections.Specialized.NameValueCollection get_Headers()
-    // Offset: 0x1637D00
+    // Offset: 0x164EA10
     System::Collections::Specialized::NameValueCollection* get_Headers();
     // public System.IO.Stream get_InputStream()
-    // Offset: 0x1637C4C
+    // Offset: 0x164E95C
     System::IO::Stream* get_InputStream();
     // public System.Boolean get_IsSecureConnection()
-    // Offset: 0x1637AD4
+    // Offset: 0x164E7E4
     bool get_IsSecureConnection();
     // public System.Boolean get_KeepAlive()
-    // Offset: 0x1633A04
+    // Offset: 0x164A714
     bool get_KeepAlive();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1637AFC
+    // Offset: 0x164E80C
     System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Version get_ProtocolVersion()
-    // Offset: 0x1637D08
+    // Offset: 0x164EA18
     System::Version* get_ProtocolVersion();
     // public System.Uri get_Url()
-    // Offset: 0x1637D10
+    // Offset: 0x164EA20
     System::Uri* get_Url();
     // public System.String get_UserHostAddress()
-    // Offset: 0x1637AB0
+    // Offset: 0x164E7C0
     ::Il2CppString* get_UserHostAddress();
     // public System.String get_UserHostName()
-    // Offset: 0x1637A54
+    // Offset: 0x164E764
     ::Il2CppString* get_UserHostName();
     // static private System.Void .cctor()
-    // Offset: 0x1637D18
+    // Offset: 0x164EA28
     static void _cctor();
   }; // System.Net.HttpListenerRequest
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequest), 130 + sizeof(bool)> __System_Net_HttpListenerRequestSizeCheck;
   static_assert(sizeof(HttpListenerRequest) == 0x83);
+  // Writing MetadataGetter for method: HttpListenerRequest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerRequest::*)(System::Net::HttpListenerContext*)>(&HttpListenerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerRequest::*)(System::Net::HttpListenerContext*)>(&HttpListenerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::SetRequestLine
+  // Il2CppName: SetRequestLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerRequest::*)(::Il2CppString*)>(&HttpListenerRequest::SetRequestLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "SetRequestLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::CreateQueryString
+  // Il2CppName: CreateQueryString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerRequest::*)(::Il2CppString*)>(&HttpListenerRequest::CreateQueryString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "CreateQueryString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::MaybeUri
+  // Il2CppName: MaybeUri
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HttpListenerRequest::MaybeUri)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "MaybeUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::IsPredefinedScheme
+  // Il2CppName: IsPredefinedScheme
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HttpListenerRequest::IsPredefinedScheme)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "IsPredefinedScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::FinishInitialization
+  // Il2CppName: FinishInitialization
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerRequest::*)()>(&HttpListenerRequest::FinishInitialization)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "FinishInitialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::Unquote
+  // Il2CppName: Unquote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HttpListenerRequest::Unquote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "Unquote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::AddHeader
+  // Il2CppName: AddHeader
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerRequest::*)(::Il2CppString*)>(&HttpListenerRequest::AddHeader)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "AddHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::FlushInput
+  // Il2CppName: FlushInput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerRequest::*)()>(&HttpListenerRequest::FlushInput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "FlushInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_HasEntityBody
+  // Il2CppName: get_HasEntityBody
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerRequest::*)()>(&HttpListenerRequest::get_HasEntityBody)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_HasEntityBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_Headers
+  // Il2CppName: get_Headers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameValueCollection* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_Headers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_InputStream
+  // Il2CppName: get_InputStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_InputStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_InputStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_IsSecureConnection
+  // Il2CppName: get_IsSecureConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerRequest::*)()>(&HttpListenerRequest::get_IsSecureConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_IsSecureConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_KeepAlive
+  // Il2CppName: get_KeepAlive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerRequest::*)()>(&HttpListenerRequest::get_KeepAlive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_KeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_LocalEndPoint
+  // Il2CppName: get_LocalEndPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_LocalEndPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_LocalEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_ProtocolVersion
+  // Il2CppName: get_ProtocolVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_ProtocolVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_Url
+  // Il2CppName: get_Url
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_Url)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_Url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_UserHostAddress
+  // Il2CppName: get_UserHostAddress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_UserHostAddress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_UserHostAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::get_UserHostName
+  // Il2CppName: get_UserHostName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpListenerRequest::*)()>(&HttpListenerRequest::get_UserHostName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), "get_UserHostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpListenerRequest::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HttpListenerRequest::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpListenerRequest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequest*, "System.Net", "HttpListenerRequest");

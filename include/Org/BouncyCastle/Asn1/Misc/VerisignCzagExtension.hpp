@@ -21,18 +21,40 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Creating value type constructor for type: VerisignCzagExtension
     VerisignCzagExtension() noexcept {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerIA5String str)
-    // Offset: 0x1725A74
+    // Offset: 0x173D784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VerisignCzagExtension* New_ctor(Org::BouncyCastle::Asn1::DerIA5String* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VerisignCzagExtension*, creationType>(str)));
     }
     // public override System.String ToString()
-    // Offset: 0x1725AB8
+    // Offset: 0x173D7C8
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Misc.VerisignCzagExtension
   #pragma pack(pop)
+  // Writing MetadataGetter for method: VerisignCzagExtension::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VerisignCzagExtension::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VerisignCzagExtension::*)()>(&VerisignCzagExtension::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*, "Org.BouncyCastle.Asn1.Misc", "VerisignCzagExtension");

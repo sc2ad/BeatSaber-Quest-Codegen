@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CancelLevelStartRpc
     CancelLevelStartRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14E64C8
+    // Offset: 0x15011D8
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -34,5 +34,19 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/CancelLevelStartRpc
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MenuRpcManager::CancelLevelStartRpc::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::CancelLevelStartRpc::*)()>(&MenuRpcManager::CancelLevelStartRpc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::CancelLevelStartRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::CancelLevelStartRpc::*)()>(&MenuRpcManager::CancelLevelStartRpc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::CancelLevelStartRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::CancelLevelStartRpc*, "", "MenuRpcManager/CancelLevelStartRpc");

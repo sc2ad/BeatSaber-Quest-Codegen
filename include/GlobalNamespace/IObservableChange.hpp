@@ -28,6 +28,22 @@ namespace GlobalNamespace {
     void remove_didChangeEvent(System::Action* value);
   }; // IObservableChange
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IObservableChange::add_didChangeEvent
+  // Il2CppName: add_didChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IObservableChange::*)(System::Action*)>(&IObservableChange::add_didChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IObservableChange*), "add_didChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IObservableChange::remove_didChangeEvent
+  // Il2CppName: remove_didChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IObservableChange::*)(System::Action*)>(&IObservableChange::remove_didChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IObservableChange*), "remove_didChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IObservableChange*, "", "IObservableChange");

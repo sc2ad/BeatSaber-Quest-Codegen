@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.String get_sceneName()
-    // Offset: 0x1236260
+    // Offset: 0x12528B8
     ::Il2CppString* get_sceneName();
     // public System.Boolean get_disabledRootObjects()
-    // Offset: 0x1236268
+    // Offset: 0x12528C0
     bool get_disabledRootObjects();
     // public System.Void .ctor()
-    // Offset: 0x1236270
+    // Offset: 0x12528C8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -56,5 +56,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SceneInfo), 32 + sizeof(bool)> __GlobalNamespace_SceneInfoSizeCheck;
   static_assert(sizeof(SceneInfo) == 0x21);
+  // Writing MetadataGetter for method: SceneInfo::get_sceneName
+  // Il2CppName: get_sceneName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SceneInfo::*)()>(&SceneInfo::get_sceneName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneInfo*), "get_sceneName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SceneInfo::get_disabledRootObjects
+  // Il2CppName: get_disabledRootObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneInfo::*)()>(&SceneInfo::get_disabledRootObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneInfo*), "get_disabledRootObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SceneInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneInfo::*)()>(&SceneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneInfo::*)()>(&SceneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");

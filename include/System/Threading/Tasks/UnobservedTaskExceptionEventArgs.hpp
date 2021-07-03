@@ -40,7 +40,7 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: UnobservedTaskExceptionEventArgs
     UnobservedTaskExceptionEventArgs(System::AggregateException* m_exception_ = {}, bool m_observed_ = {}) noexcept : m_exception{m_exception_}, m_observed{m_observed_} {}
     // public System.Void .ctor(System.AggregateException exception)
-    // Offset: 0x1875DD8
+    // Offset: 0x188EAE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnobservedTaskExceptionEventArgs* New_ctor(System::AggregateException* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnobservedTaskExceptionEventArgs::.ctor");
@@ -50,5 +50,19 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
   static check_size<sizeof(UnobservedTaskExceptionEventArgs), 24 + sizeof(bool)> __System_Threading_Tasks_UnobservedTaskExceptionEventArgsSizeCheck;
   static_assert(sizeof(UnobservedTaskExceptionEventArgs) == 0x19);
+  // Writing MetadataGetter for method: UnobservedTaskExceptionEventArgs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnobservedTaskExceptionEventArgs::*)(System::AggregateException*)>(&UnobservedTaskExceptionEventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnobservedTaskExceptionEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AggregateException*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnobservedTaskExceptionEventArgs::*)(System::AggregateException*)>(&UnobservedTaskExceptionEventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnobservedTaskExceptionEventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AggregateException*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");

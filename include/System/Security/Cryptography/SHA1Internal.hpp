@@ -51,31 +51,31 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: SHA1Internal
     SHA1Internal(::Array<uint>* H_ = {}, uint64_t count_ = {}, ::Array<uint8_t>* ProcessingBuffer_ = {}, int ProcessingBufferCount_ = {}, ::Array<uint>* buff_ = {}) noexcept : H{H_}, count{count_}, ProcessingBuffer{ProcessingBuffer_}, ProcessingBufferCount{ProcessingBufferCount_}, buff{buff_} {}
     // public System.Void HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x1ACE288
+    // Offset: 0x1AE8F98
     void HashCore(::Array<uint8_t>* rgb, int ibStart, int cbSize);
     // public System.Byte[] HashFinal()
-    // Offset: 0x1ACE3AC
+    // Offset: 0x1AE90BC
     ::Array<uint8_t>* HashFinal();
     // public System.Void Initialize()
-    // Offset: 0x1ACE4B8
+    // Offset: 0x1AE91C8
     void Initialize();
     // private System.Void ProcessBlock(System.Byte[] inputBuffer, System.UInt32 inputOffset)
-    // Offset: 0x1ACE57C
+    // Offset: 0x1AE928C
     void ProcessBlock(::Array<uint8_t>* inputBuffer, uint inputOffset);
     // static private System.Void InitialiseBuff(System.UInt32[] buff, System.Byte[] input, System.UInt32 inputOffset)
-    // Offset: 0x1ACEC58
+    // Offset: 0x1AE9968
     static void InitialiseBuff(::Array<uint>* buff, ::Array<uint8_t>* input, uint inputOffset);
     // static private System.Void FillBuff(System.UInt32[] buff)
-    // Offset: 0x1ACF340
+    // Offset: 0x1AEA050
     static void FillBuff(::Array<uint>* buff);
     // private System.Void ProcessFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1ACEAA0
+    // Offset: 0x1AE97B0
     void ProcessFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // System.Void AddLength(System.UInt64 length, System.Byte[] buffer, System.Int32 position)
-    // Offset: 0x1ACF580
+    // Offset: 0x1AEA290
     void AddLength(uint64_t length, ::Array<uint8_t>* buffer, int position);
     // public System.Void .ctor()
-    // Offset: 0x1ACE150
+    // Offset: 0x1AE8E60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,83 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(SHA1Internal), 48 + sizeof(::Array<uint>*)> __System_Security_Cryptography_SHA1InternalSizeCheck;
   static_assert(sizeof(SHA1Internal) == 0x38);
+  // Writing MetadataGetter for method: SHA1Internal::HashCore
+  // Il2CppName: HashCore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&SHA1Internal::HashCore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::HashFinal
+  // Il2CppName: HashFinal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA1Internal::*)()>(&SHA1Internal::HashFinal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)()>(&SHA1Internal::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::ProcessBlock
+  // Il2CppName: ProcessBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(::Array<uint8_t>*, uint)>(&SHA1Internal::ProcessBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::InitialiseBuff
+  // Il2CppName: InitialiseBuff
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint8_t>*, uint)>(&SHA1Internal::InitialiseBuff)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "InitialiseBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::FillBuff
+  // Il2CppName: FillBuff
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*)>(&SHA1Internal::FillBuff)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "FillBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::ProcessFinalBlock
+  // Il2CppName: ProcessFinalBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&SHA1Internal::ProcessFinalBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::AddLength
+  // Il2CppName: AddLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(uint64_t, ::Array<uint8_t>*, int)>(&SHA1Internal::AddLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SHA1Internal::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)()>(&SHA1Internal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)()>(&SHA1Internal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");

@@ -97,77 +97,245 @@ namespace NUnit::Framework::Constraints {
     static ::Il2CppString* _get_Fmt_Default();
     // Set static field: static private readonly System.String Fmt_Default
     static void _set_Fmt_Default(::Il2CppString* value);
-    // [CompilerGeneratedAttribute] Offset: 0xE04FC8
-    // [DebuggerBrowsableAttribute] Offset: 0xE04FC8
+    // [CompilerGeneratedAttribute] Offset: 0xE05FC4
+    // [DebuggerBrowsableAttribute] Offset: 0xE05FC4
     // Get static field: static private NUnit.Framework.Constraints.ValueFormatter <DefaultValueFormatter>k__BackingField
     static NUnit::Framework::Constraints::ValueFormatter* _get_$DefaultValueFormatter$k__BackingField();
     // Set static field: static private NUnit.Framework.Constraints.ValueFormatter <DefaultValueFormatter>k__BackingField
     static void _set_$DefaultValueFormatter$k__BackingField(NUnit::Framework::Constraints::ValueFormatter* value);
     // static public NUnit.Framework.Constraints.ValueFormatter get_DefaultValueFormatter()
-    // Offset: 0x170F124
+    // Offset: 0x1726E34
     static NUnit::Framework::Constraints::ValueFormatter* get_DefaultValueFormatter();
     // static public System.Void set_DefaultValueFormatter(NUnit.Framework.Constraints.ValueFormatter value)
-    // Offset: 0x170F18C
+    // Offset: 0x1726E9C
     static void set_DefaultValueFormatter(NUnit::Framework::Constraints::ValueFormatter* value);
     // static private System.Void .cctor()
-    // Offset: 0x170F1F8
+    // Offset: 0x1726F08
     static void _cctor();
     // static public System.Void AddFormatter(NUnit.Framework.Constraints.ValueFormatterFactory formatterFactory)
-    // Offset: 0x170F5A4
+    // Offset: 0x17272B4
     static void AddFormatter(NUnit::Framework::Constraints::ValueFormatterFactory* formatterFactory);
     // static public System.String FormatValue(System.Object val)
-    // Offset: 0x170BF7C
+    // Offset: 0x1723C8C
     static ::Il2CppString* FormatValue(::Il2CppObject* val);
     // static public System.String FormatCollection(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0x170FDE8
+    // Offset: 0x1727AF8
     static ::Il2CppString* FormatCollection(System::Collections::IEnumerable* collection, int64_t start, int max);
     // static private System.String FormatArray(System.Array array)
-    // Offset: 0x17101CC
+    // Offset: 0x1727EDC
     static ::Il2CppString* FormatArray(System::Array* array);
     // static private System.String FormatString(System.String s)
-    // Offset: 0x1710694
+    // Offset: 0x17283A4
     static ::Il2CppString* FormatString(::Il2CppString* s);
     // static private System.String FormatDouble(System.Double d)
-    // Offset: 0x171075C
+    // Offset: 0x172846C
     static ::Il2CppString* FormatDouble(double d);
     // static private System.String FormatFloat(System.Single f)
-    // Offset: 0x171089C
+    // Offset: 0x17285AC
     static ::Il2CppString* FormatFloat(float f);
     // static private System.String FormatDecimal(System.Decimal d)
-    // Offset: 0x17109A8
+    // Offset: 0x17286B8
     static ::Il2CppString* FormatDecimal(System::Decimal d);
     // static private System.String FormatDateTime(System.DateTime dt)
-    // Offset: 0x1710A48
+    // Offset: 0x1728758
     static ::Il2CppString* FormatDateTime(System::DateTime dt);
     // static private System.String FormatDateTimeOffset(System.DateTimeOffset dto)
-    // Offset: 0x1710AF4
+    // Offset: 0x1728804
     static ::Il2CppString* FormatDateTimeOffset(System::DateTimeOffset dto);
     // static public System.String GetTypeRepresentation(System.Object obj)
-    // Offset: 0x170E7C4
+    // Offset: 0x17264D4
     static ::Il2CppString* GetTypeRepresentation(::Il2CppObject* obj);
     // static public System.String EscapeControlChars(System.String s)
-    // Offset: 0x1710BA8
+    // Offset: 0x17288B8
     static ::Il2CppString* EscapeControlChars(::Il2CppString* s);
     // static public System.String EscapeNullCharacters(System.String s)
-    // Offset: 0x1710DCC
+    // Offset: 0x1728ADC
     static ::Il2CppString* EscapeNullCharacters(::Il2CppString* s);
     // static public System.String GetArrayIndicesAsString(System.Int32[] indices)
-    // Offset: 0x170EAEC
+    // Offset: 0x17267FC
     static ::Il2CppString* GetArrayIndicesAsString(::Array<int>* indices);
     // static public System.Int32[] GetArrayIndicesFromCollectionIndex(System.Collections.IEnumerable collection, System.Int64 index)
-    // Offset: 0x170E9B4
+    // Offset: 0x17266C4
     static ::Array<int>* GetArrayIndicesFromCollectionIndex(System::Collections::IEnumerable* collection, int64_t index);
     // static public System.String ClipString(System.String s, System.Int32 maxStringLength, System.Int32 clipStart)
-    // Offset: 0x1710EC8
+    // Offset: 0x1728BD8
     static ::Il2CppString* ClipString(::Il2CppString* s, int maxStringLength, int clipStart);
     // static public System.Void ClipExpectedAndActual(ref System.String expected, ref System.String actual, System.Int32 maxDisplayLength, System.Int32 mismatch)
-    // Offset: 0x1711010
+    // Offset: 0x1728D20
     static void ClipExpectedAndActual(::Il2CppString*& expected, ::Il2CppString*& actual, int maxDisplayLength, int mismatch);
     // static public System.Int32 FindMismatchPosition(System.String expected, System.String actual, System.Int32 istart, System.Boolean ignoreCase)
-    // Offset: 0x170DE2C
+    // Offset: 0x1725B3C
     static int FindMismatchPosition(::Il2CppString* expected, ::Il2CppString* actual, int istart, bool ignoreCase);
   }; // NUnit.Framework.Constraints.MsgUtils
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MsgUtils::get_DefaultValueFormatter
+  // Il2CppName: get_DefaultValueFormatter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (*)()>(&MsgUtils::get_DefaultValueFormatter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "get_DefaultValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::set_DefaultValueFormatter
+  // Il2CppName: set_DefaultValueFormatter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Constraints::ValueFormatter*)>(&MsgUtils::set_DefaultValueFormatter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "set_DefaultValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MsgUtils::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::AddFormatter
+  // Il2CppName: AddFormatter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Constraints::ValueFormatterFactory*)>(&MsgUtils::AddFormatter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "AddFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatterFactory*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatValue
+  // Il2CppName: FormatValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&MsgUtils::FormatValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatCollection
+  // Il2CppName: FormatCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::IEnumerable*, int64_t, int)>(&MsgUtils::FormatCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatArray
+  // Il2CppName: FormatArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&MsgUtils::FormatArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatString
+  // Il2CppName: FormatString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&MsgUtils::FormatString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatDouble
+  // Il2CppName: FormatDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double)>(&MsgUtils::FormatDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatFloat
+  // Il2CppName: FormatFloat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&MsgUtils::FormatFloat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatDecimal
+  // Il2CppName: FormatDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Decimal)>(&MsgUtils::FormatDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatDateTime
+  // Il2CppName: FormatDateTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::DateTime)>(&MsgUtils::FormatDateTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FormatDateTimeOffset
+  // Il2CppName: FormatDateTimeOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::DateTimeOffset)>(&MsgUtils::FormatDateTimeOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FormatDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::GetTypeRepresentation
+  // Il2CppName: GetTypeRepresentation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&MsgUtils::GetTypeRepresentation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "GetTypeRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::EscapeControlChars
+  // Il2CppName: EscapeControlChars
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&MsgUtils::EscapeControlChars)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "EscapeControlChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::EscapeNullCharacters
+  // Il2CppName: EscapeNullCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&MsgUtils::EscapeNullCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "EscapeNullCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::GetArrayIndicesAsString
+  // Il2CppName: GetArrayIndicesAsString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*)>(&MsgUtils::GetArrayIndicesAsString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "GetArrayIndicesAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::GetArrayIndicesFromCollectionIndex
+  // Il2CppName: GetArrayIndicesFromCollectionIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Collections::IEnumerable*, int64_t)>(&MsgUtils::GetArrayIndicesFromCollectionIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "GetArrayIndicesFromCollectionIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::ClipString
+  // Il2CppName: ClipString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&MsgUtils::ClipString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "ClipString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::ClipExpectedAndActual
+  // Il2CppName: ClipExpectedAndActual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*&, ::Il2CppString*&, int, int)>(&MsgUtils::ClipExpectedAndActual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "ClipExpectedAndActual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MsgUtils::FindMismatchPosition
+  // Il2CppName: FindMismatchPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, bool)>(&MsgUtils::FindMismatchPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MsgUtils*), "FindMismatchPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils*, "NUnit.Framework.Constraints", "MsgUtils");

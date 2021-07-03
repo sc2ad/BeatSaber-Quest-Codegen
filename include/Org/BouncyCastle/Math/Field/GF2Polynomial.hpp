@@ -35,25 +35,25 @@ namespace Org::BouncyCastle::Math::Field {
       return exponents;
     }
     // System.Void .ctor(System.Int32[] exponents)
-    // Offset: 0x1D172C0
+    // Offset: 0x1D32FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GF2Polynomial* New_ctor(::Array<int>* exponents) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GF2Polynomial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GF2Polynomial*, creationType>(exponents)));
     }
     // public System.Int32 get_Degree()
-    // Offset: 0x1D17608
+    // Offset: 0x1D33318
     int get_Degree();
     // public System.Int32[] GetExponentsPresent()
-    // Offset: 0x1D17648
+    // Offset: 0x1D33358
     ::Array<int>* GetExponentsPresent();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1D176B4
+    // Offset: 0x1D333C4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1D1779C
+    // Offset: 0x1D334AC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -61,5 +61,51 @@ namespace Org::BouncyCastle::Math::Field {
   #pragma pack(pop)
   static check_size<sizeof(GF2Polynomial), 16 + sizeof(::Array<int>*)> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
   static_assert(sizeof(GF2Polynomial) == 0x18);
+  // Writing MetadataGetter for method: GF2Polynomial::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GF2Polynomial::*)(::Array<int>*)>(&GF2Polynomial::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GF2Polynomial::*)(::Array<int>*)>(&GF2Polynomial::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GF2Polynomial::get_Degree
+  // Il2CppName: get_Degree
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GF2Polynomial::*)()>(&GF2Polynomial::get_Degree)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "get_Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GF2Polynomial::GetExponentsPresent
+  // Il2CppName: GetExponentsPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (GF2Polynomial::*)()>(&GF2Polynomial::GetExponentsPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GF2Polynomial::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GF2Polynomial::*)(::Il2CppObject*)>(&GF2Polynomial::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GF2Polynomial::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GF2Polynomial::*)()>(&GF2Polynomial::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");

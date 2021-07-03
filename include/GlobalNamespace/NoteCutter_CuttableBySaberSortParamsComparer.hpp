@@ -27,10 +27,10 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Collections::IComparer*>(this);
     }
     // public System.Int32 Compare(System.Object p0, System.Object p1)
-    // Offset: 0x11BBEBC
+    // Offset: 0x11D6810
     int Compare(::Il2CppObject* p0, ::Il2CppObject* p1);
     // public System.Void .ctor()
-    // Offset: 0x11BB7EC
+    // Offset: 0x11D6140
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -40,5 +40,27 @@ namespace GlobalNamespace {
     }
   }; // NoteCutter/CuttableBySaberSortParamsComparer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NoteCutter::CuttableBySaberSortParamsComparer::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteCutter::CuttableBySaberSortParamsComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&NoteCutter::CuttableBySaberSortParamsComparer::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutter::CuttableBySaberSortParamsComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteCutter::CuttableBySaberSortParamsComparer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutter::CuttableBySaberSortParamsComparer::*)()>(&NoteCutter::CuttableBySaberSortParamsComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutter::CuttableBySaberSortParamsComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutter::CuttableBySaberSortParamsComparer::*)()>(&NoteCutter::CuttableBySaberSortParamsComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutter::CuttableBySaberSortParamsComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*, "", "NoteCutter/CuttableBySaberSortParamsComparer");

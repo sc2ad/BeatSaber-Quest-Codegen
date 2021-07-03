@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: shake and: flyingSpriteEffectPool
     char __padding7[0x7] = {};
-    // [InjectAttribute] Offset: 0xE19D78
+    // [InjectAttribute] Offset: 0xE19D54
     // private readonly FlyingSpriteEffect/Pool _flyingSpriteEffectPool
     // Size: 0x8
     // Offset: 0x50
@@ -105,13 +105,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SpawnFlyingSprite(UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Quaternion inverseRotation)
-    // Offset: 0x10C9214
+    // Offset: 0x107BB80
     void SpawnFlyingSprite(UnityEngine::Vector3 pos, UnityEngine::Quaternion rotation, UnityEngine::Quaternion inverseRotation);
     // public System.Void HandleFlyingObjectEffectDidFinish(FlyingObjectEffect flyingObjectEffect)
-    // Offset: 0x10C9480
+    // Offset: 0x107BDF0
     void HandleFlyingObjectEffectDidFinish(GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
     // public System.Void .ctor()
-    // Offset: 0x10C959C
+    // Offset: 0x107BF0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -127,5 +127,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FlyingSpriteSpawner), 80 + sizeof(GlobalNamespace::FlyingSpriteEffect::Pool*)> __GlobalNamespace_FlyingSpriteSpawnerSizeCheck;
   static_assert(sizeof(FlyingSpriteSpawner) == 0x58);
+  // Writing MetadataGetter for method: FlyingSpriteSpawner::SpawnFlyingSprite
+  // Il2CppName: SpawnFlyingSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteSpawner::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&FlyingSpriteSpawner::SpawnFlyingSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingSpriteSpawner*), "SpawnFlyingSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlyingSpriteSpawner::HandleFlyingObjectEffectDidFinish
+  // Il2CppName: HandleFlyingObjectEffectDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteSpawner::*)(GlobalNamespace::FlyingObjectEffect*)>(&FlyingSpriteSpawner::HandleFlyingObjectEffectDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingSpriteSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingObjectEffect*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlyingSpriteSpawner::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteSpawner::*)()>(&FlyingSpriteSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingSpriteSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteSpawner::*)()>(&FlyingSpriteSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingSpriteSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteSpawner*, "", "FlyingSpriteSpawner");

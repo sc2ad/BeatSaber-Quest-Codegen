@@ -80,13 +80,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Creating value type constructor for type: RuntimeTestRunnerFilter
     RuntimeTestRunnerFilter(::Array<::Il2CppString*>* assemblyNames_ = {}, ::Array<::Il2CppString*>* groupNames_ = {}, ::Array<::Il2CppString*>* categoryNames_ = {}, ::Array<::Il2CppString*>* testNames_ = {}, bool synchronousOnly_ = {}) noexcept : assemblyNames{assemblyNames_}, groupNames{groupNames_}, categoryNames{categoryNames_}, testNames{testNames_}, synchronousOnly{synchronousOnly_} {}
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
-    // Offset: 0x14A19E0
+    // Offset: 0x14BC6F0
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
-    // Offset: 0x14A1D90
+    // Offset: 0x14BCAA0
     static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::Array<::Il2CppString*>* values, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder);
     // public System.Void .ctor()
-    // Offset: 0x14A21E4
+    // Offset: 0x14BCEF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,5 +98,35 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   #pragma pack(pop)
   static check_size<sizeof(RuntimeTestRunnerFilter), 48 + sizeof(bool)> __UnityEngine_TestTools_TestRunner_GUI_RuntimeTestRunnerFilterSizeCheck;
   static_assert(sizeof(RuntimeTestRunnerFilter) == 0x31);
+  // Writing MetadataGetter for method: RuntimeTestRunnerFilter::BuildNUnitFilter
+  // Il2CppName: BuildNUnitFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (RuntimeTestRunnerFilter::*)()>(&RuntimeTestRunnerFilter::BuildNUnitFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeTestRunnerFilter*), "BuildNUnitFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeTestRunnerFilter::AddFilters
+  // Il2CppName: AddFilters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*, ::Array<::Il2CppString*>*, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*)>(&RuntimeTestRunnerFilter::AddFilters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeTestRunnerFilter*), "AddFilters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RuntimeTestRunnerFilter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeTestRunnerFilter::*)()>(&RuntimeTestRunnerFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeTestRunnerFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeTestRunnerFilter::*)()>(&RuntimeTestRunnerFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RuntimeTestRunnerFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter");

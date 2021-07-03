@@ -61,31 +61,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MirroredObstacleController
     MirroredObstacleController(GlobalNamespace::StretchableObstacle* stretchableObstacle_ = {}, GlobalNamespace::ObstacleController* followedObstacle_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* followedTransform_ = {}) noexcept : stretchableObstacle{stretchableObstacle_}, followedObstacle{followedObstacle_}, transform{transform_}, followedTransform{followedTransform_} {}
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x104D570
+    // Offset: 0x1091C58
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x104DC44
+    // Offset: 0x109232C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x104DC6C
+    // Offset: 0x1092354
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x104DD44
+    // Offset: 0x109242C
     void Update();
     // private System.Void RemoveListeners()
-    // Offset: 0x104DC70
+    // Offset: 0x1092358
     void RemoveListeners();
     // private System.Void UpdatePositionAndRotation()
-    // Offset: 0x104DD48
+    // Offset: 0x1092430
     void UpdatePositionAndRotation();
     // public System.Void Mirror(ObstacleController obstacleController)
-    // Offset: 0x104D110
+    // Offset: 0x10917F8
     void Mirror(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidStartDissolving(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x104DE70
+    // Offset: 0x1092558
     void HandleDidStartDissolving(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x104DE7C
+    // Offset: 0x1092564
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -102,5 +102,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MirroredObstacleController), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MirroredObstacleControllerSizeCheck;
   static_assert(sizeof(MirroredObstacleController) == 0x48);
+  // Writing MetadataGetter for method: MirroredObstacleController::set_hide
+  // Il2CppName: set_hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)(bool)>(&MirroredObstacleController::set_hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::RemoveListeners
+  // Il2CppName: RemoveListeners
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::RemoveListeners)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "RemoveListeners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::UpdatePositionAndRotation
+  // Il2CppName: UpdatePositionAndRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::UpdatePositionAndRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "UpdatePositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::Mirror
+  // Il2CppName: Mirror
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)(GlobalNamespace::ObstacleController*)>(&MirroredObstacleController::Mirror)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::HandleDidStartDissolving
+  // Il2CppName: HandleDidStartDissolving
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)(GlobalNamespace::ObstacleControllerBase*, float)>(&MirroredObstacleController::HandleDidStartDissolving)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), "HandleDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredObstacleController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredObstacleController::*)()>(&MirroredObstacleController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredObstacleController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredObstacleController*, "", "MirroredObstacleController");

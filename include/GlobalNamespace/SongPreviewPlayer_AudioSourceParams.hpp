@@ -26,21 +26,21 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xE29BAC
+    // [RangeAttribute] Offset: 0xE29BF0
     // private System.Single _reverbZoneMix
     // Size: 0x4
     // Offset: 0x1C
     float reverbZoneMix;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE29BF0
+    // [RangeAttribute] Offset: 0xE29C34
     // private System.Single _spatialBlend
     // Size: 0x4
     // Offset: 0x20
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE29C30
+    // [RangeAttribute] Offset: 0xE29C74
     // private System.Single _spread
     // Size: 0x4
     // Offset: 0x24
@@ -50,19 +50,19 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AudioSourceParams
     AudioSourceParams(UnityEngine::Vector3 position_ = {}, float reverbZoneMix_ = {}, float spatialBlend_ = {}, float spread_ = {}) noexcept : position{position_}, reverbZoneMix{reverbZoneMix_}, spatialBlend{spatialBlend_}, spread{spread_} {}
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1173BEC
+    // Offset: 0x1157DB0
     UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
-    // Offset: 0x1173BF8
+    // Offset: 0x1157DBC
     float get_reverbZoneMix();
     // public System.Single get_spatialBlend()
-    // Offset: 0x1173C00
+    // Offset: 0x1157DC4
     float get_spatialBlend();
     // public System.Single get_spread()
-    // Offset: 0x1173C08
+    // Offset: 0x1157DCC
     float get_spread();
     // public System.Void .ctor()
-    // Offset: 0x1173C10
+    // Offset: 0x1157DD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,5 +74,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SongPreviewPlayer::AudioSourceParams), 36 + sizeof(float)> __GlobalNamespace_SongPreviewPlayer_AudioSourceParamsSizeCheck;
   static_assert(sizeof(SongPreviewPlayer::AudioSourceParams) == 0x28);
+  // Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_position
+  // Il2CppName: get_position
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_position)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_reverbZoneMix
+  // Il2CppName: get_reverbZoneMix
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_reverbZoneMix)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_reverbZoneMix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_spatialBlend
+  // Il2CppName: get_spatialBlend
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_spatialBlend)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_spatialBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_spread
+  // Il2CppName: get_spread
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_spread)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_spread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");

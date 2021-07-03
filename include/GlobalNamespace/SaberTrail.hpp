@@ -41,30 +41,30 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberTrailRenderer* trailRendererPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberTrailRenderer*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE1A97C
-    // [TooltipAttribute] Offset: 0xE1A97C
+    // [HeaderAttribute] Offset: 0xE1A958
+    // [TooltipAttribute] Offset: 0xE1A958
     // private System.Single _trailDuration
     // Size: 0x4
     // Offset: 0x20
     float trailDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE1A9EC
+    // [TooltipAttribute] Offset: 0xE1A9C8
     // private System.Int32 _samplingFrequency
     // Size: 0x4
     // Offset: 0x24
     int samplingFrequency;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0xE1AA38
+    // [TooltipAttribute] Offset: 0xE1AA14
     // private System.Int32 _granularity
     // Size: 0x4
     // Offset: 0x28
     int granularity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0xE1AA84
-    // [TooltipAttribute] Offset: 0xE1AA84
+    // [RangeAttribute] Offset: 0xE1AA60
+    // [TooltipAttribute] Offset: 0xE1AA60
     // private System.Single _whiteSectionMaxDuration
     // Size: 0x4
     // Offset: 0x2C
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: colorOverwrite and: forcedColor
     char __padding5[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xE1AAF8
+    // [DrawIfAttribute] Offset: 0xE1AAD4
     // private UnityEngine.Color _forcedColor
     // Size: 0x10
     // Offset: 0x34
@@ -173,37 +173,37 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kScaleCheckFramesInterval
     static void _set_kScaleCheckFramesInterval(int value);
     // private System.Void Awake()
-    // Offset: 0x10E01CC
+    // Offset: 0x10D1364
     void Awake();
     // public System.Void Setup(UnityEngine.Color color, IBladeMovementData movementData)
-    // Offset: 0x10E02F0
+    // Offset: 0x10D1488
     void Setup(UnityEngine::Color color, GlobalNamespace::IBladeMovementData* movementData);
     // private System.Void Init()
-    // Offset: 0x10E0310
+    // Offset: 0x10D14A8
     void Init();
     // private System.Void ResetTrailData()
-    // Offset: 0x10E0640
+    // Offset: 0x10D17D8
     void ResetTrailData();
     // protected System.Void LateUpdate()
-    // Offset: 0x10E0728
+    // Offset: 0x10D18C0
     void LateUpdate();
     // protected System.Void OnEnable()
-    // Offset: 0x10E0CF8
+    // Offset: 0x10D1E90
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10E0DC0
+    // Offset: 0x10D1F58
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x10E0E54
+    // Offset: 0x10D1FEC
     void OnDestroy();
     // private System.Single GetTrailWidth(BladeMovementDataElement lastAddedData)
-    // Offset: 0x10E0578
+    // Offset: 0x10D1710
     float GetTrailWidth(GlobalNamespace::BladeMovementDataElement lastAddedData);
     // private System.Void OnDrawGizmosSelected()
-    // Offset: 0x10E0F20
+    // Offset: 0x10D20B8
     void OnDrawGizmosSelected();
     // public System.Void .ctor()
-    // Offset: 0x10E10FC
+    // Offset: 0x10D2294
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -219,5 +219,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SaberTrail), 136 + sizeof(bool)> __GlobalNamespace_SaberTrailSizeCheck;
   static_assert(sizeof(SaberTrail) == 0x89);
+  // Writing MetadataGetter for method: SaberTrail::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)(UnityEngine::Color, GlobalNamespace::IBladeMovementData*)>(&SaberTrail::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBladeMovementData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::ResetTrailData
+  // Il2CppName: ResetTrailData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::ResetTrailData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "ResetTrailData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::GetTrailWidth
+  // Il2CppName: GetTrailWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberTrail::*)(GlobalNamespace::BladeMovementDataElement)>(&SaberTrail::GetTrailWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "GetTrailWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BladeMovementDataElement>()});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::OnDrawGizmosSelected
+  // Il2CppName: OnDrawGizmosSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::OnDrawGizmosSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberTrail::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrail::*)()>(&SaberTrail::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberTrail*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrail*, "", "SaberTrail");

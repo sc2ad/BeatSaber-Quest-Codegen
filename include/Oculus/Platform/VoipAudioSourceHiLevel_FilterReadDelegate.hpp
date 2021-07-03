@@ -37,13 +37,13 @@ namespace Oculus::Platform {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0x23985C8
+    // Offset: 0x23B2BFC
     void Awake();
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
-    // Offset: 0x2398680
+    // Offset: 0x23B2CB4
     void OnAudioFilterRead(::Array<float>* data, int channels);
     // public System.Void .ctor()
-    // Offset: 0x2398B48
+    // Offset: 0x23B317C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -59,5 +59,35 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(VoipAudioSourceHiLevel::FilterReadDelegate), 32 + sizeof(::Array<float>*)> __Oculus_Platform_VoipAudioSourceHiLevel_FilterReadDelegateSizeCheck;
   static_assert(sizeof(VoipAudioSourceHiLevel::FilterReadDelegate) == 0x28);
+  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::FilterReadDelegate::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::FilterReadDelegate::*)()>(&VoipAudioSourceHiLevel::FilterReadDelegate::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel::FilterReadDelegate*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::FilterReadDelegate::OnAudioFilterRead
+  // Il2CppName: OnAudioFilterRead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::FilterReadDelegate::*)(::Array<float>*, int)>(&VoipAudioSourceHiLevel::FilterReadDelegate::OnAudioFilterRead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel::FilterReadDelegate*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: VoipAudioSourceHiLevel::FilterReadDelegate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::FilterReadDelegate::*)()>(&VoipAudioSourceHiLevel::FilterReadDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel::FilterReadDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipAudioSourceHiLevel::FilterReadDelegate::*)()>(&VoipAudioSourceHiLevel::FilterReadDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipAudioSourceHiLevel::FilterReadDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate*, "Oculus.Platform", "VoipAudioSourceHiLevel/FilterReadDelegate");

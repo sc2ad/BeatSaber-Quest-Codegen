@@ -38,15 +38,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public BloomPrePassGraphicsSettingsPresetsSO/Preset[] get_presets()
-    // Offset: 0x1085E5C
+    // Offset: 0x11107B8
     ::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x1085E64
+    // Offset: 0x11107C0
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::Array<GlobalNamespace::NamedPreset*>* get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x1085E6C
+    // Offset: 0x11107C8
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -62,5 +62,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassGraphicsSettingsPresetsSO), 24 + sizeof(::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>*)> __GlobalNamespace_BloomPrePassGraphicsSettingsPresetsSOSizeCheck;
   static_assert(sizeof(BloomPrePassGraphicsSettingsPresetsSO) == 0x20);
+  // Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::get_presets
+  // Il2CppName: get_presets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::get_presets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets
+  // Il2CppName: get_namedPresets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*, "", "BloomPrePassGraphicsSettingsPresetsSO");

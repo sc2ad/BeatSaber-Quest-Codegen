@@ -31,13 +31,29 @@ namespace System::Net::NetworkInformation {
     // Set static field: static private System.Boolean initialized
     static void _set_initialized(bool value);
     // static private System.Int32 GetNetworkParams(System.IntPtr ptr, ref System.Int32 size)
-    // Offset: 0x1477440
+    // Offset: 0x1492150
     static int GetNetworkParams(System::IntPtr ptr, int& size);
     // static public System.Net.NetworkInformation.Win32_FIXED_INFO get_FixedInfo()
-    // Offset: 0x1476C30
+    // Offset: 0x1491940
     static System::Net::NetworkInformation::Win32_FIXED_INFO get_FixedInfo();
   }; // System.Net.NetworkInformation.Win32NetworkInterface
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Win32NetworkInterface::GetNetworkParams
+  // Il2CppName: GetNetworkParams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int&)>(&Win32NetworkInterface::GetNetworkParams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Win32NetworkInterface*), "GetNetworkParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Win32NetworkInterface::get_FixedInfo
+  // Il2CppName: get_FixedInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::Win32_FIXED_INFO (*)()>(&Win32NetworkInterface::get_FixedInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Win32NetworkInterface*), "get_FixedInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface*, "System.Net.NetworkInformation", "Win32NetworkInterface");

@@ -36,10 +36,18 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static public readonly UnityEngine.GUIStyle FailedMessagesStyle
     static void _set_FailedMessagesStyle(UnityEngine::GUIStyle* value);
     // static private System.Void .cctor()
-    // Offset: 0x14A16E0
+    // Offset: 0x14BC3F0
     static void _cctor();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/Styles
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TestResultRenderer::Styles::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TestResultRenderer::Styles::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRenderer::Styles*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/Styles");

@@ -43,21 +43,51 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: LinuxIPInterfaceProperties
     LinuxIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1473154
+    // Offset: 0x148DE64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
-    // Offset: 0x147320C
+    // Offset: 0x148DF1C
     System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::Il2CppString* iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1473694
+    // Offset: 0x148E3A4
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
   }; // System.Net.NetworkInformation.LinuxIPInterfaceProperties
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LinuxIPInterfaceProperties::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LinuxIPInterfaceProperties::*)(System::Net::NetworkInformation::LinuxNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&LinuxIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::LinuxNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LinuxIPInterfaceProperties::*)(System::Net::NetworkInformation::LinuxNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&LinuxIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::LinuxNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LinuxIPInterfaceProperties::ParseRouteInfo
+  // Il2CppName: ParseRouteInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPAddressCollection* (LinuxIPInterfaceProperties::*)(::Il2CppString*)>(&LinuxIPInterfaceProperties::ParseRouteInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxIPInterfaceProperties*), "ParseRouteInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LinuxIPInterfaceProperties::get_GatewayAddresses
+  // Il2CppName: get_GatewayAddresses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (LinuxIPInterfaceProperties::*)()>(&LinuxIPInterfaceProperties::get_GatewayAddresses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LinuxIPInterfaceProperties*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxIPInterfaceProperties*, "System.Net.NetworkInformation", "LinuxIPInterfaceProperties");

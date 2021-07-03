@@ -40,18 +40,48 @@ namespace System::Collections {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Object key, System.Object value)
-    // Offset: 0xEFC608
+    // Offset: 0xEFD5C0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  DictionaryEntry(::Il2CppObject* key, ::Il2CppObject* value)
     // public System.Object get_Key()
-    // Offset: 0xEFC610
+    // Offset: 0xEFD5C8
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0xEFC618
+    // Offset: 0xEFD5D0
     ::Il2CppObject* get_Value();
   }; // System.Collections.DictionaryEntry
   #pragma pack(pop)
   static check_size<sizeof(DictionaryEntry), 8 + sizeof(::Il2CppObject*)> __System_Collections_DictionaryEntrySizeCheck;
   static_assert(sizeof(DictionaryEntry) == 0x10);
+  // Writing MetadataGetter for method: DictionaryEntry::DictionaryEntry
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DictionaryEntry::*)(::Il2CppObject*, ::Il2CppObject*)>(&DictionaryEntry::DictionaryEntry<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DictionaryEntry), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DictionaryEntry::*)(::Il2CppObject*, ::Il2CppObject*)>(&DictionaryEntry::DictionaryEntry<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DictionaryEntry), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DictionaryEntry::get_Key
+  // Il2CppName: get_Key
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DictionaryEntry::*)()>(&DictionaryEntry::get_Key)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DictionaryEntry), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DictionaryEntry::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DictionaryEntry::*)()>(&DictionaryEntry::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DictionaryEntry), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");

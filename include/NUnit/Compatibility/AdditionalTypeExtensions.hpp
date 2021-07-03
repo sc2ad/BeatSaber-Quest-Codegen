@@ -46,16 +46,40 @@ namespace NUnit::Compatibility {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
     static void _set_convertibleValueTypes(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::List_1<System::Type*>*>* value);
     // static public System.Boolean ParametersMatch(System.Reflection.ParameterInfo[] pinfos, System.Type[] ptypes)
-    // Offset: 0x1706C94
+    // Offset: 0x171E9A4
     static bool ParametersMatch(::Array<System::Reflection::ParameterInfo*>* pinfos, ::Array<System::Type*>* ptypes);
     // static public System.Boolean IsCastableFrom(System.Type to, System.Type from)
-    // Offset: 0x1706DA8
+    // Offset: 0x171EAB8
     static bool IsCastableFrom(System::Type* to, System::Type* from);
     // static private System.Void .cctor()
-    // Offset: 0x1706FF4
+    // Offset: 0x171ED04
     static void _cctor();
   }; // NUnit.Compatibility.AdditionalTypeExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AdditionalTypeExtensions::ParametersMatch
+  // Il2CppName: ParametersMatch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Reflection::ParameterInfo*>*, ::Array<System::Type*>*)>(&AdditionalTypeExtensions::ParametersMatch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdditionalTypeExtensions*), "ParametersMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdditionalTypeExtensions::IsCastableFrom
+  // Il2CppName: IsCastableFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&AdditionalTypeExtensions::IsCastableFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdditionalTypeExtensions*), "IsCastableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AdditionalTypeExtensions::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AdditionalTypeExtensions::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AdditionalTypeExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.Compatibility", "AdditionalTypeExtensions");

@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* progressText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE13838
+    // [SpaceAttribute] Offset: 0xE13834
     // private StandardLevelScenesTransitionSetupDataSO _waypointsTestScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x30
@@ -105,14 +105,14 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>* characteristics;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE13890
+    // [InjectAttribute] Offset: 0xE1388C
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE138A0
+    // [InjectAttribute] Offset: 0xE1389C
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x50
@@ -142,28 +142,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1D99A2C
+    // Offset: 0x1DB2788
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1D99B50
+    // Offset: 0x1DB28AC
     void OnDestroy();
     // private System.Collections.IEnumerator CheckBeatmaps(System.Collections.Generic.List`1<BeatmapLevelSO> levels)
-    // Offset: 0x1D99C3C
+    // Offset: 0x1DB2998
     System::Collections::IEnumerator* CheckBeatmaps(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>* levels);
     // private System.Void HandleMainGameSceneDidFinish(StandardLevelScenesTransitionSetupDataSO data, LevelCompletionResults results)
-    // Offset: 0x1D99CE4
+    // Offset: 0x1DB2A40
     void HandleMainGameSceneDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, GlobalNamespace::LevelCompletionResults* results);
     // private System.Void <Start>b__11_0()
-    // Offset: 0x1D99D88
+    // Offset: 0x1DB2AE4
     void $Start$b__11_0();
     // private System.Void <Start>b__11_1()
-    // Offset: 0x1D99E1C
+    // Offset: 0x1DB2B78
     void $Start$b__11_1();
     // private System.Void <HandleMainGameSceneDidFinish>b__14_0(Zenject.DiContainer container)
-    // Offset: 0x1D99E6C
+    // Offset: 0x1DB2BC8
     void $HandleMainGameSceneDidFinish$b__14_0(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x1D99D80
+    // Offset: 0x1DB2ADC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -179,5 +179,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(WaypointsTestMenuViewController), 97 + sizeof(bool)> __GlobalNamespace_WaypointsTestMenuViewControllerSizeCheck;
   static_assert(sizeof(WaypointsTestMenuViewController) == 0x62);
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::CheckBeatmaps
+  // Il2CppName: CheckBeatmaps
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (WaypointsTestMenuViewController::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*)>(&WaypointsTestMenuViewController::CheckBeatmaps)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "CheckBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::HandleMainGameSceneDidFinish
+  // Il2CppName: HandleMainGameSceneDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&WaypointsTestMenuViewController::HandleMainGameSceneDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "HandleMainGameSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::$Start$b__11_0
+  // Il2CppName: <Start>b__11_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::$Start$b__11_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::$Start$b__11_1
+  // Il2CppName: <Start>b__11_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::$Start$b__11_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "<Start>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0
+  // Il2CppName: <HandleMainGameSceneDidFinish>b__14_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)(Zenject::DiContainer*)>(&WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "<HandleMainGameSceneDidFinish>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestMenuViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");

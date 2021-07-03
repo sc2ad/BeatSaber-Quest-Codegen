@@ -84,7 +84,7 @@ namespace System {
     // Set static field: static private System.Char[] WhiteSpaceChecks
     static void _set_WhiteSpaceChecks(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi, System.Boolean checkDigitToken)
-    // Offset: 0xF19040
+    // Offset: 0xF19FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::__DTString::.ctor");
@@ -92,7 +92,7 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str, dtfi, checkDigitToken);
     }
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0xF19070
+    // Offset: 0xF1A028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::__DTString::.ctor");
@@ -100,80 +100,300 @@ namespace System {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, str, dtfi);
     }
     // System.Globalization.CompareInfo get_CompareInfo()
-    // Offset: 0xF19078
+    // Offset: 0xF1A030
     System::Globalization::CompareInfo* get_CompareInfo();
     // System.Boolean GetNext()
-    // Offset: 0xF19080
+    // Offset: 0xF1A038
     bool GetNext();
     // System.Boolean AtEnd()
-    // Offset: 0xF19088
+    // Offset: 0xF1A040
     bool AtEnd();
     // System.Boolean Advance(System.Int32 count)
-    // Offset: 0xF19098
+    // Offset: 0xF1A050
     bool Advance(int count);
     // System.Void GetRegularToken(out System.TokenType tokenType, out System.Int32 tokenValue, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0xF190A0
+    // Offset: 0xF1A058
     void GetRegularToken(System::TokenType& tokenType, int& tokenValue, System::Globalization::DateTimeFormatInfo* dtfi);
     // System.TokenType GetSeparatorToken(System.Globalization.DateTimeFormatInfo dtfi, out System.Int32 indexBeforeSeparator, out System.Char charBeforeSeparator)
-    // Offset: 0xF190A8
+    // Offset: 0xF1A060
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, int& indexBeforeSeparator, ::Il2CppChar& charBeforeSeparator);
     // System.Boolean MatchSpecifiedWord(System.String target)
-    // Offset: 0xF190B0
+    // Offset: 0xF1A068
     bool MatchSpecifiedWord(::Il2CppString* target);
     // System.Boolean MatchSpecifiedWord(System.String target, System.Int32 endIndex)
-    // Offset: 0xF190B8
+    // Offset: 0xF1A070
     bool MatchSpecifiedWord(::Il2CppString* target, int endIndex);
     // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, ref System.Int32 matchLength)
-    // Offset: 0xF190C0
+    // Offset: 0xF1A078
     bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, int& matchLength);
     // System.Boolean Match(System.String str)
-    // Offset: 0xF190CC
+    // Offset: 0xF1A084
     bool Match(::Il2CppString* str);
     // System.Boolean Match(System.Char ch)
-    // Offset: 0xF190D4
+    // Offset: 0xF1A08C
     bool Match(::Il2CppChar ch);
     // System.Int32 MatchLongestWords(System.String[] words, ref System.Int32 maxMatchStrLen)
-    // Offset: 0xF190DC
+    // Offset: 0xF1A094
     int MatchLongestWords(::Array<::Il2CppString*>* words, int& maxMatchStrLen);
     // System.Int32 GetRepeatCount()
-    // Offset: 0xF190E4
+    // Offset: 0xF1A09C
     int GetRepeatCount();
     // System.Boolean GetNextDigit()
-    // Offset: 0xF190EC
+    // Offset: 0xF1A0A4
     bool GetNextDigit();
     // System.Char GetChar()
-    // Offset: 0xF190F4
+    // Offset: 0xF1A0AC
     ::Il2CppChar GetChar();
     // System.Int32 GetDigit()
-    // Offset: 0xF190FC
+    // Offset: 0xF1A0B4
     int GetDigit();
     // System.Void SkipWhiteSpaces()
-    // Offset: 0xF19104
+    // Offset: 0xF1A0BC
     void SkipWhiteSpaces();
     // System.Boolean SkipWhiteSpaceCurrent()
-    // Offset: 0xF1910C
+    // Offset: 0xF1A0C4
     bool SkipWhiteSpaceCurrent();
     // System.Void TrimTail()
-    // Offset: 0xF19114
+    // Offset: 0xF1A0CC
     void TrimTail();
     // System.Void RemoveTrailingInQuoteSpaces()
-    // Offset: 0xF1911C
+    // Offset: 0xF1A0D4
     void RemoveTrailingInQuoteSpaces();
     // System.Void RemoveLeadingInQuoteSpaces()
-    // Offset: 0xF19124
+    // Offset: 0xF1A0DC
     void RemoveLeadingInQuoteSpaces();
     // System.DTSubString GetSubString()
-    // Offset: 0xF1912C
+    // Offset: 0xF1A0E4
     System::DTSubString GetSubString();
     // System.Void ConsumeSubString(System.DTSubString sub)
-    // Offset: 0xF19134
+    // Offset: 0xF1A0EC
     void ConsumeSubString(System::DTSubString sub);
     // static private System.Void .cctor()
-    // Offset: 0x231B634
+    // Offset: 0x2335390
     static void _cctor();
   }; // System.__DTString
   #pragma pack(pop)
   static check_size<sizeof(__DTString), 32 + sizeof(bool)> __System___DTStringSizeCheck;
   static_assert(sizeof(__DTString) == 0x21);
+  // Writing MetadataGetter for method: __DTString::__DTString
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, bool)>(&__DTString::__DTString<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*, bool)>(&__DTString::__DTString<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::__DTString
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*)>(&__DTString::__DTString<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)(::Il2CppString*, System::Globalization::DateTimeFormatInfo*)>(&__DTString::__DTString<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::get_CompareInfo
+  // Il2CppName: get_CompareInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CompareInfo* (__DTString::*)()>(&__DTString::get_CompareInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "get_CompareInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetNext
+  // Il2CppName: GetNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)()>(&__DTString::GetNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::AtEnd
+  // Il2CppName: AtEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)()>(&__DTString::AtEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "AtEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::Advance
+  // Il2CppName: Advance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)(int)>(&__DTString::Advance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "Advance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetRegularToken
+  // Il2CppName: GetRegularToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)(System::TokenType&, int&, System::Globalization::DateTimeFormatInfo*)>(&__DTString::GetRegularToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetRegularToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TokenType&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetSeparatorToken
+  // Il2CppName: GetSeparatorToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TokenType (__DTString::*)(System::Globalization::DateTimeFormatInfo*, int&, ::Il2CppChar&)>(&__DTString::GetSeparatorToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetSeparatorToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar&>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::MatchSpecifiedWord
+  // Il2CppName: MatchSpecifiedWord
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)(::Il2CppString*)>(&__DTString::MatchSpecifiedWord)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "MatchSpecifiedWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::MatchSpecifiedWord
+  // Il2CppName: MatchSpecifiedWord
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)(::Il2CppString*, int)>(&__DTString::MatchSpecifiedWord)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "MatchSpecifiedWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::MatchSpecifiedWords
+  // Il2CppName: MatchSpecifiedWords
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)(::Il2CppString*, bool, int&)>(&__DTString::MatchSpecifiedWords)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "MatchSpecifiedWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::Match
+  // Il2CppName: Match
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)(::Il2CppString*)>(&__DTString::Match)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::Match
+  // Il2CppName: Match
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)(::Il2CppChar)>(&__DTString::Match)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::MatchLongestWords
+  // Il2CppName: MatchLongestWords
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (__DTString::*)(::Array<::Il2CppString*>*, int&)>(&__DTString::MatchLongestWords)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "MatchLongestWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetRepeatCount
+  // Il2CppName: GetRepeatCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (__DTString::*)()>(&__DTString::GetRepeatCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetRepeatCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetNextDigit
+  // Il2CppName: GetNextDigit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)()>(&__DTString::GetNextDigit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetNextDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetChar
+  // Il2CppName: GetChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (__DTString::*)()>(&__DTString::GetChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetDigit
+  // Il2CppName: GetDigit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (__DTString::*)()>(&__DTString::GetDigit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::SkipWhiteSpaces
+  // Il2CppName: SkipWhiteSpaces
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)()>(&__DTString::SkipWhiteSpaces)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "SkipWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::SkipWhiteSpaceCurrent
+  // Il2CppName: SkipWhiteSpaceCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (__DTString::*)()>(&__DTString::SkipWhiteSpaceCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "SkipWhiteSpaceCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::TrimTail
+  // Il2CppName: TrimTail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)()>(&__DTString::TrimTail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "TrimTail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::RemoveTrailingInQuoteSpaces
+  // Il2CppName: RemoveTrailingInQuoteSpaces
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)()>(&__DTString::RemoveTrailingInQuoteSpaces)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "RemoveTrailingInQuoteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::RemoveLeadingInQuoteSpaces
+  // Il2CppName: RemoveLeadingInQuoteSpaces
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)()>(&__DTString::RemoveLeadingInQuoteSpaces)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "RemoveLeadingInQuoteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::GetSubString
+  // Il2CppName: GetSubString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DTSubString (__DTString::*)()>(&__DTString::GetSubString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "GetSubString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::ConsumeSubString
+  // Il2CppName: ConsumeSubString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__DTString::*)(System::DTSubString)>(&__DTString::ConsumeSubString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), "ConsumeSubString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DTSubString>()});
+    }
+  };
+  // Writing MetadataGetter for method: __DTString::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__DTString::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__DTString), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::__DTString, "System", "__DTString");

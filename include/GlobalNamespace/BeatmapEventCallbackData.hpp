@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapEventCallbackData
     BeatmapEventCallbackData(GlobalNamespace::BeatmapEventCallback* callback_ = {}, float aheadTime_ = {}, int nextEventIndex_ = {}) noexcept : callback{callback_}, aheadTime{aheadTime_}, nextEventIndex{nextEventIndex_} {}
     // public System.Void .ctor(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x11AE364
+    // Offset: 0x11C83E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventCallbackData* New_ctor(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventCallbackData::.ctor");
@@ -54,5 +54,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapEventCallbackData), 28 + sizeof(int)> __GlobalNamespace_BeatmapEventCallbackDataSizeCheck;
   static_assert(sizeof(BeatmapEventCallbackData) == 0x20);
+  // Writing MetadataGetter for method: BeatmapEventCallbackData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapEventCallbackData::*)(GlobalNamespace::BeatmapEventCallback*, float)>(&BeatmapEventCallbackData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapEventCallbackData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapEventCallbackData::*)(GlobalNamespace::BeatmapEventCallback*, float)>(&BeatmapEventCallbackData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapEventCallbackData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventCallbackData*, "", "BeatmapEventCallbackData");

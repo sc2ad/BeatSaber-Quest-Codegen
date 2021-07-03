@@ -48,10 +48,10 @@ namespace ModestTree {
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
     // static public System.Void That(System.Boolean condition)
-    // Offset: 0x1365B28
+    // Offset: 0x1380838
     static void That(bool condition);
     // static public System.Void IsNotEmpty(System.String str)
-    // Offset: 0x1365BF0
+    // Offset: 0x1380900
     static void IsNotEmpty(::Il2CppString* str);
     // static public System.Void IsEmpty(System.Collections.Generic.IList`1<T> list)
     // Offset: 0xFFFFFFFF
@@ -108,49 +108,49 @@ namespace ModestTree {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, type);
     }
     // static public System.Void DerivesFrom(System.Type childType, System.Type parentType)
-    // Offset: 0x1365C60
+    // Offset: 0x1380970
     static void DerivesFrom(System::Type* childType, System::Type* parentType);
     // static public System.Void DerivesFromOrEqual(System.Type childType, System.Type parentType)
-    // Offset: 0x1365ED8
+    // Offset: 0x1380BE8
     static void DerivesFromOrEqual(System::Type* childType, System::Type* parentType);
     // static public System.Void IsEqual(System.Object left, System.Object right)
-    // Offset: 0x13660C0
+    // Offset: 0x1380DD0
     static void IsEqual(::Il2CppObject* left, ::Il2CppObject* right);
     // static public System.Void IsEqual(System.Object left, System.Object right, System.Func`1<System.String> messageGenerator)
-    // Offset: 0x1366244
+    // Offset: 0x1380F54
     static void IsEqual(::Il2CppObject* left, ::Il2CppObject* right, System::Func_1<::Il2CppString*>* messageGenerator);
     // static public System.Void IsApproximately(System.Single left, System.Single right, System.Single epsilon)
-    // Offset: 0x1366390
+    // Offset: 0x13810A0
     static void IsApproximately(float left, float right, float epsilon);
     // static public System.Void IsEqual(System.Object left, System.Object right, System.String message)
-    // Offset: 0x1366120
+    // Offset: 0x1380E30
     static void IsEqual(::Il2CppObject* left, ::Il2CppObject* right, ::Il2CppString* message);
     // static public System.Void IsNotEqual(System.Object left, System.Object right)
-    // Offset: 0x13664D8
+    // Offset: 0x13811E8
     static void IsNotEqual(::Il2CppObject* left, ::Il2CppObject* right);
     // static public System.Void IsNotEqual(System.Object left, System.Object right, System.Func`1<System.String> messageGenerator)
-    // Offset: 0x1366630
+    // Offset: 0x1381340
     static void IsNotEqual(::Il2CppObject* left, ::Il2CppObject* right, System::Func_1<::Il2CppString*>* messageGenerator);
     // static public System.Void IsNull(System.Object val)
-    // Offset: 0x136677C
+    // Offset: 0x138148C
     static void IsNull(::Il2CppObject* val);
     // static public System.Void IsNull(System.Object val, System.String message)
-    // Offset: 0x136681C
+    // Offset: 0x138152C
     static void IsNull(::Il2CppObject* val, ::Il2CppString* message);
     // static public System.Void IsNull(System.Object val, System.String message, System.Object p1)
-    // Offset: 0x13668C8
+    // Offset: 0x13815D8
     static void IsNull(::Il2CppObject* val, ::Il2CppString* message, ::Il2CppObject* p1);
     // static public System.Void IsNotNull(System.Object val)
-    // Offset: 0x1366B74
+    // Offset: 0x1381884
     static void IsNotNull(::Il2CppObject* val);
     // static public System.Void IsNotNull(System.Object val, System.String message)
-    // Offset: 0x1366BD8
+    // Offset: 0x13818E8
     static void IsNotNull(::Il2CppObject* val, ::Il2CppString* message);
     // static public System.Void IsNotNull(System.Object val, System.String message, System.Object p1)
-    // Offset: 0x1366C84
+    // Offset: 0x1381994
     static void IsNotNull(::Il2CppObject* val, ::Il2CppString* message, ::Il2CppObject* p1);
     // static public System.Void IsNotNull(System.Object val, System.String message, System.Object p1, System.Object p2)
-    // Offset: 0x1366D7C
+    // Offset: 0x1381A8C
     static void IsNotNull(::Il2CppObject* val, ::Il2CppString* message, ::Il2CppObject* p1, ::Il2CppObject* p2);
     // static public System.Void IsNotEmpty(System.Collections.Generic.IEnumerable`1<T> val, System.String message)
     // Offset: 0xFFFFFFFF
@@ -162,31 +162,31 @@ namespace ModestTree {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, val, message);
     }
     // static public System.Void IsNotEqual(System.Object left, System.Object right, System.String message)
-    // Offset: 0x1366538
+    // Offset: 0x1381248
     static void IsNotEqual(::Il2CppObject* left, ::Il2CppObject* right, ::Il2CppString* message);
     // static public System.Void Warn(System.Boolean condition)
-    // Offset: 0x1366EA4
+    // Offset: 0x1381BB4
     static void Warn(bool condition);
     // static public System.Void Warn(System.Boolean condition, System.Func`1<System.String> messageGenerator)
-    // Offset: 0x1367014
+    // Offset: 0x1381D24
     static void Warn(bool condition, System::Func_1<::Il2CppString*>* messageGenerator);
     // static public System.Void That(System.Boolean condition, System.String message)
-    // Offset: 0x1367140
+    // Offset: 0x1381E50
     static void That(bool condition, ::Il2CppString* message);
     // static public System.Void That(System.Boolean condition, System.String message, System.Object p1)
-    // Offset: 0x13671BC
+    // Offset: 0x1381ECC
     static void That(bool condition, ::Il2CppString* message, ::Il2CppObject* p1);
     // static public System.Void That(System.Boolean condition, System.String message, System.Object p1, System.Object p2)
-    // Offset: 0x1367284
+    // Offset: 0x1381F94
     static void That(bool condition, ::Il2CppString* message, ::Il2CppObject* p1, ::Il2CppObject* p2);
     // static public System.Void That(System.Boolean condition, System.String message, System.Object p1, System.Object p2, System.Object p3)
-    // Offset: 0x136737C
+    // Offset: 0x138208C
     static void That(bool condition, ::Il2CppString* message, ::Il2CppObject* p1, ::Il2CppObject* p2, ::Il2CppObject* p3);
     // static public System.Void Warn(System.Boolean condition, System.String message)
-    // Offset: 0x136749C
+    // Offset: 0x13821AC
     static void Warn(bool condition, ::Il2CppString* message);
     // static public System.Void Throws(System.Action action)
-    // Offset: 0x13675A8
+    // Offset: 0x13822B8
     static void Throws(System::Action* action);
     // static public System.Void Throws(System.Action action)
     // Offset: 0xFFFFFFFF
@@ -199,13 +199,13 @@ namespace ModestTree {
       ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, action);
     }
     // static public Zenject.ZenjectException CreateException()
-    // Offset: 0x13675F8
+    // Offset: 0x1382308
     static Zenject::ZenjectException* CreateException();
     // static public Zenject.ZenjectException CreateException(System.String message)
-    // Offset: 0x1365B8C
+    // Offset: 0x138089C
     static Zenject::ZenjectException* CreateException(::Il2CppString* message);
     // static public Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
-    // Offset: 0x1365E54
+    // Offset: 0x1380B64
     static Zenject::ZenjectException* CreateException(::Il2CppString* message, ::Array<::Il2CppObject*>* parameters);
     // Creating initializer_list -> params proxy for: Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
     static Zenject::ZenjectException* CreateException(::Il2CppString* message, std::initializer_list<::Il2CppObject*> parameters);
@@ -215,7 +215,7 @@ namespace ModestTree {
       return CreateException(message, {parameters...});
     }
     // static public Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
-    // Offset: 0x1367660
+    // Offset: 0x1382370
     static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, ::Array<::Il2CppObject*>* parameters);
     // Creating initializer_list -> params proxy for: Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
     static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> parameters);
@@ -226,5 +226,269 @@ namespace ModestTree {
     }
   }; // ModestTree.Assert
   #pragma pack(pop)
+  // Writing MetadataGetter for method: _Assert::That
+  // Il2CppName: That
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&_Assert::That)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotEmpty
+  // Il2CppName: IsNotEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&_Assert::IsNotEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsEmpty
+  // Il2CppName: IsEmpty
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::IsEmpty
+  // Il2CppName: IsEmpty
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::IsType
+  // Il2CppName: IsType
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::IsType
+  // Il2CppName: IsType
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::DerivesFrom
+  // Il2CppName: DerivesFrom
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::DerivesFromOrEqual
+  // Il2CppName: DerivesFromOrEqual
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::DerivesFrom
+  // Il2CppName: DerivesFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&_Assert::DerivesFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "DerivesFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::DerivesFromOrEqual
+  // Il2CppName: DerivesFromOrEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&_Assert::DerivesFromOrEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "DerivesFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsEqual
+  // Il2CppName: IsEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&_Assert::IsEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsEqual
+  // Il2CppName: IsEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, System::Func_1<::Il2CppString*>*)>(&_Assert::IsEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsApproximately
+  // Il2CppName: IsApproximately
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float)>(&_Assert::IsApproximately)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsApproximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsEqual
+  // Il2CppName: IsEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppString*)>(&_Assert::IsEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotEqual
+  // Il2CppName: IsNotEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&_Assert::IsNotEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotEqual
+  // Il2CppName: IsNotEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, System::Func_1<::Il2CppString*>*)>(&_Assert::IsNotEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNull
+  // Il2CppName: IsNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&_Assert::IsNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNull
+  // Il2CppName: IsNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&_Assert::IsNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNull
+  // Il2CppName: IsNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&_Assert::IsNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotNull
+  // Il2CppName: IsNotNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&_Assert::IsNotNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotNull
+  // Il2CppName: IsNotNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&_Assert::IsNotNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotNull
+  // Il2CppName: IsNotNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&_Assert::IsNotNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotNull
+  // Il2CppName: IsNotNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&_Assert::IsNotNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsNotEmpty
+  // Il2CppName: IsNotEmpty
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::IsNotEqual
+  // Il2CppName: IsNotEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppString*)>(&_Assert::IsNotEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::Warn
+  // Il2CppName: Warn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&_Assert::Warn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::Warn
+  // Il2CppName: Warn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, System::Func_1<::Il2CppString*>*)>(&_Assert::Warn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::That
+  // Il2CppName: That
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&_Assert::That)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::That
+  // Il2CppName: That
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*)>(&_Assert::That)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::That
+  // Il2CppName: That
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&_Assert::That)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::That
+  // Il2CppName: That
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&_Assert::That)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::Warn
+  // Il2CppName: Warn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&_Assert::Warn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::Throws
+  // Il2CppName: Throws
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&_Assert::Throws)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "Throws", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::Throws
+  // Il2CppName: Throws
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::CreateException
+  // Il2CppName: CreateException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)()>(&_Assert::CreateException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::CreateException
+  // Il2CppName: CreateException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*)>(&_Assert::CreateException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::CreateException
+  // Il2CppName: CreateException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&_Assert::CreateException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::CreateException
+  // Il2CppName: CreateException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(System::Exception*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&_Assert::CreateException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");

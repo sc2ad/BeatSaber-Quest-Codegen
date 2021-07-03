@@ -69,13 +69,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ICPUMonitor*>(this);
     }
     // public System.Void PollUpdate()
-    // Offset: 0x130704C
+    // Offset: 0x1321D5C
     void PollUpdate();
     // public System.Single get_utilization()
-    // Offset: 0x1307154
+    // Offset: 0x1321E64
     float get_utilization();
     // public System.Void .ctor()
-    // Offset: 0x130717C
+    // Offset: 0x1321E8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CPUMonitor), 48 + sizeof(int64_t)> __GlobalNamespace_CPUMonitorSizeCheck;
   static_assert(sizeof(CPUMonitor) == 0x38);
+  // Writing MetadataGetter for method: CPUMonitor::PollUpdate
+  // Il2CppName: PollUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CPUMonitor::*)()>(&CPUMonitor::PollUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CPUMonitor::get_utilization
+  // Il2CppName: get_utilization
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CPUMonitor::*)()>(&CPUMonitor::get_utilization)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CPUMonitor::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CPUMonitor::*)()>(&CPUMonitor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CPUMonitor::*)()>(&CPUMonitor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");

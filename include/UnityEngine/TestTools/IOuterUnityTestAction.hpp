@@ -33,6 +33,22 @@ namespace UnityEngine::TestTools {
     System::Collections::IEnumerator* AfterTest(NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestTools.IOuterUnityTestAction
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IOuterUnityTestAction::BeforeTest
+  // Il2CppName: BeforeTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (IOuterUnityTestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&IOuterUnityTestAction::BeforeTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IOuterUnityTestAction*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IOuterUnityTestAction::AfterTest
+  // Il2CppName: AfterTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (IOuterUnityTestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&IOuterUnityTestAction::AfterTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IOuterUnityTestAction*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::IOuterUnityTestAction*, "UnityEngine.TestTools", "IOuterUnityTestAction");

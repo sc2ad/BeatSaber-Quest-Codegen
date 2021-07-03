@@ -92,49 +92,49 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_allowOffhandGrab()
-    // Offset: 0x14F2478
+    // Offset: 0x150D188
     bool get_allowOffhandGrab();
     // public System.Boolean get_isGrabbed()
-    // Offset: 0x14F2480
+    // Offset: 0x150D190
     bool get_isGrabbed();
     // public System.Boolean get_snapPosition()
-    // Offset: 0x14F24F0
+    // Offset: 0x150D200
     bool get_snapPosition();
     // public System.Boolean get_snapOrientation()
-    // Offset: 0x14F24F8
+    // Offset: 0x150D208
     bool get_snapOrientation();
     // public UnityEngine.Transform get_snapOffset()
-    // Offset: 0x14F2500
+    // Offset: 0x150D210
     UnityEngine::Transform* get_snapOffset();
     // public OVRGrabber get_grabbedBy()
-    // Offset: 0x14F2508
+    // Offset: 0x150D218
     GlobalNamespace::OVRGrabber* get_grabbedBy();
     // public UnityEngine.Transform get_grabbedTransform()
-    // Offset: 0x14F2510
+    // Offset: 0x150D220
     UnityEngine::Transform* get_grabbedTransform();
     // public UnityEngine.Rigidbody get_grabbedRigidbody()
-    // Offset: 0x14F252C
+    // Offset: 0x150D23C
     UnityEngine::Rigidbody* get_grabbedRigidbody();
     // public UnityEngine.Collider[] get_grabPoints()
-    // Offset: 0x14F2548
+    // Offset: 0x150D258
     ::Array<UnityEngine::Collider*>* get_grabPoints();
     // public System.Void GrabBegin(OVRGrabber hand, UnityEngine.Collider grabPoint)
-    // Offset: 0x14F2550
+    // Offset: 0x150D260
     void GrabBegin(GlobalNamespace::OVRGrabber* hand, UnityEngine::Collider* grabPoint);
     // public System.Void GrabEnd(UnityEngine.Vector3 linearVelocity, UnityEngine.Vector3 angularVelocity)
-    // Offset: 0x14F25D4
+    // Offset: 0x150D2E4
     void GrabEnd(UnityEngine::Vector3 linearVelocity, UnityEngine::Vector3 angularVelocity);
     // private System.Void Awake()
-    // Offset: 0x14F26B0
+    // Offset: 0x150D3C0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x14F27F4
+    // Offset: 0x150D504
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x14F2860
+    // Offset: 0x150D570
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x14F29BC
+    // Offset: 0x150D6CC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -150,5 +150,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRGrabbable), 64 + sizeof(GlobalNamespace::OVRGrabber*)> __GlobalNamespace_OVRGrabbableSizeCheck;
   static_assert(sizeof(OVRGrabbable) == 0x48);
+  // Writing MetadataGetter for method: OVRGrabbable::get_allowOffhandGrab
+  // Il2CppName: get_allowOffhandGrab
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRGrabbable::*)()>(&OVRGrabbable::get_allowOffhandGrab)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_allowOffhandGrab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_isGrabbed
+  // Il2CppName: get_isGrabbed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRGrabbable::*)()>(&OVRGrabbable::get_isGrabbed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_isGrabbed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_snapPosition
+  // Il2CppName: get_snapPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRGrabbable::*)()>(&OVRGrabbable::get_snapPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_snapPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_snapOrientation
+  // Il2CppName: get_snapOrientation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRGrabbable::*)()>(&OVRGrabbable::get_snapOrientation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_snapOrientation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_snapOffset
+  // Il2CppName: get_snapOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRGrabbable::*)()>(&OVRGrabbable::get_snapOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_snapOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_grabbedBy
+  // Il2CppName: get_grabbedBy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRGrabber* (OVRGrabbable::*)()>(&OVRGrabbable::get_grabbedBy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_grabbedBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_grabbedTransform
+  // Il2CppName: get_grabbedTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (OVRGrabbable::*)()>(&OVRGrabbable::get_grabbedTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_grabbedTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_grabbedRigidbody
+  // Il2CppName: get_grabbedRigidbody
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (OVRGrabbable::*)()>(&OVRGrabbable::get_grabbedRigidbody)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_grabbedRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::get_grabPoints
+  // Il2CppName: get_grabPoints
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Collider*>* (OVRGrabbable::*)()>(&OVRGrabbable::get_grabPoints)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "get_grabPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::GrabBegin
+  // Il2CppName: GrabBegin
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)(GlobalNamespace::OVRGrabber*, UnityEngine::Collider*)>(&OVRGrabbable::GrabBegin)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "GrabBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRGrabber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::GrabEnd
+  // Il2CppName: GrabEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&OVRGrabbable::GrabEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "GrabEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)()>(&OVRGrabbable::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)()>(&OVRGrabbable::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)()>(&OVRGrabbable::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRGrabbable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)()>(&OVRGrabbable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabbable::*)()>(&OVRGrabbable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRGrabbable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabbable*, "", "OVRGrabbable");

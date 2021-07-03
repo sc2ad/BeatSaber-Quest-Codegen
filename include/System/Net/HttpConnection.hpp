@@ -329,79 +329,261 @@ namespace System::Net {
     // Set static field: static private System.AsyncCallback onread_cb
     static void _set_onread_cb(System::AsyncCallback* value);
     // public System.Void .ctor(System.Net.Sockets.Socket sock, System.Net.EndPointListener epl, System.Boolean secure, System.Security.Cryptography.X509Certificates.X509Certificate cert)
-    // Offset: 0x1630620
+    // Offset: 0x1647330
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpConnection* New_ctor(System::Net::Sockets::Socket* sock, System::Net::EndPointListener* epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpConnection*, creationType>(sock, epl, secure, cert)));
     }
     // private System.Void Init()
-    // Offset: 0x16309A4
+    // Offset: 0x16476B4
     void Init();
     // public System.Int32 get_Reuses()
-    // Offset: 0x1630AE0
+    // Offset: 0x16477F0
     int get_Reuses();
     // public System.Net.IPEndPoint get_LocalEndPoint()
-    // Offset: 0x1630AE8
+    // Offset: 0x16477F8
     System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Boolean get_IsSecure()
-    // Offset: 0x1630B84
+    // Offset: 0x1647894
     bool get_IsSecure();
     // public System.Void set_Prefix(System.Net.ListenerPrefix value)
-    // Offset: 0x1630B8C
+    // Offset: 0x164789C
     void set_Prefix(System::Net::ListenerPrefix* value);
     // private System.Void OnTimeout(System.Object unused)
-    // Offset: 0x1630B94
+    // Offset: 0x16478A4
     void OnTimeout(::Il2CppObject* unused);
     // public System.Void BeginReadRequest()
-    // Offset: 0x1630D18
+    // Offset: 0x1647A28
     void BeginReadRequest();
     // public System.Net.RequestStream GetRequestStream(System.Boolean chunked, System.Int64 contentlength)
-    // Offset: 0x1630EBC
+    // Offset: 0x1647BCC
     System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
     // public System.Net.ResponseStream GetResponseStream()
-    // Offset: 0x1631108
+    // Offset: 0x1647E18
     System::Net::ResponseStream* GetResponseStream();
     // static private System.Void OnRead(System.IAsyncResult ares)
-    // Offset: 0x16311DC
+    // Offset: 0x1647EEC
     static void OnRead(System::IAsyncResult* ares);
     // private System.Void OnReadInternal(System.IAsyncResult ares)
-    // Offset: 0x16312B4
+    // Offset: 0x1647FC4
     void OnReadInternal(System::IAsyncResult* ares);
     // private System.Void RemoveConnection()
-    // Offset: 0x16322DC
+    // Offset: 0x1648FEC
     void RemoveConnection();
     // private System.Boolean ProcessInput(System.IO.MemoryStream ms)
-    // Offset: 0x1631A08
+    // Offset: 0x1648718
     bool ProcessInput(System::IO::MemoryStream* ms);
     // private System.String ReadLine(System.Byte[] buffer, System.Int32 offset, System.Int32 len, ref System.Int32 used)
-    // Offset: 0x1632680
+    // Offset: 0x1649390
     ::Il2CppString* ReadLine(::Array<uint8_t>* buffer, int offset, int len, int& used);
     // public System.Void SendError(System.String msg, System.Int32 status)
-    // Offset: 0x16315E4
+    // Offset: 0x16482F4
     void SendError(::Il2CppString* msg, int status);
     // public System.Void SendError()
-    // Offset: 0x16319E8
+    // Offset: 0x16486F8
     void SendError();
     // private System.Void Unbind()
-    // Offset: 0x1630CD8
+    // Offset: 0x16479E8
     void Unbind();
     // private System.Void CloseSocket()
-    // Offset: 0x1630BB8
+    // Offset: 0x16478C8
     void CloseSocket();
     // System.Void Close(System.Boolean force_close)
-    // Offset: 0x16317A8
+    // Offset: 0x16484B8
     void Close(bool force_close);
     // static private System.Void .cctor()
-    // Offset: 0x1633E54
+    // Offset: 0x164AB64
     static void _cctor();
     // private System.Boolean <.ctor>b__24_0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
-    // Offset: 0x1633ED0
+    // Offset: 0x164ABE0
     bool $_ctor$b__24_0(::Il2CppObject* t, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, System::Net::Security::SslPolicyErrors e);
   }; // System.Net.HttpConnection
   #pragma pack(pop)
   static check_size<sizeof(HttpConnection), 184 + sizeof(int)> __System_Net_HttpConnectionSizeCheck;
   static_assert(sizeof(HttpConnection) == 0xBC);
+  // Writing MetadataGetter for method: HttpConnection::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(System::Net::Sockets::Socket*, System::Net::EndPointListener*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*)>(&HttpConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPointListener*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(System::Net::Sockets::Socket*, System::Net::EndPointListener*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*)>(&HttpConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPointListener*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)()>(&HttpConnection::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::get_Reuses
+  // Il2CppName: get_Reuses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HttpConnection::*)()>(&HttpConnection::get_Reuses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "get_Reuses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::get_LocalEndPoint
+  // Il2CppName: get_LocalEndPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (HttpConnection::*)()>(&HttpConnection::get_LocalEndPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "get_LocalEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::get_IsSecure
+  // Il2CppName: get_IsSecure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpConnection::*)()>(&HttpConnection::get_IsSecure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "get_IsSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::set_Prefix
+  // Il2CppName: set_Prefix
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(System::Net::ListenerPrefix*)>(&HttpConnection::set_Prefix)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "set_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::OnTimeout
+  // Il2CppName: OnTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(::Il2CppObject*)>(&HttpConnection::OnTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "OnTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::BeginReadRequest
+  // Il2CppName: BeginReadRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)()>(&HttpConnection::BeginReadRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "BeginReadRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::GetRequestStream
+  // Il2CppName: GetRequestStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::RequestStream* (HttpConnection::*)(bool, int64_t)>(&HttpConnection::GetRequestStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "GetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::GetResponseStream
+  // Il2CppName: GetResponseStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ResponseStream* (HttpConnection::*)()>(&HttpConnection::GetResponseStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "GetResponseStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::OnRead
+  // Il2CppName: OnRead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&HttpConnection::OnRead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "OnRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::OnReadInternal
+  // Il2CppName: OnReadInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(System::IAsyncResult*)>(&HttpConnection::OnReadInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "OnReadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::RemoveConnection
+  // Il2CppName: RemoveConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)()>(&HttpConnection::RemoveConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::ProcessInput
+  // Il2CppName: ProcessInput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpConnection::*)(System::IO::MemoryStream*)>(&HttpConnection::ProcessInput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "ProcessInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::ReadLine
+  // Il2CppName: ReadLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpConnection::*)(::Array<uint8_t>*, int, int, int&)>(&HttpConnection::ReadLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::SendError
+  // Il2CppName: SendError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(::Il2CppString*, int)>(&HttpConnection::SendError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "SendError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::SendError
+  // Il2CppName: SendError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)()>(&HttpConnection::SendError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "SendError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::Unbind
+  // Il2CppName: Unbind
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)()>(&HttpConnection::Unbind)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "Unbind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::CloseSocket
+  // Il2CppName: CloseSocket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)()>(&HttpConnection::CloseSocket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "CloseSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::Close
+  // Il2CppName: Close
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpConnection::*)(bool)>(&HttpConnection::Close)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HttpConnection::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpConnection::$_ctor$b__24_0
+  // Il2CppName: <.ctor>b__24_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpConnection::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&HttpConnection::$_ctor$b__24_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpConnection*), "<.ctor>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");

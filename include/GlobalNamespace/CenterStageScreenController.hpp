@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* countdownMenuLightsPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE25A60
+    // [SpaceAttribute] Offset: 0xE25AC4
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x30
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ModifiersSelectionView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE25AA8
+    // [SpaceAttribute] Offset: 0xE25B0C
     // private CountdownController _countdownController
     // Size: 0x8
     // Offset: 0x40
@@ -89,21 +89,21 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* multiplayerLobbyCenterScreenLayoutAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE25AF0
+    // [InjectAttribute] Offset: 0xE25B54
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE25B00
+    // [InjectAttribute] Offset: 0xE25B64
     // private readonly MenuLightsManager _menuLightsManager
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::MenuLightsManager* menuLightsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE25B10
+    // [CompilerGeneratedAttribute] Offset: 0xE25B74
     // private System.Boolean <countdownShown>k__BackingField
     // Size: 0x1
     // Offset: 0x60
@@ -123,46 +123,46 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_countdownShown()
-    // Offset: 0x108AF90
+    // Offset: 0x11890D4
     bool get_countdownShown();
     // private System.Void set_countdownShown(System.Boolean value)
-    // Offset: 0x108AF98
+    // Offset: 0x11890DC
     void set_countdownShown(bool value);
     // public System.Void Setup(System.Boolean showModifiers)
-    // Offset: 0x108AFA4
+    // Offset: 0x11890E8
     void Setup(bool showModifiers);
     // public System.Void Show()
-    // Offset: 0x108AFE0
+    // Offset: 0x1189124
     void Show();
     // public System.Void Hide()
-    // Offset: 0x108B568
+    // Offset: 0x11896AC
     void Hide();
     // public System.Void ShowCountdown(System.Single countdownEndTime)
-    // Offset: 0x108B6E0
+    // Offset: 0x1189824
     void ShowCountdown(float countdownEndTime);
     // public System.Void HideCountdown(System.Boolean instant)
-    // Offset: 0x108B69C
+    // Offset: 0x11897E0
     void HideCountdown(bool instant);
     // public System.Void SetCountdownEndTime(System.Single countdownEndTime)
-    // Offset: 0x108B8B0
+    // Offset: 0x11899F4
     void SetCountdownEndTime(float countdownEndTime);
     // public System.Void ShowCountdownColorPreset(System.Boolean animated)
-    // Offset: 0x108B990
+    // Offset: 0x1189AD4
     void ShowCountdownColorPreset(bool animated);
     // public System.Void ShowLobbyColorPreset(System.Boolean animated)
-    // Offset: 0x108B228
+    // Offset: 0x118936C
     void ShowLobbyColorPreset(bool animated);
     // public System.Void SetHostDataManual(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x108B9BC
+    // Offset: 0x1189B00
     void SetHostDataManual(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // private System.Void SetNextGameData(ILobbyPlayerDataModel playerData)
-    // Offset: 0x108B254
+    // Offset: 0x1189398
     void SetNextGameData(GlobalNamespace::ILobbyPlayerDataModel* playerData);
     // private System.Void HandleLobbyPlayersDataModelDidChange(System.String userId)
-    // Offset: 0x108B9E4
+    // Offset: 0x1189B28
     void HandleLobbyPlayersDataModelDidChange(::Il2CppString* userId);
     // public System.Void .ctor()
-    // Offset: 0x108BB44
+    // Offset: 0x1189C88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -178,5 +178,123 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CenterStageScreenController), 100 + sizeof(float)> __GlobalNamespace_CenterStageScreenControllerSizeCheck;
   static_assert(sizeof(CenterStageScreenController) == 0x68);
+  // Writing MetadataGetter for method: CenterStageScreenController::get_countdownShown
+  // Il2CppName: get_countdownShown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CenterStageScreenController::*)()>(&CenterStageScreenController::get_countdownShown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "get_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::set_countdownShown
+  // Il2CppName: set_countdownShown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::set_countdownShown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "set_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::Show
+  // Il2CppName: Show
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::Show)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::Hide
+  // Il2CppName: Hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::Hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::ShowCountdown
+  // Il2CppName: ShowCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(float)>(&CenterStageScreenController::ShowCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "ShowCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::HideCountdown
+  // Il2CppName: HideCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::HideCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "HideCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::SetCountdownEndTime
+  // Il2CppName: SetCountdownEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(float)>(&CenterStageScreenController::SetCountdownEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "SetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::ShowCountdownColorPreset
+  // Il2CppName: ShowCountdownColorPreset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::ShowCountdownColorPreset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "ShowCountdownColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::ShowLobbyColorPreset
+  // Il2CppName: ShowLobbyColorPreset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::ShowLobbyColorPreset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "ShowLobbyColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::SetHostDataManual
+  // Il2CppName: SetHostDataManual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&CenterStageScreenController::SetHostDataManual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "SetHostDataManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::SetNextGameData
+  // Il2CppName: SetNextGameData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&CenterStageScreenController::SetNextGameData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "SetNextGameData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::HandleLobbyPlayersDataModelDidChange
+  // Il2CppName: HandleLobbyPlayersDataModelDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(::Il2CppString*)>(&CenterStageScreenController::HandleLobbyPlayersDataModelDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CenterStageScreenController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageScreenController*, "", "CenterStageScreenController");

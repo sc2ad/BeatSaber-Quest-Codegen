@@ -56,7 +56,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Creating value type constructor for type: DTSweepBasin
     DTSweepBasin(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode_ = {}, UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode_ = {}, double width_ = {}, bool leftHighest_ = {}) noexcept : leftNode{leftNode_}, bottomNode{bottomNode_}, rightNode{rightNode_}, width{width_}, leftHighest{leftHighest_} {}
     // public System.Void .ctor()
-    // Offset: 0x2380B38
+    // Offset: 0x239D16C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,5 +68,19 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   #pragma pack(pop)
   static check_size<sizeof(DTSweepBasin), 48 + sizeof(bool)> __UnityEngine_ProBuilder_Poly2Tri_DTSweepBasinSizeCheck;
   static_assert(sizeof(DTSweepBasin) == 0x31);
+  // Writing MetadataGetter for method: DTSweepBasin::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DTSweepBasin::*)()>(&DTSweepBasin::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DTSweepBasin*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DTSweepBasin::*)()>(&DTSweepBasin::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DTSweepBasin*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");

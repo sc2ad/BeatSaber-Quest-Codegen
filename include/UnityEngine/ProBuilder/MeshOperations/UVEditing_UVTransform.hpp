@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public override System.String ToString()
-    // Offset: 0xEFBC90
+    // Offset: 0xEFBC48
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -52,6 +52,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
   static check_size<sizeof(UVEditing::UVTransform), 12 + sizeof(UnityEngine::Vector2)> __UnityEngine_ProBuilder_MeshOperations_UVEditing_UVTransformSizeCheck;
   static_assert(sizeof(UVEditing::UVTransform) == 0x14);
+  // Writing MetadataGetter for method: UVEditing::UVTransform::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UVEditing::UVTransform::*)()>(&UVEditing::UVTransform::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UVEditing::UVTransform), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");

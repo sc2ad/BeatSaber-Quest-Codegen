@@ -68,13 +68,13 @@ namespace System::Runtime::Remoting::Messaging {
     // Creating value type constructor for type: CADMethodRef
     CADMethodRef(bool ctor_ = {}, ::Il2CppString* typeName_ = {}, ::Il2CppString* methodName_ = {}, ::Array<::Il2CppString*>* param_names_ = {}, ::Array<::Il2CppString*>* generic_arg_names_ = {}) noexcept : ctor{ctor_}, typeName{typeName_}, methodName{methodName_}, param_names{param_names_}, generic_arg_names{generic_arg_names_} {}
     // private System.Type[] GetTypes(System.String[] typeArray)
-    // Offset: 0x1A1FD58
+    // Offset: 0x1A39A68
     ::Array<System::Type*>* GetTypes(::Array<::Il2CppString*>* typeArray);
     // public System.Reflection.MethodBase Resolve()
-    // Offset: 0x1A1DA78
+    // Offset: 0x1A37788
     System::Reflection::MethodBase* Resolve();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodMessage msg)
-    // Offset: 0x1A1D708
+    // Offset: 0x1A37418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADMethodRef* New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADMethodRef::.ctor");
@@ -84,5 +84,35 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
   static check_size<sizeof(CADMethodRef), 48 + sizeof(::Array<::Il2CppString*>*)> __System_Runtime_Remoting_Messaging_CADMethodRefSizeCheck;
   static_assert(sizeof(CADMethodRef) == 0x38);
+  // Writing MetadataGetter for method: CADMethodRef::GetTypes
+  // Il2CppName: GetTypes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (CADMethodRef::*)(::Array<::Il2CppString*>*)>(&CADMethodRef::GetTypes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CADMethodRef*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CADMethodRef::Resolve
+  // Il2CppName: Resolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (CADMethodRef::*)()>(&CADMethodRef::Resolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CADMethodRef*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CADMethodRef::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CADMethodRef::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&CADMethodRef::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CADMethodRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CADMethodRef::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&CADMethodRef::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CADMethodRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "System.Runtime.Remoting.Messaging", "CADMethodRef");

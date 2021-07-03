@@ -87,56 +87,56 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Int32 kFakeTouchesId
     static void _set_kFakeTouchesId(int value);
     // protected System.Boolean GetPointerData(System.Int32 id, out UnityEngine.EventSystems.PointerEventData data, System.Boolean create)
-    // Offset: 0x1418AB4
+    // Offset: 0x14337C4
     bool GetPointerData(int id, UnityEngine::EventSystems::PointerEventData*& data, bool create);
     // protected System.Void RemovePointerData(UnityEngine.EventSystems.PointerEventData data)
-    // Offset: 0x1418B94
+    // Offset: 0x14338A4
     void RemovePointerData(UnityEngine::EventSystems::PointerEventData* data);
     // protected UnityEngine.EventSystems.PointerEventData GetTouchPointerEventData(UnityEngine.Touch input, out System.Boolean pressed, out System.Boolean released)
-    // Offset: 0x1418C00
+    // Offset: 0x1433910
     UnityEngine::EventSystems::PointerEventData* GetTouchPointerEventData(UnityEngine::Touch input, bool& pressed, bool& released);
     // protected System.Void CopyFromTo(UnityEngine.EventSystems.PointerEventData from, UnityEngine.EventSystems.PointerEventData to)
-    // Offset: 0x1418EA4
+    // Offset: 0x1433BB4
     void CopyFromTo(UnityEngine::EventSystems::PointerEventData* from, UnityEngine::EventSystems::PointerEventData* to);
     // protected UnityEngine.EventSystems.PointerEventData/FramePressState StateForMouseButton(System.Int32 buttonId)
-    // Offset: 0x1418F00
+    // Offset: 0x1433C10
     UnityEngine::EventSystems::PointerEventData::FramePressState StateForMouseButton(int buttonId);
     // protected UnityEngine.EventSystems.PointerInputModule/MouseState GetMousePointerEventData()
-    // Offset: 0x1418F88
+    // Offset: 0x1433C98
     UnityEngine::EventSystems::PointerInputModule::MouseState* GetMousePointerEventData();
     // protected UnityEngine.EventSystems.PointerInputModule/MouseState GetMousePointerEventData(System.Int32 id)
-    // Offset: 0x1418F9C
+    // Offset: 0x1433CAC
     UnityEngine::EventSystems::PointerInputModule::MouseState* GetMousePointerEventData(int id);
     // protected UnityEngine.EventSystems.PointerEventData GetLastPointerEventData(System.Int32 id)
-    // Offset: 0x1419304
+    // Offset: 0x1434014
     UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int id);
     // static private System.Boolean ShouldStartDrag(UnityEngine.Vector2 pressPos, UnityEngine.Vector2 currentPos, System.Single threshold, System.Boolean useDragThreshold)
-    // Offset: 0x1419330
+    // Offset: 0x1434040
     static bool ShouldStartDrag(UnityEngine::Vector2 pressPos, UnityEngine::Vector2 currentPos, float threshold, bool useDragThreshold);
     // protected System.Void ProcessMove(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x1419400
+    // Offset: 0x1434110
     void ProcessMove(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected System.Void ProcessDrag(UnityEngine.EventSystems.PointerEventData pointerEvent)
-    // Offset: 0x1419440
+    // Offset: 0x1434150
     void ProcessDrag(UnityEngine::EventSystems::PointerEventData* pointerEvent);
     // protected System.Void ClearSelection()
-    // Offset: 0x14197C0
+    // Offset: 0x14344D0
     void ClearSelection();
     // protected System.Void DeselectIfSelectionChanged(UnityEngine.GameObject currentOverGo, UnityEngine.EventSystems.BaseEventData pointerEvent)
-    // Offset: 0x1419AF4
+    // Offset: 0x1434804
     void DeselectIfSelectionChanged(UnityEngine::GameObject* currentOverGo, UnityEngine::EventSystems::BaseEventData* pointerEvent);
     // public override System.Boolean IsPointerOverGameObject(System.Int32 pointerId)
-    // Offset: 0x1419714
+    // Offset: 0x1434424
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Boolean BaseInputModule::IsPointerOverGameObject(System.Int32 pointerId)
     bool IsPointerOverGameObject(int pointerId);
     // public override System.String ToString()
-    // Offset: 0x1419910
+    // Offset: 0x1434620
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
     // protected System.Void .ctor()
-    // Offset: 0x1419BE0
+    // Offset: 0x14348F0
     // Implemented from: UnityEngine.EventSystems.BaseInputModule
     // Base method: System.Void BaseInputModule::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -154,5 +154,139 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(PointerInputModule), 80 + sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*)> __UnityEngine_EventSystems_PointerInputModuleSizeCheck;
   static_assert(sizeof(PointerInputModule) == 0x58);
+  // Writing MetadataGetter for method: PointerInputModule::GetPointerData
+  // Il2CppName: GetPointerData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerInputModule::*)(int, UnityEngine::EventSystems::PointerEventData*&, bool)>(&PointerInputModule::GetPointerData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::RemovePointerData
+  // Il2CppName: RemovePointerData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&PointerInputModule::RemovePointerData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "RemovePointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::GetTouchPointerEventData
+  // Il2CppName: GetTouchPointerEventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData* (PointerInputModule::*)(UnityEngine::Touch, bool&, bool&)>(&PointerInputModule::GetTouchPointerEventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "GetTouchPointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Touch>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::CopyFromTo
+  // Il2CppName: CopyFromTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::EventSystems::PointerEventData*)>(&PointerInputModule::CopyFromTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::StateForMouseButton
+  // Il2CppName: StateForMouseButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::FramePressState (PointerInputModule::*)(int)>(&PointerInputModule::StateForMouseButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "StateForMouseButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::GetMousePointerEventData
+  // Il2CppName: GetMousePointerEventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (PointerInputModule::*)()>(&PointerInputModule::GetMousePointerEventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "GetMousePointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::GetMousePointerEventData
+  // Il2CppName: GetMousePointerEventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (PointerInputModule::*)(int)>(&PointerInputModule::GetMousePointerEventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "GetMousePointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::GetLastPointerEventData
+  // Il2CppName: GetLastPointerEventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData* (PointerInputModule::*)(int)>(&PointerInputModule::GetLastPointerEventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "GetLastPointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ShouldStartDrag
+  // Il2CppName: ShouldStartDrag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector2, UnityEngine::Vector2, float, bool)>(&PointerInputModule::ShouldStartDrag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ProcessMove
+  // Il2CppName: ProcessMove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&PointerInputModule::ProcessMove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "ProcessMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ProcessDrag
+  // Il2CppName: ProcessDrag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&PointerInputModule::ProcessDrag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ClearSelection
+  // Il2CppName: ClearSelection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)()>(&PointerInputModule::ClearSelection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::DeselectIfSelectionChanged
+  // Il2CppName: DeselectIfSelectionChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)(UnityEngine::GameObject*, UnityEngine::EventSystems::BaseEventData*)>(&PointerInputModule::DeselectIfSelectionChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "DeselectIfSelectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::IsPointerOverGameObject
+  // Il2CppName: IsPointerOverGameObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerInputModule::*)(int)>(&PointerInputModule::IsPointerOverGameObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PointerInputModule::*)()>(&PointerInputModule::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)()>(&PointerInputModule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::*)()>(&PointerInputModule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule*, "UnityEngine.EventSystems", "PointerInputModule");

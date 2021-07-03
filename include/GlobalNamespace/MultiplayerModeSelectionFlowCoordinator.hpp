@@ -115,154 +115,154 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMaskModelSO* songPackMaskModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C24
+    // [InjectAttribute] Offset: 0xE22C00
     // private readonly GameServerBrowserFlowCoordinator _gameServerBrowserFlowCoordinator
     // Size: 0x8
     // Offset: 0xB8
     GlobalNamespace::GameServerBrowserFlowCoordinator* gameServerBrowserFlowCoordinator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerBrowserFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C34
+    // [InjectAttribute] Offset: 0xE22C10
     // private readonly HostGameServerLobbyFlowCoordinator _hostGameServerLobbyFlowCoordinator
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::HostGameServerLobbyFlowCoordinator* hostGameServerLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C44
+    // [InjectAttribute] Offset: 0xE22C20
     // private readonly ClientGameServerLobbyFlowCoordinator _clientGameServerLobbyFlowCoordinator
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::ClientGameServerLobbyFlowCoordinator* clientGameServerLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ClientGameServerLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C54
+    // [InjectAttribute] Offset: 0xE22C30
     // private readonly QuickPlayLobbyFlowCoordinator _quickPlayLobbyFlowCoordinator
     // Size: 0x8
     // Offset: 0xD0
     GlobalNamespace::QuickPlayLobbyFlowCoordinator* quickPlayLobbyFlowCoordinator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::QuickPlayLobbyFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C64
+    // [InjectAttribute] Offset: 0xE22C40
     // private readonly MultiplayerModeSelectionViewController _multiplayerModeSelectionViewController
     // Size: 0x8
     // Offset: 0xD8
     GlobalNamespace::MultiplayerModeSelectionViewController* multiplayerModeSelectionViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSelectionViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C74
+    // [InjectAttribute] Offset: 0xE22C50
     // private readonly CreateServerViewController _createServerViewController
     // Size: 0x8
     // Offset: 0xE0
     GlobalNamespace::CreateServerViewController* createServerViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreateServerViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C84
+    // [InjectAttribute] Offset: 0xE22C60
     // private readonly JoinQuickPlayViewController _joinQuickPlayViewController
     // Size: 0x8
     // Offset: 0xE8
     GlobalNamespace::JoinQuickPlayViewController* joinQuickPlayViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::JoinQuickPlayViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22C94
+    // [InjectAttribute] Offset: 0xE22C70
     // private readonly ServerCodeEntryViewController _serverCodeEntryViewController
     // Size: 0x8
     // Offset: 0xF0
     GlobalNamespace::ServerCodeEntryViewController* serverCodeEntryViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ServerCodeEntryViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22CA4
+    // [InjectAttribute] Offset: 0xE22C80
     // private readonly SimpleDialogPromptViewController _simpleDialogPromptViewController
     // Size: 0x8
     // Offset: 0xF8
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22CB4
+    // [InjectAttribute] Offset: 0xE22C90
     // private readonly JoiningLobbyViewController _joiningLobbyViewController
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::JoiningLobbyViewController* joiningLobbyViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::JoiningLobbyViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22CC4
+    // [InjectAttribute] Offset: 0xE22CA0
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x108
     GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22CD4
+    // [InjectAttribute] Offset: 0xE22CB0
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x110
     GlobalNamespace::AvatarDataModel* avatarDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22CE4
+    // [InjectAttribute] Offset: 0xE22CC0
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x118
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22CF4
+    // [InjectAttribute] Offset: 0xE22CD0
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x120
     GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D04
+    // [InjectAttribute] Offset: 0xE22CE0
     // private readonly LobbyDataModelsManager _lobbyDataModelsManager
     // Size: 0x8
     // Offset: 0x128
     GlobalNamespace::LobbyDataModelsManager* lobbyDataModelsManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyDataModelsManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D14
+    // [InjectAttribute] Offset: 0xE22CF0
     // private readonly MultiplayerLobbyConnectionController _multiplayerLobbyConnectionController
     // Size: 0x8
     // Offset: 0x130
     GlobalNamespace::MultiplayerLobbyConnectionController* multiplayerLobbyConnectionController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyConnectionController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D24
+    // [InjectAttribute] Offset: 0xE22D00
     // private readonly IMasterServerAvailabilityModel _masterServerAvailabilityModel
     // Size: 0x8
     // Offset: 0x138
     GlobalNamespace::IMasterServerAvailabilityModel* masterServerAvailabilityModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMasterServerAvailabilityModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D34
+    // [InjectAttribute] Offset: 0xE22D10
     // private readonly IMasterServerQuickPlaySetupModel _masterServerQuickPlaySetupModel
     // Size: 0x8
     // Offset: 0x140
     GlobalNamespace::IMasterServerQuickPlaySetupModel* masterServerQuickPlaySetupModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMasterServerQuickPlaySetupModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D44
+    // [InjectAttribute] Offset: 0xE22D20
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x148
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D54
+    // [InjectAttribute] Offset: 0xE22D30
     // private readonly SongPreviewPlayer _songPreviewPlayer
     // Size: 0x8
     // Offset: 0x150
     GlobalNamespace::SongPreviewPlayer* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22D64
+    // [InjectAttribute] Offset: 0xE22D40
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x158
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE22D74
+    // [CompilerGeneratedAttribute] Offset: 0xE22D50
     // private System.Action`1<MultiplayerModeSelectionFlowCoordinator> didFinishEvent
     // Size: 0x8
     // Offset: 0x160
@@ -296,127 +296,127 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MultiplayerModeSelectionFlowCoordinator
     MultiplayerModeSelectionFlowCoordinator(UnityEngine::AudioClip* ambienceAudioClip_ = {}, GlobalNamespace::SongPackMaskModelSO* songPackMaskModel_ = {}, GlobalNamespace::GameServerBrowserFlowCoordinator* gameServerBrowserFlowCoordinator_ = {}, GlobalNamespace::HostGameServerLobbyFlowCoordinator* hostGameServerLobbyFlowCoordinator_ = {}, GlobalNamespace::ClientGameServerLobbyFlowCoordinator* clientGameServerLobbyFlowCoordinator_ = {}, GlobalNamespace::QuickPlayLobbyFlowCoordinator* quickPlayLobbyFlowCoordinator_ = {}, GlobalNamespace::MultiplayerModeSelectionViewController* multiplayerModeSelectionViewController_ = {}, GlobalNamespace::CreateServerViewController* createServerViewController_ = {}, GlobalNamespace::JoinQuickPlayViewController* joinQuickPlayViewController_ = {}, GlobalNamespace::ServerCodeEntryViewController* serverCodeEntryViewController_ = {}, GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewController_ = {}, GlobalNamespace::JoiningLobbyViewController* joiningLobbyViewController_ = {}, GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager_ = {}, GlobalNamespace::FadeInOutController* fadeInOutController_ = {}, GlobalNamespace::LobbyDataModelsManager* lobbyDataModelsManager_ = {}, GlobalNamespace::MultiplayerLobbyConnectionController* multiplayerLobbyConnectionController_ = {}, GlobalNamespace::IMasterServerAvailabilityModel* masterServerAvailabilityModel_ = {}, GlobalNamespace::IMasterServerQuickPlaySetupModel* masterServerQuickPlaySetupModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SongPreviewPlayer* songPreviewPlayer_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* didFinishEvent_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, System::Threading::Tasks::TaskCompletionSource_1<bool>* transitionFinishedTaskSource_ = {}, GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData_ = {}, GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination_ = {}) noexcept : ambienceAudioClip{ambienceAudioClip_}, songPackMaskModel{songPackMaskModel_}, gameServerBrowserFlowCoordinator{gameServerBrowserFlowCoordinator_}, hostGameServerLobbyFlowCoordinator{hostGameServerLobbyFlowCoordinator_}, clientGameServerLobbyFlowCoordinator{clientGameServerLobbyFlowCoordinator_}, quickPlayLobbyFlowCoordinator{quickPlayLobbyFlowCoordinator_}, multiplayerModeSelectionViewController{multiplayerModeSelectionViewController_}, createServerViewController{createServerViewController_}, joinQuickPlayViewController{joinQuickPlayViewController_}, serverCodeEntryViewController{serverCodeEntryViewController_}, simpleDialogPromptViewController{simpleDialogPromptViewController_}, joiningLobbyViewController{joiningLobbyViewController_}, unifiedNetworkPlayerModel{unifiedNetworkPlayerModel_}, avatarDataModel{avatarDataModel_}, multiplayerSessionManager{multiplayerSessionManager_}, fadeInOutController{fadeInOutController_}, lobbyDataModelsManager{lobbyDataModelsManager_}, multiplayerLobbyConnectionController{multiplayerLobbyConnectionController_}, masterServerAvailabilityModel{masterServerAvailabilityModel_}, masterServerQuickPlaySetupModel{masterServerQuickPlaySetupModel_}, playerDataModel{playerDataModel_}, songPreviewPlayer{songPreviewPlayer_}, analyticsModel{analyticsModel_}, didFinishEvent{didFinishEvent_}, cancellationTokenSource{cancellationTokenSource_}, transitionFinishedTaskSource{transitionFinishedTaskSource_}, masterServerQuickPlaySetupData{masterServerQuickPlaySetupData_}, lobbyDestination{lobbyDestination_} {}
     // public System.Void add_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
-    // Offset: 0x2405930
+    // Offset: 0x10304AC
     void add_didFinishEvent(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MultiplayerModeSelectionFlowCoordinator> value)
-    // Offset: 0x24059D8
+    // Offset: 0x1030554
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
     // public System.Void Setup(SelectMultiplayerLobbyDestination lobbyDestination)
-    // Offset: 0x2405A80
+    // Offset: 0x10305FC
     void Setup(GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
     // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel()
-    // Offset: 0x2406CB8
+    // Offset: 0x1031834
     void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel();
     // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionSuccess()
-    // Offset: 0x2406CD4
+    // Offset: 0x1031850
     void HandleMultiplayerLobbyConnectionControllerConnectionSuccess();
     // private System.Void HandleMultiplayerLobbyConnectionControllerConnectionFailed(MultiplayerLobbyConnectionController/LobbyConnectionType connectionType, ConnectionFailedReason reason)
-    // Offset: 0x2406CD8
+    // Offset: 0x1031854
     void HandleMultiplayerLobbyConnectionControllerConnectionFailed(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType, GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleMultiplayerLobbyControllerDidFinish(MultiplayerModeSelectionViewController viewController, MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x2406DAC
+    // Offset: 0x1031928
     void HandleMultiplayerLobbyControllerDidFinish(GlobalNamespace::MultiplayerModeSelectionViewController* viewController, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void HandleGameServerBrowserFlowCoordinatorDidFinish(GameServerBrowserFlowCoordinator flowCoordinator)
-    // Offset: 0x2406E94
+    // Offset: 0x1031A10
     void HandleGameServerBrowserFlowCoordinatorDidFinish(GlobalNamespace::GameServerBrowserFlowCoordinator* flowCoordinator);
     // private System.Void HandleJoiningLobbyViewControllerDidFinish()
-    // Offset: 0x2406EA8
+    // Offset: 0x1031A24
     void HandleJoiningLobbyViewControllerDidFinish();
     // private System.Void HandleJoinQuickPlayViewControllerDidFinish(System.Boolean success)
-    // Offset: 0x2406F6C
+    // Offset: 0x1031AE8
     void HandleJoinQuickPlayViewControllerDidFinish(bool success);
     // private System.Void HandleServerCodeEntryViewControllerDidFinish(System.Boolean success, System.String code)
-    // Offset: 0x24070A4
+    // Offset: 0x1031C20
     void HandleServerCodeEntryViewControllerDidFinish(bool success, ::Il2CppString* code);
     // private System.Void HandleCreateServerViewControllerDidFinish(System.Boolean success, UnifiedNetworkPlayerModel/CreatePartyConfig createPartyConfig)
-    // Offset: 0x240718C
+    // Offset: 0x1031D08
     void HandleCreateServerViewControllerDidFinish(bool success, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* createPartyConfig);
     // private System.Void HandleClientGameServerLobbyFlowCoordinatorDidFinish(ClientGameServerLobbyFlowCoordinator obj)
-    // Offset: 0x2407294
+    // Offset: 0x1031E10
     void HandleClientGameServerLobbyFlowCoordinatorDidFinish(GlobalNamespace::ClientGameServerLobbyFlowCoordinator* obj);
     // private System.Void HandleClientGameServerLobbyFlowCoordinatorWillFinish(ClientGameServerLobbyFlowCoordinator obj)
-    // Offset: 0x24073E4
+    // Offset: 0x1031F60
     void HandleClientGameServerLobbyFlowCoordinatorWillFinish(GlobalNamespace::ClientGameServerLobbyFlowCoordinator* obj);
     // private System.Void HandleQuickPlayLobbyFlowCoordinatorDidFinish()
-    // Offset: 0x2407488
+    // Offset: 0x1032004
     void HandleQuickPlayLobbyFlowCoordinatorDidFinish();
     // private System.Void HandleQuickPlayLobbyFlowCoordinatorWillFinish()
-    // Offset: 0x24075D0
+    // Offset: 0x103214C
     void HandleQuickPlayLobbyFlowCoordinatorWillFinish();
     // private System.Void HandleHostGameServerLobbyFlowCoordinatorDidFinish(HostGameServerLobbyFlowCoordinator flowCoordinator)
-    // Offset: 0x240766C
+    // Offset: 0x10321E8
     void HandleHostGameServerLobbyFlowCoordinatorDidFinish(GlobalNamespace::HostGameServerLobbyFlowCoordinator* flowCoordinator);
     // private System.Void HandleHostGameServerLobbyFlowCoordinatorWillFinish(HostGameServerLobbyFlowCoordinator flowCoordinator)
-    // Offset: 0x240774C
+    // Offset: 0x10322C8
     void HandleHostGameServerLobbyFlowCoordinatorWillFinish(GlobalNamespace::HostGameServerLobbyFlowCoordinator* flowCoordinator);
     // private System.Void HandleConnectedPlayerManagerCreated(INetworkPlayerModel networkPlayerModel)
-    // Offset: 0x24077F0
+    // Offset: 0x103236C
     void HandleConnectedPlayerManagerCreated(GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
     // private System.Void TryShowModeSelection(System.Boolean shouldProvideInitialViewControllers)
-    // Offset: 0x2405D88
+    // Offset: 0x1030904
     void TryShowModeSelection(bool shouldProvideInitialViewControllers);
     // private System.Void ResolveAndPresentNextFlowCoordinator()
-    // Offset: 0x2406834
+    // Offset: 0x10313B0
     void ResolveAndPresentNextFlowCoordinator();
     // private System.Void PresentConnectionErrorDialog(MultiplayerLobbyConnectionController/LobbyConnectionType connectionType, ConnectionFailedReason reason)
-    // Offset: 0x24068D0
+    // Offset: 0x103144C
     void PresentConnectionErrorDialog(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType connectionType, GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void PresentMasterServerUnavailableErrorDialog(MultiplayerUnavailableReason reason, System.Exception exception, System.Nullable`1<System.Int64> maintenanceWindowEndTime, System.String remoteLocalizedMessage)
-    // Offset: 0x24079E0
+    // Offset: 0x103255C
     void PresentMasterServerUnavailableErrorDialog(GlobalNamespace::MultiplayerUnavailableReason reason, System::Exception* exception, System::Nullable_1<int64_t> maintenanceWindowEndTime, ::Il2CppString* remoteLocalizedMessage);
     // private System.Void ProcessDeeplinkingToLobby()
-    // Offset: 0x2407D78
+    // Offset: 0x10328F4
     void ProcessDeeplinkingToLobby();
     // private System.Void JoinLobbyWithSecret(System.String serverName, System.String secret)
-    // Offset: 0x2407DF0
+    // Offset: 0x103296C
     void JoinLobbyWithSecret(::Il2CppString* serverName, ::Il2CppString* secret);
     // private System.Void JoinLobbyWithCode(System.String code)
-    // Offset: 0x2407F18
+    // Offset: 0x1032A94
     void JoinLobbyWithCode(::Il2CppString* code);
     // private System.Void <ResolveAndPresentNextFlowCoordinator>b__54_0()
-    // Offset: 0x2407FC4
+    // Offset: 0x1032B40
     void $ResolveAndPresentNextFlowCoordinator$b__54_0();
     // private System.Void <PresentConnectionErrorDialog>b__55_0(System.Int32 btnId)
-    // Offset: 0x2408350
+    // Offset: 0x1032ECC
     void $PresentConnectionErrorDialog$b__55_0(int btnId);
     // private System.Void <PresentConnectionErrorDialog>b__55_1(System.Int32 btnId)
-    // Offset: 0x2408368
+    // Offset: 0x1032EE4
     void $PresentConnectionErrorDialog$b__55_1(int btnId);
     // private System.Void <PresentMasterServerUnavailableErrorDialog>b__56_0(System.Int32 btnId)
-    // Offset: 0x2408380
+    // Offset: 0x1032EFC
     void $PresentMasterServerUnavailableErrorDialog$b__56_0(int btnId);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x2405A88
+    // Offset: 0x1030604
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x2405E40
+    // Offset: 0x10309BC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x2406194
+    // Offset: 0x1030D10
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::BackButtonWasPressed(HMUI.ViewController topViewController)
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x2406280
+    // Offset: 0x1030DFC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void TransitionDidStart()
-    // Offset: 0x24064BC
+    // Offset: 0x1031038
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidStart()
     void TransitionDidStart();
     // protected override System.Void TransitionDidFinish()
-    // Offset: 0x24065F4
+    // Offset: 0x1031170
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TransitionDidFinish()
     void TransitionDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x2407FBC
+    // Offset: 0x1032B38
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -433,5 +433,307 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerModeSelectionFlowCoordinator), 384 + sizeof(GlobalNamespace::SelectMultiplayerLobbyDestination*)> __GlobalNamespace_MultiplayerModeSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(MultiplayerModeSelectionFlowCoordinator) == 0x188);
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*)>(&MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*)>(&MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::SelectMultiplayerLobbyDestination*)>(&MultiplayerModeSelectionFlowCoordinator::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectMultiplayerLobbyDestination*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel
+  // Il2CppName: HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccess
+  // Il2CppName: HandleMultiplayerLobbyConnectionControllerConnectionSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleMultiplayerLobbyConnectionControllerConnectionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionFailed
+  // Il2CppName: HandleMultiplayerLobbyConnectionControllerConnectionFailed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason)>(&MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionFailed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleMultiplayerLobbyConnectionControllerConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyControllerDidFinish
+  // Il2CppName: HandleMultiplayerLobbyControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton)>(&MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleMultiplayerLobbyControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSelectionViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleGameServerBrowserFlowCoordinatorDidFinish
+  // Il2CppName: HandleGameServerBrowserFlowCoordinatorDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::GameServerBrowserFlowCoordinator*)>(&MultiplayerModeSelectionFlowCoordinator::HandleGameServerBrowserFlowCoordinatorDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleGameServerBrowserFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameServerBrowserFlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleJoiningLobbyViewControllerDidFinish
+  // Il2CppName: HandleJoiningLobbyViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::HandleJoiningLobbyViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleJoiningLobbyViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleJoinQuickPlayViewControllerDidFinish
+  // Il2CppName: HandleJoinQuickPlayViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(bool)>(&MultiplayerModeSelectionFlowCoordinator::HandleJoinQuickPlayViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleJoinQuickPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleServerCodeEntryViewControllerDidFinish
+  // Il2CppName: HandleServerCodeEntryViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(bool, ::Il2CppString*)>(&MultiplayerModeSelectionFlowCoordinator::HandleServerCodeEntryViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleServerCodeEntryViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleCreateServerViewControllerDidFinish
+  // Il2CppName: HandleCreateServerViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*)>(&MultiplayerModeSelectionFlowCoordinator::HandleCreateServerViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleCreateServerViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleClientGameServerLobbyFlowCoordinatorDidFinish
+  // Il2CppName: HandleClientGameServerLobbyFlowCoordinatorDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::ClientGameServerLobbyFlowCoordinator*)>(&MultiplayerModeSelectionFlowCoordinator::HandleClientGameServerLobbyFlowCoordinatorDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleClientGameServerLobbyFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ClientGameServerLobbyFlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleClientGameServerLobbyFlowCoordinatorWillFinish
+  // Il2CppName: HandleClientGameServerLobbyFlowCoordinatorWillFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::ClientGameServerLobbyFlowCoordinator*)>(&MultiplayerModeSelectionFlowCoordinator::HandleClientGameServerLobbyFlowCoordinatorWillFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleClientGameServerLobbyFlowCoordinatorWillFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ClientGameServerLobbyFlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleQuickPlayLobbyFlowCoordinatorDidFinish
+  // Il2CppName: HandleQuickPlayLobbyFlowCoordinatorDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::HandleQuickPlayLobbyFlowCoordinatorDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleQuickPlayLobbyFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleQuickPlayLobbyFlowCoordinatorWillFinish
+  // Il2CppName: HandleQuickPlayLobbyFlowCoordinatorWillFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::HandleQuickPlayLobbyFlowCoordinatorWillFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleQuickPlayLobbyFlowCoordinatorWillFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleHostGameServerLobbyFlowCoordinatorDidFinish
+  // Il2CppName: HandleHostGameServerLobbyFlowCoordinatorDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::HostGameServerLobbyFlowCoordinator*)>(&MultiplayerModeSelectionFlowCoordinator::HandleHostGameServerLobbyFlowCoordinatorDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleHostGameServerLobbyFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleHostGameServerLobbyFlowCoordinatorWillFinish
+  // Il2CppName: HandleHostGameServerLobbyFlowCoordinatorWillFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::HostGameServerLobbyFlowCoordinator*)>(&MultiplayerModeSelectionFlowCoordinator::HandleHostGameServerLobbyFlowCoordinatorWillFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleHostGameServerLobbyFlowCoordinatorWillFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::HandleConnectedPlayerManagerCreated
+  // Il2CppName: HandleConnectedPlayerManagerCreated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::INetworkPlayerModel*)>(&MultiplayerModeSelectionFlowCoordinator::HandleConnectedPlayerManagerCreated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "HandleConnectedPlayerManagerCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayerModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::TryShowModeSelection
+  // Il2CppName: TryShowModeSelection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(bool)>(&MultiplayerModeSelectionFlowCoordinator::TryShowModeSelection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "TryShowModeSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::ResolveAndPresentNextFlowCoordinator
+  // Il2CppName: ResolveAndPresentNextFlowCoordinator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::ResolveAndPresentNextFlowCoordinator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "ResolveAndPresentNextFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::PresentConnectionErrorDialog
+  // Il2CppName: PresentConnectionErrorDialog
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason)>(&MultiplayerModeSelectionFlowCoordinator::PresentConnectionErrorDialog)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "PresentConnectionErrorDialog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::PresentMasterServerUnavailableErrorDialog
+  // Il2CppName: PresentMasterServerUnavailableErrorDialog
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(GlobalNamespace::MultiplayerUnavailableReason, System::Exception*, System::Nullable_1<int64_t>, ::Il2CppString*)>(&MultiplayerModeSelectionFlowCoordinator::PresentMasterServerUnavailableErrorDialog)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "PresentMasterServerUnavailableErrorDialog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::ProcessDeeplinkingToLobby
+  // Il2CppName: ProcessDeeplinkingToLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::ProcessDeeplinkingToLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "ProcessDeeplinkingToLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::JoinLobbyWithSecret
+  // Il2CppName: JoinLobbyWithSecret
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(::Il2CppString*, ::Il2CppString*)>(&MultiplayerModeSelectionFlowCoordinator::JoinLobbyWithSecret)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "JoinLobbyWithSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::JoinLobbyWithCode
+  // Il2CppName: JoinLobbyWithCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(::Il2CppString*)>(&MultiplayerModeSelectionFlowCoordinator::JoinLobbyWithCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "JoinLobbyWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::$ResolveAndPresentNextFlowCoordinator$b__54_0
+  // Il2CppName: <ResolveAndPresentNextFlowCoordinator>b__54_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::$ResolveAndPresentNextFlowCoordinator$b__54_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "<ResolveAndPresentNextFlowCoordinator>b__54_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::$PresentConnectionErrorDialog$b__55_0
+  // Il2CppName: <PresentConnectionErrorDialog>b__55_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(int)>(&MultiplayerModeSelectionFlowCoordinator::$PresentConnectionErrorDialog$b__55_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "<PresentConnectionErrorDialog>b__55_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::$PresentConnectionErrorDialog$b__55_1
+  // Il2CppName: <PresentConnectionErrorDialog>b__55_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(int)>(&MultiplayerModeSelectionFlowCoordinator::$PresentConnectionErrorDialog$b__55_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "<PresentConnectionErrorDialog>b__55_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::$PresentMasterServerUnavailableErrorDialog$b__56_0
+  // Il2CppName: <PresentMasterServerUnavailableErrorDialog>b__56_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(int)>(&MultiplayerModeSelectionFlowCoordinator::$PresentMasterServerUnavailableErrorDialog$b__56_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "<PresentMasterServerUnavailableErrorDialog>b__56_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(bool, bool, bool)>(&MultiplayerModeSelectionFlowCoordinator::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(bool, bool)>(&MultiplayerModeSelectionFlowCoordinator::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::BackButtonWasPressed
+  // Il2CppName: BackButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(HMUI::ViewController*)>(&MultiplayerModeSelectionFlowCoordinator::BackButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::TopViewControllerWillChange
+  // Il2CppName: TopViewControllerWillChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&MultiplayerModeSelectionFlowCoordinator::TopViewControllerWillChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::TransitionDidStart
+  // Il2CppName: TransitionDidStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::TransitionDidStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "TransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::TransitionDidFinish
+  // Il2CppName: TransitionDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::TransitionDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), "TransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerModeSelectionFlowCoordinator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionFlowCoordinator::*)()>(&MultiplayerModeSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*, "", "MultiplayerModeSelectionFlowCoordinator");

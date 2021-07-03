@@ -57,15 +57,37 @@ namespace OnlineServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0xEE553C
+    // Offset: 0xEE6448
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::Array<OnlineServices::LeaderboardEntryData*>* leaderboardEntries, int referencePlayerScoreIndex)
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
-    // Offset: 0x11D9A70
+    // Offset: 0x11F43C4
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)
   static check_size<sizeof(GetLeaderboardEntriesResult), 16 + sizeof(int)> __OnlineServices_GetLeaderboardEntriesResultSizeCheck;
   static_assert(sizeof(GetLeaderboardEntriesResult) == 0x14);
+  // Writing MetadataGetter for method: GetLeaderboardEntriesResult::GetLeaderboardEntriesResult
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetLeaderboardEntriesResult::*)(bool, ::Array<OnlineServices::LeaderboardEntryData*>*, int)>(&GetLeaderboardEntriesResult::GetLeaderboardEntriesResult<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GetLeaderboardEntriesResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<OnlineServices::LeaderboardEntryData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetLeaderboardEntriesResult::*)(bool, ::Array<OnlineServices::LeaderboardEntryData*>*, int)>(&GetLeaderboardEntriesResult::GetLeaderboardEntriesResult<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GetLeaderboardEntriesResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<OnlineServices::LeaderboardEntryData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GetLeaderboardEntriesResult::get_resultWithError
+  // Il2CppName: get_resultWithError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::GetLeaderboardEntriesResult (*)()>(&GetLeaderboardEntriesResult::get_resultWithError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GetLeaderboardEntriesResult), "get_resultWithError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardEntriesResult, "OnlineServices", "GetLeaderboardEntriesResult");

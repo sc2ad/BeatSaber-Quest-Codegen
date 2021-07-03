@@ -28,6 +28,22 @@ namespace Org::BouncyCastle::Math::Field {
     int get_Dimension();
   }; // Org.BouncyCastle.Math.Field.IFiniteField
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IFiniteField::get_Characteristic
+  // Il2CppName: get_Characteristic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (IFiniteField::*)()>(&IFiniteField::get_Characteristic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IFiniteField*), "get_Characteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IFiniteField::get_Dimension
+  // Il2CppName: get_Dimension
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IFiniteField::*)()>(&IFiniteField::get_Dimension)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IFiniteField*), "get_Dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IFiniteField*, "Org.BouncyCastle.Math.Field", "IFiniteField");

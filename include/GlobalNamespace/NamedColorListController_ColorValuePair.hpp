@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorValuePair
     ColorValuePair(UnityEngine::Color color_ = {}, int value_ = {}) noexcept : color{color_}, value{value_} {}
     // public System.Void .ctor()
-    // Offset: 0x23EA780
+    // Offset: 0x10152FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,5 +47,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NamedColorListController::ColorValuePair), 32 + sizeof(int)> __GlobalNamespace_NamedColorListController_ColorValuePairSizeCheck;
   static_assert(sizeof(NamedColorListController::ColorValuePair) == 0x24);
+  // Writing MetadataGetter for method: NamedColorListController::ColorValuePair::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::ColorValuePair::*)()>(&NamedColorListController::ColorValuePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedColorListController::ColorValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::ColorValuePair::*)()>(&NamedColorListController::ColorValuePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedColorListController::ColorValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController::ColorValuePair*, "", "NamedColorListController/ColorValuePair");

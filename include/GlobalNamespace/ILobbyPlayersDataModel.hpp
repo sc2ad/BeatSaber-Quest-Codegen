@@ -117,6 +117,198 @@ namespace GlobalNamespace {
     void Deactivate();
   }; // ILobbyPlayersDataModel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::add_didChangeEvent
+  // Il2CppName: add_didChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(System::Action_1<::Il2CppString*>*)>(&ILobbyPlayersDataModel::add_didChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "add_didChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::remove_didChangeEvent
+  // Il2CppName: remove_didChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(System::Action_1<::Il2CppString*>*)>(&ILobbyPlayersDataModel::remove_didChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "remove_didChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::get_localUserId
+  // Il2CppName: get_localUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::get_localUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "get_localUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::get_hostUserId
+  // Il2CppName: get_hostUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::get_hostUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "get_hostUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::get_playersData
+  // Il2CppName: get_playersData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerDataModel*>* (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::get_playersData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "get_playersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetLobbyPlayerDataModel
+  // Il2CppName: GetLobbyPlayerDataModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILobbyPlayerDataModel* (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetLobbyPlayerDataModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetLobbyPlayerDataModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerBeatmapLevel
+  // Il2CppName: GetPlayerBeatmapLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerBeatmapLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerBeatmapDifficulty
+  // Il2CppName: GetPlayerBeatmapDifficulty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerBeatmapDifficulty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerBeatmapCharacteristic
+  // Il2CppName: GetPlayerBeatmapCharacteristic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerBeatmapCharacteristic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerGameplayModifiers
+  // Il2CppName: GetPlayerGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerIsActive
+  // Il2CppName: GetPlayerIsActive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerIsActive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerIsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerIsReady
+  // Il2CppName: GetPlayerIsReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerIsReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::GetPlayerIsInLobby
+  // Il2CppName: GetPlayerIsInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ILobbyPlayersDataModel::*)(::Il2CppString*)>(&ILobbyPlayersDataModel::GetPlayerIsInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "GetPlayerIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel
+  // Il2CppName: SetLocalPlayerBeatmapLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(::Il2CppString*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*)>(&ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "SetLocalPlayerBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::ClearLocalPlayerBeatmapLevel
+  // Il2CppName: ClearLocalPlayerBeatmapLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::ClearLocalPlayerBeatmapLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "ClearLocalPlayerBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::SetLocalPlayerGameplayModifiers
+  // Il2CppName: SetLocalPlayerGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(GlobalNamespace::GameplayModifiers*)>(&ILobbyPlayersDataModel::SetLocalPlayerGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "SetLocalPlayerGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::ClearLocalPlayerGameplayModifiers
+  // Il2CppName: ClearLocalPlayerGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::ClearLocalPlayerGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "ClearLocalPlayerGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::SetLocalPlayerIsActive
+  // Il2CppName: SetLocalPlayerIsActive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(bool)>(&ILobbyPlayersDataModel::SetLocalPlayerIsActive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "SetLocalPlayerIsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::SetLocalPlayerIsReady
+  // Il2CppName: SetLocalPlayerIsReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(bool)>(&ILobbyPlayersDataModel::SetLocalPlayerIsReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "SetLocalPlayerIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::SetLocalPlayerIsInLobby
+  // Il2CppName: SetLocalPlayerIsInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)(bool)>(&ILobbyPlayersDataModel::SetLocalPlayerIsInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "SetLocalPlayerIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::ClearData
+  // Il2CppName: ClearData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::ClearData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "ClearData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::ClearRecommendations
+  // Il2CppName: ClearRecommendations
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::ClearRecommendations)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "ClearRecommendations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::Activate
+  // Il2CppName: Activate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::Activate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayersDataModel::Deactivate
+  // Il2CppName: Deactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayersDataModel::*)()>(&ILobbyPlayersDataModel::Deactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayersDataModel*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyPlayersDataModel*, "", "ILobbyPlayersDataModel");

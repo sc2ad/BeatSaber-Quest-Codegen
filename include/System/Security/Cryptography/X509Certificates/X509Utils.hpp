@@ -22,13 +22,29 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509Utils
     X509Utils() noexcept {}
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
-    // Offset: 0x183BDE8
+    // Offset: 0x1853AF8
     static ::Il2CppString* FindOidInfo(uint keyType, ::Il2CppString* keyValue, System::Security::Cryptography::OidGroup oidGroup);
     // static System.String FindOidInfoWithFallback(System.UInt32 key, System.String value, System.Security.Cryptography.OidGroup group)
-    // Offset: 0x182B790
+    // Offset: 0x18434A0
     static ::Il2CppString* FindOidInfoWithFallback(uint key, ::Il2CppString* value, System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
   #pragma pack(pop)
+  // Writing MetadataGetter for method: X509Utils::FindOidInfo
+  // Il2CppName: FindOidInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Security::Cryptography::OidGroup)>(&X509Utils::FindOidInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Utils*), "FindOidInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidGroup>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Utils::FindOidInfoWithFallback
+  // Il2CppName: FindOidInfoWithFallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Security::Cryptography::OidGroup)>(&X509Utils::FindOidInfoWithFallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Utils*), "FindOidInfoWithFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidGroup>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Utils*, "System.Security.Cryptography.X509Certificates", "X509Utils");

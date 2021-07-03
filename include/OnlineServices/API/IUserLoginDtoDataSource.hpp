@@ -47,6 +47,30 @@ namespace OnlineServices::API {
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.IUserLoginDtoDataSource
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IUserLoginDtoDataSource::UserAuthenticationDataAsync
+  // Il2CppName: UserAuthenticationDataAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&IUserLoginDtoDataSource::UserAuthenticationDataAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IUserLoginDtoDataSource*), "UserAuthenticationDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: IUserLoginDtoDataSource::GetUserFriendsUserIds
+  // Il2CppName: GetUserFriendsUserIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* (IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&IUserLoginDtoDataSource::GetUserFriendsUserIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IUserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: IUserLoginDtoDataSource::GetPlatformUserIdAsync
+  // Il2CppName: GetPlatformUserIdAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&IUserLoginDtoDataSource::GetPlatformUserIdAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IUserLoginDtoDataSource*), "GetPlatformUserIdAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IUserLoginDtoDataSource*, "OnlineServices.API", "IUserLoginDtoDataSource");

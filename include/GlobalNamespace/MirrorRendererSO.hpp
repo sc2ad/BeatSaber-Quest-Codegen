@@ -93,16 +93,16 @@ namespace GlobalNamespace {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, System.Single fov, System.Boolean stereoEnabled)
-      // Offset: 0xF212E8
+      // Offset: 0xF222A0
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  CameraTransformData(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, float fov, bool stereoEnabled)
       // public override System.Boolean Equals(System.Object obj)
-      // Offset: 0xF21304
+      // Offset: 0xF222BC
       // Implemented from: System.ValueType
       // Base method: System.Boolean ValueType::Equals(System.Object obj)
       bool Equals(::Il2CppObject* obj);
       // public override System.Int32 GetHashCode()
-      // Offset: 0xF2130C
+      // Offset: 0xF222C4
       // Implemented from: System.ValueType
       // Base method: System.Int32 ValueType::GetHashCode()
       int GetHashCode();
@@ -110,6 +110,36 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MirrorRendererSO::CameraTransformData), 32 + sizeof(bool)> __GlobalNamespace_MirrorRendererSO_CameraTransformDataSizeCheck;
     static_assert(sizeof(MirrorRendererSO::CameraTransformData) == 0x21);
+    // Writing MetadataGetter for method: MirrorRendererSO::CameraTransformData::CameraTransformData
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::CameraTransformData::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float, bool)>(&MirrorRendererSO::CameraTransformData::CameraTransformData<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO::CameraTransformData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::CameraTransformData::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float, bool)>(&MirrorRendererSO::CameraTransformData::CameraTransformData<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO::CameraTransformData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+      }
+    };
+    // Writing MetadataGetter for method: MirrorRendererSO::CameraTransformData::Equals
+    // Il2CppName: Equals
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MirrorRendererSO::CameraTransformData::*)(::Il2CppObject*)>(&MirrorRendererSO::CameraTransformData::Equals)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO::CameraTransformData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+      }
+    };
+    // Writing MetadataGetter for method: MirrorRendererSO::CameraTransformData::GetHashCode
+    // Il2CppName: GetHashCode
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MirrorRendererSO::CameraTransformData::*)()>(&MirrorRendererSO::CameraTransformData::GetHashCode)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO::CameraTransformData), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
     // private UnityEngine.LayerMask _reflectLayers
     // Size: 0x4
     // Offset: 0x18
@@ -160,7 +190,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableBloomPrePass and: bloomPrePassRenderer
     char __padding7[0x6] = {};
-    // [SpaceAttribute] Offset: 0xE00FE8
+    // [SpaceAttribute] Offset: 0xE01FE4
     // private BloomPrePassRendererSO _bloomPrePassRenderer
     // Size: 0x8
     // Offset: 0x38
@@ -234,43 +264,43 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kWaterLayer
     static void _set_kWaterLayer(int value);
     // private System.Void OnValidate()
-    // Offset: 0x2347258
+    // Offset: 0x2360FB4
     void OnValidate();
     // protected System.Void Awake()
-    // Offset: 0x2347338
+    // Offset: 0x2361094
     void Awake();
     // private System.Void ValidateParams()
-    // Offset: 0x234725C
+    // Offset: 0x2360FB8
     void ValidateParams();
     // public System.Void Init(UnityEngine.LayerMask reflectLayers, System.Int32 stereoTextureWidth, System.Int32 stereoTextureHeight, System.Int32 monoTextureWidth, System.Int32 monoTextureHeight, System.Int32 maxAntiAliasing, System.Boolean enableBloomPrePass)
-    // Offset: 0x234733C
+    // Offset: 0x2361098
     void Init(UnityEngine::LayerMask reflectLayers, int stereoTextureWidth, int stereoTextureHeight, int monoTextureWidth, int monoTextureHeight, int maxAntiAliasing, bool enableBloomPrePass);
     // public System.Void PrepareForNextFrame()
-    // Offset: 0x2346528
+    // Offset: 0x2360284
     void PrepareForNextFrame();
     // public UnityEngine.Texture GetMirrorTexture(UnityEngine.Vector3 reflectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x2346944
+    // Offset: 0x23606A0
     UnityEngine::Texture* GetMirrorTexture(UnityEngine::Vector3 reflectionPlanePos, UnityEngine::Vector3 reflectionPlaneNormal);
     // private System.Void RenderMirror(UnityEngine.Vector3 camPosition, UnityEngine.Quaternion camRotation, UnityEngine.Matrix4x4 camProjectionMatrix, UnityEngine.Rect screenRect, UnityEngine.Vector3 reclectionPlanePos, UnityEngine.Vector3 reflectionPlaneNormal)
-    // Offset: 0x23479FC
+    // Offset: 0x2361758
     void RenderMirror(UnityEngine::Vector3 camPosition, UnityEngine::Quaternion camRotation, UnityEngine::Matrix4x4 camProjectionMatrix, UnityEngine::Rect screenRect, UnityEngine::Vector3 reclectionPlanePos, UnityEngine::Vector3 reflectionPlaneNormal);
     // protected System.Void OnDisable()
-    // Offset: 0x2347D24
+    // Offset: 0x2361A80
     void OnDisable();
     // private System.Void CreateOrUpdateMirrorCamera(UnityEngine.Camera currentCamera, UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x2347370
+    // Offset: 0x23610CC
     void CreateOrUpdateMirrorCamera(UnityEngine::Camera* currentCamera, UnityEngine::RenderTexture* renderTexture);
     // static private UnityEngine.Vector4 Plane(UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x2347604
+    // Offset: 0x2361360
     static UnityEngine::Vector4 Plane(UnityEngine::Vector3 pos, UnityEngine::Vector3 normal);
     // static private UnityEngine.Vector4 CameraSpacePlane(UnityEngine.Matrix4x4 worldToCameraMatrix, UnityEngine.Vector3 pos, UnityEngine.Vector3 normal)
-    // Offset: 0x2347C80
+    // Offset: 0x23619DC
     static UnityEngine::Vector4 CameraSpacePlane(UnityEngine::Matrix4x4 worldToCameraMatrix, UnityEngine::Vector3 pos, UnityEngine::Vector3 normal);
     // static private UnityEngine.Matrix4x4 CalculateReflectionMatrix(UnityEngine.Vector4 plane)
-    // Offset: 0x23476E0
+    // Offset: 0x236143C
     static UnityEngine::Matrix4x4 CalculateReflectionMatrix(UnityEngine::Vector4 plane);
     // public System.Void .ctor()
-    // Offset: 0x2347EE0
+    // Offset: 0x2361C3C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -285,6 +315,116 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect)> __GlobalNamespace_MirrorRendererSOSizeCheck;
   static_assert(sizeof(MirrorRendererSO) == 0xA0);
+  // Writing MetadataGetter for method: MirrorRendererSO::OnValidate
+  // Il2CppName: OnValidate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::OnValidate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::ValidateParams
+  // Il2CppName: ValidateParams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::ValidateParams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "ValidateParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)(UnityEngine::LayerMask, int, int, int, int, int, bool)>(&MirrorRendererSO::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::PrepareForNextFrame
+  // Il2CppName: PrepareForNextFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::PrepareForNextFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "PrepareForNextFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::GetMirrorTexture
+  // Il2CppName: GetMirrorTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (MirrorRendererSO::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&MirrorRendererSO::GetMirrorTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "GetMirrorTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::RenderMirror
+  // Il2CppName: RenderMirror
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Matrix4x4, UnityEngine::Rect, UnityEngine::Vector3, UnityEngine::Vector3)>(&MirrorRendererSO::RenderMirror)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "RenderMirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::CreateOrUpdateMirrorCamera
+  // Il2CppName: CreateOrUpdateMirrorCamera
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)(UnityEngine::Camera*, UnityEngine::RenderTexture*)>(&MirrorRendererSO::CreateOrUpdateMirrorCamera)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "CreateOrUpdateMirrorCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::Plane
+  // Il2CppName: Plane
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&MirrorRendererSO::Plane)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "Plane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::CameraSpacePlane
+  // Il2CppName: CameraSpacePlane
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Matrix4x4, UnityEngine::Vector3, UnityEngine::Vector3)>(&MirrorRendererSO::CameraSpacePlane)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "CameraSpacePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::CalculateReflectionMatrix
+  // Il2CppName: CalculateReflectionMatrix
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Vector4)>(&MirrorRendererSO::CalculateReflectionMatrix)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), "CalculateReflectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirrorRendererSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirrorRendererSO::*)()>(&MirrorRendererSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirrorRendererSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");

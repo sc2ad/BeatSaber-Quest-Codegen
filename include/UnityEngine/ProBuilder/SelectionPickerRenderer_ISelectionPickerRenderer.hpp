@@ -32,6 +32,14 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Texture2D* RenderLookupTexture(UnityEngine::Camera* camera, UnityEngine::Shader* shader, ::Il2CppString* tag, int width, int height);
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/ISelectionPickerRenderer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SelectionPickerRenderer::ISelectionPickerRenderer::RenderLookupTexture
+  // Il2CppName: RenderLookupTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (SelectionPickerRenderer::ISelectionPickerRenderer::*)(UnityEngine::Camera*, UnityEngine::Shader*, ::Il2CppString*, int, int)>(&SelectionPickerRenderer::ISelectionPickerRenderer::RenderLookupTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::ISelectionPickerRenderer*), "RenderLookupTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/ISelectionPickerRenderer");

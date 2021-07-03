@@ -18,6 +18,14 @@ namespace Zenject {
     void OnAnimatorMove();
   }; // Zenject.IAnimatorMoveHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAnimatorMoveHandler::OnAnimatorMove
+  // Il2CppName: OnAnimatorMove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnimatorMoveHandler::*)()>(&IAnimatorMoveHandler::OnAnimatorMove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnimatorMoveHandler*), "OnAnimatorMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorMoveHandler*, "Zenject", "IAnimatorMoveHandler");

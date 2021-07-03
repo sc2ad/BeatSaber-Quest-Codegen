@@ -53,22 +53,22 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DifficultyBeatmap
     DifficultyBeatmap(::Il2CppString* difficulty_ = {}, int difficultyRank_ = {}, ::Il2CppString* beatmapFilename_ = {}, float noteJumpMovementSpeed_ = {}, float noteJumpStartBeatOffset_ = {}) noexcept : difficulty{difficulty_}, difficultyRank{difficultyRank_}, beatmapFilename{beatmapFilename_}, noteJumpMovementSpeed{noteJumpMovementSpeed_}, noteJumpStartBeatOffset{noteJumpStartBeatOffset_} {}
     // public System.String get_difficulty()
-    // Offset: 0x117D774
+    // Offset: 0x1161938
     ::Il2CppString* get_difficulty();
     // public System.Int32 get_difficultyRank()
-    // Offset: 0x117D77C
+    // Offset: 0x1161940
     int get_difficultyRank();
     // public System.String get_beatmapFilename()
-    // Offset: 0x117D784
+    // Offset: 0x1161948
     ::Il2CppString* get_beatmapFilename();
     // public System.Single get_noteJumpMovementSpeed()
-    // Offset: 0x117D78C
+    // Offset: 0x1161950
     float get_noteJumpMovementSpeed();
     // public System.Single get_noteJumpStartBeatOffset()
-    // Offset: 0x117D794
+    // Offset: 0x1161958
     float get_noteJumpStartBeatOffset();
     // public System.Void .ctor(System.String difficultyName, System.Int32 difficultyRank, System.String beatmapFilename, System.Single noteJumpMovementSpeed, System.Single noteJumpStartBeatOffset)
-    // Offset: 0x117D6E4
+    // Offset: 0x11618A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::DifficultyBeatmap* New_ctor(::Il2CppString* difficultyName, int difficultyRank, ::Il2CppString* beatmapFilename, float noteJumpMovementSpeed, float noteJumpStartBeatOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap::.ctor");
@@ -78,5 +78,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData::DifficultyBeatmap), 44 + sizeof(float)> __GlobalNamespace_StandardLevelInfoSaveData_DifficultyBeatmapSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData::DifficultyBeatmap) == 0x30);
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DifficultyBeatmap::get_difficulty
+  // Il2CppName: get_difficulty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::DifficultyBeatmap::*)()>(&StandardLevelInfoSaveData::DifficultyBeatmap::get_difficulty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), "get_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DifficultyBeatmap::get_difficultyRank
+  // Il2CppName: get_difficultyRank
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StandardLevelInfoSaveData::DifficultyBeatmap::*)()>(&StandardLevelInfoSaveData::DifficultyBeatmap::get_difficultyRank)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), "get_difficultyRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DifficultyBeatmap::get_beatmapFilename
+  // Il2CppName: get_beatmapFilename
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData::DifficultyBeatmap::*)()>(&StandardLevelInfoSaveData::DifficultyBeatmap::get_beatmapFilename)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), "get_beatmapFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DifficultyBeatmap::get_noteJumpMovementSpeed
+  // Il2CppName: get_noteJumpMovementSpeed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::DifficultyBeatmap::*)()>(&StandardLevelInfoSaveData::DifficultyBeatmap::get_noteJumpMovementSpeed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), "get_noteJumpMovementSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DifficultyBeatmap::get_noteJumpStartBeatOffset
+  // Il2CppName: get_noteJumpStartBeatOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData::DifficultyBeatmap::*)()>(&StandardLevelInfoSaveData::DifficultyBeatmap::get_noteJumpStartBeatOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), "get_noteJumpStartBeatOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardLevelInfoSaveData::DifficultyBeatmap::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::DifficultyBeatmap::*)(::Il2CppString*, int, ::Il2CppString*, float, float)>(&StandardLevelInfoSaveData::DifficultyBeatmap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData::DifficultyBeatmap::*)(::Il2CppString*, int, ::Il2CppString*, float, float)>(&StandardLevelInfoSaveData::DifficultyBeatmap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData::DifficultyBeatmap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmap*, "", "StandardLevelInfoSaveData/DifficultyBeatmap");

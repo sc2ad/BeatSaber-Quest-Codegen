@@ -36,19 +36,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x1069774
+    // Offset: 0x10C4344
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x1069794
+    // Offset: 0x10C4364
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0x10697B4
+    // Offset: 0x10C4384
     void set_text(::Il2CppString* value);
     // protected System.Void Awake()
-    // Offset: 0x10697D0
+    // Offset: 0x10C43A0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1069894
+    // Offset: 0x10C4464
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFF
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void DecButtonPressed();
     // protected System.Void .ctor()
-    // Offset: 0x106999C
+    // Offset: 0x10C456C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -73,5 +73,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(IncDecSettingsController), 24 + sizeof(GlobalNamespace::StepValuePicker*)> __GlobalNamespace_IncDecSettingsControllerSizeCheck;
   static_assert(sizeof(IncDecSettingsController) == 0x20);
+  // Writing MetadataGetter for method: IncDecSettingsController::set_enableDec
+  // Il2CppName: set_enableDec
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)(bool)>(&IncDecSettingsController::set_enableDec)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "set_enableDec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::set_enableInc
+  // Il2CppName: set_enableInc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)(bool)>(&IncDecSettingsController::set_enableInc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "set_enableInc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::set_text
+  // Il2CppName: set_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)(::Il2CppString*)>(&IncDecSettingsController::set_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)()>(&IncDecSettingsController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)()>(&IncDecSettingsController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::IncButtonPressed
+  // Il2CppName: IncButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)()>(&IncDecSettingsController::IncButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "IncButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::DecButtonPressed
+  // Il2CppName: DecButtonPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)()>(&IncDecSettingsController::DecButtonPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IncDecSettingsController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)()>(&IncDecSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IncDecSettingsController::*)()>(&IncDecSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IncDecSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IncDecSettingsController*, "", "IncDecSettingsController");

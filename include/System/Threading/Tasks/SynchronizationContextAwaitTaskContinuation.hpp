@@ -62,23 +62,23 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Threading.ContextCallback s_postActionCallback
     static void _set_s_postActionCallback(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x189C43C
+    // Offset: 0x18B414C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizationContextAwaitTaskContinuation* New_ctor(System::Threading::SynchronizationContext* context, System::Action* action, bool flowExecutionContext, System::Threading::StackCrawlMark& stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationContextAwaitTaskContinuation*, creationType>(context, action, flowExecutionContext, stackMark)));
     }
     // static private System.Void PostAction(System.Object state)
-    // Offset: 0x189C678
+    // Offset: 0x18B4388
     static void PostAction(::Il2CppObject* state);
     // static private System.Threading.ContextCallback GetPostActionCallback()
-    // Offset: 0x189C724
+    // Offset: 0x18B4434
     static System::Threading::ContextCallback* GetPostActionCallback();
     // static private System.Void .cctor()
-    // Offset: 0x189C7E4
+    // Offset: 0x18B44F4
     static void _cctor();
     // override System.Void Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
-    // Offset: 0x189C470
+    // Offset: 0x18B4180
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* task, bool canInlineContinuationTask);
@@ -86,5 +86,51 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
   static check_size<sizeof(SynchronizationContextAwaitTaskContinuation), 32 + sizeof(System::Threading::SynchronizationContext*)> __System_Threading_Tasks_SynchronizationContextAwaitTaskContinuationSizeCheck;
   static_assert(sizeof(SynchronizationContextAwaitTaskContinuation) == 0x28);
+  // Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizationContextAwaitTaskContinuation::*)(System::Threading::SynchronizationContext*, System::Action*, bool, System::Threading::StackCrawlMark&)>(&SynchronizationContextAwaitTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizationContextAwaitTaskContinuation::*)(System::Threading::SynchronizationContext*, System::Action*, bool, System::Threading::StackCrawlMark&)>(&SynchronizationContextAwaitTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::PostAction
+  // Il2CppName: PostAction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&SynchronizationContextAwaitTaskContinuation::PostAction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), "PostAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::GetPostActionCallback
+  // Il2CppName: GetPostActionCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ContextCallback* (*)()>(&SynchronizationContextAwaitTaskContinuation::GetPostActionCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), "GetPostActionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SynchronizationContextAwaitTaskContinuation::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::Run
+  // Il2CppName: Run
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizationContextAwaitTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&SynchronizationContextAwaitTaskContinuation::Run)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");

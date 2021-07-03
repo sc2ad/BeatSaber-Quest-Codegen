@@ -31,8 +31,8 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Grounder::GrounderDelegate
     class GrounderDelegate;
-    // [TooltipAttribute] Offset: 0xE07090
-    // [RangeAttribute] Offset: 0xE07090
+    // [TooltipAttribute] Offset: 0xE0808C
+    // [RangeAttribute] Offset: 0xE0808C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -41,7 +41,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: solver
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE070E4
+    // [TooltipAttribute] Offset: 0xE080E0
     // public RootMotion.FinalIK.Grounding solver
     // Size: 0x8
     // Offset: 0x20
@@ -60,7 +60,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::Grounder::GrounderDelegate* OnPostGrounder;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::Grounder::GrounderDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE0711C
+    // [CompilerGeneratedAttribute] Offset: 0xE08118
     // private System.Boolean <initiated>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -75,22 +75,22 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void ResetPosition();
     // public System.Boolean get_initiated()
-    // Offset: 0x1C3DC90
+    // Offset: 0x1C589A0
     bool get_initiated();
     // protected System.Void set_initiated(System.Boolean value)
-    // Offset: 0x1C3DC98
+    // Offset: 0x1C589A8
     void set_initiated(bool value);
     // protected UnityEngine.Vector3 GetSpineOffsetTarget()
-    // Offset: 0x1C3DCA4
+    // Offset: 0x1C589B4
     UnityEngine::Vector3 GetSpineOffsetTarget();
     // protected System.Void LogWarning(System.String message)
-    // Offset: 0x1C3DF78
+    // Offset: 0x1C58C88
     void LogWarning(::Il2CppString* message);
     // private UnityEngine.Vector3 GetLegSpineBendVector(RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x1C3DDE8
+    // Offset: 0x1C58AF8
     UnityEngine::Vector3 GetLegSpineBendVector(RootMotion::FinalIK::Grounding::Leg* leg);
     // private UnityEngine.Vector3 GetLegSpineTangent(RootMotion.FinalIK.Grounding/Leg leg)
-    // Offset: 0x1C3DFAC
+    // Offset: 0x1C58CBC
     UnityEngine::Vector3 GetLegSpineTangent(RootMotion::FinalIK::Grounding::Leg* leg);
     // protected System.Void OpenUserManual()
     // Offset: 0xFFFFFFFF
@@ -99,7 +99,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OpenScriptReference();
     // protected System.Void .ctor()
-    // Offset: 0x1C3E1B4
+    // Offset: 0x1C58EC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,5 +115,91 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(Grounder), 56 + sizeof(bool)> __RootMotion_FinalIK_GrounderSizeCheck;
   static_assert(sizeof(Grounder) == 0x39);
+  // Writing MetadataGetter for method: Grounder::ResetPosition
+  // Il2CppName: ResetPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::ResetPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "ResetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::get_initiated
+  // Il2CppName: get_initiated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Grounder::*)()>(&Grounder::get_initiated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::set_initiated
+  // Il2CppName: set_initiated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)(bool)>(&Grounder::set_initiated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::GetSpineOffsetTarget
+  // Il2CppName: GetSpineOffsetTarget
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounder::*)()>(&Grounder::GetSpineOffsetTarget)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "GetSpineOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::LogWarning
+  // Il2CppName: LogWarning
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)(::Il2CppString*)>(&Grounder::LogWarning)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::GetLegSpineBendVector
+  // Il2CppName: GetLegSpineBendVector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounder::*)(RootMotion::FinalIK::Grounding::Leg*)>(&Grounder::GetLegSpineBendVector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "GetLegSpineBendVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::GetLegSpineTangent
+  // Il2CppName: GetLegSpineTangent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounder::*)(RootMotion::FinalIK::Grounding::Leg*)>(&Grounder::GetLegSpineTangent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "GetLegSpineTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::OpenUserManual
+  // Il2CppName: OpenUserManual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::OpenUserManual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::OpenScriptReference
+  // Il2CppName: OpenScriptReference
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::OpenScriptReference)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Grounder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Grounder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder*, "RootMotion.FinalIK", "Grounder");

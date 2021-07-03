@@ -75,7 +75,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: CloudStorageMetadata
     CloudStorageMetadata(::Il2CppString* Bucket_ = {}, int64_t Counter_ = {}, uint DataSize_ = {}, ::Il2CppString* ExtraData_ = {}, ::Il2CppString* Key_ = {}, uint64_t SaveTime_ = {}, Oculus::Platform::CloudStorageDataStatus Status_ = {}, ::Il2CppString* VersionHandle_ = {}) noexcept : Bucket{Bucket_}, Counter{Counter_}, DataSize{DataSize_}, ExtraData{ExtraData_}, Key{Key_}, SaveTime{SaveTime_}, Status{Status_}, VersionHandle{VersionHandle_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B3AA4
+    // Offset: 0x14CE7B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CloudStorageMetadata* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageMetadata::.ctor");
@@ -85,5 +85,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(CloudStorageMetadata), 72 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CloudStorageMetadataSizeCheck;
   static_assert(sizeof(CloudStorageMetadata) == 0x50);
+  // Writing MetadataGetter for method: CloudStorageMetadata::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CloudStorageMetadata::*)(System::IntPtr)>(&CloudStorageMetadata::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CloudStorageMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CloudStorageMetadata::*)(System::IntPtr)>(&CloudStorageMetadata::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CloudStorageMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageMetadata*, "Oculus.Platform.Models", "CloudStorageMetadata");

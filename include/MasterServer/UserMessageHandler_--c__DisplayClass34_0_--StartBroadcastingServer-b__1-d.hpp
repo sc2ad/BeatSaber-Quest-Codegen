@@ -74,13 +74,29 @@ namespace MasterServer {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xEE788C
+    // Offset: 0xEE8844
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEE7894
+    // Offset: 0xEE884C
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MasterServer.UserMessageHandler/<>c__DisplayClass34_0/<<StartBroadcastingServer>b__1>d
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d::*)()>(&UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d::SetStateMachine
+  // Il2CppName: SetStateMachine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d::SetStateMachine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass34_0::$$StartBroadcastingServer$b__1$d, "MasterServer", "UserMessageHandler/<>c__DisplayClass34_0/<<StartBroadcastingServer>b__1>d");

@@ -20,37 +20,37 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     // Creating value type constructor for type: FloatMath
     FloatMath() noexcept {}
     // public System.Int32 Compare(System.Single a, System.Single b)
-    // Offset: 0x23D998C
+    // Offset: 0x23F4EB8
     int Compare(float a, float b);
     // public System.Boolean AreEqual(System.Single a, System.Single b)
-    // Offset: 0x23D99B8
+    // Offset: 0x23F4EE4
     bool AreEqual(float a, float b);
     // public System.Single get_MinValue()
-    // Offset: 0x23D99C4
+    // Offset: 0x23F4EF0
     float get_MinValue();
     // public System.Single get_Zero()
-    // Offset: 0x23D99D0
+    // Offset: 0x23F4EFC
     float get_Zero();
     // public System.Single get_NegativeInfinity()
-    // Offset: 0x23D99D8
+    // Offset: 0x23F4F04
     float get_NegativeInfinity();
     // public System.Single get_PositiveInfinity()
-    // Offset: 0x23D99E4
+    // Offset: 0x23F4F10
     float get_PositiveInfinity();
     // public System.Single Add(System.Single a, System.Single b)
-    // Offset: 0x23D99F0
+    // Offset: 0x23F4F1C
     float Add(float a, float b);
     // public System.Single Subtract(System.Single a, System.Single b)
-    // Offset: 0x23D99F8
+    // Offset: 0x23F4F24
     float Subtract(float a, float b);
     // public System.Single Multiply(System.Single a, System.Single b)
-    // Offset: 0x23D9A00
+    // Offset: 0x23F4F2C
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
-    // Offset: 0x23D9A08
+    // Offset: 0x23F4F34
     float DistanceSquaredBetweenPoints(::Array<float>* a, ::Array<float>* b);
     // public System.Void .ctor()
-    // Offset: 0x23D9B1C
+    // Offset: 0x23F5048
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
     // Base method: System.Void TypeMath_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -60,5 +60,99 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
       return THROW_UNLESS((::il2cpp_utils::New<FloatMath*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.KdTree.Math.FloatMath
+  // Writing MetadataGetter for method: FloatMath::Compare
+  // Il2CppName: Compare
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FloatMath::*)(float, float)>(&FloatMath::Compare)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::AreEqual
+  // Il2CppName: AreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatMath::*)(float, float)>(&FloatMath::AreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::get_MinValue
+  // Il2CppName: get_MinValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)()>(&FloatMath::get_MinValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "get_MinValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::get_Zero
+  // Il2CppName: get_Zero
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)()>(&FloatMath::get_Zero)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "get_Zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::get_NegativeInfinity
+  // Il2CppName: get_NegativeInfinity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)()>(&FloatMath::get_NegativeInfinity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "get_NegativeInfinity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::get_PositiveInfinity
+  // Il2CppName: get_PositiveInfinity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)()>(&FloatMath::get_PositiveInfinity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "get_PositiveInfinity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)(float, float)>(&FloatMath::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::Subtract
+  // Il2CppName: Subtract
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)(float, float)>(&FloatMath::Subtract)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::Multiply
+  // Il2CppName: Multiply
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)(float, float)>(&FloatMath::Multiply)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::DistanceSquaredBetweenPoints
+  // Il2CppName: DistanceSquaredBetweenPoints
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatMath::*)(::Array<float>*, ::Array<float>*)>(&FloatMath::DistanceSquaredBetweenPoints)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FloatMath::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatMath::*)()>(&FloatMath::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatMath::*)()>(&FloatMath::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FloatMath*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");

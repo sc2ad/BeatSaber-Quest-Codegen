@@ -98,31 +98,95 @@ namespace System::Net {
     // Set static field: static private System.Int32 tcp_keepalive_interval
     static void _set_tcp_keepalive_interval(int value);
     // static private System.Void .cctor()
-    // Offset: 0x147D5D8
+    // Offset: 0x14982E8
     static void _cctor();
     // static System.Net.ICertificatePolicy GetLegacyCertificatePolicy()
-    // Offset: 0x147D69C
+    // Offset: 0x14983AC
     static System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
     // static public System.Boolean get_CheckCertificateRevocationList()
-    // Offset: 0x147D704
+    // Offset: 0x1498414
     static bool get_CheckCertificateRevocationList();
     // static public System.Int32 get_DnsRefreshTimeout()
-    // Offset: 0x147D76C
+    // Offset: 0x149847C
     static int get_DnsRefreshTimeout();
     // static public System.Net.SecurityProtocolType get_SecurityProtocol()
-    // Offset: 0x147D7D4
+    // Offset: 0x14984E4
     static System::Net::SecurityProtocolType get_SecurityProtocol();
     // static System.Net.ServerCertValidationCallback get_ServerCertValidationCallback()
-    // Offset: 0x147D83C
+    // Offset: 0x149854C
     static System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
     // static public System.Net.ServicePoint FindServicePoint(System.Uri address, System.Net.IWebProxy proxy)
-    // Offset: 0x147D8A4
+    // Offset: 0x14985B4
     static System::Net::ServicePoint* FindServicePoint(System::Uri* address, System::Net::IWebProxy* proxy);
     // static System.Void CloseConnectionGroup(System.String connectionGroupName)
-    // Offset: 0x147DEF8
+    // Offset: 0x1498C08
     static void CloseConnectionGroup(::Il2CppString* connectionGroupName);
   }; // System.Net.ServicePointManager
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ServicePointManager::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ServicePointManager::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::GetLegacyCertificatePolicy
+  // Il2CppName: GetLegacyCertificatePolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICertificatePolicy* (*)()>(&ServicePointManager::GetLegacyCertificatePolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "GetLegacyCertificatePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::get_CheckCertificateRevocationList
+  // Il2CppName: get_CheckCertificateRevocationList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ServicePointManager::get_CheckCertificateRevocationList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_CheckCertificateRevocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::get_DnsRefreshTimeout
+  // Il2CppName: get_DnsRefreshTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&ServicePointManager::get_DnsRefreshTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_DnsRefreshTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::get_SecurityProtocol
+  // Il2CppName: get_SecurityProtocol
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SecurityProtocolType (*)()>(&ServicePointManager::get_SecurityProtocol)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_SecurityProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::get_ServerCertValidationCallback
+  // Il2CppName: get_ServerCertValidationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServerCertValidationCallback* (*)()>(&ServicePointManager::get_ServerCertValidationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "get_ServerCertValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::FindServicePoint
+  // Il2CppName: FindServicePoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (*)(System::Uri*, System::Net::IWebProxy*)>(&ServicePointManager::FindServicePoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "FindServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IWebProxy*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::CloseConnectionGroup
+  // Il2CppName: CloseConnectionGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ServicePointManager::CloseConnectionGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager*), "CloseConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager*, "System.Net", "ServicePointManager");

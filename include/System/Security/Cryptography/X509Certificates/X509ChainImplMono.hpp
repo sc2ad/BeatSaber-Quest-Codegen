@@ -155,134 +155,134 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static private System.Security.Cryptography.X509Certificates.X509ChainStatus[] Empty
     static void _set_Empty(::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
     // public System.Void .ctor(System.Boolean useMachineContext)
-    // Offset: 0x1835C80
+    // Offset: 0x184D990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainImplMono* New_ctor(bool useMachineContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainImplMono::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainImplMono*, creationType>(useMachineContext)));
     }
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_Roots()
-    // Offset: 0x18366C4
+    // Offset: 0x184E3D4
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Roots();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_CertificateAuthorities()
-    // Offset: 0x1836A00
+    // Offset: 0x184E710
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateAuthorities();
     // private System.Security.Cryptography.X509Certificates.X509Store get_LMRootStore()
-    // Offset: 0x1836790
+    // Offset: 0x184E4A0
     System::Security::Cryptography::X509Certificates::X509Store* get_LMRootStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_UserRootStore()
-    // Offset: 0x1836884
+    // Offset: 0x184E594
     System::Security::Cryptography::X509Certificates::X509Store* get_UserRootStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_LMCAStore()
-    // Offset: 0x1836ACC
+    // Offset: 0x184E7DC
     System::Security::Cryptography::X509Certificates::X509Store* get_LMCAStore();
     // private System.Security.Cryptography.X509Certificates.X509Store get_UserCAStore()
-    // Offset: 0x1836BC0
+    // Offset: 0x184E8D0
     System::Security::Cryptography::X509Certificates::X509Store* get_UserCAStore();
     // private System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_CertificateCollection()
-    // Offset: 0x1837104
+    // Offset: 0x184EE14
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_CertificateCollection();
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags BuildChainFrom(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1836364
+    // Offset: 0x184E074
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags BuildChainFrom(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 SelectBestFromCollection(System.Security.Cryptography.X509Certificates.X509Certificate2 child, System.Security.Cryptography.X509Certificates.X509Certificate2Collection c)
-    // Offset: 0x183757C
+    // Offset: 0x184F28C
     System::Security::Cryptography::X509Certificates::X509Certificate2* SelectBestFromCollection(System::Security::Cryptography::X509Certificates::X509Certificate2* child, System::Security::Cryptography::X509Certificates::X509Certificate2Collection* c);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 FindParent(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1837380
+    // Offset: 0x184F090
     System::Security::Cryptography::X509Certificates::X509Certificate2* FindParent(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Boolean IsChainComplete(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x18374A4
+    // Offset: 0x184F1B4
     bool IsChainComplete(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Boolean IsSelfIssued(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1837854
+    // Offset: 0x184F564
     bool IsSelfIssued(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // private System.Void ValidateChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1836450
+    // Offset: 0x184E160
     void ValidateChain(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // private System.Void Process(System.Int32 n)
-    // Offset: 0x18378A0
+    // Offset: 0x184F5B0
     void Process(int n);
     // private System.Void PrepareForNextCertificate(System.Int32 n)
-    // Offset: 0x1837B68
+    // Offset: 0x184F878
     void PrepareForNextCertificate(int n);
     // private System.Void WrapUp()
-    // Offset: 0x1837F64
+    // Offset: 0x184FC74
     void WrapUp();
     // private System.Void ProcessCertificateExtensions(System.Security.Cryptography.X509Certificates.X509ChainElement element)
-    // Offset: 0x1838040
+    // Offset: 0x184FD50
     void ProcessCertificateExtensions(System::Security::Cryptography::X509Certificates::X509ChainElement* element);
     // private System.Boolean IsSignedWith(System.Security.Cryptography.X509Certificates.X509Certificate2 signed, System.Security.Cryptography.AsymmetricAlgorithm pubkey)
-    // Offset: 0x1837FF4
+    // Offset: 0x184FD04
     bool IsSignedWith(System::Security::Cryptography::X509Certificates::X509Certificate2* _signed, System::Security::Cryptography::AsymmetricAlgorithm* pubkey);
     // private System.String GetSubjectKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x18377B4
+    // Offset: 0x184F4C4
     ::Il2CppString* GetSubjectKeyIdentifier(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static private System.String GetAuthorityKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1837718
+    // Offset: 0x184F428
     static ::Il2CppString* GetAuthorityKeyIdentifier(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // static private System.String GetAuthorityKeyIdentifier(Mono.Security.X509.X509Crl crl)
-    // Offset: 0x1838484
+    // Offset: 0x1850194
     static ::Il2CppString* GetAuthorityKeyIdentifier(Mono::Security::X509::X509Crl* crl);
     // static private System.String GetAuthorityKeyIdentifier(Mono.Security.X509.X509Extension ext)
-    // Offset: 0x1838334
+    // Offset: 0x1850044
     static ::Il2CppString* GetAuthorityKeyIdentifier(Mono::Security::X509::X509Extension* ext);
     // private System.Void CheckRevocationOnChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flag)
-    // Offset: 0x1837D4C
+    // Offset: 0x184FA5C
     void CheckRevocationOnChain(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Int32 ca, System.Boolean online)
-    // Offset: 0x1838514
+    // Offset: 0x1850224
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, int ca, bool online);
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Security.Cryptography.X509Certificates.X509Certificate2 ca_cert, System.Boolean online)
-    // Offset: 0x18385F0
+    // Offset: 0x1850300
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags CheckRevocation(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, System::Security::Cryptography::X509Certificates::X509Certificate2* ca_cert, bool online);
     // static private Mono.Security.X509.X509Crl CheckCrls(System.String subject, System.String ski, Mono.Security.X509.X509Store store)
-    // Offset: 0x1838EE8
+    // Offset: 0x1850BF8
     static Mono::Security::X509::X509Crl* CheckCrls(::Il2CppString* subject, ::Il2CppString* ski, Mono::Security::X509::X509Store* store);
     // private Mono.Security.X509.X509Crl FindCrl(System.Security.Cryptography.X509Certificates.X509Certificate2 caCertificate)
-    // Offset: 0x18387C8
+    // Offset: 0x18504D8
     Mono::Security::X509::X509Crl* FindCrl(System::Security::Cryptography::X509Certificates::X509Certificate2* caCertificate);
     // private System.Boolean ProcessCrlExtensions(Mono.Security.X509.X509Crl crl)
-    // Offset: 0x1838C14
+    // Offset: 0x1850924
     bool ProcessCrlExtensions(Mono::Security::X509::X509Crl* crl);
     // private System.Boolean ProcessCrlEntryExtensions(Mono.Security.X509.X509Crl/X509CrlEntry entry)
-    // Offset: 0x183896C
+    // Offset: 0x185067C
     bool ProcessCrlEntryExtensions(Mono::Security::X509::X509Crl::X509CrlEntry* entry);
     // static private System.Void .cctor()
-    // Offset: 0x1839214
+    // Offset: 0x1850F24
     static void _cctor();
     // public override System.Boolean get_IsValid()
-    // Offset: 0x1835D5C
+    // Offset: 0x184DA6C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Boolean X509ChainImpl::get_IsValid()
     bool get_IsValid();
     // public override System.Security.Cryptography.X509Certificates.X509ChainElementCollection get_ChainElements()
-    // Offset: 0x1835D64
+    // Offset: 0x184DA74
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainElementCollection X509ChainImpl::get_ChainElements()
     System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
     // public override System.Security.Cryptography.X509Certificates.X509ChainPolicy get_ChainPolicy()
-    // Offset: 0x1835D6C
+    // Offset: 0x184DA7C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainPolicy X509ChainImpl::get_ChainPolicy()
     System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
     // public override System.Void set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
-    // Offset: 0x1835D74
+    // Offset: 0x184DA84
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Void X509ChainImpl::set_ChainPolicy(System.Security.Cryptography.X509Certificates.X509ChainPolicy value)
     void set_ChainPolicy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public override System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
-    // Offset: 0x1835D7C
+    // Offset: 0x184DA8C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainStatus[] X509ChainImpl::get_ChainStatus()
     ::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* get_ChainStatus();
     // public override System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
-    // Offset: 0x1835DF0
+    // Offset: 0x184DB00
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Boolean X509ChainImpl::Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     bool Build(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
     // public override System.Void Reset()
-    // Offset: 0x18365A0
+    // Offset: 0x184E2B0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Void X509ChainImpl::Reset()
     void Reset();
@@ -290,5 +290,315 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
   static check_size<sizeof(X509ChainImplMono), 128 + sizeof(System::Security::Cryptography::X509Certificates::X509Certificate2Collection*)> __System_Security_Cryptography_X509Certificates_X509ChainImplMonoSizeCheck;
   static_assert(sizeof(X509ChainImplMono) == 0x88);
+  // Writing MetadataGetter for method: X509ChainImplMono::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(bool)>(&X509ChainImplMono::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(bool)>(&X509ChainImplMono::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_Roots
+  // Il2CppName: get_Roots
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_Roots)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_Roots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_CertificateAuthorities
+  // Il2CppName: get_CertificateAuthorities
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_CertificateAuthorities)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_CertificateAuthorities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_LMRootStore
+  // Il2CppName: get_LMRootStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Store* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_LMRootStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_LMRootStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_UserRootStore
+  // Il2CppName: get_UserRootStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Store* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_UserRootStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_UserRootStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_LMCAStore
+  // Il2CppName: get_LMCAStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Store* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_LMCAStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_LMCAStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_UserCAStore
+  // Il2CppName: get_UserCAStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Store* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_UserCAStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_UserCAStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_CertificateCollection
+  // Il2CppName: get_CertificateCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_CertificateCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_CertificateCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::BuildChainFrom
+  // Il2CppName: BuildChainFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::BuildChainFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "BuildChainFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::SelectBestFromCollection
+  // Il2CppName: SelectBestFromCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2* (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, System::Security::Cryptography::X509Certificates::X509Certificate2Collection*)>(&X509ChainImplMono::SelectBestFromCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "SelectBestFromCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2Collection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::FindParent
+  // Il2CppName: FindParent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2* (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::FindParent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "FindParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::IsChainComplete
+  // Il2CppName: IsChainComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::IsChainComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "IsChainComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::IsSelfIssued
+  // Il2CppName: IsSelfIssued
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::IsSelfIssued)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "IsSelfIssued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::ValidateChain
+  // Il2CppName: ValidateChain
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&X509ChainImplMono::ValidateChain)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "ValidateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::Process
+  // Il2CppName: Process
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(int)>(&X509ChainImplMono::Process)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::PrepareForNextCertificate
+  // Il2CppName: PrepareForNextCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(int)>(&X509ChainImplMono::PrepareForNextCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "PrepareForNextCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::WrapUp
+  // Il2CppName: WrapUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)()>(&X509ChainImplMono::WrapUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "WrapUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::ProcessCertificateExtensions
+  // Il2CppName: ProcessCertificateExtensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509ChainElement*)>(&X509ChainImplMono::ProcessCertificateExtensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "ProcessCertificateExtensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainElement*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::IsSignedWith
+  // Il2CppName: IsSignedWith
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, System::Security::Cryptography::AsymmetricAlgorithm*)>(&X509ChainImplMono::IsSignedWith)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "IsSignedWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsymmetricAlgorithm*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::GetSubjectKeyIdentifier
+  // Il2CppName: GetSubjectKeyIdentifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::GetSubjectKeyIdentifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "GetSubjectKeyIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::GetAuthorityKeyIdentifier
+  // Il2CppName: GetAuthorityKeyIdentifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::GetAuthorityKeyIdentifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "GetAuthorityKeyIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::GetAuthorityKeyIdentifier
+  // Il2CppName: GetAuthorityKeyIdentifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::X509::X509Crl*)>(&X509ChainImplMono::GetAuthorityKeyIdentifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "GetAuthorityKeyIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Crl*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::GetAuthorityKeyIdentifier
+  // Il2CppName: GetAuthorityKeyIdentifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::X509::X509Extension*)>(&X509ChainImplMono::GetAuthorityKeyIdentifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "GetAuthorityKeyIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::CheckRevocationOnChain
+  // Il2CppName: CheckRevocationOnChain
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&X509ChainImplMono::CheckRevocationOnChain)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "CheckRevocationOnChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::CheckRevocation
+  // Il2CppName: CheckRevocation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, int, bool)>(&X509ChainImplMono::CheckRevocation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "CheckRevocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::CheckRevocation
+  // Il2CppName: CheckRevocation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*, System::Security::Cryptography::X509Certificates::X509Certificate2*, bool)>(&X509ChainImplMono::CheckRevocation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "CheckRevocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::CheckCrls
+  // Il2CppName: CheckCrls
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl* (*)(::Il2CppString*, ::Il2CppString*, Mono::Security::X509::X509Store*)>(&X509ChainImplMono::CheckCrls)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "CheckCrls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Store*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::FindCrl
+  // Il2CppName: FindCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl* (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::FindCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "FindCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::ProcessCrlExtensions
+  // Il2CppName: ProcessCrlExtensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)(Mono::Security::X509::X509Crl*)>(&X509ChainImplMono::ProcessCrlExtensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "ProcessCrlExtensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Crl*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::ProcessCrlEntryExtensions
+  // Il2CppName: ProcessCrlEntryExtensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)(Mono::Security::X509::X509Crl::X509CrlEntry*)>(&X509ChainImplMono::ProcessCrlEntryExtensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "ProcessCrlEntryExtensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Crl::X509CrlEntry*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X509ChainImplMono::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_IsValid
+  // Il2CppName: get_IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)()>(&X509ChainImplMono::get_IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_ChainElements
+  // Il2CppName: get_ChainElements
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainElementCollection* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_ChainElements)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_ChainElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_ChainPolicy
+  // Il2CppName: get_ChainPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509ChainPolicy* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_ChainPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_ChainPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::set_ChainPolicy
+  // Il2CppName: set_ChainPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509ChainPolicy*)>(&X509ChainImplMono::set_ChainPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "set_ChainPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509ChainPolicy*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::get_ChainStatus
+  // Il2CppName: get_ChainStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Security::Cryptography::X509Certificates::X509ChainStatus>* (X509ChainImplMono::*)()>(&X509ChainImplMono::get_ChainStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "get_ChainStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::Build
+  // Il2CppName: Build
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509ChainImplMono::*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&X509ChainImplMono::Build)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainImplMono::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainImplMono::*)()>(&X509ChainImplMono::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainImplMono*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainImplMono*, "System.Security.Cryptography.X509Certificates", "X509ChainImplMono");

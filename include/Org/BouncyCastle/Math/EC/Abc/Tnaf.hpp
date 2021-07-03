@@ -68,46 +68,150 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Set static field: static public readonly System.SByte[][] Alpha1Tnaf
     static void _set_Alpha1Tnaf(::Array<::Array<int8_t>*>* value);
     // static public Org.BouncyCastle.Math.BigInteger Norm(System.SByte mu, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda)
-    // Offset: 0x1CF0220
+    // Offset: 0x1D0CF30
     static Org::BouncyCastle::Math::BigInteger* Norm(int8_t mu, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda);
     // static public Org.BouncyCastle.Math.EC.Abc.ZTauElement Round(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal lambda0, Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal lambda1, System.SByte mu)
-    // Offset: 0x1CF035C
+    // Offset: 0x1D0D06C
     static Org::BouncyCastle::Math::EC::Abc::ZTauElement* Round(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* lambda0, Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* lambda1, int8_t mu);
     // static public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal ApproximateDivisionByN(Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.BigInteger s, Org.BouncyCastle.Math.BigInteger vm, System.SByte a, System.Int32 m, System.Int32 c)
-    // Offset: 0x1CF0760
+    // Offset: 0x1D0D470
     static Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* ApproximateDivisionByN(Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::BigInteger* s, Org::BouncyCastle::Math::BigInteger* vm, int8_t a, int m, int c);
     // static public System.SByte GetMu(System.Int32 curveA)
-    // Offset: 0x1CF08E0
+    // Offset: 0x1D0D5F0
     static int8_t GetMu(int curveA);
     // static public Org.BouncyCastle.Math.BigInteger[] GetLucas(System.SByte mu, System.Int32 k, System.Boolean doV)
-    // Offset: 0x1CF08F0
+    // Offset: 0x1D0D600
     static ::Array<Org::BouncyCastle::Math::BigInteger*>* GetLucas(int8_t mu, int k, bool doV);
     // static public Org.BouncyCastle.Math.BigInteger GetTw(System.SByte mu, System.Int32 w)
-    // Offset: 0x1CF0AF4
+    // Offset: 0x1D0D804
     static Org::BouncyCastle::Math::BigInteger* GetTw(int8_t mu, int w);
     // static public Org.BouncyCastle.Math.BigInteger[] GetSi(Org.BouncyCastle.Math.EC.AbstractF2mCurve curve)
-    // Offset: 0x1CF0C94
+    // Offset: 0x1D0D9A4
     static ::Array<Org::BouncyCastle::Math::BigInteger*>* GetSi(Org::BouncyCastle::Math::EC::AbstractF2mCurve* curve);
     // static protected System.Int32 GetShiftsForCofactor(Org.BouncyCastle.Math.BigInteger h)
-    // Offset: 0x1CF0F9C
+    // Offset: 0x1D0DCAC
     static int GetShiftsForCofactor(Org::BouncyCastle::Math::BigInteger* h);
     // static public Org.BouncyCastle.Math.EC.Abc.ZTauElement PartModReduction(Org.BouncyCastle.Math.BigInteger k, System.Int32 m, System.SByte a, Org.BouncyCastle.Math.BigInteger[] s, System.SByte mu, System.SByte c)
-    // Offset: 0x1CF1058
+    // Offset: 0x1D0DD68
     static Org::BouncyCastle::Math::EC::Abc::ZTauElement* PartModReduction(Org::BouncyCastle::Math::BigInteger* k, int m, int8_t a, ::Array<Org::BouncyCastle::Math::BigInteger*>* s, int8_t mu, int8_t c);
     // static public Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyFromTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte[] u)
-    // Offset: 0x1CF12F0
+    // Offset: 0x1D0E000
     static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Array<int8_t>* u);
     // static public System.SByte[] TauAdicWNaf(System.SByte mu, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda, System.SByte width, Org.BouncyCastle.Math.BigInteger pow2w, Org.BouncyCastle.Math.BigInteger tw, Org.BouncyCastle.Math.EC.Abc.ZTauElement[] alpha)
-    // Offset: 0x1CF150C
+    // Offset: 0x1D0E21C
     static ::Array<int8_t>* TauAdicWNaf(int8_t mu, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t width, Org::BouncyCastle::Math::BigInteger* pow2w, Org::BouncyCastle::Math::BigInteger* tw, ::Array<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>* alpha);
     // static public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] GetPreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
-    // Offset: 0x1CF18CC
+    // Offset: 0x1D0E5DC
     static ::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* GetPreComp(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
     // static private System.Void .cctor()
-    // Offset: 0x1CF1AA8
+    // Offset: 0x1D0E7B8
     static void _cctor();
   }; // Org.BouncyCastle.Math.EC.Abc.Tnaf
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Tnaf::Norm
+  // Il2CppName: Norm
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*)>(&Tnaf::Norm)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "Norm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::Round
+  // Il2CppName: Round
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, int8_t)>(&Tnaf::Round)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::ApproximateDivisionByN
+  // Il2CppName: ApproximateDivisionByN
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, int8_t, int, int)>(&Tnaf::ApproximateDivisionByN)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "ApproximateDivisionByN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::GetMu
+  // Il2CppName: GetMu
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int)>(&Tnaf::GetMu)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "GetMu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::GetLucas
+  // Il2CppName: GetLucas
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (*)(int8_t, int, bool)>(&Tnaf::GetLucas)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "GetLucas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::GetTw
+  // Il2CppName: GetTw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(int8_t, int)>(&Tnaf::GetTw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "GetTw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::GetSi
+  // Il2CppName: GetSi
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (*)(Org::BouncyCastle::Math::EC::AbstractF2mCurve*)>(&Tnaf::GetSi)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mCurve*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::GetShiftsForCofactor
+  // Il2CppName: GetShiftsForCofactor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::BigInteger*)>(&Tnaf::GetShiftsForCofactor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "GetShiftsForCofactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::PartModReduction
+  // Il2CppName: PartModReduction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::BigInteger*, int, int8_t, ::Array<Org::BouncyCastle::Math::BigInteger*>*, int8_t, int8_t)>(&Tnaf::PartModReduction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "PartModReduction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::BigInteger*>*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::MultiplyFromTnaf
+  // Il2CppName: MultiplyFromTnaf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<int8_t>*)>(&Tnaf::MultiplyFromTnaf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "MultiplyFromTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::TauAdicWNaf
+  // Il2CppName: TauAdicWNaf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int8_t>* (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::Array<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*)>(&Tnaf::TauAdicWNaf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "TauAdicWNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::GetPreComp
+  // Il2CppName: GetPreComp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Tnaf::GetPreComp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), "GetPreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tnaf::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Tnaf::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tnaf*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::Tnaf*, "Org.BouncyCastle.Math.EC.Abc", "Tnaf");

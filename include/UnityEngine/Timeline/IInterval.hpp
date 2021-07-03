@@ -22,6 +22,22 @@ namespace UnityEngine::Timeline {
     int64_t get_intervalEnd();
   }; // UnityEngine.Timeline.IInterval
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IInterval::get_intervalStart
+  // Il2CppName: get_intervalStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (IInterval::*)()>(&IInterval::get_intervalStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IInterval*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IInterval::get_intervalEnd
+  // Il2CppName: get_intervalEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (IInterval::*)()>(&IInterval::get_intervalEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IInterval*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");

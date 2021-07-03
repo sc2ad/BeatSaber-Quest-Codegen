@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::FormattedFloatListSettingsController::ValueType) == 0x4);
     // Padding between fields: valueType and: valueDidChangeEvent
     char __padding2[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE240B8
+    // [CompilerGeneratedAttribute] Offset: 0xE24094
     // private System.Action`2<FormattedFloatListSettingsController,System.Single> valueDidChangeEvent
     // Size: 0x8
     // Offset: 0x40
@@ -125,40 +125,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FormattedFloatListSettingsController
     FormattedFloatListSettingsController(::Array<float>* values_ = {}, ::Il2CppString* formattingString_ = {}, GlobalNamespace::FormattedFloatListSettingsController::ValueType valueType_ = {}, System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* valueDidChangeEvent_ = {}, float value_ = {}, float min_ = {}, float max_ = {}, bool hasValue_ = {}) noexcept : values{values_}, formattingString{formattingString_}, valueType{valueType_}, valueDidChangeEvent{valueDidChangeEvent_}, value{value_}, min{min_}, max{max_}, hasValue{hasValue_} {}
     // public System.Void add_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x1037820
+    // Offset: 0x107C4AC
     void add_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Void remove_valueDidChangeEvent(System.Action`2<FormattedFloatListSettingsController,System.Single> value)
-    // Offset: 0x10378C4
+    // Offset: 0x107C550
     void remove_valueDidChangeEvent(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>* value);
     // public System.Single get_value()
-    // Offset: 0x1037968
+    // Offset: 0x107C5F4
     float get_value();
     // public System.Single[] get_values()
-    // Offset: 0x1037970
+    // Offset: 0x107C5FC
     ::Array<float>* get_values();
     // public System.Void set_values(System.Single[] value)
-    // Offset: 0x1037978
+    // Offset: 0x107C604
     void set_values(::Array<float>* value);
     // public System.Void SetValue(System.Single value, System.Boolean callCallback)
-    // Offset: 0x1037988
+    // Offset: 0x107C614
     void SetValue(float value, bool callCallback);
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x10379A0
+    // Offset: 0x107C62C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(int& idx, int& numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x1037AF8
+    // Offset: 0x107C784
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x1037B9C
+    // Offset: 0x107C828
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::Il2CppString* TextForValue(int idx);
     // public System.Void .ctor()
-    // Offset: 0x1037C88
+    // Offset: 0x107C914
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -176,6 +176,92 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FormattedFloatListSettingsController), 84 + sizeof(bool)> __GlobalNamespace_FormattedFloatListSettingsControllerSizeCheck;
   static_assert(sizeof(FormattedFloatListSettingsController) == 0x55);
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::add_valueDidChangeEvent
+  // Il2CppName: add_valueDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*)>(&FormattedFloatListSettingsController::add_valueDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "add_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::remove_valueDidChangeEvent
+  // Il2CppName: remove_valueDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)(System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*)>(&FormattedFloatListSettingsController::remove_valueDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "remove_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::FormattedFloatListSettingsController*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::get_value
+  // Il2CppName: get_value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FormattedFloatListSettingsController::*)()>(&FormattedFloatListSettingsController::get_value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::get_values
+  // Il2CppName: get_values
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (FormattedFloatListSettingsController::*)()>(&FormattedFloatListSettingsController::get_values)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "get_values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::set_values
+  // Il2CppName: set_values
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)(::Array<float>*)>(&FormattedFloatListSettingsController::set_values)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "set_values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::SetValue
+  // Il2CppName: SetValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)(float, bool)>(&FormattedFloatListSettingsController::SetValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::GetInitValues
+  // Il2CppName: GetInitValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FormattedFloatListSettingsController::*)(int&, int&)>(&FormattedFloatListSettingsController::GetInitValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::ApplyValue
+  // Il2CppName: ApplyValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)(int)>(&FormattedFloatListSettingsController::ApplyValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::TextForValue
+  // Il2CppName: TextForValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FormattedFloatListSettingsController::*)(int)>(&FormattedFloatListSettingsController::TextForValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: FormattedFloatListSettingsController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)()>(&FormattedFloatListSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FormattedFloatListSettingsController::*)()>(&FormattedFloatListSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FormattedFloatListSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController*, "", "FormattedFloatListSettingsController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController::ValueType, "", "FormattedFloatListSettingsController/ValueType");

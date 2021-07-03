@@ -24,6 +24,22 @@ namespace GlobalNamespace {
     ::Il2CppString* get_localizedDescription();
   }; // IRichPresenceData
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IRichPresenceData::get_apiName
+  // Il2CppName: get_apiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IRichPresenceData::*)()>(&IRichPresenceData::get_apiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IRichPresenceData::get_localizedDescription
+  // Il2CppName: get_localizedDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IRichPresenceData::*)()>(&IRichPresenceData::get_localizedDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresenceData*, "", "IRichPresenceData");

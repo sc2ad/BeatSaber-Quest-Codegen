@@ -53,16 +53,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::Il2CppString* value);
     // public System.Void Save(AvatarData avatarData)
-    // Offset: 0x112EA10
+    // Offset: 0x1134278
     void Save(GlobalNamespace::AvatarData* avatarData);
     // public AvatarData Load()
-    // Offset: 0x112EB78
+    // Offset: 0x11343E0
     GlobalNamespace::AvatarData* Load();
     // private AvatarData LoadFromCurrentVersion(AvatarSaveData avatarSaveData)
-    // Offset: 0x112EC0C
+    // Offset: 0x1134474
     GlobalNamespace::AvatarData* LoadFromCurrentVersion(GlobalNamespace::AvatarSaveData* avatarSaveData);
     // public System.Void .ctor()
-    // Offset: 0x112EDD8
+    // Offset: 0x1134640
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -75,5 +75,43 @@ namespace GlobalNamespace {
     }
   }; // AvatarDataFileManagerSO
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AvatarDataFileManagerSO::Save
+  // Il2CppName: Save
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataFileManagerSO::*)(GlobalNamespace::AvatarData*)>(&AvatarDataFileManagerSO::Save)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarDataFileManagerSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarDataFileManagerSO::Load
+  // Il2CppName: Load
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (AvatarDataFileManagerSO::*)()>(&AvatarDataFileManagerSO::Load)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarDataFileManagerSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarDataFileManagerSO::LoadFromCurrentVersion
+  // Il2CppName: LoadFromCurrentVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (AvatarDataFileManagerSO::*)(GlobalNamespace::AvatarSaveData*)>(&AvatarDataFileManagerSO::LoadFromCurrentVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarDataFileManagerSO*), "LoadFromCurrentVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarSaveData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarDataFileManagerSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataFileManagerSO::*)()>(&AvatarDataFileManagerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarDataFileManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataFileManagerSO::*)()>(&AvatarDataFileManagerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarDataFileManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataFileManagerSO*, "", "AvatarDataFileManagerSO");

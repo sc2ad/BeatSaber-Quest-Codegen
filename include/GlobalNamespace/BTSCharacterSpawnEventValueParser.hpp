@@ -53,19 +53,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kAlternativeMaterialOffset
     static void _set_kAlternativeMaterialOffset(int value);
     // static public System.Int32 GetPrefabId(System.Int32 value)
-    // Offset: 0x1136DC8
+    // Offset: 0x113C630
     static int GetPrefabId(int value);
     // static public System.Int32 GetAnimationId(System.Int32 value)
-    // Offset: 0x1136DD0
+    // Offset: 0x113C638
     static int GetAnimationId(int value);
     // static public System.Boolean GetIsAlternativeMaterial(System.Int32 value)
-    // Offset: 0x11372C4
+    // Offset: 0x113CB2C
     static bool GetIsAlternativeMaterial(int value);
     // static public System.Int32 MergeValuesIntoOneInt(System.Int32 prefabId, System.Int32 animationId, System.Boolean isAlternativeMaterial)
-    // Offset: 0x11373B4
+    // Offset: 0x113CC1C
     static int MergeValuesIntoOneInt(int prefabId, int animationId, bool isAlternativeMaterial);
   }; // BTSCharacterSpawnEventValueParser
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BTSCharacterSpawnEventValueParser::GetPrefabId
+  // Il2CppName: GetPrefabId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&BTSCharacterSpawnEventValueParser::GetPrefabId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventValueParser*), "GetPrefabId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnEventValueParser::GetAnimationId
+  // Il2CppName: GetAnimationId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&BTSCharacterSpawnEventValueParser::GetAnimationId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventValueParser*), "GetAnimationId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnEventValueParser::GetIsAlternativeMaterial
+  // Il2CppName: GetIsAlternativeMaterial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&BTSCharacterSpawnEventValueParser::GetIsAlternativeMaterial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventValueParser*), "GetIsAlternativeMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterSpawnEventValueParser::MergeValuesIntoOneInt
+  // Il2CppName: MergeValuesIntoOneInt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, bool)>(&BTSCharacterSpawnEventValueParser::MergeValuesIntoOneInt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnEventValueParser*), "MergeValuesIntoOneInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");

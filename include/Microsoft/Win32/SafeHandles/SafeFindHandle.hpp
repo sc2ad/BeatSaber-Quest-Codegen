@@ -21,18 +21,40 @@ namespace Microsoft::Win32::SafeHandles {
     // Creating value type constructor for type: SafeFindHandle
     SafeFindHandle() noexcept {}
     // System.Void .ctor(System.IntPtr preexistingHandle)
-    // Offset: 0x1A3B7BC
+    // Offset: 0x1A554CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeFindHandle* New_ctor(System::IntPtr preexistingHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::SafeHandles::SafeFindHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeFindHandle*, creationType>(preexistingHandle)));
     }
     // protected override System.Boolean ReleaseHandle()
-    // Offset: 0x1A3B7E8
+    // Offset: 0x1A554F8
     // Implemented from: System.Runtime.InteropServices.SafeHandle
     // Base method: System.Boolean SafeHandle::ReleaseHandle()
     bool ReleaseHandle();
   }; // Microsoft.Win32.SafeHandles.SafeFindHandle
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SafeFindHandle::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeFindHandle::*)(System::IntPtr)>(&SafeFindHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SafeFindHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeFindHandle::*)(System::IntPtr)>(&SafeFindHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SafeFindHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: SafeFindHandle::ReleaseHandle
+  // Il2CppName: ReleaseHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeFindHandle::*)()>(&SafeFindHandle::ReleaseHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SafeFindHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeFindHandle*, "Microsoft.Win32.SafeHandles", "SafeFindHandle");

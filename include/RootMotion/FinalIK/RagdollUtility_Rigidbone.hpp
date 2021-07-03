@@ -106,21 +106,51 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Rigidbone
     Rigidbone(UnityEngine::Rigidbody* r_ = {}, UnityEngine::Transform* t_ = {}, UnityEngine::Collider* collider_ = {}, UnityEngine::Joint* joint_ = {}, UnityEngine::Rigidbody* c_ = {}, bool updateAnchor_ = {}, UnityEngine::Vector3 deltaPosition_ = {}, UnityEngine::Quaternion deltaRotation_ = {}, float deltaTime_ = {}, UnityEngine::Vector3 lastPosition_ = {}, UnityEngine::Quaternion lastRotation_ = {}) noexcept : r{r_}, t{t_}, collider{collider_}, joint{joint_}, c{c_}, updateAnchor{updateAnchor_}, deltaPosition{deltaPosition_}, deltaRotation{deltaRotation_}, deltaTime{deltaTime_}, lastPosition{lastPosition_}, lastRotation{lastRotation_} {}
     // public System.Void .ctor(UnityEngine.Rigidbody r)
-    // Offset: 0x1A89084
+    // Offset: 0x1AA2D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RagdollUtility::Rigidbone* New_ctor(UnityEngine::Rigidbody* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Rigidbone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Rigidbone*, creationType>(r)));
     }
     // public System.Void RecordVelocity()
-    // Offset: 0x1A89C90
+    // Offset: 0x1AA39A0
     void RecordVelocity();
     // public System.Void WakeUp(System.Single velocityWeight, System.Single angularVelocityWeight)
-    // Offset: 0x1A89A74
+    // Offset: 0x1AA3784
     void WakeUp(float velocityWeight, float angularVelocityWeight);
   }; // RootMotion.FinalIK.RagdollUtility/Rigidbone
   #pragma pack(pop)
   static check_size<sizeof(RagdollUtility::Rigidbone), 104 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_RagdollUtility_RigidboneSizeCheck;
   static_assert(sizeof(RagdollUtility::Rigidbone) == 0x78);
+  // Writing MetadataGetter for method: RagdollUtility::Rigidbone::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::Rigidbone::*)(UnityEngine::Rigidbody*)>(&RagdollUtility::Rigidbone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RagdollUtility::Rigidbone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::Rigidbone::*)(UnityEngine::Rigidbody*)>(&RagdollUtility::Rigidbone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RagdollUtility::Rigidbone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RagdollUtility::Rigidbone::RecordVelocity
+  // Il2CppName: RecordVelocity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::Rigidbone::*)()>(&RagdollUtility::Rigidbone::RecordVelocity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RagdollUtility::Rigidbone*), "RecordVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RagdollUtility::Rigidbone::WakeUp
+  // Il2CppName: WakeUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RagdollUtility::Rigidbone::*)(float, float)>(&RagdollUtility::Rigidbone::WakeUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RagdollUtility::Rigidbone*), "WakeUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");

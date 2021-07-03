@@ -47,24 +47,62 @@ namespace System::Globalization {
     // Set static field: static private readonly System.Char[] sep
     static void _set_sep(::Array<::Il2CppChar>* value);
     // System.Void .ctor(System.Int32 dataIndex)
-    // Offset: 0x179A2B4
+    // Offset: 0x17B2FC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
-    // Offset: 0x179A390
+    // Offset: 0x17B30A0
     static ::Il2CppString* CreateString(::Il2CppString* pStrings, uint index);
     // public System.String get_WebName()
-    // Offset: 0x179A464
+    // Offset: 0x17B3174
     ::Il2CppString* get_WebName();
     // static private System.Void .cctor()
-    // Offset: 0x179A534
+    // Offset: 0x17B3244
     static void _cctor();
   }; // System.Globalization.CodePageDataItem
   #pragma pack(pop)
   static check_size<sizeof(CodePageDataItem), 32 + sizeof(uint)> __System_Globalization_CodePageDataItemSizeCheck;
   static_assert(sizeof(CodePageDataItem) == 0x24);
+  // Writing MetadataGetter for method: CodePageDataItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CodePageDataItem::*)(int)>(&CodePageDataItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePageDataItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CodePageDataItem::*)(int)>(&CodePageDataItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePageDataItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CodePageDataItem::CreateString
+  // Il2CppName: CreateString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint)>(&CodePageDataItem::CreateString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePageDataItem*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CodePageDataItem::get_WebName
+  // Il2CppName: get_WebName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CodePageDataItem::*)()>(&CodePageDataItem::get_WebName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePageDataItem*), "get_WebName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CodePageDataItem::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CodePageDataItem::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CodePageDataItem*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");

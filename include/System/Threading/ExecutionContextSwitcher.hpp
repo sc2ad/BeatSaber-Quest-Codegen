@@ -57,15 +57,31 @@ namespace System::Threading {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Boolean UndoNoThrow()
-    // Offset: 0xF00040
+    // Offset: 0xF00FF8
     bool UndoNoThrow();
     // System.Void Undo()
-    // Offset: 0xF00048
+    // Offset: 0xF01000
     void Undo();
   }; // System.Threading.ExecutionContextSwitcher
   #pragma pack(pop)
   static check_size<sizeof(ExecutionContextSwitcher), 24 + sizeof(System::Threading::Thread*)> __System_Threading_ExecutionContextSwitcherSizeCheck;
   static_assert(sizeof(ExecutionContextSwitcher) == 0x20);
+  // Writing MetadataGetter for method: ExecutionContextSwitcher::UndoNoThrow
+  // Il2CppName: UndoNoThrow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ExecutionContextSwitcher::*)()>(&ExecutionContextSwitcher::UndoNoThrow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContextSwitcher), "UndoNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContextSwitcher::Undo
+  // Il2CppName: Undo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionContextSwitcher::*)()>(&ExecutionContextSwitcher::Undo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContextSwitcher), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");

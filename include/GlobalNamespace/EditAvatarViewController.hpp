@@ -240,7 +240,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NamedIntListController* clothesValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NamedIntListController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE24608
+    // [SpaceAttribute] Offset: 0xE2469C
     // private ColorPickerButtonController _headTopPrimaryColorButtonController
     // Size: 0x8
     // Offset: 0x98
@@ -277,7 +277,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorPickerButtonController* clothesColorButtonControllerDetail;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorPickerButtonController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE24690
+    // [SpaceAttribute] Offset: 0xE24724
     // private UnityEngine.UI.Button _randomizeAllButton
     // Size: 0x8
     // Offset: 0xC8
@@ -308,7 +308,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE24708
+    // [SpaceAttribute] Offset: 0xE2479C
     // private HMUI.CurvedTextMeshPro _applyButtonText
     // Size: 0x8
     // Offset: 0xF0
@@ -321,42 +321,42 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* eyesPreviewImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24750
+    // [InjectAttribute] Offset: 0xE247E4
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::AvatarPartsModel* avatarPartsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPartsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24760
+    // [InjectAttribute] Offset: 0xE247F4
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x108
     GlobalNamespace::AvatarDataModel* avatarDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24770
+    // [InjectAttribute] Offset: 0xE24804
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x110
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE247A0
+    // [CompilerGeneratedAttribute] Offset: 0xE24834
     // private System.Action didFinishEvent
     // Size: 0x8
     // Offset: 0x118
     System::Action* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE247B0
+    // [CompilerGeneratedAttribute] Offset: 0xE24844
     // private System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> didRequestColorChangeEvent
     // Size: 0x8
     // Offset: 0x120
     System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* didRequestColorChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE247C0
+    // [CompilerGeneratedAttribute] Offset: 0xE24854
     // private System.Action`1<EditAvatarViewController/AvatarEditPart> didChangedAvatarPartEvent
     // Size: 0x8
     // Offset: 0x128
@@ -383,14 +383,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
     // Creating value type constructor for type: EditAvatarViewController
     EditAvatarViewController(GlobalNamespace::NamedColorListController* skinColorValuePicker_ = {}, GlobalNamespace::NamedIntListController* headTopValuePicker_ = {}, GlobalNamespace::NamedIntListController* eyesValuePicker_ = {}, GlobalNamespace::NamedIntListController* handsValuePicker_ = {}, GlobalNamespace::NamedIntListController* clothesValuePicker_ = {}, GlobalNamespace::ColorPickerButtonController* headTopPrimaryColorButtonController_ = {}, GlobalNamespace::ColorPickerButtonController* headTopSecondaryColorButtonController_ = {}, GlobalNamespace::ColorPickerButtonController* handsColorButtonController_ = {}, GlobalNamespace::ColorPickerButtonController* clothesColorButtonControllerPrimary_ = {}, GlobalNamespace::ColorPickerButtonController* clothesColorButtonControllerSecondary_ = {}, GlobalNamespace::ColorPickerButtonController* clothesColorButtonControllerDetail_ = {}, UnityEngine::UI::Button* randomizeAllButton_ = {}, UnityEngine::UI::Button* undoButton_ = {}, UnityEngine::UI::Button* redoButton_ = {}, UnityEngine::UI::Button* applyButton_ = {}, UnityEngine::UI::Button* cancelButton_ = {}, HMUI::CurvedTextMeshPro* applyButtonText_ = {}, UnityEngine::UI::Image* eyesPreviewImage_ = {}, GlobalNamespace::AvatarPartsModel* avatarPartsModel_ = {}, GlobalNamespace::AvatarDataModel* avatarDataModel_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action* didFinishEvent_ = {}, System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* didRequestColorChangeEvent_ = {}, System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* didChangedAvatarPartEvent_ = {}, GlobalNamespace::AvatarEditHistory* avatarEditHistory_ = {}, HMUI::ValueChangedBinder_1<int>* intPickerBinder_ = {}, GlobalNamespace::EditAvatarViewController::AvatarEditPart lastEditedPart_ = {}) noexcept : skinColorValuePicker{skinColorValuePicker_}, headTopValuePicker{headTopValuePicker_}, eyesValuePicker{eyesValuePicker_}, handsValuePicker{handsValuePicker_}, clothesValuePicker{clothesValuePicker_}, headTopPrimaryColorButtonController{headTopPrimaryColorButtonController_}, headTopSecondaryColorButtonController{headTopSecondaryColorButtonController_}, handsColorButtonController{handsColorButtonController_}, clothesColorButtonControllerPrimary{clothesColorButtonControllerPrimary_}, clothesColorButtonControllerSecondary{clothesColorButtonControllerSecondary_}, clothesColorButtonControllerDetail{clothesColorButtonControllerDetail_}, randomizeAllButton{randomizeAllButton_}, undoButton{undoButton_}, redoButton{redoButton_}, applyButton{applyButton_}, cancelButton{cancelButton_}, applyButtonText{applyButtonText_}, eyesPreviewImage{eyesPreviewImage_}, avatarPartsModel{avatarPartsModel_}, avatarDataModel{avatarDataModel_}, playerDataModel{playerDataModel_}, didFinishEvent{didFinishEvent_}, didRequestColorChangeEvent{didRequestColorChangeEvent_}, didChangedAvatarPartEvent{didChangedAvatarPartEvent_}, avatarEditHistory{avatarEditHistory_}, intPickerBinder{intPickerBinder_}, lastEditedPart{lastEditedPart_} {}
-    // [LocalizationKeyAttribute] Offset: 0xE24780
+    // [LocalizationKeyAttribute] Offset: 0xE24814
     // static field const value: static private System.String kEditApplyButtonLocalizationKey
     static constexpr const char* kEditApplyButtonLocalizationKey = "BUTTON_APPLY";
     // Get static field: static private System.String kEditApplyButtonLocalizationKey
     static ::Il2CppString* _get_kEditApplyButtonLocalizationKey();
     // Set static field: static private System.String kEditApplyButtonLocalizationKey
     static void _set_kEditApplyButtonLocalizationKey(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE24790
+    // [LocalizationKeyAttribute] Offset: 0xE24824
     // static field const value: static private System.String kCreateApplyButtonLocalizationKey
     static constexpr const char* kCreateApplyButtonLocalizationKey = "BUTTON_CREATE_AVATAR";
     // Get static field: static private System.String kCreateApplyButtonLocalizationKey
@@ -398,73 +398,73 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kCreateApplyButtonLocalizationKey
     static void _set_kCreateApplyButtonLocalizationKey(::Il2CppString* value);
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x10BA4CC
+    // Offset: 0x1038C44
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x10BAA18
+    // Offset: 0x1039190
     void remove_didFinishEvent(System::Action* value);
     // public System.Void add_didRequestColorChangeEvent(System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> value)
-    // Offset: 0x10BA37C
+    // Offset: 0x1038AF4
     void add_didRequestColorChangeEvent(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* value);
     // public System.Void remove_didRequestColorChangeEvent(System.Action`4<System.Action`1<UnityEngine.Color>,UnityEngine.Color,EditAvatarViewController/AvatarEditPart,System.Int32> value)
-    // Offset: 0x10BA8C8
+    // Offset: 0x1039040
     void remove_didRequestColorChangeEvent(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>* value);
     // public System.Void add_didChangedAvatarPartEvent(System.Action`1<EditAvatarViewController/AvatarEditPart> value)
-    // Offset: 0x10BA424
+    // Offset: 0x1038B9C
     void add_didChangedAvatarPartEvent(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* value);
     // public System.Void remove_didChangedAvatarPartEvent(System.Action`1<EditAvatarViewController/AvatarEditPart> value)
-    // Offset: 0x10BA970
+    // Offset: 0x10390E8
     void remove_didChangedAvatarPartEvent(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>* value);
     // public System.Void Setup(System.Boolean showAsCreateView)
-    // Offset: 0x10B9F40
+    // Offset: 0x10386B8
     void Setup(bool showAsCreateView);
     // public System.Void InitHistory()
-    // Offset: 0x10BA6BC
+    // Offset: 0x1038E34
     void InitHistory();
     // public System.Void DiscardLastEdit()
-    // Offset: 0x10BAEA0
+    // Offset: 0x1039618
     void DiscardLastEdit();
     // protected System.Void Update()
-    // Offset: 0x10BAF30
+    // Offset: 0x10396A8
     void Update();
     // private System.Void RefreshUi()
-    // Offset: 0x10BB9C0
+    // Offset: 0x103A138
     void RefreshUi();
     // private System.Void UpdateButtons()
-    // Offset: 0x10BAEC4
+    // Offset: 0x103963C
     void UpdateButtons();
     // private System.Void HandleSkinColorDidChanged(System.Int32 value)
-    // Offset: 0x10BBCD8
+    // Offset: 0x103A450
     void HandleSkinColorDidChanged(int value);
     // private System.Void EyesValuePickerHasChanged(System.String eyesId)
-    // Offset: 0x10BBDB4
+    // Offset: 0x103A52C
     void EyesValuePickerHasChanged(::Il2CppString* eyesId);
     // private System.Void HandleUndoButtonWasPressed()
-    // Offset: 0x10BB014
+    // Offset: 0x103978C
     void HandleUndoButtonWasPressed();
     // private System.Void HandleRedoButtonWasPressed()
-    // Offset: 0x10BBE5C
+    // Offset: 0x103A5D4
     void HandleRedoButtonWasPressed();
     // private System.Void HandleRandomizeAllButtonWasPressed()
-    // Offset: 0x10BAF84
+    // Offset: 0x10396FC
     void HandleRandomizeAllButtonWasPressed();
     // private System.Void HandleRandomizeModelsButtonWasPressed()
-    // Offset: 0x10BBFC8
+    // Offset: 0x103A740
     void HandleRandomizeModelsButtonWasPressed();
     // private System.Void HandleRandomizeColorsButtonWasPressed()
-    // Offset: 0x10BC058
+    // Offset: 0x103A7D0
     void HandleRandomizeColorsButtonWasPressed();
     // private System.Void ReportAllChangedAndUpdate()
-    // Offset: 0x10BBF34
+    // Offset: 0x103A6AC
     void ReportAllChangedAndUpdate();
     // private System.Void HandleApplyButtonWasPressed()
-    // Offset: 0x10BC0D8
+    // Offset: 0x103A850
     void HandleApplyButtonWasPressed();
     // private System.Void SaveAvatarAndFinish()
-    // Offset: 0x10BC0DC
+    // Offset: 0x103A854
     void SaveAvatarAndFinish();
     // private System.Void HandleCancelButtonWasPressed()
-    // Offset: 0x10BC144
+    // Offset: 0x103A8BC
     void HandleCancelButtonWasPressed();
     // static private NamedIntListController/TextValuePair[] CreateTextValuePairsForAvatarPartCollection(AvatarPartCollection`1<T> partCollection)
     // Offset: 0xFFFFFFFF
@@ -477,10 +477,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<::Array<GlobalNamespace::NamedIntListController::TextValuePair*>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, partCollection);
     }
     // private NamedColorListController/ColorValuePair[] CreateColorValuePairsForAvatarPartCollection(SkinColorSO[] colors)
-    // Offset: 0x10BB89C
+    // Offset: 0x103A014
     ::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* CreateColorValuePairsForAvatarPartCollection(::Array<GlobalNamespace::SkinColorSO*>* colors);
     // private System.Void SetupColorButton(UnityEngine.UI.Button button, System.Action`1<UnityEngine.Color> colorSetter, System.Func`1<UnityEngine.Color> currentColor, EditAvatarViewController/AvatarEditPart avatarEditPart, System.Int32 uvSegment)
-    // Offset: 0x10BB7B8
+    // Offset: 0x1039F30
     void SetupColorButton(UnityEngine::UI::Button* button, System::Action_1<UnityEngine::Color>* colorSetter, System::Func_1<UnityEngine::Color>* currentColor, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart, int uvSegment);
     // private System.Void SetupValuePicker(AvatarPartCollection`1<T> partCollection, NamedIntListController valuePicker, System.Action`1<System.String> setIdAction, EditAvatarViewController/AvatarEditPart avatarEditPart)
     // Offset: 0xFFFFFFFF
@@ -493,57 +493,57 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, partCollection, valuePicker, setIdAction, avatarEditPart);
     }
     // private System.Void <DidActivate>b__40_0(UnityEngine.Color color)
-    // Offset: 0x10BC1FC
+    // Offset: 0x103A974
     void $DidActivate$b__40_0(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_1()
-    // Offset: 0x10BC228
+    // Offset: 0x103A9A0
     UnityEngine::Color $DidActivate$b__40_1();
     // private System.Void <DidActivate>b__40_2(UnityEngine.Color color)
-    // Offset: 0x10BC254
+    // Offset: 0x103A9CC
     void $DidActivate$b__40_2(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_3()
-    // Offset: 0x10BC280
+    // Offset: 0x103A9F8
     UnityEngine::Color $DidActivate$b__40_3();
     // private System.Void <DidActivate>b__40_4(UnityEngine.Color color)
-    // Offset: 0x10BC2AC
+    // Offset: 0x103AA24
     void $DidActivate$b__40_4(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_5()
-    // Offset: 0x10BC2D8
+    // Offset: 0x103AA50
     UnityEngine::Color $DidActivate$b__40_5();
     // private System.Void <DidActivate>b__40_6(UnityEngine.Color color)
-    // Offset: 0x10BC304
+    // Offset: 0x103AA7C
     void $DidActivate$b__40_6(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_7()
-    // Offset: 0x10BC330
+    // Offset: 0x103AAA8
     UnityEngine::Color $DidActivate$b__40_7();
     // private System.Void <DidActivate>b__40_8(UnityEngine.Color color)
-    // Offset: 0x10BC35C
+    // Offset: 0x103AAD4
     void $DidActivate$b__40_8(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_9()
-    // Offset: 0x10BC388
+    // Offset: 0x103AB00
     UnityEngine::Color $DidActivate$b__40_9();
     // private System.Void <DidActivate>b__40_10(UnityEngine.Color color)
-    // Offset: 0x10BC3B4
+    // Offset: 0x103AB2C
     void $DidActivate$b__40_10(UnityEngine::Color color);
     // private UnityEngine.Color <DidActivate>b__40_11()
-    // Offset: 0x10BC3E0
+    // Offset: 0x103AB58
     UnityEngine::Color $DidActivate$b__40_11();
     // private System.Void <DidActivate>b__40_12(System.String s)
-    // Offset: 0x10BC40C
+    // Offset: 0x103AB84
     void $DidActivate$b__40_12(::Il2CppString* s);
     // private System.Void <DidActivate>b__40_13(System.String s)
-    // Offset: 0x10BC434
+    // Offset: 0x103ABAC
     void $DidActivate$b__40_13(::Il2CppString* s);
     // private System.Void <DidActivate>b__40_14(System.String s)
-    // Offset: 0x10BC45C
+    // Offset: 0x103ABD4
     void $DidActivate$b__40_14(::Il2CppString* s);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10BB0FC
+    // Offset: 0x1039874
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x10BC194
+    // Offset: 0x103A90C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -560,6 +560,354 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EditAvatarViewController), 320 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
   static_assert(sizeof(EditAvatarViewController) == 0x144);
+  // Writing MetadataGetter for method: EditAvatarViewController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action*)>(&EditAvatarViewController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action*)>(&EditAvatarViewController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::add_didRequestColorChangeEvent
+  // Il2CppName: add_didRequestColorChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*)>(&EditAvatarViewController::add_didRequestColorChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "add_didRequestColorChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::remove_didRequestColorChangeEvent
+  // Il2CppName: remove_didRequestColorChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*)>(&EditAvatarViewController::remove_didRequestColorChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "remove_didRequestColorChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::add_didChangedAvatarPartEvent
+  // Il2CppName: add_didChangedAvatarPartEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*)>(&EditAvatarViewController::add_didChangedAvatarPartEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "add_didChangedAvatarPartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::remove_didChangedAvatarPartEvent
+  // Il2CppName: remove_didChangedAvatarPartEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*)>(&EditAvatarViewController::remove_didChangedAvatarPartEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "remove_didChangedAvatarPartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(bool)>(&EditAvatarViewController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::InitHistory
+  // Il2CppName: InitHistory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::InitHistory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "InitHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::DiscardLastEdit
+  // Il2CppName: DiscardLastEdit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::DiscardLastEdit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "DiscardLastEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::RefreshUi
+  // Il2CppName: RefreshUi
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::RefreshUi)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "RefreshUi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::UpdateButtons
+  // Il2CppName: UpdateButtons
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::UpdateButtons)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "UpdateButtons", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleSkinColorDidChanged
+  // Il2CppName: HandleSkinColorDidChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(int)>(&EditAvatarViewController::HandleSkinColorDidChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleSkinColorDidChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::EyesValuePickerHasChanged
+  // Il2CppName: EyesValuePickerHasChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::EyesValuePickerHasChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "EyesValuePickerHasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleUndoButtonWasPressed
+  // Il2CppName: HandleUndoButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleUndoButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleUndoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleRedoButtonWasPressed
+  // Il2CppName: HandleRedoButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRedoButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRedoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleRandomizeAllButtonWasPressed
+  // Il2CppName: HandleRandomizeAllButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRandomizeAllButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRandomizeAllButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleRandomizeModelsButtonWasPressed
+  // Il2CppName: HandleRandomizeModelsButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRandomizeModelsButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRandomizeModelsButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleRandomizeColorsButtonWasPressed
+  // Il2CppName: HandleRandomizeColorsButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRandomizeColorsButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRandomizeColorsButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::ReportAllChangedAndUpdate
+  // Il2CppName: ReportAllChangedAndUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::ReportAllChangedAndUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "ReportAllChangedAndUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleApplyButtonWasPressed
+  // Il2CppName: HandleApplyButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleApplyButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleApplyButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::SaveAvatarAndFinish
+  // Il2CppName: SaveAvatarAndFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::SaveAvatarAndFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "SaveAvatarAndFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::HandleCancelButtonWasPressed
+  // Il2CppName: HandleCancelButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleCancelButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleCancelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection
+  // Il2CppName: CreateTextValuePairsForAvatarPartCollection
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection
+  // Il2CppName: CreateColorValuePairsForAvatarPartCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* (EditAvatarViewController::*)(::Array<GlobalNamespace::SkinColorSO*>*)>(&EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "CreateColorValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SkinColorSO*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::SetupColorButton
+  // Il2CppName: SetupColorButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::UI::Button*, System::Action_1<UnityEngine::Color>*, System::Func_1<UnityEngine::Color>*, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&EditAvatarViewController::SetupColorButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "SetupColorButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Button*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::SetupValuePicker
+  // Il2CppName: SetupValuePicker
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_0
+  // Il2CppName: <DidActivate>b__40_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_1
+  // Il2CppName: <DidActivate>b__40_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_2
+  // Il2CppName: <DidActivate>b__40_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_3
+  // Il2CppName: <DidActivate>b__40_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_4
+  // Il2CppName: <DidActivate>b__40_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_5
+  // Il2CppName: <DidActivate>b__40_5
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_5)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_6
+  // Il2CppName: <DidActivate>b__40_6
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_6)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_7
+  // Il2CppName: <DidActivate>b__40_7
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_7)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_8
+  // Il2CppName: <DidActivate>b__40_8
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_8)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_9
+  // Il2CppName: <DidActivate>b__40_9
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_9)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_10
+  // Il2CppName: <DidActivate>b__40_10
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_10)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_11
+  // Il2CppName: <DidActivate>b__40_11
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_11)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_12
+  // Il2CppName: <DidActivate>b__40_12
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::$DidActivate$b__40_12)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_13
+  // Il2CppName: <DidActivate>b__40_13
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::$DidActivate$b__40_13)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_14
+  // Il2CppName: <DidActivate>b__40_14
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::$DidActivate$b__40_14)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(bool, bool, bool)>(&EditAvatarViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EditAvatarViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");

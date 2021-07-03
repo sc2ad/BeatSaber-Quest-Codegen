@@ -37,22 +37,22 @@ namespace System::Xml {
     // Creating value type constructor for type: BitStack
     BitStack(::Array<uint>* bitStack_ = {}, int stackPos_ = {}, uint curr_ = {}) noexcept : bitStack{bitStack_}, stackPos{stackPos_}, curr{curr_} {}
     // public System.Void PushBit(System.Boolean bit)
-    // Offset: 0x1912438
+    // Offset: 0x192A148
     void PushBit(bool bit);
     // public System.Boolean PopBit()
-    // Offset: 0x1912568
+    // Offset: 0x192A278
     bool PopBit();
     // public System.Boolean PeekBit()
-    // Offset: 0x19125EC
+    // Offset: 0x192A2FC
     bool PeekBit();
     // private System.Void PushCurr()
-    // Offset: 0x1912474
+    // Offset: 0x192A184
     void PushCurr();
     // private System.Void PopCurr()
-    // Offset: 0x191259C
+    // Offset: 0x192A2AC
     void PopCurr();
     // public System.Void .ctor()
-    // Offset: 0x191240C
+    // Offset: 0x192A11C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,5 +64,59 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(BitStack), 28 + sizeof(uint)> __System_Xml_BitStackSizeCheck;
   static_assert(sizeof(BitStack) == 0x20);
+  // Writing MetadataGetter for method: BitStack::PushBit
+  // Il2CppName: PushBit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)(bool)>(&BitStack::PushBit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PushBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BitStack::PopBit
+  // Il2CppName: PopBit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitStack::*)()>(&BitStack::PopBit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PopBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitStack::PeekBit
+  // Il2CppName: PeekBit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitStack::*)()>(&BitStack::PeekBit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PeekBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitStack::PushCurr
+  // Il2CppName: PushCurr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::PushCurr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PushCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitStack::PopCurr
+  // Il2CppName: PopCurr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::PopCurr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), "PopCurr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BitStack::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitStack::*)()>(&BitStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BitStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BitStack*, "System.Xml", "BitStack");

@@ -74,21 +74,51 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);
     }
     // public System.String get_hashedUserId()
-    // Offset: 0x100BBFC
+    // Offset: 0x10501B8
     ::Il2CppString* get_hashedUserId();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0x100BC04
+    // Offset: 0x10501C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0x100BCC8
+    // Offset: 0x1050284
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)
   static check_size<sizeof(PlatformAuthenticationTokenProvider), 48 + sizeof(GlobalNamespace::AuthenticationToken::Platform)> __GlobalNamespace_PlatformAuthenticationTokenProviderSizeCheck;
   static_assert(sizeof(PlatformAuthenticationTokenProvider) == 0x31);
+  // Writing MetadataGetter for method: PlatformAuthenticationTokenProvider::get_hashedUserId
+  // Il2CppName: get_hashedUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlatformAuthenticationTokenProvider::*)()>(&PlatformAuthenticationTokenProvider::get_hashedUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAuthenticationTokenProvider*), "get_hashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformAuthenticationTokenProvider::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAuthenticationTokenProvider::*)(GlobalNamespace::IPlatformUserModel*, GlobalNamespace::UserInfo*)>(&PlatformAuthenticationTokenProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAuthenticationTokenProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPlatformUserModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UserInfo*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAuthenticationTokenProvider::*)(GlobalNamespace::IPlatformUserModel*, GlobalNamespace::UserInfo*)>(&PlatformAuthenticationTokenProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAuthenticationTokenProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPlatformUserModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UserInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformAuthenticationTokenProvider::GetAuthenticationToken
+  // Il2CppName: GetAuthenticationToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* (PlatformAuthenticationTokenProvider::*)()>(&PlatformAuthenticationTokenProvider::GetAuthenticationToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAuthenticationTokenProvider*), "GetAuthenticationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider*, "", "PlatformAuthenticationTokenProvider");

@@ -32,6 +32,38 @@ namespace Oculus::Platform {
     int PeekSizeElements();
   }; // Oculus.Platform.IVoipPCMSource
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IVoipPCMSource::GetPCM
+  // Il2CppName: GetPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IVoipPCMSource::*)(::Array<float>*, int)>(&IVoipPCMSource::GetPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: IVoipPCMSource::SetSenderID
+  // Il2CppName: SetSenderID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVoipPCMSource::*)(uint64_t)>(&IVoipPCMSource::SetSenderID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "SetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: IVoipPCMSource::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVoipPCMSource::*)()>(&IVoipPCMSource::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IVoipPCMSource::PeekSizeElements
+  // Il2CppName: PeekSizeElements
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IVoipPCMSource::*)()>(&IVoipPCMSource::PeekSizeElements)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "PeekSizeElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource*, "Oculus.Platform", "IVoipPCMSource");

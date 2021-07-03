@@ -53,21 +53,21 @@ namespace HMUI {
     UnityEngine::UI::Button* okButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF6264
+    // [CompilerGeneratedAttribute] Offset: 0xDF8260
     // private System.Action okButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action* okButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF6274
+    // [CompilerGeneratedAttribute] Offset: 0xDF8270
     // private System.Action`1<System.Char> keyWasPressedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<::Il2CppChar>* keyWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppChar>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF6284
+    // [CompilerGeneratedAttribute] Offset: 0xDF8280
     // private System.Action deleteButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x30
@@ -91,37 +91,37 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A7400
+    // Offset: 0x12C2110
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12A74A4
+    // Offset: 0x12C21B4
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x1295210
+    // Offset: 0x12AFF20
     void add_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x1295540
+    // Offset: 0x12B0250
     void remove_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12952B4
+    // Offset: 0x12AFFC4
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x12955E4
+    // Offset: 0x12B02F4
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x12A7548
+    // Offset: 0x12C2258
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x12A7708
+    // Offset: 0x12C2418
     void HandleKeyPress(UnityEngine::KeyCode keyCode);
     // private System.Void <Awake>b__12_0()
-    // Offset: 0x12A7834
+    // Offset: 0x12C2544
     void $Awake$b__12_0();
     // private System.Void <Awake>b__12_1()
-    // Offset: 0x12A7848
+    // Offset: 0x12C2558
     void $Awake$b__12_1();
     // public System.Void .ctor()
-    // Offset: 0x12A77CC
+    // Offset: 0x12C24DC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -137,5 +137,99 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(UIKeyboard), 64 + sizeof(HMUI::InputFieldView*)> __HMUI_UIKeyboardSizeCheck;
   static_assert(sizeof(UIKeyboard) == 0x48);
+  // Writing MetadataGetter for method: UIKeyboard::add_okButtonWasPressedEvent
+  // Il2CppName: add_okButtonWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::add_okButtonWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::remove_okButtonWasPressedEvent
+  // Il2CppName: remove_okButtonWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::remove_okButtonWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::add_keyWasPressedEvent
+  // Il2CppName: add_keyWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action_1<::Il2CppChar>*)>(&UIKeyboard::add_keyWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_keyWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppChar>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::remove_keyWasPressedEvent
+  // Il2CppName: remove_keyWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action_1<::Il2CppChar>*)>(&UIKeyboard::remove_keyWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_keyWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppChar>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::add_deleteButtonWasPressedEvent
+  // Il2CppName: add_deleteButtonWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::add_deleteButtonWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::remove_deleteButtonWasPressedEvent
+  // Il2CppName: remove_deleteButtonWasPressedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::remove_deleteButtonWasPressedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::HandleKeyPress
+  // Il2CppName: HandleKeyPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(UnityEngine::KeyCode)>(&UIKeyboard::HandleKeyPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "HandleKeyPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::$Awake$b__12_0
+  // Il2CppName: <Awake>b__12_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::$Awake$b__12_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "<Awake>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::$Awake$b__12_1
+  // Il2CppName: <Awake>b__12_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::$Awake$b__12_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "<Awake>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UIKeyboard::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard*, "HMUI", "UIKeyboard");

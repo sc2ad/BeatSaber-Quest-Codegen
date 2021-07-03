@@ -30,37 +30,117 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static public OVRPlugin/Bool ovrp_GetTrackingIPDEnabled()
-    // Offset: 0x160C420
+    // Offset: 0x1624130
     static GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingIPDEnabled();
     // static public OVRPlugin/Bool ovrp_SetTrackingIPDEnabled(OVRPlugin/Bool value)
-    // Offset: 0x160C494
+    // Offset: 0x16241A4
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingIPDEnabled(GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/HapticsDesc ovrp_GetControllerHapticsDesc(System.UInt32 controllerMask)
-    // Offset: 0x160C514
+    // Offset: 0x1624224
     static GlobalNamespace::OVRPlugin::HapticsDesc ovrp_GetControllerHapticsDesc(uint controllerMask);
     // static public OVRPlugin/HapticsState ovrp_GetControllerHapticsState(System.UInt32 controllerMask)
-    // Offset: 0x160C5A4
+    // Offset: 0x16242B4
     static GlobalNamespace::OVRPlugin::HapticsState ovrp_GetControllerHapticsState(uint controllerMask);
     // static public OVRPlugin/Bool ovrp_SetControllerHaptics(System.UInt32 controllerMask, OVRPlugin/HapticsBuffer hapticsBuffer)
-    // Offset: 0x160C624
+    // Offset: 0x1624334
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerHaptics(uint controllerMask, GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
     // static public OVRPlugin/Bool ovrp_SetOverlayQuad3(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.IntPtr device, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale, System.Int32 layerIndex)
-    // Offset: 0x160C6BC
+    // Offset: 0x16243CC
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad3(uint flags, System::IntPtr textureLeft, System::IntPtr textureRight, System::IntPtr device, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex);
     // static public System.Single ovrp_GetEyeRecommendedResolutionScale()
-    // Offset: 0x160C7B4
+    // Offset: 0x16244C4
     static float ovrp_GetEyeRecommendedResolutionScale();
     // static public System.Single ovrp_GetAppCpuStartToGpuEndTime()
-    // Offset: 0x160C824
+    // Offset: 0x1624534
     static float ovrp_GetAppCpuStartToGpuEndTime();
     // static public System.Int32 ovrp_GetSystemRecommendedMSAALevel()
-    // Offset: 0x160C894
+    // Offset: 0x16245A4
     static int ovrp_GetSystemRecommendedMSAALevel();
     // static private System.Void .cctor()
-    // Offset: 0x160C908
+    // Offset: 0x1624618
     static void _cctor();
   }; // OVRPlugin/OVRP_1_6_0
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_GetTrackingIPDEnabled
+  // Il2CppName: ovrp_GetTrackingIPDEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_6_0::ovrp_GetTrackingIPDEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_GetTrackingIPDEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_SetTrackingIPDEnabled
+  // Il2CppName: ovrp_SetTrackingIPDEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&OVRPlugin::OVRP_1_6_0::ovrp_SetTrackingIPDEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_SetTrackingIPDEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsDesc
+  // Il2CppName: ovrp_GetControllerHapticsDesc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::HapticsDesc (*)(uint)>(&OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsDesc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_GetControllerHapticsDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsState
+  // Il2CppName: ovrp_GetControllerHapticsState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::HapticsState (*)(uint)>(&OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_GetControllerHapticsState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_SetControllerHaptics
+  // Il2CppName: ovrp_SetControllerHaptics
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(uint, GlobalNamespace::OVRPlugin::HapticsBuffer)>(&OVRPlugin::OVRP_1_6_0::ovrp_SetControllerHaptics)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_SetControllerHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::HapticsBuffer>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_SetOverlayQuad3
+  // Il2CppName: ovrp_SetOverlayQuad3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(uint, System::IntPtr, System::IntPtr, System::IntPtr, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Vector3f, int)>(&OVRPlugin::OVRP_1_6_0::ovrp_SetOverlayQuad3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_SetOverlayQuad3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_GetEyeRecommendedResolutionScale
+  // Il2CppName: ovrp_GetEyeRecommendedResolutionScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_6_0::ovrp_GetEyeRecommendedResolutionScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_GetEyeRecommendedResolutionScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_GetAppCpuStartToGpuEndTime
+  // Il2CppName: ovrp_GetAppCpuStartToGpuEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_6_0::ovrp_GetAppCpuStartToGpuEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_GetAppCpuStartToGpuEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::ovrp_GetSystemRecommendedMSAALevel
+  // Il2CppName: ovrp_GetSystemRecommendedMSAALevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRPlugin::OVRP_1_6_0::ovrp_GetSystemRecommendedMSAALevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), "ovrp_GetSystemRecommendedMSAALevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRPlugin::OVRP_1_6_0::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_6_0::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_6_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_6_0*, "", "OVRPlugin/OVRP_1_6_0");

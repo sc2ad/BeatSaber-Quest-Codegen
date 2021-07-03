@@ -106,32 +106,32 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NetworkPlayerTableCell
     NetworkPlayerTableCell(TMPro::TextMeshProUGUI* playerNameText_ = {}, UnityEngine::GameObject* separator_ = {}, UnityEngine::UI::Image* privateIcon_ = {}, UnityEngine::UI::Image* spectateIcon_ = {}, UnityEngine::UI::Image* partyLeaderIcon_ = {}, UnityEngine::UI::Image* bgImage_ = {}, UnityEngine::UI::Image* highlightImage_ = {}, UnityEngine::Color textColorNormal_ = {}, UnityEngine::Color textColorMe_ = {}, UnityEngine::Color textColorSelected_ = {}, bool isMe_ = {}) noexcept : playerNameText{playerNameText_}, separator{separator_}, privateIcon{privateIcon_}, spectateIcon{spectateIcon_}, partyLeaderIcon{partyLeaderIcon_}, bgImage{bgImage_}, highlightImage{highlightImage_}, textColorNormal{textColorNormal_}, textColorMe{textColorMe_}, textColorSelected{textColorSelected_}, isMe{isMe_} {}
     // public System.Boolean get_showSeparator()
-    // Offset: 0x11B4838
+    // Offset: 0x11CF18C
     bool get_showSeparator();
     // public System.Void set_showSeparator(System.Boolean value)
-    // Offset: 0x11B4854
+    // Offset: 0x11CF1A8
     void set_showSeparator(bool value);
     // public System.Void SetData(System.String userName, System.Boolean isOpenParty, System.Boolean wantsToPlayNextLevel, System.Boolean isMyPartyOwner, System.Boolean isMe)
-    // Offset: 0x11B4AAC
+    // Offset: 0x11CF400
     void SetData(::Il2CppString* userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
     // private System.Void RefreshVisuals()
-    // Offset: 0x11B488C
+    // Offset: 0x11CF1E0
     void RefreshVisuals();
     // private UnityEngine.Color get_activeColor()
-    // Offset: 0x11B4B54
+    // Offset: 0x11CF4A8
     UnityEngine::Color get_activeColor();
     // protected override System.Void SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x11B4B4C
+    // Offset: 0x11CF4A0
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::SelectionDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void SelectionDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // protected override System.Void HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
-    // Offset: 0x11B4B50
+    // Offset: 0x11CF4A4
     // Implemented from: HMUI.SelectableCell
     // Base method: System.Void SelectableCell::HighlightDidChange(HMUI.SelectableCell/TransitionType transitionType)
     void HighlightDidChange(HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x11B4BB0
+    // Offset: 0x11CF504
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()
@@ -150,5 +150,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NetworkPlayerTableCell), 184 + sizeof(bool)> __GlobalNamespace_NetworkPlayerTableCellSizeCheck;
   static_assert(sizeof(NetworkPlayerTableCell) == 0xB9);
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::get_showSeparator
+  // Il2CppName: get_showSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkPlayerTableCell::*)()>(&NetworkPlayerTableCell::get_showSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "get_showSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::set_showSeparator
+  // Il2CppName: set_showSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)(bool)>(&NetworkPlayerTableCell::set_showSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "set_showSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::SetData
+  // Il2CppName: SetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)(::Il2CppString*, bool, bool, bool, bool)>(&NetworkPlayerTableCell::SetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::RefreshVisuals
+  // Il2CppName: RefreshVisuals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)()>(&NetworkPlayerTableCell::RefreshVisuals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::get_activeColor
+  // Il2CppName: get_activeColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (NetworkPlayerTableCell::*)()>(&NetworkPlayerTableCell::get_activeColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "get_activeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::SelectionDidChange
+  // Il2CppName: SelectionDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)(HMUI::SelectableCell::TransitionType)>(&NetworkPlayerTableCell::SelectionDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::HighlightDidChange
+  // Il2CppName: HighlightDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)(HMUI::SelectableCell::TransitionType)>(&NetworkPlayerTableCell::HighlightDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkPlayerTableCell::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)()>(&NetworkPlayerTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerTableCell::*)()>(&NetworkPlayerTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkPlayerTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerTableCell*, "", "NetworkPlayerTableCell");

@@ -61,7 +61,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xE00238
+    // [ObsoleteAttribute] Offset: 0xE01234
     // public readonly Oculus.Platform.Models.LanguagePackInfo Language
     // Size: 0x8
     // Offset: 0x40
@@ -77,7 +77,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: AssetDetails
     AssetDetails(uint64_t AssetId_ = {}, ::Il2CppString* AssetType_ = {}, ::Il2CppString* DownloadStatus_ = {}, ::Il2CppString* Filepath_ = {}, ::Il2CppString* IapStatus_ = {}, Oculus::Platform::Models::LanguagePackInfo* LanguageOptional_ = {}, Oculus::Platform::Models::LanguagePackInfo* Language_ = {}, ::Il2CppString* Metadata_ = {}) noexcept : AssetId{AssetId_}, AssetType{AssetType_}, DownloadStatus{DownloadStatus_}, Filepath{Filepath_}, IapStatus{IapStatus_}, LanguageOptional{LanguageOptional_}, Language{Language_}, Metadata{Metadata_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B1A54
+    // Offset: 0x14CC764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetDetails* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetDetails::.ctor");
@@ -87,5 +87,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(AssetDetails), 72 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AssetDetailsSizeCheck;
   static_assert(sizeof(AssetDetails) == 0x50);
+  // Writing MetadataGetter for method: AssetDetails::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetDetails::*)(System::IntPtr)>(&AssetDetails::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetDetails*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetDetails::*)(System::IntPtr)>(&AssetDetails::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetDetails*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetails*, "Oculus.Platform.Models", "AssetDetails");

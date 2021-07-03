@@ -24,6 +24,14 @@ namespace Org::BouncyCastle::Crypto::Modes {
     int GetBlockSize();
   }; // Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAeadBlockCipher::GetBlockSize
+  // Il2CppName: GetBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IAeadBlockCipher::*)()>(&IAeadBlockCipher::GetBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAeadBlockCipher*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "IAeadBlockCipher");

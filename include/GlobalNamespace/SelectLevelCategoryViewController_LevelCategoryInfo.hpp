@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelCategoryInfo
     LevelCategoryInfo(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory_ = {}, ::Il2CppString* localizedKey_ = {}, UnityEngine::Sprite* categoryIcon_ = {}) noexcept : levelCategory{levelCategory_}, localizedKey{localizedKey_}, categoryIcon{categoryIcon_} {}
     // public System.Void .ctor()
-    // Offset: 0x10E91DC
+    // Offset: 0x10DA374
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::LevelCategoryInfo) == 0x28);
+  // Writing MetadataGetter for method: SelectLevelCategoryViewController::LevelCategoryInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLevelCategoryViewController::LevelCategoryInfo::*)()>(&SelectLevelCategoryViewController::LevelCategoryInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::LevelCategoryInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLevelCategoryViewController::LevelCategoryInfo::*)()>(&SelectLevelCategoryViewController::LevelCategoryInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectLevelCategoryViewController::LevelCategoryInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");

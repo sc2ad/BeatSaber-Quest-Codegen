@@ -98,21 +98,21 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
     static_assert(sizeof(SelectableStateController::ViewState) == 0x4);
-    // [InjectAttribute] Offset: 0xE21FD4
+    // [InjectAttribute] Offset: 0xE21FB0
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x18
     Tweening::TweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TweeningManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE21FE4
+    // [CompilerGeneratedAttribute] Offset: 0xE21FC0
     // private System.Action`1<SelectableStateController/ViewState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* stateDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE21FF4
+    // [CompilerGeneratedAttribute] Offset: 0xE21FD0
     // private SelectableStateController/ViewState <currentViewState>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -124,25 +124,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x10E95BC
+    // Offset: 0x10DA754
     void add_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<SelectableStateController/ViewState> value)
-    // Offset: 0x10E9660
+    // Offset: 0x10DA7F8
     void remove_stateDidChangeEvent(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>* value);
     // public Tweening.TweeningManager get_tweeningManager()
-    // Offset: 0x10E9704
+    // Offset: 0x10DA89C
     Tweening::TweeningManager* get_tweeningManager();
     // private SelectableStateController/ViewState get_currentViewState()
-    // Offset: 0x10E970C
+    // Offset: 0x10DA8A4
     GlobalNamespace::SelectableStateController::ViewState get_currentViewState();
     // private System.Void set_currentViewState(SelectableStateController/ViewState value)
-    // Offset: 0x10E9714
+    // Offset: 0x10DA8AC
     void set_currentViewState(GlobalNamespace::SelectableStateController::ViewState value);
     // protected System.Void SetState(SelectableStateController/ViewState state)
-    // Offset: 0x10E971C
+    // Offset: 0x10DA8B4
     void SetState(GlobalNamespace::SelectableStateController::ViewState state);
     // protected System.Void .ctor()
-    // Offset: 0x10E9794
+    // Offset: 0x10DA92C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -158,6 +158,68 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SelectableStateController), 40 + sizeof(GlobalNamespace::SelectableStateController::ViewState)> __GlobalNamespace_SelectableStateControllerSizeCheck;
   static_assert(sizeof(SelectableStateController) == 0x2C);
+  // Writing MetadataGetter for method: SelectableStateController::add_stateDidChangeEvent
+  // Il2CppName: add_stateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*)>(&SelectableStateController::add_stateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectableStateController::remove_stateDidChangeEvent
+  // Il2CppName: remove_stateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*)>(&SelectableStateController::remove_stateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectableStateController::get_tweeningManager
+  // Il2CppName: get_tweeningManager
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TweeningManager* (SelectableStateController::*)()>(&SelectableStateController::get_tweeningManager)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SelectableStateController::get_currentViewState
+  // Il2CppName: get_currentViewState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectableStateController::ViewState (SelectableStateController::*)()>(&SelectableStateController::get_currentViewState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "get_currentViewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SelectableStateController::set_currentViewState
+  // Il2CppName: set_currentViewState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(GlobalNamespace::SelectableStateController::ViewState)>(&SelectableStateController::set_currentViewState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "set_currentViewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectableStateController::SetState
+  // Il2CppName: SetState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(GlobalNamespace::SelectableStateController::ViewState)>(&SelectableStateController::SetState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectableStateController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)()>(&SelectableStateController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)()>(&SelectableStateController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController*, "", "SelectableStateController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController::ViewState, "", "SelectableStateController/ViewState");

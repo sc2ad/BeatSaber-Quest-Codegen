@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GUID
     GUID(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d0_ = {}, uint8_t d1_ = {}, uint8_t d2_ = {}, uint8_t d3_ = {}, uint8_t d4_ = {}, uint8_t d5_ = {}, uint8_t d6_ = {}, uint8_t d7_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d0{d0_}, d1{d1_}, d2{d2_}, d3{d3_}, d4{d4_}, d5{d5_}, d6{d6_}, d7{d7_} {}
     // public System.Void .ctor()
-    // Offset: 0x1601C0C
+    // Offset: 0x161991C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -100,5 +100,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::GUID), 31 + sizeof(uint8_t)> __GlobalNamespace_OVRPlugin_GUIDSizeCheck;
   static_assert(sizeof(OVRPlugin::GUID) == 0x20);
+  // Writing MetadataGetter for method: OVRPlugin::GUID::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlugin::GUID::*)()>(&OVRPlugin::GUID::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::GUID*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlugin::GUID::*)()>(&OVRPlugin::GUID::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRPlugin::GUID*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");

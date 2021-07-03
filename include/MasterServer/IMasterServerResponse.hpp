@@ -37,6 +37,38 @@ namespace MasterServer {
     MasterServer::IMasterServerResponse* WithResponseId(uint responseId);
   }; // MasterServer.IMasterServerResponse
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IMasterServerResponse::get_responseId
+  // Il2CppName: get_responseId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IMasterServerResponse::*)()>(&IMasterServerResponse::get_responseId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMasterServerResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMasterServerResponse::get_resultCode
+  // Il2CppName: get_resultCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (IMasterServerResponse::*)()>(&IMasterServerResponse::get_resultCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMasterServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMasterServerResponse::get_resultCodeString
+  // Il2CppName: get_resultCodeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IMasterServerResponse::*)()>(&IMasterServerResponse::get_resultCodeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMasterServerResponse::WithResponseId
+  // Il2CppName: WithResponseId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (IMasterServerResponse::*)(uint)>(&IMasterServerResponse::WithResponseId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMasterServerResponse*), "WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerResponse*, "MasterServer", "IMasterServerResponse");

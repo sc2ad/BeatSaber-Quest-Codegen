@@ -43,7 +43,7 @@ namespace System::IO {
     // Creating value type constructor for type: Op
     Op(System::IO::SearchPattern2::OpCode Code_ = {}, ::Il2CppString* Argument_ = {}, System::IO::SearchPattern2::Op* Next_ = {}) noexcept : Code{Code_}, Argument{Argument_}, Next{Next_} {}
     // public System.Void .ctor(System.IO.SearchPattern2/OpCode code)
-    // Offset: 0x185E55C
+    // Offset: 0x187626C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2::Op* New_ctor(System::IO::SearchPattern2::OpCode code) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::Op::.ctor");
@@ -53,5 +53,19 @@ namespace System::IO {
   #pragma pack(pop)
   static check_size<sizeof(SearchPattern2::Op), 32 + sizeof(System::IO::SearchPattern2::Op*)> __System_IO_SearchPattern2_OpSizeCheck;
   static_assert(sizeof(SearchPattern2::Op) == 0x28);
+  // Writing MetadataGetter for method: SearchPattern2::Op::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchPattern2::Op::*)(System::IO::SearchPattern2::OpCode)>(&SearchPattern2::Op::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SearchPattern2::Op*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchPattern2::OpCode>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchPattern2::Op::*)(System::IO::SearchPattern2::OpCode)>(&SearchPattern2::Op::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SearchPattern2::Op*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchPattern2::OpCode>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2::Op*, "System.IO", "SearchPattern2/Op");

@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RumbleData
     RumbleData(bool active_ = {}, bool continuous_ = {}, float strength_ = {}, float endTime_ = {}, float frequency_ = {}) noexcept : active{active_}, continuous{continuous_}, strength{strength_}, endTime{endTime_}, frequency{frequency_} {}
     // public System.Void .ctor()
-    // Offset: 0x122F0AC
+    // Offset: 0x124B704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,5 +65,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HapticFeedbackController::RumbleData), 28 + sizeof(float)> __GlobalNamespace_HapticFeedbackController_RumbleDataSizeCheck;
   static_assert(sizeof(HapticFeedbackController::RumbleData) == 0x20);
+  // Writing MetadataGetter for method: HapticFeedbackController::RumbleData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HapticFeedbackController::RumbleData::*)()>(&HapticFeedbackController::RumbleData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HapticFeedbackController::RumbleData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HapticFeedbackController::RumbleData::*)()>(&HapticFeedbackController::RumbleData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HapticFeedbackController::RumbleData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");

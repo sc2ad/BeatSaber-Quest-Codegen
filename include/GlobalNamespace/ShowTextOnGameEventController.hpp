@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10EC600
+    // Offset: 0x10DD798
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10EC70C
+    // Offset: 0x10DD8A4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x10EC800
+    // Offset: 0x10DD998
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,5 +66,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShowTextOnGameEventController), 32 + sizeof(::Array<GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*>*)> __GlobalNamespace_ShowTextOnGameEventControllerSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController) == 0x28);
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::*)()>(&ShowTextOnGameEventController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::*)()>(&ShowTextOnGameEventController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::*)()>(&ShowTextOnGameEventController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::*)()>(&ShowTextOnGameEventController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController*, "", "ShowTextOnGameEventController");

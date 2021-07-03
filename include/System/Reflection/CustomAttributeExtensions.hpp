@@ -42,7 +42,7 @@ namespace System::Reflection {
     // Creating value type constructor for type: CustomAttributeExtensions
     CustomAttributeExtensions() noexcept {}
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x1C5C478
+    // Offset: 0x1C77188
     static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public T GetCustomAttribute(System.Reflection.Assembly element)
     // Offset: 0xFFFFFFFF
@@ -55,7 +55,7 @@ namespace System::Reflection {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType)
-    // Offset: 0x1C5C480
+    // Offset: 0x1C77190
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.Assembly element)
     // Offset: 0xFFFFFFFF
@@ -68,7 +68,7 @@ namespace System::Reflection {
       return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::IEnumerable_1<T>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, element);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Attribute> GetCustomAttributes(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1C5C488
+    // Offset: 0x1C77198
     static System::Collections::Generic::IEnumerable_1<System::Attribute*>* GetCustomAttributes(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
     // static public System.Collections.Generic.IEnumerable`1<T> GetCustomAttributes(System.Reflection.MemberInfo element, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
@@ -82,5 +82,38 @@ namespace System::Reflection {
     }
   }; // System.Reflection.CustomAttributeExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttribute
+  // Il2CppName: GetCustomAttribute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::Assembly*, System::Type*)>(&CustomAttributeExtensions::GetCustomAttribute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttribute
+  // Il2CppName: GetCustomAttribute
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+  // Il2CppName: GetCustomAttributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::Assembly*, System::Type*)>(&CustomAttributeExtensions::GetCustomAttributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+  // Il2CppName: GetCustomAttributes
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+  // Il2CppName: GetCustomAttributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::MemberInfo*, System::Type*, bool)>(&CustomAttributeExtensions::GetCustomAttributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomAttributeExtensions*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CustomAttributeExtensions::GetCustomAttributes
+  // Il2CppName: GetCustomAttributes
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeExtensions*, "System.Reflection", "CustomAttributeExtensions");

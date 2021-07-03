@@ -31,10 +31,10 @@ namespace Mono::Security::X509::Extensions {
       return aki;
     }
     // public System.Byte[] get_Identifier()
-    // Offset: 0x1D61C40
+    // Offset: 0x1D7D950
     ::Array<uint8_t>* get_Identifier();
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x1D61A00
+    // Offset: 0x1D7D710
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::.ctor(Mono.Security.X509.X509Extension extension)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -43,17 +43,17 @@ namespace Mono::Security::X509::Extensions {
       return THROW_UNLESS((::il2cpp_utils::New<AuthorityKeyIdentifierExtension*, creationType>(extension)));
     }
     // protected override System.Void Decode()
-    // Offset: 0x1D61A08
+    // Offset: 0x1D7D718
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Decode()
     void Decode();
     // protected override System.Void Encode()
-    // Offset: 0x1D61B20
+    // Offset: 0x1D7D830
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.Void X509Extension::Encode()
     void Encode();
     // public override System.String ToString()
-    // Offset: 0x1D61CBC
+    // Offset: 0x1D7D9CC
     // Implemented from: Mono.Security.X509.X509Extension
     // Base method: System.String X509Extension::ToString()
     ::Il2CppString* ToString();
@@ -61,5 +61,51 @@ namespace Mono::Security::X509::Extensions {
   #pragma pack(pop)
   static check_size<sizeof(AuthorityKeyIdentifierExtension), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtensionSizeCheck;
   static_assert(sizeof(AuthorityKeyIdentifierExtension) == 0x30);
+  // Writing MetadataGetter for method: AuthorityKeyIdentifierExtension::get_Identifier
+  // Il2CppName: get_Identifier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AuthorityKeyIdentifierExtension::*)()>(&AuthorityKeyIdentifierExtension::get_Identifier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AuthorityKeyIdentifierExtension*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AuthorityKeyIdentifierExtension::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthorityKeyIdentifierExtension::*)(Mono::Security::X509::X509Extension*)>(&AuthorityKeyIdentifierExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AuthorityKeyIdentifierExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthorityKeyIdentifierExtension::*)(Mono::Security::X509::X509Extension*)>(&AuthorityKeyIdentifierExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AuthorityKeyIdentifierExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AuthorityKeyIdentifierExtension::Decode
+  // Il2CppName: Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthorityKeyIdentifierExtension::*)()>(&AuthorityKeyIdentifierExtension::Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AuthorityKeyIdentifierExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AuthorityKeyIdentifierExtension::Encode
+  // Il2CppName: Encode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthorityKeyIdentifierExtension::*)()>(&AuthorityKeyIdentifierExtension::Encode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AuthorityKeyIdentifierExtension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AuthorityKeyIdentifierExtension::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AuthorityKeyIdentifierExtension::*)()>(&AuthorityKeyIdentifierExtension::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AuthorityKeyIdentifierExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");

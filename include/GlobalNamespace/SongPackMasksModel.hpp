@@ -54,24 +54,62 @@ namespace GlobalNamespace {
       return songPackMaskData;
     }
     // public System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<SongPackMask,System.String>> get_songPackMaskData()
-    // Offset: 0x11721A0
+    // Offset: 0x1156408
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>* get_songPackMaskData();
     // public System.Void .ctor(SongPackMaskModelSO songPackMasks)
-    // Offset: 0x11721A8
+    // Offset: 0x1156410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMasksModel* New_ctor(GlobalNamespace::SongPackMaskModelSO* songPackMasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMasksModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMasksModel*, creationType>(songPackMasks)));
     }
     // public SongPackMask GetAllSongsMask()
-    // Offset: 0x117229C
+    // Offset: 0x1156504
     GlobalNamespace::SongPackMask GetAllSongsMask();
     // public System.String GetSongPackMaskText(SongPackMask songPackMask)
-    // Offset: 0x1172360
+    // Offset: 0x11565C8
     ::Il2CppString* GetSongPackMaskText(GlobalNamespace::SongPackMask songPackMask);
   }; // SongPackMasksModel
   #pragma pack(pop)
   static check_size<sizeof(SongPackMasksModel), 16 + sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>*)> __GlobalNamespace_SongPackMasksModelSizeCheck;
   static_assert(sizeof(SongPackMasksModel) == 0x18);
+  // Writing MetadataGetter for method: SongPackMasksModel::get_songPackMaskData
+  // Il2CppName: get_songPackMaskData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*>* (SongPackMasksModel::*)()>(&SongPackMasksModel::get_songPackMaskData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMasksModel*), "get_songPackMaskData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPackMasksModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMasksModel::*)(GlobalNamespace::SongPackMaskModelSO*)>(&SongPackMasksModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMasksModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMaskModelSO*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMasksModel::*)(GlobalNamespace::SongPackMaskModelSO*)>(&SongPackMasksModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMasksModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMaskModelSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SongPackMasksModel::GetAllSongsMask
+  // Il2CppName: GetAllSongsMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (SongPackMasksModel::*)()>(&SongPackMasksModel::GetAllSongsMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMasksModel*), "GetAllSongsMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPackMasksModel::GetSongPackMaskText
+  // Il2CppName: GetSongPackMaskText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SongPackMasksModel::*)(GlobalNamespace::SongPackMask)>(&SongPackMasksModel::GetSongPackMaskText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMasksModel*), "GetSongPackMaskText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel*, "", "SongPackMasksModel");

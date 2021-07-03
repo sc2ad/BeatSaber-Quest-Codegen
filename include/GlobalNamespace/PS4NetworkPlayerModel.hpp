@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PS4NetworkPlayerModel
     PS4NetworkPlayerModel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1006644
+    // Offset: 0x104A868
     // Implemented from: PlatformNetworkPlayerModel
     // Base method: System.Void PlatformNetworkPlayerModel::.ctor()
     // Base method: System.Void BaseNetworkPlayerModel::.ctor()
@@ -38,5 +38,19 @@ namespace GlobalNamespace {
     }
   }; // PS4NetworkPlayerModel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PS4NetworkPlayerModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4NetworkPlayerModel::*)()>(&PS4NetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4NetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4NetworkPlayerModel::*)()>(&PS4NetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4NetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4NetworkPlayerModel*, "", "PS4NetworkPlayerModel");

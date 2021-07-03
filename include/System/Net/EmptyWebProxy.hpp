@@ -47,16 +47,16 @@ namespace System::Net {
       return m_credentials;
     }
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x16A0534
+    // Offset: 0x16B7244
     System::Uri* GetProxy(System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x16A053C
+    // Offset: 0x16B724C
     bool IsBypassed(System::Uri* uri);
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x16A0544
+    // Offset: 0x16B7254
     System::Net::ICredentials* get_Credentials();
     // public System.Void .ctor()
-    // Offset: 0x16A052C
+    // Offset: 0x16B723C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,5 +68,43 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(EmptyWebProxy), 16 + sizeof(System::Net::ICredentials*)> __System_Net_EmptyWebProxySizeCheck;
   static_assert(sizeof(EmptyWebProxy) == 0x18);
+  // Writing MetadataGetter for method: EmptyWebProxy::GetProxy
+  // Il2CppName: GetProxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (EmptyWebProxy::*)(System::Uri*)>(&EmptyWebProxy::GetProxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyWebProxy::IsBypassed
+  // Il2CppName: IsBypassed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EmptyWebProxy::*)(System::Uri*)>(&EmptyWebProxy::IsBypassed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyWebProxy::get_Credentials
+  // Il2CppName: get_Credentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (EmptyWebProxy::*)()>(&EmptyWebProxy::get_Credentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyWebProxy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyWebProxy::*)()>(&EmptyWebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyWebProxy::*)()>(&EmptyWebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");

@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     class $AppearAnimation$d__53;
     // Nested type: GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58
     class $DisappearAnimation$d__58;
-    // [HeaderAttribute] Offset: 0xE15548
+    // [HeaderAttribute] Offset: 0xE15524
     // private UnityEngine.Transform _avatarTransform
     // Size: 0x8
     // Offset: 0x18
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* bodyTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE155D4
+    // [HeaderAttribute] Offset: 0xE155B0
     // private UnityEngine.Transform _headInnerTransform
     // Size: 0x8
     // Offset: 0x40
@@ -105,8 +105,8 @@ namespace GlobalNamespace {
     UnityEngine::Transform* bodyInnerTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE15650
-    // [RangeAttribute] Offset: 0xE15650
+    // [HeaderAttribute] Offset: 0xE1562C
+    // [RangeAttribute] Offset: 0xE1562C
     // private System.Single _popDuration
     // Size: 0x4
     // Offset: 0x60
@@ -143,15 +143,15 @@ namespace GlobalNamespace {
     float allPopAmount;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE15704
-    // [RangeAttribute] Offset: 0xE15704
+    // [HeaderAttribute] Offset: 0xE156E0
+    // [RangeAttribute] Offset: 0xE156E0
     // private System.Single _appearDuration
     // Size: 0x4
     // Offset: 0x78
     float appearDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xE15768
+    // [RangeAttribute] Offset: 0xE15744
     // private System.Single _appearSpacing
     // Size: 0x4
     // Offset: 0x7C
@@ -164,15 +164,15 @@ namespace GlobalNamespace {
     float appearHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0xE157B8
+    // [MinAttribute] Offset: 0xE15794
     // private UnityEngine.Vector3 _squashFactor
     // Size: 0xC
     // Offset: 0x84
     UnityEngine::Vector3 squashFactor;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0xE157F4
-    // [RangeAttribute] Offset: 0xE157F4
+    // [HeaderAttribute] Offset: 0xE157D0
+    // [RangeAttribute] Offset: 0xE157D0
     // private System.Single _disappearDuration
     // Size: 0x4
     // Offset: 0x90
@@ -205,7 +205,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(Tweening::EaseType) == 0x4);
     // Padding between fields: disappearPositionEase and: tweeningManager
     char __padding23[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1589C
+    // [InjectAttribute] Offset: 0xE15878
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0xB0
@@ -313,94 +313,94 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1131EA0
+    // Offset: 0x1137708
     void Awake();
     // protected System.Void OnDisable()
-    // Offset: 0x1131EF8
+    // Offset: 0x1137760
     void OnDisable();
     // public System.Void PresentAvatar()
-    // Offset: 0x1131FA0
+    // Offset: 0x1137808
     void PresentAvatar();
     // public System.Void HideAvatar()
-    // Offset: 0x1132044
+    // Offset: 0x11378AC
     void HideAvatar();
     // public System.Void PopAll()
-    // Offset: 0x11320E8
+    // Offset: 0x1137950
     void PopAll();
     // public System.Void PopHead()
-    // Offset: 0x11322AC
+    // Offset: 0x1137B14
     void PopHead();
     // public System.Void PopHands()
-    // Offset: 0x11322B4
+    // Offset: 0x1137B1C
     void PopHands();
     // public System.Void PopClothes()
-    // Offset: 0x11322BC
+    // Offset: 0x1137B24
     void PopClothes();
     // private System.Void PopHead(System.Single popAmount)
-    // Offset: 0x1132120
+    // Offset: 0x1137988
     void PopHead(float popAmount);
     // private System.Void PopHands(System.Single popAmount)
-    // Offset: 0x11321F8
+    // Offset: 0x1137A60
     void PopHands(float popAmount);
     // private System.Void PopClothes(System.Single popAmount)
-    // Offset: 0x113218C
+    // Offset: 0x11379F4
     void PopClothes(float popAmount);
     // private Tweening.Tween`1<System.Single> CreatePopTween(UnityEngine.Transform partTransform, System.Single popAmount)
-    // Offset: 0x11322C4
+    // Offset: 0x1137B2C
     Tweening::Tween_1<float>* CreatePopTween(UnityEngine::Transform* partTransform, float popAmount);
     // private System.Collections.IEnumerator AppearAnimation()
-    // Offset: 0x1131FD4
+    // Offset: 0x113783C
     System::Collections::IEnumerator* AppearAnimation();
     // private System.Void AppearBody()
-    // Offset: 0x1132404
+    // Offset: 0x1137C6C
     void AppearBody();
     // private System.Void AppearHead()
-    // Offset: 0x11326E8
+    // Offset: 0x1137F50
     void AppearHead();
     // private System.Void AppearLeftHand()
-    // Offset: 0x11329CC
+    // Offset: 0x1138234
     void AppearLeftHand();
     // private System.Void AppearRightHand()
-    // Offset: 0x1132CB8
+    // Offset: 0x1138520
     void AppearRightHand();
     // private System.Collections.IEnumerator DisappearAnimation()
-    // Offset: 0x1132078
+    // Offset: 0x11378E0
     System::Collections::IEnumerator* DisappearAnimation();
     // private System.Void StopAll()
-    // Offset: 0x1131EFC
+    // Offset: 0x1137764
     void StopAll();
     // private System.Void <AppearBody>b__54_0(UnityEngine.Vector3 val)
-    // Offset: 0x11330B4
+    // Offset: 0x113891C
     void $AppearBody$b__54_0(UnityEngine::Vector3 val);
     // private System.Void <AppearBody>b__54_1(UnityEngine.Vector3 val)
-    // Offset: 0x11330D0
+    // Offset: 0x1138938
     void $AppearBody$b__54_1(UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_0(UnityEngine.Vector3 val)
-    // Offset: 0x11330EC
+    // Offset: 0x1138954
     void $AppearHead$b__55_0(UnityEngine::Vector3 val);
     // private System.Void <AppearHead>b__55_1(UnityEngine.Vector3 val)
-    // Offset: 0x1133108
+    // Offset: 0x1138970
     void $AppearHead$b__55_1(UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_0(UnityEngine.Vector3 val)
-    // Offset: 0x1133124
+    // Offset: 0x113898C
     void $AppearLeftHand$b__56_0(UnityEngine::Vector3 val);
     // private System.Void <AppearLeftHand>b__56_1(UnityEngine.Vector3 val)
-    // Offset: 0x1133140
+    // Offset: 0x11389A8
     void $AppearLeftHand$b__56_1(UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_0(UnityEngine.Vector3 val)
-    // Offset: 0x113315C
+    // Offset: 0x11389C4
     void $AppearRightHand$b__57_0(UnityEngine::Vector3 val);
     // private System.Void <AppearRightHand>b__57_1(UnityEngine.Vector3 val)
-    // Offset: 0x1133178
+    // Offset: 0x11389E0
     void $AppearRightHand$b__57_1(UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_0(UnityEngine.Vector3 val)
-    // Offset: 0x1133194
+    // Offset: 0x11389FC
     void $DisappearAnimation$b__58_0(UnityEngine::Vector3 val);
     // private System.Void <DisappearAnimation>b__58_1(UnityEngine.Vector3 val)
-    // Offset: 0x11331B0
+    // Offset: 0x1138A18
     void $DisappearAnimation$b__58_1(UnityEngine::Vector3 val);
     // public System.Void .ctor()
-    // Offset: 0x1132FD0
+    // Offset: 0x1138838
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -416,5 +416,251 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AvatarTweenController), 308 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AvatarTweenControllerSizeCheck;
   static_assert(sizeof(AvatarTweenController) == 0x140);
+  // Writing MetadataGetter for method: AvatarTweenController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PresentAvatar
+  // Il2CppName: PresentAvatar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::PresentAvatar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PresentAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::HideAvatar
+  // Il2CppName: HideAvatar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::HideAvatar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "HideAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopAll
+  // Il2CppName: PopAll
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::PopAll)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopHead
+  // Il2CppName: PopHead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::PopHead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopHands
+  // Il2CppName: PopHands
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::PopHands)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopHands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopClothes
+  // Il2CppName: PopClothes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::PopClothes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopClothes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopHead
+  // Il2CppName: PopHead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(float)>(&AvatarTweenController::PopHead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopHands
+  // Il2CppName: PopHands
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(float)>(&AvatarTweenController::PopHands)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopHands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::PopClothes
+  // Il2CppName: PopClothes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(float)>(&AvatarTweenController::PopClothes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "PopClothes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::CreatePopTween
+  // Il2CppName: CreatePopTween
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween_1<float>* (AvatarTweenController::*)(UnityEngine::Transform*, float)>(&AvatarTweenController::CreatePopTween)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "CreatePopTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::AppearAnimation
+  // Il2CppName: AppearAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AvatarTweenController::*)()>(&AvatarTweenController::AppearAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "AppearAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::AppearBody
+  // Il2CppName: AppearBody
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::AppearBody)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "AppearBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::AppearHead
+  // Il2CppName: AppearHead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::AppearHead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "AppearHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::AppearLeftHand
+  // Il2CppName: AppearLeftHand
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::AppearLeftHand)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "AppearLeftHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::AppearRightHand
+  // Il2CppName: AppearRightHand
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::AppearRightHand)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "AppearRightHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::DisappearAnimation
+  // Il2CppName: DisappearAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AvatarTweenController::*)()>(&AvatarTweenController::DisappearAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "DisappearAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::StopAll
+  // Il2CppName: StopAll
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::StopAll)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "StopAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearBody$b__54_0
+  // Il2CppName: <AppearBody>b__54_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearBody$b__54_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearBody>b__54_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearBody$b__54_1
+  // Il2CppName: <AppearBody>b__54_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearBody$b__54_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearBody>b__54_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearHead$b__55_0
+  // Il2CppName: <AppearHead>b__55_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearHead$b__55_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearHead>b__55_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearHead$b__55_1
+  // Il2CppName: <AppearHead>b__55_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearHead$b__55_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearHead>b__55_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearLeftHand$b__56_0
+  // Il2CppName: <AppearLeftHand>b__56_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearLeftHand$b__56_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearLeftHand>b__56_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearLeftHand$b__56_1
+  // Il2CppName: <AppearLeftHand>b__56_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearLeftHand$b__56_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearLeftHand>b__56_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearRightHand$b__57_0
+  // Il2CppName: <AppearRightHand>b__57_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearRightHand$b__57_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearRightHand>b__57_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$AppearRightHand$b__57_1
+  // Il2CppName: <AppearRightHand>b__57_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$AppearRightHand$b__57_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<AppearRightHand>b__57_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$DisappearAnimation$b__58_0
+  // Il2CppName: <DisappearAnimation>b__58_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$DisappearAnimation$b__58_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<DisappearAnimation>b__58_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::$DisappearAnimation$b__58_1
+  // Il2CppName: <DisappearAnimation>b__58_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)(UnityEngine::Vector3)>(&AvatarTweenController::$DisappearAnimation$b__58_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), "<DisappearAnimation>b__58_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AvatarTweenController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarTweenController::*)()>(&AvatarTweenController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarTweenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController*, "", "AvatarTweenController");

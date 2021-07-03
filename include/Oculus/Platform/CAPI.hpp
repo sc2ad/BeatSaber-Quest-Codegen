@@ -196,7 +196,7 @@ namespace Oculus::Platform {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.String key, System.String value)
-      // Offset: 0xEF0314
+      // Offset: 0xEF02CC
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
@@ -204,7 +204,7 @@ namespace Oculus::Platform {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
       // public System.Void .ctor(System.String key, System.Int32 value)
-      // Offset: 0xEF032C
+      // Offset: 0xEF02E4
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, int value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
@@ -212,7 +212,7 @@ namespace Oculus::Platform {
         ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, key, value);
       }
       // public System.Void .ctor(System.String key, System.Double value)
-      // Offset: 0xEF0348
+      // Offset: 0xEF0300
       template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       ovrKeyValuePair(::Il2CppString* key, double value) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::CAPI::ovrKeyValuePair::.ctor");
@@ -223,6 +223,48 @@ namespace Oculus::Platform {
     #pragma pack(pop)
     static check_size<sizeof(CAPI::ovrKeyValuePair), 32 + sizeof(double)> __Oculus_Platform_CAPI_ovrKeyValuePairSizeCheck;
     static_assert(sizeof(CAPI::ovrKeyValuePair) == 0x28);
+    // Writing MetadataGetter for method: CAPI::ovrKeyValuePair::ovrKeyValuePair
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrKeyValuePair::*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovrKeyValuePair::ovrKeyValuePair<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CAPI::ovrKeyValuePair), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrKeyValuePair::*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovrKeyValuePair::ovrKeyValuePair<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CAPI::ovrKeyValuePair), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+      }
+    };
+    // Writing MetadataGetter for method: CAPI::ovrKeyValuePair::ovrKeyValuePair
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrKeyValuePair::*)(::Il2CppString*, int)>(&CAPI::ovrKeyValuePair::ovrKeyValuePair<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CAPI::ovrKeyValuePair), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrKeyValuePair::*)(::Il2CppString*, int)>(&CAPI::ovrKeyValuePair::ovrKeyValuePair<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CAPI::ovrKeyValuePair), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+      }
+    };
+    // Writing MetadataGetter for method: CAPI::ovrKeyValuePair::ovrKeyValuePair
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrKeyValuePair::*)(::Il2CppString*, double)>(&CAPI::ovrKeyValuePair::ovrKeyValuePair<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CAPI::ovrKeyValuePair), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrKeyValuePair::*)(::Il2CppString*, double)>(&CAPI::ovrKeyValuePair::ovrKeyValuePair<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(CAPI::ovrKeyValuePair), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+      }
+    };
     // Creating value type constructor for type: CAPI
     CAPI() noexcept {}
     // static field const value: static public System.String DLL_NAME
@@ -242,3247 +284,3247 @@ namespace Oculus::Platform {
     // Set static field: static public System.Int32 VoipFilterBufferSize
     static void _set_VoipFilterBufferSize(int value);
     // static public System.IntPtr ArrayOfStructsToIntPtr(System.Array ar)
-    // Offset: 0x1BB1E64
+    // Offset: 0x1BCCB74
     static System::IntPtr ArrayOfStructsToIntPtr(System::Array* ar);
     // static public Oculus.Platform.CAPI/ovrKeyValuePair[] DictionaryToOVRKeyValuePairs(System.Collections.Generic.Dictionary`2<System.String,System.Object> dict)
-    // Offset: 0x1BB2024
+    // Offset: 0x1BCCD34
     static ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* DictionaryToOVRKeyValuePairs(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* dict);
     // static public System.Byte[] IntPtrToByteArray(System.IntPtr data, System.UInt64 size)
-    // Offset: 0x1BB24D0
+    // Offset: 0x1BCD1E0
     static ::Array<uint8_t>* IntPtrToByteArray(System::IntPtr data, uint64_t size);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.String> DataStoreFromNative(System.IntPtr pointer)
-    // Offset: 0x1BB258C
+    // Offset: 0x1BCD29C
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* DataStoreFromNative(System::IntPtr pointer);
     // static public System.String StringFromNative(System.IntPtr pointer)
-    // Offset: 0x1BB2894
+    // Offset: 0x1BCD5A4
     static ::Il2CppString* StringFromNative(System::IntPtr pointer);
     // static public System.Int32 GetNativeStringLengthNotIncludingNullTerminator(System.IntPtr pointer)
-    // Offset: 0x1BB29AC
+    // Offset: 0x1BCD6BC
     static int GetNativeStringLengthNotIncludingNullTerminator(System::IntPtr pointer);
     // static public System.DateTime DateTimeFromNative(System.UInt64 seconds_since_the_one_true_epoch)
-    // Offset: 0x1BB2A38
+    // Offset: 0x1BCD748
     static System::DateTime DateTimeFromNative(uint64_t seconds_since_the_one_true_epoch);
     // static public System.UInt64 DateTimeToNative(System.DateTime dt)
-    // Offset: 0x1BB2AA8
+    // Offset: 0x1BCD7B8
     static uint64_t DateTimeToNative(System::DateTime dt);
     // static public System.Byte[] BlobFromNative(System.UInt32 size, System.IntPtr pointer)
-    // Offset: 0x1BB2BA4
+    // Offset: 0x1BCD8B4
     static ::Array<uint8_t>* BlobFromNative(uint size, System::IntPtr pointer);
     // static public System.Byte[] FiledataFromNative(System.UInt32 size, System.IntPtr pointer)
-    // Offset: 0x1BB2C88
+    // Offset: 0x1BCD998
     static ::Array<uint8_t>* FiledataFromNative(uint size, System::IntPtr pointer);
     // static public System.IntPtr StringToNative(System.String s)
-    // Offset: 0x1BB2D2C
+    // Offset: 0x1BCDA3C
     static System::IntPtr StringToNative(::Il2CppString* s);
     // static public System.Boolean ovr_UnityInitWrapper(System.String appId)
-    // Offset: 0x1BAFD10
+    // Offset: 0x1BCAA20
     static bool ovr_UnityInitWrapper(::Il2CppString* appId);
     // static public System.Void ovr_UnityInitGlobals(System.IntPtr loggingCB)
-    // Offset: 0x1BB2E9C
+    // Offset: 0x1BCDBAC
     static void ovr_UnityInitGlobals(System::IntPtr loggingCB);
     // static public System.UInt64 ovr_UnityInitWrapperAsynchronous(System.String appId)
-    // Offset: 0x1BAFE94
+    // Offset: 0x1BCABA4
     static uint64_t ovr_UnityInitWrapperAsynchronous(::Il2CppString* appId);
     // static public System.Boolean ovr_UnityInitWrapperStandalone(System.String accessToken, System.IntPtr loggingCB)
-    // Offset: 0x1BB2F1C
+    // Offset: 0x1BCDC2C
     static bool ovr_UnityInitWrapperStandalone(::Il2CppString* accessToken, System::IntPtr loggingCB);
     // static public System.UInt64 ovr_Platform_InitializeStandaloneOculus(ref Oculus.Platform.CAPI/OculusInitParams init)
-    // Offset: 0x1BB2FC8
+    // Offset: 0x1BCDCD8
     static uint64_t ovr_Platform_InitializeStandaloneOculus(Oculus::Platform::CAPI::OculusInitParams& init);
     // static public System.UInt64 ovr_PlatformInitializeWithAccessToken(System.UInt64 appId, System.String accessToken)
-    // Offset: 0x1BB30A0
+    // Offset: 0x1BCDDB0
     static uint64_t ovr_PlatformInitializeWithAccessToken(uint64_t appId, ::Il2CppString* accessToken);
     // static public System.Boolean ovr_UnityInitWrapperWindows(System.String appId, System.IntPtr loggingCB)
-    // Offset: 0x1BB314C
+    // Offset: 0x1BCDE5C
     static bool ovr_UnityInitWrapperWindows(::Il2CppString* appId, System::IntPtr loggingCB);
     // static public System.UInt64 ovr_UnityInitWrapperWindowsAsynchronous(System.String appId, System.IntPtr loggingCB)
-    // Offset: 0x1BB31F8
+    // Offset: 0x1BCDF08
     static uint64_t ovr_UnityInitWrapperWindowsAsynchronous(::Il2CppString* appId, System::IntPtr loggingCB);
     // static public System.Boolean ovr_SetDeveloperAccessToken(System.String accessToken)
-    // Offset: 0x1BB32A0
+    // Offset: 0x1BCDFB0
     static bool ovr_SetDeveloperAccessToken(::Il2CppString* accessToken);
     // static public System.String ovr_GetLoggedInUserLocale()
-    // Offset: 0x1BB333C
+    // Offset: 0x1BCE04C
     static ::Il2CppString* ovr_GetLoggedInUserLocale();
     // static private System.IntPtr ovr_GetLoggedInUserLocale_Native()
-    // Offset: 0x1BB339C
+    // Offset: 0x1BCE0AC
     static System::IntPtr ovr_GetLoggedInUserLocale_Native();
     // static public System.IntPtr ovr_PopMessage()
-    // Offset: 0x1BB3410
+    // Offset: 0x1BCE120
     static System::IntPtr ovr_PopMessage();
     // static public System.Void ovr_FreeMessage(System.IntPtr message)
-    // Offset: 0x1BB3484
+    // Offset: 0x1BCE194
     static void ovr_FreeMessage(System::IntPtr message);
     // static public System.IntPtr ovr_Voip_CreateEncoder()
-    // Offset: 0x1BB3504
+    // Offset: 0x1BCE214
     static System::IntPtr ovr_Voip_CreateEncoder();
     // static public System.Void ovr_Voip_DestroyEncoder(System.IntPtr encoder)
-    // Offset: 0x1BB3578
+    // Offset: 0x1BCE288
     static void ovr_Voip_DestroyEncoder(System::IntPtr encoder);
     // static public System.IntPtr ovr_Voip_CreateDecoder()
-    // Offset: 0x1BB35F8
+    // Offset: 0x1BCE308
     static System::IntPtr ovr_Voip_CreateDecoder();
     // static public System.Void ovr_Voip_DestroyDecoder(System.IntPtr decoder)
-    // Offset: 0x1BB366C
+    // Offset: 0x1BCE37C
     static void ovr_Voip_DestroyDecoder(System::IntPtr decoder);
     // static public System.Void ovr_VoipDecoder_Decode(System.IntPtr obj, System.Byte[] compressedData, System.UInt64 compressedSize)
-    // Offset: 0x1BB36EC
+    // Offset: 0x1BCE3FC
     static void ovr_VoipDecoder_Decode(System::IntPtr obj, ::Array<uint8_t>* compressedData, uint64_t compressedSize);
     // static public System.IntPtr ovr_Microphone_Create()
-    // Offset: 0x1BB378C
+    // Offset: 0x1BCE49C
     static System::IntPtr ovr_Microphone_Create();
     // static public System.Void ovr_Microphone_Destroy(System.IntPtr obj)
-    // Offset: 0x1BB3800
+    // Offset: 0x1BCE510
     static void ovr_Microphone_Destroy(System::IntPtr obj);
     // static public System.Void ovr_Voip_SetSystemVoipPassthrough(System.Boolean passthrough)
-    // Offset: 0x1BB3880
+    // Offset: 0x1BCE590
     static void ovr_Voip_SetSystemVoipPassthrough(bool passthrough);
     // static public System.Void ovr_Voip_SetSystemVoipMicrophoneMuted(Oculus.Platform.VoipMuteState muted)
-    // Offset: 0x1BB3900
+    // Offset: 0x1BCE610
     static void ovr_Voip_SetSystemVoipMicrophoneMuted(Oculus::Platform::VoipMuteState muted);
     // static public System.Void ovr_UnityResetTestPlatform()
-    // Offset: 0x1BB3980
+    // Offset: 0x1BCE690
     static void ovr_UnityResetTestPlatform();
     // static public System.UInt64 ovr_HTTP_GetWithMessageType(System.String url, System.Int32 messageType)
-    // Offset: 0x1BAF4A0
+    // Offset: 0x1BCA1B0
     static uint64_t ovr_HTTP_GetWithMessageType(::Il2CppString* url, int messageType);
     // static public System.Void ovr_CrashApplication()
-    // Offset: 0x1BB39F0
+    // Offset: 0x1BCE700
     static void ovr_CrashApplication();
     // static public System.Void ovr_Voip_SetMicrophoneFilterCallback(Oculus.Platform.CAPI/FilterCallback cb)
-    // Offset: 0x1BB3A60
+    // Offset: 0x1BCE770
     static void ovr_Voip_SetMicrophoneFilterCallback(Oculus::Platform::CAPI::FilterCallback* cb);
     // static public System.Void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(Oculus.Platform.CAPI/FilterCallback cb, System.UIntPtr bufferSizeElements)
-    // Offset: 0x1BB3AE4
+    // Offset: 0x1BCE7F4
     static void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(Oculus::Platform::CAPI::FilterCallback* cb, System::UIntPtr bufferSizeElements);
     // static public System.Void LogNewEvent(System.String eventName, System.Collections.Generic.Dictionary`2<System.String,System.String> values)
-    // Offset: 0x1BB3B78
+    // Offset: 0x1BCE888
     static void LogNewEvent(::Il2CppString* eventName, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* values);
     // static public System.Void ovr_Log_NewEvent(System.IntPtr eventName, System.IntPtr[] values, System.UIntPtr length)
-    // Offset: 0x1BB3E7C
+    // Offset: 0x1BCEB8C
     static void ovr_Log_NewEvent(System::IntPtr eventName, ::Array<System::IntPtr>* values, System::UIntPtr length);
     // static public System.IntPtr ovr_ApplicationLifecycle_GetLaunchDetails()
-    // Offset: 0x1BB0368
+    // Offset: 0x1BCB078
     static System::IntPtr ovr_ApplicationLifecycle_GetLaunchDetails();
     // static public System.Void ovr_ApplicationLifecycle_LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
-    // Offset: 0x1BB0450
+    // Offset: 0x1BCB160
     static void ovr_ApplicationLifecycle_LogDeeplinkResult(::Il2CppString* trackingID, Oculus::Platform::LaunchResult result);
     // static private System.Void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(System.IntPtr trackingID, Oculus.Platform.LaunchResult result)
-    // Offset: 0x1BB3F1C
+    // Offset: 0x1BCEC2C
     static void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(System::IntPtr trackingID, Oculus::Platform::LaunchResult result);
     // static public System.UInt64 ovr_HTTP_StartTransfer(System.String url, Oculus.Platform.CAPI/ovrKeyValuePair[] headers)
-    // Offset: 0x1BB3FAC
+    // Offset: 0x1BCECBC
     static uint64_t ovr_HTTP_StartTransfer(::Il2CppString* url, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* headers);
     // static private System.UInt64 ovr_HTTP_StartTransfer_Native(System.IntPtr url, Oculus.Platform.CAPI/ovrKeyValuePair[] headers, System.UIntPtr numItems)
-    // Offset: 0x1BB40A0
+    // Offset: 0x1BCEDB0
     static uint64_t ovr_HTTP_StartTransfer_Native(System::IntPtr url, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* headers, System::UIntPtr numItems);
     // static public System.Boolean ovr_HTTP_Write(System.UInt64 transferId, System.Byte[] bytes, System.UIntPtr length)
-    // Offset: 0x1BB41FC
+    // Offset: 0x1BCEF0C
     static bool ovr_HTTP_Write(uint64_t transferId, ::Array<uint8_t>* bytes, System::UIntPtr length);
     // static public System.Void ovr_HTTP_WriteEOM(System.UInt64 transferId)
-    // Offset: 0x1BB42A4
+    // Offset: 0x1BCEFB4
     static void ovr_HTTP_WriteEOM(uint64_t transferId);
     // static public System.String ovr_Message_GetStringForJavascript(System.IntPtr message)
-    // Offset: 0x1BB4320
+    // Offset: 0x1BCF030
     static ::Il2CppString* ovr_Message_GetStringForJavascript(System::IntPtr message);
     // static private System.IntPtr ovr_Message_GetStringForJavascript_Native(System.IntPtr message)
-    // Offset: 0x1BB4388
+    // Offset: 0x1BCF098
     static System::IntPtr ovr_Message_GetStringForJavascript_Native(System::IntPtr message);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicFloatPCM(System.Int64 connection_id, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB4408
+    // Offset: 0x1BCF118
     static System::UIntPtr ovr_NetSync_GetAmbisonicFloatPCM(int64_t connection_id, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInt16PCM(System.Int64 connection_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB44A8
+    // Offset: 0x1BCF1B8
     static System::UIntPtr ovr_NetSync_GetAmbisonicInt16PCM(int64_t connection_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInterleavedFloatPCM(System.Int64 connection_id, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB4548
+    // Offset: 0x1BCF258
     static System::UIntPtr ovr_NetSync_GetAmbisonicInterleavedFloatPCM(int64_t connection_id, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetAmbisonicInterleavedInt16PCM(System.Int64 connection_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB45E8
+    // Offset: 0x1BCF2F8
     static System::UIntPtr ovr_NetSync_GetAmbisonicInterleavedInt16PCM(int64_t connection_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.Boolean ovr_NetSync_GetListenerPosition(System.Int64 connection_id, System.UInt64 sessionId, ref Oculus.Platform.CAPI/ovrNetSyncVec3 position)
-    // Offset: 0x1BB4688
+    // Offset: 0x1BCF398
     static bool ovr_NetSync_GetListenerPosition(int64_t connection_id, uint64_t sessionId, Oculus::Platform::CAPI::ovrNetSyncVec3& position);
     // static public System.UIntPtr ovr_NetSync_GetMonostreamFloatPCM(System.Int64 connection_id, System.UInt64 sessionId, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB4728
+    // Offset: 0x1BCF438
     static System::UIntPtr ovr_NetSync_GetMonostreamFloatPCM(int64_t connection_id, uint64_t sessionId, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetMonostreamInt16PCM(System.Int64 connection_id, System.UInt64 session_id, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB47D8
+    // Offset: 0x1BCF4E8
     static System::UIntPtr ovr_NetSync_GetMonostreamInt16PCM(int64_t connection_id, uint64_t session_id, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_NetSync_GetPcmBufferMaxSamples()
-    // Offset: 0x1BB4888
+    // Offset: 0x1BCF598
     static System::UIntPtr ovr_NetSync_GetPcmBufferMaxSamples();
     // static public System.Boolean ovr_NetSync_GetVoipAmplitude(System.Int64 connection_id, System.UInt64 sessionId, ref System.Single amplitude)
-    // Offset: 0x1BB48FC
+    // Offset: 0x1BCF60C
     static bool ovr_NetSync_GetVoipAmplitude(int64_t connection_id, uint64_t sessionId, float& amplitude);
     // static public System.Void ovr_NetSync_SetListenerPosition(System.Int64 connection_id, ref Oculus.Platform.CAPI/ovrNetSyncVec3 position)
-    // Offset: 0x1BB499C
+    // Offset: 0x1BCF6AC
     static void ovr_NetSync_SetListenerPosition(int64_t connection_id, Oculus::Platform::CAPI::ovrNetSyncVec3& position);
     // static public System.Void ovr_Net_Accept(System.UInt64 peerID)
-    // Offset: 0x1BB4A2C
+    // Offset: 0x1BCF73C
     static void ovr_Net_Accept(uint64_t peerID);
     // static public System.Boolean ovr_Net_AcceptForCurrentRoom()
-    // Offset: 0x1BB4AAC
+    // Offset: 0x1BCF7BC
     static bool ovr_Net_AcceptForCurrentRoom();
     // static public System.Void ovr_Net_Close(System.UInt64 peerID)
-    // Offset: 0x1BB4B28
+    // Offset: 0x1BCF838
     static void ovr_Net_Close(uint64_t peerID);
     // static public System.Void ovr_Net_CloseForCurrentRoom()
-    // Offset: 0x1BB4BA8
+    // Offset: 0x1BCF8B8
     static void ovr_Net_CloseForCurrentRoom();
     // static public System.Void ovr_Net_Connect(System.UInt64 peerID)
-    // Offset: 0x1BB4C18
+    // Offset: 0x1BCF928
     static void ovr_Net_Connect(uint64_t peerID);
     // static public System.Boolean ovr_Net_IsConnected(System.UInt64 peerID)
-    // Offset: 0x1BB4C98
+    // Offset: 0x1BCF9A8
     static bool ovr_Net_IsConnected(uint64_t peerID);
     // static public System.UInt64 ovr_Net_Ping(System.UInt64 peerID)
-    // Offset: 0x1BB4D20
+    // Offset: 0x1BCFA30
     static uint64_t ovr_Net_Ping(uint64_t peerID);
     // static public System.IntPtr ovr_Net_ReadPacket()
-    // Offset: 0x1BB4DA0
+    // Offset: 0x1BCFAB0
     static System::IntPtr ovr_Net_ReadPacket();
     // static public System.Boolean ovr_Net_SendPacket(System.UInt64 userID, System.UIntPtr length, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x1BB4E14
+    // Offset: 0x1BCFB24
     static bool ovr_Net_SendPacket(uint64_t userID, System::UIntPtr length, ::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Boolean ovr_Net_SendPacketToCurrentRoom(System.UIntPtr length, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
-    // Offset: 0x1BB4ECC
+    // Offset: 0x1BCFBDC
     static bool ovr_Net_SendPacketToCurrentRoom(System::UIntPtr length, ::Array<uint8_t>* bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Int32 ovr_Party_PluginGetSharedMemHandle()
-    // Offset: 0x1BB4F74
+    // Offset: 0x1BCFC84
     static int ovr_Party_PluginGetSharedMemHandle();
     // static public Oculus.Platform.VoipMuteState ovr_Party_PluginGetVoipMicrophoneMuted()
-    // Offset: 0x1BB4FE8
+    // Offset: 0x1BCFCF8
     static Oculus::Platform::VoipMuteState ovr_Party_PluginGetVoipMicrophoneMuted();
     // static public System.Boolean ovr_Party_PluginGetVoipPassthrough()
-    // Offset: 0x1BB505C
+    // Offset: 0x1BCFD6C
     static bool ovr_Party_PluginGetVoipPassthrough();
     // static public Oculus.Platform.SystemVoipStatus ovr_Party_PluginGetVoipStatus()
-    // Offset: 0x1BB50D8
+    // Offset: 0x1BCFDE8
     static Oculus::Platform::SystemVoipStatus ovr_Party_PluginGetVoipStatus();
     // static public System.Void ovr_Voip_Accept(System.UInt64 userID)
-    // Offset: 0x1BB514C
+    // Offset: 0x1BCFE5C
     static void ovr_Voip_Accept(uint64_t userID);
     // static public Oculus.Platform.VoipDtxState ovr_Voip_GetIsConnectionUsingDtx(System.UInt64 peerID)
-    // Offset: 0x1BB51CC
+    // Offset: 0x1BCFEDC
     static Oculus::Platform::VoipDtxState ovr_Voip_GetIsConnectionUsingDtx(uint64_t peerID);
     // static public Oculus.Platform.VoipBitrate ovr_Voip_GetLocalBitrate(System.UInt64 peerID)
-    // Offset: 0x1BB524C
+    // Offset: 0x1BCFF5C
     static Oculus::Platform::VoipBitrate ovr_Voip_GetLocalBitrate(uint64_t peerID);
     // static public System.UIntPtr ovr_Voip_GetOutputBufferMaxSize()
-    // Offset: 0x1BB52CC
+    // Offset: 0x1BCFFDC
     static System::UIntPtr ovr_Voip_GetOutputBufferMaxSize();
     // static public System.UIntPtr ovr_Voip_GetPCM(System.UInt64 senderID, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB5340
+    // Offset: 0x1BD0050
     static System::UIntPtr ovr_Voip_GetPCM(uint64_t senderID, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Voip_GetPCMFloat(System.UInt64 senderID, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BB53E0
+    // Offset: 0x1BD00F0
     static System::UIntPtr ovr_Voip_GetPCMFloat(uint64_t senderID, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Voip_GetPCMSize(System.UInt64 senderID)
-    // Offset: 0x1BB5480
+    // Offset: 0x1BD0190
     static System::UIntPtr ovr_Voip_GetPCMSize(uint64_t senderID);
     // static public System.UIntPtr ovr_Voip_GetPCMWithTimestamp(System.UInt64 senderID, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements, System.UInt32[] timestamp)
-    // Offset: 0x1BB5500
+    // Offset: 0x1BD0210
     static System::UIntPtr ovr_Voip_GetPCMWithTimestamp(uint64_t senderID, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements, ::Array<uint>* timestamp);
     // static public System.UIntPtr ovr_Voip_GetPCMWithTimestampFloat(System.UInt64 senderID, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements, System.UInt32[] timestamp)
-    // Offset: 0x1BB55B8
+    // Offset: 0x1BD02C8
     static System::UIntPtr ovr_Voip_GetPCMWithTimestampFloat(uint64_t senderID, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements, ::Array<uint>* timestamp);
     // static public Oculus.Platform.VoipBitrate ovr_Voip_GetRemoteBitrate(System.UInt64 peerID)
-    // Offset: 0x1BB5670
+    // Offset: 0x1BD0380
     static Oculus::Platform::VoipBitrate ovr_Voip_GetRemoteBitrate(uint64_t peerID);
     // static public System.UInt32 ovr_Voip_GetSyncTimestamp(System.UInt64 userID)
-    // Offset: 0x1BB56F0
+    // Offset: 0x1BD0400
     static uint ovr_Voip_GetSyncTimestamp(uint64_t userID);
     // static public System.Int64 ovr_Voip_GetSyncTimestampDifference(System.UInt32 lhs, System.UInt32 rhs)
-    // Offset: 0x1BB5770
+    // Offset: 0x1BD0480
     static int64_t ovr_Voip_GetSyncTimestampDifference(uint lhs, uint rhs);
     // static public Oculus.Platform.VoipMuteState ovr_Voip_GetSystemVoipMicrophoneMuted()
-    // Offset: 0x1BB5800
+    // Offset: 0x1BD0510
     static Oculus::Platform::VoipMuteState ovr_Voip_GetSystemVoipMicrophoneMuted();
     // static public Oculus.Platform.SystemVoipStatus ovr_Voip_GetSystemVoipStatus()
-    // Offset: 0x1BB5874
+    // Offset: 0x1BD0584
     static Oculus::Platform::SystemVoipStatus ovr_Voip_GetSystemVoipStatus();
     // static public System.Void ovr_Voip_SetMicrophoneMuted(Oculus.Platform.VoipMuteState state)
-    // Offset: 0x1BB58E8
+    // Offset: 0x1BD05F8
     static void ovr_Voip_SetMicrophoneMuted(Oculus::Platform::VoipMuteState state);
     // static public System.Void ovr_Voip_SetNewConnectionOptions(System.IntPtr voipOptions)
-    // Offset: 0x1BB5968
+    // Offset: 0x1BD0678
     static void ovr_Voip_SetNewConnectionOptions(System::IntPtr voipOptions);
     // static public System.Void ovr_Voip_SetOutputSampleRate(Oculus.Platform.VoipSampleRate rate)
-    // Offset: 0x1BB59E8
+    // Offset: 0x1BD06F8
     static void ovr_Voip_SetOutputSampleRate(Oculus::Platform::VoipSampleRate rate);
     // static public System.Void ovr_Voip_Start(System.UInt64 userID)
-    // Offset: 0x1BB5A68
+    // Offset: 0x1BD0778
     static void ovr_Voip_Start(uint64_t userID);
     // static public System.Void ovr_Voip_Stop(System.UInt64 userID)
-    // Offset: 0x1BB5AE8
+    // Offset: 0x1BD07F8
     static void ovr_Voip_Stop(uint64_t userID);
     // static public System.UInt64 ovr_AbuseReport_LaunchAdvancedReportFlow(System.UInt64 content_id, System.IntPtr abuse_report_options)
-    // Offset: 0x1BB5B68
+    // Offset: 0x1BD0878
     static uint64_t ovr_AbuseReport_LaunchAdvancedReportFlow(uint64_t content_id, System::IntPtr abuse_report_options);
     // static public System.UInt64 ovr_Achievements_AddCount(System.String name, System.UInt64 count)
-    // Offset: 0x1BAE6C4
+    // Offset: 0x1BC93D4
     static uint64_t ovr_Achievements_AddCount(::Il2CppString* name, uint64_t count);
     // static private System.UInt64 ovr_Achievements_AddCount_Native(System.IntPtr name, System.UInt64 count)
-    // Offset: 0x1BB5BF8
+    // Offset: 0x1BD0908
     static uint64_t ovr_Achievements_AddCount_Native(System::IntPtr name, uint64_t count);
     // static public System.UInt64 ovr_Achievements_AddFields(System.String name, System.String fields)
-    // Offset: 0x1BAE89C
+    // Offset: 0x1BC95AC
     static uint64_t ovr_Achievements_AddFields(::Il2CppString* name, ::Il2CppString* fields);
     // static private System.UInt64 ovr_Achievements_AddFields_Native(System.IntPtr name, System.IntPtr fields)
-    // Offset: 0x1BB5C88
+    // Offset: 0x1BD0998
     static uint64_t ovr_Achievements_AddFields_Native(System::IntPtr name, System::IntPtr fields);
     // static public System.UInt64 ovr_Achievements_GetAllDefinitions()
-    // Offset: 0x1BAEA78
+    // Offset: 0x1BC9788
     static uint64_t ovr_Achievements_GetAllDefinitions();
     // static public System.UInt64 ovr_Achievements_GetAllProgress()
-    // Offset: 0x1BAEBF4
+    // Offset: 0x1BC9904
     static uint64_t ovr_Achievements_GetAllProgress();
     // static public System.UInt64 ovr_Achievements_GetDefinitionsByName(System.String[] names, System.Int32 count)
-    // Offset: 0x1BAED94
+    // Offset: 0x1BC9AA4
     static uint64_t ovr_Achievements_GetDefinitionsByName(::Array<::Il2CppString*>* names, int count);
     // static public System.UInt64 ovr_Achievements_GetProgressByName(System.String[] names, System.Int32 count)
-    // Offset: 0x1BAF014
+    // Offset: 0x1BC9D24
     static uint64_t ovr_Achievements_GetProgressByName(::Array<::Il2CppString*>* names, int count);
     // static public System.UInt64 ovr_Achievements_Unlock(System.String name)
-    // Offset: 0x1BAF280
+    // Offset: 0x1BC9F90
     static uint64_t ovr_Achievements_Unlock(::Il2CppString* name);
     // static private System.UInt64 ovr_Achievements_Unlock_Native(System.IntPtr name)
-    // Offset: 0x1BB5D18
+    // Offset: 0x1BD0A28
     static uint64_t ovr_Achievements_Unlock_Native(System::IntPtr name);
     // static public System.UInt64 ovr_Application_ExecuteCoordinatedLaunch(System.UInt64 appID, System.UInt64 roomID)
-    // Offset: 0x1BB5D98
+    // Offset: 0x1BD0AA8
     static uint64_t ovr_Application_ExecuteCoordinatedLaunch(uint64_t appID, uint64_t roomID);
     // static public System.UInt64 ovr_Application_GetInstalledApplications()
-    // Offset: 0x1BB5E28
+    // Offset: 0x1BD0B38
     static uint64_t ovr_Application_GetInstalledApplications();
     // static public System.UInt64 ovr_Application_GetVersion()
-    // Offset: 0x1BB003C
+    // Offset: 0x1BCAD4C
     static uint64_t ovr_Application_GetVersion();
     // static public System.UInt64 ovr_Application_LaunchOtherApp(System.UInt64 appID, System.IntPtr deeplink_options)
-    // Offset: 0x1BB024C
+    // Offset: 0x1BCAF5C
     static uint64_t ovr_Application_LaunchOtherApp(uint64_t appID, System::IntPtr deeplink_options);
     // static public System.UInt64 ovr_ApplicationLifecycle_GetRegisteredPIDs()
-    // Offset: 0x1BB5E9C
+    // Offset: 0x1BD0BAC
     static uint64_t ovr_ApplicationLifecycle_GetRegisteredPIDs();
     // static public System.UInt64 ovr_ApplicationLifecycle_GetSessionKey()
-    // Offset: 0x1BB5F10
+    // Offset: 0x1BD0C20
     static uint64_t ovr_ApplicationLifecycle_GetSessionKey();
     // static public System.UInt64 ovr_ApplicationLifecycle_RegisterSessionKey(System.String sessionKey)
-    // Offset: 0x1BB5F84
+    // Offset: 0x1BD0C94
     static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey(::Il2CppString* sessionKey);
     // static private System.UInt64 ovr_ApplicationLifecycle_RegisterSessionKey_Native(System.IntPtr sessionKey)
-    // Offset: 0x1BB602C
+    // Offset: 0x1BD0D3C
     static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey_Native(System::IntPtr sessionKey);
     // static public System.UInt64 ovr_AssetFile_Delete(System.UInt64 assetFileID)
-    // Offset: 0x1BB09C8
+    // Offset: 0x1BCB6D8
     static uint64_t ovr_AssetFile_Delete(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DeleteById(System.UInt64 assetFileID)
-    // Offset: 0x1BB0B60
+    // Offset: 0x1BCB870
     static uint64_t ovr_AssetFile_DeleteById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DeleteByName(System.String assetFileName)
-    // Offset: 0x1BB0CF8
+    // Offset: 0x1BCBA08
     static uint64_t ovr_AssetFile_DeleteByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_DeleteByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1BB60AC
+    // Offset: 0x1BD0DBC
     static uint64_t ovr_AssetFile_DeleteByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_AssetFile_Download(System.UInt64 assetFileID)
-    // Offset: 0x1BB0EB8
+    // Offset: 0x1BCBBC8
     static uint64_t ovr_AssetFile_Download(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadById(System.UInt64 assetFileID)
-    // Offset: 0x1BB1050
+    // Offset: 0x1BCBD60
     static uint64_t ovr_AssetFile_DownloadById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadByName(System.String assetFileName)
-    // Offset: 0x1BB11E8
+    // Offset: 0x1BCBEF8
     static uint64_t ovr_AssetFile_DownloadByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_DownloadByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1BB612C
+    // Offset: 0x1BD0E3C
     static uint64_t ovr_AssetFile_DownloadByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_AssetFile_DownloadCancel(System.UInt64 assetFileID)
-    // Offset: 0x1BB13A8
+    // Offset: 0x1BCC0B8
     static uint64_t ovr_AssetFile_DownloadCancel(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadCancelById(System.UInt64 assetFileID)
-    // Offset: 0x1BB1540
+    // Offset: 0x1BCC250
     static uint64_t ovr_AssetFile_DownloadCancelById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadCancelByName(System.String assetFileName)
-    // Offset: 0x1BB16D8
+    // Offset: 0x1BCC3E8
     static uint64_t ovr_AssetFile_DownloadCancelByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_DownloadCancelByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1BB61AC
+    // Offset: 0x1BD0EBC
     static uint64_t ovr_AssetFile_DownloadCancelByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_AssetFile_GetList()
-    // Offset: 0x1BB1888
+    // Offset: 0x1BCC598
     static uint64_t ovr_AssetFile_GetList();
     // static public System.UInt64 ovr_AssetFile_Status(System.UInt64 assetFileID)
-    // Offset: 0x1BB1A14
+    // Offset: 0x1BCC724
     static uint64_t ovr_AssetFile_Status(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_StatusById(System.UInt64 assetFileID)
-    // Offset: 0x1BB1BAC
+    // Offset: 0x1BCC8BC
     static uint64_t ovr_AssetFile_StatusById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_StatusByName(System.String assetFileName)
-    // Offset: 0x1BB1D44
+    // Offset: 0x1BCCA54
     static uint64_t ovr_AssetFile_StatusByName(::Il2CppString* assetFileName);
     // static private System.UInt64 ovr_AssetFile_StatusByName_Native(System.IntPtr assetFileName)
-    // Offset: 0x1BB622C
+    // Offset: 0x1BD0F3C
     static uint64_t ovr_AssetFile_StatusByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_Avatar_UpdateMetaData(System.String avatarMetaData, System.String imageFilePath)
-    // Offset: 0x1BB62AC
+    // Offset: 0x1BD0FBC
     static uint64_t ovr_Avatar_UpdateMetaData(::Il2CppString* avatarMetaData, ::Il2CppString* imageFilePath);
     // static private System.UInt64 ovr_Avatar_UpdateMetaData_Native(System.IntPtr avatarMetaData, System.IntPtr imageFilePath)
-    // Offset: 0x1BB6380
+    // Offset: 0x1BD1090
     static uint64_t ovr_Avatar_UpdateMetaData_Native(System::IntPtr avatarMetaData, System::IntPtr imageFilePath);
     // static public System.UInt64 ovr_Cal_FinalizeApplication(System.UInt64 groupingObject, System.UInt64[] userIDs, System.Int32 numUserIDs, System.UInt64 finalized_application_ID)
-    // Offset: 0x1BB6410
+    // Offset: 0x1BD1120
     static uint64_t ovr_Cal_FinalizeApplication(uint64_t groupingObject, ::Array<uint64_t>* userIDs, int numUserIDs, uint64_t finalized_application_ID);
     // static public System.UInt64 ovr_Cal_GetSuggestedApplications(System.UInt64 groupingObject, System.UInt64[] userIDs, System.Int32 numUserIDs)
-    // Offset: 0x1BB64C0
+    // Offset: 0x1BD11D0
     static uint64_t ovr_Cal_GetSuggestedApplications(uint64_t groupingObject, ::Array<uint64_t>* userIDs, int numUserIDs);
     // static public System.UInt64 ovr_Cal_ProposeApplication(System.UInt64 groupingObject, System.UInt64[] userIDs, System.Int32 numUserIDs, System.UInt64 proposed_application_ID)
-    // Offset: 0x1BB6560
+    // Offset: 0x1BD1270
     static uint64_t ovr_Cal_ProposeApplication(uint64_t groupingObject, ::Array<uint64_t>* userIDs, int numUserIDs, uint64_t proposed_application_ID);
     // static public System.UInt64 ovr_Challenges_Create(System.String leaderboardName, System.IntPtr challengeOptions)
-    // Offset: 0x1BB6610
+    // Offset: 0x1BD1320
     static uint64_t ovr_Challenges_Create(::Il2CppString* leaderboardName, System::IntPtr challengeOptions);
     // static private System.UInt64 ovr_Challenges_Create_Native(System.IntPtr leaderboardName, System.IntPtr challengeOptions)
-    // Offset: 0x1BB66C8
+    // Offset: 0x1BD13D8
     static uint64_t ovr_Challenges_Create_Native(System::IntPtr leaderboardName, System::IntPtr challengeOptions);
     // static public System.UInt64 ovr_Challenges_DeclineInvite(System.UInt64 challengeID)
-    // Offset: 0x1BB6758
+    // Offset: 0x1BD1468
     static uint64_t ovr_Challenges_DeclineInvite(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_Delete(System.UInt64 challengeID)
-    // Offset: 0x1BB67D8
+    // Offset: 0x1BD14E8
     static uint64_t ovr_Challenges_Delete(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_Get(System.UInt64 challengeID)
-    // Offset: 0x1BB6858
+    // Offset: 0x1BD1568
     static uint64_t ovr_Challenges_Get(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_GetEntries(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1BB68D8
+    // Offset: 0x1BD15E8
     static uint64_t ovr_Challenges_GetEntries(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public System.UInt64 ovr_Challenges_GetEntriesAfterRank(System.UInt64 challengeID, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1BB6980
+    // Offset: 0x1BD1690
     static uint64_t ovr_Challenges_GetEntriesAfterRank(uint64_t challengeID, int limit, uint64_t afterRank);
     // static public System.UInt64 ovr_Challenges_GetEntriesByIds(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
-    // Offset: 0x1BB6A18
+    // Offset: 0x1BD1728
     static uint64_t ovr_Challenges_GetEntriesByIds(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs, uint userIDLength);
     // static public System.UInt64 ovr_Challenges_GetList(System.IntPtr challengeOptions, System.Int32 limit)
-    // Offset: 0x1BB6AD0
+    // Offset: 0x1BD17E0
     static uint64_t ovr_Challenges_GetList(System::IntPtr challengeOptions, int limit);
     // static public System.UInt64 ovr_Challenges_GetNextChallenges(System.IntPtr handle)
-    // Offset: 0x1BB6B60
+    // Offset: 0x1BD1870
     static uint64_t ovr_Challenges_GetNextChallenges(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_GetNextEntries(System.IntPtr handle)
-    // Offset: 0x1BB6BE0
+    // Offset: 0x1BD18F0
     static uint64_t ovr_Challenges_GetNextEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_GetPreviousChallenges(System.IntPtr handle)
-    // Offset: 0x1BB6C60
+    // Offset: 0x1BD1970
     static uint64_t ovr_Challenges_GetPreviousChallenges(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_GetPreviousEntries(System.IntPtr handle)
-    // Offset: 0x1BB6CE0
+    // Offset: 0x1BD19F0
     static uint64_t ovr_Challenges_GetPreviousEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Challenges_Join(System.UInt64 challengeID)
-    // Offset: 0x1BB6D60
+    // Offset: 0x1BD1A70
     static uint64_t ovr_Challenges_Join(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_Leave(System.UInt64 challengeID)
-    // Offset: 0x1BB6DE0
+    // Offset: 0x1BD1AF0
     static uint64_t ovr_Challenges_Leave(uint64_t challengeID);
     // static public System.UInt64 ovr_Challenges_UpdateInfo(System.UInt64 challengeID, System.IntPtr challengeOptions)
-    // Offset: 0x1BB6E60
+    // Offset: 0x1BD1B70
     static uint64_t ovr_Challenges_UpdateInfo(uint64_t challengeID, System::IntPtr challengeOptions);
     // static public System.UInt64 ovr_CloudStorage_Delete(System.String bucket, System.String key)
-    // Offset: 0x1BB6EF0
+    // Offset: 0x1BD1C00
     static uint64_t ovr_CloudStorage_Delete(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_Delete_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1BB6FC4
+    // Offset: 0x1BD1CD4
     static uint64_t ovr_CloudStorage_Delete_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_Load(System.String bucket, System.String key)
-    // Offset: 0x1BB7054
+    // Offset: 0x1BD1D64
     static uint64_t ovr_CloudStorage_Load(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_Load_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1BB7128
+    // Offset: 0x1BD1E38
     static uint64_t ovr_CloudStorage_Load_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_LoadBucketMetadata(System.String bucket)
-    // Offset: 0x1BB71B8
+    // Offset: 0x1BD1EC8
     static uint64_t ovr_CloudStorage_LoadBucketMetadata(::Il2CppString* bucket);
     // static private System.UInt64 ovr_CloudStorage_LoadBucketMetadata_Native(System.IntPtr bucket)
-    // Offset: 0x1BB7260
+    // Offset: 0x1BD1F70
     static uint64_t ovr_CloudStorage_LoadBucketMetadata_Native(System::IntPtr bucket);
     // static public System.UInt64 ovr_CloudStorage_LoadConflictMetadata(System.String bucket, System.String key)
-    // Offset: 0x1BB72E0
+    // Offset: 0x1BD1FF0
     static uint64_t ovr_CloudStorage_LoadConflictMetadata(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_LoadConflictMetadata_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1BB73B4
+    // Offset: 0x1BD20C4
     static uint64_t ovr_CloudStorage_LoadConflictMetadata_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_LoadHandle(System.String handle)
-    // Offset: 0x1BB7444
+    // Offset: 0x1BD2154
     static uint64_t ovr_CloudStorage_LoadHandle(::Il2CppString* handle);
     // static private System.UInt64 ovr_CloudStorage_LoadHandle_Native(System.IntPtr handle)
-    // Offset: 0x1BB74EC
+    // Offset: 0x1BD21FC
     static uint64_t ovr_CloudStorage_LoadHandle_Native(System::IntPtr handle);
     // static public System.UInt64 ovr_CloudStorage_LoadMetadata(System.String bucket, System.String key)
-    // Offset: 0x1BB756C
+    // Offset: 0x1BD227C
     static uint64_t ovr_CloudStorage_LoadMetadata(::Il2CppString* bucket, ::Il2CppString* key);
     // static private System.UInt64 ovr_CloudStorage_LoadMetadata_Native(System.IntPtr bucket, System.IntPtr key)
-    // Offset: 0x1BB7640
+    // Offset: 0x1BD2350
     static uint64_t ovr_CloudStorage_LoadMetadata_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_ResolveKeepLocal(System.String bucket, System.String key, System.String remoteHandle)
-    // Offset: 0x1BB76D0
+    // Offset: 0x1BD23E0
     static uint64_t ovr_CloudStorage_ResolveKeepLocal(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
     // static private System.UInt64 ovr_CloudStorage_ResolveKeepLocal_Native(System.IntPtr bucket, System.IntPtr key, System.IntPtr remoteHandle)
-    // Offset: 0x1BB77C4
+    // Offset: 0x1BD24D4
     static uint64_t ovr_CloudStorage_ResolveKeepLocal_Native(System::IntPtr bucket, System::IntPtr key, System::IntPtr remoteHandle);
     // static public System.UInt64 ovr_CloudStorage_ResolveKeepRemote(System.String bucket, System.String key, System.String remoteHandle)
-    // Offset: 0x1BB785C
+    // Offset: 0x1BD256C
     static uint64_t ovr_CloudStorage_ResolveKeepRemote(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
     // static private System.UInt64 ovr_CloudStorage_ResolveKeepRemote_Native(System.IntPtr bucket, System.IntPtr key, System.IntPtr remoteHandle)
-    // Offset: 0x1BB7950
+    // Offset: 0x1BD2660
     static uint64_t ovr_CloudStorage_ResolveKeepRemote_Native(System::IntPtr bucket, System::IntPtr key, System::IntPtr remoteHandle);
     // static public System.UInt64 ovr_CloudStorage_Save(System.String bucket, System.String key, System.Byte[] data, System.UInt32 dataSize, System.Int64 counter, System.String extraData)
-    // Offset: 0x1BB79E8
+    // Offset: 0x1BD26F8
     static uint64_t ovr_CloudStorage_Save(::Il2CppString* bucket, ::Il2CppString* key, ::Array<uint8_t>* data, uint dataSize, int64_t counter, ::Il2CppString* extraData);
     // static private System.UInt64 ovr_CloudStorage_Save_Native(System.IntPtr bucket, System.IntPtr key, System.Byte[] data, System.UInt32 dataSize, System.Int64 counter, System.IntPtr extraData)
-    // Offset: 0x1BB7B04
+    // Offset: 0x1BD2814
     static uint64_t ovr_CloudStorage_Save_Native(System::IntPtr bucket, System::IntPtr key, ::Array<uint8_t>* data, uint dataSize, int64_t counter, System::IntPtr extraData);
     // static public System.UInt64 ovr_CloudStorage2_GetUserDirectoryPath()
-    // Offset: 0x1BB7BCC
+    // Offset: 0x1BD28DC
     static uint64_t ovr_CloudStorage2_GetUserDirectoryPath();
     // static public System.UInt64 ovr_Colocation_GetCurrentMapUuid()
-    // Offset: 0x1BB7C40
+    // Offset: 0x1BD2950
     static uint64_t ovr_Colocation_GetCurrentMapUuid();
     // static public System.UInt64 ovr_Colocation_RequestMap(System.String uuid)
-    // Offset: 0x1BB7CB4
+    // Offset: 0x1BD29C4
     static uint64_t ovr_Colocation_RequestMap(::Il2CppString* uuid);
     // static private System.UInt64 ovr_Colocation_RequestMap_Native(System.IntPtr uuid)
-    // Offset: 0x1BB7D5C
+    // Offset: 0x1BD2A6C
     static uint64_t ovr_Colocation_RequestMap_Native(System::IntPtr uuid);
     // static public System.UInt64 ovr_Colocation_ShareMap(System.String uuid)
-    // Offset: 0x1BB7DDC
+    // Offset: 0x1BD2AEC
     static uint64_t ovr_Colocation_ShareMap(::Il2CppString* uuid);
     // static private System.UInt64 ovr_Colocation_ShareMap_Native(System.IntPtr uuid)
-    // Offset: 0x1BB7E84
+    // Offset: 0x1BD2B94
     static uint64_t ovr_Colocation_ShareMap_Native(System::IntPtr uuid);
     // static public System.UInt64 ovr_Entitlement_GetIsViewerEntitled()
-    // Offset: 0x1BB7F04
+    // Offset: 0x1BD2C14
     static uint64_t ovr_Entitlement_GetIsViewerEntitled();
     // static public System.UInt64 ovr_GraphAPI_Get(System.String url)
-    // Offset: 0x1BB7F78
+    // Offset: 0x1BD2C88
     static uint64_t ovr_GraphAPI_Get(::Il2CppString* url);
     // static private System.UInt64 ovr_GraphAPI_Get_Native(System.IntPtr url)
-    // Offset: 0x1BB8020
+    // Offset: 0x1BD2D30
     static uint64_t ovr_GraphAPI_Get_Native(System::IntPtr url);
     // static public System.UInt64 ovr_GraphAPI_Post(System.String url)
-    // Offset: 0x1BB80A0
+    // Offset: 0x1BD2DB0
     static uint64_t ovr_GraphAPI_Post(::Il2CppString* url);
     // static private System.UInt64 ovr_GraphAPI_Post_Native(System.IntPtr url)
-    // Offset: 0x1BB8148
+    // Offset: 0x1BD2E58
     static uint64_t ovr_GraphAPI_Post_Native(System::IntPtr url);
     // static public System.UInt64 ovr_GroupPresence_LaunchInvitePanel(System.IntPtr options)
-    // Offset: 0x1BB81C4
+    // Offset: 0x1BD2ED4
     static uint64_t ovr_GroupPresence_LaunchInvitePanel(System::IntPtr options);
     // static public System.UInt64 ovr_HTTP_Get(System.String url)
-    // Offset: 0x1BB8244
+    // Offset: 0x1BD2F54
     static uint64_t ovr_HTTP_Get(::Il2CppString* url);
     // static private System.UInt64 ovr_HTTP_Get_Native(System.IntPtr url)
-    // Offset: 0x1BB82EC
+    // Offset: 0x1BD2FFC
     static uint64_t ovr_HTTP_Get_Native(System::IntPtr url);
     // static public System.UInt64 ovr_HTTP_GetToFile(System.String url, System.String diskFile)
-    // Offset: 0x1BB836C
+    // Offset: 0x1BD307C
     static uint64_t ovr_HTTP_GetToFile(::Il2CppString* url, ::Il2CppString* diskFile);
     // static private System.UInt64 ovr_HTTP_GetToFile_Native(System.IntPtr url, System.IntPtr diskFile)
-    // Offset: 0x1BB8440
+    // Offset: 0x1BD3150
     static uint64_t ovr_HTTP_GetToFile_Native(System::IntPtr url, System::IntPtr diskFile);
     // static public System.UInt64 ovr_HTTP_MultiPartPost(System.String url, System.String filepath_param_name, System.String filepath, System.String access_token, Oculus.Platform.CAPI/ovrKeyValuePair[] post_params)
-    // Offset: 0x1BB84D0
+    // Offset: 0x1BD31E0
     static uint64_t ovr_HTTP_MultiPartPost(::Il2CppString* url, ::Il2CppString* filepath_param_name, ::Il2CppString* filepath, ::Il2CppString* access_token, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* post_params);
     // static private System.UInt64 ovr_HTTP_MultiPartPost_Native(System.IntPtr url, System.IntPtr filepath_param_name, System.IntPtr filepath, System.IntPtr access_token, Oculus.Platform.CAPI/ovrKeyValuePair[] post_params, System.UIntPtr numItems)
-    // Offset: 0x1BB862C
+    // Offset: 0x1BD333C
     static uint64_t ovr_HTTP_MultiPartPost_Native(System::IntPtr url, System::IntPtr filepath_param_name, System::IntPtr filepath, System::IntPtr access_token, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* post_params, System::UIntPtr numItems);
     // static public System.UInt64 ovr_HTTP_Post(System.String url)
-    // Offset: 0x1BB87B8
+    // Offset: 0x1BD34C8
     static uint64_t ovr_HTTP_Post(::Il2CppString* url);
     // static private System.UInt64 ovr_HTTP_Post_Native(System.IntPtr url)
-    // Offset: 0x1BB8860
+    // Offset: 0x1BD3570
     static uint64_t ovr_HTTP_Post_Native(System::IntPtr url);
     // static public System.UInt64 ovr_IAP_ConsumePurchase(System.String sku)
-    // Offset: 0x1BB88E0
+    // Offset: 0x1BD35F0
     static uint64_t ovr_IAP_ConsumePurchase(::Il2CppString* sku);
     // static private System.UInt64 ovr_IAP_ConsumePurchase_Native(System.IntPtr sku)
-    // Offset: 0x1BB8988
+    // Offset: 0x1BD3698
     static uint64_t ovr_IAP_ConsumePurchase_Native(System::IntPtr sku);
     // static public System.UInt64 ovr_IAP_GetProductsBySKU(System.String[] skus, System.Int32 count)
-    // Offset: 0x1BB8A08
+    // Offset: 0x1BD3718
     static uint64_t ovr_IAP_GetProductsBySKU(::Array<::Il2CppString*>* skus, int count);
     // static public System.UInt64 ovr_IAP_GetViewerPurchases()
-    // Offset: 0x1BB8B5C
+    // Offset: 0x1BD386C
     static uint64_t ovr_IAP_GetViewerPurchases();
     // static public System.UInt64 ovr_IAP_GetViewerPurchasesDurableCache()
-    // Offset: 0x1BB8BD0
+    // Offset: 0x1BD38E0
     static uint64_t ovr_IAP_GetViewerPurchasesDurableCache();
     // static public System.UInt64 ovr_IAP_LaunchCheckoutFlow(System.String sku)
-    // Offset: 0x1BB8C44
+    // Offset: 0x1BD3954
     static uint64_t ovr_IAP_LaunchCheckoutFlow(::Il2CppString* sku);
     // static private System.UInt64 ovr_IAP_LaunchCheckoutFlow_Native(System.IntPtr sku)
-    // Offset: 0x1BB8CEC
+    // Offset: 0x1BD39FC
     static uint64_t ovr_IAP_LaunchCheckoutFlow_Native(System::IntPtr sku);
     // static public System.UInt64 ovr_LanguagePack_GetCurrent()
-    // Offset: 0x1BB8D6C
+    // Offset: 0x1BD3A7C
     static uint64_t ovr_LanguagePack_GetCurrent();
     // static public System.UInt64 ovr_LanguagePack_SetCurrent(System.String tag)
-    // Offset: 0x1BB8DE0
+    // Offset: 0x1BD3AF0
     static uint64_t ovr_LanguagePack_SetCurrent(::Il2CppString* tag);
     // static private System.UInt64 ovr_LanguagePack_SetCurrent_Native(System.IntPtr tag)
-    // Offset: 0x1BB8E88
+    // Offset: 0x1BD3B98
     static uint64_t ovr_LanguagePack_SetCurrent_Native(System::IntPtr tag);
     // static public System.UInt64 ovr_Leaderboard_Get(System.String leaderboardName)
-    // Offset: 0x1BB8F08
+    // Offset: 0x1BD3C18
     static uint64_t ovr_Leaderboard_Get(::Il2CppString* leaderboardName);
     // static private System.UInt64 ovr_Leaderboard_Get_Native(System.IntPtr leaderboardName)
-    // Offset: 0x1BB8FB0
+    // Offset: 0x1BD3CC0
     static uint64_t ovr_Leaderboard_Get_Native(System::IntPtr leaderboardName);
     // static public System.UInt64 ovr_Leaderboard_GetEntries(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1BB9030
+    // Offset: 0x1BD3D40
     static uint64_t ovr_Leaderboard_GetEntries(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static private System.UInt64 ovr_Leaderboard_GetEntries_Native(System.IntPtr leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
-    // Offset: 0x1BB9100
+    // Offset: 0x1BD3E10
     static uint64_t ovr_Leaderboard_GetEntries_Native(System::IntPtr leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public System.UInt64 ovr_Leaderboard_GetEntriesAfterRank(System.String leaderboardName, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1BB91A8
+    // Offset: 0x1BD3EB8
     static uint64_t ovr_Leaderboard_GetEntriesAfterRank(::Il2CppString* leaderboardName, int limit, uint64_t afterRank);
     // static private System.UInt64 ovr_Leaderboard_GetEntriesAfterRank_Native(System.IntPtr leaderboardName, System.Int32 limit, System.UInt64 afterRank)
-    // Offset: 0x1BB9268
+    // Offset: 0x1BD3F78
     static uint64_t ovr_Leaderboard_GetEntriesAfterRank_Native(System::IntPtr leaderboardName, int limit, uint64_t afterRank);
     // static public System.UInt64 ovr_Leaderboard_GetEntriesByIds(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
-    // Offset: 0x1BB9300
+    // Offset: 0x1BD4010
     static uint64_t ovr_Leaderboard_GetEntriesByIds(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs, uint userIDLength);
     // static private System.UInt64 ovr_Leaderboard_GetEntriesByIds_Native(System.IntPtr leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
-    // Offset: 0x1BB93D8
+    // Offset: 0x1BD40E8
     static uint64_t ovr_Leaderboard_GetEntriesByIds_Native(System::IntPtr leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::Array<uint64_t>* userIDs, uint userIDLength);
     // static public System.UInt64 ovr_Leaderboard_GetNextEntries(System.IntPtr handle)
-    // Offset: 0x1BB9490
+    // Offset: 0x1BD41A0
     static uint64_t ovr_Leaderboard_GetNextEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Leaderboard_GetPreviousEntries(System.IntPtr handle)
-    // Offset: 0x1BB9510
+    // Offset: 0x1BD4220
     static uint64_t ovr_Leaderboard_GetPreviousEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Leaderboard_WriteEntry(System.String leaderboardName, System.Int64 score, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
-    // Offset: 0x1BB9590
+    // Offset: 0x1BD42A0
     static uint64_t ovr_Leaderboard_WriteEntry(::Il2CppString* leaderboardName, int64_t score, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
     // static private System.UInt64 ovr_Leaderboard_WriteEntry_Native(System.IntPtr leaderboardName, System.Int64 score, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
-    // Offset: 0x1BB9668
+    // Offset: 0x1BD4378
     static uint64_t ovr_Leaderboard_WriteEntry_Native(System::IntPtr leaderboardName, int64_t score, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
     // static public System.UInt64 ovr_Leaderboard_WriteEntryWithSupplementaryMetric(System.String leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
-    // Offset: 0x1BB9720
+    // Offset: 0x1BD4430
     static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric(::Il2CppString* leaderboardName, int64_t score, int64_t supplementaryMetric, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
     // static private System.UInt64 ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native(System.IntPtr leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
-    // Offset: 0x1BB9808
+    // Offset: 0x1BD4518
     static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native(System::IntPtr leaderboardName, int64_t score, int64_t supplementaryMetric, ::Array<uint8_t>* extraData, uint extraDataLength, bool forceUpdate);
     // static public System.UInt64 ovr_Livestreaming_GetStatus()
-    // Offset: 0x1BB98D0
+    // Offset: 0x1BD45E0
     static uint64_t ovr_Livestreaming_GetStatus();
     // static public System.UInt64 ovr_Livestreaming_IsAllowedForApplication(System.String packageName)
-    // Offset: 0x1BB9944
+    // Offset: 0x1BD4654
     static uint64_t ovr_Livestreaming_IsAllowedForApplication(::Il2CppString* packageName);
     // static private System.UInt64 ovr_Livestreaming_IsAllowedForApplication_Native(System.IntPtr packageName)
-    // Offset: 0x1BB99EC
+    // Offset: 0x1BD46FC
     static uint64_t ovr_Livestreaming_IsAllowedForApplication_Native(System::IntPtr packageName);
     // static public System.UInt64 ovr_Livestreaming_LaunchLivestreamingFlow()
-    // Offset: 0x1BB9A6C
+    // Offset: 0x1BD477C
     static uint64_t ovr_Livestreaming_LaunchLivestreamingFlow();
     // static public System.UInt64 ovr_Livestreaming_PauseStream()
-    // Offset: 0x1BB9AE0
+    // Offset: 0x1BD47F0
     static uint64_t ovr_Livestreaming_PauseStream();
     // static public System.UInt64 ovr_Livestreaming_ResumeStream()
-    // Offset: 0x1BB9B54
+    // Offset: 0x1BD4864
     static uint64_t ovr_Livestreaming_ResumeStream();
     // static public System.UInt64 ovr_Livestreaming_StartPartyStream()
-    // Offset: 0x1BB9BC8
+    // Offset: 0x1BD48D8
     static uint64_t ovr_Livestreaming_StartPartyStream();
     // static public System.UInt64 ovr_Livestreaming_StartStream(Oculus.Platform.LivestreamingAudience audience, Oculus.Platform.LivestreamingMicrophoneStatus micStatus)
-    // Offset: 0x1BB9C3C
+    // Offset: 0x1BD494C
     static uint64_t ovr_Livestreaming_StartStream(Oculus::Platform::LivestreamingAudience audience, Oculus::Platform::LivestreamingMicrophoneStatus micStatus);
     // static public System.UInt64 ovr_Livestreaming_StopPartyStream()
-    // Offset: 0x1BB9CCC
+    // Offset: 0x1BD49DC
     static uint64_t ovr_Livestreaming_StopPartyStream();
     // static public System.UInt64 ovr_Livestreaming_StopStream()
-    // Offset: 0x1BB9D40
+    // Offset: 0x1BD4A50
     static uint64_t ovr_Livestreaming_StopStream();
     // static public System.UInt64 ovr_Livestreaming_UpdateCommentsOverlayVisibility(System.Boolean isVisible)
-    // Offset: 0x1BB9DB4
+    // Offset: 0x1BD4AC4
     static uint64_t ovr_Livestreaming_UpdateCommentsOverlayVisibility(bool isVisible);
     // static public System.UInt64 ovr_Livestreaming_UpdateMicStatus(Oculus.Platform.LivestreamingMicrophoneStatus micStatus)
-    // Offset: 0x1BB9E34
+    // Offset: 0x1BD4B44
     static uint64_t ovr_Livestreaming_UpdateMicStatus(Oculus::Platform::LivestreamingMicrophoneStatus micStatus);
     // static public System.UInt64 ovr_Matchmaking_Browse(System.String pool, System.IntPtr customQueryData)
-    // Offset: 0x1BB9EB4
+    // Offset: 0x1BD4BC4
     static uint64_t ovr_Matchmaking_Browse(::Il2CppString* pool, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_Browse_Native(System.IntPtr pool, System.IntPtr customQueryData)
-    // Offset: 0x1BB9F6C
+    // Offset: 0x1BD4C7C
     static uint64_t ovr_Matchmaking_Browse_Native(System::IntPtr pool, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_Browse2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BB9FFC
+    // Offset: 0x1BD4D0C
     static uint64_t ovr_Matchmaking_Browse2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_Browse2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBA0B4
+    // Offset: 0x1BD4DC4
     static uint64_t ovr_Matchmaking_Browse2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_Cancel(System.String pool, System.String requestHash)
-    // Offset: 0x1BBA144
+    // Offset: 0x1BD4E54
     static uint64_t ovr_Matchmaking_Cancel(::Il2CppString* pool, ::Il2CppString* requestHash);
     // static private System.UInt64 ovr_Matchmaking_Cancel_Native(System.IntPtr pool, System.IntPtr requestHash)
-    // Offset: 0x1BBA218
+    // Offset: 0x1BD4F28
     static uint64_t ovr_Matchmaking_Cancel_Native(System::IntPtr pool, System::IntPtr requestHash);
     // static public System.UInt64 ovr_Matchmaking_Cancel2()
-    // Offset: 0x1BBA2A8
+    // Offset: 0x1BD4FB8
     static uint64_t ovr_Matchmaking_Cancel2();
     // static public System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, System.IntPtr customQueryData)
-    // Offset: 0x1BBA31C
+    // Offset: 0x1BD502C
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom_Native(System.IntPtr pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, System.IntPtr customQueryData)
-    // Offset: 0x1BBA3EC
+    // Offset: 0x1BD50FC
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom_Native(System::IntPtr pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBA494
+    // Offset: 0x1BD51A4
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBA54C
+    // Offset: 0x1BD525C
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_CreateRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x1BBA5DC
+    // Offset: 0x1BD52EC
     static uint64_t ovr_Matchmaking_CreateRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates);
     // static private System.UInt64 ovr_Matchmaking_CreateRoom_Native(System.IntPtr pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x1BBA69C
+    // Offset: 0x1BD53AC
     static uint64_t ovr_Matchmaking_CreateRoom_Native(System::IntPtr pool, uint maxUsers, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Matchmaking_CreateRoom2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBA734
+    // Offset: 0x1BD5444
     static uint64_t ovr_Matchmaking_CreateRoom2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_CreateRoom2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBA7EC
+    // Offset: 0x1BD54FC
     static uint64_t ovr_Matchmaking_CreateRoom2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_Enqueue(System.String pool, System.IntPtr customQueryData)
-    // Offset: 0x1BBA87C
+    // Offset: 0x1BD558C
     static uint64_t ovr_Matchmaking_Enqueue(::Il2CppString* pool, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_Enqueue_Native(System.IntPtr pool, System.IntPtr customQueryData)
-    // Offset: 0x1BBA934
+    // Offset: 0x1BD5644
     static uint64_t ovr_Matchmaking_Enqueue_Native(System::IntPtr pool, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_Enqueue2(System.String pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBA9C4
+    // Offset: 0x1BD56D4
     static uint64_t ovr_Matchmaking_Enqueue2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_Enqueue2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBAA7C
+    // Offset: 0x1BD578C
     static uint64_t ovr_Matchmaking_Enqueue2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_EnqueueRoom(System.UInt64 roomID, System.IntPtr customQueryData)
-    // Offset: 0x1BBAB0C
+    // Offset: 0x1BD581C
     static uint64_t ovr_Matchmaking_EnqueueRoom(uint64_t roomID, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_EnqueueRoom2(System.UInt64 roomID, System.IntPtr matchmakingOptions)
-    // Offset: 0x1BBAB9C
+    // Offset: 0x1BD58AC
     static uint64_t ovr_Matchmaking_EnqueueRoom2(uint64_t roomID, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_GetAdminSnapshot()
-    // Offset: 0x1BBAC2C
+    // Offset: 0x1BD593C
     static uint64_t ovr_Matchmaking_GetAdminSnapshot();
     // static public System.UInt64 ovr_Matchmaking_GetStats(System.String pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
-    // Offset: 0x1BBACA0
+    // Offset: 0x1BD59B0
     static uint64_t ovr_Matchmaking_GetStats(::Il2CppString* pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
     // static private System.UInt64 ovr_Matchmaking_GetStats_Native(System.IntPtr pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
-    // Offset: 0x1BBAD60
+    // Offset: 0x1BD5A70
     static uint64_t ovr_Matchmaking_GetStats_Native(System::IntPtr pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
     // static public System.UInt64 ovr_Matchmaking_JoinRoom(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x1BBADF8
+    // Offset: 0x1BD5B08
     static uint64_t ovr_Matchmaking_JoinRoom(uint64_t roomID, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Matchmaking_ReportResultInsecure(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data)
-    // Offset: 0x1BBAE88
+    // Offset: 0x1BD5B98
     static uint64_t ovr_Matchmaking_ReportResultInsecure(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data);
     // static private System.UInt64 ovr_Matchmaking_ReportResultInsecure_Native(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data, System.UIntPtr numItems)
-    // Offset: 0x1BBAF3C
+    // Offset: 0x1BD5C4C
     static uint64_t ovr_Matchmaking_ReportResultInsecure_Native(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data, System::UIntPtr numItems);
     // static public System.UInt64 ovr_Matchmaking_StartMatch(System.UInt64 roomID)
-    // Offset: 0x1BBB098
+    // Offset: 0x1BD5DA8
     static uint64_t ovr_Matchmaking_StartMatch(uint64_t roomID);
     // static public System.UInt64 ovr_Media_ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
-    // Offset: 0x1BBB118
+    // Offset: 0x1BD5E28
     static uint64_t ovr_Media_ShareToFacebook(::Il2CppString* postTextSuggestion, ::Il2CppString* filePath, Oculus::Platform::MediaContentType contentType);
     // static private System.UInt64 ovr_Media_ShareToFacebook_Native(System.IntPtr postTextSuggestion, System.IntPtr filePath, Oculus.Platform.MediaContentType contentType)
-    // Offset: 0x1BBB1F4
+    // Offset: 0x1BD5F04
     static uint64_t ovr_Media_ShareToFacebook_Native(System::IntPtr postTextSuggestion, System::IntPtr filePath, Oculus::Platform::MediaContentType contentType);
     // static public System.UInt64 ovr_NetSync_Connect(System.IntPtr connect_options)
-    // Offset: 0x1BBB28C
+    // Offset: 0x1BD5F9C
     static uint64_t ovr_NetSync_Connect(System::IntPtr connect_options);
     // static public System.UInt64 ovr_NetSync_Disconnect(System.Int64 connection_id)
-    // Offset: 0x1BBB30C
+    // Offset: 0x1BD601C
     static uint64_t ovr_NetSync_Disconnect(int64_t connection_id);
     // static public System.UInt64 ovr_NetSync_GetSessions(System.Int64 connection_id)
-    // Offset: 0x1BBB38C
+    // Offset: 0x1BD609C
     static uint64_t ovr_NetSync_GetSessions(int64_t connection_id);
     // static public System.UInt64 ovr_NetSync_GetVoipAttenuation(System.Int64 connection_id)
-    // Offset: 0x1BBB40C
+    // Offset: 0x1BD611C
     static uint64_t ovr_NetSync_GetVoipAttenuation(int64_t connection_id);
     // static public System.UInt64 ovr_NetSync_GetVoipAttenuationDefault()
-    // Offset: 0x1BBB48C
+    // Offset: 0x1BD619C
     static uint64_t ovr_NetSync_GetVoipAttenuationDefault();
     // static public System.UInt64 ovr_NetSync_SetVoipAttenuation(System.Int64 connection_id, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
-    // Offset: 0x1BBB500
+    // Offset: 0x1BD6210
     static uint64_t ovr_NetSync_SetVoipAttenuation(int64_t connection_id, ::Array<float>* distances, ::Array<float>* decibels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipAttenuationModel(System.Int64 connection_id, System.String name, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
-    // Offset: 0x1BBB5B8
+    // Offset: 0x1BD62C8
     static uint64_t ovr_NetSync_SetVoipAttenuationModel(int64_t connection_id, ::Il2CppString* name, ::Array<float>* distances, ::Array<float>* decibels, System::UIntPtr count);
     // static private System.UInt64 ovr_NetSync_SetVoipAttenuationModel_Native(System.Int64 connection_id, System.IntPtr name, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
-    // Offset: 0x1BBB694
+    // Offset: 0x1BD63A4
     static uint64_t ovr_NetSync_SetVoipAttenuationModel_Native(int64_t connection_id, System::IntPtr name, ::Array<float>* distances, ::Array<float>* decibels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipChannelCfg(System.Int64 connection_id, System.String channel_name, System.String attnmodel, System.Boolean disable_spatialization)
-    // Offset: 0x1BBB754
+    // Offset: 0x1BD6464
     static uint64_t ovr_NetSync_SetVoipChannelCfg(int64_t connection_id, ::Il2CppString* channel_name, ::Il2CppString* attnmodel, bool disable_spatialization);
     // static private System.UInt64 ovr_NetSync_SetVoipChannelCfg_Native(System.Int64 connection_id, System.IntPtr channel_name, System.IntPtr attnmodel, System.Boolean disable_spatialization)
-    // Offset: 0x1BBB840
+    // Offset: 0x1BD6550
     static uint64_t ovr_NetSync_SetVoipChannelCfg_Native(int64_t connection_id, System::IntPtr channel_name, System::IntPtr attnmodel, bool disable_spatialization);
     // static public System.UInt64 ovr_NetSync_SetVoipGroup(System.Int64 connection_id, System.String group_id)
-    // Offset: 0x1BBB8E8
+    // Offset: 0x1BD65F8
     static uint64_t ovr_NetSync_SetVoipGroup(int64_t connection_id, ::Il2CppString* group_id);
     // static private System.UInt64 ovr_NetSync_SetVoipGroup_Native(System.Int64 connection_id, System.IntPtr group_id)
-    // Offset: 0x1BBB9A4
+    // Offset: 0x1BD66B4
     static uint64_t ovr_NetSync_SetVoipGroup_Native(int64_t connection_id, System::IntPtr group_id);
     // static public System.UInt64 ovr_NetSync_SetVoipListentoChannels(System.Int64 connection_id, System.String[] listento_channels, System.UIntPtr count)
-    // Offset: 0x1BBBA34
+    // Offset: 0x1BD6744
     static uint64_t ovr_NetSync_SetVoipListentoChannels(int64_t connection_id, ::Array<::Il2CppString*>* listento_channels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipMicSource(System.Int64 connection_id, Oculus.Platform.NetSyncVoipMicSource mic_source)
-    // Offset: 0x1BBBB98
+    // Offset: 0x1BD68A8
     static uint64_t ovr_NetSync_SetVoipMicSource(int64_t connection_id, Oculus::Platform::NetSyncVoipMicSource mic_source);
     // static public System.UInt64 ovr_NetSync_SetVoipSessionMuted(System.Int64 connection_id, System.UInt64 session_id, System.Boolean muted)
-    // Offset: 0x1BBBC28
+    // Offset: 0x1BD6938
     static uint64_t ovr_NetSync_SetVoipSessionMuted(int64_t connection_id, uint64_t session_id, bool muted);
     // static public System.UInt64 ovr_NetSync_SetVoipSpeaktoChannels(System.Int64 connection_id, System.String[] speakto_channels, System.UIntPtr count)
-    // Offset: 0x1BBBCC0
+    // Offset: 0x1BD69D0
     static uint64_t ovr_NetSync_SetVoipSpeaktoChannels(int64_t connection_id, ::Array<::Il2CppString*>* speakto_channels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipStreamMode(System.Int64 connection_id, System.UInt64 sessionId, Oculus.Platform.NetSyncVoipStreamMode streamMode)
-    // Offset: 0x1BBBE24
+    // Offset: 0x1BD6B34
     static uint64_t ovr_NetSync_SetVoipStreamMode(int64_t connection_id, uint64_t sessionId, Oculus::Platform::NetSyncVoipStreamMode streamMode);
     // static public System.UInt64 ovr_Notification_GetRoomInvites()
-    // Offset: 0x1BBBEBC
+    // Offset: 0x1BD6BCC
     static uint64_t ovr_Notification_GetRoomInvites();
     // static public System.UInt64 ovr_Notification_MarkAsRead(System.UInt64 notificationID)
-    // Offset: 0x1BBBF30
+    // Offset: 0x1BD6C40
     static uint64_t ovr_Notification_MarkAsRead(uint64_t notificationID);
     // static public System.UInt64 ovr_Party_Create()
-    // Offset: 0x1BBBFB0
+    // Offset: 0x1BD6CC0
     static uint64_t ovr_Party_Create();
     // static public System.UInt64 ovr_Party_GatherInApplication(System.UInt64 partyID, System.UInt64 appID)
-    // Offset: 0x1BBC024
+    // Offset: 0x1BD6D34
     static uint64_t ovr_Party_GatherInApplication(uint64_t partyID, uint64_t appID);
     // static public System.UInt64 ovr_Party_Get(System.UInt64 partyID)
-    // Offset: 0x1BBC0B4
+    // Offset: 0x1BD6DC4
     static uint64_t ovr_Party_Get(uint64_t partyID);
     // static public System.UInt64 ovr_Party_GetCurrent()
-    // Offset: 0x1BBC134
+    // Offset: 0x1BD6E44
     static uint64_t ovr_Party_GetCurrent();
     // static public System.UInt64 ovr_Party_GetCurrentForUser(System.UInt64 userID)
-    // Offset: 0x1BBC1A8
+    // Offset: 0x1BD6EB8
     static uint64_t ovr_Party_GetCurrentForUser(uint64_t userID);
     // static public System.UInt64 ovr_Party_Invite(System.UInt64 partyID, System.UInt64 userID)
-    // Offset: 0x1BBC228
+    // Offset: 0x1BD6F38
     static uint64_t ovr_Party_Invite(uint64_t partyID, uint64_t userID);
     // static public System.UInt64 ovr_Party_Join(System.UInt64 partyID)
-    // Offset: 0x1BBC2B4
+    // Offset: 0x1BD6FC4
     static uint64_t ovr_Party_Join(uint64_t partyID);
     // static public System.UInt64 ovr_Party_Leave(System.UInt64 partyID)
-    // Offset: 0x1BBC334
+    // Offset: 0x1BD7044
     static uint64_t ovr_Party_Leave(uint64_t partyID);
     // static public System.UInt64 ovr_RichPresence_Clear()
-    // Offset: 0x1BBC3B4
+    // Offset: 0x1BD70C4
     static uint64_t ovr_RichPresence_Clear();
     // static public System.UInt64 ovr_RichPresence_GetDestinations()
-    // Offset: 0x1BBC428
+    // Offset: 0x1BD7138
     static uint64_t ovr_RichPresence_GetDestinations();
     // static public System.UInt64 ovr_RichPresence_Set(System.IntPtr richPresenceOptions)
-    // Offset: 0x1BBC49C
+    // Offset: 0x1BD71AC
     static uint64_t ovr_RichPresence_Set(System::IntPtr richPresenceOptions);
     // static public System.UInt64 ovr_RichPresence_SetDestination(System.String api_name)
-    // Offset: 0x1BBC51C
+    // Offset: 0x1BD722C
     static uint64_t ovr_RichPresence_SetDestination(::Il2CppString* api_name);
     // static private System.UInt64 ovr_RichPresence_SetDestination_Native(System.IntPtr api_name)
-    // Offset: 0x1BBC5C4
+    // Offset: 0x1BD72D4
     static uint64_t ovr_RichPresence_SetDestination_Native(System::IntPtr api_name);
     // static public System.UInt64 ovr_RichPresence_SetIsJoinable(System.Boolean is_joinable)
-    // Offset: 0x1BBC644
+    // Offset: 0x1BD7354
     static uint64_t ovr_RichPresence_SetIsJoinable(bool is_joinable);
     // static public System.UInt64 ovr_RichPresence_SetLobbySession(System.String id)
-    // Offset: 0x1BBC6C4
+    // Offset: 0x1BD73D4
     static uint64_t ovr_RichPresence_SetLobbySession(::Il2CppString* id);
     // static private System.UInt64 ovr_RichPresence_SetLobbySession_Native(System.IntPtr id)
-    // Offset: 0x1BBC76C
+    // Offset: 0x1BD747C
     static uint64_t ovr_RichPresence_SetLobbySession_Native(System::IntPtr id);
     // static public System.UInt64 ovr_RichPresence_SetMatchSession(System.String id)
-    // Offset: 0x1BBC7EC
+    // Offset: 0x1BD74FC
     static uint64_t ovr_RichPresence_SetMatchSession(::Il2CppString* id);
     // static private System.UInt64 ovr_RichPresence_SetMatchSession_Native(System.IntPtr id)
-    // Offset: 0x1BBC894
+    // Offset: 0x1BD75A4
     static uint64_t ovr_RichPresence_SetMatchSession_Native(System::IntPtr id);
     // static public System.UInt64 ovr_Room_CreateAndJoinPrivate(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
-    // Offset: 0x1BBC914
+    // Offset: 0x1BD7624
     static uint64_t ovr_Room_CreateAndJoinPrivate(Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Room_CreateAndJoinPrivate2(Oculus.Platform.RoomJoinPolicy joinPolicy, System.UInt32 maxUsers, System.IntPtr roomOptions)
-    // Offset: 0x1BBC9AC
+    // Offset: 0x1BD76BC
     static uint64_t ovr_Room_CreateAndJoinPrivate2(Oculus::Platform::RoomJoinPolicy joinPolicy, uint maxUsers, System::IntPtr roomOptions);
     // static public System.UInt64 ovr_Room_Get(System.UInt64 roomID)
-    // Offset: 0x1BBCA44
+    // Offset: 0x1BD7754
     static uint64_t ovr_Room_Get(uint64_t roomID);
     // static public System.UInt64 ovr_Room_GetCurrent()
-    // Offset: 0x1BBCAC4
+    // Offset: 0x1BD77D4
     static uint64_t ovr_Room_GetCurrent();
     // static public System.UInt64 ovr_Room_GetCurrentForUser(System.UInt64 userID)
-    // Offset: 0x1BBCB38
+    // Offset: 0x1BD7848
     static uint64_t ovr_Room_GetCurrentForUser(uint64_t userID);
     // static public System.UInt64 ovr_Room_GetInvitableUsers()
-    // Offset: 0x1BBCBB8
+    // Offset: 0x1BD78C8
     static uint64_t ovr_Room_GetInvitableUsers();
     // static public System.UInt64 ovr_Room_GetInvitableUsers2(System.IntPtr roomOptions)
-    // Offset: 0x1BBCC2C
+    // Offset: 0x1BD793C
     static uint64_t ovr_Room_GetInvitableUsers2(System::IntPtr roomOptions);
     // static public System.UInt64 ovr_Room_GetModeratedRooms()
-    // Offset: 0x1BBCCAC
+    // Offset: 0x1BD79BC
     static uint64_t ovr_Room_GetModeratedRooms();
     // static public System.UInt64 ovr_Room_GetSocialRooms(System.UInt64 appID)
-    // Offset: 0x1BBCD20
+    // Offset: 0x1BD7A30
     static uint64_t ovr_Room_GetSocialRooms(uint64_t appID);
     // static public System.UInt64 ovr_Room_InviteUser(System.UInt64 roomID, System.String inviteToken)
-    // Offset: 0x1BBCDA0
+    // Offset: 0x1BD7AB0
     static uint64_t ovr_Room_InviteUser(uint64_t roomID, ::Il2CppString* inviteToken);
     // static private System.UInt64 ovr_Room_InviteUser_Native(System.UInt64 roomID, System.IntPtr inviteToken)
-    // Offset: 0x1BBCE5C
+    // Offset: 0x1BD7B6C
     static uint64_t ovr_Room_InviteUser_Native(uint64_t roomID, System::IntPtr inviteToken);
     // static public System.UInt64 ovr_Room_Join(System.UInt64 roomID, System.Boolean subscribeToUpdates)
-    // Offset: 0x1BBCEEC
+    // Offset: 0x1BD7BFC
     static uint64_t ovr_Room_Join(uint64_t roomID, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Room_Join2(System.UInt64 roomID, System.IntPtr roomOptions)
-    // Offset: 0x1BBCF7C
+    // Offset: 0x1BD7C8C
     static uint64_t ovr_Room_Join2(uint64_t roomID, System::IntPtr roomOptions);
     // static public System.UInt64 ovr_Room_KickUser(System.UInt64 roomID, System.UInt64 userID, System.Int32 kickDurationSeconds)
-    // Offset: 0x1BBD00C
+    // Offset: 0x1BD7D1C
     static uint64_t ovr_Room_KickUser(uint64_t roomID, uint64_t userID, int kickDurationSeconds);
     // static public System.UInt64 ovr_Room_LaunchInvitableUserFlow(System.UInt64 roomID)
-    // Offset: 0x1BBD0A0
+    // Offset: 0x1BD7DB0
     static uint64_t ovr_Room_LaunchInvitableUserFlow(uint64_t roomID);
     // static public System.UInt64 ovr_Room_Leave(System.UInt64 roomID)
-    // Offset: 0x1BBD120
+    // Offset: 0x1BD7E30
     static uint64_t ovr_Room_Leave(uint64_t roomID);
     // static public System.UInt64 ovr_Room_SetDescription(System.UInt64 roomID, System.String description)
-    // Offset: 0x1BBD1A0
+    // Offset: 0x1BD7EB0
     static uint64_t ovr_Room_SetDescription(uint64_t roomID, ::Il2CppString* description);
     // static private System.UInt64 ovr_Room_SetDescription_Native(System.UInt64 roomID, System.IntPtr description)
-    // Offset: 0x1BBD25C
+    // Offset: 0x1BD7F6C
     static uint64_t ovr_Room_SetDescription_Native(uint64_t roomID, System::IntPtr description);
     // static public System.UInt64 ovr_Room_UpdateDataStore(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data)
-    // Offset: 0x1BBD2EC
+    // Offset: 0x1BD7FFC
     static uint64_t ovr_Room_UpdateDataStore(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data);
     // static private System.UInt64 ovr_Room_UpdateDataStore_Native(System.UInt64 roomID, Oculus.Platform.CAPI/ovrKeyValuePair[] data, System.UIntPtr numItems)
-    // Offset: 0x1BBD3A0
+    // Offset: 0x1BD80B0
     static uint64_t ovr_Room_UpdateDataStore_Native(uint64_t roomID, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* data, System::UIntPtr numItems);
     // static public System.UInt64 ovr_Room_UpdateMembershipLockStatus(System.UInt64 roomID, Oculus.Platform.RoomMembershipLockStatus membershipLockStatus)
-    // Offset: 0x1BBD4F8
+    // Offset: 0x1BD8208
     static uint64_t ovr_Room_UpdateMembershipLockStatus(uint64_t roomID, Oculus::Platform::RoomMembershipLockStatus membershipLockStatus);
     // static public System.UInt64 ovr_Room_UpdateOwner(System.UInt64 roomID, System.UInt64 userID)
-    // Offset: 0x1BBD588
+    // Offset: 0x1BD8298
     static uint64_t ovr_Room_UpdateOwner(uint64_t roomID, uint64_t userID);
     // static public System.UInt64 ovr_Room_UpdatePrivateRoomJoinPolicy(System.UInt64 roomID, Oculus.Platform.RoomJoinPolicy newJoinPolicy)
-    // Offset: 0x1BBD618
+    // Offset: 0x1BD8328
     static uint64_t ovr_Room_UpdatePrivateRoomJoinPolicy(uint64_t roomID, Oculus::Platform::RoomJoinPolicy newJoinPolicy);
     // static public System.UInt64 ovr_SystemPermissions_GetStatus(Oculus.Platform.PermissionType permType)
-    // Offset: 0x1BBD6A8
+    // Offset: 0x1BD83B8
     static uint64_t ovr_SystemPermissions_GetStatus(Oculus::Platform::PermissionType permType);
     // static public System.UInt64 ovr_SystemPermissions_LaunchDeeplink(Oculus.Platform.PermissionType permType)
-    // Offset: 0x1BBD728
+    // Offset: 0x1BD8438
     static uint64_t ovr_SystemPermissions_LaunchDeeplink(Oculus::Platform::PermissionType permType);
     // static public System.UInt64 ovr_User_CancelRecordingForReportFlow(System.String recordingUUID)
-    // Offset: 0x1BBD7A8
+    // Offset: 0x1BD84B8
     static uint64_t ovr_User_CancelRecordingForReportFlow(::Il2CppString* recordingUUID);
     // static private System.UInt64 ovr_User_CancelRecordingForReportFlow_Native(System.IntPtr recordingUUID)
-    // Offset: 0x1BBD850
+    // Offset: 0x1BD8560
     static uint64_t ovr_User_CancelRecordingForReportFlow_Native(System::IntPtr recordingUUID);
     // static public System.UInt64 ovr_User_Get(System.UInt64 userID)
-    // Offset: 0x1BBD8D0
+    // Offset: 0x1BD85E0
     static uint64_t ovr_User_Get(uint64_t userID);
     // static public System.UInt64 ovr_User_GetAccessToken()
-    // Offset: 0x1BBD950
+    // Offset: 0x1BD8660
     static uint64_t ovr_User_GetAccessToken();
     // static public System.UInt64 ovr_User_GetLinkedAccounts(System.IntPtr userOptions)
-    // Offset: 0x1BBD9C4
+    // Offset: 0x1BD86D4
     static uint64_t ovr_User_GetLinkedAccounts(System::IntPtr userOptions);
     // static public System.UInt64 ovr_User_GetLoggedInUser()
-    // Offset: 0x1BBDA44
+    // Offset: 0x1BD8754
     static uint64_t ovr_User_GetLoggedInUser();
     // static public System.UInt64 ovr_User_GetLoggedInUserFriends()
-    // Offset: 0x1BBDAB8
+    // Offset: 0x1BD87C8
     static uint64_t ovr_User_GetLoggedInUserFriends();
     // static public System.UInt64 ovr_User_GetLoggedInUserFriendsAndRooms()
-    // Offset: 0x1BBDB2C
+    // Offset: 0x1BD883C
     static uint64_t ovr_User_GetLoggedInUserFriendsAndRooms();
     // static public System.UInt64 ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms(System.IntPtr userOptions)
-    // Offset: 0x1BBDBA0
+    // Offset: 0x1BD88B0
     static uint64_t ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms(System::IntPtr userOptions);
     // static public System.UInt64 ovr_User_GetOrgScopedID(System.UInt64 userID)
-    // Offset: 0x1BBDC20
+    // Offset: 0x1BD8930
     static uint64_t ovr_User_GetOrgScopedID(uint64_t userID);
     // static public System.UInt64 ovr_User_GetSdkAccounts()
-    // Offset: 0x1BBDCA0
+    // Offset: 0x1BD89B0
     static uint64_t ovr_User_GetSdkAccounts();
     // static public System.UInt64 ovr_User_GetUserProof()
-    // Offset: 0x1BBDD14
+    // Offset: 0x1BD8A24
     static uint64_t ovr_User_GetUserProof();
     // static public System.UInt64 ovr_User_LaunchBlockFlow(System.UInt64 userID)
-    // Offset: 0x1BBDD88
+    // Offset: 0x1BD8A98
     static uint64_t ovr_User_LaunchBlockFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchFriendRequestFlow(System.UInt64 userID)
-    // Offset: 0x1BBDE08
+    // Offset: 0x1BD8B18
     static uint64_t ovr_User_LaunchFriendRequestFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchProfile(System.UInt64 userID)
-    // Offset: 0x1BBDE88
+    // Offset: 0x1BD8B98
     static uint64_t ovr_User_LaunchProfile(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchReportFlow(System.UInt64 userID)
-    // Offset: 0x1BBDF08
+    // Offset: 0x1BD8C18
     static uint64_t ovr_User_LaunchReportFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_LaunchReportFlow2(System.UInt64 optionalUserID, System.IntPtr abuseReportOptions)
-    // Offset: 0x1BBDF88
+    // Offset: 0x1BD8C98
     static uint64_t ovr_User_LaunchReportFlow2(uint64_t optionalUserID, System::IntPtr abuseReportOptions);
     // static public System.UInt64 ovr_User_LaunchUnblockFlow(System.UInt64 userID)
-    // Offset: 0x1BBE018
+    // Offset: 0x1BD8D28
     static uint64_t ovr_User_LaunchUnblockFlow(uint64_t userID);
     // static public System.UInt64 ovr_User_NewEntitledTestUser()
-    // Offset: 0x1BBE098
+    // Offset: 0x1BD8DA8
     static uint64_t ovr_User_NewEntitledTestUser();
     // static public System.UInt64 ovr_User_NewTestUser()
-    // Offset: 0x1BBE10C
+    // Offset: 0x1BD8E1C
     static uint64_t ovr_User_NewTestUser();
     // static public System.UInt64 ovr_User_NewTestUserFriends()
-    // Offset: 0x1BBE180
+    // Offset: 0x1BD8E90
     static uint64_t ovr_User_NewTestUserFriends();
     // static public System.UInt64 ovr_User_StartRecordingForReportFlow()
-    // Offset: 0x1BBE1F4
+    // Offset: 0x1BD8F04
     static uint64_t ovr_User_StartRecordingForReportFlow();
     // static public System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow(System.UInt64 optionalUserID, System.String optionalRecordingUUID)
-    // Offset: 0x1BBE268
+    // Offset: 0x1BD8F78
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow(uint64_t optionalUserID, ::Il2CppString* optionalRecordingUUID);
     // static private System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow_Native(System.UInt64 optionalUserID, System.IntPtr optionalRecordingUUID)
-    // Offset: 0x1BBE324
+    // Offset: 0x1BD9034
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow_Native(uint64_t optionalUserID, System::IntPtr optionalRecordingUUID);
     // static public System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow2(System.UInt64 optionalUserID, System.String optionalRecordingUUID, System.IntPtr abuseReportOptions)
-    // Offset: 0x1BBE3B4
+    // Offset: 0x1BD90C4
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2(uint64_t optionalUserID, ::Il2CppString* optionalRecordingUUID, System::IntPtr abuseReportOptions);
     // static private System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow2_Native(System.UInt64 optionalUserID, System.IntPtr optionalRecordingUUID, System.IntPtr abuseReportOptions)
-    // Offset: 0x1BBE478
+    // Offset: 0x1BD9188
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2_Native(uint64_t optionalUserID, System::IntPtr optionalRecordingUUID, System::IntPtr abuseReportOptions);
     // static public System.UInt64 ovr_User_TestUserCreateDeviceManifest(System.String deviceID, System.UInt64[] appIDs, System.Int32 numAppIDs)
-    // Offset: 0x1BBE510
+    // Offset: 0x1BD9220
     static uint64_t ovr_User_TestUserCreateDeviceManifest(::Il2CppString* deviceID, ::Array<uint64_t>* appIDs, int numAppIDs);
     // static private System.UInt64 ovr_User_TestUserCreateDeviceManifest_Native(System.IntPtr deviceID, System.UInt64[] appIDs, System.Int32 numAppIDs)
-    // Offset: 0x1BBE5D0
+    // Offset: 0x1BD92E0
     static uint64_t ovr_User_TestUserCreateDeviceManifest_Native(System::IntPtr deviceID, ::Array<uint64_t>* appIDs, int numAppIDs);
     // static public System.UInt64 ovr_UserDataStore_PrivateDeleteEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x1BBE670
+    // Offset: 0x1BD9380
     static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static private System.UInt64 ovr_UserDataStore_PrivateDeleteEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
-    // Offset: 0x1BBE72C
+    // Offset: 0x1BD943C
     static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey_Native(uint64_t userID, System::IntPtr key);
     // static public System.UInt64 ovr_UserDataStore_PrivateGetEntries(System.UInt64 userID)
-    // Offset: 0x1BBE7BC
+    // Offset: 0x1BD94CC
     static uint64_t ovr_UserDataStore_PrivateGetEntries(uint64_t userID);
     // static public System.UInt64 ovr_UserDataStore_PrivateGetEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x1BBE83C
+    // Offset: 0x1BD954C
     static uint64_t ovr_UserDataStore_PrivateGetEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static private System.UInt64 ovr_UserDataStore_PrivateGetEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
-    // Offset: 0x1BBE8F8
+    // Offset: 0x1BD9608
     static uint64_t ovr_UserDataStore_PrivateGetEntryByKey_Native(uint64_t userID, System::IntPtr key);
     // static public System.UInt64 ovr_UserDataStore_PrivateWriteEntry(System.UInt64 userID, System.String key, System.String value)
-    // Offset: 0x1BBE988
+    // Offset: 0x1BD9698
     static uint64_t ovr_UserDataStore_PrivateWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.UInt64 ovr_UserDataStore_PrivateWriteEntry_Native(System.UInt64 userID, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1BBEA64
+    // Offset: 0x1BD9774
     static uint64_t ovr_UserDataStore_PrivateWriteEntry_Native(uint64_t userID, System::IntPtr key, System::IntPtr value);
     // static public System.UInt64 ovr_UserDataStore_PublicDeleteEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x1BBEAFC
+    // Offset: 0x1BD980C
     static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static private System.UInt64 ovr_UserDataStore_PublicDeleteEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
-    // Offset: 0x1BBEBB8
+    // Offset: 0x1BD98C8
     static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey_Native(uint64_t userID, System::IntPtr key);
     // static public System.UInt64 ovr_UserDataStore_PublicGetEntries(System.UInt64 userID)
-    // Offset: 0x1BBEC48
+    // Offset: 0x1BD9958
     static uint64_t ovr_UserDataStore_PublicGetEntries(uint64_t userID);
     // static public System.UInt64 ovr_UserDataStore_PublicGetEntryByKey(System.UInt64 userID, System.String key)
-    // Offset: 0x1BBECC8
+    // Offset: 0x1BD99D8
     static uint64_t ovr_UserDataStore_PublicGetEntryByKey(uint64_t userID, ::Il2CppString* key);
     // static private System.UInt64 ovr_UserDataStore_PublicGetEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
-    // Offset: 0x1BBED84
+    // Offset: 0x1BD9A94
     static uint64_t ovr_UserDataStore_PublicGetEntryByKey_Native(uint64_t userID, System::IntPtr key);
     // static public System.UInt64 ovr_UserDataStore_PublicWriteEntry(System.UInt64 userID, System.String key, System.String value)
-    // Offset: 0x1BBEE14
+    // Offset: 0x1BD9B24
     static uint64_t ovr_UserDataStore_PublicWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.UInt64 ovr_UserDataStore_PublicWriteEntry_Native(System.UInt64 userID, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1BBEEF0
+    // Offset: 0x1BD9C00
     static uint64_t ovr_UserDataStore_PublicWriteEntry_Native(uint64_t userID, System::IntPtr key, System::IntPtr value);
     // static public System.UInt64 ovr_Voip_SetSystemVoipSuppressed(System.Boolean suppressed)
-    // Offset: 0x1BBEF88
+    // Offset: 0x1BD9C98
     static uint64_t ovr_Voip_SetSystemVoipSuppressed(bool suppressed);
     // static public System.String ovr_AbuseReportRecording_GetRecordingUuid(System.IntPtr obj)
-    // Offset: 0x1BBF008
+    // Offset: 0x1BD9D18
     static ::Il2CppString* ovr_AbuseReportRecording_GetRecordingUuid(System::IntPtr obj);
     // static private System.IntPtr ovr_AbuseReportRecording_GetRecordingUuid_Native(System.IntPtr obj)
-    // Offset: 0x1BBF070
+    // Offset: 0x1BD9D80
     static System::IntPtr ovr_AbuseReportRecording_GetRecordingUuid_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_AchievementDefinition_GetBitfieldLength(System.IntPtr obj)
-    // Offset: 0x1BBF0F0
+    // Offset: 0x1BD9E00
     static uint ovr_AchievementDefinition_GetBitfieldLength(System::IntPtr obj);
     // static public System.String ovr_AchievementDefinition_GetName(System.IntPtr obj)
-    // Offset: 0x1BBF170
+    // Offset: 0x1BD9E80
     static ::Il2CppString* ovr_AchievementDefinition_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementDefinition_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1BBF1D8
+    // Offset: 0x1BD9EE8
     static System::IntPtr ovr_AchievementDefinition_GetName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AchievementDefinition_GetTarget(System.IntPtr obj)
-    // Offset: 0x1BBF258
+    // Offset: 0x1BD9F68
     static uint64_t ovr_AchievementDefinition_GetTarget(System::IntPtr obj);
     // static public Oculus.Platform.AchievementType ovr_AchievementDefinition_GetType(System.IntPtr obj)
-    // Offset: 0x1BBF2D8
+    // Offset: 0x1BD9FE8
     static Oculus::Platform::AchievementType ovr_AchievementDefinition_GetType(System::IntPtr obj);
     // static public System.IntPtr ovr_AchievementDefinitionArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BBF358
+    // Offset: 0x1BDA068
     static System::IntPtr ovr_AchievementDefinitionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_AchievementDefinitionArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BBF3E8
+    // Offset: 0x1BDA0F8
     static ::Il2CppString* ovr_AchievementDefinitionArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementDefinitionArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BBF450
+    // Offset: 0x1BDA160
     static System::IntPtr ovr_AchievementDefinitionArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_AchievementDefinitionArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BBF4D0
+    // Offset: 0x1BDA1E0
     static System::UIntPtr ovr_AchievementDefinitionArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementDefinitionArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BBF550
+    // Offset: 0x1BDA260
     static bool ovr_AchievementDefinitionArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_AchievementProgress_GetBitfield(System.IntPtr obj)
-    // Offset: 0x1BBF5D8
+    // Offset: 0x1BDA2E8
     static ::Il2CppString* ovr_AchievementProgress_GetBitfield(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgress_GetBitfield_Native(System.IntPtr obj)
-    // Offset: 0x1BBF640
+    // Offset: 0x1BDA350
     static System::IntPtr ovr_AchievementProgress_GetBitfield_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AchievementProgress_GetCount(System.IntPtr obj)
-    // Offset: 0x1BBF6C0
+    // Offset: 0x1BDA3D0
     static uint64_t ovr_AchievementProgress_GetCount(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementProgress_GetIsUnlocked(System.IntPtr obj)
-    // Offset: 0x1BBF740
+    // Offset: 0x1BDA450
     static bool ovr_AchievementProgress_GetIsUnlocked(System::IntPtr obj);
     // static public System.String ovr_AchievementProgress_GetName(System.IntPtr obj)
-    // Offset: 0x1BBF7C8
+    // Offset: 0x1BDA4D8
     static ::Il2CppString* ovr_AchievementProgress_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgress_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1BBF830
+    // Offset: 0x1BDA540
     static System::IntPtr ovr_AchievementProgress_GetName_Native(System::IntPtr obj);
     // static public System.DateTime ovr_AchievementProgress_GetUnlockTime(System.IntPtr obj)
-    // Offset: 0x1BBF8B0
+    // Offset: 0x1BDA5C0
     static System::DateTime ovr_AchievementProgress_GetUnlockTime(System::IntPtr obj);
     // static private System.UInt64 ovr_AchievementProgress_GetUnlockTime_Native(System.IntPtr obj)
-    // Offset: 0x1BBF918
+    // Offset: 0x1BDA628
     static uint64_t ovr_AchievementProgress_GetUnlockTime_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_AchievementProgressArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BBF998
+    // Offset: 0x1BDA6A8
     static System::IntPtr ovr_AchievementProgressArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_AchievementProgressArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BBFA28
+    // Offset: 0x1BDA738
     static ::Il2CppString* ovr_AchievementProgressArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgressArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BBFA90
+    // Offset: 0x1BDA7A0
     static System::IntPtr ovr_AchievementProgressArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_AchievementProgressArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BBFB10
+    // Offset: 0x1BDA820
     static System::UIntPtr ovr_AchievementProgressArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementProgressArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BBFB90
+    // Offset: 0x1BDA8A0
     static bool ovr_AchievementProgressArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_AchievementUpdate_GetJustUnlocked(System.IntPtr obj)
-    // Offset: 0x1BBFC18
+    // Offset: 0x1BDA928
     static bool ovr_AchievementUpdate_GetJustUnlocked(System::IntPtr obj);
     // static public System.String ovr_AchievementUpdate_GetName(System.IntPtr obj)
-    // Offset: 0x1BBFCA0
+    // Offset: 0x1BDA9B0
     static ::Il2CppString* ovr_AchievementUpdate_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementUpdate_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1BBFD08
+    // Offset: 0x1BDAA18
     static System::IntPtr ovr_AchievementUpdate_GetName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Application_GetID(System.IntPtr obj)
-    // Offset: 0x1BBFD88
+    // Offset: 0x1BDAA98
     static uint64_t ovr_Application_GetID(System::IntPtr obj);
     // static public System.Int32 ovr_ApplicationVersion_GetCurrentCode(System.IntPtr obj)
-    // Offset: 0x1BBFE08
+    // Offset: 0x1BDAB18
     static int ovr_ApplicationVersion_GetCurrentCode(System::IntPtr obj);
     // static public System.String ovr_ApplicationVersion_GetCurrentName(System.IntPtr obj)
-    // Offset: 0x1BBFE88
+    // Offset: 0x1BDAB98
     static ::Il2CppString* ovr_ApplicationVersion_GetCurrentName(System::IntPtr obj);
     // static private System.IntPtr ovr_ApplicationVersion_GetCurrentName_Native(System.IntPtr obj)
-    // Offset: 0x1BBFEF0
+    // Offset: 0x1BDAC00
     static System::IntPtr ovr_ApplicationVersion_GetCurrentName_Native(System::IntPtr obj);
     // static public System.Int32 ovr_ApplicationVersion_GetLatestCode(System.IntPtr obj)
-    // Offset: 0x1BBFF70
+    // Offset: 0x1BDAC80
     static int ovr_ApplicationVersion_GetLatestCode(System::IntPtr obj);
     // static public System.String ovr_ApplicationVersion_GetLatestName(System.IntPtr obj)
-    // Offset: 0x1BBFFF0
+    // Offset: 0x1BDAD00
     static ::Il2CppString* ovr_ApplicationVersion_GetLatestName(System::IntPtr obj);
     // static private System.IntPtr ovr_ApplicationVersion_GetLatestName_Native(System.IntPtr obj)
-    // Offset: 0x1BC0058
+    // Offset: 0x1BDAD68
     static System::IntPtr ovr_ApplicationVersion_GetLatestName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetDetails_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1BC00D8
+    // Offset: 0x1BDADE8
     static uint64_t ovr_AssetDetails_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetAssetType(System.IntPtr obj)
-    // Offset: 0x1BC0158
+    // Offset: 0x1BDAE68
     static ::Il2CppString* ovr_AssetDetails_GetAssetType(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetAssetType_Native(System.IntPtr obj)
-    // Offset: 0x1BC01C0
+    // Offset: 0x1BDAED0
     static System::IntPtr ovr_AssetDetails_GetAssetType_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetDownloadStatus(System.IntPtr obj)
-    // Offset: 0x1BC0240
+    // Offset: 0x1BDAF50
     static ::Il2CppString* ovr_AssetDetails_GetDownloadStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetDownloadStatus_Native(System.IntPtr obj)
-    // Offset: 0x1BC02A8
+    // Offset: 0x1BDAFB8
     static System::IntPtr ovr_AssetDetails_GetDownloadStatus_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1BC0328
+    // Offset: 0x1BDB038
     static ::Il2CppString* ovr_AssetDetails_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1BC0390
+    // Offset: 0x1BDB0A0
     static System::IntPtr ovr_AssetDetails_GetFilepath_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetIapStatus(System.IntPtr obj)
-    // Offset: 0x1BC0410
+    // Offset: 0x1BDB120
     static ::Il2CppString* ovr_AssetDetails_GetIapStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetIapStatus_Native(System.IntPtr obj)
-    // Offset: 0x1BC0478
+    // Offset: 0x1BDB188
     static System::IntPtr ovr_AssetDetails_GetIapStatus_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_AssetDetails_GetLanguage(System.IntPtr obj)
-    // Offset: 0x1BC04F8
+    // Offset: 0x1BDB208
     static System::IntPtr ovr_AssetDetails_GetLanguage(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetMetadata(System.IntPtr obj)
-    // Offset: 0x1BC0578
+    // Offset: 0x1BDB288
     static ::Il2CppString* ovr_AssetDetails_GetMetadata(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetMetadata_Native(System.IntPtr obj)
-    // Offset: 0x1BC05E0
+    // Offset: 0x1BDB2F0
     static System::IntPtr ovr_AssetDetails_GetMetadata_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_AssetDetailsArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC0660
+    // Offset: 0x1BDB370
     static System::IntPtr ovr_AssetDetailsArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_AssetDetailsArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC06F0
+    // Offset: 0x1BDB400
     static System::UIntPtr ovr_AssetDetailsArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDeleteResult_GetAssetFileId(System.IntPtr obj)
-    // Offset: 0x1BC0770
+    // Offset: 0x1BDB480
     static uint64_t ovr_AssetFileDeleteResult_GetAssetFileId(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDeleteResult_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1BC07F0
+    // Offset: 0x1BDB500
     static uint64_t ovr_AssetFileDeleteResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDeleteResult_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1BC0870
+    // Offset: 0x1BDB580
     static ::Il2CppString* ovr_AssetFileDeleteResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDeleteResult_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1BC08D8
+    // Offset: 0x1BDB5E8
     static System::IntPtr ovr_AssetFileDeleteResult_GetFilepath_Native(System::IntPtr obj);
     // static public System.Boolean ovr_AssetFileDeleteResult_GetSuccess(System.IntPtr obj)
-    // Offset: 0x1BC0958
+    // Offset: 0x1BDB668
     static bool ovr_AssetFileDeleteResult_GetSuccess(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadCancelResult_GetAssetFileId(System.IntPtr obj)
-    // Offset: 0x1BC09E0
+    // Offset: 0x1BDB6F0
     static uint64_t ovr_AssetFileDownloadCancelResult_GetAssetFileId(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadCancelResult_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1BC0A60
+    // Offset: 0x1BDB770
     static uint64_t ovr_AssetFileDownloadCancelResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDownloadCancelResult_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1BC0AE0
+    // Offset: 0x1BDB7F0
     static ::Il2CppString* ovr_AssetFileDownloadCancelResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDownloadCancelResult_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1BC0B48
+    // Offset: 0x1BDB858
     static System::IntPtr ovr_AssetFileDownloadCancelResult_GetFilepath_Native(System::IntPtr obj);
     // static public System.Boolean ovr_AssetFileDownloadCancelResult_GetSuccess(System.IntPtr obj)
-    // Offset: 0x1BC0BC8
+    // Offset: 0x1BDB8D8
     static bool ovr_AssetFileDownloadCancelResult_GetSuccess(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadResult_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1BC0C50
+    // Offset: 0x1BDB960
     static uint64_t ovr_AssetFileDownloadResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDownloadResult_GetFilepath(System.IntPtr obj)
-    // Offset: 0x1BC0CD0
+    // Offset: 0x1BDB9E0
     static ::Il2CppString* ovr_AssetFileDownloadResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDownloadResult_GetFilepath_Native(System.IntPtr obj)
-    // Offset: 0x1BC0D38
+    // Offset: 0x1BDBA48
     static System::IntPtr ovr_AssetFileDownloadResult_GetFilepath_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadUpdate_GetAssetFileId(System.IntPtr obj)
-    // Offset: 0x1BC0DB8
+    // Offset: 0x1BDBAC8
     static uint64_t ovr_AssetFileDownloadUpdate_GetAssetFileId(System::IntPtr obj);
     // static public System.UInt64 ovr_AssetFileDownloadUpdate_GetAssetId(System.IntPtr obj)
-    // Offset: 0x1BC0E38
+    // Offset: 0x1BDBB48
     static uint64_t ovr_AssetFileDownloadUpdate_GetAssetId(System::IntPtr obj);
     // static public System.UInt32 ovr_AssetFileDownloadUpdate_GetBytesTotal(System.IntPtr obj)
-    // Offset: 0x1BC0EB8
+    // Offset: 0x1BDBBC8
     static uint ovr_AssetFileDownloadUpdate_GetBytesTotal(System::IntPtr obj);
     // static public System.Int32 ovr_AssetFileDownloadUpdate_GetBytesTransferred(System.IntPtr obj)
-    // Offset: 0x1BC0F38
+    // Offset: 0x1BDBC48
     static int ovr_AssetFileDownloadUpdate_GetBytesTransferred(System::IntPtr obj);
     // static public System.Boolean ovr_AssetFileDownloadUpdate_GetCompleted(System.IntPtr obj)
-    // Offset: 0x1BC0FB8
+    // Offset: 0x1BDBCC8
     static bool ovr_AssetFileDownloadUpdate_GetCompleted(System::IntPtr obj);
     // static public System.Int32 ovr_CalApplicationFinalized_GetCountdownMS(System.IntPtr obj)
-    // Offset: 0x1BC1040
+    // Offset: 0x1BDBD50
     static int ovr_CalApplicationFinalized_GetCountdownMS(System::IntPtr obj);
     // static public System.UInt64 ovr_CalApplicationFinalized_GetID(System.IntPtr obj)
-    // Offset: 0x1BC10C0
+    // Offset: 0x1BDBDD0
     static uint64_t ovr_CalApplicationFinalized_GetID(System::IntPtr obj);
     // static public System.String ovr_CalApplicationFinalized_GetLaunchDetails(System.IntPtr obj)
-    // Offset: 0x1BC1140
+    // Offset: 0x1BDBE50
     static ::Il2CppString* ovr_CalApplicationFinalized_GetLaunchDetails(System::IntPtr obj);
     // static private System.IntPtr ovr_CalApplicationFinalized_GetLaunchDetails_Native(System.IntPtr obj)
-    // Offset: 0x1BC11A8
+    // Offset: 0x1BDBEB8
     static System::IntPtr ovr_CalApplicationFinalized_GetLaunchDetails_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_CalApplicationProposed_GetID(System.IntPtr obj)
-    // Offset: 0x1BC1228
+    // Offset: 0x1BDBF38
     static uint64_t ovr_CalApplicationProposed_GetID(System::IntPtr obj);
     // static public System.UInt64 ovr_CalApplicationSuggestion_GetID(System.IntPtr obj)
-    // Offset: 0x1BC12A8
+    // Offset: 0x1BDBFB8
     static uint64_t ovr_CalApplicationSuggestion_GetID(System::IntPtr obj);
     // static public System.String ovr_CalApplicationSuggestion_GetSocialContext(System.IntPtr obj)
-    // Offset: 0x1BC1328
+    // Offset: 0x1BDC038
     static ::Il2CppString* ovr_CalApplicationSuggestion_GetSocialContext(System::IntPtr obj);
     // static private System.IntPtr ovr_CalApplicationSuggestion_GetSocialContext_Native(System.IntPtr obj)
-    // Offset: 0x1BC1390
+    // Offset: 0x1BDC0A0
     static System::IntPtr ovr_CalApplicationSuggestion_GetSocialContext_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_CalApplicationSuggestionArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC1410
+    // Offset: 0x1BDC120
     static System::IntPtr ovr_CalApplicationSuggestionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_CalApplicationSuggestionArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC14A0
+    // Offset: 0x1BDC1B0
     static System::UIntPtr ovr_CalApplicationSuggestionArray_GetSize(System::IntPtr obj);
     // static public Oculus.Platform.ChallengeCreationType ovr_Challenge_GetCreationType(System.IntPtr obj)
-    // Offset: 0x1BC1520
+    // Offset: 0x1BDC230
     static Oculus::Platform::ChallengeCreationType ovr_Challenge_GetCreationType(System::IntPtr obj);
     // static public System.String ovr_Challenge_GetDescription(System.IntPtr obj)
-    // Offset: 0x1BC15A0
+    // Offset: 0x1BDC2B0
     static ::Il2CppString* ovr_Challenge_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Challenge_GetDescription_Native(System.IntPtr obj)
-    // Offset: 0x1BC1608
+    // Offset: 0x1BDC318
     static System::IntPtr ovr_Challenge_GetDescription_Native(System::IntPtr obj);
     // static public System.DateTime ovr_Challenge_GetEndDate(System.IntPtr obj)
-    // Offset: 0x1BC1688
+    // Offset: 0x1BDC398
     static System::DateTime ovr_Challenge_GetEndDate(System::IntPtr obj);
     // static private System.UInt64 ovr_Challenge_GetEndDate_Native(System.IntPtr obj)
-    // Offset: 0x1BC16F0
+    // Offset: 0x1BDC400
     static uint64_t ovr_Challenge_GetEndDate_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Challenge_GetID(System.IntPtr obj)
-    // Offset: 0x1BC1770
+    // Offset: 0x1BDC480
     static uint64_t ovr_Challenge_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_Challenge_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1BC17F0
+    // Offset: 0x1BDC500
     static System::IntPtr ovr_Challenge_GetInvitedUsers(System::IntPtr obj);
     // static public System.IntPtr ovr_Challenge_GetLeaderboard(System.IntPtr obj)
-    // Offset: 0x1BC1870
+    // Offset: 0x1BDC580
     static System::IntPtr ovr_Challenge_GetLeaderboard(System::IntPtr obj);
     // static public System.IntPtr ovr_Challenge_GetParticipants(System.IntPtr obj)
-    // Offset: 0x1BC18F0
+    // Offset: 0x1BDC600
     static System::IntPtr ovr_Challenge_GetParticipants(System::IntPtr obj);
     // static public System.DateTime ovr_Challenge_GetStartDate(System.IntPtr obj)
-    // Offset: 0x1BC1970
+    // Offset: 0x1BDC680
     static System::DateTime ovr_Challenge_GetStartDate(System::IntPtr obj);
     // static private System.UInt64 ovr_Challenge_GetStartDate_Native(System.IntPtr obj)
-    // Offset: 0x1BC19D8
+    // Offset: 0x1BDC6E8
     static uint64_t ovr_Challenge_GetStartDate_Native(System::IntPtr obj);
     // static public System.String ovr_Challenge_GetTitle(System.IntPtr obj)
-    // Offset: 0x1BC1A58
+    // Offset: 0x1BDC768
     static ::Il2CppString* ovr_Challenge_GetTitle(System::IntPtr obj);
     // static private System.IntPtr ovr_Challenge_GetTitle_Native(System.IntPtr obj)
-    // Offset: 0x1BC1AC0
+    // Offset: 0x1BDC7D0
     static System::IntPtr ovr_Challenge_GetTitle_Native(System::IntPtr obj);
     // static public Oculus.Platform.ChallengeVisibility ovr_Challenge_GetVisibility(System.IntPtr obj)
-    // Offset: 0x1BC1B40
+    // Offset: 0x1BDC850
     static Oculus::Platform::ChallengeVisibility ovr_Challenge_GetVisibility(System::IntPtr obj);
     // static public System.IntPtr ovr_ChallengeArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC1BC0
+    // Offset: 0x1BDC8D0
     static System::IntPtr ovr_ChallengeArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ChallengeArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC1C50
+    // Offset: 0x1BDC960
     static ::Il2CppString* ovr_ChallengeArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC1CB8
+    // Offset: 0x1BDC9C8
     static System::IntPtr ovr_ChallengeArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_ChallengeArray_GetPreviousUrl(System.IntPtr obj)
-    // Offset: 0x1BC1D38
+    // Offset: 0x1BDCA48
     static ::Il2CppString* ovr_ChallengeArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeArray_GetPreviousUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC1DA0
+    // Offset: 0x1BDCAB0
     static System::IntPtr ovr_ChallengeArray_GetPreviousUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_ChallengeArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC1E20
+    // Offset: 0x1BDCB30
     static System::UIntPtr ovr_ChallengeArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_ChallengeArray_GetTotalCount(System.IntPtr obj)
-    // Offset: 0x1BC1EA0
+    // Offset: 0x1BDCBB0
     static uint64_t ovr_ChallengeArray_GetTotalCount(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC1F20
+    // Offset: 0x1BDCC30
     static bool ovr_ChallengeArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeArray_HasPreviousPage(System.IntPtr obj)
-    // Offset: 0x1BC1FA8
+    // Offset: 0x1BDCCB8
     static bool ovr_ChallengeArray_HasPreviousPage(System::IntPtr obj);
     // static public System.String ovr_ChallengeEntry_GetDisplayScore(System.IntPtr obj)
-    // Offset: 0x1BC2030
+    // Offset: 0x1BDCD40
     static ::Il2CppString* ovr_ChallengeEntry_GetDisplayScore(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntry_GetDisplayScore_Native(System.IntPtr obj)
-    // Offset: 0x1BC2098
+    // Offset: 0x1BDCDA8
     static System::IntPtr ovr_ChallengeEntry_GetDisplayScore_Native(System::IntPtr obj);
     // static public System.Byte[] ovr_ChallengeEntry_GetExtraData(System.IntPtr obj)
-    // Offset: 0x1BC2118
+    // Offset: 0x1BDCE28
     static ::Array<uint8_t>* ovr_ChallengeEntry_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntry_GetExtraData_Native(System.IntPtr obj)
-    // Offset: 0x1BC2214
+    // Offset: 0x1BDCF24
     static System::IntPtr ovr_ChallengeEntry_GetExtraData_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_ChallengeEntry_GetExtraDataLength(System.IntPtr obj)
-    // Offset: 0x1BC2294
+    // Offset: 0x1BDCFA4
     static uint ovr_ChallengeEntry_GetExtraDataLength(System::IntPtr obj);
     // static public System.Int32 ovr_ChallengeEntry_GetRank(System.IntPtr obj)
-    // Offset: 0x1BC2314
+    // Offset: 0x1BDD024
     static int ovr_ChallengeEntry_GetRank(System::IntPtr obj);
     // static public System.Int64 ovr_ChallengeEntry_GetScore(System.IntPtr obj)
-    // Offset: 0x1BC2394
+    // Offset: 0x1BDD0A4
     static int64_t ovr_ChallengeEntry_GetScore(System::IntPtr obj);
     // static public System.DateTime ovr_ChallengeEntry_GetTimestamp(System.IntPtr obj)
-    // Offset: 0x1BC2414
+    // Offset: 0x1BDD124
     static System::DateTime ovr_ChallengeEntry_GetTimestamp(System::IntPtr obj);
     // static private System.UInt64 ovr_ChallengeEntry_GetTimestamp_Native(System.IntPtr obj)
-    // Offset: 0x1BC247C
+    // Offset: 0x1BDD18C
     static uint64_t ovr_ChallengeEntry_GetTimestamp_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_ChallengeEntry_GetUser(System.IntPtr obj)
-    // Offset: 0x1BC24FC
+    // Offset: 0x1BDD20C
     static System::IntPtr ovr_ChallengeEntry_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_ChallengeEntryArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC257C
+    // Offset: 0x1BDD28C
     static System::IntPtr ovr_ChallengeEntryArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ChallengeEntryArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC260C
+    // Offset: 0x1BDD31C
     static ::Il2CppString* ovr_ChallengeEntryArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntryArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC2674
+    // Offset: 0x1BDD384
     static System::IntPtr ovr_ChallengeEntryArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_ChallengeEntryArray_GetPreviousUrl(System.IntPtr obj)
-    // Offset: 0x1BC26F4
+    // Offset: 0x1BDD404
     static ::Il2CppString* ovr_ChallengeEntryArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntryArray_GetPreviousUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC275C
+    // Offset: 0x1BDD46C
     static System::IntPtr ovr_ChallengeEntryArray_GetPreviousUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_ChallengeEntryArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC27DC
+    // Offset: 0x1BDD4EC
     static System::UIntPtr ovr_ChallengeEntryArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_ChallengeEntryArray_GetTotalCount(System.IntPtr obj)
-    // Offset: 0x1BC285C
+    // Offset: 0x1BDD56C
     static uint64_t ovr_ChallengeEntryArray_GetTotalCount(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeEntryArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC28DC
+    // Offset: 0x1BDD5EC
     static bool ovr_ChallengeEntryArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_ChallengeEntryArray_HasPreviousPage(System.IntPtr obj)
-    // Offset: 0x1BC2964
+    // Offset: 0x1BDD674
     static bool ovr_ChallengeEntryArray_HasPreviousPage(System::IntPtr obj);
     // static public System.String ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System.IntPtr obj)
-    // Offset: 0x1BC29EC
+    // Offset: 0x1BDD6FC
     static ::Il2CppString* ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native(System.IntPtr obj)
-    // Offset: 0x1BC2A54
+    // Offset: 0x1BDD764
     static System::IntPtr ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_CloudStorageConflictMetadata_GetLocal(System.IntPtr obj)
-    // Offset: 0x1BC2AD4
+    // Offset: 0x1BDD7E4
     static System::IntPtr ovr_CloudStorageConflictMetadata_GetLocal(System::IntPtr obj);
     // static public System.IntPtr ovr_CloudStorageConflictMetadata_GetRemote(System.IntPtr obj)
-    // Offset: 0x1BC2B54
+    // Offset: 0x1BDD864
     static System::IntPtr ovr_CloudStorageConflictMetadata_GetRemote(System::IntPtr obj);
     // static public System.String ovr_CloudStorageData_GetBucket(System.IntPtr obj)
-    // Offset: 0x1BC2BD4
+    // Offset: 0x1BDD8E4
     static ::Il2CppString* ovr_CloudStorageData_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetBucket_Native(System.IntPtr obj)
-    // Offset: 0x1BC2C3C
+    // Offset: 0x1BDD94C
     static System::IntPtr ovr_CloudStorageData_GetBucket_Native(System::IntPtr obj);
     // static public System.Byte[] ovr_CloudStorageData_GetData(System.IntPtr obj)
-    // Offset: 0x1BC2CBC
+    // Offset: 0x1BDD9CC
     static ::Array<uint8_t>* ovr_CloudStorageData_GetData(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetData_Native(System.IntPtr obj)
-    // Offset: 0x1BC2DB8
+    // Offset: 0x1BDDAC8
     static System::IntPtr ovr_CloudStorageData_GetData_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_CloudStorageData_GetDataSize(System.IntPtr obj)
-    // Offset: 0x1BC2D38
+    // Offset: 0x1BDDA48
     static uint ovr_CloudStorageData_GetDataSize(System::IntPtr obj);
     // static public System.String ovr_CloudStorageData_GetKey(System.IntPtr obj)
-    // Offset: 0x1BC2E38
+    // Offset: 0x1BDDB48
     static ::Il2CppString* ovr_CloudStorageData_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetKey_Native(System.IntPtr obj)
-    // Offset: 0x1BC2EA0
+    // Offset: 0x1BDDBB0
     static System::IntPtr ovr_CloudStorageData_GetKey_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetBucket(System.IntPtr obj)
-    // Offset: 0x1BC2F20
+    // Offset: 0x1BDDC30
     static ::Il2CppString* ovr_CloudStorageMetadata_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetBucket_Native(System.IntPtr obj)
-    // Offset: 0x1BC2F88
+    // Offset: 0x1BDDC98
     static System::IntPtr ovr_CloudStorageMetadata_GetBucket_Native(System::IntPtr obj);
     // static public System.Int64 ovr_CloudStorageMetadata_GetCounter(System.IntPtr obj)
-    // Offset: 0x1BC3008
+    // Offset: 0x1BDDD18
     static int64_t ovr_CloudStorageMetadata_GetCounter(System::IntPtr obj);
     // static public System.UInt32 ovr_CloudStorageMetadata_GetDataSize(System.IntPtr obj)
-    // Offset: 0x1BC3088
+    // Offset: 0x1BDDD98
     static uint ovr_CloudStorageMetadata_GetDataSize(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetExtraData(System.IntPtr obj)
-    // Offset: 0x1BC3108
+    // Offset: 0x1BDDE18
     static ::Il2CppString* ovr_CloudStorageMetadata_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetExtraData_Native(System.IntPtr obj)
-    // Offset: 0x1BC3170
+    // Offset: 0x1BDDE80
     static System::IntPtr ovr_CloudStorageMetadata_GetExtraData_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetKey(System.IntPtr obj)
-    // Offset: 0x1BC31F0
+    // Offset: 0x1BDDF00
     static ::Il2CppString* ovr_CloudStorageMetadata_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetKey_Native(System.IntPtr obj)
-    // Offset: 0x1BC3258
+    // Offset: 0x1BDDF68
     static System::IntPtr ovr_CloudStorageMetadata_GetKey_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_CloudStorageMetadata_GetSaveTime(System.IntPtr obj)
-    // Offset: 0x1BC32D8
+    // Offset: 0x1BDDFE8
     static uint64_t ovr_CloudStorageMetadata_GetSaveTime(System::IntPtr obj);
     // static public Oculus.Platform.CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(System.IntPtr obj)
-    // Offset: 0x1BC3358
+    // Offset: 0x1BDE068
     static Oculus::Platform::CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetVersionHandle(System.IntPtr obj)
-    // Offset: 0x1BC33D8
+    // Offset: 0x1BDE0E8
     static ::Il2CppString* ovr_CloudStorageMetadata_GetVersionHandle(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetVersionHandle_Native(System.IntPtr obj)
-    // Offset: 0x1BC3440
+    // Offset: 0x1BDE150
     static System::IntPtr ovr_CloudStorageMetadata_GetVersionHandle_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_CloudStorageMetadataArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC34C0
+    // Offset: 0x1BDE1D0
     static System::IntPtr ovr_CloudStorageMetadataArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_CloudStorageMetadataArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC3550
+    // Offset: 0x1BDE260
     static ::Il2CppString* ovr_CloudStorageMetadataArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadataArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC35B8
+    // Offset: 0x1BDE2C8
     static System::IntPtr ovr_CloudStorageMetadataArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_CloudStorageMetadataArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC3638
+    // Offset: 0x1BDE348
     static System::UIntPtr ovr_CloudStorageMetadataArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_CloudStorageMetadataArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC36B8
+    // Offset: 0x1BDE3C8
     static bool ovr_CloudStorageMetadataArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetBucket(System.IntPtr obj)
-    // Offset: 0x1BC3740
+    // Offset: 0x1BDE450
     static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetBucket_Native(System.IntPtr obj)
-    // Offset: 0x1BC37A8
+    // Offset: 0x1BDE4B8
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetBucket_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetKey(System.IntPtr obj)
-    // Offset: 0x1BC3828
+    // Offset: 0x1BDE538
     static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetKey_Native(System.IntPtr obj)
-    // Offset: 0x1BC3890
+    // Offset: 0x1BDE5A0
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetKey_Native(System::IntPtr obj);
     // static public Oculus.Platform.CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(System.IntPtr obj)
-    // Offset: 0x1BC3910
+    // Offset: 0x1BDE620
     static Oculus::Platform::CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetVersionHandle(System.IntPtr obj)
-    // Offset: 0x1BC3990
+    // Offset: 0x1BDE6A0
     static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetVersionHandle(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetVersionHandle_Native(System.IntPtr obj)
-    // Offset: 0x1BC39F8
+    // Offset: 0x1BDE708
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetVersionHandle_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_DataStore_Contains(System.IntPtr obj, System.String key)
-    // Offset: 0x1BC3A78
+    // Offset: 0x1BDE788
     static uint ovr_DataStore_Contains(System::IntPtr obj, ::Il2CppString* key);
     // static private System.UInt32 ovr_DataStore_Contains_Native(System.IntPtr obj, System.IntPtr key)
-    // Offset: 0x1BC3B34
+    // Offset: 0x1BDE844
     static uint ovr_DataStore_Contains_Native(System::IntPtr obj, System::IntPtr key);
     // static public System.String ovr_DataStore_GetKey(System.IntPtr obj, System.Int32 index)
-    // Offset: 0x1BB275C
+    // Offset: 0x1BCD46C
     static ::Il2CppString* ovr_DataStore_GetKey(System::IntPtr obj, int index);
     // static private System.IntPtr ovr_DataStore_GetKey_Native(System.IntPtr obj, System.Int32 index)
-    // Offset: 0x1BC3BC4
+    // Offset: 0x1BDE8D4
     static System::IntPtr ovr_DataStore_GetKey_Native(System::IntPtr obj, int index);
     // static public System.UIntPtr ovr_DataStore_GetNumKeys(System.IntPtr obj)
-    // Offset: 0x1BB26DC
+    // Offset: 0x1BCD3EC
     static System::UIntPtr ovr_DataStore_GetNumKeys(System::IntPtr obj);
     // static public System.String ovr_DataStore_GetValue(System.IntPtr obj, System.String key)
-    // Offset: 0x1BB27D4
+    // Offset: 0x1BCD4E4
     static ::Il2CppString* ovr_DataStore_GetValue(System::IntPtr obj, ::Il2CppString* key);
     // static private System.IntPtr ovr_DataStore_GetValue_Native(System.IntPtr obj, System.IntPtr key)
-    // Offset: 0x1BC3C54
+    // Offset: 0x1BDE964
     static System::IntPtr ovr_DataStore_GetValue_Native(System::IntPtr obj, System::IntPtr key);
     // static public System.String ovr_Destination_GetApiName(System.IntPtr obj)
-    // Offset: 0x1BC3CE4
+    // Offset: 0x1BDE9F4
     static ::Il2CppString* ovr_Destination_GetApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetApiName_Native(System.IntPtr obj)
-    // Offset: 0x1BC3D4C
+    // Offset: 0x1BDEA5C
     static System::IntPtr ovr_Destination_GetApiName_Native(System::IntPtr obj);
     // static public System.String ovr_Destination_GetDeeplinkMessage(System.IntPtr obj)
-    // Offset: 0x1BC3DCC
+    // Offset: 0x1BDEADC
     static ::Il2CppString* ovr_Destination_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetDeeplinkMessage_Native(System.IntPtr obj)
-    // Offset: 0x1BC3E34
+    // Offset: 0x1BDEB44
     static System::IntPtr ovr_Destination_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_Destination_GetDisplayName(System.IntPtr obj)
-    // Offset: 0x1BC3EB4
+    // Offset: 0x1BDEBC4
     static ::Il2CppString* ovr_Destination_GetDisplayName(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetDisplayName_Native(System.IntPtr obj)
-    // Offset: 0x1BC3F1C
+    // Offset: 0x1BDEC2C
     static System::IntPtr ovr_Destination_GetDisplayName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_DestinationArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC3F9C
+    // Offset: 0x1BDECAC
     static System::IntPtr ovr_DestinationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_DestinationArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC402C
+    // Offset: 0x1BDED3C
     static ::Il2CppString* ovr_DestinationArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_DestinationArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC4094
+    // Offset: 0x1BDEDA4
     static System::IntPtr ovr_DestinationArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_DestinationArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC4114
+    // Offset: 0x1BDEE24
     static System::UIntPtr ovr_DestinationArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_DestinationArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC4194
+    // Offset: 0x1BDEEA4
     static bool ovr_DestinationArray_HasNextPage(System::IntPtr obj);
     // static public System.Int32 ovr_Error_GetCode(System.IntPtr obj)
-    // Offset: 0x1BC421C
+    // Offset: 0x1BDEF2C
     static int ovr_Error_GetCode(System::IntPtr obj);
     // static public System.String ovr_Error_GetDisplayableMessage(System.IntPtr obj)
-    // Offset: 0x1BC4298
+    // Offset: 0x1BDEFA8
     static ::Il2CppString* ovr_Error_GetDisplayableMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Error_GetDisplayableMessage_Native(System.IntPtr obj)
-    // Offset: 0x1BC4300
+    // Offset: 0x1BDF010
     static System::IntPtr ovr_Error_GetDisplayableMessage_Native(System::IntPtr obj);
     // static public System.Int32 ovr_Error_GetHttpCode(System.IntPtr obj)
-    // Offset: 0x1BC4380
+    // Offset: 0x1BDF090
     static int ovr_Error_GetHttpCode(System::IntPtr obj);
     // static public System.String ovr_Error_GetMessage(System.IntPtr obj)
-    // Offset: 0x1BC4400
+    // Offset: 0x1BDF110
     static ::Il2CppString* ovr_Error_GetMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Error_GetMessage_Native(System.IntPtr obj)
-    // Offset: 0x1BC4468
+    // Offset: 0x1BDF178
     static System::IntPtr ovr_Error_GetMessage_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System.IntPtr obj)
-    // Offset: 0x1BC44E8
+    // Offset: 0x1BDF1F8
     static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native(System.IntPtr obj)
-    // Offset: 0x1BC4550
+    // Offset: 0x1BDF260
     static System::IntPtr ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System.IntPtr obj)
-    // Offset: 0x1BC45D0
+    // Offset: 0x1BDF2E0
     static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native(System.IntPtr obj)
-    // Offset: 0x1BC4638
+    // Offset: 0x1BDF348
     static System::IntPtr ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System.IntPtr obj)
-    // Offset: 0x1BC46B8
+    // Offset: 0x1BDF3C8
     static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native(System.IntPtr obj)
-    // Offset: 0x1BC4720
+    // Offset: 0x1BDF430
     static System::IntPtr ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_HttpTransferUpdate_GetBytes(System.IntPtr obj)
-    // Offset: 0x1BC47A0
+    // Offset: 0x1BDF4B0
     static System::IntPtr ovr_HttpTransferUpdate_GetBytes(System::IntPtr obj);
     // static public System.UInt64 ovr_HttpTransferUpdate_GetID(System.IntPtr obj)
-    // Offset: 0x1BC4820
+    // Offset: 0x1BDF530
     static uint64_t ovr_HttpTransferUpdate_GetID(System::IntPtr obj);
     // static public System.UIntPtr ovr_HttpTransferUpdate_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC48A0
+    // Offset: 0x1BDF5B0
     static System::UIntPtr ovr_HttpTransferUpdate_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_HttpTransferUpdate_IsCompleted(System.IntPtr obj)
-    // Offset: 0x1BC4920
+    // Offset: 0x1BDF630
     static bool ovr_HttpTransferUpdate_IsCompleted(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetApplicationId(System.IntPtr obj)
-    // Offset: 0x1BC49A8
+    // Offset: 0x1BDF6B8
     static ::Il2CppString* ovr_InstalledApplication_GetApplicationId(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetApplicationId_Native(System.IntPtr obj)
-    // Offset: 0x1BC4A10
+    // Offset: 0x1BDF720
     static System::IntPtr ovr_InstalledApplication_GetApplicationId_Native(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetPackageName(System.IntPtr obj)
-    // Offset: 0x1BC4A90
+    // Offset: 0x1BDF7A0
     static ::Il2CppString* ovr_InstalledApplication_GetPackageName(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetPackageName_Native(System.IntPtr obj)
-    // Offset: 0x1BC4AF8
+    // Offset: 0x1BDF808
     static System::IntPtr ovr_InstalledApplication_GetPackageName_Native(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetStatus(System.IntPtr obj)
-    // Offset: 0x1BC4B78
+    // Offset: 0x1BDF888
     static ::Il2CppString* ovr_InstalledApplication_GetStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetStatus_Native(System.IntPtr obj)
-    // Offset: 0x1BC4BE0
+    // Offset: 0x1BDF8F0
     static System::IntPtr ovr_InstalledApplication_GetStatus_Native(System::IntPtr obj);
     // static public System.Int32 ovr_InstalledApplication_GetVersionCode(System.IntPtr obj)
-    // Offset: 0x1BC4C60
+    // Offset: 0x1BDF970
     static int ovr_InstalledApplication_GetVersionCode(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetVersionName(System.IntPtr obj)
-    // Offset: 0x1BC4CE0
+    // Offset: 0x1BDF9F0
     static ::Il2CppString* ovr_InstalledApplication_GetVersionName(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetVersionName_Native(System.IntPtr obj)
-    // Offset: 0x1BC4D48
+    // Offset: 0x1BDFA58
     static System::IntPtr ovr_InstalledApplication_GetVersionName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_InstalledApplicationArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC4DC8
+    // Offset: 0x1BDFAD8
     static System::IntPtr ovr_InstalledApplicationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_InstalledApplicationArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC4E58
+    // Offset: 0x1BDFB68
     static System::UIntPtr ovr_InstalledApplicationArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_InvitePanelResultInfo_GetInvitesSent(System.IntPtr obj)
-    // Offset: 0x1BC4ED8
+    // Offset: 0x1BDFBE8
     static bool ovr_InvitePanelResultInfo_GetInvitesSent(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetEnglishName(System.IntPtr obj)
-    // Offset: 0x1BC4F60
+    // Offset: 0x1BDFC70
     static ::Il2CppString* ovr_LanguagePackInfo_GetEnglishName(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetEnglishName_Native(System.IntPtr obj)
-    // Offset: 0x1BC4FC8
+    // Offset: 0x1BDFCD8
     static System::IntPtr ovr_LanguagePackInfo_GetEnglishName_Native(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetNativeName(System.IntPtr obj)
-    // Offset: 0x1BC5048
+    // Offset: 0x1BDFD58
     static ::Il2CppString* ovr_LanguagePackInfo_GetNativeName(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetNativeName_Native(System.IntPtr obj)
-    // Offset: 0x1BC50B0
+    // Offset: 0x1BDFDC0
     static System::IntPtr ovr_LanguagePackInfo_GetNativeName_Native(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetTag(System.IntPtr obj)
-    // Offset: 0x1BC5130
+    // Offset: 0x1BDFE40
     static ::Il2CppString* ovr_LanguagePackInfo_GetTag(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetTag_Native(System.IntPtr obj)
-    // Offset: 0x1BC5198
+    // Offset: 0x1BDFEA8
     static System::IntPtr ovr_LanguagePackInfo_GetTag_Native(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchBlockFlowResult_GetDidBlock(System.IntPtr obj)
-    // Offset: 0x1BC5218
+    // Offset: 0x1BDFF28
     static bool ovr_LaunchBlockFlowResult_GetDidBlock(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchBlockFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1BC52A0
+    // Offset: 0x1BDFFB0
     static bool ovr_LaunchBlockFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetDeeplinkMessage(System.IntPtr obj)
-    // Offset: 0x1BC5328
+    // Offset: 0x1BE0038
     static ::Il2CppString* ovr_LaunchDetails_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetDeeplinkMessage_Native(System.IntPtr obj)
-    // Offset: 0x1BC5390
+    // Offset: 0x1BE00A0
     static System::IntPtr ovr_LaunchDetails_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetDestinationApiName(System.IntPtr obj)
-    // Offset: 0x1BC5410
+    // Offset: 0x1BE0120
     static ::Il2CppString* ovr_LaunchDetails_GetDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetDestinationApiName_Native(System.IntPtr obj)
-    // Offset: 0x1BC5478
+    // Offset: 0x1BE0188
     static System::IntPtr ovr_LaunchDetails_GetDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetLaunchSource(System.IntPtr obj)
-    // Offset: 0x1BC54F8
+    // Offset: 0x1BE0208
     static ::Il2CppString* ovr_LaunchDetails_GetLaunchSource(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetLaunchSource_Native(System.IntPtr obj)
-    // Offset: 0x1BC5560
+    // Offset: 0x1BE0270
     static System::IntPtr ovr_LaunchDetails_GetLaunchSource_Native(System::IntPtr obj);
     // static public Oculus.Platform.LaunchType ovr_LaunchDetails_GetLaunchType(System.IntPtr obj)
-    // Offset: 0x1BC55E0
+    // Offset: 0x1BE02F0
     static Oculus::Platform::LaunchType ovr_LaunchDetails_GetLaunchType(System::IntPtr obj);
     // static public System.UInt64 ovr_LaunchDetails_GetRoomID(System.IntPtr obj)
-    // Offset: 0x1BC5660
+    // Offset: 0x1BE0370
     static uint64_t ovr_LaunchDetails_GetRoomID(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetTrackingID(System.IntPtr obj)
-    // Offset: 0x1BC56E0
+    // Offset: 0x1BE03F0
     static ::Il2CppString* ovr_LaunchDetails_GetTrackingID(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetTrackingID_Native(System.IntPtr obj)
-    // Offset: 0x1BC5748
+    // Offset: 0x1BE0458
     static System::IntPtr ovr_LaunchDetails_GetTrackingID_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_LaunchDetails_GetUsers(System.IntPtr obj)
-    // Offset: 0x1BC57C8
+    // Offset: 0x1BE04D8
     static System::IntPtr ovr_LaunchDetails_GetUsers(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchFriendRequestFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1BC5848
+    // Offset: 0x1BE0558
     static bool ovr_LaunchFriendRequestFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchFriendRequestFlowResult_GetDidSendRequest(System.IntPtr obj)
-    // Offset: 0x1BC58D0
+    // Offset: 0x1BE05E0
     static bool ovr_LaunchFriendRequestFlowResult_GetDidSendRequest(System::IntPtr obj);
     // static public System.IntPtr ovr_LaunchInvitePanelFlowResult_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1BC5958
+    // Offset: 0x1BE0668
     static System::IntPtr ovr_LaunchInvitePanelFlowResult_GetInvitedUsers(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchReportFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1BC59D8
+    // Offset: 0x1BE06E8
     static bool ovr_LaunchReportFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.UInt64 ovr_LaunchReportFlowResult_GetUserReportId(System.IntPtr obj)
-    // Offset: 0x1BC5A60
+    // Offset: 0x1BE0770
     static uint64_t ovr_LaunchReportFlowResult_GetUserReportId(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchUnblockFlowResult_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1BC5AE0
+    // Offset: 0x1BE07F0
     static bool ovr_LaunchUnblockFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.Boolean ovr_LaunchUnblockFlowResult_GetDidUnblock(System.IntPtr obj)
-    // Offset: 0x1BC5B68
+    // Offset: 0x1BE0878
     static bool ovr_LaunchUnblockFlowResult_GetDidUnblock(System::IntPtr obj);
     // static public System.String ovr_Leaderboard_GetApiName(System.IntPtr obj)
-    // Offset: 0x1BC5BF0
+    // Offset: 0x1BE0900
     static ::Il2CppString* ovr_Leaderboard_GetApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_Leaderboard_GetApiName_Native(System.IntPtr obj)
-    // Offset: 0x1BC5C58
+    // Offset: 0x1BE0968
     static System::IntPtr ovr_Leaderboard_GetApiName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_Leaderboard_GetDestination(System.IntPtr obj)
-    // Offset: 0x1BC5CD8
+    // Offset: 0x1BE09E8
     static System::IntPtr ovr_Leaderboard_GetDestination(System::IntPtr obj);
     // static public System.UInt64 ovr_Leaderboard_GetID(System.IntPtr obj)
-    // Offset: 0x1BC5D58
+    // Offset: 0x1BE0A68
     static uint64_t ovr_Leaderboard_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_LeaderboardArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC5DD8
+    // Offset: 0x1BE0AE8
     static System::IntPtr ovr_LeaderboardArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_LeaderboardArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC5E68
+    // Offset: 0x1BE0B78
     static ::Il2CppString* ovr_LeaderboardArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC5ED0
+    // Offset: 0x1BE0BE0
     static System::IntPtr ovr_LeaderboardArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_LeaderboardArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC5F50
+    // Offset: 0x1BE0C60
     static System::UIntPtr ovr_LeaderboardArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC5FD0
+    // Offset: 0x1BE0CE0
     static bool ovr_LeaderboardArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_LeaderboardEntry_GetDisplayScore(System.IntPtr obj)
-    // Offset: 0x1BC6058
+    // Offset: 0x1BE0D68
     static ::Il2CppString* ovr_LeaderboardEntry_GetDisplayScore(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntry_GetDisplayScore_Native(System.IntPtr obj)
-    // Offset: 0x1BC60C0
+    // Offset: 0x1BE0DD0
     static System::IntPtr ovr_LeaderboardEntry_GetDisplayScore_Native(System::IntPtr obj);
     // static public System.Byte[] ovr_LeaderboardEntry_GetExtraData(System.IntPtr obj)
-    // Offset: 0x1BC6140
+    // Offset: 0x1BE0E50
     static ::Array<uint8_t>* ovr_LeaderboardEntry_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntry_GetExtraData_Native(System.IntPtr obj)
-    // Offset: 0x1BC61BC
+    // Offset: 0x1BE0ECC
     static System::IntPtr ovr_LeaderboardEntry_GetExtraData_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_LeaderboardEntry_GetExtraDataLength(System.IntPtr obj)
-    // Offset: 0x1BC2194
+    // Offset: 0x1BDCEA4
     static uint ovr_LeaderboardEntry_GetExtraDataLength(System::IntPtr obj);
     // static public System.Int32 ovr_LeaderboardEntry_GetRank(System.IntPtr obj)
-    // Offset: 0x1BC623C
+    // Offset: 0x1BE0F4C
     static int ovr_LeaderboardEntry_GetRank(System::IntPtr obj);
     // static public System.Int64 ovr_LeaderboardEntry_GetScore(System.IntPtr obj)
-    // Offset: 0x1BC62BC
+    // Offset: 0x1BE0FCC
     static int64_t ovr_LeaderboardEntry_GetScore(System::IntPtr obj);
     // static public System.IntPtr ovr_LeaderboardEntry_GetSupplementaryMetric(System.IntPtr obj)
-    // Offset: 0x1BC633C
+    // Offset: 0x1BE104C
     static System::IntPtr ovr_LeaderboardEntry_GetSupplementaryMetric(System::IntPtr obj);
     // static public System.DateTime ovr_LeaderboardEntry_GetTimestamp(System.IntPtr obj)
-    // Offset: 0x1BC63BC
+    // Offset: 0x1BE10CC
     static System::DateTime ovr_LeaderboardEntry_GetTimestamp(System::IntPtr obj);
     // static private System.UInt64 ovr_LeaderboardEntry_GetTimestamp_Native(System.IntPtr obj)
-    // Offset: 0x1BC6424
+    // Offset: 0x1BE1134
     static uint64_t ovr_LeaderboardEntry_GetTimestamp_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_LeaderboardEntry_GetUser(System.IntPtr obj)
-    // Offset: 0x1BC64A4
+    // Offset: 0x1BE11B4
     static System::IntPtr ovr_LeaderboardEntry_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_LeaderboardEntryArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC6524
+    // Offset: 0x1BE1234
     static System::IntPtr ovr_LeaderboardEntryArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_LeaderboardEntryArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC65B4
+    // Offset: 0x1BE12C4
     static ::Il2CppString* ovr_LeaderboardEntryArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntryArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC661C
+    // Offset: 0x1BE132C
     static System::IntPtr ovr_LeaderboardEntryArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_LeaderboardEntryArray_GetPreviousUrl(System.IntPtr obj)
-    // Offset: 0x1BC669C
+    // Offset: 0x1BE13AC
     static ::Il2CppString* ovr_LeaderboardEntryArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntryArray_GetPreviousUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC6704
+    // Offset: 0x1BE1414
     static System::IntPtr ovr_LeaderboardEntryArray_GetPreviousUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_LeaderboardEntryArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC6784
+    // Offset: 0x1BE1494
     static System::UIntPtr ovr_LeaderboardEntryArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_LeaderboardEntryArray_GetTotalCount(System.IntPtr obj)
-    // Offset: 0x1BC6804
+    // Offset: 0x1BE1514
     static uint64_t ovr_LeaderboardEntryArray_GetTotalCount(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardEntryArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC6884
+    // Offset: 0x1BE1594
     static bool ovr_LeaderboardEntryArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardEntryArray_HasPreviousPage(System.IntPtr obj)
-    // Offset: 0x1BC690C
+    // Offset: 0x1BE161C
     static bool ovr_LeaderboardEntryArray_HasPreviousPage(System::IntPtr obj);
     // static public System.Boolean ovr_LeaderboardUpdateStatus_GetDidUpdate(System.IntPtr obj)
-    // Offset: 0x1BC6994
+    // Offset: 0x1BE16A4
     static bool ovr_LeaderboardUpdateStatus_GetDidUpdate(System::IntPtr obj);
     // static public System.UInt64 ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId(System.IntPtr obj, System.UInt32 index)
-    // Offset: 0x1BC6A1C
+    // Offset: 0x1BE172C
     static uint64_t ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId(System::IntPtr obj, uint index);
     // static public System.UInt32 ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize(System.IntPtr obj)
-    // Offset: 0x1BC6AAC
+    // Offset: 0x1BE17BC
     static uint ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize(System::IntPtr obj);
     // static public System.String ovr_LinkedAccount_GetAccessToken(System.IntPtr obj)
-    // Offset: 0x1BC6B2C
+    // Offset: 0x1BE183C
     static ::Il2CppString* ovr_LinkedAccount_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_LinkedAccount_GetAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1BC6B94
+    // Offset: 0x1BE18A4
     static System::IntPtr ovr_LinkedAccount_GetAccessToken_Native(System::IntPtr obj);
     // static public Oculus.Platform.ServiceProvider ovr_LinkedAccount_GetServiceProvider(System.IntPtr obj)
-    // Offset: 0x1BC6C14
+    // Offset: 0x1BE1924
     static Oculus::Platform::ServiceProvider ovr_LinkedAccount_GetServiceProvider(System::IntPtr obj);
     // static public System.String ovr_LinkedAccount_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BC6C94
+    // Offset: 0x1BE19A4
     static ::Il2CppString* ovr_LinkedAccount_GetUserId(System::IntPtr obj);
     // static private System.IntPtr ovr_LinkedAccount_GetUserId_Native(System.IntPtr obj)
-    // Offset: 0x1BC6CFC
+    // Offset: 0x1BE1A0C
     static System::IntPtr ovr_LinkedAccount_GetUserId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_LinkedAccountArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC6D7C
+    // Offset: 0x1BE1A8C
     static System::IntPtr ovr_LinkedAccountArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_LinkedAccountArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC6E0C
+    // Offset: 0x1BE1B1C
     static System::UIntPtr ovr_LinkedAccountArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingApplicationStatus_GetStreamingEnabled(System.IntPtr obj)
-    // Offset: 0x1BC6E8C
+    // Offset: 0x1BE1B9C
     static bool ovr_LivestreamingApplicationStatus_GetStreamingEnabled(System::IntPtr obj);
     // static public Oculus.Platform.LivestreamingStartStatus ovr_LivestreamingStartResult_GetStreamingResult(System.IntPtr obj)
-    // Offset: 0x1BC6F14
+    // Offset: 0x1BE1C24
     static Oculus::Platform::LivestreamingStartStatus ovr_LivestreamingStartResult_GetStreamingResult(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetCommentsVisible(System.IntPtr obj)
-    // Offset: 0x1BC6F94
+    // Offset: 0x1BE1CA4
     static bool ovr_LivestreamingStatus_GetCommentsVisible(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetIsPaused(System.IntPtr obj)
-    // Offset: 0x1BC701C
+    // Offset: 0x1BE1D2C
     static bool ovr_LivestreamingStatus_GetIsPaused(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetLivestreamingEnabled(System.IntPtr obj)
-    // Offset: 0x1BC70A4
+    // Offset: 0x1BE1DB4
     static bool ovr_LivestreamingStatus_GetLivestreamingEnabled(System::IntPtr obj);
     // static public System.Int32 ovr_LivestreamingStatus_GetLivestreamingType(System.IntPtr obj)
-    // Offset: 0x1BC712C
+    // Offset: 0x1BE1E3C
     static int ovr_LivestreamingStatus_GetLivestreamingType(System::IntPtr obj);
     // static public System.Boolean ovr_LivestreamingStatus_GetMicEnabled(System.IntPtr obj)
-    // Offset: 0x1BC71AC
+    // Offset: 0x1BE1EBC
     static bool ovr_LivestreamingStatus_GetMicEnabled(System::IntPtr obj);
     // static public System.Int32 ovr_LivestreamingVideoStats_GetCommentCount(System.IntPtr obj)
-    // Offset: 0x1BC7234
+    // Offset: 0x1BE1F44
     static int ovr_LivestreamingVideoStats_GetCommentCount(System::IntPtr obj);
     // static public System.Int32 ovr_LivestreamingVideoStats_GetReactionCount(System.IntPtr obj)
-    // Offset: 0x1BC72B4
+    // Offset: 0x1BE1FC4
     static int ovr_LivestreamingVideoStats_GetReactionCount(System::IntPtr obj);
     // static public System.String ovr_LivestreamingVideoStats_GetTotalViews(System.IntPtr obj)
-    // Offset: 0x1BC7334
+    // Offset: 0x1BE2044
     static ::Il2CppString* ovr_LivestreamingVideoStats_GetTotalViews(System::IntPtr obj);
     // static private System.IntPtr ovr_LivestreamingVideoStats_GetTotalViews_Native(System.IntPtr obj)
-    // Offset: 0x1BC739C
+    // Offset: 0x1BE20AC
     static System::IntPtr ovr_LivestreamingVideoStats_GetTotalViews_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingAdminSnapshot_GetCandidates(System.IntPtr obj)
-    // Offset: 0x1BC741C
+    // Offset: 0x1BE212C
     static System::IntPtr ovr_MatchmakingAdminSnapshot_GetCandidates(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold(System.IntPtr obj)
-    // Offset: 0x1BC749C
+    // Offset: 0x1BE21AC
     static double ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold(System::IntPtr obj);
     // static public System.Boolean ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch(System.IntPtr obj)
-    // Offset: 0x1BC751C
+    // Offset: 0x1BE222C
     static bool ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore(System.IntPtr obj)
-    // Offset: 0x1BC75A4
+    // Offset: 0x1BE22B4
     static double ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold(System.IntPtr obj)
-    // Offset: 0x1BC7624
+    // Offset: 0x1BE2334
     static double ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore(System.IntPtr obj)
-    // Offset: 0x1BC76A4
+    // Offset: 0x1BE23B4
     static double ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore(System::IntPtr obj);
     // static public System.String ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System.IntPtr obj)
-    // Offset: 0x1BC7724
+    // Offset: 0x1BE2434
     static ::Il2CppString* ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native(System.IntPtr obj)
-    // Offset: 0x1BC778C
+    // Offset: 0x1BE249C
     static System::IntPtr ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC780C
+    // Offset: 0x1BE251C
     static System::IntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC789C
+    // Offset: 0x1BE25AC
     static System::UIntPtr ovr_MatchmakingAdminSnapshotCandidateArray_GetSize(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingBrowseResult_GetEnqueueResult(System.IntPtr obj)
-    // Offset: 0x1BC791C
+    // Offset: 0x1BE262C
     static System::IntPtr ovr_MatchmakingBrowseResult_GetEnqueueResult(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingBrowseResult_GetRooms(System.IntPtr obj)
-    // Offset: 0x1BC799C
+    // Offset: 0x1BE26AC
     static System::IntPtr ovr_MatchmakingBrowseResult_GetRooms(System::IntPtr obj);
     // static public System.String ovr_MatchmakingCandidate_GetEntryHash(System.IntPtr obj)
-    // Offset: 0x1BC7A1C
+    // Offset: 0x1BE272C
     static ::Il2CppString* ovr_MatchmakingCandidate_GetEntryHash(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingCandidate_GetEntryHash_Native(System.IntPtr obj)
-    // Offset: 0x1BC7A84
+    // Offset: 0x1BE2794
     static System::IntPtr ovr_MatchmakingCandidate_GetEntryHash_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_MatchmakingCandidate_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BC7B04
+    // Offset: 0x1BE2814
     static uint64_t ovr_MatchmakingCandidate_GetUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingCandidateArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC7B84
+    // Offset: 0x1BE2894
     static System::IntPtr ovr_MatchmakingCandidateArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_MatchmakingCandidateArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BC7C14
+    // Offset: 0x1BE2924
     static ::Il2CppString* ovr_MatchmakingCandidateArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingCandidateArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BC7C7C
+    // Offset: 0x1BE298C
     static System::IntPtr ovr_MatchmakingCandidateArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_MatchmakingCandidateArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC7CFC
+    // Offset: 0x1BE2A0C
     static System::UIntPtr ovr_MatchmakingCandidateArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_MatchmakingCandidateArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BC7D7C
+    // Offset: 0x1BE2A8C
     static bool ovr_MatchmakingCandidateArray_HasNextPage(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueueResult_GetAdminSnapshot(System.IntPtr obj)
-    // Offset: 0x1BC7E04
+    // Offset: 0x1BE2B14
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetAdminSnapshot(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetAverageWait(System.IntPtr obj)
-    // Offset: 0x1BC7E84
+    // Offset: 0x1BE2B94
     static uint ovr_MatchmakingEnqueueResult_GetAverageWait(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount(System.IntPtr obj)
-    // Offset: 0x1BC7F04
+    // Offset: 0x1BE2C14
     static uint ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetMaxExpectedWait(System.IntPtr obj)
-    // Offset: 0x1BC7F84
+    // Offset: 0x1BE2C94
     static uint ovr_MatchmakingEnqueueResult_GetMaxExpectedWait(System::IntPtr obj);
     // static public System.String ovr_MatchmakingEnqueueResult_GetPool(System.IntPtr obj)
-    // Offset: 0x1BC8004
+    // Offset: 0x1BE2D14
     static ::Il2CppString* ovr_MatchmakingEnqueueResult_GetPool(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingEnqueueResult_GetPool_Native(System.IntPtr obj)
-    // Offset: 0x1BC806C
+    // Offset: 0x1BE2D7C
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetPool_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage(System.IntPtr obj)
-    // Offset: 0x1BC80EC
+    // Offset: 0x1BE2DFC
     static uint ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage(System::IntPtr obj);
     // static public System.String ovr_MatchmakingEnqueueResult_GetRequestHash(System.IntPtr obj)
-    // Offset: 0x1BC816C
+    // Offset: 0x1BE2E7C
     static ::Il2CppString* ovr_MatchmakingEnqueueResult_GetRequestHash(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingEnqueueResult_GetRequestHash_Native(System.IntPtr obj)
-    // Offset: 0x1BC81D4
+    // Offset: 0x1BE2EE4
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetRequestHash_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult(System.IntPtr obj)
-    // Offset: 0x1BC8254
+    // Offset: 0x1BE2F64
     static System::IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetRoom(System.IntPtr obj)
-    // Offset: 0x1BC82D4
+    // Offset: 0x1BE2FE4
     static System::IntPtr ovr_MatchmakingEnqueueResultAndRoom_GetRoom(System::IntPtr obj);
     // static public System.UInt64 ovr_MatchmakingEnqueuedUser_GetAdditionalUserID(System.IntPtr obj, System.UInt32 index)
-    // Offset: 0x1BC8354
+    // Offset: 0x1BE3064
     static uint64_t ovr_MatchmakingEnqueuedUser_GetAdditionalUserID(System::IntPtr obj, uint index);
     // static public System.UInt32 ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize(System.IntPtr obj)
-    // Offset: 0x1BC83E4
+    // Offset: 0x1BE30F4
     static uint ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueuedUser_GetCustomData(System.IntPtr obj)
-    // Offset: 0x1BC8464
+    // Offset: 0x1BE3174
     static System::IntPtr ovr_MatchmakingEnqueuedUser_GetCustomData(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueuedUser_GetUser(System.IntPtr obj)
-    // Offset: 0x1BC84E4
+    // Offset: 0x1BE31F4
     static System::IntPtr ovr_MatchmakingEnqueuedUser_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingEnqueuedUserArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC8564
+    // Offset: 0x1BE3274
     static System::IntPtr ovr_MatchmakingEnqueuedUserArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_MatchmakingEnqueuedUserArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC85F4
+    // Offset: 0x1BE3304
     static System::UIntPtr ovr_MatchmakingEnqueuedUserArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_MatchmakingNotification_GetAddedByUserId(System.IntPtr obj)
-    // Offset: 0x1BC8674
+    // Offset: 0x1BE3384
     static uint64_t ovr_MatchmakingNotification_GetAddedByUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingNotification_GetRoom(System.IntPtr obj)
-    // Offset: 0x1BC86F4
+    // Offset: 0x1BE3404
     static System::IntPtr ovr_MatchmakingNotification_GetRoom(System::IntPtr obj);
     // static public System.String ovr_MatchmakingNotification_GetTraceId(System.IntPtr obj)
-    // Offset: 0x1BC8774
+    // Offset: 0x1BE3484
     static ::Il2CppString* ovr_MatchmakingNotification_GetTraceId(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingNotification_GetTraceId_Native(System.IntPtr obj)
-    // Offset: 0x1BC87DC
+    // Offset: 0x1BE34EC
     static System::IntPtr ovr_MatchmakingNotification_GetTraceId_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingRoom_GetPingTime(System.IntPtr obj)
-    // Offset: 0x1BC885C
+    // Offset: 0x1BE356C
     static uint ovr_MatchmakingRoom_GetPingTime(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingRoom_GetRoom(System.IntPtr obj)
-    // Offset: 0x1BC88DC
+    // Offset: 0x1BE35EC
     static System::IntPtr ovr_MatchmakingRoom_GetRoom(System::IntPtr obj);
     // static public System.Boolean ovr_MatchmakingRoom_HasPingTime(System.IntPtr obj)
-    // Offset: 0x1BC895C
+    // Offset: 0x1BE366C
     static bool ovr_MatchmakingRoom_HasPingTime(System::IntPtr obj);
     // static public System.IntPtr ovr_MatchmakingRoomArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BC89E4
+    // Offset: 0x1BE36F4
     static System::IntPtr ovr_MatchmakingRoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_MatchmakingRoomArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BC8A74
+    // Offset: 0x1BE3784
     static System::UIntPtr ovr_MatchmakingRoomArray_GetSize(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetDrawCount(System.IntPtr obj)
-    // Offset: 0x1BC8AF4
+    // Offset: 0x1BE3804
     static uint ovr_MatchmakingStats_GetDrawCount(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetLossCount(System.IntPtr obj)
-    // Offset: 0x1BC8B74
+    // Offset: 0x1BE3884
     static uint ovr_MatchmakingStats_GetLossCount(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetSkillLevel(System.IntPtr obj)
-    // Offset: 0x1BC8BF4
+    // Offset: 0x1BE3904
     static uint ovr_MatchmakingStats_GetSkillLevel(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingStats_GetSkillMean(System.IntPtr obj)
-    // Offset: 0x1BC8C74
+    // Offset: 0x1BE3984
     static double ovr_MatchmakingStats_GetSkillMean(System::IntPtr obj);
     // static public System.Double ovr_MatchmakingStats_GetSkillStandardDeviation(System.IntPtr obj)
-    // Offset: 0x1BC8CF4
+    // Offset: 0x1BE3A04
     static double ovr_MatchmakingStats_GetSkillStandardDeviation(System::IntPtr obj);
     // static public System.UInt32 ovr_MatchmakingStats_GetWinCount(System.IntPtr obj)
-    // Offset: 0x1BC8D74
+    // Offset: 0x1BE3A84
     static uint ovr_MatchmakingStats_GetWinCount(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAbuseReportRecording(System.IntPtr obj)
-    // Offset: 0x1BC8DF4
+    // Offset: 0x1BE3B04
     static System::IntPtr ovr_Message_GetAbuseReportRecording(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAchievementDefinitionArray(System.IntPtr obj)
-    // Offset: 0x1BC8E74
+    // Offset: 0x1BE3B84
     static System::IntPtr ovr_Message_GetAchievementDefinitionArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAchievementProgressArray(System.IntPtr obj)
-    // Offset: 0x1BC8EF4
+    // Offset: 0x1BE3C04
     static System::IntPtr ovr_Message_GetAchievementProgressArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAchievementUpdate(System.IntPtr obj)
-    // Offset: 0x1BC8F74
+    // Offset: 0x1BE3C84
     static System::IntPtr ovr_Message_GetAchievementUpdate(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetApplicationVersion(System.IntPtr obj)
-    // Offset: 0x1BC8FF4
+    // Offset: 0x1BE3D04
     static System::IntPtr ovr_Message_GetApplicationVersion(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetDetails(System.IntPtr obj)
-    // Offset: 0x1BC9074
+    // Offset: 0x1BE3D84
     static System::IntPtr ovr_Message_GetAssetDetails(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetDetailsArray(System.IntPtr obj)
-    // Offset: 0x1BC90F4
+    // Offset: 0x1BE3E04
     static System::IntPtr ovr_Message_GetAssetDetailsArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDeleteResult(System.IntPtr obj)
-    // Offset: 0x1BC9174
+    // Offset: 0x1BE3E84
     static System::IntPtr ovr_Message_GetAssetFileDeleteResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDownloadCancelResult(System.IntPtr obj)
-    // Offset: 0x1BC91F4
+    // Offset: 0x1BE3F04
     static System::IntPtr ovr_Message_GetAssetFileDownloadCancelResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDownloadResult(System.IntPtr obj)
-    // Offset: 0x1BC9274
+    // Offset: 0x1BE3F84
     static System::IntPtr ovr_Message_GetAssetFileDownloadResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetAssetFileDownloadUpdate(System.IntPtr obj)
-    // Offset: 0x1BC92F4
+    // Offset: 0x1BE4004
     static System::IntPtr ovr_Message_GetAssetFileDownloadUpdate(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCalApplicationFinalized(System.IntPtr obj)
-    // Offset: 0x1BC9374
+    // Offset: 0x1BE4084
     static System::IntPtr ovr_Message_GetCalApplicationFinalized(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCalApplicationProposed(System.IntPtr obj)
-    // Offset: 0x1BC93F4
+    // Offset: 0x1BE4104
     static System::IntPtr ovr_Message_GetCalApplicationProposed(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCalApplicationSuggestionArray(System.IntPtr obj)
-    // Offset: 0x1BC9474
+    // Offset: 0x1BE4184
     static System::IntPtr ovr_Message_GetCalApplicationSuggestionArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetChallenge(System.IntPtr obj)
-    // Offset: 0x1BC94F4
+    // Offset: 0x1BE4204
     static System::IntPtr ovr_Message_GetChallenge(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetChallengeArray(System.IntPtr obj)
-    // Offset: 0x1BC9574
+    // Offset: 0x1BE4284
     static System::IntPtr ovr_Message_GetChallengeArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetChallengeEntryArray(System.IntPtr obj)
-    // Offset: 0x1BC95F4
+    // Offset: 0x1BE4304
     static System::IntPtr ovr_Message_GetChallengeEntryArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageConflictMetadata(System.IntPtr obj)
-    // Offset: 0x1BC9674
+    // Offset: 0x1BE4384
     static System::IntPtr ovr_Message_GetCloudStorageConflictMetadata(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageData(System.IntPtr obj)
-    // Offset: 0x1BC96F4
+    // Offset: 0x1BE4404
     static System::IntPtr ovr_Message_GetCloudStorageData(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageMetadata(System.IntPtr obj)
-    // Offset: 0x1BC9774
+    // Offset: 0x1BE4484
     static System::IntPtr ovr_Message_GetCloudStorageMetadata(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageMetadataArray(System.IntPtr obj)
-    // Offset: 0x1BC97F4
+    // Offset: 0x1BE4504
     static System::IntPtr ovr_Message_GetCloudStorageMetadataArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetCloudStorageUpdateResponse(System.IntPtr obj)
-    // Offset: 0x1BC9874
+    // Offset: 0x1BE4584
     static System::IntPtr ovr_Message_GetCloudStorageUpdateResponse(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetDataStore(System.IntPtr obj)
-    // Offset: 0x1BC98F4
+    // Offset: 0x1BE4604
     static System::IntPtr ovr_Message_GetDataStore(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetDestinationArray(System.IntPtr obj)
-    // Offset: 0x1BC9974
+    // Offset: 0x1BE4684
     static System::IntPtr ovr_Message_GetDestinationArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetError(System.IntPtr obj)
-    // Offset: 0x1BC99F4
+    // Offset: 0x1BE4704
     static System::IntPtr ovr_Message_GetError(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetGroupPresenceLeaveIntent(System.IntPtr obj)
-    // Offset: 0x1BC9A74
+    // Offset: 0x1BE4784
     static System::IntPtr ovr_Message_GetGroupPresenceLeaveIntent(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetHttpTransferUpdate(System.IntPtr obj)
-    // Offset: 0x1BC9AF4
+    // Offset: 0x1BE4804
     static System::IntPtr ovr_Message_GetHttpTransferUpdate(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetInstalledApplicationArray(System.IntPtr obj)
-    // Offset: 0x1BC9B74
+    // Offset: 0x1BE4884
     static System::IntPtr ovr_Message_GetInstalledApplicationArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetInvitePanelResultInfo(System.IntPtr obj)
-    // Offset: 0x1BC9BF4
+    // Offset: 0x1BE4904
     static System::IntPtr ovr_Message_GetInvitePanelResultInfo(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchBlockFlowResult(System.IntPtr obj)
-    // Offset: 0x1BC9C74
+    // Offset: 0x1BE4984
     static System::IntPtr ovr_Message_GetLaunchBlockFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchFriendRequestFlowResult(System.IntPtr obj)
-    // Offset: 0x1BC9CF4
+    // Offset: 0x1BE4A04
     static System::IntPtr ovr_Message_GetLaunchFriendRequestFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchInvitePanelFlowResult(System.IntPtr obj)
-    // Offset: 0x1BC9D74
+    // Offset: 0x1BE4A84
     static System::IntPtr ovr_Message_GetLaunchInvitePanelFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchReportFlowResult(System.IntPtr obj)
-    // Offset: 0x1BC9DF4
+    // Offset: 0x1BE4B04
     static System::IntPtr ovr_Message_GetLaunchReportFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLaunchUnblockFlowResult(System.IntPtr obj)
-    // Offset: 0x1BC9E74
+    // Offset: 0x1BE4B84
     static System::IntPtr ovr_Message_GetLaunchUnblockFlowResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLeaderboardArray(System.IntPtr obj)
-    // Offset: 0x1BC9EF4
+    // Offset: 0x1BE4C04
     static System::IntPtr ovr_Message_GetLeaderboardArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLeaderboardEntryArray(System.IntPtr obj)
-    // Offset: 0x1BC9F74
+    // Offset: 0x1BE4C84
     static System::IntPtr ovr_Message_GetLeaderboardEntryArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLeaderboardUpdateStatus(System.IntPtr obj)
-    // Offset: 0x1BC9FF4
+    // Offset: 0x1BE4D04
     static System::IntPtr ovr_Message_GetLeaderboardUpdateStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLinkedAccountArray(System.IntPtr obj)
-    // Offset: 0x1BCA074
+    // Offset: 0x1BE4D84
     static System::IntPtr ovr_Message_GetLinkedAccountArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingApplicationStatus(System.IntPtr obj)
-    // Offset: 0x1BCA0F4
+    // Offset: 0x1BE4E04
     static System::IntPtr ovr_Message_GetLivestreamingApplicationStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingStartResult(System.IntPtr obj)
-    // Offset: 0x1BCA174
+    // Offset: 0x1BE4E84
     static System::IntPtr ovr_Message_GetLivestreamingStartResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingStatus(System.IntPtr obj)
-    // Offset: 0x1BCA1F4
+    // Offset: 0x1BE4F04
     static System::IntPtr ovr_Message_GetLivestreamingStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetLivestreamingVideoStats(System.IntPtr obj)
-    // Offset: 0x1BCA274
+    // Offset: 0x1BE4F84
     static System::IntPtr ovr_Message_GetLivestreamingVideoStats(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingAdminSnapshot(System.IntPtr obj)
-    // Offset: 0x1BCA2F4
+    // Offset: 0x1BE5004
     static System::IntPtr ovr_Message_GetMatchmakingAdminSnapshot(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingBrowseResult(System.IntPtr obj)
-    // Offset: 0x1BCA374
+    // Offset: 0x1BE5084
     static System::IntPtr ovr_Message_GetMatchmakingBrowseResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingEnqueueResult(System.IntPtr obj)
-    // Offset: 0x1BCA3F4
+    // Offset: 0x1BE5104
     static System::IntPtr ovr_Message_GetMatchmakingEnqueueResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingEnqueueResultAndRoom(System.IntPtr obj)
-    // Offset: 0x1BCA474
+    // Offset: 0x1BE5184
     static System::IntPtr ovr_Message_GetMatchmakingEnqueueResultAndRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingRoomArray(System.IntPtr obj)
-    // Offset: 0x1BCA4F4
+    // Offset: 0x1BE5204
     static System::IntPtr ovr_Message_GetMatchmakingRoomArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetMatchmakingStats(System.IntPtr obj)
-    // Offset: 0x1BCA574
+    // Offset: 0x1BE5284
     static System::IntPtr ovr_Message_GetMatchmakingStats(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNativeMessage(System.IntPtr obj)
-    // Offset: 0x1BCA5F4
+    // Offset: 0x1BE5304
     static System::IntPtr ovr_Message_GetNativeMessage(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncConnection(System.IntPtr obj)
-    // Offset: 0x1BCA674
+    // Offset: 0x1BE5384
     static System::IntPtr ovr_Message_GetNetSyncConnection(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncSessionArray(System.IntPtr obj)
-    // Offset: 0x1BCA6F4
+    // Offset: 0x1BE5404
     static System::IntPtr ovr_Message_GetNetSyncSessionArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncSessionsChangedNotification(System.IntPtr obj)
-    // Offset: 0x1BCA774
+    // Offset: 0x1BE5484
     static System::IntPtr ovr_Message_GetNetSyncSessionsChangedNotification(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncSetSessionPropertyResult(System.IntPtr obj)
-    // Offset: 0x1BCA7F4
+    // Offset: 0x1BE5504
     static System::IntPtr ovr_Message_GetNetSyncSetSessionPropertyResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetSyncVoipAttenuationValueArray(System.IntPtr obj)
-    // Offset: 0x1BCA874
+    // Offset: 0x1BE5584
     static System::IntPtr ovr_Message_GetNetSyncVoipAttenuationValueArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetNetworkingPeer(System.IntPtr obj)
-    // Offset: 0x1BCA8F4
+    // Offset: 0x1BE5604
     static System::IntPtr ovr_Message_GetNetworkingPeer(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetOrgScopedID(System.IntPtr obj)
-    // Offset: 0x1BCA974
+    // Offset: 0x1BE5684
     static System::IntPtr ovr_Message_GetOrgScopedID(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetParty(System.IntPtr obj)
-    // Offset: 0x1BCA9F4
+    // Offset: 0x1BE5704
     static System::IntPtr ovr_Message_GetParty(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPartyID(System.IntPtr obj)
-    // Offset: 0x1BCAA74
+    // Offset: 0x1BE5784
     static System::IntPtr ovr_Message_GetPartyID(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPartyUpdateNotification(System.IntPtr obj)
-    // Offset: 0x1BCAAF4
+    // Offset: 0x1BE5804
     static System::IntPtr ovr_Message_GetPartyUpdateNotification(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPidArray(System.IntPtr obj)
-    // Offset: 0x1BCAB74
+    // Offset: 0x1BE5884
     static System::IntPtr ovr_Message_GetPidArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPingResult(System.IntPtr obj)
-    // Offset: 0x1BCABF4
+    // Offset: 0x1BE5904
     static System::IntPtr ovr_Message_GetPingResult(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPlatformInitialize(System.IntPtr obj)
-    // Offset: 0x1BCAC74
+    // Offset: 0x1BE5984
     static System::IntPtr ovr_Message_GetPlatformInitialize(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetProductArray(System.IntPtr obj)
-    // Offset: 0x1BCACF4
+    // Offset: 0x1BE5A04
     static System::IntPtr ovr_Message_GetProductArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPurchase(System.IntPtr obj)
-    // Offset: 0x1BCAD74
+    // Offset: 0x1BE5A84
     static System::IntPtr ovr_Message_GetPurchase(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetPurchaseArray(System.IntPtr obj)
-    // Offset: 0x1BCADF4
+    // Offset: 0x1BE5B04
     static System::IntPtr ovr_Message_GetPurchaseArray(System::IntPtr obj);
     // static public System.UInt64 ovr_Message_GetRequestID(System.IntPtr obj)
-    // Offset: 0x1BCAE74
+    // Offset: 0x1BE5B84
     static uint64_t ovr_Message_GetRequestID(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoom(System.IntPtr obj)
-    // Offset: 0x1BCAEF4
+    // Offset: 0x1BE5C04
     static System::IntPtr ovr_Message_GetRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoomArray(System.IntPtr obj)
-    // Offset: 0x1BCAF74
+    // Offset: 0x1BE5C84
     static System::IntPtr ovr_Message_GetRoomArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoomInviteNotification(System.IntPtr obj)
-    // Offset: 0x1BCAFF4
+    // Offset: 0x1BE5D04
     static System::IntPtr ovr_Message_GetRoomInviteNotification(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetRoomInviteNotificationArray(System.IntPtr obj)
-    // Offset: 0x1BCB074
+    // Offset: 0x1BE5D84
     static System::IntPtr ovr_Message_GetRoomInviteNotificationArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetSdkAccountArray(System.IntPtr obj)
-    // Offset: 0x1BCB0F4
+    // Offset: 0x1BE5E04
     static System::IntPtr ovr_Message_GetSdkAccountArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetShareMediaResult(System.IntPtr obj)
-    // Offset: 0x1BCB174
+    // Offset: 0x1BE5E84
     static System::IntPtr ovr_Message_GetShareMediaResult(System::IntPtr obj);
     // static public System.String ovr_Message_GetString(System.IntPtr obj)
-    // Offset: 0x1BCB1F4
+    // Offset: 0x1BE5F04
     static ::Il2CppString* ovr_Message_GetString(System::IntPtr obj);
     // static private System.IntPtr ovr_Message_GetString_Native(System.IntPtr obj)
-    // Offset: 0x1BCB25C
+    // Offset: 0x1BE5F6C
     static System::IntPtr ovr_Message_GetString_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetSystemPermission(System.IntPtr obj)
-    // Offset: 0x1BCB2DC
+    // Offset: 0x1BE5FEC
     static System::IntPtr ovr_Message_GetSystemPermission(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetSystemVoipState(System.IntPtr obj)
-    // Offset: 0x1BCB35C
+    // Offset: 0x1BE606C
     static System::IntPtr ovr_Message_GetSystemVoipState(System::IntPtr obj);
     // static public Oculus.Platform.Message/MessageType ovr_Message_GetType(System.IntPtr obj)
-    // Offset: 0x1BCB3DC
+    // Offset: 0x1BE60EC
     static Oculus::Platform::Message::MessageType ovr_Message_GetType(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUser(System.IntPtr obj)
-    // Offset: 0x1BCB45C
+    // Offset: 0x1BE616C
     static System::IntPtr ovr_Message_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserAndRoomArray(System.IntPtr obj)
-    // Offset: 0x1BCB4DC
+    // Offset: 0x1BE61EC
     static System::IntPtr ovr_Message_GetUserAndRoomArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserArray(System.IntPtr obj)
-    // Offset: 0x1BCB55C
+    // Offset: 0x1BE626C
     static System::IntPtr ovr_Message_GetUserArray(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserDataStoreUpdateResponse(System.IntPtr obj)
-    // Offset: 0x1BCB5DC
+    // Offset: 0x1BE62EC
     static System::IntPtr ovr_Message_GetUserDataStoreUpdateResponse(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserProof(System.IntPtr obj)
-    // Offset: 0x1BCB65C
+    // Offset: 0x1BE636C
     static System::IntPtr ovr_Message_GetUserProof(System::IntPtr obj);
     // static public System.IntPtr ovr_Message_GetUserReportID(System.IntPtr obj)
-    // Offset: 0x1BCB6DC
+    // Offset: 0x1BE63EC
     static System::IntPtr ovr_Message_GetUserReportID(System::IntPtr obj);
     // static public System.Boolean ovr_Message_IsError(System.IntPtr obj)
-    // Offset: 0x1BCB75C
+    // Offset: 0x1BE646C
     static bool ovr_Message_IsError(System::IntPtr obj);
     // static public System.UIntPtr ovr_Microphone_GetNumSamplesAvailable(System.IntPtr obj)
-    // Offset: 0x1BCB7E4
+    // Offset: 0x1BE64F4
     static System::UIntPtr ovr_Microphone_GetNumSamplesAvailable(System::IntPtr obj);
     // static public System.UIntPtr ovr_Microphone_GetOutputBufferMaxSize(System.IntPtr obj)
-    // Offset: 0x1BCB864
+    // Offset: 0x1BE6574
     static System::UIntPtr ovr_Microphone_GetOutputBufferMaxSize(System::IntPtr obj);
     // static public System.UIntPtr ovr_Microphone_GetPCM(System.IntPtr obj, System.Int16[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BCB8E4
+    // Offset: 0x1BE65F4
     static System::UIntPtr ovr_Microphone_GetPCM(System::IntPtr obj, ::Array<int16_t>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Microphone_GetPCMFloat(System.IntPtr obj, System.Single[] outputBuffer, System.UIntPtr outputBufferNumElements)
-    // Offset: 0x1BCB984
+    // Offset: 0x1BE6694
     static System::UIntPtr ovr_Microphone_GetPCMFloat(System::IntPtr obj, ::Array<float>* outputBuffer, System::UIntPtr outputBufferNumElements);
     // static public System.UIntPtr ovr_Microphone_ReadData(System.IntPtr obj, System.Single[] outputBuffer, System.UIntPtr outputBufferSize)
-    // Offset: 0x1BCBA24
+    // Offset: 0x1BE6734
     static System::UIntPtr ovr_Microphone_ReadData(System::IntPtr obj, ::Array<float>* outputBuffer, System::UIntPtr outputBufferSize);
     // static public System.Void ovr_Microphone_SetAcceptableRecordingDelayHint(System.IntPtr obj, System.UIntPtr delayMs)
-    // Offset: 0x1BCBAC4
+    // Offset: 0x1BE67D4
     static void ovr_Microphone_SetAcceptableRecordingDelayHint(System::IntPtr obj, System::UIntPtr delayMs);
     // static public System.Void ovr_Microphone_Start(System.IntPtr obj)
-    // Offset: 0x1BCBB54
+    // Offset: 0x1BE6864
     static void ovr_Microphone_Start(System::IntPtr obj);
     // static public System.Void ovr_Microphone_Stop(System.IntPtr obj)
-    // Offset: 0x1BCBBD4
+    // Offset: 0x1BE68E4
     static void ovr_Microphone_Stop(System::IntPtr obj);
     // static public System.Int64 ovr_NetSyncConnection_GetConnectionId(System.IntPtr obj)
-    // Offset: 0x1BCBC54
+    // Offset: 0x1BE6964
     static int64_t ovr_NetSyncConnection_GetConnectionId(System::IntPtr obj);
     // static public Oculus.Platform.NetSyncDisconnectReason ovr_NetSyncConnection_GetDisconnectReason(System.IntPtr obj)
-    // Offset: 0x1BCBCD4
+    // Offset: 0x1BE69E4
     static Oculus::Platform::NetSyncDisconnectReason ovr_NetSyncConnection_GetDisconnectReason(System::IntPtr obj);
     // static public System.UInt64 ovr_NetSyncConnection_GetSessionId(System.IntPtr obj)
-    // Offset: 0x1BCBD54
+    // Offset: 0x1BE6A64
     static uint64_t ovr_NetSyncConnection_GetSessionId(System::IntPtr obj);
     // static public Oculus.Platform.NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(System.IntPtr obj)
-    // Offset: 0x1BCBDD4
+    // Offset: 0x1BE6AE4
     static Oculus::Platform::NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(System::IntPtr obj);
     // static public System.String ovr_NetSyncConnection_GetZoneId(System.IntPtr obj)
-    // Offset: 0x1BCBE54
+    // Offset: 0x1BE6B64
     static ::Il2CppString* ovr_NetSyncConnection_GetZoneId(System::IntPtr obj);
     // static private System.IntPtr ovr_NetSyncConnection_GetZoneId_Native(System.IntPtr obj)
-    // Offset: 0x1BCBEBC
+    // Offset: 0x1BE6BCC
     static System::IntPtr ovr_NetSyncConnection_GetZoneId_Native(System::IntPtr obj);
     // static public System.Int64 ovr_NetSyncSession_GetConnectionId(System.IntPtr obj)
-    // Offset: 0x1BCBF3C
+    // Offset: 0x1BE6C4C
     static int64_t ovr_NetSyncSession_GetConnectionId(System::IntPtr obj);
     // static public System.Boolean ovr_NetSyncSession_GetMuted(System.IntPtr obj)
-    // Offset: 0x1BCBFBC
+    // Offset: 0x1BE6CCC
     static bool ovr_NetSyncSession_GetMuted(System::IntPtr obj);
     // static public System.UInt64 ovr_NetSyncSession_GetSessionId(System.IntPtr obj)
-    // Offset: 0x1BCC044
+    // Offset: 0x1BE6D54
     static uint64_t ovr_NetSyncSession_GetSessionId(System::IntPtr obj);
     // static public System.UInt64 ovr_NetSyncSession_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BCC0C4
+    // Offset: 0x1BE6DD4
     static uint64_t ovr_NetSyncSession_GetUserId(System::IntPtr obj);
     // static public System.String ovr_NetSyncSession_GetVoipGroup(System.IntPtr obj)
-    // Offset: 0x1BCC144
+    // Offset: 0x1BE6E54
     static ::Il2CppString* ovr_NetSyncSession_GetVoipGroup(System::IntPtr obj);
     // static private System.IntPtr ovr_NetSyncSession_GetVoipGroup_Native(System.IntPtr obj)
-    // Offset: 0x1BCC1AC
+    // Offset: 0x1BE6EBC
     static System::IntPtr ovr_NetSyncSession_GetVoipGroup_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncSessionArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCC22C
+    // Offset: 0x1BE6F3C
     static System::IntPtr ovr_NetSyncSessionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_NetSyncSessionArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCC2BC
+    // Offset: 0x1BE6FCC
     static System::UIntPtr ovr_NetSyncSessionArray_GetSize(System::IntPtr obj);
     // static public System.Int64 ovr_NetSyncSessionsChangedNotification_GetConnectionId(System.IntPtr obj)
-    // Offset: 0x1BCC33C
+    // Offset: 0x1BE704C
     static int64_t ovr_NetSyncSessionsChangedNotification_GetConnectionId(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncSessionsChangedNotification_GetSessions(System.IntPtr obj)
-    // Offset: 0x1BCC3BC
+    // Offset: 0x1BE70CC
     static System::IntPtr ovr_NetSyncSessionsChangedNotification_GetSessions(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncSetSessionPropertyResult_GetSession(System.IntPtr obj)
-    // Offset: 0x1BCC43C
+    // Offset: 0x1BE714C
     static System::IntPtr ovr_NetSyncSetSessionPropertyResult_GetSession(System::IntPtr obj);
     // static public System.Single ovr_NetSyncVoipAttenuationValue_GetDecibels(System.IntPtr obj)
-    // Offset: 0x1BCC4BC
+    // Offset: 0x1BE71CC
     static float ovr_NetSyncVoipAttenuationValue_GetDecibels(System::IntPtr obj);
     // static public System.Single ovr_NetSyncVoipAttenuationValue_GetDistance(System.IntPtr obj)
-    // Offset: 0x1BCC53C
+    // Offset: 0x1BE724C
     static float ovr_NetSyncVoipAttenuationValue_GetDistance(System::IntPtr obj);
     // static public System.IntPtr ovr_NetSyncVoipAttenuationValueArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCC5BC
+    // Offset: 0x1BE72CC
     static System::IntPtr ovr_NetSyncVoipAttenuationValueArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_NetSyncVoipAttenuationValueArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCC64C
+    // Offset: 0x1BE735C
     static System::UIntPtr ovr_NetSyncVoipAttenuationValueArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_NetworkingPeer_GetID(System.IntPtr obj)
-    // Offset: 0x1BCC6CC
+    // Offset: 0x1BE73DC
     static uint64_t ovr_NetworkingPeer_GetID(System::IntPtr obj);
     // static public Oculus.Platform.PeerConnectionState ovr_NetworkingPeer_GetState(System.IntPtr obj)
-    // Offset: 0x1BCC74C
+    // Offset: 0x1BE745C
     static Oculus::Platform::PeerConnectionState ovr_NetworkingPeer_GetState(System::IntPtr obj);
     // static public System.UInt64 ovr_OrgScopedID_GetID(System.IntPtr obj)
-    // Offset: 0x1BCC7CC
+    // Offset: 0x1BE74DC
     static uint64_t ovr_OrgScopedID_GetID(System::IntPtr obj);
     // static public System.Void ovr_Packet_Free(System.IntPtr obj)
-    // Offset: 0x1BCC84C
+    // Offset: 0x1BE755C
     static void ovr_Packet_Free(System::IntPtr obj);
     // static public System.IntPtr ovr_Packet_GetBytes(System.IntPtr obj)
-    // Offset: 0x1BCC8CC
+    // Offset: 0x1BE75DC
     static System::IntPtr ovr_Packet_GetBytes(System::IntPtr obj);
     // static public Oculus.Platform.SendPolicy ovr_Packet_GetSendPolicy(System.IntPtr obj)
-    // Offset: 0x1BCC94C
+    // Offset: 0x1BE765C
     static Oculus::Platform::SendPolicy ovr_Packet_GetSendPolicy(System::IntPtr obj);
     // static public System.UInt64 ovr_Packet_GetSenderID(System.IntPtr obj)
-    // Offset: 0x1BCC9CC
+    // Offset: 0x1BE76DC
     static uint64_t ovr_Packet_GetSenderID(System::IntPtr obj);
     // static public System.UIntPtr ovr_Packet_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCCA4C
+    // Offset: 0x1BE775C
     static System::UIntPtr ovr_Packet_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_Party_GetID(System.IntPtr obj)
-    // Offset: 0x1BCCACC
+    // Offset: 0x1BE77DC
     static uint64_t ovr_Party_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1BCCB4C
+    // Offset: 0x1BE785C
     static System::IntPtr ovr_Party_GetInvitedUsers(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetLeader(System.IntPtr obj)
-    // Offset: 0x1BCCBCC
+    // Offset: 0x1BE78DC
     static System::IntPtr ovr_Party_GetLeader(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetRoom(System.IntPtr obj)
-    // Offset: 0x1BCCC4C
+    // Offset: 0x1BE795C
     static System::IntPtr ovr_Party_GetRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_Party_GetUsers(System.IntPtr obj)
-    // Offset: 0x1BCCCC8
+    // Offset: 0x1BE79D8
     static System::IntPtr ovr_Party_GetUsers(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyID_GetID(System.IntPtr obj)
-    // Offset: 0x1BCCD48
+    // Offset: 0x1BE7A58
     static uint64_t ovr_PartyID_GetID(System::IntPtr obj);
     // static public Oculus.Platform.PartyUpdateAction ovr_PartyUpdateNotification_GetAction(System.IntPtr obj)
-    // Offset: 0x1BCCDC4
+    // Offset: 0x1BE7AD4
     static Oculus::Platform::PartyUpdateAction ovr_PartyUpdateNotification_GetAction(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyUpdateNotification_GetPartyId(System.IntPtr obj)
-    // Offset: 0x1BCCE44
+    // Offset: 0x1BE7B54
     static uint64_t ovr_PartyUpdateNotification_GetPartyId(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyUpdateNotification_GetSenderId(System.IntPtr obj)
-    // Offset: 0x1BCCEC4
+    // Offset: 0x1BE7BD4
     static uint64_t ovr_PartyUpdateNotification_GetSenderId(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUpdateTimestamp(System.IntPtr obj)
-    // Offset: 0x1BCCF44
+    // Offset: 0x1BE7C54
     static ::Il2CppString* ovr_PartyUpdateNotification_GetUpdateTimestamp(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUpdateTimestamp_Native(System.IntPtr obj)
-    // Offset: 0x1BCCFAC
+    // Offset: 0x1BE7CBC
     static System::IntPtr ovr_PartyUpdateNotification_GetUpdateTimestamp_Native(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUserAlias(System.IntPtr obj)
-    // Offset: 0x1BCD02C
+    // Offset: 0x1BE7D3C
     static ::Il2CppString* ovr_PartyUpdateNotification_GetUserAlias(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUserAlias_Native(System.IntPtr obj)
-    // Offset: 0x1BCD094
+    // Offset: 0x1BE7DA4
     static System::IntPtr ovr_PartyUpdateNotification_GetUserAlias_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_PartyUpdateNotification_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BCD114
+    // Offset: 0x1BE7E24
     static uint64_t ovr_PartyUpdateNotification_GetUserId(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUserName(System.IntPtr obj)
-    // Offset: 0x1BCD194
+    // Offset: 0x1BE7EA4
     static ::Il2CppString* ovr_PartyUpdateNotification_GetUserName(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUserName_Native(System.IntPtr obj)
-    // Offset: 0x1BCD1FC
+    // Offset: 0x1BE7F0C
     static System::IntPtr ovr_PartyUpdateNotification_GetUserName_Native(System::IntPtr obj);
     // static public System.String ovr_Pid_GetId(System.IntPtr obj)
-    // Offset: 0x1BCD27C
+    // Offset: 0x1BE7F8C
     static ::Il2CppString* ovr_Pid_GetId(System::IntPtr obj);
     // static private System.IntPtr ovr_Pid_GetId_Native(System.IntPtr obj)
-    // Offset: 0x1BCD2E4
+    // Offset: 0x1BE7FF4
     static System::IntPtr ovr_Pid_GetId_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_PidArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCD364
+    // Offset: 0x1BE8074
     static System::IntPtr ovr_PidArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_PidArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCD3F4
+    // Offset: 0x1BE8104
     static System::UIntPtr ovr_PidArray_GetSize(System::IntPtr obj);
     // static public System.UInt64 ovr_PingResult_GetID(System.IntPtr obj)
-    // Offset: 0x1BCD474
+    // Offset: 0x1BE8184
     static uint64_t ovr_PingResult_GetID(System::IntPtr obj);
     // static public System.UInt64 ovr_PingResult_GetPingTimeUsec(System.IntPtr obj)
-    // Offset: 0x1BCD4F4
+    // Offset: 0x1BE8204
     static uint64_t ovr_PingResult_GetPingTimeUsec(System::IntPtr obj);
     // static public System.Boolean ovr_PingResult_IsTimeout(System.IntPtr obj)
-    // Offset: 0x1BCD574
+    // Offset: 0x1BE8284
     static bool ovr_PingResult_IsTimeout(System::IntPtr obj);
     // static public Oculus.Platform.PlatformInitializeResult ovr_PlatformInitialize_GetResult(System.IntPtr obj)
-    // Offset: 0x1BCD5FC
+    // Offset: 0x1BE830C
     static Oculus::Platform::PlatformInitializeResult ovr_PlatformInitialize_GetResult(System::IntPtr obj);
     // static public System.UInt32 ovr_Price_GetAmountInHundredths(System.IntPtr obj)
-    // Offset: 0x1BCD67C
+    // Offset: 0x1BE838C
     static uint ovr_Price_GetAmountInHundredths(System::IntPtr obj);
     // static public System.String ovr_Price_GetCurrency(System.IntPtr obj)
-    // Offset: 0x1BCD6FC
+    // Offset: 0x1BE840C
     static ::Il2CppString* ovr_Price_GetCurrency(System::IntPtr obj);
     // static private System.IntPtr ovr_Price_GetCurrency_Native(System.IntPtr obj)
-    // Offset: 0x1BCD764
+    // Offset: 0x1BE8474
     static System::IntPtr ovr_Price_GetCurrency_Native(System::IntPtr obj);
     // static public System.String ovr_Price_GetFormatted(System.IntPtr obj)
-    // Offset: 0x1BCD7E4
+    // Offset: 0x1BE84F4
     static ::Il2CppString* ovr_Price_GetFormatted(System::IntPtr obj);
     // static private System.IntPtr ovr_Price_GetFormatted_Native(System.IntPtr obj)
-    // Offset: 0x1BCD84C
+    // Offset: 0x1BE855C
     static System::IntPtr ovr_Price_GetFormatted_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetDescription(System.IntPtr obj)
-    // Offset: 0x1BCD8CC
+    // Offset: 0x1BE85DC
     static ::Il2CppString* ovr_Product_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetDescription_Native(System.IntPtr obj)
-    // Offset: 0x1BCD934
+    // Offset: 0x1BE8644
     static System::IntPtr ovr_Product_GetDescription_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetFormattedPrice(System.IntPtr obj)
-    // Offset: 0x1BCD9B4
+    // Offset: 0x1BE86C4
     static ::Il2CppString* ovr_Product_GetFormattedPrice(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetFormattedPrice_Native(System.IntPtr obj)
-    // Offset: 0x1BCDA1C
+    // Offset: 0x1BE872C
     static System::IntPtr ovr_Product_GetFormattedPrice_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetName(System.IntPtr obj)
-    // Offset: 0x1BCDA9C
+    // Offset: 0x1BE87AC
     static ::Il2CppString* ovr_Product_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1BCDB04
+    // Offset: 0x1BE8814
     static System::IntPtr ovr_Product_GetName_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetSKU(System.IntPtr obj)
-    // Offset: 0x1BCDB84
+    // Offset: 0x1BE8894
     static ::Il2CppString* ovr_Product_GetSKU(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetSKU_Native(System.IntPtr obj)
-    // Offset: 0x1BCDBEC
+    // Offset: 0x1BE88FC
     static System::IntPtr ovr_Product_GetSKU_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_ProductArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCDC6C
+    // Offset: 0x1BE897C
     static System::IntPtr ovr_ProductArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ProductArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BCDCFC
+    // Offset: 0x1BE8A0C
     static ::Il2CppString* ovr_ProductArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ProductArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BCDD64
+    // Offset: 0x1BE8A74
     static System::IntPtr ovr_ProductArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_ProductArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCDDE4
+    // Offset: 0x1BE8AF4
     static System::UIntPtr ovr_ProductArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_ProductArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BCDE64
+    // Offset: 0x1BE8B74
     static bool ovr_ProductArray_HasNextPage(System::IntPtr obj);
     // static public System.DateTime ovr_Purchase_GetExpirationTime(System.IntPtr obj)
-    // Offset: 0x1BCDEEC
+    // Offset: 0x1BE8BFC
     static System::DateTime ovr_Purchase_GetExpirationTime(System::IntPtr obj);
     // static private System.UInt64 ovr_Purchase_GetExpirationTime_Native(System.IntPtr obj)
-    // Offset: 0x1BCDF54
+    // Offset: 0x1BE8C64
     static uint64_t ovr_Purchase_GetExpirationTime_Native(System::IntPtr obj);
     // static public System.DateTime ovr_Purchase_GetGrantTime(System.IntPtr obj)
-    // Offset: 0x1BCDFD4
+    // Offset: 0x1BE8CE4
     static System::DateTime ovr_Purchase_GetGrantTime(System::IntPtr obj);
     // static private System.UInt64 ovr_Purchase_GetGrantTime_Native(System.IntPtr obj)
-    // Offset: 0x1BCE03C
+    // Offset: 0x1BE8D4C
     static uint64_t ovr_Purchase_GetGrantTime_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Purchase_GetPurchaseID(System.IntPtr obj)
-    // Offset: 0x1BCE0BC
+    // Offset: 0x1BE8DCC
     static uint64_t ovr_Purchase_GetPurchaseID(System::IntPtr obj);
     // static public System.String ovr_Purchase_GetPurchaseStrID(System.IntPtr obj)
-    // Offset: 0x1BCE13C
+    // Offset: 0x1BE8E4C
     static ::Il2CppString* ovr_Purchase_GetPurchaseStrID(System::IntPtr obj);
     // static private System.IntPtr ovr_Purchase_GetPurchaseStrID_Native(System.IntPtr obj)
-    // Offset: 0x1BCE1A4
+    // Offset: 0x1BE8EB4
     static System::IntPtr ovr_Purchase_GetPurchaseStrID_Native(System::IntPtr obj);
     // static public System.String ovr_Purchase_GetSKU(System.IntPtr obj)
-    // Offset: 0x1BCE224
+    // Offset: 0x1BE8F34
     static ::Il2CppString* ovr_Purchase_GetSKU(System::IntPtr obj);
     // static private System.IntPtr ovr_Purchase_GetSKU_Native(System.IntPtr obj)
-    // Offset: 0x1BCE28C
+    // Offset: 0x1BE8F9C
     static System::IntPtr ovr_Purchase_GetSKU_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_PurchaseArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCE30C
+    // Offset: 0x1BE901C
     static System::IntPtr ovr_PurchaseArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_PurchaseArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BCE39C
+    // Offset: 0x1BE90AC
     static ::Il2CppString* ovr_PurchaseArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_PurchaseArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BCE404
+    // Offset: 0x1BE9114
     static System::IntPtr ovr_PurchaseArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_PurchaseArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCE484
+    // Offset: 0x1BE9194
     static System::UIntPtr ovr_PurchaseArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_PurchaseArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BCE504
+    // Offset: 0x1BE9214
     static bool ovr_PurchaseArray_HasNextPage(System::IntPtr obj);
     // static public System.UInt64 ovr_Room_GetApplicationID(System.IntPtr obj)
-    // Offset: 0x1BCE58C
+    // Offset: 0x1BE929C
     static uint64_t ovr_Room_GetApplicationID(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetDataStore(System.IntPtr obj)
-    // Offset: 0x1BCE60C
+    // Offset: 0x1BE931C
     static System::IntPtr ovr_Room_GetDataStore(System::IntPtr obj);
     // static public System.String ovr_Room_GetDescription(System.IntPtr obj)
-    // Offset: 0x1BCE68C
+    // Offset: 0x1BE939C
     static ::Il2CppString* ovr_Room_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Room_GetDescription_Native(System.IntPtr obj)
-    // Offset: 0x1BCE6F4
+    // Offset: 0x1BE9404
     static System::IntPtr ovr_Room_GetDescription_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_Room_GetID(System.IntPtr obj)
-    // Offset: 0x1BCE774
+    // Offset: 0x1BE9484
     static uint64_t ovr_Room_GetID(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetInvitedUsers(System.IntPtr obj)
-    // Offset: 0x1BCE7F4
+    // Offset: 0x1BE9504
     static System::IntPtr ovr_Room_GetInvitedUsers(System::IntPtr obj);
     // static public System.Boolean ovr_Room_GetIsMembershipLocked(System.IntPtr obj)
-    // Offset: 0x1BCE874
+    // Offset: 0x1BE9584
     static bool ovr_Room_GetIsMembershipLocked(System::IntPtr obj);
     // static public Oculus.Platform.RoomJoinPolicy ovr_Room_GetJoinPolicy(System.IntPtr obj)
-    // Offset: 0x1BCE8FC
+    // Offset: 0x1BE960C
     static Oculus::Platform::RoomJoinPolicy ovr_Room_GetJoinPolicy(System::IntPtr obj);
     // static public Oculus.Platform.RoomJoinability ovr_Room_GetJoinability(System.IntPtr obj)
-    // Offset: 0x1BCE97C
+    // Offset: 0x1BE968C
     static Oculus::Platform::RoomJoinability ovr_Room_GetJoinability(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetMatchedUsers(System.IntPtr obj)
-    // Offset: 0x1BCE9FC
+    // Offset: 0x1BE970C
     static System::IntPtr ovr_Room_GetMatchedUsers(System::IntPtr obj);
     // static public System.UInt32 ovr_Room_GetMaxUsers(System.IntPtr obj)
-    // Offset: 0x1BCEA7C
+    // Offset: 0x1BE978C
     static uint ovr_Room_GetMaxUsers(System::IntPtr obj);
     // static public System.String ovr_Room_GetName(System.IntPtr obj)
-    // Offset: 0x1BCEAFC
+    // Offset: 0x1BE980C
     static ::Il2CppString* ovr_Room_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Room_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1BCEB64
+    // Offset: 0x1BE9874
     static System::IntPtr ovr_Room_GetName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetOwner(System.IntPtr obj)
-    // Offset: 0x1BCEBE4
+    // Offset: 0x1BE98F4
     static System::IntPtr ovr_Room_GetOwner(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetTeams(System.IntPtr obj)
-    // Offset: 0x1BCEC60
+    // Offset: 0x1BE9970
     static System::IntPtr ovr_Room_GetTeams(System::IntPtr obj);
     // static public Oculus.Platform.RoomType ovr_Room_GetType(System.IntPtr obj)
-    // Offset: 0x1BCECDC
+    // Offset: 0x1BE99EC
     static Oculus::Platform::RoomType ovr_Room_GetType(System::IntPtr obj);
     // static public System.IntPtr ovr_Room_GetUsers(System.IntPtr obj)
-    // Offset: 0x1BCED5C
+    // Offset: 0x1BE9A6C
     static System::IntPtr ovr_Room_GetUsers(System::IntPtr obj);
     // static public System.UInt32 ovr_Room_GetVersion(System.IntPtr obj)
-    // Offset: 0x1BCEDD8
+    // Offset: 0x1BE9AE8
     static uint ovr_Room_GetVersion(System::IntPtr obj);
     // static public System.IntPtr ovr_RoomArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCEE58
+    // Offset: 0x1BE9B68
     static System::IntPtr ovr_RoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_RoomArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BCEEE8
+    // Offset: 0x1BE9BF8
     static ::Il2CppString* ovr_RoomArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_RoomArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BCEF50
+    // Offset: 0x1BE9C60
     static System::IntPtr ovr_RoomArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_RoomArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCEFD0
+    // Offset: 0x1BE9CE0
     static System::UIntPtr ovr_RoomArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_RoomArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BCF050
+    // Offset: 0x1BE9D60
     static bool ovr_RoomArray_HasNextPage(System::IntPtr obj);
     // static public System.UInt64 ovr_RoomInviteNotification_GetID(System.IntPtr obj)
-    // Offset: 0x1BCF0D8
+    // Offset: 0x1BE9DE8
     static uint64_t ovr_RoomInviteNotification_GetID(System::IntPtr obj);
     // static public System.UInt64 ovr_RoomInviteNotification_GetRoomID(System.IntPtr obj)
-    // Offset: 0x1BCF158
+    // Offset: 0x1BE9E68
     static uint64_t ovr_RoomInviteNotification_GetRoomID(System::IntPtr obj);
     // static public System.UInt64 ovr_RoomInviteNotification_GetSenderID(System.IntPtr obj)
-    // Offset: 0x1BCF1D8
+    // Offset: 0x1BE9EE8
     static uint64_t ovr_RoomInviteNotification_GetSenderID(System::IntPtr obj);
     // static public System.DateTime ovr_RoomInviteNotification_GetSentTime(System.IntPtr obj)
-    // Offset: 0x1BCF258
+    // Offset: 0x1BE9F68
     static System::DateTime ovr_RoomInviteNotification_GetSentTime(System::IntPtr obj);
     // static private System.UInt64 ovr_RoomInviteNotification_GetSentTime_Native(System.IntPtr obj)
-    // Offset: 0x1BCF2C0
+    // Offset: 0x1BE9FD0
     static uint64_t ovr_RoomInviteNotification_GetSentTime_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_RoomInviteNotificationArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCF340
+    // Offset: 0x1BEA050
     static System::IntPtr ovr_RoomInviteNotificationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_RoomInviteNotificationArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BCF3D0
+    // Offset: 0x1BEA0E0
     static ::Il2CppString* ovr_RoomInviteNotificationArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_RoomInviteNotificationArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BCF438
+    // Offset: 0x1BEA148
     static System::IntPtr ovr_RoomInviteNotificationArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_RoomInviteNotificationArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCF4B8
+    // Offset: 0x1BEA1C8
     static System::UIntPtr ovr_RoomInviteNotificationArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_RoomInviteNotificationArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BCF538
+    // Offset: 0x1BEA248
     static bool ovr_RoomInviteNotificationArray_HasNextPage(System::IntPtr obj);
     // static public Oculus.Platform.SdkAccountType ovr_SdkAccount_GetAccountType(System.IntPtr obj)
-    // Offset: 0x1BCF5C0
+    // Offset: 0x1BEA2D0
     static Oculus::Platform::SdkAccountType ovr_SdkAccount_GetAccountType(System::IntPtr obj);
     // static public System.UInt64 ovr_SdkAccount_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BCF640
+    // Offset: 0x1BEA350
     static uint64_t ovr_SdkAccount_GetUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_SdkAccountArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCF6C0
+    // Offset: 0x1BEA3D0
     static System::IntPtr ovr_SdkAccountArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_SdkAccountArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCF750
+    // Offset: 0x1BEA460
     static System::UIntPtr ovr_SdkAccountArray_GetSize(System::IntPtr obj);
     // static public Oculus.Platform.ShareMediaStatus ovr_ShareMediaResult_GetStatus(System.IntPtr obj)
-    // Offset: 0x1BCF7D0
+    // Offset: 0x1BEA4E0
     static Oculus::Platform::ShareMediaStatus ovr_ShareMediaResult_GetStatus(System::IntPtr obj);
     // static public System.UInt64 ovr_SupplementaryMetric_GetID(System.IntPtr obj)
-    // Offset: 0x1BCF850
+    // Offset: 0x1BEA560
     static uint64_t ovr_SupplementaryMetric_GetID(System::IntPtr obj);
     // static public System.Int64 ovr_SupplementaryMetric_GetMetric(System.IntPtr obj)
-    // Offset: 0x1BCF8D0
+    // Offset: 0x1BEA5E0
     static int64_t ovr_SupplementaryMetric_GetMetric(System::IntPtr obj);
     // static public System.Boolean ovr_SystemPermission_GetHasPermission(System.IntPtr obj)
-    // Offset: 0x1BCF950
+    // Offset: 0x1BEA660
     static bool ovr_SystemPermission_GetHasPermission(System::IntPtr obj);
     // static public Oculus.Platform.PermissionGrantStatus ovr_SystemPermission_GetPermissionGrantStatus(System.IntPtr obj)
-    // Offset: 0x1BCF9D8
+    // Offset: 0x1BEA6E8
     static Oculus::Platform::PermissionGrantStatus ovr_SystemPermission_GetPermissionGrantStatus(System::IntPtr obj);
     // static public Oculus.Platform.VoipMuteState ovr_SystemVoipState_GetMicrophoneMuted(System.IntPtr obj)
-    // Offset: 0x1BCFA58
+    // Offset: 0x1BEA768
     static Oculus::Platform::VoipMuteState ovr_SystemVoipState_GetMicrophoneMuted(System::IntPtr obj);
     // static public Oculus.Platform.SystemVoipStatus ovr_SystemVoipState_GetStatus(System.IntPtr obj)
-    // Offset: 0x1BCFAD8
+    // Offset: 0x1BEA7E8
     static Oculus::Platform::SystemVoipStatus ovr_SystemVoipState_GetStatus(System::IntPtr obj);
     // static public System.IntPtr ovr_Team_GetAssignedUsers(System.IntPtr obj)
-    // Offset: 0x1BCFB58
+    // Offset: 0x1BEA868
     static System::IntPtr ovr_Team_GetAssignedUsers(System::IntPtr obj);
     // static public System.Int32 ovr_Team_GetMaxUsers(System.IntPtr obj)
-    // Offset: 0x1BCFBD8
+    // Offset: 0x1BEA8E8
     static int ovr_Team_GetMaxUsers(System::IntPtr obj);
     // static public System.Int32 ovr_Team_GetMinUsers(System.IntPtr obj)
-    // Offset: 0x1BCFC58
+    // Offset: 0x1BEA968
     static int ovr_Team_GetMinUsers(System::IntPtr obj);
     // static public System.String ovr_Team_GetName(System.IntPtr obj)
-    // Offset: 0x1BCFCD8
+    // Offset: 0x1BEA9E8
     static ::Il2CppString* ovr_Team_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Team_GetName_Native(System.IntPtr obj)
-    // Offset: 0x1BCFD40
+    // Offset: 0x1BEAA50
     static System::IntPtr ovr_Team_GetName_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_TeamArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BCFDC0
+    // Offset: 0x1BEAAD0
     static System::IntPtr ovr_TeamArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_TeamArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BCFE50
+    // Offset: 0x1BEAB60
     static System::UIntPtr ovr_TeamArray_GetSize(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetAccessToken(System.IntPtr obj)
-    // Offset: 0x1BCFED0
+    // Offset: 0x1BEABE0
     static ::Il2CppString* ovr_TestUser_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1BCFF38
+    // Offset: 0x1BEAC48
     static System::IntPtr ovr_TestUser_GetAccessToken_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUser_GetAppAccessArray(System.IntPtr obj)
-    // Offset: 0x1BCFFB8
+    // Offset: 0x1BEACC8
     static System::IntPtr ovr_TestUser_GetAppAccessArray(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUser_GetFbAppAccessArray(System.IntPtr obj)
-    // Offset: 0x1BD0038
+    // Offset: 0x1BEAD48
     static System::IntPtr ovr_TestUser_GetFbAppAccessArray(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetFriendAccessToken(System.IntPtr obj)
-    // Offset: 0x1BD00B8
+    // Offset: 0x1BEADC8
     static ::Il2CppString* ovr_TestUser_GetFriendAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetFriendAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1BD0120
+    // Offset: 0x1BEAE30
     static System::IntPtr ovr_TestUser_GetFriendAccessToken_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUser_GetFriendAppAccessArray(System.IntPtr obj)
-    // Offset: 0x1BD01A0
+    // Offset: 0x1BEAEB0
     static System::IntPtr ovr_TestUser_GetFriendAppAccessArray(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetUserAlias(System.IntPtr obj)
-    // Offset: 0x1BD0220
+    // Offset: 0x1BEAF30
     static ::Il2CppString* ovr_TestUser_GetUserAlias(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetUserAlias_Native(System.IntPtr obj)
-    // Offset: 0x1BD0288
+    // Offset: 0x1BEAF98
     static System::IntPtr ovr_TestUser_GetUserAlias_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUser_GetUserFbid(System.IntPtr obj)
-    // Offset: 0x1BD0308
+    // Offset: 0x1BEB018
     static uint64_t ovr_TestUser_GetUserFbid(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUser_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BD0388
+    // Offset: 0x1BEB098
     static uint64_t ovr_TestUser_GetUserId(System::IntPtr obj);
     // static public System.String ovr_TestUserAppAccess_GetAccessToken(System.IntPtr obj)
-    // Offset: 0x1BD0408
+    // Offset: 0x1BEB118
     static ::Il2CppString* ovr_TestUserAppAccess_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUserAppAccess_GetAccessToken_Native(System.IntPtr obj)
-    // Offset: 0x1BD0470
+    // Offset: 0x1BEB180
     static System::IntPtr ovr_TestUserAppAccess_GetAccessToken_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUserAppAccess_GetAppId(System.IntPtr obj)
-    // Offset: 0x1BD04F0
+    // Offset: 0x1BEB200
     static uint64_t ovr_TestUserAppAccess_GetAppId(System::IntPtr obj);
     // static public System.UInt64 ovr_TestUserAppAccess_GetUserId(System.IntPtr obj)
-    // Offset: 0x1BD0570
+    // Offset: 0x1BEB280
     static uint64_t ovr_TestUserAppAccess_GetUserId(System::IntPtr obj);
     // static public System.IntPtr ovr_TestUserAppAccessArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BD05F0
+    // Offset: 0x1BEB300
     static System::IntPtr ovr_TestUserAppAccessArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.UIntPtr ovr_TestUserAppAccessArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BD0680
+    // Offset: 0x1BEB390
     static System::UIntPtr ovr_TestUserAppAccessArray_GetSize(System::IntPtr obj);
     // static public System.String ovr_User_GetDisplayName(System.IntPtr obj)
-    // Offset: 0x1BD0700
+    // Offset: 0x1BEB410
     static ::Il2CppString* ovr_User_GetDisplayName(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetDisplayName_Native(System.IntPtr obj)
-    // Offset: 0x1BD0768
+    // Offset: 0x1BEB478
     static System::IntPtr ovr_User_GetDisplayName_Native(System::IntPtr obj);
     // static public System.UInt64 ovr_User_GetID(System.IntPtr obj)
-    // Offset: 0x1BD07E8
+    // Offset: 0x1BEB4F8
     static uint64_t ovr_User_GetID(System::IntPtr obj);
     // static public System.String ovr_User_GetImageUrl(System.IntPtr obj)
-    // Offset: 0x1BD0868
+    // Offset: 0x1BEB578
     static ::Il2CppString* ovr_User_GetImageUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetImageUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BD08D0
+    // Offset: 0x1BEB5E0
     static System::IntPtr ovr_User_GetImageUrl_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetInviteToken(System.IntPtr obj)
-    // Offset: 0x1BD0950
+    // Offset: 0x1BEB660
     static ::Il2CppString* ovr_User_GetInviteToken(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetInviteToken_Native(System.IntPtr obj)
-    // Offset: 0x1BD09B8
+    // Offset: 0x1BEB6C8
     static System::IntPtr ovr_User_GetInviteToken_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetOculusID(System.IntPtr obj)
-    // Offset: 0x1BD0A38
+    // Offset: 0x1BEB748
     static ::Il2CppString* ovr_User_GetOculusID(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetOculusID_Native(System.IntPtr obj)
-    // Offset: 0x1BD0AA0
+    // Offset: 0x1BEB7B0
     static System::IntPtr ovr_User_GetOculusID_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresence(System.IntPtr obj)
-    // Offset: 0x1BD0B20
+    // Offset: 0x1BEB830
     static ::Il2CppString* ovr_User_GetPresence(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresence_Native(System.IntPtr obj)
-    // Offset: 0x1BD0B88
+    // Offset: 0x1BEB898
     static System::IntPtr ovr_User_GetPresence_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceDeeplinkMessage(System.IntPtr obj)
-    // Offset: 0x1BD0C08
+    // Offset: 0x1BEB918
     static ::Il2CppString* ovr_User_GetPresenceDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceDeeplinkMessage_Native(System.IntPtr obj)
-    // Offset: 0x1BD0C70
+    // Offset: 0x1BEB980
     static System::IntPtr ovr_User_GetPresenceDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceDestinationApiName(System.IntPtr obj)
-    // Offset: 0x1BD0CF0
+    // Offset: 0x1BEBA00
     static ::Il2CppString* ovr_User_GetPresenceDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceDestinationApiName_Native(System.IntPtr obj)
-    // Offset: 0x1BD0D58
+    // Offset: 0x1BEBA68
     static System::IntPtr ovr_User_GetPresenceDestinationApiName_Native(System::IntPtr obj);
     // static public Oculus.Platform.UserPresenceStatus ovr_User_GetPresenceStatus(System.IntPtr obj)
-    // Offset: 0x1BD0DD8
+    // Offset: 0x1BEBAE8
     static Oculus::Platform::UserPresenceStatus ovr_User_GetPresenceStatus(System::IntPtr obj);
     // static public System.String ovr_User_GetSmallImageUrl(System.IntPtr obj)
-    // Offset: 0x1BD0E58
+    // Offset: 0x1BEBB68
     static ::Il2CppString* ovr_User_GetSmallImageUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetSmallImageUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BD0EC0
+    // Offset: 0x1BEBBD0
     static System::IntPtr ovr_User_GetSmallImageUrl_Native(System::IntPtr obj);
     // static public System.IntPtr ovr_UserAndRoom_GetRoom(System.IntPtr obj)
-    // Offset: 0x1BD0F40
+    // Offset: 0x1BEBC50
     static System::IntPtr ovr_UserAndRoom_GetRoom(System::IntPtr obj);
     // static public System.IntPtr ovr_UserAndRoom_GetUser(System.IntPtr obj)
-    // Offset: 0x1BD0FC0
+    // Offset: 0x1BEBCD0
     static System::IntPtr ovr_UserAndRoom_GetUser(System::IntPtr obj);
     // static public System.IntPtr ovr_UserAndRoomArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BD1040
+    // Offset: 0x1BEBD50
     static System::IntPtr ovr_UserAndRoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_UserAndRoomArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BD10D0
+    // Offset: 0x1BEBDE0
     static ::Il2CppString* ovr_UserAndRoomArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_UserAndRoomArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BD1138
+    // Offset: 0x1BEBE48
     static System::IntPtr ovr_UserAndRoomArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_UserAndRoomArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BD11B8
+    // Offset: 0x1BEBEC8
     static System::UIntPtr ovr_UserAndRoomArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_UserAndRoomArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BD1238
+    // Offset: 0x1BEBF48
     static bool ovr_UserAndRoomArray_HasNextPage(System::IntPtr obj);
     // static public System.IntPtr ovr_UserArray_GetElement(System.IntPtr obj, System.UIntPtr index)
-    // Offset: 0x1BD12C0
+    // Offset: 0x1BEBFD0
     static System::IntPtr ovr_UserArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_UserArray_GetNextUrl(System.IntPtr obj)
-    // Offset: 0x1BD1350
+    // Offset: 0x1BEC060
     static ::Il2CppString* ovr_UserArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_UserArray_GetNextUrl_Native(System.IntPtr obj)
-    // Offset: 0x1BD13B8
+    // Offset: 0x1BEC0C8
     static System::IntPtr ovr_UserArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.UIntPtr ovr_UserArray_GetSize(System.IntPtr obj)
-    // Offset: 0x1BD1438
+    // Offset: 0x1BEC148
     static System::UIntPtr ovr_UserArray_GetSize(System::IntPtr obj);
     // static public System.Boolean ovr_UserArray_HasNextPage(System.IntPtr obj)
-    // Offset: 0x1BD14B8
+    // Offset: 0x1BEC1C8
     static bool ovr_UserArray_HasNextPage(System::IntPtr obj);
     // static public System.Boolean ovr_UserDataStoreUpdateResponse_GetSuccess(System.IntPtr obj)
-    // Offset: 0x1BD1540
+    // Offset: 0x1BEC250
     static bool ovr_UserDataStoreUpdateResponse_GetSuccess(System::IntPtr obj);
     // static public System.String ovr_UserProof_GetNonce(System.IntPtr obj)
-    // Offset: 0x1BD15C8
+    // Offset: 0x1BEC2D8
     static ::Il2CppString* ovr_UserProof_GetNonce(System::IntPtr obj);
     // static private System.IntPtr ovr_UserProof_GetNonce_Native(System.IntPtr obj)
-    // Offset: 0x1BD1630
+    // Offset: 0x1BEC340
     static System::IntPtr ovr_UserProof_GetNonce_Native(System::IntPtr obj);
     // static public System.Boolean ovr_UserReportID_GetDidCancel(System.IntPtr obj)
-    // Offset: 0x1BD16B0
+    // Offset: 0x1BEC3C0
     static bool ovr_UserReportID_GetDidCancel(System::IntPtr obj);
     // static public System.UInt64 ovr_UserReportID_GetID(System.IntPtr obj)
-    // Offset: 0x1BD1738
+    // Offset: 0x1BEC448
     static uint64_t ovr_UserReportID_GetID(System::IntPtr obj);
     // static public System.Void ovr_VoipDecoder_Decode(System.IntPtr obj, System.Byte[] compressedData, System.UIntPtr compressedSize)
-    // Offset: 0x1BD17B8
+    // Offset: 0x1BEC4C8
     static void ovr_VoipDecoder_Decode(System::IntPtr obj, ::Array<uint8_t>* compressedData, System::UIntPtr compressedSize);
     // static public System.UIntPtr ovr_VoipDecoder_GetDecodedPCM(System.IntPtr obj, System.Single[] outputBuffer, System.UIntPtr outputBufferSize)
-    // Offset: 0x1BD1858
+    // Offset: 0x1BEC568
     static System::UIntPtr ovr_VoipDecoder_GetDecodedPCM(System::IntPtr obj, ::Array<float>* outputBuffer, System::UIntPtr outputBufferSize);
     // static public System.Void ovr_VoipEncoder_AddPCM(System.IntPtr obj, System.Single[] inputData, System.UInt32 inputSize)
-    // Offset: 0x1BD18F8
+    // Offset: 0x1BEC608
     static void ovr_VoipEncoder_AddPCM(System::IntPtr obj, ::Array<float>* inputData, uint inputSize);
     // static public System.UIntPtr ovr_VoipEncoder_GetCompressedData(System.IntPtr obj, System.Byte[] outputBuffer, System.UIntPtr intputSize)
-    // Offset: 0x1BD1998
+    // Offset: 0x1BEC6A8
     static System::UIntPtr ovr_VoipEncoder_GetCompressedData(System::IntPtr obj, ::Array<uint8_t>* outputBuffer, System::UIntPtr intputSize);
     // static public System.UIntPtr ovr_VoipEncoder_GetCompressedDataSize(System.IntPtr obj)
-    // Offset: 0x1BD1A38
+    // Offset: 0x1BEC748
     static System::UIntPtr ovr_VoipEncoder_GetCompressedDataSize(System::IntPtr obj);
     // static public System.IntPtr ovr_AbuseReportOptions_Create()
-    // Offset: 0x1BAE19C
+    // Offset: 0x1BC8EAC
     static System::IntPtr ovr_AbuseReportOptions_Create();
     // static public System.Void ovr_AbuseReportOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BAE524
+    // Offset: 0x1BC9234
     static void ovr_AbuseReportOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_AbuseReportOptions_SetPreventPeopleChooser(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BAE288
+    // Offset: 0x1BC8F98
     static void ovr_AbuseReportOptions_SetPreventPeopleChooser(System::IntPtr handle, bool value);
     // static public System.Void ovr_AbuseReportOptions_SetReportType(System.IntPtr handle, Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1BAE390
+    // Offset: 0x1BC90A0
     static void ovr_AbuseReportOptions_SetReportType(System::IntPtr handle, Oculus::Platform::AbuseReportType value);
     // static public System.IntPtr ovr_AdvancedAbuseReportOptions_Create()
-    // Offset: 0x1BAF734
+    // Offset: 0x1BCA444
     static System::IntPtr ovr_AdvancedAbuseReportOptions_Create();
     // static public System.Void ovr_AdvancedAbuseReportOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BAFBE0
+    // Offset: 0x1BCA8F0
     static void ovr_AdvancedAbuseReportOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_AdvancedAbuseReportOptions_SetObjectType(System.IntPtr handle, System.String value)
-    // Offset: 0x1BAF820
+    // Offset: 0x1BCA530
     static void ovr_AdvancedAbuseReportOptions_SetObjectType(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD1AB8
+    // Offset: 0x1BEC7C8
     static void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_AdvancedAbuseReportOptions_SetReportType(System.IntPtr handle, Oculus.Platform.AbuseReportType value)
-    // Offset: 0x1BAF944
+    // Offset: 0x1BCA654
     static void ovr_AdvancedAbuseReportOptions_SetReportType(System::IntPtr handle, Oculus::Platform::AbuseReportType value);
     // static public System.Void ovr_AdvancedAbuseReportOptions_SetVideoMode(System.IntPtr handle, Oculus.Platform.AbuseReportVideoMode value)
-    // Offset: 0x1BAFA4C
+    // Offset: 0x1BCA75C
     static void ovr_AdvancedAbuseReportOptions_SetVideoMode(System::IntPtr handle, Oculus::Platform::AbuseReportVideoMode value);
     // static public System.IntPtr ovr_ApplicationOptions_Create()
-    // Offset: 0x1BB05E4
+    // Offset: 0x1BCB2F4
     static System::IntPtr ovr_ApplicationOptions_Create();
     // static public System.Void ovr_ApplicationOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BB0830
+    // Offset: 0x1BCB540
     static void ovr_ApplicationOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_ApplicationOptions_SetDeeplinkMessage(System.IntPtr handle, System.String value)
-    // Offset: 0x1BB06D0
+    // Offset: 0x1BCB3E0
     static void ovr_ApplicationOptions_SetDeeplinkMessage(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ApplicationOptions_SetDeeplinkMessage_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD1B48
+    // Offset: 0x1BEC858
     static void ovr_ApplicationOptions_SetDeeplinkMessage_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.IntPtr ovr_ChallengeOptions_Create()
-    // Offset: 0x1BD1BD8
+    // Offset: 0x1BEC8E8
     static System::IntPtr ovr_ChallengeOptions_Create();
     // static public System.Void ovr_ChallengeOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD1C4C
+    // Offset: 0x1BEC95C
     static void ovr_ChallengeOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_ChallengeOptions_SetDescription(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD1CCC
+    // Offset: 0x1BEC9DC
     static void ovr_ChallengeOptions_SetDescription(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ChallengeOptions_SetDescription_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD1D78
+    // Offset: 0x1BECA88
     static void ovr_ChallengeOptions_SetDescription_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_ChallengeOptions_SetEndDate(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1BD1E08
+    // Offset: 0x1BECB18
     static void ovr_ChallengeOptions_SetEndDate(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_ChallengeOptions_SetEndDate_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD1E84
+    // Offset: 0x1BECB94
     static void ovr_ChallengeOptions_SetEndDate_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_ChallengeOptions_SetIncludeActiveChallenges(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD1F14
+    // Offset: 0x1BECC24
     static void ovr_ChallengeOptions_SetIncludeActiveChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetIncludeFutureChallenges(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD1FA4
+    // Offset: 0x1BECCB4
     static void ovr_ChallengeOptions_SetIncludeFutureChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetIncludePastChallenges(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD2034
+    // Offset: 0x1BECD44
     static void ovr_ChallengeOptions_SetIncludePastChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetLeaderboardName(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD20C4
+    // Offset: 0x1BECDD4
     static void ovr_ChallengeOptions_SetLeaderboardName(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ChallengeOptions_SetLeaderboardName_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD2170
+    // Offset: 0x1BECE80
     static void ovr_ChallengeOptions_SetLeaderboardName_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_ChallengeOptions_SetStartDate(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1BD2200
+    // Offset: 0x1BECF10
     static void ovr_ChallengeOptions_SetStartDate(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_ChallengeOptions_SetStartDate_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD227C
+    // Offset: 0x1BECF8C
     static void ovr_ChallengeOptions_SetStartDate_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_ChallengeOptions_SetTitle(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD230C
+    // Offset: 0x1BED01C
     static void ovr_ChallengeOptions_SetTitle(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_ChallengeOptions_SetTitle_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD23B8
+    // Offset: 0x1BED0C8
     static void ovr_ChallengeOptions_SetTitle_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_ChallengeOptions_SetViewerFilter(System.IntPtr handle, Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x1BD2448
+    // Offset: 0x1BED158
     static void ovr_ChallengeOptions_SetViewerFilter(System::IntPtr handle, Oculus::Platform::ChallengeViewerFilter value);
     // static public System.Void ovr_ChallengeOptions_SetVisibility(System.IntPtr handle, Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x1BD24D8
+    // Offset: 0x1BED1E8
     static void ovr_ChallengeOptions_SetVisibility(System::IntPtr handle, Oculus::Platform::ChallengeVisibility value);
     // static public System.IntPtr ovr_InviteOptions_Create()
-    // Offset: 0x1BD2568
+    // Offset: 0x1BED278
     static System::IntPtr ovr_InviteOptions_Create();
     // static public System.Void ovr_InviteOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD25DC
+    // Offset: 0x1BED2EC
     static void ovr_InviteOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_InviteOptions_AddSuggestedUser(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD265C
+    // Offset: 0x1BED36C
     static void ovr_InviteOptions_AddSuggestedUser(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_InviteOptions_ClearSuggestedUsers(System.IntPtr handle)
-    // Offset: 0x1BD26EC
+    // Offset: 0x1BED3FC
     static void ovr_InviteOptions_ClearSuggestedUsers(System::IntPtr handle);
     // static public System.IntPtr ovr_MatchmakingOptions_Create()
-    // Offset: 0x1BD276C
+    // Offset: 0x1BED47C
     static System::IntPtr ovr_MatchmakingOptions_Create();
     // static public System.Void ovr_MatchmakingOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD27E0
+    // Offset: 0x1BED4F0
     static void ovr_MatchmakingOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1BD2860
+    // Offset: 0x1BED570
     static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1BD292C
+    // Offset: 0x1BED63C
     static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_MatchmakingOptions_ClearCreateRoomDataStore(System.IntPtr handle)
-    // Offset: 0x1BD29C4
+    // Offset: 0x1BED6D4
     static void ovr_MatchmakingOptions_ClearCreateRoomDataStore(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomJoinPolicy(System.IntPtr handle, Oculus.Platform.RoomJoinPolicy value)
-    // Offset: 0x1BD2A44
+    // Offset: 0x1BED754
     static void ovr_MatchmakingOptions_SetCreateRoomJoinPolicy(System::IntPtr handle, Oculus::Platform::RoomJoinPolicy value);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomMaxUsers(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1BD2AD4
+    // Offset: 0x1BED7E4
     static void ovr_MatchmakingOptions_SetCreateRoomMaxUsers(System::IntPtr handle, uint value);
     // static public System.Void ovr_MatchmakingOptions_AddEnqueueAdditionalUser(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD2B64
+    // Offset: 0x1BED874
     static void ovr_MatchmakingOptions_AddEnqueueAdditionalUser(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers(System.IntPtr handle)
-    // Offset: 0x1BD2BF4
+    // Offset: 0x1BED904
     static void ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System.IntPtr handle, System.String key, System.Int32 value)
-    // Offset: 0x1BD2C74
+    // Offset: 0x1BED984
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System::IntPtr handle, ::Il2CppString* key, int value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native(System.IntPtr handle, System.IntPtr key, System.Int32 value)
-    // Offset: 0x1BD2D28
+    // Offset: 0x1BEDA38
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native(System::IntPtr handle, System::IntPtr key, int value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System.IntPtr handle, System.String key, System.Double value)
-    // Offset: 0x1BD2DC0
+    // Offset: 0x1BEDAD0
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System::IntPtr handle, ::Il2CppString* key, double value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native(System.IntPtr handle, System.IntPtr key, System.Double value)
-    // Offset: 0x1BD2E7C
+    // Offset: 0x1BEDB8C
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native(System::IntPtr handle, System::IntPtr key, double value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1BD2F1C
+    // Offset: 0x1BEDC2C
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1BD2FE8
+    // Offset: 0x1BEDCF8
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_MatchmakingOptions_ClearEnqueueDataSettings(System.IntPtr handle)
-    // Offset: 0x1BD3080
+    // Offset: 0x1BEDD90
     static void ovr_MatchmakingOptions_ClearEnqueueDataSettings(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueIsDebug(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD3100
+    // Offset: 0x1BEDE10
     static void ovr_MatchmakingOptions_SetEnqueueIsDebug(System::IntPtr handle, bool value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueQueryKey(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD3190
+    // Offset: 0x1BEDEA0
     static void ovr_MatchmakingOptions_SetEnqueueQueryKey(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueQueryKey_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD323C
+    // Offset: 0x1BEDF4C
     static void ovr_MatchmakingOptions_SetEnqueueQueryKey_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.IntPtr ovr_NetSyncOptions_Create()
-    // Offset: 0x1BD32CC
+    // Offset: 0x1BEDFDC
     static System::IntPtr ovr_NetSyncOptions_Create();
     // static public System.Void ovr_NetSyncOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD3340
+    // Offset: 0x1BEE050
     static void ovr_NetSyncOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_NetSyncOptions_SetVoipGroup(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD33C0
+    // Offset: 0x1BEE0D0
     static void ovr_NetSyncOptions_SetVoipGroup(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_NetSyncOptions_SetVoipGroup_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD346C
+    // Offset: 0x1BEE17C
     static void ovr_NetSyncOptions_SetVoipGroup_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_NetSyncOptions_SetVoipStreamDefault(System.IntPtr handle, Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x1BD34FC
+    // Offset: 0x1BEE20C
     static void ovr_NetSyncOptions_SetVoipStreamDefault(System::IntPtr handle, Oculus::Platform::NetSyncVoipStreamMode value);
     // static public System.Void ovr_NetSyncOptions_SetZoneId(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD358C
+    // Offset: 0x1BEE29C
     static void ovr_NetSyncOptions_SetZoneId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_NetSyncOptions_SetZoneId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD3638
+    // Offset: 0x1BEE348
     static void ovr_NetSyncOptions_SetZoneId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.IntPtr ovr_RichPresenceOptions_Create()
-    // Offset: 0x1BD36C8
+    // Offset: 0x1BEE3D8
     static System::IntPtr ovr_RichPresenceOptions_Create();
     // static public System.Void ovr_RichPresenceOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD373C
+    // Offset: 0x1BEE44C
     static void ovr_RichPresenceOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_RichPresenceOptions_SetApiName(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD37BC
+    // Offset: 0x1BEE4CC
     static void ovr_RichPresenceOptions_SetApiName(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetApiName_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD3868
+    // Offset: 0x1BEE578
     static void ovr_RichPresenceOptions_SetApiName_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetArgsString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1BD38F8
+    // Offset: 0x1BEE608
     static void ovr_RichPresenceOptions_SetArgsString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetArgsString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1BD39C4
+    // Offset: 0x1BEE6D4
     static void ovr_RichPresenceOptions_SetArgsString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_ClearArgs(System.IntPtr handle)
-    // Offset: 0x1BD3A5C
+    // Offset: 0x1BEE76C
     static void ovr_RichPresenceOptions_ClearArgs(System::IntPtr handle);
     // static public System.Void ovr_RichPresenceOptions_SetCurrentCapacity(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1BD3ADC
+    // Offset: 0x1BEE7EC
     static void ovr_RichPresenceOptions_SetCurrentCapacity(System::IntPtr handle, uint value);
     // static public System.Void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD3B6C
+    // Offset: 0x1BEE87C
     static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD3C18
+    // Offset: 0x1BEE928
     static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetEndTime(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1BD3CA8
+    // Offset: 0x1BEE9B8
     static void ovr_RichPresenceOptions_SetEndTime(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_RichPresenceOptions_SetEndTime_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD3D24
+    // Offset: 0x1BEEA34
     static void ovr_RichPresenceOptions_SetEndTime_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_RichPresenceOptions_SetExtraContext(System.IntPtr handle, Oculus.Platform.RichPresenceExtraContext value)
-    // Offset: 0x1BD3DB4
+    // Offset: 0x1BEEAC4
     static void ovr_RichPresenceOptions_SetExtraContext(System::IntPtr handle, Oculus::Platform::RichPresenceExtraContext value);
     // static public System.Void ovr_RichPresenceOptions_SetInstanceId(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD3E44
+    // Offset: 0x1BEEB54
     static void ovr_RichPresenceOptions_SetInstanceId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetInstanceId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD3EF0
+    // Offset: 0x1BEEC00
     static void ovr_RichPresenceOptions_SetInstanceId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetIsIdle(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD3F80
+    // Offset: 0x1BEEC90
     static void ovr_RichPresenceOptions_SetIsIdle(System::IntPtr handle, bool value);
     // static public System.Void ovr_RichPresenceOptions_SetIsJoinable(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD4010
+    // Offset: 0x1BEED20
     static void ovr_RichPresenceOptions_SetIsJoinable(System::IntPtr handle, bool value);
     // static public System.Void ovr_RichPresenceOptions_SetJoinableId(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD40A0
+    // Offset: 0x1BEEDB0
     static void ovr_RichPresenceOptions_SetJoinableId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetJoinableId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD414C
+    // Offset: 0x1BEEE5C
     static void ovr_RichPresenceOptions_SetJoinableId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetLobbySessionId(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD41DC
+    // Offset: 0x1BEEEEC
     static void ovr_RichPresenceOptions_SetLobbySessionId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetLobbySessionId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD4288
+    // Offset: 0x1BEEF98
     static void ovr_RichPresenceOptions_SetLobbySessionId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetMatchSessionId(System.IntPtr handle, System.String value)
-    // Offset: 0x1BD4318
+    // Offset: 0x1BEF028
     static void ovr_RichPresenceOptions_SetMatchSessionId(System::IntPtr handle, ::Il2CppString* value);
     // static private System.Void ovr_RichPresenceOptions_SetMatchSessionId_Native(System.IntPtr handle, System.IntPtr value)
-    // Offset: 0x1BD43C4
+    // Offset: 0x1BEF0D4
     static void ovr_RichPresenceOptions_SetMatchSessionId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetMaxCapacity(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1BD4454
+    // Offset: 0x1BEF164
     static void ovr_RichPresenceOptions_SetMaxCapacity(System::IntPtr handle, uint value);
     // static public System.Void ovr_RichPresenceOptions_SetStartTime(System.IntPtr handle, System.DateTime value)
-    // Offset: 0x1BD44E4
+    // Offset: 0x1BEF1F4
     static void ovr_RichPresenceOptions_SetStartTime(System::IntPtr handle, System::DateTime value);
     // static private System.Void ovr_RichPresenceOptions_SetStartTime_Native(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD4560
+    // Offset: 0x1BEF270
     static void ovr_RichPresenceOptions_SetStartTime_Native(System::IntPtr handle, uint64_t value);
     // static public System.IntPtr ovr_RoomOptions_Create()
-    // Offset: 0x1BD45F0
+    // Offset: 0x1BEF300
     static System::IntPtr ovr_RoomOptions_Create();
     // static public System.Void ovr_RoomOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD4664
+    // Offset: 0x1BEF374
     static void ovr_RoomOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_RoomOptions_SetDataStoreString(System.IntPtr handle, System.String key, System.String value)
-    // Offset: 0x1BD46E4
+    // Offset: 0x1BEF3F4
     static void ovr_RoomOptions_SetDataStoreString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
     // static private System.Void ovr_RoomOptions_SetDataStoreString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
-    // Offset: 0x1BD47B0
+    // Offset: 0x1BEF4C0
     static void ovr_RoomOptions_SetDataStoreString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
     // static public System.Void ovr_RoomOptions_ClearDataStore(System.IntPtr handle)
-    // Offset: 0x1BD4848
+    // Offset: 0x1BEF558
     static void ovr_RoomOptions_ClearDataStore(System::IntPtr handle);
     // static public System.Void ovr_RoomOptions_SetExcludeRecentlyMet(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD48C8
+    // Offset: 0x1BEF5D8
     static void ovr_RoomOptions_SetExcludeRecentlyMet(System::IntPtr handle, bool value);
     // static public System.Void ovr_RoomOptions_SetMaxUserResults(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1BD4958
+    // Offset: 0x1BEF668
     static void ovr_RoomOptions_SetMaxUserResults(System::IntPtr handle, uint value);
     // static public System.Void ovr_RoomOptions_SetOrdering(System.IntPtr handle, Oculus.Platform.UserOrdering value)
-    // Offset: 0x1BD49E8
+    // Offset: 0x1BEF6F8
     static void ovr_RoomOptions_SetOrdering(System::IntPtr handle, Oculus::Platform::UserOrdering value);
     // static public System.Void ovr_RoomOptions_SetRecentlyMetTimeWindow(System.IntPtr handle, Oculus.Platform.TimeWindow value)
-    // Offset: 0x1BD4A78
+    // Offset: 0x1BEF788
     static void ovr_RoomOptions_SetRecentlyMetTimeWindow(System::IntPtr handle, Oculus::Platform::TimeWindow value);
     // static public System.Void ovr_RoomOptions_SetRoomId(System.IntPtr handle, System.UInt64 value)
-    // Offset: 0x1BD4B08
+    // Offset: 0x1BEF818
     static void ovr_RoomOptions_SetRoomId(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_RoomOptions_SetTurnOffUpdates(System.IntPtr handle, System.Boolean value)
-    // Offset: 0x1BD4B98
+    // Offset: 0x1BEF8A8
     static void ovr_RoomOptions_SetTurnOffUpdates(System::IntPtr handle, bool value);
     // static public System.IntPtr ovr_UserOptions_Create()
-    // Offset: 0x1BD4C28
+    // Offset: 0x1BEF938
     static System::IntPtr ovr_UserOptions_Create();
     // static public System.Void ovr_UserOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD4C9C
+    // Offset: 0x1BEF9AC
     static void ovr_UserOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_UserOptions_SetMaxUsers(System.IntPtr handle, System.UInt32 value)
-    // Offset: 0x1BD4D1C
+    // Offset: 0x1BEFA2C
     static void ovr_UserOptions_SetMaxUsers(System::IntPtr handle, uint value);
     // static public System.Void ovr_UserOptions_AddServiceProvider(System.IntPtr handle, Oculus.Platform.ServiceProvider value)
-    // Offset: 0x1BD4DAC
+    // Offset: 0x1BEFABC
     static void ovr_UserOptions_AddServiceProvider(System::IntPtr handle, Oculus::Platform::ServiceProvider value);
     // static public System.Void ovr_UserOptions_ClearServiceProviders(System.IntPtr handle)
-    // Offset: 0x1BD4E3C
+    // Offset: 0x1BEFB4C
     static void ovr_UserOptions_ClearServiceProviders(System::IntPtr handle);
     // static public System.Void ovr_UserOptions_SetTimeWindow(System.IntPtr handle, Oculus.Platform.TimeWindow value)
-    // Offset: 0x1BD4EBC
+    // Offset: 0x1BEFBCC
     static void ovr_UserOptions_SetTimeWindow(System::IntPtr handle, Oculus::Platform::TimeWindow value);
     // static public System.IntPtr ovr_VoipOptions_Create()
-    // Offset: 0x1BD4F4C
+    // Offset: 0x1BEFC5C
     static System::IntPtr ovr_VoipOptions_Create();
     // static public System.Void ovr_VoipOptions_Destroy(System.IntPtr handle)
-    // Offset: 0x1BD4FC0
+    // Offset: 0x1BEFCD0
     static void ovr_VoipOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_VoipOptions_SetBitrateForNewConnections(System.IntPtr handle, Oculus.Platform.VoipBitrate value)
-    // Offset: 0x1BD5040
+    // Offset: 0x1BEFD50
     static void ovr_VoipOptions_SetBitrateForNewConnections(System::IntPtr handle, Oculus::Platform::VoipBitrate value);
     // static public System.Void ovr_VoipOptions_SetCreateNewConnectionUseDtx(System.IntPtr handle, Oculus.Platform.VoipDtxState value)
-    // Offset: 0x1BD50D0
+    // Offset: 0x1BEFDE0
     static void ovr_VoipOptions_SetCreateNewConnectionUseDtx(System::IntPtr handle, Oculus::Platform::VoipDtxState value);
     // static private System.Void .cctor()
-    // Offset: 0x1BD5168
+    // Offset: 0x1BEFE78
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BD5160
+    // Offset: 0x1BEFE70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -3492,6 +3534,8660 @@ namespace Oculus::Platform {
     }
   }; // Oculus.Platform.CAPI
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CAPI::ArrayOfStructsToIntPtr
+  // Il2CppName: ArrayOfStructsToIntPtr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Array*)>(&CAPI::ArrayOfStructsToIntPtr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ArrayOfStructsToIntPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::DictionaryToOVRKeyValuePairs
+  // Il2CppName: DictionaryToOVRKeyValuePairs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>* (*)(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&CAPI::DictionaryToOVRKeyValuePairs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "DictionaryToOVRKeyValuePairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::IntPtrToByteArray
+  // Il2CppName: IntPtrToByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr, uint64_t)>(&CAPI::IntPtrToByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "IntPtrToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::DataStoreFromNative
+  // Il2CppName: DataStoreFromNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (*)(System::IntPtr)>(&CAPI::DataStoreFromNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "DataStoreFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::StringFromNative
+  // Il2CppName: StringFromNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::StringFromNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "StringFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::GetNativeStringLengthNotIncludingNullTerminator
+  // Il2CppName: GetNativeStringLengthNotIncludingNullTerminator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::GetNativeStringLengthNotIncludingNullTerminator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "GetNativeStringLengthNotIncludingNullTerminator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::DateTimeFromNative
+  // Il2CppName: DateTimeFromNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(uint64_t)>(&CAPI::DateTimeFromNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "DateTimeFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::DateTimeToNative
+  // Il2CppName: DateTimeToNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::DateTime)>(&CAPI::DateTimeToNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "DateTimeToNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::BlobFromNative
+  // Il2CppName: BlobFromNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint, System::IntPtr)>(&CAPI::BlobFromNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "BlobFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::FiledataFromNative
+  // Il2CppName: FiledataFromNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint, System::IntPtr)>(&CAPI::FiledataFromNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "FiledataFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::StringToNative
+  // Il2CppName: StringToNative
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&CAPI::StringToNative)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "StringToNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityInitWrapper
+  // Il2CppName: ovr_UnityInitWrapper
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&CAPI::ovr_UnityInitWrapper)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityInitWrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityInitGlobals
+  // Il2CppName: ovr_UnityInitGlobals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_UnityInitGlobals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityInitGlobals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityInitWrapperAsynchronous
+  // Il2CppName: ovr_UnityInitWrapperAsynchronous
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_UnityInitWrapperAsynchronous)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityInitWrapperAsynchronous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityInitWrapperStandalone
+  // Il2CppName: ovr_UnityInitWrapperStandalone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_UnityInitWrapperStandalone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityInitWrapperStandalone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Platform_InitializeStandaloneOculus
+  // Il2CppName: ovr_Platform_InitializeStandaloneOculus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::CAPI::OculusInitParams&)>(&CAPI::ovr_Platform_InitializeStandaloneOculus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Platform_InitializeStandaloneOculus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::OculusInitParams&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PlatformInitializeWithAccessToken
+  // Il2CppName: ovr_PlatformInitializeWithAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_PlatformInitializeWithAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PlatformInitializeWithAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityInitWrapperWindows
+  // Il2CppName: ovr_UnityInitWrapperWindows
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_UnityInitWrapperWindows)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityInitWrapperWindows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityInitWrapperWindowsAsynchronous
+  // Il2CppName: ovr_UnityInitWrapperWindowsAsynchronous
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_UnityInitWrapperWindowsAsynchronous)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityInitWrapperWindowsAsynchronous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SetDeveloperAccessToken
+  // Il2CppName: ovr_SetDeveloperAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&CAPI::ovr_SetDeveloperAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SetDeveloperAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GetLoggedInUserLocale
+  // Il2CppName: ovr_GetLoggedInUserLocale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&CAPI::ovr_GetLoggedInUserLocale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GetLoggedInUserLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GetLoggedInUserLocale_Native
+  // Il2CppName: ovr_GetLoggedInUserLocale_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_GetLoggedInUserLocale_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GetLoggedInUserLocale_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PopMessage
+  // Il2CppName: ovr_PopMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_PopMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PopMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_FreeMessage
+  // Il2CppName: ovr_FreeMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_FreeMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_FreeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_CreateEncoder
+  // Il2CppName: ovr_Voip_CreateEncoder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_Voip_CreateEncoder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_CreateEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_DestroyEncoder
+  // Il2CppName: ovr_Voip_DestroyEncoder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Voip_DestroyEncoder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_DestroyEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_CreateDecoder
+  // Il2CppName: ovr_Voip_CreateDecoder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_Voip_CreateDecoder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_CreateDecoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_DestroyDecoder
+  // Il2CppName: ovr_Voip_DestroyDecoder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Voip_DestroyDecoder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_DestroyDecoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipDecoder_Decode
+  // Il2CppName: ovr_VoipDecoder_Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<uint8_t>*, uint64_t)>(&CAPI::ovr_VoipDecoder_Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipDecoder_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_Create
+  // Il2CppName: ovr_Microphone_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_Microphone_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_Destroy
+  // Il2CppName: ovr_Microphone_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Microphone_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetSystemVoipPassthrough
+  // Il2CppName: ovr_Voip_SetSystemVoipPassthrough
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&CAPI::ovr_Voip_SetSystemVoipPassthrough)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetSystemVoipPassthrough", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetSystemVoipMicrophoneMuted
+  // Il2CppName: ovr_Voip_SetSystemVoipMicrophoneMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipMuteState)>(&CAPI::ovr_Voip_SetSystemVoipMicrophoneMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetSystemVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipMuteState>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UnityResetTestPlatform
+  // Il2CppName: ovr_UnityResetTestPlatform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CAPI::ovr_UnityResetTestPlatform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UnityResetTestPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_GetWithMessageType
+  // Il2CppName: ovr_HTTP_GetWithMessageType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int)>(&CAPI::ovr_HTTP_GetWithMessageType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_GetWithMessageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CrashApplication
+  // Il2CppName: ovr_CrashApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CAPI::ovr_CrashApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CrashApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetMicrophoneFilterCallback
+  // Il2CppName: ovr_Voip_SetMicrophoneFilterCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::CAPI::FilterCallback*)>(&CAPI::ovr_Voip_SetMicrophoneFilterCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetMicrophoneFilterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::FilterCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer
+  // Il2CppName: ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::CAPI::FilterCallback*, System::UIntPtr)>(&CAPI::ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::FilterCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::LogNewEvent
+  // Il2CppName: LogNewEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&CAPI::LogNewEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "LogNewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Log_NewEvent
+  // Il2CppName: ovr_Log_NewEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<System::IntPtr>*, System::UIntPtr)>(&CAPI::ovr_Log_NewEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Log_NewEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::IntPtr>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_GetLaunchDetails
+  // Il2CppName: ovr_ApplicationLifecycle_GetLaunchDetails
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_ApplicationLifecycle_GetLaunchDetails)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_GetLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult
+  // Il2CppName: ovr_ApplicationLifecycle_LogDeeplinkResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Oculus::Platform::LaunchResult)>(&CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_LogDeeplinkResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LaunchResult>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult_Native
+  // Il2CppName: ovr_ApplicationLifecycle_LogDeeplinkResult_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::LaunchResult)>(&CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_LogDeeplinkResult_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LaunchResult>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_StartTransfer
+  // Il2CppName: ovr_HTTP_StartTransfer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&CAPI::ovr_HTTP_StartTransfer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_StartTransfer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_StartTransfer_Native
+  // Il2CppName: ovr_HTTP_StartTransfer_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&CAPI::ovr_HTTP_StartTransfer_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_StartTransfer_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_Write
+  // Il2CppName: ovr_HTTP_Write
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Array<uint8_t>*, System::UIntPtr)>(&CAPI::ovr_HTTP_Write)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_WriteEOM
+  // Il2CppName: ovr_HTTP_WriteEOM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_HTTP_WriteEOM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_WriteEOM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetStringForJavascript
+  // Il2CppName: ovr_Message_GetStringForJavascript
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Message_GetStringForJavascript)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetStringForJavascript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetStringForJavascript_Native
+  // Il2CppName: ovr_Message_GetStringForJavascript_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetStringForJavascript_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetStringForJavascript_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetAmbisonicFloatPCM
+  // Il2CppName: ovr_NetSync_GetAmbisonicFloatPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_NetSync_GetAmbisonicFloatPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetAmbisonicFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetAmbisonicInt16PCM
+  // Il2CppName: ovr_NetSync_GetAmbisonicInt16PCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<int16_t>*, System::UIntPtr)>(&CAPI::ovr_NetSync_GetAmbisonicInt16PCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetAmbisonicInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetAmbisonicInterleavedFloatPCM
+  // Il2CppName: ovr_NetSync_GetAmbisonicInterleavedFloatPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_NetSync_GetAmbisonicInterleavedFloatPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetAmbisonicInterleavedFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetAmbisonicInterleavedInt16PCM
+  // Il2CppName: ovr_NetSync_GetAmbisonicInterleavedInt16PCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, ::Array<int16_t>*, System::UIntPtr)>(&CAPI::ovr_NetSync_GetAmbisonicInterleavedInt16PCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetAmbisonicInterleavedInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetListenerPosition
+  // Il2CppName: ovr_NetSync_GetListenerPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, uint64_t, Oculus::Platform::CAPI::ovrNetSyncVec3&)>(&CAPI::ovr_NetSync_GetListenerPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetListenerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::ovrNetSyncVec3&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetMonostreamFloatPCM
+  // Il2CppName: ovr_NetSync_GetMonostreamFloatPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, uint64_t, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_NetSync_GetMonostreamFloatPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetMonostreamFloatPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetMonostreamInt16PCM
+  // Il2CppName: ovr_NetSync_GetMonostreamInt16PCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(int64_t, uint64_t, ::Array<int16_t>*, System::UIntPtr)>(&CAPI::ovr_NetSync_GetMonostreamInt16PCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetMonostreamInt16PCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetPcmBufferMaxSamples
+  // Il2CppName: ovr_NetSync_GetPcmBufferMaxSamples
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)()>(&CAPI::ovr_NetSync_GetPcmBufferMaxSamples)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetPcmBufferMaxSamples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetVoipAmplitude
+  // Il2CppName: ovr_NetSync_GetVoipAmplitude
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, uint64_t, float&)>(&CAPI::ovr_NetSync_GetVoipAmplitude)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetVoipAmplitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetListenerPosition
+  // Il2CppName: ovr_NetSync_SetListenerPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, Oculus::Platform::CAPI::ovrNetSyncVec3&)>(&CAPI::ovr_NetSync_SetListenerPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetListenerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::CAPI::ovrNetSyncVec3&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_Accept
+  // Il2CppName: ovr_Net_Accept
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_Net_Accept)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_AcceptForCurrentRoom
+  // Il2CppName: ovr_Net_AcceptForCurrentRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CAPI::ovr_Net_AcceptForCurrentRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_AcceptForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_Close
+  // Il2CppName: ovr_Net_Close
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_Net_Close)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_CloseForCurrentRoom
+  // Il2CppName: ovr_Net_CloseForCurrentRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CAPI::ovr_Net_CloseForCurrentRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_CloseForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_Connect
+  // Il2CppName: ovr_Net_Connect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_Net_Connect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_IsConnected
+  // Il2CppName: ovr_Net_IsConnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&CAPI::ovr_Net_IsConnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_Ping
+  // Il2CppName: ovr_Net_Ping
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Net_Ping)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_ReadPacket
+  // Il2CppName: ovr_Net_ReadPacket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_Net_ReadPacket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_SendPacket
+  // Il2CppName: ovr_Net_SendPacket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, System::UIntPtr, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&CAPI::ovr_Net_SendPacket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_SendPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Net_SendPacketToCurrentRoom
+  // Il2CppName: ovr_Net_SendPacketToCurrentRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::UIntPtr, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&CAPI::ovr_Net_SendPacketToCurrentRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Net_SendPacketToCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_PluginGetSharedMemHandle
+  // Il2CppName: ovr_Party_PluginGetSharedMemHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&CAPI::ovr_Party_PluginGetSharedMemHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_PluginGetSharedMemHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_PluginGetVoipMicrophoneMuted
+  // Il2CppName: ovr_Party_PluginGetVoipMicrophoneMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)()>(&CAPI::ovr_Party_PluginGetVoipMicrophoneMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_PluginGetVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_PluginGetVoipPassthrough
+  // Il2CppName: ovr_Party_PluginGetVoipPassthrough
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CAPI::ovr_Party_PluginGetVoipPassthrough)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_PluginGetVoipPassthrough", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_PluginGetVoipStatus
+  // Il2CppName: ovr_Party_PluginGetVoipStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)()>(&CAPI::ovr_Party_PluginGetVoipStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_PluginGetVoipStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_Accept
+  // Il2CppName: ovr_Voip_Accept
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_Voip_Accept)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetIsConnectionUsingDtx
+  // Il2CppName: ovr_Voip_GetIsConnectionUsingDtx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipDtxState (*)(uint64_t)>(&CAPI::ovr_Voip_GetIsConnectionUsingDtx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetIsConnectionUsingDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetLocalBitrate
+  // Il2CppName: ovr_Voip_GetLocalBitrate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&CAPI::ovr_Voip_GetLocalBitrate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetLocalBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetOutputBufferMaxSize
+  // Il2CppName: ovr_Voip_GetOutputBufferMaxSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)()>(&CAPI::ovr_Voip_GetOutputBufferMaxSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetOutputBufferMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetPCM
+  // Il2CppName: ovr_Voip_GetPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<int16_t>*, System::UIntPtr)>(&CAPI::ovr_Voip_GetPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetPCMFloat
+  // Il2CppName: ovr_Voip_GetPCMFloat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_Voip_GetPCMFloat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetPCMFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetPCMSize
+  // Il2CppName: ovr_Voip_GetPCMSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t)>(&CAPI::ovr_Voip_GetPCMSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetPCMSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetPCMWithTimestamp
+  // Il2CppName: ovr_Voip_GetPCMWithTimestamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<int16_t>*, System::UIntPtr, ::Array<uint>*)>(&CAPI::ovr_Voip_GetPCMWithTimestamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetPCMWithTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetPCMWithTimestampFloat
+  // Il2CppName: ovr_Voip_GetPCMWithTimestampFloat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(uint64_t, ::Array<float>*, System::UIntPtr, ::Array<uint>*)>(&CAPI::ovr_Voip_GetPCMWithTimestampFloat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetPCMWithTimestampFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetRemoteBitrate
+  // Il2CppName: ovr_Voip_GetRemoteBitrate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipBitrate (*)(uint64_t)>(&CAPI::ovr_Voip_GetRemoteBitrate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetRemoteBitrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetSyncTimestamp
+  // Il2CppName: ovr_Voip_GetSyncTimestamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint64_t)>(&CAPI::ovr_Voip_GetSyncTimestamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetSyncTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetSyncTimestampDifference
+  // Il2CppName: ovr_Voip_GetSyncTimestampDifference
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint, uint)>(&CAPI::ovr_Voip_GetSyncTimestampDifference)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetSyncTimestampDifference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetSystemVoipMicrophoneMuted
+  // Il2CppName: ovr_Voip_GetSystemVoipMicrophoneMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)()>(&CAPI::ovr_Voip_GetSystemVoipMicrophoneMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetSystemVoipMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_GetSystemVoipStatus
+  // Il2CppName: ovr_Voip_GetSystemVoipStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)()>(&CAPI::ovr_Voip_GetSystemVoipStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_GetSystemVoipStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetMicrophoneMuted
+  // Il2CppName: ovr_Voip_SetMicrophoneMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipMuteState)>(&CAPI::ovr_Voip_SetMicrophoneMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipMuteState>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetNewConnectionOptions
+  // Il2CppName: ovr_Voip_SetNewConnectionOptions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Voip_SetNewConnectionOptions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetNewConnectionOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetOutputSampleRate
+  // Il2CppName: ovr_Voip_SetOutputSampleRate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::VoipSampleRate)>(&CAPI::ovr_Voip_SetOutputSampleRate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetOutputSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipSampleRate>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_Start
+  // Il2CppName: ovr_Voip_Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_Voip_Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_Stop
+  // Il2CppName: ovr_Voip_Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&CAPI::ovr_Voip_Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReport_LaunchAdvancedReportFlow
+  // Il2CppName: ovr_AbuseReport_LaunchAdvancedReportFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_AbuseReport_LaunchAdvancedReportFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReport_LaunchAdvancedReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_AddCount
+  // Il2CppName: ovr_Achievements_AddCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint64_t)>(&CAPI::ovr_Achievements_AddCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_AddCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_AddCount_Native
+  // Il2CppName: ovr_Achievements_AddCount_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_Achievements_AddCount_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_AddCount_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_AddFields
+  // Il2CppName: ovr_Achievements_AddFields
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_Achievements_AddFields)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_AddFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_AddFields_Native
+  // Il2CppName: ovr_Achievements_AddFields_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Achievements_AddFields_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_AddFields_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_GetAllDefinitions
+  // Il2CppName: ovr_Achievements_GetAllDefinitions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Achievements_GetAllDefinitions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_GetAllDefinitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_GetAllProgress
+  // Il2CppName: ovr_Achievements_GetAllProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Achievements_GetAllProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_GetAllProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_GetDefinitionsByName
+  // Il2CppName: ovr_Achievements_GetDefinitionsByName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<::Il2CppString*>*, int)>(&CAPI::ovr_Achievements_GetDefinitionsByName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_GetDefinitionsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_GetProgressByName
+  // Il2CppName: ovr_Achievements_GetProgressByName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<::Il2CppString*>*, int)>(&CAPI::ovr_Achievements_GetProgressByName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_GetProgressByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_Unlock
+  // Il2CppName: ovr_Achievements_Unlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_Achievements_Unlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_Unlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Achievements_Unlock_Native
+  // Il2CppName: ovr_Achievements_Unlock_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Achievements_Unlock_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Achievements_Unlock_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Application_ExecuteCoordinatedLaunch
+  // Il2CppName: ovr_Application_ExecuteCoordinatedLaunch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&CAPI::ovr_Application_ExecuteCoordinatedLaunch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Application_ExecuteCoordinatedLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Application_GetInstalledApplications
+  // Il2CppName: ovr_Application_GetInstalledApplications
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Application_GetInstalledApplications)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Application_GetInstalledApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Application_GetVersion
+  // Il2CppName: ovr_Application_GetVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Application_GetVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Application_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Application_LaunchOtherApp
+  // Il2CppName: ovr_Application_LaunchOtherApp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Application_LaunchOtherApp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Application_LaunchOtherApp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_GetRegisteredPIDs
+  // Il2CppName: ovr_ApplicationLifecycle_GetRegisteredPIDs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_ApplicationLifecycle_GetRegisteredPIDs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_GetRegisteredPIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_GetSessionKey
+  // Il2CppName: ovr_ApplicationLifecycle_GetSessionKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_ApplicationLifecycle_GetSessionKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_GetSessionKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_RegisterSessionKey
+  // Il2CppName: ovr_ApplicationLifecycle_RegisterSessionKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_ApplicationLifecycle_RegisterSessionKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_RegisterSessionKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationLifecycle_RegisterSessionKey_Native
+  // Il2CppName: ovr_ApplicationLifecycle_RegisterSessionKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_ApplicationLifecycle_RegisterSessionKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationLifecycle_RegisterSessionKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_Delete
+  // Il2CppName: ovr_AssetFile_Delete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_Delete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DeleteById
+  // Il2CppName: ovr_AssetFile_DeleteById
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_DeleteById)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DeleteById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DeleteByName
+  // Il2CppName: ovr_AssetFile_DeleteByName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_AssetFile_DeleteByName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DeleteByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DeleteByName_Native
+  // Il2CppName: ovr_AssetFile_DeleteByName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFile_DeleteByName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DeleteByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_Download
+  // Il2CppName: ovr_AssetFile_Download
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_Download)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_Download", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadById
+  // Il2CppName: ovr_AssetFile_DownloadById
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_DownloadById)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadByName
+  // Il2CppName: ovr_AssetFile_DownloadByName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_AssetFile_DownloadByName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadByName_Native
+  // Il2CppName: ovr_AssetFile_DownloadByName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFile_DownloadByName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadCancel
+  // Il2CppName: ovr_AssetFile_DownloadCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_DownloadCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadCancelById
+  // Il2CppName: ovr_AssetFile_DownloadCancelById
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_DownloadCancelById)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadCancelById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadCancelByName
+  // Il2CppName: ovr_AssetFile_DownloadCancelByName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_AssetFile_DownloadCancelByName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadCancelByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_DownloadCancelByName_Native
+  // Il2CppName: ovr_AssetFile_DownloadCancelByName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFile_DownloadCancelByName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_DownloadCancelByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_GetList
+  // Il2CppName: ovr_AssetFile_GetList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_AssetFile_GetList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_Status
+  // Il2CppName: ovr_AssetFile_Status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_Status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_StatusById
+  // Il2CppName: ovr_AssetFile_StatusById
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_AssetFile_StatusById)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_StatusById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_StatusByName
+  // Il2CppName: ovr_AssetFile_StatusByName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_AssetFile_StatusByName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_StatusByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFile_StatusByName_Native
+  // Il2CppName: ovr_AssetFile_StatusByName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFile_StatusByName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFile_StatusByName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Avatar_UpdateMetaData
+  // Il2CppName: ovr_Avatar_UpdateMetaData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_Avatar_UpdateMetaData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Avatar_UpdateMetaData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Avatar_UpdateMetaData_Native
+  // Il2CppName: ovr_Avatar_UpdateMetaData_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Avatar_UpdateMetaData_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Avatar_UpdateMetaData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Cal_FinalizeApplication
+  // Il2CppName: ovr_Cal_FinalizeApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<uint64_t>*, int, uint64_t)>(&CAPI::ovr_Cal_FinalizeApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Cal_FinalizeApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Cal_GetSuggestedApplications
+  // Il2CppName: ovr_Cal_GetSuggestedApplications
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<uint64_t>*, int)>(&CAPI::ovr_Cal_GetSuggestedApplications)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Cal_GetSuggestedApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Cal_ProposeApplication
+  // Il2CppName: ovr_Cal_ProposeApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<uint64_t>*, int, uint64_t)>(&CAPI::ovr_Cal_ProposeApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Cal_ProposeApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_Create
+  // Il2CppName: ovr_Challenges_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Challenges_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_Create_Native
+  // Il2CppName: ovr_Challenges_Create_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Challenges_Create_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_Create_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_DeclineInvite
+  // Il2CppName: ovr_Challenges_DeclineInvite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Challenges_DeclineInvite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_DeclineInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_Delete
+  // Il2CppName: ovr_Challenges_Delete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Challenges_Delete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_Get
+  // Il2CppName: ovr_Challenges_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Challenges_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetEntries
+  // Il2CppName: ovr_Challenges_GetEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&CAPI::ovr_Challenges_GetEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetEntriesAfterRank
+  // Il2CppName: ovr_Challenges_GetEntriesAfterRank
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int, uint64_t)>(&CAPI::ovr_Challenges_GetEntriesAfterRank)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetEntriesByIds
+  // Il2CppName: ovr_Challenges_GetEntriesByIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*, uint)>(&CAPI::ovr_Challenges_GetEntriesByIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetList
+  // Il2CppName: ovr_Challenges_GetList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int)>(&CAPI::ovr_Challenges_GetList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetNextChallenges
+  // Il2CppName: ovr_Challenges_GetNextChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenges_GetNextChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetNextChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetNextEntries
+  // Il2CppName: ovr_Challenges_GetNextEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenges_GetNextEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetPreviousChallenges
+  // Il2CppName: ovr_Challenges_GetPreviousChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenges_GetPreviousChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetPreviousChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_GetPreviousEntries
+  // Il2CppName: ovr_Challenges_GetPreviousEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenges_GetPreviousEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_Join
+  // Il2CppName: ovr_Challenges_Join
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Challenges_Join)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_Leave
+  // Il2CppName: ovr_Challenges_Leave
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Challenges_Leave)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenges_UpdateInfo
+  // Il2CppName: ovr_Challenges_UpdateInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Challenges_UpdateInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenges_UpdateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_Delete
+  // Il2CppName: ovr_CloudStorage_Delete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_Delete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_Delete_Native
+  // Il2CppName: ovr_CloudStorage_Delete_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_CloudStorage_Delete_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_Delete_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_Load
+  // Il2CppName: ovr_CloudStorage_Load
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_Load)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_Load_Native
+  // Il2CppName: ovr_CloudStorage_Load_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_CloudStorage_Load_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_Load_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadBucketMetadata
+  // Il2CppName: ovr_CloudStorage_LoadBucketMetadata
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_CloudStorage_LoadBucketMetadata)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadBucketMetadata_Native
+  // Il2CppName: ovr_CloudStorage_LoadBucketMetadata_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_CloudStorage_LoadBucketMetadata_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadBucketMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadConflictMetadata
+  // Il2CppName: ovr_CloudStorage_LoadConflictMetadata
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_LoadConflictMetadata)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadConflictMetadata_Native
+  // Il2CppName: ovr_CloudStorage_LoadConflictMetadata_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_CloudStorage_LoadConflictMetadata_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadConflictMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadHandle
+  // Il2CppName: ovr_CloudStorage_LoadHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_CloudStorage_LoadHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadHandle_Native
+  // Il2CppName: ovr_CloudStorage_LoadHandle_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_CloudStorage_LoadHandle_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadHandle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadMetadata
+  // Il2CppName: ovr_CloudStorage_LoadMetadata
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_LoadMetadata)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_LoadMetadata_Native
+  // Il2CppName: ovr_CloudStorage_LoadMetadata_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_CloudStorage_LoadMetadata_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_LoadMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_ResolveKeepLocal
+  // Il2CppName: ovr_CloudStorage_ResolveKeepLocal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_ResolveKeepLocal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_ResolveKeepLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_ResolveKeepLocal_Native
+  // Il2CppName: ovr_CloudStorage_ResolveKeepLocal_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CAPI::ovr_CloudStorage_ResolveKeepLocal_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_ResolveKeepLocal_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_ResolveKeepRemote
+  // Il2CppName: ovr_CloudStorage_ResolveKeepRemote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_ResolveKeepRemote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_ResolveKeepRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_ResolveKeepRemote_Native
+  // Il2CppName: ovr_CloudStorage_ResolveKeepRemote_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CAPI::ovr_CloudStorage_ResolveKeepRemote_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_ResolveKeepRemote_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_Save
+  // Il2CppName: ovr_CloudStorage_Save
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, uint, int64_t, ::Il2CppString*)>(&CAPI::ovr_CloudStorage_Save)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage_Save_Native
+  // Il2CppName: ovr_CloudStorage_Save_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, ::Array<uint8_t>*, uint, int64_t, System::IntPtr)>(&CAPI::ovr_CloudStorage_Save_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage_Save_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage2_GetUserDirectoryPath
+  // Il2CppName: ovr_CloudStorage2_GetUserDirectoryPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_CloudStorage2_GetUserDirectoryPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage2_GetUserDirectoryPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Colocation_GetCurrentMapUuid
+  // Il2CppName: ovr_Colocation_GetCurrentMapUuid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Colocation_GetCurrentMapUuid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Colocation_GetCurrentMapUuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Colocation_RequestMap
+  // Il2CppName: ovr_Colocation_RequestMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_Colocation_RequestMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Colocation_RequestMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Colocation_RequestMap_Native
+  // Il2CppName: ovr_Colocation_RequestMap_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Colocation_RequestMap_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Colocation_RequestMap_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Colocation_ShareMap
+  // Il2CppName: ovr_Colocation_ShareMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_Colocation_ShareMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Colocation_ShareMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Colocation_ShareMap_Native
+  // Il2CppName: ovr_Colocation_ShareMap_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Colocation_ShareMap_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Colocation_ShareMap_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Entitlement_GetIsViewerEntitled
+  // Il2CppName: ovr_Entitlement_GetIsViewerEntitled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Entitlement_GetIsViewerEntitled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Entitlement_GetIsViewerEntitled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GraphAPI_Get
+  // Il2CppName: ovr_GraphAPI_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_GraphAPI_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GraphAPI_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GraphAPI_Get_Native
+  // Il2CppName: ovr_GraphAPI_Get_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_GraphAPI_Get_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GraphAPI_Get_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GraphAPI_Post
+  // Il2CppName: ovr_GraphAPI_Post
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_GraphAPI_Post)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GraphAPI_Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GraphAPI_Post_Native
+  // Il2CppName: ovr_GraphAPI_Post_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_GraphAPI_Post_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GraphAPI_Post_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresence_LaunchInvitePanel
+  // Il2CppName: ovr_GroupPresence_LaunchInvitePanel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_GroupPresence_LaunchInvitePanel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresence_LaunchInvitePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_Get
+  // Il2CppName: ovr_HTTP_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_HTTP_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_Get_Native
+  // Il2CppName: ovr_HTTP_Get_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_HTTP_Get_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_Get_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_GetToFile
+  // Il2CppName: ovr_HTTP_GetToFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_HTTP_GetToFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_GetToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_GetToFile_Native
+  // Il2CppName: ovr_HTTP_GetToFile_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_HTTP_GetToFile_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_GetToFile_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_MultiPartPost
+  // Il2CppName: ovr_HTTP_MultiPartPost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&CAPI::ovr_HTTP_MultiPartPost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_MultiPartPost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_MultiPartPost_Native
+  // Il2CppName: ovr_HTTP_MultiPartPost_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, System::IntPtr, System::IntPtr, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&CAPI::ovr_HTTP_MultiPartPost_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_MultiPartPost_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_Post
+  // Il2CppName: ovr_HTTP_Post
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_HTTP_Post)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HTTP_Post_Native
+  // Il2CppName: ovr_HTTP_Post_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_HTTP_Post_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HTTP_Post_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_ConsumePurchase
+  // Il2CppName: ovr_IAP_ConsumePurchase
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_IAP_ConsumePurchase)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_ConsumePurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_ConsumePurchase_Native
+  // Il2CppName: ovr_IAP_ConsumePurchase_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_IAP_ConsumePurchase_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_ConsumePurchase_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_GetProductsBySKU
+  // Il2CppName: ovr_IAP_GetProductsBySKU
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<::Il2CppString*>*, int)>(&CAPI::ovr_IAP_GetProductsBySKU)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_GetViewerPurchases
+  // Il2CppName: ovr_IAP_GetViewerPurchases
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_IAP_GetViewerPurchases)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_GetViewerPurchases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_GetViewerPurchasesDurableCache
+  // Il2CppName: ovr_IAP_GetViewerPurchasesDurableCache
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_IAP_GetViewerPurchasesDurableCache)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_GetViewerPurchasesDurableCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_LaunchCheckoutFlow
+  // Il2CppName: ovr_IAP_LaunchCheckoutFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_IAP_LaunchCheckoutFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_IAP_LaunchCheckoutFlow_Native
+  // Il2CppName: ovr_IAP_LaunchCheckoutFlow_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_IAP_LaunchCheckoutFlow_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_IAP_LaunchCheckoutFlow_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePack_GetCurrent
+  // Il2CppName: ovr_LanguagePack_GetCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_LanguagePack_GetCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePack_GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePack_SetCurrent
+  // Il2CppName: ovr_LanguagePack_SetCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_LanguagePack_SetCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePack_SetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePack_SetCurrent_Native
+  // Il2CppName: ovr_LanguagePack_SetCurrent_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_LanguagePack_SetCurrent_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePack_SetCurrent_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_Get
+  // Il2CppName: ovr_Leaderboard_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_Leaderboard_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_Get_Native
+  // Il2CppName: ovr_Leaderboard_Get_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_Get_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_Get_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetEntries
+  // Il2CppName: ovr_Leaderboard_GetEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&CAPI::ovr_Leaderboard_GetEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetEntries_Native
+  // Il2CppName: ovr_Leaderboard_GetEntries_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&CAPI::ovr_Leaderboard_GetEntries_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetEntries_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetEntriesAfterRank
+  // Il2CppName: ovr_Leaderboard_GetEntriesAfterRank
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, uint64_t)>(&CAPI::ovr_Leaderboard_GetEntriesAfterRank)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetEntriesAfterRank_Native
+  // Il2CppName: ovr_Leaderboard_GetEntriesAfterRank_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int, uint64_t)>(&CAPI::ovr_Leaderboard_GetEntriesAfterRank_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetEntriesAfterRank_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetEntriesByIds
+  // Il2CppName: ovr_Leaderboard_GetEntriesByIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*, uint)>(&CAPI::ovr_Leaderboard_GetEntriesByIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetEntriesByIds_Native
+  // Il2CppName: ovr_Leaderboard_GetEntriesByIds_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*, uint)>(&CAPI::ovr_Leaderboard_GetEntriesByIds_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetEntriesByIds_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetNextEntries
+  // Il2CppName: ovr_Leaderboard_GetNextEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_GetNextEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetPreviousEntries
+  // Il2CppName: ovr_Leaderboard_GetPreviousEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_GetPreviousEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_WriteEntry
+  // Il2CppName: ovr_Leaderboard_WriteEntry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int64_t, ::Array<uint8_t>*, uint, bool)>(&CAPI::ovr_Leaderboard_WriteEntry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_WriteEntry_Native
+  // Il2CppName: ovr_Leaderboard_WriteEntry_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int64_t, ::Array<uint8_t>*, uint, bool)>(&CAPI::ovr_Leaderboard_WriteEntry_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_WriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric
+  // Il2CppName: ovr_Leaderboard_WriteEntryWithSupplementaryMetric
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int64_t, int64_t, ::Array<uint8_t>*, uint, bool)>(&CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native
+  // Il2CppName: ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, int64_t, int64_t, ::Array<uint8_t>*, uint, bool)>(&CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_GetStatus
+  // Il2CppName: ovr_Livestreaming_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_IsAllowedForApplication
+  // Il2CppName: ovr_Livestreaming_IsAllowedForApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_Livestreaming_IsAllowedForApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_IsAllowedForApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_IsAllowedForApplication_Native
+  // Il2CppName: ovr_Livestreaming_IsAllowedForApplication_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Livestreaming_IsAllowedForApplication_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_IsAllowedForApplication_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_LaunchLivestreamingFlow
+  // Il2CppName: ovr_Livestreaming_LaunchLivestreamingFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_LaunchLivestreamingFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_LaunchLivestreamingFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_PauseStream
+  // Il2CppName: ovr_Livestreaming_PauseStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_PauseStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_PauseStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_ResumeStream
+  // Il2CppName: ovr_Livestreaming_ResumeStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_ResumeStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_ResumeStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_StartPartyStream
+  // Il2CppName: ovr_Livestreaming_StartPartyStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_StartPartyStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_StartPartyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_StartStream
+  // Il2CppName: ovr_Livestreaming_StartStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::LivestreamingAudience, Oculus::Platform::LivestreamingMicrophoneStatus)>(&CAPI::ovr_Livestreaming_StartStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_StartStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LivestreamingAudience>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LivestreamingMicrophoneStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_StopPartyStream
+  // Il2CppName: ovr_Livestreaming_StopPartyStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_StopPartyStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_StopPartyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_StopStream
+  // Il2CppName: ovr_Livestreaming_StopStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Livestreaming_StopStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_StopStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_UpdateCommentsOverlayVisibility
+  // Il2CppName: ovr_Livestreaming_UpdateCommentsOverlayVisibility
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&CAPI::ovr_Livestreaming_UpdateCommentsOverlayVisibility)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_UpdateCommentsOverlayVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Livestreaming_UpdateMicStatus
+  // Il2CppName: ovr_Livestreaming_UpdateMicStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::LivestreamingMicrophoneStatus)>(&CAPI::ovr_Livestreaming_UpdateMicStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Livestreaming_UpdateMicStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LivestreamingMicrophoneStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Browse
+  // Il2CppName: ovr_Matchmaking_Browse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Matchmaking_Browse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Browse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Browse_Native
+  // Il2CppName: ovr_Matchmaking_Browse_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_Browse_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Browse_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Browse2
+  // Il2CppName: ovr_Matchmaking_Browse2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Matchmaking_Browse2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Browse2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Browse2_Native
+  // Il2CppName: ovr_Matchmaking_Browse2_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_Browse2_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Browse2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Cancel
+  // Il2CppName: ovr_Matchmaking_Cancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_Matchmaking_Cancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Cancel_Native
+  // Il2CppName: ovr_Matchmaking_Cancel_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_Cancel_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Cancel_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Cancel2
+  // Il2CppName: ovr_Matchmaking_Cancel2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Matchmaking_Cancel2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Cancel2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateAndEnqueueRoom
+  // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, bool, System::IntPtr)>(&CAPI::ovr_Matchmaking_CreateAndEnqueueRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateAndEnqueueRoom_Native
+  // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint, bool, System::IntPtr)>(&CAPI::ovr_Matchmaking_CreateAndEnqueueRoom_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2
+  // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2_Native
+  // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom2_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateAndEnqueueRoom2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateRoom
+  // Il2CppName: ovr_Matchmaking_CreateRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, bool)>(&CAPI::ovr_Matchmaking_CreateRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateRoom_Native
+  // Il2CppName: ovr_Matchmaking_CreateRoom_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint, bool)>(&CAPI::ovr_Matchmaking_CreateRoom_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateRoom_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateRoom2
+  // Il2CppName: ovr_Matchmaking_CreateRoom2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Matchmaking_CreateRoom2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateRoom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_CreateRoom2_Native
+  // Il2CppName: ovr_Matchmaking_CreateRoom2_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_CreateRoom2_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_CreateRoom2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Enqueue
+  // Il2CppName: ovr_Matchmaking_Enqueue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Matchmaking_Enqueue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Enqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Enqueue_Native
+  // Il2CppName: ovr_Matchmaking_Enqueue_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_Enqueue_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Enqueue_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Enqueue2
+  // Il2CppName: ovr_Matchmaking_Enqueue2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&CAPI::ovr_Matchmaking_Enqueue2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Enqueue2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_Enqueue2_Native
+  // Il2CppName: ovr_Matchmaking_Enqueue2_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_Matchmaking_Enqueue2_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_Enqueue2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_EnqueueRoom
+  // Il2CppName: ovr_Matchmaking_EnqueueRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Matchmaking_EnqueueRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_EnqueueRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_EnqueueRoom2
+  // Il2CppName: ovr_Matchmaking_EnqueueRoom2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Matchmaking_EnqueueRoom2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_EnqueueRoom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_GetAdminSnapshot
+  // Il2CppName: ovr_Matchmaking_GetAdminSnapshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Matchmaking_GetAdminSnapshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_GetAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_GetStats
+  // Il2CppName: ovr_Matchmaking_GetStats
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, Oculus::Platform::MatchmakingStatApproach)>(&CAPI::ovr_Matchmaking_GetStats)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_GetStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingStatApproach>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_GetStats_Native
+  // Il2CppName: ovr_Matchmaking_GetStats_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint, Oculus::Platform::MatchmakingStatApproach)>(&CAPI::ovr_Matchmaking_GetStats_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_GetStats_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingStatApproach>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_JoinRoom
+  // Il2CppName: ovr_Matchmaking_JoinRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, bool)>(&CAPI::ovr_Matchmaking_JoinRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_JoinRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_ReportResultInsecure
+  // Il2CppName: ovr_Matchmaking_ReportResultInsecure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&CAPI::ovr_Matchmaking_ReportResultInsecure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_ReportResultInsecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_ReportResultInsecure_Native
+  // Il2CppName: ovr_Matchmaking_ReportResultInsecure_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&CAPI::ovr_Matchmaking_ReportResultInsecure_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_ReportResultInsecure_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Matchmaking_StartMatch
+  // Il2CppName: ovr_Matchmaking_StartMatch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Matchmaking_StartMatch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Matchmaking_StartMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Media_ShareToFacebook
+  // Il2CppName: ovr_Media_ShareToFacebook
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, Oculus::Platform::MediaContentType)>(&CAPI::ovr_Media_ShareToFacebook)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Media_ShareToFacebook", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MediaContentType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Media_ShareToFacebook_Native
+  // Il2CppName: ovr_Media_ShareToFacebook_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, System::IntPtr, Oculus::Platform::MediaContentType)>(&CAPI::ovr_Media_ShareToFacebook_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Media_ShareToFacebook_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MediaContentType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_Connect
+  // Il2CppName: ovr_NetSync_Connect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSync_Connect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_Disconnect
+  // Il2CppName: ovr_NetSync_Disconnect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&CAPI::ovr_NetSync_Disconnect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetSessions
+  // Il2CppName: ovr_NetSync_GetSessions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&CAPI::ovr_NetSync_GetSessions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetSessions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetVoipAttenuation
+  // Il2CppName: ovr_NetSync_GetVoipAttenuation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&CAPI::ovr_NetSync_GetVoipAttenuation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetVoipAttenuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_GetVoipAttenuationDefault
+  // Il2CppName: ovr_NetSync_GetVoipAttenuationDefault
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_NetSync_GetVoipAttenuationDefault)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_GetVoipAttenuationDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipAttenuation
+  // Il2CppName: ovr_NetSync_SetVoipAttenuation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Array<float>*, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_NetSync_SetVoipAttenuation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipAttenuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipAttenuationModel
+  // Il2CppName: ovr_NetSync_SetVoipAttenuationModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*, ::Array<float>*, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_NetSync_SetVoipAttenuationModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipAttenuationModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipAttenuationModel_Native
+  // Il2CppName: ovr_NetSync_SetVoipAttenuationModel_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, System::IntPtr, ::Array<float>*, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_NetSync_SetVoipAttenuationModel_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipAttenuationModel_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipChannelCfg
+  // Il2CppName: ovr_NetSync_SetVoipChannelCfg
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*, ::Il2CppString*, bool)>(&CAPI::ovr_NetSync_SetVoipChannelCfg)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipChannelCfg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipChannelCfg_Native
+  // Il2CppName: ovr_NetSync_SetVoipChannelCfg_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, System::IntPtr, System::IntPtr, bool)>(&CAPI::ovr_NetSync_SetVoipChannelCfg_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipChannelCfg_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipGroup
+  // Il2CppName: ovr_NetSync_SetVoipGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*)>(&CAPI::ovr_NetSync_SetVoipGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipGroup_Native
+  // Il2CppName: ovr_NetSync_SetVoipGroup_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, System::IntPtr)>(&CAPI::ovr_NetSync_SetVoipGroup_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipGroup_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipListentoChannels
+  // Il2CppName: ovr_NetSync_SetVoipListentoChannels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Array<::Il2CppString*>*, System::UIntPtr)>(&CAPI::ovr_NetSync_SetVoipListentoChannels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipListentoChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipMicSource
+  // Il2CppName: ovr_NetSync_SetVoipMicSource
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, Oculus::Platform::NetSyncVoipMicSource)>(&CAPI::ovr_NetSync_SetVoipMicSource)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipMicSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipMicSource>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipSessionMuted
+  // Il2CppName: ovr_NetSync_SetVoipSessionMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, uint64_t, bool)>(&CAPI::ovr_NetSync_SetVoipSessionMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipSessionMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipSpeaktoChannels
+  // Il2CppName: ovr_NetSync_SetVoipSpeaktoChannels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Array<::Il2CppString*>*, System::UIntPtr)>(&CAPI::ovr_NetSync_SetVoipSpeaktoChannels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipSpeaktoChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSync_SetVoipStreamMode
+  // Il2CppName: ovr_NetSync_SetVoipStreamMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, uint64_t, Oculus::Platform::NetSyncVoipStreamMode)>(&CAPI::ovr_NetSync_SetVoipStreamMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSync_SetVoipStreamMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipStreamMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Notification_GetRoomInvites
+  // Il2CppName: ovr_Notification_GetRoomInvites
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Notification_GetRoomInvites)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Notification_GetRoomInvites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Notification_MarkAsRead
+  // Il2CppName: ovr_Notification_MarkAsRead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Notification_MarkAsRead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Notification_MarkAsRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_Create
+  // Il2CppName: ovr_Party_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Party_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GatherInApplication
+  // Il2CppName: ovr_Party_GatherInApplication
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&CAPI::ovr_Party_GatherInApplication)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GatherInApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_Get
+  // Il2CppName: ovr_Party_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Party_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetCurrent
+  // Il2CppName: ovr_Party_GetCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Party_GetCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetCurrentForUser
+  // Il2CppName: ovr_Party_GetCurrentForUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Party_GetCurrentForUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_Invite
+  // Il2CppName: ovr_Party_Invite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&CAPI::ovr_Party_Invite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_Join
+  // Il2CppName: ovr_Party_Join
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Party_Join)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_Leave
+  // Il2CppName: ovr_Party_Leave
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Party_Leave)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_Clear
+  // Il2CppName: ovr_RichPresence_Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_RichPresence_Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_GetDestinations
+  // Il2CppName: ovr_RichPresence_GetDestinations
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_RichPresence_GetDestinations)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_GetDestinations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_Set
+  // Il2CppName: ovr_RichPresence_Set
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RichPresence_Set)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetDestination
+  // Il2CppName: ovr_RichPresence_SetDestination
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_RichPresence_SetDestination)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetDestination_Native
+  // Il2CppName: ovr_RichPresence_SetDestination_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RichPresence_SetDestination_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetDestination_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetIsJoinable
+  // Il2CppName: ovr_RichPresence_SetIsJoinable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&CAPI::ovr_RichPresence_SetIsJoinable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetIsJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetLobbySession
+  // Il2CppName: ovr_RichPresence_SetLobbySession
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_RichPresence_SetLobbySession)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetLobbySession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetLobbySession_Native
+  // Il2CppName: ovr_RichPresence_SetLobbySession_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RichPresence_SetLobbySession_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetLobbySession_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetMatchSession
+  // Il2CppName: ovr_RichPresence_SetMatchSession
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_RichPresence_SetMatchSession)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetMatchSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresence_SetMatchSession_Native
+  // Il2CppName: ovr_RichPresence_SetMatchSession_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RichPresence_SetMatchSession_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresence_SetMatchSession_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_CreateAndJoinPrivate
+  // Il2CppName: ovr_Room_CreateAndJoinPrivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::RoomJoinPolicy, uint, bool)>(&CAPI::ovr_Room_CreateAndJoinPrivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_CreateAndJoinPrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_CreateAndJoinPrivate2
+  // Il2CppName: ovr_Room_CreateAndJoinPrivate2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::RoomJoinPolicy, uint, System::IntPtr)>(&CAPI::ovr_Room_CreateAndJoinPrivate2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_CreateAndJoinPrivate2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_Get
+  // Il2CppName: ovr_Room_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Room_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetCurrent
+  // Il2CppName: ovr_Room_GetCurrent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Room_GetCurrent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetCurrentForUser
+  // Il2CppName: ovr_Room_GetCurrentForUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Room_GetCurrentForUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetInvitableUsers
+  // Il2CppName: ovr_Room_GetInvitableUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Room_GetInvitableUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetInvitableUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetInvitableUsers2
+  // Il2CppName: ovr_Room_GetInvitableUsers2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Room_GetInvitableUsers2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetInvitableUsers2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetModeratedRooms
+  // Il2CppName: ovr_Room_GetModeratedRooms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_Room_GetModeratedRooms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetModeratedRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetSocialRooms
+  // Il2CppName: ovr_Room_GetSocialRooms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Room_GetSocialRooms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetSocialRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_InviteUser
+  // Il2CppName: ovr_Room_InviteUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_Room_InviteUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_InviteUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_InviteUser_Native
+  // Il2CppName: ovr_Room_InviteUser_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Room_InviteUser_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_InviteUser_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_Join
+  // Il2CppName: ovr_Room_Join
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, bool)>(&CAPI::ovr_Room_Join)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_Join2
+  // Il2CppName: ovr_Room_Join2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Room_Join2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_Join2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_KickUser
+  // Il2CppName: ovr_Room_KickUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, int)>(&CAPI::ovr_Room_KickUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_KickUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_LaunchInvitableUserFlow
+  // Il2CppName: ovr_Room_LaunchInvitableUserFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Room_LaunchInvitableUserFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_LaunchInvitableUserFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_Leave
+  // Il2CppName: ovr_Room_Leave
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_Room_Leave)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_SetDescription
+  // Il2CppName: ovr_Room_SetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_Room_SetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_SetDescription_Native
+  // Il2CppName: ovr_Room_SetDescription_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_Room_SetDescription_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_SetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_UpdateDataStore
+  // Il2CppName: ovr_Room_UpdateDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*)>(&CAPI::ovr_Room_UpdateDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_UpdateDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_UpdateDataStore_Native
+  // Il2CppName: ovr_Room_UpdateDataStore_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*, System::UIntPtr)>(&CAPI::ovr_Room_UpdateDataStore_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_UpdateDataStore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::CAPI::ovrKeyValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_UpdateMembershipLockStatus
+  // Il2CppName: ovr_Room_UpdateMembershipLockStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, Oculus::Platform::RoomMembershipLockStatus)>(&CAPI::ovr_Room_UpdateMembershipLockStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_UpdateMembershipLockStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomMembershipLockStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_UpdateOwner
+  // Il2CppName: ovr_Room_UpdateOwner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&CAPI::ovr_Room_UpdateOwner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_UpdateOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_UpdatePrivateRoomJoinPolicy
+  // Il2CppName: ovr_Room_UpdatePrivateRoomJoinPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, Oculus::Platform::RoomJoinPolicy)>(&CAPI::ovr_Room_UpdatePrivateRoomJoinPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_UpdatePrivateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SystemPermissions_GetStatus
+  // Il2CppName: ovr_SystemPermissions_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::PermissionType)>(&CAPI::ovr_SystemPermissions_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SystemPermissions_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PermissionType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SystemPermissions_LaunchDeeplink
+  // Il2CppName: ovr_SystemPermissions_LaunchDeeplink
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(Oculus::Platform::PermissionType)>(&CAPI::ovr_SystemPermissions_LaunchDeeplink)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SystemPermissions_LaunchDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::PermissionType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_CancelRecordingForReportFlow
+  // Il2CppName: ovr_User_CancelRecordingForReportFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&CAPI::ovr_User_CancelRecordingForReportFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_CancelRecordingForReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_CancelRecordingForReportFlow_Native
+  // Il2CppName: ovr_User_CancelRecordingForReportFlow_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_User_CancelRecordingForReportFlow_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_CancelRecordingForReportFlow_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_Get
+  // Il2CppName: ovr_User_Get
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_Get)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetAccessToken
+  // Il2CppName: ovr_User_GetAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_GetAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetLinkedAccounts
+  // Il2CppName: ovr_User_GetLinkedAccounts
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_User_GetLinkedAccounts)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetLoggedInUser
+  // Il2CppName: ovr_User_GetLoggedInUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_GetLoggedInUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetLoggedInUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetLoggedInUserFriends
+  // Il2CppName: ovr_User_GetLoggedInUserFriends
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_GetLoggedInUserFriends)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetLoggedInUserFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetLoggedInUserFriendsAndRooms
+  // Il2CppName: ovr_User_GetLoggedInUserFriendsAndRooms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_GetLoggedInUserFriendsAndRooms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetLoggedInUserFriendsAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms
+  // Il2CppName: ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetLoggedInUserRecentlyMetUsersAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetOrgScopedID
+  // Il2CppName: ovr_User_GetOrgScopedID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_GetOrgScopedID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetSdkAccounts
+  // Il2CppName: ovr_User_GetSdkAccounts
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_GetSdkAccounts)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetSdkAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetUserProof
+  // Il2CppName: ovr_User_GetUserProof
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_GetUserProof)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_LaunchBlockFlow
+  // Il2CppName: ovr_User_LaunchBlockFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_LaunchBlockFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_LaunchBlockFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_LaunchFriendRequestFlow
+  // Il2CppName: ovr_User_LaunchFriendRequestFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_LaunchFriendRequestFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_LaunchFriendRequestFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_LaunchProfile
+  // Il2CppName: ovr_User_LaunchProfile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_LaunchProfile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_LaunchProfile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_LaunchReportFlow
+  // Il2CppName: ovr_User_LaunchReportFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_LaunchReportFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_LaunchReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_LaunchReportFlow2
+  // Il2CppName: ovr_User_LaunchReportFlow2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_User_LaunchReportFlow2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_LaunchReportFlow2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_LaunchUnblockFlow
+  // Il2CppName: ovr_User_LaunchUnblockFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_User_LaunchUnblockFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_LaunchUnblockFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_NewEntitledTestUser
+  // Il2CppName: ovr_User_NewEntitledTestUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_NewEntitledTestUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_NewEntitledTestUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_NewTestUser
+  // Il2CppName: ovr_User_NewTestUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_NewTestUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_NewTestUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_NewTestUserFriends
+  // Il2CppName: ovr_User_NewTestUserFriends
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_NewTestUserFriends)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_NewTestUserFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_StartRecordingForReportFlow
+  // Il2CppName: ovr_User_StartRecordingForReportFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&CAPI::ovr_User_StartRecordingForReportFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_StartRecordingForReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_StopRecordingAndLaunchReportFlow
+  // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_User_StopRecordingAndLaunchReportFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_StopRecordingAndLaunchReportFlow_Native
+  // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_User_StopRecordingAndLaunchReportFlow_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_StopRecordingAndLaunchReportFlow2
+  // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, System::IntPtr)>(&CAPI::ovr_User_StopRecordingAndLaunchReportFlow2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_StopRecordingAndLaunchReportFlow2_Native
+  // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow2_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr, System::IntPtr)>(&CAPI::ovr_User_StopRecordingAndLaunchReportFlow2_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_StopRecordingAndLaunchReportFlow2_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_TestUserCreateDeviceManifest
+  // Il2CppName: ovr_User_TestUserCreateDeviceManifest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Array<uint64_t>*, int)>(&CAPI::ovr_User_TestUserCreateDeviceManifest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_TestUserCreateDeviceManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_TestUserCreateDeviceManifest_Native
+  // Il2CppName: ovr_User_TestUserCreateDeviceManifest_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, ::Array<uint64_t>*, int)>(&CAPI::ovr_User_TestUserCreateDeviceManifest_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_TestUserCreateDeviceManifest_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey
+  // Il2CppName: ovr_UserDataStore_PrivateDeleteEntryByKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey_Native
+  // Il2CppName: ovr_UserDataStore_PrivateDeleteEntryByKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateDeleteEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateGetEntries
+  // Il2CppName: ovr_UserDataStore_PrivateGetEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_UserDataStore_PrivateGetEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateGetEntryByKey
+  // Il2CppName: ovr_UserDataStore_PrivateGetEntryByKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_UserDataStore_PrivateGetEntryByKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateGetEntryByKey_Native
+  // Il2CppName: ovr_UserDataStore_PrivateGetEntryByKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_UserDataStore_PrivateGetEntryByKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateGetEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateWriteEntry
+  // Il2CppName: ovr_UserDataStore_PrivateWriteEntry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_UserDataStore_PrivateWriteEntry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PrivateWriteEntry_Native
+  // Il2CppName: ovr_UserDataStore_PrivateWriteEntry_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr, System::IntPtr)>(&CAPI::ovr_UserDataStore_PrivateWriteEntry_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PrivateWriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicDeleteEntryByKey
+  // Il2CppName: ovr_UserDataStore_PublicDeleteEntryByKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_UserDataStore_PublicDeleteEntryByKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicDeleteEntryByKey_Native
+  // Il2CppName: ovr_UserDataStore_PublicDeleteEntryByKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_UserDataStore_PublicDeleteEntryByKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicDeleteEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicGetEntries
+  // Il2CppName: ovr_UserDataStore_PublicGetEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&CAPI::ovr_UserDataStore_PublicGetEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicGetEntryByKey
+  // Il2CppName: ovr_UserDataStore_PublicGetEntryByKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&CAPI::ovr_UserDataStore_PublicGetEntryByKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicGetEntryByKey_Native
+  // Il2CppName: ovr_UserDataStore_PublicGetEntryByKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr)>(&CAPI::ovr_UserDataStore_PublicGetEntryByKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicGetEntryByKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicWriteEntry
+  // Il2CppName: ovr_UserDataStore_PublicWriteEntry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_UserDataStore_PublicWriteEntry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStore_PublicWriteEntry_Native
+  // Il2CppName: ovr_UserDataStore_PublicWriteEntry_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, System::IntPtr, System::IntPtr)>(&CAPI::ovr_UserDataStore_PublicWriteEntry_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStore_PublicWriteEntry_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Voip_SetSystemVoipSuppressed
+  // Il2CppName: ovr_Voip_SetSystemVoipSuppressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&CAPI::ovr_Voip_SetSystemVoipSuppressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Voip_SetSystemVoipSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReportRecording_GetRecordingUuid
+  // Il2CppName: ovr_AbuseReportRecording_GetRecordingUuid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AbuseReportRecording_GetRecordingUuid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReportRecording_GetRecordingUuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReportRecording_GetRecordingUuid_Native
+  // Il2CppName: ovr_AbuseReportRecording_GetRecordingUuid_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AbuseReportRecording_GetRecordingUuid_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReportRecording_GetRecordingUuid_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinition_GetBitfieldLength
+  // Il2CppName: ovr_AchievementDefinition_GetBitfieldLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinition_GetBitfieldLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinition_GetBitfieldLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinition_GetName
+  // Il2CppName: ovr_AchievementDefinition_GetName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinition_GetName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinition_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinition_GetName_Native
+  // Il2CppName: ovr_AchievementDefinition_GetName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinition_GetName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinition_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinition_GetTarget
+  // Il2CppName: ovr_AchievementDefinition_GetTarget
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinition_GetTarget)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinition_GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinition_GetType
+  // Il2CppName: ovr_AchievementDefinition_GetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::AchievementType (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinition_GetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinition_GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinitionArray_GetElement
+  // Il2CppName: ovr_AchievementDefinitionArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_AchievementDefinitionArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinitionArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinitionArray_GetNextUrl
+  // Il2CppName: ovr_AchievementDefinitionArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinitionArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinitionArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinitionArray_GetNextUrl_Native
+  // Il2CppName: ovr_AchievementDefinitionArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinitionArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinitionArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinitionArray_GetSize
+  // Il2CppName: ovr_AchievementDefinitionArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinitionArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinitionArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementDefinitionArray_HasNextPage
+  // Il2CppName: ovr_AchievementDefinitionArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AchievementDefinitionArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementDefinitionArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetBitfield
+  // Il2CppName: ovr_AchievementProgress_GetBitfield
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetBitfield)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetBitfield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetBitfield_Native
+  // Il2CppName: ovr_AchievementProgress_GetBitfield_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetBitfield_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetBitfield_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetCount
+  // Il2CppName: ovr_AchievementProgress_GetCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetIsUnlocked
+  // Il2CppName: ovr_AchievementProgress_GetIsUnlocked
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetIsUnlocked)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetIsUnlocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetName
+  // Il2CppName: ovr_AchievementProgress_GetName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetName_Native
+  // Il2CppName: ovr_AchievementProgress_GetName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetUnlockTime
+  // Il2CppName: ovr_AchievementProgress_GetUnlockTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetUnlockTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetUnlockTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgress_GetUnlockTime_Native
+  // Il2CppName: ovr_AchievementProgress_GetUnlockTime_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgress_GetUnlockTime_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgress_GetUnlockTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgressArray_GetElement
+  // Il2CppName: ovr_AchievementProgressArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_AchievementProgressArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgressArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgressArray_GetNextUrl
+  // Il2CppName: ovr_AchievementProgressArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgressArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgressArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgressArray_GetNextUrl_Native
+  // Il2CppName: ovr_AchievementProgressArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgressArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgressArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgressArray_GetSize
+  // Il2CppName: ovr_AchievementProgressArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgressArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgressArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementProgressArray_HasNextPage
+  // Il2CppName: ovr_AchievementProgressArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AchievementProgressArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementProgressArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementUpdate_GetJustUnlocked
+  // Il2CppName: ovr_AchievementUpdate_GetJustUnlocked
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AchievementUpdate_GetJustUnlocked)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementUpdate_GetJustUnlocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementUpdate_GetName
+  // Il2CppName: ovr_AchievementUpdate_GetName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AchievementUpdate_GetName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementUpdate_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AchievementUpdate_GetName_Native
+  // Il2CppName: ovr_AchievementUpdate_GetName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AchievementUpdate_GetName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AchievementUpdate_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Application_GetID
+  // Il2CppName: ovr_Application_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Application_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Application_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationVersion_GetCurrentCode
+  // Il2CppName: ovr_ApplicationVersion_GetCurrentCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_ApplicationVersion_GetCurrentCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationVersion_GetCurrentCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationVersion_GetCurrentName
+  // Il2CppName: ovr_ApplicationVersion_GetCurrentName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ApplicationVersion_GetCurrentName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationVersion_GetCurrentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationVersion_GetCurrentName_Native
+  // Il2CppName: ovr_ApplicationVersion_GetCurrentName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ApplicationVersion_GetCurrentName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationVersion_GetCurrentName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationVersion_GetLatestCode
+  // Il2CppName: ovr_ApplicationVersion_GetLatestCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_ApplicationVersion_GetLatestCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationVersion_GetLatestCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationVersion_GetLatestName
+  // Il2CppName: ovr_ApplicationVersion_GetLatestName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ApplicationVersion_GetLatestName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationVersion_GetLatestName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationVersion_GetLatestName_Native
+  // Il2CppName: ovr_ApplicationVersion_GetLatestName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ApplicationVersion_GetLatestName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationVersion_GetLatestName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetAssetId
+  // Il2CppName: ovr_AssetDetails_GetAssetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetAssetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetAssetType
+  // Il2CppName: ovr_AssetDetails_GetAssetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetAssetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetAssetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetAssetType_Native
+  // Il2CppName: ovr_AssetDetails_GetAssetType_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetAssetType_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetAssetType_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetDownloadStatus
+  // Il2CppName: ovr_AssetDetails_GetDownloadStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetDownloadStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetDownloadStatus_Native
+  // Il2CppName: ovr_AssetDetails_GetDownloadStatus_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetDownloadStatus_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetDownloadStatus_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetFilepath
+  // Il2CppName: ovr_AssetDetails_GetFilepath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetFilepath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetFilepath_Native
+  // Il2CppName: ovr_AssetDetails_GetFilepath_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetFilepath_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetIapStatus
+  // Il2CppName: ovr_AssetDetails_GetIapStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetIapStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetIapStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetIapStatus_Native
+  // Il2CppName: ovr_AssetDetails_GetIapStatus_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetIapStatus_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetIapStatus_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetLanguage
+  // Il2CppName: ovr_AssetDetails_GetLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetMetadata
+  // Il2CppName: ovr_AssetDetails_GetMetadata
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetMetadata)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetails_GetMetadata_Native
+  // Il2CppName: ovr_AssetDetails_GetMetadata_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetails_GetMetadata_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetails_GetMetadata_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetailsArray_GetElement
+  // Il2CppName: ovr_AssetDetailsArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_AssetDetailsArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetailsArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetDetailsArray_GetSize
+  // Il2CppName: ovr_AssetDetailsArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetDetailsArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetDetailsArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDeleteResult_GetAssetFileId
+  // Il2CppName: ovr_AssetFileDeleteResult_GetAssetFileId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDeleteResult_GetAssetFileId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDeleteResult_GetAssetFileId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDeleteResult_GetAssetId
+  // Il2CppName: ovr_AssetFileDeleteResult_GetAssetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDeleteResult_GetAssetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDeleteResult_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDeleteResult_GetFilepath
+  // Il2CppName: ovr_AssetFileDeleteResult_GetFilepath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDeleteResult_GetFilepath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDeleteResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDeleteResult_GetFilepath_Native
+  // Il2CppName: ovr_AssetFileDeleteResult_GetFilepath_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDeleteResult_GetFilepath_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDeleteResult_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDeleteResult_GetSuccess
+  // Il2CppName: ovr_AssetFileDeleteResult_GetSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDeleteResult_GetSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDeleteResult_GetSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadCancelResult_GetAssetFileId
+  // Il2CppName: ovr_AssetFileDownloadCancelResult_GetAssetFileId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadCancelResult_GetAssetFileId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadCancelResult_GetAssetFileId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadCancelResult_GetAssetId
+  // Il2CppName: ovr_AssetFileDownloadCancelResult_GetAssetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadCancelResult_GetAssetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadCancelResult_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath
+  // Il2CppName: ovr_AssetFileDownloadCancelResult_GetFilepath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadCancelResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath_Native
+  // Il2CppName: ovr_AssetFileDownloadCancelResult_GetFilepath_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadCancelResult_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadCancelResult_GetSuccess
+  // Il2CppName: ovr_AssetFileDownloadCancelResult_GetSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadCancelResult_GetSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadCancelResult_GetSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadResult_GetAssetId
+  // Il2CppName: ovr_AssetFileDownloadResult_GetAssetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadResult_GetAssetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadResult_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadResult_GetFilepath
+  // Il2CppName: ovr_AssetFileDownloadResult_GetFilepath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadResult_GetFilepath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadResult_GetFilepath_Native
+  // Il2CppName: ovr_AssetFileDownloadResult_GetFilepath_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadResult_GetFilepath_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadResult_GetFilepath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadUpdate_GetAssetFileId
+  // Il2CppName: ovr_AssetFileDownloadUpdate_GetAssetFileId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadUpdate_GetAssetFileId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadUpdate_GetAssetFileId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadUpdate_GetAssetId
+  // Il2CppName: ovr_AssetFileDownloadUpdate_GetAssetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadUpdate_GetAssetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadUpdate_GetAssetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadUpdate_GetBytesTotal
+  // Il2CppName: ovr_AssetFileDownloadUpdate_GetBytesTotal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadUpdate_GetBytesTotal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadUpdate_GetBytesTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadUpdate_GetBytesTransferred
+  // Il2CppName: ovr_AssetFileDownloadUpdate_GetBytesTransferred
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadUpdate_GetBytesTransferred)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadUpdate_GetBytesTransferred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AssetFileDownloadUpdate_GetCompleted
+  // Il2CppName: ovr_AssetFileDownloadUpdate_GetCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_AssetFileDownloadUpdate_GetCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AssetFileDownloadUpdate_GetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationFinalized_GetCountdownMS
+  // Il2CppName: ovr_CalApplicationFinalized_GetCountdownMS
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationFinalized_GetCountdownMS)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationFinalized_GetCountdownMS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationFinalized_GetID
+  // Il2CppName: ovr_CalApplicationFinalized_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationFinalized_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationFinalized_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationFinalized_GetLaunchDetails
+  // Il2CppName: ovr_CalApplicationFinalized_GetLaunchDetails
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationFinalized_GetLaunchDetails)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationFinalized_GetLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationFinalized_GetLaunchDetails_Native
+  // Il2CppName: ovr_CalApplicationFinalized_GetLaunchDetails_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationFinalized_GetLaunchDetails_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationFinalized_GetLaunchDetails_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationProposed_GetID
+  // Il2CppName: ovr_CalApplicationProposed_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationProposed_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationProposed_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationSuggestion_GetID
+  // Il2CppName: ovr_CalApplicationSuggestion_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationSuggestion_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationSuggestion_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationSuggestion_GetSocialContext
+  // Il2CppName: ovr_CalApplicationSuggestion_GetSocialContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationSuggestion_GetSocialContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationSuggestion_GetSocialContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationSuggestion_GetSocialContext_Native
+  // Il2CppName: ovr_CalApplicationSuggestion_GetSocialContext_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationSuggestion_GetSocialContext_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationSuggestion_GetSocialContext_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationSuggestionArray_GetElement
+  // Il2CppName: ovr_CalApplicationSuggestionArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_CalApplicationSuggestionArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationSuggestionArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CalApplicationSuggestionArray_GetSize
+  // Il2CppName: ovr_CalApplicationSuggestionArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_CalApplicationSuggestionArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CalApplicationSuggestionArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetCreationType
+  // Il2CppName: ovr_Challenge_GetCreationType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ChallengeCreationType (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetCreationType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetCreationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetDescription
+  // Il2CppName: ovr_Challenge_GetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetDescription_Native
+  // Il2CppName: ovr_Challenge_GetDescription_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetDescription_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetEndDate
+  // Il2CppName: ovr_Challenge_GetEndDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetEndDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetEndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetEndDate_Native
+  // Il2CppName: ovr_Challenge_GetEndDate_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetEndDate_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetEndDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetID
+  // Il2CppName: ovr_Challenge_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetInvitedUsers
+  // Il2CppName: ovr_Challenge_GetInvitedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetInvitedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetLeaderboard
+  // Il2CppName: ovr_Challenge_GetLeaderboard
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetLeaderboard)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetParticipants
+  // Il2CppName: ovr_Challenge_GetParticipants
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetParticipants)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetParticipants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetStartDate
+  // Il2CppName: ovr_Challenge_GetStartDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetStartDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetStartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetStartDate_Native
+  // Il2CppName: ovr_Challenge_GetStartDate_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetStartDate_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetStartDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetTitle
+  // Il2CppName: ovr_Challenge_GetTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetTitle_Native
+  // Il2CppName: ovr_Challenge_GetTitle_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetTitle_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetTitle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Challenge_GetVisibility
+  // Il2CppName: ovr_Challenge_GetVisibility
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ChallengeVisibility (*)(System::IntPtr)>(&CAPI::ovr_Challenge_GetVisibility)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Challenge_GetVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetElement
+  // Il2CppName: ovr_ChallengeArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_ChallengeArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetNextUrl
+  // Il2CppName: ovr_ChallengeArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetNextUrl_Native
+  // Il2CppName: ovr_ChallengeArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetPreviousUrl
+  // Il2CppName: ovr_ChallengeArray_GetPreviousUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_GetPreviousUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetPreviousUrl_Native
+  // Il2CppName: ovr_ChallengeArray_GetPreviousUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_GetPreviousUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetPreviousUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetSize
+  // Il2CppName: ovr_ChallengeArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_GetTotalCount
+  // Il2CppName: ovr_ChallengeArray_GetTotalCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_GetTotalCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_GetTotalCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_HasNextPage
+  // Il2CppName: ovr_ChallengeArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeArray_HasPreviousPage
+  // Il2CppName: ovr_ChallengeArray_HasPreviousPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_ChallengeArray_HasPreviousPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeArray_HasPreviousPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetDisplayScore
+  // Il2CppName: ovr_ChallengeEntry_GetDisplayScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetDisplayScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetDisplayScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetDisplayScore_Native
+  // Il2CppName: ovr_ChallengeEntry_GetDisplayScore_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetDisplayScore_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetDisplayScore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetExtraData
+  // Il2CppName: ovr_ChallengeEntry_GetExtraData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetExtraData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetExtraData_Native
+  // Il2CppName: ovr_ChallengeEntry_GetExtraData_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetExtraData_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetExtraData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetExtraDataLength
+  // Il2CppName: ovr_ChallengeEntry_GetExtraDataLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetExtraDataLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetExtraDataLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetRank
+  // Il2CppName: ovr_ChallengeEntry_GetRank
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetRank)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetScore
+  // Il2CppName: ovr_ChallengeEntry_GetScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetTimestamp
+  // Il2CppName: ovr_ChallengeEntry_GetTimestamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetTimestamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetTimestamp_Native
+  // Il2CppName: ovr_ChallengeEntry_GetTimestamp_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetTimestamp_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetTimestamp_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntry_GetUser
+  // Il2CppName: ovr_ChallengeEntry_GetUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntry_GetUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntry_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetElement
+  // Il2CppName: ovr_ChallengeEntryArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetNextUrl
+  // Il2CppName: ovr_ChallengeEntryArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetNextUrl_Native
+  // Il2CppName: ovr_ChallengeEntryArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetPreviousUrl
+  // Il2CppName: ovr_ChallengeEntryArray_GetPreviousUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetPreviousUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetPreviousUrl_Native
+  // Il2CppName: ovr_ChallengeEntryArray_GetPreviousUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetPreviousUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetPreviousUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetSize
+  // Il2CppName: ovr_ChallengeEntryArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_GetTotalCount
+  // Il2CppName: ovr_ChallengeEntryArray_GetTotalCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_GetTotalCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_GetTotalCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_HasNextPage
+  // Il2CppName: ovr_ChallengeEntryArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeEntryArray_HasPreviousPage
+  // Il2CppName: ovr_ChallengeEntryArray_HasPreviousPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_ChallengeEntryArray_HasPreviousPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeEntryArray_HasPreviousPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath
+  // Il2CppName: ovr_CloudStorage2UserDirectoryPathResponse_GetPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage2UserDirectoryPathResponse_GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native
+  // Il2CppName: ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageConflictMetadata_GetLocal
+  // Il2CppName: ovr_CloudStorageConflictMetadata_GetLocal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageConflictMetadata_GetLocal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageConflictMetadata_GetLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageConflictMetadata_GetRemote
+  // Il2CppName: ovr_CloudStorageConflictMetadata_GetRemote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageConflictMetadata_GetRemote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageConflictMetadata_GetRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetBucket
+  // Il2CppName: ovr_CloudStorageData_GetBucket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetBucket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetBucket_Native
+  // Il2CppName: ovr_CloudStorageData_GetBucket_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetBucket_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetBucket_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetData
+  // Il2CppName: ovr_CloudStorageData_GetData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetData_Native
+  // Il2CppName: ovr_CloudStorageData_GetData_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetData_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetDataSize
+  // Il2CppName: ovr_CloudStorageData_GetDataSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetDataSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetKey
+  // Il2CppName: ovr_CloudStorageData_GetKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageData_GetKey_Native
+  // Il2CppName: ovr_CloudStorageData_GetKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageData_GetKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageData_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetBucket
+  // Il2CppName: ovr_CloudStorageMetadata_GetBucket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetBucket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetBucket_Native
+  // Il2CppName: ovr_CloudStorageMetadata_GetBucket_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetBucket_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetBucket_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetCounter
+  // Il2CppName: ovr_CloudStorageMetadata_GetCounter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetCounter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetDataSize
+  // Il2CppName: ovr_CloudStorageMetadata_GetDataSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetDataSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetExtraData
+  // Il2CppName: ovr_CloudStorageMetadata_GetExtraData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetExtraData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetExtraData_Native
+  // Il2CppName: ovr_CloudStorageMetadata_GetExtraData_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetExtraData_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetExtraData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetKey
+  // Il2CppName: ovr_CloudStorageMetadata_GetKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetKey_Native
+  // Il2CppName: ovr_CloudStorageMetadata_GetKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetSaveTime
+  // Il2CppName: ovr_CloudStorageMetadata_GetSaveTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetSaveTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetSaveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetStatus
+  // Il2CppName: ovr_CloudStorageMetadata_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::CloudStorageDataStatus (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetVersionHandle
+  // Il2CppName: ovr_CloudStorageMetadata_GetVersionHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetVersionHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetVersionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadata_GetVersionHandle_Native
+  // Il2CppName: ovr_CloudStorageMetadata_GetVersionHandle_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadata_GetVersionHandle_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadata_GetVersionHandle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadataArray_GetElement
+  // Il2CppName: ovr_CloudStorageMetadataArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_CloudStorageMetadataArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadataArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadataArray_GetNextUrl
+  // Il2CppName: ovr_CloudStorageMetadataArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadataArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadataArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadataArray_GetNextUrl_Native
+  // Il2CppName: ovr_CloudStorageMetadataArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadataArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadataArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadataArray_GetSize
+  // Il2CppName: ovr_CloudStorageMetadataArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadataArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadataArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageMetadataArray_HasNextPage
+  // Il2CppName: ovr_CloudStorageMetadataArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageMetadataArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageMetadataArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetBucket
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetBucket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetBucket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetBucket_Native
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetBucket_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetBucket_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetBucket_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetKey
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetKey_Native
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetStatus
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::CloudStorageUpdateStatus (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetVersionHandle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetVersionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle_Native
+  // Il2CppName: ovr_CloudStorageUpdateResponse_GetVersionHandle_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_CloudStorageUpdateResponse_GetVersionHandle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_Contains
+  // Il2CppName: ovr_DataStore_Contains
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_DataStore_Contains)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_Contains_Native
+  // Il2CppName: ovr_DataStore_Contains_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_DataStore_Contains_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_Contains_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_GetKey
+  // Il2CppName: ovr_DataStore_GetKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr, int)>(&CAPI::ovr_DataStore_GetKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_GetKey_Native
+  // Il2CppName: ovr_DataStore_GetKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, int)>(&CAPI::ovr_DataStore_GetKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_GetKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_GetNumKeys
+  // Il2CppName: ovr_DataStore_GetNumKeys
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_DataStore_GetNumKeys)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_GetNumKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_GetValue
+  // Il2CppName: ovr_DataStore_GetValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_DataStore_GetValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DataStore_GetValue_Native
+  // Il2CppName: ovr_DataStore_GetValue_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_DataStore_GetValue_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DataStore_GetValue_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Destination_GetApiName
+  // Il2CppName: ovr_Destination_GetApiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Destination_GetApiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Destination_GetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Destination_GetApiName_Native
+  // Il2CppName: ovr_Destination_GetApiName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Destination_GetApiName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Destination_GetApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Destination_GetDeeplinkMessage
+  // Il2CppName: ovr_Destination_GetDeeplinkMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Destination_GetDeeplinkMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Destination_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Destination_GetDeeplinkMessage_Native
+  // Il2CppName: ovr_Destination_GetDeeplinkMessage_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Destination_GetDeeplinkMessage_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Destination_GetDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Destination_GetDisplayName
+  // Il2CppName: ovr_Destination_GetDisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Destination_GetDisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Destination_GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Destination_GetDisplayName_Native
+  // Il2CppName: ovr_Destination_GetDisplayName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Destination_GetDisplayName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Destination_GetDisplayName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DestinationArray_GetElement
+  // Il2CppName: ovr_DestinationArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_DestinationArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DestinationArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DestinationArray_GetNextUrl
+  // Il2CppName: ovr_DestinationArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_DestinationArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DestinationArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DestinationArray_GetNextUrl_Native
+  // Il2CppName: ovr_DestinationArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_DestinationArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DestinationArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DestinationArray_GetSize
+  // Il2CppName: ovr_DestinationArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_DestinationArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DestinationArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_DestinationArray_HasNextPage
+  // Il2CppName: ovr_DestinationArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_DestinationArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_DestinationArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Error_GetCode
+  // Il2CppName: ovr_Error_GetCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_Error_GetCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Error_GetCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Error_GetDisplayableMessage
+  // Il2CppName: ovr_Error_GetDisplayableMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Error_GetDisplayableMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Error_GetDisplayableMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Error_GetDisplayableMessage_Native
+  // Il2CppName: ovr_Error_GetDisplayableMessage_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Error_GetDisplayableMessage_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Error_GetDisplayableMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Error_GetHttpCode
+  // Il2CppName: ovr_Error_GetHttpCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_Error_GetHttpCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Error_GetHttpCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Error_GetMessage
+  // Il2CppName: ovr_Error_GetMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Error_GetMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Error_GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Error_GetMessage_Native
+  // Il2CppName: ovr_Error_GetMessage_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Error_GetMessage_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Error_GetMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName
+  // Il2CppName: ovr_GroupPresenceLeaveIntent_GetDestinationApiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresenceLeaveIntent_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native
+  // Il2CppName: ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId
+  // Il2CppName: ovr_GroupPresenceLeaveIntent_GetLobbySessionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresenceLeaveIntent_GetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native
+  // Il2CppName: ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId
+  // Il2CppName: ovr_GroupPresenceLeaveIntent_GetMatchSessionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresenceLeaveIntent_GetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native
+  // Il2CppName: ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HttpTransferUpdate_GetBytes
+  // Il2CppName: ovr_HttpTransferUpdate_GetBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_HttpTransferUpdate_GetBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HttpTransferUpdate_GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HttpTransferUpdate_GetID
+  // Il2CppName: ovr_HttpTransferUpdate_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_HttpTransferUpdate_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HttpTransferUpdate_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HttpTransferUpdate_GetSize
+  // Il2CppName: ovr_HttpTransferUpdate_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_HttpTransferUpdate_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HttpTransferUpdate_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_HttpTransferUpdate_IsCompleted
+  // Il2CppName: ovr_HttpTransferUpdate_IsCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_HttpTransferUpdate_IsCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_HttpTransferUpdate_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetApplicationId
+  // Il2CppName: ovr_InstalledApplication_GetApplicationId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetApplicationId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetApplicationId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetApplicationId_Native
+  // Il2CppName: ovr_InstalledApplication_GetApplicationId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetApplicationId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetApplicationId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetPackageName
+  // Il2CppName: ovr_InstalledApplication_GetPackageName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetPackageName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetPackageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetPackageName_Native
+  // Il2CppName: ovr_InstalledApplication_GetPackageName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetPackageName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetPackageName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetStatus
+  // Il2CppName: ovr_InstalledApplication_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetStatus_Native
+  // Il2CppName: ovr_InstalledApplication_GetStatus_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetStatus_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetStatus_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetVersionCode
+  // Il2CppName: ovr_InstalledApplication_GetVersionCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetVersionCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetVersionCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetVersionName
+  // Il2CppName: ovr_InstalledApplication_GetVersionName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetVersionName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetVersionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplication_GetVersionName_Native
+  // Il2CppName: ovr_InstalledApplication_GetVersionName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplication_GetVersionName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplication_GetVersionName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplicationArray_GetElement
+  // Il2CppName: ovr_InstalledApplicationArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_InstalledApplicationArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplicationArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InstalledApplicationArray_GetSize
+  // Il2CppName: ovr_InstalledApplicationArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_InstalledApplicationArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InstalledApplicationArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InvitePanelResultInfo_GetInvitesSent
+  // Il2CppName: ovr_InvitePanelResultInfo_GetInvitesSent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_InvitePanelResultInfo_GetInvitesSent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InvitePanelResultInfo_GetInvitesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePackInfo_GetEnglishName
+  // Il2CppName: ovr_LanguagePackInfo_GetEnglishName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LanguagePackInfo_GetEnglishName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePackInfo_GetEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePackInfo_GetEnglishName_Native
+  // Il2CppName: ovr_LanguagePackInfo_GetEnglishName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LanguagePackInfo_GetEnglishName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePackInfo_GetEnglishName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePackInfo_GetNativeName
+  // Il2CppName: ovr_LanguagePackInfo_GetNativeName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LanguagePackInfo_GetNativeName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePackInfo_GetNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePackInfo_GetNativeName_Native
+  // Il2CppName: ovr_LanguagePackInfo_GetNativeName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LanguagePackInfo_GetNativeName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePackInfo_GetNativeName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePackInfo_GetTag
+  // Il2CppName: ovr_LanguagePackInfo_GetTag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LanguagePackInfo_GetTag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePackInfo_GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LanguagePackInfo_GetTag_Native
+  // Il2CppName: ovr_LanguagePackInfo_GetTag_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LanguagePackInfo_GetTag_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LanguagePackInfo_GetTag_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchBlockFlowResult_GetDidBlock
+  // Il2CppName: ovr_LaunchBlockFlowResult_GetDidBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchBlockFlowResult_GetDidBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchBlockFlowResult_GetDidBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchBlockFlowResult_GetDidCancel
+  // Il2CppName: ovr_LaunchBlockFlowResult_GetDidCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchBlockFlowResult_GetDidCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchBlockFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetDeeplinkMessage
+  // Il2CppName: ovr_LaunchDetails_GetDeeplinkMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetDeeplinkMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetDeeplinkMessage_Native
+  // Il2CppName: ovr_LaunchDetails_GetDeeplinkMessage_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetDeeplinkMessage_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetDestinationApiName
+  // Il2CppName: ovr_LaunchDetails_GetDestinationApiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetDestinationApiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetDestinationApiName_Native
+  // Il2CppName: ovr_LaunchDetails_GetDestinationApiName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetDestinationApiName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetDestinationApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetLaunchSource
+  // Il2CppName: ovr_LaunchDetails_GetLaunchSource
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetLaunchSource)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetLaunchSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetLaunchSource_Native
+  // Il2CppName: ovr_LaunchDetails_GetLaunchSource_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetLaunchSource_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetLaunchSource_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetLaunchType
+  // Il2CppName: ovr_LaunchDetails_GetLaunchType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::LaunchType (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetLaunchType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetLaunchType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetRoomID
+  // Il2CppName: ovr_LaunchDetails_GetRoomID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetRoomID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetRoomID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetTrackingID
+  // Il2CppName: ovr_LaunchDetails_GetTrackingID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetTrackingID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetTrackingID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetTrackingID_Native
+  // Il2CppName: ovr_LaunchDetails_GetTrackingID_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetTrackingID_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetTrackingID_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchDetails_GetUsers
+  // Il2CppName: ovr_LaunchDetails_GetUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LaunchDetails_GetUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchDetails_GetUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchFriendRequestFlowResult_GetDidCancel
+  // Il2CppName: ovr_LaunchFriendRequestFlowResult_GetDidCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchFriendRequestFlowResult_GetDidCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchFriendRequestFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchFriendRequestFlowResult_GetDidSendRequest
+  // Il2CppName: ovr_LaunchFriendRequestFlowResult_GetDidSendRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchFriendRequestFlowResult_GetDidSendRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchFriendRequestFlowResult_GetDidSendRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchInvitePanelFlowResult_GetInvitedUsers
+  // Il2CppName: ovr_LaunchInvitePanelFlowResult_GetInvitedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LaunchInvitePanelFlowResult_GetInvitedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchInvitePanelFlowResult_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchReportFlowResult_GetDidCancel
+  // Il2CppName: ovr_LaunchReportFlowResult_GetDidCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchReportFlowResult_GetDidCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchReportFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchReportFlowResult_GetUserReportId
+  // Il2CppName: ovr_LaunchReportFlowResult_GetUserReportId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_LaunchReportFlowResult_GetUserReportId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchReportFlowResult_GetUserReportId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchUnblockFlowResult_GetDidCancel
+  // Il2CppName: ovr_LaunchUnblockFlowResult_GetDidCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchUnblockFlowResult_GetDidCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchUnblockFlowResult_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LaunchUnblockFlowResult_GetDidUnblock
+  // Il2CppName: ovr_LaunchUnblockFlowResult_GetDidUnblock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LaunchUnblockFlowResult_GetDidUnblock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LaunchUnblockFlowResult_GetDidUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetApiName
+  // Il2CppName: ovr_Leaderboard_GetApiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_GetApiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetApiName_Native
+  // Il2CppName: ovr_Leaderboard_GetApiName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_GetApiName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetDestination
+  // Il2CppName: ovr_Leaderboard_GetDestination
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_GetDestination)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Leaderboard_GetID
+  // Il2CppName: ovr_Leaderboard_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Leaderboard_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Leaderboard_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardArray_GetElement
+  // Il2CppName: ovr_LeaderboardArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_LeaderboardArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardArray_GetNextUrl
+  // Il2CppName: ovr_LeaderboardArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardArray_GetNextUrl_Native
+  // Il2CppName: ovr_LeaderboardArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardArray_GetSize
+  // Il2CppName: ovr_LeaderboardArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardArray_HasNextPage
+  // Il2CppName: ovr_LeaderboardArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetDisplayScore
+  // Il2CppName: ovr_LeaderboardEntry_GetDisplayScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetDisplayScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetDisplayScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetDisplayScore_Native
+  // Il2CppName: ovr_LeaderboardEntry_GetDisplayScore_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetDisplayScore_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetDisplayScore_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetExtraData
+  // Il2CppName: ovr_LeaderboardEntry_GetExtraData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetExtraData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetExtraData_Native
+  // Il2CppName: ovr_LeaderboardEntry_GetExtraData_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetExtraData_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetExtraData_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetExtraDataLength
+  // Il2CppName: ovr_LeaderboardEntry_GetExtraDataLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetExtraDataLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetExtraDataLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetRank
+  // Il2CppName: ovr_LeaderboardEntry_GetRank
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetRank)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetScore
+  // Il2CppName: ovr_LeaderboardEntry_GetScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetSupplementaryMetric
+  // Il2CppName: ovr_LeaderboardEntry_GetSupplementaryMetric
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetSupplementaryMetric)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetTimestamp
+  // Il2CppName: ovr_LeaderboardEntry_GetTimestamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetTimestamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetTimestamp_Native
+  // Il2CppName: ovr_LeaderboardEntry_GetTimestamp_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetTimestamp_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetTimestamp_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntry_GetUser
+  // Il2CppName: ovr_LeaderboardEntry_GetUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntry_GetUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntry_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetElement
+  // Il2CppName: ovr_LeaderboardEntryArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetNextUrl
+  // Il2CppName: ovr_LeaderboardEntryArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetNextUrl_Native
+  // Il2CppName: ovr_LeaderboardEntryArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl
+  // Il2CppName: ovr_LeaderboardEntryArray_GetPreviousUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl_Native
+  // Il2CppName: ovr_LeaderboardEntryArray_GetPreviousUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetPreviousUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetSize
+  // Il2CppName: ovr_LeaderboardEntryArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_GetTotalCount
+  // Il2CppName: ovr_LeaderboardEntryArray_GetTotalCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_GetTotalCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_GetTotalCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_HasNextPage
+  // Il2CppName: ovr_LeaderboardEntryArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardEntryArray_HasPreviousPage
+  // Il2CppName: ovr_LeaderboardEntryArray_HasPreviousPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardEntryArray_HasPreviousPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardEntryArray_HasPreviousPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardUpdateStatus_GetDidUpdate
+  // Il2CppName: ovr_LeaderboardUpdateStatus_GetDidUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardUpdateStatus_GetDidUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardUpdateStatus_GetDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId
+  // Il2CppName: ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint)>(&CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize
+  // Il2CppName: ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccount_GetAccessToken
+  // Il2CppName: ovr_LinkedAccount_GetAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LinkedAccount_GetAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccount_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccount_GetAccessToken_Native
+  // Il2CppName: ovr_LinkedAccount_GetAccessToken_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LinkedAccount_GetAccessToken_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccount_GetAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccount_GetServiceProvider
+  // Il2CppName: ovr_LinkedAccount_GetServiceProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ServiceProvider (*)(System::IntPtr)>(&CAPI::ovr_LinkedAccount_GetServiceProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccount_GetServiceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccount_GetUserId
+  // Il2CppName: ovr_LinkedAccount_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LinkedAccount_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccount_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccount_GetUserId_Native
+  // Il2CppName: ovr_LinkedAccount_GetUserId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LinkedAccount_GetUserId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccount_GetUserId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccountArray_GetElement
+  // Il2CppName: ovr_LinkedAccountArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_LinkedAccountArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccountArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LinkedAccountArray_GetSize
+  // Il2CppName: ovr_LinkedAccountArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_LinkedAccountArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LinkedAccountArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingApplicationStatus_GetStreamingEnabled
+  // Il2CppName: ovr_LivestreamingApplicationStatus_GetStreamingEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingApplicationStatus_GetStreamingEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingApplicationStatus_GetStreamingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingStartResult_GetStreamingResult
+  // Il2CppName: ovr_LivestreamingStartResult_GetStreamingResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::LivestreamingStartStatus (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingStartResult_GetStreamingResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingStartResult_GetStreamingResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingStatus_GetCommentsVisible
+  // Il2CppName: ovr_LivestreamingStatus_GetCommentsVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingStatus_GetCommentsVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingStatus_GetCommentsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingStatus_GetIsPaused
+  // Il2CppName: ovr_LivestreamingStatus_GetIsPaused
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingStatus_GetIsPaused)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingStatus_GetIsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingStatus_GetLivestreamingEnabled
+  // Il2CppName: ovr_LivestreamingStatus_GetLivestreamingEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingStatus_GetLivestreamingEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingStatus_GetLivestreamingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingStatus_GetLivestreamingType
+  // Il2CppName: ovr_LivestreamingStatus_GetLivestreamingType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingStatus_GetLivestreamingType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingStatus_GetLivestreamingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingStatus_GetMicEnabled
+  // Il2CppName: ovr_LivestreamingStatus_GetMicEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingStatus_GetMicEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingStatus_GetMicEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingVideoStats_GetCommentCount
+  // Il2CppName: ovr_LivestreamingVideoStats_GetCommentCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingVideoStats_GetCommentCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingVideoStats_GetCommentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingVideoStats_GetReactionCount
+  // Il2CppName: ovr_LivestreamingVideoStats_GetReactionCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingVideoStats_GetReactionCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingVideoStats_GetReactionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingVideoStats_GetTotalViews
+  // Il2CppName: ovr_LivestreamingVideoStats_GetTotalViews
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingVideoStats_GetTotalViews)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingVideoStats_GetTotalViews", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_LivestreamingVideoStats_GetTotalViews_Native
+  // Il2CppName: ovr_LivestreamingVideoStats_GetTotalViews_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_LivestreamingVideoStats_GetTotalViews_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_LivestreamingVideoStats_GetTotalViews_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshot_GetCandidates
+  // Il2CppName: ovr_MatchmakingAdminSnapshot_GetCandidates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshot_GetCandidates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshot_GetCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold
+  // Il2CppName: ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshot_GetMyCurrentThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetCanMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetMyTotalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTraceId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTraceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetElement
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidateArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidateArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetSize
+  // Il2CppName: ovr_MatchmakingAdminSnapshotCandidateArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingAdminSnapshotCandidateArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingAdminSnapshotCandidateArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingBrowseResult_GetEnqueueResult
+  // Il2CppName: ovr_MatchmakingBrowseResult_GetEnqueueResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingBrowseResult_GetEnqueueResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingBrowseResult_GetEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingBrowseResult_GetRooms
+  // Il2CppName: ovr_MatchmakingBrowseResult_GetRooms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingBrowseResult_GetRooms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingBrowseResult_GetRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidate_GetEntryHash
+  // Il2CppName: ovr_MatchmakingCandidate_GetEntryHash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidate_GetEntryHash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidate_GetEntryHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidate_GetEntryHash_Native
+  // Il2CppName: ovr_MatchmakingCandidate_GetEntryHash_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidate_GetEntryHash_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidate_GetEntryHash_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidate_GetUserId
+  // Il2CppName: ovr_MatchmakingCandidate_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidate_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidate_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidateArray_GetElement
+  // Il2CppName: ovr_MatchmakingCandidateArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_MatchmakingCandidateArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidateArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidateArray_GetNextUrl
+  // Il2CppName: ovr_MatchmakingCandidateArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidateArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidateArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidateArray_GetNextUrl_Native
+  // Il2CppName: ovr_MatchmakingCandidateArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidateArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidateArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidateArray_GetSize
+  // Il2CppName: ovr_MatchmakingCandidateArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidateArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidateArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingCandidateArray_HasNextPage
+  // Il2CppName: ovr_MatchmakingCandidateArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingCandidateArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingCandidateArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetAdminSnapshot
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetAdminSnapshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetAdminSnapshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetAverageWait
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetAverageWait
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetAverageWait)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetAverageWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetMatchesInLastHourCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetMaxExpectedWait
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetMaxExpectedWait
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetMaxExpectedWait)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetMaxExpectedWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetPool
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetPool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetPool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetPool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetPool_Native
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetPool_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetPool_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetPool_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetRequestHash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetRequestHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash_Native
+  // Il2CppName: ovr_MatchmakingEnqueueResult_GetRequestHash_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResult_GetRequestHash_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult
+  // Il2CppName: ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetRoom
+  // Il2CppName: ovr_MatchmakingEnqueueResultAndRoom_GetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueueResultAndRoom_GetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueueResultAndRoom_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserID
+  // Il2CppName: ovr_MatchmakingEnqueuedUser_GetAdditionalUserID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr, uint)>(&CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueuedUser_GetAdditionalUserID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize
+  // Il2CppName: ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueuedUser_GetAdditionalUserIDsSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueuedUser_GetCustomData
+  // Il2CppName: ovr_MatchmakingEnqueuedUser_GetCustomData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueuedUser_GetCustomData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueuedUser_GetCustomData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueuedUser_GetUser
+  // Il2CppName: ovr_MatchmakingEnqueuedUser_GetUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueuedUser_GetUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueuedUser_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueuedUserArray_GetElement
+  // Il2CppName: ovr_MatchmakingEnqueuedUserArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_MatchmakingEnqueuedUserArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueuedUserArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingEnqueuedUserArray_GetSize
+  // Il2CppName: ovr_MatchmakingEnqueuedUserArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingEnqueuedUserArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingEnqueuedUserArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingNotification_GetAddedByUserId
+  // Il2CppName: ovr_MatchmakingNotification_GetAddedByUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingNotification_GetAddedByUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingNotification_GetAddedByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingNotification_GetRoom
+  // Il2CppName: ovr_MatchmakingNotification_GetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingNotification_GetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingNotification_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingNotification_GetTraceId
+  // Il2CppName: ovr_MatchmakingNotification_GetTraceId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingNotification_GetTraceId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingNotification_GetTraceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingNotification_GetTraceId_Native
+  // Il2CppName: ovr_MatchmakingNotification_GetTraceId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingNotification_GetTraceId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingNotification_GetTraceId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingRoom_GetPingTime
+  // Il2CppName: ovr_MatchmakingRoom_GetPingTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingRoom_GetPingTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingRoom_GetPingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingRoom_GetRoom
+  // Il2CppName: ovr_MatchmakingRoom_GetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingRoom_GetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingRoom_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingRoom_HasPingTime
+  // Il2CppName: ovr_MatchmakingRoom_HasPingTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingRoom_HasPingTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingRoom_HasPingTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingRoomArray_GetElement
+  // Il2CppName: ovr_MatchmakingRoomArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_MatchmakingRoomArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingRoomArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingRoomArray_GetSize
+  // Il2CppName: ovr_MatchmakingRoomArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingRoomArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingRoomArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingStats_GetDrawCount
+  // Il2CppName: ovr_MatchmakingStats_GetDrawCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingStats_GetDrawCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingStats_GetDrawCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingStats_GetLossCount
+  // Il2CppName: ovr_MatchmakingStats_GetLossCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingStats_GetLossCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingStats_GetLossCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingStats_GetSkillLevel
+  // Il2CppName: ovr_MatchmakingStats_GetSkillLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingStats_GetSkillLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingStats_GetSkillLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingStats_GetSkillMean
+  // Il2CppName: ovr_MatchmakingStats_GetSkillMean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingStats_GetSkillMean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingStats_GetSkillMean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingStats_GetSkillStandardDeviation
+  // Il2CppName: ovr_MatchmakingStats_GetSkillStandardDeviation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingStats_GetSkillStandardDeviation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingStats_GetSkillStandardDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingStats_GetWinCount
+  // Il2CppName: ovr_MatchmakingStats_GetWinCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingStats_GetWinCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingStats_GetWinCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAbuseReportRecording
+  // Il2CppName: ovr_Message_GetAbuseReportRecording
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAbuseReportRecording)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAbuseReportRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAchievementDefinitionArray
+  // Il2CppName: ovr_Message_GetAchievementDefinitionArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAchievementDefinitionArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAchievementDefinitionArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAchievementProgressArray
+  // Il2CppName: ovr_Message_GetAchievementProgressArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAchievementProgressArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAchievementProgressArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAchievementUpdate
+  // Il2CppName: ovr_Message_GetAchievementUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAchievementUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAchievementUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetApplicationVersion
+  // Il2CppName: ovr_Message_GetApplicationVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetApplicationVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetApplicationVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAssetDetails
+  // Il2CppName: ovr_Message_GetAssetDetails
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAssetDetails)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAssetDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAssetDetailsArray
+  // Il2CppName: ovr_Message_GetAssetDetailsArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAssetDetailsArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAssetDetailsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAssetFileDeleteResult
+  // Il2CppName: ovr_Message_GetAssetFileDeleteResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAssetFileDeleteResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAssetFileDownloadCancelResult
+  // Il2CppName: ovr_Message_GetAssetFileDownloadCancelResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAssetFileDownloadCancelResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAssetFileDownloadCancelResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAssetFileDownloadResult
+  // Il2CppName: ovr_Message_GetAssetFileDownloadResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAssetFileDownloadResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAssetFileDownloadResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetAssetFileDownloadUpdate
+  // Il2CppName: ovr_Message_GetAssetFileDownloadUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetAssetFileDownloadUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetAssetFileDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCalApplicationFinalized
+  // Il2CppName: ovr_Message_GetCalApplicationFinalized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCalApplicationFinalized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCalApplicationFinalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCalApplicationProposed
+  // Il2CppName: ovr_Message_GetCalApplicationProposed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCalApplicationProposed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCalApplicationProposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCalApplicationSuggestionArray
+  // Il2CppName: ovr_Message_GetCalApplicationSuggestionArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCalApplicationSuggestionArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCalApplicationSuggestionArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetChallenge
+  // Il2CppName: ovr_Message_GetChallenge
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetChallenge)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetChallenge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetChallengeArray
+  // Il2CppName: ovr_Message_GetChallengeArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetChallengeArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetChallengeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetChallengeEntryArray
+  // Il2CppName: ovr_Message_GetChallengeEntryArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetChallengeEntryArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetChallengeEntryArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCloudStorageConflictMetadata
+  // Il2CppName: ovr_Message_GetCloudStorageConflictMetadata
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCloudStorageConflictMetadata)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCloudStorageData
+  // Il2CppName: ovr_Message_GetCloudStorageData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCloudStorageData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCloudStorageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCloudStorageMetadata
+  // Il2CppName: ovr_Message_GetCloudStorageMetadata
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCloudStorageMetadata)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCloudStorageMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCloudStorageMetadataArray
+  // Il2CppName: ovr_Message_GetCloudStorageMetadataArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCloudStorageMetadataArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCloudStorageMetadataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetCloudStorageUpdateResponse
+  // Il2CppName: ovr_Message_GetCloudStorageUpdateResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetCloudStorageUpdateResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetCloudStorageUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetDataStore
+  // Il2CppName: ovr_Message_GetDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetDestinationArray
+  // Il2CppName: ovr_Message_GetDestinationArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetDestinationArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetDestinationArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetError
+  // Il2CppName: ovr_Message_GetError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetGroupPresenceLeaveIntent
+  // Il2CppName: ovr_Message_GetGroupPresenceLeaveIntent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetGroupPresenceLeaveIntent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetGroupPresenceLeaveIntent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetHttpTransferUpdate
+  // Il2CppName: ovr_Message_GetHttpTransferUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetHttpTransferUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetHttpTransferUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetInstalledApplicationArray
+  // Il2CppName: ovr_Message_GetInstalledApplicationArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetInstalledApplicationArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetInstalledApplicationArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetInvitePanelResultInfo
+  // Il2CppName: ovr_Message_GetInvitePanelResultInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetInvitePanelResultInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetInvitePanelResultInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLaunchBlockFlowResult
+  // Il2CppName: ovr_Message_GetLaunchBlockFlowResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLaunchBlockFlowResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLaunchBlockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLaunchFriendRequestFlowResult
+  // Il2CppName: ovr_Message_GetLaunchFriendRequestFlowResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLaunchFriendRequestFlowResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLaunchFriendRequestFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLaunchInvitePanelFlowResult
+  // Il2CppName: ovr_Message_GetLaunchInvitePanelFlowResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLaunchInvitePanelFlowResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLaunchInvitePanelFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLaunchReportFlowResult
+  // Il2CppName: ovr_Message_GetLaunchReportFlowResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLaunchReportFlowResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLaunchReportFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLaunchUnblockFlowResult
+  // Il2CppName: ovr_Message_GetLaunchUnblockFlowResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLaunchUnblockFlowResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLaunchUnblockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLeaderboardArray
+  // Il2CppName: ovr_Message_GetLeaderboardArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLeaderboardArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLeaderboardArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLeaderboardEntryArray
+  // Il2CppName: ovr_Message_GetLeaderboardEntryArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLeaderboardEntryArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLeaderboardEntryArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLeaderboardUpdateStatus
+  // Il2CppName: ovr_Message_GetLeaderboardUpdateStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLeaderboardUpdateStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLeaderboardUpdateStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLinkedAccountArray
+  // Il2CppName: ovr_Message_GetLinkedAccountArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLinkedAccountArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLinkedAccountArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLivestreamingApplicationStatus
+  // Il2CppName: ovr_Message_GetLivestreamingApplicationStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLivestreamingApplicationStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLivestreamingApplicationStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLivestreamingStartResult
+  // Il2CppName: ovr_Message_GetLivestreamingStartResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLivestreamingStartResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLivestreamingStartResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLivestreamingStatus
+  // Il2CppName: ovr_Message_GetLivestreamingStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLivestreamingStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLivestreamingStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetLivestreamingVideoStats
+  // Il2CppName: ovr_Message_GetLivestreamingVideoStats
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetLivestreamingVideoStats)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetLivestreamingVideoStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetMatchmakingAdminSnapshot
+  // Il2CppName: ovr_Message_GetMatchmakingAdminSnapshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetMatchmakingAdminSnapshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetMatchmakingAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetMatchmakingBrowseResult
+  // Il2CppName: ovr_Message_GetMatchmakingBrowseResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetMatchmakingBrowseResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetMatchmakingBrowseResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetMatchmakingEnqueueResult
+  // Il2CppName: ovr_Message_GetMatchmakingEnqueueResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetMatchmakingEnqueueResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetMatchmakingEnqueueResultAndRoom
+  // Il2CppName: ovr_Message_GetMatchmakingEnqueueResultAndRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetMatchmakingEnqueueResultAndRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetMatchmakingEnqueueResultAndRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetMatchmakingRoomArray
+  // Il2CppName: ovr_Message_GetMatchmakingRoomArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetMatchmakingRoomArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetMatchmakingRoomArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetMatchmakingStats
+  // Il2CppName: ovr_Message_GetMatchmakingStats
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetMatchmakingStats)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetMatchmakingStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNativeMessage
+  // Il2CppName: ovr_Message_GetNativeMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNativeMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNativeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNetSyncConnection
+  // Il2CppName: ovr_Message_GetNetSyncConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNetSyncConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNetSyncConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNetSyncSessionArray
+  // Il2CppName: ovr_Message_GetNetSyncSessionArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNetSyncSessionArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNetSyncSessionArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNetSyncSessionsChangedNotification
+  // Il2CppName: ovr_Message_GetNetSyncSessionsChangedNotification
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNetSyncSessionsChangedNotification)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNetSyncSessionsChangedNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNetSyncSetSessionPropertyResult
+  // Il2CppName: ovr_Message_GetNetSyncSetSessionPropertyResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNetSyncSetSessionPropertyResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNetSyncSetSessionPropertyResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNetSyncVoipAttenuationValueArray
+  // Il2CppName: ovr_Message_GetNetSyncVoipAttenuationValueArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNetSyncVoipAttenuationValueArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNetSyncVoipAttenuationValueArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetNetworkingPeer
+  // Il2CppName: ovr_Message_GetNetworkingPeer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetNetworkingPeer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetNetworkingPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetOrgScopedID
+  // Il2CppName: ovr_Message_GetOrgScopedID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetOrgScopedID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetParty
+  // Il2CppName: ovr_Message_GetParty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetParty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPartyID
+  // Il2CppName: ovr_Message_GetPartyID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPartyID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPartyID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPartyUpdateNotification
+  // Il2CppName: ovr_Message_GetPartyUpdateNotification
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPartyUpdateNotification)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPartyUpdateNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPidArray
+  // Il2CppName: ovr_Message_GetPidArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPidArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPidArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPingResult
+  // Il2CppName: ovr_Message_GetPingResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPingResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPingResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPlatformInitialize
+  // Il2CppName: ovr_Message_GetPlatformInitialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPlatformInitialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPlatformInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetProductArray
+  // Il2CppName: ovr_Message_GetProductArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetProductArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetProductArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPurchase
+  // Il2CppName: ovr_Message_GetPurchase
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPurchase)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetPurchaseArray
+  // Il2CppName: ovr_Message_GetPurchaseArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetPurchaseArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetPurchaseArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetRequestID
+  // Il2CppName: ovr_Message_GetRequestID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Message_GetRequestID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetRequestID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetRoom
+  // Il2CppName: ovr_Message_GetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetRoomArray
+  // Il2CppName: ovr_Message_GetRoomArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetRoomArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetRoomArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetRoomInviteNotification
+  // Il2CppName: ovr_Message_GetRoomInviteNotification
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetRoomInviteNotification)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetRoomInviteNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetRoomInviteNotificationArray
+  // Il2CppName: ovr_Message_GetRoomInviteNotificationArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetRoomInviteNotificationArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetRoomInviteNotificationArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetSdkAccountArray
+  // Il2CppName: ovr_Message_GetSdkAccountArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetSdkAccountArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetSdkAccountArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetShareMediaResult
+  // Il2CppName: ovr_Message_GetShareMediaResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetShareMediaResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetShareMediaResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetString
+  // Il2CppName: ovr_Message_GetString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Message_GetString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetString_Native
+  // Il2CppName: ovr_Message_GetString_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetString_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetSystemPermission
+  // Il2CppName: ovr_Message_GetSystemPermission
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetSystemPermission)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetSystemPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetSystemVoipState
+  // Il2CppName: ovr_Message_GetSystemVoipState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetSystemVoipState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetSystemVoipState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetType
+  // Il2CppName: ovr_Message_GetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message::MessageType (*)(System::IntPtr)>(&CAPI::ovr_Message_GetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetUser
+  // Il2CppName: ovr_Message_GetUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetUserAndRoomArray
+  // Il2CppName: ovr_Message_GetUserAndRoomArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetUserAndRoomArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetUserAndRoomArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetUserArray
+  // Il2CppName: ovr_Message_GetUserArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetUserArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetUserArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetUserDataStoreUpdateResponse
+  // Il2CppName: ovr_Message_GetUserDataStoreUpdateResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetUserDataStoreUpdateResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetUserDataStoreUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetUserProof
+  // Il2CppName: ovr_Message_GetUserProof
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetUserProof)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_GetUserReportID
+  // Il2CppName: ovr_Message_GetUserReportID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Message_GetUserReportID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_GetUserReportID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Message_IsError
+  // Il2CppName: ovr_Message_IsError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_Message_IsError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Message_IsError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_GetNumSamplesAvailable
+  // Il2CppName: ovr_Microphone_GetNumSamplesAvailable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_Microphone_GetNumSamplesAvailable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_GetNumSamplesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_GetOutputBufferMaxSize
+  // Il2CppName: ovr_Microphone_GetOutputBufferMaxSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_Microphone_GetOutputBufferMaxSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_GetOutputBufferMaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_GetPCM
+  // Il2CppName: ovr_Microphone_GetPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<int16_t>*, System::UIntPtr)>(&CAPI::ovr_Microphone_GetPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_GetPCMFloat
+  // Il2CppName: ovr_Microphone_GetPCMFloat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_Microphone_GetPCMFloat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_GetPCMFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_ReadData
+  // Il2CppName: ovr_Microphone_ReadData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_Microphone_ReadData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_ReadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_SetAcceptableRecordingDelayHint
+  // Il2CppName: ovr_Microphone_SetAcceptableRecordingDelayHint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_Microphone_SetAcceptableRecordingDelayHint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_SetAcceptableRecordingDelayHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_Start
+  // Il2CppName: ovr_Microphone_Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Microphone_Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Microphone_Stop
+  // Il2CppName: ovr_Microphone_Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Microphone_Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Microphone_Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncConnection_GetConnectionId
+  // Il2CppName: ovr_NetSyncConnection_GetConnectionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSyncConnection_GetConnectionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncConnection_GetConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncConnection_GetDisconnectReason
+  // Il2CppName: ovr_NetSyncConnection_GetDisconnectReason
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::NetSyncDisconnectReason (*)(System::IntPtr)>(&CAPI::ovr_NetSyncConnection_GetDisconnectReason)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncConnection_GetDisconnectReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncConnection_GetSessionId
+  // Il2CppName: ovr_NetSyncConnection_GetSessionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSyncConnection_GetSessionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncConnection_GetSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncConnection_GetStatus
+  // Il2CppName: ovr_NetSyncConnection_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::NetSyncConnectionStatus (*)(System::IntPtr)>(&CAPI::ovr_NetSyncConnection_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncConnection_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncConnection_GetZoneId
+  // Il2CppName: ovr_NetSyncConnection_GetZoneId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_NetSyncConnection_GetZoneId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncConnection_GetZoneId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncConnection_GetZoneId_Native
+  // Il2CppName: ovr_NetSyncConnection_GetZoneId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_NetSyncConnection_GetZoneId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncConnection_GetZoneId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSession_GetConnectionId
+  // Il2CppName: ovr_NetSyncSession_GetConnectionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSession_GetConnectionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSession_GetConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSession_GetMuted
+  // Il2CppName: ovr_NetSyncSession_GetMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSession_GetMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSession_GetMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSession_GetSessionId
+  // Il2CppName: ovr_NetSyncSession_GetSessionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSession_GetSessionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSession_GetSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSession_GetUserId
+  // Il2CppName: ovr_NetSyncSession_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSession_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSession_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSession_GetVoipGroup
+  // Il2CppName: ovr_NetSyncSession_GetVoipGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSession_GetVoipGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSession_GetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSession_GetVoipGroup_Native
+  // Il2CppName: ovr_NetSyncSession_GetVoipGroup_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSession_GetVoipGroup_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSession_GetVoipGroup_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSessionArray_GetElement
+  // Il2CppName: ovr_NetSyncSessionArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_NetSyncSessionArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSessionArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSessionArray_GetSize
+  // Il2CppName: ovr_NetSyncSessionArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSessionArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSessionArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSessionsChangedNotification_GetConnectionId
+  // Il2CppName: ovr_NetSyncSessionsChangedNotification_GetConnectionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSessionsChangedNotification_GetConnectionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSessionsChangedNotification_GetConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSessionsChangedNotification_GetSessions
+  // Il2CppName: ovr_NetSyncSessionsChangedNotification_GetSessions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSessionsChangedNotification_GetSessions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSessionsChangedNotification_GetSessions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncSetSessionPropertyResult_GetSession
+  // Il2CppName: ovr_NetSyncSetSessionPropertyResult_GetSession
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_NetSyncSetSessionPropertyResult_GetSession)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncSetSessionPropertyResult_GetSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncVoipAttenuationValue_GetDecibels
+  // Il2CppName: ovr_NetSyncVoipAttenuationValue_GetDecibels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr)>(&CAPI::ovr_NetSyncVoipAttenuationValue_GetDecibels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncVoipAttenuationValue_GetDecibels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncVoipAttenuationValue_GetDistance
+  // Il2CppName: ovr_NetSyncVoipAttenuationValue_GetDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr)>(&CAPI::ovr_NetSyncVoipAttenuationValue_GetDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncVoipAttenuationValue_GetDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncVoipAttenuationValueArray_GetElement
+  // Il2CppName: ovr_NetSyncVoipAttenuationValueArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_NetSyncVoipAttenuationValueArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncVoipAttenuationValueArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncVoipAttenuationValueArray_GetSize
+  // Il2CppName: ovr_NetSyncVoipAttenuationValueArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_NetSyncVoipAttenuationValueArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncVoipAttenuationValueArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetworkingPeer_GetID
+  // Il2CppName: ovr_NetworkingPeer_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_NetworkingPeer_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetworkingPeer_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetworkingPeer_GetState
+  // Il2CppName: ovr_NetworkingPeer_GetState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PeerConnectionState (*)(System::IntPtr)>(&CAPI::ovr_NetworkingPeer_GetState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetworkingPeer_GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_OrgScopedID_GetID
+  // Il2CppName: ovr_OrgScopedID_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_OrgScopedID_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_OrgScopedID_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Packet_Free
+  // Il2CppName: ovr_Packet_Free
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_Packet_Free)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Packet_Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Packet_GetBytes
+  // Il2CppName: ovr_Packet_GetBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Packet_GetBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Packet_GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Packet_GetSendPolicy
+  // Il2CppName: ovr_Packet_GetSendPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SendPolicy (*)(System::IntPtr)>(&CAPI::ovr_Packet_GetSendPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Packet_GetSendPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Packet_GetSenderID
+  // Il2CppName: ovr_Packet_GetSenderID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Packet_GetSenderID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Packet_GetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Packet_GetSize
+  // Il2CppName: ovr_Packet_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_Packet_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Packet_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetID
+  // Il2CppName: ovr_Party_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Party_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetInvitedUsers
+  // Il2CppName: ovr_Party_GetInvitedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Party_GetInvitedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetLeader
+  // Il2CppName: ovr_Party_GetLeader
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Party_GetLeader)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetLeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetRoom
+  // Il2CppName: ovr_Party_GetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Party_GetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Party_GetUsers
+  // Il2CppName: ovr_Party_GetUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Party_GetUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Party_GetUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyID_GetID
+  // Il2CppName: ovr_PartyID_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_PartyID_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyID_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetAction
+  // Il2CppName: ovr_PartyUpdateNotification_GetAction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PartyUpdateAction (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetAction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetPartyId
+  // Il2CppName: ovr_PartyUpdateNotification_GetPartyId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetPartyId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetPartyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetSenderId
+  // Il2CppName: ovr_PartyUpdateNotification_GetSenderId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetSenderId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetSenderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp
+  // Il2CppName: ovr_PartyUpdateNotification_GetUpdateTimestamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUpdateTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp_Native
+  // Il2CppName: ovr_PartyUpdateNotification_GetUpdateTimestamp_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUpdateTimestamp_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUserAlias
+  // Il2CppName: ovr_PartyUpdateNotification_GetUserAlias
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUserAlias)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUserAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUserAlias_Native
+  // Il2CppName: ovr_PartyUpdateNotification_GetUserAlias_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUserAlias_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUserAlias_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUserId
+  // Il2CppName: ovr_PartyUpdateNotification_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUserName
+  // Il2CppName: ovr_PartyUpdateNotification_GetUserName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUserName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PartyUpdateNotification_GetUserName_Native
+  // Il2CppName: ovr_PartyUpdateNotification_GetUserName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_PartyUpdateNotification_GetUserName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PartyUpdateNotification_GetUserName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Pid_GetId
+  // Il2CppName: ovr_Pid_GetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Pid_GetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Pid_GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Pid_GetId_Native
+  // Il2CppName: ovr_Pid_GetId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Pid_GetId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Pid_GetId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PidArray_GetElement
+  // Il2CppName: ovr_PidArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_PidArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PidArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PidArray_GetSize
+  // Il2CppName: ovr_PidArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_PidArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PidArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PingResult_GetID
+  // Il2CppName: ovr_PingResult_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_PingResult_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PingResult_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PingResult_GetPingTimeUsec
+  // Il2CppName: ovr_PingResult_GetPingTimeUsec
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_PingResult_GetPingTimeUsec)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PingResult_GetPingTimeUsec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PingResult_IsTimeout
+  // Il2CppName: ovr_PingResult_IsTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_PingResult_IsTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PingResult_IsTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PlatformInitialize_GetResult
+  // Il2CppName: ovr_PlatformInitialize_GetResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PlatformInitializeResult (*)(System::IntPtr)>(&CAPI::ovr_PlatformInitialize_GetResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PlatformInitialize_GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Price_GetAmountInHundredths
+  // Il2CppName: ovr_Price_GetAmountInHundredths
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_Price_GetAmountInHundredths)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Price_GetAmountInHundredths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Price_GetCurrency
+  // Il2CppName: ovr_Price_GetCurrency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Price_GetCurrency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Price_GetCurrency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Price_GetCurrency_Native
+  // Il2CppName: ovr_Price_GetCurrency_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Price_GetCurrency_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Price_GetCurrency_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Price_GetFormatted
+  // Il2CppName: ovr_Price_GetFormatted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Price_GetFormatted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Price_GetFormatted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Price_GetFormatted_Native
+  // Il2CppName: ovr_Price_GetFormatted_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Price_GetFormatted_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Price_GetFormatted_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetDescription
+  // Il2CppName: ovr_Product_GetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Product_GetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetDescription_Native
+  // Il2CppName: ovr_Product_GetDescription_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Product_GetDescription_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetFormattedPrice
+  // Il2CppName: ovr_Product_GetFormattedPrice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Product_GetFormattedPrice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetFormattedPrice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetFormattedPrice_Native
+  // Il2CppName: ovr_Product_GetFormattedPrice_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Product_GetFormattedPrice_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetFormattedPrice_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetName
+  // Il2CppName: ovr_Product_GetName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Product_GetName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetName_Native
+  // Il2CppName: ovr_Product_GetName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Product_GetName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetSKU
+  // Il2CppName: ovr_Product_GetSKU
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Product_GetSKU)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetSKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Product_GetSKU_Native
+  // Il2CppName: ovr_Product_GetSKU_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Product_GetSKU_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Product_GetSKU_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ProductArray_GetElement
+  // Il2CppName: ovr_ProductArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_ProductArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ProductArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ProductArray_GetNextUrl
+  // Il2CppName: ovr_ProductArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_ProductArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ProductArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ProductArray_GetNextUrl_Native
+  // Il2CppName: ovr_ProductArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_ProductArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ProductArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ProductArray_GetSize
+  // Il2CppName: ovr_ProductArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_ProductArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ProductArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ProductArray_HasNextPage
+  // Il2CppName: ovr_ProductArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_ProductArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ProductArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetExpirationTime
+  // Il2CppName: ovr_Purchase_GetExpirationTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetExpirationTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetExpirationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetExpirationTime_Native
+  // Il2CppName: ovr_Purchase_GetExpirationTime_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetExpirationTime_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetExpirationTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetGrantTime
+  // Il2CppName: ovr_Purchase_GetGrantTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetGrantTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetGrantTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetGrantTime_Native
+  // Il2CppName: ovr_Purchase_GetGrantTime_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetGrantTime_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetGrantTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetPurchaseID
+  // Il2CppName: ovr_Purchase_GetPurchaseID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetPurchaseID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetPurchaseID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetPurchaseStrID
+  // Il2CppName: ovr_Purchase_GetPurchaseStrID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetPurchaseStrID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetPurchaseStrID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetPurchaseStrID_Native
+  // Il2CppName: ovr_Purchase_GetPurchaseStrID_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetPurchaseStrID_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetPurchaseStrID_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetSKU
+  // Il2CppName: ovr_Purchase_GetSKU
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetSKU)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetSKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Purchase_GetSKU_Native
+  // Il2CppName: ovr_Purchase_GetSKU_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Purchase_GetSKU_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Purchase_GetSKU_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PurchaseArray_GetElement
+  // Il2CppName: ovr_PurchaseArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_PurchaseArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PurchaseArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PurchaseArray_GetNextUrl
+  // Il2CppName: ovr_PurchaseArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_PurchaseArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PurchaseArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PurchaseArray_GetNextUrl_Native
+  // Il2CppName: ovr_PurchaseArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_PurchaseArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PurchaseArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PurchaseArray_GetSize
+  // Il2CppName: ovr_PurchaseArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_PurchaseArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PurchaseArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_PurchaseArray_HasNextPage
+  // Il2CppName: ovr_PurchaseArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_PurchaseArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_PurchaseArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetApplicationID
+  // Il2CppName: ovr_Room_GetApplicationID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Room_GetApplicationID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetApplicationID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetDataStore
+  // Il2CppName: ovr_Room_GetDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetDescription
+  // Il2CppName: ovr_Room_GetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Room_GetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetDescription_Native
+  // Il2CppName: ovr_Room_GetDescription_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetDescription_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetID
+  // Il2CppName: ovr_Room_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_Room_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetInvitedUsers
+  // Il2CppName: ovr_Room_GetInvitedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetInvitedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetInvitedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetIsMembershipLocked
+  // Il2CppName: ovr_Room_GetIsMembershipLocked
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_Room_GetIsMembershipLocked)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetIsMembershipLocked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetJoinPolicy
+  // Il2CppName: ovr_Room_GetJoinPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::RoomJoinPolicy (*)(System::IntPtr)>(&CAPI::ovr_Room_GetJoinPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetJoinability
+  // Il2CppName: ovr_Room_GetJoinability
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::RoomJoinability (*)(System::IntPtr)>(&CAPI::ovr_Room_GetJoinability)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetJoinability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetMatchedUsers
+  // Il2CppName: ovr_Room_GetMatchedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetMatchedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetMatchedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetMaxUsers
+  // Il2CppName: ovr_Room_GetMaxUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_Room_GetMaxUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetName
+  // Il2CppName: ovr_Room_GetName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Room_GetName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetName_Native
+  // Il2CppName: ovr_Room_GetName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetOwner
+  // Il2CppName: ovr_Room_GetOwner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetOwner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetTeams
+  // Il2CppName: ovr_Room_GetTeams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetTeams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetTeams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetType
+  // Il2CppName: ovr_Room_GetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::RoomType (*)(System::IntPtr)>(&CAPI::ovr_Room_GetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetUsers
+  // Il2CppName: ovr_Room_GetUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Room_GetUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Room_GetVersion
+  // Il2CppName: ovr_Room_GetVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr)>(&CAPI::ovr_Room_GetVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Room_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomArray_GetElement
+  // Il2CppName: ovr_RoomArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_RoomArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomArray_GetNextUrl
+  // Il2CppName: ovr_RoomArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_RoomArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomArray_GetNextUrl_Native
+  // Il2CppName: ovr_RoomArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_RoomArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomArray_GetSize
+  // Il2CppName: ovr_RoomArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_RoomArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomArray_HasNextPage
+  // Il2CppName: ovr_RoomArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_RoomArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotification_GetID
+  // Il2CppName: ovr_RoomInviteNotification_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotification_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotification_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotification_GetRoomID
+  // Il2CppName: ovr_RoomInviteNotification_GetRoomID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotification_GetRoomID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotification_GetRoomID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotification_GetSenderID
+  // Il2CppName: ovr_RoomInviteNotification_GetSenderID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotification_GetSenderID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotification_GetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotification_GetSentTime
+  // Il2CppName: ovr_RoomInviteNotification_GetSentTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotification_GetSentTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotification_GetSentTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotification_GetSentTime_Native
+  // Il2CppName: ovr_RoomInviteNotification_GetSentTime_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotification_GetSentTime_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotification_GetSentTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotificationArray_GetElement
+  // Il2CppName: ovr_RoomInviteNotificationArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_RoomInviteNotificationArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotificationArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotificationArray_GetNextUrl
+  // Il2CppName: ovr_RoomInviteNotificationArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotificationArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotificationArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotificationArray_GetNextUrl_Native
+  // Il2CppName: ovr_RoomInviteNotificationArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotificationArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotificationArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotificationArray_GetSize
+  // Il2CppName: ovr_RoomInviteNotificationArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotificationArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotificationArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomInviteNotificationArray_HasNextPage
+  // Il2CppName: ovr_RoomInviteNotificationArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_RoomInviteNotificationArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomInviteNotificationArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SdkAccount_GetAccountType
+  // Il2CppName: ovr_SdkAccount_GetAccountType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SdkAccountType (*)(System::IntPtr)>(&CAPI::ovr_SdkAccount_GetAccountType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SdkAccount_GetAccountType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SdkAccount_GetUserId
+  // Il2CppName: ovr_SdkAccount_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_SdkAccount_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SdkAccount_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SdkAccountArray_GetElement
+  // Il2CppName: ovr_SdkAccountArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_SdkAccountArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SdkAccountArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SdkAccountArray_GetSize
+  // Il2CppName: ovr_SdkAccountArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_SdkAccountArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SdkAccountArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ShareMediaResult_GetStatus
+  // Il2CppName: ovr_ShareMediaResult_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::ShareMediaStatus (*)(System::IntPtr)>(&CAPI::ovr_ShareMediaResult_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ShareMediaResult_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SupplementaryMetric_GetID
+  // Il2CppName: ovr_SupplementaryMetric_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_SupplementaryMetric_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SupplementaryMetric_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SupplementaryMetric_GetMetric
+  // Il2CppName: ovr_SupplementaryMetric_GetMetric
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr)>(&CAPI::ovr_SupplementaryMetric_GetMetric)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SupplementaryMetric_GetMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SystemPermission_GetHasPermission
+  // Il2CppName: ovr_SystemPermission_GetHasPermission
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_SystemPermission_GetHasPermission)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SystemPermission_GetHasPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SystemPermission_GetPermissionGrantStatus
+  // Il2CppName: ovr_SystemPermission_GetPermissionGrantStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PermissionGrantStatus (*)(System::IntPtr)>(&CAPI::ovr_SystemPermission_GetPermissionGrantStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SystemPermission_GetPermissionGrantStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SystemVoipState_GetMicrophoneMuted
+  // Il2CppName: ovr_SystemVoipState_GetMicrophoneMuted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::VoipMuteState (*)(System::IntPtr)>(&CAPI::ovr_SystemVoipState_GetMicrophoneMuted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SystemVoipState_GetMicrophoneMuted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_SystemVoipState_GetStatus
+  // Il2CppName: ovr_SystemVoipState_GetStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SystemVoipStatus (*)(System::IntPtr)>(&CAPI::ovr_SystemVoipState_GetStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_SystemVoipState_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Team_GetAssignedUsers
+  // Il2CppName: ovr_Team_GetAssignedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Team_GetAssignedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Team_GetAssignedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Team_GetMaxUsers
+  // Il2CppName: ovr_Team_GetMaxUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_Team_GetMaxUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Team_GetMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Team_GetMinUsers
+  // Il2CppName: ovr_Team_GetMinUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CAPI::ovr_Team_GetMinUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Team_GetMinUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Team_GetName
+  // Il2CppName: ovr_Team_GetName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_Team_GetName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Team_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_Team_GetName_Native
+  // Il2CppName: ovr_Team_GetName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_Team_GetName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_Team_GetName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TeamArray_GetElement
+  // Il2CppName: ovr_TeamArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_TeamArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TeamArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TeamArray_GetSize
+  // Il2CppName: ovr_TeamArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_TeamArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TeamArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetAccessToken
+  // Il2CppName: ovr_TestUser_GetAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetAccessToken_Native
+  // Il2CppName: ovr_TestUser_GetAccessToken_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetAccessToken_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetAppAccessArray
+  // Il2CppName: ovr_TestUser_GetAppAccessArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetAppAccessArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetAppAccessArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetFbAppAccessArray
+  // Il2CppName: ovr_TestUser_GetFbAppAccessArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetFbAppAccessArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetFbAppAccessArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetFriendAccessToken
+  // Il2CppName: ovr_TestUser_GetFriendAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetFriendAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetFriendAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetFriendAccessToken_Native
+  // Il2CppName: ovr_TestUser_GetFriendAccessToken_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetFriendAccessToken_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetFriendAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetFriendAppAccessArray
+  // Il2CppName: ovr_TestUser_GetFriendAppAccessArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetFriendAppAccessArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetFriendAppAccessArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetUserAlias
+  // Il2CppName: ovr_TestUser_GetUserAlias
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetUserAlias)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetUserAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetUserAlias_Native
+  // Il2CppName: ovr_TestUser_GetUserAlias_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetUserAlias_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetUserAlias_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetUserFbid
+  // Il2CppName: ovr_TestUser_GetUserFbid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetUserFbid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetUserFbid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUser_GetUserId
+  // Il2CppName: ovr_TestUser_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_TestUser_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUser_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUserAppAccess_GetAccessToken
+  // Il2CppName: ovr_TestUserAppAccess_GetAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_TestUserAppAccess_GetAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUserAppAccess_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUserAppAccess_GetAccessToken_Native
+  // Il2CppName: ovr_TestUserAppAccess_GetAccessToken_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUserAppAccess_GetAccessToken_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUserAppAccess_GetAccessToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUserAppAccess_GetAppId
+  // Il2CppName: ovr_TestUserAppAccess_GetAppId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_TestUserAppAccess_GetAppId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUserAppAccess_GetAppId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUserAppAccess_GetUserId
+  // Il2CppName: ovr_TestUserAppAccess_GetUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_TestUserAppAccess_GetUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUserAppAccess_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUserAppAccessArray_GetElement
+  // Il2CppName: ovr_TestUserAppAccessArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_TestUserAppAccessArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUserAppAccessArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_TestUserAppAccessArray_GetSize
+  // Il2CppName: ovr_TestUserAppAccessArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_TestUserAppAccessArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_TestUserAppAccessArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetDisplayName
+  // Il2CppName: ovr_User_GetDisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetDisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetDisplayName_Native
+  // Il2CppName: ovr_User_GetDisplayName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetDisplayName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetDisplayName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetID
+  // Il2CppName: ovr_User_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_User_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetImageUrl
+  // Il2CppName: ovr_User_GetImageUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetImageUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetImageUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetImageUrl_Native
+  // Il2CppName: ovr_User_GetImageUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetImageUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetImageUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetInviteToken
+  // Il2CppName: ovr_User_GetInviteToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetInviteToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetInviteToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetInviteToken_Native
+  // Il2CppName: ovr_User_GetInviteToken_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetInviteToken_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetInviteToken_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetOculusID
+  // Il2CppName: ovr_User_GetOculusID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetOculusID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetOculusID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetOculusID_Native
+  // Il2CppName: ovr_User_GetOculusID_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetOculusID_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetOculusID_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresence
+  // Il2CppName: ovr_User_GetPresence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresence_Native
+  // Il2CppName: ovr_User_GetPresence_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresence_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresence_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresenceDeeplinkMessage
+  // Il2CppName: ovr_User_GetPresenceDeeplinkMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresenceDeeplinkMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresenceDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresenceDeeplinkMessage_Native
+  // Il2CppName: ovr_User_GetPresenceDeeplinkMessage_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresenceDeeplinkMessage_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresenceDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresenceDestinationApiName
+  // Il2CppName: ovr_User_GetPresenceDestinationApiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresenceDestinationApiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresenceDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresenceDestinationApiName_Native
+  // Il2CppName: ovr_User_GetPresenceDestinationApiName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresenceDestinationApiName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresenceDestinationApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetPresenceStatus
+  // Il2CppName: ovr_User_GetPresenceStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::UserPresenceStatus (*)(System::IntPtr)>(&CAPI::ovr_User_GetPresenceStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetPresenceStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetSmallImageUrl
+  // Il2CppName: ovr_User_GetSmallImageUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_User_GetSmallImageUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetSmallImageUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_User_GetSmallImageUrl_Native
+  // Il2CppName: ovr_User_GetSmallImageUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_User_GetSmallImageUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_User_GetSmallImageUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoom_GetRoom
+  // Il2CppName: ovr_UserAndRoom_GetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserAndRoom_GetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoom_GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoom_GetUser
+  // Il2CppName: ovr_UserAndRoom_GetUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserAndRoom_GetUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoom_GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoomArray_GetElement
+  // Il2CppName: ovr_UserAndRoomArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_UserAndRoomArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoomArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoomArray_GetNextUrl
+  // Il2CppName: ovr_UserAndRoomArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_UserAndRoomArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoomArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoomArray_GetNextUrl_Native
+  // Il2CppName: ovr_UserAndRoomArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserAndRoomArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoomArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoomArray_GetSize
+  // Il2CppName: ovr_UserAndRoomArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserAndRoomArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoomArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserAndRoomArray_HasNextPage
+  // Il2CppName: ovr_UserAndRoomArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_UserAndRoomArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserAndRoomArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserArray_GetElement
+  // Il2CppName: ovr_UserArray_GetElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::UIntPtr)>(&CAPI::ovr_UserArray_GetElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserArray_GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserArray_GetNextUrl
+  // Il2CppName: ovr_UserArray_GetNextUrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_UserArray_GetNextUrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserArray_GetNextUrl_Native
+  // Il2CppName: ovr_UserArray_GetNextUrl_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserArray_GetNextUrl_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserArray_GetNextUrl_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserArray_GetSize
+  // Il2CppName: ovr_UserArray_GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserArray_GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserArray_GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserArray_HasNextPage
+  // Il2CppName: ovr_UserArray_HasNextPage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_UserArray_HasNextPage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserArray_HasNextPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserDataStoreUpdateResponse_GetSuccess
+  // Il2CppName: ovr_UserDataStoreUpdateResponse_GetSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_UserDataStoreUpdateResponse_GetSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserDataStoreUpdateResponse_GetSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserProof_GetNonce
+  // Il2CppName: ovr_UserProof_GetNonce
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&CAPI::ovr_UserProof_GetNonce)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserProof_GetNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserProof_GetNonce_Native
+  // Il2CppName: ovr_UserProof_GetNonce_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&CAPI::ovr_UserProof_GetNonce_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserProof_GetNonce_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserReportID_GetDidCancel
+  // Il2CppName: ovr_UserReportID_GetDidCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&CAPI::ovr_UserReportID_GetDidCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserReportID_GetDidCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserReportID_GetID
+  // Il2CppName: ovr_UserReportID_GetID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::IntPtr)>(&CAPI::ovr_UserReportID_GetID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserReportID_GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipDecoder_Decode
+  // Il2CppName: ovr_VoipDecoder_Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<uint8_t>*, System::UIntPtr)>(&CAPI::ovr_VoipDecoder_Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipDecoder_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipDecoder_GetDecodedPCM
+  // Il2CppName: ovr_VoipDecoder_GetDecodedPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<float>*, System::UIntPtr)>(&CAPI::ovr_VoipDecoder_GetDecodedPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipDecoder_GetDecodedPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipEncoder_AddPCM
+  // Il2CppName: ovr_VoipEncoder_AddPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<float>*, uint)>(&CAPI::ovr_VoipEncoder_AddPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipEncoder_AddPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipEncoder_GetCompressedData
+  // Il2CppName: ovr_VoipEncoder_GetCompressedData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr, ::Array<uint8_t>*, System::UIntPtr)>(&CAPI::ovr_VoipEncoder_GetCompressedData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipEncoder_GetCompressedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::UIntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipEncoder_GetCompressedDataSize
+  // Il2CppName: ovr_VoipEncoder_GetCompressedDataSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIntPtr (*)(System::IntPtr)>(&CAPI::ovr_VoipEncoder_GetCompressedDataSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipEncoder_GetCompressedDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReportOptions_Create
+  // Il2CppName: ovr_AbuseReportOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_AbuseReportOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReportOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReportOptions_Destroy
+  // Il2CppName: ovr_AbuseReportOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_AbuseReportOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReportOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReportOptions_SetPreventPeopleChooser
+  // Il2CppName: ovr_AbuseReportOptions_SetPreventPeopleChooser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_AbuseReportOptions_SetPreventPeopleChooser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReportOptions_SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AbuseReportOptions_SetReportType
+  // Il2CppName: ovr_AbuseReportOptions_SetReportType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::AbuseReportType)>(&CAPI::ovr_AbuseReportOptions_SetReportType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AbuseReportOptions_SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AdvancedAbuseReportOptions_Create
+  // Il2CppName: ovr_AdvancedAbuseReportOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_AdvancedAbuseReportOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AdvancedAbuseReportOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AdvancedAbuseReportOptions_Destroy
+  // Il2CppName: ovr_AdvancedAbuseReportOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_AdvancedAbuseReportOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AdvancedAbuseReportOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType
+  // Il2CppName: ovr_AdvancedAbuseReportOptions_SetObjectType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AdvancedAbuseReportOptions_SetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType_Native
+  // Il2CppName: ovr_AdvancedAbuseReportOptions_SetObjectType_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AdvancedAbuseReportOptions_SetObjectType_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AdvancedAbuseReportOptions_SetReportType
+  // Il2CppName: ovr_AdvancedAbuseReportOptions_SetReportType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::AbuseReportType)>(&CAPI::ovr_AdvancedAbuseReportOptions_SetReportType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AdvancedAbuseReportOptions_SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_AdvancedAbuseReportOptions_SetVideoMode
+  // Il2CppName: ovr_AdvancedAbuseReportOptions_SetVideoMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::AbuseReportVideoMode)>(&CAPI::ovr_AdvancedAbuseReportOptions_SetVideoMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_AdvancedAbuseReportOptions_SetVideoMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportVideoMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationOptions_Create
+  // Il2CppName: ovr_ApplicationOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_ApplicationOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationOptions_Destroy
+  // Il2CppName: ovr_ApplicationOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_ApplicationOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationOptions_SetDeeplinkMessage
+  // Il2CppName: ovr_ApplicationOptions_SetDeeplinkMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_ApplicationOptions_SetDeeplinkMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationOptions_SetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ApplicationOptions_SetDeeplinkMessage_Native
+  // Il2CppName: ovr_ApplicationOptions_SetDeeplinkMessage_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_ApplicationOptions_SetDeeplinkMessage_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ApplicationOptions_SetDeeplinkMessage_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_Create
+  // Il2CppName: ovr_ChallengeOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_ChallengeOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_Destroy
+  // Il2CppName: ovr_ChallengeOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_ChallengeOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetDescription
+  // Il2CppName: ovr_ChallengeOptions_SetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_ChallengeOptions_SetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetDescription_Native
+  // Il2CppName: ovr_ChallengeOptions_SetDescription_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_ChallengeOptions_SetDescription_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetDescription_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetEndDate
+  // Il2CppName: ovr_ChallengeOptions_SetEndDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&CAPI::ovr_ChallengeOptions_SetEndDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetEndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetEndDate_Native
+  // Il2CppName: ovr_ChallengeOptions_SetEndDate_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_ChallengeOptions_SetEndDate_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetEndDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetIncludeActiveChallenges
+  // Il2CppName: ovr_ChallengeOptions_SetIncludeActiveChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_ChallengeOptions_SetIncludeActiveChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetIncludeActiveChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetIncludeFutureChallenges
+  // Il2CppName: ovr_ChallengeOptions_SetIncludeFutureChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_ChallengeOptions_SetIncludeFutureChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetIncludeFutureChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetIncludePastChallenges
+  // Il2CppName: ovr_ChallengeOptions_SetIncludePastChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_ChallengeOptions_SetIncludePastChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetIncludePastChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetLeaderboardName
+  // Il2CppName: ovr_ChallengeOptions_SetLeaderboardName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_ChallengeOptions_SetLeaderboardName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetLeaderboardName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetLeaderboardName_Native
+  // Il2CppName: ovr_ChallengeOptions_SetLeaderboardName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_ChallengeOptions_SetLeaderboardName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetLeaderboardName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetStartDate
+  // Il2CppName: ovr_ChallengeOptions_SetStartDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&CAPI::ovr_ChallengeOptions_SetStartDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetStartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetStartDate_Native
+  // Il2CppName: ovr_ChallengeOptions_SetStartDate_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_ChallengeOptions_SetStartDate_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetStartDate_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetTitle
+  // Il2CppName: ovr_ChallengeOptions_SetTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_ChallengeOptions_SetTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetTitle_Native
+  // Il2CppName: ovr_ChallengeOptions_SetTitle_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_ChallengeOptions_SetTitle_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetTitle_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetViewerFilter
+  // Il2CppName: ovr_ChallengeOptions_SetViewerFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::ChallengeViewerFilter)>(&CAPI::ovr_ChallengeOptions_SetViewerFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetViewerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeViewerFilter>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_ChallengeOptions_SetVisibility
+  // Il2CppName: ovr_ChallengeOptions_SetVisibility
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::ChallengeVisibility)>(&CAPI::ovr_ChallengeOptions_SetVisibility)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_ChallengeOptions_SetVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeVisibility>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InviteOptions_Create
+  // Il2CppName: ovr_InviteOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_InviteOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InviteOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InviteOptions_Destroy
+  // Il2CppName: ovr_InviteOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_InviteOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InviteOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InviteOptions_AddSuggestedUser
+  // Il2CppName: ovr_InviteOptions_AddSuggestedUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_InviteOptions_AddSuggestedUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InviteOptions_AddSuggestedUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_InviteOptions_ClearSuggestedUsers
+  // Il2CppName: ovr_InviteOptions_ClearSuggestedUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_InviteOptions_ClearSuggestedUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_InviteOptions_ClearSuggestedUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_Create
+  // Il2CppName: ovr_MatchmakingOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_MatchmakingOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_Destroy
+  // Il2CppName: ovr_MatchmakingOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString
+  // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomDataStoreString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetCreateRoomDataStoreString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native
+  // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_ClearCreateRoomDataStore
+  // Il2CppName: ovr_MatchmakingOptions_ClearCreateRoomDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_ClearCreateRoomDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_ClearCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetCreateRoomJoinPolicy
+  // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomJoinPolicy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::RoomJoinPolicy)>(&CAPI::ovr_MatchmakingOptions_SetCreateRoomJoinPolicy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetCreateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetCreateRoomMaxUsers
+  // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomMaxUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&CAPI::ovr_MatchmakingOptions_SetCreateRoomMaxUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetCreateRoomMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_AddEnqueueAdditionalUser
+  // Il2CppName: ovr_MatchmakingOptions_AddEnqueueAdditionalUser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_MatchmakingOptions_AddEnqueueAdditionalUser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_AddEnqueueAdditionalUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers
+  // Il2CppName: ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsInt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, int)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, double)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, double)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_ClearEnqueueDataSettings
+  // Il2CppName: ovr_MatchmakingOptions_ClearEnqueueDataSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_ClearEnqueueDataSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_ClearEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueIsDebug
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueIsDebug
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueIsDebug)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueIsDebug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueQueryKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueQueryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey_Native
+  // Il2CppName: ovr_MatchmakingOptions_SetEnqueueQueryKey_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_MatchmakingOptions_SetEnqueueQueryKey_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_Create
+  // Il2CppName: ovr_NetSyncOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_NetSyncOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_Destroy
+  // Il2CppName: ovr_NetSyncOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_NetSyncOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_SetVoipGroup
+  // Il2CppName: ovr_NetSyncOptions_SetVoipGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_NetSyncOptions_SetVoipGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_SetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_SetVoipGroup_Native
+  // Il2CppName: ovr_NetSyncOptions_SetVoipGroup_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_NetSyncOptions_SetVoipGroup_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_SetVoipGroup_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_SetVoipStreamDefault
+  // Il2CppName: ovr_NetSyncOptions_SetVoipStreamDefault
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::NetSyncVoipStreamMode)>(&CAPI::ovr_NetSyncOptions_SetVoipStreamDefault)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_SetVoipStreamDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipStreamMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_SetZoneId
+  // Il2CppName: ovr_NetSyncOptions_SetZoneId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_NetSyncOptions_SetZoneId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_SetZoneId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_NetSyncOptions_SetZoneId_Native
+  // Il2CppName: ovr_NetSyncOptions_SetZoneId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_NetSyncOptions_SetZoneId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_NetSyncOptions_SetZoneId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_Create
+  // Il2CppName: ovr_RichPresenceOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_RichPresenceOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_Destroy
+  // Il2CppName: ovr_RichPresenceOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetApiName
+  // Il2CppName: ovr_RichPresenceOptions_SetApiName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetApiName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetApiName_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetApiName_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetApiName_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetApiName_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetArgsString
+  // Il2CppName: ovr_RichPresenceOptions_SetArgsString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetArgsString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetArgsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetArgsString_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetArgsString_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetArgsString_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetArgsString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_ClearArgs
+  // Il2CppName: ovr_RichPresenceOptions_ClearArgs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_ClearArgs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_ClearArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetCurrentCapacity
+  // Il2CppName: ovr_RichPresenceOptions_SetCurrentCapacity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&CAPI::ovr_RichPresenceOptions_SetCurrentCapacity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetCurrentCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride
+  // Il2CppName: ovr_RichPresenceOptions_SetDeeplinkMessageOverride
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetDeeplinkMessageOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetEndTime
+  // Il2CppName: ovr_RichPresenceOptions_SetEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&CAPI::ovr_RichPresenceOptions_SetEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetEndTime_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetEndTime_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_RichPresenceOptions_SetEndTime_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetEndTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetExtraContext
+  // Il2CppName: ovr_RichPresenceOptions_SetExtraContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::RichPresenceExtraContext)>(&CAPI::ovr_RichPresenceOptions_SetExtraContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetExtraContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RichPresenceExtraContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetInstanceId
+  // Il2CppName: ovr_RichPresenceOptions_SetInstanceId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetInstanceId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetInstanceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetInstanceId_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetInstanceId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetInstanceId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetInstanceId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetIsIdle
+  // Il2CppName: ovr_RichPresenceOptions_SetIsIdle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_RichPresenceOptions_SetIsIdle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetIsIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetIsJoinable
+  // Il2CppName: ovr_RichPresenceOptions_SetIsJoinable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_RichPresenceOptions_SetIsJoinable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetIsJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetJoinableId
+  // Il2CppName: ovr_RichPresenceOptions_SetJoinableId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetJoinableId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetJoinableId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetJoinableId_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetJoinableId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetJoinableId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetJoinableId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetLobbySessionId
+  // Il2CppName: ovr_RichPresenceOptions_SetLobbySessionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetLobbySessionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetLobbySessionId_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetLobbySessionId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetLobbySessionId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetLobbySessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetMatchSessionId
+  // Il2CppName: ovr_RichPresenceOptions_SetMatchSessionId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&CAPI::ovr_RichPresenceOptions_SetMatchSessionId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetMatchSessionId_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetMatchSessionId_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr)>(&CAPI::ovr_RichPresenceOptions_SetMatchSessionId_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetMatchSessionId_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetMaxCapacity
+  // Il2CppName: ovr_RichPresenceOptions_SetMaxCapacity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&CAPI::ovr_RichPresenceOptions_SetMaxCapacity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetMaxCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetStartTime
+  // Il2CppName: ovr_RichPresenceOptions_SetStartTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::DateTime)>(&CAPI::ovr_RichPresenceOptions_SetStartTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RichPresenceOptions_SetStartTime_Native
+  // Il2CppName: ovr_RichPresenceOptions_SetStartTime_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_RichPresenceOptions_SetStartTime_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RichPresenceOptions_SetStartTime_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_Create
+  // Il2CppName: ovr_RoomOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_RoomOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_Destroy
+  // Il2CppName: ovr_RoomOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_RoomOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetDataStoreString
+  // Il2CppName: ovr_RoomOptions_SetDataStoreString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&CAPI::ovr_RoomOptions_SetDataStoreString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetDataStoreString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetDataStoreString_Native
+  // Il2CppName: ovr_RoomOptions_SetDataStoreString_Native
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CAPI::ovr_RoomOptions_SetDataStoreString_Native)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetDataStoreString_Native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_ClearDataStore
+  // Il2CppName: ovr_RoomOptions_ClearDataStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_RoomOptions_ClearDataStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_ClearDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetExcludeRecentlyMet
+  // Il2CppName: ovr_RoomOptions_SetExcludeRecentlyMet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_RoomOptions_SetExcludeRecentlyMet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetExcludeRecentlyMet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetMaxUserResults
+  // Il2CppName: ovr_RoomOptions_SetMaxUserResults
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&CAPI::ovr_RoomOptions_SetMaxUserResults)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetMaxUserResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetOrdering
+  // Il2CppName: ovr_RoomOptions_SetOrdering
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::UserOrdering)>(&CAPI::ovr_RoomOptions_SetOrdering)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::UserOrdering>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetRecentlyMetTimeWindow
+  // Il2CppName: ovr_RoomOptions_SetRecentlyMetTimeWindow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::TimeWindow)>(&CAPI::ovr_RoomOptions_SetRecentlyMetTimeWindow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetRoomId
+  // Il2CppName: ovr_RoomOptions_SetRoomId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint64_t)>(&CAPI::ovr_RoomOptions_SetRoomId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetRoomId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_RoomOptions_SetTurnOffUpdates
+  // Il2CppName: ovr_RoomOptions_SetTurnOffUpdates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool)>(&CAPI::ovr_RoomOptions_SetTurnOffUpdates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_RoomOptions_SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserOptions_Create
+  // Il2CppName: ovr_UserOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_UserOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserOptions_Destroy
+  // Il2CppName: ovr_UserOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_UserOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserOptions_SetMaxUsers
+  // Il2CppName: ovr_UserOptions_SetMaxUsers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, uint)>(&CAPI::ovr_UserOptions_SetMaxUsers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserOptions_SetMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserOptions_AddServiceProvider
+  // Il2CppName: ovr_UserOptions_AddServiceProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::ServiceProvider)>(&CAPI::ovr_UserOptions_AddServiceProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserOptions_AddServiceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ServiceProvider>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserOptions_ClearServiceProviders
+  // Il2CppName: ovr_UserOptions_ClearServiceProviders
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_UserOptions_ClearServiceProviders)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserOptions_ClearServiceProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_UserOptions_SetTimeWindow
+  // Il2CppName: ovr_UserOptions_SetTimeWindow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::TimeWindow)>(&CAPI::ovr_UserOptions_SetTimeWindow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_UserOptions_SetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::TimeWindow>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipOptions_Create
+  // Il2CppName: ovr_VoipOptions_Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CAPI::ovr_VoipOptions_Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipOptions_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipOptions_Destroy
+  // Il2CppName: ovr_VoipOptions_Destroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CAPI::ovr_VoipOptions_Destroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipOptions_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipOptions_SetBitrateForNewConnections
+  // Il2CppName: ovr_VoipOptions_SetBitrateForNewConnections
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::VoipBitrate)>(&CAPI::ovr_VoipOptions_SetBitrateForNewConnections)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipOptions_SetBitrateForNewConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipBitrate>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::ovr_VoipOptions_SetCreateNewConnectionUseDtx
+  // Il2CppName: ovr_VoipOptions_SetCreateNewConnectionUseDtx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, Oculus::Platform::VoipDtxState)>(&CAPI::ovr_VoipOptions_SetCreateNewConnectionUseDtx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), "ovr_VoipOptions_SetCreateNewConnectionUseDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipDtxState>()});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CAPI::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CAPI::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::*)()>(&CAPI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::*)()>(&CAPI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI*, "Oculus.Platform", "CAPI");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");

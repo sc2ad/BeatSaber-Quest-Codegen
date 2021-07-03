@@ -28,13 +28,13 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: UnixNetworkInterfaceAPI
     UnixNetworkInterfaceAPI() noexcept {}
     // static protected System.Int32 getifaddrs(out System.IntPtr ifap)
-    // Offset: 0x1474B78
+    // Offset: 0x148F888
     static int getifaddrs(System::IntPtr& ifap);
     // static protected System.Void freeifaddrs(System.IntPtr ifap)
-    // Offset: 0x1474AF4
+    // Offset: 0x148F804
     static void freeifaddrs(System::IntPtr ifap);
     // protected System.Void .ctor()
-    // Offset: 0x14755A4
+    // Offset: 0x14902B4
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -45,5 +45,35 @@ namespace System::Net::NetworkInformation {
     }
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/UnixNetworkInterfaceAPI
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs
+  // Il2CppName: getifaddrs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr&)>(&NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "getifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkInterfaceFactory::UnixNetworkInterfaceAPI::freeifaddrs
+  // Il2CppName: freeifaddrs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&NetworkInterfaceFactory::UnixNetworkInterfaceAPI::freeifaddrs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "freeifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetworkInterfaceFactory::UnixNetworkInterfaceAPI::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkInterfaceFactory::UnixNetworkInterfaceAPI::*)()>(&NetworkInterfaceFactory::UnixNetworkInterfaceAPI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkInterfaceFactory::UnixNetworkInterfaceAPI::*)()>(&NetworkInterfaceFactory::UnixNetworkInterfaceAPI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/UnixNetworkInterfaceAPI");

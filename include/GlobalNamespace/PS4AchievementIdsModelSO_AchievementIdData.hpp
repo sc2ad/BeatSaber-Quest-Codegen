@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: AchievementIdData
     AchievementIdData(int trophyId_ = {}, GlobalNamespace::AchievementSO* achievement_ = {}) noexcept : trophyId{trophyId_}, achievement{achievement_} {}
     // public System.Int32 get_ps4TrophyId()
-    // Offset: 0x10052E4
+    // Offset: 0x1049508
     int get_ps4TrophyId();
     // public System.String get_achievementId()
-    // Offset: 0x1005114
+    // Offset: 0x1049338
     ::Il2CppString* get_achievementId();
     // public System.Void .ctor()
-    // Offset: 0x10052EC
+    // Offset: 0x1049510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PS4AchievementIdsModelSO::AchievementIdData), 24 + sizeof(GlobalNamespace::AchievementSO*)> __GlobalNamespace_PS4AchievementIdsModelSO_AchievementIdDataSizeCheck;
   static_assert(sizeof(PS4AchievementIdsModelSO::AchievementIdData) == 0x20);
+  // Writing MetadataGetter for method: PS4AchievementIdsModelSO::AchievementIdData::get_ps4TrophyId
+  // Il2CppName: get_ps4TrophyId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PS4AchievementIdsModelSO::AchievementIdData::*)()>(&PS4AchievementIdsModelSO::AchievementIdData::get_ps4TrophyId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4AchievementIdsModelSO::AchievementIdData*), "get_ps4TrophyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PS4AchievementIdsModelSO::AchievementIdData::get_achievementId
+  // Il2CppName: get_achievementId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PS4AchievementIdsModelSO::AchievementIdData::*)()>(&PS4AchievementIdsModelSO::AchievementIdData::get_achievementId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4AchievementIdsModelSO::AchievementIdData*), "get_achievementId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PS4AchievementIdsModelSO::AchievementIdData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AchievementIdsModelSO::AchievementIdData::*)()>(&PS4AchievementIdsModelSO::AchievementIdData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4AchievementIdsModelSO::AchievementIdData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AchievementIdsModelSO::AchievementIdData::*)()>(&PS4AchievementIdsModelSO::AchievementIdData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PS4AchievementIdsModelSO::AchievementIdData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");

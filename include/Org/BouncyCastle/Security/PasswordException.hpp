@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Security {
     // Creating value type constructor for type: PasswordException
     PasswordException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x134C78C
+    // Offset: 0x136749C
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -33,5 +33,19 @@ namespace Org::BouncyCastle::Security {
     }
   }; // Org.BouncyCastle.Security.PasswordException
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PasswordException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PasswordException::*)(::Il2CppString*)>(&PasswordException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PasswordException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PasswordException::*)(::Il2CppString*)>(&PasswordException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PasswordException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PasswordException*, "Org.BouncyCastle.Security", "PasswordException");

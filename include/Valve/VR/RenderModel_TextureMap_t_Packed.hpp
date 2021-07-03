@@ -50,7 +50,7 @@ namespace Valve::VR {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xF21BBC
+    // Offset: 0xF22B74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     RenderModel_TextureMap_t_Packed(Valve::VR::RenderModel_TextureMap_t unpacked) {
       static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::RenderModel_TextureMap_t_Packed::.ctor");
@@ -58,11 +58,33 @@ namespace Valve::VR {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unpacked);
     }
     // public System.Void Unpack(ref Valve.VR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0xF21BD0
+    // Offset: 0xF22B88
     void Unpack(Valve::VR::RenderModel_TextureMap_t& unpacked);
   }; // Valve.VR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)
   static check_size<sizeof(RenderModel_TextureMap_t_Packed), 8 + sizeof(System::IntPtr)> __Valve_VR_RenderModel_TextureMap_t_PackedSizeCheck;
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0x10);
+  // Writing MetadataGetter for method: RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderModel_TextureMap_t_Packed::*)(Valve::VR::RenderModel_TextureMap_t)>(&RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RenderModel_TextureMap_t_Packed), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_TextureMap_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderModel_TextureMap_t_Packed::*)(Valve::VR::RenderModel_TextureMap_t)>(&RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RenderModel_TextureMap_t_Packed), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_TextureMap_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: RenderModel_TextureMap_t_Packed::Unpack
+  // Il2CppName: Unpack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderModel_TextureMap_t_Packed::*)(Valve::VR::RenderModel_TextureMap_t&)>(&RenderModel_TextureMap_t_Packed::Unpack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RenderModel_TextureMap_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_TextureMap_t&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_TextureMap_t_Packed, "Valve.VR", "RenderModel_TextureMap_t_Packed");

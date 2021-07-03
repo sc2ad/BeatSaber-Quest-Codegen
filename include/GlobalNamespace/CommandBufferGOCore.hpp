@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     CommandBufferGOCore(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* cameras_ = {}, UnityEngine::Mesh* mesh_ = {}) noexcept : cameras{cameras_}, mesh{mesh_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE00A18
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE01A14
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // protected System.Void OnEnable()
-    // Offset: 0x2343F94
+    // Offset: 0x235DCF0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x23443BC
+    // Offset: 0x235E118
     void OnDisable();
     // protected System.Void OnWillRenderObject()
-    // Offset: 0x234473C
+    // Offset: 0x235E498
     void OnWillRenderObject();
     // protected UnityEngine.Rendering.CameraEvent CommandBufferCameraEvent()
     // Offset: 0xFFFFFFFF
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* CamerasDict();
     // protected System.Void .ctor()
-    // Offset: 0x2343F18
+    // Offset: 0x235DC74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -103,5 +103,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CommandBufferGOCore), 32 + sizeof(UnityEngine::Mesh*)> __GlobalNamespace_CommandBufferGOCoreSizeCheck;
   static_assert(sizeof(CommandBufferGOCore) == 0x28);
+  // Writing MetadataGetter for method: CommandBufferGOCore::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGOCore::*)()>(&CommandBufferGOCore::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CommandBufferGOCore::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGOCore::*)()>(&CommandBufferGOCore::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CommandBufferGOCore::OnWillRenderObject
+  // Il2CppName: OnWillRenderObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGOCore::*)()>(&CommandBufferGOCore::OnWillRenderObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), "OnWillRenderObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CommandBufferGOCore::CommandBufferCameraEvent
+  // Il2CppName: CommandBufferCameraEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CameraEvent (CommandBufferGOCore::*)()>(&CommandBufferGOCore::CommandBufferCameraEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), "CommandBufferCameraEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CommandBufferGOCore::CreateCommandBuffer
+  // Il2CppName: CreateCommandBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (CommandBufferGOCore::*)(UnityEngine::Camera*)>(&CommandBufferGOCore::CreateCommandBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CommandBufferGOCore::CamerasDict
+  // Il2CppName: CamerasDict
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* (CommandBufferGOCore::*)()>(&CommandBufferGOCore::CamerasDict)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), "CamerasDict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CommandBufferGOCore::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGOCore::*)()>(&CommandBufferGOCore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGOCore::*)()>(&CommandBufferGOCore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CommandBufferGOCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGOCore*, "", "CommandBufferGOCore");

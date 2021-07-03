@@ -43,35 +43,35 @@ namespace GlobalNamespace {
     float minOuterCircleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE23ED8
+    // [InjectAttribute] Offset: 0xE23EB4
     // private readonly MultiplayerLobbyAvatarManager _multiplayerLobbyAvatarManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLobbyAvatarManager* multiplayerLobbyAvatarManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE23EE8
+    // [InjectAttribute] Offset: 0xE23EC4
     // private readonly MultiplayerLobbyCenterStageManager _multiplayerLobbyCenterStageManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MultiplayerLobbyCenterStageManager* multiplayerLobbyCenterStageManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyCenterStageManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE23EF8
+    // [InjectAttribute] Offset: 0xE23ED4
     // private readonly MultiplayerLobbyAvatarPlaceManager _multiplayerLobbyAvatarPlaceManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* multiplayerLobbyAvatarPlaceManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE23F08
+    // [InjectAttribute] Offset: 0xE23EE4
     // private readonly MenuEnvironmentManager _menuEnvironmentManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MenuEnvironmentManager* menuEnvironmentManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuEnvironmentManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE23F18
+    // [CompilerGeneratedAttribute] Offset: 0xE23EF4
     // private System.Boolean <lobbyActivated>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_lobbyActivated()
-    // Offset: 0x23FD744
+    // Offset: 0x10282C0
     bool get_lobbyActivated();
     // private System.Void set_lobbyActivated(System.Boolean value)
-    // Offset: 0x23FD74C
+    // Offset: 0x10282C8
     void set_lobbyActivated(bool value);
     // public System.Void ActivateMultiplayerLobby()
-    // Offset: 0x23FD758
+    // Offset: 0x10282D4
     void ActivateMultiplayerLobby();
     // public System.Void DeactivateMultiplayerLobby()
-    // Offset: 0x23FD7F4
+    // Offset: 0x1028370
     void DeactivateMultiplayerLobby();
     // public System.Void .ctor()
-    // Offset: 0x23FD868
+    // Offset: 0x10283E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -111,5 +111,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLobbyController), 64 + sizeof(bool)> __GlobalNamespace_MultiplayerLobbyControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyController) == 0x41);
+  // Writing MetadataGetter for method: MultiplayerLobbyController::get_lobbyActivated
+  // Il2CppName: get_lobbyActivated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerLobbyController::*)()>(&MultiplayerLobbyController::get_lobbyActivated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyController*), "get_lobbyActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLobbyController::set_lobbyActivated
+  // Il2CppName: set_lobbyActivated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyController::*)(bool)>(&MultiplayerLobbyController::set_lobbyActivated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyController*), "set_lobbyActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLobbyController::ActivateMultiplayerLobby
+  // Il2CppName: ActivateMultiplayerLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyController::*)()>(&MultiplayerLobbyController::ActivateMultiplayerLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyController*), "ActivateMultiplayerLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLobbyController::DeactivateMultiplayerLobby
+  // Il2CppName: DeactivateMultiplayerLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyController::*)()>(&MultiplayerLobbyController::DeactivateMultiplayerLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyController*), "DeactivateMultiplayerLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLobbyController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyController::*)()>(&MultiplayerLobbyController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyController::*)()>(&MultiplayerLobbyController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyController*, "", "MultiplayerLobbyController");

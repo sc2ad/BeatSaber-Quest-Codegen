@@ -51,21 +51,51 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext
     static void _set_s_invokeMoveNext(System::Threading::ContextCallback* value);
     // System.Void .ctor(System.Threading.ExecutionContext context, System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x140059C
+    // Offset: 0x141B2AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::MoveNextRunner* New_ctor(System::Threading::ExecutionContext* context, System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::MoveNextRunner*, creationType>(context, stateMachine)));
     }
     // System.Void Run()
-    // Offset: 0x1400F58
+    // Offset: 0x141BC68
     void Run();
     // static private System.Void InvokeMoveNext(System.Object stateMachine)
-    // Offset: 0x140110C
+    // Offset: 0x141BE1C
     static void InvokeMoveNext(::Il2CppObject* stateMachine);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner
   #pragma pack(pop)
   static check_size<sizeof(AsyncMethodBuilderCore::MoveNextRunner), 24 + sizeof(System::Runtime::CompilerServices::IAsyncStateMachine*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunnerSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::MoveNextRunner) == 0x20);
+  // Writing MetadataGetter for method: AsyncMethodBuilderCore::MoveNextRunner::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncMethodBuilderCore::MoveNextRunner::*)(System::Threading::ExecutionContext*, System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncMethodBuilderCore::MoveNextRunner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::MoveNextRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncMethodBuilderCore::MoveNextRunner::*)(System::Threading::ExecutionContext*, System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncMethodBuilderCore::MoveNextRunner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::MoveNextRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncMethodBuilderCore::MoveNextRunner::Run
+  // Il2CppName: Run
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncMethodBuilderCore::MoveNextRunner::*)()>(&AsyncMethodBuilderCore::MoveNextRunner::Run)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::MoveNextRunner*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncMethodBuilderCore::MoveNextRunner::InvokeMoveNext
+  // Il2CppName: InvokeMoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&AsyncMethodBuilderCore::MoveNextRunner::InvokeMoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncMethodBuilderCore::MoveNextRunner*), "InvokeMoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");

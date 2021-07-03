@@ -46,29 +46,29 @@ namespace Oculus::Platform {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void .ctor(System.IntPtr packetHandle)
-    // Offset: 0x14BCB1C
+    // Offset: 0x14D782C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Packet* New_ctor(System::IntPtr packetHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Packet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Packet*, creationType>(packetHandle)));
     }
     // public System.UInt64 ReadBytes(System.Byte[] destination)
-    // Offset: 0x14BDDCC
+    // Offset: 0x14D8ADC
     uint64_t ReadBytes(::Array<uint8_t>* destination);
     // public System.UInt64 get_SenderID()
-    // Offset: 0x14BDF20
+    // Offset: 0x14D8C30
     uint64_t get_SenderID();
     // public System.UInt64 get_Size()
-    // Offset: 0x14BDF8C
+    // Offset: 0x14D8C9C
     uint64_t get_Size();
     // public Oculus.Platform.SendPolicy get_Policy()
-    // Offset: 0x14BDF94
+    // Offset: 0x14D8CA4
     Oculus::Platform::SendPolicy get_Policy();
     // public System.Void Dispose()
-    // Offset: 0x14BE068
+    // Offset: 0x14D8D78
     void Dispose();
     // protected override System.Void Finalize()
-    // Offset: 0x14BE000
+    // Offset: 0x14D8D10
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -76,5 +76,67 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(Packet), 24 + sizeof(System::IntPtr)> __Oculus_Platform_PacketSizeCheck;
   static_assert(sizeof(Packet) == 0x20);
+  // Writing MetadataGetter for method: Packet::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Packet::*)(System::IntPtr)>(&Packet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Packet::*)(System::IntPtr)>(&Packet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Packet::ReadBytes
+  // Il2CppName: ReadBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Packet::*)(::Array<uint8_t>*)>(&Packet::ReadBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), "ReadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Packet::get_SenderID
+  // Il2CppName: get_SenderID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Packet::*)()>(&Packet::get_SenderID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), "get_SenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Packet::get_Size
+  // Il2CppName: get_Size
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Packet::*)()>(&Packet::get_Size)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Packet::get_Policy
+  // Il2CppName: get_Policy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::SendPolicy (Packet::*)()>(&Packet::get_Policy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), "get_Policy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Packet::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Packet::*)()>(&Packet::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Packet::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Packet::*)()>(&Packet::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Packet*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Packet*, "Oculus.Platform", "Packet");

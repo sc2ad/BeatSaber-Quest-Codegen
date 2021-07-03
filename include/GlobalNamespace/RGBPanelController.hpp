@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     HMUI::ColorGradientSlider* blueSlider;
     // Field size check
     static_assert(sizeof(HMUI::ColorGradientSlider*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE21268
+    // [CompilerGeneratedAttribute] Offset: 0xE21244
     // private System.Action`2<UnityEngine.Color,ColorChangeUIEventType> colorDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
@@ -71,34 +71,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x10AB2AC
+    // Offset: 0x10AE59C
     void add_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public System.Void remove_colorDidChangeEvent(System.Action`2<UnityEngine.Color,ColorChangeUIEventType> value)
-    // Offset: 0x10AB350
+    // Offset: 0x10AE640
     void remove_colorDidChangeEvent(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* value);
     // public UnityEngine.Color get_color()
-    // Offset: 0x10AB3F4
+    // Offset: 0x10AE6E4
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x10AB400
+    // Offset: 0x10AE6F0
     void set_color(UnityEngine::Color value);
     // protected System.Void Awake()
-    // Offset: 0x10AB600
+    // Offset: 0x10AE8F0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10AB704
+    // Offset: 0x10AE9F4
     void OnDestroy();
     // private System.Void HandleSliderColorDidChange(HMUI.ColorGradientSlider slider, UnityEngine.Color color, ColorChangeUIEventType colorChangeUIEventType)
-    // Offset: 0x10AB8D8
+    // Offset: 0x10AEBC8
     void HandleSliderColorDidChange(HMUI::ColorGradientSlider* slider, UnityEngine::Color color, GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
     // private System.Void RefreshSlidersValues()
-    // Offset: 0x10AB5A8
+    // Offset: 0x10AE898
     void RefreshSlidersValues();
     // private System.Void RefreshSlidersColors()
-    // Offset: 0x10AB42C
+    // Offset: 0x10AE71C
     void RefreshSlidersColors();
     // public System.Void .ctor()
-    // Offset: 0x10AB97C
+    // Offset: 0x10AEC6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -114,5 +114,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(RGBPanelController), 56 + sizeof(UnityEngine::Color)> __GlobalNamespace_RGBPanelControllerSizeCheck;
   static_assert(sizeof(RGBPanelController) == 0x48);
+  // Writing MetadataGetter for method: RGBPanelController::add_colorDidChangeEvent
+  // Il2CppName: add_colorDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&RGBPanelController::add_colorDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "add_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::remove_colorDidChangeEvent
+  // Il2CppName: remove_colorDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)(System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&RGBPanelController::remove_colorDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::get_color
+  // Il2CppName: get_color
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (RGBPanelController::*)()>(&RGBPanelController::get_color)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::set_color
+  // Il2CppName: set_color
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)(UnityEngine::Color)>(&RGBPanelController::set_color)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)()>(&RGBPanelController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)()>(&RGBPanelController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::HandleSliderColorDidChange
+  // Il2CppName: HandleSliderColorDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)(HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType)>(&RGBPanelController::HandleSliderColorDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "HandleSliderColorDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ColorGradientSlider*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::RefreshSlidersValues
+  // Il2CppName: RefreshSlidersValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)()>(&RGBPanelController::RefreshSlidersValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "RefreshSlidersValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::RefreshSlidersColors
+  // Il2CppName: RefreshSlidersColors
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)()>(&RGBPanelController::RefreshSlidersColors)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), "RefreshSlidersColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RGBPanelController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)()>(&RGBPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RGBPanelController::*)()>(&RGBPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RGBPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");

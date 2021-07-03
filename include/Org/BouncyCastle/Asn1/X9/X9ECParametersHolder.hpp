@@ -36,13 +36,13 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return parameters;
     }
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
-    // Offset: 0x19F8D2C
+    // Offset: 0x1A11A3C
     Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
-    // Offset: 0x19F8DC8
+    // Offset: 0x1A11AD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,5 +54,35 @@ namespace Org::BouncyCastle::Asn1::X9 {
   #pragma pack(pop)
   static check_size<sizeof(X9ECParametersHolder), 16 + sizeof(Org::BouncyCastle::Asn1::X9::X9ECParameters*)> __Org_BouncyCastle_Asn1_X9_X9ECParametersHolderSizeCheck;
   static_assert(sizeof(X9ECParametersHolder) == 0x18);
+  // Writing MetadataGetter for method: X9ECParametersHolder::get_Parameters
+  // Il2CppName: get_Parameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X9ECParametersHolder::*)()>(&X9ECParametersHolder::get_Parameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X9ECParametersHolder::CreateParameters
+  // Il2CppName: CreateParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X9ECParametersHolder::*)()>(&X9ECParametersHolder::CreateParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X9ECParametersHolder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X9ECParametersHolder::*)()>(&X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X9ECParametersHolder::*)()>(&X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");

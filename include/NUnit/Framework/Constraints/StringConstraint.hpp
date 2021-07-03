@@ -48,7 +48,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: StringConstraint
     StringConstraint(::Il2CppString* expected_ = {}, bool caseInsensitive_ = {}, ::Il2CppString* descriptionText_ = {}) noexcept : expected{expected_}, caseInsensitive{caseInsensitive_}, descriptionText{descriptionText_} {}
     // protected System.Void .ctor(System.String expected)
-    // Offset: 0x1716058
+    // Offset: 0x172DD68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringConstraint* New_ctor(::Il2CppString* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::StringConstraint::.ctor");
@@ -58,12 +58,12 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0xFFFFFFFF
     bool Matches(::Il2CppString* actual);
     // public override System.String get_Description()
-    // Offset: 0x1716624
+    // Offset: 0x172E334
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::get_Description()
     ::Il2CppString* get_Description();
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x17166E4
+    // Offset: 0x172E3F4
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
@@ -71,5 +71,43 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(StringConstraint), 64 + sizeof(::Il2CppString*)> __NUnit_Framework_Constraints_StringConstraintSizeCheck;
   static_assert(sizeof(StringConstraint) == 0x48);
+  // Writing MetadataGetter for method: StringConstraint::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringConstraint::*)(::Il2CppString*)>(&StringConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringConstraint::*)(::Il2CppString*)>(&StringConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StringConstraint::Matches
+  // Il2CppName: Matches
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StringConstraint::*)(::Il2CppString*)>(&StringConstraint::Matches)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringConstraint*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StringConstraint::get_Description
+  // Il2CppName: get_Description
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringConstraint::*)()>(&StringConstraint::get_Description)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StringConstraint::ApplyTo
+  // Il2CppName: ApplyTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (StringConstraint::*)(::Il2CppObject*)>(&StringConstraint::ApplyTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StringConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::StringConstraint*, "NUnit.Framework.Constraints", "StringConstraint");

@@ -25,6 +25,14 @@ namespace GlobalNamespace {
     void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
   }; // INoteDebrisDidFinishEvent
   #pragma pack(pop)
+  // Writing MetadataGetter for method: INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish
+  // Il2CppName: HandleNoteDebrisDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteDebrisDidFinishEvent::*)(GlobalNamespace::NoteDebris*)>(&INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(INoteDebrisDidFinishEvent*), "HandleNoteDebrisDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteDebris*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteDebrisDidFinishEvent*, "", "INoteDebrisDidFinishEvent");

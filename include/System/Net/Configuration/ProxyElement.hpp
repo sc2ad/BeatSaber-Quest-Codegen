@@ -28,7 +28,7 @@ namespace System::Net::Configuration {
     // Creating value type constructor for type: ProxyElement
     ProxyElement() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1695BF0
+    // Offset: 0x16AC900
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -37,11 +37,33 @@ namespace System::Net::Configuration {
       return THROW_UNLESS((::il2cpp_utils::New<ProxyElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1695C30
+    // Offset: 0x16AC940
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     System::Configuration::ConfigurationPropertyCollection* get_Properties();
   }; // System.Net.Configuration.ProxyElement
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ProxyElement::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProxyElement::*)()>(&ProxyElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProxyElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProxyElement::*)()>(&ProxyElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProxyElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ProxyElement::get_Properties
+  // Il2CppName: get_Properties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (ProxyElement::*)()>(&ProxyElement::get_Properties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProxyElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ProxyElement*, "System.Net.Configuration", "ProxyElement");

@@ -61,57 +61,57 @@ namespace Mono::Unity {
     // Creating value type constructor for type: UnityTlsProvider
     UnityTlsProvider() noexcept {}
     // public override System.String get_Name()
-    // Offset: 0x1848E40
+    // Offset: 0x1860B50
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.String MonoTlsProvider::get_Name()
     ::Il2CppString* get_Name();
     // public override System.Guid get_ID()
-    // Offset: 0x1848E88
+    // Offset: 0x1860B98
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Guid MonoTlsProvider::get_ID()
     System::Guid get_ID();
     // public override System.Boolean get_SupportsSslStream()
-    // Offset: 0x1848EF0
+    // Offset: 0x1860C00
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsSslStream()
     bool get_SupportsSslStream();
     // public override System.Boolean get_SupportsMonoExtensions()
-    // Offset: 0x1848EF8
+    // Offset: 0x1860C08
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsMonoExtensions()
     bool get_SupportsMonoExtensions();
     // public override System.Boolean get_SupportsConnectionInfo()
-    // Offset: 0x1848F00
+    // Offset: 0x1860C10
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsConnectionInfo()
     bool get_SupportsConnectionInfo();
     // override System.Boolean get_SupportsCleanShutdown()
-    // Offset: 0x1848F08
+    // Offset: 0x1860C18
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsCleanShutdown()
     bool get_SupportsCleanShutdown();
     // public override System.Security.Authentication.SslProtocols get_SupportedProtocols()
-    // Offset: 0x1848F10
+    // Offset: 0x1860C20
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Security.Authentication.SslProtocols MonoTlsProvider::get_SupportedProtocols()
     System::Security::Authentication::SslProtocols get_SupportedProtocols();
     // public override Mono.Security.Interface.IMonoSslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x1848F18
+    // Offset: 0x1860C28
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: Mono.Security.Interface.IMonoSslStream MonoTlsProvider::CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     Mono::Security::Interface::IMonoSslStream* CreateSslStream(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
     // override Mono.Security.Interface.IMonoSslStream CreateSslStreamInternal(System.Net.Security.SslStream sslStream, System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x1848F30
+    // Offset: 0x1860C40
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: Mono.Security.Interface.IMonoSslStream MonoTlsProvider::CreateSslStreamInternal(System.Net.Security.SslStream sslStream, System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     Mono::Security::Interface::IMonoSslStream* CreateSslStreamInternal(System::Net::Security::SslStream* sslStream, System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
     // override System.Boolean ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
-    // Offset: 0x1849068
+    // Offset: 0x1860D78
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
     bool ValidateCertificate(Mono::Security::Interface::ICertificateValidator2* validator, ::Il2CppString* targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, System::Security::Cryptography::X509Certificates::X509Chain*& chain, Mono::Security::Interface::MonoSslPolicyErrors& errors, int& status11);
     // public System.Void .ctor()
-    // Offset: 0x18495E8
+    // Offset: 0x18612F8
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Void MonoTlsProvider::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -122,5 +122,99 @@ namespace Mono::Unity {
     }
   }; // Mono.Unity.UnityTlsProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnityTlsProvider::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityTlsProvider::*)()>(&UnityTlsProvider::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::get_ID
+  // Il2CppName: get_ID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (UnityTlsProvider::*)()>(&UnityTlsProvider::get_ID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::get_SupportsSslStream
+  // Il2CppName: get_SupportsSslStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsProvider::*)()>(&UnityTlsProvider::get_SupportsSslStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_SupportsSslStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::get_SupportsMonoExtensions
+  // Il2CppName: get_SupportsMonoExtensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsProvider::*)()>(&UnityTlsProvider::get_SupportsMonoExtensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_SupportsMonoExtensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::get_SupportsConnectionInfo
+  // Il2CppName: get_SupportsConnectionInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsProvider::*)()>(&UnityTlsProvider::get_SupportsConnectionInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_SupportsConnectionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::get_SupportsCleanShutdown
+  // Il2CppName: get_SupportsCleanShutdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsProvider::*)()>(&UnityTlsProvider::get_SupportsCleanShutdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_SupportsCleanShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::get_SupportedProtocols
+  // Il2CppName: get_SupportedProtocols
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Authentication::SslProtocols (UnityTlsProvider::*)()>(&UnityTlsProvider::get_SupportedProtocols)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "get_SupportedProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::CreateSslStream
+  // Il2CppName: CreateSslStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (UnityTlsProvider::*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsSettings*)>(&UnityTlsProvider::CreateSslStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "CreateSslStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::CreateSslStreamInternal
+  // Il2CppName: CreateSslStreamInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (UnityTlsProvider::*)(System::Net::Security::SslStream*, System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsSettings*)>(&UnityTlsProvider::CreateSslStreamInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "CreateSslStreamInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslStream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::ValidateCertificate
+  // Il2CppName: ValidateCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsProvider::*)(Mono::Security::Interface::ICertificateValidator2*, ::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool, System::Security::Cryptography::X509Certificates::X509Chain*&, Mono::Security::Interface::MonoSslPolicyErrors&, int&)>(&UnityTlsProvider::ValidateCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::ICertificateValidator2*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityTlsProvider::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsProvider::*)()>(&UnityTlsProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsProvider::*)()>(&UnityTlsProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityTlsProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsProvider*, "Mono.Unity", "UnityTlsProvider");

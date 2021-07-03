@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetCountdownEndTimeRpc
     GetCountdownEndTimeRpc() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14E64E8
+    // Offset: 0x15011F8
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -34,5 +34,19 @@ namespace GlobalNamespace {
     }
   }; // MenuRpcManager/GetCountdownEndTimeRpc
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MenuRpcManager::GetCountdownEndTimeRpc::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::GetCountdownEndTimeRpc::*)()>(&MenuRpcManager::GetCountdownEndTimeRpc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::GetCountdownEndTimeRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::GetCountdownEndTimeRpc::*)()>(&MenuRpcManager::GetCountdownEndTimeRpc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager::GetCountdownEndTimeRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::GetCountdownEndTimeRpc*, "", "MenuRpcManager/GetCountdownEndTimeRpc");

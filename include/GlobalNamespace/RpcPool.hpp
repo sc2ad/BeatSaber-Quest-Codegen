@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: RpcPool
     RpcPool() noexcept {}
-    // [ThreadStaticAttribute] Offset: 0xDF006C
+    // [ThreadStaticAttribute] Offset: 0xDF0FA0
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
     static System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* _get__pools();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
@@ -54,9 +54,20 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x23635FC
+    // Offset: 0x2378758
     static void Release(GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)
+  // Writing MetadataGetter for method: RpcPool::Obtain
+  // Il2CppName: Obtain
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: RpcPool::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::IRemoteProcedureCall*)>(&RpcPool::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RpcPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRemoteProcedureCall*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RpcPool*, "", "RpcPool");

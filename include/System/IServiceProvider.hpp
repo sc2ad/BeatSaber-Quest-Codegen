@@ -28,6 +28,14 @@ namespace System {
     ::Il2CppObject* GetService(System::Type* serviceType);
   }; // System.IServiceProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IServiceProvider::GetService
+  // Il2CppName: GetService
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IServiceProvider::*)(System::Type*)>(&IServiceProvider::GetService)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IServiceProvider*), "GetService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IServiceProvider*, "System", "IServiceProvider");

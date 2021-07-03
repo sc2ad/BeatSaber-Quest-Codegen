@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TabBarItem
     TabBarItem(::Il2CppString* title_ = {}, System::Action* action_ = {}) noexcept : title{title_}, action{action_} {}
     // public System.Void .ctor(System.String title, System.Action action)
-    // Offset: 0x118234C
+    // Offset: 0x1166510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TabBarViewController::TabBarItem* New_ctor(::Il2CppString* title, System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TabBarViewController::TabBarItem::.ctor");
@@ -50,5 +50,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TabBarViewController::TabBarItem), 24 + sizeof(System::Action*)> __GlobalNamespace_TabBarViewController_TabBarItemSizeCheck;
   static_assert(sizeof(TabBarViewController::TabBarItem) == 0x20);
+  // Writing MetadataGetter for method: TabBarViewController::TabBarItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::TabBarItem::*)(::Il2CppString*, System::Action*)>(&TabBarViewController::TabBarItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TabBarViewController::TabBarItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::TabBarItem::*)(::Il2CppString*, System::Action*)>(&TabBarViewController::TabBarItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TabBarViewController::TabBarItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController::TabBarItem*, "", "TabBarViewController/TabBarItem");

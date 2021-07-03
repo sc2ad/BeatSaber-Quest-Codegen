@@ -62,14 +62,14 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ComparisonConstraint
     ComparisonConstraint(::Il2CppObject* expected_ = {}, bool lessComparisonResult_ = {}, bool equalComparisonResult_ = {}, bool greaterComparisonResult_ = {}, NUnit::Framework::Constraints::ComparisonAdapter* comparer_ = {}) noexcept : expected{expected_}, lessComparisonResult{lessComparisonResult_}, equalComparisonResult{equalComparisonResult_}, greaterComparisonResult{greaterComparisonResult_}, comparer{comparer_} {}
     // protected System.Void .ctor(System.Object value, System.Boolean lessComparisonResult, System.Boolean equalComparisonResult, System.Boolean greaterComparisonResult, System.String predicate)
-    // Offset: 0x170BD6C
+    // Offset: 0x1723A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComparisonConstraint* New_ctor(::Il2CppObject* value, bool lessComparisonResult, bool equalComparisonResult, bool greaterComparisonResult, ::Il2CppString* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ComparisonConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComparisonConstraint*, creationType>(value, lessComparisonResult, equalComparisonResult, greaterComparisonResult, predicate)));
     }
     // public override NUnit.Framework.Constraints.ConstraintResult ApplyTo(System.Object actual)
-    // Offset: 0x170C118
+    // Offset: 0x1723E28
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: NUnit.Framework.Constraints.ConstraintResult Constraint::ApplyTo(System.Object actual)
     NUnit::Framework::Constraints::ConstraintResult* ApplyTo(::Il2CppObject* actual);
@@ -77,5 +77,27 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
   static check_size<sizeof(ComparisonConstraint), 64 + sizeof(NUnit::Framework::Constraints::ComparisonAdapter*)> __NUnit_Framework_Constraints_ComparisonConstraintSizeCheck;
   static_assert(sizeof(ComparisonConstraint) == 0x48);
+  // Writing MetadataGetter for method: ComparisonConstraint::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComparisonConstraint::*)(::Il2CppObject*, bool, bool, bool, ::Il2CppString*)>(&ComparisonConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComparisonConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComparisonConstraint::*)(::Il2CppObject*, bool, bool, bool, ::Il2CppString*)>(&ComparisonConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComparisonConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ComparisonConstraint::ApplyTo
+  // Il2CppName: ApplyTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (ComparisonConstraint::*)(::Il2CppObject*)>(&ComparisonConstraint::ApplyTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ComparisonConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonConstraint*, "NUnit.Framework.Constraints", "ComparisonConstraint");

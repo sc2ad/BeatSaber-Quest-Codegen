@@ -73,13 +73,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NodeKeyframe
     NodeKeyframe(float posX_ = {}, float posY_ = {}, float posZ_ = {}, float rotX_ = {}, float rotY_ = {}, float rotZ_ = {}, float rotW_ = {}, float time_ = {}) noexcept : posX{posX_}, posY{posY_}, posZ{posZ_}, rotX{rotX_}, rotY{rotY_}, rotZ{rotZ_}, rotW{rotW_}, time{time_} {}
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0x10F01D4
+    // Offset: 0x10E136C
     UnityEngine::Vector3 get_pos();
     // public UnityEngine.Quaternion get_rot()
-    // Offset: 0x10F0210
+    // Offset: 0x10E13A8
     UnityEngine::Quaternion get_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Single time)
-    // Offset: 0x10EFC54
+    // Offset: 0x10E0DEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");
@@ -89,5 +89,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe), 44 + sizeof(float)> __GlobalNamespace_SimpleVRNodeRecorder_SavedData_NodeKeyframeSizeCheck;
   static_assert(sizeof(SimpleVRNodeRecorder::SavedData::NodeKeyframe) == 0x30);
+  // Writing MetadataGetter for method: SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos
+  // Il2CppName: get_pos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_pos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot
+  // Il2CppName: get_rot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_rot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SimpleVRNodeRecorder::SavedData::NodeKeyframe::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&SimpleVRNodeRecorder::SavedData::NodeKeyframe::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder::SavedData::NodeKeyframe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&SimpleVRNodeRecorder::SavedData::NodeKeyframe::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder::SavedData::NodeKeyframe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");

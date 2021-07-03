@@ -37,10 +37,10 @@ namespace System::Xml {
     // Creating value type constructor for type: Item
     Item(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type_ = {}, ::Il2CppObject* data_ = {}) noexcept : type{type_}, data{data_} {}
     // System.Void Set(System.Xml.XmlWellFormedWriter/AttributeValueCache/ItemType type, System.Object data)
-    // Offset: 0x23A8494
+    // Offset: 0x23C4AC8
     void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
-    // Offset: 0x23A848C
+    // Offset: 0x23C4AC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,5 +52,27 @@ namespace System::Xml {
   #pragma pack(pop)
   static check_size<sizeof(XmlWellFormedWriter::AttributeValueCache::Item), 24 + sizeof(::Il2CppObject*)> __System_Xml_XmlWellFormedWriter_AttributeValueCache_ItemSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::Item) == 0x20);
+  // Writing MetadataGetter for method: XmlWellFormedWriter::AttributeValueCache::Item::Set
+  // Il2CppName: Set
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::AttributeValueCache::Item::*)(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType, ::Il2CppObject*)>(&XmlWellFormedWriter::AttributeValueCache::Item::Set)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter::AttributeValueCache::Item*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: XmlWellFormedWriter::AttributeValueCache::Item::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::AttributeValueCache::Item::*)()>(&XmlWellFormedWriter::AttributeValueCache::Item::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter::AttributeValueCache::Item*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::AttributeValueCache::Item::*)()>(&XmlWellFormedWriter::AttributeValueCache::Item::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter::AttributeValueCache::Item*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");

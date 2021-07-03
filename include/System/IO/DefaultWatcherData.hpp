@@ -89,7 +89,7 @@ namespace System::IO {
     // Creating value type constructor for type: DefaultWatcherData
     DefaultWatcherData(System::IO::FileSystemWatcher* FSW_ = {}, ::Il2CppString* Directory_ = {}, ::Il2CppString* FileMask_ = {}, bool IncludeSubdirs_ = {}, bool Enabled_ = {}, bool NoWildcards_ = {}, System::DateTime DisabledTime_ = {}, ::Il2CppObject* FilesLock_ = {}, System::Collections::Hashtable* Files_ = {}) noexcept : FSW{FSW_}, Directory{Directory_}, FileMask{FileMask_}, IncludeSubdirs{IncludeSubdirs_}, Enabled{Enabled_}, NoWildcards{NoWildcards_}, DisabledTime{DisabledTime_}, FilesLock{FilesLock_}, Files{Files_} {}
     // public System.Void .ctor()
-    // Offset: 0x185A40C
+    // Offset: 0x187211C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,5 +101,19 @@ namespace System::IO {
   #pragma pack(pop)
   static check_size<sizeof(DefaultWatcherData), 64 + sizeof(System::Collections::Hashtable*)> __System_IO_DefaultWatcherDataSizeCheck;
   static_assert(sizeof(DefaultWatcherData) == 0x48);
+  // Writing MetadataGetter for method: DefaultWatcherData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcherData::*)()>(&DefaultWatcherData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultWatcherData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcherData::*)()>(&DefaultWatcherData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultWatcherData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcherData*, "System.IO", "DefaultWatcherData");

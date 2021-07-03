@@ -15,10 +15,18 @@ namespace UnityEngine::XR {
     // Creating value type constructor for type: HashCodeHelper
     HashCodeHelper() noexcept {}
     // static public System.Int32 Combine(System.Int32 hash1, System.Int32 hash2)
-    // Offset: 0x23C1840
+    // Offset: 0x23DCD6C
     static int Combine(int hash1, int hash2);
   }; // UnityEngine.XR.HashCodeHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: HashCodeHelper::Combine
+  // Il2CppName: Combine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&HashCodeHelper::Combine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HashCodeHelper*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "HashCodeHelper");

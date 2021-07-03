@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool disappearingArrows_ = {}, bool ghostNotes_ = {}, float cutAngleTolerance_ = {}, float notesUniformScale_ = {}) noexcept : disappearingArrows{disappearingArrows_}, ghostNotes{ghostNotes_}, cutAngleTolerance{cutAngleTolerance_}, notesUniformScale{notesUniformScale_} {}
     // public System.Void .ctor(System.Boolean disappearingArrows, System.Boolean ghostNotes, System.Single cutAngleTolerance, System.Single notesUniformScale)
-    // Offset: 0x11A05FC
+    // Offset: 0x11BA680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float cutAngleTolerance, float notesUniformScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::InitData::.ctor");
@@ -57,5 +57,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BasicBeatmapObjectManager::InitData), 24 + sizeof(float)> __GlobalNamespace_BasicBeatmapObjectManager_InitDataSizeCheck;
   static_assert(sizeof(BasicBeatmapObjectManager::InitData) == 0x1C);
+  // Writing MetadataGetter for method: BasicBeatmapObjectManager::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::InitData::*)(bool, bool, float, float)>(&BasicBeatmapObjectManager::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicBeatmapObjectManager::InitData::*)(bool, bool, float, float)>(&BasicBeatmapObjectManager::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BasicBeatmapObjectManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager::InitData*, "", "BasicBeatmapObjectManager/InitData");

@@ -177,47 +177,47 @@ namespace System::Net::Sockets {
     // Creating value type constructor for type: SocketAsyncResult
     SocketAsyncResult(System::Net::Sockets::Socket* socket_ = {}, System::Net::Sockets::SocketOperation operation_ = {}, System::Exception* DelayedException_ = {}, System::Net::EndPoint* EndPoint_ = {}, ::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Size_ = {}, System::Net::Sockets::SocketFlags SockFlags_ = {}, System::Net::Sockets::Socket* AcceptSocket_ = {}, ::Array<System::Net::IPAddress*>* Addresses_ = {}, int Port_ = {}, System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>* Buffers_ = {}, bool ReuseSocket_ = {}, int CurrentAddress_ = {}, System::Net::Sockets::Socket* AcceptedSocket_ = {}, int Total_ = {}, int error_ = {}, int EndCalled_ = {}) noexcept : socket{socket_}, operation{operation_}, DelayedException{DelayedException_}, EndPoint{EndPoint_}, Buffer{Buffer_}, Offset{Offset_}, Size{Size_}, SockFlags{SockFlags_}, AcceptSocket{AcceptSocket_}, Addresses{Addresses_}, Port{Port_}, Buffers{Buffers_}, ReuseSocket{ReuseSocket_}, CurrentAddress{CurrentAddress_}, AcceptedSocket{AcceptedSocket_}, Total{Total_}, error{error_}, EndCalled{EndCalled_} {}
     // public System.IntPtr get_Handle()
-    // Offset: 0x159F2BC
+    // Offset: 0x15B8FCC
     System::IntPtr get_Handle();
     // public System.Void Init(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x159F314
+    // Offset: 0x15B9024
     void Init(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation);
     // public System.Void .ctor(System.Net.Sockets.Socket socket, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation)
-    // Offset: 0x159F380
+    // Offset: 0x15B9090
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult* New_ctor(System::Net::Sockets::Socket* socket, System::AsyncCallback* callback, ::Il2CppObject* state, System::Net::Sockets::SocketOperation operation) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>(socket, callback, state, operation)));
     }
     // public System.Net.Sockets.SocketError get_ErrorCode()
-    // Offset: 0x159F3C4
+    // Offset: 0x15B90D4
     System::Net::Sockets::SocketError get_ErrorCode();
     // public System.Void CheckIfThrowDelayedException()
-    // Offset: 0x159F44C
+    // Offset: 0x15B915C
     void CheckIfThrowDelayedException();
     // public System.Void Complete()
-    // Offset: 0x159D944
+    // Offset: 0x15B7654
     void Complete();
     // public System.Void Complete(System.Boolean synch)
-    // Offset: 0x159F508
+    // Offset: 0x15B9218
     void Complete(bool synch);
     // public System.Void Complete(System.Int32 total)
-    // Offset: 0x159E28C
+    // Offset: 0x15B7F9C
     void Complete(int total);
     // public System.Void Complete(System.Exception e, System.Boolean synch)
-    // Offset: 0x159F514
+    // Offset: 0x15B9224
     void Complete(System::Exception* e, bool synch);
     // public System.Void Complete(System.Exception e)
-    // Offset: 0x159D1A0
+    // Offset: 0x15B6EB0
     void Complete(System::Exception* e);
     // public System.Void Complete(System.Net.Sockets.Socket s)
-    // Offset: 0x159D1A8
+    // Offset: 0x15B6EB8
     void Complete(System::Net::Sockets::Socket* s);
     // public System.Void Complete(System.Net.Sockets.Socket s, System.Int32 total)
-    // Offset: 0x159D444
+    // Offset: 0x15B7154
     void Complete(System::Net::Sockets::Socket* s, int total);
     // public System.Void .ctor()
-    // Offset: 0x159F0D4
+    // Offset: 0x15B8DE4
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -227,7 +227,7 @@ namespace System::Net::Sockets {
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult*, creationType>()));
     }
     // override System.Void CompleteDisposed()
-    // Offset: 0x159F504
+    // Offset: 0x15B9214
     // Implemented from: System.IOAsyncResult
     // Base method: System.Void IOAsyncResult::CompleteDisposed()
     void CompleteDisposed();
@@ -235,5 +235,129 @@ namespace System::Net::Sockets {
   #pragma pack(pop)
   static check_size<sizeof(SocketAsyncResult), 160 + sizeof(int)> __System_Net_Sockets_SocketAsyncResultSizeCheck;
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
+  // Writing MetadataGetter for method: SocketAsyncResult::get_Handle
+  // Il2CppName: get_Handle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (SocketAsyncResult::*)()>(&SocketAsyncResult::get_Handle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Net::Sockets::Socket*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&SocketAsyncResult::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Net::Sockets::Socket*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&SocketAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Net::Sockets::Socket*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&SocketAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::get_ErrorCode
+  // Il2CppName: get_ErrorCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketError (SocketAsyncResult::*)()>(&SocketAsyncResult::get_ErrorCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "get_ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::CheckIfThrowDelayedException
+  // Il2CppName: CheckIfThrowDelayedException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)()>(&SocketAsyncResult::CheckIfThrowDelayedException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "CheckIfThrowDelayedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)()>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(bool)>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(int)>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Exception*, bool)>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Exception*)>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Net::Sockets::Socket*)>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)(System::Net::Sockets::Socket*, int)>(&SocketAsyncResult::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)()>(&SocketAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)()>(&SocketAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SocketAsyncResult::CompleteDisposed
+  // Il2CppName: CompleteDisposed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SocketAsyncResult::*)()>(&SocketAsyncResult::CompleteDisposed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SocketAsyncResult*), "CompleteDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");

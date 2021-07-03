@@ -87,37 +87,37 @@ namespace TMPro {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public TMPro.TMP_Text get_text()
-    // Offset: 0x1111CBC
+    // Offset: 0x10ECB38
     TMPro::TMP_Text* get_text();
     // public System.Void set_text(TMPro.TMP_Text value)
-    // Offset: 0x1111CC4
+    // Offset: 0x10ECB40
     void set_text(TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_image()
-    // Offset: 0x1111CCC
+    // Offset: 0x10ECB48
     UnityEngine::UI::Image* get_image();
     // public System.Void set_image(UnityEngine.UI.Image value)
-    // Offset: 0x1111CD4
+    // Offset: 0x10ECB50
     void set_image(UnityEngine::UI::Image* value);
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x1111CDC
+    // Offset: 0x10ECB58
     UnityEngine::RectTransform* get_rectTransform();
     // public System.Void set_rectTransform(UnityEngine.RectTransform value)
-    // Offset: 0x1111CE4
+    // Offset: 0x10ECB60
     void set_rectTransform(UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Toggle get_toggle()
-    // Offset: 0x1111CEC
+    // Offset: 0x10ECB68
     UnityEngine::UI::Toggle* get_toggle();
     // public System.Void set_toggle(UnityEngine.UI.Toggle value)
-    // Offset: 0x1111CF4
+    // Offset: 0x10ECB70
     void set_toggle(UnityEngine::UI::Toggle* value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
-    // Offset: 0x1111CFC
+    // Offset: 0x10ECB78
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1111D88
+    // Offset: 0x10ECC04
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void .ctor()
-    // Offset: 0x1111E2C
+    // Offset: 0x10ECCA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -133,5 +133,99 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_Dropdown::DropdownItem), 48 + sizeof(UnityEngine::UI::Toggle*)> __TMPro_TMP_Dropdown_DropdownItemSizeCheck;
   static_assert(sizeof(TMP_Dropdown::DropdownItem) == 0x38);
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::get_text
+  // Il2CppName: get_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMP_Dropdown::DropdownItem::*)()>(&TMP_Dropdown::DropdownItem::get_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::set_text
+  // Il2CppName: set_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)(TMPro::TMP_Text*)>(&TMP_Dropdown::DropdownItem::set_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::get_image
+  // Il2CppName: get_image
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMP_Dropdown::DropdownItem::*)()>(&TMP_Dropdown::DropdownItem::get_image)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "get_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::set_image
+  // Il2CppName: set_image
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)(UnityEngine::UI::Image*)>(&TMP_Dropdown::DropdownItem::set_image)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "set_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::get_rectTransform
+  // Il2CppName: get_rectTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TMP_Dropdown::DropdownItem::*)()>(&TMP_Dropdown::DropdownItem::get_rectTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::set_rectTransform
+  // Il2CppName: set_rectTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)(UnityEngine::RectTransform*)>(&TMP_Dropdown::DropdownItem::set_rectTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "set_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::get_toggle
+  // Il2CppName: get_toggle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Toggle* (TMP_Dropdown::DropdownItem::*)()>(&TMP_Dropdown::DropdownItem::get_toggle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::set_toggle
+  // Il2CppName: set_toggle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)(UnityEngine::UI::Toggle*)>(&TMP_Dropdown::DropdownItem::set_toggle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "set_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::OnPointerEnter
+  // Il2CppName: OnPointerEnter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMP_Dropdown::DropdownItem::OnPointerEnter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::OnCancel
+  // Il2CppName: OnCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMP_Dropdown::DropdownItem::OnCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)()>(&TMP_Dropdown::DropdownItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownItem::*)()>(&TMP_Dropdown::DropdownItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownItem*, "TMPro", "TMP_Dropdown/DropdownItem");

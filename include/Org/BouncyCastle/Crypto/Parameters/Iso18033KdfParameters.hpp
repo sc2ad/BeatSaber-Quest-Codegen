@@ -31,12 +31,20 @@ namespace Org::BouncyCastle::Crypto::Parameters {
       return seed;
     }
     // public System.Byte[] GetSeed()
-    // Offset: 0x1240660
+    // Offset: 0x125D370
     ::Array<uint8_t>* GetSeed();
   }; // Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
   #pragma pack(pop)
   static check_size<sizeof(Iso18033KdfParameters), 16 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Parameters_Iso18033KdfParametersSizeCheck;
   static_assert(sizeof(Iso18033KdfParameters) == 0x18);
+  // Writing MetadataGetter for method: Iso18033KdfParameters::GetSeed
+  // Il2CppName: GetSeed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Iso18033KdfParameters::*)()>(&Iso18033KdfParameters::GetSeed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Iso18033KdfParameters*), "GetSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters*, "Org.BouncyCastle.Crypto.Parameters", "Iso18033KdfParameters");

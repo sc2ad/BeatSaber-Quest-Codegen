@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRScreenFade::$Fade$d__25
     class $Fade$d__25;
-    // [TooltipAttribute] Offset: 0xDD119C
+    // [TooltipAttribute] Offset: 0xDD00D0
     // public System.Single fadeTime
     // Size: 0x4
     // Offset: 0x18
     float fadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDD11D4
+    // [TooltipAttribute] Offset: 0xDD0108
     // public UnityEngine.Color fadeColor
     // Size: 0x10
     // Offset: 0x1C
@@ -115,52 +115,52 @@ namespace GlobalNamespace {
     OVRScreenFade(float fadeTime_ = {}, UnityEngine::Color fadeColor_ = {}, bool fadeOnStart_ = {}, int renderQueue_ = {}, float explicitFadeAlpha_ = {}, float animatedFadeAlpha_ = {}, float uiFadeAlpha_ = {}, UnityEngine::MeshRenderer* fadeRenderer_ = {}, UnityEngine::MeshFilter* fadeMesh_ = {}, UnityEngine::Material* fadeMaterial_ = {}, bool isFading_ = {}) noexcept : fadeTime{fadeTime_}, fadeColor{fadeColor_}, fadeOnStart{fadeOnStart_}, renderQueue{renderQueue_}, explicitFadeAlpha{explicitFadeAlpha_}, animatedFadeAlpha{animatedFadeAlpha_}, uiFadeAlpha{uiFadeAlpha_}, fadeRenderer{fadeRenderer_}, fadeMesh{fadeMesh_}, fadeMaterial{fadeMaterial_}, isFading{isFading_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [CompilerGeneratedAttribute] Offset: 0xDD118C
+    // [CompilerGeneratedAttribute] Offset: 0xDD00C0
     // Get static field: static private OVRScreenFade <instance>k__BackingField
     static GlobalNamespace::OVRScreenFade* _get_$instance$k__BackingField();
     // Set static field: static private OVRScreenFade <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::OVRScreenFade* value);
     // static public OVRScreenFade get_instance()
-    // Offset: 0x161299C
+    // Offset: 0x162A6AC
     static GlobalNamespace::OVRScreenFade* get_instance();
     // static private System.Void set_instance(OVRScreenFade value)
-    // Offset: 0x16129EC
+    // Offset: 0x162A6FC
     static void set_instance(GlobalNamespace::OVRScreenFade* value);
     // public System.Single get_currentAlpha()
-    // Offset: 0x1612A40
+    // Offset: 0x162A750
     float get_currentAlpha();
     // private System.Void Start()
-    // Offset: 0x1612B04
+    // Offset: 0x162A814
     void Start();
     // public System.Void FadeIn()
-    // Offset: 0x1613040
+    // Offset: 0x162AD50
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x16130F8
+    // Offset: 0x162AE08
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0x161312C
+    // Offset: 0x162AE3C
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0x1613160
+    // Offset: 0x162AE70
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0x1613178
+    // Offset: 0x162AE88
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0x1613314
+    // Offset: 0x162B024
     void SetUIFade(float level);
     // public System.Void SetExplicitFade(System.Single level)
-    // Offset: 0x16134AC
+    // Offset: 0x162B1BC
     void SetExplicitFade(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0x1613074
+    // Offset: 0x162AD84
     System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0x1613394
+    // Offset: 0x162B0A4
     void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0x16134E0
+    // Offset: 0x162B1F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -176,5 +176,123 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRScreenFade), 88 + sizeof(bool)> __GlobalNamespace_OVRScreenFadeSizeCheck;
   static_assert(sizeof(OVRScreenFade) == 0x59);
+  // Writing MetadataGetter for method: OVRScreenFade::get_instance
+  // Il2CppName: get_instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRScreenFade* (*)()>(&OVRScreenFade::get_instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::set_instance
+  // Il2CppName: set_instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRScreenFade*)>(&OVRScreenFade::set_instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "set_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRScreenFade*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::get_currentAlpha
+  // Il2CppName: get_currentAlpha
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRScreenFade::*)()>(&OVRScreenFade::get_currentAlpha)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "get_currentAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::FadeIn
+  // Il2CppName: FadeIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::FadeIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::OnLevelFinishedLoading
+  // Il2CppName: OnLevelFinishedLoading
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)(int)>(&OVRScreenFade::OnLevelFinishedLoading)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "OnLevelFinishedLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::SetUIFade
+  // Il2CppName: SetUIFade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)(float)>(&OVRScreenFade::SetUIFade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "SetUIFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::SetExplicitFade
+  // Il2CppName: SetExplicitFade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)(float)>(&OVRScreenFade::SetExplicitFade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "SetExplicitFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::Fade
+  // Il2CppName: Fade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (OVRScreenFade::*)(float, float)>(&OVRScreenFade::Fade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::SetMaterialAlpha
+  // Il2CppName: SetMaterialAlpha
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::SetMaterialAlpha)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "SetMaterialAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRScreenFade::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");

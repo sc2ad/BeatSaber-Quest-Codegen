@@ -118,51 +118,161 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kReceivedSequencNumBufferLength
     static void _set_kReceivedSequencNumBufferLength(int value);
     // public System.Boolean get_isValid()
-    // Offset: 0x1310C50
+    // Offset: 0x132B960
     bool get_isValid();
     // public System.Void EncryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixBytes)
-    // Offset: 0x1310C74
+    // Offset: 0x132B984
     void EncryptData(::Array<uint8_t>* data, int& offset, int& length, int extraPrefixBytes);
     // public System.Boolean TryDecryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x1310D08
+    // Offset: 0x132BA18
     bool TryDecryptData(::Array<uint8_t>* data, int& offset, int& length);
     // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x130F6F0
+    // Offset: 0x132A400
     ::Array<uint8_t>* ComputeSendMac(::Array<uint8_t>* data, int offset, int count);
     // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1310090
+    // Offset: 0x132ADA0
     ::Array<uint8_t>* ComputeReceiveMac(::Array<uint8_t>* data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x130FF90
+    // Offset: 0x132ACA0
     bool IsValidSequenceNum(uint sequenceNum);
     // public System.Boolean PutSequenceNum(System.UInt32 sequenceNum)
-    // Offset: 0x131029C
+    // Offset: 0x132AFAC
     bool PutSequenceNum(uint sequenceNum);
     // public System.UInt32 GetNextSentSequenceNum()
-    // Offset: 0x130F6E4
+    // Offset: 0x132A3F4
     uint GetNextSentSequenceNum();
     // public System.Void .ctor(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x130ED34
+    // Offset: 0x1329A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionUtility::EncryptionState* New_ctor(::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed, bool isClient) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EncryptionUtility::EncryptionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::EncryptionState*, creationType>(preMasterSecret, serverSeed, clientSeed, isClient)));
     }
     // static private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
-    // Offset: 0x1310D94
+    // Offset: 0x132BAA4
     static ::Array<uint8_t>* MakeSeed(::Array<uint8_t>* baseSeed, ::Array<uint8_t>* serverSeed, ::Array<uint8_t>* clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
-    // Offset: 0x1310E7C
+    // Offset: 0x132BB8C
     static ::Array<uint8_t>* PRF(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
-    // Offset: 0x1310F6C
+    // Offset: 0x132BC7C
     static void PRF_Hash(::Array<uint8_t>* key, ::Array<uint8_t>* seed, int& length);
     // public System.Void Dispose()
-    // Offset: 0x1311124
+    // Offset: 0x132BE34
     void Dispose();
   }; // EncryptionUtility/EncryptionState
   #pragma pack(pop)
   static check_size<sizeof(EncryptionUtility::EncryptionState), 80 + sizeof(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*)> __GlobalNamespace_EncryptionUtility_EncryptionStateSizeCheck;
   static_assert(sizeof(EncryptionUtility::EncryptionState) == 0x58);
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::get_isValid
+  // Il2CppName: get_isValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncryptionUtility::EncryptionState::*)()>(&EncryptionUtility::EncryptionState::get_isValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::EncryptData
+  // Il2CppName: EncryptData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int&, int&, int)>(&EncryptionUtility::EncryptionState::EncryptData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "EncryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::TryDecryptData
+  // Il2CppName: TryDecryptData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int&, int&)>(&EncryptionUtility::EncryptionState::TryDecryptData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "TryDecryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::ComputeSendMac
+  // Il2CppName: ComputeSendMac
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int, int)>(&EncryptionUtility::EncryptionState::ComputeSendMac)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "ComputeSendMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::ComputeReceiveMac
+  // Il2CppName: ComputeReceiveMac
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int, int)>(&EncryptionUtility::EncryptionState::ComputeReceiveMac)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "ComputeReceiveMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::IsValidSequenceNum
+  // Il2CppName: IsValidSequenceNum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncryptionUtility::EncryptionState::*)(uint)>(&EncryptionUtility::EncryptionState::IsValidSequenceNum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "IsValidSequenceNum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::PutSequenceNum
+  // Il2CppName: PutSequenceNum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncryptionUtility::EncryptionState::*)(uint)>(&EncryptionUtility::EncryptionState::PutSequenceNum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "PutSequenceNum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::GetNextSentSequenceNum
+  // Il2CppName: GetNextSentSequenceNum
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (EncryptionUtility::EncryptionState::*)()>(&EncryptionUtility::EncryptionState::GetNextSentSequenceNum)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "GetNextSentSequenceNum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&EncryptionUtility::EncryptionState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&EncryptionUtility::EncryptionState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::MakeSeed
+  // Il2CppName: MakeSeed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&EncryptionUtility::EncryptionState::MakeSeed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "MakeSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::PRF
+  // Il2CppName: PRF
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&EncryptionUtility::EncryptionState::PRF)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "PRF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::PRF_Hash
+  // Il2CppName: PRF_Hash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&EncryptionUtility::EncryptionState::PRF_Hash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "PRF_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: EncryptionUtility::EncryptionState::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncryptionUtility::EncryptionState::*)()>(&EncryptionUtility::EncryptionState::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EncryptionUtility::EncryptionState*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::EncryptionState*, "", "EncryptionUtility/EncryptionState");

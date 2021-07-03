@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionsAndRotations_ = {}, float time_ = {}) noexcept : positionsAndRotations{positionsAndRotations_}, time{time_} {}
     // public System.Void .ctor(VRControllersRecorderData/PositionAndRotation[] positionAndRotations, System.Single time)
-    // Offset: 0x1D93E54
+    // Offset: 0x1DACBB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::Keyframe* New_ctor(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>* positionAndRotations, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::Keyframe::.ctor");
@@ -43,5 +43,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRControllersRecorderData::Keyframe), 24 + sizeof(float)> __GlobalNamespace_VRControllersRecorderData_KeyframeSizeCheck;
   static_assert(sizeof(VRControllersRecorderData::Keyframe) == 0x1C);
+  // Writing MetadataGetter for method: VRControllersRecorderData::Keyframe::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorderData::Keyframe::*)(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*, float)>(&VRControllersRecorderData::Keyframe::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRControllersRecorderData::Keyframe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorderData::Keyframe::*)(::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*, float)>(&VRControllersRecorderData::Keyframe::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRControllersRecorderData::Keyframe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::Keyframe*, "", "VRControllersRecorderData/Keyframe");

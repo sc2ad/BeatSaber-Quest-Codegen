@@ -15,10 +15,18 @@ namespace HMUI {
     // Creating value type constructor for type: EventSystemHelpers
     EventSystemHelpers() noexcept {}
     // static public System.Boolean IsInputFieldSelected()
-    // Offset: 0x12F6B08
+    // Offset: 0x1310818
     static bool IsInputFieldSelected();
   }; // HMUI.EventSystemHelpers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EventSystemHelpers::IsInputFieldSelected
+  // Il2CppName: IsInputFieldSelected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&EventSystemHelpers::IsInputFieldSelected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EventSystemHelpers*), "IsInputFieldSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");

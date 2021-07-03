@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteControllerBase* noteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteControllerBase*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE19208
+    // [SpaceAttribute] Offset: 0xE191E4
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x20
@@ -73,14 +73,14 @@ namespace GlobalNamespace {
     ::Array<UnityEngine::MeshRenderer*>* circleMeshRenderers;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::MeshRenderer*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE19260
+    // [InjectAttribute] Offset: 0xE1923C
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE19270
+    // [CompilerGeneratedAttribute] Offset: 0xE1924C
     // private System.Action`2<ColorNoteVisuals,NoteControllerBase> didInitEvent
     // Size: 0x8
     // Offset: 0x40
@@ -109,40 +109,40 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE19280
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1925C
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
     static void _set__colorId(int value);
     // public System.Void add_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x1092EE0
+    // Offset: 0x1191024
     void add_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`2<ColorNoteVisuals,NoteControllerBase> value)
-    // Offset: 0x1092F84
+    // Offset: 0x11910C8
     void remove_didInitEvent(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>* value);
     // private System.Void set_showArrow(System.Boolean value)
-    // Offset: 0x1093028
+    // Offset: 0x119116C
     void set_showArrow(bool value);
     // private System.Void set_showCircle(System.Boolean value)
-    // Offset: 0x10930A4
+    // Offset: 0x11911E8
     void set_showCircle(bool value);
     // protected System.Void Awake()
-    // Offset: 0x1093120
+    // Offset: 0x1191264
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x10932F8
+    // Offset: 0x119143C
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x109351C
+    // Offset: 0x1191660
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
-    // Offset: 0x10936E8
+    // Offset: 0x119182C
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
-    // Offset: 0x1093714
+    // Offset: 0x1191858
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x1093740
+    // Offset: 0x1191884
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -155,7 +155,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ColorNoteVisuals*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1093748
+    // Offset: 0x119188C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -163,5 +163,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorNoteVisuals), 72 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorNoteVisualsSizeCheck;
   static_assert(sizeof(ColorNoteVisuals) == 0x58);
+  // Writing MetadataGetter for method: ColorNoteVisuals::add_didInitEvent
+  // Il2CppName: add_didInitEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*)>(&ColorNoteVisuals::add_didInitEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::remove_didInitEvent
+  // Il2CppName: remove_didInitEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*)>(&ColorNoteVisuals::remove_didInitEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::ColorNoteVisuals*, GlobalNamespace::NoteControllerBase*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::set_showArrow
+  // Il2CppName: set_showArrow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(bool)>(&ColorNoteVisuals::set_showArrow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "set_showArrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::set_showCircle
+  // Il2CppName: set_showCircle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(bool)>(&ColorNoteVisuals::set_showCircle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "set_showCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerDidInit
+  // Il2CppName: HandleNoteControllerDidInit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&ColorNoteVisuals::HandleNoteControllerDidInit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters
+  // Il2CppName: HandleNoteControllerNoteDidPassJumpThreeQuarters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerNoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving
+  // Il2CppName: HandleNoteControllerNoteDidStartDissolving
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)(GlobalNamespace::NoteControllerBase*, float)>(&ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoteVisuals::*)()>(&ColorNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorNoteVisuals::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ColorNoteVisuals::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorNoteVisuals*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");

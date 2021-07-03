@@ -70,9 +70,13 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionResultsViewController::$$c__DisplayClass30_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionResultsViewController::$$c__DisplayClass30_0*, creationType>()));
     }
-  }; // MissionResultsViewController/<>c__DisplayClass30_0
-  #pragma pack(pop)
-  static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass30_0), 40 + sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass30_0SizeCheck;
-  static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass30_0) == 0x30);
+    // MethodInfo getter for: New_ctor
+    static inline MethodInfo* get() const {
+    }
+  };
+}; // MissionResultsViewController/<>c__DisplayClass30_0
+#pragma pack(pop)
+static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass30_0), 40 + sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass30_0SizeCheck;
+static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass30_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass30_0*, "", "MissionResultsViewController/<>c__DisplayClass30_0");

@@ -17,12 +17,20 @@ namespace System {
     // Creating value type constructor for type: __Il2CppComDelegate
     __Il2CppComDelegate() noexcept {}
     // protected override System.Void Finalize()
-    // Offset: 0x231BDD0
+    // Offset: 0x2335B2C
     // Implemented from: System.__Il2CppComObject
     // Base method: System.Void __Il2CppComObject::Finalize()
     void Finalize();
   }; // System.__Il2CppComDelegate
   #pragma pack(pop)
+  // Writing MetadataGetter for method: __Il2CppComDelegate::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__Il2CppComDelegate::*)()>(&__Il2CppComDelegate::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__Il2CppComDelegate*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComDelegate*, "System", "__Il2CppComDelegate");

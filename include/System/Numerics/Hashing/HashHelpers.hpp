@@ -19,13 +19,29 @@ namespace System::Numerics::Hashing {
     // Set static field: static public readonly System.Int32 RandomSeed
     static void _set_RandomSeed(int value);
     // static public System.Int32 Combine(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x1C54798
+    // Offset: 0x1C6F4A8
     static int Combine(int h1, int h2);
     // static private System.Void .cctor()
-    // Offset: 0x1C547A8
+    // Offset: 0x1C6F4B8
     static void _cctor();
   }; // System.Numerics.Hashing.HashHelpers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: HashHelpers::Combine
+  // Il2CppName: Combine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&HashHelpers::Combine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: HashHelpers::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HashHelpers::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");

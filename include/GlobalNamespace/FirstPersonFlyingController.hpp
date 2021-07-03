@@ -112,22 +112,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10C6B24
+    // Offset: 0x10456E4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10C6B30
+    // Offset: 0x10456F0
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x10C6D4C
+    // Offset: 0x104590C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10C6D80
+    // Offset: 0x1045940
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x10C6DB0
+    // Offset: 0x1045970
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x10C71A8
+    // Offset: 0x1045D68
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -143,5 +143,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FirstPersonFlyingController), 96 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FirstPersonFlyingControllerSizeCheck;
   static_assert(sizeof(FirstPersonFlyingController) == 0x68);
+  // Writing MetadataGetter for method: FirstPersonFlyingController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FirstPersonFlyingController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FirstPersonFlyingController::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FirstPersonFlyingController::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FirstPersonFlyingController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FirstPersonFlyingController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");

@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardScoreSyncState state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardScoreSyncState) == 0x14);
-    // [CompilerGeneratedAttribute] Offset: 0xDF010C
+    // [CompilerGeneratedAttribute] Offset: 0xDF1040
     // private SyncStateId <id>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SyncStateId) == 0x1);
     // Padding between fields: id and: time
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDF011C
+    // [CompilerGeneratedAttribute] Offset: 0xDF1050
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -76,37 +76,37 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::ISyncStateSerializable_1<GlobalNamespace::StandardScoreSyncState>*>(this);
     }
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
-    // Offset: 0x236831C
+    // Offset: 0x237D478
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x2368364
+    // Offset: 0x237D4C0
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x236836C
+    // Offset: 0x237D4C8
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x2368374
+    // Offset: 0x237D4D0
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x236837C
+    // Offset: 0x237D4D8
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x2368384
+    // Offset: 0x237D4E0
     GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x2368398
+    // Offset: 0x237D4F4
     void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x23683AC
+    // Offset: 0x237D508
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2368420
+    // Offset: 0x237D57C
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x2368494
+    // Offset: 0x237D5F0
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x23684F0
+    // Offset: 0x237D64C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,5 +118,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncStateNetSerializable), 40 + sizeof(float)> __GlobalNamespace_StandardScoreSyncStateNetSerializableSizeCheck;
   static_assert(sizeof(StandardScoreSyncStateNetSerializable) == 0x2C);
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* (*)()>(&StandardScoreSyncStateNetSerializable::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::get_id
+  // Il2CppName: get_id
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (StandardScoreSyncStateNetSerializable::*)()>(&StandardScoreSyncStateNetSerializable::get_id)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::set_id
+  // Il2CppName: set_id
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)(GlobalNamespace::SyncStateId)>(&StandardScoreSyncStateNetSerializable::set_id)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "set_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::get_time
+  // Il2CppName: get_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardScoreSyncStateNetSerializable::*)()>(&StandardScoreSyncStateNetSerializable::get_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::set_time
+  // Il2CppName: set_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)(float)>(&StandardScoreSyncStateNetSerializable::set_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::get_state
+  // Il2CppName: get_state
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (StandardScoreSyncStateNetSerializable::*)()>(&StandardScoreSyncStateNetSerializable::get_state)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::set_state
+  // Il2CppName: set_state
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)(GlobalNamespace::StandardScoreSyncState)>(&StandardScoreSyncStateNetSerializable::set_state)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&StandardScoreSyncStateNetSerializable::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&StandardScoreSyncStateNetSerializable::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)()>(&StandardScoreSyncStateNetSerializable::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateNetSerializable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)()>(&StandardScoreSyncStateNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateNetSerializable::*)()>(&StandardScoreSyncStateNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateNetSerializable*, "", "StandardScoreSyncStateNetSerializable");

@@ -73,13 +73,29 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // private System.Void MoveNext()
-    // Offset: 0xEE39B0
+    // Offset: 0xEE4C08
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEE39B8
+    // Offset: 0xEE4C10
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__43_2>d
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)()>(&HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine
+  // Il2CppName: SetStateMachine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d, "", "HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__43_2>d");

@@ -31,6 +31,14 @@ namespace UnityEngine::EventSystems {
     void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
   }; // UnityEngine.EventSystems.ICancelHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ICancelHandler::OnCancel
+  // Il2CppName: OnCancel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICancelHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&ICancelHandler::OnCancel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ICancelHandler*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ICancelHandler*, "UnityEngine.EventSystems", "ICancelHandler");

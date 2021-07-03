@@ -233,111 +233,381 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: ObjectReader
     ObjectReader(System::IO::Stream* m_stream_ = {}, System::Runtime::Serialization::ISurrogateSelector* m_surrogates_ = {}, System::Runtime::Serialization::StreamingContext m_context_ = {}, System::Runtime::Serialization::ObjectManager* m_objectManager_ = {}, System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums_ = {}, System::Runtime::Serialization::SerializationBinder* m_binder_ = {}, int64_t topId_ = {}, bool bSimpleAssembly_ = {}, ::Il2CppObject* handlerObject_ = {}, ::Il2CppObject* m_topObject_ = {}, ::Array<System::Runtime::Remoting::Messaging::Header*>* headers_ = {}, System::Runtime::Remoting::Messaging::HeaderHandler* handler_ = {}, System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit_ = {}, System::Runtime::Serialization::IFormatterConverter* m_formatterConverter_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* stack_ = {}, System::Runtime::Serialization::Formatters::Binary::SerStack* valueFixupStack_ = {}, ::Array<::Il2CppObject*>* crossAppDomainArray_ = {}, bool bFullDeserialization_ = {}, bool bOldFormatDetected_ = {}, System::Runtime::Serialization::Formatters::Binary::IntSizedArray* valTypeObjectIdTable_ = {}, System::Runtime::Serialization::Formatters::Binary::NameCache* typeCache_ = {}, ::Il2CppString* previousAssemblyString_ = {}, ::Il2CppString* previousName_ = {}, System::Type* previousType_ = {}) noexcept : m_stream{m_stream_}, m_surrogates{m_surrogates_}, m_context{m_context_}, m_objectManager{m_objectManager_}, formatterEnums{formatterEnums_}, m_binder{m_binder_}, topId{topId_}, bSimpleAssembly{bSimpleAssembly_}, handlerObject{handlerObject_}, m_topObject{m_topObject_}, headers{headers_}, handler{handler_}, serObjectInfoInit{serObjectInfoInit_}, m_formatterConverter{m_formatterConverter_}, stack{stack_}, valueFixupStack{valueFixupStack_}, crossAppDomainArray{crossAppDomainArray_}, bFullDeserialization{bFullDeserialization_}, bOldFormatDetected{bOldFormatDetected_}, valTypeObjectIdTable{valTypeObjectIdTable_}, typeCache{typeCache_}, previousAssemblyString{previousAssemblyString_}, previousName{previousName_}, previousType{previousType_} {}
     // private System.Runtime.Serialization.Formatters.Binary.SerStack get_ValueFixupStack()
-    // Offset: 0x15F4A68
+    // Offset: 0x160D778
     System::Runtime::Serialization::Formatters::Binary::SerStack* get_ValueFixupStack();
     // System.Object get_TopObject()
-    // Offset: 0x15F4B58
+    // Offset: 0x160D868
     ::Il2CppObject* get_TopObject();
     // System.Void set_TopObject(System.Object value)
-    // Offset: 0x15F4B60
+    // Offset: 0x160D870
     void set_TopObject(::Il2CppObject* value);
     // System.Void .ctor(System.IO.Stream stream, System.Runtime.Serialization.ISurrogateSelector selector, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.Formatters.Binary.InternalFE formatterEnums, System.Runtime.Serialization.SerializationBinder binder)
-    // Offset: 0x15EF664
+    // Offset: 0x1608374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader* New_ctor(System::IO::Stream* stream, System::Runtime::Serialization::ISurrogateSelector* selector, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums, System::Runtime::Serialization::SerializationBinder* binder) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader*, creationType>(stream, selector, context, formatterEnums, binder)));
     }
     // System.Object Deserialize(System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Runtime.Serialization.Formatters.Binary.__BinaryParser serParser, System.Boolean fCheck)
-    // Offset: 0x15EF850
+    // Offset: 0x1608560
     ::Il2CppObject* Deserialize(System::Runtime::Remoting::Messaging::HeaderHandler* handler, System::Runtime::Serialization::Formatters::Binary::__BinaryParser* serParser, bool fCheck);
     // private System.Boolean HasSurrogate(System.Type t)
-    // Offset: 0x15F51C4
+    // Offset: 0x160DED4
     bool HasSurrogate(System::Type* t);
     // private System.Void CheckSerializable(System.Type t)
-    // Offset: 0x15F52B0
+    // Offset: 0x160DFC0
     void CheckSerializable(System::Type* t);
     // private System.Void InitFullDeserialization()
-    // Offset: 0x15F541C
+    // Offset: 0x160E12C
     void InitFullDeserialization();
     // System.Object CrossAppDomainArray(System.Int32 index)
-    // Offset: 0x15F5500
+    // Offset: 0x160E210
     ::Il2CppObject* CrossAppDomainArray(int index);
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(System.Type objectType)
-    // Offset: 0x15F397C
+    // Offset: 0x160C68C
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType);
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(System.Type objectType, System.String[] memberNames, System.Type[] memberTypes)
-    // Offset: 0x15F41EC
+    // Offset: 0x160CEFC
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes);
     // System.Void Parse(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F5678
+    // Offset: 0x160E388
     void Parse(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseError(System.Runtime.Serialization.Formatters.Binary.ParseRecord processing, System.Runtime.Serialization.Formatters.Binary.ParseRecord onStack)
-    // Offset: 0x15F6318
+    // Offset: 0x160F028
     void ParseError(System::Runtime::Serialization::Formatters::Binary::ParseRecord* processing, System::Runtime::Serialization::Formatters::Binary::ParseRecord* onStack);
     // private System.Void ParseSerializedStreamHeader(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F5820
+    // Offset: 0x160E530
     void ParseSerializedStreamHeader(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseSerializedStreamHeaderEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F5838
+    // Offset: 0x160E548
     void ParseSerializedStreamHeaderEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseObject(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F5850
+    // Offset: 0x160E560
     void ParseObject(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseObjectEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F5B44
+    // Offset: 0x160E854
     void ParseObjectEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseArray(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F6694
+    // Offset: 0x160F3A4
     void ParseArray(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void NextRectangleMap(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F7110
+    // Offset: 0x160FE20
     void NextRectangleMap(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseArrayMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F71F0
+    // Offset: 0x160FF00
     void ParseArrayMember(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseArrayMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F7E68
+    // Offset: 0x1610B78
     void ParseArrayMemberEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseMember(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F5D64
+    // Offset: 0x160EA74
     void ParseMember(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseMemberEnd(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
-    // Offset: 0x15F6244
+    // Offset: 0x160EF54
     void ParseMemberEnd(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
     // private System.Void ParseString(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord parentPr)
-    // Offset: 0x15F79C8
+    // Offset: 0x16106D8
     void ParseString(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parentPr);
     // private System.Void RegisterObject(System.Object obj, System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord objectPr)
-    // Offset: 0x15F6D30
+    // Offset: 0x160FA40
     void RegisterObject(::Il2CppObject* obj, System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr);
     // private System.Void RegisterObject(System.Object obj, System.Runtime.Serialization.Formatters.Binary.ParseRecord pr, System.Runtime.Serialization.Formatters.Binary.ParseRecord objectPr, System.Boolean bIsString)
-    // Offset: 0x15F81C4
+    // Offset: 0x1610ED4
     void RegisterObject(::Il2CppObject* obj, System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr, System::Runtime::Serialization::Formatters::Binary::ParseRecord* objectPr, bool bIsString);
     // System.Int64 GetId(System.Int64 objectId)
-    // Offset: 0x15F84CC
+    // Offset: 0x16111DC
     int64_t GetId(int64_t objectId);
     // System.Type Bind(System.String assemblyString, System.String typeString)
-    // Offset: 0x15F85B8
+    // Offset: 0x16112C8
     System::Type* Bind(::Il2CppString* assemblyString, ::Il2CppString* typeString);
     // System.Type FastBindToType(System.String assemblyName, System.String typeName)
-    // Offset: 0x15F8620
+    // Offset: 0x1611330
     System::Type* FastBindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
     // static private System.Reflection.Assembly ResolveSimpleAssemblyName(System.Reflection.AssemblyName assemblyName)
-    // Offset: 0x15F88F8
+    // Offset: 0x1611608
     static System::Reflection::Assembly* ResolveSimpleAssemblyName(System::Reflection::AssemblyName* assemblyName);
     // static private System.Void GetSimplyNamedTypeFromAssembly(System.Reflection.Assembly assm, System.String typeName, ref System.Type type)
-    // Offset: 0x15F8964
+    // Offset: 0x1611674
     static void GetSimplyNamedTypeFromAssembly(System::Reflection::Assembly* assm, ::Il2CppString* typeName, System::Type*& type);
     // System.Type GetType(System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.String name)
-    // Offset: 0x15EF084
+    // Offset: 0x1607D94
     System::Type* GetType(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::Il2CppString* name);
     // static private System.Void CheckTypeForwardedTo(System.Reflection.Assembly sourceAssembly, System.Reflection.Assembly destAssembly, System.Type resolvedType)
-    // Offset: 0x15F8B84
+    // Offset: 0x1611894
     static void CheckTypeForwardedTo(System::Reflection::Assembly* sourceAssembly, System::Reflection::Assembly* destAssembly, System::Type* resolvedType);
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader
   #pragma pack(pop)
   static check_size<sizeof(ObjectReader), 200 + sizeof(System::Type*)> __System_Runtime_Serialization_Formatters_Binary_ObjectReaderSizeCheck;
   static_assert(sizeof(ObjectReader) == 0xD0);
+  // Writing MetadataGetter for method: ObjectReader::get_ValueFixupStack
+  // Il2CppName: get_ValueFixupStack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::SerStack* (ObjectReader::*)()>(&ObjectReader::get_ValueFixupStack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "get_ValueFixupStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::get_TopObject
+  // Il2CppName: get_TopObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ObjectReader::*)()>(&ObjectReader::get_TopObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "get_TopObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::set_TopObject
+  // Il2CppName: set_TopObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(::Il2CppObject*)>(&ObjectReader::set_TopObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "set_TopObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::IO::Stream*, System::Runtime::Serialization::ISurrogateSelector*, System::Runtime::Serialization::StreamingContext, System::Runtime::Serialization::Formatters::Binary::InternalFE*, System::Runtime::Serialization::SerializationBinder*)>(&ObjectReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalFE*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationBinder*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::IO::Stream*, System::Runtime::Serialization::ISurrogateSelector*, System::Runtime::Serialization::StreamingContext, System::Runtime::Serialization::Formatters::Binary::InternalFE*, System::Runtime::Serialization::SerializationBinder*)>(&ObjectReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalFE*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationBinder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ObjectReader::*)(System::Runtime::Remoting::Messaging::HeaderHandler*, System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, bool)>(&ObjectReader::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::HeaderHandler*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryParser*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::HasSurrogate
+  // Il2CppName: HasSurrogate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ObjectReader::*)(System::Type*)>(&ObjectReader::HasSurrogate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "HasSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::CheckSerializable
+  // Il2CppName: CheckSerializable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Type*)>(&ObjectReader::CheckSerializable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "CheckSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::InitFullDeserialization
+  // Il2CppName: InitFullDeserialization
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)()>(&ObjectReader::InitFullDeserialization)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "InitFullDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::CrossAppDomainArray
+  // Il2CppName: CrossAppDomainArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ObjectReader::*)(int)>(&ObjectReader::CrossAppDomainArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "CrossAppDomainArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::CreateReadObjectInfo
+  // Il2CppName: CreateReadObjectInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (ObjectReader::*)(System::Type*)>(&ObjectReader::CreateReadObjectInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "CreateReadObjectInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::CreateReadObjectInfo
+  // Il2CppName: CreateReadObjectInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (ObjectReader::*)(System::Type*, ::Array<::Il2CppString*>*, ::Array<System::Type*>*)>(&ObjectReader::CreateReadObjectInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "CreateReadObjectInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::Parse
+  // Il2CppName: Parse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::Parse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseError
+  // Il2CppName: ParseError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseSerializedStreamHeader
+  // Il2CppName: ParseSerializedStreamHeader
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseSerializedStreamHeader)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseSerializedStreamHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseSerializedStreamHeaderEnd
+  // Il2CppName: ParseSerializedStreamHeaderEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseSerializedStreamHeaderEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseSerializedStreamHeaderEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseObject
+  // Il2CppName: ParseObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseObjectEnd
+  // Il2CppName: ParseObjectEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseObjectEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseObjectEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseArray
+  // Il2CppName: ParseArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::NextRectangleMap
+  // Il2CppName: NextRectangleMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::NextRectangleMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "NextRectangleMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseArrayMember
+  // Il2CppName: ParseArrayMember
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseArrayMember)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseArrayMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseArrayMemberEnd
+  // Il2CppName: ParseArrayMemberEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseArrayMemberEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseArrayMemberEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseMember
+  // Il2CppName: ParseMember
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseMember)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseMemberEnd
+  // Il2CppName: ParseMemberEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseMemberEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseMemberEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ParseString
+  // Il2CppName: ParseString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::ParseString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ParseString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::RegisterObject
+  // Il2CppName: RegisterObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*)>(&ObjectReader::RegisterObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::RegisterObject
+  // Il2CppName: RegisterObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectReader::*)(::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*, System::Runtime::Serialization::Formatters::Binary::ParseRecord*, bool)>(&ObjectReader::RegisterObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ParseRecord*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::GetId
+  // Il2CppName: GetId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ObjectReader::*)(int64_t)>(&ObjectReader::GetId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::Bind
+  // Il2CppName: Bind
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ObjectReader::*)(::Il2CppString*, ::Il2CppString*)>(&ObjectReader::Bind)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::FastBindToType
+  // Il2CppName: FastBindToType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ObjectReader::*)(::Il2CppString*, ::Il2CppString*)>(&ObjectReader::FastBindToType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "FastBindToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::ResolveSimpleAssemblyName
+  // Il2CppName: ResolveSimpleAssemblyName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(System::Reflection::AssemblyName*)>(&ObjectReader::ResolveSimpleAssemblyName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "ResolveSimpleAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::AssemblyName*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::GetSimplyNamedTypeFromAssembly
+  // Il2CppName: GetSimplyNamedTypeFromAssembly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*, ::Il2CppString*, System::Type*&)>(&ObjectReader::GetSimplyNamedTypeFromAssembly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "GetSimplyNamedTypeFromAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::GetType
+  // Il2CppName: GetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::Il2CppString*)>(&ObjectReader::GetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectReader::CheckTypeForwardedTo
+  // Il2CppName: CheckTypeForwardedTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*, System::Reflection::Assembly*, System::Type*)>(&ObjectReader::CheckTypeForwardedTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectReader*), "CheckTypeForwardedTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader");

@@ -37,22 +37,60 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: SubscribeDelegate
     SubscribeDelegate() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x23C610C
+    // Offset: 0x23E1638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor::SubscribeDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor::SubscribeDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x23C5D24
+    // Offset: 0x23E1250
     void Invoke(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.IAsyncResult BeginInvoke(LiteNetLib.Utils.NetDataReader reader, System.Object userData, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x23C611C
+    // Offset: 0x23E1648
     System::IAsyncResult* BeginInvoke(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x23C614C
+    // Offset: 0x23E1678
     void EndInvoke(System::IAsyncResult* result);
   }; // LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NetPacketProcessor::SubscribeDelegate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketProcessor::SubscribeDelegate::*)(::Il2CppObject*, System::IntPtr)>(&NetPacketProcessor::SubscribeDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetPacketProcessor::SubscribeDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketProcessor::SubscribeDelegate::*)(::Il2CppObject*, System::IntPtr)>(&NetPacketProcessor::SubscribeDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetPacketProcessor::SubscribeDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetPacketProcessor::SubscribeDelegate::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketProcessor::SubscribeDelegate::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&NetPacketProcessor::SubscribeDelegate::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetPacketProcessor::SubscribeDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetPacketProcessor::SubscribeDelegate::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NetPacketProcessor::SubscribeDelegate::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*, System::AsyncCallback*, ::Il2CppObject*)>(&NetPacketProcessor::SubscribeDelegate::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetPacketProcessor::SubscribeDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetPacketProcessor::SubscribeDelegate::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketProcessor::SubscribeDelegate::*)(System::IAsyncResult*)>(&NetPacketProcessor::SubscribeDelegate::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetPacketProcessor::SubscribeDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*, "LiteNetLib.Utils", "NetPacketProcessor/SubscribeDelegate");

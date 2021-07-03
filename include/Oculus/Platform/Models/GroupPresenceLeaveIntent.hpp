@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: GroupPresenceLeaveIntent
     GroupPresenceLeaveIntent(::Il2CppString* DestinationApiName_ = {}, ::Il2CppString* LobbySessionId_ = {}, ::Il2CppString* MatchSessionId_ = {}) noexcept : DestinationApiName{DestinationApiName_}, LobbySessionId{LobbySessionId_}, MatchSessionId{MatchSessionId_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14B426C
+    // Offset: 0x14CEF7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupPresenceLeaveIntent* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::GroupPresenceLeaveIntent::.ctor");
@@ -49,5 +49,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(GroupPresenceLeaveIntent), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_GroupPresenceLeaveIntentSizeCheck;
   static_assert(sizeof(GroupPresenceLeaveIntent) == 0x28);
+  // Writing MetadataGetter for method: GroupPresenceLeaveIntent::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupPresenceLeaveIntent::*)(System::IntPtr)>(&GroupPresenceLeaveIntent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GroupPresenceLeaveIntent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupPresenceLeaveIntent::*)(System::IntPtr)>(&GroupPresenceLeaveIntent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GroupPresenceLeaveIntent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::GroupPresenceLeaveIntent*, "Oculus.Platform.Models", "GroupPresenceLeaveIntent");

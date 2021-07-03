@@ -86,35 +86,35 @@ namespace GlobalNamespace {
     struct $PerformAtSyncTime$d__90;
     // Nested type: GlobalNamespace::MockMultiplayerSessionManager::$SendToOthers$d__94
     struct $SendToOthers$d__94;
-    // [InjectAttribute] Offset: 0xE1D690
+    // [InjectAttribute] Offset: 0xE1D66C
     // private readonly MockPlayersModel _playersModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MockPlayersModel* playersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockPlayersModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1D6A0
+    // [InjectAttribute] Offset: 0xE1D67C
     // private readonly AvatarPartsModel _avatarPartsModel
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::AvatarPartsModel* avatarPartsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarPartsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1D6B0
+    // [InjectAttribute] Offset: 0xE1D68C
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1D6C0
+    // [InjectAttribute] Offset: 0xE1D69C
     // private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D6D0
+    // [CompilerGeneratedAttribute] Offset: 0xE1D6AC
     // private System.Boolean <isPartyCreated>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -123,56 +123,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isPartyCreated and: syncTimeDelay
     char __padding4[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE1D6E0
+    // [CompilerGeneratedAttribute] Offset: 0xE1D6BC
     // private System.Single <syncTimeDelay>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
     float syncTimeDelay;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D6F0
+    // [CompilerGeneratedAttribute] Offset: 0xE1D6CC
     // private System.Action`1<IConnectedPlayer> playerConnectedEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D700
+    // [CompilerGeneratedAttribute] Offset: 0xE1D6DC
     // private System.Action`1<ConnectionFailedReason> connectionFailedEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D710
+    // [CompilerGeneratedAttribute] Offset: 0xE1D6EC
     // private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D720
+    // [CompilerGeneratedAttribute] Offset: 0xE1D6FC
     // private System.Action`1<IConnectedPlayer> playerAvatarChangedEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerAvatarChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D730
+    // [CompilerGeneratedAttribute] Offset: 0xE1D70C
     // private System.Action`1<IConnectedPlayer> playerStateChangedEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action_1<GlobalNamespace::IConnectedPlayer*>* playerStateChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D740
+    // [CompilerGeneratedAttribute] Offset: 0xE1D71C
     // private System.Action`1<DisconnectedReason> disconnectedEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action_1<GlobalNamespace::DisconnectedReason>* disconnectedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::DisconnectedReason>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1D750
+    // [CompilerGeneratedAttribute] Offset: 0xE1D72C
     // private System.Action connectedEvent
     // Size: 0x8
     // Offset: 0x70
@@ -218,136 +218,136 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_isPartyCreated()
-    // Offset: 0x105AE68
+    // Offset: 0x109F528
     bool get_isPartyCreated();
     // private System.Void set_isPartyCreated(System.Boolean value)
-    // Offset: 0x105AE70
+    // Offset: 0x109F530
     void set_isPartyCreated(bool value);
     // public System.Boolean get_disposed()
-    // Offset: 0x105AE7C
+    // Offset: 0x109F53C
     bool get_disposed();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x105AE84
+    // Offset: 0x109F544
     GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public IConnectedPlayer get_connectionOwner()
-    // Offset: 0x105AEA0
+    // Offset: 0x109F560
     GlobalNamespace::IConnectedPlayer* get_connectionOwner();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x105AED0
+    // Offset: 0x109F590
     bool get_isConnectionOwner();
     // public System.Single get_syncTime()
-    // Offset: 0x105AEF8
+    // Offset: 0x109F5B8
     float get_syncTime();
     // public System.Single get_syncTimeDelay()
-    // Offset: 0x105AF24
+    // Offset: 0x109F5E4
     float get_syncTimeDelay();
     // private System.Void set_syncTimeDelay(System.Single value)
-    // Offset: 0x105AF2C
+    // Offset: 0x109F5EC
     void set_syncTimeDelay(float value);
     // public System.Boolean get_isSyncTimeInitialized()
-    // Offset: 0x105AF34
+    // Offset: 0x109F5F4
     bool get_isSyncTimeInitialized();
     // public System.Int32 get_maxPlayerCount()
-    // Offset: 0x105AF3C
+    // Offset: 0x109F5FC
     int get_maxPlayerCount();
     // public System.Int32 get_connectedPlayerCount()
-    // Offset: 0x105AF80
+    // Offset: 0x109F640
     int get_connectedPlayerCount();
     // public System.Boolean get_isConnectingOrConnected()
-    // Offset: 0x105AF9C
+    // Offset: 0x109F65C
     bool get_isConnectingOrConnected();
     // public System.Boolean get_isConnected()
-    // Offset: 0x105AFA4
+    // Offset: 0x109F664
     bool get_isConnected();
     // public System.Boolean get_isConnecting()
-    // Offset: 0x105AFAC
+    // Offset: 0x109F66C
     bool get_isConnecting();
     // public System.Boolean get_isDisconnecting()
-    // Offset: 0x105AFB4
+    // Offset: 0x109F674
     bool get_isDisconnecting();
     // public System.Boolean get_isSpectating()
-    // Offset: 0x105AFBC
+    // Offset: 0x109F67C
     bool get_isSpectating();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x105AFC4
+    // Offset: 0x109F684
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105AFE0
+    // Offset: 0x109F6A0
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B084
+    // Offset: 0x109F744
     void remove_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x105B128
+    // Offset: 0x109F7E8
     void add_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_connectionFailedEvent(System.Action`1<ConnectionFailedReason> value)
-    // Offset: 0x105B1CC
+    // Offset: 0x109F88C
     void remove_connectionFailedEvent(System::Action_1<GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B270
+    // Offset: 0x109F930
     void add_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B314
+    // Offset: 0x109F9D4
     void remove_playerDisconnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B3B8
+    // Offset: 0x109FA78
     void add_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerAvatarChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B45C
+    // Offset: 0x109FB1C
     void remove_playerAvatarChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B500
+    // Offset: 0x109FBC0
     void add_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerStateChangedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x105B5A4
+    // Offset: 0x109FC64
     void remove_playerStateChangedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x105B648
+    // Offset: 0x109FD08
     void add_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_disconnectedEvent(System.Action`1<DisconnectedReason> value)
-    // Offset: 0x105B6EC
+    // Offset: 0x109FDAC
     void remove_disconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_connectedEvent(System.Action value)
-    // Offset: 0x105B790
+    // Offset: 0x109FE50
     void add_connectedEvent(System::Action* value);
     // public System.Void remove_connectedEvent(System.Action value)
-    // Offset: 0x105B834
+    // Offset: 0x109FEF4
     void remove_connectedEvent(System::Action* value);
     // private System.Void Init()
-    // Offset: 0x105B8D8
+    // Offset: 0x109FF98
     void Init();
     // protected System.Void Awake()
-    // Offset: 0x105B9F4
+    // Offset: 0x10A00B4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x105BB18
+    // Offset: 0x10A01D8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x105BD88
+    // Offset: 0x10A0448
     void OnDestroy();
     // public System.Void SetMaxPlayerCount(System.Int32 maxPlayerCount)
-    // Offset: 0x105BE58
+    // Offset: 0x10A0518
     void SetMaxPlayerCount(int maxPlayerCount);
     // public System.Void StartSession(ConnectedPlayerManager connectedPlayerManager)
-    // Offset: 0x105BE60
+    // Offset: 0x10A0520
     void StartSession(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void EndSession()
-    // Offset: 0x105BE64
+    // Offset: 0x10A0524
     void EndSession();
     // public MockPlayer GetMockPlayer(System.String userId)
-    // Offset: 0x105BE68
+    // Offset: 0x10A0528
     GlobalNamespace::MockPlayer* GetMockPlayer(::Il2CppString* userId);
     // public IConnectedPlayer GetPlayerByUserId(System.String userId)
-    // Offset: 0x105BFCC
+    // Offset: 0x10A068C
     GlobalNamespace::IConnectedPlayer* GetPlayerByUserId(::Il2CppString* userId);
     // public IConnectedPlayer GetConnectedPlayer(System.Int32 index)
-    // Offset: 0x105C1B8
+    // Offset: 0x10A0878
     GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int index);
     // public IConnectedPlayer GetConnectedPlayerByUserId(System.String userId)
-    // Offset: 0x105C038
+    // Offset: 0x10A06F8
     GlobalNamespace::IConnectedPlayer* GetConnectedPlayerByUserId(::Il2CppString* userId);
     // public System.Void Disconnect()
-    // Offset: 0x105B9F8
+    // Offset: 0x10A00B8
     void Disconnect();
     // public System.Void Send(T message)
     // Offset: 0xFFFFFFFF
@@ -390,67 +390,67 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, serializerType);
     }
     // public System.Void RegisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x105C34C
+    // Offset: 0x10A0A0C
     void RegisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void UnregisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
-    // Offset: 0x105C368
+    // Offset: 0x10A0A28
     void UnregisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
     // public System.Void ReportPlayerStateChanged(MockPlayer player)
-    // Offset: 0x105C384
+    // Offset: 0x10A0A44
     void ReportPlayerStateChanged(GlobalNamespace::MockPlayer* player);
     // public System.Void ConnectPlayer(MockPlayer connectedPlayer)
-    // Offset: 0x105C4A0
+    // Offset: 0x10A0B60
     void ConnectPlayer(GlobalNamespace::MockPlayer* connectedPlayer);
     // public System.Void DisconnectPlayer(MockPlayer connectedPlayer)
-    // Offset: 0x105C1DC
+    // Offset: 0x10A089C
     void DisconnectPlayer(GlobalNamespace::MockPlayer* connectedPlayer);
     // private System.Void HandleJoinMockServer()
-    // Offset: 0x105C6B4
+    // Offset: 0x10A0D74
     void HandleJoinMockServer();
     // public System.Void CreateParty(GameplayServerConfiguration configuration, System.Int32 maxPartySize)
-    // Offset: 0x105C918
+    // Offset: 0x10A0FD8
     void CreateParty(GlobalNamespace::GameplayServerConfiguration configuration, int maxPartySize);
     // public System.Void DestroyParty()
-    // Offset: 0x105BE50
+    // Offset: 0x10A0510
     void DestroyParty();
     // public System.Void PerformAtSyncTime(System.Single syncTime, System.Action action)
-    // Offset: 0x105CAE8
+    // Offset: 0x10A11A8
     void PerformAtSyncTime(float syncTime, System::Action* action);
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean hasState)
-    // Offset: 0x105C8F8
+    // Offset: 0x10A0FB8
     void SetLocalPlayerState(::Il2CppString* state, bool hasState);
     // public System.Boolean LocalPlayerHasState(System.String state)
-    // Offset: 0x105CBBC
+    // Offset: 0x10A127C
     bool LocalPlayerHasState(::Il2CppString* state);
     // private MockedPlayerMultiplayerSessionManager GetMultiplayerSessionManager(MockPlayer player)
-    // Offset: 0x105B90C
+    // Offset: 0x109FFCC
     GlobalNamespace::MockedPlayerMultiplayerSessionManager* GetMultiplayerSessionManager(GlobalNamespace::MockPlayer* player);
     // public System.Void SendToOthers(MockPlayer player, LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x105CBD8
+    // Offset: 0x10A1298
     void SendToOthers(GlobalNamespace::MockPlayer* player, LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void <Start>b__68_0()
-    // Offset: 0x105CD3C
+    // Offset: 0x10A13FC
     void $Start$b__68_0();
     // private System.Void <Start>b__68_1(IConnectedPlayer p)
-    // Offset: 0x105CD50
+    // Offset: 0x10A1410
     void $Start$b__68_1(GlobalNamespace::IConnectedPlayer* p);
     // private System.Void <Start>b__68_2(IConnectedPlayer p)
-    // Offset: 0x105CDC4
+    // Offset: 0x10A1484
     void $Start$b__68_2(GlobalNamespace::IConnectedPlayer* p);
     // private System.Void <Start>b__68_3(IConnectedPlayer p)
-    // Offset: 0x105CE38
+    // Offset: 0x10A14F8
     void $Start$b__68_3(GlobalNamespace::IConnectedPlayer* p);
     // private System.Void <Start>b__68_4(IConnectedPlayer p)
-    // Offset: 0x105CEAC
+    // Offset: 0x10A156C
     void $Start$b__68_4(GlobalNamespace::IConnectedPlayer* p);
     // private System.Void <Start>b__68_5(DisconnectedReason dr)
-    // Offset: 0x105CF20
+    // Offset: 0x10A15E0
     void $Start$b__68_5(GlobalNamespace::DisconnectedReason dr);
     // private System.Void <Start>b__68_6(ConnectionFailedReason dr)
-    // Offset: 0x105CF94
+    // Offset: 0x10A1654
     void $Start$b__68_6(GlobalNamespace::ConnectionFailedReason dr);
     // public System.Void .ctor()
-    // Offset: 0x105CCA4
+    // Offset: 0x10A1364
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -466,5 +466,543 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MockMultiplayerSessionManager), 148 + sizeof(bool)> __GlobalNamespace_MockMultiplayerSessionManagerSizeCheck;
   static_assert(sizeof(MockMultiplayerSessionManager) == 0x95);
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isPartyCreated
+  // Il2CppName: get_isPartyCreated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isPartyCreated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isPartyCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::set_isPartyCreated
+  // Il2CppName: set_isPartyCreated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(bool)>(&MockMultiplayerSessionManager::set_isPartyCreated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "set_isPartyCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_disposed
+  // Il2CppName: get_disposed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_disposed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_disposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_localPlayer
+  // Il2CppName: get_localPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_localPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_connectionOwner
+  // Il2CppName: get_connectionOwner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_connectionOwner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_connectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isConnectionOwner
+  // Il2CppName: get_isConnectionOwner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isConnectionOwner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_syncTime
+  // Il2CppName: get_syncTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_syncTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_syncTimeDelay
+  // Il2CppName: get_syncTimeDelay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_syncTimeDelay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::set_syncTimeDelay
+  // Il2CppName: set_syncTimeDelay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(float)>(&MockMultiplayerSessionManager::set_syncTimeDelay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "set_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isSyncTimeInitialized
+  // Il2CppName: get_isSyncTimeInitialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isSyncTimeInitialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isSyncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_maxPlayerCount
+  // Il2CppName: get_maxPlayerCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_maxPlayerCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_connectedPlayerCount
+  // Il2CppName: get_connectedPlayerCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_connectedPlayerCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_connectedPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isConnectingOrConnected
+  // Il2CppName: get_isConnectingOrConnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isConnectingOrConnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isConnectingOrConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isConnected
+  // Il2CppName: get_isConnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isConnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isConnecting
+  // Il2CppName: get_isConnecting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isConnecting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isDisconnecting
+  // Il2CppName: get_isDisconnecting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isDisconnecting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_isSpectating
+  // Il2CppName: get_isSpectating
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_isSpectating)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::get_connectedPlayers
+  // Il2CppName: get_connectedPlayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::get_connectedPlayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "get_connectedPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_playerConnectedEvent
+  // Il2CppName: add_playerConnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::add_playerConnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_playerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_playerConnectedEvent
+  // Il2CppName: remove_playerConnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::remove_playerConnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_playerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_connectionFailedEvent
+  // Il2CppName: add_connectionFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&MockMultiplayerSessionManager::add_connectionFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_connectionFailedEvent
+  // Il2CppName: remove_connectionFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&MockMultiplayerSessionManager::remove_connectionFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_playerDisconnectedEvent
+  // Il2CppName: add_playerDisconnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::add_playerDisconnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_playerDisconnectedEvent
+  // Il2CppName: remove_playerDisconnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::remove_playerDisconnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_playerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_playerAvatarChangedEvent
+  // Il2CppName: add_playerAvatarChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::add_playerAvatarChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_playerAvatarChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_playerAvatarChangedEvent
+  // Il2CppName: remove_playerAvatarChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::remove_playerAvatarChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_playerAvatarChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_playerStateChangedEvent
+  // Il2CppName: add_playerStateChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::add_playerStateChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_playerStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_playerStateChangedEvent
+  // Il2CppName: remove_playerStateChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::remove_playerStateChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_playerStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_disconnectedEvent
+  // Il2CppName: add_disconnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&MockMultiplayerSessionManager::add_disconnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_disconnectedEvent
+  // Il2CppName: remove_disconnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&MockMultiplayerSessionManager::remove_disconnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::add_connectedEvent
+  // Il2CppName: add_connectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action*)>(&MockMultiplayerSessionManager::add_connectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "add_connectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::remove_connectedEvent
+  // Il2CppName: remove_connectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(System::Action*)>(&MockMultiplayerSessionManager::remove_connectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "remove_connectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::SetMaxPlayerCount
+  // Il2CppName: SetMaxPlayerCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(int)>(&MockMultiplayerSessionManager::SetMaxPlayerCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "SetMaxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::StartSession
+  // Il2CppName: StartSession
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::ConnectedPlayerManager*)>(&MockMultiplayerSessionManager::StartSession)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "StartSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectedPlayerManager*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::EndSession
+  // Il2CppName: EndSession
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::EndSession)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "EndSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::GetMockPlayer
+  // Il2CppName: GetMockPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayer* (MockMultiplayerSessionManager::*)(::Il2CppString*)>(&MockMultiplayerSessionManager::GetMockPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "GetMockPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::GetPlayerByUserId
+  // Il2CppName: GetPlayerByUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (MockMultiplayerSessionManager::*)(::Il2CppString*)>(&MockMultiplayerSessionManager::GetPlayerByUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "GetPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::GetConnectedPlayer
+  // Il2CppName: GetConnectedPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (MockMultiplayerSessionManager::*)(int)>(&MockMultiplayerSessionManager::GetConnectedPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "GetConnectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::GetConnectedPlayerByUserId
+  // Il2CppName: GetConnectedPlayerByUserId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (MockMultiplayerSessionManager::*)(::Il2CppString*)>(&MockMultiplayerSessionManager::GetConnectedPlayerByUserId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "GetConnectedPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::Disconnect
+  // Il2CppName: Disconnect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::Disconnect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::Send
+  // Il2CppName: Send
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::SendUnreliable
+  // Il2CppName: SendUnreliable
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::RegisterCallback
+  // Il2CppName: RegisterCallback
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::UnregisterCallback
+  // Il2CppName: UnregisterCallback
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::RegisterSerializer
+  // Il2CppName: RegisterSerializer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::RegisterSerializer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "RegisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSessionManager_MessageType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::UnregisterSerializer
+  // Il2CppName: UnregisterSerializer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_MessageType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*)>(&MockMultiplayerSessionManager::UnregisterSerializer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "UnregisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSessionManager_MessageType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::ReportPlayerStateChanged
+  // Il2CppName: ReportPlayerStateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::MockPlayer*)>(&MockMultiplayerSessionManager::ReportPlayerStateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "ReportPlayerStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::ConnectPlayer
+  // Il2CppName: ConnectPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::MockPlayer*)>(&MockMultiplayerSessionManager::ConnectPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "ConnectPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::DisconnectPlayer
+  // Il2CppName: DisconnectPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::MockPlayer*)>(&MockMultiplayerSessionManager::DisconnectPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "DisconnectPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::HandleJoinMockServer
+  // Il2CppName: HandleJoinMockServer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::HandleJoinMockServer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "HandleJoinMockServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::CreateParty
+  // Il2CppName: CreateParty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::GameplayServerConfiguration, int)>(&MockMultiplayerSessionManager::CreateParty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "CreateParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::DestroyParty
+  // Il2CppName: DestroyParty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::DestroyParty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "DestroyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::PerformAtSyncTime
+  // Il2CppName: PerformAtSyncTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(float, System::Action*)>(&MockMultiplayerSessionManager::PerformAtSyncTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "PerformAtSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::SetLocalPlayerState
+  // Il2CppName: SetLocalPlayerState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(::Il2CppString*, bool)>(&MockMultiplayerSessionManager::SetLocalPlayerState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "SetLocalPlayerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::LocalPlayerHasState
+  // Il2CppName: LocalPlayerHasState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockMultiplayerSessionManager::*)(::Il2CppString*)>(&MockMultiplayerSessionManager::LocalPlayerHasState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "LocalPlayerHasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::GetMultiplayerSessionManager
+  // Il2CppName: GetMultiplayerSessionManager
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockedPlayerMultiplayerSessionManager* (MockMultiplayerSessionManager::*)(GlobalNamespace::MockPlayer*)>(&MockMultiplayerSessionManager::GetMultiplayerSessionManager)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "GetMultiplayerSessionManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::SendToOthers
+  // Il2CppName: SendToOthers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::MockPlayer*, LiteNetLib::Utils::NetDataWriter*)>(&MockMultiplayerSessionManager::SendToOthers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "SendToOthers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_0
+  // Il2CppName: <Start>b__68_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::$Start$b__68_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_1
+  // Il2CppName: <Start>b__68_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MockMultiplayerSessionManager::$Start$b__68_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_2
+  // Il2CppName: <Start>b__68_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MockMultiplayerSessionManager::$Start$b__68_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_3
+  // Il2CppName: <Start>b__68_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MockMultiplayerSessionManager::$Start$b__68_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_4
+  // Il2CppName: <Start>b__68_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MockMultiplayerSessionManager::$Start$b__68_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_5
+  // Il2CppName: <Start>b__68_5
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::DisconnectedReason)>(&MockMultiplayerSessionManager::$Start$b__68_5)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::$Start$b__68_6
+  // Il2CppName: <Start>b__68_6
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&MockMultiplayerSessionManager::$Start$b__68_6)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), "<Start>b__68_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockMultiplayerSessionManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMultiplayerSessionManager::*)()>(&MockMultiplayerSessionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockMultiplayerSessionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager*, "", "MockMultiplayerSessionManager");

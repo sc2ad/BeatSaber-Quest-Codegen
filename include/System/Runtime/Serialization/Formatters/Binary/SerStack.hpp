@@ -37,33 +37,95 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: SerStack
     SerStack(::Array<::Il2CppObject*>* objects_ = {}, ::Il2CppString* stackId_ = {}, int top_ = {}) noexcept : objects{objects_}, stackId{stackId_}, top{top_} {}
     // System.Void .ctor(System.String stackId)
-    // Offset: 0x15F4ADC
+    // Offset: 0x160D7EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerStack* New_ctor(::Il2CppString* stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }
     // System.Void Push(System.Object obj)
-    // Offset: 0x15F6574
+    // Offset: 0x160F284
     void Push(::Il2CppObject* obj);
     // System.Object Pop()
-    // Offset: 0x15F662C
+    // Offset: 0x160F33C
     ::Il2CppObject* Pop();
     // System.Void IncreaseCapacity()
-    // Offset: 0x15FBD70
+    // Offset: 0x1614A80
     void IncreaseCapacity();
     // System.Object Peek()
-    // Offset: 0x15F6CE4
+    // Offset: 0x160F9F4
     ::Il2CppObject* Peek();
     // System.Object PeekPeek()
-    // Offset: 0x15FBE00
+    // Offset: 0x1614B10
     ::Il2CppObject* PeekPeek();
     // System.Boolean IsEmpty()
-    // Offset: 0x15FB178
+    // Offset: 0x1613E88
     bool IsEmpty();
   }; // System.Runtime.Serialization.Formatters.Binary.SerStack
   #pragma pack(pop)
   static check_size<sizeof(SerStack), 32 + sizeof(int)> __System_Runtime_Serialization_Formatters_Binary_SerStackSizeCheck;
   static_assert(sizeof(SerStack) == 0x24);
+  // Writing MetadataGetter for method: SerStack::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerStack::*)(::Il2CppString*)>(&SerStack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerStack::*)(::Il2CppString*)>(&SerStack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerStack::Push
+  // Il2CppName: Push
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerStack::*)(::Il2CppObject*)>(&SerStack::Push)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerStack::Pop
+  // Il2CppName: Pop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SerStack::*)()>(&SerStack::Pop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SerStack::IncreaseCapacity
+  // Il2CppName: IncreaseCapacity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerStack::*)()>(&SerStack::IncreaseCapacity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), "IncreaseCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SerStack::Peek
+  // Il2CppName: Peek
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SerStack::*)()>(&SerStack::Peek)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SerStack::PeekPeek
+  // Il2CppName: PeekPeek
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SerStack::*)()>(&SerStack::PeekPeek)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), "PeekPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SerStack::IsEmpty
+  // Il2CppName: IsEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SerStack::*)()>(&SerStack::IsEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerStack*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerStack*, "System.Runtime.Serialization.Formatters.Binary", "SerStack");

@@ -124,28 +124,28 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // static public IVersionedPacketPool`1<MasterServer.CreateRelayServerRequest> get_pool()
-    // Offset: 0x12BF474
+    // Offset: 0x12DA184
     static GlobalNamespace::IVersionedPacketPool_1<MasterServer::CreateRelayServerRequest*>* get_pool();
     // public MasterServer.CreateRelayServerRequest Init(System.String secret, System.String ownerUserId, System.String ownerUserName, System.Net.IPEndPoint ownerEndPoint, System.Byte[] ownerRandom, System.Byte[] ownerPublicKey, System.String clientUserId, System.String clientUserName, System.Net.IPEndPoint clientEndPoint, System.Byte[] clientRandom, System.Byte[] clientPublicKey)
-    // Offset: 0x12BF634
+    // Offset: 0x12DA344
     MasterServer::CreateRelayServerRequest* Init(::Il2CppString* secret, ::Il2CppString* ownerUserId, ::Il2CppString* ownerUserName, System::Net::IPEndPoint* ownerEndPoint, ::Array<uint8_t>* ownerRandom, ::Array<uint8_t>* ownerPublicKey, ::Il2CppString* clientUserId, ::Il2CppString* clientUserName, System::Net::IPEndPoint* clientEndPoint, ::Array<uint8_t>* clientRandom, ::Array<uint8_t>* clientPublicKey);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x12BF4BC
+    // Offset: 0x12DA1CC
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x12BF4F8
+    // Offset: 0x12DA208
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x12BF538
+    // Offset: 0x12DA248
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::Release()
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x12BF6D4
+    // Offset: 0x12DA3E4
     // Implemented from: BaseMasterServerReliableRequest
     // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -158,5 +158,59 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(CreateRelayServerRequest), 104 + sizeof(GlobalNamespace::ByteArrayNetSerializable*)> __MasterServer_CreateRelayServerRequestSizeCheck;
   static_assert(sizeof(CreateRelayServerRequest) == 0x70);
+  // Writing MetadataGetter for method: CreateRelayServerRequest::get_pool
+  // Il2CppName: get_pool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IVersionedPacketPool_1<MasterServer::CreateRelayServerRequest*>* (*)()>(&CreateRelayServerRequest::get_pool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateRelayServerRequest::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateRelayServerRequest* (CreateRelayServerRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&CreateRelayServerRequest::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateRelayServerRequest::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&CreateRelayServerRequest::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateRelayServerRequest::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&CreateRelayServerRequest::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateRelayServerRequest::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerRequest::*)()>(&CreateRelayServerRequest::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateRelayServerRequest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerRequest::*)()>(&CreateRelayServerRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateRelayServerRequest::*)()>(&CreateRelayServerRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateRelayServerRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerRequest*, "MasterServer", "CreateRelayServerRequest");

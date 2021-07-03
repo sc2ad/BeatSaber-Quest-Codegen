@@ -28,6 +28,22 @@ namespace System::IO {
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
   }; // System.IO.IFileWatcher
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IFileWatcher::StartDispatching
+  // Il2CppName: StartDispatching
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IFileWatcher::*)(System::IO::FileSystemWatcher*)>(&IFileWatcher::StartDispatching)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IFileWatcher::StopDispatching
+  // Il2CppName: StopDispatching
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IFileWatcher::*)(System::IO::FileSystemWatcher*)>(&IFileWatcher::StopDispatching)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::IFileWatcher*, "System.IO", "IFileWatcher");

@@ -61,7 +61,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::SupplementaryMetric*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xE00350
+    // [ObsoleteAttribute] Offset: 0xE0134C
     // public readonly Oculus.Platform.Models.SupplementaryMetric SupplementaryMetric
     // Size: 0x8
     // Offset: 0x38
@@ -83,7 +83,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: LeaderboardEntry
     LeaderboardEntry(::Il2CppString* DisplayScore_ = {}, ::Array<uint8_t>* ExtraData_ = {}, int Rank_ = {}, int64_t Score_ = {}, Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional_ = {}, Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetric_ = {}, System::DateTime Timestamp_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : DisplayScore{DisplayScore_}, ExtraData{ExtraData_}, Rank{Rank_}, Score{Score_}, SupplementaryMetricOptional{SupplementaryMetricOptional_}, SupplementaryMetric{SupplementaryMetric_}, Timestamp{Timestamp_}, User{User_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14BBA14
+    // Offset: 0x14D6724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntry* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LeaderboardEntry::.ctor");
@@ -93,5 +93,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntry), 72 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x50);
+  // Writing MetadataGetter for method: LeaderboardEntry::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardEntry::*)(System::IntPtr)>(&LeaderboardEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LeaderboardEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardEntry::*)(System::IntPtr)>(&LeaderboardEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LeaderboardEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");

@@ -60,7 +60,7 @@ namespace TMPro {
     // Creating value type constructor for type: FallbackMaterial
     FallbackMaterial(int baseID_ = {}, UnityEngine::Material* baseMaterial_ = {}, int64_t fallbackID_ = {}, UnityEngine::Material* fallbackMaterial_ = {}, int count_ = {}) noexcept : baseID{baseID_}, baseMaterial{baseMaterial_}, fallbackID{fallbackID_}, fallbackMaterial{fallbackMaterial_}, count{count_} {}
     // public System.Void .ctor()
-    // Offset: 0x1153174
+    // Offset: 0x116A970
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -72,5 +72,19 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(TMP_MaterialManager::FallbackMaterial), 48 + sizeof(int)> __TMPro_TMP_MaterialManager_FallbackMaterialSizeCheck;
   static_assert(sizeof(TMP_MaterialManager::FallbackMaterial) == 0x34);
+  // Writing MetadataGetter for method: TMP_MaterialManager::FallbackMaterial::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_MaterialManager::FallbackMaterial::*)()>(&TMP_MaterialManager::FallbackMaterial::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_MaterialManager::FallbackMaterial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_MaterialManager::FallbackMaterial::*)()>(&TMP_MaterialManager::FallbackMaterial::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_MaterialManager::FallbackMaterial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");

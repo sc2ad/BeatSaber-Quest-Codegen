@@ -31,10 +31,18 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
     static void _set_alreadyExecutedTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1494E44
+    // Offset: 0x14AFB54
     static void _cctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItemDataHolder
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnityWorkItemDataHolder::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityWorkItemDataHolder::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityWorkItemDataHolder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItemDataHolder*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItemDataHolder");

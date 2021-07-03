@@ -89,7 +89,7 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     static_assert(sizeof(ToggleWithCallbacks::SelectionState) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDF7E5C
+    // [CompilerGeneratedAttribute] Offset: 0xDF9E58
     // private System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x120
@@ -99,21 +99,21 @@ namespace HMUI {
     // Creating value type constructor for type: ToggleWithCallbacks
     ToggleWithCallbacks(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent_ = {}) noexcept : stateDidChangeEvent{stateDidChangeEvent_} {}
     // public System.Void add_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x12A2CEC
+    // Offset: 0x12BD9FC
     void add_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public System.Void remove_stateDidChangeEvent(System.Action`1<HMUI.ToggleWithCallbacks/SelectionState> value)
-    // Offset: 0x12A2FA4
+    // Offset: 0x12BDCB4
     void remove_stateDidChangeEvent(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* value);
     // public HMUI.ToggleWithCallbacks/SelectionState get_selectionState()
-    // Offset: 0x12A3054
+    // Offset: 0x12BDD64
     HMUI::ToggleWithCallbacks::SelectionState get_selectionState();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x12A72E0
+    // Offset: 0x12C1FF0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x12A736C
+    // Offset: 0x12C207C
     // Implemented from: UnityEngine.UI.Toggle
     // Base method: System.Void Toggle::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -132,6 +132,52 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ToggleWithCallbacks), 288 + sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)> __HMUI_ToggleWithCallbacksSizeCheck;
   static_assert(sizeof(ToggleWithCallbacks) == 0x128);
+  // Writing MetadataGetter for method: ToggleWithCallbacks::add_stateDidChangeEvent
+  // Il2CppName: add_stateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&ToggleWithCallbacks::add_stateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ToggleWithCallbacks::remove_stateDidChangeEvent
+  // Il2CppName: remove_stateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&ToggleWithCallbacks::remove_stateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ToggleWithCallbacks::get_selectionState
+  // Il2CppName: get_selectionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ToggleWithCallbacks::SelectionState (ToggleWithCallbacks::*)()>(&ToggleWithCallbacks::get_selectionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ToggleWithCallbacks::DoStateTransition
+  // Il2CppName: DoStateTransition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&ToggleWithCallbacks::DoStateTransition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ToggleWithCallbacks::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)()>(&ToggleWithCallbacks::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)()>(&ToggleWithCallbacks::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");

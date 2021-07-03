@@ -43,12 +43,26 @@ namespace SFB {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
-    // Offset: 0xEE4334
+    // Offset: 0xEE4BE0
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::Array<::Il2CppString*>* filterExtensions)
   }; // SFB.ExtensionFilter
   #pragma pack(pop)
   static check_size<sizeof(ExtensionFilter), 8 + sizeof(::Array<::Il2CppString*>*)> __SFB_ExtensionFilterSizeCheck;
   static_assert(sizeof(ExtensionFilter) == 0x10);
+  // Writing MetadataGetter for method: ExtensionFilter::ExtensionFilter
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExtensionFilter::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&ExtensionFilter::ExtensionFilter<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExtensionFilter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExtensionFilter::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&ExtensionFilter::ExtensionFilter<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExtensionFilter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(SFB::ExtensionFilter, "SFB", "ExtensionFilter");

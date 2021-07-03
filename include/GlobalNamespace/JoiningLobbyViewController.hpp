@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26090
+    // [CompilerGeneratedAttribute] Offset: 0xE260F4
     // private System.Action didFinishEvent
     // Size: 0x8
     // Offset: 0x88
@@ -63,27 +63,27 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: JoiningLobbyViewController
     JoiningLobbyViewController(UnityEngine::UI::Button* cancelJoiningButton_ = {}, GlobalNamespace::LoadingControl* loadingControl_ = {}, ::Il2CppString* text_ = {}, System::Action* didFinishEvent_ = {}) noexcept : cancelJoiningButton{cancelJoiningButton_}, loadingControl{loadingControl_}, text{text_}, didFinishEvent{didFinishEvent_} {}
     // public System.Void add_didFinishEvent(System.Action value)
-    // Offset: 0x106B37C
+    // Offset: 0x10C5F4C
     void add_didFinishEvent(System::Action* value);
     // public System.Void remove_didFinishEvent(System.Action value)
-    // Offset: 0x106B420
+    // Offset: 0x10C5FF0
     void remove_didFinishEvent(System::Action* value);
     // public System.Void Init(System.String text)
-    // Offset: 0x106B4C4
+    // Offset: 0x10C6094
     void Init(::Il2CppString* text);
     // public System.Void HideLoading()
-    // Offset: 0x106B4FC
+    // Offset: 0x10C60CC
     void HideLoading();
     // private System.Void <DidActivate>b__8_0()
-    // Offset: 0x106B610
+    // Offset: 0x10C61E0
     void $DidActivate$b__8_0();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x106B548
+    // Offset: 0x10C6118
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x106B608
+    // Offset: 0x10C61D8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -100,5 +100,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(JoiningLobbyViewController), 136 + sizeof(System::Action*)> __GlobalNamespace_JoiningLobbyViewControllerSizeCheck;
   static_assert(sizeof(JoiningLobbyViewController) == 0x90);
+  // Writing MetadataGetter for method: JoiningLobbyViewController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)(System::Action*)>(&JoiningLobbyViewController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: JoiningLobbyViewController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)(System::Action*)>(&JoiningLobbyViewController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: JoiningLobbyViewController::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)(::Il2CppString*)>(&JoiningLobbyViewController::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: JoiningLobbyViewController::HideLoading
+  // Il2CppName: HideLoading
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)()>(&JoiningLobbyViewController::HideLoading)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), "HideLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: JoiningLobbyViewController::$DidActivate$b__8_0
+  // Il2CppName: <DidActivate>b__8_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)()>(&JoiningLobbyViewController::$DidActivate$b__8_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: JoiningLobbyViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)(bool, bool, bool)>(&JoiningLobbyViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: JoiningLobbyViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)()>(&JoiningLobbyViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JoiningLobbyViewController::*)()>(&JoiningLobbyViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(JoiningLobbyViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoiningLobbyViewController*, "", "JoiningLobbyViewController");

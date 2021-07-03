@@ -76,14 +76,14 @@ namespace GlobalNamespace {
     MusicPackPromoBanner(TMPro::TextMeshProUGUI* promoText_ = {}, UnityEngine::UI::Image* backgroundImage_ = {}, UnityEngine::UI::Image* coverImage_ = {}, TMPro::TextMeshProUGUI* promoButtonText_ = {}, GlobalNamespace::IBeatmapLevelPack* currentPromoMusicPack_ = {}) noexcept : promoText{promoText_}, backgroundImage{backgroundImage_}, coverImage{coverImage_}, promoButtonText{promoButtonText_}, currentPromoMusicPack{currentPromoMusicPack_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [LocalizationKeyAttribute] Offset: 0xE27778
+    // [LocalizationKeyAttribute] Offset: 0xE277BC
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
     static ::Il2CppString* _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
     static void _set_kPlayNow(::Il2CppString* value);
-    // [LocalizationKeyAttribute] Offset: 0xE27788
+    // [LocalizationKeyAttribute] Offset: 0xE277CC
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
@@ -91,16 +91,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kGetNow
     static void _set_kGetNow(::Il2CppString* value);
     // public IBeatmapLevelPack get_currentPromoMusicPack()
-    // Offset: 0x23EA2BC
+    // Offset: 0x1014E38
     GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
-    // Offset: 0x23EA2C4
+    // Offset: 0x1014E40
     ::Il2CppString* get_promoButtonText();
     // public System.Void Setup(DlcPromoExperimentDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
-    // Offset: 0x23EA2E0
+    // Offset: 0x1014E5C
     void Setup(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
     // public System.Void .ctor()
-    // Offset: 0x23EA4A8
+    // Offset: 0x1015024
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -116,5 +116,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MusicPackPromoBanner), 56 + sizeof(GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_MusicPackPromoBannerSizeCheck;
   static_assert(sizeof(MusicPackPromoBanner) == 0x40);
+  // Writing MetadataGetter for method: MusicPackPromoBanner::get_currentPromoMusicPack
+  // Il2CppName: get_currentPromoMusicPack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::get_currentPromoMusicPack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), "get_currentPromoMusicPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MusicPackPromoBanner::get_promoButtonText
+  // Il2CppName: get_promoButtonText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::get_promoButtonText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), "get_promoButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MusicPackPromoBanner::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MusicPackPromoBanner::*)(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, bool)>(&MusicPackPromoBanner::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MusicPackPromoBanner::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MusicPackPromoBanner*, "", "MusicPackPromoBanner");

@@ -46,20 +46,20 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x171F5E4
+    // Offset: 0x17372F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestMethodCommand* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestMethodCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestMethodCommand*, creationType>(testMethod)));
     }
     // private System.Object RunTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x171F7C4
+    // Offset: 0x17374D4
     ::Il2CppObject* RunTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Object RunNonAsyncTestMethod(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x171F7C8
+    // Offset: 0x17374D8
     ::Il2CppObject* RunNonAsyncTestMethod(NUnit::Framework::Internal::ITestExecutionContext* context);
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x171F628
+    // Offset: 0x1737338
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
@@ -67,5 +67,43 @@ namespace NUnit::Framework::Internal::Commands {
   #pragma pack(pop)
   static check_size<sizeof(TestMethodCommand), 32 + sizeof(::Array<::Il2CppObject*>*)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
   static_assert(sizeof(TestMethodCommand) == 0x28);
+  // Writing MetadataGetter for method: TestMethodCommand::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestMethodCommand::*)(NUnit::Framework::Internal::TestMethod*)>(&TestMethodCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestMethodCommand::*)(NUnit::Framework::Internal::TestMethod*)>(&TestMethodCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestMethodCommand::RunTestMethod
+  // Il2CppName: RunTestMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::RunTestMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "RunTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestMethodCommand::RunNonAsyncTestMethod
+  // Il2CppName: RunNonAsyncTestMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::RunNonAsyncTestMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "RunNonAsyncTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestMethodCommand::Execute
+  // Il2CppName: Execute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestMethodCommand::Execute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestMethodCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestMethodCommand*, "NUnit.Framework.Internal.Commands", "TestMethodCommand");

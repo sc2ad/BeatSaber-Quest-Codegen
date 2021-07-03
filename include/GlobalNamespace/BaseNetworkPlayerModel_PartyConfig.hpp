@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PartyConfig
     PartyConfig(GlobalNamespace::GameplayServerConfiguration configuration_ = {}, int maxPartySize_ = {}, GlobalNamespace::INetworkPlayerModel* partyManager_ = {}) noexcept : configuration{configuration_}, maxPartySize{maxPartySize_}, partyManager{partyManager_} {}
     // public System.Void .ctor()
-    // Offset: 0x119EFD8
+    // Offset: 0x11B905C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,5 +59,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BaseNetworkPlayerModel::PartyConfig), 48 + sizeof(GlobalNamespace::INetworkPlayerModel*)> __GlobalNamespace_BaseNetworkPlayerModel_PartyConfigSizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel::PartyConfig) == 0x38);
+  // Writing MetadataGetter for method: BaseNetworkPlayerModel::PartyConfig::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNetworkPlayerModel::PartyConfig::*)()>(&BaseNetworkPlayerModel::PartyConfig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseNetworkPlayerModel::PartyConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNetworkPlayerModel::PartyConfig::*)()>(&BaseNetworkPlayerModel::PartyConfig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseNetworkPlayerModel::PartyConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::PartyConfig*, "", "BaseNetworkPlayerModel/PartyConfig");

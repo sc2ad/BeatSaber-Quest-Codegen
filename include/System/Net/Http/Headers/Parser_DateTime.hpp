@@ -36,13 +36,29 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
     static void _set_ToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
     // static public System.Boolean TryParse(System.String input, out System.DateTimeOffset result)
-    // Offset: 0x157E06C
+    // Offset: 0x1597D7C
     static bool TryParse(::Il2CppString* input, System::DateTimeOffset& result);
     // static private System.Void .cctor()
-    // Offset: 0x157E0E0
+    // Offset: 0x1597DF0
     static void _cctor();
   }; // System.Net.Http.Headers.Parser/DateTime
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Parser::DateTime::TryParse
+  // Il2CppName: TryParse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::DateTimeOffset&)>(&Parser::DateTime::TryParse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Parser::DateTime*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Parser::DateTime::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Parser::DateTime::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Parser::DateTime*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime*, "System.Net.Http.Headers", "Parser/DateTime");

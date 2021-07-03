@@ -27,6 +27,14 @@ namespace UnityEngine {
     UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, bool& idValid);
   }; // UnityEngine.IExposedPropertyTable
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IExposedPropertyTable::GetReferenceValue
+  // Il2CppName: GetReferenceValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (IExposedPropertyTable::*)(UnityEngine::PropertyName, bool&)>(&IExposedPropertyTable::GetReferenceValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IExposedPropertyTable*), "GetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IExposedPropertyTable*, "UnityEngine", "IExposedPropertyTable");

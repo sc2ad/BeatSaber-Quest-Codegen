@@ -52,7 +52,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(System.Single solution1)
-    // Offset: 0xEE3EDC
+    // Offset: 0xEE57D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1);
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2)
-    // Offset: 0xEE3EF0
+    // Offset: 0xEE57E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, solution1, solution2);
     }
     // public System.Void .ctor(System.Single solution1, System.Single solution2, System.Single solution3)
-    // Offset: 0xEE3F04
+    // Offset: 0xEE57FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     CubicSolveResult(float solution1, float solution2, float solution3) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::CubicSolveResult::.ctor");
@@ -79,5 +79,47 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BezierSplineEvaluator::CubicSolveResult), 12 + sizeof(float)> __GlobalNamespace_BezierSplineEvaluator_CubicSolveResultSizeCheck;
   static_assert(sizeof(BezierSplineEvaluator::CubicSolveResult) == 0x10);
+  // Writing MetadataGetter for method: BezierSplineEvaluator::CubicSolveResult::CubicSolveResult
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::CubicSolveResult::*)(float)>(&BezierSplineEvaluator::CubicSolveResult::CubicSolveResult<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator::CubicSolveResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::CubicSolveResult::*)(float)>(&BezierSplineEvaluator::CubicSolveResult::CubicSolveResult<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator::CubicSolveResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BezierSplineEvaluator::CubicSolveResult::CubicSolveResult
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::CubicSolveResult::*)(float, float)>(&BezierSplineEvaluator::CubicSolveResult::CubicSolveResult<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator::CubicSolveResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::CubicSolveResult::*)(float, float)>(&BezierSplineEvaluator::CubicSolveResult::CubicSolveResult<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator::CubicSolveResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BezierSplineEvaluator::CubicSolveResult::CubicSolveResult
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::CubicSolveResult::*)(float, float, float)>(&BezierSplineEvaluator::CubicSolveResult::CubicSolveResult<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator::CubicSolveResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::CubicSolveResult::*)(float, float, float)>(&BezierSplineEvaluator::CubicSolveResult::CubicSolveResult<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator::CubicSolveResult), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator::CubicSolveResult, "", "BezierSplineEvaluator/CubicSolveResult");

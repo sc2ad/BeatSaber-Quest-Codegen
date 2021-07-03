@@ -53,27 +53,73 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HeaderBucket
     HeaderBucket(::Il2CppObject* Parsed_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* values_ = {}, System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString_ = {}) noexcept : Parsed{Parsed_}, values{values_}, CustomToString{CustomToString_} {}
     // public System.Void .ctor(System.Object parsed, System.Func`2<System.Object,System.String> converter)
-    // Offset: 0x157A55C
+    // Offset: 0x159426C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpHeaders::HeaderBucket* New_ctor(::Il2CppObject* parsed, System::Func_2<::Il2CppObject*, ::Il2CppString*>* converter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpHeaders::HeaderBucket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpHeaders::HeaderBucket*, creationType>(parsed, converter)));
     }
     // public System.Boolean get_HasStringValues()
-    // Offset: 0x157B15C
+    // Offset: 0x1594E6C
     bool get_HasStringValues();
     // public System.Collections.Generic.List`1<System.String> get_Values()
-    // Offset: 0x157A598
+    // Offset: 0x15942A8
     System::Collections::Generic::List_1<::Il2CppString*>* get_Values();
     // public System.Void set_Values(System.Collections.Generic.List`1<System.String> value)
-    // Offset: 0x157B64C
+    // Offset: 0x159535C
     void set_Values(System::Collections::Generic::List_1<::Il2CppString*>* value);
     // public System.String ParsedToString()
-    // Offset: 0x157B0D8
+    // Offset: 0x1594DE8
     ::Il2CppString* ParsedToString();
   }; // System.Net.Http.Headers.HttpHeaders/HeaderBucket
   #pragma pack(pop)
   static check_size<sizeof(HttpHeaders::HeaderBucket), 32 + sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)> __System_Net_Http_Headers_HttpHeaders_HeaderBucketSizeCheck;
   static_assert(sizeof(HttpHeaders::HeaderBucket) == 0x28);
+  // Writing MetadataGetter for method: HttpHeaders::HeaderBucket::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpHeaders::HeaderBucket::*)(::Il2CppObject*, System::Func_2<::Il2CppObject*, ::Il2CppString*>*)>(&HttpHeaders::HeaderBucket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpHeaders::HeaderBucket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppObject*, ::Il2CppString*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpHeaders::HeaderBucket::*)(::Il2CppObject*, System::Func_2<::Il2CppObject*, ::Il2CppString*>*)>(&HttpHeaders::HeaderBucket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpHeaders::HeaderBucket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppObject*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpHeaders::HeaderBucket::get_HasStringValues
+  // Il2CppName: get_HasStringValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpHeaders::HeaderBucket::*)()>(&HttpHeaders::HeaderBucket::get_HasStringValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpHeaders::HeaderBucket*), "get_HasStringValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpHeaders::HeaderBucket::get_Values
+  // Il2CppName: get_Values
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (HttpHeaders::HeaderBucket::*)()>(&HttpHeaders::HeaderBucket::get_Values)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpHeaders::HeaderBucket*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpHeaders::HeaderBucket::set_Values
+  // Il2CppName: set_Values
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpHeaders::HeaderBucket::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&HttpHeaders::HeaderBucket::set_Values)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpHeaders::HeaderBucket*), "set_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpHeaders::HeaderBucket::ParsedToString
+  // Il2CppName: ParsedToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpHeaders::HeaderBucket::*)()>(&HttpHeaders::HeaderBucket::ParsedToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpHeaders::HeaderBucket*), "ParsedToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders::HeaderBucket*, "System.Net.Http.Headers", "HttpHeaders/HeaderBucket");

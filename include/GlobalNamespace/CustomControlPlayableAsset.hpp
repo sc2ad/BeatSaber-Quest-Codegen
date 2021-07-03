@@ -38,10 +38,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: CustomControlPlayableAsset
     CustomControlPlayableAsset(GlobalNamespace::AvatarColorBehaviour* _template_ = {}) noexcept : _template{_template_} {}
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x109B3F0
+    // Offset: 0x1199534
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x109B3F8
+    // Offset: 0x119953C
     // Implemented from: UnityEngine.Timeline.ControlPlayableAsset
     // Base method: System.Void ControlPlayableAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()
@@ -55,5 +55,27 @@ namespace GlobalNamespace {
     }
   }; // CustomControlPlayableAsset
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: CustomControlPlayableAsset::get_clipCaps
+  // Il2CppName: get_clipCaps
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (CustomControlPlayableAsset::*)()>(&CustomControlPlayableAsset::get_clipCaps)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomControlPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomControlPlayableAsset::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomControlPlayableAsset::*)()>(&CustomControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomControlPlayableAsset::*)()>(&CustomControlPlayableAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomControlPlayableAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomControlPlayableAsset*, "", "CustomControlPlayableAsset");

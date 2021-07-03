@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* btsCharactersResultsAppearPlayableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE13164
+    // [SpaceAttribute] Offset: 0xE13160
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
@@ -97,31 +97,31 @@ namespace GlobalNamespace {
     // Set static field: static private BeatmapEventType kCharacterDisplayEventType
     static void _set_kCharacterDisplayEventType(GlobalNamespace::BeatmapEventType value);
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)
-    // Offset: 0x1088224
+    // Offset: 0x1112B80
     void SpawnBtsCharacters(GlobalNamespace::BTSCharacterDataModel::PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
     // private System.Collections.IEnumerator DestroyCharactersDelayed()
-    // Offset: 0x10887D0
+    // Offset: 0x111312C
     System::Collections::IEnumerator* DestroyCharactersDelayed();
     // private System.Void DestroyCharactersAndStopAnimations()
-    // Offset: 0x1088740
+    // Offset: 0x111309C
     void DestroyCharactersAndStopAnimations();
     // public override System.Void Setup(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1087E18
+    // Offset: 0x1112774
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Setup(IDifficultyBeatmap difficultyBeatmap)
     void Setup(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public override System.Void Activate(System.Boolean immediately)
-    // Offset: 0x10884E8
+    // Offset: 0x1112E44
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Activate(System.Boolean immediately)
     void Activate(bool immediately);
     // public override System.Void Deactivate(System.Boolean immediately)
-    // Offset: 0x1088590
+    // Offset: 0x1112EEC
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::Deactivate(System.Boolean immediately)
     void Deactivate(bool immediately);
     // public System.Void .ctor()
-    // Offset: 0x1088974
+    // Offset: 0x11132D0
     // Implemented from: BaseResultsEnvironmentController
     // Base method: System.Void BaseResultsEnvironmentController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -138,5 +138,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BtsResultsEnvironmentController), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)> __GlobalNamespace_BtsResultsEnvironmentControllerSizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController) == 0x40);
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::SpawnBtsCharacters
+  // Il2CppName: SpawnBtsCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, bool)>(&BtsResultsEnvironmentController::SpawnBtsCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), "SpawnBtsCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::DestroyCharactersDelayed
+  // Il2CppName: DestroyCharactersDelayed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (BtsResultsEnvironmentController::*)()>(&BtsResultsEnvironmentController::DestroyCharactersDelayed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), "DestroyCharactersDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::DestroyCharactersAndStopAnimations
+  // Il2CppName: DestroyCharactersAndStopAnimations
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)()>(&BtsResultsEnvironmentController::DestroyCharactersAndStopAnimations)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), "DestroyCharactersAndStopAnimations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&BtsResultsEnvironmentController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::Activate
+  // Il2CppName: Activate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)(bool)>(&BtsResultsEnvironmentController::Activate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::Deactivate
+  // Il2CppName: Deactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)(bool)>(&BtsResultsEnvironmentController::Deactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)()>(&BtsResultsEnvironmentController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::*)()>(&BtsResultsEnvironmentController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController*, "", "BtsResultsEnvironmentController");

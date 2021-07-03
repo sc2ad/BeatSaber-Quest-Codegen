@@ -88,15 +88,57 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bytes, offset);
     }
     // static private System.UInt32 GetHexDigit(System.Char c)
-    // Offset: 0x232DE7C
+    // Offset: 0x2347BD8
     static uint GetHexDigit(::Il2CppChar c);
     // static private System.UInt32 GetBase64Digit(System.Char c)
-    // Offset: 0x232DECC
+    // Offset: 0x2347C28
     static uint GetBase64Digit(::Il2CppChar c);
     // static private System.Char GetBase64Char(System.UInt64 digit)
-    // Offset: 0x232DF3C
+    // Offset: 0x2347C98
     static ::Il2CppChar GetBase64Char(uint64_t digit);
   }; // IBitMaskUtil
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IBitMaskUtil::NumberOfSetBits
+  // Il2CppName: NumberOfSetBits
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IBitMaskUtil::ToShortString
+  // Il2CppName: ToShortString
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IBitMaskUtil::ToBytes
+  // Il2CppName: ToBytes
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IBitMaskUtil::TryParse
+  // Il2CppName: TryParse
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IBitMaskUtil::TryParse
+  // Il2CppName: TryParse
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IBitMaskUtil::FromBytes
+  // Il2CppName: FromBytes
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: IBitMaskUtil::GetHexDigit
+  // Il2CppName: GetHexDigit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&IBitMaskUtil::GetHexDigit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBitMaskUtil*), "GetHexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: IBitMaskUtil::GetBase64Digit
+  // Il2CppName: GetBase64Digit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&IBitMaskUtil::GetBase64Digit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBitMaskUtil*), "GetBase64Digit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: IBitMaskUtil::GetBase64Char
+  // Il2CppName: GetBase64Char
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint64_t)>(&IBitMaskUtil::GetBase64Char)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBitMaskUtil*), "GetBase64Char", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBitMaskUtil*, "", "IBitMaskUtil");

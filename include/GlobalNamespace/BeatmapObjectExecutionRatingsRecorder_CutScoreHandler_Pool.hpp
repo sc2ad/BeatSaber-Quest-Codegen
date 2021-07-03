@@ -22,10 +22,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Pool
     Pool() noexcept {}
     // protected System.Void OnDespawned(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler item)
-    // Offset: 0x107D498
+    // Offset: 0x1107DF4
     void OnDespawned(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler* item);
     // public System.Void .ctor()
-    // Offset: 0x107D4B0
+    // Offset: 0x1107E0C
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()
@@ -36,5 +36,27 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool*, creationType>()));
     }
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::OnDespawned
+  // Il2CppName: OnDespawned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*)>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::OnDespawned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::*)()>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::*)()>(&BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::CutScoreHandler::Pool*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool");

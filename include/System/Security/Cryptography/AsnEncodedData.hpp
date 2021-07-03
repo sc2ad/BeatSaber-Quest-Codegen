@@ -38,63 +38,63 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: AsnEncodedData
     AsnEncodedData(System::Security::Cryptography::Oid* oid_ = {}, ::Array<uint8_t>* raw_ = {}) noexcept : oid{oid_}, raw{raw_} {}
     // public System.Void .ctor(System.String oid, System.Byte[] rawData)
-    // Offset: 0x15B41F0
+    // Offset: 0x15CDF00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(::Il2CppString* oid, ::Array<uint8_t>* rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid, System.Byte[] rawData)
-    // Offset: 0x15B4340
+    // Offset: 0x15CE050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(System::Security::Cryptography::Oid* oid, ::Array<uint8_t>* rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Security.Cryptography.Oid get_Oid()
-    // Offset: 0x15B4404
+    // Offset: 0x15CE114
     System::Security::Cryptography::Oid* get_Oid();
     // public System.Void set_Oid(System.Security.Cryptography.Oid value)
-    // Offset: 0x15B4388
+    // Offset: 0x15CE098
     void set_Oid(System::Security::Cryptography::Oid* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x15B440C
+    // Offset: 0x15CE11C
     ::Array<uint8_t>* get_RawData();
     // public System.Void set_RawData(System.Byte[] value)
-    // Offset: 0x15B4278
+    // Offset: 0x15CDF88
     void set_RawData(::Array<uint8_t>* value);
     // public System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x15B4414
+    // Offset: 0x15CE124
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // public System.String Format(System.Boolean multiLine)
-    // Offset: 0x15B4508
+    // Offset: 0x15CE218
     ::Il2CppString* Format(bool multiLine);
     // System.String ToString(System.Boolean multiLine)
-    // Offset: 0x15B46C8
+    // Offset: 0x15CE3D8
     ::Il2CppString* ToString(bool multiLine);
     // System.String Default(System.Boolean multiLine)
-    // Offset: 0x15B45B0
+    // Offset: 0x15CE2C0
     ::Il2CppString* Default(bool multiLine);
     // System.String BasicConstraintsExtension(System.Boolean multiLine)
-    // Offset: 0x15B4864
+    // Offset: 0x15CE574
     ::Il2CppString* BasicConstraintsExtension(bool multiLine);
     // System.String EnhancedKeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x15B497C
+    // Offset: 0x15CE68C
     ::Il2CppString* EnhancedKeyUsageExtension(bool multiLine);
     // System.String KeyUsageExtension(System.Boolean multiLine)
-    // Offset: 0x15B4A94
+    // Offset: 0x15CE7A4
     ::Il2CppString* KeyUsageExtension(bool multiLine);
     // System.String SubjectKeyIdentifierExtension(System.Boolean multiLine)
-    // Offset: 0x15B4BAC
+    // Offset: 0x15CE8BC
     ::Il2CppString* SubjectKeyIdentifierExtension(bool multiLine);
     // System.String SubjectAltName(System.Boolean multiLine)
-    // Offset: 0x15B4CC4
+    // Offset: 0x15CE9D4
     ::Il2CppString* SubjectAltName(bool multiLine);
     // System.String NetscapeCertType(System.Boolean multiLine)
-    // Offset: 0x15B5040
+    // Offset: 0x15CED50
     ::Il2CppString* NetscapeCertType(bool multiLine);
     // protected System.Void .ctor()
-    // Offset: 0x15B41E8
+    // Offset: 0x15CDEF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -106,5 +106,159 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(AsnEncodedData), 24 + sizeof(::Array<uint8_t>*)> __System_Security_Cryptography_AsnEncodedDataSizeCheck;
   static_assert(sizeof(AsnEncodedData) == 0x20);
+  // Writing MetadataGetter for method: AsnEncodedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(::Il2CppString*, ::Array<uint8_t>*)>(&AsnEncodedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(::Il2CppString*, ::Array<uint8_t>*)>(&AsnEncodedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(System::Security::Cryptography::Oid*, ::Array<uint8_t>*)>(&AsnEncodedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::Oid*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(System::Security::Cryptography::Oid*, ::Array<uint8_t>*)>(&AsnEncodedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::Oid*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::get_Oid
+  // Il2CppName: get_Oid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::Oid* (AsnEncodedData::*)()>(&AsnEncodedData::get_Oid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::set_Oid
+  // Il2CppName: set_Oid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(System::Security::Cryptography::Oid*)>(&AsnEncodedData::set_Oid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "set_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::Oid*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::get_RawData
+  // Il2CppName: get_RawData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AsnEncodedData::*)()>(&AsnEncodedData::get_RawData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "get_RawData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::set_RawData
+  // Il2CppName: set_RawData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(::Array<uint8_t>*)>(&AsnEncodedData::set_RawData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "set_RawData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::CopyFrom
+  // Il2CppName: CopyFrom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)(System::Security::Cryptography::AsnEncodedData*)>(&AsnEncodedData::CopyFrom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::AsnEncodedData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::Format
+  // Il2CppName: Format
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::Format)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::Default
+  // Il2CppName: Default
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::Default)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::BasicConstraintsExtension
+  // Il2CppName: BasicConstraintsExtension
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::BasicConstraintsExtension)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "BasicConstraintsExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::EnhancedKeyUsageExtension
+  // Il2CppName: EnhancedKeyUsageExtension
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::EnhancedKeyUsageExtension)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "EnhancedKeyUsageExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::KeyUsageExtension
+  // Il2CppName: KeyUsageExtension
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::KeyUsageExtension)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "KeyUsageExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::SubjectKeyIdentifierExtension
+  // Il2CppName: SubjectKeyIdentifierExtension
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::SubjectKeyIdentifierExtension)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "SubjectKeyIdentifierExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::SubjectAltName
+  // Il2CppName: SubjectAltName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::SubjectAltName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "SubjectAltName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::NetscapeCertType
+  // Il2CppName: NetscapeCertType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsnEncodedData::*)(bool)>(&AsnEncodedData::NetscapeCertType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), "NetscapeCertType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsnEncodedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)()>(&AsnEncodedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsnEncodedData::*)()>(&AsnEncodedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsnEncodedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnEncodedData*, "System.Security.Cryptography", "AsnEncodedData");

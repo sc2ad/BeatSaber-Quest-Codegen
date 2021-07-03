@@ -36,19 +36,19 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);
     }
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x2295AB8
+    // Offset: 0x22B0814
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x2295ABC
+    // Offset: 0x22B0818
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void TestOutput(NUnit.Framework.Interfaces.TestOutput output)
-    // Offset: 0x2295AC0
+    // Offset: 0x22B081C
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
     // static public NUnit.Framework.Interfaces.ITestListener get_NULL()
-    // Offset: 0x2294A88
+    // Offset: 0x22AF7E4
     static NUnit::Framework::Interfaces::ITestListener* get_NULL();
     // private System.Void .ctor()
-    // Offset: 0x2295AC4
+    // Offset: 0x22B0820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -58,5 +58,51 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.TestListener
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TestListener::TestStarted
+  // Il2CppName: TestStarted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestListener::*)(NUnit::Framework::Interfaces::ITest*)>(&TestListener::TestStarted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestListener*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestListener::TestFinished
+  // Il2CppName: TestFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestListener::*)(NUnit::Framework::Interfaces::ITestResult*)>(&TestListener::TestFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestListener*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestListener::TestOutput
+  // Il2CppName: TestOutput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestListener::*)(NUnit::Framework::Interfaces::TestOutput*)>(&TestListener::TestOutput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestListener*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TestOutput*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestListener::get_NULL
+  // Il2CppName: get_NULL
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestListener* (*)()>(&TestListener::get_NULL)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestListener*), "get_NULL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestListener::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestListener::*)()>(&TestListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestListener::*)()>(&TestListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestListener*, "NUnit.Framework.Internal", "TestListener");

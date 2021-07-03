@@ -32,55 +32,55 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: BaseInput
     BaseInput() noexcept {}
     // public System.String get_compositionString()
-    // Offset: 0x141249C
+    // Offset: 0x142D1AC
     ::Il2CppString* get_compositionString();
     // public UnityEngine.IMECompositionMode get_imeCompositionMode()
-    // Offset: 0x14124A4
+    // Offset: 0x142D1B4
     UnityEngine::IMECompositionMode get_imeCompositionMode();
     // public System.Void set_imeCompositionMode(UnityEngine.IMECompositionMode value)
-    // Offset: 0x14124AC
+    // Offset: 0x142D1BC
     void set_imeCompositionMode(UnityEngine::IMECompositionMode value);
     // public UnityEngine.Vector2 get_compositionCursorPos()
-    // Offset: 0x14124B8
+    // Offset: 0x142D1C8
     UnityEngine::Vector2 get_compositionCursorPos();
     // public System.Void set_compositionCursorPos(UnityEngine.Vector2 value)
-    // Offset: 0x14124C0
+    // Offset: 0x142D1D0
     void set_compositionCursorPos(UnityEngine::Vector2 value);
     // public System.Boolean get_mousePresent()
-    // Offset: 0x14124C8
+    // Offset: 0x142D1D8
     bool get_mousePresent();
     // public System.Boolean GetMouseButtonDown(System.Int32 button)
-    // Offset: 0x14124D0
+    // Offset: 0x142D1E0
     bool GetMouseButtonDown(int button);
     // public System.Boolean GetMouseButtonUp(System.Int32 button)
-    // Offset: 0x14124DC
+    // Offset: 0x142D1EC
     bool GetMouseButtonUp(int button);
     // public System.Boolean GetMouseButton(System.Int32 button)
-    // Offset: 0x14124E8
+    // Offset: 0x142D1F8
     bool GetMouseButton(int button);
     // public UnityEngine.Vector2 get_mousePosition()
-    // Offset: 0x14124F4
+    // Offset: 0x142D204
     UnityEngine::Vector2 get_mousePosition();
     // public UnityEngine.Vector2 get_mouseScrollDelta()
-    // Offset: 0x14124FC
+    // Offset: 0x142D20C
     UnityEngine::Vector2 get_mouseScrollDelta();
     // public System.Boolean get_touchSupported()
-    // Offset: 0x1412504
+    // Offset: 0x142D214
     bool get_touchSupported();
     // public System.Int32 get_touchCount()
-    // Offset: 0x141250C
+    // Offset: 0x142D21C
     int get_touchCount();
     // public UnityEngine.Touch GetTouch(System.Int32 index)
-    // Offset: 0x1412514
+    // Offset: 0x142D224
     UnityEngine::Touch GetTouch(int index);
     // public System.Single GetAxisRaw(System.String axisName)
-    // Offset: 0x1412520
+    // Offset: 0x142D230
     float GetAxisRaw(::Il2CppString* axisName);
     // public System.Boolean GetButtonDown(System.String buttonName)
-    // Offset: 0x141252C
+    // Offset: 0x142D23C
     bool GetButtonDown(::Il2CppString* buttonName);
     // public System.Void .ctor()
-    // Offset: 0x1412538
+    // Offset: 0x142D248
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -95,5 +95,147 @@ namespace UnityEngine::EventSystems {
     }
   }; // UnityEngine.EventSystems.BaseInput
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BaseInput::get_compositionString
+  // Il2CppName: get_compositionString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseInput::*)()>(&BaseInput::get_compositionString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_imeCompositionMode
+  // Il2CppName: get_imeCompositionMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IMECompositionMode (BaseInput::*)()>(&BaseInput::get_imeCompositionMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_imeCompositionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::set_imeCompositionMode
+  // Il2CppName: set_imeCompositionMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseInput::*)(UnityEngine::IMECompositionMode)>(&BaseInput::set_imeCompositionMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "set_imeCompositionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::IMECompositionMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_compositionCursorPos
+  // Il2CppName: get_compositionCursorPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (BaseInput::*)()>(&BaseInput::get_compositionCursorPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::set_compositionCursorPos
+  // Il2CppName: set_compositionCursorPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseInput::*)(UnityEngine::Vector2)>(&BaseInput::set_compositionCursorPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "set_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_mousePresent
+  // Il2CppName: get_mousePresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseInput::*)()>(&BaseInput::get_mousePresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_mousePresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::GetMouseButtonDown
+  // Il2CppName: GetMouseButtonDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseInput::*)(int)>(&BaseInput::GetMouseButtonDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "GetMouseButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::GetMouseButtonUp
+  // Il2CppName: GetMouseButtonUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseInput::*)(int)>(&BaseInput::GetMouseButtonUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "GetMouseButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::GetMouseButton
+  // Il2CppName: GetMouseButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseInput::*)(int)>(&BaseInput::GetMouseButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "GetMouseButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_mousePosition
+  // Il2CppName: get_mousePosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (BaseInput::*)()>(&BaseInput::get_mousePosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_mousePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_mouseScrollDelta
+  // Il2CppName: get_mouseScrollDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (BaseInput::*)()>(&BaseInput::get_mouseScrollDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_mouseScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_touchSupported
+  // Il2CppName: get_touchSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseInput::*)()>(&BaseInput::get_touchSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_touchSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::get_touchCount
+  // Il2CppName: get_touchCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BaseInput::*)()>(&BaseInput::get_touchCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "get_touchCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::GetTouch
+  // Il2CppName: GetTouch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Touch (BaseInput::*)(int)>(&BaseInput::GetTouch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::GetAxisRaw
+  // Il2CppName: GetAxisRaw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BaseInput::*)(::Il2CppString*)>(&BaseInput::GetAxisRaw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "GetAxisRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::GetButtonDown
+  // Il2CppName: GetButtonDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BaseInput::*)(::Il2CppString*)>(&BaseInput::GetButtonDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), "GetButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseInput::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseInput::*)()>(&BaseInput::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseInput::*)()>(&BaseInput::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseInput*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInput*, "UnityEngine.EventSystems", "BaseInput");

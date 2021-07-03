@@ -43,21 +43,51 @@ namespace UnityEngine::TestTools::TestRunner {
       return m_TestMethod;
     }
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
-    // Offset: 0x149C088
+    // Offset: 0x14B6D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestEnumeratorWrapper* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumeratorWrapper*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerator GetEnumerator(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x149C0B4
+    // Offset: 0x14B6DC4
     System::Collections::IEnumerator* GetEnumerator(NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Collections.IEnumerator HandleEnumerableTest(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x14A41CC
+    // Offset: 0x14BEEDC
     System::Collections::IEnumerator* HandleEnumerableTest(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.TestRunner.TestEnumeratorWrapper
   #pragma pack(pop)
   static check_size<sizeof(TestEnumeratorWrapper), 16 + sizeof(NUnit::Framework::Internal::TestMethod*)> __UnityEngine_TestTools_TestRunner_TestEnumeratorWrapperSizeCheck;
   static_assert(sizeof(TestEnumeratorWrapper) == 0x18);
+  // Writing MetadataGetter for method: TestEnumeratorWrapper::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::TestMethod*)>(&TestEnumeratorWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::TestMethod*)>(&TestEnumeratorWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestEnumeratorWrapper::GetEnumerator
+  // Il2CppName: GetEnumerator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestEnumeratorWrapper::GetEnumerator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestEnumeratorWrapper::HandleEnumerableTest
+  // Il2CppName: HandleEnumerableTest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestEnumeratorWrapper::HandleEnumerableTest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");

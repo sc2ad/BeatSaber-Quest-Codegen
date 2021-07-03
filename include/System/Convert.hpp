@@ -52,628 +52,2284 @@ namespace System {
     // Set static field: static public readonly System.Object DBNull
     static void _set_DBNull(::Il2CppObject* value);
     // static public System.TypeCode GetTypeCode(System.Object value)
-    // Offset: 0x19641AC
+    // Offset: 0x197AEBC
     static System::TypeCode GetTypeCode(::Il2CppObject* value);
     // static public System.Object ChangeType(System.Object value, System.TypeCode typeCode, System.IFormatProvider provider)
-    // Offset: 0x1964280
+    // Offset: 0x197AF90
     static ::Il2CppObject* ChangeType(::Il2CppObject* value, System::TypeCode typeCode, System::IFormatProvider* provider);
     // static System.Object DefaultToType(System.IConvertible value, System.Type targetType, System.IFormatProvider provider)
-    // Offset: 0x1964B04
+    // Offset: 0x197B814
     static ::Il2CppObject* DefaultToType(System::IConvertible* value, System::Type* targetType, System::IFormatProvider* provider);
     // static public System.Object ChangeType(System.Object value, System.Type conversionType)
-    // Offset: 0x1965CEC
+    // Offset: 0x197C9FC
     static ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* conversionType);
     // static public System.Object ChangeType(System.Object value, System.Type conversionType, System.IFormatProvider provider)
-    // Offset: 0x1965D84
+    // Offset: 0x197CA94
     static ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* conversionType, System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1966D6C
+    // Offset: 0x197DA7C
     static bool ToBoolean(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.SByte value)
-    // Offset: 0x1966E80
+    // Offset: 0x197DB90
     static bool ToBoolean(int8_t value);
     // static public System.Boolean ToBoolean(System.Byte value)
-    // Offset: 0x1966E8C
+    // Offset: 0x197DB9C
     static bool ToBoolean(uint8_t value);
     // static public System.Boolean ToBoolean(System.Int16 value)
-    // Offset: 0x1966E98
+    // Offset: 0x197DBA8
     static bool ToBoolean(int16_t value);
     // static public System.Boolean ToBoolean(System.UInt16 value)
-    // Offset: 0x1966EA4
+    // Offset: 0x197DBB4
     static bool ToBoolean(uint16_t value);
     // static public System.Boolean ToBoolean(System.Int32 value)
-    // Offset: 0x1966EB0
+    // Offset: 0x197DBC0
     static bool ToBoolean(int value);
     // static public System.Boolean ToBoolean(System.UInt32 value)
-    // Offset: 0x1966EBC
+    // Offset: 0x197DBCC
     static bool ToBoolean(uint value);
     // static public System.Boolean ToBoolean(System.Int64 value)
-    // Offset: 0x1966EC8
+    // Offset: 0x197DBD8
     static bool ToBoolean(int64_t value);
     // static public System.Boolean ToBoolean(System.UInt64 value)
-    // Offset: 0x1966ED4
+    // Offset: 0x197DBE4
     static bool ToBoolean(uint64_t value);
     // static public System.Boolean ToBoolean(System.String value)
-    // Offset: 0x1966EE0
+    // Offset: 0x197DBF0
     static bool ToBoolean(::Il2CppString* value);
     // static public System.Boolean ToBoolean(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1966F5C
+    // Offset: 0x197DC6C
     static bool ToBoolean(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.Single value)
-    // Offset: 0x1966FD8
+    // Offset: 0x197DCE8
     static bool ToBoolean(float value);
     // static public System.Boolean ToBoolean(System.Double value)
-    // Offset: 0x1966FE4
+    // Offset: 0x197DCF4
     static bool ToBoolean(double value);
     // static public System.Boolean ToBoolean(System.Decimal value)
-    // Offset: 0x1966FF0
+    // Offset: 0x197DD00
     static bool ToBoolean(System::Decimal value);
     // static public System.Char ToChar(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1967074
+    // Offset: 0x197DD84
     static ::Il2CppChar ToChar(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Char ToChar(System.SByte value)
-    // Offset: 0x1967188
+    // Offset: 0x197DE98
     static ::Il2CppChar ToChar(int8_t value);
     // static public System.Char ToChar(System.Byte value)
-    // Offset: 0x1967220
+    // Offset: 0x197DF30
     static ::Il2CppChar ToChar(uint8_t value);
     // static public System.Char ToChar(System.Int16 value)
-    // Offset: 0x1967228
+    // Offset: 0x197DF38
     static ::Il2CppChar ToChar(int16_t value);
     // static public System.Char ToChar(System.UInt16 value)
-    // Offset: 0x19672C4
+    // Offset: 0x197DFD4
     static ::Il2CppChar ToChar(uint16_t value);
     // static public System.Char ToChar(System.Int32 value)
-    // Offset: 0x19672C8
+    // Offset: 0x197DFD8
     static ::Il2CppChar ToChar(int value);
     // static public System.Char ToChar(System.UInt32 value)
-    // Offset: 0x1967364
+    // Offset: 0x197E074
     static ::Il2CppChar ToChar(uint value);
     // static public System.Char ToChar(System.Int64 value)
-    // Offset: 0x1967400
+    // Offset: 0x197E110
     static ::Il2CppChar ToChar(int64_t value);
     // static public System.Char ToChar(System.UInt64 value)
-    // Offset: 0x196749C
+    // Offset: 0x197E1AC
     static ::Il2CppChar ToChar(uint64_t value);
     // static public System.Char ToChar(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1967538
+    // Offset: 0x197E248
     static ::Il2CppChar ToChar(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.SByte ToSByte(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1967620
+    // Offset: 0x197E330
     static int8_t ToSByte(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.SByte ToSByte(System.Boolean value)
-    // Offset: 0x1967734
+    // Offset: 0x197E444
     static int8_t ToSByte(bool value);
     // static public System.SByte ToSByte(System.Char value)
-    // Offset: 0x196773C
+    // Offset: 0x197E44C
     static int8_t ToSByte(::Il2CppChar value);
     // static public System.SByte ToSByte(System.Byte value)
-    // Offset: 0x19677DC
+    // Offset: 0x197E4EC
     static int8_t ToSByte(uint8_t value);
     // static public System.SByte ToSByte(System.Int16 value)
-    // Offset: 0x1967878
+    // Offset: 0x197E588
     static int8_t ToSByte(int16_t value);
     // static public System.SByte ToSByte(System.UInt16 value)
-    // Offset: 0x196791C
+    // Offset: 0x197E62C
     static int8_t ToSByte(uint16_t value);
     // static public System.SByte ToSByte(System.Int32 value)
-    // Offset: 0x19679BC
+    // Offset: 0x197E6CC
     static int8_t ToSByte(int value);
     // static public System.SByte ToSByte(System.UInt32 value)
-    // Offset: 0x1967A5C
+    // Offset: 0x197E76C
     static int8_t ToSByte(uint value);
     // static public System.SByte ToSByte(System.Int64 value)
-    // Offset: 0x1967AF8
+    // Offset: 0x197E808
     static int8_t ToSByte(int64_t value);
     // static public System.SByte ToSByte(System.UInt64 value)
-    // Offset: 0x1967B98
+    // Offset: 0x197E8A8
     static int8_t ToSByte(uint64_t value);
     // static public System.SByte ToSByte(System.Single value)
-    // Offset: 0x1967C34
+    // Offset: 0x197E944
     static int8_t ToSByte(float value);
     // static public System.SByte ToSByte(System.Double value)
-    // Offset: 0x1967CA0
+    // Offset: 0x197E9B0
     static int8_t ToSByte(double value);
     // static public System.SByte ToSByte(System.Decimal value)
-    // Offset: 0x1967E24
+    // Offset: 0x197EB34
     static int8_t ToSByte(System::Decimal value);
     // static public System.SByte ToSByte(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1967EA8
+    // Offset: 0x197EBB8
     static int8_t ToSByte(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Byte ToByte(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1967EB8
+    // Offset: 0x197EBC8
     static uint8_t ToByte(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Byte ToByte(System.Boolean value)
-    // Offset: 0x1967FCC
+    // Offset: 0x197ECDC
     static uint8_t ToByte(bool value);
     // static public System.Byte ToByte(System.Char value)
-    // Offset: 0x1967FD4
+    // Offset: 0x197ECE4
     static uint8_t ToByte(::Il2CppChar value);
     // static public System.Byte ToByte(System.SByte value)
-    // Offset: 0x1968074
+    // Offset: 0x197ED84
     static uint8_t ToByte(int8_t value);
     // static public System.Byte ToByte(System.Int16 value)
-    // Offset: 0x1968110
+    // Offset: 0x197EE20
     static uint8_t ToByte(int16_t value);
     // static public System.Byte ToByte(System.UInt16 value)
-    // Offset: 0x19681B0
+    // Offset: 0x197EEC0
     static uint8_t ToByte(uint16_t value);
     // static public System.Byte ToByte(System.Int32 value)
-    // Offset: 0x1968250
+    // Offset: 0x197EF60
     static uint8_t ToByte(int value);
     // static public System.Byte ToByte(System.UInt32 value)
-    // Offset: 0x19682EC
+    // Offset: 0x197EFFC
     static uint8_t ToByte(uint value);
     // static public System.Byte ToByte(System.Int64 value)
-    // Offset: 0x1968388
+    // Offset: 0x197F098
     static uint8_t ToByte(int64_t value);
     // static public System.Byte ToByte(System.UInt64 value)
-    // Offset: 0x1968424
+    // Offset: 0x197F134
     static uint8_t ToByte(uint64_t value);
     // static public System.Byte ToByte(System.Single value)
-    // Offset: 0x19684C0
+    // Offset: 0x197F1D0
     static uint8_t ToByte(float value);
     // static public System.Byte ToByte(System.Double value)
-    // Offset: 0x196852C
+    // Offset: 0x197F23C
     static uint8_t ToByte(double value);
     // static public System.Byte ToByte(System.Decimal value)
-    // Offset: 0x196859C
+    // Offset: 0x197F2AC
     static uint8_t ToByte(System::Decimal value);
     // static public System.Byte ToByte(System.String value)
-    // Offset: 0x1968620
+    // Offset: 0x197F330
     static uint8_t ToByte(::Il2CppString* value);
     // static public System.Byte ToByte(System.String value, System.IFormatProvider provider)
-    // Offset: 0x19686A8
+    // Offset: 0x197F3B8
     static uint8_t ToByte(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Int16 ToInt16(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x19686C0
+    // Offset: 0x197F3D0
     static int16_t ToInt16(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Int16 ToInt16(System.Boolean value)
-    // Offset: 0x19687D4
+    // Offset: 0x197F4E4
     static int16_t ToInt16(bool value);
     // static public System.Int16 ToInt16(System.Char value)
-    // Offset: 0x19687DC
+    // Offset: 0x197F4EC
     static int16_t ToInt16(::Il2CppChar value);
     // static public System.Int16 ToInt16(System.SByte value)
-    // Offset: 0x1968878
+    // Offset: 0x197F588
     static int16_t ToInt16(int8_t value);
     // static public System.Int16 ToInt16(System.Byte value)
-    // Offset: 0x1968880
+    // Offset: 0x197F590
     static int16_t ToInt16(uint8_t value);
     // static public System.Int16 ToInt16(System.UInt16 value)
-    // Offset: 0x1968888
+    // Offset: 0x197F598
     static int16_t ToInt16(uint16_t value);
     // static public System.Int16 ToInt16(System.Int32 value)
-    // Offset: 0x1968924
+    // Offset: 0x197F634
     static int16_t ToInt16(int value);
     // static public System.Int16 ToInt16(System.UInt32 value)
-    // Offset: 0x19689C4
+    // Offset: 0x197F6D4
     static int16_t ToInt16(uint value);
     // static public System.Int16 ToInt16(System.Int64 value)
-    // Offset: 0x1968A60
+    // Offset: 0x197F770
     static int16_t ToInt16(int64_t value);
     // static public System.Int16 ToInt16(System.UInt64 value)
-    // Offset: 0x1968B00
+    // Offset: 0x197F810
     static int16_t ToInt16(uint64_t value);
     // static public System.Int16 ToInt16(System.Single value)
-    // Offset: 0x1968B9C
+    // Offset: 0x197F8AC
     static int16_t ToInt16(float value);
     // static public System.Int16 ToInt16(System.Double value)
-    // Offset: 0x1968C08
+    // Offset: 0x197F918
     static int16_t ToInt16(double value);
     // static public System.Int16 ToInt16(System.Decimal value)
-    // Offset: 0x1968C78
+    // Offset: 0x197F988
     static int16_t ToInt16(System::Decimal value);
     // static public System.Int16 ToInt16(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1968CFC
+    // Offset: 0x197FA0C
     static int16_t ToInt16(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.UInt16 ToUInt16(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1968D14
+    // Offset: 0x197FA24
     static uint16_t ToUInt16(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.UInt16 ToUInt16(System.Boolean value)
-    // Offset: 0x1968E28
+    // Offset: 0x197FB38
     static uint16_t ToUInt16(bool value);
     // static public System.UInt16 ToUInt16(System.Char value)
-    // Offset: 0x1968E30
+    // Offset: 0x197FB40
     static uint16_t ToUInt16(::Il2CppChar value);
     // static public System.UInt16 ToUInt16(System.SByte value)
-    // Offset: 0x1968E34
+    // Offset: 0x197FB44
     static uint16_t ToUInt16(int8_t value);
     // static public System.UInt16 ToUInt16(System.Byte value)
-    // Offset: 0x1968ECC
+    // Offset: 0x197FBDC
     static uint16_t ToUInt16(uint8_t value);
     // static public System.UInt16 ToUInt16(System.Int16 value)
-    // Offset: 0x1968ED4
+    // Offset: 0x197FBE4
     static uint16_t ToUInt16(int16_t value);
     // static public System.UInt16 ToUInt16(System.Int32 value)
-    // Offset: 0x1968F70
+    // Offset: 0x197FC80
     static uint16_t ToUInt16(int value);
     // static public System.UInt16 ToUInt16(System.UInt32 value)
-    // Offset: 0x196900C
+    // Offset: 0x197FD1C
     static uint16_t ToUInt16(uint value);
     // static public System.UInt16 ToUInt16(System.Int64 value)
-    // Offset: 0x19690A8
+    // Offset: 0x197FDB8
     static uint16_t ToUInt16(int64_t value);
     // static public System.UInt16 ToUInt16(System.UInt64 value)
-    // Offset: 0x1969144
+    // Offset: 0x197FE54
     static uint16_t ToUInt16(uint64_t value);
     // static public System.UInt16 ToUInt16(System.Single value)
-    // Offset: 0x19691E0
+    // Offset: 0x197FEF0
     static uint16_t ToUInt16(float value);
     // static public System.UInt16 ToUInt16(System.Double value)
-    // Offset: 0x196924C
+    // Offset: 0x197FF5C
     static uint16_t ToUInt16(double value);
     // static public System.UInt16 ToUInt16(System.Decimal value)
-    // Offset: 0x19692BC
+    // Offset: 0x197FFCC
     static uint16_t ToUInt16(System::Decimal value);
     // static public System.UInt16 ToUInt16(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1969340
+    // Offset: 0x1980050
     static uint16_t ToUInt16(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.Object value)
-    // Offset: 0x1969358
+    // Offset: 0x1980068
     static int ToInt32(::Il2CppObject* value);
     // static public System.Int32 ToInt32(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1969468
+    // Offset: 0x1980178
     static int ToInt32(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.Boolean value)
-    // Offset: 0x196957C
+    // Offset: 0x198028C
     static int ToInt32(bool value);
     // static public System.Int32 ToInt32(System.Char value)
-    // Offset: 0x1969584
+    // Offset: 0x1980294
     static int ToInt32(::Il2CppChar value);
     // static public System.Int32 ToInt32(System.Byte value)
-    // Offset: 0x196958C
+    // Offset: 0x198029C
     static int ToInt32(uint8_t value);
     // static public System.Int32 ToInt32(System.Int16 value)
-    // Offset: 0x1969594
+    // Offset: 0x19802A4
     static int ToInt32(int16_t value);
     // static public System.Int32 ToInt32(System.UInt16 value)
-    // Offset: 0x196959C
+    // Offset: 0x19802AC
     static int ToInt32(uint16_t value);
     // static public System.Int32 ToInt32(System.UInt32 value)
-    // Offset: 0x19695A4
+    // Offset: 0x19802B4
     static int ToInt32(uint value);
     // static public System.Int32 ToInt32(System.Int64 value)
-    // Offset: 0x196963C
+    // Offset: 0x198034C
     static int ToInt32(int64_t value);
     // static public System.Int32 ToInt32(System.UInt64 value)
-    // Offset: 0x19696DC
+    // Offset: 0x19803EC
     static int ToInt32(uint64_t value);
     // static public System.Int32 ToInt32(System.Single value)
-    // Offset: 0x1969778
+    // Offset: 0x1980488
     static int ToInt32(float value);
     // static public System.Int32 ToInt32(System.Double value)
-    // Offset: 0x1967D10
+    // Offset: 0x197EA20
     static int ToInt32(double value);
     // static public System.Int32 ToInt32(System.Decimal value)
-    // Offset: 0x19697E4
+    // Offset: 0x19804F4
     static int ToInt32(System::Decimal value);
     // static public System.Int32 ToInt32(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196985C
+    // Offset: 0x198056C
     static int ToInt32(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.UInt32 ToUInt32(System.Object value)
-    // Offset: 0x1969874
+    // Offset: 0x1980584
     static uint ToUInt32(::Il2CppObject* value);
     // static public System.UInt32 ToUInt32(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x1969984
+    // Offset: 0x1980694
     static uint ToUInt32(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.UInt32 ToUInt32(System.Boolean value)
-    // Offset: 0x1969A98
+    // Offset: 0x19807A8
     static uint ToUInt32(bool value);
     // static public System.UInt32 ToUInt32(System.Char value)
-    // Offset: 0x1969AA0
+    // Offset: 0x19807B0
     static uint ToUInt32(::Il2CppChar value);
     // static public System.UInt32 ToUInt32(System.SByte value)
-    // Offset: 0x1969AA8
+    // Offset: 0x19807B8
     static uint ToUInt32(int8_t value);
     // static public System.UInt32 ToUInt32(System.Byte value)
-    // Offset: 0x1969B40
+    // Offset: 0x1980850
     static uint ToUInt32(uint8_t value);
     // static public System.UInt32 ToUInt32(System.Int16 value)
-    // Offset: 0x1969B48
+    // Offset: 0x1980858
     static uint ToUInt32(int16_t value);
     // static public System.UInt32 ToUInt32(System.UInt16 value)
-    // Offset: 0x1969BE0
+    // Offset: 0x19808F0
     static uint ToUInt32(uint16_t value);
     // static public System.UInt32 ToUInt32(System.Int32 value)
-    // Offset: 0x1969BE8
+    // Offset: 0x19808F8
     static uint ToUInt32(int value);
     // static public System.UInt32 ToUInt32(System.Int64 value)
-    // Offset: 0x1969C80
+    // Offset: 0x1980990
     static uint ToUInt32(int64_t value);
     // static public System.UInt32 ToUInt32(System.UInt64 value)
-    // Offset: 0x1969D1C
+    // Offset: 0x1980A2C
     static uint ToUInt32(uint64_t value);
     // static public System.UInt32 ToUInt32(System.Single value)
-    // Offset: 0x1969DB8
+    // Offset: 0x1980AC8
     static uint ToUInt32(float value);
     // static public System.UInt32 ToUInt32(System.Double value)
-    // Offset: 0x1969E24
+    // Offset: 0x1980B34
     static uint ToUInt32(double value);
     // static public System.UInt32 ToUInt32(System.Decimal value)
-    // Offset: 0x1969F0C
+    // Offset: 0x1980C1C
     static uint ToUInt32(System::Decimal value);
     // static public System.UInt32 ToUInt32(System.String value, System.IFormatProvider provider)
-    // Offset: 0x1969F90
+    // Offset: 0x1980CA0
     static uint ToUInt32(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Int64 ToInt64(System.Object value)
-    // Offset: 0x1969FA8
+    // Offset: 0x1980CB8
     static int64_t ToInt64(::Il2CppObject* value);
     // static public System.Int64 ToInt64(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x196A0B8
+    // Offset: 0x1980DC8
     static int64_t ToInt64(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Int64 ToInt64(System.Boolean value)
-    // Offset: 0x196A1CC
+    // Offset: 0x1980EDC
     static int64_t ToInt64(bool value);
     // static public System.Int64 ToInt64(System.Char value)
-    // Offset: 0x196A1D4
+    // Offset: 0x1980EE4
     static int64_t ToInt64(::Il2CppChar value);
     // static public System.Int64 ToInt64(System.SByte value)
-    // Offset: 0x196A1DC
+    // Offset: 0x1980EEC
     static int64_t ToInt64(int8_t value);
     // static public System.Int64 ToInt64(System.Byte value)
-    // Offset: 0x196A1E4
+    // Offset: 0x1980EF4
     static int64_t ToInt64(uint8_t value);
     // static public System.Int64 ToInt64(System.Int16 value)
-    // Offset: 0x196A1EC
+    // Offset: 0x1980EFC
     static int64_t ToInt64(int16_t value);
     // static public System.Int64 ToInt64(System.UInt16 value)
-    // Offset: 0x196A1F4
+    // Offset: 0x1980F04
     static int64_t ToInt64(uint16_t value);
     // static public System.Int64 ToInt64(System.Int32 value)
-    // Offset: 0x196A1FC
+    // Offset: 0x1980F0C
     static int64_t ToInt64(int value);
     // static public System.Int64 ToInt64(System.UInt32 value)
-    // Offset: 0x196A204
+    // Offset: 0x1980F14
     static int64_t ToInt64(uint value);
     // static public System.Int64 ToInt64(System.UInt64 value)
-    // Offset: 0x196A20C
+    // Offset: 0x1980F1C
     static int64_t ToInt64(uint64_t value);
     // static public System.Int64 ToInt64(System.Single value)
-    // Offset: 0x196A2A4
+    // Offset: 0x1980FB4
     static int64_t ToInt64(float value);
     // static public System.Int64 ToInt64(System.Double value)
-    // Offset: 0x196A310
+    // Offset: 0x1981020
     static int64_t ToInt64(double value);
     // static public System.Int64 ToInt64(System.Decimal value)
-    // Offset: 0x196A408
+    // Offset: 0x1981118
     static int64_t ToInt64(System::Decimal value);
     // static public System.Int64 ToInt64(System.String value)
-    // Offset: 0x196A48C
+    // Offset: 0x198119C
     static int64_t ToInt64(::Il2CppString* value);
     // static public System.Int64 ToInt64(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196A514
+    // Offset: 0x1981224
     static int64_t ToInt64(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.UInt64 ToUInt64(System.Object value)
-    // Offset: 0x196A52C
+    // Offset: 0x198123C
     static uint64_t ToUInt64(::Il2CppObject* value);
     // static public System.UInt64 ToUInt64(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x196A63C
+    // Offset: 0x198134C
     static uint64_t ToUInt64(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.UInt64 ToUInt64(System.Boolean value)
-    // Offset: 0x196A750
+    // Offset: 0x1981460
     static uint64_t ToUInt64(bool value);
     // static public System.UInt64 ToUInt64(System.Char value)
-    // Offset: 0x196A758
+    // Offset: 0x1981468
     static uint64_t ToUInt64(::Il2CppChar value);
     // static public System.UInt64 ToUInt64(System.SByte value)
-    // Offset: 0x196A760
+    // Offset: 0x1981470
     static uint64_t ToUInt64(int8_t value);
     // static public System.UInt64 ToUInt64(System.Byte value)
-    // Offset: 0x196A7FC
+    // Offset: 0x198150C
     static uint64_t ToUInt64(uint8_t value);
     // static public System.UInt64 ToUInt64(System.Int16 value)
-    // Offset: 0x196A804
+    // Offset: 0x1981514
     static uint64_t ToUInt64(int16_t value);
     // static public System.UInt64 ToUInt64(System.UInt16 value)
-    // Offset: 0x196A8A0
+    // Offset: 0x19815B0
     static uint64_t ToUInt64(uint16_t value);
     // static public System.UInt64 ToUInt64(System.Int32 value)
-    // Offset: 0x196A8A8
+    // Offset: 0x19815B8
     static uint64_t ToUInt64(int value);
     // static public System.UInt64 ToUInt64(System.UInt32 value)
-    // Offset: 0x196A940
+    // Offset: 0x1981650
     static uint64_t ToUInt64(uint value);
     // static public System.UInt64 ToUInt64(System.Int64 value)
-    // Offset: 0x196A948
+    // Offset: 0x1981658
     static uint64_t ToUInt64(int64_t value);
     // static public System.UInt64 ToUInt64(System.Single value)
-    // Offset: 0x196A9E0
+    // Offset: 0x19816F0
     static uint64_t ToUInt64(float value);
     // static public System.UInt64 ToUInt64(System.Double value)
-    // Offset: 0x196AA4C
+    // Offset: 0x198175C
     static uint64_t ToUInt64(double value);
     // static public System.UInt64 ToUInt64(System.Decimal value)
-    // Offset: 0x196AB44
+    // Offset: 0x1981854
     static uint64_t ToUInt64(System::Decimal value);
     // static public System.UInt64 ToUInt64(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196ABC8
+    // Offset: 0x19818D8
     static uint64_t ToUInt64(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.Object value)
-    // Offset: 0x196ABE0
+    // Offset: 0x19818F0
     static float ToSingle(::Il2CppObject* value);
     // static public System.Single ToSingle(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x196ACF0
+    // Offset: 0x1981A00
     static float ToSingle(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.SByte value)
-    // Offset: 0x196AE04
+    // Offset: 0x1981B14
     static float ToSingle(int8_t value);
     // static public System.Single ToSingle(System.Byte value)
-    // Offset: 0x196AE10
+    // Offset: 0x1981B20
     static float ToSingle(uint8_t value);
     // static public System.Single ToSingle(System.Int16 value)
-    // Offset: 0x196AE1C
+    // Offset: 0x1981B2C
     static float ToSingle(int16_t value);
     // static public System.Single ToSingle(System.UInt16 value)
-    // Offset: 0x196AE28
+    // Offset: 0x1981B38
     static float ToSingle(uint16_t value);
     // static public System.Single ToSingle(System.Int32 value)
-    // Offset: 0x196AE34
+    // Offset: 0x1981B44
     static float ToSingle(int value);
     // static public System.Single ToSingle(System.UInt32 value)
-    // Offset: 0x196AE3C
+    // Offset: 0x1981B4C
     static float ToSingle(uint value);
     // static public System.Single ToSingle(System.Int64 value)
-    // Offset: 0x196AE48
+    // Offset: 0x1981B58
     static float ToSingle(int64_t value);
     // static public System.Single ToSingle(System.UInt64 value)
-    // Offset: 0x196AE50
+    // Offset: 0x1981B60
     static float ToSingle(uint64_t value);
     // static public System.Single ToSingle(System.Double value)
-    // Offset: 0x196AE5C
+    // Offset: 0x1981B6C
     static float ToSingle(double value);
     // static public System.Single ToSingle(System.Decimal value)
-    // Offset: 0x196AE64
+    // Offset: 0x1981B74
     static float ToSingle(System::Decimal value);
     // static public System.Single ToSingle(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196AEDC
+    // Offset: 0x1981BEC
     static float ToSingle(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.Boolean value)
-    // Offset: 0x196AEF8
+    // Offset: 0x1981C08
     static float ToSingle(bool value);
     // static public System.Double ToDouble(System.Object value)
-    // Offset: 0x196AF0C
+    // Offset: 0x1981C1C
     static double ToDouble(::Il2CppObject* value);
     // static public System.Double ToDouble(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x196B01C
+    // Offset: 0x1981D2C
     static double ToDouble(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Double ToDouble(System.SByte value)
-    // Offset: 0x196B130
+    // Offset: 0x1981E40
     static double ToDouble(int8_t value);
     // static public System.Double ToDouble(System.Byte value)
-    // Offset: 0x196B13C
+    // Offset: 0x1981E4C
     static double ToDouble(uint8_t value);
     // static public System.Double ToDouble(System.Int16 value)
-    // Offset: 0x196B148
+    // Offset: 0x1981E58
     static double ToDouble(int16_t value);
     // static public System.Double ToDouble(System.UInt16 value)
-    // Offset: 0x196B154
+    // Offset: 0x1981E64
     static double ToDouble(uint16_t value);
     // static public System.Double ToDouble(System.Int32 value)
-    // Offset: 0x196B160
+    // Offset: 0x1981E70
     static double ToDouble(int value);
     // static public System.Double ToDouble(System.UInt32 value)
-    // Offset: 0x196B168
+    // Offset: 0x1981E78
     static double ToDouble(uint value);
     // static public System.Double ToDouble(System.Int64 value)
-    // Offset: 0x196B170
+    // Offset: 0x1981E80
     static double ToDouble(int64_t value);
     // static public System.Double ToDouble(System.UInt64 value)
-    // Offset: 0x196B178
+    // Offset: 0x1981E88
     static double ToDouble(uint64_t value);
     // static public System.Double ToDouble(System.Single value)
-    // Offset: 0x196B180
+    // Offset: 0x1981E90
     static double ToDouble(float value);
     // static public System.Double ToDouble(System.Decimal value)
-    // Offset: 0x196B188
+    // Offset: 0x1981E98
     static double ToDouble(System::Decimal value);
     // static public System.Double ToDouble(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196B200
+    // Offset: 0x1981F10
     static double ToDouble(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Double ToDouble(System.Boolean value)
-    // Offset: 0x196B294
+    // Offset: 0x1981FA4
     static double ToDouble(bool value);
     // static public System.Decimal ToDecimal(System.Object value)
-    // Offset: 0x196B2A8
+    // Offset: 0x1981FB8
     static System::Decimal ToDecimal(::Il2CppObject* value);
     // static public System.Decimal ToDecimal(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x196B3D8
+    // Offset: 0x19820E8
     static System::Decimal ToDecimal(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.Decimal ToDecimal(System.SByte value)
-    // Offset: 0x196B50C
+    // Offset: 0x198221C
     static System::Decimal ToDecimal(int8_t value);
     // static public System.Decimal ToDecimal(System.Byte value)
-    // Offset: 0x196B574
+    // Offset: 0x1982284
     static System::Decimal ToDecimal(uint8_t value);
     // static public System.Decimal ToDecimal(System.Int16 value)
-    // Offset: 0x196B5DC
+    // Offset: 0x19822EC
     static System::Decimal ToDecimal(int16_t value);
     // static public System.Decimal ToDecimal(System.UInt16 value)
-    // Offset: 0x196B644
+    // Offset: 0x1982354
     static System::Decimal ToDecimal(uint16_t value);
     // static public System.Decimal ToDecimal(System.Int32 value)
-    // Offset: 0x196B6AC
+    // Offset: 0x19823BC
     static System::Decimal ToDecimal(int value);
     // static public System.Decimal ToDecimal(System.UInt32 value)
-    // Offset: 0x196B714
+    // Offset: 0x1982424
     static System::Decimal ToDecimal(uint value);
     // static public System.Decimal ToDecimal(System.Int64 value)
-    // Offset: 0x196B77C
+    // Offset: 0x198248C
     static System::Decimal ToDecimal(int64_t value);
     // static public System.Decimal ToDecimal(System.UInt64 value)
-    // Offset: 0x196B7E4
+    // Offset: 0x19824F4
     static System::Decimal ToDecimal(uint64_t value);
     // static public System.Decimal ToDecimal(System.Single value)
-    // Offset: 0x196B84C
+    // Offset: 0x198255C
     static System::Decimal ToDecimal(float value);
     // static public System.Decimal ToDecimal(System.Double value)
-    // Offset: 0x196B8BC
+    // Offset: 0x19825CC
     static System::Decimal ToDecimal(double value);
     // static public System.Decimal ToDecimal(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196B92C
+    // Offset: 0x198263C
     static System::Decimal ToDecimal(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.Decimal ToDecimal(System.Boolean value)
-    // Offset: 0x196B9D0
+    // Offset: 0x19826E0
     static System::Decimal ToDecimal(bool value);
     // static public System.DateTime ToDateTime(System.String value, System.IFormatProvider provider)
-    // Offset: 0x196BA3C
+    // Offset: 0x198274C
     static System::DateTime ToDateTime(::Il2CppString* value, System::IFormatProvider* provider);
     // static public System.String ToString(System.Object value, System.IFormatProvider provider)
-    // Offset: 0x196BC60
+    // Offset: 0x1982970
     static ::Il2CppString* ToString(::Il2CppObject* value, System::IFormatProvider* provider);
     // static public System.String ToString(System.Char value, System.IFormatProvider provider)
-    // Offset: 0x196BE00
+    // Offset: 0x1982B10
     static ::Il2CppString* ToString(::Il2CppChar value, System::IFormatProvider* provider);
     // static public System.String ToString(System.Int32 value, System.IFormatProvider provider)
-    // Offset: 0x196BE28
+    // Offset: 0x1982B38
     static ::Il2CppString* ToString(int value, System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.String value, System.Int32 fromBase)
-    // Offset: 0x196BE50
+    // Offset: 0x1982B60
     static int ToInt32(::Il2CppString* value, int fromBase);
     // static public System.String ToString(System.Int32 value, System.Int32 toBase)
-    // Offset: 0x196BF20
+    // Offset: 0x1982C30
     static ::Il2CppString* ToString(int value, int toBase);
     // static public System.String ToString(System.Int64 value, System.Int32 toBase)
-    // Offset: 0x196BFF8
+    // Offset: 0x1982D08
     static ::Il2CppString* ToString(int64_t value, int toBase);
     // static public System.String ToBase64String(System.Byte[] inArray)
-    // Offset: 0x196C0D0
+    // Offset: 0x1982DE0
     static ::Il2CppString* ToBase64String(::Array<uint8_t>* inArray);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length)
-    // Offset: 0x196C438
+    // Offset: 0x1983148
     static ::Il2CppString* ToBase64String(::Array<uint8_t>* inArray, int offset, int length);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length, System.Base64FormattingOptions options)
-    // Offset: 0x196C180
+    // Offset: 0x1982E90
     static ::Il2CppString* ToBase64String(::Array<uint8_t>* inArray, int offset, int length, System::Base64FormattingOptions options);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut)
-    // Offset: 0x196C7F8
+    // Offset: 0x1983508
     static int ToBase64CharArray(::Array<uint8_t>* inArray, int offsetIn, int length, ::Array<::Il2CppChar>* outArray, int offsetOut);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut, System.Base64FormattingOptions options)
-    // Offset: 0x196C890
+    // Offset: 0x19835A0
     static int ToBase64CharArray(::Array<uint8_t>* inArray, int offsetIn, int length, ::Array<::Il2CppChar>* outArray, int offsetOut, System::Base64FormattingOptions options);
     // static private System.Int32 ConvertToBase64Array(System.Char* outChars, System.Byte* inData, System.Int32 offset, System.Int32 length, System.Boolean insertLineBreaks)
-    // Offset: 0x196C5A8
+    // Offset: 0x19832B8
     static int ConvertToBase64Array(::Il2CppChar* outChars, uint8_t* inData, int offset, int length, bool insertLineBreaks);
     // static private System.Int32 ToBase64_CalculateAndValidateOutputLength(System.Int32 inputLength, System.Boolean insertLineBreaks)
-    // Offset: 0x196C4B8
+    // Offset: 0x19831C8
     static int ToBase64_CalculateAndValidateOutputLength(int inputLength, bool insertLineBreaks);
     // static public System.Byte[] FromBase64String(System.String s)
-    // Offset: 0x196CBCC
+    // Offset: 0x19838DC
     static ::Array<uint8_t>* FromBase64String(::Il2CppString* s);
     // static private System.Byte[] FromBase64CharPtr(System.Char* inputPtr, System.Int32 inputLength)
-    // Offset: 0x196CC88
+    // Offset: 0x1983998
     static ::Array<uint8_t>* FromBase64CharPtr(::Il2CppChar* inputPtr, int inputLength);
     // static private System.Int32 FromBase64_Decode(System.Char* startInputPtr, System.Int32 inputLength, System.Byte* startDestPtr, System.Int32 destLength)
-    // Offset: 0x196CEC4
+    // Offset: 0x1983BD4
     static int FromBase64_Decode(::Il2CppChar* startInputPtr, int inputLength, uint8_t* startDestPtr, int destLength);
     // static private System.Int32 FromBase64_ComputeResultLength(System.Char* inputPtr, System.Int32 inputLength)
-    // Offset: 0x196CDC0
+    // Offset: 0x1983AD0
     static int FromBase64_ComputeResultLength(::Il2CppChar* inputPtr, int inputLength);
     // static private System.Void .cctor()
-    // Offset: 0x196D128
+    // Offset: 0x1983E38
     static void _cctor();
   }; // System.Convert
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Convert::GetTypeCode
+  // Il2CppName: GetTypeCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (*)(::Il2CppObject*)>(&Convert::GetTypeCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ChangeType
+  // Il2CppName: ChangeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::TypeCode, System::IFormatProvider*)>(&Convert::ChangeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::TypeCode>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::DefaultToType
+  // Il2CppName: DefaultToType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::IConvertible*, System::Type*, System::IFormatProvider*)>(&Convert::DefaultToType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "DefaultToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IConvertible*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ChangeType
+  // Il2CppName: ChangeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*)>(&Convert::ChangeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ChangeType
+  // Il2CppName: ChangeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*, System::IFormatProvider*)>(&Convert::ChangeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int8_t)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint16_t)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBoolean
+  // Il2CppName: ToBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Decimal)>(&Convert::ToBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(int8_t)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint8_t)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(int16_t)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint16_t)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(int)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(int64_t)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint64_t)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToChar
+  // Il2CppName: ToChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(bool)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::Il2CppChar)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint8_t)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int16_t)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint16_t)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int64_t)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(uint64_t)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(float)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(double)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::Decimal)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSByte
+  // Il2CppName: ToSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(bool)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppChar)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int8_t)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int16_t)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint16_t)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int64_t)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint64_t)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(float)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(double)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::Decimal)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppString*)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToByte
+  // Il2CppName: ToByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(bool)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::Il2CppChar)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int8_t)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint8_t)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint16_t)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int64_t)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(uint64_t)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(float)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(double)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::Decimal)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt16
+  // Il2CppName: ToInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(bool)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppChar)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int8_t)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint8_t)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int16_t)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int64_t)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint64_t)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(float)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(double)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(System::Decimal)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt16
+  // Il2CppName: ToUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(bool)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int16_t)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint16_t)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint64_t)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(double)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppObject*)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(bool)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int8_t)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint8_t)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int16_t)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint16_t)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int64_t)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint64_t)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(float)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(double)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::Decimal)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt32
+  // Il2CppName: ToUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppObject*)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(bool)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppChar)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int8_t)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint8_t)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int16_t)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint16_t)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint64_t)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(float)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(double)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Decimal)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt64
+  // Il2CppName: ToInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppObject*)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppChar)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int8_t)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint8_t)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int16_t)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint16_t)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(float)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(double)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::Decimal)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToUInt64
+  // Il2CppName: ToUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppObject*)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int8_t)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(uint8_t)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int16_t)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(uint16_t)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(uint)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int64_t)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(uint64_t)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(double)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Decimal)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToSingle
+  // Il2CppName: ToSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(bool)>(&Convert::ToSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppObject*)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int8_t)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(uint8_t)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int16_t)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(uint16_t)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(uint)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int64_t)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(uint64_t)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(float)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::Decimal)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDouble
+  // Il2CppName: ToDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(bool)>(&Convert::ToDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppObject*)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int8_t)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint8_t)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int16_t)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint16_t)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int64_t)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint64_t)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(float)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(double)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDecimal
+  // Il2CppName: ToDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(bool)>(&Convert::ToDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToDateTime
+  // Il2CppName: ToDateTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*, System::IFormatProvider*)>(&Convert::ToDateTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, System::IFormatProvider*)>(&Convert::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar, System::IFormatProvider*)>(&Convert::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, System::IFormatProvider*)>(&Convert::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToInt32
+  // Il2CppName: ToInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&Convert::ToInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, int)>(&Convert::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t, int)>(&Convert::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBase64String
+  // Il2CppName: ToBase64String
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Convert::ToBase64String)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBase64String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBase64String
+  // Il2CppName: ToBase64String
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&Convert::ToBase64String)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBase64String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBase64String
+  // Il2CppName: ToBase64String
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int, System::Base64FormattingOptions)>(&Convert::ToBase64String)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBase64String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Base64FormattingOptions>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBase64CharArray
+  // Il2CppName: ToBase64CharArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int, ::Array<::Il2CppChar>*, int)>(&Convert::ToBase64CharArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBase64CharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBase64CharArray
+  // Il2CppName: ToBase64CharArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int, ::Array<::Il2CppChar>*, int, System::Base64FormattingOptions)>(&Convert::ToBase64CharArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBase64CharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Base64FormattingOptions>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ConvertToBase64Array
+  // Il2CppName: ConvertToBase64Array
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*, uint8_t*, int, int, bool)>(&Convert::ConvertToBase64Array)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ConvertToBase64Array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::ToBase64_CalculateAndValidateOutputLength
+  // Il2CppName: ToBase64_CalculateAndValidateOutputLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, bool)>(&Convert::ToBase64_CalculateAndValidateOutputLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "ToBase64_CalculateAndValidateOutputLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::FromBase64String
+  // Il2CppName: FromBase64String
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Convert::FromBase64String)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "FromBase64String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::FromBase64CharPtr
+  // Il2CppName: FromBase64CharPtr
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppChar*, int)>(&Convert::FromBase64CharPtr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "FromBase64CharPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::FromBase64_Decode
+  // Il2CppName: FromBase64_Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*, int, uint8_t*, int)>(&Convert::FromBase64_Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "FromBase64_Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::FromBase64_ComputeResultLength
+  // Il2CppName: FromBase64_ComputeResultLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*, int)>(&Convert::FromBase64_ComputeResultLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), "FromBase64_ComputeResultLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Convert::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Convert::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Convert*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Convert*, "System", "Convert");

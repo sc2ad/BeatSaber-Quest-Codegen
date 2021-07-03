@@ -35,6 +35,30 @@ namespace NUnit::Framework::Interfaces {
     void TestOutput(NUnit::Framework::Interfaces::TestOutput* output);
   }; // NUnit.Framework.Interfaces.ITestListener
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ITestListener::TestStarted
+  // Il2CppName: TestStarted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestListener::*)(NUnit::Framework::Interfaces::ITest*)>(&ITestListener::TestStarted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITestListener*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ITestListener::TestFinished
+  // Il2CppName: TestFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestListener::*)(NUnit::Framework::Interfaces::ITestResult*)>(&ITestListener::TestFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITestListener*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ITestListener::TestOutput
+  // Il2CppName: TestOutput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestListener::*)(NUnit::Framework::Interfaces::TestOutput*)>(&ITestListener::TestOutput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ITestListener*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TestOutput*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestListener*, "NUnit.Framework.Interfaces", "ITestListener");

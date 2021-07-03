@@ -47,39 +47,125 @@ namespace System::Threading {
       return m_ec;
     }
     // public System.Void .ctor(System.Threading.ExecutionContext ec)
-    // Offset: 0xEFFF1C
+    // Offset: 0xF00ED4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Reader(System::Threading::ExecutionContext* ec)
     // public System.Threading.ExecutionContext DangerousGetRawExecutionContext()
-    // Offset: 0xEFFF24
+    // Offset: 0xF00EDC
     System::Threading::ExecutionContext* DangerousGetRawExecutionContext();
     // public System.Boolean get_IsNull()
-    // Offset: 0xEFFF2C
+    // Offset: 0xF00EE4
     bool get_IsNull();
     // public System.Boolean IsDefaultFTContext(System.Boolean ignoreSyncCtx)
-    // Offset: 0xEFFF3C
+    // Offset: 0xF00EF4
     bool IsDefaultFTContext(bool ignoreSyncCtx);
     // public System.Boolean get_IsFlowSuppressed()
-    // Offset: 0xEFFF58
+    // Offset: 0xF00F10
     bool get_IsFlowSuppressed();
     // public System.Threading.SynchronizationContext get_SynchronizationContext()
-    // Offset: 0xEFFF74
+    // Offset: 0xF00F2C
     System::Threading::SynchronizationContext* get_SynchronizationContext();
     // public System.Threading.SynchronizationContext get_SynchronizationContextNoFlow()
-    // Offset: 0xEFFF8C
+    // Offset: 0xF00F44
     System::Threading::SynchronizationContext* get_SynchronizationContextNoFlow();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext/Reader get_LogicalCallContext()
-    // Offset: 0xEFFFA4
+    // Offset: 0xF00F5C
     System::Runtime::Remoting::Messaging::LogicalCallContext::Reader get_LogicalCallContext();
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext/Reader get_IllogicalCallContext()
-    // Offset: 0xEFFFC0
+    // Offset: 0xF00F78
     System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader get_IllogicalCallContext();
     // public System.Boolean HasSameLocalValues(System.Threading.ExecutionContext other)
-    // Offset: 0xEFFFDC
+    // Offset: 0xF00F94
     bool HasSameLocalValues(System::Threading::ExecutionContext* other);
   }; // System.Threading.ExecutionContext/Reader
   #pragma pack(pop)
   static check_size<sizeof(ExecutionContext::Reader), 0 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ExecutionContext_ReaderSizeCheck;
   static_assert(sizeof(ExecutionContext::Reader) == 0x8);
+  // Writing MetadataGetter for method: ExecutionContext::Reader::Reader
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&ExecutionContext::Reader::Reader<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&ExecutionContext::Reader::Reader<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::DangerousGetRawExecutionContext
+  // Il2CppName: DangerousGetRawExecutionContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::DangerousGetRawExecutionContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "DangerousGetRawExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::get_IsNull
+  // Il2CppName: get_IsNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::get_IsNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::IsDefaultFTContext
+  // Il2CppName: IsDefaultFTContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ExecutionContext::Reader::*)(bool)>(&ExecutionContext::Reader::IsDefaultFTContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "IsDefaultFTContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::get_IsFlowSuppressed
+  // Il2CppName: get_IsFlowSuppressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::get_IsFlowSuppressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "get_IsFlowSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::get_SynchronizationContext
+  // Il2CppName: get_SynchronizationContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::get_SynchronizationContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "get_SynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::get_SynchronizationContextNoFlow
+  // Il2CppName: get_SynchronizationContextNoFlow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::get_SynchronizationContextNoFlow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "get_SynchronizationContextNoFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::get_LogicalCallContext
+  // Il2CppName: get_LogicalCallContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext::Reader (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::get_LogicalCallContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "get_LogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::get_IllogicalCallContext
+  // Il2CppName: get_IllogicalCallContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader (ExecutionContext::Reader::*)()>(&ExecutionContext::Reader::get_IllogicalCallContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "get_IllogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExecutionContext::Reader::HasSameLocalValues
+  // Il2CppName: HasSameLocalValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&ExecutionContext::Reader::HasSameLocalValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExecutionContext::Reader), "HasSameLocalValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");

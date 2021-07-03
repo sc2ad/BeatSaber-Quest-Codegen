@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DeactivateAfterFirstFrame
     DeactivateAfterFirstFrame() noexcept {}
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x109EEB0
+    // Offset: 0x119CF48
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x109EF4C
+    // Offset: 0x119CFE4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -50,5 +50,27 @@ namespace GlobalNamespace {
     }
   }; // DeactivateAfterFirstFrame
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DeactivateAfterFirstFrame::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (DeactivateAfterFirstFrame::*)()>(&DeactivateAfterFirstFrame::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DeactivateAfterFirstFrame*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DeactivateAfterFirstFrame::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAfterFirstFrame::*)()>(&DeactivateAfterFirstFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DeactivateAfterFirstFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAfterFirstFrame::*)()>(&DeactivateAfterFirstFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DeactivateAfterFirstFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame*, "", "DeactivateAfterFirstFrame");

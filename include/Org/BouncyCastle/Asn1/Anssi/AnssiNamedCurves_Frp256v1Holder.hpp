@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Asn1::Anssi {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x16D864C
+    // Offset: 0x16EF35C
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x16D84CC
+    // Offset: 0x16EF1DC
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,11 +47,41 @@ namespace Org::BouncyCastle::Asn1::Anssi {
       return THROW_UNLESS((::il2cpp_utils::New<AnssiNamedCurves::Frp256v1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x16D84D4
+    // Offset: 0x16EF1E4
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.Anssi.AnssiNamedCurves/Frp256v1Holder
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AnssiNamedCurves::Frp256v1Holder::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnssiNamedCurves::Frp256v1Holder::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AnssiNamedCurves::Frp256v1Holder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnssiNamedCurves::Frp256v1Holder::*)()>(&AnssiNamedCurves::Frp256v1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnssiNamedCurves::Frp256v1Holder::*)()>(&AnssiNamedCurves::Frp256v1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AnssiNamedCurves::Frp256v1Holder::CreateParameters
+  // Il2CppName: CreateParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (AnssiNamedCurves::Frp256v1Holder::*)()>(&AnssiNamedCurves::Frp256v1Holder::CreateParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnssiNamedCurves::Frp256v1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder*, "Org.BouncyCastle.Asn1.Anssi", "AnssiNamedCurves/Frp256v1Holder");

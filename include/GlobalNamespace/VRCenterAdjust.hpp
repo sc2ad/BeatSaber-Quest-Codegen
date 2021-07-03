@@ -52,31 +52,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1D91100
+    // Offset: 0x1DA9E5C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1D91164
+    // Offset: 0x1DA9EC0
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1D91334
+    // Offset: 0x1DAA090
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1D9140C
+    // Offset: 0x1DAA168
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0x1D914E4
+    // Offset: 0x1DAA240
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0x1D9155C
+    // Offset: 0x1DAA2B8
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0x1D91608
+    // Offset: 0x1DAA364
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0x1D91288
+    // Offset: 0x1DA9FE4
     void ResetRoom();
     // public System.Void .ctor()
-    // Offset: 0x1D91644
+    // Offset: 0x1DAA3A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -92,5 +92,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRCenterAdjust), 40 + sizeof(GlobalNamespace::MainSettingsModelSO*)> __GlobalNamespace_VRCenterAdjustSizeCheck;
   static_assert(sizeof(VRCenterAdjust) == 0x30);
+  // Writing MetadataGetter for method: VRCenterAdjust::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::HandleRoomCenterDidChange
+  // Il2CppName: HandleRoomCenterDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::HandleRoomCenterDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "HandleRoomCenterDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::HandleRoomRotationDidChange
+  // Il2CppName: HandleRoomRotationDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::HandleRoomRotationDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "HandleRoomRotationDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::ResetRoom
+  // Il2CppName: ResetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::ResetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), "ResetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRCenterAdjust::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRCenterAdjust::*)()>(&VRCenterAdjust::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRCenterAdjust*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRCenterAdjust*, "", "VRCenterAdjust");

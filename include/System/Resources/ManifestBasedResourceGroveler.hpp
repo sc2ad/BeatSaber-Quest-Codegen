@@ -53,21 +53,51 @@ namespace System::Resources {
       return mediator;
     }
     // public System.Void .ctor(System.Resources.ResourceManager/ResourceManagerMediator mediator)
-    // Offset: 0x13F9EC4
+    // Offset: 0x1414BD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManifestBasedResourceGroveler* New_ctor(System::Resources::ResourceManager::ResourceManagerMediator* mediator) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ManifestBasedResourceGroveler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManifestBasedResourceGroveler*, creationType>(mediator)));
     }
     // static System.Globalization.CultureInfo GetNeutralResourcesLanguage(System.Reflection.Assembly a, ref System.Resources.UltimateResourceFallbackLocation fallbackLocation)
-    // Offset: 0x13F9EF0
+    // Offset: 0x1414C00
     static System::Globalization::CultureInfo* GetNeutralResourcesLanguage(System::Reflection::Assembly* a, System::Resources::UltimateResourceFallbackLocation& fallbackLocation);
     // static private System.Boolean GetNeutralResourcesLanguageAttribute(System.Reflection.Assembly assembly, ref System.String cultureName, ref System.Int16 fallbackLocation)
-    // Offset: 0x13FA220
+    // Offset: 0x1414F30
     static bool GetNeutralResourcesLanguageAttribute(System::Reflection::Assembly* assembly, ::Il2CppString*& cultureName, int16_t& fallbackLocation);
   }; // System.Resources.ManifestBasedResourceGroveler
   #pragma pack(pop)
   static check_size<sizeof(ManifestBasedResourceGroveler), 16 + sizeof(System::Resources::ResourceManager::ResourceManagerMediator*)> __System_Resources_ManifestBasedResourceGrovelerSizeCheck;
   static_assert(sizeof(ManifestBasedResourceGroveler) == 0x18);
+  // Writing MetadataGetter for method: ManifestBasedResourceGroveler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManifestBasedResourceGroveler::*)(System::Resources::ResourceManager::ResourceManagerMediator*)>(&ManifestBasedResourceGroveler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager::ResourceManagerMediator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ManifestBasedResourceGroveler::GetNeutralResourcesLanguage
+  // Il2CppName: GetNeutralResourcesLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, System::Resources::UltimateResourceFallbackLocation&)>(&ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::UltimateResourceFallbackLocation&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute
+  // Il2CppName: GetNeutralResourcesLanguageAttribute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ::Il2CppString*&, int16_t&)>(&ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguageAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int16_t&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");

@@ -46,25 +46,73 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry> m_List
     static void _set_m_List(System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* value);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID)
-    // Offset: 0x2382FA4
+    // Offset: 0x239F5D8
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
-    // Offset: 0x2382FAC
+    // Offset: 0x239F5E0
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask, System.Int32 readMask, System.Int32 writeMask)
-    // Offset: 0x2383048
+    // Offset: 0x239F67C
     static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask, int readMask, int writeMask);
     // static public System.Void Remove(UnityEngine.Material customMat)
-    // Offset: 0x238387C
+    // Offset: 0x239FEB0
     static void Remove(UnityEngine::Material* customMat);
     // static public System.Void ClearAll()
-    // Offset: 0x2383A34
+    // Offset: 0x23A0068
     static void ClearAll();
     // static private System.Void .cctor()
-    // Offset: 0x2383B4C
+    // Offset: 0x23A0180
     static void _cctor();
   }; // UnityEngine.UI.StencilMaterial
   #pragma pack(pop)
+  // Writing MetadataGetter for method: StencilMaterial::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int)>(&StencilMaterial::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StencilMaterial*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: StencilMaterial::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int, UnityEngine::Rendering::StencilOp, UnityEngine::Rendering::CompareFunction, UnityEngine::Rendering::ColorWriteMask)>(&StencilMaterial::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StencilMaterial*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::StencilOp>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CompareFunction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ColorWriteMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: StencilMaterial::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int, UnityEngine::Rendering::StencilOp, UnityEngine::Rendering::CompareFunction, UnityEngine::Rendering::ColorWriteMask, int, int)>(&StencilMaterial::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StencilMaterial*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::StencilOp>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CompareFunction>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ColorWriteMask>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: StencilMaterial::Remove
+  // Il2CppName: Remove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&StencilMaterial::Remove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StencilMaterial*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StencilMaterial::ClearAll
+  // Il2CppName: ClearAll
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StencilMaterial::ClearAll)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StencilMaterial*), "ClearAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StencilMaterial::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StencilMaterial::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StencilMaterial*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial*, "UnityEngine.UI", "StencilMaterial");

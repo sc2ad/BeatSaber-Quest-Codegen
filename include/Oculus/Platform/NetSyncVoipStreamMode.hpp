@@ -30,21 +30,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDFEB38
+    // [DescriptionAttribute] Offset: 0xDFFB34
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static Oculus::Platform::NetSyncVoipStreamMode _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncVoipStreamMode value);
-    // [DescriptionAttribute] Offset: 0xDFEB70
+    // [DescriptionAttribute] Offset: 0xDFFB6C
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static constexpr const int Ambisonic = 1;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static Oculus::Platform::NetSyncVoipStreamMode _get_Ambisonic();
     // Set static field: static public Oculus.Platform.NetSyncVoipStreamMode Ambisonic
     static void _set_Ambisonic(Oculus::Platform::NetSyncVoipStreamMode value);
-    // [DescriptionAttribute] Offset: 0xDFEBA8
+    // [DescriptionAttribute] Offset: 0xDFFBA4
     // static field const value: static public Oculus.Platform.NetSyncVoipStreamMode Mono
     static constexpr const int Mono = 2;
     // Get static field: static public Oculus.Platform.NetSyncVoipStreamMode Mono

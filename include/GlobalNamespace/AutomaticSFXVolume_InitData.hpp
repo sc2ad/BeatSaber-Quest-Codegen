@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(float volumeOffset_ = {}, float maxVolume_ = {}, bool adaptiveSfx_ = {}) noexcept : volumeOffset{volumeOffset_}, maxVolume{maxVolume_}, adaptiveSfx{adaptiveSfx_} {}
     // public System.Void .ctor(System.Single volumeOffset, System.Boolean adaptiveSfx, System.Single maxVolume)
-    // Offset: 0x112DFE4
+    // Offset: 0x113384C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx, float maxVolume) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");
@@ -49,5 +49,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AutomaticSFXVolume::InitData), 24 + sizeof(bool)> __GlobalNamespace_AutomaticSFXVolume_InitDataSizeCheck;
   static_assert(sizeof(AutomaticSFXVolume::InitData) == 0x19);
+  // Writing MetadataGetter for method: AutomaticSFXVolume::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::InitData::*)(float, bool, float)>(&AutomaticSFXVolume::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolume::InitData::*)(float, bool, float)>(&AutomaticSFXVolume::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolume::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume::InitData*, "", "AutomaticSFXVolume/InitData");

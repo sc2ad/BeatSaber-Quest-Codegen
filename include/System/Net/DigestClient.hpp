@@ -45,25 +45,25 @@ namespace System::Net {
     // Set static field: static private readonly System.Collections.Hashtable cache
     static void _set_cache(System::Collections::Hashtable* value);
     // static private System.Collections.Hashtable get_Cache()
-    // Offset: 0x169D96C
+    // Offset: 0x16B467C
     static System::Collections::Hashtable* get_Cache();
     // static private System.Void CheckExpired(System.Int32 count)
-    // Offset: 0x169DABC
+    // Offset: 0x16B47CC
     static void CheckExpired(int count);
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x169E274
+    // Offset: 0x16B4F84
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x169EB3C
+    // Offset: 0x16B584C
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.String get_AuthenticationType()
-    // Offset: 0x169ECBC
+    // Offset: 0x16B59CC
     ::Il2CppString* get_AuthenticationType();
     // static private System.Void .cctor()
-    // Offset: 0x169ED04
+    // Offset: 0x16B5A14
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1692BCC
+    // Offset: 0x16A98DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,5 +73,67 @@ namespace System::Net {
     }
   }; // System.Net.DigestClient
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DigestClient::get_Cache
+  // Il2CppName: get_Cache
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (*)()>(&DigestClient::get_Cache)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), "get_Cache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DigestClient::CheckExpired
+  // Il2CppName: CheckExpired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&DigestClient::CheckExpired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), "CheckExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestClient::Authenticate
+  // Il2CppName: Authenticate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (DigestClient::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&DigestClient::Authenticate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestClient::PreAuthenticate
+  // Il2CppName: PreAuthenticate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (DigestClient::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&DigestClient::PreAuthenticate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DigestClient::get_AuthenticationType
+  // Il2CppName: get_AuthenticationType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DigestClient::*)()>(&DigestClient::get_AuthenticationType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DigestClient::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DigestClient::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DigestClient::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestClient::*)()>(&DigestClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DigestClient::*)()>(&DigestClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DigestClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestClient*, "System.Net", "DigestClient");

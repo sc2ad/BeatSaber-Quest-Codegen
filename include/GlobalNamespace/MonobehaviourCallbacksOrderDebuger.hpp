@@ -21,16 +21,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MonobehaviourCallbacksOrderDebuger
     MonobehaviourCallbacksOrderDebuger() noexcept {}
     // protected System.Void Awake()
-    // Offset: 0x12303F4
+    // Offset: 0x124CA4C
     void Awake();
     // protected System.Void OnEnable()
-    // Offset: 0x123049C
+    // Offset: 0x124CAF4
     void OnEnable();
     // protected System.Void Start()
-    // Offset: 0x1230544
+    // Offset: 0x124CB9C
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x12305EC
+    // Offset: 0x124CC44
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -44,5 +44,43 @@ namespace GlobalNamespace {
     }
   }; // MonobehaviourCallbacksOrderDebuger
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonobehaviourCallbacksOrderDebuger*, "", "MonobehaviourCallbacksOrderDebuger");

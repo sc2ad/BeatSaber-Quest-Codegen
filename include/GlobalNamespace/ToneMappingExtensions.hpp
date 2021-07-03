@@ -22,19 +22,35 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: ToneMappingExtensions
     ToneMappingExtensions() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF41C4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDF60F8
     // Get static field: static private readonly System.String[] _shaderKeywordMap
     static ::Array<::Il2CppString*>* _get__shaderKeywordMap();
     // Set static field: static private readonly System.String[] _shaderKeywordMap
     static void _set__shaderKeywordMap(::Array<::Il2CppString*>* value);
     // static public System.Void SetShaderKeyword(ToneMapping toneMapping)
-    // Offset: 0x1D6D79C
+    // Offset: 0x1D884AC
     static void SetShaderKeyword(GlobalNamespace::ToneMapping toneMapping);
     // static private System.Void .cctor()
-    // Offset: 0x1D7788C
+    // Offset: 0x1D925E8
     static void _cctor();
   }; // ToneMappingExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ToneMappingExtensions::SetShaderKeyword
+  // Il2CppName: SetShaderKeyword
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::ToneMapping)>(&ToneMappingExtensions::SetShaderKeyword)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToneMappingExtensions*), "SetShaderKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ToneMapping>()});
+    }
+  };
+  // Writing MetadataGetter for method: ToneMappingExtensions::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ToneMappingExtensions::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ToneMappingExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToneMappingExtensions*, "", "ToneMappingExtensions");

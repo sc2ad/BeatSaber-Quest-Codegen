@@ -40,21 +40,51 @@ namespace System {
     // Creating value type constructor for type: AttributeInfo
     AttributeInfo(System::AttributeUsageAttribute* usage_ = {}, int inheritanceLevel_ = {}) noexcept : usage{usage_}, inheritanceLevel{inheritanceLevel_} {}
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
-    // Offset: 0x180C340
+    // Offset: 0x1824050
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoCustomAttrs::AttributeInfo* New_ctor(System::AttributeUsageAttribute* usage, int inheritanceLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MonoCustomAttrs::AttributeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoCustomAttrs::AttributeInfo*, creationType>(usage, inheritanceLevel)));
     }
     // public System.AttributeUsageAttribute get_Usage()
-    // Offset: 0x180CFBC
+    // Offset: 0x1824CCC
     System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
-    // Offset: 0x180CFC4
+    // Offset: 0x1824CD4
     int get_InheritanceLevel();
   }; // System.MonoCustomAttrs/AttributeInfo
   #pragma pack(pop)
   static check_size<sizeof(MonoCustomAttrs::AttributeInfo), 24 + sizeof(int)> __System_MonoCustomAttrs_AttributeInfoSizeCheck;
   static_assert(sizeof(MonoCustomAttrs::AttributeInfo) == 0x1C);
+  // Writing MetadataGetter for method: MonoCustomAttrs::AttributeInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoCustomAttrs::AttributeInfo::*)(System::AttributeUsageAttribute*, int)>(&MonoCustomAttrs::AttributeInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs::AttributeInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AttributeUsageAttribute*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoCustomAttrs::AttributeInfo::*)(System::AttributeUsageAttribute*, int)>(&MonoCustomAttrs::AttributeInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs::AttributeInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AttributeUsageAttribute*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoCustomAttrs::AttributeInfo::get_Usage
+  // Il2CppName: get_Usage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (MonoCustomAttrs::AttributeInfo::*)()>(&MonoCustomAttrs::AttributeInfo::get_Usage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs::AttributeInfo*), "get_Usage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoCustomAttrs::AttributeInfo::get_InheritanceLevel
+  // Il2CppName: get_InheritanceLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MonoCustomAttrs::AttributeInfo::*)()>(&MonoCustomAttrs::AttributeInfo::get_InheritanceLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoCustomAttrs::AttributeInfo*), "get_InheritanceLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");

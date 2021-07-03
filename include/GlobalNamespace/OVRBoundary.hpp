@@ -62,31 +62,31 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single[] cachedGeometryManagedBuffer
     static void _set_cachedGeometryManagedBuffer(::Array<float>* value);
     // public System.Boolean GetConfigured()
-    // Offset: 0x125E64C
+    // Offset: 0x127B35C
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x125E6F0
+    // Offset: 0x127B400
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x125E7CC
+    // Offset: 0x127B4DC
     GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x125E8CC
+    // Offset: 0x127B5DC
     ::Array<UnityEngine::Vector3>* GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x125ECEC
+    // Offset: 0x127B9FC
     UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
-    // Offset: 0x125EDF0
+    // Offset: 0x127BB00
     bool GetVisible();
     // public System.Void SetVisible(System.Boolean value)
-    // Offset: 0x125EE94
+    // Offset: 0x127BBA4
     void SetVisible(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x125EFB4
+    // Offset: 0x127BCC4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x125EF44
+    // Offset: 0x127BC54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -98,5 +98,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRBoundary), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __GlobalNamespace_OVRBoundarySizeCheck;
   static_assert(sizeof(OVRBoundary) == 0x18);
+  // Writing MetadataGetter for method: OVRBoundary::GetConfigured
+  // Il2CppName: GetConfigured
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRBoundary::*)()>(&OVRBoundary::GetConfigured)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "GetConfigured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::TestNode
+  // Il2CppName: TestNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryTestResult (OVRBoundary::*)(GlobalNamespace::OVRBoundary::Node, GlobalNamespace::OVRBoundary::BoundaryType)>(&OVRBoundary::TestNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "TestNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::TestPoint
+  // Il2CppName: TestPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryTestResult (OVRBoundary::*)(UnityEngine::Vector3, GlobalNamespace::OVRBoundary::BoundaryType)>(&OVRBoundary::TestPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "TestPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::GetGeometry
+  // Il2CppName: GetGeometry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (OVRBoundary::*)(GlobalNamespace::OVRBoundary::BoundaryType)>(&OVRBoundary::GetGeometry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "GetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::GetDimensions
+  // Il2CppName: GetDimensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRBoundary::*)(GlobalNamespace::OVRBoundary::BoundaryType)>(&OVRBoundary::GetDimensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "GetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary::BoundaryType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::GetVisible
+  // Il2CppName: GetVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRBoundary::*)()>(&OVRBoundary::GetVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "GetVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::SetVisible
+  // Il2CppName: SetVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoundary::*)(bool)>(&OVRBoundary::SetVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), "SetVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRBoundary::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRBoundary::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoundary::*)()>(&OVRBoundary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoundary::*)()>(&OVRBoundary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRBoundary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");

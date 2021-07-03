@@ -29,19 +29,51 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VRControllersRecorderSaveAndLoad
     VRControllersRecorderSaveAndLoad() noexcept {}
     // static private VRControllersRecorderSaveData LoadSaveDataFromFile(System.String filePath)
-    // Offset: 0x1D942D4
+    // Offset: 0x1DAD030
     static GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromFile(::Il2CppString* filePath);
     // static private VRControllersRecorderSaveData LoadSaveDataFromTextAsset(UnityEngine.TextAsset textAsset)
-    // Offset: 0x1D94498
+    // Offset: 0x1DAD1F4
     static GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromTextAsset(UnityEngine::TextAsset* textAsset);
     // static public System.Void LoadFromFile(System.String filePath, VRControllersRecorderData data)
-    // Offset: 0x1D9458C
+    // Offset: 0x1DAD2E8
     static void LoadFromFile(::Il2CppString* filePath, GlobalNamespace::VRControllersRecorderData* data);
     // static public System.Void SaveToFile(System.String filePath, VRControllersRecorderData data)
-    // Offset: 0x1D94814
+    // Offset: 0x1DAD570
     static void SaveToFile(::Il2CppString* filePath, GlobalNamespace::VRControllersRecorderData* data);
   }; // VRControllersRecorderSaveAndLoad
   #pragma pack(pop)
+  // Writing MetadataGetter for method: VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile
+  // Il2CppName: LoadSaveDataFromFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderSaveData* (*)(::Il2CppString*)>(&VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRControllersRecorderSaveAndLoad*), "LoadSaveDataFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VRControllersRecorderSaveAndLoad::LoadSaveDataFromTextAsset
+  // Il2CppName: LoadSaveDataFromTextAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderSaveData* (*)(UnityEngine::TextAsset*)>(&VRControllersRecorderSaveAndLoad::LoadSaveDataFromTextAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRControllersRecorderSaveAndLoad*), "LoadSaveDataFromTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VRControllersRecorderSaveAndLoad::LoadFromFile
+  // Il2CppName: LoadFromFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, GlobalNamespace::VRControllersRecorderData*)>(&VRControllersRecorderSaveAndLoad::LoadFromFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRControllersRecorderSaveAndLoad*), "LoadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::VRControllersRecorderData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VRControllersRecorderSaveAndLoad::SaveToFile
+  // Il2CppName: SaveToFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, GlobalNamespace::VRControllersRecorderData*)>(&VRControllersRecorderSaveAndLoad::SaveToFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRControllersRecorderSaveAndLoad*), "SaveToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::VRControllersRecorderData*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveAndLoad*, "", "VRControllersRecorderSaveAndLoad");

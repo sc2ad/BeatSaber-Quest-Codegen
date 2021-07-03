@@ -50,26 +50,26 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Creating value type constructor for type: Gost3410PublicKeyAlgParameters
     Gost3410PublicKeyAlgParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet_ = {}, Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet_ = {}) noexcept : publicKeyParamSet{publicKeyParamSet_}, digestParamSet{digestParamSet_}, encryptionParamSet{encryptionParamSet_} {}
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410PublicKeyAlgParameters GetInstance(System.Object obj)
-    // Offset: 0x16E6E34
+    // Offset: 0x16FDB44
     static Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x16E6ED4
+    // Offset: 0x16FDBE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410PublicKeyAlgParameters* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410PublicKeyAlgParameters*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_PublicKeyParamSet()
-    // Offset: 0x16E7030
+    // Offset: 0x16FDD40
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_DigestParamSet()
-    // Offset: 0x16E7038
+    // Offset: 0x16FDD48
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_EncryptionParamSet()
-    // Offset: 0x16E7040
+    // Offset: 0x16FDD50
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x16E7048
+    // Offset: 0x16FDD58
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -77,5 +77,59 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   #pragma pack(pop)
   static check_size<sizeof(Gost3410PublicKeyAlgParameters), 32 + sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*)> __Org_BouncyCastle_Asn1_CryptoPro_Gost3410PublicKeyAlgParametersSizeCheck;
   static_assert(sizeof(Gost3410PublicKeyAlgParameters) == 0x28);
+  // Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* (*)(::Il2CppObject*)>(&Gost3410PublicKeyAlgParameters::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3410PublicKeyAlgParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Gost3410PublicKeyAlgParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gost3410PublicKeyAlgParameters::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Gost3410PublicKeyAlgParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::get_PublicKeyParamSet
+  // Il2CppName: get_PublicKeyParamSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::get_PublicKeyParamSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "get_PublicKeyParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::get_DigestParamSet
+  // Il2CppName: get_DigestParamSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::get_DigestParamSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "get_DigestParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::get_EncryptionParamSet
+  // Il2CppName: get_EncryptionParamSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::get_EncryptionParamSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "get_EncryptionParamSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Gost3410PublicKeyAlgParameters::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Gost3410PublicKeyAlgParameters::*)()>(&Gost3410PublicKeyAlgParameters::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Gost3410PublicKeyAlgParameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410PublicKeyAlgParameters");

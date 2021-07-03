@@ -21,6 +21,14 @@ namespace System::Threading {
     void OnValueChanged(::Il2CppObject* previousValue, ::Il2CppObject* currentValue, bool contextChanged);
   }; // System.Threading.IAsyncLocal
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAsyncLocal::OnValueChanged
+  // Il2CppName: OnValueChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAsyncLocal::*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&IAsyncLocal::OnValueChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAsyncLocal*), "OnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::IAsyncLocal*, "System.Threading", "IAsyncLocal");

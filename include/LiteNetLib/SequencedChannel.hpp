@@ -82,19 +82,19 @@ namespace LiteNetLib {
     // Creating value type constructor for type: SequencedChannel
     SequencedChannel(int localSequence_ = {}, uint16_t remoteSequence_ = {}, bool reliable_ = {}, LiteNetLib::NetPacket* lastPacket_ = {}, LiteNetLib::NetPacket* ackPacket_ = {}, bool mustSendAck_ = {}, uint8_t id_ = {}, int64_t lastPacketSendTime_ = {}) noexcept : localSequence{localSequence_}, remoteSequence{remoteSequence_}, reliable{reliable_}, lastPacket{lastPacket_}, ackPacket{ackPacket_}, mustSendAck{mustSendAck_}, id{id_}, lastPacketSendTime{lastPacketSendTime_} {}
     // public System.Void .ctor(LiteNetLib.NetPeer peer, System.Boolean reliable, System.Byte id)
-    // Offset: 0x1B2AD1C
+    // Offset: 0x1B46A2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SequencedChannel* New_ctor(LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::SequencedChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SequencedChannel*, creationType>(peer, reliable, id)));
     }
     // public override System.Void SendNextPackets()
-    // Offset: 0x1B2F06C
+    // Offset: 0x1B4AD7C
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Void BaseChannel::SendNextPackets()
     void SendNextPackets();
     // public override System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
-    // Offset: 0x1B2F34C
+    // Offset: 0x1B4B05C
     // Implemented from: LiteNetLib.BaseChannel
     // Base method: System.Boolean BaseChannel::ProcessPacket(LiteNetLib.NetPacket packet)
     bool ProcessPacket(LiteNetLib::NetPacket* packet);
@@ -102,5 +102,35 @@ namespace LiteNetLib {
   #pragma pack(pop)
   static check_size<sizeof(SequencedChannel), 72 + sizeof(int64_t)> __LiteNetLib_SequencedChannelSizeCheck;
   static_assert(sizeof(SequencedChannel) == 0x50);
+  // Writing MetadataGetter for method: SequencedChannel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SequencedChannel::*)(LiteNetLib::NetPeer*, bool, uint8_t)>(&SequencedChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequencedChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SequencedChannel::*)(LiteNetLib::NetPeer*, bool, uint8_t)>(&SequencedChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequencedChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: SequencedChannel::SendNextPackets
+  // Il2CppName: SendNextPackets
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SequencedChannel::*)()>(&SequencedChannel::SendNextPackets)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequencedChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SequencedChannel::ProcessPacket
+  // Il2CppName: ProcessPacket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SequencedChannel::*)(LiteNetLib::NetPacket*)>(&SequencedChannel::ProcessPacket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SequencedChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel*, "LiteNetLib", "SequencedChannel");

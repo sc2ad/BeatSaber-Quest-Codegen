@@ -31,14 +31,14 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE1661C
+    // [LocalizationKeyAttribute] Offset: 0xE165F8
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* descriptionLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE16654
+    // [LocalizationKeyAttribute] Offset: 0xE16630
     // private System.String _characteristicNameLocalizationKey
     // Size: 0x8
     // Offset: 0x28
@@ -88,34 +88,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x11A5334
+    // Offset: 0x11BF3B8
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x11A533C
+    // Offset: 0x11BF3C0
     ::Il2CppString* get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
-    // Offset: 0x11A5344
+    // Offset: 0x11BF3C8
     ::Il2CppString* get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
-    // Offset: 0x11A534C
+    // Offset: 0x11BF3D0
     ::Il2CppString* get_serializedName();
     // public System.String get_compoundIdPartName()
-    // Offset: 0x11A5354
+    // Offset: 0x11BF3D8
     ::Il2CppString* get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
-    // Offset: 0x11A535C
+    // Offset: 0x11BF3E0
     int get_sortingOrder();
     // public System.Boolean get_containsRotationEvents()
-    // Offset: 0x11A5364
+    // Offset: 0x11BF3E8
     bool get_containsRotationEvents();
     // public System.Boolean get_requires360Movement()
-    // Offset: 0x11A536C
+    // Offset: 0x11BF3F0
     bool get_requires360Movement();
     // public System.Int32 get_numberOfColors()
-    // Offset: 0x11A5374
+    // Offset: 0x11BF3F8
     int get_numberOfColors();
     // public System.Void .ctor()
-    // Offset: 0x11A537C
+    // Offset: 0x11BF400
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -130,5 +130,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BeatmapCharacteristicSO), 72 + sizeof(int)> __GlobalNamespace_BeatmapCharacteristicSOSizeCheck;
   static_assert(sizeof(BeatmapCharacteristicSO) == 0x4C);
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_icon
+  // Il2CppName: get_icon
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_icon)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_descriptionLocalizationKey
+  // Il2CppName: get_descriptionLocalizationKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_descriptionLocalizationKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_descriptionLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_characteristicNameLocalizationKey
+  // Il2CppName: get_characteristicNameLocalizationKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_characteristicNameLocalizationKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_characteristicNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_serializedName
+  // Il2CppName: get_serializedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_serializedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_compoundIdPartName
+  // Il2CppName: get_compoundIdPartName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_compoundIdPartName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_compoundIdPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_sortingOrder
+  // Il2CppName: get_sortingOrder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_sortingOrder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_containsRotationEvents
+  // Il2CppName: get_containsRotationEvents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_containsRotationEvents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_containsRotationEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_requires360Movement
+  // Il2CppName: get_requires360Movement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_requires360Movement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_requires360Movement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::get_numberOfColors
+  // Il2CppName: get_numberOfColors
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::get_numberOfColors)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), "get_numberOfColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCharacteristicSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicSO::*)()>(&BeatmapCharacteristicSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSO*, "", "BeatmapCharacteristicSO");

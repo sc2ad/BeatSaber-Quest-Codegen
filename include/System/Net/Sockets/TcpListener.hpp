@@ -68,33 +68,95 @@ namespace System::Net::Sockets {
     // Creating value type constructor for type: TcpListener
     TcpListener(System::Net::IPEndPoint* m_ServerSocketEP_ = {}, System::Net::Sockets::Socket* m_ServerSocket_ = {}, bool m_Active_ = {}, bool m_ExclusiveAddressUse_ = {}) noexcept : m_ServerSocketEP{m_ServerSocketEP_}, m_ServerSocket{m_ServerSocket_}, m_Active{m_Active_}, m_ExclusiveAddressUse{m_ExclusiveAddressUse_} {}
     // public System.Void .ctor(System.Net.IPAddress localaddr, System.Int32 port)
-    // Offset: 0x159FF14
+    // Offset: 0x15B9C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TcpListener* New_ctor(System::Net::IPAddress* localaddr, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpListener*, creationType>(localaddr, port)));
     }
     // public System.Net.EndPoint get_LocalEndpoint()
-    // Offset: 0x15A0084
+    // Offset: 0x15B9D94
     System::Net::EndPoint* get_LocalEndpoint();
     // public System.Void Start()
-    // Offset: 0x15A00B0
+    // Offset: 0x15B9DC0
     void Start();
     // public System.Void Start(System.Int32 backlog)
-    // Offset: 0x15A00B8
+    // Offset: 0x15B9DC8
     void Start(int backlog);
     // public System.Void Stop()
-    // Offset: 0x15A0248
+    // Offset: 0x15B9F58
     void Stop();
     // public System.IAsyncResult BeginAcceptTcpClient(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x15A031C
+    // Offset: 0x15BA02C
     System::IAsyncResult* BeginAcceptTcpClient(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.TcpClient EndAcceptTcpClient(System.IAsyncResult asyncResult)
-    // Offset: 0x15A03DC
+    // Offset: 0x15BA0EC
     System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
   #pragma pack(pop)
   static check_size<sizeof(TcpListener), 33 + sizeof(bool)> __System_Net_Sockets_TcpListenerSizeCheck;
   static_assert(sizeof(TcpListener) == 0x22);
+  // Writing MetadataGetter for method: TcpListener::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpListener::*)(System::Net::IPAddress*, int)>(&TcpListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpListener::*)(System::Net::IPAddress*, int)>(&TcpListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TcpListener::get_LocalEndpoint
+  // Il2CppName: get_LocalEndpoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (TcpListener::*)()>(&TcpListener::get_LocalEndpoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), "get_LocalEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TcpListener::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpListener::*)()>(&TcpListener::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TcpListener::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpListener::*)(int)>(&TcpListener::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TcpListener::Stop
+  // Il2CppName: Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpListener::*)()>(&TcpListener::Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TcpListener::BeginAcceptTcpClient
+  // Il2CppName: BeginAcceptTcpClient
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (TcpListener::*)(System::AsyncCallback*, ::Il2CppObject*)>(&TcpListener::BeginAcceptTcpClient)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), "BeginAcceptTcpClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TcpListener::EndAcceptTcpClient
+  // Il2CppName: EndAcceptTcpClient
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::TcpClient* (TcpListener::*)(System::IAsyncResult*)>(&TcpListener::EndAcceptTcpClient)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TcpListener*), "EndAcceptTcpClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpListener*, "System.Net.Sockets", "TcpListener");

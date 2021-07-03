@@ -39,7 +39,7 @@ namespace Oculus::Platform::Models {
       return TotalCount;
     }
     // public System.Void .ctor(System.IntPtr a)
-    // Offset: 0x14B545C
+    // Offset: 0x14D016C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryList* New_ctor(System::IntPtr a) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LeaderboardEntryList::.ctor");
@@ -47,5 +47,19 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.LeaderboardEntryList
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: LeaderboardEntryList::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardEntryList::*)(System::IntPtr)>(&LeaderboardEntryList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LeaderboardEntryList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardEntryList::*)(System::IntPtr)>(&LeaderboardEntryList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LeaderboardEntryList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntryList*, "Oculus.Platform.Models", "LeaderboardEntryList");

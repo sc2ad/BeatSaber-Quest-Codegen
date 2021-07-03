@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FindUnityObjectsHelper
     FindUnityObjectsHelper() noexcept {}
     // static public System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> GetMonoBehavioursInLoadedScenes()
-    // Offset: 0x1229504
+    // Offset: 0x1245C9C
     static System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* GetMonoBehavioursInLoadedScenes();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjectsInLoadedScenes()
-    // Offset: 0x1229720
+    // Offset: 0x1245EB8
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllRootGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInGameObject(UnityEngine.GameObject go)
-    // Offset: 0x1229828
+    // Offset: 0x1245FC0
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInGameObject(UnityEngine::GameObject* go);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllGameObjectsInLoadedScenes()
-    // Offset: 0x1229568
+    // Offset: 0x1245D00
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllGameObjectsInLoadedScenes();
     // static public System.Collections.Generic.List`1<T> GetComponentsInGameObjects(System.Collections.Generic.IReadOnlyList`1<UnityEngine.GameObject> gameObjects)
     // Offset: 0xFFFFFFFF
@@ -62,5 +62,40 @@ namespace GlobalNamespace {
     }
   }; // FindUnityObjectsHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes
+  // Il2CppName: GetMonoBehavioursInLoadedScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* (*)()>(&FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetMonoBehavioursInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes
+  // Il2CppName: GetAllRootGameObjectsInLoadedScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetAllRootGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FindUnityObjectsHelper::GetAllGameObjectsInGameObject
+  // Il2CppName: GetAllGameObjectsInGameObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&FindUnityObjectsHelper::GetAllGameObjectsInGameObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetAllGameObjectsInGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes
+  // Il2CppName: GetAllGameObjectsInLoadedScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetAllGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FindUnityObjectsHelper::GetComponentsInGameObjects
+  // Il2CppName: GetComponentsInGameObjects
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FindUnityObjectsHelper*, "", "FindUnityObjectsHelper");

@@ -36,10 +36,10 @@ namespace Org::BouncyCastle::Security {
     // Set static field: static private readonly System.Collections.IDictionary basicIVSizes
     static void _set_basicIVSizes(System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x134AAF8
+    // Offset: 0x1365808
     static void _cctor();
     // static private System.Void AddAlgorithm(System.String canonicalName, params System.Object[] aliases)
-    // Offset: 0x134C0B8
+    // Offset: 0x1366DC8
     static void AddAlgorithm(::Il2CppString* canonicalName, ::Array<::Il2CppObject*>* aliases);
     // Creating initializer_list -> params proxy for: System.Void AddAlgorithm(System.String canonicalName, params System.Object[] aliases)
     static void AddAlgorithm(::Il2CppString* canonicalName, std::initializer_list<::Il2CppObject*> aliases);
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Security {
       AddAlgorithm(canonicalName, {aliases...});
     }
     // static private System.Void AddBasicIVSizeEntries(System.Int32 size, params System.String[] algorithms)
-    // Offset: 0x134C2A8
+    // Offset: 0x1366FB8
     static void AddBasicIVSizeEntries(int size, ::Array<::Il2CppString*>* algorithms);
     // Creating initializer_list -> params proxy for: System.Void AddBasicIVSizeEntries(System.Int32 size, params System.String[] algorithms)
     static void AddBasicIVSizeEntries(int size, std::initializer_list<::Il2CppString*> algorithms);
@@ -59,13 +59,53 @@ namespace Org::BouncyCastle::Security {
       AddBasicIVSizeEntries(size, {algorithms...});
     }
     // static public System.String GetCanonicalAlgorithmName(System.String algorithm)
-    // Offset: 0x134C414
+    // Offset: 0x1367124
     static ::Il2CppString* GetCanonicalAlgorithmName(::Il2CppString* algorithm);
     // static public Org.BouncyCastle.Crypto.Parameters.KeyParameter CreateKeyParameter(System.String algorithm, System.Byte[] keyBytes, System.Int32 offset, System.Int32 length)
-    // Offset: 0x134C548
+    // Offset: 0x1367258
     static Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::Il2CppString* algorithm, ::Array<uint8_t>* keyBytes, int offset, int length);
   }; // Org.BouncyCastle.Security.ParameterUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ParameterUtilities::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ParameterUtilities::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterUtilities::AddAlgorithm
+  // Il2CppName: AddAlgorithm
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ParameterUtilities::AddAlgorithm)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterUtilities*), "AddAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterUtilities::AddBasicIVSizeEntries
+  // Il2CppName: AddBasicIVSizeEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<::Il2CppString*>*)>(&ParameterUtilities::AddBasicIVSizeEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterUtilities*), "AddBasicIVSizeEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterUtilities::GetCanonicalAlgorithmName
+  // Il2CppName: GetCanonicalAlgorithmName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&ParameterUtilities::GetCanonicalAlgorithmName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterUtilities*), "GetCanonicalAlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterUtilities::CreateKeyParameter
+  // Il2CppName: CreateKeyParameter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::KeyParameter* (*)(::Il2CppString*, ::Array<uint8_t>*, int, int)>(&ParameterUtilities::CreateKeyParameter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterUtilities*), "CreateKeyParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::ParameterUtilities*, "Org.BouncyCastle.Security", "ParameterUtilities");

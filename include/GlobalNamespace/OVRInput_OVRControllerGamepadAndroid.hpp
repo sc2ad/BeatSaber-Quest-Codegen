@@ -23,7 +23,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRControllerGamepadAndroid
     OVRControllerGamepadAndroid() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x14FA678
+    // Offset: 0x1515388
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -33,31 +33,85 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerGamepadAndroid*, creationType>()));
     }
     // public override System.Void ConfigureButtonMap()
-    // Offset: 0x14FF82C
+    // Offset: 0x151A53C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureButtonMap()
     void ConfigureButtonMap();
     // public override System.Void ConfigureTouchMap()
-    // Offset: 0x14FFA3C
+    // Offset: 0x151A74C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureTouchMap()
     void ConfigureTouchMap();
     // public override System.Void ConfigureNearTouchMap()
-    // Offset: 0x14FFAEC
+    // Offset: 0x151A7FC
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureNearTouchMap()
     void ConfigureNearTouchMap();
     // public override System.Void ConfigureAxis1DMap()
-    // Offset: 0x14FFB3C
+    // Offset: 0x151A84C
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis1DMap()
     void ConfigureAxis1DMap();
     // public override System.Void ConfigureAxis2DMap()
-    // Offset: 0x14FFB94
+    // Offset: 0x151A8A4
     // Implemented from: OVRInput/OVRControllerBase
     // Base method: System.Void OVRControllerBase::ConfigureAxis2DMap()
     void ConfigureAxis2DMap();
   }; // OVRInput/OVRControllerGamepadAndroid
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRInput::OVRControllerGamepadAndroid::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRInput::OVRControllerGamepadAndroid::ConfigureButtonMap
+  // Il2CppName: ConfigureButtonMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::ConfigureButtonMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRInput::OVRControllerGamepadAndroid::ConfigureTouchMap
+  // Il2CppName: ConfigureTouchMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::ConfigureTouchMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRInput::OVRControllerGamepadAndroid::ConfigureNearTouchMap
+  // Il2CppName: ConfigureNearTouchMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::ConfigureNearTouchMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRInput::OVRControllerGamepadAndroid::ConfigureAxis1DMap
+  // Il2CppName: ConfigureAxis1DMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::ConfigureAxis1DMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRInput::OVRControllerGamepadAndroid::ConfigureAxis2DMap
+  // Il2CppName: ConfigureAxis2DMap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerGamepadAndroid::*)()>(&OVRInput::OVRControllerGamepadAndroid::ConfigureAxis2DMap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerGamepadAndroid*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadAndroid*, "", "OVRInput/OVRControllerGamepadAndroid");

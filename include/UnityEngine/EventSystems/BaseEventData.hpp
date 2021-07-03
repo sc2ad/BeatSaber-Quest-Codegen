@@ -45,24 +45,62 @@ namespace UnityEngine::EventSystems {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1412228
+    // Offset: 0x142CF38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseEventData* New_ctor(UnityEngine::EventSystems::EventSystem* eventSystem) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::BaseEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseEventData*, creationType>(eventSystem)));
     }
     // public UnityEngine.EventSystems.BaseInputModule get_currentInputModule()
-    // Offset: 0x1412254
+    // Offset: 0x142CF64
     UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
     // public UnityEngine.GameObject get_selectedObject()
-    // Offset: 0x1412270
+    // Offset: 0x142CF80
     UnityEngine::GameObject* get_selectedObject();
     // public System.Void set_selectedObject(UnityEngine.GameObject value)
-    // Offset: 0x141228C
+    // Offset: 0x142CF9C
     void set_selectedObject(UnityEngine::GameObject* value);
   }; // UnityEngine.EventSystems.BaseEventData
   #pragma pack(pop)
   static check_size<sizeof(BaseEventData), 24 + sizeof(UnityEngine::EventSystems::EventSystem*)> __UnityEngine_EventSystems_BaseEventDataSizeCheck;
   static_assert(sizeof(BaseEventData) == 0x20);
+  // Writing MetadataGetter for method: BaseEventData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&BaseEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&BaseEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseEventData::get_currentInputModule
+  // Il2CppName: get_currentInputModule
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInputModule* (BaseEventData::*)()>(&BaseEventData::get_currentInputModule)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseEventData*), "get_currentInputModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseEventData::get_selectedObject
+  // Il2CppName: get_selectedObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (BaseEventData::*)()>(&BaseEventData::get_selectedObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseEventData*), "get_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseEventData::set_selectedObject
+  // Il2CppName: set_selectedObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseEventData::*)(UnityEngine::GameObject*)>(&BaseEventData::set_selectedObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseEventData*), "set_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseEventData*, "UnityEngine.EventSystems", "BaseEventData");

@@ -55,29 +55,29 @@ namespace Zenject {
     // Set static field: static public Zenject.ZenjectSettings/SignalSettings Default
     static void _set_Default(Zenject::ZenjectSettings::SignalSettings* value);
     // public System.Void .ctor(Zenject.SignalDefaultSyncModes defaultSyncMode, Zenject.SignalMissingHandlerResponses missingHandlerDefaultResponse, System.Boolean requireStrictUnsubscribe, System.Int32 defaultAsyncTickPriority)
-    // Offset: 0x23A0EB8
+    // Offset: 0x23BC4EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings::SignalSettings* New_ctor(Zenject::SignalDefaultSyncModes defaultSyncMode, Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe, int defaultAsyncTickPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::SignalSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings::SignalSettings*, creationType>(defaultSyncMode, missingHandlerDefaultResponse, requireStrictUnsubscribe, defaultAsyncTickPriority)));
     }
     // public System.Int32 get_DefaultAsyncTickPriority()
-    // Offset: 0x23A0F48
+    // Offset: 0x23BC57C
     int get_DefaultAsyncTickPriority();
     // public Zenject.SignalDefaultSyncModes get_DefaultSyncMode()
-    // Offset: 0x23A0F50
+    // Offset: 0x23BC584
     Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
     // public Zenject.SignalMissingHandlerResponses get_MissingHandlerDefaultResponse()
-    // Offset: 0x23A0F58
+    // Offset: 0x23BC58C
     Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
     // public System.Boolean get_RequireStrictUnsubscribe()
-    // Offset: 0x23A0F60
+    // Offset: 0x23BC594
     bool get_RequireStrictUnsubscribe();
     // static private System.Void .cctor()
-    // Offset: 0x23A0F68
+    // Offset: 0x23BC59C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x23A0F0C
+    // Offset: 0x23BC540
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,5 +89,73 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(ZenjectSettings::SignalSettings), 28 + sizeof(int)> __Zenject_ZenjectSettings_SignalSettingsSizeCheck;
   static_assert(sizeof(ZenjectSettings::SignalSettings) == 0x20);
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::SignalSettings::*)(Zenject::SignalDefaultSyncModes, Zenject::SignalMissingHandlerResponses, bool, int)>(&ZenjectSettings::SignalSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SignalDefaultSyncModes>(), ::il2cpp_utils::ExtractIndependentType<Zenject::SignalMissingHandlerResponses>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::SignalSettings::*)(Zenject::SignalDefaultSyncModes, Zenject::SignalMissingHandlerResponses, bool, int)>(&ZenjectSettings::SignalSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SignalDefaultSyncModes>(), ::il2cpp_utils::ExtractIndependentType<Zenject::SignalMissingHandlerResponses>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority
+  // Il2CppName: get_DefaultAsyncTickPriority
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ZenjectSettings::SignalSettings::*)()>(&ZenjectSettings::SignalSettings::get_DefaultAsyncTickPriority)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), "get_DefaultAsyncTickPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::get_DefaultSyncMode
+  // Il2CppName: get_DefaultSyncMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SignalDefaultSyncModes (ZenjectSettings::SignalSettings::*)()>(&ZenjectSettings::SignalSettings::get_DefaultSyncMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), "get_DefaultSyncMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::get_MissingHandlerDefaultResponse
+  // Il2CppName: get_MissingHandlerDefaultResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SignalMissingHandlerResponses (ZenjectSettings::SignalSettings::*)()>(&ZenjectSettings::SignalSettings::get_MissingHandlerDefaultResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), "get_MissingHandlerDefaultResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::get_RequireStrictUnsubscribe
+  // Il2CppName: get_RequireStrictUnsubscribe
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectSettings::SignalSettings::*)()>(&ZenjectSettings::SignalSettings::get_RequireStrictUnsubscribe)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), "get_RequireStrictUnsubscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ZenjectSettings::SignalSettings::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ZenjectSettings::SignalSettings::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::SignalSettings::*)()>(&ZenjectSettings::SignalSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::SignalSettings::*)()>(&ZenjectSettings::SignalSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ZenjectSettings::SignalSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings::SignalSettings*, "Zenject", "ZenjectSettings/SignalSettings");

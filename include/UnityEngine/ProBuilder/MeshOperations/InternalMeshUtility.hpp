@@ -42,19 +42,51 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Creating value type constructor for type: InternalMeshUtility
     InternalMeshUtility() noexcept {}
     // static UnityEngine.Vector3 AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex shared, System.Int32[] all, System.Collections.Generic.IList`1<UnityEngine.Vector3> norm)
-    // Offset: 0x153A998
+    // Offset: 0x15556A8
     static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::Array<int>* all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);
     // static public UnityEngine.ProBuilder.ProBuilderMesh CreateMeshWithTransform(UnityEngine.Transform t, System.Boolean preserveFaces)
-    // Offset: 0x153BB1C
+    // Offset: 0x155682C
     static UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(UnityEngine::Transform* t, bool preserveFaces);
     // static public System.Boolean ResetPbObjectWithMeshFilter(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Boolean preserveFaces)
-    // Offset: 0x153C824
+    // Offset: 0x1557534
     static bool ResetPbObjectWithMeshFilter(UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
     // static System.Void FilterUnusedSubmeshIndexes(UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x152CD58
+    // Offset: 0x1547A68
     static void FilterUnusedSubmeshIndexes(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility
   #pragma pack(pop)
+  // Writing MetadataGetter for method: InternalMeshUtility::AverageNormalWithIndexes
+  // Il2CppName: AverageNormalWithIndexes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::SharedVertex*, ::Array<int>*, System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&InternalMeshUtility::AverageNormalWithIndexes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility*), "AverageNormalWithIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SharedVertex*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternalMeshUtility::CreateMeshWithTransform
+  // Il2CppName: CreateMeshWithTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::Transform*, bool)>(&InternalMeshUtility::CreateMeshWithTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility*), "CreateMeshWithTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternalMeshUtility::ResetPbObjectWithMeshFilter
+  // Il2CppName: ResetPbObjectWithMeshFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, bool)>(&InternalMeshUtility::ResetPbObjectWithMeshFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility*), "ResetPbObjectWithMeshFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: InternalMeshUtility::FilterUnusedSubmeshIndexes
+  // Il2CppName: FilterUnusedSubmeshIndexes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&InternalMeshUtility::FilterUnusedSubmeshIndexes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalMeshUtility*), "FilterUnusedSubmeshIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility");

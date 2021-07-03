@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     struct TypeWrapper_1;
-    // [CompilerGeneratedAttribute] Offset: 0xDF005C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0F90
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -51,31 +51,31 @@ namespace GlobalNamespace {
       return syncTime;
     }
     // public System.Single get_syncTime()
-    // Offset: 0x2363550
+    // Offset: 0x23786AC
     float get_syncTime();
     // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x2363558
+    // Offset: 0x23786B4
     void set_syncTime(float value);
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2363560
+    // Offset: 0x23786BC
     void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2363564
+    // Offset: 0x23786C0
     void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2363568
+    // Offset: 0x23786C4
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x23635B0
+    // Offset: 0x237870C
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x23635F8
+    // Offset: 0x2378754
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x2363718
+    // Offset: 0x2378874
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x2363720
+    // Offset: 0x237887C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,83 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(RemoteProcedureCall), 16 + sizeof(float)> __GlobalNamespace_RemoteProcedureCallSizeCheck;
   static_assert(sizeof(RemoteProcedureCall) == 0x14);
+  // Writing MetadataGetter for method: RemoteProcedureCall::get_syncTime
+  // Il2CppName: get_syncTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RemoteProcedureCall::*)()>(&RemoteProcedureCall::get_syncTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::set_syncTime
+  // Il2CppName: set_syncTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)(float)>(&RemoteProcedureCall::set_syncTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "set_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::SerializeData
+  // Il2CppName: SerializeData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataWriter*)>(&RemoteProcedureCall::SerializeData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "SerializeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::DeserializeData
+  // Il2CppName: DeserializeData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataReader*)>(&RemoteProcedureCall::DeserializeData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "DeserializeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Serialize
+  // Il2CppName: LiteNetLib.Utils.INetSerializable.Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataWriter*)>(&RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Deserialize
+  // Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataReader*)>(&RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "LiteNetLib.Utils.INetSerializable.Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)()>(&RemoteProcedureCall::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IRemoteProcedureCall* (RemoteProcedureCall::*)(float)>(&RemoteProcedureCall::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: RemoteProcedureCall::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)()>(&RemoteProcedureCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteProcedureCall::*)()>(&RemoteProcedureCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteProcedureCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RemoteProcedureCall*, "", "RemoteProcedureCall");

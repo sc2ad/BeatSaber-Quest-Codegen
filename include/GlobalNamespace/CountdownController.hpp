@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::CountdownElementController*>* countdownElementControllers;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::CountdownElementController*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE23B60
+    // [InjectAttribute] Offset: 0xE23B3C
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -100,22 +100,22 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kGongTime
     static void _set_kGongTime(float value);
     // protected System.Void Awake()
-    // Offset: 0x10984B8
+    // Offset: 0x11965FC
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x10984D0
+    // Offset: 0x1196614
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x108B724
+    // Offset: 0x1189868
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x108B914
+    // Offset: 0x1189A58
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x108B824
+    // Offset: 0x1189968
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x10986F0
+    // Offset: 0x1196834
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -131,5 +131,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CountdownController), 64 + sizeof(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*)> __GlobalNamespace_CountdownControllerSizeCheck;
   static_assert(sizeof(CountdownController) == 0x48);
+  // Writing MetadataGetter for method: CountdownController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CountdownController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CountdownController::StartCountdown
+  // Il2CppName: StartCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)(float)>(&CountdownController::StartCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), "StartCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CountdownController::UpdateCountdown
+  // Il2CppName: UpdateCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)(float)>(&CountdownController::UpdateCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), "UpdateCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CountdownController::StopCountdown
+  // Il2CppName: StopCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::StopCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CountdownController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CountdownController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownController*, "", "CountdownController");

@@ -35,25 +35,25 @@ namespace Org::BouncyCastle::Crypto {
       return privateKey;
     }
     // protected System.Void .ctor(System.Boolean privateKey)
-    // Offset: 0x19FF78C
+    // Offset: 0x1A1849C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricKeyParameter* New_ctor(bool privateKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricKeyParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricKeyParameter*, creationType>(privateKey)));
     }
     // public System.Boolean get_IsPrivate()
-    // Offset: 0x19FF7BC
+    // Offset: 0x1A184CC
     bool get_IsPrivate();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.AsymmetricKeyParameter other)
-    // Offset: 0x19FF878
+    // Offset: 0x1A18588
     bool Equals(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19FF7C4
+    // Offset: 0x1A184D4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19FF8A8
+    // Offset: 0x1A185B8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -61,5 +61,51 @@ namespace Org::BouncyCastle::Crypto {
   #pragma pack(pop)
   static check_size<sizeof(AsymmetricKeyParameter), 16 + sizeof(bool)> __Org_BouncyCastle_Crypto_AsymmetricKeyParameterSizeCheck;
   static_assert(sizeof(AsymmetricKeyParameter) == 0x11);
+  // Writing MetadataGetter for method: AsymmetricKeyParameter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricKeyParameter::*)(bool)>(&AsymmetricKeyParameter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsymmetricKeyParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricKeyParameter::*)(bool)>(&AsymmetricKeyParameter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsymmetricKeyParameter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsymmetricKeyParameter::get_IsPrivate
+  // Il2CppName: get_IsPrivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsymmetricKeyParameter::*)()>(&AsymmetricKeyParameter::get_IsPrivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsymmetricKeyParameter*), "get_IsPrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsymmetricKeyParameter::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsymmetricKeyParameter::*)(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&AsymmetricKeyParameter::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsymmetricKeyParameter*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsymmetricKeyParameter::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsymmetricKeyParameter::*)(::Il2CppObject*)>(&AsymmetricKeyParameter::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsymmetricKeyParameter*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsymmetricKeyParameter::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AsymmetricKeyParameter::*)()>(&AsymmetricKeyParameter::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsymmetricKeyParameter*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, "Org.BouncyCastle.Crypto", "AsymmetricKeyParameter");

@@ -163,19 +163,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 opRecordIdCount
     static void _set_opRecordIdCount(int value);
     // System.Void Init()
-    // Offset: 0x15F47E4
+    // Offset: 0x160D4F4
     void Init();
     // System.Void ArrayCountIncrement(System.Int32 value)
-    // Offset: 0x15F48E0
+    // Offset: 0x160D5F0
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
-    // Offset: 0x15F48F0
+    // Offset: 0x160D600
     bool GetNext(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& outBinaryTypeEnum, ::Il2CppObject*& outTypeInformation);
     // static private System.Void .cctor()
-    // Offset: 0x15F4A14
+    // Offset: 0x160D724
     static void _cctor();
     // System.Void .ctor()
-    // Offset: 0x15F476C
+    // Offset: 0x160D47C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -187,5 +187,51 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   #pragma pack(pop)
   static check_size<sizeof(ObjectProgress), 128 + sizeof(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)> __System_Runtime_Serialization_Formatters_Binary_ObjectProgressSizeCheck;
   static_assert(sizeof(ObjectProgress) == 0x88);
+  // Writing MetadataGetter for method: ObjectProgress::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectProgress::*)()>(&ObjectProgress::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectProgress*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectProgress::ArrayCountIncrement
+  // Il2CppName: ArrayCountIncrement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectProgress::*)(int)>(&ObjectProgress::ArrayCountIncrement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectProgress*), "ArrayCountIncrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectProgress::GetNext
+  // Il2CppName: GetNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ObjectProgress::*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum&, ::Il2CppObject*&)>(&ObjectProgress::GetNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectProgress*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectProgress::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ObjectProgress::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectProgress*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ObjectProgress::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectProgress::*)()>(&ObjectProgress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectProgress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObjectProgress::*)()>(&ObjectProgress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ObjectProgress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");

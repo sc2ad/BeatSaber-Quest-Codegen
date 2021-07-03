@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LevelSelectionFlowCoordinator::State
     class State;
-    // [InjectAttribute] Offset: 0xE22834
+    // [InjectAttribute] Offset: 0xE22810
     // protected readonly PlayerDataModel playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22844
+    // [InjectAttribute] Offset: 0xE22820
     // protected readonly LevelSelectionNavigationController levelSelectionNavigationController
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::LevelSelectionNavigationController* levelSelectionNavigationController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSelectionNavigationController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22854
+    // [InjectAttribute] Offset: 0xE22830
     // private readonly SearchFilterParamsViewController _searchFilterParamsViewController
     // Size: 0x8
     // Offset: 0xB8
     GlobalNamespace::SearchFilterParamsViewController* searchFilterParamsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SearchFilterParamsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE22864
+    // [InjectAttribute] Offset: 0xE22840
     // private readonly LevelSearchViewController _levelSearchViewController
     // Size: 0x8
     // Offset: 0xC0
@@ -94,127 +94,127 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelSelectionFlowCoordinator
     LevelSelectionFlowCoordinator(GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::LevelSelectionNavigationController* levelSelectionNavigationController_ = {}, GlobalNamespace::SearchFilterParamsViewController* searchFilterParamsViewController_ = {}, GlobalNamespace::LevelSearchViewController* levelSearchViewController_ = {}, GlobalNamespace::LevelSelectionFlowCoordinator::State* startState_ = {}) noexcept : playerDataModel{playerDataModel_}, levelSelectionNavigationController{levelSelectionNavigationController_}, searchFilterParamsViewController{searchFilterParamsViewController_}, levelSearchViewController{levelSearchViewController_}, startState{startState_} {}
     // protected System.Boolean get_isInRootViewController()
-    // Offset: 0x11FBE78
+    // Offset: 0x11FF89C
     bool get_isInRootViewController();
     // protected SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x11FBEFC
+    // Offset: 0x11FF920
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // protected IBeatmapLevelPack get_selectedBeatmapLevelPack()
-    // Offset: 0x11FBF3C
+    // Offset: 0x11FF960
     GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();
     // protected IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x11FBF78
+    // Offset: 0x11FF99C
     GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
     // protected IPreviewBeatmapLevel get_selectedBeatmapLevel()
-    // Offset: 0x11FBFBC
+    // Offset: 0x11FF9E0
     GlobalNamespace::IPreviewBeatmapLevel* get_selectedBeatmapLevel();
     // protected HMUI.ViewController get_initialTopScreenViewController()
-    // Offset: 0x11FC000
+    // Offset: 0x11FFA24
     HMUI::ViewController* get_initialTopScreenViewController();
     // protected HMUI.ViewController get_initialLeftScreenViewController()
-    // Offset: 0x11FC008
+    // Offset: 0x11FFA2C
     HMUI::ViewController* get_initialLeftScreenViewController();
     // protected HMUI.ViewController get_initialRightScreenViewController()
-    // Offset: 0x11FC010
+    // Offset: 0x11FFA34
     HMUI::ViewController* get_initialRightScreenViewController();
     // protected System.Boolean get_showBackButtonForMainViewController()
-    // Offset: 0x11FC018
+    // Offset: 0x11FFA3C
     bool get_showBackButtonForMainViewController();
     // protected System.Boolean get_hidePacksIfOneOrNone()
-    // Offset: 0x11FC020
+    // Offset: 0x11FFA44
     bool get_hidePacksIfOneOrNone();
     // protected System.Boolean get_hidePracticeButton()
-    // Offset: 0x11FC028
+    // Offset: 0x11FFA4C
     bool get_hidePracticeButton();
     // protected System.Boolean get_showPlayerStatsInDetailView()
-    // Offset: 0x11FC030
+    // Offset: 0x11FFA54
     bool get_showPlayerStatsInDetailView();
     // protected System.String get_actionButtonText()
-    // Offset: 0x11FC038
+    // Offset: 0x11FFA5C
     ::Il2CppString* get_actionButtonText();
     // protected System.String get_mainTitle()
-    // Offset: 0x11FC084
+    // Offset: 0x11FFAA8
     ::Il2CppString* get_mainTitle();
     // protected System.Boolean get_enableCustomLevels()
-    // Offset: 0x11FC08C
+    // Offset: 0x11FFAB0
     bool get_enableCustomLevels();
     // protected SongPackMask get_songPackMask()
-    // Offset: 0x11FC094
+    // Offset: 0x11FFAB8
     GlobalNamespace::SongPackMask get_songPackMask();
     // protected BeatmapDifficultyMask get_allowedBeatmapDifficultyMask()
-    // Offset: 0x11FC09C
+    // Offset: 0x11FFAC0
     GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
     // protected BeatmapCharacteristicSO[] get_notAllowedCharacteristics()
-    // Offset: 0x11FC0A4
+    // Offset: 0x11FFAC8
     ::Array<GlobalNamespace::BeatmapCharacteristicSO*>* get_notAllowedCharacteristics();
     // protected System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x11FC0F0
+    // Offset: 0x11FFB14
     void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void LevelSelectionFlowCoordinatorDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x11FC0F4
+    // Offset: 0x11FFB18
     void LevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
     // protected System.Void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x11FC0F8
+    // Offset: 0x11FFB1C
     void LevelSelectionFlowCoordinatorTopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void ActionButtonWasPressed()
-    // Offset: 0x11FC1F8
+    // Offset: 0x11FFC1C
     void ActionButtonWasPressed();
     // protected System.Void PracticeButtonWasPressed()
-    // Offset: 0x11FC1FC
+    // Offset: 0x11FFC20
     void PracticeButtonWasPressed();
     // protected System.Void SelectionDidChange(IBeatmapLevelPack pack, IDifficultyBeatmap beatmap)
-    // Offset: 0x11FC200
+    // Offset: 0x11FFC24
     void SelectionDidChange(GlobalNamespace::IBeatmapLevelPack* pack, GlobalNamespace::IDifficultyBeatmap* beatmap);
     // public System.Void Setup(LevelSelectionFlowCoordinator/State state)
-    // Offset: 0x11FC204
+    // Offset: 0x11FFC28
     void Setup(GlobalNamespace::LevelSelectionFlowCoordinator::State* state);
     // private System.Void HandleLevelSelectionNavigationControllerDidSelectPack(LevelSelectionNavigationController viewController, IBeatmapLevelPack pack)
-    // Offset: 0x11FCFB4
+    // Offset: 0x12009D8
     void HandleLevelSelectionNavigationControllerDidSelectPack(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Void HandleSearchFilterParamsViewControllerDidFinish(SearchFilterParamsViewController viewController, LevelFilterParams levelFilterParams)
-    // Offset: 0x11FCFCC
+    // Offset: 0x12009F0
     void HandleSearchFilterParamsViewControllerDidFinish(GlobalNamespace::SearchFilterParamsViewController* viewController, GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void HandleLevelSearchViewControllerDidPressSearchButton(LevelSearchViewController viewController, LevelFilterParams levelFilterParams)
-    // Offset: 0x11FD014
+    // Offset: 0x1200A38
     void HandleLevelSearchViewControllerDidPressSearchButton(GlobalNamespace::LevelSearchViewController* viewController, GlobalNamespace::LevelFilterParams* levelFilterParams);
     // private System.Void HandleLevelSelectionNavigationControllerDidPressActionButton(LevelSelectionNavigationController viewController)
-    // Offset: 0x11FD060
+    // Offset: 0x1200A84
     void HandleLevelSelectionNavigationControllerDidPressActionButton(GlobalNamespace::LevelSelectionNavigationController* viewController);
     // protected System.Void HandleLevelSelectionNavigationControllerDidPressPracticeButton(LevelSelectionNavigationController viewController, IBeatmapLevel level)
-    // Offset: 0x11FD070
+    // Offset: 0x1200A94
     void HandleLevelSelectionNavigationControllerDidPressPracticeButton(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IBeatmapLevel* level);
     // protected System.Void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(LevelSelectionNavigationController viewController, IDifficultyBeatmap beatmap)
-    // Offset: 0x11FD080
+    // Offset: 0x1200AA4
     void HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::IDifficultyBeatmap* beatmap);
     // protected System.Void HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent(LevelSelectionNavigationController viewController, StandardLevelDetailViewController/ContentType contentType)
-    // Offset: 0x11FD094
+    // Offset: 0x1200AB8
     void HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent(GlobalNamespace::LevelSelectionNavigationController* viewController, GlobalNamespace::StandardLevelDetailViewController::ContentType contentType);
     // protected System.Void Refresh()
-    // Offset: 0x11FD0EC
+    // Offset: 0x1200B10
     void Refresh();
     // protected System.Boolean IsMainViewController(HMUI.ViewController viewController)
-    // Offset: 0x11FD130
+    // Offset: 0x1200B54
     bool IsMainViewController(HMUI::ViewController* viewController);
     // protected System.Void PresentMainViewController(System.Action finishedCallback, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x11FD1AC
+    // Offset: 0x1200BD0
     void PresentMainViewController(System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11FC20C
+    // Offset: 0x11FFC30
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11FCA14
+    // Offset: 0x1200438
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x11FCFA4
+    // Offset: 0x12009C8
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void .ctor()
-    // Offset: 0x11FD1C8
+    // Offset: 0x1200BEC
     // Implemented from: HMUI.FlowCoordinator
     // Base method: System.Void FlowCoordinator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -231,5 +231,323 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelSelectionFlowCoordinator), 200 + sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*)> __GlobalNamespace_LevelSelectionFlowCoordinatorSizeCheck;
   static_assert(sizeof(LevelSelectionFlowCoordinator) == 0xD0);
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_isInRootViewController
+  // Il2CppName: get_isInRootViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_isInRootViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_isInRootViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_selectedLevelCategory
+  // Il2CppName: get_selectedLevelCategory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_selectedLevelCategory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_selectedLevelCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_selectedBeatmapLevelPack
+  // Il2CppName: get_selectedBeatmapLevelPack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_selectedBeatmapLevelPack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_selectedBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_selectedDifficultyBeatmap
+  // Il2CppName: get_selectedDifficultyBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_selectedDifficultyBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_selectedBeatmapLevel
+  // Il2CppName: get_selectedBeatmapLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_selectedBeatmapLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_selectedBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_initialTopScreenViewController
+  // Il2CppName: get_initialTopScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_initialLeftScreenViewController
+  // Il2CppName: get_initialLeftScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_initialLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_initialRightScreenViewController
+  // Il2CppName: get_initialRightScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_initialRightScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_initialRightScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController
+  // Il2CppName: get_showBackButtonForMainViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_showBackButtonForMainViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_hidePacksIfOneOrNone
+  // Il2CppName: get_hidePacksIfOneOrNone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_hidePacksIfOneOrNone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_hidePacksIfOneOrNone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_hidePracticeButton
+  // Il2CppName: get_hidePracticeButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_hidePracticeButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_hidePracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView
+  // Il2CppName: get_showPlayerStatsInDetailView
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_showPlayerStatsInDetailView)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_showPlayerStatsInDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_actionButtonText
+  // Il2CppName: get_actionButtonText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_actionButtonText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_actionButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_mainTitle
+  // Il2CppName: get_mainTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_mainTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_mainTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_enableCustomLevels
+  // Il2CppName: get_enableCustomLevels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_enableCustomLevels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_enableCustomLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_songPackMask
+  // Il2CppName: get_songPackMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_songPackMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_songPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_allowedBeatmapDifficultyMask
+  // Il2CppName: get_allowedBeatmapDifficultyMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_allowedBeatmapDifficultyMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_allowedBeatmapDifficultyMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::get_notAllowedCharacteristics
+  // Il2CppName: get_notAllowedCharacteristics
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapCharacteristicSO*>* (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "get_notAllowedCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate
+  // Il2CppName: LevelSelectionFlowCoordinatorDidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(bool, bool)>(&LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate
+  // Il2CppName: LevelSelectionFlowCoordinatorDidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(bool)>(&LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange
+  // Il2CppName: LevelSelectionFlowCoordinatorTopViewControllerWillChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "LevelSelectionFlowCoordinatorTopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::ActionButtonWasPressed
+  // Il2CppName: ActionButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "ActionButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::PracticeButtonWasPressed
+  // Il2CppName: PracticeButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "PracticeButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::SelectionDidChange
+  // Il2CppName: SelectionDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IDifficultyBeatmap*)>(&LevelSelectionFlowCoordinator::SelectionDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator::State*)>(&LevelSelectionFlowCoordinator::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator::State*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidSelectPack
+  // Il2CppName: HandleLevelSelectionNavigationControllerDidSelectPack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevelPack*)>(&LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidSelectPack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidSelectPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleSearchFilterParamsViewControllerDidFinish
+  // Il2CppName: HandleSearchFilterParamsViewControllerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*)>(&LevelSelectionFlowCoordinator::HandleSearchFilterParamsViewControllerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleSearchFilterParamsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SearchFilterParamsViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleLevelSearchViewControllerDidPressSearchButton
+  // Il2CppName: HandleLevelSearchViewControllerDidPressSearchButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*)>(&LevelSelectionFlowCoordinator::HandleLevelSearchViewControllerDidPressSearchButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleLevelSearchViewControllerDidPressSearchButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSearchViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressActionButton
+  // Il2CppName: HandleLevelSelectionNavigationControllerDidPressActionButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*)>(&LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressActionButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidPressActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressPracticeButton
+  // Il2CppName: HandleLevelSelectionNavigationControllerDidPressPracticeButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IBeatmapLevel*)>(&LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressPracticeButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidPressPracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap
+  // Il2CppName: HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*)>(&LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent
+  // Il2CppName: HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::StandardLevelDetailViewController::ContentType)>(&LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionNavigationController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelDetailViewController::ContentType>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::Refresh
+  // Il2CppName: Refresh
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::Refresh)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::IsMainViewController
+  // Il2CppName: IsMainViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelSelectionFlowCoordinator::*)(HMUI::ViewController*)>(&LevelSelectionFlowCoordinator::IsMainViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "IsMainViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::PresentMainViewController
+  // Il2CppName: PresentMainViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(System::Action*, HMUI::ViewController::AnimationType)>(&LevelSelectionFlowCoordinator::PresentMainViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "PresentMainViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(bool, bool, bool)>(&LevelSelectionFlowCoordinator::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(bool, bool)>(&LevelSelectionFlowCoordinator::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::TopViewControllerWillChange
+  // Il2CppName: TopViewControllerWillChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&LevelSelectionFlowCoordinator::TopViewControllerWillChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelSelectionFlowCoordinator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelSelectionFlowCoordinator::*)()>(&LevelSelectionFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelSelectionFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionFlowCoordinator*, "", "LevelSelectionFlowCoordinator");

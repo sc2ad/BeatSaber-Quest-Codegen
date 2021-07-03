@@ -150,30 +150,84 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapCallbackItemDataList
     BeatmapCallbackItemDataList(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback_ = {}, System::Action* earlyEventsWereProcessedCallback_ = {}, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectDataList_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEventDataList_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ColorType, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>* notesByColorType_ = {}, System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* bombNotes_ = {}, System::Collections::Generic::List_1<GlobalNamespace::ObstacleData*>* obstacles_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapEarlyEvents_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* beatmapLateEvents_ = {}, float maxNotesAlignmentAngle_ = {}) noexcept : spawnBasicNoteCallback{spawnBasicNoteCallback_}, spawnBombNoteCallback{spawnBombNoteCallback_}, spawnObstacleCallback{spawnObstacleCallback_}, processEarlyBeatmapEventCallback{processEarlyBeatmapEventCallback_}, processLateBeatmapEventCallback{processLateBeatmapEventCallback_}, earlyEventsWereProcessedCallback{earlyEventsWereProcessedCallback_}, getRelativeNoteOffsetCallback{getRelativeNoteOffsetCallback_}, beatmapObjectDataList{beatmapObjectDataList_}, beatmapEventDataList{beatmapEventDataList_}, notesByColorType{notesByColorType_}, bombNotes{bombNotes_}, obstacles{obstacles_}, beatmapEarlyEvents{beatmapEarlyEvents_}, beatmapLateEvents{beatmapLateEvents_}, maxNotesAlignmentAngle{maxNotesAlignmentAngle_} {}
     // public System.Void .ctor(BeatmapCallbackItemDataList/SpawnBasicNoteCallback spawnBasicNoteCallback, BeatmapCallbackItemDataList/SpawnBombNoteCallback spawnBombNoteCallback, BeatmapCallbackItemDataList/SpawnObstacleCallback spawnObstacleCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processEarlyBeatmapEventCallback, BeatmapCallbackItemDataList/ProcessBeatmapEventCallback processLateBeatmapEventCallback, System.Action earlyEventsWereProcessedCallback, BeatmapCallbackItemDataList/GetRelativeNoteOffsetCallback getRelativeNoteOffsetCallback)
-    // Offset: 0x11A2814
+    // Offset: 0x11BC898
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbackItemDataList* New_ctor(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback* spawnBasicNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback* spawnBombNoteCallback, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback* spawnObstacleCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processEarlyBeatmapEventCallback, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback* processLateBeatmapEventCallback, System::Action* earlyEventsWereProcessedCallback, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback* getRelativeNoteOffsetCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCallbackItemDataList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbackItemDataList*, creationType>(spawnBasicNoteCallback, spawnBombNoteCallback, spawnObstacleCallback, processEarlyBeatmapEventCallback, processLateBeatmapEventCallback, earlyEventsWereProcessedCallback, getRelativeNoteOffsetCallback)));
     }
     // public System.Void InsertBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x11A2AF4
+    // Offset: 0x11BCB78
     void InsertBeatmapObjectData(GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x11A2BF8
+    // Offset: 0x11BCC7C
     void InsertBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void ProcessData()
-    // Offset: 0x11A2CFC
+    // Offset: 0x11BCD80
     void ProcessData();
     // private System.Boolean ProcessNotesByColorType(System.Collections.Generic.List`1<NoteData> notesWithTheSameColorTypeList)
-    // Offset: 0x11A3A8C
+    // Offset: 0x11BDB10
     bool ProcessNotesByColorType(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesWithTheSameColorTypeList);
     // private System.Void SpawnNoteOrLongNote(NoteData noteData, System.Single cutDirectionAngleOffset)
-    // Offset: 0x11A3CB8
+    // Offset: 0x11BDD3C
     void SpawnNoteOrLongNote(GlobalNamespace::NoteData* noteData, float cutDirectionAngleOffset);
   }; // BeatmapCallbackItemDataList
   #pragma pack(pop)
   static check_size<sizeof(BeatmapCallbackItemDataList), 128 + sizeof(float)> __GlobalNamespace_BeatmapCallbackItemDataListSizeCheck;
   static_assert(sizeof(BeatmapCallbackItemDataList) == 0x84);
+  // Writing MetadataGetter for method: BeatmapCallbackItemDataList::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback*, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback*, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*, System::Action*, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*)>(&BeatmapCallbackItemDataList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*, GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback*, GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback*, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*, GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*, System::Action*, GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*)>(&BeatmapCallbackItemDataList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::SpawnBombNoteCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::SpawnObstacleCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::ProcessBeatmapEventCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCallbackItemDataList::InsertBeatmapObjectData
+  // Il2CppName: InsertBeatmapObjectData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapObjectData*)>(&BeatmapCallbackItemDataList::InsertBeatmapObjectData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), "InsertBeatmapObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCallbackItemDataList::InsertBeatmapEventData
+  // Il2CppName: InsertBeatmapEventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapEventData*)>(&BeatmapCallbackItemDataList::InsertBeatmapEventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), "InsertBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCallbackItemDataList::ProcessData
+  // Il2CppName: ProcessData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::*)()>(&BeatmapCallbackItemDataList::ProcessData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), "ProcessData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCallbackItemDataList::ProcessNotesByColorType
+  // Il2CppName: ProcessNotesByColorType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapCallbackItemDataList::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&BeatmapCallbackItemDataList::ProcessNotesByColorType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), "ProcessNotesByColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapCallbackItemDataList::SpawnNoteOrLongNote
+  // Il2CppName: SpawnNoteOrLongNote
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::*)(GlobalNamespace::NoteData*, float)>(&BeatmapCallbackItemDataList::SpawnNoteOrLongNote)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList*), "SpawnNoteOrLongNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "BeatmapCallbackItemDataList");

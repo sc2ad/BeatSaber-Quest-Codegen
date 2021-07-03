@@ -34,10 +34,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Set static field: static readonly Org.BouncyCastle.Asn1.X9.X9ECParametersHolder Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
     // static private System.Void .cctor()
-    // Offset: 0x19FAE9C
+    // Offset: 0x1A13BAC
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x19FAD2C
+    // Offset: 0x1A13A3C
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: System.Void X9ECParametersHolder::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -47,11 +47,41 @@ namespace Org::BouncyCastle::Asn1::X9 {
       return THROW_UNLESS((::il2cpp_utils::New<X962NamedCurves::C2tnb431r1Holder*, creationType>()));
     }
     // protected override Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
-    // Offset: 0x19FAD34
+    // Offset: 0x1A13A44
     // Implemented from: Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
     // Base method: Org.BouncyCastle.Asn1.X9.X9ECParameters X9ECParametersHolder::CreateParameters()
     Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
   }; // Org.BouncyCastle.Asn1.X9.X962NamedCurves/C2tnb431r1Holder
   #pragma pack(pop)
+  // Writing MetadataGetter for method: X962NamedCurves::C2tnb431r1Holder::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X962NamedCurves::C2tnb431r1Holder::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X962NamedCurves::C2tnb431r1Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X962NamedCurves::C2tnb431r1Holder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X962NamedCurves::C2tnb431r1Holder::*)()>(&X962NamedCurves::C2tnb431r1Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X962NamedCurves::C2tnb431r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X962NamedCurves::C2tnb431r1Holder::*)()>(&X962NamedCurves::C2tnb431r1Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X962NamedCurves::C2tnb431r1Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X962NamedCurves::C2tnb431r1Holder::CreateParameters
+  // Il2CppName: CreateParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X962NamedCurves::C2tnb431r1Holder::*)()>(&X962NamedCurves::C2tnb431r1Holder::CreateParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X962NamedCurves::C2tnb431r1Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2tnb431r1Holder*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves/C2tnb431r1Holder");

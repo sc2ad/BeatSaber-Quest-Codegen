@@ -14,36 +14,44 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: AvatarColorPropertyIds
     AvatarColorPropertyIds() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152C0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE1529C
     // Get static field: static public readonly System.Int32 colorPropertyId
     static int _get_colorPropertyId();
     // Set static field: static public readonly System.Int32 colorPropertyId
     static void _set_colorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152D0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152AC
     // Get static field: static public readonly System.Int32 rimLightColorPropertyId
     static int _get_rimLightColorPropertyId();
     // Set static field: static public readonly System.Int32 rimLightColorPropertyId
     static void _set_rimLightColorPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152E0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152BC
     // Get static field: static public readonly System.Int32 uvColorsPropertyId
     static int _get_uvColorsPropertyId();
     // Set static field: static public readonly System.Int32 uvColorsPropertyId
     static void _set_uvColorsPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152F0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152CC
     // Get static field: static public readonly System.Int32 uvRimLightColorsPropertyId
     static int _get_uvRimLightColorsPropertyId();
     // Set static field: static public readonly System.Int32 uvRimLightColorsPropertyId
     static void _set_uvRimLightColorsPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE15300
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE152DC
     // Get static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static int _get_segmentToHighlightPropertyId();
     // Set static field: static public readonly System.Int32 segmentToHighlightPropertyId
     static void _set_segmentToHighlightPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x112E484
+    // Offset: 0x1133CEC
     static void _cctor();
   }; // AvatarColorPropertyIds
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AvatarColorPropertyIds::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AvatarColorPropertyIds::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AvatarColorPropertyIds*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorPropertyIds*, "", "AvatarColorPropertyIds");

@@ -39,7 +39,7 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
     static void _set_Int32Tasks(::Array<System::Threading::Tasks::Task_1<int>*>* value);
     // static private System.Threading.Tasks.Task`1<System.Int32>[] CreateInt32Tasks()
-    // Offset: 0x140125C
+    // Offset: 0x141BF6C
     static ::Array<System::Threading::Tasks::Task_1<int>*>* CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
     // Offset: 0xFFFFFFFF
@@ -51,9 +51,28 @@ namespace System::Runtime::CompilerServices {
       return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, result);
     }
     // static private System.Void .cctor()
-    // Offset: 0x1401364
+    // Offset: 0x141C074
     static void _cctor();
   }; // System.Runtime.CompilerServices.AsyncTaskCache
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AsyncTaskCache::CreateInt32Tasks
+  // Il2CppName: CreateInt32Tasks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Threading::Tasks::Task_1<int>*>* (*)()>(&AsyncTaskCache::CreateInt32Tasks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), "CreateInt32Tasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncTaskCache::CreateCacheableTask
+  // Il2CppName: CreateCacheableTask
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: AsyncTaskCache::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncTaskCache::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskCache*, "System.Runtime.CompilerServices", "AsyncTaskCache");

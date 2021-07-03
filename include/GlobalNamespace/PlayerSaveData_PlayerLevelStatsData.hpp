@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PlayerLevelStatsData
     PlayerLevelStatsData(::Il2CppString* levelId_ = {}, GlobalNamespace::BeatmapDifficulty difficulty_ = {}, ::Il2CppString* beatmapCharacteristicName_ = {}, int highScore_ = {}, int maxCombo_ = {}, bool fullCombo_ = {}, GlobalNamespace::RankModel::Rank maxRank_ = {}, bool validScore_ = {}, int playCount_ = {}) noexcept : levelId{levelId_}, difficulty{difficulty_}, beatmapCharacteristicName{beatmapCharacteristicName_}, highScore{highScore_}, maxCombo{maxCombo_}, fullCombo{fullCombo_}, maxRank{maxRank_}, validScore{validScore_}, playCount{playCount_} {}
     // public System.Void .ctor()
-    // Offset: 0x10116C0
+    // Offset: 0x10559D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,5 +97,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PlayerSaveData::PlayerLevelStatsData), 60 + sizeof(int)> __GlobalNamespace_PlayerSaveData_PlayerLevelStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerLevelStatsData) == 0x40);
+  // Writing MetadataGetter for method: PlayerSaveData::PlayerLevelStatsData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveData::PlayerLevelStatsData::*)()>(&PlayerSaveData::PlayerLevelStatsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveData::PlayerLevelStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveData::PlayerLevelStatsData::*)()>(&PlayerSaveData::PlayerLevelStatsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayerSaveData::PlayerLevelStatsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*, "", "PlayerSaveData/PlayerLevelStatsData");

@@ -41,21 +41,51 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: MacOsIPInterfaceProperties
     MacOsIPInterfaceProperties() noexcept {}
     // public System.Void .ctor(System.Net.NetworkInformation.MacOsNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x1473F94
+    // Offset: 0x148ECA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::MacOsNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // static private System.Boolean ParseRouteInfo_internal(System.String iface, out System.String[] gw_addr_list)
-    // Offset: 0x1474014
+    // Offset: 0x148ED24
     static bool ParseRouteInfo_internal(::Il2CppString* iface, ::Array<::Il2CppString*>*& gw_addr_list);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x1474018
+    // Offset: 0x148ED28
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
   }; // System.Net.NetworkInformation.MacOsIPInterfaceProperties
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MacOsIPInterfaceProperties::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsIPInterfaceProperties::*)(System::Net::NetworkInformation::MacOsNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&MacOsIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::MacOsNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsIPInterfaceProperties::*)(System::Net::NetworkInformation::MacOsNetworkInterface*, System::Collections::Generic::List_1<System::Net::IPAddress*>*)>(&MacOsIPInterfaceProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsIPInterfaceProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::MacOsNetworkInterface*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::IPAddress*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MacOsIPInterfaceProperties::ParseRouteInfo_internal
+  // Il2CppName: ParseRouteInfo_internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*&)>(&MacOsIPInterfaceProperties::ParseRouteInfo_internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsIPInterfaceProperties*), "ParseRouteInfo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: MacOsIPInterfaceProperties::get_GatewayAddresses
+  // Il2CppName: get_GatewayAddresses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (MacOsIPInterfaceProperties::*)()>(&MacOsIPInterfaceProperties::get_GatewayAddresses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsIPInterfaceProperties*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsIPInterfaceProperties*, "System.Net.NetworkInformation", "MacOsIPInterfaceProperties");

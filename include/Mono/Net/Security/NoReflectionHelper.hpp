@@ -15,13 +15,29 @@ namespace Mono::Net::Security {
     // Creating value type constructor for type: NoReflectionHelper
     NoReflectionHelper() noexcept {}
     // static System.Object GetInternalValidator(System.Object provider, System.Object settings)
-    // Offset: 0x15DC0FC
+    // Offset: 0x15F4E0C
     static ::Il2CppObject* GetInternalValidator(::Il2CppObject* provider, ::Il2CppObject* settings);
     // static System.Object GetProvider()
-    // Offset: 0x15DC1B4
+    // Offset: 0x15F4EC4
     static ::Il2CppObject* GetProvider();
   }; // Mono.Net.Security.NoReflectionHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NoReflectionHelper::GetInternalValidator
+  // Il2CppName: GetInternalValidator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Il2CppObject*)>(&NoReflectionHelper::GetInternalValidator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoReflectionHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoReflectionHelper::GetProvider
+  // Il2CppName: GetProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&NoReflectionHelper::GetProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoReflectionHelper*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");

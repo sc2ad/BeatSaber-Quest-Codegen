@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public ColorSchemeSO[] get_colorSchemes()
-    // Offset: 0x23D6DF4
+    // Offset: 0x23F2320
     ::Array<GlobalNamespace::ColorSchemeSO*>* get_colorSchemes();
     // public System.Void .ctor()
-    // Offset: 0x23D6DFC
+    // Offset: 0x23F2328
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -53,5 +53,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorSchemesListSO), 24 + sizeof(::Array<GlobalNamespace::ColorSchemeSO*>*)> __GlobalNamespace_ColorSchemesListSOSizeCheck;
   static_assert(sizeof(ColorSchemesListSO) == 0x20);
+  // Writing MetadataGetter for method: ColorSchemesListSO::get_colorSchemes
+  // Il2CppName: get_colorSchemes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ColorSchemeSO*>* (ColorSchemesListSO::*)()>(&ColorSchemesListSO::get_colorSchemes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorSchemesListSO*), "get_colorSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorSchemesListSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemesListSO::*)()>(&ColorSchemesListSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorSchemesListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemesListSO::*)()>(&ColorSchemesListSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorSchemesListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesListSO");

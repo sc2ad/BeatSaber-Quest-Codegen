@@ -69,42 +69,130 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IEquatableByReference_1<GlobalNamespace::NodePoseSyncState>*>(this);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xEF04D4
+    // Offset: 0xEF048C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xEF04DC
+    // Offset: 0xEF0494
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void SetState(NodePoseSyncState/NodePose nodePose, PoseSerializable pose)
-    // Offset: 0xEF04E4
+    // Offset: 0xEF049C
     void SetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose, GlobalNamespace::PoseSerializable pose);
     // public PoseSerializable GetState(NodePoseSyncState/NodePose nodePose)
-    // Offset: 0xEF054C
+    // Offset: 0xEF0504
     GlobalNamespace::PoseSerializable GetState(GlobalNamespace::NodePoseSyncState_NodePose nodePose);
     // public System.Boolean Equals(in NodePoseSyncState other)
-    // Offset: 0xEF0598
+    // Offset: 0xEF0550
     bool Equals(GlobalNamespace::NodePoseSyncState& other);
     // public NodePoseSyncState GetDelta(in NodePoseSyncState latest)
-    // Offset: 0xEF05A0
+    // Offset: 0xEF0558
     GlobalNamespace::NodePoseSyncState GetDelta(GlobalNamespace::NodePoseSyncState& latest);
     // public NodePoseSyncState ApplyDelta(in NodePoseSyncState delta)
-    // Offset: 0xEF05A8
+    // Offset: 0xEF0560
     GlobalNamespace::NodePoseSyncState ApplyDelta(GlobalNamespace::NodePoseSyncState& delta);
     // public System.Int32 GetSize()
-    // Offset: 0xEF05B0
+    // Offset: 0xEF0568
     int GetSize();
     // private NodePoseSyncState IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta(in NodePoseSyncState stateTable)
-    // Offset: 0xEF05B8
+    // Offset: 0xEF0570
     GlobalNamespace::NodePoseSyncState IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_GetDelta(GlobalNamespace::NodePoseSyncState& stateTable);
     // private NodePoseSyncState IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta(in NodePoseSyncState delta)
-    // Offset: 0xEF05C0
+    // Offset: 0xEF0578
     GlobalNamespace::NodePoseSyncState IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_ApplyDelta(GlobalNamespace::NodePoseSyncState& delta);
     // private System.Boolean IEquatableByReference<NodePoseSyncState>.Equals(in NodePoseSyncState other)
-    // Offset: 0xEF05C8
+    // Offset: 0xEF0580
     bool IEquatableByReference$NodePoseSyncState$_Equals(GlobalNamespace::NodePoseSyncState& other);
   }; // NodePoseSyncState
   #pragma pack(pop)
   static check_size<sizeof(NodePoseSyncState), 48 + sizeof(GlobalNamespace::PoseSerializable)> __GlobalNamespace_NodePoseSyncStateSizeCheck;
   static_assert(sizeof(NodePoseSyncState) == 0x48);
+  // Writing MetadataGetter for method: NodePoseSyncState::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncState::*)(LiteNetLib::Utils::NetDataWriter*)>(&NodePoseSyncState::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncState::*)(LiteNetLib::Utils::NetDataReader*)>(&NodePoseSyncState::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::SetState
+  // Il2CppName: SetState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable)>(&NodePoseSyncState::SetState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState_NodePose>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::GetState
+  // Il2CppName: GetState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState_NodePose)>(&NodePoseSyncState::GetState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState_NodePose>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&NodePoseSyncState::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::GetDelta
+  // Il2CppName: GetDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&NodePoseSyncState::GetDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::ApplyDelta
+  // Il2CppName: ApplyDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&NodePoseSyncState::ApplyDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::GetSize
+  // Il2CppName: GetSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NodePoseSyncState::*)()>(&NodePoseSyncState::GetSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_GetDelta
+  // Il2CppName: IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&NodePoseSyncState::IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_GetDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_ApplyDelta
+  // Il2CppName: IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&NodePoseSyncState::IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_ApplyDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NodePoseSyncState::IEquatableByReference$NodePoseSyncState$_Equals
+  // Il2CppName: IEquatableByReference<NodePoseSyncState>.Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&NodePoseSyncState::IEquatableByReference$NodePoseSyncState$_Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NodePoseSyncState), "IEquatableByReference<NodePoseSyncState>.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncState&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncState");

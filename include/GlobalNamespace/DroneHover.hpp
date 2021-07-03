@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* compoundSins;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE13BD0
+    // [HeaderAttribute] Offset: 0xE13BCC
     // private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
     // Size: 0x8
     // Offset: 0x30
@@ -108,22 +108,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10B92B4
+    // Offset: 0x1037A2C
     void Start();
     // protected System.Void Update()
-    // Offset: 0x10B92F0
+    // Offset: 0x1037A68
     void Update();
     // private UnityEngine.Vector3 GetNoiseVec3(System.Single time)
-    // Offset: 0x10B94A4
+    // Offset: 0x1037C1C
     UnityEngine::Vector3 GetNoiseVec3(float time);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x10B97E8
+    // Offset: 0x1037F60
     float GetNoise(float time, float offset);
     // private System.Void UpdateTiltTransform()
-    // Offset: 0x10B9550
+    // Offset: 0x1037CC8
     void UpdateTiltTransform();
     // public System.Void .ctor()
-    // Offset: 0x10B9924
+    // Offset: 0x103809C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -139,5 +139,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DroneHover), 88 + sizeof(UnityEngine::Cloth*)> __GlobalNamespace_DroneHoverSizeCheck;
   static_assert(sizeof(DroneHover) == 0x60);
+  // Writing MetadataGetter for method: DroneHover::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DroneHover::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DroneHover::GetNoiseVec3
+  // Il2CppName: GetNoiseVec3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (DroneHover::*)(float)>(&DroneHover::GetNoiseVec3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), "GetNoiseVec3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: DroneHover::GetNoise
+  // Il2CppName: GetNoise
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DroneHover::*)(float, float)>(&DroneHover::GetNoise)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: DroneHover::UpdateTiltTransform
+  // Il2CppName: UpdateTiltTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::UpdateTiltTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), "UpdateTiltTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DroneHover::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DroneHover*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover*, "", "DroneHover");

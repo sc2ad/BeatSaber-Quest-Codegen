@@ -54,22 +54,22 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: ConstraintPositionOffset
     ConstraintPositionOffset(UnityEngine::Vector3 offset_ = {}, UnityEngine::Vector3 defaultLocalPosition_ = {}, UnityEngine::Vector3 lastLocalPosition_ = {}, bool initiated_ = {}) noexcept : offset{offset_}, defaultLocalPosition{defaultLocalPosition_}, lastLocalPosition{lastLocalPosition_}, initiated{initiated_} {}
     // public System.Void .ctor(UnityEngine.Transform transform)
-    // Offset: 0x1C94F6C
+    // Offset: 0x1CB0C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintPositionOffset* New_ctor(UnityEngine::Transform* transform) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ConstraintPositionOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintPositionOffset*, creationType>(transform)));
     }
     // private System.Boolean get_positionChanged()
-    // Offset: 0x1C94EA8
+    // Offset: 0x1CB0BB8
     bool get_positionChanged();
     // public override System.Void UpdateConstraint()
-    // Offset: 0x1C94D0C
+    // Offset: 0x1CB0A1C
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::UpdateConstraint()
     void UpdateConstraint();
     // public System.Void .ctor()
-    // Offset: 0x1C94F64
+    // Offset: 0x1CB0C74
     // Implemented from: RootMotion.FinalIK.Constraint
     // Base method: System.Void Constraint::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -82,5 +82,49 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(ConstraintPositionOffset), 64 + sizeof(bool)> __RootMotion_FinalIK_ConstraintPositionOffsetSizeCheck;
   static_assert(sizeof(ConstraintPositionOffset) == 0x41);
+  // Writing MetadataGetter for method: ConstraintPositionOffset::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintPositionOffset::*)(UnityEngine::Transform*)>(&ConstraintPositionOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintPositionOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintPositionOffset::*)(UnityEngine::Transform*)>(&ConstraintPositionOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintPositionOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintPositionOffset::get_positionChanged
+  // Il2CppName: get_positionChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintPositionOffset::*)()>(&ConstraintPositionOffset::get_positionChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintPositionOffset*), "get_positionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintPositionOffset::UpdateConstraint
+  // Il2CppName: UpdateConstraint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintPositionOffset::*)()>(&ConstraintPositionOffset::UpdateConstraint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintPositionOffset*), "UpdateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintPositionOffset::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintPositionOffset::*)()>(&ConstraintPositionOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintPositionOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintPositionOffset::*)()>(&ConstraintPositionOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintPositionOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPositionOffset*, "RootMotion.FinalIK", "ConstraintPositionOffset");

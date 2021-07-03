@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     class $$c__DisplayClass16_0;
     // Nested type: GlobalNamespace::OculusBeatmapDataAssetFileModel::$GetDownloadAssetBundleFileAsync$d__16
     struct $GetDownloadAssetBundleFileAsync$d__16;
-    // [CompilerGeneratedAttribute] Offset: 0xE18184
+    // [CompilerGeneratedAttribute] Offset: 0xE18160
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Size: 0x8
     // Offset: 0x10
@@ -150,42 +150,128 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxTimeOutBeforeFail
     static void _set_kMaxTimeOutBeforeFail(float value);
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x11C50CC
+    // Offset: 0x11DFA20
     void add_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void remove_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
-    // Offset: 0x11C5170
+    // Offset: 0x11DFAC4
     void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
     // public System.Void .ctor(OculusLevelProductsModelSO oculusLevelProductsModel)
-    // Offset: 0x11C5214
+    // Offset: 0x11DFB68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel* New_ctor(GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel*, creationType>(oculusLevelProductsModel)));
     }
     // public System.Threading.Tasks.Task`1<System.Boolean> TryDeleteAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11C5374
+    // Offset: 0x11DFCC8
     System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetAssetBundleFileForPreviewLevelAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11C5494
+    // Offset: 0x11DFDE8
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Boolean> ReloadAssetDetailsForAllLevelsAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11C55B4
+    // Offset: 0x11DFF08
     System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetDownloadAssetBundleFileAsync(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetails, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11C56D8
+    // Offset: 0x11E002C
     System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetails, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> GetTaskCompletionSourceForDownload(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetail)
-    // Offset: 0x11C57EC
+    // Offset: 0x11E0140
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetail);
     // private System.Void HandleAssetFileDownloadUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
-    // Offset: 0x11C596C
+    // Offset: 0x11E02C0
     void HandleAssetFileDownloadUpdate(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
     // private System.Void <.ctor>b__12_0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
-    // Offset: 0x11C5CF0
+    // Offset: 0x11E0644
     void $_ctor$b__12_0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
   }; // OculusBeatmapDataAssetFileModel
   #pragma pack(pop)
   static check_size<sizeof(OculusBeatmapDataAssetFileModel), 72 + sizeof(GlobalNamespace::OculusLevelProductsModelSO*)> __GlobalNamespace_OculusBeatmapDataAssetFileModelSizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel) == 0x50);
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
+  // Il2CppName: add_levelDataAssetDownloadUpdateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&OculusBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "add_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent
+  // Il2CppName: remove_levelDataAssetDownloadUpdateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&OculusBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "remove_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::*)(GlobalNamespace::OculusLevelProductsModelSO*)>(&OculusBeatmapDataAssetFileModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusLevelProductsModelSO*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::*)(GlobalNamespace::OculusLevelProductsModelSO*)>(&OculusBeatmapDataAssetFileModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusLevelProductsModelSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync
+  // Il2CppName: TryDeleteAssetBundleFileForPreviewLevelAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OculusBeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&OculusBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "TryDeleteAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync
+  // Il2CppName: GetAssetBundleFileForPreviewLevelAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (OculusBeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&OculusBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "GetAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::ReloadAssetDetailsForAllLevelsAsync
+  // Il2CppName: ReloadAssetDetailsForAllLevelsAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OculusBeatmapDataAssetFileModel::*)(System::Threading::CancellationToken)>(&OculusBeatmapDataAssetFileModel::ReloadAssetDetailsForAllLevelsAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "ReloadAssetDetailsForAllLevelsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync
+  // Il2CppName: GetDownloadAssetBundleFileAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (OculusBeatmapDataAssetFileModel::*)(::Il2CppString*, Oculus::Platform::Models::AssetDetails*, System::Threading::CancellationToken)>(&OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "GetDownloadAssetBundleFileAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::AssetDetails*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::GetTaskCompletionSourceForDownload
+  // Il2CppName: GetTaskCompletionSourceForDownload
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* (OculusBeatmapDataAssetFileModel::*)(::Il2CppString*, Oculus::Platform::Models::AssetDetails*)>(&OculusBeatmapDataAssetFileModel::GetTaskCompletionSourceForDownload)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "GetTaskCompletionSourceForDownload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::AssetDetails*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdate
+  // Il2CppName: HandleAssetFileDownloadUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(&OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "HandleAssetFileDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$_ctor$b__12_0
+  // Il2CppName: <.ctor>b__12_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(&OculusBeatmapDataAssetFileModel::$_ctor$b__12_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel*), "<.ctor>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel*, "", "OculusBeatmapDataAssetFileModel");

@@ -213,153 +213,535 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Creating value type constructor for type: __BinaryWriter
     __BinaryWriter(System::IO::Stream* sout_ = {}, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle_ = {}, System::Collections::Hashtable* objectMapTable_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter_ = {}, System::IO::BinaryWriter* dataWriter_ = {}, int m_nestedObjectCount_ = {}, int nullCount_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* binaryMethodCall_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* binaryMethodReturn_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* binaryObjectWithMap_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* binaryObjectWithMapTyped_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* binaryObjectString_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryArray* binaryArray_ = {}, ::Array<uint8_t>* byteBuffer_ = {}, int chunkSize_ = {}, System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped_ = {}, System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped_ = {}, System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull_ = {}, System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference_ = {}, System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly_ = {}) noexcept : sout{sout_}, formatterTypeStyle{formatterTypeStyle_}, objectMapTable{objectMapTable_}, objectWriter{objectWriter_}, dataWriter{dataWriter_}, m_nestedObjectCount{m_nestedObjectCount_}, nullCount{nullCount_}, binaryMethodCall{binaryMethodCall_}, binaryMethodReturn{binaryMethodReturn_}, binaryObject{binaryObject_}, binaryObjectWithMap{binaryObjectWithMap_}, binaryObjectWithMapTyped{binaryObjectWithMapTyped_}, binaryObjectString{binaryObjectString_}, binaryArray{binaryArray_}, byteBuffer{byteBuffer_}, chunkSize{chunkSize_}, memberPrimitiveUnTyped{memberPrimitiveUnTyped_}, memberPrimitiveTyped{memberPrimitiveTyped_}, objectNull{objectNull_}, memberReference{memberReference_}, binaryAssembly{binaryAssembly_} {}
     // System.Void .ctor(System.IO.Stream sout, System.Runtime.Serialization.Formatters.Binary.ObjectWriter objectWriter, System.Runtime.Serialization.Formatters.FormatterTypeStyle formatterTypeStyle)
-    // Offset: 0x167A354
+    // Offset: 0x1691064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static __BinaryWriter* New_ctor(System::IO::Stream* sout, System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<__BinaryWriter*, creationType>(sout, objectWriter, formatterTypeStyle)));
     }
     // System.Void WriteBegin()
-    // Offset: 0x167A40C
+    // Offset: 0x169111C
     void WriteBegin();
     // System.Void WriteEnd()
-    // Offset: 0x167A410
+    // Offset: 0x1691120
     void WriteEnd();
     // System.Void WriteBoolean(System.Boolean value)
-    // Offset: 0x167A430
+    // Offset: 0x1691140
     void WriteBoolean(bool value);
     // System.Void WriteByte(System.Byte value)
-    // Offset: 0x167A454
+    // Offset: 0x1691164
     void WriteByte(uint8_t value);
     // private System.Void WriteBytes(System.Byte[] value)
-    // Offset: 0x167A474
+    // Offset: 0x1691184
     void WriteBytes(::Array<uint8_t>* value);
     // private System.Void WriteBytes(System.Byte[] byteA, System.Int32 offset, System.Int32 size)
-    // Offset: 0x167A494
+    // Offset: 0x16911A4
     void WriteBytes(::Array<uint8_t>* byteA, int offset, int size);
     // System.Void WriteChar(System.Char value)
-    // Offset: 0x167A4B4
+    // Offset: 0x16911C4
     void WriteChar(::Il2CppChar value);
     // System.Void WriteChars(System.Char[] value)
-    // Offset: 0x167A4D4
+    // Offset: 0x16911E4
     void WriteChars(::Array<::Il2CppChar>* value);
     // System.Void WriteDecimal(System.Decimal value)
-    // Offset: 0x167A4F4
+    // Offset: 0x1691204
     void WriteDecimal(System::Decimal value);
     // System.Void WriteSingle(System.Single value)
-    // Offset: 0x167A5C0
+    // Offset: 0x16912D0
     void WriteSingle(float value);
     // System.Void WriteDouble(System.Double value)
-    // Offset: 0x167A5E4
+    // Offset: 0x16912F4
     void WriteDouble(double value);
     // System.Void WriteInt16(System.Int16 value)
-    // Offset: 0x167A608
+    // Offset: 0x1691318
     void WriteInt16(int16_t value);
     // System.Void WriteInt32(System.Int32 value)
-    // Offset: 0x167A62C
+    // Offset: 0x169133C
     void WriteInt32(int value);
     // System.Void WriteInt64(System.Int64 value)
-    // Offset: 0x167A650
+    // Offset: 0x1691360
     void WriteInt64(int64_t value);
     // System.Void WriteSByte(System.SByte value)
-    // Offset: 0x167A674
+    // Offset: 0x1691384
     void WriteSByte(int8_t value);
     // System.Void WriteString(System.String value)
-    // Offset: 0x167A59C
+    // Offset: 0x16912AC
     void WriteString(::Il2CppString* value);
     // System.Void WriteTimeSpan(System.TimeSpan value)
-    // Offset: 0x167A694
+    // Offset: 0x16913A4
     void WriteTimeSpan(System::TimeSpan value);
     // System.Void WriteDateTime(System.DateTime value)
-    // Offset: 0x167A6B8
+    // Offset: 0x16913C8
     void WriteDateTime(System::DateTime value);
     // System.Void WriteUInt16(System.UInt16 value)
-    // Offset: 0x167A6DC
+    // Offset: 0x16913EC
     void WriteUInt16(uint16_t value);
     // System.Void WriteUInt32(System.UInt32 value)
-    // Offset: 0x167A700
+    // Offset: 0x1691410
     void WriteUInt32(uint value);
     // System.Void WriteUInt64(System.UInt64 value)
-    // Offset: 0x167A724
+    // Offset: 0x1691434
     void WriteUInt64(uint64_t value);
     // System.Void WriteObjectEnd(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo)
-    // Offset: 0x167A748
+    // Offset: 0x1691458
     void WriteObjectEnd(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
     // System.Void WriteSerializationHeaderEnd()
-    // Offset: 0x167A74C
+    // Offset: 0x169145C
     void WriteSerializationHeaderEnd();
     // System.Void WriteSerializationHeader(System.Int32 topId, System.Int32 headerId, System.Int32 minorVersion, System.Int32 majorVersion)
-    // Offset: 0x167A7CC
+    // Offset: 0x16914DC
     void WriteSerializationHeader(int topId, int headerId, int minorVersion, int majorVersion);
     // System.Void WriteMethodCall()
-    // Offset: 0x167A87C
+    // Offset: 0x169158C
     void WriteMethodCall();
     // System.Void WriteMethodReturn()
-    // Offset: 0x167A908
+    // Offset: 0x1691618
     void WriteMethodReturn();
     // System.Void WriteObject(System.Runtime.Serialization.Formatters.Binary.NameInfo nameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.Int32 numMembers, System.String[] memberNames, System.Type[] memberTypes, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo[] memberObjectInfos)
-    // Offset: 0x167A994
+    // Offset: 0x16916A4
     void WriteObject(System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, int numMembers, ::Array<::Il2CppString*>* memberNames, ::Array<System::Type*>* memberTypes, ::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>* memberObjectInfos);
     // System.Void WriteObjectString(System.Int32 objectId, System.String value)
-    // Offset: 0x167AEEC
+    // Offset: 0x1691BFC
     void WriteObjectString(int objectId, ::Il2CppString* value);
     // System.Void WriteSingleArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 length, System.Int32 lowerBound, System.Array array)
-    // Offset: 0x167AF98
+    // Offset: 0x1691CA8
     void WriteSingleArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int length, int lowerBound, System::Array* array);
     // private System.Void WriteArrayAsBytes(System.Array array, System.Int32 typeLength)
-    // Offset: 0x167B254
+    // Offset: 0x1691F64
     void WriteArrayAsBytes(System::Array* array, int typeLength);
     // System.Void WriteJaggedArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 length, System.Int32 lowerBound)
-    // Offset: 0x167B48C
+    // Offset: 0x169219C
     void WriteJaggedArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int length, int lowerBound);
     // System.Void WriteRectangleArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 rank, System.Int32[] lengthA, System.Int32[] lowerBoundA)
-    // Offset: 0x167B634
+    // Offset: 0x1692344
     void WriteRectangleArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int rank, ::Array<int>* lengthA, ::Array<int>* lowerBoundA);
     // System.Void WriteObjectByteArray(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayNameInfo, System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo objectInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo arrayElemTypeNameInfo, System.Int32 length, System.Int32 lowerBound, System.Byte[] byteA)
-    // Offset: 0x167B7B4
+    // Offset: 0x16924C4
     void WriteObjectByteArray(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int length, int lowerBound, ::Array<uint8_t>* byteA);
     // System.Void WriteMember(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.Object value)
-    // Offset: 0x167B820
+    // Offset: 0x1692530
     void WriteMember(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::Il2CppObject* value);
     // System.Void WriteNullMember(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo)
-    // Offset: 0x167B970
+    // Offset: 0x1692680
     void WriteNullMember(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
     // System.Void WriteMemberObjectRef(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Int32 idRef)
-    // Offset: 0x167BA30
+    // Offset: 0x1692740
     void WriteMemberObjectRef(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, int idRef);
     // System.Void WriteMemberNested(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo)
-    // Offset: 0x167BAE0
+    // Offset: 0x16927F0
     void WriteMemberNested(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo);
     // System.Void WriteMemberString(System.Runtime.Serialization.Formatters.Binary.NameInfo memberNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.String value)
-    // Offset: 0x167BB08
+    // Offset: 0x1692818
     void WriteMemberString(System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::Il2CppString* value);
     // System.Void WriteItem(System.Runtime.Serialization.Formatters.Binary.NameInfo itemNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo, System.Object value)
-    // Offset: 0x167BB54
+    // Offset: 0x1692864
     void WriteItem(System::Runtime::Serialization::Formatters::Binary::NameInfo* itemNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::Il2CppObject* value);
     // System.Void WriteNullItem(System.Runtime.Serialization.Formatters.Binary.NameInfo itemNameInfo, System.Runtime.Serialization.Formatters.Binary.NameInfo typeNameInfo)
-    // Offset: 0x167BB98
+    // Offset: 0x16928A8
     void WriteNullItem(System::Runtime::Serialization::Formatters::Binary::NameInfo* itemNameInfo, System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
     // System.Void WriteDelayedNullItem()
-    // Offset: 0x167BBA8
+    // Offset: 0x16928B8
     void WriteDelayedNullItem();
     // System.Void WriteItemEnd()
-    // Offset: 0x167BBB8
+    // Offset: 0x16928C8
     void WriteItemEnd();
     // private System.Void InternalWriteItemNull()
-    // Offset: 0x167AE40
+    // Offset: 0x1691B50
     void InternalWriteItemNull();
     // System.Void WriteItemObjectRef(System.Runtime.Serialization.Formatters.Binary.NameInfo nameInfo, System.Int32 idRef)
-    // Offset: 0x167BBBC
+    // Offset: 0x16928CC
     void WriteItemObjectRef(System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, int idRef);
     // System.Void WriteAssembly(System.Type type, System.String assemblyString, System.Int32 assemId, System.Boolean isNew)
-    // Offset: 0x167BBF8
+    // Offset: 0x1692908
     void WriteAssembly(System::Type* type, ::Il2CppString* assemblyString, int assemId, bool isNew);
     // System.Void WriteValue(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Object value)
-    // Offset: 0x167BCF4
+    // Offset: 0x1692A04
     void WriteValue(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::Il2CppObject* value);
   }; // System.Runtime.Serialization.Formatters.Binary.__BinaryWriter
   #pragma pack(pop)
   static check_size<sizeof(__BinaryWriter), 168 + sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*)> __System_Runtime_Serialization_Formatters_Binary___BinaryWriterSizeCheck;
   static_assert(sizeof(__BinaryWriter) == 0xB0);
+  // Writing MetadataGetter for method: __BinaryWriter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::IO::Stream*, System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, System::Runtime::Serialization::Formatters::FormatterTypeStyle)>(&__BinaryWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ObjectWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::FormatterTypeStyle>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::IO::Stream*, System::Runtime::Serialization::Formatters::Binary::ObjectWriter*, System::Runtime::Serialization::Formatters::FormatterTypeStyle)>(&__BinaryWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::ObjectWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::FormatterTypeStyle>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteBegin
+  // Il2CppName: WriteBegin
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteBegin)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteEnd
+  // Il2CppName: WriteEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteBoolean
+  // Il2CppName: WriteBoolean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(bool)>(&__BinaryWriter::WriteBoolean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteByte
+  // Il2CppName: WriteByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(uint8_t)>(&__BinaryWriter::WriteByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteBytes
+  // Il2CppName: WriteBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(::Array<uint8_t>*)>(&__BinaryWriter::WriteBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteBytes
+  // Il2CppName: WriteBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(::Array<uint8_t>*, int, int)>(&__BinaryWriter::WriteBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteChar
+  // Il2CppName: WriteChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(::Il2CppChar)>(&__BinaryWriter::WriteChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteChars
+  // Il2CppName: WriteChars
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(::Array<::Il2CppChar>*)>(&__BinaryWriter::WriteChars)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteDecimal
+  // Il2CppName: WriteDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Decimal)>(&__BinaryWriter::WriteDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteSingle
+  // Il2CppName: WriteSingle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(float)>(&__BinaryWriter::WriteSingle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteDouble
+  // Il2CppName: WriteDouble
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(double)>(&__BinaryWriter::WriteDouble)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteInt16
+  // Il2CppName: WriteInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(int16_t)>(&__BinaryWriter::WriteInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteInt32
+  // Il2CppName: WriteInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(int)>(&__BinaryWriter::WriteInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteInt64
+  // Il2CppName: WriteInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(int64_t)>(&__BinaryWriter::WriteInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteSByte
+  // Il2CppName: WriteSByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(int8_t)>(&__BinaryWriter::WriteSByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteString
+  // Il2CppName: WriteString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(::Il2CppString*)>(&__BinaryWriter::WriteString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteTimeSpan
+  // Il2CppName: WriteTimeSpan
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::TimeSpan)>(&__BinaryWriter::WriteTimeSpan)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteTimeSpan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteDateTime
+  // Il2CppName: WriteDateTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::DateTime)>(&__BinaryWriter::WriteDateTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteUInt16
+  // Il2CppName: WriteUInt16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(uint16_t)>(&__BinaryWriter::WriteUInt16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteUInt32
+  // Il2CppName: WriteUInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(uint)>(&__BinaryWriter::WriteUInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteUInt64
+  // Il2CppName: WriteUInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(uint64_t)>(&__BinaryWriter::WriteUInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteObjectEnd
+  // Il2CppName: WriteObjectEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&__BinaryWriter::WriteObjectEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteObjectEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteSerializationHeaderEnd
+  // Il2CppName: WriteSerializationHeaderEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteSerializationHeaderEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteSerializationHeaderEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteSerializationHeader
+  // Il2CppName: WriteSerializationHeader
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(int, int, int, int)>(&__BinaryWriter::WriteSerializationHeader)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteSerializationHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteMethodCall
+  // Il2CppName: WriteMethodCall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteMethodCall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteMethodReturn
+  // Il2CppName: WriteMethodReturn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteMethodReturn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteMethodReturn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteObject
+  // Il2CppName: WriteObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, int, ::Array<::Il2CppString*>*, ::Array<System::Type*>*, ::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*)>(&__BinaryWriter::WriteObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteObjectString
+  // Il2CppName: WriteObjectString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(int, ::Il2CppString*)>(&__BinaryWriter::WriteObjectString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteObjectString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteSingleArray
+  // Il2CppName: WriteSingleArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, int, int, System::Array*)>(&__BinaryWriter::WriteSingleArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteSingleArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteArrayAsBytes
+  // Il2CppName: WriteArrayAsBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Array*, int)>(&__BinaryWriter::WriteArrayAsBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteArrayAsBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteJaggedArray
+  // Il2CppName: WriteJaggedArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, int, int)>(&__BinaryWriter::WriteJaggedArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteJaggedArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteRectangleArray
+  // Il2CppName: WriteRectangleArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, int, ::Array<int>*, ::Array<int>*)>(&__BinaryWriter::WriteRectangleArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteRectangleArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteObjectByteArray
+  // Il2CppName: WriteObjectByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, int, int, ::Array<uint8_t>*)>(&__BinaryWriter::WriteObjectByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteObjectByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteMember
+  // Il2CppName: WriteMember
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&__BinaryWriter::WriteMember)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteNullMember
+  // Il2CppName: WriteNullMember
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&__BinaryWriter::WriteNullMember)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteNullMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteMemberObjectRef
+  // Il2CppName: WriteMemberObjectRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, int)>(&__BinaryWriter::WriteMemberObjectRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteMemberObjectRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteMemberNested
+  // Il2CppName: WriteMemberNested
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&__BinaryWriter::WriteMemberNested)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteMemberNested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteMemberString
+  // Il2CppName: WriteMemberString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppString*)>(&__BinaryWriter::WriteMemberString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteMemberString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteItem
+  // Il2CppName: WriteItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&__BinaryWriter::WriteItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteNullItem
+  // Il2CppName: WriteNullItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&__BinaryWriter::WriteNullItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteNullItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteDelayedNullItem
+  // Il2CppName: WriteDelayedNullItem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteDelayedNullItem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteDelayedNullItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteItemEnd
+  // Il2CppName: WriteItemEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::WriteItemEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteItemEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::InternalWriteItemNull
+  // Il2CppName: InternalWriteItemNull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)()>(&__BinaryWriter::InternalWriteItemNull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "InternalWriteItemNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteItemObjectRef
+  // Il2CppName: WriteItemObjectRef
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, int)>(&__BinaryWriter::WriteItemObjectRef)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteItemObjectRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteAssembly
+  // Il2CppName: WriteAssembly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Type*, ::Il2CppString*, int, bool)>(&__BinaryWriter::WriteAssembly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: __BinaryWriter::WriteValue
+  // Il2CppName: WriteValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (__BinaryWriter::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, ::Il2CppObject*)>(&__BinaryWriter::WriteValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(__BinaryWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter");

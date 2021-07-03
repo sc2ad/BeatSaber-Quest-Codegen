@@ -43,13 +43,13 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: MouseButtonEventData
     MouseButtonEventData(UnityEngine::EventSystems::PointerEventData::FramePressState buttonState_ = {}, UnityEngine::EventSystems::PointerEventData* buttonData_ = {}) noexcept : buttonState{buttonState_}, buttonData{buttonData_} {}
     // public System.Boolean PressedThisFrame()
-    // Offset: 0x1419D00
+    // Offset: 0x1434A10
     bool PressedThisFrame();
     // public System.Boolean ReleasedThisFrame()
-    // Offset: 0x1419D14
+    // Offset: 0x1434A24
     bool ReleasedThisFrame();
     // public System.Void .ctor()
-    // Offset: 0x1419D28
+    // Offset: 0x1434A38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,5 +61,35 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(PointerInputModule::MouseButtonEventData), 24 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __UnityEngine_EventSystems_PointerInputModule_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(PointerInputModule::MouseButtonEventData) == 0x20);
+  // Writing MetadataGetter for method: PointerInputModule::MouseButtonEventData::PressedThisFrame
+  // Il2CppName: PressedThisFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerInputModule::MouseButtonEventData::*)()>(&PointerInputModule::MouseButtonEventData::PressedThisFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::MouseButtonEventData*), "PressedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::MouseButtonEventData::ReleasedThisFrame
+  // Il2CppName: ReleasedThisFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerInputModule::MouseButtonEventData::*)()>(&PointerInputModule::MouseButtonEventData::ReleasedThisFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::MouseButtonEventData*), "ReleasedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerInputModule::MouseButtonEventData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::MouseButtonEventData::*)()>(&PointerInputModule::MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerInputModule::MouseButtonEventData::*)()>(&PointerInputModule::MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerInputModule::MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");

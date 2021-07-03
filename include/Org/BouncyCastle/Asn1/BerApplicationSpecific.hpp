@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: BerApplicationSpecific
     BerApplicationSpecific() noexcept {}
     // public System.Void .ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
-    // Offset: 0x16E0B38
+    // Offset: 0x16F7848
     // Implemented from: Org.BouncyCastle.Asn1.DerApplicationSpecific
     // Base method: System.Void DerApplicationSpecific::.ctor(System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1EncodableVector vec)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -38,5 +38,19 @@ namespace Org::BouncyCastle::Asn1 {
     }
   }; // Org.BouncyCastle.Asn1.BerApplicationSpecific
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BerApplicationSpecific::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BerApplicationSpecific::*)(int, Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(&BerApplicationSpecific::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BerApplicationSpecific*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1EncodableVector*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BerApplicationSpecific::*)(int, Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(&BerApplicationSpecific::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BerApplicationSpecific*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1EncodableVector*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerApplicationSpecific*, "Org.BouncyCastle.Asn1", "BerApplicationSpecific");

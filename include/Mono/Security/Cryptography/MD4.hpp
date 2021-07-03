@@ -21,10 +21,10 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: MD4
     MD4() noexcept {}
     // static public Mono.Security.Cryptography.MD4 Create()
-    // Offset: 0x1D589E0
+    // Offset: 0x1D746F0
     static Mono::Security::Cryptography::MD4* Create();
     // protected System.Void .ctor()
-    // Offset: 0x1D589B4
+    // Offset: 0x1D746C4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -35,5 +35,27 @@ namespace Mono::Security::Cryptography {
     }
   }; // Mono.Security.Cryptography.MD4
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MD4::Create
+  // Il2CppName: Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Cryptography::MD4* (*)()>(&MD4::Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MD4*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MD4::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4::*)()>(&MD4::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MD4*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4::*)()>(&MD4::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MD4*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4*, "Mono.Security.Cryptography", "MD4");

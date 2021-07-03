@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useTestNoteCutSoundEffects and: multiplayerLevelScenesTransitionSetupData
     char __padding7[0x7] = {};
-    // [SpaceAttribute] Offset: 0xE29138
+    // [SpaceAttribute] Offset: 0xE2917C
     // private MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x58
@@ -116,26 +116,26 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x23F8A9C
+    // Offset: 0x1023618
     void OnDestroy();
     // private System.Void GetStartedLevel(System.String userId)
-    // Offset: 0x23F8B9C
+    // Offset: 0x1023718
     void GetStartedLevel(::Il2CppString* userId);
     // private System.Void StartLevelImmediately()
-    // Offset: 0x23F8934
+    // Offset: 0x10234B0
     void StartLevelImmediately();
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x23F7EC8
+    // Offset: 0x1022A44
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(Zenject::DiContainer* container);
     // public override System.Void PostInstall(Zenject.DiContainer container)
-    // Offset: 0x23F829C
+    // Offset: 0x1022E18
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::PostInstall(Zenject.DiContainer container)
     void PostInstall(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x23F8BA0
+    // Offset: 0x102371C
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -152,5 +152,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerLevelNoTransitionInstaller), 96 + sizeof(GlobalNamespace::IMenuRpcManager*)> __GlobalNamespace_MultiplayerLevelNoTransitionInstallerSizeCheck;
   static_assert(sizeof(MultiplayerLevelNoTransitionInstaller) == 0x68);
+  // Writing MetadataGetter for method: MultiplayerLevelNoTransitionInstaller::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)()>(&MultiplayerLevelNoTransitionInstaller::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLevelNoTransitionInstaller::GetStartedLevel
+  // Il2CppName: GetStartedLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)(::Il2CppString*)>(&MultiplayerLevelNoTransitionInstaller::GetStartedLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), "GetStartedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLevelNoTransitionInstaller::StartLevelImmediately
+  // Il2CppName: StartLevelImmediately
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)()>(&MultiplayerLevelNoTransitionInstaller::StartLevelImmediately)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), "StartLevelImmediately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLevelNoTransitionInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)(Zenject::DiContainer*)>(&MultiplayerLevelNoTransitionInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLevelNoTransitionInstaller::PostInstall
+  // Il2CppName: PostInstall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)(Zenject::DiContainer*)>(&MultiplayerLevelNoTransitionInstaller::PostInstall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), "PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerLevelNoTransitionInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)()>(&MultiplayerLevelNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelNoTransitionInstaller::*)()>(&MultiplayerLevelNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelNoTransitionInstaller*, "", "MultiplayerLevelNoTransitionInstaller");

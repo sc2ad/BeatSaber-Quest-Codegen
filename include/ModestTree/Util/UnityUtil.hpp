@@ -52,58 +52,194 @@ namespace ModestTree::Util {
     // Creating value type constructor for type: UnityUtil
     UnityUtil() noexcept {}
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllScenes()
-    // Offset: 0x136A1D8
+    // Offset: 0x1384EE8
     static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllScenes();
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllLoadedScenes()
-    // Offset: 0x136A280
+    // Offset: 0x1384F90
     static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
     // static public System.Boolean get_IsAltKeyDown()
-    // Offset: 0x136A378
+    // Offset: 0x1385088
     static bool get_IsAltKeyDown();
     // static public System.Boolean get_IsControlKeyDown()
-    // Offset: 0x136A3AC
+    // Offset: 0x13850BC
     static bool get_IsControlKeyDown();
     // static public System.Boolean get_IsShiftKeyDown()
-    // Offset: 0x136A3E0
+    // Offset: 0x13850F0
     static bool get_IsShiftKeyDown();
     // static public System.Boolean get_WasShiftKeyJustPressed()
-    // Offset: 0x136A414
+    // Offset: 0x1385124
     static bool get_WasShiftKeyJustPressed();
     // static public System.Boolean get_WasAltKeyJustPressed()
-    // Offset: 0x136A448
+    // Offset: 0x1385158
     static bool get_WasAltKeyJustPressed();
     // static public System.Int32 GetDepthLevel(UnityEngine.Transform transform)
-    // Offset: 0x136A47C
+    // Offset: 0x138518C
     static int GetDepthLevel(UnityEngine::Transform* transform);
     // static public UnityEngine.GameObject GetRootParentOrSelf(UnityEngine.GameObject gameObject)
-    // Offset: 0x136A52C
+    // Offset: 0x138523C
     static UnityEngine::GameObject* GetRootParentOrSelf(UnityEngine::GameObject* gameObject);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> GetParents(UnityEngine.Transform transform)
-    // Offset: 0x136A6CC
+    // Offset: 0x13853DC
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* GetParents(UnityEngine::Transform* transform);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> GetParentsAndSelf(UnityEngine.Transform transform)
-    // Offset: 0x136A64C
+    // Offset: 0x138535C
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* GetParentsAndSelf(UnityEngine::Transform* transform);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Component> GetComponentsInChildrenTopDown(UnityEngine.GameObject gameObject, System.Boolean includeInactive)
-    // Offset: 0x136A7BC
+    // Offset: 0x13854CC
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* GetComponentsInChildrenTopDown(UnityEngine::GameObject* gameObject, bool includeInactive);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Component> GetComponentsInChildrenBottomUp(UnityEngine.GameObject gameObject, System.Boolean includeInactive)
-    // Offset: 0x136A8D8
+    // Offset: 0x13855E8
     static System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* GetComponentsInChildrenBottomUp(UnityEngine::GameObject* gameObject, bool includeInactive);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetDirectChildrenAndSelf(UnityEngine.GameObject obj)
-    // Offset: 0x136A9F4
+    // Offset: 0x1385704
     static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetDirectChildrenAndSelf(UnityEngine::GameObject* obj);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetDirectChildren(UnityEngine.GameObject obj)
-    // Offset: 0x136AAAC
+    // Offset: 0x13857BC
     static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetDirectChildren(UnityEngine::GameObject* obj);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetAllGameObjects()
-    // Offset: 0x136AB64
+    // Offset: 0x1385874
     static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetAllGameObjects();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjects()
-    // Offset: 0x136AC88
+    // Offset: 0x1385998
     static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllRootGameObjects();
   }; // ModestTree.Util.UnityUtil
   #pragma pack(pop)
+  // Writing MetadataGetter for method: UnityUtil::get_AllScenes
+  // Il2CppName: get_AllScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* (*)()>(&UnityUtil::get_AllScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_AllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::get_AllLoadedScenes
+  // Il2CppName: get_AllLoadedScenes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* (*)()>(&UnityUtil::get_AllLoadedScenes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_AllLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::get_IsAltKeyDown
+  // Il2CppName: get_IsAltKeyDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityUtil::get_IsAltKeyDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_IsAltKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::get_IsControlKeyDown
+  // Il2CppName: get_IsControlKeyDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityUtil::get_IsControlKeyDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_IsControlKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::get_IsShiftKeyDown
+  // Il2CppName: get_IsShiftKeyDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityUtil::get_IsShiftKeyDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_IsShiftKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::get_WasShiftKeyJustPressed
+  // Il2CppName: get_WasShiftKeyJustPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityUtil::get_WasShiftKeyJustPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_WasShiftKeyJustPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::get_WasAltKeyJustPressed
+  // Il2CppName: get_WasAltKeyJustPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityUtil::get_WasAltKeyJustPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "get_WasAltKeyJustPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetDepthLevel
+  // Il2CppName: GetDepthLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*)>(&UnityUtil::GetDepthLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetDepthLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetRootParentOrSelf
+  // Il2CppName: GetRootParentOrSelf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::GameObject*)>(&UnityUtil::GetRootParentOrSelf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetRootParentOrSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetParents
+  // Il2CppName: GetParents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* (*)(UnityEngine::Transform*)>(&UnityUtil::GetParents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetParentsAndSelf
+  // Il2CppName: GetParentsAndSelf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* (*)(UnityEngine::Transform*)>(&UnityUtil::GetParentsAndSelf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetParentsAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetComponentsInChildrenTopDown
+  // Il2CppName: GetComponentsInChildrenTopDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* (*)(UnityEngine::GameObject*, bool)>(&UnityUtil::GetComponentsInChildrenTopDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetComponentsInChildrenTopDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetComponentsInChildrenBottomUp
+  // Il2CppName: GetComponentsInChildrenBottomUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* (*)(UnityEngine::GameObject*, bool)>(&UnityUtil::GetComponentsInChildrenBottomUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetComponentsInChildrenBottomUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetDirectChildrenAndSelf
+  // Il2CppName: GetDirectChildrenAndSelf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&UnityUtil::GetDirectChildrenAndSelf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetDirectChildrenAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetDirectChildren
+  // Il2CppName: GetDirectChildren
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&UnityUtil::GetDirectChildren)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetDirectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetAllGameObjects
+  // Il2CppName: GetAllGameObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)()>(&UnityUtil::GetAllGameObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetAllGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnityUtil::GetAllRootGameObjects
+  // Il2CppName: GetAllRootGameObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&UnityUtil::GetAllRootGameObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnityUtil*), "GetAllRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil*, "ModestTree.Util", "UnityUtil");

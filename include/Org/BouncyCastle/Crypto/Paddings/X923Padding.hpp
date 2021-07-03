@@ -42,16 +42,16 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return random;
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x123A158
+    // Offset: 0x1256E68
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x123A160
+    // Offset: 0x1256E70
     int AddPadding(::Array<uint8_t>* input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x123A248
+    // Offset: 0x1256F58
     int PadCount(::Array<uint8_t>* input);
     // public System.Void .ctor()
-    // Offset: 0x123A2F8
+    // Offset: 0x1257008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,5 +63,43 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   #pragma pack(pop)
   static check_size<sizeof(X923Padding), 16 + sizeof(Org::BouncyCastle::Security::SecureRandom*)> __Org_BouncyCastle_Crypto_Paddings_X923PaddingSizeCheck;
   static_assert(sizeof(X923Padding) == 0x18);
+  // Writing MetadataGetter for method: X923Padding::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X923Padding::*)(Org::BouncyCastle::Security::SecureRandom*)>(&X923Padding::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X923Padding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X923Padding::AddPadding
+  // Il2CppName: AddPadding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X923Padding::*)(::Array<uint8_t>*, int)>(&X923Padding::AddPadding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X923Padding*), "AddPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: X923Padding::PadCount
+  // Il2CppName: PadCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X923Padding::*)(::Array<uint8_t>*)>(&X923Padding::PadCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X923Padding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X923Padding::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X923Padding::*)()>(&X923Padding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X923Padding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X923Padding::*)()>(&X923Padding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X923Padding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::X923Padding*, "Org.BouncyCastle.Crypto.Paddings", "X923Padding");

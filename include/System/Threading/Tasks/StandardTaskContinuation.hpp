@@ -52,14 +52,14 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: StandardTaskContinuation
     StandardTaskContinuation(System::Threading::Tasks::Task* m_task_ = {}, System::Threading::Tasks::TaskContinuationOptions m_options_ = {}, System::Threading::Tasks::TaskScheduler* m_taskScheduler_ = {}) noexcept : m_task{m_task_}, m_options{m_options_}, m_taskScheduler{m_taskScheduler_} {}
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Threading.Tasks.TaskContinuationOptions options, System.Threading.Tasks.TaskScheduler scheduler)
-    // Offset: 0x189BB68
+    // Offset: 0x18B3878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardTaskContinuation* New_ctor(System::Threading::Tasks::Task* task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler* scheduler) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::StandardTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardTaskContinuation*, creationType>(task, options, scheduler)));
     }
     // override System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
-    // Offset: 0x189BE00
+    // Offset: 0x18B3B10
     // Implemented from: System.Threading.Tasks.TaskContinuation
     // Base method: System.Void TaskContinuation::Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
@@ -67,5 +67,27 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
   static check_size<sizeof(StandardTaskContinuation), 32 + sizeof(System::Threading::Tasks::TaskScheduler*)> __System_Threading_Tasks_StandardTaskContinuationSizeCheck;
   static_assert(sizeof(StandardTaskContinuation) == 0x28);
+  // Writing MetadataGetter for method: StandardTaskContinuation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardTaskContinuation::*)(System::Threading::Tasks::Task*, System::Threading::Tasks::TaskContinuationOptions, System::Threading::Tasks::TaskScheduler*)>(&StandardTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskContinuationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskScheduler*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardTaskContinuation::*)(System::Threading::Tasks::Task*, System::Threading::Tasks::TaskContinuationOptions, System::Threading::Tasks::TaskScheduler*)>(&StandardTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskContinuationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskScheduler*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardTaskContinuation::Run
+  // Il2CppName: Run
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&StandardTaskContinuation::Run)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StandardTaskContinuation*, "System.Threading.Tasks", "StandardTaskContinuation");

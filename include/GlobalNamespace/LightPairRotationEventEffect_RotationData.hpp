@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RotationData
     RotationData(bool enabled_ = {}, float rotationSpeed_ = {}, UnityEngine::Quaternion startRotation_ = {}, UnityEngine::Transform* transform_ = {}, float startRotationAngle_ = {}, float rotationAngle_ = {}) noexcept : enabled{enabled_}, rotationSpeed{rotationSpeed_}, startRotation{startRotation_}, transform{transform_}, startRotationAngle{startRotationAngle_}, rotationAngle{rotationAngle_} {}
     // public System.Void .ctor()
-    // Offset: 0x11FED2C
+    // Offset: 0x1202750
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -80,5 +80,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LightPairRotationEventEffect::RotationData), 52 + sizeof(float)> __GlobalNamespace_LightPairRotationEventEffect_RotationDataSizeCheck;
   static_assert(sizeof(LightPairRotationEventEffect::RotationData) == 0x38);
+  // Writing MetadataGetter for method: LightPairRotationEventEffect::RotationData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::RotationData::*)()>(&LightPairRotationEventEffect::RotationData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect::RotationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairRotationEventEffect::RotationData::*)()>(&LightPairRotationEventEffect::RotationData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairRotationEventEffect::RotationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");

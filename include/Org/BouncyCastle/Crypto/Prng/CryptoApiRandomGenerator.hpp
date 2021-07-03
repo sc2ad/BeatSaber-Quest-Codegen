@@ -42,17 +42,17 @@ namespace Org::BouncyCastle::Crypto::Prng {
       return rndProv;
     }
     // public System.Void .ctor(System.Security.Cryptography.RandomNumberGenerator rng)
-    // Offset: 0x1242064
+    // Offset: 0x125ED74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CryptoApiRandomGenerator* New_ctor(System::Security::Cryptography::RandomNumberGenerator* rng) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptoApiRandomGenerator*, creationType>(rng)));
     }
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x1242090
+    // Offset: 0x125EDA0
     void NextBytes(::Array<uint8_t>* bytes);
     // public System.Void .ctor()
-    // Offset: 0x124202C
+    // Offset: 0x125ED3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -64,5 +64,41 @@ namespace Org::BouncyCastle::Crypto::Prng {
   #pragma pack(pop)
   static check_size<sizeof(CryptoApiRandomGenerator), 16 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Org_BouncyCastle_Crypto_Prng_CryptoApiRandomGeneratorSizeCheck;
   static_assert(sizeof(CryptoApiRandomGenerator) == 0x18);
+  // Writing MetadataGetter for method: CryptoApiRandomGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)(System::Security::Cryptography::RandomNumberGenerator*)>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)(System::Security::Cryptography::RandomNumberGenerator*)>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CryptoApiRandomGenerator::NextBytes
+  // Il2CppName: NextBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)(::Array<uint8_t>*)>(&CryptoApiRandomGenerator::NextBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CryptoApiRandomGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)()>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)()>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");

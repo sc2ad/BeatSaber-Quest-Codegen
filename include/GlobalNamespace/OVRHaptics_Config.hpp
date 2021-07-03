@@ -16,80 +16,192 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: Config
     Config() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xDD1988
+    // [CompilerGeneratedAttribute] Offset: 0xDD08BC
     // Get static field: static private System.Int32 <SampleRateHz>k__BackingField
     static int _get_$SampleRateHz$k__BackingField();
     // Set static field: static private System.Int32 <SampleRateHz>k__BackingField
     static void _set_$SampleRateHz$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xDD1998
+    // [CompilerGeneratedAttribute] Offset: 0xDD08CC
     // Get static field: static private System.Int32 <SampleSizeInBytes>k__BackingField
     static int _get_$SampleSizeInBytes$k__BackingField();
     // Set static field: static private System.Int32 <SampleSizeInBytes>k__BackingField
     static void _set_$SampleSizeInBytes$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xDD19A8
+    // [CompilerGeneratedAttribute] Offset: 0xDD08DC
     // Get static field: static private System.Int32 <MinimumSafeSamplesQueued>k__BackingField
     static int _get_$MinimumSafeSamplesQueued$k__BackingField();
     // Set static field: static private System.Int32 <MinimumSafeSamplesQueued>k__BackingField
     static void _set_$MinimumSafeSamplesQueued$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xDD19B8
+    // [CompilerGeneratedAttribute] Offset: 0xDD08EC
     // Get static field: static private System.Int32 <MinimumBufferSamplesCount>k__BackingField
     static int _get_$MinimumBufferSamplesCount$k__BackingField();
     // Set static field: static private System.Int32 <MinimumBufferSamplesCount>k__BackingField
     static void _set_$MinimumBufferSamplesCount$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xDD19C8
+    // [CompilerGeneratedAttribute] Offset: 0xDD08FC
     // Get static field: static private System.Int32 <OptimalBufferSamplesCount>k__BackingField
     static int _get_$OptimalBufferSamplesCount$k__BackingField();
     // Set static field: static private System.Int32 <OptimalBufferSamplesCount>k__BackingField
     static void _set_$OptimalBufferSamplesCount$k__BackingField(int value);
-    // [CompilerGeneratedAttribute] Offset: 0xDD19D8
+    // [CompilerGeneratedAttribute] Offset: 0xDD090C
     // Get static field: static private System.Int32 <MaximumBufferSamplesCount>k__BackingField
     static int _get_$MaximumBufferSamplesCount$k__BackingField();
     // Set static field: static private System.Int32 <MaximumBufferSamplesCount>k__BackingField
     static void _set_$MaximumBufferSamplesCount$k__BackingField(int value);
     // static public System.Int32 get_SampleRateHz()
-    // Offset: 0x14F83C0
+    // Offset: 0x15130D0
     static int get_SampleRateHz();
     // static private System.Void set_SampleRateHz(System.Int32 value)
-    // Offset: 0x14F8428
+    // Offset: 0x1513138
     static void set_SampleRateHz(int value);
     // static public System.Int32 get_SampleSizeInBytes()
-    // Offset: 0x14F8494
+    // Offset: 0x15131A4
     static int get_SampleSizeInBytes();
     // static private System.Void set_SampleSizeInBytes(System.Int32 value)
-    // Offset: 0x14F84FC
+    // Offset: 0x151320C
     static void set_SampleSizeInBytes(int value);
     // static public System.Int32 get_MinimumSafeSamplesQueued()
-    // Offset: 0x14F8568
+    // Offset: 0x1513278
     static int get_MinimumSafeSamplesQueued();
     // static private System.Void set_MinimumSafeSamplesQueued(System.Int32 value)
-    // Offset: 0x14F85D0
+    // Offset: 0x15132E0
     static void set_MinimumSafeSamplesQueued(int value);
     // static public System.Int32 get_MinimumBufferSamplesCount()
-    // Offset: 0x14F863C
+    // Offset: 0x151334C
     static int get_MinimumBufferSamplesCount();
     // static private System.Void set_MinimumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x14F86A4
+    // Offset: 0x15133B4
     static void set_MinimumBufferSamplesCount(int value);
     // static public System.Int32 get_OptimalBufferSamplesCount()
-    // Offset: 0x14F8710
+    // Offset: 0x1513420
     static int get_OptimalBufferSamplesCount();
     // static private System.Void set_OptimalBufferSamplesCount(System.Int32 value)
-    // Offset: 0x14F8778
+    // Offset: 0x1513488
     static void set_OptimalBufferSamplesCount(int value);
     // static public System.Int32 get_MaximumBufferSamplesCount()
-    // Offset: 0x14F87E4
+    // Offset: 0x15134F4
     static int get_MaximumBufferSamplesCount();
     // static private System.Void set_MaximumBufferSamplesCount(System.Int32 value)
-    // Offset: 0x14F884C
+    // Offset: 0x151355C
     static void set_MaximumBufferSamplesCount(int value);
     // static private System.Void .cctor()
-    // Offset: 0x14F88B8
+    // Offset: 0x15135C8
     static void _cctor();
     // static public System.Void Load()
-    // Offset: 0x14F7454
+    // Offset: 0x1512164
     static void Load();
   }; // OVRHaptics/Config
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRHaptics::Config::get_SampleRateHz
+  // Il2CppName: get_SampleRateHz
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_SampleRateHz)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_SampleRateHz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::set_SampleRateHz
+  // Il2CppName: set_SampleRateHz
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_SampleRateHz)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_SampleRateHz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::get_SampleSizeInBytes
+  // Il2CppName: get_SampleSizeInBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_SampleSizeInBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_SampleSizeInBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::set_SampleSizeInBytes
+  // Il2CppName: set_SampleSizeInBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_SampleSizeInBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_SampleSizeInBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::get_MinimumSafeSamplesQueued
+  // Il2CppName: get_MinimumSafeSamplesQueued
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_MinimumSafeSamplesQueued)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_MinimumSafeSamplesQueued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::set_MinimumSafeSamplesQueued
+  // Il2CppName: set_MinimumSafeSamplesQueued
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_MinimumSafeSamplesQueued)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_MinimumSafeSamplesQueued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::get_MinimumBufferSamplesCount
+  // Il2CppName: get_MinimumBufferSamplesCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_MinimumBufferSamplesCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_MinimumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::set_MinimumBufferSamplesCount
+  // Il2CppName: set_MinimumBufferSamplesCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_MinimumBufferSamplesCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_MinimumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::get_OptimalBufferSamplesCount
+  // Il2CppName: get_OptimalBufferSamplesCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_OptimalBufferSamplesCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_OptimalBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::set_OptimalBufferSamplesCount
+  // Il2CppName: set_OptimalBufferSamplesCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_OptimalBufferSamplesCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_OptimalBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::get_MaximumBufferSamplesCount
+  // Il2CppName: get_MaximumBufferSamplesCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_MaximumBufferSamplesCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_MaximumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::set_MaximumBufferSamplesCount
+  // Il2CppName: set_MaximumBufferSamplesCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_MaximumBufferSamplesCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_MaximumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::Config::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRHaptics::Config::Load
+  // Il2CppName: Load
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::Config::Load)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");

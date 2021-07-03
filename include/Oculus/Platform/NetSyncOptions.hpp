@@ -38,19 +38,19 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetVoipGroup(System.String value)
-    // Offset: 0x14BD7B4
+    // Offset: 0x14D84C4
     void SetVoipGroup(::Il2CppString* value);
     // public System.Void SetVoipStreamDefault(Oculus.Platform.NetSyncVoipStreamMode value)
-    // Offset: 0x14BD830
+    // Offset: 0x14D8540
     void SetVoipStreamDefault(Oculus::Platform::NetSyncVoipStreamMode value);
     // public System.Void SetZoneId(System.String value)
-    // Offset: 0x14BD8AC
+    // Offset: 0x14D85BC
     void SetZoneId(::Il2CppString* value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.NetSyncOptions options)
-    // Offset: 0x14BD928
+    // Offset: 0x14D8638
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x14BD73C
+    // Offset: 0x14D844C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,7 +59,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x14BD978
+    // Offset: 0x14D8688
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -67,5 +67,59 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(NetSyncOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_NetSyncOptionsSizeCheck;
   static_assert(sizeof(NetSyncOptions) == 0x18);
+  // Writing MetadataGetter for method: NetSyncOptions::SetVoipGroup
+  // Il2CppName: SetVoipGroup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncOptions::*)(::Il2CppString*)>(&NetSyncOptions::SetVoipGroup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), "SetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetSyncOptions::SetVoipStreamDefault
+  // Il2CppName: SetVoipStreamDefault
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncOptions::*)(Oculus::Platform::NetSyncVoipStreamMode)>(&NetSyncOptions::SetVoipStreamDefault)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), "SetVoipStreamDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::NetSyncVoipStreamMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetSyncOptions::SetZoneId
+  // Il2CppName: SetZoneId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncOptions::*)(::Il2CppString*)>(&NetSyncOptions::SetZoneId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), "SetZoneId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NetSyncOptions::operator System::IntPtr
+  // Il2CppName: op_Explicit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&NetSyncOptions::operator System::IntPtr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetSyncOptions::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncOptions::*)()>(&NetSyncOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncOptions::*)()>(&NetSyncOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NetSyncOptions::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSyncOptions::*)()>(&NetSyncOptions::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NetSyncOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncOptions*, "Oculus.Platform", "NetSyncOptions");

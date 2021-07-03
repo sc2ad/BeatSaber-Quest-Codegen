@@ -39,16 +39,16 @@ namespace System::Net::Configuration {
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static void _set_instance(System::Net::Configuration::SettingsSectionInternal* value);
     // static System.Net.Configuration.SettingsSectionInternal get_Section()
-    // Offset: 0x1695D70
+    // Offset: 0x16ACA80
     static System::Net::Configuration::SettingsSectionInternal* get_Section();
     // System.Boolean get_Ipv6Enabled()
-    // Offset: 0x1695DD8
+    // Offset: 0x16ACAE8
     bool get_Ipv6Enabled();
     // static private System.Void .cctor()
-    // Offset: 0x1695DF8
+    // Offset: 0x16ACB08
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1695DE0
+    // Offset: 0x16ACAF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,5 +60,43 @@ namespace System::Net::Configuration {
   #pragma pack(pop)
   static check_size<sizeof(SettingsSectionInternal), 20 + sizeof(System::Net::Sockets::IPProtectionLevel)> __System_Net_Configuration_SettingsSectionInternalSizeCheck;
   static_assert(sizeof(SettingsSectionInternal) == 0x18);
+  // Writing MetadataGetter for method: SettingsSectionInternal::get_Section
+  // Il2CppName: get_Section
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::SettingsSectionInternal* (*)()>(&SettingsSectionInternal::get_Section)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSectionInternal*), "get_Section", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SettingsSectionInternal::get_Ipv6Enabled
+  // Il2CppName: get_Ipv6Enabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SettingsSectionInternal::*)()>(&SettingsSectionInternal::get_Ipv6Enabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSectionInternal*), "get_Ipv6Enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SettingsSectionInternal::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SettingsSectionInternal::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSectionInternal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SettingsSectionInternal::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsSectionInternal::*)()>(&SettingsSectionInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsSectionInternal::*)()>(&SettingsSectionInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");

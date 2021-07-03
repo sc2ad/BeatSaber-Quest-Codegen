@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* closeButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE23AB4
+    // [HeaderAttribute] Offset: 0xE23A90
     // private UnityEngine.UI.Toggle _selectBasedOnSuggestionsToggle
     // Size: 0x8
     // Offset: 0x20
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Toggle* randomSongIfNoneSuggestedToggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE23B30
+    // [CompilerGeneratedAttribute] Offset: 0xE23B0C
     // private System.Action`1<AutoSetupData> didFinishEvent
     // Size: 0x8
     // Offset: 0x40
@@ -106,37 +106,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x112D700
+    // Offset: 0x1132F68
     void add_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<AutoSetupData> value)
-    // Offset: 0x112D7A4
+    // Offset: 0x113300C
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::AutoSetupData*>* value);
     // public System.Void Setup(AutoSetupData autoSetupData)
-    // Offset: 0x112D848
+    // Offset: 0x11330B0
     void Setup(GlobalNamespace::AutoSetupData* autoSetupData);
     // protected System.Void OnEnable()
-    // Offset: 0x112D850
+    // Offset: 0x11330B8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x112DA0C
+    // Offset: 0x1133274
     void OnDisable();
     // private System.Void <OnEnable>b__12_0()
-    // Offset: 0x112DAD8
+    // Offset: 0x1133340
     void $OnEnable$b__12_0();
     // private System.Void <OnEnable>b__12_1(System.Boolean isOn)
-    // Offset: 0x112DB3C
+    // Offset: 0x11333A4
     void $OnEnable$b__12_1(bool isOn);
     // private System.Void <OnEnable>b__12_2(System.Boolean isOn)
-    // Offset: 0x112DB5C
+    // Offset: 0x11333C4
     void $OnEnable$b__12_2(bool isOn);
     // private System.Void <OnEnable>b__12_3(System.Boolean isOn)
-    // Offset: 0x112DB7C
+    // Offset: 0x11333E4
     void $OnEnable$b__12_3(bool isOn);
     // private System.Void <OnEnable>b__12_4(System.Boolean isOn)
-    // Offset: 0x112DB9C
+    // Offset: 0x1133404
     void $OnEnable$b__12_4(bool isOn);
     // public System.Void .ctor()
-    // Offset: 0x112DA28
+    // Offset: 0x1133290
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -152,5 +152,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AutoSetupController), 88 + sizeof(GlobalNamespace::AutoSetupData*)> __GlobalNamespace_AutoSetupControllerSizeCheck;
   static_assert(sizeof(AutoSetupController) == 0x60);
+  // Writing MetadataGetter for method: AutoSetupController::add_didFinishEvent
+  // Il2CppName: add_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(System::Action_1<GlobalNamespace::AutoSetupData*>*)>(&AutoSetupController::add_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::AutoSetupData*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::remove_didFinishEvent
+  // Il2CppName: remove_didFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(System::Action_1<GlobalNamespace::AutoSetupData*>*)>(&AutoSetupController::remove_didFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::AutoSetupData*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(GlobalNamespace::AutoSetupData*)>(&AutoSetupController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AutoSetupData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_0
+  // Il2CppName: <OnEnable>b__12_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::$OnEnable$b__12_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_1
+  // Il2CppName: <OnEnable>b__12_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_2
+  // Il2CppName: <OnEnable>b__12_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_3
+  // Il2CppName: <OnEnable>b__12_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::$OnEnable$b__12_4
+  // Il2CppName: <OnEnable>b__12_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)(bool)>(&AutoSetupController::$OnEnable$b__12_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), "<OnEnable>b__12_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoSetupController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoSetupController::*)()>(&AutoSetupController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoSetupController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutoSetupController*, "", "AutoSetupController");

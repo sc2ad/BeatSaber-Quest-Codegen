@@ -61,13 +61,13 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Pose
     Pose(bool visualize_ = {}, ::Il2CppString* name_ = {}, UnityEngine::Vector3 direction_ = {}, float yaw_ = {}, float pitch_ = {}, float angleBuffer_ = {}) noexcept : visualize{visualize_}, name{name_}, direction{direction_}, yaw{yaw_}, pitch{pitch_}, angleBuffer{angleBuffer_} {}
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
-    // Offset: 0x1C928B8
+    // Offset: 0x1CAE5C8
     bool IsInDirection(UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
-    // Offset: 0x1C92C24
+    // Offset: 0x1CAE934
     void SetAngleBuffer(float value);
     // public System.Void .ctor()
-    // Offset: 0x1C92C2C
+    // Offset: 0x1CAE93C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,5 +79,35 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(AimPoser::Pose), 52 + sizeof(float)> __RootMotion_FinalIK_AimPoser_PoseSizeCheck;
   static_assert(sizeof(AimPoser::Pose) == 0x38);
+  // Writing MetadataGetter for method: AimPoser::Pose::IsInDirection
+  // Il2CppName: IsInDirection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AimPoser::Pose::*)(UnityEngine::Vector3)>(&AimPoser::Pose::IsInDirection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimPoser::Pose*), "IsInDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: AimPoser::Pose::SetAngleBuffer
+  // Il2CppName: SetAngleBuffer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimPoser::Pose::*)(float)>(&AimPoser::Pose::SetAngleBuffer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimPoser::Pose*), "SetAngleBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: AimPoser::Pose::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimPoser::Pose::*)()>(&AimPoser::Pose::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimPoser::Pose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimPoser::Pose::*)()>(&AimPoser::Pose::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimPoser::Pose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");

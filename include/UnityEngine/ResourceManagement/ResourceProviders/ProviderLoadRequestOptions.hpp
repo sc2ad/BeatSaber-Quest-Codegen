@@ -29,13 +29,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return m_IgnoreFailures;
     }
     // System.Boolean get_IgnoreFailures()
-    // Offset: 0x19B4C10
+    // Offset: 0x19CB920
     bool get_IgnoreFailures();
     // System.Void set_IgnoreFailures(System.Boolean value)
-    // Offset: 0x19B4C18
+    // Offset: 0x19CB928
     void set_IgnoreFailures(bool value);
     // public System.Void .ctor()
-    // Offset: 0x19B4C24
+    // Offset: 0x19CB934
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,5 +47,35 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(ProviderLoadRequestOptions), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_ProviderLoadRequestOptionsSizeCheck;
   static_assert(sizeof(ProviderLoadRequestOptions) == 0x11);
+  // Writing MetadataGetter for method: ProviderLoadRequestOptions::get_IgnoreFailures
+  // Il2CppName: get_IgnoreFailures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProviderLoadRequestOptions::*)()>(&ProviderLoadRequestOptions::get_IgnoreFailures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProviderLoadRequestOptions*), "get_IgnoreFailures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ProviderLoadRequestOptions::set_IgnoreFailures
+  // Il2CppName: set_IgnoreFailures
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderLoadRequestOptions::*)(bool)>(&ProviderLoadRequestOptions::set_IgnoreFailures)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProviderLoadRequestOptions*), "set_IgnoreFailures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProviderLoadRequestOptions::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderLoadRequestOptions::*)()>(&ProviderLoadRequestOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProviderLoadRequestOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProviderLoadRequestOptions::*)()>(&ProviderLoadRequestOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProviderLoadRequestOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");

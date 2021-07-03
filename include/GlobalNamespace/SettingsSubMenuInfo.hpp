@@ -29,7 +29,7 @@ namespace GlobalNamespace {
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xE25640
+    // [LocalizationKeyAttribute] Offset: 0xE256C4
     // private System.String _menuName
     // Size: 0x8
     // Offset: 0x18
@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SettingsSubMenuInfo
     SettingsSubMenuInfo(HMUI::ViewController* viewController_ = {}, ::Il2CppString* menuName_ = {}) noexcept : viewController{viewController_}, menuName{menuName_} {}
     // public HMUI.ViewController get_viewController()
-    // Offset: 0x10EBF98
+    // Offset: 0x10DD130
     HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
-    // Offset: 0x10EBFA0
+    // Offset: 0x10DD138
     ::Il2CppString* get_localizedMenuName();
     // public System.Void .ctor()
-    // Offset: 0x10EBFAC
+    // Offset: 0x10DD144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,5 +57,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
   static_assert(sizeof(SettingsSubMenuInfo) == 0x20);
+  // Writing MetadataGetter for method: SettingsSubMenuInfo::get_viewController
+  // Il2CppName: get_viewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (SettingsSubMenuInfo::*)()>(&SettingsSubMenuInfo::get_viewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSubMenuInfo*), "get_viewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SettingsSubMenuInfo::get_localizedMenuName
+  // Il2CppName: get_localizedMenuName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SettingsSubMenuInfo::*)()>(&SettingsSubMenuInfo::get_localizedMenuName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSubMenuInfo*), "get_localizedMenuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SettingsSubMenuInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsSubMenuInfo::*)()>(&SettingsSubMenuInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSubMenuInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsSubMenuInfo::*)()>(&SettingsSubMenuInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SettingsSubMenuInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");

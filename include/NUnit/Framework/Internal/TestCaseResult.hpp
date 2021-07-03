@@ -38,43 +38,105 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: TestCaseResult
     TestCaseResult() noexcept {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod test)
-    // Offset: 0x22946C8
+    // Offset: 0x22AF424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCaseResult* New_ctor(NUnit::Framework::Internal::TestMethod* test) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestCaseResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseResult*, creationType>(test)));
     }
     // public override System.Int32 get_FailCount()
-    // Offset: 0x229483C
+    // Offset: 0x22AF598
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_FailCount()
     int get_FailCount();
     // public override System.Int32 get_PassCount()
-    // Offset: 0x2294868
+    // Offset: 0x22AF5C4
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_PassCount()
     int get_PassCount();
     // public override System.Int32 get_SkipCount()
-    // Offset: 0x229488C
+    // Offset: 0x22AF5E8
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_SkipCount()
     int get_SkipCount();
     // public override System.Int32 get_InconclusiveCount()
-    // Offset: 0x22948B0
+    // Offset: 0x22AF60C
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Int32 TestResult::get_InconclusiveCount()
     int get_InconclusiveCount();
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x22948D4
+    // Offset: 0x22AF630
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Boolean TestResult::get_HasChildren()
     bool get_HasChildren();
     // public override System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> get_Children()
-    // Offset: 0x22948DC
+    // Offset: 0x22AF638
     // Implemented from: NUnit.Framework.Internal.TestResult
     // Base method: System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestResult> TestResult::get_Children()
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* get_Children();
   }; // NUnit.Framework.Internal.TestCaseResult
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TestCaseResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCaseResult::*)(NUnit::Framework::Internal::TestMethod*)>(&TestCaseResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCaseResult::*)(NUnit::Framework::Internal::TestMethod*)>(&TestCaseResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestCaseResult::get_FailCount
+  // Il2CppName: get_FailCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestCaseResult::*)()>(&TestCaseResult::get_FailCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), "get_FailCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestCaseResult::get_PassCount
+  // Il2CppName: get_PassCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestCaseResult::*)()>(&TestCaseResult::get_PassCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), "get_PassCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestCaseResult::get_SkipCount
+  // Il2CppName: get_SkipCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestCaseResult::*)()>(&TestCaseResult::get_SkipCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), "get_SkipCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestCaseResult::get_InconclusiveCount
+  // Il2CppName: get_InconclusiveCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestCaseResult::*)()>(&TestCaseResult::get_InconclusiveCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), "get_InconclusiveCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestCaseResult::get_HasChildren
+  // Il2CppName: get_HasChildren
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestCaseResult::*)()>(&TestCaseResult::get_HasChildren)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), "get_HasChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestCaseResult::get_Children
+  // Il2CppName: get_Children
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestResult*>* (TestCaseResult::*)()>(&TestCaseResult::get_Children)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestCaseResult*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseResult*, "NUnit.Framework.Internal", "TestCaseResult");

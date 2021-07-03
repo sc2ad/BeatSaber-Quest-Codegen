@@ -44,24 +44,62 @@ namespace GlobalNamespace {
       return trie;
     }
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
-    // Offset: 0x14F0E04
+    // Offset: 0x150BB14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* wordList) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter*, creationType>(wordList)));
     }
     // public System.Boolean IsProfane(System.String word)
-    // Offset: 0x14F10B8
+    // Offset: 0x150BDC8
     bool IsProfane(::Il2CppString* word);
     // static private System.Collections.Generic.IEnumerable`1<System.Char> GetLookalikeLetters(System.Char c)
-    // Offset: 0x14F1130
+    // Offset: 0x150BE40
     static System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
     // static private System.Char GetLeetEquivalent(System.Char c)
-    // Offset: 0x14F11E8
+    // Offset: 0x150BEF8
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
   #pragma pack(pop)
   static check_size<sizeof(ProfanityFilter), 16 + sizeof(GlobalNamespace::ProfanityFilter::TrieNode*)> __GlobalNamespace_ProfanityFilterSizeCheck;
   static_assert(sizeof(ProfanityFilter) == 0x18);
+  // Writing MetadataGetter for method: ProfanityFilter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&ProfanityFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&ProfanityFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProfanityFilter::IsProfane
+  // Il2CppName: IsProfane
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProfanityFilter::*)(::Il2CppString*)>(&ProfanityFilter::IsProfane)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), "IsProfane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProfanityFilter::GetLookalikeLetters
+  // Il2CppName: GetLookalikeLetters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&ProfanityFilter::GetLookalikeLetters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), "GetLookalikeLetters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: ProfanityFilter::GetLeetEquivalent
+  // Il2CppName: GetLeetEquivalent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&ProfanityFilter::GetLeetEquivalent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), "GetLeetEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");

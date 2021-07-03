@@ -34,25 +34,25 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x176D6E4
+    // Offset: 0x17863F4
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x176D6EC
+    // Offset: 0x17863FC
     ::Il2CppObject* get_Current();
     // public System.Void Reset()
-    // Offset: 0x176D76C
+    // Offset: 0x178647C
     void Reset();
     // public System.Object get_Key()
-    // Offset: 0x176D770
+    // Offset: 0x1786480
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x176D7F0
+    // Offset: 0x1786500
     ::Il2CppObject* get_Value();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x176D870
+    // Offset: 0x1786580
     System::Collections::DictionaryEntry get_Entry();
     // public System.Void .ctor()
-    // Offset: 0x176D090
+    // Offset: 0x1785DA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,5 +62,67 @@ namespace System::Collections {
     }
   }; // System.Collections.EmptyReadOnlyDictionaryInternal/NodeEnumerator
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Key
+  // Il2CppName: get_Key
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Key)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Entry
+  // Il2CppName: get_Entry
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::get_Entry)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::NodeEnumerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::NodeEnumerator::*)()>(&EmptyReadOnlyDictionaryInternal::NodeEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal::NodeEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator*, "System.Collections", "EmptyReadOnlyDictionaryInternal/NodeEnumerator");

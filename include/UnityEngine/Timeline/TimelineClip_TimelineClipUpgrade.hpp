@@ -17,10 +17,18 @@ namespace UnityEngine::Timeline {
     // Creating value type constructor for type: TimelineClipUpgrade
     TimelineClipUpgrade() noexcept {}
     // static public System.Void UpgradeClipInFromGlobalToLocal(UnityEngine.Timeline.TimelineClip clip)
-    // Offset: 0x231D81C
+    // Offset: 0x2337578
     static void UpgradeClipInFromGlobalToLocal(UnityEngine::Timeline::TimelineClip* clip);
   }; // UnityEngine.Timeline.TimelineClip/TimelineClipUpgrade
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimelineClip::TimelineClipUpgrade::UpgradeClipInFromGlobalToLocal
+  // Il2CppName: UpgradeClipInFromGlobalToLocal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineClip*)>(&TimelineClip::TimelineClipUpgrade::UpgradeClipInFromGlobalToLocal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip::TimelineClipUpgrade*), "UpgradeClipInFromGlobalToLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade*, "UnityEngine.Timeline", "TimelineClip/TimelineClipUpgrade");

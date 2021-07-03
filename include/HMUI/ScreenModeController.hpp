@@ -43,7 +43,7 @@ namespace HMUI {
     ::Array<HMUI::CurvedCanvasSettings*>* curvedCanvases;
     // Field size check
     static_assert(sizeof(::Array<HMUI::CurvedCanvasSettings*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xDF6ADC
+    // [InjectAttribute] Offset: 0xDF8AD8
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -67,16 +67,16 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x129A848
+    // Offset: 0x12B5558
     void Awake();
     // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
-    // Offset: 0x129AA44
+    // Offset: 0x12B5754
     void SetMode(HMUI::ScreenModeData* screenModeData);
     // public System.Void SetDefaultMode()
-    // Offset: 0x129ACAC
+    // Offset: 0x12B59BC
     void SetDefaultMode();
     // public System.Void .ctor()
-    // Offset: 0x129ACB4
+    // Offset: 0x12B59C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -92,5 +92,43 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(ScreenModeController), 48 + sizeof(UnityEngine::Transform*)> __HMUI_ScreenModeControllerSizeCheck;
   static_assert(sizeof(ScreenModeController) == 0x38);
+  // Writing MetadataGetter for method: ScreenModeController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenModeController::SetMode
+  // Il2CppName: SetMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)(HMUI::ScreenModeData*)>(&ScreenModeController::SetMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ScreenModeData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenModeController::SetDefaultMode
+  // Il2CppName: SetDefaultMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::SetDefaultMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), "SetDefaultMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenModeController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenModeController::*)()>(&ScreenModeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenModeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");

@@ -42,21 +42,21 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* button;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [NullAllowed] Offset: 0xE2A5E8
+    // [NullAllowed] Offset: 0xE2A64C
     // public PreviewBeatmapLevelPackSO previewLevelPack
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xE2A5F8
+    // [NullAllowed] Offset: 0xE2A65C
     // public BeatmapLevelPackSO levelPack
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapLevelPackSO* levelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xE2A608
+    // [NullAllowed] Offset: 0xE2A66C
     // public BeatmapLevelSO beatmapLevel
     // Size: 0x8
     // Offset: 0x28
@@ -72,10 +72,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ButtonPromoTypePair
     ButtonPromoTypePair(UnityEngine::UI::Button* button_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewLevelPack_ = {}, GlobalNamespace::BeatmapLevelPackSO* levelPack_ = {}, GlobalNamespace::BeatmapLevelSO* beatmapLevel_ = {}, GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection_ = {}) noexcept : button{button_}, previewLevelPack{previewLevelPack_}, levelPack{levelPack_}, beatmapLevel{beatmapLevel_}, annotatedBeatmapLevelCollection{annotatedBeatmapLevelCollection_} {}
     // public IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection()
-    // Offset: 0x10A540C
+    // Offset: 0x10A86FC
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
     // public System.Void .ctor()
-    // Offset: 0x10A54DC
+    // Offset: 0x10A87CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PromoViewController::ButtonPromoTypePair), 48 + sizeof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*)> __GlobalNamespace_PromoViewController_ButtonPromoTypePairSizeCheck;
   static_assert(sizeof(PromoViewController::ButtonPromoTypePair) == 0x38);
+  // Writing MetadataGetter for method: PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection
+  // Il2CppName: get_annotatedBeatmapLevelCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection* (PromoViewController::ButtonPromoTypePair::*)()>(&PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PromoViewController::ButtonPromoTypePair*), "get_annotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PromoViewController::ButtonPromoTypePair::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PromoViewController::ButtonPromoTypePair::*)()>(&PromoViewController::ButtonPromoTypePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PromoViewController::ButtonPromoTypePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PromoViewController::ButtonPromoTypePair::*)()>(&PromoViewController::ButtonPromoTypePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PromoViewController::ButtonPromoTypePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");

@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MirroredDisappearingArrowController
     MirroredDisappearingArrowController(GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteController_ = {}) noexcept : mirroredGameNoteController{mirroredGameNoteController_} {}
     // protected MirroredCubeNoteController get_gameNoteController()
-    // Offset: 0x104DBCC
+    // Offset: 0x10922B4
     GlobalNamespace::MirroredCubeNoteController* get_gameNoteController();
     // public System.Void .ctor()
-    // Offset: 0x104DBD4
+    // Offset: 0x10922BC
     // Implemented from: DisappearingArrowControllerBase`1
     // Base method: System.Void DisappearingArrowControllerBase_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -51,5 +51,27 @@ namespace GlobalNamespace {
     }
   }; // MirroredDisappearingArrowController
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: MirroredDisappearingArrowController::get_gameNoteController
+  // Il2CppName: get_gameNoteController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MirroredCubeNoteController* (MirroredDisappearingArrowController::*)()>(&MirroredDisappearingArrowController::get_gameNoteController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredDisappearingArrowController*), "get_gameNoteController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredDisappearingArrowController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredDisappearingArrowController::*)()>(&MirroredDisappearingArrowController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredDisappearingArrowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredDisappearingArrowController::*)()>(&MirroredDisappearingArrowController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredDisappearingArrowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredDisappearingArrowController*, "", "MirroredDisappearingArrowController");

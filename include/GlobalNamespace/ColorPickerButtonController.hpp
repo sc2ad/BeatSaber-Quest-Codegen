@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.UI.Button get_button()
-    // Offset: 0x10937AC
+    // Offset: 0x11918F0
     UnityEngine::UI::Button* get_button();
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x10937B4
+    // Offset: 0x11918F8
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x10937DC
+    // Offset: 0x1191920
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -71,5 +71,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorPickerButtonController), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_ColorPickerButtonControllerSizeCheck;
   static_assert(sizeof(ColorPickerButtonController) == 0x28);
+  // Writing MetadataGetter for method: ColorPickerButtonController::get_button
+  // Il2CppName: get_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (ColorPickerButtonController::*)()>(&ColorPickerButtonController::get_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorPickerButtonController*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorPickerButtonController::SetColor
+  // Il2CppName: SetColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPickerButtonController::*)(UnityEngine::Color)>(&ColorPickerButtonController::SetColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorPickerButtonController*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorPickerButtonController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPickerButtonController::*)()>(&ColorPickerButtonController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorPickerButtonController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorPickerButtonController::*)()>(&ColorPickerButtonController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorPickerButtonController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorPickerButtonController*, "", "ColorPickerButtonController");

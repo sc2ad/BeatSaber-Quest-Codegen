@@ -26,43 +26,43 @@ namespace System::Threading {
     // Creating value type constructor for type: Interlocked
     Interlocked() noexcept {}
     // static public System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand)
-    // Offset: 0x1892268
+    // Offset: 0x18A9F78
     static int CompareExchange(int& location1, int value, int comparand);
     // static System.Int32 CompareExchange(ref System.Int32 location1, System.Int32 value, System.Int32 comparand, ref System.Boolean succeeded)
-    // Offset: 0x1894948
+    // Offset: 0x18AC658
     static int CompareExchange(int& location1, int value, int comparand, bool& succeeded);
     // static public System.Object CompareExchange(ref System.Object location1, System.Object value, System.Object comparand)
-    // Offset: 0x189494C
+    // Offset: 0x18AC65C
     static ::Il2CppObject* CompareExchange(::Il2CppObject*& location1, ::Il2CppObject* value, ::Il2CppObject* comparand);
     // static public System.Single CompareExchange(ref System.Single location1, System.Single value, System.Single comparand)
-    // Offset: 0x1894950
+    // Offset: 0x18AC660
     static float CompareExchange(float& location1, float value, float comparand);
     // static public System.Int32 Decrement(ref System.Int32 location)
-    // Offset: 0x1894954
+    // Offset: 0x18AC664
     static int Decrement(int& location);
     // static public System.Int32 Increment(ref System.Int32 location)
-    // Offset: 0x1894958
+    // Offset: 0x18AC668
     static int Increment(int& location);
     // static public System.Int64 Increment(ref System.Int64 location)
-    // Offset: 0x189495C
+    // Offset: 0x18AC66C
     static int64_t Increment(int64_t& location);
     // static public System.Int32 Exchange(ref System.Int32 location1, System.Int32 value)
-    // Offset: 0x1890400
+    // Offset: 0x18A8110
     static int Exchange(int& location1, int value);
     // static public System.Object Exchange(ref System.Object location1, System.Object value)
-    // Offset: 0x1894960
+    // Offset: 0x18AC670
     static ::Il2CppObject* Exchange(::Il2CppObject*& location1, ::Il2CppObject* value);
     // static public System.Single Exchange(ref System.Single location1, System.Single value)
-    // Offset: 0x1894964
+    // Offset: 0x18AC674
     static float Exchange(float& location1, float value);
     // static public System.Int64 CompareExchange(ref System.Int64 location1, System.Int64 value, System.Int64 comparand)
-    // Offset: 0x1894968
+    // Offset: 0x18AC678
     static int64_t CompareExchange(int64_t& location1, int64_t value, int64_t comparand);
     // static public System.IntPtr CompareExchange(ref System.IntPtr location1, System.IntPtr value, System.IntPtr comparand)
-    // Offset: 0x189496C
+    // Offset: 0x18AC67C
     static System::IntPtr CompareExchange(System::IntPtr& location1, System::IntPtr value, System::IntPtr comparand);
     // static public System.Double CompareExchange(ref System.Double location1, System.Double value, System.Double comparand)
-    // Offset: 0x1894970
+    // Offset: 0x18AC680
     static double CompareExchange(double& location1, double value, double comparand);
     // static public T CompareExchange(ref T location1, T value, T comparand)
     // Offset: 0xFFFFFFFF
@@ -74,13 +74,13 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location1, value, comparand);
     }
     // static public System.Int64 Exchange(ref System.Int64 location1, System.Int64 value)
-    // Offset: 0x1894974
+    // Offset: 0x18AC684
     static int64_t Exchange(int64_t& location1, int64_t value);
     // static public System.IntPtr Exchange(ref System.IntPtr location1, System.IntPtr value)
-    // Offset: 0x1894978
+    // Offset: 0x18AC688
     static System::IntPtr Exchange(System::IntPtr& location1, System::IntPtr value);
     // static public System.Double Exchange(ref System.Double location1, System.Double value)
-    // Offset: 0x189497C
+    // Offset: 0x18AC68C
     static double Exchange(double& location1, double value);
     // static public T Exchange(ref T location1, T value)
     // Offset: 0xFFFFFFFF
@@ -92,15 +92,173 @@ namespace System::Threading {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, location1, value);
     }
     // static public System.Int64 Read(ref System.Int64 location)
-    // Offset: 0x1894980
+    // Offset: 0x18AC690
     static int64_t Read(int64_t& location);
     // static public System.Int32 Add(ref System.Int32 location1, System.Int32 value)
-    // Offset: 0x1894984
+    // Offset: 0x18AC694
     static int Add(int& location1, int value);
     // static public System.Int64 Add(ref System.Int64 location1, System.Int64 value)
-    // Offset: 0x1894988
+    // Offset: 0x18AC698
     static int64_t Add(int64_t& location1, int64_t value);
   }; // System.Threading.Interlocked
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int, int)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int, int, bool&)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*&, ::Il2CppObject*, ::Il2CppObject*)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float&, float, float)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Decrement
+  // Il2CppName: Decrement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&)>(&Interlocked::Decrement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Decrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Increment
+  // Il2CppName: Increment
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&)>(&Interlocked::Increment)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Increment
+  // Il2CppName: Increment
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&)>(&Interlocked::Increment)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int)>(&Interlocked::Exchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*&, ::Il2CppObject*)>(&Interlocked::Exchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float&, float)>(&Interlocked::Exchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t, int64_t)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr&, System::IntPtr, System::IntPtr)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double&, double, double)>(&Interlocked::CompareExchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "CompareExchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::CompareExchange
+  // Il2CppName: CompareExchange
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t)>(&Interlocked::Exchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr&, System::IntPtr)>(&Interlocked::Exchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double&, double)>(&Interlocked::Exchange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Exchange
+  // Il2CppName: Exchange
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: Interlocked::Read
+  // Il2CppName: Read
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&)>(&Interlocked::Read)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int)>(&Interlocked::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interlocked::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t)>(&Interlocked::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interlocked*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Interlocked*, "System.Threading", "Interlocked");

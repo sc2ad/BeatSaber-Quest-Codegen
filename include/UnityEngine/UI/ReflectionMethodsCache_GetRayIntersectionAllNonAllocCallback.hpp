@@ -39,22 +39,60 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: GetRayIntersectionAllNonAllocCallback
     GetRayIntersectionAllNonAllocCallback() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x199B5D4
+    // Offset: 0x19B22E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i)
-    // Offset: 0x199B5E4
+    // Offset: 0x19B22F4
     int Invoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, UnityEngine.RaycastHit2D[] results, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x199B95C
+    // Offset: 0x19B266C
     System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::Array<UnityEngine::RaycastHit2D>* results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x199BA34
+    // Offset: 0x19B2744
     int EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.UI.ReflectionMethodsCache/GetRayIntersectionAllNonAllocCallback
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(::Il2CppObject*, System::IntPtr)>(&ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(::Il2CppObject*, System::IntPtr)>(&ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit2D>*, float, int)>(&ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit2D>*, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(System::IAsyncResult*)>(&ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*, "UnityEngine.UI", "ReflectionMethodsCache/GetRayIntersectionAllNonAllocCallback");

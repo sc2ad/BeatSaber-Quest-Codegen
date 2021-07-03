@@ -41,16 +41,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
     static void _set_ht(System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
     // System.Object GetCachedValue(System.String name)
-    // Offset: 0x15F3538
+    // Offset: 0x160C248
     ::Il2CppObject* GetCachedValue(::Il2CppString* name);
     // System.Void SetCachedValue(System.Object value)
-    // Offset: 0x15F35E4
+    // Offset: 0x160C2F4
     void SetCachedValue(::Il2CppObject* value);
     // static private System.Void .cctor()
-    // Offset: 0x15F3680
+    // Offset: 0x160C390
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x15F3678
+    // Offset: 0x160C388
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,5 +62,43 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   #pragma pack(pop)
   static check_size<sizeof(NameCache), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_NameCacheSizeCheck;
   static_assert(sizeof(NameCache) == 0x18);
+  // Writing MetadataGetter for method: NameCache::GetCachedValue
+  // Il2CppName: GetCachedValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NameCache::*)(::Il2CppString*)>(&NameCache::GetCachedValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameCache*), "GetCachedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameCache::SetCachedValue
+  // Il2CppName: SetCachedValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameCache::*)(::Il2CppObject*)>(&NameCache::SetCachedValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameCache*), "SetCachedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NameCache::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NameCache::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NameCache::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameCache::*)()>(&NameCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameCache::*)()>(&NameCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NameCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");

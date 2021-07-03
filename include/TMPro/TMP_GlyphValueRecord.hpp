@@ -51,35 +51,35 @@ namespace TMPro {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Single get_xPlacement()
-    // Offset: 0xEE4C40
+    // Offset: 0xEE53C8
     float get_xPlacement();
     // public System.Void set_xPlacement(System.Single value)
-    // Offset: 0xEE4C48
+    // Offset: 0xEE53D0
     void set_xPlacement(float value);
     // public System.Single get_yPlacement()
-    // Offset: 0xEE4C50
+    // Offset: 0xEE53D8
     float get_yPlacement();
     // public System.Void set_yPlacement(System.Single value)
-    // Offset: 0xEE4C58
+    // Offset: 0xEE53E0
     void set_yPlacement(float value);
     // public System.Single get_xAdvance()
-    // Offset: 0xEE4C60
+    // Offset: 0xEE53E8
     float get_xAdvance();
     // public System.Void set_xAdvance(System.Single value)
-    // Offset: 0xEE4C68
+    // Offset: 0xEE53F0
     void set_xAdvance(float value);
     // public System.Single get_yAdvance()
-    // Offset: 0xEE4C70
+    // Offset: 0xEE53F8
     float get_yAdvance();
     // public System.Void set_yAdvance(System.Single value)
-    // Offset: 0xEE4C78
+    // Offset: 0xEE5400
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
-    // Offset: 0xEE4C80
+    // Offset: 0xEE5408
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance)
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
-    // Offset: 0xEE4C8C
+    // Offset: 0xEE5414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
@@ -87,7 +87,7 @@ namespace TMPro {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, valueRecord);
     }
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0xEE4C98
+    // Offset: 0xEE5420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_GlyphValueRecord::.ctor");
@@ -99,7 +99,121 @@ namespace TMPro {
   static check_size<sizeof(TMP_GlyphValueRecord), 12 + sizeof(float)> __TMPro_TMP_GlyphValueRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphValueRecord) == 0x10);
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
-  // Offset: 0x1118A30
+  // Offset: 0x10F38AC
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::get_xPlacement
+  // Il2CppName: get_xPlacement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_GlyphValueRecord::*)()>(&TMP_GlyphValueRecord::get_xPlacement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "get_xPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::set_xPlacement
+  // Il2CppName: set_xPlacement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(float)>(&TMP_GlyphValueRecord::set_xPlacement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "set_xPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::get_yPlacement
+  // Il2CppName: get_yPlacement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_GlyphValueRecord::*)()>(&TMP_GlyphValueRecord::get_yPlacement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "get_yPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::set_yPlacement
+  // Il2CppName: set_yPlacement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(float)>(&TMP_GlyphValueRecord::set_yPlacement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "set_yPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::get_xAdvance
+  // Il2CppName: get_xAdvance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_GlyphValueRecord::*)()>(&TMP_GlyphValueRecord::get_xAdvance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "get_xAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::set_xAdvance
+  // Il2CppName: set_xAdvance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(float)>(&TMP_GlyphValueRecord::set_xAdvance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "set_xAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::get_yAdvance
+  // Il2CppName: get_yAdvance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_GlyphValueRecord::*)()>(&TMP_GlyphValueRecord::get_yAdvance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "get_yAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::set_yAdvance
+  // Il2CppName: set_yAdvance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(float)>(&TMP_GlyphValueRecord::set_yAdvance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "set_yAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::TMP_GlyphValueRecord
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(float, float, float, float)>(&TMP_GlyphValueRecord::TMP_GlyphValueRecord<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(float, float, float, float)>(&TMP_GlyphValueRecord::TMP_GlyphValueRecord<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::TMP_GlyphValueRecord
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(TMPro::GlyphValueRecord_Legacy)>(&TMP_GlyphValueRecord::TMP_GlyphValueRecord<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(TMPro::GlyphValueRecord_Legacy)>(&TMP_GlyphValueRecord::TMP_GlyphValueRecord<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::TMP_GlyphValueRecord
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&TMP_GlyphValueRecord::TMP_GlyphValueRecord<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphValueRecord::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&TMP_GlyphValueRecord::TMP_GlyphValueRecord<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_GlyphValueRecord::operator+
+  // Il2CppName: op_Addition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphValueRecord (*)(const TMPro::TMP_GlyphValueRecord&, const TMPro::TMP_GlyphValueRecord&)>(&TMP_GlyphValueRecord::operator+)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_GlyphValueRecord), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const TMPro::TMP_GlyphValueRecord&>(), ::il2cpp_utils::ExtractIndependentType<const TMPro::TMP_GlyphValueRecord&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");

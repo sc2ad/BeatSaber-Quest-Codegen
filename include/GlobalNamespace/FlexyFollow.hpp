@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1229970
+    // Offset: 0x1246114
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x1229ACC
+    // Offset: 0x1246270
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1229C60
+    // Offset: 0x1246404
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -110,5 +110,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FlexyFollow), 64 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_FlexyFollowSizeCheck;
   static_assert(sizeof(FlexyFollow) == 0x48);
+  // Writing MetadataGetter for method: FlexyFollow::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlexyFollow::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlexyFollow::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollow*, "", "FlexyFollow");

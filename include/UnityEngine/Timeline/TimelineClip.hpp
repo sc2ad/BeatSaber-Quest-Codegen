@@ -148,7 +148,7 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TimelineClip::BlendCurveMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineClip_BlendCurveModeSizeCheck;
     static_assert(sizeof(TimelineClip::BlendCurveMode) == 0x4);
-    // [HideInInspector] Offset: 0xDD7FC0
+    // [HideInInspector] Offset: 0xDD7EF4
     // private System.Int32 m_Version
     // Size: 0x4
     // Offset: 0x10
@@ -175,7 +175,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Object* m_Asset;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDD8028
+    // [FormerlySerializedAsAttribute] Offset: 0xDD7F5C
     // private System.Double m_Duration
     // Size: 0x8
     // Offset: 0x30
@@ -339,275 +339,275 @@ namespace UnityEngine::Timeline {
     // Set static field: static readonly System.Double kMaxTimeValue
     static void _set_kMaxTimeValue(double value);
     // private System.Void UpgradeToLatestVersion()
-    // Offset: 0x231D7E4
+    // Offset: 0x2337540
     void UpgradeToLatestVersion();
     // System.Void .ctor(UnityEngine.Timeline.TrackAsset parent)
-    // Offset: 0x231D858
+    // Offset: 0x23375B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineClip* New_ctor(UnityEngine::Timeline::TrackAsset* parent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineClip*, creationType>(parent)));
     }
     // public System.Boolean get_hasPreExtrapolation()
-    // Offset: 0x231D9AC
+    // Offset: 0x2337708
     bool get_hasPreExtrapolation();
     // public System.Boolean get_hasPostExtrapolation()
-    // Offset: 0x231D9CC
+    // Offset: 0x2337728
     bool get_hasPostExtrapolation();
     // public System.Double get_timeScale()
-    // Offset: 0x231D9EC
+    // Offset: 0x2337748
     double get_timeScale();
     // public System.Void set_timeScale(System.Double value)
-    // Offset: 0x231DBCC
+    // Offset: 0x2337928
     void set_timeScale(double value);
     // public System.Double get_start()
-    // Offset: 0x231DCB8
+    // Offset: 0x2337A14
     double get_start();
     // public System.Void set_start(System.Double value)
-    // Offset: 0x231DCC0
+    // Offset: 0x2337A1C
     void set_start(double value);
     // public System.Double get_duration()
-    // Offset: 0x231DF34
+    // Offset: 0x2337C90
     double get_duration();
     // public System.Void set_duration(System.Double value)
-    // Offset: 0x231DF3C
+    // Offset: 0x2337C98
     void set_duration(double value);
     // public System.Double get_end()
-    // Offset: 0x231DFF4
+    // Offset: 0x2337D50
     double get_end();
     // public System.Double get_clipIn()
-    // Offset: 0x231E004
+    // Offset: 0x2337D60
     double get_clipIn();
     // public System.Void set_clipIn(System.Double value)
-    // Offset: 0x231E030
+    // Offset: 0x2337D8C
     void set_clipIn(double value);
     // public System.String get_displayName()
-    // Offset: 0x231E114
+    // Offset: 0x2337E70
     ::Il2CppString* get_displayName();
     // public System.Void set_displayName(System.String value)
-    // Offset: 0x231E11C
+    // Offset: 0x2337E78
     void set_displayName(::Il2CppString* value);
     // public System.Double get_clipAssetDuration()
-    // Offset: 0x231E124
+    // Offset: 0x2337E80
     double get_clipAssetDuration();
     // public UnityEngine.AnimationClip get_curves()
-    // Offset: 0x231E1F4
+    // Offset: 0x2337F50
     UnityEngine::AnimationClip* get_curves();
     // System.Void set_curves(UnityEngine.AnimationClip value)
-    // Offset: 0x231E1FC
+    // Offset: 0x2337F58
     void set_curves(UnityEngine::AnimationClip* value);
     // private System.String UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName()
-    // Offset: 0x231E204
+    // Offset: 0x2337F60
     ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // public System.Boolean get_hasCurves()
-    // Offset: 0x231E26C
+    // Offset: 0x2337FC8
     bool get_hasCurves();
     // public UnityEngine.Object get_asset()
-    // Offset: 0x231E308
+    // Offset: 0x2338064
     UnityEngine::Object* get_asset();
     // public System.Void set_asset(UnityEngine.Object value)
-    // Offset: 0x231E310
+    // Offset: 0x233806C
     void set_asset(UnityEngine::Object* value);
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_assetOwner()
-    // Offset: 0x231E318
+    // Offset: 0x2338074
     UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
     // private UnityEngine.Timeline.TrackAsset UnityEngine.Timeline.ICurvesOwner.get_targetTrack()
-    // Offset: 0x231E320
+    // Offset: 0x233807C
     UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
     // public UnityEngine.Object get_underlyingAsset()
-    // Offset: 0x231E328
+    // Offset: 0x2338084
     UnityEngine::Object* get_underlyingAsset();
     // public System.Void set_underlyingAsset(UnityEngine.Object value)
-    // Offset: 0x231E330
+    // Offset: 0x233808C
     void set_underlyingAsset(UnityEngine::Object* value);
     // public UnityEngine.Timeline.TrackAsset get_parentTrack()
-    // Offset: 0x231E334
+    // Offset: 0x2338090
     UnityEngine::Timeline::TrackAsset* get_parentTrack();
     // public System.Void set_parentTrack(UnityEngine.Timeline.TrackAsset value)
-    // Offset: 0x231E33C
+    // Offset: 0x2338098
     void set_parentTrack(UnityEngine::Timeline::TrackAsset* value);
     // public UnityEngine.Timeline.TrackAsset GetParentTrack()
-    // Offset: 0x231E340
+    // Offset: 0x233809C
     UnityEngine::Timeline::TrackAsset* GetParentTrack();
     // System.Void SetParentTrack_Internal(UnityEngine.Timeline.TrackAsset newParentTrack)
-    // Offset: 0x231D898
+    // Offset: 0x23375F4
     void SetParentTrack_Internal(UnityEngine::Timeline::TrackAsset* newParentTrack);
     // public System.Double get_easeInDuration()
-    // Offset: 0x231E448
+    // Offset: 0x23381A4
     double get_easeInDuration();
     // public System.Void set_easeInDuration(System.Double value)
-    // Offset: 0x231E54C
+    // Offset: 0x23382A8
     void set_easeInDuration(double value);
     // public System.Double get_easeOutDuration()
-    // Offset: 0x231E650
+    // Offset: 0x23383AC
     double get_easeOutDuration();
     // public System.Void set_easeOutDuration(System.Double value)
-    // Offset: 0x231E754
+    // Offset: 0x23384B0
     void set_easeOutDuration(double value);
     // public System.Double get_eastOutTime()
-    // Offset: 0x231E858
+    // Offset: 0x23385B4
     double get_eastOutTime();
     // public System.Double get_easeOutTime()
-    // Offset: 0x231E890
+    // Offset: 0x23385EC
     double get_easeOutTime();
     // public System.Double get_blendInDuration()
-    // Offset: 0x231E8C8
+    // Offset: 0x2338624
     double get_blendInDuration();
     // public System.Void set_blendInDuration(System.Double value)
-    // Offset: 0x231E8F4
+    // Offset: 0x2338650
     void set_blendInDuration(double value);
     // public System.Double get_blendOutDuration()
-    // Offset: 0x231E98C
+    // Offset: 0x23386E8
     double get_blendOutDuration();
     // public System.Void set_blendOutDuration(System.Double value)
-    // Offset: 0x231E9B8
+    // Offset: 0x2338714
     void set_blendOutDuration(double value);
     // public UnityEngine.Timeline.TimelineClip/BlendCurveMode get_blendInCurveMode()
-    // Offset: 0x231EA50
+    // Offset: 0x23387AC
     UnityEngine::Timeline::TimelineClip::BlendCurveMode get_blendInCurveMode();
     // public System.Void set_blendInCurveMode(UnityEngine.Timeline.TimelineClip/BlendCurveMode value)
-    // Offset: 0x231EA58
+    // Offset: 0x23387B4
     void set_blendInCurveMode(UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
     // public UnityEngine.Timeline.TimelineClip/BlendCurveMode get_blendOutCurveMode()
-    // Offset: 0x231EA60
+    // Offset: 0x23387BC
     UnityEngine::Timeline::TimelineClip::BlendCurveMode get_blendOutCurveMode();
     // public System.Void set_blendOutCurveMode(UnityEngine.Timeline.TimelineClip/BlendCurveMode value)
-    // Offset: 0x231EA68
+    // Offset: 0x23387C4
     void set_blendOutCurveMode(UnityEngine::Timeline::TimelineClip::BlendCurveMode value);
     // public System.Boolean get_hasBlendIn()
-    // Offset: 0x231E71C
+    // Offset: 0x2338478
     bool get_hasBlendIn();
     // public System.Boolean get_hasBlendOut()
-    // Offset: 0x231E514
+    // Offset: 0x2338270
     bool get_hasBlendOut();
     // public UnityEngine.AnimationCurve get_mixInCurve()
-    // Offset: 0x231EA70
+    // Offset: 0x23387CC
     UnityEngine::AnimationCurve* get_mixInCurve();
     // public System.Void set_mixInCurve(UnityEngine.AnimationCurve value)
-    // Offset: 0x231EB24
+    // Offset: 0x2338880
     void set_mixInCurve(UnityEngine::AnimationCurve* value);
     // public System.Single get_mixInPercentage()
-    // Offset: 0x231EB2C
+    // Offset: 0x2338888
     float get_mixInPercentage();
     // public System.Double get_mixInDuration()
-    // Offset: 0x231EB58
+    // Offset: 0x23388B4
     double get_mixInDuration();
     // public UnityEngine.AnimationCurve get_mixOutCurve()
-    // Offset: 0x231EBAC
+    // Offset: 0x2338908
     UnityEngine::AnimationCurve* get_mixOutCurve();
     // public System.Void set_mixOutCurve(UnityEngine.AnimationCurve value)
-    // Offset: 0x231EC60
+    // Offset: 0x23389BC
     void set_mixOutCurve(UnityEngine::AnimationCurve* value);
     // public System.Double get_mixOutTime()
-    // Offset: 0x231EC68
+    // Offset: 0x23389C4
     double get_mixOutTime();
     // public System.Double get_mixOutDuration()
-    // Offset: 0x231ECA0
+    // Offset: 0x23389FC
     double get_mixOutDuration();
     // public System.Single get_mixOutPercentage()
-    // Offset: 0x231ECF4
+    // Offset: 0x2338A50
     float get_mixOutPercentage();
     // public System.Boolean get_recordable()
-    // Offset: 0x231ED20
+    // Offset: 0x2338A7C
     bool get_recordable();
     // System.Void set_recordable(System.Boolean value)
-    // Offset: 0x231ED28
+    // Offset: 0x2338A84
     void set_recordable(bool value);
     // public System.Collections.Generic.List`1<System.String> get_exposedParameters()
-    // Offset: 0x231ED34
+    // Offset: 0x2338A90
     System::Collections::Generic::List_1<::Il2CppString*>* get_exposedParameters();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x231DAD0
+    // Offset: 0x233782C
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // System.Int32 Hash()
-    // Offset: 0x231EDA8
+    // Offset: 0x2338B04
     int Hash();
     // public System.Single EvaluateMixOut(System.Double time)
-    // Offset: 0x231EE68
+    // Offset: 0x2338BC4
     float EvaluateMixOut(double time);
     // public System.Single EvaluateMixIn(System.Double time)
-    // Offset: 0x231EFA4
+    // Offset: 0x2338D00
     float EvaluateMixIn(double time);
     // static private UnityEngine.AnimationCurve GetDefaultMixInCurve()
-    // Offset: 0x231EB0C
+    // Offset: 0x2338868
     static UnityEngine::AnimationCurve* GetDefaultMixInCurve();
     // static private UnityEngine.AnimationCurve GetDefaultMixOutCurve()
-    // Offset: 0x231EC48
+    // Offset: 0x23389A4
     static UnityEngine::AnimationCurve* GetDefaultMixOutCurve();
     // public System.Double ToLocalTime(System.Double time)
-    // Offset: 0x231F0BC
+    // Offset: 0x2338E18
     double ToLocalTime(double time);
     // public System.Double ToLocalTimeUnbound(System.Double time)
-    // Offset: 0x231F3A8
+    // Offset: 0x2339104
     double ToLocalTimeUnbound(double time);
     // System.Double FromLocalTimeUnbound(System.Double time)
-    // Offset: 0x231F404
+    // Offset: 0x2339160
     double FromLocalTimeUnbound(double time);
     // public UnityEngine.AnimationClip get_animationClip()
-    // Offset: 0x231F454
+    // Offset: 0x23391B0
     UnityEngine::AnimationClip* get_animationClip();
     // static private System.Double SanitizeTimeValue(System.Double value, System.Double defaultValue)
-    // Offset: 0x231DDCC
+    // Offset: 0x2337B28
     static double SanitizeTimeValue(double value, double defaultValue);
     // public UnityEngine.Timeline.TimelineClip/ClipExtrapolation get_postExtrapolationMode()
-    // Offset: 0x231F560
+    // Offset: 0x23392BC
     UnityEngine::Timeline::TimelineClip::ClipExtrapolation get_postExtrapolationMode();
     // System.Void set_postExtrapolationMode(UnityEngine.Timeline.TimelineClip/ClipExtrapolation value)
-    // Offset: 0x231F590
+    // Offset: 0x23392EC
     void set_postExtrapolationMode(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
     // public UnityEngine.Timeline.TimelineClip/ClipExtrapolation get_preExtrapolationMode()
-    // Offset: 0x231F5C8
+    // Offset: 0x2339324
     UnityEngine::Timeline::TimelineClip::ClipExtrapolation get_preExtrapolationMode();
     // System.Void set_preExtrapolationMode(UnityEngine.Timeline.TimelineClip/ClipExtrapolation value)
-    // Offset: 0x231F5F8
+    // Offset: 0x2339354
     void set_preExtrapolationMode(UnityEngine::Timeline::TimelineClip::ClipExtrapolation value);
     // System.Void SetPostExtrapolationTime(System.Double time)
-    // Offset: 0x231F630
+    // Offset: 0x233938C
     void SetPostExtrapolationTime(double time);
     // System.Void SetPreExtrapolationTime(System.Double time)
-    // Offset: 0x231F638
+    // Offset: 0x2339394
     void SetPreExtrapolationTime(double time);
     // public System.Boolean IsExtrapolatedTime(System.Double sequenceTime)
-    // Offset: 0x231F640
+    // Offset: 0x233939C
     bool IsExtrapolatedTime(double sequenceTime);
     // public System.Boolean IsPreExtrapolatedTime(System.Double sequenceTime)
-    // Offset: 0x231F1BC
+    // Offset: 0x2338F18
     bool IsPreExtrapolatedTime(double sequenceTime);
     // public System.Boolean IsPostExtrapolatedTime(System.Double sequenceTime)
-    // Offset: 0x231F344
+    // Offset: 0x23390A0
     bool IsPostExtrapolatedTime(double sequenceTime);
     // public System.Double get_extrapolatedStart()
-    // Offset: 0x231F68C
+    // Offset: 0x23393E8
     double get_extrapolatedStart();
     // public System.Double get_extrapolatedDuration()
-    // Offset: 0x231F6A4
+    // Offset: 0x2339400
     double get_extrapolatedDuration();
     // static private System.Double GetExtrapolatedTime(System.Double time, UnityEngine.Timeline.TimelineClip/ClipExtrapolation mode, System.Double duration)
-    // Offset: 0x231F218
+    // Offset: 0x2338F74
     static double GetExtrapolatedTime(double time, UnityEngine::Timeline::TimelineClip::ClipExtrapolation mode, double duration);
     // public System.Void CreateCurves(System.String curvesClipName)
-    // Offset: 0x231F77C
+    // Offset: 0x23394D8
     void CreateCurves(::Il2CppString* curvesClipName);
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-    // Offset: 0x231FA18
+    // Offset: 0x2339774
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-    // Offset: 0x231FA24
+    // Offset: 0x2339780
     void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
     // public System.Void ConformEaseValues()
-    // Offset: 0x231FC30
+    // Offset: 0x233998C
     void ConformEaseValues();
     // static private System.Double CalculateEasingRatio(System.Double easeIn, System.Double easeOut)
-    // Offset: 0x231FCD0
+    // Offset: 0x2339A2C
     static double CalculateEasingRatio(double easeIn, double easeOut);
     // private System.Void UpdateDirty(System.Double oldValue, System.Double newValue)
-    // Offset: 0x231DCB4
+    // Offset: 0x2337A10
     void UpdateDirty(double oldValue, double newValue);
     // static private System.Void .cctor()
-    // Offset: 0x231FDA8
+    // Offset: 0x2339B04
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x231FA5C
+    // Offset: 0x23397B8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -615,6 +615,724 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(TimelineClip), 176 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineClipSizeCheck;
   static_assert(sizeof(TimelineClip) == 0xB8);
+  // Writing MetadataGetter for method: TimelineClip::UpgradeToLatestVersion
+  // Il2CppName: UpgradeToLatestVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::UpgradeToLatestVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_hasPreExtrapolation
+  // Il2CppName: get_hasPreExtrapolation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasPreExtrapolation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_hasPostExtrapolation
+  // Il2CppName: get_hasPostExtrapolation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasPostExtrapolation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_timeScale
+  // Il2CppName: get_timeScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_timeScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_timeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_timeScale
+  // Il2CppName: set_timeScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_timeScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_timeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_start
+  // Il2CppName: get_start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_start
+  // Il2CppName: set_start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_duration
+  // Il2CppName: get_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_duration
+  // Il2CppName: set_duration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_duration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_end
+  // Il2CppName: get_end
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_end)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_end", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_clipIn
+  // Il2CppName: get_clipIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_clipIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_clipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_clipIn
+  // Il2CppName: set_clipIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_clipIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_clipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_displayName
+  // Il2CppName: get_displayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimelineClip::*)()>(&TimelineClip::get_displayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_displayName
+  // Il2CppName: set_displayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(::Il2CppString*)>(&TimelineClip::set_displayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_clipAssetDuration
+  // Il2CppName: get_clipAssetDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_clipAssetDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_clipAssetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_curves
+  // Il2CppName: get_curves
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (TimelineClip::*)()>(&TimelineClip::get_curves)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_curves
+  // Il2CppName: set_curves
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::AnimationClip*)>(&TimelineClip::set_curves)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
+  // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimelineClip::*)()>(&TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_hasCurves
+  // Il2CppName: get_hasCurves
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasCurves)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_asset
+  // Il2CppName: get_asset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TimelineClip::*)()>(&TimelineClip::get_asset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_asset
+  // Il2CppName: set_asset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Object*)>(&TimelineClip::set_asset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_assetOwner
+  // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_assetOwner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TimelineClip::*)()>(&TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_assetOwner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_assetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_targetTrack
+  // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_targetTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineClip::*)()>(&TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_targetTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_underlyingAsset
+  // Il2CppName: get_underlyingAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TimelineClip::*)()>(&TimelineClip::get_underlyingAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_underlyingAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_underlyingAsset
+  // Il2CppName: set_underlyingAsset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Object*)>(&TimelineClip::set_underlyingAsset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_underlyingAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_parentTrack
+  // Il2CppName: get_parentTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineClip::*)()>(&TimelineClip::get_parentTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_parentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_parentTrack
+  // Il2CppName: set_parentTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::set_parentTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_parentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::GetParentTrack
+  // Il2CppName: GetParentTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineClip::*)()>(&TimelineClip::GetParentTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetParentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::SetParentTrack_Internal
+  // Il2CppName: SetParentTrack_Internal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::SetParentTrack_Internal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SetParentTrack_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_easeInDuration
+  // Il2CppName: get_easeInDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_easeInDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_easeInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_easeInDuration
+  // Il2CppName: set_easeInDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_easeInDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_easeInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_easeOutDuration
+  // Il2CppName: get_easeOutDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_easeOutDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_easeOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_easeOutDuration
+  // Il2CppName: set_easeOutDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_easeOutDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_easeOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_eastOutTime
+  // Il2CppName: get_eastOutTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_eastOutTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_eastOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_easeOutTime
+  // Il2CppName: get_easeOutTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_easeOutTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_easeOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_blendInDuration
+  // Il2CppName: get_blendInDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_blendInDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_blendInDuration
+  // Il2CppName: set_blendInDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_blendInDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_blendOutDuration
+  // Il2CppName: get_blendOutDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_blendOutDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_blendOutDuration
+  // Il2CppName: set_blendOutDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_blendOutDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_blendInCurveMode
+  // Il2CppName: get_blendInCurveMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::BlendCurveMode (TimelineClip::*)()>(&TimelineClip::get_blendInCurveMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendInCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_blendInCurveMode
+  // Il2CppName: set_blendInCurveMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::BlendCurveMode)>(&TimelineClip::set_blendInCurveMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendInCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::BlendCurveMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_blendOutCurveMode
+  // Il2CppName: get_blendOutCurveMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::BlendCurveMode (TimelineClip::*)()>(&TimelineClip::get_blendOutCurveMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendOutCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_blendOutCurveMode
+  // Il2CppName: set_blendOutCurveMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::BlendCurveMode)>(&TimelineClip::set_blendOutCurveMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendOutCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::BlendCurveMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_hasBlendIn
+  // Il2CppName: get_hasBlendIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasBlendIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasBlendIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_hasBlendOut
+  // Il2CppName: get_hasBlendOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasBlendOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasBlendOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixInCurve
+  // Il2CppName: get_mixInCurve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (TimelineClip::*)()>(&TimelineClip::get_mixInCurve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_mixInCurve
+  // Il2CppName: set_mixInCurve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::AnimationCurve*)>(&TimelineClip::set_mixInCurve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_mixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixInPercentage
+  // Il2CppName: get_mixInPercentage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)()>(&TimelineClip::get_mixInPercentage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixInPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixInDuration
+  // Il2CppName: get_mixInDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_mixInDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixOutCurve
+  // Il2CppName: get_mixOutCurve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (TimelineClip::*)()>(&TimelineClip::get_mixOutCurve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_mixOutCurve
+  // Il2CppName: set_mixOutCurve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::AnimationCurve*)>(&TimelineClip::set_mixOutCurve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_mixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixOutTime
+  // Il2CppName: get_mixOutTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_mixOutTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixOutDuration
+  // Il2CppName: get_mixOutDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_mixOutDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_mixOutPercentage
+  // Il2CppName: get_mixOutPercentage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)()>(&TimelineClip::get_mixOutPercentage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_recordable
+  // Il2CppName: get_recordable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_recordable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_recordable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_recordable
+  // Il2CppName: set_recordable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(bool)>(&TimelineClip::set_recordable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_recordable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_exposedParameters
+  // Il2CppName: get_exposedParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (TimelineClip::*)()>(&TimelineClip::get_exposedParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_exposedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_clipCaps
+  // Il2CppName: get_clipCaps
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (TimelineClip::*)()>(&TimelineClip::get_clipCaps)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::Hash
+  // Il2CppName: Hash
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimelineClip::*)()>(&TimelineClip::Hash)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::EvaluateMixOut
+  // Il2CppName: EvaluateMixOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)(double)>(&TimelineClip::EvaluateMixOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "EvaluateMixOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::EvaluateMixIn
+  // Il2CppName: EvaluateMixIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)(double)>(&TimelineClip::EvaluateMixIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "EvaluateMixIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::GetDefaultMixInCurve
+  // Il2CppName: GetDefaultMixInCurve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)()>(&TimelineClip::GetDefaultMixInCurve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetDefaultMixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::GetDefaultMixOutCurve
+  // Il2CppName: GetDefaultMixOutCurve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)()>(&TimelineClip::GetDefaultMixOutCurve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetDefaultMixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::ToLocalTime
+  // Il2CppName: ToLocalTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)(double)>(&TimelineClip::ToLocalTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ToLocalTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::ToLocalTimeUnbound
+  // Il2CppName: ToLocalTimeUnbound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)(double)>(&TimelineClip::ToLocalTimeUnbound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ToLocalTimeUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::FromLocalTimeUnbound
+  // Il2CppName: FromLocalTimeUnbound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)(double)>(&TimelineClip::FromLocalTimeUnbound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "FromLocalTimeUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_animationClip
+  // Il2CppName: get_animationClip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (TimelineClip::*)()>(&TimelineClip::get_animationClip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_animationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::SanitizeTimeValue
+  // Il2CppName: SanitizeTimeValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimelineClip::SanitizeTimeValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SanitizeTimeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_postExtrapolationMode
+  // Il2CppName: get_postExtrapolationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (TimelineClip::*)()>(&TimelineClip::get_postExtrapolationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_postExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_postExtrapolationMode
+  // Il2CppName: set_postExtrapolationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&TimelineClip::set_postExtrapolationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_postExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_preExtrapolationMode
+  // Il2CppName: get_preExtrapolationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (TimelineClip::*)()>(&TimelineClip::get_preExtrapolationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_preExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::set_preExtrapolationMode
+  // Il2CppName: set_preExtrapolationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&TimelineClip::set_preExtrapolationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_preExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::SetPostExtrapolationTime
+  // Il2CppName: SetPostExtrapolationTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::SetPostExtrapolationTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SetPostExtrapolationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::SetPreExtrapolationTime
+  // Il2CppName: SetPreExtrapolationTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::SetPreExtrapolationTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SetPreExtrapolationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::IsExtrapolatedTime
+  // Il2CppName: IsExtrapolatedTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)(double)>(&TimelineClip::IsExtrapolatedTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "IsExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::IsPreExtrapolatedTime
+  // Il2CppName: IsPreExtrapolatedTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)(double)>(&TimelineClip::IsPreExtrapolatedTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "IsPreExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::IsPostExtrapolatedTime
+  // Il2CppName: IsPostExtrapolatedTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)(double)>(&TimelineClip::IsPostExtrapolatedTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "IsPostExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_extrapolatedStart
+  // Il2CppName: get_extrapolatedStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_extrapolatedStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_extrapolatedStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::get_extrapolatedDuration
+  // Il2CppName: get_extrapolatedDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_extrapolatedDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_extrapolatedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::GetExtrapolatedTime
+  // Il2CppName: GetExtrapolatedTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, UnityEngine::Timeline::TimelineClip::ClipExtrapolation, double)>(&TimelineClip::GetExtrapolatedTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::CreateCurves
+  // Il2CppName: CreateCurves
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(::Il2CppString*)>(&TimelineClip::CreateCurves)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
+  // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
+  // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::ConformEaseValues
+  // Il2CppName: ConformEaseValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::ConformEaseValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ConformEaseValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::CalculateEasingRatio
+  // Il2CppName: CalculateEasingRatio
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimelineClip::CalculateEasingRatio)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "CalculateEasingRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::UpdateDirty
+  // Il2CppName: UpdateDirty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double, double)>(&TimelineClip::UpdateDirty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UpdateDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimelineClip::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClip::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimelineClip::*)()>(&TimelineClip::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip*, "UnityEngine.Timeline", "TimelineClip");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");

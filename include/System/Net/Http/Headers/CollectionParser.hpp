@@ -46,12 +46,31 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, input, minimalCount, parser, result);
     }
     // static public System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.String> result)
-    // Offset: 0x1576778
+    // Offset: 0x1590488
     static bool TryParse(::Il2CppString* input, int minimalCount, System::Collections::Generic::List_1<::Il2CppString*>*& result);
     // static private System.Boolean TryParseStringElement(System.Net.Http.Headers.Lexer lexer, out System.String parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1576818
+    // Offset: 0x1590528
     static bool TryParseStringElement(System::Net::Http::Headers::Lexer* lexer, ::Il2CppString*& parsedValue, System::Net::Http::Headers::Token& t);
   }; // System.Net.Http.Headers.CollectionParser
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CollectionParser::TryParse
+  // Il2CppName: TryParse
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: CollectionParser::TryParse
+  // Il2CppName: TryParse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<::Il2CppString*>*&)>(&CollectionParser::TryParse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CollectionParser*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: CollectionParser::TryParseStringElement
+  // Il2CppName: TryParseStringElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, ::Il2CppString*&, System::Net::Http::Headers::Token&)>(&CollectionParser::TryParseStringElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CollectionParser*), "TryParseStringElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionParser*, "System.Net.Http.Headers", "CollectionParser");

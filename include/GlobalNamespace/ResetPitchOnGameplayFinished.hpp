@@ -40,17 +40,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ResetPitchOnGameplayFinished
     ResetPitchOnGameplayFinished(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}) noexcept : gameplayLevelSceneTransitionEvents{gameplayLevelSceneTransitionEvents_}, audioManager{audioManager_} {}
     // public System.Void .ctor(GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, AudioManagerSO audioManager)
-    // Offset: 0x10AC590
+    // Offset: 0x10AF880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResetPitchOnGameplayFinished* New_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO* audioManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ResetPitchOnGameplayFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetPitchOnGameplayFinished*, creationType>(gameplayLevelSceneTransitionEvents, audioManager)));
     }
     // private System.Void HandleAnyGameplayLevelDidFinish()
-    // Offset: 0x10AC70C
+    // Offset: 0x10AF9FC
     void HandleAnyGameplayLevelDidFinish();
     // protected override System.Void Finalize()
-    // Offset: 0x10AC630
+    // Offset: 0x10AF920
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -58,5 +58,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ResetPitchOnGameplayFinished), 24 + sizeof(GlobalNamespace::AudioManagerSO*)> __GlobalNamespace_ResetPitchOnGameplayFinishedSizeCheck;
   static_assert(sizeof(ResetPitchOnGameplayFinished) == 0x20);
+  // Writing MetadataGetter for method: ResetPitchOnGameplayFinished::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPitchOnGameplayFinished::*)(GlobalNamespace::GameplayLevelSceneTransitionEvents*, GlobalNamespace::AudioManagerSO*)>(&ResetPitchOnGameplayFinished::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetPitchOnGameplayFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayLevelSceneTransitionEvents*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AudioManagerSO*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPitchOnGameplayFinished::*)(GlobalNamespace::GameplayLevelSceneTransitionEvents*, GlobalNamespace::AudioManagerSO*)>(&ResetPitchOnGameplayFinished::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetPitchOnGameplayFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayLevelSceneTransitionEvents*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AudioManagerSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ResetPitchOnGameplayFinished::HandleAnyGameplayLevelDidFinish
+  // Il2CppName: HandleAnyGameplayLevelDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPitchOnGameplayFinished::*)()>(&ResetPitchOnGameplayFinished::HandleAnyGameplayLevelDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetPitchOnGameplayFinished*), "HandleAnyGameplayLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ResetPitchOnGameplayFinished::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPitchOnGameplayFinished::*)()>(&ResetPitchOnGameplayFinished::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResetPitchOnGameplayFinished*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPitchOnGameplayFinished*, "", "ResetPitchOnGameplayFinished");

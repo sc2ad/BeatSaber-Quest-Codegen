@@ -32,22 +32,60 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GetUnlockedAchievementsCompletionHandler
     GetUnlockedAchievementsCompletionHandler() noexcept {}
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x100BAA0
+    // Offset: 0x105005C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds)
-    // Offset: 0x100B808
+    // Offset: 0x104FDC4
     void Invoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* unlockedAchievementsIds);
     // public System.IAsyncResult BeginInvoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x100BAB0
+    // Offset: 0x105006C
     System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::Array<::Il2CppString*>* unlockedAchievementsIds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x100BB48
+    // Offset: 0x1050104
     void EndInvoke(System::IAsyncResult* result);
   }; // PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(::Il2CppObject*, System::IntPtr)>(&PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(::Il2CppObject*, System::IntPtr)>(&PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::Array<::Il2CppString*>*)>(&PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::BeginInvoke
+  // Il2CppName: BeginInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::Array<::Il2CppString*>*, System::AsyncCallback*, ::Il2CppObject*)>(&PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::BeginInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::EndInvoke
+  // Il2CppName: EndInvoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(System::IAsyncResult*)>(&PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::EndInvoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*, "", "PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler");

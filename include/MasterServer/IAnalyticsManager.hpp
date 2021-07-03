@@ -100,6 +100,142 @@ namespace MasterServer {
     void DedicatedServerPlayerDisconnectedEvent(GlobalNamespace::DedicatedServerType serverType, GlobalNamespace::DisconnectedReason reason);
   }; // MasterServer.IAnalyticsManager
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAnalyticsManager::PollUpdate
+  // Il2CppName: PollUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)()>(&IAnalyticsManager::PollUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::UpdateState
+  // Il2CppName: UpdateState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(::Il2CppString*, int64_t, MasterServer::AnalyticsMetricUnit, bool)>(&IAnalyticsManager::UpdateState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::AnalyticsMetricUnit>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::UpdateAverage
+  // Il2CppName: UpdateAverage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(::Il2CppString*, double, MasterServer::AnalyticsMetricUnit, bool)>(&IAnalyticsManager::UpdateAverage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "UpdateAverage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::AnalyticsMetricUnit>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::IncrementCounter
+  // Il2CppName: IncrementCounter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(::Il2CppString*, int64_t, MasterServer::AnalyticsMetricUnit)>(&IAnalyticsManager::IncrementCounter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "IncrementCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::AnalyticsMetricUnit>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::ReceivedReliableRequestEvent
+  // Il2CppName: ReceivedReliableRequestEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerReliableRequest*)>(&IAnalyticsManager::ReceivedReliableRequestEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "ReceivedReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::SentReliableRequestEvent
+  // Il2CppName: SentReliableRequestEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerReliableRequest*)>(&IAnalyticsManager::SentReliableRequestEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "SentReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::ReceivedReliableResponseEvent
+  // Il2CppName: ReceivedReliableResponseEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerReliableResponse*)>(&IAnalyticsManager::ReceivedReliableResponseEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "ReceivedReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::SentReliableResponseEvent
+  // Il2CppName: SentReliableResponseEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerReliableResponse*)>(&IAnalyticsManager::SentReliableResponseEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "SentReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::ReceivedUnreliableMessageEvent
+  // Il2CppName: ReceivedUnreliableMessageEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerUnreliableMessage*)>(&IAnalyticsManager::ReceivedUnreliableMessageEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "ReceivedUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerUnreliableMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::SentUnreliableMessageEvent
+  // Il2CppName: SentUnreliableMessageEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerUnreliableMessage*)>(&IAnalyticsManager::SentUnreliableMessageEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "SentUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerUnreliableMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::SentUnreliableResponseEvent
+  // Il2CppName: SentUnreliableResponseEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerResponse*)>(&IAnalyticsManager::SentUnreliableResponseEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "SentUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::ReceivedUnreliableResponseEvent
+  // Il2CppName: ReceivedUnreliableResponseEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(MasterServer::IMasterServerResponse*)>(&IAnalyticsManager::ReceivedUnreliableResponseEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "ReceivedUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::DedicatedServerServerConnectedEvent
+  // Il2CppName: DedicatedServerServerConnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType)>(&IAnalyticsManager::DedicatedServerServerConnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "DedicatedServerServerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DedicatedServerType>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::DedicatedServerServerConnectionFailedEvent
+  // Il2CppName: DedicatedServerServerConnectionFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::ConnectionFailedReason)>(&IAnalyticsManager::DedicatedServerServerConnectionFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "DedicatedServerServerConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DedicatedServerType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::DedicatedServerServerDisconnectedEvent
+  // Il2CppName: DedicatedServerServerDisconnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::DisconnectedReason)>(&IAnalyticsManager::DedicatedServerServerDisconnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "DedicatedServerServerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DedicatedServerType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::DedicatedServerPlayerConnectedEvent
+  // Il2CppName: DedicatedServerPlayerConnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType)>(&IAnalyticsManager::DedicatedServerPlayerConnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "DedicatedServerPlayerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DedicatedServerType>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAnalyticsManager::DedicatedServerPlayerDisconnectedEvent
+  // Il2CppName: DedicatedServerPlayerDisconnectedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::DisconnectedReason)>(&IAnalyticsManager::DedicatedServerPlayerDisconnectedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAnalyticsManager*), "DedicatedServerPlayerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DedicatedServerType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IAnalyticsManager*, "MasterServer", "IAnalyticsManager");

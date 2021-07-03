@@ -21,7 +21,7 @@ namespace Zenject {
     // Creating value type constructor for type: SceneKernel
     SceneKernel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x16CF878
+    // Offset: 0x16E6588
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -36,5 +36,19 @@ namespace Zenject {
     }
   }; // Zenject.SceneKernel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SceneKernel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneKernel::*)()>(&SceneKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneKernel::*)()>(&SceneKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneKernel*, "Zenject", "SceneKernel");

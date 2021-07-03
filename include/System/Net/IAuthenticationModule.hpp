@@ -38,6 +38,30 @@ namespace System::Net {
     ::Il2CppString* get_AuthenticationType();
   }; // System.Net.IAuthenticationModule
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAuthenticationModule::Authenticate
+  // Il2CppName: Authenticate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (IAuthenticationModule::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&IAuthenticationModule::Authenticate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAuthenticationModule*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAuthenticationModule::PreAuthenticate
+  // Il2CppName: PreAuthenticate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (IAuthenticationModule::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&IAuthenticationModule::PreAuthenticate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAuthenticationModule*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IAuthenticationModule::get_AuthenticationType
+  // Il2CppName: get_AuthenticationType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAuthenticationModule::*)()>(&IAuthenticationModule::get_AuthenticationType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAuthenticationModule*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");

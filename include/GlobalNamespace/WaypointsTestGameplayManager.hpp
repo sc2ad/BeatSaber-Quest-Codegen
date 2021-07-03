@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     float outerCapsuleRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE1BF10
+    // [SpaceAttribute] Offset: 0xE1BEEC
     // private UnityEngine.Vector3 _innerSphereOffset
     // Size: 0xC
     // Offset: 0x34
@@ -69,35 +69,35 @@ namespace GlobalNamespace {
     float innerSphereRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xE1BF58
+    // [SpaceAttribute] Offset: 0xE1BF34
     // private UnityEngine.LayerMask _layersToColliderWith
     // Size: 0x4
     // Offset: 0x44
     UnityEngine::LayerMask layersToColliderWith;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // [InjectAttribute] Offset: 0xE1BF90
+    // [InjectAttribute] Offset: 0xE1BF6C
     // private readonly BTSCharacterSpawnController _characterSpawnController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BTSCharacterSpawnController* characterSpawnController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSCharacterSpawnController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BFA0
+    // [InjectAttribute] Offset: 0xE1BF7C
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BFB0
+    // [InjectAttribute] Offset: 0xE1BF8C
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1BFC0
+    // [InjectAttribute] Offset: 0xE1BF9C
     // private readonly GameplayCoreSceneSetupData _levelSceneSetupData
     // Size: 0x8
     // Offset: 0x60
@@ -165,22 +165,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1D97C48
+    // Offset: 0x1DB09A4
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x1D97C88
+    // Offset: 0x1DB09E4
     void LateUpdate();
     // protected System.Void OnDestroy()
-    // Offset: 0x1D991DC
+    // Offset: 0x1DB1F38
     void OnDestroy();
     // private System.String GetBar(System.Single songTime)
-    // Offset: 0x1D98FD8
+    // Offset: 0x1DB1D34
     ::Il2CppString* GetBar(float songTime);
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1D99720
+    // Offset: 0x1DB247C
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x1D99A0C
+    // Offset: 0x1DB2768
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -196,5 +196,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(WaypointsTestGameplayManager), 144 + sizeof(float)> __GlobalNamespace_WaypointsTestGameplayManagerSizeCheck;
   static_assert(sizeof(WaypointsTestGameplayManager) == 0x94);
+  // Writing MetadataGetter for method: WaypointsTestGameplayManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestGameplayManager::*)()>(&WaypointsTestGameplayManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestGameplayManager::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestGameplayManager::*)()>(&WaypointsTestGameplayManager::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestGameplayManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestGameplayManager::*)()>(&WaypointsTestGameplayManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestGameplayManager::GetBar
+  // Il2CppName: GetBar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WaypointsTestGameplayManager::*)(float)>(&WaypointsTestGameplayManager::GetBar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), "GetBar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestGameplayManager::OnDrawGizmos
+  // Il2CppName: OnDrawGizmos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestGameplayManager::*)()>(&WaypointsTestGameplayManager::OnDrawGizmos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), "OnDrawGizmos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WaypointsTestGameplayManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestGameplayManager::*)()>(&WaypointsTestGameplayManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestGameplayManager::*)()>(&WaypointsTestGameplayManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WaypointsTestGameplayManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestGameplayManager*, "", "WaypointsTestGameplayManager");

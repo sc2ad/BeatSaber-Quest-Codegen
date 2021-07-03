@@ -136,70 +136,70 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerFilter>*>(this);
     }
     // public System.Void .ctor(System.Boolean includePasswordProtected, System.Boolean includeEmpty, System.Boolean includeFull, System.Boolean filterNames, System.String nameFilter, System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter, System.Boolean filterModifiers, GameplayModifierMask modifierFilter, System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xEE7D3C
+    // Offset: 0xEE8CF4
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  GameplayServerFilter(bool includePasswordProtected, bool includeEmpty, bool includeFull, bool filterNames, ::Il2CppString* nameFilter, bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter, bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter, bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter)
     // static public GameplayServerFilter get_defaultFilter()
-    // Offset: 0x1313874
+    // Offset: 0x132E584
     static GlobalNamespace::GameplayServerFilter get_defaultFilter();
     // public System.Boolean Equals(in GameplayServerFilter other)
-    // Offset: 0xEE7D80
+    // Offset: 0xEE8D38
     bool Equals(GlobalNamespace::GameplayServerFilter& other);
     // public System.Boolean Equals(GameplayServerFilter other)
-    // Offset: 0xEE7D88
+    // Offset: 0xEE8D40
     bool Equals_(GlobalNamespace::GameplayServerFilter other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0xEE7DD0
+    // Offset: 0xEE8D88
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // static public GameplayServerFilter Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1313C08
+    // Offset: 0x132E918
     static GlobalNamespace::GameplayServerFilter Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public GameplayServerFilter CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0xEE7DD8
+    // Offset: 0xEE8D90
     GlobalNamespace::GameplayServerFilter CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean IncludesServerName(System.String lowerInvariantName)
-    // Offset: 0xEE7DE0
+    // Offset: 0xEE8D98
     bool IncludesServerName(::Il2CppString* lowerInvariantName);
     // public System.Boolean IncludesPassword(System.String password)
-    // Offset: 0xEE7E10
+    // Offset: 0xEE8DC8
     bool IncludesPassword(::Il2CppString* password);
     // public System.Boolean IncludesPlayerCount(System.Int32 currentPlayerCount, System.Int32 maxPlayerCount)
-    // Offset: 0xEE7E2C
+    // Offset: 0xEE8DE4
     bool IncludesPlayerCount(int currentPlayerCount, int maxPlayerCount);
     // public System.Boolean IncludesConfiguration(GameplayServerConfiguration configuration)
-    // Offset: 0xEE7E60
+    // Offset: 0xEE8E18
     bool IncludesConfiguration(GlobalNamespace::GameplayServerConfiguration configuration);
     // public GameplayServerFilter WithIncludePasswordProtected(System.Boolean includePasswordProtected)
-    // Offset: 0xEE7E98
+    // Offset: 0xEE8E50
     GlobalNamespace::GameplayServerFilter WithIncludePasswordProtected(bool includePasswordProtected);
     // public GameplayServerFilter WithIncludeEmpty(System.Boolean includeEmpty)
-    // Offset: 0xEE7EA4
+    // Offset: 0xEE8E5C
     GlobalNamespace::GameplayServerFilter WithIncludeEmpty(bool includeEmpty);
     // public GameplayServerFilter WithIncludeFull(System.Boolean includeFull)
-    // Offset: 0xEE7EB0
+    // Offset: 0xEE8E68
     GlobalNamespace::GameplayServerFilter WithIncludeFull(bool includeFull);
     // public GameplayServerFilter WithFilterNames(System.Boolean filterNames, System.String nameFilter)
-    // Offset: 0xEE7EBC
+    // Offset: 0xEE8E74
     GlobalNamespace::GameplayServerFilter WithFilterNames(bool filterNames, ::Il2CppString* nameFilter);
     // public GameplayServerFilter WithFilterDifficulties(System.Boolean filterDifficulties, BeatmapDifficultyMask difficultyFilter)
-    // Offset: 0xEE7EC8
+    // Offset: 0xEE8E80
     GlobalNamespace::GameplayServerFilter WithFilterDifficulties(bool filterDifficulties, GlobalNamespace::BeatmapDifficultyMask difficultyFilter);
     // public GameplayServerFilter WithFilterModifiers(System.Boolean filterModifiers, GameplayModifierMask modifierFilter)
-    // Offset: 0xEE7ED4
+    // Offset: 0xEE8E8C
     GlobalNamespace::GameplayServerFilter WithFilterModifiers(bool filterModifiers, GlobalNamespace::GameplayModifierMask modifierFilter);
     // public GameplayServerFilter WithFilterSongPacks(System.Boolean filterSongPacks, SongPackMask songPackFilter)
-    // Offset: 0xEE7EE0
+    // Offset: 0xEE8E98
     GlobalNamespace::GameplayServerFilter WithFilterSongPacks(bool filterSongPacks, GlobalNamespace::SongPackMask songPackFilter);
     // private System.Boolean IEquatableByReference<GameplayServerFilter>.Equals(in GameplayServerFilter other)
-    // Offset: 0xEE7EEC
+    // Offset: 0xEE8EA4
     bool IEquatableByReference$GameplayServerFilter$_Equals(GlobalNamespace::GameplayServerFilter& other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xEE7DC0
+    // Offset: 0xEE8D78
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xEE7DC8
+    // Offset: 0xEE8D80
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -207,5 +207,179 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameplayServerFilter), 24 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_GameplayServerFilterSizeCheck;
   static_assert(sizeof(GameplayServerFilter) == 0x28);
+  // Writing MetadataGetter for method: GameplayServerFilter::GameplayServerFilter
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFilter::*)(bool, bool, bool, bool, ::Il2CppString*, bool, GlobalNamespace::BeatmapDifficultyMask, bool, GlobalNamespace::GameplayModifierMask, bool, GlobalNamespace::SongPackMask)>(&GameplayServerFilter::GameplayServerFilter<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFilter::*)(bool, bool, bool, bool, ::Il2CppString*, bool, GlobalNamespace::BeatmapDifficultyMask, bool, GlobalNamespace::GameplayModifierMask, bool, GlobalNamespace::SongPackMask)>(&GameplayServerFilter::GameplayServerFilter<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::get_defaultFilter
+  // Il2CppName: get_defaultFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (*)()>(&GameplayServerFilter::get_defaultFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "get_defaultFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(GlobalNamespace::GameplayServerFilter&)>(&GameplayServerFilter::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter&>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::Equals_
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(GlobalNamespace::GameplayServerFilter)>(&GameplayServerFilter::Equals_)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFilter::*)(LiteNetLib::Utils::NetDataWriter*)>(&GameplayServerFilter::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (*)(LiteNetLib::Utils::NetDataReader*)>(&GameplayServerFilter::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::CreateFromSerializedData
+  // Il2CppName: CreateFromSerializedData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(LiteNetLib::Utils::NetDataReader*)>(&GameplayServerFilter::CreateFromSerializedData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::IncludesServerName
+  // Il2CppName: IncludesServerName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(::Il2CppString*)>(&GameplayServerFilter::IncludesServerName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "IncludesServerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::IncludesPassword
+  // Il2CppName: IncludesPassword
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(::Il2CppString*)>(&GameplayServerFilter::IncludesPassword)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "IncludesPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::IncludesPlayerCount
+  // Il2CppName: IncludesPlayerCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(int, int)>(&GameplayServerFilter::IncludesPlayerCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "IncludesPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::IncludesConfiguration
+  // Il2CppName: IncludesConfiguration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(GlobalNamespace::GameplayServerConfiguration)>(&GameplayServerFilter::IncludesConfiguration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "IncludesConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithIncludePasswordProtected
+  // Il2CppName: WithIncludePasswordProtected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool)>(&GameplayServerFilter::WithIncludePasswordProtected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithIncludePasswordProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithIncludeEmpty
+  // Il2CppName: WithIncludeEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool)>(&GameplayServerFilter::WithIncludeEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithIncludeEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithIncludeFull
+  // Il2CppName: WithIncludeFull
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool)>(&GameplayServerFilter::WithIncludeFull)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithIncludeFull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithFilterNames
+  // Il2CppName: WithFilterNames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool, ::Il2CppString*)>(&GameplayServerFilter::WithFilterNames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithFilterNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithFilterDifficulties
+  // Il2CppName: WithFilterDifficulties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool, GlobalNamespace::BeatmapDifficultyMask)>(&GameplayServerFilter::WithFilterDifficulties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithFilterDifficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithFilterModifiers
+  // Il2CppName: WithFilterModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool, GlobalNamespace::GameplayModifierMask)>(&GameplayServerFilter::WithFilterModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithFilterModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::WithFilterSongPacks
+  // Il2CppName: WithFilterSongPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GameplayServerFilter::*)(bool, GlobalNamespace::SongPackMask)>(&GameplayServerFilter::WithFilterSongPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "WithFilterSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::IEquatableByReference$GameplayServerFilter$_Equals
+  // Il2CppName: IEquatableByReference<GameplayServerFilter>.Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(GlobalNamespace::GameplayServerFilter&)>(&GameplayServerFilter::IEquatableByReference$GameplayServerFilter$_Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "IEquatableByReference<GameplayServerFilter>.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerFilter&>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayServerFilter::*)(::Il2CppObject*)>(&GameplayServerFilter::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayServerFilter::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameplayServerFilter::*)()>(&GameplayServerFilter::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayServerFilter), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFilter, "", "GameplayServerFilter");

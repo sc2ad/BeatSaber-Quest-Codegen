@@ -15,70 +15,238 @@ namespace Org::BouncyCastle::Crypto::Utilities {
     // Creating value type constructor for type: Pack
     Pack() noexcept {}
     // static System.Void UInt32_To_BE(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F1C8
+    // Offset: 0x126BED8
     static void UInt32_To_BE(uint n, ::Array<uint8_t>* bs, int off);
     // static System.Void UInt32_To_BE(System.UInt32[] ns, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F254
+    // Offset: 0x126BF64
     static void UInt32_To_BE(::Array<uint>* ns, ::Array<uint8_t>* bs, int off);
     // static System.UInt32 BE_To_UInt32(System.Byte[] bs)
-    // Offset: 0x124F2E0
+    // Offset: 0x126BFF0
     static uint BE_To_UInt32(::Array<uint8_t>* bs);
     // static System.UInt32 BE_To_UInt32(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F344
+    // Offset: 0x126C054
     static uint BE_To_UInt32(::Array<uint8_t>* bs, int off);
     // static System.Void BE_To_UInt32(System.Byte[] bs, System.Int32 off, System.UInt32[] ns)
-    // Offset: 0x124F3C4
+    // Offset: 0x126C0D4
     static void BE_To_UInt32(::Array<uint8_t>* bs, int off, ::Array<uint>* ns);
     // static public System.Void BE_To_UInt32(System.Byte[] bs, System.Int32 bsOff, System.UInt32[] ns, System.Int32 nsOff, System.Int32 nsLen)
-    // Offset: 0x124F44C
+    // Offset: 0x126C15C
     static void BE_To_UInt32(::Array<uint8_t>* bs, int bsOff, ::Array<uint>* ns, int nsOff, int nsLen);
     // static System.Void UInt64_To_BE(System.UInt64 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F4F0
+    // Offset: 0x126C200
     static void UInt64_To_BE(uint64_t n, ::Array<uint8_t>* bs, int off);
     // static System.UInt64 BE_To_UInt64(System.Byte[] bs)
-    // Offset: 0x124F530
+    // Offset: 0x126C240
     static uint64_t BE_To_UInt64(::Array<uint8_t>* bs);
     // static System.UInt64 BE_To_UInt64(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F568
+    // Offset: 0x126C278
     static uint64_t BE_To_UInt64(::Array<uint8_t>* bs, int off);
     // static System.Byte[] UInt32_To_LE(System.UInt32 n)
-    // Offset: 0x124F5AC
+    // Offset: 0x126C2BC
     static ::Array<uint8_t>* UInt32_To_LE(uint n);
     // static System.Void UInt32_To_LE(System.UInt32 n, System.Byte[] bs)
-    // Offset: 0x124F6A4
+    // Offset: 0x126C3B4
     static void UInt32_To_LE(uint n, ::Array<uint8_t>* bs);
     // static System.Void UInt32_To_LE(System.UInt32 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F618
+    // Offset: 0x126C328
     static void UInt32_To_LE(uint n, ::Array<uint8_t>* bs, int off);
     // static System.Void UInt32_To_LE(System.UInt32[] ns, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F704
+    // Offset: 0x126C414
     static void UInt32_To_LE(::Array<uint>* ns, ::Array<uint8_t>* bs, int off);
     // static System.UInt32 LE_To_UInt32(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F790
+    // Offset: 0x126C4A0
     static uint LE_To_UInt32(::Array<uint8_t>* bs, int off);
     // static System.Void LE_To_UInt32(System.Byte[] bs, System.Int32 bOff, System.UInt32[] ns, System.Int32 nOff, System.Int32 count)
-    // Offset: 0x124F810
+    // Offset: 0x126C520
     static void LE_To_UInt32(::Array<uint8_t>* bs, int bOff, ::Array<uint>* ns, int nOff, int count);
     // static System.UInt32[] LE_To_UInt32(System.Byte[] bs, System.Int32 off, System.Int32 count)
-    // Offset: 0x124F8B4
+    // Offset: 0x126C5C4
     static ::Array<uint>* LE_To_UInt32(::Array<uint8_t>* bs, int off, int count);
     // static System.Byte[] UInt64_To_LE(System.UInt64 n)
-    // Offset: 0x124F97C
+    // Offset: 0x126C68C
     static ::Array<uint8_t>* UInt64_To_LE(uint64_t n);
     // static System.Void UInt64_To_LE(System.UInt64 n, System.Byte[] bs)
-    // Offset: 0x124283C
+    // Offset: 0x125F54C
     static void UInt64_To_LE(uint64_t n, ::Array<uint8_t>* bs);
     // static System.Void UInt64_To_LE(System.UInt64 n, System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124F9F8
+    // Offset: 0x126C708
     static void UInt64_To_LE(uint64_t n, ::Array<uint8_t>* bs, int off);
     // static System.Void UInt64_To_LE(System.UInt64[] ns, System.Int32 nsOff, System.Int32 nsLen, System.Byte[] bs, System.Int32 bsOff)
-    // Offset: 0x124FA34
+    // Offset: 0x126C744
     static void UInt64_To_LE(::Array<uint64_t>* ns, int nsOff, int nsLen, ::Array<uint8_t>* bs, int bsOff);
     // static System.UInt64 LE_To_UInt64(System.Byte[] bs, System.Int32 off)
-    // Offset: 0x124FAF0
+    // Offset: 0x126C800
     static uint64_t LE_To_UInt64(::Array<uint8_t>* bs, int off);
   }; // Org.BouncyCastle.Crypto.Utilities.Pack
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Pack::UInt32_To_BE
+  // Il2CppName: UInt32_To_BE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Pack::UInt32_To_BE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt32_To_BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt32_To_BE
+  // Il2CppName: UInt32_To_BE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Pack::UInt32_To_BE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt32_To_BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::BE_To_UInt32
+  // Il2CppName: BE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*)>(&Pack::BE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "BE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::BE_To_UInt32
+  // Il2CppName: BE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Pack::BE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "BE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::BE_To_UInt32
+  // Il2CppName: BE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*)>(&Pack::BE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "BE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::BE_To_UInt32
+  // Il2CppName: BE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*, int, int)>(&Pack::BE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "BE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt64_To_BE
+  // Il2CppName: UInt64_To_BE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint8_t>*, int)>(&Pack::UInt64_To_BE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt64_To_BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::BE_To_UInt64
+  // Il2CppName: BE_To_UInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<uint8_t>*)>(&Pack::BE_To_UInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "BE_To_UInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::BE_To_UInt64
+  // Il2CppName: BE_To_UInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<uint8_t>*, int)>(&Pack::BE_To_UInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "BE_To_UInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt32_To_LE
+  // Il2CppName: UInt32_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint)>(&Pack::UInt32_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt32_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt32_To_LE
+  // Il2CppName: UInt32_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*)>(&Pack::UInt32_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt32_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt32_To_LE
+  // Il2CppName: UInt32_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Pack::UInt32_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt32_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt32_To_LE
+  // Il2CppName: UInt32_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Pack::UInt32_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt32_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::LE_To_UInt32
+  // Il2CppName: LE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Pack::LE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "LE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::LE_To_UInt32
+  // Il2CppName: LE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*, int, int)>(&Pack::LE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "LE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::LE_To_UInt32
+  // Il2CppName: LE_To_UInt32
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint>* (*)(::Array<uint8_t>*, int, int)>(&Pack::LE_To_UInt32)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "LE_To_UInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt64_To_LE
+  // Il2CppName: UInt64_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint64_t)>(&Pack::UInt64_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt64_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt64_To_LE
+  // Il2CppName: UInt64_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint8_t>*)>(&Pack::UInt64_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt64_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt64_To_LE
+  // Il2CppName: UInt64_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint8_t>*, int)>(&Pack::UInt64_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt64_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::UInt64_To_LE
+  // Il2CppName: UInt64_To_LE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint64_t>*, int, int, ::Array<uint8_t>*, int)>(&Pack::UInt64_To_LE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "UInt64_To_LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Pack::LE_To_UInt64
+  // Il2CppName: LE_To_UInt64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Array<uint8_t>*, int)>(&Pack::LE_To_UInt64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Pack*), "LE_To_UInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Utilities::Pack*, "Org.BouncyCastle.Crypto.Utilities", "Pack");

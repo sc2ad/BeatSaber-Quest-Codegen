@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Elements
     Elements(int elementNumber_ = {}, float intensity_ = {}, float minIntensity_ = {}) noexcept : elementNumber{elementNumber_}, intensity{intensity_}, minIntensity{minIntensity_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D6B3B8
+    // Offset: 0x1D860C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,5 +51,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements), 24 + sizeof(float)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientElementWithLightId_ElementsSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements) == 0x1C);
+  // Writing MetadataGetter for method: BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::*)()>(&BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::*)()>(&BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");

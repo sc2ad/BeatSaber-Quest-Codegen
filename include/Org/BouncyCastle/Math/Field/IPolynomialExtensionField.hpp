@@ -31,6 +31,14 @@ namespace Org::BouncyCastle::Math::Field {
     Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
   }; // Org.BouncyCastle.Math.Field.IPolynomialExtensionField
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IPolynomialExtensionField::get_MinimalPolynomial
+  // Il2CppName: get_MinimalPolynomial
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomial* (IPolynomialExtensionField::*)()>(&IPolynomialExtensionField::get_MinimalPolynomial)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPolynomialExtensionField*), "get_MinimalPolynomial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "IPolynomialExtensionField");

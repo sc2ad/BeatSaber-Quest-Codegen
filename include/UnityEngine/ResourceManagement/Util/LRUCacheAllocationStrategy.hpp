@@ -73,27 +73,73 @@ namespace UnityEngine::ResourceManagement::Util {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);
     }
     // public System.Void .ctor(System.Int32 poolMaxSize, System.Int32 poolCapacity, System.Int32 poolCacheMaxSize, System.Int32 initialPoolCacheCapacity)
-    // Offset: 0x19ACE34
+    // Offset: 0x19C3B44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LRUCacheAllocationStrategy* New_ctor(int poolMaxSize, int poolCapacity, int poolCacheMaxSize, int initialPoolCacheCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LRUCacheAllocationStrategy*, creationType>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity)));
     }
     // private System.Collections.Generic.List`1<System.Object> GetPool()
-    // Offset: 0x19B81B4
+    // Offset: 0x19CEEC4
     System::Collections::Generic::List_1<::Il2CppObject*>* GetPool();
     // private System.Void ReleasePool(System.Collections.Generic.List`1<System.Object> pool)
-    // Offset: 0x19B825C
+    // Offset: 0x19CEF6C
     void ReleasePool(System::Collections::Generic::List_1<::Il2CppObject*>* pool);
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x19B82E4
+    // Offset: 0x19CEFF4
     ::Il2CppObject* New(System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x19B8424
+    // Offset: 0x19CF134
     void Release(int typeHash, ::Il2CppObject* obj);
   }; // UnityEngine.ResourceManagement.Util.LRUCacheAllocationStrategy
   #pragma pack(pop)
   static check_size<sizeof(LRUCacheAllocationStrategy), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>*)> __UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategySizeCheck;
   static_assert(sizeof(LRUCacheAllocationStrategy) == 0x30);
+  // Writing MetadataGetter for method: LRUCacheAllocationStrategy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LRUCacheAllocationStrategy::*)(int, int, int, int)>(&LRUCacheAllocationStrategy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LRUCacheAllocationStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LRUCacheAllocationStrategy::*)(int, int, int, int)>(&LRUCacheAllocationStrategy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LRUCacheAllocationStrategy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LRUCacheAllocationStrategy::GetPool
+  // Il2CppName: GetPool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppObject*>* (LRUCacheAllocationStrategy::*)()>(&LRUCacheAllocationStrategy::GetPool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LRUCacheAllocationStrategy*), "GetPool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LRUCacheAllocationStrategy::ReleasePool
+  // Il2CppName: ReleasePool
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LRUCacheAllocationStrategy::*)(System::Collections::Generic::List_1<::Il2CppObject*>*)>(&LRUCacheAllocationStrategy::ReleasePool)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LRUCacheAllocationStrategy*), "ReleasePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LRUCacheAllocationStrategy::New
+  // Il2CppName: New
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (LRUCacheAllocationStrategy::*)(System::Type*, int)>(&LRUCacheAllocationStrategy::New)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LRUCacheAllocationStrategy*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LRUCacheAllocationStrategy::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LRUCacheAllocationStrategy::*)(int, ::Il2CppObject*)>(&LRUCacheAllocationStrategy::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LRUCacheAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "LRUCacheAllocationStrategy");

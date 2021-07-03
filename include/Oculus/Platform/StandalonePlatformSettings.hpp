@@ -19,25 +19,25 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: StandalonePlatformSettings
     StandalonePlatformSettings() noexcept {}
     // static public System.String get_OculusPlatformTestUserEmail()
-    // Offset: 0x23954C0
+    // Offset: 0x23AFAF4
     static ::Il2CppString* get_OculusPlatformTestUserEmail();
     // static public System.Void set_OculusPlatformTestUserEmail(System.String value)
-    // Offset: 0x2395510
+    // Offset: 0x23AFB44
     static void set_OculusPlatformTestUserEmail(::Il2CppString* value);
     // static public System.String get_OculusPlatformTestUserPassword()
-    // Offset: 0x2395514
+    // Offset: 0x23AFB48
     static ::Il2CppString* get_OculusPlatformTestUserPassword();
     // static public System.Void set_OculusPlatformTestUserPassword(System.String value)
-    // Offset: 0x2395564
+    // Offset: 0x23AFB98
     static void set_OculusPlatformTestUserPassword(::Il2CppString* value);
     // static public System.String get_OculusPlatformTestUserAccessToken()
-    // Offset: 0x2395568
+    // Offset: 0x23AFB9C
     static ::Il2CppString* get_OculusPlatformTestUserAccessToken();
     // static public System.Void set_OculusPlatformTestUserAccessToken(System.String value)
-    // Offset: 0x23955B8
+    // Offset: 0x23AFBEC
     static void set_OculusPlatformTestUserAccessToken(::Il2CppString* value);
     // public System.Void .ctor()
-    // Offset: 0x23955BC
+    // Offset: 0x23AFBF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -47,5 +47,67 @@ namespace Oculus::Platform {
     }
   }; // Oculus.Platform.StandalonePlatformSettings
   #pragma pack(pop)
+  // Writing MetadataGetter for method: StandalonePlatformSettings::get_OculusPlatformTestUserEmail
+  // Il2CppName: get_OculusPlatformTestUserEmail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&StandalonePlatformSettings::get_OculusPlatformTestUserEmail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), "get_OculusPlatformTestUserEmail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandalonePlatformSettings::set_OculusPlatformTestUserEmail
+  // Il2CppName: set_OculusPlatformTestUserEmail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&StandalonePlatformSettings::set_OculusPlatformTestUserEmail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), "set_OculusPlatformTestUserEmail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandalonePlatformSettings::get_OculusPlatformTestUserPassword
+  // Il2CppName: get_OculusPlatformTestUserPassword
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&StandalonePlatformSettings::get_OculusPlatformTestUserPassword)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), "get_OculusPlatformTestUserPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandalonePlatformSettings::set_OculusPlatformTestUserPassword
+  // Il2CppName: set_OculusPlatformTestUserPassword
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&StandalonePlatformSettings::set_OculusPlatformTestUserPassword)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), "set_OculusPlatformTestUserPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandalonePlatformSettings::get_OculusPlatformTestUserAccessToken
+  // Il2CppName: get_OculusPlatformTestUserAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&StandalonePlatformSettings::get_OculusPlatformTestUserAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), "get_OculusPlatformTestUserAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandalonePlatformSettings::set_OculusPlatformTestUserAccessToken
+  // Il2CppName: set_OculusPlatformTestUserAccessToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&StandalonePlatformSettings::set_OculusPlatformTestUserAccessToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), "set_OculusPlatformTestUserAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandalonePlatformSettings::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandalonePlatformSettings::*)()>(&StandalonePlatformSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandalonePlatformSettings::*)()>(&StandalonePlatformSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandalonePlatformSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");

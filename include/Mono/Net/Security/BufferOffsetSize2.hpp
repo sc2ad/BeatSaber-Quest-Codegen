@@ -33,24 +33,62 @@ namespace Mono::Net::Security {
       return InitialSize;
     }
     // public System.Void .ctor(System.Int32 size)
-    // Offset: 0x15D6440
+    // Offset: 0x15EF150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize2* New_ctor(int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize2*, creationType>(size)));
     }
     // public System.Void Reset()
-    // Offset: 0x15D64B8
+    // Offset: 0x15EF1C8
     void Reset();
     // public System.Void MakeRoom(System.Int32 size)
-    // Offset: 0x15D6544
+    // Offset: 0x15EF254
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x15D6608
+    // Offset: 0x15EF318
     void AppendData(::Array<uint8_t>* buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
   #pragma pack(pop)
   static check_size<sizeof(BufferOffsetSize2), 40 + sizeof(int)> __Mono_Net_Security_BufferOffsetSize2SizeCheck;
   static_assert(sizeof(BufferOffsetSize2) == 0x2C);
+  // Writing MetadataGetter for method: BufferOffsetSize2::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferOffsetSize2::*)(int)>(&BufferOffsetSize2::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferOffsetSize2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferOffsetSize2::*)(int)>(&BufferOffsetSize2::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferOffsetSize2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BufferOffsetSize2::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferOffsetSize2::*)()>(&BufferOffsetSize2::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferOffsetSize2*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BufferOffsetSize2::MakeRoom
+  // Il2CppName: MakeRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferOffsetSize2::*)(int)>(&BufferOffsetSize2::MakeRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferOffsetSize2*), "MakeRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: BufferOffsetSize2::AppendData
+  // Il2CppName: AppendData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferOffsetSize2::*)(::Array<uint8_t>*, int, int)>(&BufferOffsetSize2::AppendData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BufferOffsetSize2*), "AppendData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Security", "BufferOffsetSize2");

@@ -32,14 +32,14 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::InteractionTrigger::Range::Interaction
     class Interaction;
-    // [HideInInspector] Offset: 0xE0C194
+    // [HideInInspector] Offset: 0xE0D190
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [HideInInspector] Offset: 0xE0C1CC
+    // [HideInInspector] Offset: 0xE0D1C8
     // public System.Boolean show
     // Size: 0x1
     // Offset: 0x18
@@ -48,21 +48,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: show and: characterPosition
     char __padding1[0x7] = {};
-    // [TooltipAttribute] Offset: 0xE0C204
+    // [TooltipAttribute] Offset: 0xE0D200
     // public RootMotion.FinalIK.InteractionTrigger/CharacterPosition characterPosition
     // Size: 0x8
     // Offset: 0x20
     RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0C23C
+    // [TooltipAttribute] Offset: 0xE0D238
     // public RootMotion.FinalIK.InteractionTrigger/CameraPosition cameraPosition
     // Size: 0x8
     // Offset: 0x28
     RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0C274
+    // [TooltipAttribute] Offset: 0xE0D270
     // public RootMotion.FinalIK.InteractionTrigger/Range/Interaction[] interactions
     // Size: 0x8
     // Offset: 0x30
@@ -72,10 +72,10 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Range
     Range(::Il2CppString* name_ = {}, bool show_ = {}, RootMotion::FinalIK::InteractionTrigger::CharacterPosition* characterPosition_ = {}, RootMotion::FinalIK::InteractionTrigger::CameraPosition* cameraPosition_ = {}, ::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>* interactions_ = {}) noexcept : name{name_}, show{show_}, characterPosition{characterPosition_}, cameraPosition{cameraPosition_}, interactions{interactions_} {}
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
-    // Offset: 0x1A84F20
+    // Offset: 0x1A9EC30
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, float& maxError);
     // public System.Void .ctor()
-    // Offset: 0x1A85D7C
+    // Offset: 0x1A9FA8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,5 +87,27 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(InteractionTrigger::Range), 48 + sizeof(::Array<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>*)> __RootMotion_FinalIK_InteractionTrigger_RangeSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range) == 0x38);
+  // Writing MetadataGetter for method: InteractionTrigger::Range::IsInRange
+  // Il2CppName: IsInRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionTrigger::Range::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&InteractionTrigger::Range::IsInRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    }
+  };
+  // Writing MetadataGetter for method: InteractionTrigger::Range::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::Range::*)()>(&InteractionTrigger::Range::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::Range::*)()>(&InteractionTrigger::Range::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::Range*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMotion.FinalIK", "InteractionTrigger/Range");

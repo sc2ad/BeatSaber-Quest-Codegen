@@ -38,10 +38,10 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0xFFFFFFFF
     int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x1CF2198
+    // Offset: 0x1D0EEA8
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
     // protected System.Void .ctor()
-    // Offset: 0x1CF21A4
+    // Offset: 0x1D0EEB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,5 +51,43 @@ namespace Org::BouncyCastle::Math::EC {
     }
   }; // Org.BouncyCastle.Math.EC.AbstractECLookupTable
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AbstractECLookupTable::Lookup
+  // Il2CppName: Lookup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (AbstractECLookupTable::*)(int)>(&AbstractECLookupTable::Lookup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractECLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractECLookupTable::get_Size
+  // Il2CppName: get_Size
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AbstractECLookupTable::*)()>(&AbstractECLookupTable::get_Size)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractECLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractECLookupTable::LookupVar
+  // Il2CppName: LookupVar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (AbstractECLookupTable::*)(int)>(&AbstractECLookupTable::LookupVar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractECLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: AbstractECLookupTable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractECLookupTable::*)()>(&AbstractECLookupTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractECLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractECLookupTable::*)()>(&AbstractECLookupTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AbstractECLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractECLookupTable*, "Org.BouncyCastle.Math.EC", "AbstractECLookupTable");

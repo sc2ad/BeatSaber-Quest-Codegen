@@ -50,12 +50,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public override UnityEngine.Color get_color()
-    // Offset: 0x23D6E04
+    // Offset: 0x23F2330
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x23D6E84
+    // Offset: 0x23F23B0
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -71,5 +71,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultipliedAndAddedColorSO), 48 + sizeof(UnityEngine::Color)> __GlobalNamespace_MultipliedAndAddedColorSOSizeCheck;
   static_assert(sizeof(MultipliedAndAddedColorSO) == 0x40);
+  // Writing MetadataGetter for method: MultipliedAndAddedColorSO::get_color
+  // Il2CppName: get_color
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MultipliedAndAddedColorSO::*)()>(&MultipliedAndAddedColorSO::get_color)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultipliedAndAddedColorSO*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultipliedAndAddedColorSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultipliedAndAddedColorSO::*)()>(&MultipliedAndAddedColorSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultipliedAndAddedColorSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultipliedAndAddedColorSO::*)()>(&MultipliedAndAddedColorSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultipliedAndAddedColorSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedAndAddedColorSO*, "", "MultipliedAndAddedColorSO");

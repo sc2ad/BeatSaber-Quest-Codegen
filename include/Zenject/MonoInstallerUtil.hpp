@@ -49,5 +49,11 @@ namespace Zenject {
     }
   }; // Zenject.MonoInstallerUtil
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MonoInstallerUtil::GetDefaultResourcePath
+  // Il2CppName: GetDefaultResourcePath
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: MonoInstallerUtil::CreateInstaller
+  // Il2CppName: CreateInstaller
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerUtil*, "Zenject", "MonoInstallerUtil");

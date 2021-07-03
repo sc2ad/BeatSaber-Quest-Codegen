@@ -24,8 +24,8 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Mobile
     Mobile() noexcept {}
-    // [CompilerGeneratedAttribute] Offset: 0xDBC8A4
-    // [DebuggerBrowsableAttribute] Offset: 0xDBC8A4
+    // [DebuggerBrowsableAttribute] Offset: 0xDBC820
+    // [CompilerGeneratedAttribute] Offset: 0xDBC820
     // Get static field: static private System.Boolean <muteState>k__BackingField
     static bool _get_$muteState$k__BackingField();
     // Set static field: static private System.Boolean <muteState>k__BackingField
@@ -34,35 +34,91 @@ namespace UnityEngine {
     static bool _get__stopAudioOutputOnMute();
     // Set static field: static private System.Boolean _stopAudioOutputOnMute
     static void _set__stopAudioOutputOnMute(bool value);
-    // [CompilerGeneratedAttribute] Offset: 0xDBC8E0
-    // [DebuggerBrowsableAttribute] Offset: 0xDBC8E0
+    // [CompilerGeneratedAttribute] Offset: 0xDBC85C
+    // [DebuggerBrowsableAttribute] Offset: 0xDBC85C
     // Get static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
     static System::Action_1<bool>* _get_OnMuteStateChanged();
     // Set static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
     static void _set_OnMuteStateChanged(System::Action_1<bool>* value);
     // static public System.Boolean get_muteState()
-    // Offset: 0x23B8A88
+    // Offset: 0x23D5004
     static bool get_muteState();
     // static private System.Void set_muteState(System.Boolean value)
-    // Offset: 0x23B8AF0
+    // Offset: 0x23D506C
     static void set_muteState(bool value);
     // static public System.Boolean get_stopAudioOutputOnMute()
-    // Offset: 0x23B8B60
+    // Offset: 0x23D50DC
     static bool get_stopAudioOutputOnMute();
     // static System.Void InvokeOnMuteStateChanged(System.Boolean mute)
-    // Offset: 0x23B8BC8
+    // Offset: 0x23D5144
     static void InvokeOnMuteStateChanged(bool mute);
     // static public System.Void StartAudioOutput()
-    // Offset: 0x23B8E70
+    // Offset: 0x23D53EC
     static void StartAudioOutput();
     // static public System.Void StopAudioOutput()
-    // Offset: 0x23B8E3C
+    // Offset: 0x23D53B8
     static void StopAudioOutput();
     // static private System.Void .cctor()
-    // Offset: 0x23B8EA4
+    // Offset: 0x23D5420
     static void _cctor();
   }; // UnityEngine.AudioSettings/Mobile
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AudioSettings::Mobile::get_muteState
+  // Il2CppName: get_muteState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::Mobile::get_muteState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "get_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::Mobile::set_muteState
+  // Il2CppName: set_muteState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::Mobile::set_muteState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "set_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::Mobile::get_stopAudioOutputOnMute
+  // Il2CppName: get_stopAudioOutputOnMute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::Mobile::get_stopAudioOutputOnMute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "get_stopAudioOutputOnMute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::Mobile::InvokeOnMuteStateChanged
+  // Il2CppName: InvokeOnMuteStateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::Mobile::InvokeOnMuteStateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "InvokeOnMuteStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::Mobile::StartAudioOutput
+  // Il2CppName: StartAudioOutput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::StartAudioOutput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::Mobile::StopAudioOutput
+  // Il2CppName: StopAudioOutput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::StopAudioOutput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioSettings::Mobile::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings::Mobile*, "UnityEngine", "AudioSettings/Mobile");

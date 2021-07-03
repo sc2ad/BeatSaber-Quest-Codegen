@@ -48,12 +48,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteDebrisTesterInstaller
     NoteDebrisTesterInstaller(bool useHDVersion_ = {}, GlobalNamespace::NoteDebris* noteDebrisHDPrefab_ = {}, GlobalNamespace::NoteDebris* noteDebrisLWPrefab_ = {}) noexcept : useHDVersion{useHDVersion_}, noteDebrisHDPrefab{noteDebrisHDPrefab_}, noteDebrisLWPrefab{noteDebrisLWPrefab_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x11BD718
+    // Offset: 0x11D806C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x11BD7AC
+    // Offset: 0x11D8100
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -71,5 +71,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteDebrisTesterInstaller), 48 + sizeof(GlobalNamespace::NoteDebris*)> __GlobalNamespace_NoteDebrisTesterInstallerSizeCheck;
   static_assert(sizeof(NoteDebrisTesterInstaller) == 0x38);
+  // Writing MetadataGetter for method: NoteDebrisTesterInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisTesterInstaller::*)()>(&NoteDebrisTesterInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteDebrisTesterInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteDebrisTesterInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisTesterInstaller::*)()>(&NoteDebrisTesterInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteDebrisTesterInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisTesterInstaller::*)()>(&NoteDebrisTesterInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteDebrisTesterInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisTesterInstaller*, "", "NoteDebrisTesterInstaller");

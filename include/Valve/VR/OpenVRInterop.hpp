@@ -33,31 +33,31 @@ namespace Valve::VR {
     // Creating value type constructor for type: OpenVRInterop
     OpenVRInterop() noexcept {}
     // static System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x23895D8
+    // Offset: 0x23A4C0C
     static uint InitInternal(Valve::VR::EVRInitError& peError, Valve::VR::EVRApplicationType eApplicationType);
     // static System.Void ShutdownInternal()
-    // Offset: 0x2389668
+    // Offset: 0x23A4C9C
     static void ShutdownInternal();
     // static System.Boolean IsHmdPresent()
-    // Offset: 0x23896D8
+    // Offset: 0x23A4D0C
     static bool IsHmdPresent();
     // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0x2389754
+    // Offset: 0x23A4D88
     static bool IsRuntimeInstalled();
     // static System.IntPtr GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x23897D0
+    // Offset: 0x23A4E04
     static System::IntPtr GetStringForHmdError(Valve::VR::EVRInitError error);
     // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x2388DB0
+    // Offset: 0x23A43E4
     static System::IntPtr GetGenericInterface(::Il2CppString*& pchInterfaceVersion, Valve::VR::EVRInitError& peError);
     // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
-    // Offset: 0x2389850
+    // Offset: 0x23A4E84
     static bool IsInterfaceVersionValid(::Il2CppString*& pchInterfaceVersion);
     // static System.UInt32 GetInitToken()
-    // Offset: 0x23898EC
+    // Offset: 0x23A4F20
     static uint GetInitToken();
     // public System.Void .ctor()
-    // Offset: 0x2389960
+    // Offset: 0x23A4F94
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,5 +67,83 @@ namespace Valve::VR {
     }
   }; // Valve.VR.OpenVRInterop
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OpenVRInterop::InitInternal
+  // Il2CppName: InitInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Valve::VR::EVRInitError&, Valve::VR::EVRApplicationType)>(&OpenVRInterop::InitInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "InitInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::ShutdownInternal
+  // Il2CppName: ShutdownInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OpenVRInterop::ShutdownInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "ShutdownInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::IsHmdPresent
+  // Il2CppName: IsHmdPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OpenVRInterop::IsHmdPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "IsHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::IsRuntimeInstalled
+  // Il2CppName: IsRuntimeInstalled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OpenVRInterop::IsRuntimeInstalled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "IsRuntimeInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::GetStringForHmdError
+  // Il2CppName: GetStringForHmdError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(Valve::VR::EVRInitError)>(&OpenVRInterop::GetStringForHmdError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "GetStringForHmdError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::GetGenericInterface
+  // Il2CppName: GetGenericInterface
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*&, Valve::VR::EVRInitError&)>(&OpenVRInterop::GetGenericInterface)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "GetGenericInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRInitError&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::IsInterfaceVersionValid
+  // Il2CppName: IsInterfaceVersionValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*&)>(&OpenVRInterop::IsInterfaceVersionValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "IsInterfaceVersionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::GetInitToken
+  // Il2CppName: GetInitToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&OpenVRInterop::GetInitToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), "GetInitToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OpenVRInterop::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVRInterop::*)()>(&OpenVRInterop::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVRInterop::*)()>(&OpenVRInterop::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OpenVRInterop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVRInterop*, "Valve.VR", "OpenVRInterop");

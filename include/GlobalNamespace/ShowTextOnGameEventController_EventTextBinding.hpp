@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Signal* signal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
-    // [TextAreaAttribute] Offset: 0xE2A558
+    // [TextAreaAttribute] Offset: 0xE2A5BC
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EventTextBinding
     EventTextBinding(GlobalNamespace::Signal* signal_ = {}, ::Il2CppString* text_ = {}, GlobalNamespace::TextFadeTransitions* textFadeTransitions_ = {}) noexcept : signal{signal_}, text{text_}, textFadeTransitions{textFadeTransitions_} {}
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
-    // Offset: 0x10EC678
+    // Offset: 0x10DD810
     void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
-    // Offset: 0x10EC774
+    // Offset: 0x10DD90C
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x10EC808
+    // Offset: 0x10DD9A0
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0x10EC844
+    // Offset: 0x10DD9DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -70,5 +70,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ShowTextOnGameEventController::EventTextBinding), 32 + sizeof(GlobalNamespace::TextFadeTransitions*)> __GlobalNamespace_ShowTextOnGameEventController_EventTextBindingSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController::EventTextBinding) == 0x28);
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::EventTextBinding::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::EventTextBinding::*)(GlobalNamespace::TextFadeTransitions*)>(&ShowTextOnGameEventController::EventTextBinding::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController::EventTextBinding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TextFadeTransitions*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::EventTextBinding::Deinit
+  // Il2CppName: Deinit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::EventTextBinding::*)()>(&ShowTextOnGameEventController::EventTextBinding::Deinit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController::EventTextBinding*), "Deinit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::EventTextBinding::HandleGameEvent
+  // Il2CppName: HandleGameEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::EventTextBinding::*)()>(&ShowTextOnGameEventController::EventTextBinding::HandleGameEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController::EventTextBinding*), "HandleGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ShowTextOnGameEventController::EventTextBinding::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::EventTextBinding::*)()>(&ShowTextOnGameEventController::EventTextBinding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController::EventTextBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowTextOnGameEventController::EventTextBinding::*)()>(&ShowTextOnGameEventController::EventTextBinding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ShowTextOnGameEventController::EventTextBinding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");

@@ -147,35 +147,35 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t)> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
     static_assert(sizeof(LocalNetworkDiscoveryManager::PacketType) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xE17D34
+    // [CompilerGeneratedAttribute] Offset: 0xE17D10
     // private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* peerUpdatedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE17D44
+    // [CompilerGeneratedAttribute] Offset: 0xE17D20
     // private LocalNetworkDiscoveryManager/JoinRequestedDelegate joinRequestedEvent
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* joinRequestedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE17D54
+    // [CompilerGeneratedAttribute] Offset: 0xE17D30
     // private LocalNetworkDiscoveryManager/JoinRespondedDelegate joinRespondedEvent
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* joinRespondedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE17D64
+    // [CompilerGeneratedAttribute] Offset: 0xE17D40
     // private LocalNetworkDiscoveryManager/InviteRequestedDelegate inviteRequestedEvent
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* inviteRequestedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE17D74
+    // [CompilerGeneratedAttribute] Offset: 0xE17D50
     // private LocalNetworkDiscoveryManager/InviteRespondedDelegate inviteRespondedEvent
     // Size: 0x8
     // Offset: 0x38
@@ -259,94 +259,94 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte kVersion
     static void _set_kVersion(uint8_t value);
     // public System.Void add_peerUpdatedEvent(LocalNetworkDiscoveryManager/PeerUpdatedDelegate value)
-    // Offset: 0x10CD6E0
+    // Offset: 0x23F8860
     void add_peerUpdatedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* value);
     // public System.Void remove_peerUpdatedEvent(LocalNetworkDiscoveryManager/PeerUpdatedDelegate value)
-    // Offset: 0x10CD784
+    // Offset: 0x23F8904
     void remove_peerUpdatedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate* value);
     // public System.Void add_joinRequestedEvent(LocalNetworkDiscoveryManager/JoinRequestedDelegate value)
-    // Offset: 0x10CD828
+    // Offset: 0x23F89A8
     void add_joinRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* value);
     // public System.Void remove_joinRequestedEvent(LocalNetworkDiscoveryManager/JoinRequestedDelegate value)
-    // Offset: 0x10CD8CC
+    // Offset: 0x23F8A4C
     void remove_joinRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate* value);
     // public System.Void add_joinRespondedEvent(LocalNetworkDiscoveryManager/JoinRespondedDelegate value)
-    // Offset: 0x10CD970
+    // Offset: 0x23F8AF0
     void add_joinRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* value);
     // public System.Void remove_joinRespondedEvent(LocalNetworkDiscoveryManager/JoinRespondedDelegate value)
-    // Offset: 0x10CDA14
+    // Offset: 0x23F8B94
     void remove_joinRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate* value);
     // public System.Void add_inviteRequestedEvent(LocalNetworkDiscoveryManager/InviteRequestedDelegate value)
-    // Offset: 0x10CDAB8
+    // Offset: 0x23F8C38
     void add_inviteRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* value);
     // public System.Void remove_inviteRequestedEvent(LocalNetworkDiscoveryManager/InviteRequestedDelegate value)
-    // Offset: 0x10CDB5C
+    // Offset: 0x23F8CDC
     void remove_inviteRequestedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate* value);
     // public System.Void add_inviteRespondedEvent(LocalNetworkDiscoveryManager/InviteRespondedDelegate value)
-    // Offset: 0x10CDC00
+    // Offset: 0x23F8D80
     void add_inviteRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate* value);
     // public System.Void remove_inviteRespondedEvent(LocalNetworkDiscoveryManager/InviteRespondedDelegate value)
-    // Offset: 0x10CDCA4
+    // Offset: 0x23F8E24
     void remove_inviteRespondedEvent(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate* value);
     // public System.String get_userId()
-    // Offset: 0x10CDD48
+    // Offset: 0x23F8EC8
     ::Il2CppString* get_userId();
     // public System.String get_userName()
-    // Offset: 0x10CDD64
+    // Offset: 0x23F8EE4
     ::Il2CppString* get_userName();
     // public System.Byte get_flags()
-    // Offset: 0x10CDD80
+    // Offset: 0x23F8F00
     uint8_t get_flags();
     // public System.Void set_flags(System.Byte value)
-    // Offset: 0x10CDD9C
+    // Offset: 0x23F8F1C
     void set_flags(uint8_t value);
     // public System.Int32 get_currentPartySize()
-    // Offset: 0x10CDDCC
+    // Offset: 0x23F8F4C
     int get_currentPartySize();
     // public System.Void set_currentPartySize(System.Int32 value)
-    // Offset: 0x10CDDE8
+    // Offset: 0x23F8F68
     void set_currentPartySize(int value);
     // public System.Int32 get_maxPartySize()
-    // Offset: 0x10CDE18
+    // Offset: 0x23F8F98
     int get_maxPartySize();
     // public System.Void set_maxPartySize(System.Int32 value)
-    // Offset: 0x10CDE34
+    // Offset: 0x23F8FB4
     void set_maxPartySize(int value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x10CDE64
+    // Offset: 0x23F8FE4
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x10CDE8C
+    // Offset: 0x23F900C
     void set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public System.Boolean get_enableBroadcasting()
-    // Offset: 0x10CDF24
+    // Offset: 0x23F90A4
     bool get_enableBroadcasting();
     // public System.Void set_enableBroadcasting(System.Boolean value)
-    // Offset: 0x10CDF2C
+    // Offset: 0x23F90AC
     void set_enableBroadcasting(bool value);
     // public System.Void Init(System.Int32 discoveryPort, System.String initUserId, System.String initUserName)
-    // Offset: 0x10CDF38
+    // Offset: 0x23F90B8
     void Init(int discoveryPort, ::Il2CppString* initUserId, ::Il2CppString* initUserName);
     // protected System.Void OnEnable()
-    // Offset: 0x10CE200
+    // Offset: 0x23F9380
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x10CE214
+    // Offset: 0x23F9394
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x10CE228
+    // Offset: 0x23F93A8
     void Update();
     // public System.Void SendJoinRequest(System.Net.IPAddress ip)
-    // Offset: 0x10CE2E8
+    // Offset: 0x23F9468
     void SendJoinRequest(System::Net::IPAddress* ip);
     // public System.Void SendJoinResponse(System.Net.IPAddress ip, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked)
-    // Offset: 0x10CE3E8
+    // Offset: 0x23F9568
     void SendJoinResponse(System::Net::IPAddress* ip, ::Il2CppString* secret, int multiplayerPort, bool blocked);
     // public System.Void SendInviteRequest(System.Net.IPAddress ip, System.String secret, System.Int32 multiplayerPort)
-    // Offset: 0x10CE4F0
+    // Offset: 0x23F9670
     void SendInviteRequest(System::Net::IPAddress* ip, ::Il2CppString* secret, int multiplayerPort);
     // public System.Void SendInviteResponse(System.Net.IPAddress ip, System.Boolean accepted, System.Boolean blocked)
-    // Offset: 0x10CE604
+    // Offset: 0x23F9784
     void SendInviteResponse(System::Net::IPAddress* ip, bool accepted, bool blocked);
     // private LiteNetLib.Utils.NetDataWriter WritePacket(T packet)
     // Offset: 0xFFFFFFFF
@@ -359,43 +359,43 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetDataWriter*, false>(this, ___generic__method, packet);
     }
     // private System.Void LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
-    // Offset: 0x10CE704
+    // Offset: 0x23F9884
     void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
     // private System.Void LiteNetLib.INetEventListener.OnConnectionRequest(LiteNetLib.ConnectionRequest request)
-    // Offset: 0x10CE7B0
+    // Offset: 0x23F9930
     void LiteNetLib_INetEventListener_OnConnectionRequest(LiteNetLib::ConnectionRequest* request);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketErrorCode)
-    // Offset: 0x10CE7CC
+    // Offset: 0x23F994C
     void LiteNetLib_INetEventListener_OnNetworkError(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketErrorCode);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
-    // Offset: 0x10CE87C
+    // Offset: 0x23F99FC
     void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(LiteNetLib::NetPeer* peer, int latency);
     // private System.Void LiteNetLib.INetEventListener.OnPeerConnected(LiteNetLib.NetPeer peer)
-    // Offset: 0x10CE880
+    // Offset: 0x23F9A00
     void LiteNetLib_INetEventListener_OnPeerConnected(LiteNetLib::NetPeer* peer);
     // private System.Void LiteNetLib.INetEventListener.OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
-    // Offset: 0x10CE884
+    // Offset: 0x23F9A04
     void LiteNetLib_INetEventListener_OnPeerDisconnected(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
     // private System.Void LiteNetLib.INetEventListener.OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x10CE888
+    // Offset: 0x23F9A08
     void LiteNetLib_INetEventListener_OnNetworkReceive(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void <Init>b__56_0(LocalNetworkDiscoveryManager/BroadcastPacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x10CE954
+    // Offset: 0x23F9AD4
     void $Init$b__56_0(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_1(LocalNetworkDiscoveryManager/JoinRequestPacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x10CF04C
+    // Offset: 0x23FA1CC
     void $Init$b__56_1(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_2(LocalNetworkDiscoveryManager/JoinResponsePacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x10CF4C0
+    // Offset: 0x23FA640
     void $Init$b__56_2(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_3(LocalNetworkDiscoveryManager/InviteRequestPacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x10CF928
+    // Offset: 0x23FAAA8
     void $Init$b__56_3(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket* packet, System::Net::IPEndPoint* endPoint);
     // private System.Void <Init>b__56_4(LocalNetworkDiscoveryManager/InviteResponsePacket packet, System.Net.IPEndPoint endPoint)
-    // Offset: 0x10CFE08
+    // Offset: 0x23FAF88
     void $Init$b__56_4(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket* packet, System::Net::IPEndPoint* endPoint);
     // public System.Void .ctor()
-    // Offset: 0x10CE88C
+    // Offset: 0x23F9A0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -411,6 +411,359 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float)> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager) == 0x6C);
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::add_peerUpdatedEvent
+  // Il2CppName: add_peerUpdatedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*)>(&LocalNetworkDiscoveryManager::add_peerUpdatedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "add_peerUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::remove_peerUpdatedEvent
+  // Il2CppName: remove_peerUpdatedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*)>(&LocalNetworkDiscoveryManager::remove_peerUpdatedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "remove_peerUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::add_joinRequestedEvent
+  // Il2CppName: add_joinRequestedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*)>(&LocalNetworkDiscoveryManager::add_joinRequestedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "add_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::remove_joinRequestedEvent
+  // Il2CppName: remove_joinRequestedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*)>(&LocalNetworkDiscoveryManager::remove_joinRequestedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "remove_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::add_joinRespondedEvent
+  // Il2CppName: add_joinRespondedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*)>(&LocalNetworkDiscoveryManager::add_joinRespondedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "add_joinRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::remove_joinRespondedEvent
+  // Il2CppName: remove_joinRespondedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*)>(&LocalNetworkDiscoveryManager::remove_joinRespondedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "remove_joinRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::add_inviteRequestedEvent
+  // Il2CppName: add_inviteRequestedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*)>(&LocalNetworkDiscoveryManager::add_inviteRequestedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "add_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::remove_inviteRequestedEvent
+  // Il2CppName: remove_inviteRequestedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*)>(&LocalNetworkDiscoveryManager::remove_inviteRequestedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "remove_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::add_inviteRespondedEvent
+  // Il2CppName: add_inviteRespondedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*)>(&LocalNetworkDiscoveryManager::add_inviteRespondedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "add_inviteRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::remove_inviteRespondedEvent
+  // Il2CppName: remove_inviteRespondedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*)>(&LocalNetworkDiscoveryManager::remove_inviteRespondedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "remove_inviteRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_userId
+  // Il2CppName: get_userId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_userId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_userName
+  // Il2CppName: get_userName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_userName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_flags
+  // Il2CppName: get_flags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_flags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::set_flags
+  // Il2CppName: set_flags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(uint8_t)>(&LocalNetworkDiscoveryManager::set_flags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "set_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_currentPartySize
+  // Il2CppName: get_currentPartySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_currentPartySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::set_currentPartySize
+  // Il2CppName: set_currentPartySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(int)>(&LocalNetworkDiscoveryManager::set_currentPartySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "set_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_maxPartySize
+  // Il2CppName: get_maxPartySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_maxPartySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::set_maxPartySize
+  // Il2CppName: set_maxPartySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(int)>(&LocalNetworkDiscoveryManager::set_maxPartySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_configuration
+  // Il2CppName: get_configuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_configuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::set_configuration
+  // Il2CppName: set_configuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::GameplayServerConfiguration)>(&LocalNetworkDiscoveryManager::set_configuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "set_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::get_enableBroadcasting
+  // Il2CppName: get_enableBroadcasting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::get_enableBroadcasting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "get_enableBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::set_enableBroadcasting
+  // Il2CppName: set_enableBroadcasting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(bool)>(&LocalNetworkDiscoveryManager::set_enableBroadcasting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "set_enableBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(int, ::Il2CppString*, ::Il2CppString*)>(&LocalNetworkDiscoveryManager::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::SendJoinRequest
+  // Il2CppName: SendJoinRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*)>(&LocalNetworkDiscoveryManager::SendJoinRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "SendJoinRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::SendJoinResponse
+  // Il2CppName: SendJoinResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, ::Il2CppString*, int, bool)>(&LocalNetworkDiscoveryManager::SendJoinResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::SendInviteRequest
+  // Il2CppName: SendInviteRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, ::Il2CppString*, int)>(&LocalNetworkDiscoveryManager::SendInviteRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "SendInviteRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::SendInviteResponse
+  // Il2CppName: SendInviteResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, bool, bool)>(&LocalNetworkDiscoveryManager::SendInviteResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::WritePacket
+  // Il2CppName: WritePacket
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected
+  // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::UnconnectedMessageType>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnConnectionRequest
+  // Il2CppName: LiteNetLib.INetEventListener.OnConnectionRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(LiteNetLib::ConnectionRequest*)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkError
+  // Il2CppName: LiteNetLib.INetEventListener.OnNetworkError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate
+  // Il2CppName: LiteNetLib.INetEventListener.OnNetworkLatencyUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, int)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerConnected
+  // Il2CppName: LiteNetLib.INetEventListener.OnPeerConnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerDisconnected
+  // Il2CppName: LiteNetLib.INetEventListener.OnPeerDisconnected
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectInfo>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceive
+  // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::$Init$b__56_0
+  // Il2CppName: <Init>b__56_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, System::Net::IPEndPoint*)>(&LocalNetworkDiscoveryManager::$Init$b__56_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "<Init>b__56_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::$Init$b__56_1
+  // Il2CppName: <Init>b__56_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*, System::Net::IPEndPoint*)>(&LocalNetworkDiscoveryManager::$Init$b__56_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "<Init>b__56_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::$Init$b__56_2
+  // Il2CppName: <Init>b__56_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*, System::Net::IPEndPoint*)>(&LocalNetworkDiscoveryManager::$Init$b__56_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "<Init>b__56_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::$Init$b__56_3
+  // Il2CppName: <Init>b__56_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*, System::Net::IPEndPoint*)>(&LocalNetworkDiscoveryManager::$Init$b__56_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "<Init>b__56_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::$Init$b__56_4
+  // Il2CppName: <Init>b__56_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*, System::Net::IPEndPoint*)>(&LocalNetworkDiscoveryManager::$Init$b__56_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), "<Init>b__56_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LocalNetworkDiscoveryManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::*)()>(&LocalNetworkDiscoveryManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");

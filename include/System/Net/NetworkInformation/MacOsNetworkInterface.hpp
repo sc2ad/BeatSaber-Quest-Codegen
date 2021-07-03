@@ -40,19 +40,19 @@ namespace System::Net::NetworkInformation {
       return ifa_flags;
     }
     // System.Void .ctor(System.String name, System.UInt32 ifa_flags)
-    // Offset: 0x1474248
+    // Offset: 0x148EF58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MacOsNetworkInterface* New_ctor(::Il2CppString* name, uint ifa_flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MacOsNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MacOsNetworkInterface*, creationType>(name, ifa_flags)));
     }
     // public override System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
-    // Offset: 0x1474270
+    // Offset: 0x148EF80
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.IPInterfaceProperties NetworkInterface::GetIPProperties()
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
-    // Offset: 0x14742EC
+    // Offset: 0x148EFFC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.Net.NetworkInformation.OperationalStatus NetworkInterface::get_OperationalStatus()
     System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
@@ -60,5 +60,35 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
   static check_size<sizeof(MacOsNetworkInterface), 52 + sizeof(uint)> __System_Net_NetworkInformation_MacOsNetworkInterfaceSizeCheck;
   static_assert(sizeof(MacOsNetworkInterface) == 0x38);
+  // Writing MetadataGetter for method: MacOsNetworkInterface::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsNetworkInterface::*)(::Il2CppString*, uint)>(&MacOsNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacOsNetworkInterface::*)(::Il2CppString*, uint)>(&MacOsNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: MacOsNetworkInterface::GetIPProperties
+  // Il2CppName: GetIPProperties
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (MacOsNetworkInterface::*)()>(&MacOsNetworkInterface::GetIPProperties)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MacOsNetworkInterface::get_OperationalStatus
+  // Il2CppName: get_OperationalStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (MacOsNetworkInterface::*)()>(&MacOsNetworkInterface::get_OperationalStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MacOsNetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsNetworkInterface*, "System.Net.NetworkInformation", "MacOsNetworkInterface");

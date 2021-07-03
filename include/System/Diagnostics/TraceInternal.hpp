@@ -37,7 +37,7 @@ namespace System::Diagnostics {
     static bool _get_useGlobalLock();
     // Set static field: static private System.Boolean useGlobalLock
     static void _set_useGlobalLock(bool value);
-    // [ThreadStaticAttribute] Offset: 0xD888D4
+    // [ThreadStaticAttribute] Offset: 0xD88854
     // Get static field: static private System.Int32 indentLevel
     static int _get_indentLevel();
     // Set static field: static private System.Int32 indentLevel
@@ -51,34 +51,106 @@ namespace System::Diagnostics {
     // Set static field: static readonly System.Object critSec
     static void _set_critSec(::Il2CppObject* value);
     // static public System.Diagnostics.TraceListenerCollection get_Listeners()
-    // Offset: 0x18544E0
+    // Offset: 0x186C1F0
     static System::Diagnostics::TraceListenerCollection* get_Listeners();
     // static public System.Boolean get_AutoFlush()
-    // Offset: 0x185496C
+    // Offset: 0x186C67C
     static bool get_AutoFlush();
     // static public System.Boolean get_UseGlobalLock()
-    // Offset: 0x18549DC
+    // Offset: 0x186C6EC
     static bool get_UseGlobalLock();
     // static public System.Int32 get_IndentLevel()
-    // Offset: 0x1854A4C
+    // Offset: 0x186C75C
     static int get_IndentLevel();
     // static public System.Int32 get_IndentSize()
-    // Offset: 0x1854AB4
+    // Offset: 0x186C7C4
     static int get_IndentSize();
     // static public System.Void Assert(System.Boolean condition)
-    // Offset: 0x1851A70
+    // Offset: 0x1869780
     static void Assert_(bool condition);
     // static public System.Void Fail(System.String message)
-    // Offset: 0x1854B24
+    // Offset: 0x186C834
     static void Fail(::Il2CppString* message);
     // static private System.Void InitializeSettings()
-    // Offset: 0x1854708
+    // Offset: 0x186C418
     static void InitializeSettings();
     // static private System.Void .cctor()
-    // Offset: 0x18552BC
+    // Offset: 0x186CFCC
     static void _cctor();
   }; // System.Diagnostics.TraceInternal
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TraceInternal::get_Listeners
+  // Il2CppName: get_Listeners
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::TraceListenerCollection* (*)()>(&TraceInternal::get_Listeners)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_Listeners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::get_AutoFlush
+  // Il2CppName: get_AutoFlush
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TraceInternal::get_AutoFlush)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_AutoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::get_UseGlobalLock
+  // Il2CppName: get_UseGlobalLock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TraceInternal::get_UseGlobalLock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_UseGlobalLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::get_IndentLevel
+  // Il2CppName: get_IndentLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TraceInternal::get_IndentLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_IndentLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::get_IndentSize
+  // Il2CppName: get_IndentSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TraceInternal::get_IndentSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "get_IndentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::Assert_
+  // Il2CppName: Assert
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TraceInternal::Assert_)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "Assert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::Fail
+  // Il2CppName: Fail
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&TraceInternal::Fail)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::InitializeSettings
+  // Il2CppName: InitializeSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TraceInternal::InitializeSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), "InitializeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TraceInternal::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TraceInternal::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TraceInternal*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");

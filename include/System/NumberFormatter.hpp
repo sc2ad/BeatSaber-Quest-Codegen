@@ -180,266 +180,920 @@ namespace System {
     static int* _get_DecHexDigits();
     // Set static field: static private readonly System.Int32* DecHexDigits
     static void _set_DecHexDigits(int* value);
-    // [ThreadStaticAttribute] Offset: 0xD8120C
+    // [ThreadStaticAttribute] Offset: 0xD8118C
     // Get static field: static private System.NumberFormatter threadNumberFormatter
     static System::NumberFormatter* _get_threadNumberFormatter();
     // Set static field: static private System.NumberFormatter threadNumberFormatter
     static void _set_threadNumberFormatter(System::NumberFormatter* value);
-    // [ThreadStaticAttribute] Offset: 0xD8121C
+    // [ThreadStaticAttribute] Offset: 0xD8119C
     // Get static field: static private System.NumberFormatter userFormatProvider
     static System::NumberFormatter* _get_userFormatProvider();
     // Set static field: static private System.NumberFormatter userFormatProvider
     static void _set_userFormatProvider(System::NumberFormatter* value);
     // static private System.Void GetFormatterTables(out System.UInt64* MantissaBitsTable, out System.Int32* TensExponentTable, out System.Char* DigitLowerTable, out System.Char* DigitUpperTable, out System.Int64* TenPowersList, out System.Int32* DecHexDigits)
-    // Offset: 0x1810054
+    // Offset: 0x1827D64
     static void GetFormatterTables(uint64_t*& MantissaBitsTable, int*& TensExponentTable, ::Il2CppChar*& DigitLowerTable, ::Il2CppChar*& DigitUpperTable, int64_t*& TenPowersList, int*& DecHexDigits);
     // static private System.Void .cctor()
-    // Offset: 0x1810058
+    // Offset: 0x1827D68
     static void _cctor();
     // static private System.Int64 GetTenPowerOf(System.Int32 i)
-    // Offset: 0x18100B8
+    // Offset: 0x1827DC8
     static int64_t GetTenPowerOf(int i);
     // private System.Void InitDecHexDigits(System.UInt32 value)
-    // Offset: 0x1810128
+    // Offset: 0x1827E38
     void InitDecHexDigits(uint value);
     // private System.Void InitDecHexDigits(System.UInt64 value)
-    // Offset: 0x1810384
+    // Offset: 0x1828094
     void InitDecHexDigits(uint64_t value);
     // private System.Void InitDecHexDigits(System.UInt32 hi, System.UInt64 lo)
-    // Offset: 0x18104A8
+    // Offset: 0x18281B8
     void InitDecHexDigits(uint hi, uint64_t lo);
     // static private System.UInt32 FastToDecHex(System.Int32 val)
-    // Offset: 0x18101F0
+    // Offset: 0x1827F00
     static uint FastToDecHex(int val);
     // static private System.UInt32 ToDecHex(System.Int32 val)
-    // Offset: 0x18102C0
+    // Offset: 0x1827FD0
     static uint ToDecHex(int val);
     // static private System.Int32 FastDecHexLen(System.Int32 val)
-    // Offset: 0x1810674
+    // Offset: 0x1828384
     static int FastDecHexLen(int val);
     // static private System.Int32 DecHexLen(System.UInt32 val)
-    // Offset: 0x181069C
+    // Offset: 0x18283AC
     static int DecHexLen(uint val);
     // private System.Int32 DecHexLen()
-    // Offset: 0x1810764
+    // Offset: 0x1828474
     int DecHexLen();
     // static private System.Int32 ScaleOrder(System.Int64 hi)
-    // Offset: 0x1810888
+    // Offset: 0x1828598
     static int ScaleOrder(int64_t hi);
     // private System.Int32 InitialFloatingPrecision()
-    // Offset: 0x181091C
+    // Offset: 0x182862C
     int InitialFloatingPrecision();
     // static private System.Int32 ParsePrecision(System.String format)
-    // Offset: 0x18109F4
+    // Offset: 0x1828704
     static int ParsePrecision(::Il2CppString* format);
     // private System.Void .ctor(System.Threading.Thread current)
-    // Offset: 0x1810A90
+    // Offset: 0x18287A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NumberFormatter* New_ctor(System::Threading::Thread* current) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::NumberFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatter*, creationType>(current)));
     }
     // private System.Void Init(System.String format)
-    // Offset: 0x1810B9C
+    // Offset: 0x18288AC
     void Init(::Il2CppString* format);
     // private System.Void InitHex(System.UInt64 value)
-    // Offset: 0x1810CC4
+    // Offset: 0x18289D4
     void InitHex(uint64_t value);
     // private System.Void Init(System.String format, System.Int32 value, System.Int32 defPrecision)
-    // Offset: 0x1810D0C
+    // Offset: 0x1828A1C
     void Init(::Il2CppString* format, int value, int defPrecision);
     // private System.Void Init(System.String format, System.UInt32 value, System.Int32 defPrecision)
-    // Offset: 0x1810DB0
+    // Offset: 0x1828AC0
     void Init(::Il2CppString* format, uint value, int defPrecision);
     // private System.Void Init(System.String format, System.Int64 value)
-    // Offset: 0x1810E38
+    // Offset: 0x1828B48
     void Init(::Il2CppString* format, int64_t value);
     // private System.Void Init(System.String format, System.UInt64 value)
-    // Offset: 0x1810EC4
+    // Offset: 0x1828BD4
     void Init(::Il2CppString* format, uint64_t value);
     // private System.Void Init(System.String format, System.Double value, System.Int32 defPrecision)
-    // Offset: 0x1810F48
+    // Offset: 0x1828C58
     void Init(::Il2CppString* format, double value, int defPrecision);
     // private System.Void Init(System.String format, System.Decimal value)
-    // Offset: 0x1811350
+    // Offset: 0x1829060
     void Init(::Il2CppString* format, System::Decimal value);
     // private System.Void ResetCharBuf(System.Int32 size)
-    // Offset: 0x18114C4
+    // Offset: 0x18291D4
     void ResetCharBuf(int size);
     // private System.Void Resize(System.Int32 len)
-    // Offset: 0x1811544
+    // Offset: 0x1829254
     void Resize(int len);
     // private System.Void Append(System.Char c)
-    // Offset: 0x18115A4
+    // Offset: 0x18292B4
     void Append(::Il2CppChar c);
     // private System.Void Append(System.Char c, System.Int32 cnt)
-    // Offset: 0x1811628
+    // Offset: 0x1829338
     void Append(::Il2CppChar c, int cnt);
     // private System.Void Append(System.String s)
-    // Offset: 0x18116CC
+    // Offset: 0x18293DC
     void Append(::Il2CppString* s);
     // private System.Globalization.NumberFormatInfo GetNumberFormatInstance(System.IFormatProvider fp)
-    // Offset: 0x181178C
+    // Offset: 0x182949C
     System::Globalization::NumberFormatInfo* GetNumberFormatInstance(System::IFormatProvider* fp);
     // private System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
-    // Offset: 0x1810B50
+    // Offset: 0x1828860
     void set_CurrentCulture(System::Globalization::CultureInfo* value);
     // private System.Int32 get_IntegerDigits()
-    // Offset: 0x18117A8
+    // Offset: 0x18294B8
     int get_IntegerDigits();
     // private System.Int32 get_DecimalDigits()
-    // Offset: 0x18117B8
+    // Offset: 0x18294C8
     int get_DecimalDigits();
     // private System.Boolean get_IsFloatingSource()
-    // Offset: 0x18117CC
+    // Offset: 0x18294DC
     bool get_IsFloatingSource();
     // private System.Boolean get_IsZero()
-    // Offset: 0x18117E0
+    // Offset: 0x18294F0
     bool get_IsZero();
     // private System.Boolean get_IsZeroInteger()
-    // Offset: 0x18117F0
+    // Offset: 0x1829500
     bool get_IsZeroInteger();
     // private System.Void RoundPos(System.Int32 pos)
-    // Offset: 0x1811810
+    // Offset: 0x1829520
     void RoundPos(int pos);
     // private System.Boolean RoundDecimal(System.Int32 decimals)
-    // Offset: 0x1811988
+    // Offset: 0x1829698
     bool RoundDecimal(int decimals);
     // private System.Boolean RoundBits(System.Int32 shift)
-    // Offset: 0x181181C
+    // Offset: 0x182952C
     bool RoundBits(int shift);
     // private System.Void RemoveTrailingZeros()
-    // Offset: 0x1811AD0
+    // Offset: 0x18297E0
     void RemoveTrailingZeros();
     // private System.Void AddOneToDecHex()
-    // Offset: 0x181199C
+    // Offset: 0x18296AC
     void AddOneToDecHex();
     // static private System.UInt32 AddOneToDecHex(System.UInt32 val)
-    // Offset: 0x1811B14
+    // Offset: 0x1829824
     static uint AddOneToDecHex(uint val);
     // private System.Int32 CountTrailingZeros()
-    // Offset: 0x181122C
+    // Offset: 0x1828F3C
     int CountTrailingZeros();
     // static private System.Int32 CountTrailingZeros(System.UInt32 val)
-    // Offset: 0x1811BBC
+    // Offset: 0x18298CC
     static int CountTrailingZeros(uint val);
     // static private System.NumberFormatter GetInstance(System.IFormatProvider fp)
-    // Offset: 0x1811C10
+    // Offset: 0x1829920
     static System::NumberFormatter* GetInstance(System::IFormatProvider* fp);
     // private System.Void Release()
-    // Offset: 0x1811D88
+    // Offset: 0x1829A98
     void Release();
     // static public System.String NumberToString(System.String format, System.UInt32 value, System.IFormatProvider fp)
-    // Offset: 0x180E2D8
+    // Offset: 0x1825FE8
     static ::Il2CppString* NumberToString(::Il2CppString* format, uint value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Int32 value, System.IFormatProvider fp)
-    // Offset: 0x180E224
+    // Offset: 0x1825F34
     static ::Il2CppString* NumberToString(::Il2CppString* format, int value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.UInt64 value, System.IFormatProvider fp)
-    // Offset: 0x180E4B8
+    // Offset: 0x18261C8
     static ::Il2CppString* NumberToString(::Il2CppString* format, uint64_t value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Int64 value, System.IFormatProvider fp)
-    // Offset: 0x180E38C
+    // Offset: 0x182609C
     static ::Il2CppString* NumberToString(::Il2CppString* format, int64_t value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Single value, System.IFormatProvider fp)
-    // Offset: 0x180E5EC
+    // Offset: 0x18262FC
     static ::Il2CppString* NumberToString(::Il2CppString* format, float value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Double value, System.IFormatProvider fp)
-    // Offset: 0x180E0FC
+    // Offset: 0x1825E0C
     static ::Il2CppString* NumberToString(::Il2CppString* format, double value, System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Decimal value, System.IFormatProvider fp)
-    // Offset: 0x180DFA0
+    // Offset: 0x1825CB0
     static ::Il2CppString* NumberToString(::Il2CppString* format, System::Decimal value, System::IFormatProvider* fp);
     // private System.String IntegerToString(System.String format, System.IFormatProvider fp)
-    // Offset: 0x1811E20
+    // Offset: 0x1829B30
     ::Il2CppString* IntegerToString(::Il2CppString* format, System::IFormatProvider* fp);
     // private System.String NumberToString(System.String format, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x181209C
+    // Offset: 0x1829DAC
     ::Il2CppString* NumberToString(::Il2CppString* format, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatCurrency(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1812340
+    // Offset: 0x182A050
     ::Il2CppString* FormatCurrency(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatDecimal(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x18125A8
+    // Offset: 0x182A2B8
     ::Il2CppString* FormatDecimal(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatHexadecimal(System.Int32 precision)
-    // Offset: 0x1812BD8
+    // Offset: 0x182A8E8
     ::Il2CppString* FormatHexadecimal(int precision);
     // private System.String FormatFixedPoint(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x18126C4
+    // Offset: 0x182A3D4
     ::Il2CppString* FormatFixedPoint(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatRoundtrip(System.Double origval, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x181223C
+    // Offset: 0x1829F4C
     ::Il2CppString* FormatRoundtrip(double origval, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatRoundtrip(System.Single origval, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1812008
+    // Offset: 0x1829D18
     ::Il2CppString* FormatRoundtrip(float origval, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatGeneral(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x18127AC
+    // Offset: 0x182A4BC
     ::Il2CppString* FormatGeneral(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatNumber(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x18128FC
+    // Offset: 0x182A60C
     ::Il2CppString* FormatNumber(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatPercent(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1812A70
+    // Offset: 0x182A780
     ::Il2CppString* FormatPercent(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatExponential(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1812670
+    // Offset: 0x182A380
     ::Il2CppString* FormatExponential(int precision, System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatExponential(System.Int32 precision, System.Globalization.NumberFormatInfo nfi, System.Int32 expDigits)
-    // Offset: 0x1813804
+    // Offset: 0x182B514
     ::Il2CppString* FormatExponential(int precision, System::Globalization::NumberFormatInfo* nfi, int expDigits);
     // private System.String FormatCustom(System.String format, System.Globalization.NumberFormatInfo nfi)
-    // Offset: 0x1812D2C
+    // Offset: 0x182AA3C
     ::Il2CppString* FormatCustom(::Il2CppString* format, System::Globalization::NumberFormatInfo* nfi);
     // static private System.Void ZeroTrimEnd(System.Text.StringBuilder sb, System.Boolean canEmpty)
-    // Offset: 0x1814570
+    // Offset: 0x182C280
     static void ZeroTrimEnd(System::Text::StringBuilder* sb, bool canEmpty);
     // static private System.Boolean IsZeroOnly(System.Text.StringBuilder sb)
-    // Offset: 0x1814480
+    // Offset: 0x182C190
     static bool IsZeroOnly(System::Text::StringBuilder* sb);
     // static private System.Void AppendNonNegativeNumber(System.Text.StringBuilder sb, System.Int32 v)
-    // Offset: 0x18142D4
+    // Offset: 0x182BFE4
     static void AppendNonNegativeNumber(System::Text::StringBuilder* sb, int v);
     // private System.Void AppendIntegerString(System.Int32 minLength, System.Text.StringBuilder sb)
-    // Offset: 0x18143DC
+    // Offset: 0x182C0EC
     void AppendIntegerString(int minLength, System::Text::StringBuilder* sb);
     // private System.Void AppendIntegerString(System.Int32 minLength)
-    // Offset: 0x1813730
+    // Offset: 0x182B440
     void AppendIntegerString(int minLength);
     // private System.Void AppendDecimalString(System.Int32 precision, System.Text.StringBuilder sb)
-    // Offset: 0x1814460
+    // Offset: 0x182C170
     void AppendDecimalString(int precision, System::Text::StringBuilder* sb);
     // private System.Void AppendDecimalString(System.Int32 precision)
-    // Offset: 0x18134A4
+    // Offset: 0x182B1B4
     void AppendDecimalString(int precision);
     // private System.Void AppendIntegerStringWithGroupSeparator(System.Int32[] groups, System.String groupSeparator)
-    // Offset: 0x181325C
+    // Offset: 0x182AF6C
     void AppendIntegerStringWithGroupSeparator(::Array<int>* groups, ::Il2CppString* groupSeparator);
     // private System.Void AppendExponent(System.Globalization.NumberFormatInfo nfi, System.Int32 exponent, System.Int32 minDigits)
-    // Offset: 0x18139D0
+    // Offset: 0x182B6E0
     void AppendExponent(System::Globalization::NumberFormatInfo* nfi, int exponent, int minDigits);
     // private System.Void AppendOneDigit(System.Int32 start)
-    // Offset: 0x18138F4
+    // Offset: 0x182B604
     void AppendOneDigit(int start);
     // private System.Void AppendDigits(System.Int32 start, System.Int32 end)
-    // Offset: 0x18134BC
+    // Offset: 0x182B1CC
     void AppendDigits(int start, int end);
     // private System.Void AppendDigits(System.Int32 start, System.Int32 end, System.Text.StringBuilder sb)
-    // Offset: 0x1814DAC
+    // Offset: 0x182CABC
     void AppendDigits(int start, int end, System::Text::StringBuilder* sb);
     // private System.Void Multiply10(System.Int32 count)
-    // Offset: 0x18138D4
+    // Offset: 0x182B5E4
     void Multiply10(int count);
     // private System.Void Divide10(System.Int32 count)
-    // Offset: 0x18142B4
+    // Offset: 0x182BFC4
     void Divide10(int count);
     // private System.NumberFormatter GetClone()
-    // Offset: 0x1813798
+    // Offset: 0x182B4A8
     System::NumberFormatter* GetClone();
   }; // System.NumberFormatter
   #pragma pack(pop)
   static check_size<sizeof(NumberFormatter), 76 + sizeof(int)> __System_NumberFormatterSizeCheck;
   static_assert(sizeof(NumberFormatter) == 0x50);
+  // Writing MetadataGetter for method: NumberFormatter::GetFormatterTables
+  // Il2CppName: GetFormatterTables
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*&, int*&, ::Il2CppChar*&, ::Il2CppChar*&, int64_t*&, int*&)>(&NumberFormatter::GetFormatterTables)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "GetFormatterTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*&>(), ::il2cpp_utils::ExtractIndependentType<int*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<int64_t*&>(), ::il2cpp_utils::ExtractIndependentType<int*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NumberFormatter::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::GetTenPowerOf
+  // Il2CppName: GetTenPowerOf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int)>(&NumberFormatter::GetTenPowerOf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "GetTenPowerOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::InitDecHexDigits
+  // Il2CppName: InitDecHexDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(uint)>(&NumberFormatter::InitDecHexDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "InitDecHexDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::InitDecHexDigits
+  // Il2CppName: InitDecHexDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(uint64_t)>(&NumberFormatter::InitDecHexDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "InitDecHexDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::InitDecHexDigits
+  // Il2CppName: InitDecHexDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(uint, uint64_t)>(&NumberFormatter::InitDecHexDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "InitDecHexDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FastToDecHex
+  // Il2CppName: FastToDecHex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int)>(&NumberFormatter::FastToDecHex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FastToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::ToDecHex
+  // Il2CppName: ToDecHex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int)>(&NumberFormatter::ToDecHex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "ToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FastDecHexLen
+  // Il2CppName: FastDecHexLen
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&NumberFormatter::FastDecHexLen)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FastDecHexLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::DecHexLen
+  // Il2CppName: DecHexLen
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&NumberFormatter::DecHexLen)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "DecHexLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::DecHexLen
+  // Il2CppName: DecHexLen
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NumberFormatter::*)()>(&NumberFormatter::DecHexLen)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "DecHexLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::ScaleOrder
+  // Il2CppName: ScaleOrder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&NumberFormatter::ScaleOrder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "ScaleOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::InitialFloatingPrecision
+  // Il2CppName: InitialFloatingPrecision
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NumberFormatter::*)()>(&NumberFormatter::InitialFloatingPrecision)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "InitialFloatingPrecision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::ParsePrecision
+  // Il2CppName: ParsePrecision
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&NumberFormatter::ParsePrecision)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "ParsePrecision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(System::Threading::Thread*)>(&NumberFormatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(System::Threading::Thread*)>(&NumberFormatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::InitHex
+  // Il2CppName: InitHex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(uint64_t)>(&NumberFormatter::InitHex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "InitHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*, int, int)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*, uint, int)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*, int64_t)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*, uint64_t)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*, double, int)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*, System::Decimal)>(&NumberFormatter::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::ResetCharBuf
+  // Il2CppName: ResetCharBuf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::ResetCharBuf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "ResetCharBuf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Resize
+  // Il2CppName: Resize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::Resize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Resize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Append
+  // Il2CppName: Append
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppChar)>(&NumberFormatter::Append)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Append
+  // Il2CppName: Append
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppChar, int)>(&NumberFormatter::Append)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Append
+  // Il2CppName: Append
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Il2CppString*)>(&NumberFormatter::Append)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::GetNumberFormatInstance
+  // Il2CppName: GetNumberFormatInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (NumberFormatter::*)(System::IFormatProvider*)>(&NumberFormatter::GetNumberFormatInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "GetNumberFormatInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::set_CurrentCulture
+  // Il2CppName: set_CurrentCulture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(System::Globalization::CultureInfo*)>(&NumberFormatter::set_CurrentCulture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::get_IntegerDigits
+  // Il2CppName: get_IntegerDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NumberFormatter::*)()>(&NumberFormatter::get_IntegerDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "get_IntegerDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::get_DecimalDigits
+  // Il2CppName: get_DecimalDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NumberFormatter::*)()>(&NumberFormatter::get_DecimalDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "get_DecimalDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::get_IsFloatingSource
+  // Il2CppName: get_IsFloatingSource
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NumberFormatter::*)()>(&NumberFormatter::get_IsFloatingSource)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "get_IsFloatingSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::get_IsZero
+  // Il2CppName: get_IsZero
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NumberFormatter::*)()>(&NumberFormatter::get_IsZero)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "get_IsZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::get_IsZeroInteger
+  // Il2CppName: get_IsZeroInteger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NumberFormatter::*)()>(&NumberFormatter::get_IsZeroInteger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "get_IsZeroInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::RoundPos
+  // Il2CppName: RoundPos
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::RoundPos)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "RoundPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::RoundDecimal
+  // Il2CppName: RoundDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NumberFormatter::*)(int)>(&NumberFormatter::RoundDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "RoundDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::RoundBits
+  // Il2CppName: RoundBits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NumberFormatter::*)(int)>(&NumberFormatter::RoundBits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "RoundBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::RemoveTrailingZeros
+  // Il2CppName: RemoveTrailingZeros
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)()>(&NumberFormatter::RemoveTrailingZeros)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "RemoveTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AddOneToDecHex
+  // Il2CppName: AddOneToDecHex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)()>(&NumberFormatter::AddOneToDecHex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AddOneToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AddOneToDecHex
+  // Il2CppName: AddOneToDecHex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&NumberFormatter::AddOneToDecHex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AddOneToDecHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::CountTrailingZeros
+  // Il2CppName: CountTrailingZeros
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NumberFormatter::*)()>(&NumberFormatter::CountTrailingZeros)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "CountTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::CountTrailingZeros
+  // Il2CppName: CountTrailingZeros
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&NumberFormatter::CountTrailingZeros)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "CountTrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter* (*)(System::IFormatProvider*)>(&NumberFormatter::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)()>(&NumberFormatter::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint64_t, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int64_t, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, float, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, double, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Decimal, System::IFormatProvider*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::IntegerToString
+  // Il2CppName: IntegerToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(::Il2CppString*, System::IFormatProvider*)>(&NumberFormatter::IntegerToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "IntegerToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::NumberToString
+  // Il2CppName: NumberToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::NumberToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "NumberToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatCurrency
+  // Il2CppName: FormatCurrency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatCurrency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatCurrency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatDecimal
+  // Il2CppName: FormatDecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatDecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatHexadecimal
+  // Il2CppName: FormatHexadecimal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int)>(&NumberFormatter::FormatHexadecimal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatHexadecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatFixedPoint
+  // Il2CppName: FormatFixedPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatFixedPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatFixedPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatRoundtrip
+  // Il2CppName: FormatRoundtrip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(double, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatRoundtrip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatRoundtrip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatRoundtrip
+  // Il2CppName: FormatRoundtrip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(float, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatRoundtrip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatRoundtrip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatGeneral
+  // Il2CppName: FormatGeneral
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatGeneral)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatGeneral", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatNumber
+  // Il2CppName: FormatNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatPercent
+  // Il2CppName: FormatPercent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatPercent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatPercent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatExponential
+  // Il2CppName: FormatExponential
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatExponential)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatExponential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatExponential
+  // Il2CppName: FormatExponential
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*, int)>(&NumberFormatter::FormatExponential)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatExponential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::FormatCustom
+  // Il2CppName: FormatCustom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NumberFormatter::*)(::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&NumberFormatter::FormatCustom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "FormatCustom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::ZeroTrimEnd
+  // Il2CppName: ZeroTrimEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, bool)>(&NumberFormatter::ZeroTrimEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "ZeroTrimEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::IsZeroOnly
+  // Il2CppName: IsZeroOnly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Text::StringBuilder*)>(&NumberFormatter::IsZeroOnly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "IsZeroOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendNonNegativeNumber
+  // Il2CppName: AppendNonNegativeNumber
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&NumberFormatter::AppendNonNegativeNumber)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendNonNegativeNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendIntegerString
+  // Il2CppName: AppendIntegerString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int, System::Text::StringBuilder*)>(&NumberFormatter::AppendIntegerString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendIntegerString
+  // Il2CppName: AppendIntegerString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::AppendIntegerString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendDecimalString
+  // Il2CppName: AppendDecimalString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int, System::Text::StringBuilder*)>(&NumberFormatter::AppendDecimalString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendDecimalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendDecimalString
+  // Il2CppName: AppendDecimalString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::AppendDecimalString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendDecimalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendIntegerStringWithGroupSeparator
+  // Il2CppName: AppendIntegerStringWithGroupSeparator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(::Array<int>*, ::Il2CppString*)>(&NumberFormatter::AppendIntegerStringWithGroupSeparator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendIntegerStringWithGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendExponent
+  // Il2CppName: AppendExponent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(System::Globalization::NumberFormatInfo*, int, int)>(&NumberFormatter::AppendExponent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendExponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendOneDigit
+  // Il2CppName: AppendOneDigit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::AppendOneDigit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendOneDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendDigits
+  // Il2CppName: AppendDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int, int)>(&NumberFormatter::AppendDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::AppendDigits
+  // Il2CppName: AppendDigits
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int, int, System::Text::StringBuilder*)>(&NumberFormatter::AppendDigits)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "AppendDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Multiply10
+  // Il2CppName: Multiply10
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::Multiply10)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Multiply10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::Divide10
+  // Il2CppName: Divide10
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberFormatter::*)(int)>(&NumberFormatter::Divide10)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "Divide10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NumberFormatter::GetClone
+  // Il2CppName: GetClone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter* (NumberFormatter::*)()>(&NumberFormatter::GetClone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NumberFormatter*), "GetClone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");

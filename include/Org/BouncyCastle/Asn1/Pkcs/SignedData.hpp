@@ -75,23 +75,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Creating value type constructor for type: SignedData
     SignedData(Org::BouncyCastle::Asn1::DerInteger* version_ = {}, Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms_ = {}, Org::BouncyCastle::Asn1::Pkcs::ContentInfo* contentInfo_ = {}, Org::BouncyCastle::Asn1::Asn1Set* certificates_ = {}, Org::BouncyCastle::Asn1::Asn1Set* crls_ = {}, Org::BouncyCastle::Asn1::Asn1Set* signerInfos_ = {}) noexcept : version{version_}, digestAlgorithms{digestAlgorithms_}, contentInfo{contentInfo_}, certificates{certificates_}, crls{crls_}, signerInfos{signerInfos_} {}
     // static public Org.BouncyCastle.Asn1.Pkcs.SignedData GetInstance(System.Object obj)
-    // Offset: 0x172DA18
+    // Offset: 0x1745728
     static Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::Il2CppObject* obj);
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x172DABC
+    // Offset: 0x17457CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignedData* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::SignedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignedData*, creationType>(seq)));
     }
     // public Org.BouncyCastle.Asn1.Asn1Set get_Certificates()
-    // Offset: 0x172E048
+    // Offset: 0x1745D58
     Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
     // public Org.BouncyCastle.Asn1.Asn1Set get_Crls()
-    // Offset: 0x172E050
+    // Offset: 0x1745D60
     Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x172E058
+    // Offset: 0x1745D68
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -99,5 +99,51 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   #pragma pack(pop)
   static check_size<sizeof(SignedData), 56 + sizeof(Org::BouncyCastle::Asn1::Asn1Set*)> __Org_BouncyCastle_Asn1_Pkcs_SignedDataSizeCheck;
   static_assert(sizeof(SignedData) == 0x40);
+  // Writing MetadataGetter for method: SignedData::GetInstance
+  // Il2CppName: GetInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::SignedData* (*)(::Il2CppObject*)>(&SignedData::GetInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignedData*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SignedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignedData::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&SignedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignedData::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&SignedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SignedData::get_Certificates
+  // Il2CppName: get_Certificates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Set* (SignedData::*)()>(&SignedData::get_Certificates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignedData*), "get_Certificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SignedData::get_Crls
+  // Il2CppName: get_Crls
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Set* (SignedData::*)()>(&SignedData::get_Crls)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignedData*), "get_Crls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SignedData::ToAsn1Object
+  // Il2CppName: ToAsn1Object
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (SignedData::*)()>(&SignedData::ToAsn1Object)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SignedData*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::SignedData*, "Org.BouncyCastle.Asn1.Pkcs", "SignedData");

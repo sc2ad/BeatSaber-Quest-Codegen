@@ -67,25 +67,71 @@ namespace System::Runtime::CompilerServices {
         return *reinterpret_cast<System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(this);
       }
       // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-      // Offset: 0xEEBE80
+      // Offset: 0xEECE38
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  ConfiguredTaskAwaiter(System::Threading::Tasks::Task* task, bool continueOnCapturedContext)
       // public System.Boolean get_IsCompleted()
-      // Offset: 0xEEBE90
+      // Offset: 0xEECE48
       bool get_IsCompleted();
       // public System.Void OnCompleted(System.Action continuation)
-      // Offset: 0xEEBEAC
+      // Offset: 0xEECE64
       void OnCompleted(System::Action* continuation);
       // public System.Void UnsafeOnCompleted(System.Action continuation)
-      // Offset: 0xEEBEC0
+      // Offset: 0xEECE78
       void UnsafeOnCompleted(System::Action* continuation);
       // public System.Void GetResult()
-      // Offset: 0xEEBED4
+      // Offset: 0xEECE8C
       void GetResult();
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
     #pragma pack(pop)
     static check_size<sizeof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), 8 + sizeof(bool)> __System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiterSizeCheck;
     static_assert(sizeof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) == 0x9);
+    // Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::ConfiguredTaskAwaiter
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::*)(System::Threading::Tasks::Task*, bool)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::ConfiguredTaskAwaiter<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::*)(System::Threading::Tasks::Task*, bool)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::ConfiguredTaskAwaiter<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+      }
+    };
+    // Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::get_IsCompleted
+    // Il2CppName: get_IsCompleted
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::*)()>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::get_IsCompleted)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
+    // Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::OnCompleted
+    // Il2CppName: OnCompleted
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::*)(System::Action*)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::OnCompleted)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+      }
+    };
+    // Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::UnsafeOnCompleted
+    // Il2CppName: UnsafeOnCompleted
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::*)(System::Action*)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::UnsafeOnCompleted)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), "UnsafeOnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+      }
+    };
+    // Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::GetResult
+    // Il2CppName: GetResult
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::*)()>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaiter::GetResult)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter m_configuredTaskAwaiter
     // Size: 0x9
     // Offset: 0x0
@@ -103,7 +149,7 @@ namespace System::Runtime::CompilerServices {
       return m_configuredTaskAwaiter;
     }
     // System.Void .ctor(System.Threading.Tasks.Task task, System.Boolean continueOnCapturedContext)
-    // Offset: 0xEEBE2C
+    // Offset: 0xEECDE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     ConfiguredTaskAwaitable(System::Threading::Tasks::Task* task, bool continueOnCapturedContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable::.ctor");
@@ -111,12 +157,34 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, task, continueOnCapturedContext);
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter GetAwaiter()
-    // Offset: 0xEEBE38
+    // Offset: 0xEECDF0
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter GetAwaiter();
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable
   #pragma pack(pop)
   static check_size<sizeof(ConfiguredTaskAwaitable), 0 + sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter)> __System_Runtime_CompilerServices_ConfiguredTaskAwaitableSizeCheck;
   static_assert(sizeof(ConfiguredTaskAwaitable) == 0x9);
+  // Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaitable
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::*)(System::Threading::Tasks::Task*, bool)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaitable<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::*)(System::Threading::Tasks::Task*, bool)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaitable<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConfiguredTaskAwaitable::GetAwaiter
+  // Il2CppName: GetAwaiter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter (ConfiguredTaskAwaitable::*)()>(&ConfiguredTaskAwaitable::GetAwaiter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable");
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable/ConfiguredTaskAwaiter");

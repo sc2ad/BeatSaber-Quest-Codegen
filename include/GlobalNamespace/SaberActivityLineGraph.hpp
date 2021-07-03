@@ -108,16 +108,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x10B18AC
+    // Offset: 0x10B4B88
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x10B1A70
+    // Offset: 0x10B4D4C
     void Start();
     // private System.Collections.IEnumerator UpdateGraphCoroutine()
-    // Offset: 0x10B1A9C
+    // Offset: 0x10B4D78
     System::Collections::IEnumerator* UpdateGraphCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x10B1B38
+    // Offset: 0x10B4E14
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -133,5 +133,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SaberActivityLineGraph), 80 + sizeof(System::Collections::Generic::Queue_1<float>*)> __GlobalNamespace_SaberActivityLineGraphSizeCheck;
   static_assert(sizeof(SaberActivityLineGraph) == 0x58);
+  // Writing MetadataGetter for method: SaberActivityLineGraph::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityLineGraph::*)()>(&SaberActivityLineGraph::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityLineGraph*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityLineGraph::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityLineGraph::*)()>(&SaberActivityLineGraph::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityLineGraph*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityLineGraph::UpdateGraphCoroutine
+  // Il2CppName: UpdateGraphCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (SaberActivityLineGraph::*)()>(&SaberActivityLineGraph::UpdateGraphCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityLineGraph*), "UpdateGraphCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberActivityLineGraph::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityLineGraph::*)()>(&SaberActivityLineGraph::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityLineGraph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberActivityLineGraph::*)()>(&SaberActivityLineGraph::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberActivityLineGraph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityLineGraph*, "", "SaberActivityLineGraph");

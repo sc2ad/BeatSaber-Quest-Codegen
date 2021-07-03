@@ -17,13 +17,29 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEnumerableHelpers
     FileSystemEnumerableHelpers() noexcept {}
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/WIN32_FIND_DATA data)
-    // Offset: 0x193A338
+    // Offset: 0x1951048
     static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/WIN32_FIND_DATA data)
-    // Offset: 0x193A3D4
+    // Offset: 0x19510E4
     static bool IsFile(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: FileSystemEnumerableHelpers::IsDir
+  // Il2CppName: IsDir
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&FileSystemEnumerableHelpers::IsDir)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileSystemEnumerableHelpers*), "IsDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::Win32Native::WIN32_FIND_DATA*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FileSystemEnumerableHelpers::IsFile
+  // Il2CppName: IsFile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&FileSystemEnumerableHelpers::IsFile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileSystemEnumerableHelpers*), "IsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::Win32Native::WIN32_FIND_DATA*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");

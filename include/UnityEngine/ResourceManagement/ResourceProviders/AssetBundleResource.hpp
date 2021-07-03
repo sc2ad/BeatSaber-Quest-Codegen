@@ -126,40 +126,40 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);
     }
     // UnityEngine.Networking.UnityWebRequest CreateWebRequest(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x19B117C
+    // Offset: 0x19C7E8C
     UnityEngine::Networking::UnityWebRequest* CreateWebRequest(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // private System.Single PercentComplete()
-    // Offset: 0x19B1350
+    // Offset: 0x19C8060
     float PercentComplete();
     // private UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus()
-    // Offset: 0x19B1368
+    // Offset: 0x19C8078
     UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
     // public UnityEngine.AssetBundle GetAssetBundle()
-    // Offset: 0x19B1524
+    // Offset: 0x19C8234
     UnityEngine::AssetBundle* GetAssetBundle();
     // System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
-    // Offset: 0x19B09F0
+    // Offset: 0x19C7700
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
-    // Offset: 0x19B1CD4
+    // Offset: 0x19C89E4
     bool WaitForCompletionHandler();
     // private System.Void BeginOperation()
-    // Offset: 0x19B19B0
+    // Offset: 0x19C86C0
     void BeginOperation();
     // private System.Void LocalRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x19B1E28
+    // Offset: 0x19C8B38
     void LocalRequestOperationCompleted(UnityEngine::AsyncOperation* op);
     // private System.Void WebRequestOperationCompleted(UnityEngine.AsyncOperation op)
-    // Offset: 0x19B2008
+    // Offset: 0x19C8D18
     void WebRequestOperationCompleted(UnityEngine::AsyncOperation* op);
     // public System.Void Unload()
-    // Offset: 0x19B0DF4
+    // Offset: 0x19C7B04
     void Unload();
     // private System.Void <BeginOperation>b__16_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x19B27EC
+    // Offset: 0x19C94FC
     void $BeginOperation$b__16_0(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
     // public System.Void .ctor()
-    // Offset: 0x19B09E8
+    // Offset: 0x19C76F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -171,5 +171,107 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   #pragma pack(pop)
   static check_size<sizeof(AssetBundleResource), 104 + sizeof(bool)> __UnityEngine_ResourceManagement_ResourceProviders_AssetBundleResourceSizeCheck;
   static_assert(sizeof(AssetBundleResource) == 0x69);
+  // Writing MetadataGetter for method: AssetBundleResource::CreateWebRequest
+  // Il2CppName: CreateWebRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (AssetBundleResource::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AssetBundleResource::CreateWebRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "CreateWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::PercentComplete
+  // Il2CppName: PercentComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AssetBundleResource::*)()>(&AssetBundleResource::PercentComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "PercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::GetDownloadStatus
+  // Il2CppName: GetDownloadStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (AssetBundleResource::*)()>(&AssetBundleResource::GetDownloadStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::GetAssetBundle
+  // Il2CppName: GetAssetBundle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (AssetBundleResource::*)()>(&AssetBundleResource::GetAssetBundle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&AssetBundleResource::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::WaitForCompletionHandler
+  // Il2CppName: WaitForCompletionHandler
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetBundleResource::*)()>(&AssetBundleResource::WaitForCompletionHandler)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::BeginOperation
+  // Il2CppName: BeginOperation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)()>(&AssetBundleResource::BeginOperation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "BeginOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::LocalRequestOperationCompleted
+  // Il2CppName: LocalRequestOperationCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)(UnityEngine::AsyncOperation*)>(&AssetBundleResource::LocalRequestOperationCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "LocalRequestOperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::WebRequestOperationCompleted
+  // Il2CppName: WebRequestOperationCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)(UnityEngine::AsyncOperation*)>(&AssetBundleResource::WebRequestOperationCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "WebRequestOperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::Unload
+  // Il2CppName: Unload
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)()>(&AssetBundleResource::Unload)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::$BeginOperation$b__16_0
+  // Il2CppName: <BeginOperation>b__16_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&AssetBundleResource::$BeginOperation$b__16_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), "<BeginOperation>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequestAsyncOperation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AssetBundleResource::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)()>(&AssetBundleResource::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetBundleResource::*)()>(&AssetBundleResource::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AssetBundleResource*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");

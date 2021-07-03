@@ -52,25 +52,25 @@ namespace TMPro {
       return kerningPairs;
     }
     // public System.Void AddKerningPair()
-    // Offset: 0x1108CD0
+    // Offset: 0x10E3B4C
     void AddKerningPair();
     // public System.Int32 AddKerningPair(System.UInt32 first, System.UInt32 second, System.Single offset)
-    // Offset: 0x1108DF8
+    // Offset: 0x10E3C74
     int AddKerningPair(uint first, uint second, float offset);
     // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
-    // Offset: 0x1108F38
+    // Offset: 0x10E3DB4
     int AddGlyphPairAdjustmentRecord(uint first, TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, TMPro::GlyphValueRecord_Legacy secondAdjustments);
     // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
-    // Offset: 0x11090B8
+    // Offset: 0x10E3F34
     void RemoveKerningPair(int left, int right);
     // public System.Void RemoveKerningPair(System.Int32 index)
-    // Offset: 0x11091BC
+    // Offset: 0x10E4038
     void RemoveKerningPair(int index);
     // public System.Void SortKerningPairs()
-    // Offset: 0x1109224
+    // Offset: 0x10E40A0
     void SortKerningPairs();
     // public System.Void .ctor()
-    // Offset: 0x1108C5C
+    // Offset: 0x10E3AD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,5 +82,67 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(KerningTable), 16 + sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*)> __TMPro_KerningTableSizeCheck;
   static_assert(sizeof(KerningTable) == 0x18);
+  // Writing MetadataGetter for method: KerningTable::AddKerningPair
+  // Il2CppName: AddKerningPair
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::*)()>(&KerningTable::AddKerningPair)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), "AddKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KerningTable::AddKerningPair
+  // Il2CppName: AddKerningPair
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KerningTable::*)(uint, uint, float)>(&KerningTable::AddKerningPair)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), "AddKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: KerningTable::AddGlyphPairAdjustmentRecord
+  // Il2CppName: AddGlyphPairAdjustmentRecord
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KerningTable::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&KerningTable::AddGlyphPairAdjustmentRecord)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), "AddGlyphPairAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+    }
+  };
+  // Writing MetadataGetter for method: KerningTable::RemoveKerningPair
+  // Il2CppName: RemoveKerningPair
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::*)(int, int)>(&KerningTable::RemoveKerningPair)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: KerningTable::RemoveKerningPair
+  // Il2CppName: RemoveKerningPair
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::*)(int)>(&KerningTable::RemoveKerningPair)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: KerningTable::SortKerningPairs
+  // Il2CppName: SortKerningPairs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::*)()>(&KerningTable::SortKerningPairs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), "SortKerningPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: KerningTable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::*)()>(&KerningTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KerningTable::*)()>(&KerningTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(KerningTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");

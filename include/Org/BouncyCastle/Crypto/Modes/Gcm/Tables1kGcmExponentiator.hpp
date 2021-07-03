@@ -42,16 +42,16 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
       return lookupPowX2;
     }
     // public System.Void Init(System.Byte[] x)
-    // Offset: 0x18B9110
+    // Offset: 0x18D0E20
     void Init(::Array<uint8_t>* x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
-    // Offset: 0x18B9324
+    // Offset: 0x18D1034
     void ExponentiateX(int64_t pow, ::Array<uint8_t>* output);
     // private System.Void EnsureAvailable(System.Int32 bit)
-    // Offset: 0x18B94E4
+    // Offset: 0x18D11F4
     void EnsureAvailable(int bit);
     // public System.Void .ctor()
-    // Offset: 0x18B974C
+    // Offset: 0x18D145C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,5 +63,43 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   #pragma pack(pop)
   static check_size<sizeof(Tables1kGcmExponentiator), 16 + sizeof(System::Collections::IList*)> __Org_BouncyCastle_Crypto_Modes_Gcm_Tables1kGcmExponentiatorSizeCheck;
   static_assert(sizeof(Tables1kGcmExponentiator) == 0x18);
+  // Writing MetadataGetter for method: Tables1kGcmExponentiator::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tables1kGcmExponentiator::*)(::Array<uint8_t>*)>(&Tables1kGcmExponentiator::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tables1kGcmExponentiator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tables1kGcmExponentiator::ExponentiateX
+  // Il2CppName: ExponentiateX
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tables1kGcmExponentiator::*)(int64_t, ::Array<uint8_t>*)>(&Tables1kGcmExponentiator::ExponentiateX)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tables1kGcmExponentiator*), "ExponentiateX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tables1kGcmExponentiator::EnsureAvailable
+  // Il2CppName: EnsureAvailable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tables1kGcmExponentiator::*)(int)>(&Tables1kGcmExponentiator::EnsureAvailable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tables1kGcmExponentiator*), "EnsureAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tables1kGcmExponentiator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tables1kGcmExponentiator::*)()>(&Tables1kGcmExponentiator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tables1kGcmExponentiator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tables1kGcmExponentiator::*)()>(&Tables1kGcmExponentiator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tables1kGcmExponentiator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "Tables1kGcmExponentiator");

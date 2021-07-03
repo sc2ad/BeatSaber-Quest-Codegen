@@ -68,49 +68,49 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // System.Int32 DecrementPromotionCountdown()
-    // Offset: 0x1D0A770
+    // Offset: 0x1D26480
     int DecrementPromotionCountdown();
     // System.Int32 get_PromotionCountdown()
-    // Offset: 0x1D0A7B4
+    // Offset: 0x1D264C4
     int get_PromotionCountdown();
     // System.Void set_PromotionCountdown(System.Int32 value)
-    // Offset: 0x1D0A7D8
+    // Offset: 0x1D264E8
     void set_PromotionCountdown(int value);
     // public System.Boolean get_IsPromoted()
-    // Offset: 0x1D0A800
+    // Offset: 0x1D26510
     bool get_IsPromoted();
     // public System.Int32 get_ConfWidth()
-    // Offset: 0x1D0A828
+    // Offset: 0x1D26538
     int get_ConfWidth();
     // public System.Void set_ConfWidth(System.Int32 value)
-    // Offset: 0x1D0A830
+    // Offset: 0x1D26540
     void set_ConfWidth(int value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreComp()
-    // Offset: 0x1D0A838
+    // Offset: 0x1D26548
     ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x1D0A840
+    // Offset: 0x1D26550
     void set_PreComp(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreCompNeg()
-    // Offset: 0x1D0A848
+    // Offset: 0x1D26558
     ::Array<Org::BouncyCastle::Math::EC::ECPoint*>* get_PreCompNeg();
     // public System.Void set_PreCompNeg(Org.BouncyCastle.Math.EC.ECPoint[] value)
-    // Offset: 0x1D0A850
+    // Offset: 0x1D26560
     void set_PreCompNeg(::Array<Org::BouncyCastle::Math::EC::ECPoint*>* value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Twice()
-    // Offset: 0x1D0A858
+    // Offset: 0x1D26568
     Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
     // public System.Void set_Twice(Org.BouncyCastle.Math.EC.ECPoint value)
-    // Offset: 0x1D0A860
+    // Offset: 0x1D26570
     void set_Twice(Org::BouncyCastle::Math::EC::ECPoint* value);
     // public System.Int32 get_Width()
-    // Offset: 0x1D0A868
+    // Offset: 0x1D26578
     int get_Width();
     // public System.Void set_Width(System.Int32 value)
-    // Offset: 0x1D0A870
+    // Offset: 0x1D26580
     void set_Width(int value);
     // public System.Void .ctor()
-    // Offset: 0x1D0A878
+    // Offset: 0x1D26588
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -122,5 +122,131 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
   static check_size<sizeof(WNafPreCompInfo), 48 + sizeof(int)> __Org_BouncyCastle_Math_EC_Multiplier_WNafPreCompInfoSizeCheck;
   static_assert(sizeof(WNafPreCompInfo) == 0x34);
+  // Writing MetadataGetter for method: WNafPreCompInfo::DecrementPromotionCountdown
+  // Il2CppName: DecrementPromotionCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WNafPreCompInfo::*)()>(&WNafPreCompInfo::DecrementPromotionCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "DecrementPromotionCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_PromotionCountdown
+  // Il2CppName: get_PromotionCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_PromotionCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_PromotionCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::set_PromotionCountdown
+  // Il2CppName: set_PromotionCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)(int)>(&WNafPreCompInfo::set_PromotionCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "set_PromotionCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_IsPromoted
+  // Il2CppName: get_IsPromoted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_IsPromoted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_IsPromoted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_ConfWidth
+  // Il2CppName: get_ConfWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_ConfWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_ConfWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::set_ConfWidth
+  // Il2CppName: set_ConfWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)(int)>(&WNafPreCompInfo::set_ConfWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "set_ConfWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_PreComp
+  // Il2CppName: get_PreComp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::ECPoint*>* (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_PreComp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_PreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::set_PreComp
+  // Il2CppName: set_PreComp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*)>(&WNafPreCompInfo::set_PreComp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "set_PreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_PreCompNeg
+  // Il2CppName: get_PreCompNeg
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::ECPoint*>* (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_PreCompNeg)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_PreCompNeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::set_PreCompNeg
+  // Il2CppName: set_PreCompNeg
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)(::Array<Org::BouncyCastle::Math::EC::ECPoint*>*)>(&WNafPreCompInfo::set_PreCompNeg)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "set_PreCompNeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Math::EC::ECPoint*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_Twice
+  // Il2CppName: get_Twice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_Twice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_Twice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::set_Twice
+  // Il2CppName: set_Twice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&WNafPreCompInfo::set_Twice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "set_Twice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::get_Width
+  // Il2CppName: get_Width
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WNafPreCompInfo::*)()>(&WNafPreCompInfo::get_Width)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "get_Width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::set_Width
+  // Il2CppName: set_Width
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)(int)>(&WNafPreCompInfo::set_Width)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), "set_Width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: WNafPreCompInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)()>(&WNafPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WNafPreCompInfo::*)()>(&WNafPreCompInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WNafPreCompInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafPreCompInfo");

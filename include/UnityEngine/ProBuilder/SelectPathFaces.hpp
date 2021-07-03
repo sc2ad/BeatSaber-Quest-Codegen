@@ -59,22 +59,62 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Int32> s_cachedFacesIndex
     static void _set_s_cachedFacesIndex(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static public System.Collections.Generic.List`1<System.Int32> GetPath(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start, System.Int32 end)
-    // Offset: 0x14CC074
+    // Offset: 0x14E6D84
     static System::Collections::Generic::List_1<int>* GetPath(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start, int end);
     // static private System.Int32[] Dijkstra(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start)
-    // Offset: 0x14CC444
+    // Offset: 0x14E7154
     static ::Array<int>* Dijkstra(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start);
     // static private System.Single GetWeight(System.Int32 face1, System.Int32 face2, UnityEngine.ProBuilder.ProBuilderMesh mesh)
-    // Offset: 0x14CCAEC
+    // Offset: 0x14E77FC
     static float GetWeight(int face1, int face2, UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Collections.Generic.List`1<System.Int32> GetMinimalPath(System.Int32[] predecessors, System.Int32 start, System.Int32 end)
-    // Offset: 0x14CC330
+    // Offset: 0x14E7040
     static System::Collections::Generic::List_1<int>* GetMinimalPath(::Array<int>* predecessors, int start, int end);
     // static private System.Void .cctor()
-    // Offset: 0x14CCF54
+    // Offset: 0x14E7C64
     static void _cctor();
   }; // UnityEngine.ProBuilder.SelectPathFaces
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SelectPathFaces::GetPath
+  // Il2CppName: GetPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int, int)>(&SelectPathFaces::GetPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectPathFaces*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectPathFaces::Dijkstra
+  // Il2CppName: Dijkstra
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&SelectPathFaces::Dijkstra)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectPathFaces*), "Dijkstra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectPathFaces::GetWeight
+  // Il2CppName: GetWeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, int, UnityEngine::ProBuilder::ProBuilderMesh*)>(&SelectPathFaces::GetWeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectPathFaces*), "GetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectPathFaces::GetMinimalPath
+  // Il2CppName: GetMinimalPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(::Array<int>*, int, int)>(&SelectPathFaces::GetMinimalPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectPathFaces*), "GetMinimalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SelectPathFaces::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SelectPathFaces::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SelectPathFaces*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectPathFaces*, "UnityEngine.ProBuilder", "SelectPathFaces");

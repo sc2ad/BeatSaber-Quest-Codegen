@@ -78,16 +78,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BTSResultCharacterPlaceWithAnimation
     BTSResultCharacterPlaceWithAnimation(::Il2CppString* name_ = {}, UnityEngine::Transform* placeTransform_ = {}, GlobalNamespace::BTSCharacterResultAnimationController* animationController_ = {}, UnityEngine::AnimationClip* animationClip_ = {}, GlobalNamespace::BTSCharacter* btsCharacter_ = {}, UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference_ = {}) noexcept : name{name_}, placeTransform{placeTransform_}, animationController{animationController_}, animationClip{animationClip_}, btsCharacter{btsCharacter_}, btsCharacterAssetReference{btsCharacterAssetReference_} {}
     // public System.String get_name()
-    // Offset: 0x1088B1C
+    // Offset: 0x1113478
     ::Il2CppString* get_name();
     // public System.Void Clean()
-    // Offset: 0x108886C
+    // Offset: 0x11131C8
     void Clean();
     // public System.Void SetCharacter(UnityEngine.AddressableAssets.AssetReference assetReference, BTSCharacter btsCharacter, System.Boolean alternativeMaterial)
-    // Offset: 0x10883E8
+    // Offset: 0x1112D44
     void SetCharacter(UnityEngine::AddressableAssets::AssetReference* assetReference, GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
     // public System.Void .ctor()
-    // Offset: 0x1088B24
+    // Offset: 0x1113480
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,5 +99,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation), 56 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BtsResultsEnvironmentController_BTSResultCharacterPlaceWithAnimationSizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation) == 0x40);
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name
+  // Il2CppName: get_name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::Clean
+  // Il2CppName: Clean
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::Clean)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), "Clean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::SetCharacter
+  // Il2CppName: SetCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)(UnityEngine::AddressableAssets::AssetReference*, GlobalNamespace::BTSCharacter*, bool)>(&BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::SetCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), "SetCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AssetReference*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");

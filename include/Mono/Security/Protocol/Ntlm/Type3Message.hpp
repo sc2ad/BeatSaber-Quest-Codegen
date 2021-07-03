@@ -86,39 +86,39 @@ namespace Mono::Security::Protocol::Ntlm {
     // Creating value type constructor for type: Type3Message
     Type3Message(Mono::Security::Protocol::Ntlm::NtlmAuthLevel level_ = {}, ::Array<uint8_t>* challenge_ = {}, ::Il2CppString* host_ = {}, ::Il2CppString* domain_ = {}, ::Il2CppString* username_ = {}, ::Il2CppString* password_ = {}, Mono::Security::Protocol::Ntlm::Type2Message* type2_ = {}, ::Array<uint8_t>* lm_ = {}, ::Array<uint8_t>* nt_ = {}) noexcept : level{level_}, challenge{challenge_}, host{host_}, domain{domain_}, username{username_}, password{password_}, type2{type2_}, lm{lm_}, nt{nt_} {}
     // public System.Void .ctor(Mono.Security.Protocol.Ntlm.Type2Message type2)
-    // Offset: 0x1D60DD4
+    // Offset: 0x1D7CAE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Type3Message* New_ctor(Mono::Security::Protocol::Ntlm::Type2Message* type2) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Protocol::Ntlm::Type3Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Type3Message*, creationType>(type2)));
     }
     // public System.Void set_Domain(System.String value)
-    // Offset: 0x1D61090
+    // Offset: 0x1D7CDA0
     void set_Domain(::Il2CppString* value);
     // public System.Void set_Password(System.String value)
-    // Offset: 0x1D61118
+    // Offset: 0x1D7CE28
     void set_Password(::Il2CppString* value);
     // public System.Void set_Username(System.String value)
-    // Offset: 0x1D61120
+    // Offset: 0x1D7CE30
     void set_Username(::Il2CppString* value);
     // private System.String DecodeString(System.Byte[] buffer, System.Int32 offset, System.Int32 len)
-    // Offset: 0x1D61350
+    // Offset: 0x1D7D060
     ::Il2CppString* DecodeString(::Array<uint8_t>* buffer, int offset, int len);
     // private System.Byte[] EncodeString(System.String text)
-    // Offset: 0x1D613B4
+    // Offset: 0x1D7D0C4
     ::Array<uint8_t>* EncodeString(::Il2CppString* text);
     // protected override System.Void Finalize()
-    // Offset: 0x1D60FDC
+    // Offset: 0x1D7CCEC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // protected override System.Void Decode(System.Byte[] message)
-    // Offset: 0x1D61128
+    // Offset: 0x1D7CE38
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Void MessageBase::Decode(System.Byte[] message)
     void Decode(::Array<uint8_t>* message);
     // public override System.Byte[] GetBytes()
-    // Offset: 0x1D61458
+    // Offset: 0x1D7D168
     // Implemented from: Mono.Security.Protocol.Ntlm.MessageBase
     // Base method: System.Byte[] MessageBase::GetBytes()
     ::Array<uint8_t>* GetBytes();
@@ -126,5 +126,83 @@ namespace Mono::Security::Protocol::Ntlm {
   #pragma pack(pop)
   static check_size<sizeof(Type3Message), 88 + sizeof(::Array<uint8_t>*)> __Mono_Security_Protocol_Ntlm_Type3MessageSizeCheck;
   static_assert(sizeof(Type3Message) == 0x60);
+  // Writing MetadataGetter for method: Type3Message::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)(Mono::Security::Protocol::Ntlm::Type2Message*)>(&Type3Message::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::Type2Message*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)(Mono::Security::Protocol::Ntlm::Type2Message*)>(&Type3Message::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::Type2Message*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::set_Domain
+  // Il2CppName: set_Domain
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)(::Il2CppString*)>(&Type3Message::set_Domain)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::set_Password
+  // Il2CppName: set_Password
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)(::Il2CppString*)>(&Type3Message::set_Password)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::set_Username
+  // Il2CppName: set_Username
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)(::Il2CppString*)>(&Type3Message::set_Username)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "set_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::DecodeString
+  // Il2CppName: DecodeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Type3Message::*)(::Array<uint8_t>*, int, int)>(&Type3Message::DecodeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "DecodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::EncodeString
+  // Il2CppName: EncodeString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Type3Message::*)(::Il2CppString*)>(&Type3Message::EncodeString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "EncodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)()>(&Type3Message::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::Decode
+  // Il2CppName: Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Type3Message::*)(::Array<uint8_t>*)>(&Type3Message::Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Type3Message::GetBytes
+  // Il2CppName: GetBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Type3Message::*)()>(&Type3Message::GetBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Type3Message*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type3Message*, "Mono.Security.Protocol.Ntlm", "Type3Message");

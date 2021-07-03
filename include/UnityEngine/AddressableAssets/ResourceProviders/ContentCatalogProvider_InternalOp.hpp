@@ -87,34 +87,34 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // Creating value type constructor for type: InternalOp
     InternalOp(::Il2CppString* m_LocalDataPath_ = {}, ::Il2CppString* m_RemoteHashValue_ = {}, ::Il2CppString* m_LocalHashValue_ = {}, UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface_ = {}, UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_ContentCatalogData_ = {}, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> m_ContentCatalogDataLoadOp_ = {}, UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog_ = {}) noexcept : m_LocalDataPath{m_LocalDataPath_}, m_RemoteHashValue{m_RemoteHashValue_}, m_LocalHashValue{m_LocalHashValue_}, m_ProviderInterface{m_ProviderInterface_}, m_ContentCatalogData{m_ContentCatalogData_}, m_ContentCatalogDataLoadOp{m_ContentCatalogDataLoadOp_}, m_BundledCatalog{m_BundledCatalog_} {}
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle providerInterface, System.Boolean disableCatalogUpdateOnStart, System.Boolean isLocalCatalogInBundle)
-    // Offset: 0x13DD1D8
+    // Offset: 0x13F7EE8
     void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
     // private System.Boolean WaitForCompletionCallback()
-    // Offset: 0x13DDED4
+    // Offset: 0x13F8BE4
     bool WaitForCompletionCallback();
     // public System.Void Release()
-    // Offset: 0x13DD07C
+    // Offset: 0x13F7D8C
     void Release();
     // System.Void LoadCatalog(System.String idToLoad, System.Boolean isLocalCatalogInBundle, System.Boolean isLocalCatalog)
-    // Offset: 0x13DDB88
+    // Offset: 0x13F8898
     void LoadCatalog(::Il2CppString* idToLoad, bool isLocalCatalogInBundle, bool isLocalCatalog);
     // private System.Void CatalogLoadOpCompleteCallback(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> op)
-    // Offset: 0x13DE334
+    // Offset: 0x13F9044
     void CatalogLoadOpCompleteCallback(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
     // private System.String GetTransformedInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
-    // Offset: 0x13DDAB0
+    // Offset: 0x13F87C0
     ::Il2CppString* GetTransformedInternalId(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // System.String DetermineIdToLoad(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Collections.Generic.IList`1<System.Object> dependencyObjects, System.Boolean disableCatalogUpdateOnStart)
-    // Offset: 0x13DD328
+    // Offset: 0x13F8038
     ::Il2CppString* DetermineIdToLoad(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, System::Collections::Generic::IList_1<::Il2CppObject*>* dependencyObjects, bool disableCatalogUpdateOnStart);
     // private System.Void OnCatalogLoaded(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
-    // Offset: 0x13DE40C
+    // Offset: 0x13F911C
     void OnCatalogLoaded(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // private System.Void <LoadCatalog>b__10_0(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
-    // Offset: 0x13DE5C8
+    // Offset: 0x13F92D8
     void $LoadCatalog$b__10_0(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // public System.Void .ctor()
-    // Offset: 0x13DD1D0
+    // Offset: 0x13F7EE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -124,5 +124,91 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     }
   }; // UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/InternalOp
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, bool, bool)>(&ContentCatalogProvider::InternalOp::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::WaitForCompletionCallback
+  // Il2CppName: WaitForCompletionCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ContentCatalogProvider::InternalOp::*)()>(&ContentCatalogProvider::InternalOp::WaitForCompletionCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "WaitForCompletionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)()>(&ContentCatalogProvider::InternalOp::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::LoadCatalog
+  // Il2CppName: LoadCatalog
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)(::Il2CppString*, bool, bool)>(&ContentCatalogProvider::InternalOp::LoadCatalog)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "LoadCatalog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::CatalogLoadOpCompleteCallback
+  // Il2CppName: CatalogLoadOpCompleteCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(&ContentCatalogProvider::InternalOp::CatalogLoadOpCompleteCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "CatalogLoadOpCompleteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::GetTransformedInternalId
+  // Il2CppName: GetTransformedInternalId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&ContentCatalogProvider::InternalOp::GetTransformedInternalId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "GetTransformedInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::DetermineIdToLoad
+  // Il2CppName: DetermineIdToLoad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, System::Collections::Generic::IList_1<::Il2CppObject*>*, bool)>(&ContentCatalogProvider::InternalOp::DetermineIdToLoad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "DetermineIdToLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::OnCatalogLoaded
+  // Il2CppName: OnCatalogLoaded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&ContentCatalogProvider::InternalOp::OnCatalogLoaded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "OnCatalogLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::$LoadCatalog$b__10_0
+  // Il2CppName: <LoadCatalog>b__10_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&ContentCatalogProvider::InternalOp::$LoadCatalog$b__10_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), "<LoadCatalog>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContentCatalogProvider::InternalOp::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)()>(&ContentCatalogProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogProvider::InternalOp::*)()>(&ContentCatalogProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContentCatalogProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp");

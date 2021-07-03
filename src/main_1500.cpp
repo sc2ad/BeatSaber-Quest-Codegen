@@ -72,6 +72,114 @@ GlobalNamespace::Vector3Serializable GlobalNamespace::operator-(const GlobalName
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "Vector3Serializable", "op_Subtraction", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::Vector3Serializable, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b);
 }
+// Writing MetadataGetter for method: Vector3Serializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&Vector3Serializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector3Serializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector3Serializable::*)(GlobalNamespace::Vector3Serializable)>(&Vector3Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector3Serializable>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector3Serializable::*)(GlobalNamespace::Vector3Serializable)>(&Vector3Serializable::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector3Serializable>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector3Serializable::*)()>(&Vector3Serializable::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::Vector3Serializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(UnityEngine::Vector3)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(UnityEngine::Vector3)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::Vector3Serializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector3Serializable::Vector3Serializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector3Serializable::*)(::Il2CppObject*)>(&Vector3Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector3Serializable::*)()>(&Vector3Serializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Vector3Serializable::*)()>(&Vector3Serializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Vector3Serializable (*)(const GlobalNamespace::Vector3Serializable&, const GlobalNamespace::Vector3Serializable&)>(&Vector3Serializable::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>()});
+  }
+};
+// Writing MetadataGetter for method: Vector3Serializable::operator-
+// Il2CppName: op_Subtraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Vector3Serializable (*)(const GlobalNamespace::Vector3Serializable&, const GlobalNamespace::Vector3Serializable&)>(&Vector3Serializable::operator-)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector3Serializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector3Serializable&>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -146,6 +254,114 @@ GlobalNamespace::Vector4Serializable GlobalNamespace::operator-(const GlobalName
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "Vector4Serializable", "op_Subtraction", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::Vector4Serializable, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b);
 }
+// Writing MetadataGetter for method: Vector4Serializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4Serializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&Vector4Serializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector4Serializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector4Serializable::*)(GlobalNamespace::Vector4Serializable)>(&Vector4Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector4Serializable>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector4Serializable::*)(GlobalNamespace::Vector4Serializable)>(&Vector4Serializable::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector4Serializable>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector4Serializable::*)()>(&Vector4Serializable::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::Vector4Serializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4Serializable::*)(UnityEngine::Vector4)>(&Vector4Serializable::Vector4Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4Serializable::*)(UnityEngine::Vector4)>(&Vector4Serializable::Vector4Serializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::Vector4Serializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector4Serializable::Vector4Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Vector4Serializable::Vector4Serializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector4Serializable::*)(::Il2CppObject*)>(&Vector4Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector4Serializable::*)()>(&Vector4Serializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Vector4Serializable::*)()>(&Vector4Serializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Vector4Serializable (*)(const GlobalNamespace::Vector4Serializable&, const GlobalNamespace::Vector4Serializable&)>(&Vector4Serializable::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector4Serializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector4Serializable&>()});
+  }
+};
+// Writing MetadataGetter for method: Vector4Serializable::operator-
+// Il2CppName: op_Subtraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Vector4Serializable (*)(const GlobalNamespace::Vector4Serializable&, const GlobalNamespace::Vector4Serializable&)>(&Vector4Serializable::operator-)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Vector4Serializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector4Serializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::Vector4Serializable&>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -286,6 +502,138 @@ GlobalNamespace::QuaternionSerializable GlobalNamespace::operator-(const GlobalN
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "QuaternionSerializable", "op_Subtraction", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::QuaternionSerializable, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b);
 }
+// Writing MetadataGetter for method: QuaternionSerializable::get_identity
+// Il2CppName: get_identity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)()>(&QuaternionSerializable::get_identity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::ToSmallest
+// Il2CppName: ToSmallest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Quaternion, int&, int&, int&)>(&QuaternionSerializable::ToSmallest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "ToSmallest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::FromSmallest
+// Il2CppName: FromSmallest
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(int, int, int)>(&QuaternionSerializable::FromSmallest)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "FromSmallest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&QuaternionSerializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&QuaternionSerializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuaternionSerializable::*)(GlobalNamespace::QuaternionSerializable)>(&QuaternionSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::Approximately
+// Il2CppName: Approximately
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuaternionSerializable::*)(GlobalNamespace::QuaternionSerializable)>(&QuaternionSerializable::Approximately)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (QuaternionSerializable::*)()>(&QuaternionSerializable::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::QuaternionSerializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(UnityEngine::Quaternion)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(UnityEngine::Quaternion)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::QuaternionSerializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuaternionSerializable::*)(::Il2CppObject*)>(&QuaternionSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (QuaternionSerializable::*)()>(&QuaternionSerializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (QuaternionSerializable::*)()>(&QuaternionSerializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)(const GlobalNamespace::QuaternionSerializable&, const GlobalNamespace::QuaternionSerializable&)>(&QuaternionSerializable::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>()});
+  }
+};
+// Writing MetadataGetter for method: QuaternionSerializable::operator-
+// Il2CppName: op_Subtraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)(const GlobalNamespace::QuaternionSerializable&, const GlobalNamespace::QuaternionSerializable&)>(&QuaternionSerializable::operator-)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -362,6 +710,100 @@ GlobalNamespace::PoseSerializable GlobalNamespace::operator-(const GlobalNamespa
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "PoseSerializable", "op_Subtraction", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::PoseSerializable, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b);
 }
+// Writing MetadataGetter for method: PoseSerializable::PoseSerializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoseSerializable::*)(GlobalNamespace::Vector3Serializable, GlobalNamespace::QuaternionSerializable)>(&PoseSerializable::PoseSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector3Serializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoseSerializable::*)(GlobalNamespace::Vector3Serializable, GlobalNamespace::QuaternionSerializable)>(&PoseSerializable::PoseSerializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Vector3Serializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::get_identity
+// Il2CppName: get_identity
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)()>(&PoseSerializable::get_identity)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoseSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&PoseSerializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PoseSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&PoseSerializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PoseSerializable::*)(GlobalNamespace::PoseSerializable)>(&PoseSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PoseSerializable::*)()>(&PoseSerializable::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PoseSerializable::*)(::Il2CppObject*)>(&PoseSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PoseSerializable::*)()>(&PoseSerializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PoseSerializable::*)()>(&PoseSerializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::operator+
+// Il2CppName: op_Addition
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(const GlobalNamespace::PoseSerializable&, const GlobalNamespace::PoseSerializable&)>(&PoseSerializable::operator+)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::PoseSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::PoseSerializable&>()});
+  }
+};
+// Writing MetadataGetter for method: PoseSerializable::operator-
+// Il2CppName: op_Subtraction
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(const GlobalNamespace::PoseSerializable&, const GlobalNamespace::PoseSerializable&)>(&PoseSerializable::operator-)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PoseSerializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::PoseSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::PoseSerializable&>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -412,6 +854,68 @@ int GlobalNamespace::ColorSerializable::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
 }
+// Writing MetadataGetter for method: ColorSerializable::ColorSerializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSerializable::*)(UnityEngine::Color)>(&ColorSerializable::ColorSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSerializable::*)(UnityEngine::Color)>(&ColorSerializable::ColorSerializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSerializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&ColorSerializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSerializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&ColorSerializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorSerializable::*)(GlobalNamespace::ColorSerializable)>(&ColorSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorSerializable::*)(::Il2CppObject*)>(&ColorSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorSerializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ColorSerializable::*)()>(&ColorSerializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorSerializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorSerializable::*)()>(&ColorSerializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -462,6 +966,68 @@ int GlobalNamespace::Color32Serializable::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
 }
+// Writing MetadataGetter for method: Color32Serializable::Color32Serializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color32Serializable::*)(UnityEngine::Color32)>(&Color32Serializable::Color32Serializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color32Serializable::*)(UnityEngine::Color32)>(&Color32Serializable::Color32Serializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+  }
+};
+// Writing MetadataGetter for method: Color32Serializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color32Serializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&Color32Serializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: Color32Serializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Color32Serializable::*)(LiteNetLib::Utils::NetDataReader*)>(&Color32Serializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: Color32Serializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Color32Serializable::*)(GlobalNamespace::Color32Serializable)>(&Color32Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Color32Serializable>()});
+  }
+};
+// Writing MetadataGetter for method: Color32Serializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Color32Serializable::*)(::Il2CppObject*)>(&Color32Serializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: Color32Serializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Color32Serializable::*)()>(&Color32Serializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Color32Serializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Color32Serializable::*)()>(&Color32Serializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Color32Serializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -512,6 +1078,68 @@ int GlobalNamespace::ColorNoAlphaSerializable::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(*this, ___internal__method);
 }
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::ColorNoAlphaSerializable
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(UnityEngine::Color)>(&ColorNoAlphaSerializable::ColorNoAlphaSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(UnityEngine::Color)>(&ColorNoAlphaSerializable::ColorNoAlphaSerializable<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&ColorNoAlphaSerializable::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&ColorNoAlphaSerializable::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorNoAlphaSerializable::*)(GlobalNamespace::ColorNoAlphaSerializable)>(&ColorNoAlphaSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorNoAlphaSerializable>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorNoAlphaSerializable::*)(::Il2CppObject*)>(&ColorNoAlphaSerializable::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ColorNoAlphaSerializable::*)()>(&ColorNoAlphaSerializable::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ColorNoAlphaSerializable::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorNoAlphaSerializable::*)()>(&ColorNoAlphaSerializable::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -668,6 +1296,200 @@ bool GlobalNamespace::operator !=(const GlobalNamespace::SongPackMask& a, const 
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SongPackMask", "op_Inequality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b);
 }
+// Writing MetadataGetter for method: SongPackMask::SongPackMask
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(::Il2CppString*)>(&SongPackMask::SongPackMask<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(::Il2CppString*)>(&SongPackMask::SongPackMask<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::SongPackMask
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(GlobalNamespace::BitMask128)>(&SongPackMask::SongPackMask<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask128>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(GlobalNamespace::BitMask128)>(&SongPackMask::SongPackMask<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask128>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::SongPackMask
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&SongPackMask::SongPackMask<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&SongPackMask::SongPackMask<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::get_all
+// Il2CppName: get_all
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)()>(&SongPackMask::get_all)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "get_all", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::Contains
+// Il2CppName: Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SongPackMask::*)(GlobalNamespace::SongPackMask)>(&SongPackMask::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::DifferenceFrom
+// Il2CppName: DifferenceFrom
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SongPackMask::*)(GlobalNamespace::SongPackMask)>(&SongPackMask::DifferenceFrom)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "DifferenceFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::Serialize
+// Il2CppName: Serialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMask::*)(LiteNetLib::Utils::NetDataWriter*)>(&SongPackMask::Serialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::CreateFromSerializedData
+// Il2CppName: CreateFromSerializedData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (SongPackMask::*)(LiteNetLib::Utils::NetDataReader*)>(&SongPackMask::CreateFromSerializedData)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::Deserialize
+// Il2CppName: Deserialize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(LiteNetLib::Utils::NetDataReader*)>(&SongPackMask::Deserialize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::ToShortString
+// Il2CppName: ToShortString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SongPackMask::*)()>(&SongPackMask::ToShortString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "ToShortString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::ToBytes
+// Il2CppName: ToBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SongPackMask::*)()>(&SongPackMask::ToBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SongPackMask::*)(GlobalNamespace::SongPackMask)>(&SongPackMask::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::TryParse
+// Il2CppName: TryParse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, GlobalNamespace::SongPackMask&)>(&SongPackMask::TryParse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask&>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::Parse
+// Il2CppName: Parse
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(::Il2CppString*)>(&SongPackMask::Parse)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::FromBytes
+// Il2CppName: FromBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(::Array<uint8_t>*, int)>(&SongPackMask::FromBytes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SongPackMask::*)()>(&SongPackMask::ToString)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SongPackMask::*)()>(&SongPackMask::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SongPackMask::*)(::Il2CppObject*)>(&SongPackMask::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::operator|
+// Il2CppName: op_BitwiseOr
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(const GlobalNamespace::SongPackMask&, const GlobalNamespace::SongPackMask&)>(&SongPackMask::operator|)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "op_BitwiseOr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::operator&
+// Il2CppName: op_BitwiseAnd
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (*)(const GlobalNamespace::SongPackMask&, const GlobalNamespace::SongPackMask&)>(&SongPackMask::operator&)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "op_BitwiseAnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::operator ==
+// Il2CppName: op_Equality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::SongPackMask&, const GlobalNamespace::SongPackMask&)>(&SongPackMask::operator ==)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>()});
+  }
+};
+// Writing MetadataGetter for method: SongPackMask::operator !=
+// Il2CppName: op_Inequality
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::SongPackMask&, const GlobalNamespace::SongPackMask&)>(&SongPackMask::operator !=)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SongPackMask), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SongPackMask&>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -765,6 +1587,118 @@ int GlobalNamespace::VarIntExtensions::GetSize(uint64_t val) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "VarIntExtensions", "GetSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(val)})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, val);
 }
+// Writing MetadataGetter for method: VarIntExtensions::PutVarInt
+// Il2CppName: PutVarInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, int)>(&VarIntExtensions::PutVarInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "PutVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetVarInt
+// Il2CppName: GetVarInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::Utils::NetDataReader*)>(&VarIntExtensions::GetVarInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::PutVarUInt
+// Il2CppName: PutVarUInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, uint)>(&VarIntExtensions::PutVarUInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "PutVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetVarUInt
+// Il2CppName: GetVarUInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(LiteNetLib::Utils::NetDataReader*)>(&VarIntExtensions::GetVarUInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::PutVarLong
+// Il2CppName: PutVarLong
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, int64_t)>(&VarIntExtensions::PutVarLong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "PutVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetVarLong
+// Il2CppName: GetVarLong
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(LiteNetLib::Utils::NetDataReader*)>(&VarIntExtensions::GetVarLong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::PutVarULong
+// Il2CppName: PutVarULong
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, uint64_t)>(&VarIntExtensions::PutVarULong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "PutVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetVarULong
+// Il2CppName: GetVarULong
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(LiteNetLib::Utils::NetDataReader*)>(&VarIntExtensions::GetVarULong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::TryGetVarUInt
+// Il2CppName: TryGetVarUInt
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LiteNetLib::Utils::NetDataReader*, uint&)>(&VarIntExtensions::TryGetVarUInt)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "TryGetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::TryGetVarULong
+// Il2CppName: TryGetVarULong
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LiteNetLib::Utils::NetDataReader*, uint64_t&)>(&VarIntExtensions::TryGetVarULong)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "TryGetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+  }
+};
+// Writing MetadataGetter for method: VarIntExtensions::GetSize
+// Il2CppName: GetSize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint64_t)>(&VarIntExtensions::GetSize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -780,6 +1714,14 @@ float GlobalNamespace::AudioHelpers::NormalizedVolumeToDB(float normalizedVolume
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "AudioHelpers", "NormalizedVolumeToDB", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(normalizedVolume)})));
   return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, normalizedVolume);
 }
+// Writing MetadataGetter for method: AudioHelpers::NormalizedVolumeToDB
+// Il2CppName: NormalizedVolumeToDB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&AudioHelpers::NormalizedVolumeToDB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AudioHelpers*), "NormalizedVolumeToDB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -828,6 +1770,68 @@ void GlobalNamespace::CaptureAudioToWav::WriteHeader() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteHeader", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: CaptureAudioToWav::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::StartWriting
+// Il2CppName: StartWriting
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Il2CppString*)>(&CaptureAudioToWav::StartWriting)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "StartWriting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::OnAudioFilterRead
+// Il2CppName: OnAudioFilterRead
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Array<float>*, int)>(&CaptureAudioToWav::OnAudioFilterRead)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::ConvertAndWrite
+// Il2CppName: ConvertAndWrite
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)(::Array<float>*)>(&CaptureAudioToWav::ConvertAndWrite)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "ConvertAndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::WriteHeader
+// Il2CppName: WriteHeader
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::WriteHeader)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), "WriteHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CaptureAudioToWav::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaptureAudioToWav::*)()>(&CaptureAudioToWav::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CaptureAudioToWav*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -877,6 +1881,60 @@ System::Collections::IEnumerator* GlobalNamespace::RandomizedPitch::RestorePitch
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RestorePitchWithDelay", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(delay)})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method, delay);
 }
+// Writing MetadataGetter for method: RandomizedPitch::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::Play
+// Il2CppName: Play
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::Play)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::PlayDelayed
+// Il2CppName: PlayDelayed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)(float)>(&RandomizedPitch::PlayDelayed)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "PlayDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::PlayDelayedCoroutine
+// Il2CppName: PlayDelayedCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RandomizedPitch::*)(float)>(&RandomizedPitch::PlayDelayedCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "PlayDelayedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::RestorePitchWithDelay
+// Il2CppName: RestorePitchWithDelay
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RandomizedPitch::*)(float)>(&RandomizedPitch::RestorePitchWithDelay)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), "RestorePitchWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::*)()>(&RandomizedPitch::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -917,6 +1975,60 @@ void GlobalNamespace::RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collec
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: RandomizedPitch::$PlayDelayedCoroutine$d__9::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)(int)>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)(int)>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$PlayDelayedCoroutine$d__9::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)()>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$PlayDelayedCoroutine$d__9::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)()>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)()>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)()>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RandomizedPitch::$PlayDelayedCoroutine$d__9::*)()>(&RandomizedPitch::$PlayDelayedCoroutine$d__9::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$PlayDelayedCoroutine$d__9*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -957,6 +2069,60 @@ void GlobalNamespace::RandomizedPitch::$RestorePitchWithDelay$d__10::System_Coll
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: RandomizedPitch::$RestorePitchWithDelay$d__10::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$RestorePitchWithDelay$d__10::*)(int)>(&RandomizedPitch::$RestorePitchWithDelay$d__10::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$RestorePitchWithDelay$d__10::*)(int)>(&RandomizedPitch::$RestorePitchWithDelay$d__10::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$RestorePitchWithDelay$d__10::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$RestorePitchWithDelay$d__10::*)()>(&RandomizedPitch::$RestorePitchWithDelay$d__10::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$RestorePitchWithDelay$d__10::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RandomizedPitch::$RestorePitchWithDelay$d__10::*)()>(&RandomizedPitch::$RestorePitchWithDelay$d__10::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$RestorePitchWithDelay$d__10::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RandomizedPitch::$RestorePitchWithDelay$d__10::*)()>(&RandomizedPitch::$RestorePitchWithDelay$d__10::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$RestorePitchWithDelay$d__10::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizedPitch::$RestorePitchWithDelay$d__10::*)()>(&RandomizedPitch::$RestorePitchWithDelay$d__10::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomizedPitch::$RestorePitchWithDelay$d__10::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RandomizedPitch::$RestorePitchWithDelay$d__10::*)()>(&RandomizedPitch::$RestorePitchWithDelay$d__10::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomizedPitch::$RestorePitchWithDelay$d__10*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -974,6 +2140,28 @@ void GlobalNamespace::ActivateOnPlatform::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: ActivateOnPlatform::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnPlatform::*)()>(&ActivateOnPlatform::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnPlatform*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivateOnPlatform::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnPlatform::*)()>(&ActivateOnPlatform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnPlatform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnPlatform::*)()>(&ActivateOnPlatform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnPlatform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -990,6 +2178,14 @@ bool GlobalNamespace::CommandLineArguments::Contains(::Il2CppString* argument) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "CommandLineArguments", "Contains", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(argument)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, argument);
 }
+// Writing MetadataGetter for method: CommandLineArguments::Contains
+// Il2CppName: Contains
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&CommandLineArguments::Contains)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CommandLineArguments*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1027,6 +2223,52 @@ void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleInputFocusRel
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleInputFocusReleased", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: DeactivateAnimatorOnInputFocusCapture::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAnimatorOnInputFocusCapture::*)()>(&DeactivateAnimatorOnInputFocusCapture::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateAnimatorOnInputFocusCapture*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateAnimatorOnInputFocusCapture::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAnimatorOnInputFocusCapture::*)()>(&DeactivateAnimatorOnInputFocusCapture::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateAnimatorOnInputFocusCapture*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateAnimatorOnInputFocusCapture::HandleInputFocusCaptured
+// Il2CppName: HandleInputFocusCaptured
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAnimatorOnInputFocusCapture::*)()>(&DeactivateAnimatorOnInputFocusCapture::HandleInputFocusCaptured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateAnimatorOnInputFocusCapture*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateAnimatorOnInputFocusCapture::HandleInputFocusReleased
+// Il2CppName: HandleInputFocusReleased
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAnimatorOnInputFocusCapture::*)()>(&DeactivateAnimatorOnInputFocusCapture::HandleInputFocusReleased)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateAnimatorOnInputFocusCapture*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateAnimatorOnInputFocusCapture::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAnimatorOnInputFocusCapture::*)()>(&DeactivateAnimatorOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateAnimatorOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAnimatorOnInputFocusCapture::*)()>(&DeactivateAnimatorOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateAnimatorOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1062,6 +2304,52 @@ void GlobalNamespace::DeactivateOnInputFocusCapture::HandleInputFocusReleased() 
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleInputFocusReleased", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::HandleInputFocusCaptured
+// Il2CppName: HandleInputFocusCaptured
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::HandleInputFocusCaptured)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::HandleInputFocusReleased
+// Il2CppName: HandleInputFocusReleased
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::HandleInputFocusReleased)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1110,6 +2398,71 @@ void GlobalNamespace::FileHelpers::SaveToJSONFile(::Il2CppObject* obj, ::Il2CppS
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FileHelpers", "LoadJSONFile", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(filePath), ::il2cpp_utils::ExtractType(backupFilePath)})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, filePath, backupFilePath);
 }
+// Writing MetadataGetter for method: FileHelpers::GetEscapedURLForFilePath
+// Il2CppName: GetEscapedURLForFilePath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&FileHelpers::GetEscapedURLForFilePath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetEscapedURLForFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::GetUniqueDirectoryNameByAppendingNumber
+// Il2CppName: GetUniqueDirectoryNameByAppendingNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&FileHelpers::GetUniqueDirectoryNameByAppendingNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetUniqueDirectoryNameByAppendingNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::GetFilePaths
+// Il2CppName: GetFilePaths
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&FileHelpers::GetFilePaths)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::GetFileNamesFromFilePaths
+// Il2CppName: GetFileNamesFromFilePaths
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*)>(&FileHelpers::GetFileNamesFromFilePaths)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "GetFileNamesFromFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::SaveToJSONFile
+// Il2CppName: SaveToJSONFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&FileHelpers::SaveToJSONFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "SaveToJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::LoadFromJSONFile
+// Il2CppName: LoadFromJSONFile
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: FileHelpers::LoadJSONFile
+// Il2CppName: LoadJSONFile
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&FileHelpers::LoadJSONFile)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), "LoadJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileHelpers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileHelpers::*)()>(&FileHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileHelpers::*)()>(&FileHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1153,6 +2506,41 @@ System::Collections::Generic::List_1<UnityEngine::GameObject*>* GlobalNamespace:
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FindUnityObjectsHelper", "GetAllGameObjectsInLoadedScenes", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<UnityEngine::GameObject*>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
+// Writing MetadataGetter for method: FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes
+// Il2CppName: GetMonoBehavioursInLoadedScenes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* (*)()>(&FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetMonoBehavioursInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes
+// Il2CppName: GetAllRootGameObjectsInLoadedScenes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetAllRootGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FindUnityObjectsHelper::GetAllGameObjectsInGameObject
+// Il2CppName: GetAllGameObjectsInGameObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&FindUnityObjectsHelper::GetAllGameObjectsInGameObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetAllGameObjectsInGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+  }
+};
+// Writing MetadataGetter for method: FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes
+// Il2CppName: GetAllGameObjectsInLoadedScenes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FindUnityObjectsHelper*), "GetAllGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FindUnityObjectsHelper::GetComponentsInGameObjects
+// Il2CppName: GetComponentsInGameObjects
+// Cannot write MetadataGetter for generic methods!
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1168,6 +2556,14 @@ void GlobalNamespace::IRefreshable::Refresh() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Refresh", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: IRefreshable::Refresh
+// Il2CppName: Refresh
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IRefreshable::*)()>(&IRefreshable::Refresh)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IRefreshable*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1263,6 +2659,124 @@ void GlobalNamespace::KeyboardShortcutsManager::AddKeyboardShortcut(UnityEngine:
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddKeyboardShortcut", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mainKey), ::il2cpp_utils::ExtractType(callback)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, mainKey, callback);
 }
+// Writing MetadataGetter for method: KeyboardShortcutsManager::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcuts
+// Il2CppName: RemoveKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcuts
+// Il2CppName: RemoveKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::RemoveKeyboardShortcut
+// Il2CppName: RemoveKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::RemoveKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "RemoveKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcuts
+// Il2CppName: AddKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*)>(&KeyboardShortcutsManager::AddKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::KeyCode, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcuts
+// Il2CppName: AddKeyboardShortcuts
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*)>(&KeyboardShortcutsManager::AddKeyboardShortcuts)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcuts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*>*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::AddKeyboardShortcut
+// Il2CppName: AddKeyboardShortcut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)(UnityEngine::KeyCode, System::Action*)>(&KeyboardShortcutsManager::AddKeyboardShortcut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), "AddKeyboardShortcut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::*)()>(&KeyboardShortcutsManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1285,6 +2799,36 @@ bool GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::Equals(::Il2Cp
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
 }
+// Writing MetadataGetter for method: KeyboardShortcutsManager::KeyboardShortcut::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::KeyboardShortcut::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode)>(&KeyboardShortcutsManager::KeyboardShortcut::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager::KeyboardShortcut*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KeyboardShortcutsManager::KeyboardShortcut::*)(UnityEngine::KeyCode, UnityEngine::KeyCode, UnityEngine::KeyCode)>(&KeyboardShortcutsManager::KeyboardShortcut::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager::KeyboardShortcut*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::KeyboardShortcut::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (KeyboardShortcutsManager::KeyboardShortcut::*)()>(&KeyboardShortcutsManager::KeyboardShortcut::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager::KeyboardShortcut*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: KeyboardShortcutsManager::KeyboardShortcut::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KeyboardShortcutsManager::KeyboardShortcut::*)(::Il2CppObject*)>(&KeyboardShortcutsManager::KeyboardShortcut::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(KeyboardShortcutsManager::KeyboardShortcut*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1303,6 +2847,28 @@ void GlobalNamespace::MipMapBiasSpriteSetter::Start() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: MipMapBiasSpriteSetter::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MipMapBiasSpriteSetter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MipMapBiasSpriteSetter::*)()>(&MipMapBiasSpriteSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MipMapBiasSpriteSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1320,6 +2886,14 @@ void GlobalNamespace::UnityScenesHelper::SetActiveRootObjectsInScene(UnityEngine
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "UnityScenesHelper", "SetActiveRootObjectsInScene", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(scene), ::il2cpp_utils::ExtractType(active)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, scene, active);
 }
+// Writing MetadataGetter for method: UnityScenesHelper::SetActiveRootObjectsInScene
+// Il2CppName: SetActiveRootObjectsInScene
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene, bool)>(&UnityScenesHelper::SetActiveRootObjectsInScene)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(UnityScenesHelper*), "SetActiveRootObjectsInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1330,6 +2904,34 @@ void GlobalNamespace::UnityScenesHelper::SetActiveRootObjectsInScene(UnityEngine
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: DrawIfAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
+// Writing MetadataGetter for method: DrawIfAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawIfAttribute::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, GlobalNamespace::DrawIfAttribute::DisablingType)>(&DrawIfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawIfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DrawIfAttribute::DisablingType>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1382,6 +2984,28 @@ void GlobalNamespace::DrawHelpers::DrawTexture(UnityEngine::Texture* texture, fl
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "DrawHelpers", "DrawTexture", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(texture), ::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y), ::il2cpp_utils::ExtractType(w), ::il2cpp_utils::ExtractType(h), ::il2cpp_utils::ExtractType(mat), ::il2cpp_utils::ExtractType(sx), ::il2cpp_utils::ExtractType(sy), ::il2cpp_utils::ExtractType(sw), ::il2cpp_utils::ExtractType(sh)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, texture, x, y, w, h, mat, sx, sy, sw, sh);
 }
+// Writing MetadataGetter for method: DrawHelpers::DrawTexture
+// Il2CppName: DrawTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, float, float, float, float, UnityEngine::Material*, float, float, float, float)>(&DrawHelpers::DrawTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawHelpers*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: DrawHelpers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawHelpers::*)()>(&DrawHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DrawHelpers::*)()>(&DrawHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DrawHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1411,6 +3035,44 @@ void GlobalNamespace::DroppedFramesLabel::RefreshText() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RefreshText", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: DroppedFramesLabel::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DroppedFramesLabel::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DroppedFramesLabel::RefreshText
+// Il2CppName: RefreshText
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::RefreshText)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), "RefreshText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DroppedFramesLabel::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroppedFramesLabel::*)()>(&DroppedFramesLabel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DroppedFramesLabel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1606,6 +3268,254 @@ float GlobalNamespace::Easing::InOutBounce(float t) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "Easing", "InOutBounce", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
   return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, t);
 }
+// Writing MetadataGetter for method: Easing::Linear
+// Il2CppName: Linear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::Linear)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "Linear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InSine
+// Il2CppName: InSine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InSine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InSine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutSine
+// Il2CppName: OutSine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutSine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutSine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutSine
+// Il2CppName: InOutSine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutSine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutSine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InQuad
+// Il2CppName: InQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutQuad
+// Il2CppName: OutQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutQuad
+// Il2CppName: InOutQuad
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutQuad)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InCubic
+// Il2CppName: InCubic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InCubic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutCubic
+// Il2CppName: OutCubic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutCubic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutCubic
+// Il2CppName: InOutCubic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutCubic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InQuart
+// Il2CppName: InQuart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InQuart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InQuart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutQuart
+// Il2CppName: OutQuart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutQuart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutQuart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutQuart
+// Il2CppName: InOutQuart
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutQuart)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutQuart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InQuint
+// Il2CppName: InQuint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InQuint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InQuint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutQuint
+// Il2CppName: OutQuint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutQuint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutQuint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutQuint
+// Il2CppName: InOutQuint
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutQuint)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutQuint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InExpo
+// Il2CppName: InExpo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InExpo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InExpo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutExpo
+// Il2CppName: OutExpo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutExpo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutExpo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutExpo
+// Il2CppName: InOutExpo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutExpo)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutExpo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InCirc
+// Il2CppName: InCirc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InCirc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InCirc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutCirc
+// Il2CppName: OutCirc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutCirc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutCirc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutCirc
+// Il2CppName: InOutCirc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutCirc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutCirc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InBack
+// Il2CppName: InBack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InBack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutBack
+// Il2CppName: OutBack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutBack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutBack
+// Il2CppName: InOutBack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutBack)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InElastic
+// Il2CppName: InElastic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InElastic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InElastic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutElastic
+// Il2CppName: OutElastic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutElastic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutElastic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutElastic
+// Il2CppName: InOutElastic
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutElastic)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutElastic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InBounce
+// Il2CppName: InBounce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InBounce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InBounce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::OutBounce
+// Il2CppName: OutBounce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutBounce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "OutBounce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: Easing::InOutBounce
+// Il2CppName: InOutBounce
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutBounce)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutBounce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1625,6 +3535,14 @@ UnityEngine::Texture2D* GlobalNamespace::RenderTextureExtensions::GetTexture2D(U
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "RenderTextureExtensions", "GetTexture2D", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rt)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Texture2D*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, rt);
 }
+// Writing MetadataGetter for method: RenderTextureExtensions::GetTexture2D
+// Il2CppName: GetTexture2D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*)>(&RenderTextureExtensions::GetTexture2D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RenderTextureExtensions*), "GetTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1634,7 +3552,7 @@ UnityEngine::Texture2D* GlobalNamespace::RenderTextureExtensions::GetTexture2D(U
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// [CompilerGeneratedAttribute] Offset: 0xDE346C
+// [CompilerGeneratedAttribute] Offset: 0xDE33A0
 // Autogenerated static field getter
 // Get static field: static private System.Single <time>k__BackingField
 float GlobalNamespace::TimeHelper::_get_$time$k__BackingField() {
@@ -1647,7 +3565,7 @@ void GlobalNamespace::TimeHelper::_set_$time$k__BackingField(float value) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TimeHelper::_set_$time$k__BackingField");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "TimeHelper", "<time>k__BackingField", value));
 }
-// [CompilerGeneratedAttribute] Offset: 0xDE347C
+// [CompilerGeneratedAttribute] Offset: 0xDE33B0
 // Autogenerated static field getter
 // Get static field: static private System.Single <deltaTime>k__BackingField
 float GlobalNamespace::TimeHelper::_get_$deltaTime$k__BackingField() {
@@ -1660,7 +3578,7 @@ void GlobalNamespace::TimeHelper::_set_$deltaTime$k__BackingField(float value) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TimeHelper::_set_$deltaTime$k__BackingField");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "TimeHelper", "<deltaTime>k__BackingField", value));
 }
-// [CompilerGeneratedAttribute] Offset: 0xDE348C
+// [CompilerGeneratedAttribute] Offset: 0xDE33C0
 // Autogenerated static field getter
 // Get static field: static private System.Single <fixedDeltaTime>k__BackingField
 float GlobalNamespace::TimeHelper::_get_$fixedDeltaTime$k__BackingField() {
@@ -1673,7 +3591,7 @@ void GlobalNamespace::TimeHelper::_set_$fixedDeltaTime$k__BackingField(float val
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TimeHelper::_set_$fixedDeltaTime$k__BackingField");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "TimeHelper", "<fixedDeltaTime>k__BackingField", value));
 }
-// [CompilerGeneratedAttribute] Offset: 0xDE349C
+// [CompilerGeneratedAttribute] Offset: 0xDE33D0
 // Autogenerated static field getter
 // Get static field: static private System.Single <interpolationFactor>k__BackingField
 float GlobalNamespace::TimeHelper::_get_$interpolationFactor$k__BackingField() {
@@ -1752,6 +3670,132 @@ void GlobalNamespace::TimeHelper::Update() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: TimeHelper::get_time
+// Il2CppName: get_time
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::set_time
+// Il2CppName: set_time
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_time)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::get_deltaTime
+// Il2CppName: get_deltaTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_deltaTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::set_deltaTime
+// Il2CppName: set_deltaTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_deltaTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::get_fixedDeltaTime
+// Il2CppName: get_fixedDeltaTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_fixedDeltaTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_fixedDeltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::set_fixedDeltaTime
+// Il2CppName: set_fixedDeltaTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_fixedDeltaTime)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_fixedDeltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::get_interpolationFactor
+// Il2CppName: get_interpolationFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_interpolationFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::set_interpolationFactor
+// Il2CppName: set_interpolationFactor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_interpolationFactor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: TimeHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: VersionStringHelper
+#include "GlobalNamespace/VersionStringHelper.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated method: VersionStringHelper.GetMajorVersionNumber
+int GlobalNamespace::VersionStringHelper::GetMajorVersionNumber(::Il2CppString* versionString) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VersionStringHelper::GetMajorVersionNumber");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "VersionStringHelper", "GetMajorVersionNumber", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(versionString)})));
+  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, versionString);
+}
+// Writing MetadataGetter for method: VersionStringHelper::GetMajorVersionNumber
+// Il2CppName: GetMajorVersionNumber
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&VersionStringHelper::GetMajorVersionNumber)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(VersionStringHelper*), "GetMajorVersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1761,6 +3805,20 @@ void GlobalNamespace::TimeHelper::Update() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: ManualUpdate::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManualUpdate::*)()>(&ManualUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManualUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManualUpdate::*)()>(&ManualUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManualUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1770,6 +3828,20 @@ void GlobalNamespace::TimeHelper::Update() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: ManualUpdateManager::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManualUpdateManager::*)()>(&ManualUpdateManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManualUpdateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ManualUpdateManager::*)()>(&ManualUpdateManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ManualUpdateManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1800,6 +3872,44 @@ void GlobalNamespace::ActivateOnVisible::OnBecameInvisible() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnBecameInvisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: ActivateOnVisible::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivateOnVisible::OnBecameVisible
+// Il2CppName: OnBecameVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::OnBecameVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivateOnVisible::OnBecameInvisible
+// Il2CppName: OnBecameInvisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ActivateOnVisible::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1811,6 +3921,20 @@ void GlobalNamespace::ActivateOnVisible::OnBecameInvisible() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: AlphabetScrollInfo::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlphabetScrollInfo::*)()>(&AlphabetScrollInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AlphabetScrollInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlphabetScrollInfo::*)()>(&AlphabetScrollInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AlphabetScrollInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1820,6 +3944,20 @@ void GlobalNamespace::ActivateOnVisible::OnBecameInvisible() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: AlphabetScrollInfo::Data::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlphabetScrollInfo::Data::*)(::Il2CppChar, int)>(&AlphabetScrollInfo::Data::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AlphabetScrollInfo::Data*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlphabetScrollInfo::Data::*)(::Il2CppChar, int)>(&AlphabetScrollInfo::Data::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AlphabetScrollInfo::Data*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1837,6 +3975,28 @@ void GlobalNamespace::AnimationStartParams::Start() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: AnimationStartParams::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationStartParams::*)()>(&AnimationStartParams::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationStartParams*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AnimationStartParams::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationStartParams::*)()>(&AnimationStartParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationStartParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationStartParams::*)()>(&AnimationStartParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AnimationStartParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1847,6 +4007,9 @@ void GlobalNamespace::AnimationStartParams::Start() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: ArrayHelpers::CreateOrEnlargeArray
+// Il2CppName: CreateOrEnlargeArray
+// Cannot write MetadataGetter for generic methods!
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1872,6 +4035,17 @@ void GlobalNamespace::AsyncHelper::RunSync(System::Func_1<System::Threading::Tas
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "AsyncHelper", "RunSync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(asyncTask)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, asyncTask);
 }
+// Writing MetadataGetter for method: AsyncHelper::RunSync
+// Il2CppName: RunSync
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: AsyncHelper::RunSync
+// Il2CppName: RunSync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Func_1<System::Threading::Tasks::Task*>*)>(&AsyncHelper::RunSync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncHelper*), "RunSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Threading::Tasks::Task*>*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1893,6 +4067,28 @@ System::Threading::Tasks::Task* GlobalNamespace::AsyncHelper::$$c__DisplayClass1
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RunSync>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: AsyncHelper::$$c__DisplayClass1_0::$RunSync$b__0
+// Il2CppName: <RunSync>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (AsyncHelper::$$c__DisplayClass1_0::*)()>(&AsyncHelper::$$c__DisplayClass1_0::$RunSync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncHelper::$$c__DisplayClass1_0*), "<RunSync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncHelper::$$c__DisplayClass1_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncHelper::$$c__DisplayClass1_0::*)()>(&AsyncHelper::$$c__DisplayClass1_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncHelper::$$c__DisplayClass1_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncHelper::$$c__DisplayClass1_0::*)()>(&AsyncHelper::$$c__DisplayClass1_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncHelper::$$c__DisplayClass1_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1914,6 +4110,22 @@ void GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::SetSt
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, stateMachine);
 }
+// Writing MetadataGetter for method: AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::*)()>(&AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::SetStateMachine
+// Il2CppName: SetStateMachine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d::SetStateMachine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -1937,6 +4149,36 @@ void GlobalNamespace::Billboard::OnWillRenderObject() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnWillRenderObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: Billboard::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Billboard::*)()>(&Billboard::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Billboard*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Billboard::OnWillRenderObject
+// Il2CppName: OnWillRenderObject
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Billboard::*)()>(&Billboard::OnWillRenderObject)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Billboard*), "OnWillRenderObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Billboard::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Billboard::*)()>(&Billboard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Billboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Billboard::*)()>(&Billboard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Billboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2009,6 +4251,28 @@ void GlobalNamespace::CameraDepthTextureMode::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: CameraDepthTextureMode::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraDepthTextureMode::*)()>(&CameraDepthTextureMode::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CameraDepthTextureMode*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CameraDepthTextureMode::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraDepthTextureMode::*)()>(&CameraDepthTextureMode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CameraDepthTextureMode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraDepthTextureMode::*)()>(&CameraDepthTextureMode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CameraDepthTextureMode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2031,6 +4295,28 @@ System::Collections::IEnumerator* GlobalNamespace::ClickButtonWithCommandArgumen
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ClickButtonWithCommandArgument::*)()>(&ClickButtonWithCommandArgument::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClickButtonWithCommandArgument::*)()>(&ClickButtonWithCommandArgument::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClickButtonWithCommandArgument::*)()>(&ClickButtonWithCommandArgument::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2071,6 +4357,60 @@ void GlobalNamespace::ClickButtonWithCommandArgument::$Start$d__2::System_Collec
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::$Start$d__2::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClickButtonWithCommandArgument::$Start$d__2::*)(int)>(&ClickButtonWithCommandArgument::$Start$d__2::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClickButtonWithCommandArgument::$Start$d__2::*)(int)>(&ClickButtonWithCommandArgument::$Start$d__2::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::$Start$d__2::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClickButtonWithCommandArgument::$Start$d__2::*)()>(&ClickButtonWithCommandArgument::$Start$d__2::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::$Start$d__2::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ClickButtonWithCommandArgument::$Start$d__2::*)()>(&ClickButtonWithCommandArgument::$Start$d__2::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::$Start$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ClickButtonWithCommandArgument::$Start$d__2::*)()>(&ClickButtonWithCommandArgument::$Start$d__2::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::$Start$d__2::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClickButtonWithCommandArgument::$Start$d__2::*)()>(&ClickButtonWithCommandArgument::$Start$d__2::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ClickButtonWithCommandArgument::$Start$d__2::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ClickButtonWithCommandArgument::$Start$d__2::*)()>(&ClickButtonWithCommandArgument::$Start$d__2::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ClickButtonWithCommandArgument::$Start$d__2*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2124,6 +4464,62 @@ UnityEngine::Color GlobalNamespace::ColorExtensions::LerpRGBUnclamped(UnityEngin
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ColorExtensions", "LerpRGBUnclamped", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(t)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Color, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b, t);
 }
+// Writing MetadataGetter for method: ColorExtensions::SaturatedColor
+// Il2CppName: SaturatedColor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::SaturatedColor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "SaturatedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorExtensions::ColorWithAlpha
+// Il2CppName: ColorWithAlpha
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithAlpha)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorExtensions::ColorWithR
+// Il2CppName: ColorWithR
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithR)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorExtensions::ColorWithG
+// Il2CppName: ColorWithG
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithG)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorExtensions::ColorWithB
+// Il2CppName: ColorWithB
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithB)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorExtensions::ColorWithValue
+// Il2CppName: ColorWithValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&ColorExtensions::ColorWithValue)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "ColorWithValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: ColorExtensions::LerpRGBUnclamped
+// Il2CppName: LerpRGBUnclamped
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&ColorExtensions::LerpRGBUnclamped)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ColorExtensions*), "LerpRGBUnclamped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2146,6 +4542,36 @@ bool GlobalNamespace::ConfigSerializer::LoadConfig(::Il2CppObject* config, ::Il2
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ConfigSerializer", "LoadConfig", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(config), ::il2cpp_utils::ExtractType(filePath)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, config, filePath);
 }
+// Writing MetadataGetter for method: ConfigSerializer::SaveConfig
+// Il2CppName: SaveConfig
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&ConfigSerializer::SaveConfig)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigSerializer*), "SaveConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigSerializer::LoadConfig
+// Il2CppName: LoadConfig
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*)>(&ConfigSerializer::LoadConfig)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigSerializer*), "LoadConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: ConfigSerializer::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigSerializer::*)()>(&ConfigSerializer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigSerializer::*)()>(&ConfigSerializer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ConfigSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2167,6 +4593,28 @@ System::Collections::IEnumerator* GlobalNamespace::CoroutineHelpers::ExecuteAfte
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "CoroutineHelpers", "ExecuteAfterDelayCoroutine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action), ::il2cpp_utils::ExtractType(time)})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, action, time);
 }
+// Writing MetadataGetter for method: CoroutineHelpers::ExecuteAfterDelayCoroutine
+// Il2CppName: ExecuteAfterDelayCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(System::Action*, float)>(&CoroutineHelpers::ExecuteAfterDelayCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers*), "ExecuteAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: CoroutineHelpers::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineHelpers::*)()>(&CoroutineHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineHelpers::*)()>(&CoroutineHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2209,6 +4657,60 @@ void GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)(int)>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)(int)>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::*)()>(&CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2228,6 +4730,28 @@ void GlobalNamespace::CustomBoundingBox::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: CustomBoundingBox::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBoundingBox::*)()>(&CustomBoundingBox::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CustomBoundingBox*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: CustomBoundingBox::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBoundingBox::*)()>(&CustomBoundingBox::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CustomBoundingBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBoundingBox::*)()>(&CustomBoundingBox::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(CustomBoundingBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2249,6 +4773,36 @@ void GlobalNamespace::DisableGCWhileEnabled::OnDisable() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDisable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: DisableGCWhileEnabled::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableGCWhileEnabled::*)()>(&DisableGCWhileEnabled::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableGCWhileEnabled*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisableGCWhileEnabled::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableGCWhileEnabled::*)()>(&DisableGCWhileEnabled::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableGCWhileEnabled*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: DisableGCWhileEnabled::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableGCWhileEnabled::*)()>(&DisableGCWhileEnabled::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableGCWhileEnabled*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisableGCWhileEnabled::*)()>(&DisableGCWhileEnabled::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DisableGCWhileEnabled*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2258,6 +4812,20 @@ void GlobalNamespace::DisableGCWhileEnabled::OnDisable() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: DoesNotRequireDomainReloadInitAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DoesNotRequireDomainReloadInitAttribute::*)()>(&DoesNotRequireDomainReloadInitAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DoesNotRequireDomainReloadInitAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DoesNotRequireDomainReloadInitAttribute::*)()>(&DoesNotRequireDomainReloadInitAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(DoesNotRequireDomainReloadInitAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2277,6 +4845,28 @@ System::Collections::IEnumerator* GlobalNamespace::EnableAfterDelay::Start() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: EnableAfterDelay::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (EnableAfterDelay::*)()>(&EnableAfterDelay::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableAfterDelay::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableAfterDelay::*)()>(&EnableAfterDelay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableAfterDelay::*)()>(&EnableAfterDelay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2317,6 +4907,60 @@ void GlobalNamespace::EnableAfterDelay::$Start$d__1::System_Collections_IEnumera
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: EnableAfterDelay::$Start$d__1::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableAfterDelay::$Start$d__1::*)(int)>(&EnableAfterDelay::$Start$d__1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableAfterDelay::$Start$d__1::*)(int)>(&EnableAfterDelay::$Start$d__1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: EnableAfterDelay::$Start$d__1::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableAfterDelay::$Start$d__1::*)()>(&EnableAfterDelay::$Start$d__1::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableAfterDelay::$Start$d__1::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnableAfterDelay::$Start$d__1::*)()>(&EnableAfterDelay::$Start$d__1::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableAfterDelay::$Start$d__1::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EnableAfterDelay::$Start$d__1::*)()>(&EnableAfterDelay::$Start$d__1::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableAfterDelay::$Start$d__1::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableAfterDelay::$Start$d__1::*)()>(&EnableAfterDelay::$Start$d__1::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableAfterDelay::$Start$d__1::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EnableAfterDelay::$Start$d__1::*)()>(&EnableAfterDelay::$Start$d__1::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableAfterDelay::$Start$d__1*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2333,6 +4977,28 @@ void GlobalNamespace::EnableComponentWithCommandArgument::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: EnableComponentWithCommandArgument::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableComponentWithCommandArgument::*)()>(&EnableComponentWithCommandArgument::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableComponentWithCommandArgument*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableComponentWithCommandArgument::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableComponentWithCommandArgument::*)()>(&EnableComponentWithCommandArgument::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableComponentWithCommandArgument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableComponentWithCommandArgument::*)()>(&EnableComponentWithCommandArgument::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableComponentWithCommandArgument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2361,6 +5027,44 @@ void GlobalNamespace::EnableEmmisionOnVisible::OnBecameInvisible() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnBecameInvisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: EnableEmmisionOnVisible::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableEmmisionOnVisible::*)()>(&EnableEmmisionOnVisible::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableEmmisionOnVisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableEmmisionOnVisible::OnBecameVisible
+// Il2CppName: OnBecameVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableEmmisionOnVisible::*)()>(&EnableEmmisionOnVisible::OnBecameVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableEmmisionOnVisible*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableEmmisionOnVisible::OnBecameInvisible
+// Il2CppName: OnBecameInvisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableEmmisionOnVisible::*)()>(&EnableEmmisionOnVisible::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableEmmisionOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableEmmisionOnVisible::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableEmmisionOnVisible::*)()>(&EnableEmmisionOnVisible::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableEmmisionOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableEmmisionOnVisible::*)()>(&EnableEmmisionOnVisible::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableEmmisionOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2403,6 +5107,60 @@ void GlobalNamespace::EnableOnVisible::OnBecameInvisible() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnBecameInvisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: EnableOnVisible::add_VisibilityChangedEvent
+// Il2CppName: add_VisibilityChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)(System::Action_1<bool>*)>(&EnableOnVisible::add_VisibilityChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), "add_VisibilityChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: EnableOnVisible::remove_VisibilityChangedEvent
+// Il2CppName: remove_VisibilityChangedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)(System::Action_1<bool>*)>(&EnableOnVisible::remove_VisibilityChangedEvent)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), "remove_VisibilityChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: EnableOnVisible::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)()>(&EnableOnVisible::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableOnVisible::OnBecameVisible
+// Il2CppName: OnBecameVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)()>(&EnableOnVisible::OnBecameVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableOnVisible::OnBecameInvisible
+// Il2CppName: OnBecameInvisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)()>(&EnableOnVisible::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EnableOnVisible::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)()>(&EnableOnVisible::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableOnVisible::*)()>(&EnableOnVisible::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnableOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2413,6 +5171,34 @@ void GlobalNamespace::EnableOnVisible::OnBecameInvisible() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: EnumFlagAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumFlagAttribute::*)(::Il2CppString*)>(&EnumFlagAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumFlagAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumFlagAttribute::*)(::Il2CppString*)>(&EnumFlagAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumFlagAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: EnumFlagAttribute::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumFlagAttribute::*)()>(&EnumFlagAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumFlagAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumFlagAttribute::*)()>(&EnumFlagAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EnumFlagAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2495,6 +5281,76 @@ UnityEngine::Texture2D* GlobalNamespace::ExtensionMethods::CreateTexture2D(Unity
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ExtensionMethods", "CreateTexture2D", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(renderTexture), ::il2cpp_utils::ExtractType(textureFormat)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Texture2D*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, renderTexture, textureFormat);
 }
+// Writing MetadataGetter for method: ExtensionMethods::ContainsLayer
+// Il2CppName: ContainsLayer
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LayerMask, int)>(&ExtensionMethods::ContainsLayer)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "ContainsLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::StartUniqueCoroutine
+// Il2CppName: StartUniqueCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&ExtensionMethods::StartUniqueCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "StartUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Collections::IEnumerator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::StartUniqueCoroutine
+// Il2CppName: StartUniqueCoroutine
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExtensionMethods::StopUniqueCoroutine
+// Il2CppName: StopUniqueCoroutine
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&ExtensionMethods::StopUniqueCoroutine)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "StopUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Collections::IEnumerator*>*>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::StopUniqueCoroutine
+// Il2CppName: StopUniqueCoroutine
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: ExtensionMethods::IsDescendantOf
+// Il2CppName: IsDescendantOf
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&ExtensionMethods::IsDescendantOf)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "IsDescendantOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::SetLocalPositionAndRotation
+// Il2CppName: SetLocalPositionAndRotation
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&ExtensionMethods::SetLocalPositionAndRotation)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "SetLocalPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::GetPath
+// Il2CppName: GetPath
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Transform*)>(&ExtensionMethods::GetPath)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::Reflect
+// Il2CppName: Reflect
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&ExtensionMethods::Reflect)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "Reflect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: ExtensionMethods::CreateTexture2D
+// Il2CppName: CreateTexture2D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*, UnityEngine::TextureFormat)>(&ExtensionMethods::CreateTexture2D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "CreateTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2522,6 +5378,25 @@ void GlobalNamespace::EssentialHelpers::SafeDestroy(UnityEngine::Object* obj) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "EssentialHelpers", "SafeDestroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, obj);
 }
+// Writing MetadataGetter for method: EssentialHelpers::get_CurrentTimeStamp
+// Il2CppName: get_CurrentTimeStamp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&EssentialHelpers::get_CurrentTimeStamp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "get_CurrentTimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EssentialHelpers::SafeDestroy
+// Il2CppName: SafeDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&EssentialHelpers::SafeDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+  }
+};
+// Writing MetadataGetter for method: EssentialHelpers::GetOrAddComponent
+// Il2CppName: GetOrAddComponent
+// Cannot write MetadataGetter for generic methods!
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2547,6 +5422,36 @@ void GlobalNamespace::EventBinder::ClearAllBindings() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearAllBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: EventBinder::Bind
+// Il2CppName: Bind
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)(System::Action*, System::Action*)>(&EventBinder::Bind)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EventBinder*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: EventBinder::ClearAllBindings
+// Il2CppName: ClearAllBindings
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)()>(&EventBinder::ClearAllBindings)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EventBinder*), "ClearAllBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: EventBinder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)()>(&EventBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EventBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBinder::*)()>(&EventBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(EventBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2626,6 +5531,100 @@ System::Collections::IEnumerator* GlobalNamespace::FadeInOutController::Fade(flo
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Fade", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromValue), ::il2cpp_utils::ExtractType(toValue), ::il2cpp_utils::ExtractType(duration), ::il2cpp_utils::ExtractType(startDelay), ::il2cpp_utils::ExtractType(curve), ::il2cpp_utils::ExtractType(fadeFinishedCallback)})));
   return ::il2cpp_utils::RunMethodThrow<System::Collections::IEnumerator*, false>(this, ___internal__method, fromValue, toValue, duration, startDelay, curve, fadeFinishedCallback);
 }
+// Writing MetadataGetter for method: FadeInOutController::FadeOutInstant
+// Il2CppName: FadeOutInstant
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::FadeOutInstant)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOutInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeIn
+// Il2CppName: FadeIn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::FadeIn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeOut
+// Il2CppName: FadeOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::FadeOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeIn
+// Il2CppName: FadeIn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float)>(&FadeInOutController::FadeIn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeOut
+// Il2CppName: FadeOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float)>(&FadeInOutController::FadeOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeIn
+// Il2CppName: FadeIn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(System::Action*)>(&FadeInOutController::FadeIn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeOut
+// Il2CppName: FadeOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(System::Action*)>(&FadeInOutController::FadeOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeIn
+// Il2CppName: FadeIn
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float, System::Action*)>(&FadeInOutController::FadeIn)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::FadeOut
+// Il2CppName: FadeOut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float, System::Action*)>(&FadeInOutController::FadeOut)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::Fade
+// Il2CppName: Fade
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FadeInOutController::*)(float, float, float, float, UnityEngine::AnimationCurve*, System::Action*)>(&FadeInOutController::Fade)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2670,6 +5669,60 @@ void GlobalNamespace::FadeInOutController::$Fade$d__15::System_Collections_IEnum
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FadeInOutController::$Fade$d__15::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::$Fade$d__15::*)(int)>(&FadeInOutController::$Fade$d__15::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::$Fade$d__15::*)(int)>(&FadeInOutController::$Fade$d__15::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::$Fade$d__15::System_IDisposable_Dispose
+// Il2CppName: System.IDisposable.Dispose
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::$Fade$d__15::*)()>(&FadeInOutController::$Fade$d__15::System_IDisposable_Dispose)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::$Fade$d__15::MoveNext
+// Il2CppName: MoveNext
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FadeInOutController::$Fade$d__15::*)()>(&FadeInOutController::$Fade$d__15::MoveNext)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::$Fade$d__15::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (FadeInOutController::$Fade$d__15::*)()>(&FadeInOutController::$Fade$d__15::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::$Fade$d__15::System_Collections_IEnumerator_Reset
+// Il2CppName: System.Collections.IEnumerator.Reset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::$Fade$d__15::*)()>(&FadeInOutController::$Fade$d__15::System_Collections_IEnumerator_Reset)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FadeInOutController::$Fade$d__15::System_Collections_IEnumerator_get_Current
+// Il2CppName: System.Collections.IEnumerator.get_Current
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (FadeInOutController::$Fade$d__15::*)()>(&FadeInOutController::$Fade$d__15::System_Collections_IEnumerator_get_Current)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FadeInOutController::$Fade$d__15*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2710,6 +5763,52 @@ bool GlobalNamespace::FileCompressionHelper::ExtractZipToDirectory(::Il2CppStrin
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "FileCompressionHelper", "ExtractZipToDirectory", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sourceArchiveFileName), ::il2cpp_utils::ExtractType(destinationDirectoryName)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, sourceArchiveFileName, destinationDirectoryName);
 }
+// Writing MetadataGetter for method: FileCompressionHelper::CreateZipFromDirectoryAsync
+// Il2CppName: CreateZipFromDirectoryAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<bool>*)>(&FileCompressionHelper::CreateZipFromDirectoryAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper*), "CreateZipFromDirectoryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::ExtractZipToDirectoryAsync
+// Il2CppName: ExtractZipToDirectoryAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<bool>*)>(&FileCompressionHelper::ExtractZipToDirectoryAsync)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper*), "ExtractZipToDirectoryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::CreateZipFromDirectory
+// Il2CppName: CreateZipFromDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&FileCompressionHelper::CreateZipFromDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper*), "CreateZipFromDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::ExtractZipToDirectory
+// Il2CppName: ExtractZipToDirectory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&FileCompressionHelper::ExtractZipToDirectory)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper*), "ExtractZipToDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::*)()>(&FileCompressionHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::*)()>(&FileCompressionHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2734,6 +5833,36 @@ void GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFro
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CreateZipFromDirectoryAsync>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__0
+// Il2CppName: <CreateZipFromDirectoryAsync>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass0_0::*)()>(&FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass0_0*), "<CreateZipFromDirectoryAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__1
+// Il2CppName: <CreateZipFromDirectoryAsync>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass0_0::*)()>(&FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass0_0*), "<CreateZipFromDirectoryAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::$$c__DisplayClass0_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass0_0::*)()>(&FileCompressionHelper::$$c__DisplayClass0_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass0_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass0_0::*)()>(&FileCompressionHelper::$$c__DisplayClass0_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass0_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2758,6 +5887,36 @@ void GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0::$ExtractZipTo
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ExtractZipToDirectoryAsync>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FileCompressionHelper::$$c__DisplayClass1_0::$ExtractZipToDirectoryAsync$b__0
+// Il2CppName: <ExtractZipToDirectoryAsync>b__0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass1_0::*)()>(&FileCompressionHelper::$$c__DisplayClass1_0::$ExtractZipToDirectoryAsync$b__0)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass1_0*), "<ExtractZipToDirectoryAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::$$c__DisplayClass1_0::$ExtractZipToDirectoryAsync$b__1
+// Il2CppName: <ExtractZipToDirectoryAsync>b__1
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass1_0::*)()>(&FileCompressionHelper::$$c__DisplayClass1_0::$ExtractZipToDirectoryAsync$b__1)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass1_0*), "<ExtractZipToDirectoryAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FileCompressionHelper::$$c__DisplayClass1_0::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass1_0::*)()>(&FileCompressionHelper::$$c__DisplayClass1_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass1_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileCompressionHelper::$$c__DisplayClass1_0::*)()>(&FileCompressionHelper::$$c__DisplayClass1_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FileCompressionHelper::$$c__DisplayClass1_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2783,6 +5942,36 @@ void GlobalNamespace::FlexyFollow::LateUpdate() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LateUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FlexyFollow::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FlexyFollow::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FlexyFollow::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollow::*)()>(&FlexyFollow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2800,6 +5989,28 @@ void GlobalNamespace::FlexyFollowAndRotate::Update() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FlexyFollowAndRotate::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollowAndRotate::*)()>(&FlexyFollowAndRotate::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollowAndRotate*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FlexyFollowAndRotate::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollowAndRotate::*)()>(&FlexyFollowAndRotate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollowAndRotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlexyFollowAndRotate::*)()>(&FlexyFollowAndRotate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FlexyFollowAndRotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2823,6 +6034,36 @@ void GlobalNamespace::FollowLocalRotation::Update() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FollowLocalRotation::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FollowLocalRotation::*)()>(&FollowLocalRotation::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FollowLocalRotation*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FollowLocalRotation::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FollowLocalRotation::*)()>(&FollowLocalRotation::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FollowLocalRotation*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FollowLocalRotation::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FollowLocalRotation::*)()>(&FollowLocalRotation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FollowLocalRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FollowLocalRotation::*)()>(&FollowLocalRotation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FollowLocalRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2844,6 +6085,36 @@ void GlobalNamespace::FrameCounter::OnDestroy() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: FrameCounter::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FrameCounter::*)()>(&FrameCounter::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameCounter*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameCounter::OnDestroy
+// Il2CppName: OnDestroy
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FrameCounter::*)()>(&FrameCounter::OnDestroy)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameCounter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: FrameCounter::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FrameCounter::*)()>(&FrameCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FrameCounter::*)()>(&FrameCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(FrameCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2863,6 +6134,28 @@ bool GlobalNamespace::GeometryTools::ThreePointsToBox(UnityEngine::Vector3 p0, U
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "GeometryTools", "ThreePointsToBox", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p0), ::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, p0, p1, p2, center, halfSize, orientation);
 }
+// Writing MetadataGetter for method: GeometryTools::ThreePointsToBox
+// Il2CppName: ThreePointsToBox
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&GeometryTools::ThreePointsToBox)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GeometryTools*), "ThreePointsToBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+  }
+};
+// Writing MetadataGetter for method: GeometryTools::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeometryTools::*)()>(&GeometryTools::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GeometryTools*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeometryTools::*)()>(&GeometryTools::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GeometryTools*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2898,6 +6191,52 @@ void GlobalNamespace::HMAsyncRequest::Cancel() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Cancel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: HMAsyncRequest::get_CancelHandler
+// Il2CppName: get_CancelHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest::CancelHander* (HMAsyncRequest::*)()>(&HMAsyncRequest::get_CancelHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest*), "get_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::set_CancelHandler
+// Il2CppName: set_CancelHandler
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::*)(GlobalNamespace::HMAsyncRequest::CancelHander*)>(&HMAsyncRequest::set_CancelHandler)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest*), "set_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest::CancelHander*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::get_cancelled
+// Il2CppName: get_cancelled
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMAsyncRequest::*)()>(&HMAsyncRequest::get_cancelled)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest*), "get_cancelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::Cancel
+// Il2CppName: Cancel
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::*)()>(&HMAsyncRequest::Cancel)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::*)()>(&HMAsyncRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::*)()>(&HMAsyncRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2930,6 +6269,44 @@ void GlobalNamespace::HMAsyncRequest::CancelHander::EndInvoke(System::IAsyncResu
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, result);
 }
+// Writing MetadataGetter for method: HMAsyncRequest::CancelHander::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::CancelHander::*)(::Il2CppObject*, System::IntPtr)>(&HMAsyncRequest::CancelHander::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest::CancelHander*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::CancelHander::*)(::Il2CppObject*, System::IntPtr)>(&HMAsyncRequest::CancelHander::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest::CancelHander*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::CancelHander::Invoke
+// Il2CppName: Invoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::CancelHander::*)(GlobalNamespace::HMAsyncRequest*)>(&HMAsyncRequest::CancelHander::Invoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest::CancelHander*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::CancelHander::BeginInvoke
+// Il2CppName: BeginInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (HMAsyncRequest::CancelHander::*)(GlobalNamespace::HMAsyncRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&HMAsyncRequest::CancelHander::BeginInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest::CancelHander*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAsyncRequest::CancelHander::EndInvoke
+// Il2CppName: EndInvoke
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAsyncRequest::CancelHander::*)(System::IAsyncResult*)>(&HMAsyncRequest::CancelHander::EndInvoke)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAsyncRequest::CancelHander*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2982,6 +6359,60 @@ int GlobalNamespace::HMAutoincrementedRequestId::GetHashCode() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: HMAutoincrementedRequestId::get_RequestId
+// Il2CppName: get_RequestId
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (HMAutoincrementedRequestId::*)()>(&HMAutoincrementedRequestId::get_RequestId)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), "get_RequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAutoincrementedRequestId::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMAutoincrementedRequestId::*)(GlobalNamespace::HMAutoincrementedRequestId*)>(&HMAutoincrementedRequestId::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAutoincrementedRequestId*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAutoincrementedRequestId::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMAutoincrementedRequestId::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAutoincrementedRequestId::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAutoincrementedRequestId::*)()>(&HMAutoincrementedRequestId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMAutoincrementedRequestId::*)()>(&HMAutoincrementedRequestId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HMAutoincrementedRequestId::Equals
+// Il2CppName: Equals
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMAutoincrementedRequestId::*)(::Il2CppObject*)>(&HMAutoincrementedRequestId::Equals)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+  }
+};
+// Writing MetadataGetter for method: HMAutoincrementedRequestId::GetHashCode
+// Il2CppName: GetHashCode
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMAutoincrementedRequestId::*)()>(&HMAutoincrementedRequestId::GetHashCode)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HMAutoincrementedRequestId*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -2997,6 +6428,28 @@ void GlobalNamespace::HorizontalCameraFov::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: HorizontalCameraFov::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalCameraFov::*)()>(&HorizontalCameraFov::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalCameraFov*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: HorizontalCameraFov::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalCameraFov::*)()>(&HorizontalCameraFov::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalCameraFov*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalCameraFov::*)()>(&HorizontalCameraFov::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(HorizontalCameraFov*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3014,6 +6467,28 @@ void GlobalNamespace::InstantiatePrefab::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: InstantiatePrefab::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiatePrefab::*)()>(&InstantiatePrefab::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiatePrefab*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: InstantiatePrefab::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiatePrefab::*)()>(&InstantiatePrefab::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiatePrefab*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantiatePrefab::*)()>(&InstantiatePrefab::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(InstantiatePrefab*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3030,6 +6505,14 @@ void GlobalNamespace::InstantiatePrefab::Awake() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IntToRoman", "Roman", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(number)})));
   return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, number);
 }
+// Writing MetadataGetter for method: IntToRoman::Roman
+// Il2CppName: Roman
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&IntToRoman::Roman)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(IntToRoman*), "Roman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3049,6 +6532,28 @@ bool GlobalNamespace::LineTriangleIntersection::Intersects(UnityEngine::Ray ray,
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "LineTriangleIntersection", "Intersects", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ray), ::il2cpp_utils::ExtractType(p0), ::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, ray, p0, p1, p2);
 }
+// Writing MetadataGetter for method: LineTriangleIntersection::Intersects
+// Il2CppName: Intersects
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&LineTriangleIntersection::Intersects)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LineTriangleIntersection*), "Intersects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+  }
+};
+// Writing MetadataGetter for method: LineTriangleIntersection::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LineTriangleIntersection::*)()>(&LineTriangleIntersection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LineTriangleIntersection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LineTriangleIntersection::*)()>(&LineTriangleIntersection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(LineTriangleIntersection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3084,6 +6589,52 @@ void GlobalNamespace::MarkableUIButton::ToggleMarked() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToggleMarked", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: MarkableUIButton::get_marked
+// Il2CppName: get_marked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MarkableUIButton::*)()>(&MarkableUIButton::get_marked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "get_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MarkableUIButton::set_marked
+// Il2CppName: set_marked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)(bool)>(&MarkableUIButton::set_marked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "set_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: MarkableUIButton::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MarkableUIButton::ToggleMarked
+// Il2CppName: ToggleMarked
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::ToggleMarked)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "ToggleMarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MarkableUIButton::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3111,6 +6662,44 @@ void GlobalNamespace::MonobehaviourCallbacksOrderDebuger::Start() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: MonobehaviourCallbacksOrderDebuger::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonobehaviourCallbacksOrderDebuger::*)()>(&MonobehaviourCallbacksOrderDebuger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(MonobehaviourCallbacksOrderDebuger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3120,6 +6709,20 @@ void GlobalNamespace::MonobehaviourCallbacksOrderDebuger::Start() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Writing MetadataGetter for method: NumberTag::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberTag::*)()>(&NumberTag::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NumberTag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NumberTag::*)()>(&NumberTag::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(NumberTag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3130,7 +6733,7 @@ void GlobalNamespace::MonobehaviourCallbacksOrderDebuger::Start() {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE365C
+// [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE3590
 // Autogenerated static field getter
 // Get static field: static private readonly System.Int32[] permutation
 ::Array<int>* GlobalNamespace::PerlinNoise::_get_permutation() {
@@ -3143,7 +6746,7 @@ void GlobalNamespace::PerlinNoise::_set_permutation(::Array<int>* value) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerlinNoise::_set_permutation");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "PerlinNoise", "permutation", value));
 }
-// [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE366C
+// [DoesNotRequireDomainReloadInitAttribute] Offset: 0xDE35A0
 // Autogenerated static field getter
 // Get static field: static private readonly System.Int32[] p
 ::Array<int>* GlobalNamespace::PerlinNoise::_get_p() {
@@ -3198,6 +6801,76 @@ float GlobalNamespace::PerlinNoise::Lerp(float a, float b, float x) {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "PerlinNoise", "Lerp", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(x)})));
   return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, a, b, x);
 }
+// Writing MetadataGetter for method: PerlinNoise::_cctor
+// Il2CppName: .cctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PerlinNoise::_cctor)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::OctavePerlin3D
+// Il2CppName: OctavePerlin3D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, int, float, int)>(&PerlinNoise::OctavePerlin3D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), "OctavePerlin3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::Perlin3D
+// Il2CppName: Perlin3D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, int)>(&PerlinNoise::Perlin3D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), "Perlin3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::Inc
+// Il2CppName: Inc
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&PerlinNoise::Inc)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), "Inc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::Grad3D
+// Il2CppName: Grad3D
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, float, float, float)>(&PerlinNoise::Grad3D)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), "Grad3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::Fade
+// Il2CppName: Fade
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&PerlinNoise::Fade)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::Lerp
+// Il2CppName: Lerp
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&PerlinNoise::Lerp)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+  }
+};
+// Writing MetadataGetter for method: PerlinNoise::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PerlinNoise::*)()>(&PerlinNoise::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PerlinNoise::*)()>(&PerlinNoise::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PerlinNoise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3213,6 +6886,28 @@ void GlobalNamespace::PersistentScriptableObject::OnEnable() {
   auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnEnable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: PersistentScriptableObject::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentScriptableObject::*)()>(&PersistentScriptableObject::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentScriptableObject*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PersistentScriptableObject::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentScriptableObject::*)()>(&PersistentScriptableObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentScriptableObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentScriptableObject::*)()>(&PersistentScriptableObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PersistentScriptableObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3238,6 +6933,36 @@ void GlobalNamespace::PhysicsFollow::FixedUpdate() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FixedUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: PhysicsFollow::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsFollow::FixedUpdate
+// Il2CppName: FixedUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::FixedUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: PhysicsFollow::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3256,6 +6981,28 @@ void GlobalNamespace::RandomAnimatorStartTime::Start() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Start", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: RandomAnimatorStartTime::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: RandomAnimatorStartTime::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomAnimatorStartTime::*)()>(&RandomAnimatorStartTime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(RandomAnimatorStartTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3276,6 +7023,14 @@ int GlobalNamespace::Ray2DExtensions::CircleIntersections(UnityEngine::Ray2D ray
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "Ray2DExtensions", "CircleIntersections", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ray), ::il2cpp_utils::ExtractType(circleCenter), ::il2cpp_utils::ExtractType(radius), ::il2cpp_utils::ExtractType(distances)})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, ray, circleCenter, radius, distances);
 }
+// Writing MetadataGetter for method: Ray2DExtensions::CircleIntersections
+// Il2CppName: CircleIntersections
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::Array<float>*)>(&Ray2DExtensions::CircleIntersections)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Ray2DExtensions*), "CircleIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3291,6 +7046,28 @@ void GlobalNamespace::ResetPlayerPrefsOnButton::Update() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: ResetPlayerPrefsOnButton::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ResetPlayerPrefsOnButton::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResetPlayerPrefsOnButton::*)()>(&ResetPlayerPrefsOnButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ResetPlayerPrefsOnButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3332,6 +7109,60 @@ void GlobalNamespace::Rotate::Randomize() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Randomize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: Rotate::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Rotate::OnBecameVisible
+// Il2CppName: OnBecameVisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::OnBecameVisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Rotate::OnBecameInvisible
+// Il2CppName: OnBecameInvisible
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::OnBecameInvisible)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Rotate::Update
+// Il2CppName: Update
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Update)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Rotate::Randomize
+// Il2CppName: Randomize
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Randomize)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), "Randomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Rotate::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3375,6 +7206,60 @@ void GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnDisable() {
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDisable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
 }
+// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::Awake
+// Il2CppName: Awake
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::Awake)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::OnSceneLoaded
+// Il2CppName: OnSceneLoaded
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&SceneLoadedCallbacksOrderDebug::OnSceneLoaded)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "OnSceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+  }
+};
+// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::Start
+// Il2CppName: Start
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::Start)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3433,6 +7318,76 @@ UnityEngine::Texture2D* GlobalNamespace::ScreenshotRecorder::ConvertRenderTextur
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ConvertRenderTexture", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(renderTexture)})));
   return ::il2cpp_utils::RunMethodThrow<UnityEngine::Texture2D*, false>(this, ___internal__method, renderTexture);
 }
+// Writing MetadataGetter for method: ScreenshotRecorder::OnEnable
+// Il2CppName: OnEnable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::OnEnable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::OnDisable
+// Il2CppName: OnDisable
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::OnDisable)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::LateUpdate
+// Il2CppName: LateUpdate
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::LateUpdate)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::OnApplicationFocus
+// Il2CppName: OnApplicationFocus
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)(bool)>(&ScreenshotRecorder::OnApplicationFocus)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::SaveCameraScreenshot
+// Il2CppName: SaveCameraScreenshot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::SaveCameraScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "SaveCameraScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::SaveTextureScreenshot
+// Il2CppName: SaveTextureScreenshot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)(UnityEngine::Texture2D*)>(&ScreenshotRecorder::SaveTextureScreenshot)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "SaveTextureScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::ConvertRenderTexture
+// Il2CppName: ConvertRenderTexture
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (ScreenshotRecorder::*)(UnityEngine::RenderTexture*)>(&ScreenshotRecorder::ConvertRenderTexture)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), "ConvertRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+  }
+};
+// Writing MetadataGetter for method: ScreenshotRecorder::New_ctor
+// Il2CppName: .ctor
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenshotRecorder::*)()>(&ScreenshotRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+  const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(ScreenshotRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -3514,13 +7469,3 @@ void GlobalNamespace::ScreenshotRecorder::RecordingType::_set_ScreenshotOnPause(
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScreenshotRecorder::RecordingType::_set_ScreenshotOnPause");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "ScreenshotRecorder/RecordingType", "ScreenshotOnPause", value));
 }
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: SerializationHelpers
-#include "GlobalNamespace/SerializationHelpers.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes

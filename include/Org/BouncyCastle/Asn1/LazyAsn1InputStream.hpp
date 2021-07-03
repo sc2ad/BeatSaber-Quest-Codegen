@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Creating value type constructor for type: LazyAsn1InputStream
     LazyAsn1InputStream() noexcept {}
     // public System.Void .ctor(System.Byte[] input)
-    // Offset: 0x172492C
+    // Offset: 0x173C63C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: System.Void Asn1InputStream::.ctor(System.Byte[] input)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsn1InputStream*, creationType>(input)));
     }
     // public System.Void .ctor(System.IO.Stream inputStream)
-    // Offset: 0x1724934
+    // Offset: 0x173C644
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: System.Void Asn1InputStream::.ctor(System.IO.Stream inputStream)
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream inputStream)
@@ -55,16 +55,60 @@ namespace Org::BouncyCastle::Asn1 {
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsn1InputStream*, creationType>(inputStream)));
     }
     // override Org.BouncyCastle.Asn1.DerSequence CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x172493C
+    // Offset: 0x173C64C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: Org.BouncyCastle.Asn1.DerSequence Asn1InputStream::CreateDerSequence(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
     Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
     // override Org.BouncyCastle.Asn1.DerSet CreateDerSet(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
-    // Offset: 0x1724A34
+    // Offset: 0x173C744
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: Org.BouncyCastle.Asn1.DerSet Asn1InputStream::CreateDerSet(Org.BouncyCastle.Asn1.DefiniteLengthInputStream dIn)
     Org::BouncyCastle::Asn1::DerSet* CreateDerSet(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
   }; // Org.BouncyCastle.Asn1.LazyAsn1InputStream
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LazyAsn1InputStream::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyAsn1InputStream::*)(::Array<uint8_t>*)>(&LazyAsn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LazyAsn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyAsn1InputStream::*)(::Array<uint8_t>*)>(&LazyAsn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LazyAsn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LazyAsn1InputStream::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyAsn1InputStream::*)(System::IO::Stream*)>(&LazyAsn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LazyAsn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LazyAsn1InputStream::*)(System::IO::Stream*)>(&LazyAsn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LazyAsn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LazyAsn1InputStream::CreateDerSequence
+  // Il2CppName: CreateDerSequence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSequence* (LazyAsn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&LazyAsn1InputStream::CreateDerSequence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LazyAsn1InputStream*), "CreateDerSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LazyAsn1InputStream::CreateDerSet
+  // Il2CppName: CreateDerSet
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (LazyAsn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&LazyAsn1InputStream::CreateDerSet)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LazyAsn1InputStream*), "CreateDerSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LazyAsn1InputStream*, "Org.BouncyCastle.Asn1", "LazyAsn1InputStream");

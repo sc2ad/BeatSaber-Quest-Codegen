@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Keyframe
     Keyframe(::Array<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>* transforms_ = {}, float time_ = {}) noexcept : transforms{transforms_}, time{time_} {}
     // public System.Void .ctor()
-    // Offset: 0x1D963D4
+    // Offset: 0x1DAF130
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,5 +52,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder::Keyframe), 24 + sizeof(float)> __GlobalNamespace_VRTrackersRecorder_KeyframeSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::Keyframe) == 0x1C);
+  // Writing MetadataGetter for method: VRTrackersRecorder::Keyframe::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::Keyframe::*)()>(&VRTrackersRecorder::Keyframe::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder::Keyframe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::Keyframe::*)()>(&VRTrackersRecorder::Keyframe::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder::Keyframe*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe*, "", "VRTrackersRecorder/Keyframe");

@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void set_fillAmount(System.Single value)
-    // Offset: 0x10B63A4
+    // Offset: 0x1034B1C
     void set_fillAmount(float value);
     // public System.Single get_fillAmount()
-    // Offset: 0x10C4510
+    // Offset: 0x10430D0
     float get_fillAmount();
     // public System.Void .ctor()
-    // Offset: 0x10C452C
+    // Offset: 0x10430EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,5 +64,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FillIndicator), 32 + sizeof(UnityEngine::UI::Image*)> __GlobalNamespace_FillIndicatorSizeCheck;
   static_assert(sizeof(FillIndicator) == 0x28);
+  // Writing MetadataGetter for method: FillIndicator::set_fillAmount
+  // Il2CppName: set_fillAmount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FillIndicator::*)(float)>(&FillIndicator::set_fillAmount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FillIndicator*), "set_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FillIndicator::get_fillAmount
+  // Il2CppName: get_fillAmount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FillIndicator::*)()>(&FillIndicator::get_fillAmount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FillIndicator*), "get_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FillIndicator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FillIndicator::*)()>(&FillIndicator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FillIndicator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FillIndicator::*)()>(&FillIndicator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FillIndicator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");

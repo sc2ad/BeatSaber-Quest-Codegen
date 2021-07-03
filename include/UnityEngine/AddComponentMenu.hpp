@@ -33,14 +33,14 @@ namespace UnityEngine {
     // Creating value type constructor for type: AddComponentMenu
     AddComponentMenu(::Il2CppString* m_AddComponentMenu_ = {}, int m_Ordering_ = {}) noexcept : m_AddComponentMenu{m_AddComponentMenu_}, m_Ordering{m_Ordering_} {}
     // public System.Void .ctor(System.String menuName)
-    // Offset: 0x1B6C464
+    // Offset: 0x1B88174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddComponentMenu* New_ctor(::Il2CppString* menuName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName)));
     }
     // public System.Void .ctor(System.String menuName, System.Int32 order)
-    // Offset: 0x1B6C494
+    // Offset: 0x1B881A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
@@ -50,5 +50,33 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(AddComponentMenu), 24 + sizeof(int)> __UnityEngine_AddComponentMenuSizeCheck;
   static_assert(sizeof(AddComponentMenu) == 0x1C);
+  // Writing MetadataGetter for method: AddComponentMenu::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddComponentMenu::*)(::Il2CppString*)>(&AddComponentMenu::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddComponentMenu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddComponentMenu::*)(::Il2CppString*)>(&AddComponentMenu::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddComponentMenu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AddComponentMenu::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddComponentMenu::*)(::Il2CppString*, int)>(&AddComponentMenu::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddComponentMenu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddComponentMenu::*)(::Il2CppString*, int)>(&AddComponentMenu::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddComponentMenu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");

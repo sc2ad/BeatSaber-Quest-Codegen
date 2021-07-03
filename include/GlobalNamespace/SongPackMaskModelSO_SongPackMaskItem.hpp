@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
     // Padding between fields: type and: beatmapLevelPack
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0xE2A01C
+    // [NullAllowed] Offset: 0xE2A060
     // public BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0xE2A02C
+    // [NullAllowed] Offset: 0xE2A070
     // public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     ::Il2CppString* serializedName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [NullAllowed] Offset: 0xE2A03C
+    // [NullAllowed] Offset: 0xE2A080
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
     // Offset: 0x30
@@ -97,13 +97,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SongPackMaskItem
     SongPackMaskItem(GlobalNamespace::SongPackMaskModelSO::SongPackDataType type_ = {}, GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack_ = {}, GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack_ = {}, ::Il2CppString* serializedName_ = {}, GlobalNamespace::BeatmapLevelPackCollectionSO* levelPackCollection_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPacks_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections_ = {}) noexcept : type{type_}, beatmapLevelPack{beatmapLevelPack_}, previewBeatmapLevelPack{previewBeatmapLevelPack_}, serializedName{serializedName_}, levelPackCollection{levelPackCollection_}, beatmapLevelPacks{beatmapLevelPacks_}, previewBeatmapLevelPacks{previewBeatmapLevelPacks_}, levelPackCollections{levelPackCollections_} {}
     // public System.String get_serializedName()
-    // Offset: 0x1171AD0
+    // Offset: 0x1155D38
     ::Il2CppString* get_serializedName();
     // public SongPackMask get_songPackMask()
-    // Offset: 0x1171B14
+    // Offset: 0x1155D7C
     GlobalNamespace::SongPackMask get_songPackMask();
     // public System.Void .ctor()
-    // Offset: 0x1171E98
+    // Offset: 0x1156100
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -115,5 +115,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SongPackMaskModelSO::SongPackMaskItem), 72 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*)> __GlobalNamespace_SongPackMaskModelSO_SongPackMaskItemSizeCheck;
   static_assert(sizeof(SongPackMaskModelSO::SongPackMaskItem) == 0x50);
+  // Writing MetadataGetter for method: SongPackMaskModelSO::SongPackMaskItem::get_serializedName
+  // Il2CppName: get_serializedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SongPackMaskModelSO::SongPackMaskItem::*)()>(&SongPackMaskModelSO::SongPackMaskItem::get_serializedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMaskModelSO::SongPackMaskItem*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPackMaskModelSO::SongPackMaskItem::get_songPackMask
+  // Il2CppName: get_songPackMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (SongPackMaskModelSO::SongPackMaskItem::*)()>(&SongPackMaskModelSO::SongPackMaskItem::get_songPackMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMaskModelSO::SongPackMaskItem*), "get_songPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPackMaskModelSO::SongPackMaskItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMaskModelSO::SongPackMaskItem::*)()>(&SongPackMaskModelSO::SongPackMaskItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMaskModelSO::SongPackMaskItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPackMaskModelSO::SongPackMaskItem::*)()>(&SongPackMaskModelSO::SongPackMaskItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPackMaskModelSO::SongPackMaskItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*, "", "SongPackMaskModelSO/SongPackMaskItem");

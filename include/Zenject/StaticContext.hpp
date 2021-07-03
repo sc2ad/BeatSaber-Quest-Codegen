@@ -26,16 +26,40 @@ namespace Zenject {
     // Set static field: static private Zenject.DiContainer _container
     static void _set__container(Zenject::DiContainer* value);
     // static public System.Void Clear()
-    // Offset: 0x16D0608
+    // Offset: 0x16E7318
     static void Clear();
     // static public System.Boolean get_HasContainer()
-    // Offset: 0x16D0658
+    // Offset: 0x16E7368
     static bool get_HasContainer();
     // static public Zenject.DiContainer get_Container()
-    // Offset: 0x16CB024
+    // Offset: 0x16E1D34
     static Zenject::DiContainer* get_Container();
   }; // Zenject.StaticContext
   #pragma pack(pop)
+  // Writing MetadataGetter for method: StaticContext::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StaticContext::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StaticContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StaticContext::get_HasContainer
+  // Il2CppName: get_HasContainer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&StaticContext::get_HasContainer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StaticContext*), "get_HasContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StaticContext::get_Container
+  // Il2CppName: get_Container
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (*)()>(&StaticContext::get_Container)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StaticContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::StaticContext*, "Zenject", "StaticContext");

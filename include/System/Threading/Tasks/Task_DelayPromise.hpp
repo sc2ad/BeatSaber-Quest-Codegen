@@ -51,16 +51,38 @@ namespace System::Threading::Tasks {
     // Creating value type constructor for type: DelayPromise
     DelayPromise(System::Threading::CancellationToken Token_ = {}, System::Threading::CancellationTokenRegistration Registration_ = {}, System::Threading::Timer* Timer_ = {}) noexcept : Token{Token_}, Registration{Registration_}, Timer{Timer_} {}
     // System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x187494C
+    // Offset: 0x188D65C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::DelayPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::DelayPromise*, creationType>(token)));
     }
     // System.Void Complete()
-    // Offset: 0x18741D8
+    // Offset: 0x188CEE8
     void Complete();
   }; // System.Threading.Tasks.Task/DelayPromise
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: Task::DelayPromise::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::DelayPromise::*)(System::Threading::CancellationToken)>(&Task::DelayPromise::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Task::DelayPromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::DelayPromise::*)(System::Threading::CancellationToken)>(&Task::DelayPromise::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Task::DelayPromise*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: Task::DelayPromise::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Task::DelayPromise::*)()>(&Task::DelayPromise::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Task::DelayPromise*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::DelayPromise*, "System.Threading.Tasks", "Task/DelayPromise");

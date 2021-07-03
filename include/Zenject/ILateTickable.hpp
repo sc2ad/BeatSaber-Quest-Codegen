@@ -18,6 +18,14 @@ namespace Zenject {
     void LateTick();
   }; // Zenject.ILateTickable
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILateTickable::LateTick
+  // Il2CppName: LateTick
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILateTickable::*)()>(&ILateTickable::LateTick)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILateTickable*), "LateTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateTickable*, "Zenject", "ILateTickable");

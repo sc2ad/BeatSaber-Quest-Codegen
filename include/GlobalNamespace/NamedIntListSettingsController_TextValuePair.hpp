@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextValuePair
     TextValuePair(::Il2CppString* text_ = {}, int value_ = {}) noexcept : text{text_}, value{value_} {}
     // public System.String get_localizedText()
-    // Offset: 0x23EAC2C
+    // Offset: 0x10157A8
     ::Il2CppString* get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x23EAC40
+    // Offset: 0x10157BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -48,5 +48,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NamedIntListSettingsController::TextValuePair), 24 + sizeof(int)> __GlobalNamespace_NamedIntListSettingsController_TextValuePairSizeCheck;
   static_assert(sizeof(NamedIntListSettingsController::TextValuePair) == 0x1C);
+  // Writing MetadataGetter for method: NamedIntListSettingsController::TextValuePair::get_localizedText
+  // Il2CppName: get_localizedText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NamedIntListSettingsController::TextValuePair::*)()>(&NamedIntListSettingsController::TextValuePair::get_localizedText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController::TextValuePair*), "get_localizedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NamedIntListSettingsController::TextValuePair::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListSettingsController::TextValuePair::*)()>(&NamedIntListSettingsController::TextValuePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController::TextValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedIntListSettingsController::TextValuePair::*)()>(&NamedIntListSettingsController::TextValuePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamedIntListSettingsController::TextValuePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController::TextValuePair*, "", "NamedIntListSettingsController/TextValuePair");

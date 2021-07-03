@@ -101,10 +101,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VirtualTouchMap
     VirtualTouchMap(GlobalNamespace::OVRInput::RawTouch None_ = {}, GlobalNamespace::OVRInput::RawTouch One_ = {}, GlobalNamespace::OVRInput::RawTouch Two_ = {}, GlobalNamespace::OVRInput::RawTouch Three_ = {}, GlobalNamespace::OVRInput::RawTouch Four_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch PrimaryTouchpad_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryIndexTrigger_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbstick_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryThumbRest_ = {}, GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad_ = {}) noexcept : None{None_}, One{One_}, Two{Two_}, Three{Three_}, Four{Four_}, PrimaryIndexTrigger{PrimaryIndexTrigger_}, PrimaryThumbstick{PrimaryThumbstick_}, PrimaryThumbRest{PrimaryThumbRest_}, PrimaryTouchpad{PrimaryTouchpad_}, SecondaryIndexTrigger{SecondaryIndexTrigger_}, SecondaryThumbstick{SecondaryThumbstick_}, SecondaryThumbRest{SecondaryThumbRest_}, SecondaryTouchpad{SecondaryTouchpad_} {}
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x14FF65C
+    // Offset: 0x151A36C
     GlobalNamespace::OVRInput::RawTouch ToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
     // public System.Void .ctor()
-    // Offset: 0x14FE98C
+    // Offset: 0x151969C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -116,5 +116,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRInput::OVRControllerBase::VirtualTouchMap), 64 + sizeof(GlobalNamespace::OVRInput::RawTouch)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualTouchMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualTouchMap) == 0x44);
+  // Writing MetadataGetter for method: OVRInput::OVRControllerBase::VirtualTouchMap::ToRawMask
+  // Il2CppName: ToRawMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawTouch (OVRInput::OVRControllerBase::VirtualTouchMap::*)(GlobalNamespace::OVRInput::Touch)>(&OVRInput::OVRControllerBase::VirtualTouchMap::ToRawMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualTouchMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRInput::OVRControllerBase::VirtualTouchMap::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerBase::VirtualTouchMap::*)()>(&OVRInput::OVRControllerBase::VirtualTouchMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualTouchMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerBase::VirtualTouchMap::*)()>(&OVRInput::OVRControllerBase::VirtualTouchMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerBase::VirtualTouchMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*, "", "OVRInput/OVRControllerBase/VirtualTouchMap");

@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: SongPackMaskItem
     SongPackMaskItem(::Il2CppString* serializedName_ = {}, ::Il2CppString* localizedName_ = {}, int order_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}) noexcept : serializedName{serializedName_}, localizedName{localizedName_}, order{order_}, songPackMask{songPackMask_} {}
     // public System.Void .ctor()
-    // Offset: 0x10AAF80
+    // Offset: 0x10AE270
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -61,5 +61,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem), 40 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_QuickPlaySongPacksDropdown_SongPackMaskItemSizeCheck;
   static_assert(sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem) == 0x38);
+  // Writing MetadataGetter for method: QuickPlaySongPacksDropdown::SongPackMaskItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::SongPackMaskItem::*)()>(&QuickPlaySongPacksDropdown::SongPackMaskItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::SongPackMaskItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlaySongPacksDropdown::SongPackMaskItem::*)()>(&QuickPlaySongPacksDropdown::SongPackMaskItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(QuickPlaySongPacksDropdown::SongPackMaskItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, "", "QuickPlaySongPacksDropdown/SongPackMaskItem");

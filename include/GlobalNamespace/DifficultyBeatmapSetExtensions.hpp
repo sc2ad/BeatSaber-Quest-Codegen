@@ -50,5 +50,11 @@ namespace GlobalNamespace {
     }
   }; // DifficultyBeatmapSetExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement
+  // Il2CppName: GetDifficultyBeatmapSetsWithout360Movement
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: DifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSets
+  // Il2CppName: GetPreviewDifficultyBeatmapSets
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSetExtensions*, "", "DifficultyBeatmapSetExtensions");

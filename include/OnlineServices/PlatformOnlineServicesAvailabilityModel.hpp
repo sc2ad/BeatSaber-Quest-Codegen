@@ -42,7 +42,7 @@ namespace OnlineServices {
     public:
     // Nested type: OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4
     struct $GetPlatformServicesAvailabilityInfo$d__4;
-    // [CompilerGeneratedAttribute] Offset: 0xE29880
+    // [CompilerGeneratedAttribute] Offset: 0xE298C4
     // private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -56,16 +56,16 @@ namespace OnlineServices {
       return platformServicesAvailabilityInfoChangedEvent;
     }
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x11DAD10
+    // Offset: 0x11F5664
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x11DADB4
+    // Offset: 0x11F5708
     void remove_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Threading.Tasks.Task`1<OnlineServices.PlatformServicesAvailabilityInfo> GetPlatformServicesAvailabilityInfo(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11DAC04
+    // Offset: 0x11F5558
     System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* GetPlatformServicesAvailabilityInfo(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x11DAE58
+    // Offset: 0x11F57AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,5 +77,43 @@ namespace OnlineServices {
   #pragma pack(pop)
   static check_size<sizeof(PlatformOnlineServicesAvailabilityModel), 16 + sizeof(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)> __OnlineServices_PlatformOnlineServicesAvailabilityModelSizeCheck;
   static_assert(sizeof(PlatformOnlineServicesAvailabilityModel) == 0x18);
+  // Writing MetadataGetter for method: PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent
+  // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformOnlineServicesAvailabilityModel::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel*), "add_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformOnlineServicesAvailabilityModel::remove_platformServicesAvailabilityInfoChangedEvent
+  // Il2CppName: remove_platformServicesAvailabilityInfoChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformOnlineServicesAvailabilityModel::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&PlatformOnlineServicesAvailabilityModel::remove_platformServicesAvailabilityInfoChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel*), "remove_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformOnlineServicesAvailabilityModel::GetPlatformServicesAvailabilityInfo
+  // Il2CppName: GetPlatformServicesAvailabilityInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* (PlatformOnlineServicesAvailabilityModel::*)(System::Threading::CancellationToken)>(&PlatformOnlineServicesAvailabilityModel::GetPlatformServicesAvailabilityInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel*), "GetPlatformServicesAvailabilityInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: PlatformOnlineServicesAvailabilityModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformOnlineServicesAvailabilityModel::*)()>(&PlatformOnlineServicesAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformOnlineServicesAvailabilityModel::*)()>(&PlatformOnlineServicesAvailabilityModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*, "OnlineServices", "PlatformOnlineServicesAvailabilityModel");

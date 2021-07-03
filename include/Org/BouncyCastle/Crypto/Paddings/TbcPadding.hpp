@@ -32,16 +32,16 @@ namespace Org::BouncyCastle::Crypto::Paddings {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>(this);
     }
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
-    // Offset: 0x123A044
+    // Offset: 0x1256D54
     void Init(Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x123A048
+    // Offset: 0x1256D58
     int AddPadding(::Array<uint8_t>* input, int inOff);
     // public System.Int32 PadCount(System.Byte[] input)
-    // Offset: 0x123A0E8
+    // Offset: 0x1256DF8
     int PadCount(::Array<uint8_t>* input);
     // public System.Void .ctor()
-    // Offset: 0x123A150
+    // Offset: 0x1256E60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,5 +51,43 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     }
   }; // Org.BouncyCastle.Crypto.Paddings.TbcPadding
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TbcPadding::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TbcPadding::*)(Org::BouncyCastle::Security::SecureRandom*)>(&TbcPadding::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbcPadding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TbcPadding::AddPadding
+  // Il2CppName: AddPadding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TbcPadding::*)(::Array<uint8_t>*, int)>(&TbcPadding::AddPadding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbcPadding*), "AddPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TbcPadding::PadCount
+  // Il2CppName: PadCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TbcPadding::*)(::Array<uint8_t>*)>(&TbcPadding::PadCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbcPadding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TbcPadding::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TbcPadding::*)()>(&TbcPadding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbcPadding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TbcPadding::*)()>(&TbcPadding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TbcPadding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::TbcPadding*, "Org.BouncyCastle.Crypto.Paddings", "TbcPadding");

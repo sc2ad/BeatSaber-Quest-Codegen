@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodesManager* missionNodesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodesManager*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE23854
+    // [CompilerGeneratedAttribute] Offset: 0xE23830
     // private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
     // Size: 0x8
     // Offset: 0x20
@@ -65,28 +65,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1053C10
+    // Offset: 0x10982F8
     void add_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1053CB4
+    // Offset: 0x109839C
     void remove_didSelectMissionNodeEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void DeselectSelectedNode()
-    // Offset: 0x1053D58
+    // Offset: 0x1098440
     void DeselectSelectedNode();
     // protected System.Void Start()
-    // Offset: 0x1053E14
+    // Offset: 0x10984FC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1054094
+    // Offset: 0x109877C
     void OnDestroy();
     // private System.Void HandleNodeWasSelect(MissionNodeVisualController missionNode)
-    // Offset: 0x1054340
+    // Offset: 0x1098A28
     void HandleNodeWasSelect(GlobalNamespace::MissionNodeVisualController* missionNode);
     // private System.Void HandleNodeWasDisplayed(MissionNodeVisualController missionNode)
-    // Offset: 0x1054404
+    // Offset: 0x1098AEC
     void HandleNodeWasDisplayed(GlobalNamespace::MissionNodeVisualController* missionNode);
     // public System.Void .ctor()
-    // Offset: 0x1054494
+    // Offset: 0x1098B7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,5 +102,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionNodeSelectionManager), 48 + sizeof(GlobalNamespace::MissionNodeVisualController*)> __GlobalNamespace_MissionNodeSelectionManagerSizeCheck;
   static_assert(sizeof(MissionNodeSelectionManager) == 0x38);
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::add_didSelectMissionNodeEvent
+  // Il2CppName: add_didSelectMissionNodeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&MissionNodeSelectionManager::add_didSelectMissionNodeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "add_didSelectMissionNodeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::remove_didSelectMissionNodeEvent
+  // Il2CppName: remove_didSelectMissionNodeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&MissionNodeSelectionManager::remove_didSelectMissionNodeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "remove_didSelectMissionNodeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::DeselectSelectedNode
+  // Il2CppName: DeselectSelectedNode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::DeselectSelectedNode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "DeselectSelectedNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::HandleNodeWasSelect
+  // Il2CppName: HandleNodeWasSelect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(GlobalNamespace::MissionNodeVisualController*)>(&MissionNodeSelectionManager::HandleNodeWasSelect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "HandleNodeWasSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::HandleNodeWasDisplayed
+  // Il2CppName: HandleNodeWasDisplayed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(GlobalNamespace::MissionNodeVisualController*)>(&MissionNodeSelectionManager::HandleNodeWasDisplayed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "HandleNodeWasDisplayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionNodeSelectionManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeSelectionManager*, "", "MissionNodeSelectionManager");

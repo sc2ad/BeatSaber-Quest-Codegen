@@ -47,10 +47,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
-    // Offset: 0x1174BC4
+    // Offset: 0x1158D88
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1174C44
+    // Offset: 0x1158E08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -66,5 +66,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SongTimeAnimationPlayer), 32 + sizeof(UnityEngine::AnimationClip*)> __GlobalNamespace_SongTimeAnimationPlayerSizeCheck;
   static_assert(sizeof(SongTimeAnimationPlayer) == 0x28);
+  // Writing MetadataGetter for method: SongTimeAnimationPlayer::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongTimeAnimationPlayer::*)()>(&SongTimeAnimationPlayer::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongTimeAnimationPlayer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongTimeAnimationPlayer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongTimeAnimationPlayer::*)()>(&SongTimeAnimationPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongTimeAnimationPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongTimeAnimationPlayer::*)()>(&SongTimeAnimationPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongTimeAnimationPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeAnimationPlayer*, "", "SongTimeAnimationPlayer");

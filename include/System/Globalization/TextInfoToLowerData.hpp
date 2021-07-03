@@ -51,10 +51,18 @@ namespace System::Globalization {
     // Set static field: static public readonly System.Char[] range_a722_a78b
     static void _set_range_a722_a78b(::Array<::Il2CppChar>* value);
     // static private System.Void .cctor()
-    // Offset: 0x19E3828
+    // Offset: 0x19FB538
     static void _cctor();
   }; // System.Globalization.TextInfoToLowerData
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TextInfoToLowerData::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TextInfoToLowerData::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextInfoToLowerData*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfoToLowerData*, "System.Globalization", "TextInfoToLowerData");

@@ -38,40 +38,128 @@ namespace NetEase {
     // Creating value type constructor for type: DockerWrap
     DockerWrap() noexcept {}
     // static public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callback)
-    // Offset: 0x23EAC60
+    // Offset: 0x10157DC
     static void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callback);
     // static public System.Void Initialize()
-    // Offset: 0x23EACC8
+    // Offset: 0x1015844
     static void Initialize();
     // static public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callback)
-    // Offset: 0x23EAD28
+    // Offset: 0x10158A4
     static void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callback);
     // static public System.Void Login()
-    // Offset: 0x23EAD90
+    // Offset: 0x101590C
     static void Login();
     // static public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callback)
-    // Offset: 0x23EADF0
+    // Offset: 0x101596C
     static void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callback);
     // static public System.Void Logout()
-    // Offset: 0x23EAE58
+    // Offset: 0x10159D4
     static void Logout();
     // static public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
-    // Offset: 0x23EAEB8
+    // Offset: 0x1015A34
     static void UploadScore(NetEase::Docker::UploadScoreData scoreData);
     // static public System.Boolean WillProvideHighscore()
-    // Offset: 0x23EAF4C
+    // Offset: 0x1015AC8
     static bool WillProvideHighscore();
     // static public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
-    // Offset: 0x23EAFAC
+    // Offset: 0x1015B28
     static void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // static public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
-    // Offset: 0x23EB014
+    // Offset: 0x1015B90
     static void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
     // static public System.Void UpdateLoop()
-    // Offset: 0x23EB08C
+    // Offset: 0x1015C08
     static void UpdateLoop();
   }; // NetEase.DockerWrap
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DockerWrap::SetInitializeCallback
+  // Il2CppName: SetInitializeCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&DockerWrap::SetInitializeCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DockerWrap::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::SetLoginCallback
+  // Il2CppName: SetLoginCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LoginData>*)>(&DockerWrap::SetLoginCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::Login
+  // Il2CppName: Login
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DockerWrap::Login)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::SetLogoutCallback
+  // Il2CppName: SetLogoutCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&DockerWrap::SetLogoutCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::Logout
+  // Il2CppName: Logout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DockerWrap::Logout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::UploadScore
+  // Il2CppName: UploadScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::UploadScoreData)>(&DockerWrap::UploadScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::WillProvideHighscore
+  // Il2CppName: WillProvideHighscore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&DockerWrap::WillProvideHighscore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::SetHighscoreReceivedCallback
+  // Il2CppName: SetHighscoreReceivedCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&DockerWrap::SetHighscoreReceivedCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::RequestHighscoreList
+  // Il2CppName: RequestHighscoreList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::RequestHighscoreData)>(&DockerWrap::RequestHighscoreList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
+    }
+  };
+  // Writing MetadataGetter for method: DockerWrap::UpdateLoop
+  // Il2CppName: UpdateLoop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DockerWrap::UpdateLoop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DockerWrap*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::DockerWrap*, "NetEase", "DockerWrap");

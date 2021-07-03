@@ -40,7 +40,7 @@ namespace Zenject {
     // Creating value type constructor for type: RenderableInfo
     RenderableInfo(Zenject::IGuiRenderable* Renderable_ = {}, int Priority_ = {}) noexcept : Renderable{Renderable_}, Priority{Priority_} {}
     // public System.Void .ctor(Zenject.IGuiRenderable renderable, System.Int32 priority)
-    // Offset: 0x16266F8
+    // Offset: 0x163E408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuiRenderableManager::RenderableInfo* New_ctor(Zenject::IGuiRenderable* renderable, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::RenderableInfo::.ctor");
@@ -50,5 +50,19 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(GuiRenderableManager::RenderableInfo), 24 + sizeof(int)> __Zenject_GuiRenderableManager_RenderableInfoSizeCheck;
   static_assert(sizeof(GuiRenderableManager::RenderableInfo) == 0x1C);
+  // Writing MetadataGetter for method: GuiRenderableManager::RenderableInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::RenderableInfo::*)(Zenject::IGuiRenderable*, int)>(&GuiRenderableManager::RenderableInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager::RenderableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IGuiRenderable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GuiRenderableManager::RenderableInfo::*)(Zenject::IGuiRenderable*, int)>(&GuiRenderableManager::RenderableInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GuiRenderableManager::RenderableInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IGuiRenderable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::RenderableInfo*, "Zenject", "GuiRenderableManager/RenderableInfo");

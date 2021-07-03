@@ -69,28 +69,28 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
     // public System.String get_packID()
-    // Offset: 0x109B364
+    // Offset: 0x11994A8
     ::Il2CppString* get_packID();
     // public System.String get_packName()
-    // Offset: 0x109B36C
+    // Offset: 0x11994B0
     ::Il2CppString* get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x109B374
+    // Offset: 0x11994B8
     ::Il2CppString* get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x109B37C
+    // Offset: 0x11994C0
     ::Il2CppString* get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x109B384
+    // Offset: 0x11994C8
     UnityEngine::Sprite* get_coverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x109B38C
+    // Offset: 0x11994D0
     GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x109B394
+    // Offset: 0x11994D8
     bool get_isPackAlwaysOwned();
     // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, CustomBeatmapLevelCollection customBeatmapLevelCollection)
-    // Offset: 0x109B39C
+    // Offset: 0x11994E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelPack* New_ctor(::Il2CppString* packID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, GlobalNamespace::CustomBeatmapLevelCollection* customBeatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelPack::.ctor");
@@ -100,5 +100,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CustomBeatmapLevelPack), 48 + sizeof(GlobalNamespace::CustomBeatmapLevelCollection*)> __GlobalNamespace_CustomBeatmapLevelPackSizeCheck;
   static_assert(sizeof(CustomBeatmapLevelPack) == 0x38);
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_packID
+  // Il2CppName: get_packID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_packID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_packID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_packName
+  // Il2CppName: get_packName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_packName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_packName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_shortPackName
+  // Il2CppName: get_shortPackName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_shortPackName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_shortPackName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_collectionName
+  // Il2CppName: get_collectionName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_collectionName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_coverImage
+  // Il2CppName: get_coverImage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_coverImage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_beatmapLevelCollection
+  // Il2CppName: get_beatmapLevelCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelCollection* (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_beatmapLevelCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_beatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::get_isPackAlwaysOwned
+  // Il2CppName: get_isPackAlwaysOwned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CustomBeatmapLevelPack::*)()>(&CustomBeatmapLevelPack::get_isPackAlwaysOwned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), "get_isPackAlwaysOwned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelPack::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevelPack::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Sprite*, GlobalNamespace::CustomBeatmapLevelCollection*)>(&CustomBeatmapLevelPack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomBeatmapLevelCollection*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevelPack::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Sprite*, GlobalNamespace::CustomBeatmapLevelCollection*)>(&CustomBeatmapLevelPack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelPack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomBeatmapLevelCollection*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelPack*, "", "CustomBeatmapLevelPack");

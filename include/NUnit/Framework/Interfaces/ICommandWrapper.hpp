@@ -25,6 +25,14 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Internal::Commands::TestCommand* Wrap(NUnit::Framework::Internal::Commands::TestCommand* command);
   }; // NUnit.Framework.Interfaces.ICommandWrapper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ICommandWrapper::Wrap
+  // Il2CppName: Wrap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (ICommandWrapper::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&ICommandWrapper::Wrap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ICommandWrapper*), "Wrap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICommandWrapper*, "NUnit.Framework.Interfaces", "ICommandWrapper");

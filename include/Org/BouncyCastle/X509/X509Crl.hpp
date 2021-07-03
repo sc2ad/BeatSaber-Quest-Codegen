@@ -85,56 +85,56 @@ namespace Org::BouncyCastle::X509 {
     // Creating value type constructor for type: X509Crl
     X509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c_ = {}, ::Il2CppString* sigAlgName_ = {}, ::Array<uint8_t>* sigAlgParams_ = {}, bool isIndirect_ = {}, bool hashValueSet_ = {}, int hashValue_ = {}) noexcept : c{c_}, sigAlgName{sigAlgName_}, sigAlgParams{sigAlgParams_}, isIndirect{isIndirect_}, hashValueSet{hashValueSet_}, hashValue{hashValue_} {}
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x1F75A48
+    // Offset: 0x1F8F7A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl* New_ctor(Org::BouncyCastle::Asn1::X509::CertificateList* c) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509Crl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl*, creationType>(c)));
     }
     // public System.Int32 get_Version()
-    // Offset: 0x1F75C54
+    // Offset: 0x1F8F9B0
     int get_Version();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_IssuerDN()
-    // Offset: 0x1F75C70
+    // Offset: 0x1F8F9CC
     Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
     // public System.DateTime get_ThisUpdate()
-    // Offset: 0x1F75C8C
+    // Offset: 0x1F8F9E8
     System::DateTime get_ThisUpdate();
     // public Org.BouncyCastle.Utilities.Date.DateTimeObject get_NextUpdate()
-    // Offset: 0x1F75CB8
+    // Offset: 0x1F8FA14
     Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
     // private Org.BouncyCastle.Utilities.Collections.ISet LoadCrlEntries()
-    // Offset: 0x1F75D60
+    // Offset: 0x1F8FABC
     Org::BouncyCastle::Utilities::Collections::ISet* LoadCrlEntries();
     // public Org.BouncyCastle.Utilities.Collections.ISet GetRevokedCertificates()
-    // Offset: 0x1F7616C
+    // Offset: 0x1F8FEC8
     Org::BouncyCastle::Utilities::Collections::ISet* GetRevokedCertificates();
     // public System.Byte[] GetSignature()
-    // Offset: 0x1F76234
+    // Offset: 0x1F8FF90
     ::Array<uint8_t>* GetSignature();
     // public System.String get_SigAlgName()
-    // Offset: 0x1F76250
+    // Offset: 0x1F8FFAC
     ::Il2CppString* get_SigAlgName();
     // protected System.Boolean get_IsIndirectCrl()
-    // Offset: 0x1F77234
+    // Offset: 0x1F90F90
     bool get_IsIndirectCrl();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
-    // Offset: 0x1F75C04
+    // Offset: 0x1F8F960
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
     // Base method: Org.BouncyCastle.Asn1.X509.X509Extensions X509ExtensionBase::GetX509Extensions()
     Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public override System.Boolean Equals(System.Object other)
-    // Offset: 0x1F76258
+    // Offset: 0x1F8FFB4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object other)
     bool Equals(::Il2CppObject* other);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1F76380
+    // Offset: 0x1F900DC
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1F763E8
+    // Offset: 0x1F90144
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -142,5 +142,123 @@ namespace Org::BouncyCastle::X509 {
   #pragma pack(pop)
   static check_size<sizeof(X509Crl), 44 + sizeof(int)> __Org_BouncyCastle_X509_X509CrlSizeCheck;
   static_assert(sizeof(X509Crl) == 0x30);
+  // Writing MetadataGetter for method: X509Crl::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Crl::*)(Org::BouncyCastle::Asn1::X509::CertificateList*)>(&X509Crl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::CertificateList*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Crl::*)(Org::BouncyCastle::Asn1::X509::CertificateList*)>(&X509Crl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::CertificateList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::get_Version
+  // Il2CppName: get_Version
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509Crl::*)()>(&X509Crl::get_Version)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::get_IssuerDN
+  // Il2CppName: get_IssuerDN
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Name* (X509Crl::*)()>(&X509Crl::get_IssuerDN)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "get_IssuerDN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::get_ThisUpdate
+  // Il2CppName: get_ThisUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (X509Crl::*)()>(&X509Crl::get_ThisUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "get_ThisUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::get_NextUpdate
+  // Il2CppName: get_NextUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::Date::DateTimeObject* (X509Crl::*)()>(&X509Crl::get_NextUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "get_NextUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::LoadCrlEntries
+  // Il2CppName: LoadCrlEntries
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::Collections::ISet* (X509Crl::*)()>(&X509Crl::LoadCrlEntries)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "LoadCrlEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::GetRevokedCertificates
+  // Il2CppName: GetRevokedCertificates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::Collections::ISet* (X509Crl::*)()>(&X509Crl::GetRevokedCertificates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "GetRevokedCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::GetSignature
+  // Il2CppName: GetSignature
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (X509Crl::*)()>(&X509Crl::GetSignature)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::get_SigAlgName
+  // Il2CppName: get_SigAlgName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509Crl::*)()>(&X509Crl::get_SigAlgName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "get_SigAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::get_IsIndirectCrl
+  // Il2CppName: get_IsIndirectCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Crl::*)()>(&X509Crl::get_IsIndirectCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "get_IsIndirectCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::GetX509Extensions
+  // Il2CppName: GetX509Extensions
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Extensions* (X509Crl::*)()>(&X509Crl::GetX509Extensions)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "GetX509Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Crl::*)(::Il2CppObject*)>(&X509Crl::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509Crl::*)()>(&X509Crl::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509Crl::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509Crl::*)()>(&X509Crl::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509Crl*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509Crl*, "Org.BouncyCastle.X509", "X509Crl");

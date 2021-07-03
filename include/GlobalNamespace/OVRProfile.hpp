@@ -28,31 +28,31 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: OVRProfile
     OVRProfile() noexcept {}
     // public System.String get_id()
-    // Offset: 0x160E9B8
+    // Offset: 0x16266C8
     ::Il2CppString* get_id();
     // public System.String get_userName()
-    // Offset: 0x160EA00
+    // Offset: 0x1626710
     ::Il2CppString* get_userName();
     // public System.String get_locale()
-    // Offset: 0x160EA48
+    // Offset: 0x1626758
     ::Il2CppString* get_locale();
     // public System.Single get_ipd()
-    // Offset: 0x160EA90
+    // Offset: 0x16267A0
     float get_ipd();
     // public System.Single get_eyeHeight()
-    // Offset: 0x160EBC4
+    // Offset: 0x16268D4
     float get_eyeHeight();
     // public System.Single get_eyeDepth()
-    // Offset: 0x160EC24
+    // Offset: 0x1626934
     float get_eyeDepth();
     // public System.Single get_neckHeight()
-    // Offset: 0x160EC84
+    // Offset: 0x1626994
     float get_neckHeight();
     // public OVRProfile/State get_state()
-    // Offset: 0x160ECA4
+    // Offset: 0x16269B4
     GlobalNamespace::OVRProfile::State get_state();
     // public System.Void .ctor()
-    // Offset: 0x160ECAC
+    // Offset: 0x16269BC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,5 +63,83 @@ namespace GlobalNamespace {
     }
   }; // OVRProfile
   #pragma pack(pop)
+  // Writing MetadataGetter for method: OVRProfile::get_id
+  // Il2CppName: get_id
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRProfile::*)()>(&OVRProfile::get_id)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_userName
+  // Il2CppName: get_userName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRProfile::*)()>(&OVRProfile::get_userName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_locale
+  // Il2CppName: get_locale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRProfile::*)()>(&OVRProfile::get_locale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_locale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_ipd
+  // Il2CppName: get_ipd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRProfile::*)()>(&OVRProfile::get_ipd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_ipd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_eyeHeight
+  // Il2CppName: get_eyeHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRProfile::*)()>(&OVRProfile::get_eyeHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_eyeHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_eyeDepth
+  // Il2CppName: get_eyeDepth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRProfile::*)()>(&OVRProfile::get_eyeDepth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_eyeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_neckHeight
+  // Il2CppName: get_neckHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRProfile::*)()>(&OVRProfile::get_neckHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_neckHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::get_state
+  // Il2CppName: get_state
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRProfile::State (OVRProfile::*)()>(&OVRProfile::get_state)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRProfile::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRProfile::*)()>(&OVRProfile::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRProfile::*)()>(&OVRProfile::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRProfile*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfile*, "", "OVRProfile");

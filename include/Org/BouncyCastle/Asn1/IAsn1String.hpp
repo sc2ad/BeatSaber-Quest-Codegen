@@ -21,6 +21,14 @@ namespace Org::BouncyCastle::Asn1 {
     ::Il2CppString* GetString();
   }; // Org.BouncyCastle.Asn1.IAsn1String
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IAsn1String::GetString
+  // Il2CppName: GetString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAsn1String::*)()>(&IAsn1String::GetString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IAsn1String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");

@@ -28,10 +28,18 @@ namespace System::IO {
     // Creating value type constructor for type: FileSystemEnumerableFactory
     FileSystemEnumerableFactory() noexcept {}
     // static System.Collections.Generic.IEnumerable`1<System.String> CreateFileNameIterator(System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost)
-    // Offset: 0x192F1D0
+    // Offset: 0x1945EE0
     static System::Collections::Generic::IEnumerable_1<::Il2CppString*>* CreateFileNameIterator(::Il2CppString* path, ::Il2CppString* originalUserPath, ::Il2CppString* searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
   }; // System.IO.FileSystemEnumerableFactory
   #pragma pack(pop)
+  // Writing MetadataGetter for method: FileSystemEnumerableFactory::CreateFileNameIterator
+  // Il2CppName: CreateFileNameIterator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&FileSystemEnumerableFactory::CreateFileNameIterator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FileSystemEnumerableFactory*), "CreateFileNameIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");

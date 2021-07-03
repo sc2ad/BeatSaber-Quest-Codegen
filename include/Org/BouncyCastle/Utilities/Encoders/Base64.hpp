@@ -15,10 +15,18 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Creating value type constructor for type: Base64
     Base64() noexcept {}
     // static public System.Byte[] Decode(System.String data)
-    // Offset: 0x1F70538
+    // Offset: 0x1F8A294
     static ::Array<uint8_t>* Decode(::Il2CppString* data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Base64::Decode
+  // Il2CppName: Decode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Base64::Decode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Base64*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64*, "Org.BouncyCastle.Utilities.Encoders", "Base64");

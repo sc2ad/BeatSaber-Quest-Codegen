@@ -43,19 +43,19 @@ namespace System {
     // Creating value type constructor for type: ByteMatcher
     ByteMatcher(System::Collections::Hashtable* map_ = {}, System::Collections::Hashtable* starts_ = {}) noexcept : map{map_}, starts{starts_} {}
     // public System.Void AddMapping(System.TermInfoStrings key, System.Byte[] val)
-    // Offset: 0x1765E74
+    // Offset: 0x177EB84
     void AddMapping(System::TermInfoStrings key, ::Array<uint8_t>* val);
     // public System.Void Sort()
-    // Offset: 0x1765F8C
+    // Offset: 0x177EC9C
     void Sort();
     // public System.Boolean StartsWith(System.Int32 c)
-    // Offset: 0x1765F90
+    // Offset: 0x177ECA0
     bool StartsWith(int c);
     // public System.TermInfoStrings Match(System.Char[] buffer, System.Int32 offset, System.Int32 length, out System.Int32 used)
-    // Offset: 0x1766020
+    // Offset: 0x177ED30
     System::TermInfoStrings Match(::Array<::Il2CppChar>* buffer, int offset, int length, int& used);
     // public System.Void .ctor()
-    // Offset: 0x1766448
+    // Offset: 0x177F158
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,5 +67,51 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(ByteMatcher), 24 + sizeof(System::Collections::Hashtable*)> __System_ByteMatcherSizeCheck;
   static_assert(sizeof(ByteMatcher) == 0x20);
+  // Writing MetadataGetter for method: ByteMatcher::AddMapping
+  // Il2CppName: AddMapping
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteMatcher::*)(System::TermInfoStrings, ::Array<uint8_t>*)>(&ByteMatcher::AddMapping)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteMatcher*), "AddMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ByteMatcher::Sort
+  // Il2CppName: Sort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteMatcher::*)()>(&ByteMatcher::Sort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteMatcher*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ByteMatcher::StartsWith
+  // Il2CppName: StartsWith
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ByteMatcher::*)(int)>(&ByteMatcher::StartsWith)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteMatcher*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ByteMatcher::Match
+  // Il2CppName: Match
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (ByteMatcher::*)(::Array<::Il2CppChar>*, int, int, int&)>(&ByteMatcher::Match)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteMatcher*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ByteMatcher::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteMatcher::*)()>(&ByteMatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteMatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ByteMatcher::*)()>(&ByteMatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ByteMatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");

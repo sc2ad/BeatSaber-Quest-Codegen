@@ -36,38 +36,38 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE08948
+    // [TooltipAttribute] Offset: 0xE09944
     // public UnityEngine.Transform parent
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE08980
+    // [TooltipAttribute] Offset: 0xE0997C
     // public UnityEngine.Transform child
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* child;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE089B8
-    // [RangeAttribute] Offset: 0xE089B8
+    // [TooltipAttribute] Offset: 0xE099B4
+    // [RangeAttribute] Offset: 0xE099B4
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x30
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08A0C
-    // [RangeAttribute] Offset: 0xE08A0C
+    // [TooltipAttribute] Offset: 0xE09A08
+    // [RangeAttribute] Offset: 0xE09A08
     // public System.Single parentChildCrossfade
     // Size: 0x4
     // Offset: 0x34
     float parentChildCrossfade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08A60
-    // [RangeAttribute] Offset: 0xE08A60
+    // [TooltipAttribute] Offset: 0xE09A5C
+    // [RangeAttribute] Offset: 0xE09A5C
     // public System.Single twistAngleOffset
     // Size: 0x4
     // Offset: 0x38
@@ -103,22 +103,22 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Relax()
-    // Offset: 0x1A8FB80
+    // Offset: 0x1AA9890
     void Relax();
     // private System.Void Start()
-    // Offset: 0x1A8FF60
+    // Offset: 0x1AA9C70
     void Start();
     // private System.Void OnPostUpdate()
-    // Offset: 0x1A903D4
+    // Offset: 0x1AAA0E4
     void OnPostUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x1A9045C
+    // Offset: 0x1AAA16C
     void LateUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1A904E4
+    // Offset: 0x1AAA1F4
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1A905E8
+    // Offset: 0x1AAA2F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -134,5 +134,59 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(TwistRelaxer), 96 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_TwistRelaxerSizeCheck;
   static_assert(sizeof(TwistRelaxer) == 0x6C);
+  // Writing MetadataGetter for method: TwistRelaxer::Relax
+  // Il2CppName: Relax
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::Relax)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "Relax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TwistRelaxer::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TwistRelaxer::OnPostUpdate
+  // Il2CppName: OnPostUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::OnPostUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "OnPostUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TwistRelaxer::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TwistRelaxer::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TwistRelaxer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");

@@ -95,25 +95,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Awake()
-    // Offset: 0x1612318
+    // Offset: 0x162A028
     void Awake();
     // private System.Void Start()
-    // Offset: 0x16124B4
+    // Offset: 0x162A1C4
     void Start();
     // private System.Void Update()
-    // Offset: 0x16125A0
+    // Offset: 0x162A2B0
     void Update();
     // private System.Void UpdateVisionMode()
-    // Offset: 0x1612750
+    // Offset: 0x162A460
     void UpdateVisionMode();
     // private System.Void UpdateSpeedAndRotationScaleMultiplier()
-    // Offset: 0x1612834
+    // Offset: 0x162A544
     void UpdateSpeedAndRotationScaleMultiplier();
     // private System.Void UpdateRecenterPose()
-    // Offset: 0x1612684
+    // Offset: 0x162A394
     void UpdateRecenterPose();
     // public System.Void .ctor()
-    // Offset: 0x1612928
+    // Offset: 0x162A638
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,5 +129,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRSceneSampleController), 80 + sizeof(GlobalNamespace::OVRGridCube*)> __GlobalNamespace_OVRSceneSampleControllerSizeCheck;
   static_assert(sizeof(OVRSceneSampleController) == 0x58);
+  // Writing MetadataGetter for method: OVRSceneSampleController::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSceneSampleController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSceneSampleController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSceneSampleController::UpdateVisionMode
+  // Il2CppName: UpdateVisionMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::UpdateVisionMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), "UpdateVisionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSceneSampleController::UpdateSpeedAndRotationScaleMultiplier
+  // Il2CppName: UpdateSpeedAndRotationScaleMultiplier
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::UpdateSpeedAndRotationScaleMultiplier)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), "UpdateSpeedAndRotationScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSceneSampleController::UpdateRecenterPose
+  // Il2CppName: UpdateRecenterPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::UpdateRecenterPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), "UpdateRecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRSceneSampleController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSceneSampleController::*)()>(&OVRSceneSampleController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRSceneSampleController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneSampleController*, "", "OVRSceneSampleController");

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TutorialObjectSpawnData
     TutorialObjectSpawnData(GlobalNamespace::Signal* signal_ = {}, int beatOffset_ = {}, int firstTimeBeatOffset_ = {}, int lineIndex_ = {}) noexcept : signal{signal_}, beatOffset{beatOffset_}, firstTimeBeatOffset{firstTimeBeatOffset_}, lineIndex{lineIndex_} {}
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex)
-    // Offset: 0x10FDDE4
+    // Offset: 0x1120628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSongController::TutorialObjectSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialObjectSpawnData::.ctor");
@@ -62,5 +62,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TutorialSongController::TutorialObjectSpawnData), 32 + sizeof(int)> __GlobalNamespace_TutorialSongController_TutorialObjectSpawnDataSizeCheck;
   static_assert(sizeof(TutorialSongController::TutorialObjectSpawnData) == 0x24);
+  // Writing MetadataGetter for method: TutorialSongController::TutorialObjectSpawnData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialObjectSpawnData::*)(GlobalNamespace::Signal*, int, int, int)>(&TutorialSongController::TutorialObjectSpawnData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialObjectSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::TutorialObjectSpawnData::*)(GlobalNamespace::Signal*, int, int, int)>(&TutorialSongController::TutorialObjectSpawnData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TutorialSongController::TutorialObjectSpawnData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Signal*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*, "", "TutorialSongController/TutorialObjectSpawnData");

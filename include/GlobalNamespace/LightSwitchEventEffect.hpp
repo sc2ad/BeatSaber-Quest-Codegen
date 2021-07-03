@@ -117,14 +117,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
     // Padding between fields: colorBoostEvent and: lightManager
     char __padding12[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1B00C
+    // [InjectAttribute] Offset: 0xE1AFE8
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::LightWithIdManager* lightManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LightWithIdManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1B01C
+    // [InjectAttribute] Offset: 0xE1AFF8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x78
@@ -194,34 +194,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kFadeSpeed
     static void _set_kFadeSpeed(float value);
     // public System.Int32 get_lightsId()
-    // Offset: 0x12007D0
+    // Offset: 0x12041F4
     int get_lightsId();
     // protected System.Void Start()
-    // Offset: 0x12007D8
+    // Offset: 0x12041FC
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x12008C8
+    // Offset: 0x12042EC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x12009C8
+    // Offset: 0x12043EC
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x1200B64
+    // Offset: 0x1204588
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void ProcessLightSwitchEvent(System.Int32 beatmapEventDataValue, System.Boolean updateColorsOnly)
-    // Offset: 0x1200BEC
+    // Offset: 0x1204610
     void ProcessLightSwitchEvent(int beatmapEventDataValue, bool updateColorsOnly);
     // private UnityEngine.Color GetNormalColor(System.Int32 beatmapEventValue)
-    // Offset: 0x1200DB8
+    // Offset: 0x12047DC
     UnityEngine::Color GetNormalColor(int beatmapEventValue);
     // private UnityEngine.Color GetHighlightColor(System.Int32 beatmapEventValue)
-    // Offset: 0x1200E14
+    // Offset: 0x1204838
     UnityEngine::Color GetHighlightColor(int beatmapEventValue);
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1200B40
+    // Offset: 0x1204564
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1200E70
+    // Offset: 0x1204894
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -237,5 +237,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LightSwitchEventEffect), 188 + sizeof(int)> __GlobalNamespace_LightSwitchEventEffectSizeCheck;
   static_assert(sizeof(LightSwitchEventEffect) == 0xC0);
+  // Writing MetadataGetter for method: LightSwitchEventEffect::get_lightsId
+  // Il2CppName: get_lightsId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::get_lightsId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "get_lightsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&LightSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::ProcessLightSwitchEvent
+  // Il2CppName: ProcessLightSwitchEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)(int, bool)>(&LightSwitchEventEffect::ProcessLightSwitchEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "ProcessLightSwitchEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::GetNormalColor
+  // Il2CppName: GetNormalColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (LightSwitchEventEffect::*)(int)>(&LightSwitchEventEffect::GetNormalColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "GetNormalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::GetHighlightColor
+  // Il2CppName: GetHighlightColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (LightSwitchEventEffect::*)(int)>(&LightSwitchEventEffect::GetHighlightColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "GetHighlightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::SetColor
+  // Il2CppName: SetColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)(UnityEngine::Color)>(&LightSwitchEventEffect::SetColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: LightSwitchEventEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");

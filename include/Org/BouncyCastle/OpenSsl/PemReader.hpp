@@ -70,41 +70,41 @@ namespace Org::BouncyCastle::OpenSsl {
     // Deleting conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept = delete;
     // public System.Void .ctor(System.IO.TextReader reader, Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder)
-    // Offset: 0x13275D0
+    // Offset: 0x13422E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemReader* New_ctor(System::IO::TextReader* reader, Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::OpenSsl::PemReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemReader*, creationType>(reader, pFinder)));
     }
     // public System.Object ReadObject()
-    // Offset: 0x13275FC
+    // Offset: 0x134230C
     ::Il2CppObject* ReadObject();
     // private Org.BouncyCastle.Crypto.AsymmetricKeyParameter ReadRsaPublicKey(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1328A64
+    // Offset: 0x1343774
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ReadRsaPublicKey(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.Crypto.AsymmetricKeyParameter ReadPublicKey(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1328A48
+    // Offset: 0x1343758
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ReadPublicKey(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.X509.X509Certificate ReadCertificate(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1328C44
+    // Offset: 0x1343954
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.X509.X509Crl ReadCrl(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1328EE0
+    // Offset: 0x1343BF0
     Org::BouncyCastle::X509::X509Crl* ReadCrl(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.Pkcs.Pkcs10CertificationRequest ReadCertificateRequest(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1328AFC
+    // Offset: 0x134380C
     Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* ReadCertificateRequest(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.X509.IX509AttributeCertificate ReadAttributeCertificate(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1329040
+    // Offset: 0x1343D50
     Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttributeCertificate(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private Org.BouncyCastle.Asn1.Cms.ContentInfo ReadPkcs7(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1328DA4
+    // Offset: 0x1343AB4
     Org::BouncyCastle::Asn1::Cms::ContentInfo* ReadPkcs7(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // private System.Object ReadPrivateKey(Org.BouncyCastle.Utilities.IO.Pem.PemObject pemObject)
-    // Offset: 0x1327A2C
+    // Offset: 0x134273C
     ::Il2CppObject* ReadPrivateKey(Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
     // public System.Void .ctor(System.IO.TextReader reader)
-    // Offset: 0x13275A8
+    // Offset: 0x13422B8
     // Implemented from: Org.BouncyCastle.Utilities.IO.Pem.PemReader
     // Base method: System.Void PemReader::.ctor(System.IO.TextReader reader)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -116,5 +116,105 @@ namespace Org::BouncyCastle::OpenSsl {
   #pragma pack(pop)
   static check_size<sizeof(PemReader), 24 + sizeof(Org::BouncyCastle::OpenSsl::IPasswordFinder*)> __Org_BouncyCastle_OpenSsl_PemReaderSizeCheck;
   static_assert(sizeof(PemReader) == 0x20);
+  // Writing MetadataGetter for method: PemReader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemReader::*)(System::IO::TextReader*, Org::BouncyCastle::OpenSsl::IPasswordFinder*)>(&PemReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::IPasswordFinder*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemReader::*)(System::IO::TextReader*, Org::BouncyCastle::OpenSsl::IPasswordFinder*)>(&PemReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::IPasswordFinder*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadObject
+  // Il2CppName: ReadObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PemReader::*)()>(&PemReader::ReadObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadRsaPublicKey
+  // Il2CppName: ReadRsaPublicKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadRsaPublicKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadRsaPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadPublicKey
+  // Il2CppName: ReadPublicKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadPublicKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadCertificate
+  // Il2CppName: ReadCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadCrl
+  // Il2CppName: ReadCrl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadCrl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadCertificateRequest
+  // Il2CppName: ReadCertificateRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadCertificateRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadCertificateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadAttributeCertificate
+  // Il2CppName: ReadAttributeCertificate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::IX509AttributeCertificate* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadAttributeCertificate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadAttributeCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadPkcs7
+  // Il2CppName: ReadPkcs7
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Cms::ContentInfo* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadPkcs7)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadPkcs7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::ReadPrivateKey
+  // Il2CppName: ReadPrivateKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PemReader::*)(Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&PemReader::ReadPrivateKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), "ReadPrivateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IO::Pem::PemObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PemReader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemReader::*)(System::IO::TextReader*)>(&PemReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemReader::*)(System::IO::TextReader*)>(&PemReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PemReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemReader*, "Org.BouncyCastle.OpenSsl", "PemReader");

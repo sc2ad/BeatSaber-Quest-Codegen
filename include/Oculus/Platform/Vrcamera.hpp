@@ -17,10 +17,18 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Vrcamera
     Vrcamera() noexcept {}
     // static public System.Void SetGetSurfaceUpdateNotificationCallback(Oculus.Platform.Message`1/Callback<System.String> callback)
-    // Offset: 0x2398EE4
+    // Offset: 0x23B3518
     static void SetGetSurfaceUpdateNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.Vrcamera
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Vrcamera::SetGetSurfaceUpdateNotificationCallback
+  // Il2CppName: SetGetSurfaceUpdateNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Vrcamera::SetGetSurfaceUpdateNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vrcamera*), "SetGetSurfaceUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");

@@ -27,15 +27,31 @@ namespace System::Runtime::InteropServices {
       return inited;
     }
     // public System.Void AcquirePointer(ref System.Byte* pointer)
-    // Offset: 0x1404634
+    // Offset: 0x141F344
     void AcquirePointer(uint8_t*& pointer);
     // public System.Void ReleasePointer()
-    // Offset: 0x14047C8
+    // Offset: 0x141F4D8
     void ReleasePointer();
   }; // System.Runtime.InteropServices.SafeBuffer
   #pragma pack(pop)
   static check_size<sizeof(SafeBuffer), 30 + sizeof(bool)> __System_Runtime_InteropServices_SafeBufferSizeCheck;
   static_assert(sizeof(SafeBuffer) == 0x1F);
+  // Writing MetadataGetter for method: SafeBuffer::AcquirePointer
+  // Il2CppName: AcquirePointer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBuffer::*)(uint8_t*&)>(&SafeBuffer::AcquirePointer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SafeBuffer*), "AcquirePointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: SafeBuffer::ReleasePointer
+  // Il2CppName: ReleasePointer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBuffer::*)()>(&SafeBuffer::ReleasePointer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SafeBuffer*), "ReleasePointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeBuffer*, "System.Runtime.InteropServices", "SafeBuffer");

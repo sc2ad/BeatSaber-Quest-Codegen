@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1B918
+    // [SpaceAttribute] Offset: 0xE1B8F4
     // private UnityEngine.UI.Image _batteryLifeSegmentPrefab
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::UI::Image* batteryLifeSegmentPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1B950
+    // [SpaceAttribute] Offset: 0xE1B92C
     // private System.Single _batterySegmentSeparatorWidth
     // Size: 0x4
     // Offset: 0x30
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     float batterySegmentHorizontalPadding;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE1B998
+    // [InjectAttribute] Offset: 0xE1B974
     // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
@@ -110,28 +110,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x103A10C
+    // Offset: 0x107ED98
     void Start();
     // private System.Void Init()
-    // Offset: 0x103A28C
+    // Offset: 0x107EF18
     void Init();
     // protected System.Void OnDestroy()
-    // Offset: 0x103AC48
+    // Offset: 0x107F8D4
     void OnDestroy();
     // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0x103A634
+    // Offset: 0x107F2C0
     void CreateUIForBatteryEnergyType(int batteryLives);
     // private System.Void RefreshEnergyUI(System.Single energy)
-    // Offset: 0x103A924
+    // Offset: 0x107F5B0
     void RefreshEnergyUI(float energy);
     // private System.Void HandleGameEnergyCounterDidInit()
-    // Offset: 0x103ADE8
+    // Offset: 0x107FA74
     void HandleGameEnergyCounterDidInit();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0x103ADEC
+    // Offset: 0x107FA78
     void HandleGameEnergyDidChange(float energy);
     // public System.Void .ctor()
-    // Offset: 0x103ADF0
+    // Offset: 0x107FA7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -147,5 +147,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameEnergyUIPanel), 80 + sizeof(UnityEngine::RectTransform*)> __GlobalNamespace_GameEnergyUIPanelSizeCheck;
   static_assert(sizeof(GameEnergyUIPanel) == 0x58);
+  // Writing MetadataGetter for method: GameEnergyUIPanel::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::CreateUIForBatteryEnergyType
+  // Il2CppName: CreateUIForBatteryEnergyType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)(int)>(&GameEnergyUIPanel::CreateUIForBatteryEnergyType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "CreateUIForBatteryEnergyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::RefreshEnergyUI
+  // Il2CppName: RefreshEnergyUI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)(float)>(&GameEnergyUIPanel::RefreshEnergyUI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "RefreshEnergyUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::HandleGameEnergyCounterDidInit
+  // Il2CppName: HandleGameEnergyCounterDidInit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::HandleGameEnergyCounterDidInit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "HandleGameEnergyCounterDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::HandleGameEnergyDidChange
+  // Il2CppName: HandleGameEnergyDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)(float)>(&GameEnergyUIPanel::HandleGameEnergyDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "HandleGameEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameEnergyUIPanel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");

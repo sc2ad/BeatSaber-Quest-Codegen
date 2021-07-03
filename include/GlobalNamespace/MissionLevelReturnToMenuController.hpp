@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void ReturnToMenu()
-    // Offset: 0x10521A8
+    // Offset: 0x1096890
     void ReturnToMenu();
     // public System.Void .ctor()
-    // Offset: 0x1052254
+    // Offset: 0x109693C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,5 +77,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionLevelReturnToMenuController), 40 + sizeof(GlobalNamespace::MissionObjectiveCheckersManager*)> __GlobalNamespace_MissionLevelReturnToMenuControllerSizeCheck;
   static_assert(sizeof(MissionLevelReturnToMenuController) == 0x30);
+  // Writing MetadataGetter for method: MissionLevelReturnToMenuController::ReturnToMenu
+  // Il2CppName: ReturnToMenu
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelReturnToMenuController::*)()>(&MissionLevelReturnToMenuController::ReturnToMenu)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelReturnToMenuController*), "ReturnToMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionLevelReturnToMenuController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelReturnToMenuController::*)()>(&MissionLevelReturnToMenuController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelReturnToMenuController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelReturnToMenuController::*)()>(&MissionLevelReturnToMenuController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionLevelReturnToMenuController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelReturnToMenuController*, "", "MissionLevelReturnToMenuController");

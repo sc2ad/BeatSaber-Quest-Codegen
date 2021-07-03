@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDD4B6C
+    // [CompilerGeneratedAttribute] Offset: 0xDD4AA0
     // private System.Single <scale>k__BackingField
     // Size: 0x4
     // Offset: 0x6C
@@ -150,40 +150,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.RenderTexture get_texture()
-    // Offset: 0x13BA110
+    // Offset: 0x13D4E20
     UnityEngine::RenderTexture* get_texture();
     // public System.Single get_scale()
-    // Offset: 0x13BA1DC
+    // Offset: 0x13D4EEC
     float get_scale();
     // private System.Void set_scale(System.Single value)
-    // Offset: 0x13BA1E4
+    // Offset: 0x13D4EF4
     void set_scale(float value);
     // private System.Void Awake()
-    // Offset: 0x13BA1EC
+    // Offset: 0x13D4EFC
     void Awake();
     // private System.Void OnGUI()
-    // Offset: 0x13BA354
+    // Offset: 0x13D5064
     void OnGUI();
     // public System.Void ShowMenu()
-    // Offset: 0x13BBED8
+    // Offset: 0x13D6BE8
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x13BBDD4
+    // Offset: 0x13D6AE4
     void HideMenu();
     // private System.Void Update()
-    // Offset: 0x13BC290
+    // Offset: 0x13D6FA0
     void Update();
     // private System.Void SetScale(System.Single scale)
-    // Offset: 0x13BBCE8
+    // Offset: 0x13D69F8
     void SetScale(float scale);
     // private System.Void SaveCursorState()
-    // Offset: 0x13BC228
+    // Offset: 0x13D6F38
     void SaveCursorState();
     // private System.Void RestoreCursorState()
-    // Offset: 0x13BC260
+    // Offset: 0x13D6F70
     void RestoreCursorState();
     // public System.Void .ctor()
-    // Offset: 0x13BC460
+    // Offset: 0x13D7170
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -199,5 +199,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SteamVR_Menu), 140 + sizeof(bool)> __GlobalNamespace_SteamVR_MenuSizeCheck;
   static_assert(sizeof(SteamVR_Menu) == 0x8D);
+  // Writing MetadataGetter for method: SteamVR_Menu::get_texture
+  // Il2CppName: get_texture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (SteamVR_Menu::*)()>(&SteamVR_Menu::get_texture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::get_scale
+  // Il2CppName: get_scale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SteamVR_Menu::*)()>(&SteamVR_Menu::get_scale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "get_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::set_scale
+  // Il2CppName: set_scale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)(float)>(&SteamVR_Menu::set_scale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "set_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::OnGUI
+  // Il2CppName: OnGUI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::OnGUI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::ShowMenu
+  // Il2CppName: ShowMenu
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::ShowMenu)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "ShowMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::HideMenu
+  // Il2CppName: HideMenu
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::HideMenu)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "HideMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::SetScale
+  // Il2CppName: SetScale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)(float)>(&SteamVR_Menu::SetScale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "SetScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::SaveCursorState
+  // Il2CppName: SaveCursorState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::SaveCursorState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "SaveCursorState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::RestoreCursorState
+  // Il2CppName: RestoreCursorState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::RestoreCursorState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), "RestoreCursorState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SteamVR_Menu::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Menu::*)()>(&SteamVR_Menu::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SteamVR_Menu*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Menu*, "", "SteamVR_Menu");

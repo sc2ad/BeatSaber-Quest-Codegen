@@ -57,25 +57,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Vector3TransitionSO
     Vector3TransitionSO(UnityEngine::Vector3 normalState_ = {}, UnityEngine::Vector3 highlightedState_ = {}, UnityEngine::Vector3 pressedState_ = {}, UnityEngine::Vector3 disabledState_ = {}, UnityEngine::Vector3 selectedState_ = {}, UnityEngine::Vector3 selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
     // public UnityEngine.Vector3 get_normalState()
-    // Offset: 0x1D9767C
+    // Offset: 0x1DB03D8
     UnityEngine::Vector3 get_normalState();
     // public UnityEngine.Vector3 get_highlightedState()
-    // Offset: 0x1D97688
+    // Offset: 0x1DB03E4
     UnityEngine::Vector3 get_highlightedState();
     // public UnityEngine.Vector3 get_pressedState()
-    // Offset: 0x1D97694
+    // Offset: 0x1DB03F0
     UnityEngine::Vector3 get_pressedState();
     // public UnityEngine.Vector3 get_disabledState()
-    // Offset: 0x1D976A0
+    // Offset: 0x1DB03FC
     UnityEngine::Vector3 get_disabledState();
     // public UnityEngine.Vector3 get_selectedState()
-    // Offset: 0x1D976AC
+    // Offset: 0x1DB0408
     UnityEngine::Vector3 get_selectedState();
     // public UnityEngine.Vector3 get_selectedAndHighlightedState()
-    // Offset: 0x1D976B8
+    // Offset: 0x1DB0414
     UnityEngine::Vector3 get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x1D976C4
+    // Offset: 0x1DB0420
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -91,5 +91,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(Vector3TransitionSO), 92 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_Vector3TransitionSOSizeCheck;
   static_assert(sizeof(Vector3TransitionSO) == 0x68);
+  // Writing MetadataGetter for method: Vector3TransitionSO::get_normalState
+  // Il2CppName: get_normalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Vector3TransitionSO::*)()>(&Vector3TransitionSO::get_normalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), "get_normalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3TransitionSO::get_highlightedState
+  // Il2CppName: get_highlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Vector3TransitionSO::*)()>(&Vector3TransitionSO::get_highlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), "get_highlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3TransitionSO::get_pressedState
+  // Il2CppName: get_pressedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Vector3TransitionSO::*)()>(&Vector3TransitionSO::get_pressedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), "get_pressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3TransitionSO::get_disabledState
+  // Il2CppName: get_disabledState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Vector3TransitionSO::*)()>(&Vector3TransitionSO::get_disabledState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), "get_disabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3TransitionSO::get_selectedState
+  // Il2CppName: get_selectedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Vector3TransitionSO::*)()>(&Vector3TransitionSO::get_selectedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), "get_selectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3TransitionSO::get_selectedAndHighlightedState
+  // Il2CppName: get_selectedAndHighlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Vector3TransitionSO::*)()>(&Vector3TransitionSO::get_selectedAndHighlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), "get_selectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Vector3TransitionSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3TransitionSO::*)()>(&Vector3TransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector3TransitionSO::*)()>(&Vector3TransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Vector3TransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3TransitionSO*, "", "Vector3TransitionSO");

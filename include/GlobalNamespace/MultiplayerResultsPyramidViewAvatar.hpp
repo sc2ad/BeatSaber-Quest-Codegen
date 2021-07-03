@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory
     class Factory;
-    // [HeaderAttribute] Offset: 0xE1E944
+    // [HeaderAttribute] Offset: 0xE1E920
     // private UnityEngine.Playables.PlayableDirector _badgeDirector
     // Size: 0x8
     // Offset: 0x18
@@ -92,7 +92,7 @@ namespace GlobalNamespace {
     ::Il2CppString* ghostSecondTrackName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE1E9B0
+    // [HeaderAttribute] Offset: 0xE1E98C
     // private UnityEngine.Transform _standWithAvatarTransform
     // Size: 0x8
     // Offset: 0x30
@@ -113,7 +113,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     // Padding between fields: localPlayerColor and: positionText
     char __padding5[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE1EA1C
+    // [HeaderAttribute] Offset: 0xE1E9F8
     // private TMPro.TextMeshProUGUI _positionText
     // Size: 0x8
     // Offset: 0x50
@@ -132,7 +132,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* nameBackground;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE1EA88
+    // [HeaderAttribute] Offset: 0xE1EA64
     // private UnityEngine.CanvasGroup _badgeCanvas
     // Size: 0x8
     // Offset: 0x68
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
     ::Array<HMUI::ImageView*>* badgeImages;
     // Field size check
     static_assert(sizeof(::Array<HMUI::ImageView*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE1EAF4
+    // [HeaderAttribute] Offset: 0xE1EAD0
     // private TMPro.TextMeshProUGUI _badgeSubtitleText
     // Size: 0x8
     // Offset: 0x80
@@ -164,7 +164,7 @@ namespace GlobalNamespace {
     UnityEngine::CanvasGroup* badgeSubtitleCanvas;
     // Field size check
     static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE1EB50
+    // [HeaderAttribute] Offset: 0xE1EB2C
     // private GhostDuplicationEffect _ghostDuplicationEffect
     // Size: 0x8
     // Offset: 0x90
@@ -187,7 +187,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams) == 0x45);
     // Padding between fields: ghostReceive and: trophyImage
     char __padding16[0x3] = {};
-    // [HeaderAttribute] Offset: 0xE1EBBC
+    // [HeaderAttribute] Offset: 0xE1EB98
     // private HMUI.ImageView _trophyImage
     // Size: 0x8
     // Offset: 0x128
@@ -224,14 +224,14 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* personalBestVisual;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1EC58
+    // [InjectAttribute] Offset: 0xE1EC34
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x160
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1EC68
+    // [InjectAttribute] Offset: 0xE1EC44
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x168
@@ -294,7 +294,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     // Padding between fields: originalBadgeLocalPos and: connectedPlayer
     char __padding33[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1EC78
+    // [InjectAttribute] Offset: 0xE1EC54
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x1C0
@@ -306,19 +306,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.Playables.PlayableDirector get_badgeDirector()
-    // Offset: 0x23E2DC0
+    // Offset: 0x100D93C
     UnityEngine::Playables::PlayableDirector* get_badgeDirector();
     // protected System.Void Awake()
-    // Offset: 0x23E2DC8
+    // Offset: 0x100D944
     void Awake();
     // public System.Void Setup(MultiplayerPlayerResultsData resultData, System.Int32 position, System.Int32 playerCount)
-    // Offset: 0x23E2884
+    // Offset: 0x100D400
     void Setup(GlobalNamespace::MultiplayerPlayerResultsData* resultData, int position, int playerCount);
     // public System.Void SetupBadgeTimeline(UnityEngine.Transform startTransform, UnityEngine.Transform midTransform)
-    // Offset: 0x23DEDE8
+    // Offset: 0x1009964
     void SetupBadgeTimeline(UnityEngine::Transform* startTransform, UnityEngine::Transform* midTransform);
     // public System.Void .ctor()
-    // Offset: 0x23E2DE8
+    // Offset: 0x100D964
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -334,5 +334,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerResultsPyramidViewAvatar), 448 + sizeof(GlobalNamespace::IConnectedPlayer*)> __GlobalNamespace_MultiplayerResultsPyramidViewAvatarSizeCheck;
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatar) == 0x1C8);
+  // Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::get_badgeDirector
+  // Il2CppName: get_badgeDirector
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableDirector* (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::get_badgeDirector)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "get_badgeDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)(GlobalNamespace::MultiplayerPlayerResultsData*, int, int)>(&MultiplayerResultsPyramidViewAvatar::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerResultsData*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline
+  // Il2CppName: SetupBadgeTimeline
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "SetupBadgeTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*, "", "MultiplayerResultsPyramidViewAvatar");

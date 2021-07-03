@@ -41,20 +41,20 @@ namespace System {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
     // System.Void .ctor(System.String displayName)
-    // Offset: 0x2311380
+    // Offset: 0x232B0DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // public System.String get_InternalName()
-    // Offset: 0x23113BC
+    // Offset: 0x232B118
     ::Il2CppString* get_InternalName();
     // private System.String GetInternalName()
-    // Offset: 0x23113EC
+    // Offset: 0x232B148
     ::Il2CppString* GetInternalName();
     // public override System.String get_DisplayName()
-    // Offset: 0x23113B4
+    // Offset: 0x232B110
     // Implemented from: System.TypeNames/ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
     ::Il2CppString* get_DisplayName();
@@ -62,5 +62,43 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(::Il2CppString*)> __System_TypeIdentifiers_DisplaySizeCheck;
   static_assert(sizeof(TypeIdentifiers::Display) == 0x20);
+  // Writing MetadataGetter for method: TypeIdentifiers::Display::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeIdentifiers::Display::*)(::Il2CppString*)>(&TypeIdentifiers::Display::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeIdentifiers::Display*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeIdentifiers::Display::*)(::Il2CppString*)>(&TypeIdentifiers::Display::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeIdentifiers::Display*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TypeIdentifiers::Display::get_InternalName
+  // Il2CppName: get_InternalName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeIdentifiers::Display::*)()>(&TypeIdentifiers::Display::get_InternalName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeIdentifiers::Display*), "get_InternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TypeIdentifiers::Display::GetInternalName
+  // Il2CppName: GetInternalName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeIdentifiers::Display::*)()>(&TypeIdentifiers::Display::GetInternalName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeIdentifiers::Display*), "GetInternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TypeIdentifiers::Display::get_DisplayName
+  // Il2CppName: get_DisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeIdentifiers::Display::*)()>(&TypeIdentifiers::Display::get_DisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TypeIdentifiers::Display*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers::Display*, "System", "TypeIdentifiers/Display");

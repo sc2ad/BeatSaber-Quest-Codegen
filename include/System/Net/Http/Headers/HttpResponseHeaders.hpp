@@ -20,7 +20,7 @@ namespace System::Net::Http::Headers {
     // Creating value type constructor for type: HttpResponseHeaders
     HttpResponseHeaders() noexcept {}
     // System.Void .ctor()
-    // Offset: 0x157C0BC
+    // Offset: 0x1595DCC
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -30,5 +30,19 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<HttpResponseHeaders*, creationType>()));
     }
   }; // System.Net.Http.Headers.HttpResponseHeaders
+  // Writing MetadataGetter for method: HttpResponseHeaders::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseHeaders::*)()>(&HttpResponseHeaders::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpResponseHeaders*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseHeaders::*)()>(&HttpResponseHeaders::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpResponseHeaders*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpResponseHeaders*, "System.Net.Http.Headers", "HttpResponseHeaders");

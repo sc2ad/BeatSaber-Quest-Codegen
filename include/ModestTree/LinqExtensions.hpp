@@ -131,5 +131,35 @@ namespace ModestTree {
     }
   }; // ModestTree.LinqExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LinqExtensions::Yield
+  // Il2CppName: Yield
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::OnlyOrDefault
+  // Il2CppName: OnlyOrDefault
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::HasAtLeast
+  // Il2CppName: HasAtLeast
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::HasMoreThan
+  // Il2CppName: HasMoreThan
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::HasLessThan
+  // Il2CppName: HasLessThan
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::HasAtMost
+  // Il2CppName: HasAtMost
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::IsEmpty
+  // Il2CppName: IsEmpty
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::GetDuplicates
+  // Il2CppName: GetDuplicates
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::Except
+  // Il2CppName: Except
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: LinqExtensions::ContainsItem
+  // Il2CppName: ContainsItem
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::LinqExtensions*, "ModestTree", "LinqExtensions");

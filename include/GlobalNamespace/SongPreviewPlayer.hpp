@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     class AudioSourceVolumeController;
     // Nested type: GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__27
     class $CrossFadeAfterDelayCoroutine$d__27;
-    // [RangeAttribute] Offset: 0xE1514C
+    // [RangeAttribute] Offset: 0xE15128
     // private System.Int32 _channelsCount
     // Size: 0x4
     // Offset: 0x18
@@ -90,32 +90,32 @@ namespace GlobalNamespace {
     float fadeInSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE151EC
+    // [HeaderAttribute] Offset: 0xE151C8
     // private SongPreviewPlayer/AudioSourceParams _defaultAudioSourceParams
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::SongPreviewPlayer::AudioSourceParams* defaultAudioSourceParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE15238
+    // [SpaceAttribute] Offset: 0xE15214
     // private SongPreviewPlayer/AudioSourceParams _othersAudioSourceParams
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::SongPreviewPlayer::AudioSourceParams* othersAudioSourceParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*) == 0x8);
-    // [InjectAttribute] Offset: 0xE15270
+    // [InjectAttribute] Offset: 0xE1524C
     // private readonly SongPreviewPlayer/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::SongPreviewPlayer::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPreviewPlayer::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE15280
-    // private AudioManagerSO _audioMixer
+    // [InjectAttribute] Offset: 0xE1525C
+    // private readonly AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x58
-    GlobalNamespace::AudioManagerSO* audioMixer;
+    GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
     // private SongPreviewPlayer/AudioSourceVolumeController[] _audioSourceControllers
@@ -169,64 +169,61 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Creating value type constructor for type: SongPreviewPlayer
-    SongPreviewPlayer(int channelsCount_ = {}, UnityEngine::AudioSource* audioSourcePrefab_ = {}, UnityEngine::AudioClip* defaultAudioClip_ = {}, float volume_ = {}, float crossFadeToAnotherSongSpeed_ = {}, float crossFadeToDefaultSpeed_ = {}, float fadeInSpeed_ = {}, GlobalNamespace::SongPreviewPlayer::AudioSourceParams* defaultAudioSourceParams_ = {}, GlobalNamespace::SongPreviewPlayer::AudioSourceParams* othersAudioSourceParams_ = {}, GlobalNamespace::SongPreviewPlayer::InitData* initData_ = {}, GlobalNamespace::AudioManagerSO* audioMixer_ = {}, ::Array<GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*>* audioSourceControllers_ = {}, int activeChannel_ = {}, float timeToDefaultAudioTransition_ = {}, bool transitionAfterDelay_ = {}, float volumeScale_ = {}, float fadeSpeed_ = {}, float ambientVolumeScale_ = {}, bool isActiveChannelPaused_ = {}) noexcept : channelsCount{channelsCount_}, audioSourcePrefab{audioSourcePrefab_}, defaultAudioClip{defaultAudioClip_}, volume{volume_}, crossFadeToAnotherSongSpeed{crossFadeToAnotherSongSpeed_}, crossFadeToDefaultSpeed{crossFadeToDefaultSpeed_}, fadeInSpeed{fadeInSpeed_}, defaultAudioSourceParams{defaultAudioSourceParams_}, othersAudioSourceParams{othersAudioSourceParams_}, initData{initData_}, audioMixer{audioMixer_}, audioSourceControllers{audioSourceControllers_}, activeChannel{activeChannel_}, timeToDefaultAudioTransition{timeToDefaultAudioTransition_}, transitionAfterDelay{transitionAfterDelay_}, volumeScale{volumeScale_}, fadeSpeed{fadeSpeed_}, ambientVolumeScale{ambientVolumeScale_}, isActiveChannelPaused{isActiveChannelPaused_} {}
+    SongPreviewPlayer(int channelsCount_ = {}, UnityEngine::AudioSource* audioSourcePrefab_ = {}, UnityEngine::AudioClip* defaultAudioClip_ = {}, float volume_ = {}, float crossFadeToAnotherSongSpeed_ = {}, float crossFadeToDefaultSpeed_ = {}, float fadeInSpeed_ = {}, GlobalNamespace::SongPreviewPlayer::AudioSourceParams* defaultAudioSourceParams_ = {}, GlobalNamespace::SongPreviewPlayer::AudioSourceParams* othersAudioSourceParams_ = {}, GlobalNamespace::SongPreviewPlayer::InitData* initData_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, ::Array<GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*>* audioSourceControllers_ = {}, int activeChannel_ = {}, float timeToDefaultAudioTransition_ = {}, bool transitionAfterDelay_ = {}, float volumeScale_ = {}, float fadeSpeed_ = {}, float ambientVolumeScale_ = {}, bool isActiveChannelPaused_ = {}) noexcept : channelsCount{channelsCount_}, audioSourcePrefab{audioSourcePrefab_}, defaultAudioClip{defaultAudioClip_}, volume{volume_}, crossFadeToAnotherSongSpeed{crossFadeToAnotherSongSpeed_}, crossFadeToDefaultSpeed{crossFadeToDefaultSpeed_}, fadeInSpeed{fadeInSpeed_}, defaultAudioSourceParams{defaultAudioSourceParams_}, othersAudioSourceParams{othersAudioSourceParams_}, initData{initData_}, audioManager{audioManager_}, audioSourceControllers{audioSourceControllers_}, activeChannel{activeChannel_}, timeToDefaultAudioTransition{timeToDefaultAudioTransition_}, transitionAfterDelay{transitionAfterDelay_}, volumeScale{volumeScale_}, fadeSpeed{fadeSpeed_}, ambientVolumeScale{ambientVolumeScale_}, isActiveChannelPaused{isActiveChannelPaused_} {}
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1172CEC
+    // Offset: 0x1156F54
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1172EF4
+    // Offset: 0x115715C
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1172F14
+    // Offset: 0x115717C
     void OnEnable();
     // private System.Collections.IEnumerator CrossFadeAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x1173028
+    // Offset: 0x1157290
     System::Collections::IEnumerator* CrossFadeAfterDelayCoroutine(float delay);
     // protected System.Void OnDisable()
-    // Offset: 0x11730D4
+    // Offset: 0x115733C
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x11731C0
+    // Offset: 0x1157428
     void Update();
-    // public System.Void CrossFadeToDefault()
-    // Offset: 0x117364C
-    void CrossFadeToDefault();
-    // public System.Void CrossfadeToNewDefault(UnityEngine.AudioClip audioClip)
-    // Offset: 0x1173708
-    void CrossfadeToNewDefault(UnityEngine::AudioClip* audioClip);
-    // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration)
-    // Offset: 0x117381C
-    void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration);
-    // private System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single startTime, System.Single duration, System.Boolean isDefault)
-    // Offset: 0x11733C0
-    void CrossfadeTo(UnityEngine::AudioClip* audioClip, float startTime, float duration, bool isDefault);
     // public System.Void CrossfadeToDefault()
-    // Offset: 0x117393C
+    // Offset: 0x11578AC
     void CrossfadeToDefault();
+    // public System.Void CrossfadeToNewDefault(UnityEngine.AudioClip audioClip)
+    // Offset: 0x1157A24
+    void CrossfadeToNewDefault(UnityEngine::AudioClip* audioClip);
+    // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single musicVolume, System.Single startTime, System.Single duration)
+    // Offset: 0x1157B48
+    void CrossfadeTo(UnityEngine::AudioClip* audioClip, float musicVolume, float startTime, float duration);
+    // private System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single musicVolume, System.Single startTime, System.Single duration, System.Boolean isDefault)
+    // Offset: 0x115762C
+    void CrossfadeTo(UnityEngine::AudioClip* audioClip, float musicVolume, float startTime, float duration, bool isDefault);
     // public override UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0x1172C8C
+    // Offset: 0x1156EF4
     // Implemented from: AudioPlayerBase
     // Base method: UnityEngine.AudioClip AudioPlayerBase::get_activeAudioClip()
     UnityEngine::AudioClip* get_activeAudioClip();
     // public override System.Void PauseCurrentChannel()
-    // Offset: 0x1173824
+    // Offset: 0x1157B50
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
     void PauseCurrentChannel();
     // public override System.Void UnPauseCurrentChannel()
-    // Offset: 0x11738A4
+    // Offset: 0x1157BD0
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
     void UnPauseCurrentChannel();
     // public override System.Void FadeOut(System.Single duration)
-    // Offset: 0x1173920
+    // Offset: 0x1157C4C
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
     void FadeOut(float duration);
     // public System.Void .ctor()
-    // Offset: 0x1173AA4
+    // Offset: 0x1157C68
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -243,5 +240,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SongPreviewPlayer), 128 + sizeof(bool)> __GlobalNamespace_SongPreviewPlayerSizeCheck;
   static_assert(sizeof(SongPreviewPlayer) == 0x81);
+  // Writing MetadataGetter for method: SongPreviewPlayer::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::CrossFadeAfterDelayCoroutine
+  // Il2CppName: CrossFadeAfterDelayCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (SongPreviewPlayer::*)(float)>(&SongPreviewPlayer::CrossFadeAfterDelayCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "CrossFadeAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::CrossfadeToDefault
+  // Il2CppName: CrossfadeToDefault
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::CrossfadeToDefault)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "CrossfadeToDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::CrossfadeToNewDefault
+  // Il2CppName: CrossfadeToNewDefault
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)(UnityEngine::AudioClip*)>(&SongPreviewPlayer::CrossfadeToNewDefault)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "CrossfadeToNewDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::CrossfadeTo
+  // Il2CppName: CrossfadeTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)(UnityEngine::AudioClip*, float, float, float)>(&SongPreviewPlayer::CrossfadeTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "CrossfadeTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::CrossfadeTo
+  // Il2CppName: CrossfadeTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)(UnityEngine::AudioClip*, float, float, float, bool)>(&SongPreviewPlayer::CrossfadeTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "CrossfadeTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::get_activeAudioClip
+  // Il2CppName: get_activeAudioClip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (SongPreviewPlayer::*)()>(&SongPreviewPlayer::get_activeAudioClip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "get_activeAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::PauseCurrentChannel
+  // Il2CppName: PauseCurrentChannel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::PauseCurrentChannel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "PauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::UnPauseCurrentChannel
+  // Il2CppName: UnPauseCurrentChannel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::UnPauseCurrentChannel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "UnPauseCurrentChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)(float)>(&SongPreviewPlayer::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SongPreviewPlayer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::*)()>(&SongPreviewPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");

@@ -134,10 +134,18 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier BrainpoolP512T1
     static void _set_BrainpoolP512T1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1737B0C
+    // Offset: 0x174F81C
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTObjectIdentifiers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TeleTrusTObjectIdentifiers::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TeleTrusTObjectIdentifiers::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TeleTrusTObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTObjectIdentifiers");

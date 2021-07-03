@@ -35,7 +35,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_PressedSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xDC89C4
+    // [FormerlySerializedAsAttribute] Offset: 0xDC78F8
     // private UnityEngine.Sprite m_SelectedSprite
     // Size: 0x8
     // Offset: 0x10
@@ -59,36 +59,108 @@ namespace UnityEngine::UI {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::UI::SpriteState>*>(this);
     }
     // public UnityEngine.Sprite get_highlightedSprite()
-    // Offset: 0xF21AD4
+    // Offset: 0xF22A8C
     UnityEngine::Sprite* get_highlightedSprite();
     // public System.Void set_highlightedSprite(UnityEngine.Sprite value)
-    // Offset: 0xF21ADC
+    // Offset: 0xF22A94
     void set_highlightedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_pressedSprite()
-    // Offset: 0xF21AE4
+    // Offset: 0xF22A9C
     UnityEngine::Sprite* get_pressedSprite();
     // public System.Void set_pressedSprite(UnityEngine.Sprite value)
-    // Offset: 0xF21AEC
+    // Offset: 0xF22AA4
     void set_pressedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_selectedSprite()
-    // Offset: 0xF21AF4
+    // Offset: 0xF22AAC
     UnityEngine::Sprite* get_selectedSprite();
     // public System.Void set_selectedSprite(UnityEngine.Sprite value)
-    // Offset: 0xF21AFC
+    // Offset: 0xF22AB4
     void set_selectedSprite(UnityEngine::Sprite* value);
     // public UnityEngine.Sprite get_disabledSprite()
-    // Offset: 0xF21B04
+    // Offset: 0xF22ABC
     UnityEngine::Sprite* get_disabledSprite();
     // public System.Void set_disabledSprite(UnityEngine.Sprite value)
-    // Offset: 0xF21B0C
+    // Offset: 0xF22AC4
     void set_disabledSprite(UnityEngine::Sprite* value);
     // public System.Boolean Equals(UnityEngine.UI.SpriteState other)
-    // Offset: 0xF21B14
+    // Offset: 0xF22ACC
     bool Equals(UnityEngine::UI::SpriteState other);
   }; // UnityEngine.UI.SpriteState
   #pragma pack(pop)
   static check_size<sizeof(SpriteState), 24 + sizeof(UnityEngine::Sprite*)> __UnityEngine_UI_SpriteStateSizeCheck;
   static_assert(sizeof(SpriteState) == 0x20);
+  // Writing MetadataGetter for method: SpriteState::get_highlightedSprite
+  // Il2CppName: get_highlightedSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteState::*)()>(&SpriteState::get_highlightedSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "get_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::set_highlightedSprite
+  // Il2CppName: set_highlightedSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteState::*)(UnityEngine::Sprite*)>(&SpriteState::set_highlightedSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "set_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::get_pressedSprite
+  // Il2CppName: get_pressedSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteState::*)()>(&SpriteState::get_pressedSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "get_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::set_pressedSprite
+  // Il2CppName: set_pressedSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteState::*)(UnityEngine::Sprite*)>(&SpriteState::set_pressedSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "set_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::get_selectedSprite
+  // Il2CppName: get_selectedSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteState::*)()>(&SpriteState::get_selectedSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "get_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::set_selectedSprite
+  // Il2CppName: set_selectedSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteState::*)(UnityEngine::Sprite*)>(&SpriteState::set_selectedSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "set_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::get_disabledSprite
+  // Il2CppName: get_disabledSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteState::*)()>(&SpriteState::get_disabledSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "get_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::set_disabledSprite
+  // Il2CppName: set_disabledSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteState::*)(UnityEngine::Sprite*)>(&SpriteState::set_disabledSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "set_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SpriteState::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SpriteState::*)(UnityEngine::UI::SpriteState)>(&SpriteState::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SpriteState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::SpriteState>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");

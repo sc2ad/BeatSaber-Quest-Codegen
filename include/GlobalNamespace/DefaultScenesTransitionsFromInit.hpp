@@ -49,8 +49,8 @@ namespace GlobalNamespace {
     GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* shaderWarmupScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0xE14424
-    // private GameScenesManager _gameScenesManager
+    // [InjectAttribute] Offset: 0xE14420
+    // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::GameScenesManager* gameScenesManager;
@@ -61,13 +61,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public MenuScenesTransitionSetupDataSO get_mainMenuScenesTransitionSetupData()
-    // Offset: 0x10B5804
+    // Offset: 0x1033F60
     GlobalNamespace::MenuScenesTransitionSetupDataSO* get_mainMenuScenesTransitionSetupData();
     // public System.Void TransitionToNextScene(System.Boolean goStraightToMenu)
-    // Offset: 0x10B580C
+    // Offset: 0x1033F68
     void TransitionToNextScene(bool goStraightToMenu);
     // public System.Void .ctor()
-    // Offset: 0x10B58FC
+    // Offset: 0x1034074
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -83,5 +83,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DefaultScenesTransitionsFromInit), 48 + sizeof(GlobalNamespace::GameScenesManager*)> __GlobalNamespace_DefaultScenesTransitionsFromInitSizeCheck;
   static_assert(sizeof(DefaultScenesTransitionsFromInit) == 0x38);
+  // Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData
+  // Il2CppName: get_mainMenuScenesTransitionSetupData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuScenesTransitionSetupDataSO* (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), "get_mainMenuScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::TransitionToNextScene
+  // Il2CppName: TransitionToNextScene
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)(bool)>(&DefaultScenesTransitionsFromInit::TransitionToNextScene)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: DefaultScenesTransitionsFromInit::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultScenesTransitionsFromInit::*)()>(&DefaultScenesTransitionsFromInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultScenesTransitionsFromInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");

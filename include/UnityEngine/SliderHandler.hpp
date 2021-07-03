@@ -103,7 +103,7 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Void .ctor(UnityEngine.Rect position, System.Single currentValue, System.Single size, System.Single start, System.Single end, UnityEngine.GUIStyle slider, UnityEngine.GUIStyle thumb, System.Boolean horiz, System.Int32 id, UnityEngine.GUIStyle thumbExtent)
-    // Offset: 0xF02FB0
+    // Offset: 0xF03F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     SliderHandler(UnityEngine::Rect position, float currentValue, float size, float start, float end, UnityEngine::GUIStyle* slider, UnityEngine::GUIStyle* thumb, bool horiz, int id, UnityEngine::GUIStyle* thumbExtent) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SliderHandler::.ctor");
@@ -111,89 +111,319 @@ namespace UnityEngine {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, position, currentValue, size, start, end, slider, thumb, horiz, id, thumbExtent);
     }
     // public System.Single Handle()
-    // Offset: 0xF02FD8
+    // Offset: 0xF03F90
     float Handle();
     // private System.Single OnMouseDown()
-    // Offset: 0xF02FE0
+    // Offset: 0xF03F98
     float OnMouseDown();
     // private System.Single OnMouseDrag()
-    // Offset: 0xF02FE8
+    // Offset: 0xF03FA0
     float OnMouseDrag();
     // private System.Single OnMouseUp()
-    // Offset: 0xF02FF0
+    // Offset: 0xF03FA8
     float OnMouseUp();
     // private System.Single OnRepaint()
-    // Offset: 0xF02FF8
+    // Offset: 0xF03FB0
     float OnRepaint();
     // private UnityEngine.EventType CurrentEventType()
-    // Offset: 0xF03000
+    // Offset: 0xF03FB8
     UnityEngine::EventType CurrentEventType();
     // private System.Int32 CurrentScrollTroughSide()
-    // Offset: 0xF03008
+    // Offset: 0xF03FC0
     int CurrentScrollTroughSide();
     // private System.Boolean IsEmptySlider()
-    // Offset: 0xF03010
+    // Offset: 0xF03FC8
     bool IsEmptySlider();
     // private System.Boolean SupportsPageMovements()
-    // Offset: 0xF03020
+    // Offset: 0xF03FD8
     bool SupportsPageMovements();
     // private System.Single PageMovementValue()
-    // Offset: 0xF03028
+    // Offset: 0xF03FE0
     float PageMovementValue();
     // private System.Single PageUpMovementBound()
-    // Offset: 0xF03030
+    // Offset: 0xF03FE8
     float PageUpMovementBound();
     // private UnityEngine.Event CurrentEvent()
-    // Offset: 0xF03038
+    // Offset: 0xF03FF0
     UnityEngine::Event* CurrentEvent();
     // private System.Single ValueForCurrentMousePosition()
-    // Offset: 0xF03088
+    // Offset: 0xF04040
     float ValueForCurrentMousePosition();
     // private System.Single Clamp(System.Single value)
-    // Offset: 0xF03090
+    // Offset: 0xF04048
     float Clamp(float value);
     // private UnityEngine.Rect ThumbSelectionRect()
-    // Offset: 0xF03098
+    // Offset: 0xF04050
     UnityEngine::Rect ThumbSelectionRect();
     // private System.Void StartDraggingWithValue(System.Single dragStartValue)
-    // Offset: 0xF030A0
+    // Offset: 0xF04058
     void StartDraggingWithValue(float dragStartValue);
     // private UnityEngine.SliderState SliderState()
-    // Offset: 0xF030A8
+    // Offset: 0xF04060
     UnityEngine::SliderState* SliderState();
     // private UnityEngine.Rect ThumbExtRect()
-    // Offset: 0xF030B0
+    // Offset: 0xF04068
     UnityEngine::Rect ThumbExtRect();
     // private UnityEngine.Rect ThumbRect()
-    // Offset: 0xF030B8
+    // Offset: 0xF04070
     UnityEngine::Rect ThumbRect();
     // private UnityEngine.Rect VerticalThumbRect()
-    // Offset: 0xF030C0
+    // Offset: 0xF04078
     UnityEngine::Rect VerticalThumbRect();
     // private UnityEngine.Rect HorizontalThumbRect()
-    // Offset: 0xF030C8
+    // Offset: 0xF04080
     UnityEngine::Rect HorizontalThumbRect();
     // private System.Single ClampedCurrentValue()
-    // Offset: 0xF030D0
+    // Offset: 0xF04088
     float ClampedCurrentValue();
     // private System.Single MousePosition()
-    // Offset: 0xF030DC
+    // Offset: 0xF04094
     float MousePosition();
     // private System.Single ValuesPerPixel()
-    // Offset: 0xF030E4
+    // Offset: 0xF0409C
     float ValuesPerPixel();
     // private System.Single ThumbSize()
-    // Offset: 0xF030EC
+    // Offset: 0xF040A4
     float ThumbSize();
     // private System.Single MaxValue()
-    // Offset: 0xF030F4
+    // Offset: 0xF040AC
     float MaxValue();
     // private System.Single MinValue()
-    // Offset: 0xF030FC
+    // Offset: 0xF040B4
     float MinValue();
   }; // UnityEngine.SliderHandler
   #pragma pack(pop)
   static check_size<sizeof(SliderHandler), 60 + sizeof(int)> __UnityEngine_SliderHandlerSizeCheck;
   static_assert(sizeof(SliderHandler) == 0x40);
+  // Writing MetadataGetter for method: SliderHandler::SliderHandler
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SliderHandler::*)(UnityEngine::Rect, float, float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, bool, int, UnityEngine::GUIStyle*)>(&SliderHandler::SliderHandler<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SliderHandler::*)(UnityEngine::Rect, float, float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, bool, int, UnityEngine::GUIStyle*)>(&SliderHandler::SliderHandler<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::Handle
+  // Il2CppName: Handle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::Handle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::OnMouseDown
+  // Il2CppName: OnMouseDown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::OnMouseDown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "OnMouseDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::OnMouseDrag
+  // Il2CppName: OnMouseDrag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::OnMouseDrag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "OnMouseDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::OnMouseUp
+  // Il2CppName: OnMouseUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::OnMouseUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "OnMouseUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::OnRepaint
+  // Il2CppName: OnRepaint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::OnRepaint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "OnRepaint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::CurrentEventType
+  // Il2CppName: CurrentEventType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventType (SliderHandler::*)()>(&SliderHandler::CurrentEventType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "CurrentEventType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::CurrentScrollTroughSide
+  // Il2CppName: CurrentScrollTroughSide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SliderHandler::*)()>(&SliderHandler::CurrentScrollTroughSide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "CurrentScrollTroughSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::IsEmptySlider
+  // Il2CppName: IsEmptySlider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SliderHandler::*)()>(&SliderHandler::IsEmptySlider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "IsEmptySlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::SupportsPageMovements
+  // Il2CppName: SupportsPageMovements
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SliderHandler::*)()>(&SliderHandler::SupportsPageMovements)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "SupportsPageMovements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::PageMovementValue
+  // Il2CppName: PageMovementValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::PageMovementValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "PageMovementValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::PageUpMovementBound
+  // Il2CppName: PageUpMovementBound
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::PageUpMovementBound)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "PageUpMovementBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::CurrentEvent
+  // Il2CppName: CurrentEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Event* (SliderHandler::*)()>(&SliderHandler::CurrentEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "CurrentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ValueForCurrentMousePosition
+  // Il2CppName: ValueForCurrentMousePosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::ValueForCurrentMousePosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ValueForCurrentMousePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::Clamp
+  // Il2CppName: Clamp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)(float)>(&SliderHandler::Clamp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "Clamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ThumbSelectionRect
+  // Il2CppName: ThumbSelectionRect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (SliderHandler::*)()>(&SliderHandler::ThumbSelectionRect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ThumbSelectionRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::StartDraggingWithValue
+  // Il2CppName: StartDraggingWithValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SliderHandler::*)(float)>(&SliderHandler::StartDraggingWithValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "StartDraggingWithValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::SliderState
+  // Il2CppName: SliderState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SliderState* (SliderHandler::*)()>(&SliderHandler::SliderState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "SliderState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ThumbExtRect
+  // Il2CppName: ThumbExtRect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (SliderHandler::*)()>(&SliderHandler::ThumbExtRect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ThumbExtRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ThumbRect
+  // Il2CppName: ThumbRect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (SliderHandler::*)()>(&SliderHandler::ThumbRect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ThumbRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::VerticalThumbRect
+  // Il2CppName: VerticalThumbRect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (SliderHandler::*)()>(&SliderHandler::VerticalThumbRect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "VerticalThumbRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::HorizontalThumbRect
+  // Il2CppName: HorizontalThumbRect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (SliderHandler::*)()>(&SliderHandler::HorizontalThumbRect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "HorizontalThumbRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ClampedCurrentValue
+  // Il2CppName: ClampedCurrentValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::ClampedCurrentValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ClampedCurrentValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::MousePosition
+  // Il2CppName: MousePosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::MousePosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "MousePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ValuesPerPixel
+  // Il2CppName: ValuesPerPixel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::ValuesPerPixel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ValuesPerPixel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::ThumbSize
+  // Il2CppName: ThumbSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::ThumbSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "ThumbSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::MaxValue
+  // Il2CppName: MaxValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::MaxValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "MaxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SliderHandler::MinValue
+  // Il2CppName: MinValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SliderHandler::*)()>(&SliderHandler::MinValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SliderHandler), "MinValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");

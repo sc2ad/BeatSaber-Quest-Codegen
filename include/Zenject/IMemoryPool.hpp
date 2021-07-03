@@ -52,6 +52,78 @@ namespace Zenject {
     void Despawn(::Il2CppObject* obj);
   }; // Zenject.IMemoryPool
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IMemoryPool::get_NumTotal
+  // Il2CppName: get_NumTotal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMemoryPool::*)()>(&IMemoryPool::get_NumTotal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "get_NumTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::get_NumActive
+  // Il2CppName: get_NumActive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMemoryPool::*)()>(&IMemoryPool::get_NumActive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "get_NumActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::get_NumInactive
+  // Il2CppName: get_NumInactive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMemoryPool::*)()>(&IMemoryPool::get_NumInactive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "get_NumInactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::get_ItemType
+  // Il2CppName: get_ItemType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (IMemoryPool::*)()>(&IMemoryPool::get_ItemType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "get_ItemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::Resize
+  // Il2CppName: Resize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMemoryPool::*)(int)>(&IMemoryPool::Resize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "Resize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::Clear
+  // Il2CppName: Clear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMemoryPool::*)()>(&IMemoryPool::Clear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::ExpandBy
+  // Il2CppName: ExpandBy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMemoryPool::*)(int)>(&IMemoryPool::ExpandBy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "ExpandBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::ShrinkBy
+  // Il2CppName: ShrinkBy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMemoryPool::*)(int)>(&IMemoryPool::ShrinkBy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "ShrinkBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: IMemoryPool::Despawn
+  // Il2CppName: Despawn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMemoryPool::*)(::Il2CppObject*)>(&IMemoryPool::Despawn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMemoryPool*), "Despawn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IMemoryPool*, "Zenject", "IMemoryPool");

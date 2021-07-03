@@ -31,7 +31,7 @@ namespace System::Resources {
       return rm;
     }
     // System.Void .ctor(System.Resources.ResourceManager rm)
-    // Offset: 0x13FA544
+    // Offset: 0x1415254
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::ResourceManagerMediator::.ctor");
@@ -41,5 +41,19 @@ namespace System::Resources {
   #pragma pack(pop)
   static check_size<sizeof(ResourceManager::ResourceManagerMediator), 16 + sizeof(System::Resources::ResourceManager*)> __System_Resources_ResourceManager_ResourceManagerMediatorSizeCheck;
   static_assert(sizeof(ResourceManager::ResourceManagerMediator) == 0x18);
+  // Writing MetadataGetter for method: ResourceManager::ResourceManagerMediator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::ResourceManagerMediator::*)(System::Resources::ResourceManager*)>(&ResourceManager::ResourceManagerMediator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::ResourceManagerMediator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceManager::ResourceManagerMediator::*)(System::Resources::ResourceManager*)>(&ResourceManager::ResourceManagerMediator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ResourceManager::ResourceManagerMediator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceManager*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");

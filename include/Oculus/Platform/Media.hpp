@@ -30,10 +30,18 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: Media
     Media() noexcept {}
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ShareMediaResult> ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
-    // Offset: 0x14AD3E8
+    // Offset: 0x14C80F8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::Il2CppString* postTextSuggestion, ::Il2CppString* filePath, Oculus::Platform::MediaContentType contentType);
   }; // Oculus.Platform.Media
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Media::ShareToFacebook
+  // Il2CppName: ShareToFacebook
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* (*)(::Il2CppString*, ::Il2CppString*, Oculus::Platform::MediaContentType)>(&Media::ShareToFacebook)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Media*), "ShareToFacebook", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MediaContentType>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Media*, "Oculus.Platform", "Media");

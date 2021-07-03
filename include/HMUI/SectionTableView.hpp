@@ -84,14 +84,14 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: unfoldSectionsByDefault and: didSelectRowInSectionEvent
     char __padding0[0x5] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDF7CD4
+    // [CompilerGeneratedAttribute] Offset: 0xDF9CD0
     // private System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> didSelectRowInSectionEvent
     // Size: 0x8
     // Offset: 0xA8
     System::Action_3<HMUI::SectionTableView*, int, int>* didSelectRowInSectionEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<HMUI::SectionTableView*, int, int>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF7CE4
+    // [CompilerGeneratedAttribute] Offset: 0xDF9CE0
     // private System.Action`2<HMUI.SectionTableView,System.Int32> didSelectHeaderEvent
     // Size: 0x8
     // Offset: 0xB0
@@ -117,68 +117,68 @@ namespace HMUI {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
     }
     // public System.Void add_didSelectRowInSectionEvent(System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> value)
-    // Offset: 0x129DCF0
+    // Offset: 0x12B8A00
     void add_didSelectRowInSectionEvent(System::Action_3<HMUI::SectionTableView*, int, int>* value);
     // public System.Void remove_didSelectRowInSectionEvent(System.Action`3<HMUI.SectionTableView,System.Int32,System.Int32> value)
-    // Offset: 0x129DD94
+    // Offset: 0x12B8AA4
     void remove_didSelectRowInSectionEvent(System::Action_3<HMUI::SectionTableView*, int, int>* value);
     // public System.Void add_didSelectHeaderEvent(System.Action`2<HMUI.SectionTableView,System.Int32> value)
-    // Offset: 0x129DE38
+    // Offset: 0x12B8B48
     void add_didSelectHeaderEvent(System::Action_2<HMUI::SectionTableView*, int>* value);
     // public System.Void remove_didSelectHeaderEvent(System.Action`2<HMUI.SectionTableView,System.Int32> value)
-    // Offset: 0x129DEDC
+    // Offset: 0x12B8BEC
     void remove_didSelectHeaderEvent(System::Action_2<HMUI::SectionTableView*, int>* value);
     // public HMUI.SectionTableView/IDataSource get_dataSource()
-    // Offset: 0x129DF80
+    // Offset: 0x12B8C90
     HMUI::SectionTableView::IDataSource* get_dataSource();
     // public System.Void set_dataSource(HMUI.SectionTableView/IDataSource value)
-    // Offset: 0x129DF88
+    // Offset: 0x12B8C98
     void set_dataSource(HMUI::SectionTableView::IDataSource* value);
     // public System.Boolean IsSectionUnfolded(System.Int32 section)
-    // Offset: 0x129DFAC
+    // Offset: 0x12B8CBC
     bool IsSectionUnfolded(int section);
     // public System.Single CellSize()
-    // Offset: 0x129DFEC
+    // Offset: 0x12B8CFC
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x129E09C
+    // Offset: 0x12B8DAC
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 baseRow)
-    // Offset: 0x129E0EC
+    // Offset: 0x12B8DFC
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int baseRow);
     // public System.Void ReloadData(System.Boolean resetFoldState)
-    // Offset: 0x129E394
+    // Offset: 0x12B90A4
     void ReloadData(bool resetFoldState);
     // public System.Void UnfoldAllSections()
-    // Offset: 0x129E96C
+    // Offset: 0x12B967C
     void UnfoldAllSections();
     // public System.Void FoldAll()
-    // Offset: 0x129E9CC
+    // Offset: 0x12B96DC
     void FoldAll();
     // public System.Void UnfoldSection(System.Int32 section)
-    // Offset: 0x129EA28
+    // Offset: 0x12B9738
     void UnfoldSection(int section);
     // public System.Void FoldSection(System.Int32 section)
-    // Offset: 0x129EEB0
+    // Offset: 0x12B9BC0
     void FoldSection(int section);
     // public System.Void ScrollToRow(System.Int32 section, System.Int32 row, HMUI.TableView/ScrollPositionType scrollPositionType, System.Boolean animated)
-    // Offset: 0x129F298
+    // Offset: 0x12B9FA8
     void ScrollToRow(int section, int row, HMUI::TableView::ScrollPositionType scrollPositionType, bool animated);
     // public System.Void SectionAndRowForBaseRow(System.Int32 baseRow, out System.Int32 section, out System.Int32 row, out System.Boolean isSectionHeader)
-    // Offset: 0x129E29C
+    // Offset: 0x12B8FAC
     void SectionAndRowForBaseRow(int baseRow, int& section, int& row, bool& isSectionHeader);
     // public override System.Void ReloadData()
-    // Offset: 0x129E38C
+    // Offset: 0x12B909C
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::ReloadData()
     void ReloadData();
     // protected override System.Void DidSelectCellWithIdx(System.Int32 baseRow)
-    // Offset: 0x129E8A4
+    // Offset: 0x12B95B4
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::DidSelectCellWithIdx(System.Int32 baseRow)
     void DidSelectCellWithIdx(int baseRow);
     // public System.Void .ctor()
-    // Offset: 0x129F3CC
+    // Offset: 0x12BA0DC
     // Implemented from: HMUI.TableView
     // Base method: System.Void TableView::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -195,6 +195,172 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(SectionTableView), 192 + sizeof(::Array<HMUI::SectionTableView::Section>*)> __HMUI_SectionTableViewSizeCheck;
   static_assert(sizeof(SectionTableView) == 0xC8);
+  // Writing MetadataGetter for method: SectionTableView::add_didSelectRowInSectionEvent
+  // Il2CppName: add_didSelectRowInSectionEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(System::Action_3<HMUI::SectionTableView*, int, int>*)>(&SectionTableView::add_didSelectRowInSectionEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "add_didSelectRowInSectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::SectionTableView*, int, int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::remove_didSelectRowInSectionEvent
+  // Il2CppName: remove_didSelectRowInSectionEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(System::Action_3<HMUI::SectionTableView*, int, int>*)>(&SectionTableView::remove_didSelectRowInSectionEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "remove_didSelectRowInSectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::SectionTableView*, int, int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::add_didSelectHeaderEvent
+  // Il2CppName: add_didSelectHeaderEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(System::Action_2<HMUI::SectionTableView*, int>*)>(&SectionTableView::add_didSelectHeaderEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "add_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SectionTableView*, int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::remove_didSelectHeaderEvent
+  // Il2CppName: remove_didSelectHeaderEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(System::Action_2<HMUI::SectionTableView*, int>*)>(&SectionTableView::remove_didSelectHeaderEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "remove_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SectionTableView*, int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::get_dataSource
+  // Il2CppName: get_dataSource
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SectionTableView::IDataSource* (SectionTableView::*)()>(&SectionTableView::get_dataSource)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::set_dataSource
+  // Il2CppName: set_dataSource
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(HMUI::SectionTableView::IDataSource*)>(&SectionTableView::set_dataSource)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "set_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SectionTableView::IDataSource*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::IsSectionUnfolded
+  // Il2CppName: IsSectionUnfolded
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SectionTableView::*)(int)>(&SectionTableView::IsSectionUnfolded)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "IsSectionUnfolded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::CellSize
+  // Il2CppName: CellSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SectionTableView::*)()>(&SectionTableView::CellSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::NumberOfCells
+  // Il2CppName: NumberOfCells
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SectionTableView::*)()>(&SectionTableView::NumberOfCells)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::CellForIdx
+  // Il2CppName: CellForIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (SectionTableView::*)(HMUI::TableView*, int)>(&SectionTableView::CellForIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::ReloadData
+  // Il2CppName: ReloadData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(bool)>(&SectionTableView::ReloadData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::UnfoldAllSections
+  // Il2CppName: UnfoldAllSections
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)()>(&SectionTableView::UnfoldAllSections)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "UnfoldAllSections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::FoldAll
+  // Il2CppName: FoldAll
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)()>(&SectionTableView::FoldAll)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "FoldAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::UnfoldSection
+  // Il2CppName: UnfoldSection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(int)>(&SectionTableView::UnfoldSection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "UnfoldSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::FoldSection
+  // Il2CppName: FoldSection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(int)>(&SectionTableView::FoldSection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "FoldSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::ScrollToRow
+  // Il2CppName: ScrollToRow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(int, int, HMUI::TableView::ScrollPositionType, bool)>(&SectionTableView::ScrollToRow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "ScrollToRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<HMUI::TableView::ScrollPositionType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::SectionAndRowForBaseRow
+  // Il2CppName: SectionAndRowForBaseRow
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(int, int&, int&, bool&)>(&SectionTableView::SectionAndRowForBaseRow)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "SectionAndRowForBaseRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::ReloadData
+  // Il2CppName: ReloadData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)()>(&SectionTableView::ReloadData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::DidSelectCellWithIdx
+  // Il2CppName: DidSelectCellWithIdx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)(int)>(&SectionTableView::DidSelectCellWithIdx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), "DidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SectionTableView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)()>(&SectionTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SectionTableView::*)()>(&SectionTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SectionTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");

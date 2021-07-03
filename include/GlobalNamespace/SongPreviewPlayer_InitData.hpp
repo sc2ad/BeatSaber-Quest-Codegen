@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return ambientVolumeScale;
     }
     // public System.Void .ctor(System.Single ambientVolumeScale)
-    // Offset: 0x1173C30
+    // Offset: 0x1157DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::InitData* New_ctor(float ambientVolumeScale) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::InitData::.ctor");
@@ -41,5 +41,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SongPreviewPlayer::InitData), 16 + sizeof(float)> __GlobalNamespace_SongPreviewPlayer_InitDataSizeCheck;
   static_assert(sizeof(SongPreviewPlayer::InitData) == 0x14);
+  // Writing MetadataGetter for method: SongPreviewPlayer::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::InitData::*)(float)>(&SongPreviewPlayer::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::InitData::*)(float)>(&SongPreviewPlayer::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::InitData*, "", "SongPreviewPlayer/InitData");

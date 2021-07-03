@@ -36,39 +36,39 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::FBBIKHeadEffector::BendBone
     class BendBone;
-    // [TooltipAttribute] Offset: 0xE07D10
+    // [TooltipAttribute] Offset: 0xE08D0C
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x18
     RootMotion::FinalIK::FullBodyBipedIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
-    // [LargeHeader] Offset: 0xE07D48
-    // [TooltipAttribute] Offset: 0xE07D48
-    // [RangeAttribute] Offset: 0xE07D48
+    // [LargeHeader] Offset: 0xE08D44
+    // [TooltipAttribute] Offset: 0xE08D44
+    // [RangeAttribute] Offset: 0xE08D44
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x20
     float positionWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07DC0
-    // [RangeAttribute] Offset: 0xE07DC0
+    // [TooltipAttribute] Offset: 0xE08DBC
+    // [RangeAttribute] Offset: 0xE08DBC
     // public System.Single bodyWeight
     // Size: 0x4
     // Offset: 0x24
     float bodyWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07E14
-    // [RangeAttribute] Offset: 0xE07E14
+    // [TooltipAttribute] Offset: 0xE08E10
+    // [RangeAttribute] Offset: 0xE08E10
     // public System.Single thighWeight
     // Size: 0x4
     // Offset: 0x28
     float thighWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07E68
+    // [TooltipAttribute] Offset: 0xE08E64
     // public System.Boolean handsPullBody
     // Size: 0x1
     // Offset: 0x2C
@@ -77,65 +77,65 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: handsPullBody and: rotationWeight
     char __padding4[0x3] = {};
-    // [LargeHeader] Offset: 0xE07EA0
-    // [TooltipAttribute] Offset: 0xE07EA0
-    // [RangeAttribute] Offset: 0xE07EA0
+    // [LargeHeader] Offset: 0xE08E9C
+    // [TooltipAttribute] Offset: 0xE08E9C
+    // [RangeAttribute] Offset: 0xE08E9C
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x30
     float rotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07F18
-    // [RangeAttribute] Offset: 0xE07F18
+    // [TooltipAttribute] Offset: 0xE08F14
+    // [RangeAttribute] Offset: 0xE08F14
     // public System.Single bodyClampWeight
     // Size: 0x4
     // Offset: 0x34
     float bodyClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07F6C
-    // [RangeAttribute] Offset: 0xE07F6C
+    // [TooltipAttribute] Offset: 0xE08F68
+    // [RangeAttribute] Offset: 0xE08F68
     // public System.Single headClampWeight
     // Size: 0x4
     // Offset: 0x38
     float headClampWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE07FC0
-    // [RangeAttribute] Offset: 0xE07FC0
+    // [TooltipAttribute] Offset: 0xE08FBC
+    // [RangeAttribute] Offset: 0xE08FBC
     // public System.Single bendWeight
     // Size: 0x4
     // Offset: 0x3C
     float bendWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08014
+    // [TooltipAttribute] Offset: 0xE09010
     // public RootMotion.FinalIK.FBBIKHeadEffector/BendBone[] bendBones
     // Size: 0x8
     // Offset: 0x40
     ::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>* bendBones;
     // Field size check
     static_assert(sizeof(::Array<RootMotion::FinalIK::FBBIKHeadEffector::BendBone*>*) == 0x8);
-    // [LargeHeader] Offset: 0xE0804C
-    // [TooltipAttribute] Offset: 0xE0804C
-    // [RangeAttribute] Offset: 0xE0804C
+    // [LargeHeader] Offset: 0xE09048
+    // [TooltipAttribute] Offset: 0xE09048
+    // [RangeAttribute] Offset: 0xE09048
     // public System.Single CCDWeight
     // Size: 0x4
     // Offset: 0x48
     float CCDWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE080C4
-    // [RangeAttribute] Offset: 0xE080C4
+    // [TooltipAttribute] Offset: 0xE090C0
+    // [RangeAttribute] Offset: 0xE090C0
     // public System.Single roll
     // Size: 0x4
     // Offset: 0x4C
     float roll;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08118
-    // [RangeAttribute] Offset: 0xE08118
+    // [TooltipAttribute] Offset: 0xE09114
+    // [RangeAttribute] Offset: 0xE09114
     // public System.Single damper
     // Size: 0x4
     // Offset: 0x50
@@ -144,37 +144,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: damper and: CCDBones
     char __padding12[0x4] = {};
-    // [TooltipAttribute] Offset: 0xE08170
+    // [TooltipAttribute] Offset: 0xE0916C
     // public UnityEngine.Transform[] CCDBones
     // Size: 0x8
     // Offset: 0x58
     ::Array<UnityEngine::Transform*>* CCDBones;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [LargeHeader] Offset: 0xE081A8
-    // [TooltipAttribute] Offset: 0xE081A8
-    // [RangeAttribute] Offset: 0xE081A8
+    // [LargeHeader] Offset: 0xE091A4
+    // [TooltipAttribute] Offset: 0xE091A4
+    // [RangeAttribute] Offset: 0xE091A4
     // public System.Single postStretchWeight
     // Size: 0x4
     // Offset: 0x60
     float postStretchWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08220
+    // [TooltipAttribute] Offset: 0xE0921C
     // public System.Single maxStretch
     // Size: 0x4
     // Offset: 0x64
     float maxStretch;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08258
+    // [TooltipAttribute] Offset: 0xE09254
     // public System.Single stretchDamper
     // Size: 0x4
     // Offset: 0x68
     float stretchDamper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE08290
+    // [TooltipAttribute] Offset: 0xE0928C
     // public System.Boolean fixHead
     // Size: 0x1
     // Offset: 0x6C
@@ -183,21 +183,21 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: fixHead and: stretchBones
     char __padding17[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE082C8
+    // [TooltipAttribute] Offset: 0xE092C4
     // public UnityEngine.Transform[] stretchBones
     // Size: 0x8
     // Offset: 0x70
     ::Array<UnityEngine::Transform*>* stretchBones;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [LargeHeader] Offset: 0xE08300
+    // [LargeHeader] Offset: 0xE092FC
     // public UnityEngine.Vector3 chestDirection
     // Size: 0xC
     // Offset: 0x78
     UnityEngine::Vector3 chestDirection;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xE08338
+    // [RangeAttribute] Offset: 0xE09334
     // public System.Single chestDirectionWeight
     // Size: 0x4
     // Offset: 0x84
@@ -361,46 +361,46 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1C966F4
+    // Offset: 0x1CB2404
     void Start();
     // private System.Void OnStoreDefaultLocalState()
-    // Offset: 0x1C96A24
+    // Offset: 0x1CB2734
     void OnStoreDefaultLocalState();
     // private System.Void OnFixTransforms()
-    // Offset: 0x1C96EE4
+    // Offset: 0x1CB2BF4
     void OnFixTransforms();
     // private System.Void OnPreRead()
-    // Offset: 0x1C972D8
+    // Offset: 0x1CB2FE8
     void OnPreRead();
     // private System.Void SpineBend()
-    // Offset: 0x1C97C50
+    // Offset: 0x1CB3960
     void SpineBend();
     // private System.Void CCDPass()
-    // Offset: 0x1C97F9C
+    // Offset: 0x1CB3CAC
     void CCDPass();
     // private System.Void Iterate(System.Int32 iteration)
-    // Offset: 0x1C98338
+    // Offset: 0x1CB4048
     void Iterate(int iteration);
     // private System.Void OnPostUpdate()
-    // Offset: 0x1C98DA4
+    // Offset: 0x1CB4AB4
     void OnPostUpdate();
     // private System.Void ChestDirection()
-    // Offset: 0x1C9797C
+    // Offset: 0x1CB368C
     void ChestDirection();
     // private System.Void PostStretching()
-    // Offset: 0x1C98FB4
+    // Offset: 0x1CB4CC4
     void PostStretching();
     // private System.Void LerpSolverPosition(RootMotion.FinalIK.IKEffector effector, UnityEngine.Vector3 position, System.Single weight, UnityEngine.Vector3 offset)
-    // Offset: 0x1C98C60
+    // Offset: 0x1CB4970
     void LerpSolverPosition(RootMotion::FinalIK::IKEffector* effector, UnityEngine::Vector3 position, float weight, UnityEngine::Vector3 offset);
     // private System.Void Solve(ref UnityEngine.Vector3 pos1, ref UnityEngine.Vector3 pos2, System.Single nominalDistance)
-    // Offset: 0x1C98AC4
+    // Offset: 0x1CB47D4
     void Solve(UnityEngine::Vector3& pos1, UnityEngine::Vector3& pos2, float nominalDistance);
     // private System.Void OnDestroy()
-    // Offset: 0x1C99320
+    // Offset: 0x1CB5030
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1C995A0
+    // Offset: 0x1CB52B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -416,5 +416,123 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(FBBIKHeadEffector), 364 + sizeof(int)> __RootMotion_FinalIK_FBBIKHeadEffectorSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
+  // Writing MetadataGetter for method: FBBIKHeadEffector::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::OnStoreDefaultLocalState
+  // Il2CppName: OnStoreDefaultLocalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnStoreDefaultLocalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnStoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::OnFixTransforms
+  // Il2CppName: OnFixTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnFixTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnFixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::OnPreRead
+  // Il2CppName: OnPreRead
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnPreRead)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnPreRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::SpineBend
+  // Il2CppName: SpineBend
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::SpineBend)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "SpineBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::CCDPass
+  // Il2CppName: CCDPass
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::CCDPass)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "CCDPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::Iterate
+  // Il2CppName: Iterate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)(int)>(&FBBIKHeadEffector::Iterate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "Iterate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::OnPostUpdate
+  // Il2CppName: OnPostUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnPostUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnPostUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::ChestDirection
+  // Il2CppName: ChestDirection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::ChestDirection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "ChestDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::PostStretching
+  // Il2CppName: PostStretching
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::PostStretching)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "PostStretching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::LerpSolverPosition
+  // Il2CppName: LerpSolverPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Vector3, float, UnityEngine::Vector3)>(&FBBIKHeadEffector::LerpSolverPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "LerpSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::Solve
+  // Il2CppName: Solve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, float)>(&FBBIKHeadEffector::Solve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FBBIKHeadEffector::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");

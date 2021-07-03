@@ -91,29 +91,29 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MirroredBeatmapObjectManager
     MirroredBeatmapObjectManager(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredCubeNoteController*>* mirroredCubeNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredBombNoteController*>* mirroredBombNotePoolContainer_ = {}, GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MirroredObstacleController*>* mirroredObstaclePoolContainer_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ICubeNoteMirrorable*, GlobalNamespace::MirroredCubeNoteController*>* cubeNoteControllersToMirroredCubeNoteControllers_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::INoteMirrorable*, GlobalNamespace::MirroredBombNoteController*>* bombNoteControllersToMirroredBombNoteControllers_ = {}, System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>* obstacleControllersToMirroredObstacleControllers_ = {}) noexcept : beatmapObjectManager{beatmapObjectManager_}, mirroredCubeNotePoolContainer{mirroredCubeNotePoolContainer_}, mirroredBombNotePoolContainer{mirroredBombNotePoolContainer_}, mirroredObstaclePoolContainer{mirroredObstaclePoolContainer_}, cubeNoteControllersToMirroredCubeNoteControllers{cubeNoteControllersToMirroredCubeNoteControllers_}, bombNoteControllersToMirroredBombNoteControllers{bombNoteControllersToMirroredBombNoteControllers_}, obstacleControllersToMirroredObstacleControllers{obstacleControllersToMirroredObstacleControllers_} {}
     // private System.Void .ctor(BeatmapObjectManager beatmapObjectManager, MirroredCubeNoteController/Pool mirroredCubeNotePool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool)
-    // Offset: 0x104C934
+    // Offset: 0x109101C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredBeatmapObjectManager* New_ctor(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, GlobalNamespace::MirroredCubeNoteController::Pool* mirroredCubeNotePool, GlobalNamespace::MirroredBombNoteController::Pool* mirroredBombNotePool, GlobalNamespace::MirroredObstacleController::Pool* mirroredObstaclePool) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirroredBeatmapObjectManager*, creationType>(beatmapObjectManager, mirroredCubeNotePool, mirroredBombNotePool, mirroredObstaclePool)));
     }
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x104CE18
+    // Offset: 0x1091500
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasDespawned(NoteController noteController)
-    // Offset: 0x104CF40
+    // Offset: 0x1091628
     void HandleNoteWasDespawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleObstacleWasSpawned(ObstacleController obstacleController)
-    // Offset: 0x104D074
+    // Offset: 0x109175C
     void HandleObstacleWasSpawned(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleWasDespawned(ObstacleController obstacleController)
-    // Offset: 0x104D200
+    // Offset: 0x10918E8
     void HandleObstacleWasDespawned(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidHideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x104D2B0
+    // Offset: 0x1091998
     void HandleDidHideAllBeatmapObjects(bool hide);
     // protected override System.Void Finalize()
-    // Offset: 0x104CBFC
+    // Offset: 0x10912E4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -121,5 +121,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MirroredBeatmapObjectManager), 64 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*)> __GlobalNamespace_MirroredBeatmapObjectManagerSizeCheck;
   static_assert(sizeof(MirroredBeatmapObjectManager) == 0x48);
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(GlobalNamespace::BeatmapObjectManager*, GlobalNamespace::MirroredCubeNoteController::Pool*, GlobalNamespace::MirroredBombNoteController::Pool*, GlobalNamespace::MirroredObstacleController::Pool*)>(&MirroredBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MirroredCubeNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MirroredBombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MirroredObstacleController::Pool*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(GlobalNamespace::BeatmapObjectManager*, GlobalNamespace::MirroredCubeNoteController::Pool*, GlobalNamespace::MirroredBombNoteController::Pool*, GlobalNamespace::MirroredObstacleController::Pool*)>(&MirroredBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MirroredCubeNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MirroredBombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MirroredObstacleController::Pool*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::HandleNoteWasSpawned
+  // Il2CppName: HandleNoteWasSpawned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&MirroredBeatmapObjectManager::HandleNoteWasSpawned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::HandleNoteWasDespawned
+  // Il2CppName: HandleNoteWasDespawned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&MirroredBeatmapObjectManager::HandleNoteWasDespawned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), "HandleNoteWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::HandleObstacleWasSpawned
+  // Il2CppName: HandleObstacleWasSpawned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&MirroredBeatmapObjectManager::HandleObstacleWasSpawned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), "HandleObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::HandleObstacleWasDespawned
+  // Il2CppName: HandleObstacleWasDespawned
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&MirroredBeatmapObjectManager::HandleObstacleWasDespawned)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), "HandleObstacleWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects
+  // Il2CppName: HandleDidHideAllBeatmapObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)(bool)>(&MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), "HandleDidHideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MirroredBeatmapObjectManager::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredBeatmapObjectManager::*)()>(&MirroredBeatmapObjectManager::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MirroredBeatmapObjectManager*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBeatmapObjectManager*, "", "MirroredBeatmapObjectManager");

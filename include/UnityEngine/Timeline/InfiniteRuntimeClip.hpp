@@ -44,37 +44,37 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.Int64 kIntervalEnd
     static void _set_kIntervalEnd(int64_t value);
     // public System.Void .ctor(UnityEngine.Playables.Playable playable)
-    // Offset: 0x17C19B4
+    // Offset: 0x17DA6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InfiniteRuntimeClip* New_ctor(UnityEngine::Playables::Playable playable) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::InfiniteRuntimeClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InfiniteRuntimeClip*, creationType>(playable)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17C9E00
+    // Offset: 0x17E2B10
     static void _cctor();
     // public override System.Int64 get_intervalStart()
-    // Offset: 0x17C9C40
+    // Offset: 0x17E2950
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalStart()
     int64_t get_intervalStart();
     // public override System.Int64 get_intervalEnd()
-    // Offset: 0x17C9C48
+    // Offset: 0x17E2958
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Int64 RuntimeElement::get_intervalEnd()
     int64_t get_intervalEnd();
     // public override System.Void set_enable(System.Boolean value)
-    // Offset: 0x17C9CB0
+    // Offset: 0x17E29C0
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::set_enable(System.Boolean value)
     void set_enable(bool value);
     // public override System.Void EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x17C9D2C
+    // Offset: 0x17E2A3C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::EvaluateAt(System.Double localTime, UnityEngine.Playables.FrameData frameData)
     void EvaluateAt(double localTime, UnityEngine::Playables::FrameData frameData);
     // public override System.Void DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
-    // Offset: 0x17C9D8C
+    // Offset: 0x17E2A9C
     // Implemented from: UnityEngine.Timeline.RuntimeElement
     // Base method: System.Void RuntimeElement::DisableAt(System.Double localTime, System.Double rootDuration, UnityEngine.Playables.FrameData frameData)
     void DisableAt(double localTime, double rootDuration, UnityEngine::Playables::FrameData frameData);
@@ -82,5 +82,67 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
   static check_size<sizeof(InfiniteRuntimeClip), 24 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_InfiniteRuntimeClipSizeCheck;
   static_assert(sizeof(InfiniteRuntimeClip) == 0x24);
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InfiniteRuntimeClip::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::get_intervalStart
+  // Il2CppName: get_intervalStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (InfiniteRuntimeClip::*)()>(&InfiniteRuntimeClip::get_intervalStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::get_intervalEnd
+  // Il2CppName: get_intervalEnd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (InfiniteRuntimeClip::*)()>(&InfiniteRuntimeClip::get_intervalEnd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::set_enable
+  // Il2CppName: set_enable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(bool)>(&InfiniteRuntimeClip::set_enable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::EvaluateAt
+  // Il2CppName: EvaluateAt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&InfiniteRuntimeClip::EvaluateAt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
+  // Writing MetadataGetter for method: InfiniteRuntimeClip::DisableAt
+  // Il2CppName: DisableAt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&InfiniteRuntimeClip::DisableAt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");

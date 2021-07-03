@@ -40,10 +40,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MissionCompletionResults
     MissionCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults_ = {}, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults_ = {}) noexcept : levelCompletionResults{levelCompletionResults_}, missionObjectiveResults{missionObjectiveResults_} {}
     // public System.Boolean get_IsMissionComplete()
-    // Offset: 0x104E85C
+    // Offset: 0x1092F44
     bool get_IsMissionComplete();
     // public System.Void .ctor(LevelCompletionResults levelCompletionResults, MissionObjectiveResult[] missionObjectiveResults)
-    // Offset: 0x104E8DC
+    // Offset: 0x1092FC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::Array<GlobalNamespace::MissionObjectiveResult*>* missionObjectiveResults) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionCompletionResults::.ctor");
@@ -53,5 +53,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionCompletionResults), 24 + sizeof(::Array<GlobalNamespace::MissionObjectiveResult*>*)> __GlobalNamespace_MissionCompletionResultsSizeCheck;
   static_assert(sizeof(MissionCompletionResults) == 0x20);
+  // Writing MetadataGetter for method: MissionCompletionResults::get_IsMissionComplete
+  // Il2CppName: get_IsMissionComplete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionCompletionResults::*)()>(&MissionCompletionResults::get_IsMissionComplete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionCompletionResults*), "get_IsMissionComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionCompletionResults::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionCompletionResults::*)(GlobalNamespace::LevelCompletionResults*, ::Array<GlobalNamespace::MissionObjectiveResult*>*)>(&MissionCompletionResults::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionCompletionResults*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::MissionObjectiveResult*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionCompletionResults::*)(GlobalNamespace::LevelCompletionResults*, ::Array<GlobalNamespace::MissionObjectiveResult*>*)>(&MissionCompletionResults::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionCompletionResults*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::MissionObjectiveResult*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionCompletionResults*, "", "MissionCompletionResults");

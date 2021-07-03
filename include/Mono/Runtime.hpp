@@ -22,28 +22,84 @@ namespace Mono {
     // Creating value type constructor for type: Runtime
     Runtime() noexcept {}
     // static private System.Void mono_runtime_install_handlers()
-    // Offset: 0x1A4ADC8
+    // Offset: 0x1A64AD8
     static void mono_runtime_install_handlers();
     // static public System.Void InstallSignalHandlers()
-    // Offset: 0x1A4ADCC
+    // Offset: 0x1A64ADC
     static void InstallSignalHandlers();
     // static private System.Void mono_runtime_cleanup_handlers()
-    // Offset: 0x1A4ADD0
+    // Offset: 0x1A64AE0
     static void mono_runtime_cleanup_handlers();
     // static public System.Void RemoveSignalHandlers()
-    // Offset: 0x1A4AE04
+    // Offset: 0x1A64B14
     static void RemoveSignalHandlers();
     // static public System.String GetDisplayName()
-    // Offset: 0x1A4AE38
+    // Offset: 0x1A64B48
     static ::Il2CppString* GetDisplayName();
     // static private System.String GetNativeStackTrace(System.Exception exception)
-    // Offset: 0x1A4AE3C
+    // Offset: 0x1A64B4C
     static ::Il2CppString* GetNativeStackTrace(System::Exception* exception);
     // static public System.Boolean SetGCAllowSynchronousMajor(System.Boolean flag)
-    // Offset: 0x1A4AE40
+    // Offset: 0x1A64B50
     static bool SetGCAllowSynchronousMajor(bool flag);
   }; // Mono.Runtime
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Runtime::mono_runtime_install_handlers
+  // Il2CppName: mono_runtime_install_handlers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Runtime::mono_runtime_install_handlers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "mono_runtime_install_handlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Runtime::InstallSignalHandlers
+  // Il2CppName: InstallSignalHandlers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Runtime::InstallSignalHandlers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "InstallSignalHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Runtime::mono_runtime_cleanup_handlers
+  // Il2CppName: mono_runtime_cleanup_handlers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Runtime::mono_runtime_cleanup_handlers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "mono_runtime_cleanup_handlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Runtime::RemoveSignalHandlers
+  // Il2CppName: RemoveSignalHandlers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Runtime::RemoveSignalHandlers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "RemoveSignalHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Runtime::GetDisplayName
+  // Il2CppName: GetDisplayName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Runtime::GetDisplayName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Runtime::GetNativeStackTrace
+  // Il2CppName: GetNativeStackTrace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&Runtime::GetNativeStackTrace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "GetNativeStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Runtime::SetGCAllowSynchronousMajor
+  // Il2CppName: SetGCAllowSynchronousMajor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&Runtime::SetGCAllowSynchronousMajor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Runtime*), "SetGCAllowSynchronousMajor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Runtime*, "Mono", "Runtime");

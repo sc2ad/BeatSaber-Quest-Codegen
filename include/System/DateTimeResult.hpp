@@ -135,21 +135,53 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init()
-    // Offset: 0xF03CB8
+    // Offset: 0xF04C70
     void Init();
     // System.Void SetDate(System.Int32 year, System.Int32 month, System.Int32 day)
-    // Offset: 0xF03CD8
+    // Offset: 0xF04C90
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xF03CE4
+    // Offset: 0xF04C9C
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
-    // Offset: 0xF03CF0
+    // Offset: 0xF04CA8
     void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)
   static check_size<sizeof(DateTimeResult), 88 + sizeof(::Il2CppString*)> __System_DateTimeResultSizeCheck;
   static_assert(sizeof(DateTimeResult) == 0x60);
+  // Writing MetadataGetter for method: DateTimeResult::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeResult::*)()>(&DateTimeResult::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeResult::SetDate
+  // Il2CppName: SetDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeResult::*)(int, int, int)>(&DateTimeResult::SetDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeResult), "SetDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeResult::SetFailure
+  // Il2CppName: SetFailure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&DateTimeResult::SetFailure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DateTimeResult::SetFailure
+  // Il2CppName: SetFailure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*)>(&DateTimeResult::SetFailure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");

@@ -39,6 +39,54 @@ namespace GlobalNamespace {
     void set_isInLobby(bool value);
   }; // ILobbyPlayerDataModel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILobbyPlayerDataModel::get_isActive
+  // Il2CppName: get_isActive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ILobbyPlayerDataModel::*)()>(&ILobbyPlayerDataModel::get_isActive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayerDataModel*), "get_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayerDataModel::set_isActive
+  // Il2CppName: set_isActive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayerDataModel::*)(bool)>(&ILobbyPlayerDataModel::set_isActive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayerDataModel*), "set_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayerDataModel::get_isReady
+  // Il2CppName: get_isReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ILobbyPlayerDataModel::*)()>(&ILobbyPlayerDataModel::get_isReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayerDataModel*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayerDataModel::set_isReady
+  // Il2CppName: set_isReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayerDataModel::*)(bool)>(&ILobbyPlayerDataModel::set_isReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayerDataModel*), "set_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayerDataModel::get_isInLobby
+  // Il2CppName: get_isInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ILobbyPlayerDataModel::*)()>(&ILobbyPlayerDataModel::get_isInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayerDataModel*), "get_isInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILobbyPlayerDataModel::set_isInLobby
+  // Il2CppName: set_isInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILobbyPlayerDataModel::*)(bool)>(&ILobbyPlayerDataModel::set_isInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILobbyPlayerDataModel*), "set_isInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyPlayerDataModel*, "", "ILobbyPlayerDataModel");

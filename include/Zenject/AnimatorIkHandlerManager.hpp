@@ -42,13 +42,13 @@ namespace Zenject {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> handlers)
-    // Offset: 0x136D444
+    // Offset: 0x1388154
     void Construct(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>* handlers);
     // public System.Void OnAnimatorIk()
-    // Offset: 0x136D44C
+    // Offset: 0x138815C
     void OnAnimatorIk();
     // public System.Void .ctor()
-    // Offset: 0x136D5AC
+    // Offset: 0x13882BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -64,5 +64,35 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(AnimatorIkHandlerManager), 24 + sizeof(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*)> __Zenject_AnimatorIkHandlerManagerSizeCheck;
   static_assert(sizeof(AnimatorIkHandlerManager) == 0x20);
+  // Writing MetadataGetter for method: AnimatorIkHandlerManager::Construct
+  // Il2CppName: Construct
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorIkHandlerManager::*)(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*)>(&AnimatorIkHandlerManager::Construct)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorIkHandlerManager*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AnimatorIkHandlerManager::OnAnimatorIk
+  // Il2CppName: OnAnimatorIk
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorIkHandlerManager::*)()>(&AnimatorIkHandlerManager::OnAnimatorIk)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorIkHandlerManager*), "OnAnimatorIk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AnimatorIkHandlerManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorIkHandlerManager::*)()>(&AnimatorIkHandlerManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorIkHandlerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatorIkHandlerManager::*)()>(&AnimatorIkHandlerManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AnimatorIkHandlerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");

@@ -153,7 +153,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Creating value type constructor for type: RemoteTestResultData
     RemoteTestResultData(::Il2CppString* testId_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* fullName_ = {}, ::Il2CppString* resultState_ = {}, NUnit::Framework::Interfaces::TestStatus testStatus_ = {}, double duration_ = {}, System::DateTime startTime_ = {}, System::DateTime endTime_ = {}, ::Il2CppString* message_ = {}, ::Il2CppString* stackTrace_ = {}, int assertCount_ = {}, int failCount_ = {}, int passCount_ = {}, int skipCount_ = {}, int inconclusiveCount_ = {}, bool hasChildren_ = {}, ::Il2CppString* output_ = {}, ::Il2CppString* xml_ = {}, ::Array<::Il2CppString*>* childrenIds_ = {}) noexcept : testId{testId_}, name{name_}, fullName{fullName_}, resultState{resultState_}, testStatus{testStatus_}, duration{duration_}, startTime{startTime_}, endTime{endTime_}, message{message_}, stackTrace{stackTrace_}, assertCount{assertCount_}, failCount{failCount_}, passCount{passCount_}, skipCount{skipCount_}, inconclusiveCount{inconclusiveCount_}, hasChildren{hasChildren_}, output{output_}, xml{xml_}, childrenIds{childrenIds_} {}
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x1497E3C
+    // Offset: 0x14B2B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultData* New_ctor(NUnit::Framework::Interfaces::ITestResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");
@@ -163,5 +163,19 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   #pragma pack(pop)
   static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::Array<::Il2CppString*>*)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
   static_assert(sizeof(RemoteTestResultData) == 0x90);
+  // Writing MetadataGetter for method: RemoteTestResultData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultData::*)(NUnit::Framework::Interfaces::ITestResult*)>(&RemoteTestResultData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultData::*)(NUnit::Framework::Interfaces::ITestResult*)>(&RemoteTestResultData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RemoteTestResultData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData");

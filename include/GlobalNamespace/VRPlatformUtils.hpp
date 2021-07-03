@@ -22,10 +22,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: VRPlatformUtils
     VRPlatformUtils() noexcept {}
     // static public XRDeviceModel GetXRDeviceModel()
-    // Offset: 0x2355150
+    // Offset: 0x238DF5C
     static GlobalNamespace::XRDeviceModel GetXRDeviceModel();
   }; // VRPlatformUtils
   #pragma pack(pop)
+  // Writing MetadataGetter for method: VRPlatformUtils::GetXRDeviceModel
+  // Il2CppName: GetXRDeviceModel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (*)()>(&VRPlatformUtils::GetXRDeviceModel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRPlatformUtils*), "GetXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformUtils*, "", "VRPlatformUtils");

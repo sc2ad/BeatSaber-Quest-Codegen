@@ -33,13 +33,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ChildCreditsItem
     ChildCreditsItem(GlobalNamespace::CreditsData::Text* title_ = {}, GlobalNamespace::CreditsData::Text* text_ = {}) noexcept : title{title_}, text{text_} {}
     // public System.Boolean HasTitle()
-    // Offset: 0x1099C5C
+    // Offset: 0x1197DA0
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x1099C6C
+    // Offset: 0x1197DB0
     bool HasText();
     // public System.Void .ctor()
-    // Offset: 0x1099C7C
+    // Offset: 0x1197DC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,5 +51,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::ChildCreditsItem) == 0x20);
+  // Writing MetadataGetter for method: CreditsData::ChildCreditsItem::HasTitle
+  // Il2CppName: HasTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::HasTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreditsData::ChildCreditsItem::HasText
+  // Il2CppName: HasText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::HasText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreditsData::ChildCreditsItem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::ChildCreditsItem::*)()>(&CreditsData::ChildCreditsItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreditsData::ChildCreditsItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");

@@ -33,16 +33,16 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::IConstraint* constraint;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::IConstraint*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE04F50
-    // [DebuggerBrowsableAttribute] Offset: 0xE04F50
+    // [CompilerGeneratedAttribute] Offset: 0xE05F4C
+    // [DebuggerBrowsableAttribute] Offset: 0xE05F4C
     // private System.Object <ActualValue>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppObject* ActualValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE04F8C
-    // [DebuggerBrowsableAttribute] Offset: 0xE04F8C
+    // [CompilerGeneratedAttribute] Offset: 0xE05F88
+    // [DebuggerBrowsableAttribute] Offset: 0xE05F88
     // private NUnit.Framework.Constraints.ConstraintStatus <Status>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -52,46 +52,138 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: ConstraintResult
     ConstraintResult(NUnit::Framework::Constraints::IConstraint* constraint_ = {}, ::Il2CppObject* ActualValue_ = {}, NUnit::Framework::Constraints::ConstraintStatus Status_ = {}) noexcept : constraint{constraint_}, ActualValue{ActualValue_}, Status{Status_} {}
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue)
-    // Offset: 0x170CA3C
+    // Offset: 0x172474C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintResult* New_ctor(NUnit::Framework::Constraints::IConstraint* constraint, ::Il2CppObject* actualValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintResult*, creationType>(constraint, actualValue)));
     }
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue, System.Boolean isSuccess)
-    // Offset: 0x170C25C
+    // Offset: 0x1723F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintResult* New_ctor(NUnit::Framework::Constraints::IConstraint* constraint, ::Il2CppObject* actualValue, bool isSuccess) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintResult*, creationType>(constraint, actualValue, isSuccess)));
     }
     // public System.Object get_ActualValue()
-    // Offset: 0x170CA74
+    // Offset: 0x1724784
     ::Il2CppObject* get_ActualValue();
     // private System.Void set_ActualValue(System.Object value)
-    // Offset: 0x170CA7C
+    // Offset: 0x172478C
     void set_ActualValue(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ConstraintStatus get_Status()
-    // Offset: 0x170CA84
+    // Offset: 0x1724794
     NUnit::Framework::Constraints::ConstraintStatus get_Status();
     // public System.Void set_Status(NUnit.Framework.Constraints.ConstraintStatus value)
-    // Offset: 0x170CA8C
+    // Offset: 0x172479C
     void set_Status(NUnit::Framework::Constraints::ConstraintStatus value);
     // public System.Boolean get_IsSuccess()
-    // Offset: 0x170CA94
+    // Offset: 0x17247A4
     bool get_IsSuccess();
     // public System.String get_Description()
-    // Offset: 0x170CAA4
+    // Offset: 0x17247B4
     ::Il2CppString* get_Description();
     // public System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x170CB54
+    // Offset: 0x1724864
     void WriteMessageTo(NUnit::Framework::Constraints::MessageWriter* writer);
     // public System.Void WriteActualValueTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x170CB80
+    // Offset: 0x1724890
     void WriteActualValueTo(NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.ConstraintResult
   #pragma pack(pop)
   static check_size<sizeof(ConstraintResult), 32 + sizeof(NUnit::Framework::Constraints::ConstraintStatus)> __NUnit_Framework_Constraints_ConstraintResultSizeCheck;
   static_assert(sizeof(ConstraintResult) == 0x24);
+  // Writing MetadataGetter for method: ConstraintResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::IConstraint*, ::Il2CppObject*)>(&ConstraintResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::IConstraint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::IConstraint*, ::Il2CppObject*)>(&ConstraintResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::IConstraint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::IConstraint*, ::Il2CppObject*, bool)>(&ConstraintResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::IConstraint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::IConstraint*, ::Il2CppObject*, bool)>(&ConstraintResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::IConstraint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::get_ActualValue
+  // Il2CppName: get_ActualValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ConstraintResult::*)()>(&ConstraintResult::get_ActualValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "get_ActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::set_ActualValue
+  // Il2CppName: set_ActualValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(::Il2CppObject*)>(&ConstraintResult::set_ActualValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "set_ActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::get_Status
+  // Il2CppName: get_Status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintStatus (ConstraintResult::*)()>(&ConstraintResult::get_Status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::set_Status
+  // Il2CppName: set_Status
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::ConstraintStatus)>(&ConstraintResult::set_Status)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "set_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::get_IsSuccess
+  // Il2CppName: get_IsSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintResult::*)()>(&ConstraintResult::get_IsSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "get_IsSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::get_Description
+  // Il2CppName: get_Description
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConstraintResult::*)()>(&ConstraintResult::get_Description)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::WriteMessageTo
+  // Il2CppName: WriteMessageTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*)>(&ConstraintResult::WriteMessageTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "WriteMessageTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ConstraintResult::WriteActualValueTo
+  // Il2CppName: WriteActualValueTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*)>(&ConstraintResult::WriteActualValueTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ConstraintResult*), "WriteActualValueTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::MessageWriter*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.Framework.Constraints", "ConstraintResult");

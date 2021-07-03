@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: numberOfParticles and: nameText
     char __padding9[0x4] = {};
-    // [SpaceAttribute] Offset: 0xE1BA78
+    // [SpaceAttribute] Offset: 0xE1BA54
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x80
@@ -136,22 +136,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void SetMissionObjectiveChecker(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x105675C
+    // Offset: 0x109AE44
     void SetMissionObjectiveChecker(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveStatusDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1056B08
+    // Offset: 0x109B1F0
     void HandleMissionObjectiveStatusDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void HandleMissionObjectiveCheckedValueDidChange(MissionObjectiveChecker missionObjectiveChecker)
-    // Offset: 0x1056B0C
+    // Offset: 0x109B1F4
     void HandleMissionObjectiveCheckedValueDidChange(GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
     // private System.Void RefreshIcon()
-    // Offset: 0x1056998
+    // Offset: 0x109B080
     void RefreshIcon();
     // private System.Void RefreshValue()
-    // Offset: 0x1056AAC
+    // Offset: 0x109B194
     void RefreshValue();
     // public System.Void .ctor()
-    // Offset: 0x1056B10
+    // Offset: 0x109B1F8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -167,5 +167,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectiveGameUIView), 152 + sizeof(GlobalNamespace::MissionObjectiveChecker*)> __GlobalNamespace_MissionObjectiveGameUIViewSizeCheck;
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
+  // Writing MetadataGetter for method: MissionObjectiveGameUIView::SetMissionObjectiveChecker
+  // Il2CppName: SetMissionObjectiveChecker
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::SetMissionObjectiveChecker)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "SetMissionObjectiveChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange
+  // Il2CppName: HandleMissionObjectiveStatusDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "HandleMissionObjectiveStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange
+  // Il2CppName: HandleMissionObjectiveCheckedValueDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "HandleMissionObjectiveCheckedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjectiveChecker*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectiveGameUIView::RefreshIcon
+  // Il2CppName: RefreshIcon
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::RefreshIcon)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "RefreshIcon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectiveGameUIView::RefreshValue
+  // Il2CppName: RefreshValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::RefreshValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), "RefreshValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectiveGameUIView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveGameUIView::*)()>(&MissionObjectiveGameUIView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectiveGameUIView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");

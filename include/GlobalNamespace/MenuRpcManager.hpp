@@ -314,196 +314,196 @@ namespace GlobalNamespace {
     GlobalNamespace::RpcHandler_1<GlobalNamespace::MenuRpcManager::RpcType>* rpcHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RpcHandler_1<GlobalNamespace::MenuRpcManager::RpcType>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFD9C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0CD0
     // private System.Action`2<System.String,System.String> getIsEntitledToLevelEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_2<::Il2CppString*, ::Il2CppString*>* getIsEntitledToLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFDAC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0CE0
     // private System.Action`3<System.String,System.String,EntitlementsStatus> setIsEntitledToLevelEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* setIsEntitledToLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFDBC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0CF0
     // private System.Action`1<System.String> levelEntitlementStatusesInvalidatedEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action_1<::Il2CppString*>* levelEntitlementStatusesInvalidatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFDCC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D00
     // private System.Action`2<System.String,System.String> selectedLevelPackEvent
     // Size: 0x8
     // Offset: 0x38
     System::Action_2<::Il2CppString*, ::Il2CppString*>* selectedLevelPackEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFDDC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D10
     // private System.Action`2<System.String,BeatmapIdentifierNetSerializable> selectedBeatmapEvent
     // Size: 0x8
     // Offset: 0x40
     System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* selectedBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFDEC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D20
     // private System.Action`1<System.String> clearSelectedBeatmapEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_1<::Il2CppString*>* clearSelectedBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFDFC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D30
     // private System.Action`1<System.String> getSelectedBeatmapEvent
     // Size: 0x8
     // Offset: 0x50
     System::Action_1<::Il2CppString*>* getSelectedBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE0C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D40
     // private System.Action`2<System.String,GameplayModifiers> selectedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x58
     System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* selectedGameplayModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE1C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D50
     // private System.Action`1<System.String> clearSelectedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x60
     System::Action_1<::Il2CppString*>* clearSelectedGameplayModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE2C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D60
     // private System.Action`1<System.String> getSelectedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x68
     System::Action_1<::Il2CppString*>* getSelectedGameplayModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE3C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D70
     // private System.Action`2<System.String,System.String> levelLoadErrorEvent
     // Size: 0x8
     // Offset: 0x70
     System::Action_2<::Il2CppString*, ::Il2CppString*>* levelLoadErrorEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE4C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D80
     // private System.Action`2<System.String,System.String> levelLoadSuccessEvent
     // Size: 0x8
     // Offset: 0x78
     System::Action_2<::Il2CppString*, ::Il2CppString*>* levelLoadSuccessEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE5C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0D90
     // private System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> startedLevelEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* startedLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE6C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0DA0
     // private System.Action`1<System.String> getStartedLevelEvent
     // Size: 0x8
     // Offset: 0x88
     System::Action_1<::Il2CppString*>* getStartedLevelEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE7C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0DB0
     // private System.Action`1<System.String> getMultiplayerGameStateEvent
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<::Il2CppString*>* getMultiplayerGameStateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE8C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0DC0
     // private System.Action`2<System.String,MultiplayerGameState> setMultiplayerGameStateEvent
     // Size: 0x8
     // Offset: 0x98
     System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* setMultiplayerGameStateEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFE9C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0DD0
     // private System.Action`1<System.String> cancelCountdownEvent
     // Size: 0x8
     // Offset: 0xA0
     System::Action_1<::Il2CppString*>* cancelCountdownEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFEAC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0DE0
     // private System.Action`2<System.String,System.Single> setCountdownEndTimeEvent
     // Size: 0x8
     // Offset: 0xA8
     System::Action_2<::Il2CppString*, float>* setCountdownEndTimeEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFEBC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0DF0
     // private System.Action`1<System.String> getCountdownEndTimeEvent
     // Size: 0x8
     // Offset: 0xB0
     System::Action_1<::Il2CppString*>* getCountdownEndTimeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFECC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E00
     // private System.Action`1<System.String> cancelledLevelStartEvent
     // Size: 0x8
     // Offset: 0xB8
     System::Action_1<::Il2CppString*>* cancelledLevelStartEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFEDC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E10
     // private System.Action`1<System.String> getIsReadyEvent
     // Size: 0x8
     // Offset: 0xC0
     System::Action_1<::Il2CppString*>* getIsReadyEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFEEC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E20
     // private System.Action`2<System.String,System.Boolean> setIsReadyEvent
     // Size: 0x8
     // Offset: 0xC8
     System::Action_2<::Il2CppString*, bool>* setIsReadyEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, bool>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFEFC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E30
     // private System.Action`2<System.String,System.Single> setStartGameTimeEvent
     // Size: 0x8
     // Offset: 0xD0
     System::Action_2<::Il2CppString*, float>* setStartGameTimeEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFF0C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E40
     // private System.Action`1<System.String> cancelStartGameTimeEvent
     // Size: 0x8
     // Offset: 0xD8
     System::Action_1<::Il2CppString*>* cancelStartGameTimeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFF1C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E50
     // private System.Action`1<System.String> getIsInLobbyEvent
     // Size: 0x8
     // Offset: 0xE0
     System::Action_1<::Il2CppString*>* getIsInLobbyEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFF2C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E60
     // private System.Action`2<System.String,System.Boolean> setIsInLobbyEvent
     // Size: 0x8
     // Offset: 0xE8
     System::Action_2<::Il2CppString*, bool>* setIsInLobbyEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<::Il2CppString*, bool>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFF3C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E70
     // private System.Action`1<System.String> getOwnedSongPacksEvent
     // Size: 0x8
     // Offset: 0xF0
     System::Action_1<::Il2CppString*>* getOwnedSongPacksEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFF4C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0E80
     // private System.Action`2<System.String,SongPackMask> setOwnedSongPacksEvent
     // Size: 0x8
     // Offset: 0xF8
@@ -523,373 +523,1339 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMenuState
     static void _set_kMenuState(::Il2CppString* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
-    // Offset: 0x14E1A1C
+    // Offset: 0x14FC72C
     GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
     // public System.Boolean get_enabled()
-    // Offset: 0x14E1A24
+    // Offset: 0x14FC734
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x14E1AE8
+    // Offset: 0x14FC7F8
     void set_enabled(bool value);
     // public System.Boolean get_enabledForAllPlayers()
-    // Offset: 0x14E1BBC
+    // Offset: 0x14FC8CC
     bool get_enabledForAllPlayers();
     // public System.Single get_syncTime()
-    // Offset: 0x14E1DA8
+    // Offset: 0x14FCAB8
     float get_syncTime();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x14E1E5C
+    // Offset: 0x14FCB6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuRpcManager* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuRpcManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuRpcManager*, creationType>(multiplayerSessionManager)));
     }
     // public System.Void Dispose()
-    // Offset: 0x14E278C
+    // Offset: 0x14FD49C
     void Dispose();
     // public System.Boolean EnabledForPlayer(IConnectedPlayer player)
-    // Offset: 0x14E27F0
+    // Offset: 0x14FD500
     bool EnabledForPlayer(GlobalNamespace::IConnectedPlayer* player);
     // public System.Void add_getIsEntitledToLevelEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E28B0
+    // Offset: 0x14FD5C0
     void add_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void remove_getIsEntitledToLevelEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E2954
+    // Offset: 0x14FD664
     void remove_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void GetIsEntitledToLevel(System.String levelId)
-    // Offset: 0x14E29F8
+    // Offset: 0x14FD708
     void GetIsEntitledToLevel(::Il2CppString* levelId);
     // private System.Void InvokeGetIsEntitledToLevel(System.String userId, System.String levelId)
-    // Offset: 0x14E2A60
+    // Offset: 0x14FD770
     void InvokeGetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId);
     // public System.Void add_setIsEntitledToLevelEvent(System.Action`3<System.String,System.String,EntitlementsStatus> value)
-    // Offset: 0x14E2ADC
+    // Offset: 0x14FD7EC
     void add_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
     // public System.Void remove_setIsEntitledToLevelEvent(System.Action`3<System.String,System.String,EntitlementsStatus> value)
-    // Offset: 0x14E2B80
+    // Offset: 0x14FD890
     void remove_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
     // public System.Void SetIsEntitledToLevel(System.String levelId, EntitlementsStatus entitlementStatus)
-    // Offset: 0x14E2C24
+    // Offset: 0x14FD934
     void SetIsEntitledToLevel(::Il2CppString* levelId, GlobalNamespace::EntitlementsStatus entitlementStatus);
     // private System.Void InvokeSetIsEntitledToLevel(System.String userId, System.String levelId, System.Int32 entitlementStatus)
-    // Offset: 0x14E2C94
+    // Offset: 0x14FD9A4
     void InvokeSetIsEntitledToLevel(::Il2CppString* userId, ::Il2CppString* levelId, int entitlementStatus);
     // public System.Void add_levelEntitlementStatusesInvalidatedEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E2D24
+    // Offset: 0x14FDA34
     void add_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_levelEntitlementStatusesInvalidatedEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E2DC8
+    // Offset: 0x14FDAD8
     void remove_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void InvalidateLevelEntitlementStatuses()
-    // Offset: 0x14E2E6C
+    // Offset: 0x14FDB7C
     void InvalidateLevelEntitlementStatuses();
     // public System.Void InvokeLevelEntitlementStatusesInvalidated(System.String userId)
-    // Offset: 0x14E2EC4
+    // Offset: 0x14FDBD4
     void InvokeLevelEntitlementStatusesInvalidated(::Il2CppString* userId);
     // public System.Void add_selectedLevelPackEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E2F38
+    // Offset: 0x14FDC48
     void add_selectedLevelPackEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void remove_selectedLevelPackEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E2FDC
+    // Offset: 0x14FDCEC
     void remove_selectedLevelPackEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void SelectLevelPack(System.String levelPackId)
-    // Offset: 0x14E3080
+    // Offset: 0x14FDD90
     void SelectLevelPack(::Il2CppString* levelPackId);
     // private System.Void InvokeOnSelectedLevelPackEvent(System.String userId, System.String levelPackId)
-    // Offset: 0x14E30E8
+    // Offset: 0x14FDDF8
     void InvokeOnSelectedLevelPackEvent(::Il2CppString* userId, ::Il2CppString* levelPackId);
     // public System.Void add_selectedBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
-    // Offset: 0x14E3164
+    // Offset: 0x14FDE74
     void add_selectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void remove_selectedBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
-    // Offset: 0x14E3208
+    // Offset: 0x14FDF18
     void remove_selectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void SelectBeatmap(BeatmapIdentifierNetSerializable identifier)
-    // Offset: 0x14E32AC
+    // Offset: 0x14FDFBC
     void SelectBeatmap(GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
     // private System.Void InvokeSelectedBeatmap(System.String userId, BeatmapIdentifierNetSerializable identifier)
-    // Offset: 0x14E3314
+    // Offset: 0x14FE024
     void InvokeSelectedBeatmap(::Il2CppString* userId, GlobalNamespace::BeatmapIdentifierNetSerializable* identifier);
     // public System.Void add_clearSelectedBeatmapEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E3390
+    // Offset: 0x14FE0A0
     void add_clearSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_clearSelectedBeatmapEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E3434
+    // Offset: 0x14FE144
     void remove_clearSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void ClearSelectedBeatmap()
-    // Offset: 0x14E34D8
+    // Offset: 0x14FE1E8
     void ClearSelectedBeatmap();
     // private System.Void InvokeClearSelectedBeatmap(System.String userId)
-    // Offset: 0x14E3530
+    // Offset: 0x14FE240
     void InvokeClearSelectedBeatmap(::Il2CppString* userId);
     // public System.Void add_getSelectedBeatmapEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E35A4
+    // Offset: 0x14FE2B4
     void add_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getSelectedBeatmapEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E3648
+    // Offset: 0x14FE358
     void remove_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetSelectedBeatmap()
-    // Offset: 0x14E36EC
+    // Offset: 0x14FE3FC
     void GetSelectedBeatmap();
     // private System.Void InvokeGetSelectedBeatmap(System.String userId)
-    // Offset: 0x14E3744
+    // Offset: 0x14FE454
     void InvokeGetSelectedBeatmap(::Il2CppString* userId);
     // public System.Void add_selectedGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
-    // Offset: 0x14E37B8
+    // Offset: 0x14FE4C8
     void add_selectedGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_selectedGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
-    // Offset: 0x14E385C
+    // Offset: 0x14FE56C
     void remove_selectedGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void SelectGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14E3900
+    // Offset: 0x14FE610
     void SelectGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // private System.Void InvokeOnSelectedGameplayModifiersEvent(System.String userId, GameplayModifiers gameplayModifiers)
-    // Offset: 0x14E3968
+    // Offset: 0x14FE678
     void InvokeOnSelectedGameplayModifiersEvent(::Il2CppString* userId, GlobalNamespace::GameplayModifiers* gameplayModifiers);
     // public System.Void add_clearSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E39E4
+    // Offset: 0x14FE6F4
     void add_clearSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_clearSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E3A88
+    // Offset: 0x14FE798
     void remove_clearSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void ClearSelectedGameplayModifiers()
-    // Offset: 0x14E3B2C
+    // Offset: 0x14FE83C
     void ClearSelectedGameplayModifiers();
     // private System.Void InvokeClearSelectedGameplayModifiers(System.String userId)
-    // Offset: 0x14E3B84
+    // Offset: 0x14FE894
     void InvokeClearSelectedGameplayModifiers(::Il2CppString* userId);
     // public System.Void add_getSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E3BF8
+    // Offset: 0x14FE908
     void add_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E3C9C
+    // Offset: 0x14FE9AC
     void remove_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetSelectedGameplayModifiers()
-    // Offset: 0x14E3D40
+    // Offset: 0x14FEA50
     void GetSelectedGameplayModifiers();
     // private System.Void InvokeGetSelectedGameplayModifiers(System.String userId)
-    // Offset: 0x14E3D98
+    // Offset: 0x14FEAA8
     void InvokeGetSelectedGameplayModifiers(::Il2CppString* userId);
     // public System.Void add_levelLoadErrorEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E3E0C
+    // Offset: 0x14FEB1C
     void add_levelLoadErrorEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void remove_levelLoadErrorEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E3EB0
+    // Offset: 0x14FEBC0
     void remove_levelLoadErrorEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void LevelLoadError(System.String levelId)
-    // Offset: 0x14E3F54
+    // Offset: 0x14FEC64
     void LevelLoadError(::Il2CppString* levelId);
     // private System.Void InvokeLevelLoadError(System.String userId, System.String levelId)
-    // Offset: 0x14E3FBC
+    // Offset: 0x14FECCC
     void InvokeLevelLoadError(::Il2CppString* userId, ::Il2CppString* levelId);
     // public System.Void add_levelLoadSuccessEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E4038
+    // Offset: 0x14FED48
     void add_levelLoadSuccessEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void remove_levelLoadSuccessEvent(System.Action`2<System.String,System.String> value)
-    // Offset: 0x14E40DC
+    // Offset: 0x14FEDEC
     void remove_levelLoadSuccessEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
     // public System.Void LevelLoadSuccess(System.String levelId)
-    // Offset: 0x14E4180
+    // Offset: 0x14FEE90
     void LevelLoadSuccess(::Il2CppString* levelId);
     // private System.Void InvokeLevelLoadSuccess(System.String userId, System.String levelId)
-    // Offset: 0x14E41E8
+    // Offset: 0x14FEEF8
     void InvokeLevelLoadSuccess(::Il2CppString* userId, ::Il2CppString* levelId);
     // public System.Void add_startedLevelEvent(System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> value)
-    // Offset: 0x14E4264
+    // Offset: 0x14FEF74
     void add_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
     // public System.Void remove_startedLevelEvent(System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> value)
-    // Offset: 0x14E4308
+    // Offset: 0x14FF018
     void remove_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
     // public System.Void StartLevel(BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single startTime)
-    // Offset: 0x14E43AC
+    // Offset: 0x14FF0BC
     void StartLevel(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
     // private System.Void InvokeStartLevel(System.String userId, BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single startTime)
-    // Offset: 0x14E442C
+    // Offset: 0x14FF13C
     void InvokeStartLevel(::Il2CppString* userId, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
     // public System.Void add_getStartedLevelEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E44D0
+    // Offset: 0x14FF1E0
     void add_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getStartedLevelEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E4574
+    // Offset: 0x14FF284
     void remove_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetStartedLevel()
-    // Offset: 0x14E4618
+    // Offset: 0x14FF328
     void GetStartedLevel();
     // private System.Void InvokeGetStartedLevel(System.String userId)
-    // Offset: 0x14E4670
+    // Offset: 0x14FF380
     void InvokeGetStartedLevel(::Il2CppString* userId);
     // public System.Void add_getMultiplayerGameStateEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E46E4
+    // Offset: 0x14FF3F4
     void add_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getMultiplayerGameStateEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E4788
+    // Offset: 0x14FF498
     void remove_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetMultiplayerGameState()
-    // Offset: 0x14E482C
+    // Offset: 0x14FF53C
     void GetMultiplayerGameState();
     // private System.Void InvokeGetMultiplayerGameState(System.String userId)
-    // Offset: 0x14E4884
+    // Offset: 0x14FF594
     void InvokeGetMultiplayerGameState(::Il2CppString* userId);
     // public System.Void add_setMultiplayerGameStateEvent(System.Action`2<System.String,MultiplayerGameState> value)
-    // Offset: 0x14E48F8
+    // Offset: 0x14FF608
     void add_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_setMultiplayerGameStateEvent(System.Action`2<System.String,MultiplayerGameState> value)
-    // Offset: 0x14E499C
+    // Offset: 0x14FF6AC
     void remove_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void SetMultiplayerGameState(MultiplayerGameState lobbyState)
-    // Offset: 0x14E4A40
+    // Offset: 0x14FF750
     void SetMultiplayerGameState(GlobalNamespace::MultiplayerGameState lobbyState);
     // private System.Void InvokeSetMultiplayerGameState(System.String userId, MultiplayerGameState lobbyState)
-    // Offset: 0x14E4AA8
+    // Offset: 0x14FF7B8
     void InvokeSetMultiplayerGameState(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState lobbyState);
     // public System.Void add_cancelCountdownEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E4B24
+    // Offset: 0x14FF834
     void add_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_cancelCountdownEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E4BC8
+    // Offset: 0x14FF8D8
     void remove_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void CancelCountdown()
-    // Offset: 0x14E4C6C
+    // Offset: 0x14FF97C
     void CancelCountdown();
     // private System.Void InvokeCancelCountdown(System.String userId)
-    // Offset: 0x14E4CC4
+    // Offset: 0x14FF9D4
     void InvokeCancelCountdown(::Il2CppString* userId);
     // public System.Void add_setCountdownEndTimeEvent(System.Action`2<System.String,System.Single> value)
-    // Offset: 0x14E4D38
+    // Offset: 0x14FFA48
     void add_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void remove_setCountdownEndTimeEvent(System.Action`2<System.String,System.Single> value)
-    // Offset: 0x14E4DDC
+    // Offset: 0x14FFAEC
     void remove_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void SetCountdownEndTime(System.Single newTime)
-    // Offset: 0x14E4E80
+    // Offset: 0x14FFB90
     void SetCountdownEndTime(float newTime);
     // private System.Void InvokeSetCountdownEndTime(System.String userId, System.Single newTime)
-    // Offset: 0x14E4EE8
+    // Offset: 0x14FFBF8
     void InvokeSetCountdownEndTime(::Il2CppString* userId, float newTime);
     // public System.Void add_getCountdownEndTimeEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E4F70
+    // Offset: 0x14FFC80
     void add_getCountdownEndTimeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getCountdownEndTimeEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5014
+    // Offset: 0x14FFD24
     void remove_getCountdownEndTimeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetCountdownEndTime()
-    // Offset: 0x14E50B8
+    // Offset: 0x14FFDC8
     void GetCountdownEndTime();
     // private System.Void InvokeGetCountdownEndTime(System.String userId)
-    // Offset: 0x14E5110
+    // Offset: 0x14FFE20
     void InvokeGetCountdownEndTime(::Il2CppString* userId);
     // public System.Void add_cancelledLevelStartEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5184
+    // Offset: 0x14FFE94
     void add_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_cancelledLevelStartEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5228
+    // Offset: 0x14FFF38
     void remove_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void CancelLevelStart()
-    // Offset: 0x14E52CC
+    // Offset: 0x14FFFDC
     void CancelLevelStart();
     // private System.Void InvokeCancelLevelStart(System.String userId)
-    // Offset: 0x14E5324
+    // Offset: 0x1500034
     void InvokeCancelLevelStart(::Il2CppString* userId);
     // public System.Void add_getIsReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5398
+    // Offset: 0x15000A8
     void add_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getIsReadyEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E543C
+    // Offset: 0x150014C
     void remove_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetIsReady()
-    // Offset: 0x14E54E0
+    // Offset: 0x15001F0
     void GetIsReady();
     // private System.Void InvokeGetIsReady(System.String userId)
-    // Offset: 0x14E5538
+    // Offset: 0x1500248
     void InvokeGetIsReady(::Il2CppString* userId);
     // public System.Void add_setIsReadyEvent(System.Action`2<System.String,System.Boolean> value)
-    // Offset: 0x14E55AC
+    // Offset: 0x15002BC
     void add_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void remove_setIsReadyEvent(System.Action`2<System.String,System.Boolean> value)
-    // Offset: 0x14E5650
+    // Offset: 0x1500360
     void remove_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void SetIsReady(System.Boolean isReady)
-    // Offset: 0x14E56F4
+    // Offset: 0x1500404
     void SetIsReady(bool isReady);
     // private System.Void InvokeSetIsReady(System.String userId, System.Boolean isReady)
-    // Offset: 0x14E575C
+    // Offset: 0x150046C
     void InvokeSetIsReady(::Il2CppString* userId, bool isReady);
     // public System.Void add_setStartGameTimeEvent(System.Action`2<System.String,System.Single> value)
-    // Offset: 0x14E57D8
+    // Offset: 0x15004E8
     void add_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void remove_setStartGameTimeEvent(System.Action`2<System.String,System.Single> value)
-    // Offset: 0x14E587C
+    // Offset: 0x150058C
     void remove_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
     // public System.Void SetStartGameTime(System.Single newTime)
-    // Offset: 0x14E5920
+    // Offset: 0x1500630
     void SetStartGameTime(float newTime);
     // private System.Void InvokeSetStartGameCountdown(System.String userId, System.Single newTime)
-    // Offset: 0x14E5988
+    // Offset: 0x1500698
     void InvokeSetStartGameCountdown(::Il2CppString* userId, float newTime);
     // public System.Void add_cancelStartGameTimeEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5A10
+    // Offset: 0x1500720
     void add_cancelStartGameTimeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_cancelStartGameTimeEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5AB4
+    // Offset: 0x15007C4
     void remove_cancelStartGameTimeEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void CancelStartGameTime()
-    // Offset: 0x14E5B58
+    // Offset: 0x1500868
     void CancelStartGameTime();
     // private System.Void InvokeCancelStartGameCountdown(System.String userId)
-    // Offset: 0x14E5BB0
+    // Offset: 0x15008C0
     void InvokeCancelStartGameCountdown(::Il2CppString* userId);
     // public System.Void add_getIsInLobbyEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5C24
+    // Offset: 0x1500934
     void add_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getIsInLobbyEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E5CC8
+    // Offset: 0x15009D8
     void remove_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetIsInLobby()
-    // Offset: 0x14E5D6C
+    // Offset: 0x1500A7C
     void GetIsInLobby();
     // private System.Void InvokeGetIsInLobby(System.String userId)
-    // Offset: 0x14E5DC4
+    // Offset: 0x1500AD4
     void InvokeGetIsInLobby(::Il2CppString* userId);
     // public System.Void add_setIsInLobbyEvent(System.Action`2<System.String,System.Boolean> value)
-    // Offset: 0x14E5E38
+    // Offset: 0x1500B48
     void add_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void remove_setIsInLobbyEvent(System.Action`2<System.String,System.Boolean> value)
-    // Offset: 0x14E5EDC
+    // Offset: 0x1500BEC
     void remove_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
     // public System.Void SetIsInLobby(System.Boolean isBack)
-    // Offset: 0x14E5F80
+    // Offset: 0x1500C90
     void SetIsInLobby(bool isBack);
     // private System.Void InvokeSetIsInLobby(System.String userId, System.Boolean isBack)
-    // Offset: 0x14E5FE8
+    // Offset: 0x1500CF8
     void InvokeSetIsInLobby(::Il2CppString* userId, bool isBack);
     // public System.Void add_getOwnedSongPacksEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E6064
+    // Offset: 0x1500D74
     void add_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_getOwnedSongPacksEvent(System.Action`1<System.String> value)
-    // Offset: 0x14E6108
+    // Offset: 0x1500E18
     void remove_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void GetOwnedSongPacks()
-    // Offset: 0x14E61AC
+    // Offset: 0x1500EBC
     void GetOwnedSongPacks();
     // private System.Void InvokeGetOwnedSongPacks(System.String userId)
-    // Offset: 0x14E6204
+    // Offset: 0x1500F14
     void InvokeGetOwnedSongPacks(::Il2CppString* userId);
     // public System.Void add_setOwnedSongPacksEvent(System.Action`2<System.String,SongPackMask> value)
-    // Offset: 0x14E6278
+    // Offset: 0x1500F88
     void add_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
     // public System.Void remove_setOwnedSongPacksEvent(System.Action`2<System.String,SongPackMask> value)
-    // Offset: 0x14E631C
+    // Offset: 0x150102C
     void remove_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
     // public System.Void SetOwnedSongPacks(SongPackMask songPackMask)
-    // Offset: 0x14E63C0
+    // Offset: 0x15010D0
     void SetOwnedSongPacks(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void InvokeSetOwnedSongPacks(System.String userId, SongPackMask songPackMask)
-    // Offset: 0x14E6430
+    // Offset: 0x1501140
     void InvokeSetOwnedSongPacks(::Il2CppString* userId, GlobalNamespace::SongPackMask songPackMask);
   }; // MenuRpcManager
   #pragma pack(pop)
   static check_size<sizeof(MenuRpcManager), 248 + sizeof(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)> __GlobalNamespace_MenuRpcManagerSizeCheck;
   static_assert(sizeof(MenuRpcManager) == 0x100);
+  // Writing MetadataGetter for method: MenuRpcManager::get_multiplayerSessionManager
+  // Il2CppName: get_multiplayerSessionManager
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerSessionManager* (MenuRpcManager::*)()>(&MenuRpcManager::get_multiplayerSessionManager)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "get_multiplayerSessionManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::get_enabled
+  // Il2CppName: get_enabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuRpcManager::*)()>(&MenuRpcManager::get_enabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::set_enabled
+  // Il2CppName: set_enabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(bool)>(&MenuRpcManager::set_enabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::get_enabledForAllPlayers
+  // Il2CppName: get_enabledForAllPlayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuRpcManager::*)()>(&MenuRpcManager::get_enabledForAllPlayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "get_enabledForAllPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::get_syncTime
+  // Il2CppName: get_syncTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MenuRpcManager::*)()>(&MenuRpcManager::get_syncTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "get_syncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::IMultiplayerSessionManager*)>(&MenuRpcManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::IMultiplayerSessionManager*)>(&MenuRpcManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::EnabledForPlayer
+  // Il2CppName: EnabledForPlayer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MenuRpcManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MenuRpcManager::EnabledForPlayer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "EnabledForPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getIsEntitledToLevelEvent
+  // Il2CppName: add_getIsEntitledToLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::add_getIsEntitledToLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getIsEntitledToLevelEvent
+  // Il2CppName: remove_getIsEntitledToLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::remove_getIsEntitledToLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetIsEntitledToLevel
+  // Il2CppName: GetIsEntitledToLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::GetIsEntitledToLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetIsEntitledToLevel
+  // Il2CppName: InvokeGetIsEntitledToLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&MenuRpcManager::InvokeGetIsEntitledToLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setIsEntitledToLevelEvent
+  // Il2CppName: add_setIsEntitledToLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*)>(&MenuRpcManager::add_setIsEntitledToLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setIsEntitledToLevelEvent
+  // Il2CppName: remove_setIsEntitledToLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*)>(&MenuRpcManager::remove_setIsEntitledToLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetIsEntitledToLevel
+  // Il2CppName: SetIsEntitledToLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::EntitlementsStatus)>(&MenuRpcManager::SetIsEntitledToLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EntitlementsStatus>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetIsEntitledToLevel
+  // Il2CppName: InvokeSetIsEntitledToLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*, int)>(&MenuRpcManager::InvokeSetIsEntitledToLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent
+  // Il2CppName: add_levelEntitlementStatusesInvalidatedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_levelEntitlementStatusesInvalidatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent
+  // Il2CppName: remove_levelEntitlementStatusesInvalidatedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_levelEntitlementStatusesInvalidatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvalidateLevelEntitlementStatuses
+  // Il2CppName: InvalidateLevelEntitlementStatuses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::InvalidateLevelEntitlementStatuses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvalidateLevelEntitlementStatuses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeLevelEntitlementStatusesInvalidated
+  // Il2CppName: InvokeLevelEntitlementStatusesInvalidated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeLevelEntitlementStatusesInvalidated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeLevelEntitlementStatusesInvalidated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_selectedLevelPackEvent
+  // Il2CppName: add_selectedLevelPackEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::add_selectedLevelPackEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_selectedLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_selectedLevelPackEvent
+  // Il2CppName: remove_selectedLevelPackEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::remove_selectedLevelPackEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_selectedLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SelectLevelPack
+  // Il2CppName: SelectLevelPack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::SelectLevelPack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SelectLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeOnSelectedLevelPackEvent
+  // Il2CppName: InvokeOnSelectedLevelPackEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&MenuRpcManager::InvokeOnSelectedLevelPackEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeOnSelectedLevelPackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_selectedBeatmapEvent
+  // Il2CppName: add_selectedBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&MenuRpcManager::add_selectedBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_selectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_selectedBeatmapEvent
+  // Il2CppName: remove_selectedBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&MenuRpcManager::remove_selectedBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_selectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SelectBeatmap
+  // Il2CppName: SelectBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&MenuRpcManager::SelectBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SelectBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSelectedBeatmap
+  // Il2CppName: InvokeSelectedBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&MenuRpcManager::InvokeSelectedBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_clearSelectedBeatmapEvent
+  // Il2CppName: add_clearSelectedBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_clearSelectedBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_clearSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_clearSelectedBeatmapEvent
+  // Il2CppName: remove_clearSelectedBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_clearSelectedBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_clearSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::ClearSelectedBeatmap
+  // Il2CppName: ClearSelectedBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::ClearSelectedBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "ClearSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeClearSelectedBeatmap
+  // Il2CppName: InvokeClearSelectedBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeClearSelectedBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeClearSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getSelectedBeatmapEvent
+  // Il2CppName: add_getSelectedBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getSelectedBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getSelectedBeatmapEvent
+  // Il2CppName: remove_getSelectedBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getSelectedBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetSelectedBeatmap
+  // Il2CppName: GetSelectedBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetSelectedBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetSelectedBeatmap
+  // Il2CppName: InvokeGetSelectedBeatmap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetSelectedBeatmap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetSelectedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_selectedGameplayModifiersEvent
+  // Il2CppName: add_selectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&MenuRpcManager::add_selectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_selectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_selectedGameplayModifiersEvent
+  // Il2CppName: remove_selectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&MenuRpcManager::remove_selectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_selectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SelectGameplayModifiers
+  // Il2CppName: SelectGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::GameplayModifiers*)>(&MenuRpcManager::SelectGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SelectGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeOnSelectedGameplayModifiersEvent
+  // Il2CppName: InvokeOnSelectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::GameplayModifiers*)>(&MenuRpcManager::InvokeOnSelectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeOnSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_clearSelectedGameplayModifiersEvent
+  // Il2CppName: add_clearSelectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_clearSelectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_clearSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_clearSelectedGameplayModifiersEvent
+  // Il2CppName: remove_clearSelectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_clearSelectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_clearSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::ClearSelectedGameplayModifiers
+  // Il2CppName: ClearSelectedGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::ClearSelectedGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "ClearSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeClearSelectedGameplayModifiers
+  // Il2CppName: InvokeClearSelectedGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeClearSelectedGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeClearSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getSelectedGameplayModifiersEvent
+  // Il2CppName: add_getSelectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getSelectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getSelectedGameplayModifiersEvent
+  // Il2CppName: remove_getSelectedGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getSelectedGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetSelectedGameplayModifiers
+  // Il2CppName: GetSelectedGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetSelectedGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetSelectedGameplayModifiers
+  // Il2CppName: InvokeGetSelectedGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetSelectedGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetSelectedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_levelLoadErrorEvent
+  // Il2CppName: add_levelLoadErrorEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::add_levelLoadErrorEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_levelLoadErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_levelLoadErrorEvent
+  // Il2CppName: remove_levelLoadErrorEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::remove_levelLoadErrorEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_levelLoadErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::LevelLoadError
+  // Il2CppName: LevelLoadError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::LevelLoadError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "LevelLoadError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeLevelLoadError
+  // Il2CppName: InvokeLevelLoadError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&MenuRpcManager::InvokeLevelLoadError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeLevelLoadError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_levelLoadSuccessEvent
+  // Il2CppName: add_levelLoadSuccessEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::add_levelLoadSuccessEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_levelLoadSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_levelLoadSuccessEvent
+  // Il2CppName: remove_levelLoadSuccessEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&MenuRpcManager::remove_levelLoadSuccessEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_levelLoadSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::LevelLoadSuccess
+  // Il2CppName: LevelLoadSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::LevelLoadSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "LevelLoadSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeLevelLoadSuccess
+  // Il2CppName: InvokeLevelLoadSuccess
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, ::Il2CppString*)>(&MenuRpcManager::InvokeLevelLoadSuccess)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeLevelLoadSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_startedLevelEvent
+  // Il2CppName: add_startedLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&MenuRpcManager::add_startedLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_startedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_startedLevelEvent
+  // Il2CppName: remove_startedLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&MenuRpcManager::remove_startedLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_startedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::StartLevel
+  // Il2CppName: StartLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&MenuRpcManager::StartLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeStartLevel
+  // Il2CppName: InvokeStartLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&MenuRpcManager::InvokeStartLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeStartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getStartedLevelEvent
+  // Il2CppName: add_getStartedLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getStartedLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getStartedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getStartedLevelEvent
+  // Il2CppName: remove_getStartedLevelEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getStartedLevelEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getStartedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetStartedLevel
+  // Il2CppName: GetStartedLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetStartedLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetStartedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetStartedLevel
+  // Il2CppName: InvokeGetStartedLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetStartedLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetStartedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getMultiplayerGameStateEvent
+  // Il2CppName: add_getMultiplayerGameStateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getMultiplayerGameStateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getMultiplayerGameStateEvent
+  // Il2CppName: remove_getMultiplayerGameStateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getMultiplayerGameStateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetMultiplayerGameState
+  // Il2CppName: GetMultiplayerGameState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetMultiplayerGameState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetMultiplayerGameState
+  // Il2CppName: InvokeGetMultiplayerGameState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetMultiplayerGameState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setMultiplayerGameStateEvent
+  // Il2CppName: add_setMultiplayerGameStateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*)>(&MenuRpcManager::add_setMultiplayerGameStateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setMultiplayerGameStateEvent
+  // Il2CppName: remove_setMultiplayerGameStateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*)>(&MenuRpcManager::remove_setMultiplayerGameStateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetMultiplayerGameState
+  // Il2CppName: SetMultiplayerGameState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::MultiplayerGameState)>(&MenuRpcManager::SetMultiplayerGameState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetMultiplayerGameState
+  // Il2CppName: InvokeSetMultiplayerGameState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerGameState)>(&MenuRpcManager::InvokeSetMultiplayerGameState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetMultiplayerGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_cancelCountdownEvent
+  // Il2CppName: add_cancelCountdownEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_cancelCountdownEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_cancelCountdownEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_cancelCountdownEvent
+  // Il2CppName: remove_cancelCountdownEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_cancelCountdownEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_cancelCountdownEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::CancelCountdown
+  // Il2CppName: CancelCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::CancelCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "CancelCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeCancelCountdown
+  // Il2CppName: InvokeCancelCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeCancelCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeCancelCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setCountdownEndTimeEvent
+  // Il2CppName: add_setCountdownEndTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&MenuRpcManager::add_setCountdownEndTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setCountdownEndTimeEvent
+  // Il2CppName: remove_setCountdownEndTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&MenuRpcManager::remove_setCountdownEndTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetCountdownEndTime
+  // Il2CppName: SetCountdownEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(float)>(&MenuRpcManager::SetCountdownEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetCountdownEndTime
+  // Il2CppName: InvokeSetCountdownEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, float)>(&MenuRpcManager::InvokeSetCountdownEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getCountdownEndTimeEvent
+  // Il2CppName: add_getCountdownEndTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getCountdownEndTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getCountdownEndTimeEvent
+  // Il2CppName: remove_getCountdownEndTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getCountdownEndTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetCountdownEndTime
+  // Il2CppName: GetCountdownEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetCountdownEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetCountdownEndTime
+  // Il2CppName: InvokeGetCountdownEndTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetCountdownEndTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_cancelledLevelStartEvent
+  // Il2CppName: add_cancelledLevelStartEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_cancelledLevelStartEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_cancelledLevelStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_cancelledLevelStartEvent
+  // Il2CppName: remove_cancelledLevelStartEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_cancelledLevelStartEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_cancelledLevelStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::CancelLevelStart
+  // Il2CppName: CancelLevelStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::CancelLevelStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "CancelLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeCancelLevelStart
+  // Il2CppName: InvokeCancelLevelStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeCancelLevelStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeCancelLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getIsReadyEvent
+  // Il2CppName: add_getIsReadyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getIsReadyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getIsReadyEvent
+  // Il2CppName: remove_getIsReadyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getIsReadyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetIsReady
+  // Il2CppName: GetIsReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetIsReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetIsReady
+  // Il2CppName: InvokeGetIsReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetIsReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setIsReadyEvent
+  // Il2CppName: add_setIsReadyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&MenuRpcManager::add_setIsReadyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setIsReadyEvent
+  // Il2CppName: remove_setIsReadyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&MenuRpcManager::remove_setIsReadyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetIsReady
+  // Il2CppName: SetIsReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(bool)>(&MenuRpcManager::SetIsReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetIsReady
+  // Il2CppName: InvokeSetIsReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, bool)>(&MenuRpcManager::InvokeSetIsReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setStartGameTimeEvent
+  // Il2CppName: add_setStartGameTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&MenuRpcManager::add_setStartGameTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setStartGameTimeEvent
+  // Il2CppName: remove_setStartGameTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&MenuRpcManager::remove_setStartGameTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetStartGameTime
+  // Il2CppName: SetStartGameTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(float)>(&MenuRpcManager::SetStartGameTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetStartGameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetStartGameCountdown
+  // Il2CppName: InvokeSetStartGameCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, float)>(&MenuRpcManager::InvokeSetStartGameCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetStartGameCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_cancelStartGameTimeEvent
+  // Il2CppName: add_cancelStartGameTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_cancelStartGameTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_cancelStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_cancelStartGameTimeEvent
+  // Il2CppName: remove_cancelStartGameTimeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_cancelStartGameTimeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_cancelStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::CancelStartGameTime
+  // Il2CppName: CancelStartGameTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::CancelStartGameTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "CancelStartGameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeCancelStartGameCountdown
+  // Il2CppName: InvokeCancelStartGameCountdown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeCancelStartGameCountdown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeCancelStartGameCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getIsInLobbyEvent
+  // Il2CppName: add_getIsInLobbyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getIsInLobbyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getIsInLobbyEvent
+  // Il2CppName: remove_getIsInLobbyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getIsInLobbyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetIsInLobby
+  // Il2CppName: GetIsInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetIsInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetIsInLobby
+  // Il2CppName: InvokeGetIsInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetIsInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setIsInLobbyEvent
+  // Il2CppName: add_setIsInLobbyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&MenuRpcManager::add_setIsInLobbyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setIsInLobbyEvent
+  // Il2CppName: remove_setIsInLobbyEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&MenuRpcManager::remove_setIsInLobbyEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetIsInLobby
+  // Il2CppName: SetIsInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(bool)>(&MenuRpcManager::SetIsInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetIsInLobby
+  // Il2CppName: InvokeSetIsInLobby
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, bool)>(&MenuRpcManager::InvokeSetIsInLobby)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_getOwnedSongPacksEvent
+  // Il2CppName: add_getOwnedSongPacksEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::add_getOwnedSongPacksEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_getOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_getOwnedSongPacksEvent
+  // Il2CppName: remove_getOwnedSongPacksEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&MenuRpcManager::remove_getOwnedSongPacksEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_getOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::GetOwnedSongPacks
+  // Il2CppName: GetOwnedSongPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)()>(&MenuRpcManager::GetOwnedSongPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "GetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeGetOwnedSongPacks
+  // Il2CppName: InvokeGetOwnedSongPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*)>(&MenuRpcManager::InvokeGetOwnedSongPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeGetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::add_setOwnedSongPacksEvent
+  // Il2CppName: add_setOwnedSongPacksEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&MenuRpcManager::add_setOwnedSongPacksEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "add_setOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::remove_setOwnedSongPacksEvent
+  // Il2CppName: remove_setOwnedSongPacksEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&MenuRpcManager::remove_setOwnedSongPacksEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "remove_setOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::SetOwnedSongPacks
+  // Il2CppName: SetOwnedSongPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(GlobalNamespace::SongPackMask)>(&MenuRpcManager::SetOwnedSongPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "SetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: MenuRpcManager::InvokeSetOwnedSongPacks
+  // Il2CppName: InvokeSetOwnedSongPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuRpcManager::*)(::Il2CppString*, GlobalNamespace::SongPackMask)>(&MenuRpcManager::InvokeSetOwnedSongPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MenuRpcManager*), "InvokeSetOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");

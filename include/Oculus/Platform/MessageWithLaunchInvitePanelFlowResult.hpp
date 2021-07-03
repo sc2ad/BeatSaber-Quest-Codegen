@@ -27,10 +27,10 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: MessageWithLaunchInvitePanelFlowResult
     MessageWithLaunchInvitePanelFlowResult() noexcept {}
     // protected Oculus.Platform.Models.LaunchInvitePanelFlowResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x14B4DBC
+    // Offset: 0x14CFACC
     Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x14AFC08
+    // Offset: 0x14CA918
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -40,10 +40,40 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLaunchInvitePanelFlowResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LaunchInvitePanelFlowResult GetLaunchInvitePanelFlowResult()
-    // Offset: 0x14B4D78
+    // Offset: 0x14CFA88
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LaunchInvitePanelFlowResult Message::GetLaunchInvitePanelFlowResult()
     Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
   }; // Oculus.Platform.MessageWithLaunchInvitePanelFlowResult
+  // Writing MetadataGetter for method: MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage
+  // Il2CppName: GetDataFromMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchInvitePanelFlowResult* (MessageWithLaunchInvitePanelFlowResult::*)(System::IntPtr)>(&MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchInvitePanelFlowResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithLaunchInvitePanelFlowResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithLaunchInvitePanelFlowResult::*)(System::IntPtr)>(&MessageWithLaunchInvitePanelFlowResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchInvitePanelFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithLaunchInvitePanelFlowResult::*)(System::IntPtr)>(&MessageWithLaunchInvitePanelFlowResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchInvitePanelFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageWithLaunchInvitePanelFlowResult::GetLaunchInvitePanelFlowResult
+  // Il2CppName: GetLaunchInvitePanelFlowResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchInvitePanelFlowResult* (MessageWithLaunchInvitePanelFlowResult::*)()>(&MessageWithLaunchInvitePanelFlowResult::GetLaunchInvitePanelFlowResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchInvitePanelFlowResult*), "GetLaunchInvitePanelFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*, "Oculus.Platform", "MessageWithLaunchInvitePanelFlowResult");

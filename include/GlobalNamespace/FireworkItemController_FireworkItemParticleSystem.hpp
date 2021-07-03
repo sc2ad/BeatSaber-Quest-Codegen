@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     bool useMainColor;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [DrawIfAttribute] Offset: 0xE2A35C
+    // [DrawIfAttribute] Offset: 0xE2A3C0
     // public System.Boolean _useOwnGradient
     // Size: 0x1
     // Offset: 0x1A
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useOwnGradient and: particleColorGradient
     char __padding3[0x5] = {};
-    // [DrawIfAttribute] Offset: 0xE2A3F0
+    // [DrawIfAttribute] Offset: 0xE2A454
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: FireworkItemParticleSystem
     FireworkItemParticleSystem(UnityEngine::ParticleSystem* particleSystem_ = {}, bool isSubemitter_ = {}, bool useMainColor_ = {}, bool useOwnGradient_ = {}, UnityEngine::Gradient* particleColorGradient_ = {}, bool randomizeSpeed_ = {}) noexcept : particleSystem{particleSystem_}, isSubemitter{isSubemitter_}, useMainColor{useMainColor_}, useOwnGradient{useOwnGradient_}, particleColorGradient{particleColorGradient_}, randomizeSpeed{randomizeSpeed_} {}
     // public System.Void .ctor()
-    // Offset: 0x10C6474
+    // Offset: 0x1045034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,5 +82,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FireworkItemController::FireworkItemParticleSystem), 40 + sizeof(bool)> __GlobalNamespace_FireworkItemController_FireworkItemParticleSystemSizeCheck;
   static_assert(sizeof(FireworkItemController::FireworkItemParticleSystem) == 0x29);
+  // Writing MetadataGetter for method: FireworkItemController::FireworkItemParticleSystem::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::FireworkItemParticleSystem::*)()>(&FireworkItemController::FireworkItemParticleSystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController::FireworkItemParticleSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FireworkItemController::FireworkItemParticleSystem::*)()>(&FireworkItemController::FireworkItemParticleSystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FireworkItemController::FireworkItemParticleSystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*, "", "FireworkItemController/FireworkItemParticleSystem");

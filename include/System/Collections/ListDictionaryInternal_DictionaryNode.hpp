@@ -39,7 +39,7 @@ namespace System::Collections {
     // Creating value type constructor for type: DictionaryNode
     DictionaryNode(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}, System::Collections::ListDictionaryInternal::DictionaryNode* next_ = {}) noexcept : key{key_}, value{value_}, next{next_} {}
     // public System.Void .ctor()
-    // Offset: 0x195BDB8
+    // Offset: 0x1972AC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,5 +51,19 @@ namespace System::Collections {
   #pragma pack(pop)
   static check_size<sizeof(ListDictionaryInternal::DictionaryNode), 32 + sizeof(System::Collections::ListDictionaryInternal::DictionaryNode*)> __System_Collections_ListDictionaryInternal_DictionaryNodeSizeCheck;
   static_assert(sizeof(ListDictionaryInternal::DictionaryNode) == 0x28);
+  // Writing MetadataGetter for method: ListDictionaryInternal::DictionaryNode::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionaryInternal::DictionaryNode::*)()>(&ListDictionaryInternal::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionaryInternal::DictionaryNode::*)()>(&ListDictionaryInternal::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ListDictionaryInternal::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::DictionaryNode*, "System.Collections", "ListDictionaryInternal/DictionaryNode");

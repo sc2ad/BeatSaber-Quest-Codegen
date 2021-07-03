@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1B03C
+    // [InjectAttribute] Offset: 0xE1B018
     // private BeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x20
@@ -45,16 +45,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x104E580
+    // Offset: 0x1092C68
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x104E6AC
+    // Offset: 0x1092D94
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectiveWasCleared()
-    // Offset: 0x104E7D8
+    // Offset: 0x1092EC0
     void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
     // public System.Void .ctor()
-    // Offset: 0x104E854
+    // Offset: 0x1092F3C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -70,5 +70,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionClearedEnvironmentEffect), 32 + sizeof(GlobalNamespace::BeatmapObjectCallbackController*)> __GlobalNamespace_MissionClearedEnvironmentEffectSizeCheck;
   static_assert(sizeof(MissionClearedEnvironmentEffect) == 0x28);
+  // Writing MetadataGetter for method: MissionClearedEnvironmentEffect::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionClearedEnvironmentEffect::*)()>(&MissionClearedEnvironmentEffect::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionClearedEnvironmentEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionClearedEnvironmentEffect::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionClearedEnvironmentEffect::*)()>(&MissionClearedEnvironmentEffect::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionClearedEnvironmentEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionClearedEnvironmentEffect::HandleMissionObjectiveCheckersManagerObjectiveWasCleared
+  // Il2CppName: HandleMissionObjectiveCheckersManagerObjectiveWasCleared
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionClearedEnvironmentEffect::*)()>(&MissionClearedEnvironmentEffect::HandleMissionObjectiveCheckersManagerObjectiveWasCleared)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionClearedEnvironmentEffect*), "HandleMissionObjectiveCheckersManagerObjectiveWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionClearedEnvironmentEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionClearedEnvironmentEffect::*)()>(&MissionClearedEnvironmentEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionClearedEnvironmentEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionClearedEnvironmentEffect::*)()>(&MissionClearedEnvironmentEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionClearedEnvironmentEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");

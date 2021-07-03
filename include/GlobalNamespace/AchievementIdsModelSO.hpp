@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
-    // Offset: 0x1124EF4
+    // Offset: 0x112A7DC
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* get_achievementsIds();
     // public System.Void .ctor()
-    // Offset: 0x1124EFC
+    // Offset: 0x112A7E4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -60,5 +60,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AchievementIdsModelSO), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>*)> __GlobalNamespace_AchievementIdsModelSOSizeCheck;
   static_assert(sizeof(AchievementIdsModelSO) == 0x20);
+  // Writing MetadataGetter for method: AchievementIdsModelSO::get_achievementsIds
+  // Il2CppName: get_achievementsIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* (AchievementIdsModelSO::*)()>(&AchievementIdsModelSO::get_achievementsIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementIdsModelSO*), "get_achievementsIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AchievementIdsModelSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementIdsModelSO::*)()>(&AchievementIdsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementIdsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementIdsModelSO::*)()>(&AchievementIdsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AchievementIdsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementIdsModelSO*, "", "AchievementIdsModelSO");

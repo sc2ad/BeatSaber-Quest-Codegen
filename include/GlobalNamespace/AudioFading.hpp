@@ -56,19 +56,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x112BE78
+    // Offset: 0x1131760
     void Start();
     // protected System.Void Update()
-    // Offset: 0x112BF14
+    // Offset: 0x11317FC
     void Update();
     // public System.Void FadeOut()
-    // Offset: 0x112C054
+    // Offset: 0x113193C
     void FadeOut();
     // public System.Void FadeIn()
-    // Offset: 0x112BEE4
+    // Offset: 0x11317CC
     void FadeIn();
     // public System.Void .ctor()
-    // Offset: 0x112C080
+    // Offset: 0x1131968
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,5 +84,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(AudioFading), 40 + sizeof(float)> __GlobalNamespace_AudioFadingSizeCheck;
   static_assert(sizeof(AudioFading) == 0x2C);
+  // Writing MetadataGetter for method: AudioFading::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioFading::*)()>(&AudioFading::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioFading*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioFading::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioFading::*)()>(&AudioFading::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioFading*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioFading::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioFading::*)()>(&AudioFading::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioFading*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioFading::FadeIn
+  // Il2CppName: FadeIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioFading::*)()>(&AudioFading::FadeIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioFading*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AudioFading::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioFading::*)()>(&AudioFading::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioFading*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioFading::*)()>(&AudioFading::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AudioFading*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioFading*, "", "AudioFading");

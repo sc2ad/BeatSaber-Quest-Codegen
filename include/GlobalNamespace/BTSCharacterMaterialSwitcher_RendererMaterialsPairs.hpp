@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: RendererMaterialsPairs
     RendererMaterialsPairs(UnityEngine::Renderer* renderer_ = {}, System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs_ = {}) noexcept : renderer{renderer_}, materialPairs{materialPairs_} {}
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x1134F1C
+    // Offset: 0x113A784
     UnityEngine::Renderer* get_renderer();
     // public System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> get_materialPairs()
-    // Offset: 0x1134F24
+    // Offset: 0x113A78C
     System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
     // public System.Void .ctor(UnityEngine.Renderer renderer)
-    // Offset: 0x1134F2C
+    // Offset: 0x113A794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(UnityEngine::Renderer* renderer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");
@@ -62,5 +62,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_RendererMaterialsPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs) == 0x20);
+  // Writing MetadataGetter for method: BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer
+  // Il2CppName: get_renderer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs
+  // Il2CppName: get_materialPairs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* (BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_materialPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSCharacterMaterialSwitcher::RendererMaterialsPairs::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)(UnityEngine::Renderer*)>(&BTSCharacterMaterialSwitcher::RendererMaterialsPairs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Renderer*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)(UnityEngine::Renderer*)>(&BTSCharacterMaterialSwitcher::RendererMaterialsPairs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Renderer*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");

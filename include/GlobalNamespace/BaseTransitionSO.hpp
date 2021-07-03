@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x119F5D8
+    // Offset: 0x11B965C
     Tweening::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x119F5F4
+    // Offset: 0x11B9678
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x119F610
+    // Offset: 0x11B9694
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -62,5 +62,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BaseTransitionSO), 24 + sizeof(GlobalNamespace::TransitionTimingSO*)> __GlobalNamespace_BaseTransitionSOSizeCheck;
   static_assert(sizeof(BaseTransitionSO) == 0x20);
+  // Writing MetadataGetter for method: BaseTransitionSO::get_easeType
+  // Il2CppName: get_easeType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::EaseType (BaseTransitionSO::*)()>(&BaseTransitionSO::get_easeType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseTransitionSO*), "get_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseTransitionSO::get_easeDuration
+  // Il2CppName: get_easeDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BaseTransitionSO::*)()>(&BaseTransitionSO::get_easeDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseTransitionSO*), "get_easeDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BaseTransitionSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseTransitionSO::*)()>(&BaseTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseTransitionSO::*)()>(&BaseTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseTransitionSO*, "", "BaseTransitionSO");

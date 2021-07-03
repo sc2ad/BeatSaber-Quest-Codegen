@@ -28,7 +28,7 @@ namespace System::Diagnostics {
     // Creating value type constructor for type: ProcessWaitHandle
     ProcessWaitHandle() noexcept {}
     // System.Void .ctor(Microsoft.Win32.SafeHandles.SafeProcessHandle processHandle)
-    // Offset: 0x1852FBC
+    // Offset: 0x186ACCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessWaitHandle* New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ProcessWaitHandle::.ctor");
@@ -36,5 +36,19 @@ namespace System::Diagnostics {
     }
   }; // System.Diagnostics.ProcessWaitHandle
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ProcessWaitHandle::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProcessWaitHandle::*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&ProcessWaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProcessWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProcessWaitHandle::*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&ProcessWaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ProcessWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWaitHandle*, "System.Diagnostics", "ProcessWaitHandle");

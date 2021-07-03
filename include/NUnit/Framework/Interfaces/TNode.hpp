@@ -37,24 +37,24 @@ namespace NUnit::Framework::Interfaces {
     public:
     // Nested type: NUnit::Framework::Interfaces::TNode::$$c
     class $$c;
-    // [CompilerGeneratedAttribute] Offset: 0xE04D34
-    // [DebuggerBrowsableAttribute] Offset: 0xE04D34
+    // [CompilerGeneratedAttribute] Offset: 0xE05D30
+    // [DebuggerBrowsableAttribute] Offset: 0xE05D30
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE04D70
-    // [DebuggerBrowsableAttribute] Offset: 0xE04D70
+    // [CompilerGeneratedAttribute] Offset: 0xE05D6C
+    // [DebuggerBrowsableAttribute] Offset: 0xE05D6C
     // private System.String <Value>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* Value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE04DAC
-    // [DebuggerBrowsableAttribute] Offset: 0xE04DAC
+    // [CompilerGeneratedAttribute] Offset: 0xE05DA8
+    // [DebuggerBrowsableAttribute] Offset: 0xE05DA8
     // private System.Boolean <ValueIsCDATA>k__BackingField
     // Size: 0x1
     // Offset: 0x20
@@ -63,16 +63,16 @@ namespace NUnit::Framework::Interfaces {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: ValueIsCDATA and: Attributes
     char __padding2[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE04DE8
-    // [DebuggerBrowsableAttribute] Offset: 0xE04DE8
+    // [CompilerGeneratedAttribute] Offset: 0xE05DE4
+    // [DebuggerBrowsableAttribute] Offset: 0xE05DE4
     // private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     NUnit::Framework::Interfaces::AttributeDictionary* Attributes;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::AttributeDictionary*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xE04E24
-    // [CompilerGeneratedAttribute] Offset: 0xE04E24
+    // [DebuggerBrowsableAttribute] Offset: 0xE05E20
+    // [CompilerGeneratedAttribute] Offset: 0xE05E20
     // private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -86,89 +86,291 @@ namespace NUnit::Framework::Interfaces {
     // Set static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
     static void _set_InvalidXmlCharactersRegex(System::Text::RegularExpressions::Regex* value);
     // public System.Void .ctor(System.String name)
-    // Offset: 0x171747C
+    // Offset: 0x172F18C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String value)
-    // Offset: 0x1717510
+    // Offset: 0x172F220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value)));
     }
     // public System.Void .ctor(System.String name, System.String value, System.Boolean valueIsCDATA)
-    // Offset: 0x171753C
+    // Offset: 0x172F24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::Il2CppString* name, ::Il2CppString* value, bool valueIsCDATA) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value, valueIsCDATA)));
     }
     // public System.String get_Name()
-    // Offset: 0x1717578
+    // Offset: 0x172F288
     ::Il2CppString* get_Name();
     // private System.Void set_Name(System.String value)
-    // Offset: 0x1717580
+    // Offset: 0x172F290
     void set_Name(::Il2CppString* value);
     // public System.String get_Value()
-    // Offset: 0x1717588
+    // Offset: 0x172F298
     ::Il2CppString* get_Value();
     // public System.Void set_Value(System.String value)
-    // Offset: 0x1717590
+    // Offset: 0x172F2A0
     void set_Value(::Il2CppString* value);
     // public System.Boolean get_ValueIsCDATA()
-    // Offset: 0x1717598
+    // Offset: 0x172F2A8
     bool get_ValueIsCDATA();
     // private System.Void set_ValueIsCDATA(System.Boolean value)
-    // Offset: 0x17175A0
+    // Offset: 0x172F2B0
     void set_ValueIsCDATA(bool value);
     // public NUnit.Framework.Interfaces.AttributeDictionary get_Attributes()
-    // Offset: 0x17175AC
+    // Offset: 0x172F2BC
     NUnit::Framework::Interfaces::AttributeDictionary* get_Attributes();
     // private System.Void set_Attributes(NUnit.Framework.Interfaces.AttributeDictionary value)
-    // Offset: 0x17175B4
+    // Offset: 0x172F2C4
     void set_Attributes(NUnit::Framework::Interfaces::AttributeDictionary* value);
     // public NUnit.Framework.Interfaces.NodeList get_ChildNodes()
-    // Offset: 0x17175BC
+    // Offset: 0x172F2CC
     NUnit::Framework::Interfaces::NodeList* get_ChildNodes();
     // private System.Void set_ChildNodes(NUnit.Framework.Interfaces.NodeList value)
-    // Offset: 0x17175C4
+    // Offset: 0x172F2D4
     void set_ChildNodes(NUnit::Framework::Interfaces::NodeList* value);
     // public System.String get_OuterXml()
-    // Offset: 0x17175CC
+    // Offset: 0x172F2DC
     ::Il2CppString* get_OuterXml();
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name)
-    // Offset: 0x1717974
+    // Offset: 0x172F684
     NUnit::Framework::Interfaces::TNode* AddElement(::Il2CppString* name);
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name, System.String value)
-    // Offset: 0x1717A00
+    // Offset: 0x172F710
     NUnit::Framework::Interfaces::TNode* AddElement(::Il2CppString* name, ::Il2CppString* value);
     // public NUnit.Framework.Interfaces.TNode AddElementWithCDATA(System.String name, System.String value)
-    // Offset: 0x1717BFC
+    // Offset: 0x172F90C
     NUnit::Framework::Interfaces::TNode* AddElementWithCDATA(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void AddAttribute(System.String name, System.String value)
-    // Offset: 0x1717CC0
+    // Offset: 0x172F9D0
     void AddAttribute(::Il2CppString* name, ::Il2CppString* value);
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x1717734
+    // Offset: 0x172F444
     void WriteTo(System::Xml::XmlWriter* writer);
     // static private System.String EscapeInvalidXmlCharacters(System.String str)
-    // Offset: 0x1717AC0
+    // Offset: 0x172F7D0
     static ::Il2CppString* EscapeInvalidXmlCharacters(::Il2CppString* str);
     // static private System.String CharToUnicodeSequence(System.Char symbol)
-    // Offset: 0x1717E7C
+    // Offset: 0x172FB8C
     static ::Il2CppString* CharToUnicodeSequence(::Il2CppChar symbol);
     // private System.Void WriteCDataTo(System.Xml.XmlWriter writer)
-    // Offset: 0x1717D5C
+    // Offset: 0x172FA6C
     void WriteCDataTo(System::Xml::XmlWriter* writer);
     // static private System.Void .cctor()
-    // Offset: 0x1717F00
+    // Offset: 0x172FC10
     static void _cctor();
   }; // NUnit.Framework.Interfaces.TNode
   #pragma pack(pop)
   static check_size<sizeof(TNode), 48 + sizeof(NUnit::Framework::Interfaces::NodeList*)> __NUnit_Framework_Interfaces_TNodeSizeCheck;
   static_assert(sizeof(TNode) == 0x38);
+  // Writing MetadataGetter for method: TNode::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*)>(&TNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*)>(&TNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*, ::Il2CppString*)>(&TNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*, ::Il2CppString*)>(&TNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*, ::Il2CppString*, bool)>(&TNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*, ::Il2CppString*, bool)>(&TNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TNode::*)()>(&TNode::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::set_Name
+  // Il2CppName: set_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*)>(&TNode::set_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::get_Value
+  // Il2CppName: get_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TNode::*)()>(&TNode::get_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::set_Value
+  // Il2CppName: set_Value
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*)>(&TNode::set_Value)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::get_ValueIsCDATA
+  // Il2CppName: get_ValueIsCDATA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TNode::*)()>(&TNode::get_ValueIsCDATA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "get_ValueIsCDATA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::set_ValueIsCDATA
+  // Il2CppName: set_ValueIsCDATA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(bool)>(&TNode::set_ValueIsCDATA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "set_ValueIsCDATA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::get_Attributes
+  // Il2CppName: get_Attributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::AttributeDictionary* (TNode::*)()>(&TNode::get_Attributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::set_Attributes
+  // Il2CppName: set_Attributes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(NUnit::Framework::Interfaces::AttributeDictionary*)>(&TNode::set_Attributes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "set_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::AttributeDictionary*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::get_ChildNodes
+  // Il2CppName: get_ChildNodes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::NodeList* (TNode::*)()>(&TNode::get_ChildNodes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "get_ChildNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::set_ChildNodes
+  // Il2CppName: set_ChildNodes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(NUnit::Framework::Interfaces::NodeList*)>(&TNode::set_ChildNodes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "set_ChildNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::NodeList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::get_OuterXml
+  // Il2CppName: get_OuterXml
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TNode::*)()>(&TNode::get_OuterXml)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "get_OuterXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::AddElement
+  // Il2CppName: AddElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (TNode::*)(::Il2CppString*)>(&TNode::AddElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "AddElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::AddElement
+  // Il2CppName: AddElement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (TNode::*)(::Il2CppString*, ::Il2CppString*)>(&TNode::AddElement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "AddElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::AddElementWithCDATA
+  // Il2CppName: AddElementWithCDATA
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (TNode::*)(::Il2CppString*, ::Il2CppString*)>(&TNode::AddElementWithCDATA)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "AddElementWithCDATA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::AddAttribute
+  // Il2CppName: AddAttribute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(::Il2CppString*, ::Il2CppString*)>(&TNode::AddAttribute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "AddAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::WriteTo
+  // Il2CppName: WriteTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(System::Xml::XmlWriter*)>(&TNode::WriteTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::EscapeInvalidXmlCharacters
+  // Il2CppName: EscapeInvalidXmlCharacters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TNode::EscapeInvalidXmlCharacters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "EscapeInvalidXmlCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::CharToUnicodeSequence
+  // Il2CppName: CharToUnicodeSequence
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar)>(&TNode::CharToUnicodeSequence)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "CharToUnicodeSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::WriteCDataTo
+  // Il2CppName: WriteCDataTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TNode::*)(System::Xml::XmlWriter*)>(&TNode::WriteCDataTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), "WriteCDataTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TNode::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TNode::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TNode*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");

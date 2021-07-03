@@ -54,42 +54,42 @@ namespace GlobalNamespace {
     static float _get_kDefaultRoomCenterZ();
     // Set static field: static public System.Single kDefaultRoomCenterZ
     static void _set_kDefaultRoomCenterZ(float value);
-    // static field const value: static public System.Single kDetaultControllerPositionX
-    static constexpr const float kDetaultControllerPositionX = 0;
-    // Get static field: static public System.Single kDetaultControllerPositionX
-    static float _get_kDetaultControllerPositionX();
-    // Set static field: static public System.Single kDetaultControllerPositionX
-    static void _set_kDetaultControllerPositionX(float value);
-    // static field const value: static public System.Single kDetaultControllerPositionY
-    static constexpr const float kDetaultControllerPositionY = 0;
-    // Get static field: static public System.Single kDetaultControllerPositionY
-    static float _get_kDetaultControllerPositionY();
-    // Set static field: static public System.Single kDetaultControllerPositionY
-    static void _set_kDetaultControllerPositionY(float value);
-    // static field const value: static public System.Single kDetaultControllerPositionZ
-    static constexpr const float kDetaultControllerPositionZ = 0;
-    // Get static field: static public System.Single kDetaultControllerPositionZ
-    static float _get_kDetaultControllerPositionZ();
-    // Set static field: static public System.Single kDetaultControllerPositionZ
-    static void _set_kDetaultControllerPositionZ(float value);
-    // static field const value: static public System.Single kDetaultControllerRotationX
-    static constexpr const float kDetaultControllerRotationX = 0;
-    // Get static field: static public System.Single kDetaultControllerRotationX
-    static float _get_kDetaultControllerRotationX();
-    // Set static field: static public System.Single kDetaultControllerRotationX
-    static void _set_kDetaultControllerRotationX(float value);
-    // static field const value: static public System.Single kDetaultControllerRotationY
-    static constexpr const float kDetaultControllerRotationY = 0;
-    // Get static field: static public System.Single kDetaultControllerRotationY
-    static float _get_kDetaultControllerRotationY();
-    // Set static field: static public System.Single kDetaultControllerRotationY
-    static void _set_kDetaultControllerRotationY(float value);
-    // static field const value: static public System.Single kDetaultControllerRotationZ
-    static constexpr const float kDetaultControllerRotationZ = 0;
-    // Get static field: static public System.Single kDetaultControllerRotationZ
-    static float _get_kDetaultControllerRotationZ();
-    // Set static field: static public System.Single kDetaultControllerRotationZ
-    static void _set_kDetaultControllerRotationZ(float value);
+    // static field const value: static public System.Single kDefaultControllerPositionX
+    static constexpr const float kDefaultControllerPositionX = 0;
+    // Get static field: static public System.Single kDefaultControllerPositionX
+    static float _get_kDefaultControllerPositionX();
+    // Set static field: static public System.Single kDefaultControllerPositionX
+    static void _set_kDefaultControllerPositionX(float value);
+    // static field const value: static public System.Single kDefaultControllerPositionY
+    static constexpr const float kDefaultControllerPositionY = 0;
+    // Get static field: static public System.Single kDefaultControllerPositionY
+    static float _get_kDefaultControllerPositionY();
+    // Set static field: static public System.Single kDefaultControllerPositionY
+    static void _set_kDefaultControllerPositionY(float value);
+    // static field const value: static public System.Single kDefaultControllerPositionZ
+    static constexpr const float kDefaultControllerPositionZ = 0;
+    // Get static field: static public System.Single kDefaultControllerPositionZ
+    static float _get_kDefaultControllerPositionZ();
+    // Set static field: static public System.Single kDefaultControllerPositionZ
+    static void _set_kDefaultControllerPositionZ(float value);
+    // static field const value: static public System.Single kDefaultControllerRotationX
+    static constexpr const float kDefaultControllerRotationX = 0;
+    // Get static field: static public System.Single kDefaultControllerRotationX
+    static float _get_kDefaultControllerRotationX();
+    // Set static field: static public System.Single kDefaultControllerRotationX
+    static void _set_kDefaultControllerRotationX(float value);
+    // static field const value: static public System.Single kDefaultControllerRotationY
+    static constexpr const float kDefaultControllerRotationY = 0;
+    // Get static field: static public System.Single kDefaultControllerRotationY
+    static float _get_kDefaultControllerRotationY();
+    // Set static field: static public System.Single kDefaultControllerRotationY
+    static void _set_kDefaultControllerRotationY(float value);
+    // static field const value: static public System.Single kDefaultControllerRotationZ
+    static constexpr const float kDefaultControllerRotationZ = 0;
+    // Get static field: static public System.Single kDefaultControllerRotationZ
+    static float _get_kDefaultControllerRotationZ();
+    // Set static field: static public System.Single kDefaultControllerRotationZ
+    static void _set_kDefaultControllerRotationZ(float value);
     // static field const value: static public System.Int32 kDefaultWindowResolutionWidth
     static constexpr const int kDefaultWindowResolutionWidth = 1920;
     // Get static field: static public System.Int32 kDefaultWindowResolutionWidth
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultWindowResolutionHeight
     static void _set_kDefaultWindowResolutionHeight(int value);
     // static field const value: static public System.Int32 kDefaultMirrorGraphicsSettings
-    static constexpr const int kDefaultMirrorGraphicsSettings = 0;
+    static constexpr const int kDefaultMirrorGraphicsSettings = 1;
     // Get static field: static public System.Int32 kDefaultMirrorGraphicsSettings
     static int _get_kDefaultMirrorGraphicsSettings();
     // Set static field: static public System.Int32 kDefaultMirrorGraphicsSettings
@@ -199,10 +199,10 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
-    // Offset: 0x10D878C
+    // Offset: 0x240390C
     static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
-    // Offset: 0x10D88E4
+    // Offset: 0x2403A50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -212,5 +212,27 @@ namespace GlobalNamespace {
     }
   }; // MainSettingsDefaultValues
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MainSettingsDefaultValues::SetFixedDefaultValues
+  // Il2CppName: SetFixedDefaultValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&MainSettingsDefaultValues::SetFixedDefaultValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainSettingsModelSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MainSettingsDefaultValues::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsDefaultValues::*)()>(&MainSettingsDefaultValues::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSettingsDefaultValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsDefaultValues::*)()>(&MainSettingsDefaultValues::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainSettingsDefaultValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");

@@ -67,30 +67,84 @@ namespace System::Collections {
     // Set static field: static private System.Object dummyObject
     static void _set_dummyObject(::Il2CppObject* value);
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x1769A98
+    // Offset: 0x17827A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList::ArrayListEnumeratorSimple* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::ArrayListEnumeratorSimple::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList::ArrayListEnumeratorSimple*, creationType>(list)));
     }
     // public System.Object Clone()
-    // Offset: 0x176A744
+    // Offset: 0x1783454
     ::Il2CppObject* Clone();
     // public System.Boolean MoveNext()
-    // Offset: 0x176A74C
+    // Offset: 0x178345C
     bool MoveNext();
     // public System.Object get_Current()
-    // Offset: 0x176A944
+    // Offset: 0x1783654
     ::Il2CppObject* get_Current();
     // public System.Void Reset()
-    // Offset: 0x176AA30
+    // Offset: 0x1783740
     void Reset();
     // static private System.Void .cctor()
-    // Offset: 0x176AB14
+    // Offset: 0x1783824
     static void _cctor();
   }; // System.Collections.ArrayList/ArrayListEnumeratorSimple
   #pragma pack(pop)
   static check_size<sizeof(ArrayList::ArrayListEnumeratorSimple), 40 + sizeof(bool)> __System_Collections_ArrayList_ArrayListEnumeratorSimpleSizeCheck;
   static_assert(sizeof(ArrayList::ArrayListEnumeratorSimple) == 0x29);
+  // Writing MetadataGetter for method: ArrayList::ArrayListEnumeratorSimple::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ArrayListEnumeratorSimple::*)(System::Collections::ArrayList*)>(&ArrayList::ArrayListEnumeratorSimple::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ArrayListEnumeratorSimple::*)(System::Collections::ArrayList*)>(&ArrayList::ArrayListEnumeratorSimple::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayList::ArrayListEnumeratorSimple::Clone
+  // Il2CppName: Clone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ArrayListEnumeratorSimple::*)()>(&ArrayList::ArrayListEnumeratorSimple::Clone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayList::ArrayListEnumeratorSimple::MoveNext
+  // Il2CppName: MoveNext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArrayList::ArrayListEnumeratorSimple::*)()>(&ArrayList::ArrayListEnumeratorSimple::MoveNext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayList::ArrayListEnumeratorSimple::get_Current
+  // Il2CppName: get_Current
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ArrayList::ArrayListEnumeratorSimple::*)()>(&ArrayList::ArrayListEnumeratorSimple::get_Current)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayList::ArrayListEnumeratorSimple::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArrayList::ArrayListEnumeratorSimple::*)()>(&ArrayList::ArrayListEnumeratorSimple::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ArrayList::ArrayListEnumeratorSimple::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ArrayList::ArrayListEnumeratorSimple::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ArrayList::ArrayListEnumeratorSimple*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListEnumeratorSimple*, "System.Collections", "ArrayList/ArrayListEnumeratorSimple");

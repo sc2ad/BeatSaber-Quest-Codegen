@@ -54,20 +54,20 @@ namespace Mono::Security {
     // Creating value type constructor for type: EncryptedData
     EncryptedData(uint8_t version_ = {}, Mono::Security::PKCS7::ContentInfo* content_ = {}, Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm_ = {}, ::Array<uint8_t>* encrypted_ = {}) noexcept : version{version_}, content{content_}, encryptionAlgorithm{encryptionAlgorithm_}, encrypted{encrypted_} {}
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x1D5D828
+    // Offset: 0x1D79538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>(asn1)));
     }
     // public Mono.Security.PKCS7/ContentInfo get_EncryptionAlgorithm()
-    // Offset: 0x1D5DADC
+    // Offset: 0x1D797EC
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
-    // Offset: 0x1D5DAE4
+    // Offset: 0x1D797F4
     ::Array<uint8_t>* get_EncryptedContent();
     // public System.Void .ctor()
-    // Offset: 0x1D5D800
+    // Offset: 0x1D79510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -79,5 +79,49 @@ namespace Mono::Security {
   #pragma pack(pop)
   static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
   static_assert(sizeof(PKCS7::EncryptedData) == 0x30);
+  // Writing MetadataGetter for method: PKCS7::EncryptedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::EncryptedData::*)(Mono::Security::ASN1*)>(&PKCS7::EncryptedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS7::EncryptedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::EncryptedData::*)(Mono::Security::ASN1*)>(&PKCS7::EncryptedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS7::EncryptedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS7::EncryptedData::get_EncryptionAlgorithm
+  // Il2CppName: get_EncryptionAlgorithm
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::PKCS7::ContentInfo* (PKCS7::EncryptedData::*)()>(&PKCS7::EncryptedData::get_EncryptionAlgorithm)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS7::EncryptedData*), "get_EncryptionAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS7::EncryptedData::get_EncryptedContent
+  // Il2CppName: get_EncryptedContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS7::EncryptedData::*)()>(&PKCS7::EncryptedData::get_EncryptedContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS7::EncryptedData*), "get_EncryptedContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS7::EncryptedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::EncryptedData::*)()>(&PKCS7::EncryptedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS7::EncryptedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS7::EncryptedData::*)()>(&PKCS7::EncryptedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS7::EncryptedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");

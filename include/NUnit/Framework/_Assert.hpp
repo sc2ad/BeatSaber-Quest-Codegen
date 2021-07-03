@@ -27,10 +27,10 @@ namespace NUnit::Framework {
     // Creating value type constructor for type: _Assert
     _Assert() noexcept {}
     // static public System.Void AreEqual(System.Object expected, System.Object actual)
-    // Offset: 0x17097A4
+    // Offset: 0x17214B4
     static void AreEqual(::Il2CppObject* expected, ::Il2CppObject* actual);
     // static private System.Void IncrementAssertCount()
-    // Offset: 0x1709818
+    // Offset: 0x1721528
     static void IncrementAssertCount();
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
@@ -49,10 +49,10 @@ namespace NUnit::Framework {
     // Creating TArgs -> initializer_list proxy for: System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     template<class TActual, class ...TParams>
     static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, TParams&&... args) {
-      That(actual, expression, message, {args...});
+      That<class TActual>(actual, expression, message, {args...});
     }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    // Offset: 0x17098F0
+    // Offset: 0x1721600
     static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -62,7 +62,7 @@ namespace NUnit::Framework {
       GreaterOrEqual(arg1, arg2, message, {args...});
     }
     // static public System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
-    // Offset: 0x1709988
+    // Offset: 0x1721698
     static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -72,7 +72,7 @@ namespace NUnit::Framework {
       LessOrEqual(arg1, arg2, message, {args...});
     }
     // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
-    // Offset: 0x1709A20
+    // Offset: 0x1721730
     static void IsTrue(bool condition, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
     static void IsTrue(bool condition, ::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -82,9 +82,60 @@ namespace NUnit::Framework {
       IsTrue(condition, message, {args...});
     }
     // static public System.Void IsTrue(System.Boolean condition)
-    // Offset: 0x1709A98
+    // Offset: 0x17217A8
     static void IsTrue(bool condition);
   }; // NUnit.Framework.Assert
   #pragma pack(pop)
+  // Writing MetadataGetter for method: _Assert::AreEqual
+  // Il2CppName: AreEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&_Assert::AreEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IncrementAssertCount
+  // Il2CppName: IncrementAssertCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&_Assert::IncrementAssertCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::That
+  // Il2CppName: That
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: _Assert::GreaterOrEqual
+  // Il2CppName: GreaterOrEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&_Assert::GreaterOrEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "GreaterOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::LessOrEqual
+  // Il2CppName: LessOrEqual
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&_Assert::LessOrEqual)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "LessOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsTrue
+  // Il2CppName: IsTrue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&_Assert::IsTrue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsTrue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: _Assert::IsTrue
+  // Il2CppName: IsTrue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&_Assert::IsTrue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(_Assert*), "IsTrue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");

@@ -34,19 +34,51 @@ namespace UnityEngine::Timeline {
     // Set static field: static private readonly System.String k_UndoSetParentTrackText
     static void _set_k_UndoSetParentTrackText(::Il2CppString* value);
     // static public System.Void MoveToTrack(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack)
-    // Offset: 0x231FF04
+    // Offset: 0x2339C60
     static void MoveToTrack(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Timeline::TrackAsset* destinationTrack);
     // static public System.Boolean TryMoveToTrack(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack)
-    // Offset: 0x2320618
+    // Offset: 0x233A374
     static bool TryMoveToTrack(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Timeline::TrackAsset* destinationTrack);
     // static private System.Void MoveToTrack_Impl(UnityEngine.Timeline.TimelineClip clip, UnityEngine.Timeline.TrackAsset destinationTrack, UnityEngine.Object asset, UnityEngine.Timeline.TrackAsset parentTrack)
-    // Offset: 0x23204EC
+    // Offset: 0x233A248
     static void MoveToTrack_Impl(UnityEngine::Timeline::TimelineClip* clip, UnityEngine::Timeline::TrackAsset* destinationTrack, UnityEngine::Object* asset, UnityEngine::Timeline::TrackAsset* parentTrack);
     // static private System.Void .cctor()
-    // Offset: 0x2320AEC
+    // Offset: 0x233A848
     static void _cctor();
   }; // UnityEngine.Timeline.TimelineClipExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimelineClipExtensions::MoveToTrack
+  // Il2CppName: MoveToTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TrackAsset*)>(&TimelineClipExtensions::MoveToTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClipExtensions*), "MoveToTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClipExtensions::TryMoveToTrack
+  // Il2CppName: TryMoveToTrack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TrackAsset*)>(&TimelineClipExtensions::TryMoveToTrack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClipExtensions*), "TryMoveToTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClipExtensions::MoveToTrack_Impl
+  // Il2CppName: MoveToTrack_Impl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TrackAsset*, UnityEngine::Object*, UnityEngine::Timeline::TrackAsset*)>(&TimelineClipExtensions::MoveToTrack_Impl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClipExtensions*), "MoveToTrack_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimelineClipExtensions::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimelineClipExtensions::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimelineClipExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipExtensions*, "UnityEngine.Timeline", "TimelineClipExtensions");

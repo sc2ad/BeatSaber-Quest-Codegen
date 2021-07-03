@@ -21,7 +21,7 @@ namespace Zenject {
     // Creating value type constructor for type: DefaultGameObjectKernel
     DefaultGameObjectKernel() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1375AE8
+    // Offset: 0x13907F8
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -36,5 +36,19 @@ namespace Zenject {
     }
   }; // Zenject.DefaultGameObjectKernel
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DefaultGameObjectKernel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultGameObjectKernel::*)()>(&DefaultGameObjectKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultGameObjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultGameObjectKernel::*)()>(&DefaultGameObjectKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DefaultGameObjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectKernel*, "Zenject", "DefaultGameObjectKernel");

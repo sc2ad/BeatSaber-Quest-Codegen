@@ -43,43 +43,139 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,UnityEngine.ProBuilder.CIELabColor> ColorNameLookup
     static void _set_ColorNameLookup(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::ProBuilder::CIELabColor*>* value);
     // static private System.Boolean approx(System.Single lhs, System.Single rhs)
-    // Offset: 0x1F481FC
+    // Offset: 0x1F63F58
     static bool approx(float lhs, float rhs);
     // static public UnityEngine.Color GetColor(UnityEngine.Vector3 vec)
-    // Offset: 0x1F48280
+    // Offset: 0x1F63FDC
     static UnityEngine::Color GetColor(UnityEngine::Vector3 vec);
     // static public UnityEngine.ProBuilder.XYZColor RGBToXYZ(UnityEngine.Color col)
-    // Offset: 0x1F48330
+    // Offset: 0x1F6408C
     static UnityEngine::ProBuilder::XYZColor* RGBToXYZ(UnityEngine::Color col);
     // static public UnityEngine.ProBuilder.XYZColor RGBToXYZ(System.Single r, System.Single g, System.Single b)
-    // Offset: 0x1F483B4
+    // Offset: 0x1F64110
     static UnityEngine::ProBuilder::XYZColor* RGBToXYZ(float r, float g, float b);
     // static public UnityEngine.ProBuilder.CIELabColor XYZToCIE_Lab(UnityEngine.ProBuilder.XYZColor xyz)
-    // Offset: 0x1F46D64
+    // Offset: 0x1F62AC0
     static UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(UnityEngine::ProBuilder::XYZColor* xyz);
     // static public System.Single DeltaE(UnityEngine.ProBuilder.CIELabColor lhs, UnityEngine.ProBuilder.CIELabColor rhs)
-    // Offset: 0x1F485F8
+    // Offset: 0x1F64354
     static float DeltaE(UnityEngine::ProBuilder::CIELabColor* lhs, UnityEngine::ProBuilder::CIELabColor* rhs);
     // static public UnityEngine.Color HSVtoRGB(UnityEngine.ProBuilder.HSVColor hsv)
-    // Offset: 0x1F486C8
+    // Offset: 0x1F64424
     static UnityEngine::Color HSVtoRGB(UnityEngine::ProBuilder::HSVColor* hsv);
     // static public UnityEngine.Color HSVtoRGB(System.Single h, System.Single s, System.Single v)
-    // Offset: 0x1F48754
+    // Offset: 0x1F644B0
     static UnityEngine::Color HSVtoRGB(float h, float s, float v);
     // static public UnityEngine.ProBuilder.HSVColor RGBtoHSV(UnityEngine.Color color)
-    // Offset: 0x1F488BC
+    // Offset: 0x1F64618
     static UnityEngine::ProBuilder::HSVColor* RGBtoHSV(UnityEngine::Color color);
     // static public System.String GetColorName(UnityEngine.Color InColor)
-    // Offset: 0x1F48A94
+    // Offset: 0x1F647F0
     static ::Il2CppString* GetColorName(UnityEngine::Color InColor);
     // static private UnityEngine.ProBuilder.CIELabColor CIELabFromRGB(System.Single R, System.Single G, System.Single B, System.Single Scale)
-    // Offset: 0x1F48C70
+    // Offset: 0x1F649CC
     static UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(float R, float G, float B, float Scale);
     // static private System.Void .cctor()
-    // Offset: 0x1F48C9C
+    // Offset: 0x1F649F8
     static void _cctor();
   }; // UnityEngine.ProBuilder.ColorUtility
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ColorUtility::approx
+  // Il2CppName: approx
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float)>(&ColorUtility::approx)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "approx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::GetColor
+  // Il2CppName: GetColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Vector3)>(&ColorUtility::GetColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::RGBToXYZ
+  // Il2CppName: RGBToXYZ
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::XYZColor* (*)(UnityEngine::Color)>(&ColorUtility::RGBToXYZ)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "RGBToXYZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::RGBToXYZ
+  // Il2CppName: RGBToXYZ
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::XYZColor* (*)(float, float, float)>(&ColorUtility::RGBToXYZ)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "RGBToXYZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::XYZToCIE_Lab
+  // Il2CppName: XYZToCIE_Lab
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::CIELabColor* (*)(UnityEngine::ProBuilder::XYZColor*)>(&ColorUtility::XYZToCIE_Lab)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "XYZToCIE_Lab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::XYZColor*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::DeltaE
+  // Il2CppName: DeltaE
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::ProBuilder::CIELabColor*, UnityEngine::ProBuilder::CIELabColor*)>(&ColorUtility::DeltaE)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "DeltaE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::CIELabColor*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::CIELabColor*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::HSVtoRGB
+  // Il2CppName: HSVtoRGB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::ProBuilder::HSVColor*)>(&ColorUtility::HSVtoRGB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "HSVtoRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::HSVColor*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::HSVtoRGB
+  // Il2CppName: HSVtoRGB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float)>(&ColorUtility::HSVtoRGB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "HSVtoRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::RGBtoHSV
+  // Il2CppName: RGBtoHSV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::HSVColor* (*)(UnityEngine::Color)>(&ColorUtility::RGBtoHSV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "RGBtoHSV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::GetColorName
+  // Il2CppName: GetColorName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Color)>(&ColorUtility::GetColorName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "GetColorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::CIELabFromRGB
+  // Il2CppName: CIELabFromRGB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::CIELabColor* (*)(float, float, float, float)>(&ColorUtility::CIELabFromRGB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), "CIELabFromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: ColorUtility::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ColorUtility::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ColorUtility*, "UnityEngine.ProBuilder", "ColorUtility");

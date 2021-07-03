@@ -72,7 +72,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isSupportLeg and: stepProgress
     char __padding5[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE0AB10
+    // [CompilerGeneratedAttribute] Offset: 0xE0BB0C
     // private System.Single <stepProgress>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -124,39 +124,117 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Footstep
     Footstep(float stepSpeed_ = {}, UnityEngine::Vector3 characterSpaceOffset_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Quaternion stepToRootRot_ = {}, bool isSupportLeg_ = {}, float stepProgress_ = {}, UnityEngine::Vector3 stepFrom_ = {}, UnityEngine::Vector3 stepTo_ = {}, UnityEngine::Quaternion stepFromRot_ = {}, UnityEngine::Quaternion stepToRot_ = {}, UnityEngine::Quaternion footRelativeToRoot_ = {}, float supportLegW_ = {}, float supportLegWV_ = {}) noexcept : stepSpeed{stepSpeed_}, characterSpaceOffset{characterSpaceOffset_}, position{position_}, rotation{rotation_}, stepToRootRot{stepToRootRot_}, isSupportLeg{isSupportLeg_}, stepProgress{stepProgress_}, stepFrom{stepFrom_}, stepTo{stepTo_}, stepFromRot{stepFromRot_}, stepToRot{stepToRot_}, footRelativeToRoot{footRelativeToRoot_}, supportLegW{supportLegW_}, supportLegWV{supportLegWV_} {}
     // public System.Boolean get_isStepping()
-    // Offset: 0x1DE14E4
+    // Offset: 0x1DFB240
     bool get_isStepping();
     // public System.Single get_stepProgress()
-    // Offset: 0x1DE14F8
+    // Offset: 0x1DFB254
     float get_stepProgress();
     // private System.Void set_stepProgress(System.Single value)
-    // Offset: 0x1DE1500
+    // Offset: 0x1DFB25C
     void set_stepProgress(float value);
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
-    // Offset: 0x1DE1508
+    // Offset: 0x1DFB264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverVR::Footstep* New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Footstep*, creationType>(rootRotation, footPosition, footRotation, characterSpaceOffset)));
     }
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
-    // Offset: 0x1DE1698
+    // Offset: 0x1DFB3F4
     void Reset(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
-    // Offset: 0x1DE16E0
+    // Offset: 0x1DFB43C
     void StepTo(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
-    // Offset: 0x1DE18A0
+    // Offset: 0x1DFB5FC
     void UpdateStepping(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
-    // Offset: 0x1DE1A78
+    // Offset: 0x1DFB7D4
     void UpdateStanding(UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
-    // Offset: 0x1DE1C64
+    // Offset: 0x1DFB9C0
     void Update(RootMotion::InterpolationMode interpolation, UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/Footstep
   #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::Footstep), 160 + sizeof(float)> __RootMotion_FinalIK_IKSolverVR_FootstepSizeCheck;
   static_assert(sizeof(IKSolverVR::Footstep) == 0xA4);
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::get_isStepping
+  // Il2CppName: get_isStepping
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKSolverVR::Footstep::*)()>(&IKSolverVR::Footstep::get_isStepping)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "get_isStepping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::get_stepProgress
+  // Il2CppName: get_stepProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IKSolverVR::Footstep::*)()>(&IKSolverVR::Footstep::get_stepProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "get_stepProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::set_stepProgress
+  // Il2CppName: set_stepProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(float)>(&IKSolverVR::Footstep::set_stepProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "set_stepProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&IKSolverVR::Footstep::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&IKSolverVR::Footstep::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Quaternion)>(&IKSolverVR::Footstep::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::StepTo
+  // Il2CppName: StepTo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&IKSolverVR::Footstep::StepTo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "StepTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::UpdateStepping
+  // Il2CppName: UpdateStepping
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&IKSolverVR::Footstep::UpdateStepping)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "UpdateStepping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::UpdateStanding
+  // Il2CppName: UpdateStanding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(UnityEngine::Quaternion, float, float)>(&IKSolverVR::Footstep::UpdateStanding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "UpdateStanding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IKSolverVR::Footstep::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Footstep::*)(RootMotion::InterpolationMode, UnityEngine::Events::UnityEvent*)>(&IKSolverVR::Footstep::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Footstep*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::InterpolationMode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Footstep*, "RootMotion.FinalIK", "IKSolverVR/Footstep");

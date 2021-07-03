@@ -51,21 +51,51 @@ namespace GlobalNamespace {
       return beatmapLevelData;
     }
     // public IBeatmapLevelData get_beatmapLevelData()
-    // Offset: 0x109B160
+    // Offset: 0x11992A4
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Void .ctor(CustomPreviewBeatmapLevel customPreviewBeatmapLevel, UnityEngine.AudioClip previewAudioClip)
-    // Offset: 0x109B168
+    // Offset: 0x11992AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevel* New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel* customPreviewBeatmapLevel, UnityEngine::AudioClip* previewAudioClip) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevel*, creationType>(customPreviewBeatmapLevel, previewAudioClip)));
     }
     // public System.Void SetBeatmapLevelData(BeatmapLevelData beatmapLevelData)
-    // Offset: 0x109B328
+    // Offset: 0x119946C
     void SetBeatmapLevelData(GlobalNamespace::BeatmapLevelData* beatmapLevelData);
   }; // CustomBeatmapLevel
   #pragma pack(pop)
   static check_size<sizeof(CustomBeatmapLevel), 168 + sizeof(GlobalNamespace::BeatmapLevelData*)> __GlobalNamespace_CustomBeatmapLevelSizeCheck;
   static_assert(sizeof(CustomBeatmapLevel) == 0xB0);
+  // Writing MetadataGetter for method: CustomBeatmapLevel::get_beatmapLevelData
+  // Il2CppName: get_beatmapLevelData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelData* (CustomBeatmapLevel::*)()>(&CustomBeatmapLevel::get_beatmapLevelData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevel::*)(GlobalNamespace::CustomPreviewBeatmapLevel*, UnityEngine::AudioClip*)>(&CustomBeatmapLevel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevel::*)(GlobalNamespace::CustomPreviewBeatmapLevel*, UnityEngine::AudioClip*)>(&CustomBeatmapLevel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevel::SetBeatmapLevelData
+  // Il2CppName: SetBeatmapLevelData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevel::*)(GlobalNamespace::BeatmapLevelData*)>(&CustomBeatmapLevel::SetBeatmapLevelData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), "SetBeatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelData*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevel*, "", "CustomBeatmapLevel");

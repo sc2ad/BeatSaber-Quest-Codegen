@@ -24,13 +24,29 @@ namespace Org::BouncyCastle::Pkcs {
     // Creating value type constructor for type: PrivateKeyInfoFactory
     PrivateKeyInfoFactory() noexcept {}
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
-    // Offset: 0x132E9D4
+    // Offset: 0x13496E4
     static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Array<::Il2CppChar>* passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, System.Boolean wrongPkcs12Zero, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
-    // Offset: 0x132E9E0
+    // Offset: 0x13496F0
     static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Array<::Il2CppChar>* passPhrase, bool wrongPkcs12Zero, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
   }; // Org.BouncyCastle.Pkcs.PrivateKeyInfoFactory
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PrivateKeyInfoFactory::CreatePrivateKeyInfo
+  // Il2CppName: CreatePrivateKeyInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&PrivateKeyInfoFactory::CreatePrivateKeyInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfoFactory*), "CreatePrivateKeyInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PrivateKeyInfoFactory::CreatePrivateKeyInfo
+  // Il2CppName: CreatePrivateKeyInfo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::Array<::Il2CppChar>*, bool, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&PrivateKeyInfoFactory::CreatePrivateKeyInfo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PrivateKeyInfoFactory*), "CreatePrivateKeyInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory*, "Org.BouncyCastle.Pkcs", "PrivateKeyInfoFactory");

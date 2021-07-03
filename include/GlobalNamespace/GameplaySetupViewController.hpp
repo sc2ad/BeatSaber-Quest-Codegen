@@ -145,14 +145,14 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerSettingsPanelController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24AA0
+    // [InjectAttribute] Offset: 0xE24B34
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA0
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE24AB0
+    // [CompilerGeneratedAttribute] Offset: 0xE24B44
     // private System.Action didChangeGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -212,57 +212,57 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameplaySetupViewController
     GameplaySetupViewController(HMUI::TextSegmentedControl* selectionSegmentedControl_ = {}, GlobalNamespace::PlayerSettingsPanelController* playerSettingsPanelController_ = {}, GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController_ = {}, GlobalNamespace::EnvironmentOverrideSettingsPanelController* environmentOverrideSettingsPanelController_ = {}, GlobalNamespace::ColorsOverrideSettingsPanelController* colorsOverrideSettingsPanelController_ = {}, GlobalNamespace::MultiplayerSettingsPanelController* multiplayerSettingsPanelController_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, System::Action* didChangeGameplayModifiersEvent_ = {}, System::Collections::Generic::List_1<GlobalNamespace::GameplaySetupViewController::Panel*>* panels_ = {}, int activePanelIdx_ = {}, bool showModifiers_ = {}, bool showEnvironmentOverrideSettings_ = {}, bool showColorSchemesSettings_ = {}, bool shouldRefreshContent_ = {}, bool isInitialized_ = {}, GlobalNamespace::GameplaySetupViewController::GameplayMode gameplayMode_ = {}) noexcept : selectionSegmentedControl{selectionSegmentedControl_}, playerSettingsPanelController{playerSettingsPanelController_}, gameplayModifiersPanelController{gameplayModifiersPanelController_}, environmentOverrideSettingsPanelController{environmentOverrideSettingsPanelController_}, colorsOverrideSettingsPanelController{colorsOverrideSettingsPanelController_}, multiplayerSettingsPanelController{multiplayerSettingsPanelController_}, playerDataModel{playerDataModel_}, didChangeGameplayModifiersEvent{didChangeGameplayModifiersEvent_}, panels{panels_}, activePanelIdx{activePanelIdx_}, showModifiers{showModifiers_}, showEnvironmentOverrideSettings{showEnvironmentOverrideSettings_}, showColorSchemesSettings{showColorSchemesSettings_}, shouldRefreshContent{shouldRefreshContent_}, isInitialized{isInitialized_}, gameplayMode{gameplayMode_} {}
     // public System.Void add_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x1047DC4
+    // Offset: 0x108CA50
     void add_didChangeGameplayModifiersEvent(System::Action* value);
     // public System.Void remove_didChangeGameplayModifiersEvent(System.Action value)
-    // Offset: 0x1047E68
+    // Offset: 0x108CAF4
     void remove_didChangeGameplayModifiersEvent(System::Action* value);
     // public PlayerSpecificSettings get_playerSettings()
-    // Offset: 0x1047F0C
+    // Offset: 0x108CB98
     GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1047F28
+    // Offset: 0x108CBB4
     GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public OverrideEnvironmentSettings get_environmentOverrideSettings()
-    // Offset: 0x1047F44
+    // Offset: 0x108CBD0
     GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
     // public ColorSchemesSettings get_colorSchemesSettings()
-    // Offset: 0x1047F6C
+    // Offset: 0x108CBF8
     GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // public System.Void Setup(System.Boolean showModifiers, System.Boolean showEnvironmentOverrideSettings, System.Boolean showColorSchemesSettings, GameplaySetupViewController/GameplayMode gameplayMode)
-    // Offset: 0x103CD60
+    // Offset: 0x10819EC
     void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, GlobalNamespace::GameplaySetupViewController::GameplayMode gameplayMode);
     // private System.Void Init()
-    // Offset: 0x1047F94
+    // Offset: 0x108CC20
     void Init();
     // protected System.Void OnDisable()
-    // Offset: 0x104861C
+    // Offset: 0x108D2A8
     void OnDisable();
     // private System.Void HandleSelectionSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x1048704
+    // Offset: 0x108D390
     void HandleSelectionSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // private System.Void HandlePlayerSettingsPanelControllerDidChangePlayerSettings()
-    // Offset: 0x10487C4
+    // Offset: 0x108D450
     void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
     // private System.Void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers()
-    // Offset: 0x104880C
+    // Offset: 0x108D498
     void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
     // private System.Void SetActivePanel(System.Int32 panelIdx)
-    // Offset: 0x104870C
+    // Offset: 0x108D398
     void SetActivePanel(int panelIdx);
     // private System.Void RefreshContent()
-    // Offset: 0x1048034
+    // Offset: 0x108CCC0
     void RefreshContent();
     // private System.Void RefreshActivePanel()
-    // Offset: 0x1048868
+    // Offset: 0x108D4F4
     void RefreshActivePanel();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10484D0
+    // Offset: 0x108D15C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x1048994
+    // Offset: 0x108D620
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -279,6 +279,148 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GameplaySetupViewController), 196 + sizeof(GlobalNamespace::GameplaySetupViewController::GameplayMode)> __GlobalNamespace_GameplaySetupViewControllerSizeCheck;
   static_assert(sizeof(GameplaySetupViewController) == 0xC8);
+  // Writing MetadataGetter for method: GameplaySetupViewController::add_didChangeGameplayModifiersEvent
+  // Il2CppName: add_didChangeGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(System::Action*)>(&GameplaySetupViewController::add_didChangeGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "add_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::remove_didChangeGameplayModifiersEvent
+  // Il2CppName: remove_didChangeGameplayModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(System::Action*)>(&GameplaySetupViewController::remove_didChangeGameplayModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "remove_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::get_playerSettings
+  // Il2CppName: get_playerSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_playerSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_playerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::get_gameplayModifiers
+  // Il2CppName: get_gameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_gameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::get_environmentOverrideSettings
+  // Il2CppName: get_environmentOverrideSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_environmentOverrideSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_environmentOverrideSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::get_colorSchemesSettings
+  // Il2CppName: get_colorSchemesSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_colorSchemesSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(bool, bool, bool, GlobalNamespace::GameplaySetupViewController::GameplayMode)>(&GameplaySetupViewController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplaySetupViewController::GameplayMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell
+  // Il2CppName: HandleSelectionSegmentedControlDidSelectCell
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(HMUI::SegmentedControl*, int)>(&GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "HandleSelectionSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings
+  // Il2CppName: HandlePlayerSettingsPanelControllerDidChangePlayerSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "HandlePlayerSettingsPanelControllerDidChangePlayerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers
+  // Il2CppName: HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::SetActivePanel
+  // Il2CppName: SetActivePanel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(int)>(&GameplaySetupViewController::SetActivePanel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "SetActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::RefreshContent
+  // Il2CppName: RefreshContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::RefreshContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::RefreshActivePanel
+  // Il2CppName: RefreshActivePanel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::RefreshActivePanel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "RefreshActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(bool, bool, bool)>(&GameplaySetupViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameplaySetupViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::GameplayMode, "", "GameplaySetupViewController/GameplayMode");

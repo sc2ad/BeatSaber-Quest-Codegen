@@ -22,10 +22,18 @@ namespace UnityEngine {
     // Creating value type constructor for type: WWWForm
     WWWForm() noexcept {}
     // static System.Text.Encoding get_DefaultEncoding()
-    // Offset: 0x23AE26C
+    // Offset: 0x23CA8A0
     static System::Text::Encoding* get_DefaultEncoding();
   }; // UnityEngine.WWWForm
   #pragma pack(pop)
+  // Writing MetadataGetter for method: WWWForm::get_DefaultEncoding
+  // Il2CppName: get_DefaultEncoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&WWWForm::get_DefaultEncoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WWWForm*), "get_DefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWForm*, "UnityEngine", "WWWForm");

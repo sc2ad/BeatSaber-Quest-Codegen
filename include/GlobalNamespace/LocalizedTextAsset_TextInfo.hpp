@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TextInfo
     TextInfo(Polyglot::Language language_ = {}, UnityEngine::TextAsset* localizedText_ = {}) noexcept : language{language_}, localizedText{localizedText_} {}
     // public System.Void .ctor()
-    // Offset: 0x10D4ECC
+    // Offset: 0x240004C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,5 +56,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LocalizedTextAsset::TextInfo), 24 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_LocalizedTextAsset_TextInfoSizeCheck;
   static_assert(sizeof(LocalizedTextAsset::TextInfo) == 0x20);
+  // Writing MetadataGetter for method: LocalizedTextAsset::TextInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextAsset::TextInfo::*)()>(&LocalizedTextAsset::TextInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizedTextAsset::TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextAsset::TextInfo::*)()>(&LocalizedTextAsset::TextInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LocalizedTextAsset::TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::TextInfo*, "", "LocalizedTextAsset/TextInfo");

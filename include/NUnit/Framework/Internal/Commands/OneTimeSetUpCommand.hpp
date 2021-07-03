@@ -82,14 +82,14 @@ namespace NUnit::Framework::Internal::Commands {
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
-    // Offset: 0x171DEAC
+    // Offset: 0x1735BBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeSetUpCommand* New_ctor(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::OneTimeSetUpCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeSetUpCommand*, creationType>(suite, setUpTearDown, actions)));
     }
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)
-    // Offset: 0x171DF04
+    // Offset: 0x1735C14
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
     // Base method: NUnit.Framework.Internal.TestResult TestCommand::Execute(NUnit.Framework.Internal.ITestExecutionContext context)
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
@@ -97,5 +97,27 @@ namespace NUnit::Framework::Internal::Commands {
   #pragma pack(pop)
   static check_size<sizeof(OneTimeSetUpCommand), 56 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)> __NUnit_Framework_Internal_Commands_OneTimeSetUpCommandSizeCheck;
   static_assert(sizeof(OneTimeSetUpCommand) == 0x40);
+  // Writing MetadataGetter for method: OneTimeSetUpCommand::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OneTimeSetUpCommand::*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&OneTimeSetUpCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OneTimeSetUpCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OneTimeSetUpCommand::*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&OneTimeSetUpCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OneTimeSetUpCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OneTimeSetUpCommand::Execute
+  // Il2CppName: Execute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (OneTimeSetUpCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&OneTimeSetUpCommand::Execute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OneTimeSetUpCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeSetUpCommand*, "NUnit.Framework.Internal.Commands", "OneTimeSetUpCommand");

@@ -42,6 +42,38 @@ namespace GlobalNamespace {
     void remove_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
   }; // IConnectedPlayerNoteEventManager
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasCutEvent
+  // Il2CppName: add_connectedPlayerNoteWasCutEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&IConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasCutEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IConnectedPlayerNoteEventManager*), "add_connectedPlayerNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasCutEvent
+  // Il2CppName: remove_connectedPlayerNoteWasCutEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&IConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasCutEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IConnectedPlayerNoteEventManager*), "remove_connectedPlayerNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasMissedEvent
+  // Il2CppName: add_connectedPlayerNoteWasMissedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&IConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasMissedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IConnectedPlayerNoteEventManager*), "add_connectedPlayerNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasMissedEvent
+  // Il2CppName: remove_connectedPlayerNoteWasMissedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&IConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasMissedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IConnectedPlayerNoteEventManager*), "remove_connectedPlayerNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayerNoteEventManager*, "", "IConnectedPlayerNoteEventManager");

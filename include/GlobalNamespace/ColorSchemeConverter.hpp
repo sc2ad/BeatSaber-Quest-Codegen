@@ -24,10 +24,18 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorSchemeConverter
     ColorSchemeConverter() noexcept {}
     // static public ColorScheme FromNetSerializable(ColorSchemeNetSerializable serialized)
-    // Offset: 0x10944F4
+    // Offset: 0x1192638
     static GlobalNamespace::ColorScheme* FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized);
   }; // ColorSchemeConverter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ColorSchemeConverter::FromNetSerializable
+  // Il2CppName: FromNetSerializable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (*)(GlobalNamespace::ColorSchemeNetSerializable)>(&ColorSchemeConverter::FromNetSerializable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorSchemeConverter*), "FromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeNetSerializable>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeConverter*, "", "ColorSchemeConverter");

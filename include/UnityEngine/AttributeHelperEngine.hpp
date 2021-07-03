@@ -49,19 +49,19 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.RequireComponent[] _requireComponentArray
     static void _set__requireComponentArray(::Array<UnityEngine::RequireComponent*>* value);
     // static private System.Type GetParentTypeDisallowingMultipleInclusion(System.Type type)
-    // Offset: 0x1B6F6EC
+    // Offset: 0x1B8B3FC
     static System::Type* GetParentTypeDisallowingMultipleInclusion(System::Type* type);
     // static private System.Type[] GetRequiredComponents(System.Type klass)
-    // Offset: 0x1B6F7EC
+    // Offset: 0x1B8B4FC
     static ::Array<System::Type*>* GetRequiredComponents(System::Type* klass);
     // static private System.Int32 GetExecuteMode(System.Type klass)
-    // Offset: 0x1B6FB00
+    // Offset: 0x1B8B810
     static int GetExecuteMode(System::Type* klass);
     // static private System.Int32 CheckIsEditorScript(System.Type klass)
-    // Offset: 0x1B6FC0C
+    // Offset: 0x1B8B91C
     static int CheckIsEditorScript(System::Type* klass);
     // static private System.Int32 GetDefaultExecutionOrderFor(System.Type klass)
-    // Offset: 0x1B6FCF4
+    // Offset: 0x1B8BA04
     static int GetDefaultExecutionOrderFor(System::Type* klass);
     // static private T GetCustomAttributeOfType(System.Type klass)
     // Offset: 0xFFFFFFFF
@@ -74,9 +74,60 @@ namespace UnityEngine {
       return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, klass);
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B6FD78
+    // Offset: 0x1B8BA88
     static void _cctor();
   }; // UnityEngine.AttributeHelperEngine
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion
+  // Il2CppName: GetParentTypeDisallowingMultipleInclusion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AttributeHelperEngine*), "GetParentTypeDisallowingMultipleInclusion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AttributeHelperEngine::GetRequiredComponents
+  // Il2CppName: GetRequiredComponents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&AttributeHelperEngine::GetRequiredComponents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AttributeHelperEngine*), "GetRequiredComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AttributeHelperEngine::GetExecuteMode
+  // Il2CppName: GetExecuteMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&AttributeHelperEngine::GetExecuteMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AttributeHelperEngine*), "GetExecuteMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AttributeHelperEngine::CheckIsEditorScript
+  // Il2CppName: CheckIsEditorScript
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&AttributeHelperEngine::CheckIsEditorScript)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AttributeHelperEngine*), "CheckIsEditorScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AttributeHelperEngine::GetDefaultExecutionOrderFor
+  // Il2CppName: GetDefaultExecutionOrderFor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&AttributeHelperEngine::GetDefaultExecutionOrderFor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AttributeHelperEngine*), "GetDefaultExecutionOrderFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AttributeHelperEngine::GetCustomAttributeOfType
+  // Il2CppName: GetCustomAttributeOfType
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: AttributeHelperEngine::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AttributeHelperEngine::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AttributeHelperEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine*, "UnityEngine", "AttributeHelperEngine");

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TagPropertyAttribute
     TagPropertyAttribute() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2351EA8
+    // Offset: 0x238ACB4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()
@@ -33,5 +33,19 @@ namespace GlobalNamespace {
     }
   }; // TagPropertyAttribute
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TagPropertyAttribute::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TagPropertyAttribute::*)()>(&TagPropertyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TagPropertyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TagPropertyAttribute::*)()>(&TagPropertyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TagPropertyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TagPropertyAttribute*, "", "TagPropertyAttribute");

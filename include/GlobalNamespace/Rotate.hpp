@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomize and: randomMinMultiplier
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xDE36BC
+    // [DrawIfAttribute] Offset: 0xDE35F0
     // public UnityEngine.Vector3 _randomMinMultiplier
     // Size: 0xC
     // Offset: 0x2C
     UnityEngine::Vector3 randomMinMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0xDE3754
+    // [DrawIfAttribute] Offset: 0xDE3688
     // public UnityEngine.Vector3 _randomMaxMultiplier
     // Size: 0xC
     // Offset: 0x38
@@ -84,22 +84,22 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1235DF4
+    // Offset: 0x125244C
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x1235EC0
+    // Offset: 0x1252518
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1235F90
+    // Offset: 0x12525E8
     void OnBecameInvisible();
     // protected System.Void Update()
-    // Offset: 0x1235F9C
+    // Offset: 0x12525F4
     void Update();
     // protected System.Void Randomize()
-    // Offset: 0x1235EEC
+    // Offset: 0x1252544
     void Randomize();
     // public System.Void .ctor()
-    // Offset: 0x1236134
+    // Offset: 0x125278C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,5 +115,59 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(Rotate), 92 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_RotateSizeCheck;
   static_assert(sizeof(Rotate) == 0x68);
+  // Writing MetadataGetter for method: Rotate::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rotate::OnBecameVisible
+  // Il2CppName: OnBecameVisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::OnBecameVisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rotate::OnBecameInvisible
+  // Il2CppName: OnBecameInvisible
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::OnBecameInvisible)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rotate::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rotate::Randomize
+  // Il2CppName: Randomize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Randomize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), "Randomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Rotate::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
       return showDebris;
     }
     // public System.Void .ctor(System.Boolean showDebris)
-    // Offset: 0x2345C04
+    // Offset: 0x235F960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainCameraCullingMask::InitData::.ctor");
@@ -41,5 +41,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MainCameraCullingMask::InitData), 16 + sizeof(bool)> __GlobalNamespace_MainCameraCullingMask_InitDataSizeCheck;
   static_assert(sizeof(MainCameraCullingMask::InitData) == 0x11);
+  // Writing MetadataGetter for method: MainCameraCullingMask::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCameraCullingMask::InitData::*)(bool)>(&MainCameraCullingMask::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainCameraCullingMask::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCameraCullingMask::InitData::*)(bool)>(&MainCameraCullingMask::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MainCameraCullingMask::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");

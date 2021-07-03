@@ -87,19 +87,51 @@ namespace System::Net {
     // Set static field: static private System.Collections.Hashtable s_QueuesCache
     static void _set_s_QueuesCache(System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x15A05D0
+    // Offset: 0x15BA2E0
     static void _cctor();
     // static System.Net.TimerThread/Queue CreateQueue(System.Int32 durationMilliseconds)
-    // Offset: 0x15A07E8
+    // Offset: 0x15BA4F8
     static System::Net::TimerThread::Queue* CreateQueue(int durationMilliseconds);
     // static private System.Void StopTimerThread()
-    // Offset: 0x15A0A94
+    // Offset: 0x15BA7A4
     static void StopTimerThread();
     // static private System.Void OnDomainUnload(System.Object sender, System.EventArgs e)
-    // Offset: 0x15A0B20
+    // Offset: 0x15BA830
     static void OnDomainUnload(::Il2CppObject* sender, System::EventArgs* e);
   }; // System.Net.TimerThread
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimerThread::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimerThread::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimerThread*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimerThread::CreateQueue
+  // Il2CppName: CreateQueue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::Queue* (*)(int)>(&TimerThread::CreateQueue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimerThread*), "CreateQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TimerThread::StopTimerThread
+  // Il2CppName: StopTimerThread
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimerThread::StopTimerThread)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimerThread*), "StopTimerThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimerThread::OnDomainUnload
+  // Il2CppName: OnDomainUnload
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::EventArgs*)>(&TimerThread::OnDomainUnload)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimerThread*), "OnDomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread*, "System.Net", "TimerThread");

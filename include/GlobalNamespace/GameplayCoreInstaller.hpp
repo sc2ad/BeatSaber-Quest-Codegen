@@ -35,8 +35,8 @@ namespace GlobalNamespace {
 }
 // Forward declaring namespace: DataModels::Levels
 namespace DataModels::Levels {
-  // Forward declaring type: BeatmapLoudnessModel
-  class BeatmapLoudnessModel;
+  // Forward declaring type: PerceivedLoudnessPerLevelModel
+  class PerceivedLoudnessPerLevelModel;
 }
 // Completed forward declares
 // Type namespace: 
@@ -52,11 +52,11 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatLineManager* beatLineManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE20A08
-    // private AudioManagerSO _audioMixer
+    // [SpaceAttribute] Offset: 0xE209E4
+    // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::AudioManagerSO* audioMixer;
+    GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
     // private BeatmapObjectSpawnControllerPlayerHeightSetter _beatmapObjectSpawnControllerPlayerHeightSetterPrefab
@@ -89,36 +89,36 @@ namespace GlobalNamespace {
     GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissedNoteEffectSpawner*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE20A90
+    // [SpaceAttribute] Offset: 0xE20A6C
     // private EffectPoolsManualInstaller _effectPoolsManualInstaller
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EffectPoolsManualInstaller*) == 0x8);
-    // [InjectAttribute] Offset: 0xE20AC8
+    // [InjectAttribute] Offset: 0xE20AA4
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x60
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0xE20AD8
-    // private readonly DataModels.Levels.BeatmapLoudnessModel _beatmapLoudnessModel
+    // [InjectAttribute] Offset: 0xE20AB4
+    // private readonly DataModels.Levels.PerceivedLoudnessPerLevelModel _perceivedLoudnessPerLevelModel
     // Size: 0x8
     // Offset: 0x68
-    DataModels::Levels::BeatmapLoudnessModel* beatmapLoudnessModel;
+    DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
-    static_assert(sizeof(DataModels::Levels::BeatmapLoudnessModel*) == 0x8);
+    static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
     // Creating value type constructor for type: GameplayCoreInstaller
-    GameplayCoreInstaller(GlobalNamespace::BeatLineManager* beatLineManagerPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioMixer_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::NoteCutScoreSpawner* noteCutScoreSpawnerPrefab_ = {}, GlobalNamespace::BadNoteCutEffectSpawner* badNoteCutEffectSpawnerPrefab_ = {}, GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, DataModels::Levels::BeatmapLoudnessModel* beatmapLoudnessModel_ = {}) noexcept : beatLineManagerPrefab{beatLineManagerPrefab_}, audioMixer{audioMixer_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, noteCutScoreSpawnerPrefab{noteCutScoreSpawnerPrefab_}, badNoteCutEffectSpawnerPrefab{badNoteCutEffectSpawnerPrefab_}, missedNoteEffectSpawnerPrefab{missedNoteEffectSpawnerPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, sceneSetupData{sceneSetupData_}, beatmapLoudnessModel{beatmapLoudnessModel_} {}
+    GameplayCoreInstaller(GlobalNamespace::BeatLineManager* beatLineManagerPrefab_ = {}, GlobalNamespace::AudioManagerSO* audioManager_ = {}, GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter* beatmapObjectSpawnControllerPlayerHeightSetterPrefab_ = {}, GlobalNamespace::PlayerHeightDetector* playerHeightDetectorPrefab_ = {}, GlobalNamespace::NoteCutScoreSpawner* noteCutScoreSpawnerPrefab_ = {}, GlobalNamespace::BadNoteCutEffectSpawner* badNoteCutEffectSpawnerPrefab_ = {}, GlobalNamespace::MissedNoteEffectSpawner* missedNoteEffectSpawnerPrefab_ = {}, GlobalNamespace::EffectPoolsManualInstaller* effectPoolsManualInstaller_ = {}, GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData_ = {}, DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel_ = {}) noexcept : beatLineManagerPrefab{beatLineManagerPrefab_}, audioManager{audioManager_}, beatmapObjectSpawnControllerPlayerHeightSetterPrefab{beatmapObjectSpawnControllerPlayerHeightSetterPrefab_}, playerHeightDetectorPrefab{playerHeightDetectorPrefab_}, noteCutScoreSpawnerPrefab{noteCutScoreSpawnerPrefab_}, badNoteCutEffectSpawnerPrefab{badNoteCutEffectSpawnerPrefab_}, missedNoteEffectSpawnerPrefab{missedNoteEffectSpawnerPrefab_}, effectPoolsManualInstaller{effectPoolsManualInstaller_}, sceneSetupData{sceneSetupData_}, perceivedLoudnessPerLevelModel{perceivedLoudnessPerLevelModel_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x104274C
+    // Offset: 0x10873D8
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1043E30
+    // Offset: 0x1088ABC
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -134,7 +134,29 @@ namespace GlobalNamespace {
     }
   }; // GameplayCoreInstaller
   #pragma pack(pop)
-  static check_size<sizeof(GameplayCoreInstaller), 104 + sizeof(DataModels::Levels::BeatmapLoudnessModel*)> __GlobalNamespace_GameplayCoreInstallerSizeCheck;
+  static check_size<sizeof(GameplayCoreInstaller), 104 + sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*)> __GlobalNamespace_GameplayCoreInstallerSizeCheck;
   static_assert(sizeof(GameplayCoreInstaller) == 0x70);
+  // Writing MetadataGetter for method: GameplayCoreInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayCoreInstaller::*)()>(&GameplayCoreInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayCoreInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameplayCoreInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayCoreInstaller::*)()>(&GameplayCoreInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayCoreInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayCoreInstaller::*)()>(&GameplayCoreInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameplayCoreInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreInstaller*, "", "GameplayCoreInstaller");

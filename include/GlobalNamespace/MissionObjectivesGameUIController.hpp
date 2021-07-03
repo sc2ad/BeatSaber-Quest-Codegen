@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     float elementWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE1BB00
+    // [InjectAttribute] Offset: 0xE1BADC
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x28
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1056B74
+    // Offset: 0x109B25C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1056F40
+    // Offset: 0x109B628
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x1057010
+    // Offset: 0x109B6F8
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0x1056C04
+    // Offset: 0x109B2EC
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0x1057014
+    // Offset: 0x109B6FC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -97,5 +97,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionObjectivesGameUIController), 48 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>*)> __GlobalNamespace_MissionObjectivesGameUIControllerSizeCheck;
   static_assert(sizeof(MissionObjectivesGameUIController) == 0x38);
+  // Writing MetadataGetter for method: MissionObjectivesGameUIController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectivesGameUIController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange
+  // Il2CppName: HandleMissionObjectiveCheckersManagerObjectivesListDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "HandleMissionObjectiveCheckersManagerObjectivesListDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectivesGameUIController::CreateUIElements
+  // Il2CppName: CreateUIElements
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::CreateUIElements)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "CreateUIElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionObjectivesGameUIController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectivesGameUIController*, "", "MissionObjectivesGameUIController");

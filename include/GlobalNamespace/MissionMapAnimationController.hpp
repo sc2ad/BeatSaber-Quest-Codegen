@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     HMUI::ScrollView* mapScrollView;
     // Field size check
     static_assert(sizeof(HMUI::ScrollView*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE2362C
+    // [SpaceAttribute] Offset: 0xE23608
     // private System.Single _startDelay
     // Size: 0x4
     // Offset: 0x28
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: stageAnimationDuration and: shockwaveEffect
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0xE236A4
+    // [InjectAttribute] Offset: 0xE23680
     // private MenuShockwave _shockwaveEffect
     // Size: 0x8
     // Offset: 0x40
@@ -111,28 +111,28 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_animatedUpdateIsRequired()
-    // Offset: 0x1052284
+    // Offset: 0x109696C
     bool get_animatedUpdateIsRequired();
     // public System.Void ScrollToTopMostNotClearedMission()
-    // Offset: 0x10523CC
+    // Offset: 0x1096AB4
     void ScrollToTopMostNotClearedMission();
     // public System.Void UpdateMissionMapAfterMissionWasCleared(System.Boolean animated, System.Action finishCallback)
-    // Offset: 0x105260C
+    // Offset: 0x1096CF4
     void UpdateMissionMapAfterMissionWasCleared(bool animated, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateMissionMapCoroutine(MissionNode lastClearedMissionNode, System.Action finishCallback)
-    // Offset: 0x1052748
+    // Offset: 0x1096E30
     System::Collections::IEnumerator* UpdateMissionMapCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode, System::Action* finishCallback);
     // private System.Collections.IEnumerator UpdateClearedNodeStateCoroutine(MissionNode lastClearedMissionNode)
-    // Offset: 0x10527F8
+    // Offset: 0x1096EE0
     System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(GlobalNamespace::MissionNode* lastClearedMissionNode);
     // private System.Collections.IEnumerator UpdateStageCoroutine()
-    // Offset: 0x10528A0
+    // Offset: 0x1096F88
     System::Collections::IEnumerator* UpdateStageCoroutine();
     // private System.Collections.IEnumerator UpdateNodesAndConnectionCoroutine()
-    // Offset: 0x105293C
+    // Offset: 0x1097024
     System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
     // public System.Void .ctor()
-    // Offset: 0x10529D8
+    // Offset: 0x10970C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -148,5 +148,75 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MissionMapAnimationController), 64 + sizeof(GlobalNamespace::MenuShockwave*)> __GlobalNamespace_MissionMapAnimationControllerSizeCheck;
   static_assert(sizeof(MissionMapAnimationController) == 0x48);
+  // Writing MetadataGetter for method: MissionMapAnimationController::get_animatedUpdateIsRequired
+  // Il2CppName: get_animatedUpdateIsRequired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionMapAnimationController::*)()>(&MissionMapAnimationController::get_animatedUpdateIsRequired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "get_animatedUpdateIsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::ScrollToTopMostNotClearedMission
+  // Il2CppName: ScrollToTopMostNotClearedMission
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::*)()>(&MissionMapAnimationController::ScrollToTopMostNotClearedMission)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "ScrollToTopMostNotClearedMission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared
+  // Il2CppName: UpdateMissionMapAfterMissionWasCleared
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::*)(bool, System::Action*)>(&MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "UpdateMissionMapAfterMissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::UpdateMissionMapCoroutine
+  // Il2CppName: UpdateMissionMapCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MissionMapAnimationController::*)(GlobalNamespace::MissionNode*, System::Action*)>(&MissionMapAnimationController::UpdateMissionMapCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "UpdateMissionMapCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::UpdateClearedNodeStateCoroutine
+  // Il2CppName: UpdateClearedNodeStateCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MissionMapAnimationController::*)(GlobalNamespace::MissionNode*)>(&MissionMapAnimationController::UpdateClearedNodeStateCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "UpdateClearedNodeStateCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::UpdateStageCoroutine
+  // Il2CppName: UpdateStageCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MissionMapAnimationController::*)()>(&MissionMapAnimationController::UpdateStageCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "UpdateStageCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::UpdateNodesAndConnectionCoroutine
+  // Il2CppName: UpdateNodesAndConnectionCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MissionMapAnimationController::*)()>(&MissionMapAnimationController::UpdateNodesAndConnectionCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), "UpdateNodesAndConnectionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MissionMapAnimationController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::*)()>(&MissionMapAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionMapAnimationController::*)()>(&MissionMapAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MissionMapAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "MissionMapAnimationController");

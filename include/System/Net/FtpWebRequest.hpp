@@ -337,119 +337,119 @@ namespace System::Net {
     // Set static field: static private readonly System.String[] supportedCommands
     static void _set_supportedCommands(::Array<::Il2CppString*>* value);
     // System.Void .ctor(System.Uri uri)
-    // Offset: 0x16A8C58
+    // Offset: 0x16BF968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FtpWebRequest* New_ctor(System::Uri* uri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebRequest*, creationType>(uri)));
     }
     // static private System.Exception GetMustImplement()
-    // Offset: 0x16A8D88
+    // Offset: 0x16BFA98
     static System::Exception* GetMustImplement();
     // public System.Boolean get_EnableSsl()
-    // Offset: 0x16A8FC4
+    // Offset: 0x16BFCD4
     bool get_EnableSsl();
     // public System.Int32 get_ReadWriteTimeout()
-    // Offset: 0x16A91E4
+    // Offset: 0x16BFEF4
     int get_ReadWriteTimeout();
     // public System.Net.ServicePoint get_ServicePoint()
-    // Offset: 0x16A91F4
+    // Offset: 0x16BFF04
     System::Net::ServicePoint* get_ServicePoint();
     // private System.String get_DataType()
-    // Offset: 0x16A9354
+    // Offset: 0x16C0064
     ::Il2CppString* get_DataType();
     // private System.Net.FtpWebRequest/RequestState get_State()
-    // Offset: 0x16A93B4
+    // Offset: 0x16C00C4
     System::Net::FtpWebRequest::RequestState get_State();
     // private System.Void set_State(System.Net.FtpWebRequest/RequestState value)
-    // Offset: 0x16A9440
+    // Offset: 0x16C0150
     void set_State(System::Net::FtpWebRequest::RequestState value);
     // private System.Net.ServicePoint GetServicePoint()
-    // Offset: 0x16A91F8
+    // Offset: 0x16BFF08
     System::Net::ServicePoint* GetServicePoint();
     // private System.Void ResolveHost()
-    // Offset: 0x16AA164
+    // Offset: 0x16C0E74
     void ResolveHost();
     // private System.Void ProcessRequest()
-    // Offset: 0x16AA27C
+    // Offset: 0x16C0F8C
     void ProcessRequest();
     // private System.Void SetType()
-    // Offset: 0x16AABC4
+    // Offset: 0x16C18D4
     void SetType();
     // private System.String GetRemoteFolderPath(System.Uri uri)
-    // Offset: 0x16AADF0
+    // Offset: 0x16C1B00
     ::Il2CppString* GetRemoteFolderPath(System::Uri* uri);
     // private System.Void CWDAndSetFileName(System.Uri uri)
-    // Offset: 0x16AAFC4
+    // Offset: 0x16C1CD4
     void CWDAndSetFileName(System::Uri* uri);
     // private System.Void ProcessMethod()
-    // Offset: 0x16AA45C
+    // Offset: 0x16C116C
     void ProcessMethod();
     // private System.Void CloseControlConnection()
-    // Offset: 0x16ABC98
+    // Offset: 0x16C29A8
     void CloseControlConnection();
     // System.Void CloseDataConnection()
-    // Offset: 0x16A74D4
+    // Offset: 0x16BE1E4
     void CloseDataConnection();
     // private System.Void CloseConnection()
-    // Offset: 0x16ABDAC
+    // Offset: 0x16C2ABC
     void CloseConnection();
     // private System.Void ProcessSimpleMethod()
-    // Offset: 0x16AB72C
+    // Offset: 0x16C243C
     void ProcessSimpleMethod();
     // private System.Void UploadData()
-    // Offset: 0x16AB688
+    // Offset: 0x16C2398
     void UploadData();
     // private System.Void DownloadData()
-    // Offset: 0x16AB5E8
+    // Offset: 0x16C22F8
     void DownloadData();
     // private System.Void CheckRequestStarted()
-    // Offset: 0x16A8F3C
+    // Offset: 0x16BFC4C
     void CheckRequestStarted();
     // private System.Void OpenControlConnection()
-    // Offset: 0x16AB144
+    // Offset: 0x16C1E54
     void OpenControlConnection();
     // static private System.String GetInitialPath(System.Net.FtpStatus status)
-    // Offset: 0x16AC5DC
+    // Offset: 0x16C32EC
     static ::Il2CppString* GetInitialPath(System::Net::FtpStatus* status);
     // private System.Net.Sockets.Socket SetupPassiveConnection(System.String statusDescription, System.Boolean ipv6)
-    // Offset: 0x16AC764
+    // Offset: 0x16C3474
     System::Net::Sockets::Socket* SetupPassiveConnection(::Il2CppString* statusDescription, bool ipv6);
     // private System.Int32 GetPortV4(System.String responseString)
-    // Offset: 0x16AC934
+    // Offset: 0x16C3644
     int GetPortV4(::Il2CppString* responseString);
     // private System.Int32 GetPortV6(System.String responseString)
-    // Offset: 0x16ACB70
+    // Offset: 0x16C3880
     int GetPortV6(::Il2CppString* responseString);
     // private System.String FormatAddress(System.Net.IPAddress address, System.Int32 Port)
-    // Offset: 0x16ACD40
+    // Offset: 0x16C3A50
     ::Il2CppString* FormatAddress(System::Net::IPAddress* address, int Port);
     // private System.String FormatAddressV6(System.Net.IPAddress address, System.Int32 port)
-    // Offset: 0x16ACE84
+    // Offset: 0x16C3B94
     ::Il2CppString* FormatAddressV6(System::Net::IPAddress* address, int port);
     // private System.Exception CreateExceptionFromResponse(System.Net.FtpStatus status)
-    // Offset: 0x16AAD10
+    // Offset: 0x16C1A20
     System::Exception* CreateExceptionFromResponse(System::Net::FtpStatus* status);
     // System.Void SetTransferCompleted()
-    // Offset: 0x16A750C
+    // Offset: 0x16BE21C
     void SetTransferCompleted();
     // System.Void OperationCompleted()
-    // Offset: 0x16ACF90
+    // Offset: 0x16C3CA0
     void OperationCompleted();
     // private System.Void SetCompleteWithError(System.Exception exc)
-    // Offset: 0x16AA8EC
+    // Offset: 0x16C15FC
     void SetCompleteWithError(System::Exception* exc);
     // private System.Net.Sockets.Socket InitDataConnection()
-    // Offset: 0x16ACFA0
+    // Offset: 0x16C3CB0
     System::Net::Sockets::Socket* InitDataConnection();
     // private System.Void OpenDataConnection()
-    // Offset: 0x16ABDE8
+    // Offset: 0x16C2AF8
     void OpenDataConnection();
     // private System.Void Authenticate()
-    // Offset: 0x16AC1F8
+    // Offset: 0x16C2F08
     void Authenticate();
     // private System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
-    // Offset: 0x16AAD00
+    // Offset: 0x16C1A10
     System::Net::FtpStatus* SendCommand(::Il2CppString* command, ::Array<::Il2CppString*>* parameters);
     // Creating initializer_list -> params proxy for: System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
     System::Net::FtpStatus* SendCommand(::Il2CppString* command, std::initializer_list<::Il2CppString*> parameters);
@@ -459,7 +459,7 @@ namespace System::Net {
       return SendCommand(command, {parameters...});
     }
     // private System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
-    // Offset: 0x16A9740
+    // Offset: 0x16C0450
     System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, ::Array<::Il2CppString*>* parameters);
     // Creating initializer_list -> params proxy for: System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
     System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, std::initializer_list<::Il2CppString*> parameters);
@@ -469,136 +469,136 @@ namespace System::Net {
       return SendCommand(waitResponse, command, {parameters...});
     }
     // static System.Net.FtpStatus ServiceNotAvailable()
-    // Offset: 0x16AD694
+    // Offset: 0x16C43A4
     static System::Net::FtpStatus* ServiceNotAvailable();
     // System.Net.FtpStatus GetResponseStatus()
-    // Offset: 0x16AA944
+    // Offset: 0x16C1654
     System::Net::FtpStatus* GetResponseStatus();
     // private System.Void InitiateSecureConnection(ref System.IO.Stream stream)
-    // Offset: 0x16AD594
+    // Offset: 0x16C42A4
     void InitiateSecureConnection(System::IO::Stream*& stream);
     // System.Boolean ChangeToSSLSocket(ref System.IO.Stream stream)
-    // Offset: 0x16AD3B4
+    // Offset: 0x16C40C4
     bool ChangeToSSLSocket(System::IO::Stream*& stream);
     // private System.Boolean InFinalState()
-    // Offset: 0x16A991C
+    // Offset: 0x16C062C
     bool InFinalState();
     // private System.Boolean InProgress()
-    // Offset: 0x16AA908
+    // Offset: 0x16C1618
     bool InProgress();
     // System.Void CheckIfAborted()
-    // Offset: 0x16A7444
+    // Offset: 0x16BE154
     void CheckIfAborted();
     // private System.Void CheckFinalState()
-    // Offset: 0x16A94E0
+    // Offset: 0x16C01F0
     void CheckFinalState();
     // public override System.Void set_ConnectionGroupName(System.String value)
-    // Offset: 0x16A8DE4
+    // Offset: 0x16BFAF4
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ConnectionGroupName(System.String value)
     void set_ConnectionGroupName(::Il2CppString* value);
     // public override System.Int64 get_ContentLength()
-    // Offset: 0x16A8E48
+    // Offset: 0x16BFB58
     // Implemented from: System.Net.WebRequest
     // Base method: System.Int64 WebRequest::get_ContentLength()
     int64_t get_ContentLength();
     // public override System.Void set_ContentLength(System.Int64 value)
-    // Offset: 0x16A8E50
+    // Offset: 0x16BFB60
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ContentLength(System.Int64 value)
     void set_ContentLength(int64_t value);
     // public override System.Net.ICredentials get_Credentials()
-    // Offset: 0x16A8E54
+    // Offset: 0x16BFB64
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.ICredentials WebRequest::get_Credentials()
     System::Net::ICredentials* get_Credentials();
     // public override System.Void set_Credentials(System.Net.ICredentials value)
-    // Offset: 0x16A8E5C
+    // Offset: 0x16BFB6C
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Credentials(System.Net.ICredentials value)
     void set_Credentials(System::Net::ICredentials* value);
     // public override System.Net.WebHeaderCollection get_Headers()
-    // Offset: 0x16A8FCC
+    // Offset: 0x16BFCDC
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.WebHeaderCollection WebRequest::get_Headers()
     System::Net::WebHeaderCollection* get_Headers();
     // public override System.String get_Method()
-    // Offset: 0x16A9030
+    // Offset: 0x16BFD40
     // Implemented from: System.Net.WebRequest
     // Base method: System.String WebRequest::get_Method()
     ::Il2CppString* get_Method();
     // public override System.Void set_Method(System.String value)
-    // Offset: 0x16A9038
+    // Offset: 0x16BFD48
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Method(System.String value)
     void set_Method(::Il2CppString* value);
     // public override System.Void set_PreAuthenticate(System.Boolean value)
-    // Offset: 0x16A9154
+    // Offset: 0x16BFE64
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_PreAuthenticate(System.Boolean value)
     void set_PreAuthenticate(bool value);
     // public override System.Net.IWebProxy get_Proxy()
-    // Offset: 0x16A91B4
+    // Offset: 0x16BFEC4
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.IWebProxy WebRequest::get_Proxy()
     System::Net::IWebProxy* get_Proxy();
     // public override System.Void set_Proxy(System.Net.IWebProxy value)
-    // Offset: 0x16A91BC
+    // Offset: 0x16BFECC
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Proxy(System.Net.IWebProxy value)
     void set_Proxy(System::Net::IWebProxy* value);
     // public override System.Uri get_RequestUri()
-    // Offset: 0x16A91EC
+    // Offset: 0x16BFEFC
     // Implemented from: System.Net.WebRequest
     // Base method: System.Uri WebRequest::get_RequestUri()
     System::Uri* get_RequestUri();
     // public override System.Boolean get_UseDefaultCredentials()
-    // Offset: 0x16A9284
+    // Offset: 0x16BFF94
     // Implemented from: System.Net.WebRequest
     // Base method: System.Boolean WebRequest::get_UseDefaultCredentials()
     bool get_UseDefaultCredentials();
     // public override System.Void set_UseDefaultCredentials(System.Boolean value)
-    // Offset: 0x16A92E8
+    // Offset: 0x16BFFF8
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_UseDefaultCredentials(System.Boolean value)
     void set_UseDefaultCredentials(bool value);
     // public override System.Int32 get_Timeout()
-    // Offset: 0x16A934C
+    // Offset: 0x16C005C
     // Implemented from: System.Net.WebRequest
     // Base method: System.Int32 WebRequest::get_Timeout()
     int get_Timeout();
     // public override System.Void Abort()
-    // Offset: 0x16A9568
+    // Offset: 0x16C0278
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::Abort()
     void Abort();
     // public override System.IAsyncResult BeginGetResponse(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x16A996C
+    // Offset: 0x16C067C
     // Implemented from: System.Net.WebRequest
     // Base method: System.IAsyncResult WebRequest::BeginGetResponse(System.AsyncCallback callback, System.Object state)
     System::IAsyncResult* BeginGetResponse(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.Net.WebResponse EndGetResponse(System.IAsyncResult asyncResult)
-    // Offset: 0x16A9B74
+    // Offset: 0x16C0884
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.WebResponse WebRequest::EndGetResponse(System.IAsyncResult asyncResult)
     System::Net::WebResponse* EndGetResponse(System::IAsyncResult* asyncResult);
     // public override System.Net.WebResponse GetResponse()
-    // Offset: 0x16A9CE8
+    // Offset: 0x16C09F8
     // Implemented from: System.Net.WebRequest
     // Base method: System.Net.WebResponse WebRequest::GetResponse()
     System::Net::WebResponse* GetResponse();
     // public override System.IAsyncResult BeginGetRequestStream(System.AsyncCallback callback, System.Object state)
-    // Offset: 0x16A9D30
+    // Offset: 0x16C0A40
     // Implemented from: System.Net.WebRequest
     // Base method: System.IAsyncResult WebRequest::BeginGetRequestStream(System.AsyncCallback callback, System.Object state)
     System::IAsyncResult* BeginGetRequestStream(System::AsyncCallback* callback, ::Il2CppObject* state);
     // public override System.IO.Stream EndGetRequestStream(System.IAsyncResult asyncResult)
-    // Offset: 0x16A9F6C
+    // Offset: 0x16C0C7C
     // Implemented from: System.Net.WebRequest
     // Base method: System.IO.Stream WebRequest::EndGetRequestStream(System.IAsyncResult asyncResult)
     System::IO::Stream* EndGetRequestStream(System::IAsyncResult* asyncResult);
     // static private System.Void .cctor()
-    // Offset: 0x16AD718
+    // Offset: 0x16C4428
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::.cctor()
     static void _cctor();
@@ -606,6 +606,556 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(FtpWebRequest), 216 + sizeof(System::Text::Encoding*)> __System_Net_FtpWebRequestSizeCheck;
   static_assert(sizeof(FtpWebRequest) == 0xE0);
+  // Writing MetadataGetter for method: FtpWebRequest::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Uri*)>(&FtpWebRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Uri*)>(&FtpWebRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetMustImplement
+  // Il2CppName: GetMustImplement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&FtpWebRequest::GetMustImplement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetMustImplement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_EnableSsl
+  // Il2CppName: get_EnableSsl
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FtpWebRequest::*)()>(&FtpWebRequest::get_EnableSsl)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_EnableSsl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_ReadWriteTimeout
+  // Il2CppName: get_ReadWriteTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FtpWebRequest::*)()>(&FtpWebRequest::get_ReadWriteTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_ReadWriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_ServicePoint
+  // Il2CppName: get_ServicePoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (FtpWebRequest::*)()>(&FtpWebRequest::get_ServicePoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_ServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_DataType
+  // Il2CppName: get_DataType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FtpWebRequest::*)()>(&FtpWebRequest::get_DataType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_DataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_State
+  // Il2CppName: get_State
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpWebRequest::RequestState (FtpWebRequest::*)()>(&FtpWebRequest::get_State)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_State
+  // Il2CppName: set_State
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Net::FtpWebRequest::RequestState)>(&FtpWebRequest::set_State)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpWebRequest::RequestState>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetServicePoint
+  // Il2CppName: GetServicePoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (FtpWebRequest::*)()>(&FtpWebRequest::GetServicePoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::ResolveHost
+  // Il2CppName: ResolveHost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::ResolveHost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "ResolveHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::ProcessRequest
+  // Il2CppName: ProcessRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::ProcessRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "ProcessRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::SetType
+  // Il2CppName: SetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::SetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "SetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetRemoteFolderPath
+  // Il2CppName: GetRemoteFolderPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FtpWebRequest::*)(System::Uri*)>(&FtpWebRequest::GetRemoteFolderPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetRemoteFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CWDAndSetFileName
+  // Il2CppName: CWDAndSetFileName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Uri*)>(&FtpWebRequest::CWDAndSetFileName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CWDAndSetFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::ProcessMethod
+  // Il2CppName: ProcessMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::ProcessMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "ProcessMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CloseControlConnection
+  // Il2CppName: CloseControlConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::CloseControlConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CloseControlConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CloseDataConnection
+  // Il2CppName: CloseDataConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::CloseDataConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CloseDataConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CloseConnection
+  // Il2CppName: CloseConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::CloseConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CloseConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::ProcessSimpleMethod
+  // Il2CppName: ProcessSimpleMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::ProcessSimpleMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "ProcessSimpleMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::UploadData
+  // Il2CppName: UploadData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::UploadData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "UploadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::DownloadData
+  // Il2CppName: DownloadData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::DownloadData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "DownloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CheckRequestStarted
+  // Il2CppName: CheckRequestStarted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::CheckRequestStarted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CheckRequestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::OpenControlConnection
+  // Il2CppName: OpenControlConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::OpenControlConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "OpenControlConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetInitialPath
+  // Il2CppName: GetInitialPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::FtpStatus*)>(&FtpWebRequest::GetInitialPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetInitialPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpStatus*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::SetupPassiveConnection
+  // Il2CppName: SetupPassiveConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (FtpWebRequest::*)(::Il2CppString*, bool)>(&FtpWebRequest::SetupPassiveConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "SetupPassiveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetPortV4
+  // Il2CppName: GetPortV4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FtpWebRequest::*)(::Il2CppString*)>(&FtpWebRequest::GetPortV4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetPortV4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetPortV6
+  // Il2CppName: GetPortV6
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FtpWebRequest::*)(::Il2CppString*)>(&FtpWebRequest::GetPortV6)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetPortV6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::FormatAddress
+  // Il2CppName: FormatAddress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FtpWebRequest::*)(System::Net::IPAddress*, int)>(&FtpWebRequest::FormatAddress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "FormatAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::FormatAddressV6
+  // Il2CppName: FormatAddressV6
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FtpWebRequest::*)(System::Net::IPAddress*, int)>(&FtpWebRequest::FormatAddressV6)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "FormatAddressV6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CreateExceptionFromResponse
+  // Il2CppName: CreateExceptionFromResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (FtpWebRequest::*)(System::Net::FtpStatus*)>(&FtpWebRequest::CreateExceptionFromResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CreateExceptionFromResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpStatus*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::SetTransferCompleted
+  // Il2CppName: SetTransferCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::SetTransferCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "SetTransferCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::OperationCompleted
+  // Il2CppName: OperationCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::OperationCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "OperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::SetCompleteWithError
+  // Il2CppName: SetCompleteWithError
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Exception*)>(&FtpWebRequest::SetCompleteWithError)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "SetCompleteWithError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::InitDataConnection
+  // Il2CppName: InitDataConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (FtpWebRequest::*)()>(&FtpWebRequest::InitDataConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "InitDataConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::OpenDataConnection
+  // Il2CppName: OpenDataConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::OpenDataConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "OpenDataConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::Authenticate
+  // Il2CppName: Authenticate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::Authenticate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::SendCommand
+  // Il2CppName: SendCommand
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (FtpWebRequest::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&FtpWebRequest::SendCommand)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "SendCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::SendCommand
+  // Il2CppName: SendCommand
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (FtpWebRequest::*)(bool, ::Il2CppString*, ::Array<::Il2CppString*>*)>(&FtpWebRequest::SendCommand)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "SendCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::ServiceNotAvailable
+  // Il2CppName: ServiceNotAvailable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (*)()>(&FtpWebRequest::ServiceNotAvailable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "ServiceNotAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetResponseStatus
+  // Il2CppName: GetResponseStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (FtpWebRequest::*)()>(&FtpWebRequest::GetResponseStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetResponseStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::InitiateSecureConnection
+  // Il2CppName: InitiateSecureConnection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::IO::Stream*&)>(&FtpWebRequest::InitiateSecureConnection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "InitiateSecureConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::ChangeToSSLSocket
+  // Il2CppName: ChangeToSSLSocket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FtpWebRequest::*)(System::IO::Stream*&)>(&FtpWebRequest::ChangeToSSLSocket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "ChangeToSSLSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::InFinalState
+  // Il2CppName: InFinalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FtpWebRequest::*)()>(&FtpWebRequest::InFinalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "InFinalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::InProgress
+  // Il2CppName: InProgress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FtpWebRequest::*)()>(&FtpWebRequest::InProgress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "InProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CheckIfAborted
+  // Il2CppName: CheckIfAborted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::CheckIfAborted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CheckIfAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::CheckFinalState
+  // Il2CppName: CheckFinalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::CheckFinalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "CheckFinalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_ConnectionGroupName
+  // Il2CppName: set_ConnectionGroupName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(::Il2CppString*)>(&FtpWebRequest::set_ConnectionGroupName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_ContentLength
+  // Il2CppName: get_ContentLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (FtpWebRequest::*)()>(&FtpWebRequest::get_ContentLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_ContentLength
+  // Il2CppName: set_ContentLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(int64_t)>(&FtpWebRequest::set_ContentLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_Credentials
+  // Il2CppName: get_Credentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (FtpWebRequest::*)()>(&FtpWebRequest::get_Credentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_Credentials
+  // Il2CppName: set_Credentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Net::ICredentials*)>(&FtpWebRequest::set_Credentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_Headers
+  // Il2CppName: get_Headers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (FtpWebRequest::*)()>(&FtpWebRequest::get_Headers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_Method
+  // Il2CppName: get_Method
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FtpWebRequest::*)()>(&FtpWebRequest::get_Method)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_Method
+  // Il2CppName: set_Method
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(::Il2CppString*)>(&FtpWebRequest::set_Method)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_PreAuthenticate
+  // Il2CppName: set_PreAuthenticate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(bool)>(&FtpWebRequest::set_PreAuthenticate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_Proxy
+  // Il2CppName: get_Proxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (FtpWebRequest::*)()>(&FtpWebRequest::get_Proxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_Proxy
+  // Il2CppName: set_Proxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(System::Net::IWebProxy*)>(&FtpWebRequest::set_Proxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebProxy*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_RequestUri
+  // Il2CppName: get_RequestUri
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (FtpWebRequest::*)()>(&FtpWebRequest::get_RequestUri)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_RequestUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_UseDefaultCredentials
+  // Il2CppName: get_UseDefaultCredentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FtpWebRequest::*)()>(&FtpWebRequest::get_UseDefaultCredentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::set_UseDefaultCredentials
+  // Il2CppName: set_UseDefaultCredentials
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)(bool)>(&FtpWebRequest::set_UseDefaultCredentials)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "set_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::get_Timeout
+  // Il2CppName: get_Timeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FtpWebRequest::*)()>(&FtpWebRequest::get_Timeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "get_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::Abort
+  // Il2CppName: Abort
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpWebRequest::*)()>(&FtpWebRequest::Abort)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::BeginGetResponse
+  // Il2CppName: BeginGetResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FtpWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&FtpWebRequest::BeginGetResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "BeginGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::EndGetResponse
+  // Il2CppName: EndGetResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (FtpWebRequest::*)(System::IAsyncResult*)>(&FtpWebRequest::EndGetResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "EndGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::GetResponse
+  // Il2CppName: GetResponse
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (FtpWebRequest::*)()>(&FtpWebRequest::GetResponse)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::BeginGetRequestStream
+  // Il2CppName: BeginGetRequestStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FtpWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&FtpWebRequest::BeginGetRequestStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "BeginGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::EndGetRequestStream
+  // Il2CppName: EndGetRequestStream
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (FtpWebRequest::*)(System::IAsyncResult*)>(&FtpWebRequest::EndGetRequestStream)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), "EndGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FtpWebRequest::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FtpWebRequest::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FtpWebRequest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest*, "System.Net", "FtpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpWebRequest::RequestState, "System.Net", "FtpWebRequest/RequestState");

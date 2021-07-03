@@ -49,31 +49,95 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
     static void _set_s_CachedValues(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // static private System.Reflection.Assembly[] GetAssemblies()
-    // Offset: 0x13D765C
+    // Offset: 0x13F236C
     static ::Array<System::Reflection::Assembly*>* GetAssemblies();
     // static System.Int32 GetCachedValueCount()
-    // Offset: 0x13D7680
+    // Offset: 0x13F2390
     static int GetCachedValueCount();
     // static public System.Void SetPropertyValue(System.String name, System.String val)
-    // Offset: 0x13D76FC
+    // Offset: 0x13F240C
     static void SetPropertyValue(::Il2CppString* name, ::Il2CppString* val);
     // static public System.Void ClearCachedPropertyValues()
-    // Offset: 0x13D7790
+    // Offset: 0x13F24A0
     static void ClearCachedPropertyValues();
     // static public System.String EvaluateProperty(System.String name)
-    // Offset: 0x13D780C
+    // Offset: 0x13F251C
     static ::Il2CppString* EvaluateProperty(::Il2CppString* name);
     // static public System.String EvaluateString(System.String input)
-    // Offset: 0x13CE5E8
+    // Offset: 0x13E92F8
     static ::Il2CppString* EvaluateString(::Il2CppString* input);
     // static public System.String EvaluateString(System.String inputString, System.Char startDelimiter, System.Char endDelimiter, System.Func`2<System.String,System.String> varFunc)
-    // Offset: 0x13D7C48
+    // Offset: 0x13F2958
     static ::Il2CppString* EvaluateString(::Il2CppString* inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, System::Func_2<::Il2CppString*, ::Il2CppString*>* varFunc);
     // static private System.Void .cctor()
-    // Offset: 0x13D813C
+    // Offset: 0x13F2E4C
     static void _cctor();
   }; // UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::GetAssemblies
+  // Il2CppName: GetAssemblies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (*)()>(&AddressablesRuntimeProperties::GetAssemblies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::GetCachedValueCount
+  // Il2CppName: GetCachedValueCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&AddressablesRuntimeProperties::GetCachedValueCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "GetCachedValueCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::SetPropertyValue
+  // Il2CppName: SetPropertyValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&AddressablesRuntimeProperties::SetPropertyValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "SetPropertyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::ClearCachedPropertyValues
+  // Il2CppName: ClearCachedPropertyValues
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AddressablesRuntimeProperties::ClearCachedPropertyValues)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "ClearCachedPropertyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::EvaluateProperty
+  // Il2CppName: EvaluateProperty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&AddressablesRuntimeProperties::EvaluateProperty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "EvaluateProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::EvaluateString
+  // Il2CppName: EvaluateString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&AddressablesRuntimeProperties::EvaluateString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "EvaluateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::EvaluateString
+  // Il2CppName: EvaluateString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppChar, ::Il2CppChar, System::Func_2<::Il2CppString*, ::Il2CppString*>*)>(&AddressablesRuntimeProperties::EvaluateString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), "EvaluateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppString*, ::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AddressablesRuntimeProperties::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AddressablesRuntimeProperties::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AddressablesRuntimeProperties*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*, "UnityEngine.AddressableAssets.Initialization", "AddressablesRuntimeProperties");

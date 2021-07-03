@@ -92,9 +92,13 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BakedReflectionProbeInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedReflectionProbeInstaller*, creationType>()));
     }
-  }; // BakedReflectionProbeInstaller
-  #pragma pack(pop)
-  static check_size<sizeof(BakedReflectionProbeInstaller), 64 + sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*)> __GlobalNamespace_BakedReflectionProbeInstallerSizeCheck;
-  static_assert(sizeof(BakedReflectionProbeInstaller) == 0x48);
+    // MethodInfo getter for: New_ctor
+    static inline MethodInfo* get() const {
+    }
+  };
+}; // BakedReflectionProbeInstaller
+#pragma pack(pop)
+static check_size<sizeof(BakedReflectionProbeInstaller), 64 + sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*)> __GlobalNamespace_BakedReflectionProbeInstallerSizeCheck;
+static_assert(sizeof(BakedReflectionProbeInstaller) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedReflectionProbeInstaller*, "", "BakedReflectionProbeInstaller");

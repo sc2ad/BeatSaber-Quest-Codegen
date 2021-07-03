@@ -60,21 +60,51 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDerivationFunction*>(this);
     }
     // public System.Void .ctor(System.Int32 counterStart, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x18A66AC
+    // Offset: 0x18BE3BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseKdfBytesGenerator* New_ctor(int counterStart, Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseKdfBytesGenerator*, creationType>(counterStart, digest)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
-    // Offset: 0x18A66E8
+    // Offset: 0x18BE3F8
     void Init(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
-    // Offset: 0x18A67F0
+    // Offset: 0x18BE500
     int GenerateBytes(::Array<uint8_t>* output, int outOff, int length);
   }; // Org.BouncyCastle.Crypto.Generators.BaseKdfBytesGenerator
   #pragma pack(pop)
   static check_size<sizeof(BaseKdfBytesGenerator), 40 + sizeof(::Array<uint8_t>*)> __Org_BouncyCastle_Crypto_Generators_BaseKdfBytesGeneratorSizeCheck;
   static_assert(sizeof(BaseKdfBytesGenerator) == 0x30);
+  // Writing MetadataGetter for method: BaseKdfBytesGenerator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseKdfBytesGenerator::*)(int, Org::BouncyCastle::Crypto::IDigest*)>(&BaseKdfBytesGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseKdfBytesGenerator::*)(int, Org::BouncyCastle::Crypto::IDigest*)>(&BaseKdfBytesGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseKdfBytesGenerator::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseKdfBytesGenerator::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&BaseKdfBytesGenerator::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDerivationParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BaseKdfBytesGenerator::GenerateBytes
+  // Il2CppName: GenerateBytes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BaseKdfBytesGenerator::*)(::Array<uint8_t>*, int, int)>(&BaseKdfBytesGenerator::GenerateBytes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), "GenerateBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "BaseKdfBytesGenerator");

@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isInitialized and: tweeningManager
     char __padding1[0x7] = {};
-    // [InjectAttribute] Offset: 0xE1A76C
+    // [InjectAttribute] Offset: 0xE1A748
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -71,40 +71,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void OnDestroy()
-    // Offset: 0x1048A44
+    // Offset: 0x108D6D0
     void OnDestroy();
     // protected System.Void Awake()
-    // Offset: 0x1048ADC
+    // Offset: 0x108D768
     void Awake();
     // private System.Void Init()
-    // Offset: 0x1048AEC
+    // Offset: 0x108D778
     void Init();
     // public System.Void Animate(GhostDuplicationEffect/GhostEffectParams ghostEffectParams)
-    // Offset: 0x1048C64
+    // Offset: 0x108D8F0
     void Animate(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams ghostEffectParams);
     // private System.Collections.IEnumerator HideRedundantWithDelay(System.Single delay)
-    // Offset: 0x1048FF4
+    // Offset: 0x108DC80
     System::Collections::IEnumerator* HideRedundantWithDelay(float delay);
     // private System.Void SetDistances(System.Single distance, UnityEngine.Vector3 direction)
-    // Offset: 0x10490A0
+    // Offset: 0x108DD2C
     void SetDistances(float distance, UnityEngine::Vector3 direction);
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1049208
+    // Offset: 0x108DE94
     void set_hide(bool value);
     // private System.Void set_size(System.Single value)
-    // Offset: 0x1049240
+    // Offset: 0x108DECC
     void set_size(float value);
     // private System.Single get_size()
-    // Offset: 0x1049304
+    // Offset: 0x108DF90
     float get_size();
     // private System.Void set_alpha(System.Single value)
-    // Offset: 0x1048B88
+    // Offset: 0x108D814
     void set_alpha(float value);
     // private System.Single get_alpha()
-    // Offset: 0x1049358
+    // Offset: 0x108DFE4
     float get_alpha();
     // public System.Void .ctor()
-    // Offset: 0x10493A4
+    // Offset: 0x108E030
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -120,5 +120,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(GhostDuplicationEffect), 40 + sizeof(Tweening::TweeningManager*)> __GlobalNamespace_GhostDuplicationEffectSizeCheck;
   static_assert(sizeof(GhostDuplicationEffect) == 0x30);
+  // Writing MetadataGetter for method: GhostDuplicationEffect::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::Animate
+  // Il2CppName: Animate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams)>(&GhostDuplicationEffect::Animate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GhostDuplicationEffect::GhostEffectParams>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::HideRedundantWithDelay
+  // Il2CppName: HideRedundantWithDelay
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GhostDuplicationEffect::*)(float)>(&GhostDuplicationEffect::HideRedundantWithDelay)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "HideRedundantWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::SetDistances
+  // Il2CppName: SetDistances
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(float, UnityEngine::Vector3)>(&GhostDuplicationEffect::SetDistances)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::set_hide
+  // Il2CppName: set_hide
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(bool)>(&GhostDuplicationEffect::set_hide)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::set_size
+  // Il2CppName: set_size
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(float)>(&GhostDuplicationEffect::set_size)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::get_size
+  // Il2CppName: get_size
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::get_size)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::set_alpha
+  // Il2CppName: set_alpha
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(float)>(&GhostDuplicationEffect::set_alpha)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::get_alpha
+  // Il2CppName: get_alpha
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::get_alpha)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GhostDuplicationEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect*, "", "GhostDuplicationEffect");

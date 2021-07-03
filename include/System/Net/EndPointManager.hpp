@@ -35,34 +35,106 @@ namespace System::Net {
     // Set static field: static private System.Collections.Hashtable ip_to_endpoints
     static void _set_ip_to_endpoints(System::Collections::Hashtable* value);
     // static public System.Void AddListener(System.Net.HttpListener listener)
-    // Offset: 0x16A24C8
+    // Offset: 0x16B91D8
     static void AddListener(System::Net::HttpListener* listener);
     // static public System.Void AddPrefix(System.String prefix, System.Net.HttpListener listener)
-    // Offset: 0x16A2D6C
+    // Offset: 0x16B9A7C
     static void AddPrefix(::Il2CppString* prefix, System::Net::HttpListener* listener);
     // static private System.Void AddPrefixInternal(System.String p, System.Net.HttpListener listener)
-    // Offset: 0x16A2B18
+    // Offset: 0x16B9828
     static void AddPrefixInternal(::Il2CppString* p, System::Net::HttpListener* listener);
     // static private System.Net.EndPointListener GetEPListener(System.String host, System.Int32 port, System.Net.HttpListener listener, System.Boolean secure)
-    // Offset: 0x16A2E70
+    // Offset: 0x16B9B80
     static System::Net::EndPointListener* GetEPListener(::Il2CppString* host, int port, System::Net::HttpListener* listener, bool secure);
     // static public System.Void RemoveEndPoint(System.Net.EndPointListener epl, System.Net.IPEndPoint ep)
-    // Offset: 0x16A1A9C
+    // Offset: 0x16B87AC
     static void RemoveEndPoint(System::Net::EndPointListener* epl, System::Net::IPEndPoint* ep);
     // static public System.Void RemoveListener(System.Net.HttpListener listener)
-    // Offset: 0x16A3250
+    // Offset: 0x16B9F60
     static void RemoveListener(System::Net::HttpListener* listener);
     // static public System.Void RemovePrefix(System.String prefix, System.Net.HttpListener listener)
-    // Offset: 0x16A2C68
+    // Offset: 0x16B9978
     static void RemovePrefix(::Il2CppString* prefix, System::Net::HttpListener* listener);
     // static private System.Void RemovePrefixInternal(System.String prefix, System.Net.HttpListener listener)
-    // Offset: 0x16A351C
+    // Offset: 0x16BA22C
     static void RemovePrefixInternal(::Il2CppString* prefix, System::Net::HttpListener* listener);
     // static private System.Void .cctor()
-    // Offset: 0x16A363C
+    // Offset: 0x16BA34C
     static void _cctor();
   }; // System.Net.EndPointManager
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EndPointManager::AddListener
+  // Il2CppName: AddListener
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::HttpListener*)>(&EndPointManager::AddListener)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "AddListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::AddPrefix
+  // Il2CppName: AddPrefix
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&EndPointManager::AddPrefix)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "AddPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::AddPrefixInternal
+  // Il2CppName: AddPrefixInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&EndPointManager::AddPrefixInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "AddPrefixInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::GetEPListener
+  // Il2CppName: GetEPListener
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPointListener* (*)(::Il2CppString*, int, System::Net::HttpListener*, bool)>(&EndPointManager::GetEPListener)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "GetEPListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::RemoveEndPoint
+  // Il2CppName: RemoveEndPoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::EndPointListener*, System::Net::IPEndPoint*)>(&EndPointManager::RemoveEndPoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "RemoveEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::EndPointListener*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::RemoveListener
+  // Il2CppName: RemoveListener
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::HttpListener*)>(&EndPointManager::RemoveListener)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "RemoveListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::RemovePrefix
+  // Il2CppName: RemovePrefix
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&EndPointManager::RemovePrefix)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "RemovePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::RemovePrefixInternal
+  // Il2CppName: RemovePrefixInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&EndPointManager::RemovePrefixInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), "RemovePrefixInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpListener*>()});
+    }
+  };
+  // Writing MetadataGetter for method: EndPointManager::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EndPointManager::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EndPointManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointManager*, "System.Net", "EndPointManager");

@@ -162,63 +162,63 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Fill), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_FillSizeCheck;
     static_assert(sizeof(AutoUnwrapSettings::Fill) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE395A8
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A5CC
     // private System.Boolean m_UseWorldSpace
     // Size: 0x1
     // Offset: 0x0
     bool m_UseWorldSpace;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xE395F4
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A618
     // private System.Boolean m_FlipU
     // Size: 0x1
     // Offset: 0x1
     bool m_FlipU;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xE39640
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A664
     // private System.Boolean m_FlipV
     // Size: 0x1
     // Offset: 0x2
     bool m_FlipV;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xE3968C
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A6B0
     // private System.Boolean m_SwapUV
     // Size: 0x1
     // Offset: 0x3
     bool m_SwapUV;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [FormerlySerializedAsAttribute] Offset: 0xE396D8
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A6FC
     // private UnityEngine.ProBuilder.AutoUnwrapSettings/Fill m_Fill
     // Size: 0x4
     // Offset: 0x4
     UnityEngine::ProBuilder::AutoUnwrapSettings::Fill m_Fill;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE39724
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A748
     // private UnityEngine.Vector2 m_Scale
     // Size: 0x8
     // Offset: 0x8
     UnityEngine::Vector2 m_Scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE39770
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A794
     // private UnityEngine.Vector2 m_Offset
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Vector2 m_Offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xE397BC
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A7E0
     // private System.Single m_Rotation
     // Size: 0x4
     // Offset: 0x18
     float m_Rotation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xE39808
+    // [FormerlySerializedAsAttribute] Offset: 0xE3A82C
     // private UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor m_Anchor
     // Size: 0x4
     // Offset: 0x1C
@@ -232,80 +232,80 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_defaultAutoUnwrapSettings()
-    // Offset: 0x1F415B0
+    // Offset: 0x1F5D30C
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_defaultAutoUnwrapSettings();
     // public System.Boolean get_useWorldSpace()
-    // Offset: 0xF12D34
+    // Offset: 0xF13CEC
     bool get_useWorldSpace();
     // public System.Void set_useWorldSpace(System.Boolean value)
-    // Offset: 0xF12D3C
+    // Offset: 0xF13CF4
     void set_useWorldSpace(bool value);
     // public System.Boolean get_flipU()
-    // Offset: 0xF12D48
+    // Offset: 0xF13D00
     bool get_flipU();
     // public System.Void set_flipU(System.Boolean value)
-    // Offset: 0xF12D50
+    // Offset: 0xF13D08
     void set_flipU(bool value);
     // public System.Boolean get_flipV()
-    // Offset: 0xF12D5C
+    // Offset: 0xF13D14
     bool get_flipV();
     // public System.Void set_flipV(System.Boolean value)
-    // Offset: 0xF12D64
+    // Offset: 0xF13D1C
     void set_flipV(bool value);
     // public System.Boolean get_swapUV()
-    // Offset: 0xF12D70
+    // Offset: 0xF13D28
     bool get_swapUV();
     // public System.Void set_swapUV(System.Boolean value)
-    // Offset: 0xF12D78
+    // Offset: 0xF13D30
     void set_swapUV(bool value);
     // public UnityEngine.ProBuilder.AutoUnwrapSettings/Fill get_fill()
-    // Offset: 0xF12D84
+    // Offset: 0xF13D3C
     UnityEngine::ProBuilder::AutoUnwrapSettings::Fill get_fill();
     // public System.Void set_fill(UnityEngine.ProBuilder.AutoUnwrapSettings/Fill value)
-    // Offset: 0xF12D8C
+    // Offset: 0xF13D44
     void set_fill(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill value);
     // public UnityEngine.Vector2 get_scale()
-    // Offset: 0xF12D94
+    // Offset: 0xF13D4C
     UnityEngine::Vector2 get_scale();
     // public System.Void set_scale(UnityEngine.Vector2 value)
-    // Offset: 0xF12D9C
+    // Offset: 0xF13D54
     void set_scale(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_offset()
-    // Offset: 0xF12DA4
+    // Offset: 0xF13D5C
     UnityEngine::Vector2 get_offset();
     // public System.Void set_offset(UnityEngine.Vector2 value)
-    // Offset: 0xF12DAC
+    // Offset: 0xF13D64
     void set_offset(UnityEngine::Vector2 value);
     // public System.Single get_rotation()
-    // Offset: 0xF12DB4
+    // Offset: 0xF13D6C
     float get_rotation();
     // public System.Void set_rotation(System.Single value)
-    // Offset: 0xF12DBC
+    // Offset: 0xF13D74
     void set_rotation(float value);
     // public UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor get_anchor()
-    // Offset: 0xF12DC4
+    // Offset: 0xF13D7C
     UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor get_anchor();
     // public System.Void set_anchor(UnityEngine.ProBuilder.AutoUnwrapSettings/Anchor value)
-    // Offset: 0xF12DCC
+    // Offset: 0xF13D84
     void set_anchor(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor value);
     // public System.Void .ctor(UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
-    // Offset: 0xF12DD4
+    // Offset: 0xF13D8C
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: is copy constructor.  AutoUnwrapSettings(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings)
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_tile()
-    // Offset: 0x1F4176C
+    // Offset: 0x1F5D4C8
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_tile();
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_fit()
-    // Offset: 0x1F417A8
+    // Offset: 0x1F5D504
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_fit();
     // static public UnityEngine.ProBuilder.AutoUnwrapSettings get_stretch()
-    // Offset: 0x1F417E8
+    // Offset: 0x1F5D544
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch();
     // public System.Void Reset()
-    // Offset: 0xF12E30
+    // Offset: 0xF13DE8
     void Reset();
     // public override System.String ToString()
-    // Offset: 0xF12E38
+    // Offset: 0xF13DF0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::Il2CppString* ToString();
@@ -313,6 +313,212 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(AutoUnwrapSettings), 28 + sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)> __UnityEngine_ProBuilder_AutoUnwrapSettingsSizeCheck;
   static_assert(sizeof(AutoUnwrapSettings) == 0x20);
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_defaultAutoUnwrapSettings
+  // Il2CppName: get_defaultAutoUnwrapSettings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&AutoUnwrapSettings::get_defaultAutoUnwrapSettings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_defaultAutoUnwrapSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_useWorldSpace
+  // Il2CppName: get_useWorldSpace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_useWorldSpace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_useWorldSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_useWorldSpace
+  // Il2CppName: set_useWorldSpace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(bool)>(&AutoUnwrapSettings::set_useWorldSpace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_useWorldSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_flipU
+  // Il2CppName: get_flipU
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_flipU)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_flipU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_flipU
+  // Il2CppName: set_flipU
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(bool)>(&AutoUnwrapSettings::set_flipU)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_flipU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_flipV
+  // Il2CppName: get_flipV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_flipV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_flipV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_flipV
+  // Il2CppName: set_flipV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(bool)>(&AutoUnwrapSettings::set_flipV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_flipV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_swapUV
+  // Il2CppName: get_swapUV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_swapUV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_swapUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_swapUV
+  // Il2CppName: set_swapUV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(bool)>(&AutoUnwrapSettings::set_swapUV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_swapUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_fill
+  // Il2CppName: get_fill
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings::Fill (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_fill)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_fill
+  // Il2CppName: set_fill
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill)>(&AutoUnwrapSettings::set_fill)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings::Fill>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_scale
+  // Il2CppName: get_scale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_scale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_scale
+  // Il2CppName: set_scale
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(UnityEngine::Vector2)>(&AutoUnwrapSettings::set_scale)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_offset
+  // Il2CppName: get_offset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_offset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_offset
+  // Il2CppName: set_offset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(UnityEngine::Vector2)>(&AutoUnwrapSettings::set_offset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_rotation
+  // Il2CppName: get_rotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_rotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_rotation
+  // Il2CppName: set_rotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(float)>(&AutoUnwrapSettings::set_rotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_anchor
+  // Il2CppName: get_anchor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::get_anchor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_anchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::set_anchor
+  // Il2CppName: set_anchor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)>(&AutoUnwrapSettings::set_anchor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "set_anchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::AutoUnwrapSettings
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(UnityEngine::ProBuilder::AutoUnwrapSettings)>(&AutoUnwrapSettings::AutoUnwrapSettings<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)(UnityEngine::ProBuilder::AutoUnwrapSettings)>(&AutoUnwrapSettings::AutoUnwrapSettings<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_tile
+  // Il2CppName: get_tile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&AutoUnwrapSettings::get_tile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_tile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_fit
+  // Il2CppName: get_fit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&AutoUnwrapSettings::get_fit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_fit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::get_stretch
+  // Il2CppName: get_stretch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (*)()>(&AutoUnwrapSettings::get_stretch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "get_stretch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AutoUnwrapSettings::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AutoUnwrapSettings::*)()>(&AutoUnwrapSettings::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoUnwrapSettings), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings, "UnityEngine.ProBuilder", "AutoUnwrapSettings");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Anchor");

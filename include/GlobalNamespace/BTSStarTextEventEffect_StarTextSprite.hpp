@@ -48,16 +48,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: StarTextSprite
     StarTextSprite(int id_ = {}, UnityEngine::Sprite* starTextSprite_ = {}, float animationLength_ = {}) noexcept : id{id_}, starTextSprite{starTextSprite_}, animationLength{animationLength_} {}
     // public System.Int32 get_id()
-    // Offset: 0x1137FA4
+    // Offset: 0x113D80C
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
-    // Offset: 0x1137FAC
+    // Offset: 0x113D814
     UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
-    // Offset: 0x1137FB4
+    // Offset: 0x113D81C
     float get_animationLength();
     // public System.Void .ctor()
-    // Offset: 0x1137FBC
+    // Offset: 0x113D824
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,5 +69,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEventEffect::StarTextSprite), 32 + sizeof(float)> __GlobalNamespace_BTSStarTextEventEffect_StarTextSpriteSizeCheck;
   static_assert(sizeof(BTSStarTextEventEffect::StarTextSprite) == 0x24);
+  // Writing MetadataGetter for method: BTSStarTextEventEffect::StarTextSprite::get_id
+  // Il2CppName: get_id
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BTSStarTextEventEffect::StarTextSprite::*)()>(&BTSStarTextEventEffect::StarTextSprite::get_id)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StarTextSprite*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSStarTextEventEffect::StarTextSprite::get_starTextSprite
+  // Il2CppName: get_starTextSprite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (BTSStarTextEventEffect::StarTextSprite::*)()>(&BTSStarTextEventEffect::StarTextSprite::get_starTextSprite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StarTextSprite*), "get_starTextSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSStarTextEventEffect::StarTextSprite::get_animationLength
+  // Il2CppName: get_animationLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BTSStarTextEventEffect::StarTextSprite::*)()>(&BTSStarTextEventEffect::StarTextSprite::get_animationLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StarTextSprite*), "get_animationLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSStarTextEventEffect::StarTextSprite::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::StarTextSprite::*)()>(&BTSStarTextEventEffect::StarTextSprite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StarTextSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::StarTextSprite::*)()>(&BTSStarTextEventEffect::StarTextSprite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect::StarTextSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*, "", "BTSStarTextEventEffect/StarTextSprite");

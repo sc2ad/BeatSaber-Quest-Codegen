@@ -33,7 +33,7 @@ namespace System::Text::RegularExpressions {
     // Creating value type constructor for type: SingleRange
     SingleRange(::Il2CppChar first_ = {}, ::Il2CppChar last_ = {}) noexcept : first{first_}, last{last_} {}
     // System.Void .ctor(System.Char first, System.Char last)
-    // Offset: 0x1975CAC
+    // Offset: 0x198C9BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");
@@ -43,5 +43,19 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
   static check_size<sizeof(RegexCharClass::SingleRange), 18 + sizeof(::Il2CppChar)> __System_Text_RegularExpressions_RegexCharClass_SingleRangeSizeCheck;
   static_assert(sizeof(RegexCharClass::SingleRange) == 0x14);
+  // Writing MetadataGetter for method: RegexCharClass::SingleRange::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCharClass::SingleRange::*)(::Il2CppChar, ::Il2CppChar)>(&RegexCharClass::SingleRange::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRange*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCharClass::SingleRange::*)(::Il2CppChar, ::Il2CppChar)>(&RegexCharClass::SingleRange::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRange*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");

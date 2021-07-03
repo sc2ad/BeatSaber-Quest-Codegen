@@ -48,35 +48,35 @@ namespace UnityEngine::ProBuilder {
     class $$c__DisplayClass32_0;
     // Nested type: UnityEngine::ProBuilder::WingedEdge::$$c
     class $$c;
-    // [CompilerGeneratedAttribute] Offset: 0xE3B8AC
+    // [CompilerGeneratedAttribute] Offset: 0xE3C8D0
     // private UnityEngine.ProBuilder.EdgeLookup <edge>k__BackingField
     // Size: 0x10
     // Offset: 0x10
     UnityEngine::ProBuilder::EdgeLookup edge;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::EdgeLookup) == 0x10);
-    // [CompilerGeneratedAttribute] Offset: 0xE3B8BC
+    // [CompilerGeneratedAttribute] Offset: 0xE3C8E0
     // private UnityEngine.ProBuilder.Face <face>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::ProBuilder::Face* face;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE3B8CC
+    // [CompilerGeneratedAttribute] Offset: 0xE3C8F0
     // private UnityEngine.ProBuilder.WingedEdge <next>k__BackingField
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::ProBuilder::WingedEdge* next;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE3B8DC
+    // [CompilerGeneratedAttribute] Offset: 0xE3C900
     // private UnityEngine.ProBuilder.WingedEdge <previous>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::ProBuilder::WingedEdge* previous;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE3B8EC
+    // [CompilerGeneratedAttribute] Offset: 0xE3C910
     // private UnityEngine.ProBuilder.WingedEdge <opposite>k__BackingField
     // Size: 0x8
     // Offset: 0x38
@@ -94,70 +94,70 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Edge,UnityEngine.ProBuilder.WingedEdge> k_OppositeEdgeDictionary
     static void _set_k_OppositeEdgeDictionary(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::WingedEdge*>* value);
     // public UnityEngine.ProBuilder.EdgeLookup get_edge()
-    // Offset: 0x22AC68C
+    // Offset: 0x22C73E8
     UnityEngine::ProBuilder::EdgeLookup get_edge();
     // private System.Void set_edge(UnityEngine.ProBuilder.EdgeLookup value)
-    // Offset: 0x22AC698
+    // Offset: 0x22C73F4
     void set_edge(UnityEngine::ProBuilder::EdgeLookup value);
     // public UnityEngine.ProBuilder.Face get_face()
-    // Offset: 0x22AC6A0
+    // Offset: 0x22C73FC
     UnityEngine::ProBuilder::Face* get_face();
     // private System.Void set_face(UnityEngine.ProBuilder.Face value)
-    // Offset: 0x22AC6A8
+    // Offset: 0x22C7404
     void set_face(UnityEngine::ProBuilder::Face* value);
     // public UnityEngine.ProBuilder.WingedEdge get_next()
-    // Offset: 0x22AC6B0
+    // Offset: 0x22C740C
     UnityEngine::ProBuilder::WingedEdge* get_next();
     // private System.Void set_next(UnityEngine.ProBuilder.WingedEdge value)
-    // Offset: 0x22AC6B8
+    // Offset: 0x22C7414
     void set_next(UnityEngine::ProBuilder::WingedEdge* value);
     // public UnityEngine.ProBuilder.WingedEdge get_previous()
-    // Offset: 0x22AC6C0
+    // Offset: 0x22C741C
     UnityEngine::ProBuilder::WingedEdge* get_previous();
     // private System.Void set_previous(UnityEngine.ProBuilder.WingedEdge value)
-    // Offset: 0x22AC6C8
+    // Offset: 0x22C7424
     void set_previous(UnityEngine::ProBuilder::WingedEdge* value);
     // public UnityEngine.ProBuilder.WingedEdge get_opposite()
-    // Offset: 0x22AC6D0
+    // Offset: 0x22C742C
     UnityEngine::ProBuilder::WingedEdge* get_opposite();
     // private System.Void set_opposite(UnityEngine.ProBuilder.WingedEdge value)
-    // Offset: 0x22AC6D8
+    // Offset: 0x22C7434
     void set_opposite(UnityEngine::ProBuilder::WingedEdge* value);
     // public System.Boolean Equals(UnityEngine.ProBuilder.WingedEdge other)
-    // Offset: 0x22AC6E8
+    // Offset: 0x22C7444
     bool Equals(UnityEngine::ProBuilder::WingedEdge* other);
     // public System.Int32 Count()
-    // Offset: 0x22AC830
+    // Offset: 0x22C758C
     int Count();
     // static System.Int32[] MakeQuad(UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right)
-    // Offset: 0x22ACA28
+    // Offset: 0x22C7784
     static ::Array<int>* MakeQuad(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right);
     // public UnityEngine.ProBuilder.WingedEdge GetAdjacentEdgeWithCommonIndex(System.Int32 common)
-    // Offset: 0x22ACE44
+    // Offset: 0x22C7BA0
     UnityEngine::ProBuilder::WingedEdge* GetAdjacentEdgeWithCommonIndex(int common);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> SortEdgesByAdjacency(UnityEngine.ProBuilder.Face face)
-    // Offset: 0x22ACECC
+    // Offset: 0x22C7C28
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* SortEdgesByAdjacency(UnityEngine::ProBuilder::Face* face);
     // static public System.Void SortEdgesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x22ACFC4
+    // Offset: 0x22C7D20
     static void SortEdgesByAdjacency(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* edges);
     // static public System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge>> GetSpokes(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings)
-    // Offset: 0x22AD184
+    // Offset: 0x22C7EE0
     static System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>* GetSpokes(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings);
     // static System.Collections.Generic.List`1<System.Int32> SortCommonIndexesByAdjacency(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings, System.Collections.Generic.HashSet`1<System.Int32> common)
-    // Offset: 0x22AD480
+    // Offset: 0x22C81DC
     static System::Collections::Generic::List_1<int>* SortCommonIndexesByAdjacency(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings, System::Collections::Generic::HashSet_1<int>* common);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Boolean oneWingPerFace)
-    // Offset: 0x22AD720
+    // Offset: 0x22C847C
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, bool oneWingPerFace);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> GetWingedEdges(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Boolean oneWingPerFace)
-    // Offset: 0x22A0EA8
+    // Offset: 0x22BBC04
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* GetWingedEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool oneWingPerFace);
     // static private System.Void .cctor()
-    // Offset: 0x22AD814
+    // Offset: 0x22C8570
     static void _cctor();
     // private System.Void .ctor()
-    // Offset: 0x22AC6E0
+    // Offset: 0x22C743C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -166,17 +166,17 @@ namespace UnityEngine::ProBuilder {
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdge*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x22AC72C
+    // Offset: 0x22C7488
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x22AC804
+    // Offset: 0x22C7560
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x22AC864
+    // Offset: 0x22C75C0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -184,5 +184,211 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(WingedEdge), 56 + sizeof(UnityEngine::ProBuilder::WingedEdge*)> __UnityEngine_ProBuilder_WingedEdgeSizeCheck;
   static_assert(sizeof(WingedEdge) == 0x40);
+  // Writing MetadataGetter for method: WingedEdge::get_edge
+  // Il2CppName: get_edge
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::EdgeLookup (WingedEdge::*)()>(&WingedEdge::get_edge)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "get_edge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::set_edge
+  // Il2CppName: set_edge
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)(UnityEngine::ProBuilder::EdgeLookup)>(&WingedEdge::set_edge)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "set_edge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::get_face
+  // Il2CppName: get_face
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (WingedEdge::*)()>(&WingedEdge::get_face)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "get_face", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::set_face
+  // Il2CppName: set_face
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)(UnityEngine::ProBuilder::Face*)>(&WingedEdge::set_face)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "set_face", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::get_next
+  // Il2CppName: get_next
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WingedEdge* (WingedEdge::*)()>(&WingedEdge::get_next)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "get_next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::set_next
+  // Il2CppName: set_next
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)(UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::set_next)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "set_next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::get_previous
+  // Il2CppName: get_previous
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WingedEdge* (WingedEdge::*)()>(&WingedEdge::get_previous)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "get_previous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::set_previous
+  // Il2CppName: set_previous
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)(UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::set_previous)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "set_previous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::get_opposite
+  // Il2CppName: get_opposite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WingedEdge* (WingedEdge::*)()>(&WingedEdge::get_opposite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "get_opposite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::set_opposite
+  // Il2CppName: set_opposite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)(UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::set_opposite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "set_opposite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WingedEdge::*)(UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::Count
+  // Il2CppName: Count
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WingedEdge::*)()>(&WingedEdge::Count)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::MakeQuad
+  // Il2CppName: MakeQuad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::WingedEdge*)>(&WingedEdge::MakeQuad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "MakeQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::GetAdjacentEdgeWithCommonIndex
+  // Il2CppName: GetAdjacentEdgeWithCommonIndex
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::WingedEdge* (WingedEdge::*)(int)>(&WingedEdge::GetAdjacentEdgeWithCommonIndex)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "GetAdjacentEdgeWithCommonIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::SortEdgesByAdjacency
+  // Il2CppName: SortEdgesByAdjacency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* (*)(UnityEngine::ProBuilder::Face*)>(&WingedEdge::SortEdgesByAdjacency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "SortEdgesByAdjacency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::SortEdgesByAdjacency
+  // Il2CppName: SortEdgesByAdjacency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*)>(&WingedEdge::SortEdgesByAdjacency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "SortEdgesByAdjacency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::GetSpokes
+  // Il2CppName: GetSpokes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>* (*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*)>(&WingedEdge::GetSpokes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "GetSpokes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::SortCommonIndexesByAdjacency
+  // Il2CppName: SortCommonIndexesByAdjacency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*, System::Collections::Generic::HashSet_1<int>*)>(&WingedEdge::SortCommonIndexesByAdjacency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "SortCommonIndexesByAdjacency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<int>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::GetWingedEdges
+  // Il2CppName: GetWingedEdges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, bool)>(&WingedEdge::GetWingedEdges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "GetWingedEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::GetWingedEdges
+  // Il2CppName: GetWingedEdges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, bool)>(&WingedEdge::GetWingedEdges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "GetWingedEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WingedEdge::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)()>(&WingedEdge::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WingedEdge::*)()>(&WingedEdge::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WingedEdge::*)(::Il2CppObject*)>(&WingedEdge::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WingedEdge::*)()>(&WingedEdge::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WingedEdge::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WingedEdge::*)()>(&WingedEdge::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WingedEdge*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge*, "UnityEngine.ProBuilder", "WingedEdge");

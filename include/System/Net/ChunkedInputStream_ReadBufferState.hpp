@@ -60,7 +60,7 @@ namespace System::Net {
     // Creating value type constructor for type: ReadBufferState
     ReadBufferState(::Array<uint8_t>* Buffer_ = {}, int Offset_ = {}, int Count_ = {}, int InitialCount_ = {}, System::Net::HttpStreamAsyncResult* Ares_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_}, InitialCount{InitialCount_}, Ares{Ares_} {}
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
-    // Offset: 0x1694F5C
+    // Offset: 0x16ABC6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChunkedInputStream::ReadBufferState* New_ctor(::Array<uint8_t>* buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::ReadBufferState::.ctor");
@@ -70,5 +70,19 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(ChunkedInputStream::ReadBufferState), 40 + sizeof(System::Net::HttpStreamAsyncResult*)> __System_Net_ChunkedInputStream_ReadBufferStateSizeCheck;
   static_assert(sizeof(ChunkedInputStream::ReadBufferState) == 0x30);
+  // Writing MetadataGetter for method: ChunkedInputStream::ReadBufferState::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChunkedInputStream::ReadBufferState::*)(::Array<uint8_t>*, int, int, System::Net::HttpStreamAsyncResult*)>(&ChunkedInputStream::ReadBufferState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChunkedInputStream::ReadBufferState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpStreamAsyncResult*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChunkedInputStream::ReadBufferState::*)(::Array<uint8_t>*, int, int, System::Net::HttpStreamAsyncResult*)>(&ChunkedInputStream::ReadBufferState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChunkedInputStream::ReadBufferState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpStreamAsyncResult*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ChunkedInputStream::ReadBufferState*, "System.Net", "ChunkedInputStream/ReadBufferState");

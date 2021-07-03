@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     int lightsId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [InjectAttribute] Offset: 0xE1A88C
+    // [InjectAttribute] Offset: 0xE1A868
     // private LightWithIdManager _lightWithIdManager
     // Size: 0x8
     // Offset: 0x28
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Update()
-    // Offset: 0x11D4D98
+    // Offset: 0x11EF6EC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11D4E08
+    // Offset: 0x11EF75C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -76,5 +76,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OneTimeLightColorEffect), 40 + sizeof(GlobalNamespace::LightWithIdManager*)> __GlobalNamespace_OneTimeLightColorEffectSizeCheck;
   static_assert(sizeof(OneTimeLightColorEffect) == 0x30);
+  // Writing MetadataGetter for method: OneTimeLightColorEffect::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OneTimeLightColorEffect::*)()>(&OneTimeLightColorEffect::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OneTimeLightColorEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OneTimeLightColorEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OneTimeLightColorEffect::*)()>(&OneTimeLightColorEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OneTimeLightColorEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OneTimeLightColorEffect::*)()>(&OneTimeLightColorEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OneTimeLightColorEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OneTimeLightColorEffect*, "", "OneTimeLightColorEffect");

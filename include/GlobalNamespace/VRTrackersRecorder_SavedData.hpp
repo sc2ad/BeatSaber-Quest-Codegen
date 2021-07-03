@@ -38,7 +38,7 @@ namespace GlobalNamespace {
       return keyframes;
     }
     // public System.Void .ctor()
-    // Offset: 0x1D96830
+    // Offset: 0x1DAF58C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,5 +50,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder::SavedData), 16 + sizeof(::Array<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>*)> __GlobalNamespace_VRTrackersRecorder_SavedDataSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::SavedData) == 0x18);
+  // Writing MetadataGetter for method: VRTrackersRecorder::SavedData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::SavedData::*)()>(&VRTrackersRecorder::SavedData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder::SavedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::SavedData::*)()>(&VRTrackersRecorder::SavedData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder::SavedData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData*, "", "VRTrackersRecorder/SavedData");

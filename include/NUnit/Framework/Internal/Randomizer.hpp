@@ -63,16 +63,16 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.Int32 DefaultStringLength
     static void _set_DefaultStringLength(int value);
     // static private System.Void .cctor()
-    // Offset: 0x2292324
+    // Offset: 0x22AD080
     static void _cctor();
     // static public System.Void set_InitialSeed(System.Int32 value)
-    // Offset: 0x22923D0
+    // Offset: 0x22AD12C
     static void set_InitialSeed(int value);
     // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
-    // Offset: 0x2292478
+    // Offset: 0x22AD1D4
     static NUnit::Framework::Internal::Randomizer* CreateRandomizer();
     // public System.Void .ctor(System.Int32 seed)
-    // Offset: 0x2292518
+    // Offset: 0x22AD274
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor(System.Int32 seed)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -82,5 +82,43 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.Randomizer
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Randomizer::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Randomizer::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Randomizer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Randomizer::set_InitialSeed
+  // Il2CppName: set_InitialSeed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Randomizer::set_InitialSeed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Randomizer*), "set_InitialSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Randomizer::CreateRandomizer
+  // Il2CppName: CreateRandomizer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Randomizer* (*)()>(&Randomizer::CreateRandomizer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Randomizer*), "CreateRandomizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Randomizer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Randomizer::*)(int)>(&Randomizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Randomizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Randomizer::*)(int)>(&Randomizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Randomizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Randomizer*, "NUnit.Framework.Internal", "Randomizer");

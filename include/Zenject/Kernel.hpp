@@ -40,21 +40,21 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class Kernel : public ::Il2CppObject/*, public Zenject::IInitializable, public System::IDisposable, public Zenject::ITickable, public Zenject::ILateTickable, public Zenject::IFixedTickable, public Zenject::ILateDisposable*/ {
     public:
-    // [InjectLocalAttribute] Offset: 0xDDF2E8
+    // [InjectLocalAttribute] Offset: 0xDDF21C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x10
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xDDF2F8
+    // [InjectLocalAttribute] Offset: 0xDDF22C
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xDDF308
+    // [InjectLocalAttribute] Offset: 0xDDF23C
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x20
@@ -88,25 +88,25 @@ namespace Zenject {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);
     }
     // public System.Void Initialize()
-    // Offset: 0x16C5398
+    // Offset: 0x16DC0A8
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x16C53B4
+    // Offset: 0x16DC0C4
     void Dispose();
     // public System.Void LateDispose()
-    // Offset: 0x16C53D0
+    // Offset: 0x16DC0E0
     void LateDispose();
     // public System.Void Tick()
-    // Offset: 0x16C53EC
+    // Offset: 0x16DC0FC
     void Tick();
     // public System.Void LateTick()
-    // Offset: 0x16C5488
+    // Offset: 0x16DC198
     void LateTick();
     // public System.Void FixedTick()
-    // Offset: 0x16C5524
+    // Offset: 0x16DC234
     void FixedTick();
     // public System.Void .ctor()
-    // Offset: 0x16C55C0
+    // Offset: 0x16DC2D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,5 +118,67 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(Kernel), 32 + sizeof(Zenject::DisposableManager*)> __Zenject_KernelSizeCheck;
   static_assert(sizeof(Kernel) == 0x28);
+  // Writing MetadataGetter for method: Kernel::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Kernel::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Kernel::LateDispose
+  // Il2CppName: LateDispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::LateDispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Kernel::Tick
+  // Il2CppName: Tick
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::Tick)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Kernel::LateTick
+  // Il2CppName: LateTick
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::LateTick)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), "LateTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Kernel::FixedTick
+  // Il2CppName: FixedTick
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::FixedTick)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), "FixedTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Kernel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Kernel::*)()>(&Kernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Kernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Kernel*, "Zenject", "Kernel");

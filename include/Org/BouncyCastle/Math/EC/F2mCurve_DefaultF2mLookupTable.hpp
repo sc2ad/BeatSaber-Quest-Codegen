@@ -48,27 +48,27 @@ namespace Org::BouncyCastle::Math::EC {
     // Creating value type constructor for type: DefaultF2mLookupTable
     DefaultF2mLookupTable(Org::BouncyCastle::Math::EC::F2mCurve* m_outer_ = {}, ::Array<int64_t>* m_table_ = {}, int m_size_ = {}) noexcept : m_outer{m_outer_}, m_table{m_table_}, m_size{m_size_} {}
     // System.Void .ctor(Org.BouncyCastle.Math.EC.F2mCurve outer, System.Int64[] table, System.Int32 size)
-    // Offset: 0x2136F40
+    // Offset: 0x2152C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static F2mCurve::DefaultF2mLookupTable* New_ctor(Org::BouncyCastle::Math::EC::F2mCurve* outer, ::Array<int64_t>* table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<F2mCurve::DefaultF2mLookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.Int64[] x, System.Int64[] y)
-    // Offset: 0x2137120
+    // Offset: 0x2152E7C
     Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Array<int64_t>* x, ::Array<int64_t>* y);
     // public override System.Int32 get_Size()
-    // Offset: 0x2136F80
+    // Offset: 0x2152CDC
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: System.Int32 AbstractECLookupTable::get_Size()
     int get_Size();
     // public override Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
-    // Offset: 0x2136F88
+    // Offset: 0x2152CE4
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::Lookup(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public override Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
-    // Offset: 0x21372E0
+    // Offset: 0x215303C
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
     // Base method: Org.BouncyCastle.Math.EC.ECPoint AbstractECLookupTable::LookupVar(System.Int32 index)
     Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
@@ -76,5 +76,51 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
   static check_size<sizeof(F2mCurve::DefaultF2mLookupTable), 32 + sizeof(int)> __Org_BouncyCastle_Math_EC_F2mCurve_DefaultF2mLookupTableSizeCheck;
   static_assert(sizeof(F2mCurve::DefaultF2mLookupTable) == 0x24);
+  // Writing MetadataGetter for method: F2mCurve::DefaultF2mLookupTable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (F2mCurve::DefaultF2mLookupTable::*)(Org::BouncyCastle::Math::EC::F2mCurve*, ::Array<int64_t>*, int)>(&F2mCurve::DefaultF2mLookupTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(F2mCurve::DefaultF2mLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::F2mCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (F2mCurve::DefaultF2mLookupTable::*)(Org::BouncyCastle::Math::EC::F2mCurve*, ::Array<int64_t>*, int)>(&F2mCurve::DefaultF2mLookupTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(F2mCurve::DefaultF2mLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::F2mCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: F2mCurve::DefaultF2mLookupTable::CreatePoint
+  // Il2CppName: CreatePoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (F2mCurve::DefaultF2mLookupTable::*)(::Array<int64_t>*, ::Array<int64_t>*)>(&F2mCurve::DefaultF2mLookupTable::CreatePoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(F2mCurve::DefaultF2mLookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: F2mCurve::DefaultF2mLookupTable::get_Size
+  // Il2CppName: get_Size
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (F2mCurve::DefaultF2mLookupTable::*)()>(&F2mCurve::DefaultF2mLookupTable::get_Size)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(F2mCurve::DefaultF2mLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: F2mCurve::DefaultF2mLookupTable::Lookup
+  // Il2CppName: Lookup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (F2mCurve::DefaultF2mLookupTable::*)(int)>(&F2mCurve::DefaultF2mLookupTable::Lookup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(F2mCurve::DefaultF2mLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: F2mCurve::DefaultF2mLookupTable::LookupVar
+  // Il2CppName: LookupVar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (F2mCurve::DefaultF2mLookupTable::*)(int)>(&F2mCurve::DefaultF2mLookupTable::LookupVar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(F2mCurve::DefaultF2mLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");

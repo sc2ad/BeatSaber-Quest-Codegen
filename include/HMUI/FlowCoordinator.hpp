@@ -68,7 +68,7 @@ namespace HMUI {
     class $$c__DisplayClass45_0;
     // Nested type: HMUI::FlowCoordinator::$$c__DisplayClass46_0
     class $$c__DisplayClass46_0;
-    // [InjectAttribute] Offset: 0xDF6A4C
+    // [InjectAttribute] Offset: 0xDF8A48
     // private readonly UnityEngine.EventSystems.BaseInputModule _baseInputModule
     // Size: 0x8
     // Offset: 0x18
@@ -210,55 +210,55 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public HMUI.ViewController get_topViewController()
-    // Offset: 0x12F6F88
+    // Offset: 0x1310C98
     HMUI::ViewController* get_topViewController();
     // public HMUI.FlowCoordinator get_childFlowCoordinator()
-    // Offset: 0x12F6FF4
+    // Offset: 0x1310D04
     HMUI::FlowCoordinator* get_childFlowCoordinator();
     // public System.Boolean get_isActivated()
-    // Offset: 0x12F6FFC
+    // Offset: 0x1310D0C
     bool get_isActivated();
     // protected System.String get_title()
-    // Offset: 0x12F7004
+    // Offset: 0x1310D14
     ::Il2CppString* get_title();
     // protected System.Void SetTitle(System.String value, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F700C
+    // Offset: 0x1310D1C
     void SetTitle(::Il2CppString* value, HMUI::ViewController::AnimationType animationType);
     // protected System.Void set_showBackButton(System.Boolean value)
-    // Offset: 0x12F71AC
+    // Offset: 0x1310EBC
     void set_showBackButton(bool value);
     // protected System.Boolean get_showBackButton()
-    // Offset: 0x12F71B8
+    // Offset: 0x1310EC8
     bool get_showBackButton();
     // public System.Void __StartOnScreenSystem(HMUI.ScreenSystem screenSystem)
-    // Offset: 0x12F71C0
+    // Offset: 0x1310ED0
     void __StartOnScreenSystem(HMUI::ScreenSystem* screenSystem);
     // protected System.Void PresentFlowCoordinator(HMUI.FlowCoordinator flowCoordinator, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately, System.Boolean replaceTopViewController)
-    // Offset: 0x12F7AD0
+    // Offset: 0x13117E0
     void PresentFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately, bool replaceTopViewController);
     // protected System.Void DismissFlowCoordinator(HMUI.FlowCoordinator flowCoordinator, HMUI.ViewController/AnimationDirection animationDirection, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x12F80EC
+    // Offset: 0x1311DFC
     void DismissFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator, HMUI::ViewController::AnimationDirection animationDirection, System::Action* finishedCallback, bool immediately);
     // protected System.Void ReplaceChildFlowCoordinator(HMUI.FlowCoordinator flowCoordinator, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x12F83F4
+    // Offset: 0x1312104
     void ReplaceChildFlowCoordinator(HMUI::FlowCoordinator* flowCoordinator, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // protected System.Void PresentViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/AnimationDirection animationDirection, System.Boolean immediately)
-    // Offset: 0x12F77C0
+    // Offset: 0x13114D0
     void PresentViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // protected System.Void DismissViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationDirection animationDirection, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x12F8708
+    // Offset: 0x1312418
     void DismissViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationDirection animationDirection, System::Action* finishedCallback, bool immediately);
     // protected System.Void ReplaceTopViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/AnimationType animationType, HMUI.ViewController/AnimationDirection animationDirection)
-    // Offset: 0x12F88B8
+    // Offset: 0x13125C8
     void ReplaceTopViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
     // private System.Void ReplaceTopViewController(HMUI.ViewController viewController, HMUI.FlowCoordinator originalOwnerFlowCoordinator, HMUI.FlowCoordinator newOwnerFlowCoordinator, System.Action finishedCallback, HMUI.ViewController/AnimationType animationType, HMUI.ViewController/AnimationDirection animationDirection)
-    // Offset: 0x12F7F58
+    // Offset: 0x1311C68
     void ReplaceTopViewController(HMUI::ViewController* viewController, HMUI::FlowCoordinator* originalOwnerFlowCoordinator, HMUI::FlowCoordinator* newOwnerFlowCoordinator, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
     // protected System.Void PushViewControllerToNavigationController(HMUI.NavigationController navigationController, HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x12F89A4
+    // Offset: 0x13126B4
     void PushViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // protected System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
-    // Offset: 0x12F8AC8
+    // Offset: 0x13127D8
     void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, ::Array<HMUI::ViewController*>* viewControllers);
     // Creating initializer_list -> params proxy for: System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
     void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, std::initializer_list<HMUI::ViewController*> viewControllers);
@@ -268,82 +268,82 @@ namespace HMUI {
       SetViewControllersToNavigationController(navigationController, {viewControllers...});
     }
     // protected System.Void SetViewControllerToNavigationController(HMUI.NavigationController navigationController, HMUI.ViewController viewController)
-    // Offset: 0x12F8AE4
+    // Offset: 0x13127F4
     void SetViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController);
     // protected System.Void PopViewControllerFromNavigationController(HMUI.NavigationController navigationController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x12F8B00
+    // Offset: 0x1312810
     void PopViewControllerFromNavigationController(HMUI::NavigationController* navigationController, System::Action* finishedCallback, bool immediately);
     // protected System.Void PopViewControllersFromNavigationController(HMUI.NavigationController navigationController, System.Int32 numberOfControllers, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x12F8C1C
+    // Offset: 0x131292C
     void PopViewControllersFromNavigationController(HMUI::NavigationController* navigationController, int numberOfControllers, System::Action* finishedCallback, bool immediately);
     // protected System.Void SetLeftScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F73D0
+    // Offset: 0x13110E0
     void SetLeftScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void SetRightScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F74CC
+    // Offset: 0x13111DC
     void SetRightScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void SetBottomScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F75C8
+    // Offset: 0x13112D8
     void SetBottomScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void SetTopScreenViewController(HMUI.ViewController viewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F76C4
+    // Offset: 0x13113D4
     void SetTopScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // private System.Void PresentTitle(System.String title, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F7130
+    // Offset: 0x1310E40
     void PresentTitle(::Il2CppString* title, HMUI::ViewController::AnimationType animationType);
     // public System.Boolean IsFlowCoordinatorInHierarchy(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x12F706C
+    // Offset: 0x1310D7C
     bool IsFlowCoordinatorInHierarchy(HMUI::FlowCoordinator* flowCoordinator);
     // public HMUI.FlowCoordinator YoungestChildFlowCoordinatorOrSelf()
-    // Offset: 0x12F8D40
+    // Offset: 0x1312A50
     HMUI::FlowCoordinator* YoungestChildFlowCoordinatorOrSelf();
     // protected System.Void ProvideInitialViewControllers(HMUI.ViewController mainViewController, HMUI.ViewController leftScreenViewController, HMUI.ViewController rightScreenViewController, HMUI.ViewController bottomScreenViewController, HMUI.ViewController topScreenViewController)
-    // Offset: 0x12F8DD4
+    // Offset: 0x1312AE4
     void ProvideInitialViewControllers(HMUI::ViewController* mainViewController, HMUI::ViewController* leftScreenViewController, HMUI::ViewController* rightScreenViewController, HMUI::ViewController* bottomScreenViewController, HMUI::ViewController* topScreenViewController);
     // private System.Void Activate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x12F730C
+    // Offset: 0x131101C
     void Activate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // private System.Void Deactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x12F7EA0
+    // Offset: 0x1311BB0
     void Deactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void __ExternalActivate()
-    // Offset: 0x12F8DEC
+    // Offset: 0x1312AFC
     void __ExternalActivate();
     // public System.Void __ExternalDeactivate()
-    // Offset: 0x12F9020
+    // Offset: 0x1312D30
     void __ExternalDeactivate();
     // private System.Void HandleScreenSystemBackButtonWasPressed()
-    // Offset: 0x12F9264
+    // Offset: 0x1312F74
     void HandleScreenSystemBackButtonWasPressed();
     // protected System.Void SetGlobalUserInteraction(System.Boolean value)
-    // Offset: 0x12F83D4
+    // Offset: 0x13120E4
     void SetGlobalUserInteraction(bool value);
     // protected System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     // Offset: 0xFFFFFFFF
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x12F9294
+    // Offset: 0x1312FA4
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected System.Void TransitionDidStart()
-    // Offset: 0x12F9298
+    // Offset: 0x1312FA8
     void TransitionDidStart();
     // protected System.Void TransitionDidFinish()
-    // Offset: 0x12F92A4
+    // Offset: 0x1312FB4
     void TransitionDidFinish();
     // protected System.Void TopViewControllerWillChange(HMUI.ViewController oldViewController, HMUI.ViewController newViewController, HMUI.ViewController/AnimationType animationType)
-    // Offset: 0x12F92AC
+    // Offset: 0x1312FBC
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
     // protected System.Void InitialViewControllerWasPresented()
-    // Offset: 0x12F92B0
+    // Offset: 0x1312FC0
     void InitialViewControllerWasPresented();
     // protected System.Void BackButtonWasPressed(HMUI.ViewController topViewController)
-    // Offset: 0x12F92B4
+    // Offset: 0x1312FC4
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // static private System.Void Log(System.String message)
-    // Offset: 0x12F92B8
+    // Offset: 0x1312FC8
     static void Log(::Il2CppString* message);
     // protected System.Void .ctor()
-    // Offset: 0x12F9320
+    // Offset: 0x1313030
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -359,5 +359,355 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(FlowCoordinator), 160 + sizeof(UnityEngine::EventSystems::EventSystem*)> __HMUI_FlowCoordinatorSizeCheck;
   static_assert(sizeof(FlowCoordinator) == 0xA8);
+  // Writing MetadataGetter for method: FlowCoordinator::get_topViewController
+  // Il2CppName: get_topViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (FlowCoordinator::*)()>(&FlowCoordinator::get_topViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "get_topViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::get_childFlowCoordinator
+  // Il2CppName: get_childFlowCoordinator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::FlowCoordinator* (FlowCoordinator::*)()>(&FlowCoordinator::get_childFlowCoordinator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "get_childFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::get_isActivated
+  // Il2CppName: get_isActivated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FlowCoordinator::*)()>(&FlowCoordinator::get_isActivated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "get_isActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::get_title
+  // Il2CppName: get_title
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FlowCoordinator::*)()>(&FlowCoordinator::get_title)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "get_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetTitle
+  // Il2CppName: SetTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(::Il2CppString*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::SetTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::set_showBackButton
+  // Il2CppName: set_showBackButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(bool)>(&FlowCoordinator::set_showBackButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "set_showBackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::get_showBackButton
+  // Il2CppName: get_showBackButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FlowCoordinator::*)()>(&FlowCoordinator::get_showBackButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "get_showBackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::__StartOnScreenSystem
+  // Il2CppName: __StartOnScreenSystem
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ScreenSystem*)>(&FlowCoordinator::__StartOnScreenSystem)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "__StartOnScreenSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ScreenSystem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::PresentFlowCoordinator
+  // Il2CppName: PresentFlowCoordinator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::FlowCoordinator*, System::Action*, HMUI::ViewController::AnimationDirection, bool, bool)>(&FlowCoordinator::PresentFlowCoordinator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "PresentFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::DismissFlowCoordinator
+  // Il2CppName: DismissFlowCoordinator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::FlowCoordinator*, HMUI::ViewController::AnimationDirection, System::Action*, bool)>(&FlowCoordinator::DismissFlowCoordinator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "DismissFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::ReplaceChildFlowCoordinator
+  // Il2CppName: ReplaceChildFlowCoordinator
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::FlowCoordinator*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&FlowCoordinator::ReplaceChildFlowCoordinator)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "ReplaceChildFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::PresentViewController
+  // Il2CppName: PresentViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&FlowCoordinator::PresentViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "PresentViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::DismissViewController
+  // Il2CppName: DismissViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationDirection, System::Action*, bool)>(&FlowCoordinator::DismissViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "DismissViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::ReplaceTopViewController
+  // Il2CppName: ReplaceTopViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&FlowCoordinator::ReplaceTopViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "ReplaceTopViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::ReplaceTopViewController
+  // Il2CppName: ReplaceTopViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::FlowCoordinator*, HMUI::FlowCoordinator*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&FlowCoordinator::ReplaceTopViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "ReplaceTopViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationDirection>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::PushViewControllerToNavigationController
+  // Il2CppName: PushViewControllerToNavigationController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::NavigationController*, HMUI::ViewController*, System::Action*, bool)>(&FlowCoordinator::PushViewControllerToNavigationController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "PushViewControllerToNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NavigationController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetViewControllersToNavigationController
+  // Il2CppName: SetViewControllersToNavigationController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::NavigationController*, ::Array<HMUI::ViewController*>*)>(&FlowCoordinator::SetViewControllersToNavigationController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetViewControllersToNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NavigationController*>(), ::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetViewControllerToNavigationController
+  // Il2CppName: SetViewControllerToNavigationController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::NavigationController*, HMUI::ViewController*)>(&FlowCoordinator::SetViewControllerToNavigationController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetViewControllerToNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NavigationController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::PopViewControllerFromNavigationController
+  // Il2CppName: PopViewControllerFromNavigationController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::NavigationController*, System::Action*, bool)>(&FlowCoordinator::PopViewControllerFromNavigationController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "PopViewControllerFromNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NavigationController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::PopViewControllersFromNavigationController
+  // Il2CppName: PopViewControllersFromNavigationController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::NavigationController*, int, System::Action*, bool)>(&FlowCoordinator::PopViewControllersFromNavigationController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "PopViewControllersFromNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NavigationController*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetLeftScreenViewController
+  // Il2CppName: SetLeftScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::SetLeftScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetRightScreenViewController
+  // Il2CppName: SetRightScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::SetRightScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetRightScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetBottomScreenViewController
+  // Il2CppName: SetBottomScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::SetBottomScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetBottomScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetTopScreenViewController
+  // Il2CppName: SetTopScreenViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::SetTopScreenViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::PresentTitle
+  // Il2CppName: PresentTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(::Il2CppString*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::PresentTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "PresentTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::IsFlowCoordinatorInHierarchy
+  // Il2CppName: IsFlowCoordinatorInHierarchy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FlowCoordinator::*)(HMUI::FlowCoordinator*)>(&FlowCoordinator::IsFlowCoordinatorInHierarchy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "IsFlowCoordinatorInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::FlowCoordinator*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::YoungestChildFlowCoordinatorOrSelf
+  // Il2CppName: YoungestChildFlowCoordinatorOrSelf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::FlowCoordinator* (FlowCoordinator::*)()>(&FlowCoordinator::YoungestChildFlowCoordinatorOrSelf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "YoungestChildFlowCoordinatorOrSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::ProvideInitialViewControllers
+  // Il2CppName: ProvideInitialViewControllers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController*)>(&FlowCoordinator::ProvideInitialViewControllers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "ProvideInitialViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::Activate
+  // Il2CppName: Activate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(bool, bool, bool)>(&FlowCoordinator::Activate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::Deactivate
+  // Il2CppName: Deactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(bool, bool)>(&FlowCoordinator::Deactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::__ExternalActivate
+  // Il2CppName: __ExternalActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::__ExternalActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "__ExternalActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::__ExternalDeactivate
+  // Il2CppName: __ExternalDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::__ExternalDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "__ExternalDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::HandleScreenSystemBackButtonWasPressed
+  // Il2CppName: HandleScreenSystemBackButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::HandleScreenSystemBackButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "HandleScreenSystemBackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::SetGlobalUserInteraction
+  // Il2CppName: SetGlobalUserInteraction
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(bool)>(&FlowCoordinator::SetGlobalUserInteraction)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "SetGlobalUserInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(bool, bool, bool)>(&FlowCoordinator::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(bool, bool)>(&FlowCoordinator::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::TransitionDidStart
+  // Il2CppName: TransitionDidStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::TransitionDidStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "TransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::TransitionDidFinish
+  // Il2CppName: TransitionDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::TransitionDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "TransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::TopViewControllerWillChange
+  // Il2CppName: TopViewControllerWillChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&FlowCoordinator::TopViewControllerWillChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::InitialViewControllerWasPresented
+  // Il2CppName: InitialViewControllerWasPresented
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::InitialViewControllerWasPresented)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "InitialViewControllerWasPresented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::BackButtonWasPressed
+  // Il2CppName: BackButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)(HMUI::ViewController*)>(&FlowCoordinator::BackButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::Log
+  // Il2CppName: Log
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&FlowCoordinator::Log)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FlowCoordinator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlowCoordinator::*)()>(&FlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");

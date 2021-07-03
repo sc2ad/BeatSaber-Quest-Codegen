@@ -28,13 +28,29 @@ namespace System::Net {
     // Creating value type constructor for type: AutoWebProxyScriptEngine
     AutoWebProxyScriptEngine() noexcept {}
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList)
-    // Offset: 0x1693B68
+    // Offset: 0x16AA878
     bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList);
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList, ref System.Int32 syncStatus)
-    // Offset: 0x1693B74
+    // Offset: 0x16AA884
     bool GetProxies(System::Uri* destination, System::Collections::Generic::IList_1<::Il2CppString*>*& proxyList, int& syncStatus);
   }; // System.Net.AutoWebProxyScriptEngine
   #pragma pack(pop)
+  // Writing MetadataGetter for method: AutoWebProxyScriptEngine::GetProxies
+  // Il2CppName: GetProxies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&)>(&AutoWebProxyScriptEngine::GetProxies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoWebProxyScriptEngine*), "GetProxies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppString*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: AutoWebProxyScriptEngine::GetProxies
+  // Il2CppName: GetProxies
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&, int&)>(&AutoWebProxyScriptEngine::GetProxies)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AutoWebProxyScriptEngine*), "GetProxies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AutoWebProxyScriptEngine*, "System.Net", "AutoWebProxyScriptEngine");

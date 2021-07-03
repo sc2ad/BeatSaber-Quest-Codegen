@@ -33,7 +33,7 @@ namespace System {
     // Creating value type constructor for type: ValuesAndNames
     ValuesAndNames(::Array<uint64_t>* Values_ = {}, ::Array<::Il2CppString*>* Names_ = {}) noexcept : Values{Values_}, Names{Names_} {}
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
-    // Offset: 0x178FEFC
+    // Offset: 0x17A8C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enum::ValuesAndNames* New_ctor(::Array<uint64_t>* values, ::Array<::Il2CppString*>* names) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Enum::ValuesAndNames::.ctor");
@@ -43,5 +43,19 @@ namespace System {
   #pragma pack(pop)
   static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::Array<::Il2CppString*>*)> __System_Enum_ValuesAndNamesSizeCheck;
   static_assert(sizeof(Enum::ValuesAndNames) == 0x20);
+  // Writing MetadataGetter for method: Enum::ValuesAndNames::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Enum::ValuesAndNames::*)(::Array<uint64_t>*, ::Array<::Il2CppString*>*)>(&Enum::ValuesAndNames::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::ValuesAndNames*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Enum::ValuesAndNames::*)(::Array<uint64_t>*, ::Array<::Il2CppString*>*)>(&Enum::ValuesAndNames::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::ValuesAndNames*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");

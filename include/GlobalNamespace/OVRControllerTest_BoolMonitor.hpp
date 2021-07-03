@@ -77,21 +77,51 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BoolMonitor
     BoolMonitor(::Il2CppString* m_name_ = {}, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* m_generator_ = {}, bool m_prevValue_ = {}, bool m_currentValue_ = {}, bool m_currentValueRecentlyChanged_ = {}, float m_displayTimeout_ = {}, float m_displayTimer_ = {}) noexcept : m_name{m_name_}, m_generator{m_generator_}, m_prevValue{m_prevValue_}, m_currentValue{m_currentValue_}, m_currentValueRecentlyChanged{m_currentValueRecentlyChanged_}, m_displayTimeout{m_displayTimeout_}, m_displayTimer{m_displayTimer_} {}
     // public System.Void .ctor(System.String name, OVRControllerTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
-    // Offset: 0x12644A8
+    // Offset: 0x12811B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerTest::BoolMonitor* New_ctor(::Il2CppString* name, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRControllerTest::BoolMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest::BoolMonitor*, creationType>(name, generator, displayTimeout)));
     }
     // public System.Void Update()
-    // Offset: 0x1264D78
+    // Offset: 0x1281A88
     void Update();
     // public System.Void AppendToStringBuilder(ref System.Text.StringBuilder sb)
-    // Offset: 0x1264E1C
+    // Offset: 0x1281B2C
     void AppendToStringBuilder(System::Text::StringBuilder*& sb);
   }; // OVRControllerTest/BoolMonitor
   #pragma pack(pop)
   static check_size<sizeof(OVRControllerTest::BoolMonitor), 40 + sizeof(float)> __GlobalNamespace_OVRControllerTest_BoolMonitorSizeCheck;
   static_assert(sizeof(OVRControllerTest::BoolMonitor) == 0x2C);
+  // Writing MetadataGetter for method: OVRControllerTest::BoolMonitor::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerTest::BoolMonitor::*)(::Il2CppString*, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*, float)>(&OVRControllerTest::BoolMonitor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::BoolMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerTest::BoolMonitor::*)(::Il2CppString*, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*, float)>(&OVRControllerTest::BoolMonitor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::BoolMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRControllerTest::BoolMonitor::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerTest::BoolMonitor::*)()>(&OVRControllerTest::BoolMonitor::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::BoolMonitor*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRControllerTest::BoolMonitor::AppendToStringBuilder
+  // Il2CppName: AppendToStringBuilder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerTest::BoolMonitor::*)(System::Text::StringBuilder*&)>(&OVRControllerTest::BoolMonitor::AppendToStringBuilder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor*, "", "OVRControllerTest/BoolMonitor");

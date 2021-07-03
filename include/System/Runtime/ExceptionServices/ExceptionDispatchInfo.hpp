@@ -38,27 +38,73 @@ namespace System::Runtime::ExceptionServices {
     // Creating value type constructor for type: ExceptionDispatchInfo
     ExceptionDispatchInfo(System::Exception* m_Exception_ = {}, ::Il2CppObject* m_stackTrace_ = {}) noexcept : m_Exception{m_Exception_}, m_stackTrace{m_stackTrace_} {}
     // private System.Void .ctor(System.Exception exception)
-    // Offset: 0x14029E4
+    // Offset: 0x141D6F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionDispatchInfo* New_ctor(System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::ExceptionServices::ExceptionDispatchInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionDispatchInfo*, creationType>(exception)));
     }
     // System.Object get_BinaryStackTraceArray()
-    // Offset: 0x1402B10
+    // Offset: 0x141D820
     ::Il2CppObject* get_BinaryStackTraceArray();
     // static public System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception source)
-    // Offset: 0x1400BA8
+    // Offset: 0x141B8B8
     static System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(System::Exception* source);
     // public System.Exception get_SourceException()
-    // Offset: 0x1402B18
+    // Offset: 0x141D828
     System::Exception* get_SourceException();
     // public System.Void Throw()
-    // Offset: 0x1400E1C
+    // Offset: 0x141BB2C
     void Throw();
   }; // System.Runtime.ExceptionServices.ExceptionDispatchInfo
   #pragma pack(pop)
   static check_size<sizeof(ExceptionDispatchInfo), 24 + sizeof(::Il2CppObject*)> __System_Runtime_ExceptionServices_ExceptionDispatchInfoSizeCheck;
   static_assert(sizeof(ExceptionDispatchInfo) == 0x20);
+  // Writing MetadataGetter for method: ExceptionDispatchInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExceptionDispatchInfo::*)(System::Exception*)>(&ExceptionDispatchInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExceptionDispatchInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExceptionDispatchInfo::*)(System::Exception*)>(&ExceptionDispatchInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExceptionDispatchInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExceptionDispatchInfo::get_BinaryStackTraceArray
+  // Il2CppName: get_BinaryStackTraceArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ExceptionDispatchInfo::*)()>(&ExceptionDispatchInfo::get_BinaryStackTraceArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExceptionDispatchInfo*), "get_BinaryStackTraceArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExceptionDispatchInfo::Capture
+  // Il2CppName: Capture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (*)(System::Exception*)>(&ExceptionDispatchInfo::Capture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExceptionDispatchInfo*), "Capture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ExceptionDispatchInfo::get_SourceException
+  // Il2CppName: get_SourceException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (ExceptionDispatchInfo::*)()>(&ExceptionDispatchInfo::get_SourceException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExceptionDispatchInfo*), "get_SourceException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ExceptionDispatchInfo::Throw
+  // Il2CppName: Throw
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExceptionDispatchInfo::*)()>(&ExceptionDispatchInfo::Throw)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ExceptionDispatchInfo*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");

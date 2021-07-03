@@ -30,28 +30,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xDFE1C0
+    // [DescriptionAttribute] Offset: 0xDFF1BC
     // static field const value: static public Oculus.Platform.LeaderboardFilterType None
     static constexpr const int None = 0;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType None
     static Oculus::Platform::LeaderboardFilterType _get_None();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType None
     static void _set_None(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDFE1F8
+    // [DescriptionAttribute] Offset: 0xDFF1F4
     // static field const value: static public Oculus.Platform.LeaderboardFilterType Friends
     static constexpr const int Friends = 1;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType Friends
     static Oculus::Platform::LeaderboardFilterType _get_Friends();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType Friends
     static void _set_Friends(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDFE230
+    // [DescriptionAttribute] Offset: 0xDFF22C
     // static field const value: static public Oculus.Platform.LeaderboardFilterType Unknown
     static constexpr const int Unknown = 2;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType Unknown
     static Oculus::Platform::LeaderboardFilterType _get_Unknown();
     // Set static field: static public Oculus.Platform.LeaderboardFilterType Unknown
     static void _set_Unknown(Oculus::Platform::LeaderboardFilterType value);
-    // [DescriptionAttribute] Offset: 0xDFE268
+    // [DescriptionAttribute] Offset: 0xDFF264
     // static field const value: static public Oculus.Platform.LeaderboardFilterType UserIds
     static constexpr const int UserIds = 3;
     // Get static field: static public Oculus.Platform.LeaderboardFilterType UserIds

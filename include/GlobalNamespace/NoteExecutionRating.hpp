@@ -69,35 +69,35 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(NoteExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_NoteExecutionRating_RatingSizeCheck;
     static_assert(sizeof(NoteExecutionRating::Rating) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE180A4
+    // [CompilerGeneratedAttribute] Offset: 0xE18080
     // private NoteExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::NoteExecutionRating::Rating rating;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteExecutionRating::Rating) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE180B4
+    // [CompilerGeneratedAttribute] Offset: 0xE18090
     // private System.Int32 <cutScore>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
     int cutScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE180C4
+    // [CompilerGeneratedAttribute] Offset: 0xE180A0
     // private System.Int32 <cutDistanceScore>k__BackingField
     // Size: 0x4
     // Offset: 0x20
     int cutDistanceScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE180D4
+    // [CompilerGeneratedAttribute] Offset: 0xE180B0
     // private System.Single <cutTimeDeviation>k__BackingField
     // Size: 0x4
     // Offset: 0x24
     float cutTimeDeviation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xE180E4
+    // [CompilerGeneratedAttribute] Offset: 0xE180C0
     // private System.Single <cutDirDeviation>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -107,37 +107,37 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoteExecutionRating
     NoteExecutionRating(GlobalNamespace::NoteExecutionRating::Rating rating_ = {}, int cutScore_ = {}, int cutDistanceScore_ = {}, float cutTimeDeviation_ = {}, float cutDirDeviation_ = {}) noexcept : rating{rating_}, cutScore{cutScore_}, cutDistanceScore{cutDistanceScore_}, cutTimeDeviation{cutTimeDeviation_}, cutDirDeviation{cutDirDeviation_} {}
     // public NoteExecutionRating/Rating get_rating()
-    // Offset: 0x11BD7B4
+    // Offset: 0x11D8108
     GlobalNamespace::NoteExecutionRating::Rating get_rating();
     // public System.Void set_rating(NoteExecutionRating/Rating value)
-    // Offset: 0x11BD7BC
+    // Offset: 0x11D8110
     void set_rating(GlobalNamespace::NoteExecutionRating::Rating value);
     // public System.Int32 get_cutScore()
-    // Offset: 0x11BD7C4
+    // Offset: 0x11D8118
     int get_cutScore();
     // public System.Void set_cutScore(System.Int32 value)
-    // Offset: 0x11BD7CC
+    // Offset: 0x11D8120
     void set_cutScore(int value);
     // public System.Int32 get_cutDistanceScore()
-    // Offset: 0x11BD7D4
+    // Offset: 0x11D8128
     int get_cutDistanceScore();
     // public System.Void set_cutDistanceScore(System.Int32 value)
-    // Offset: 0x11BD7DC
+    // Offset: 0x11D8130
     void set_cutDistanceScore(int value);
     // public System.Single get_cutTimeDeviation()
-    // Offset: 0x11BD7E4
+    // Offset: 0x11D8138
     float get_cutTimeDeviation();
     // public System.Void set_cutTimeDeviation(System.Single value)
-    // Offset: 0x11BD7EC
+    // Offset: 0x11D8140
     void set_cutTimeDeviation(float value);
     // public System.Single get_cutDirDeviation()
-    // Offset: 0x11BD7F4
+    // Offset: 0x11D8148
     float get_cutDirDeviation();
     // public System.Void set_cutDirDeviation(System.Single value)
-    // Offset: 0x11BD7FC
+    // Offset: 0x11D8150
     void set_cutDirDeviation(float value);
     // public System.Void .ctor(System.Single time, NoteExecutionRating/Rating rating, System.Int32 cutScore, System.Int32 cutDistanceScore, System.Single cutTimeDeviation, System.Single cutDirDeviation)
-    // Offset: 0x11BD804
+    // Offset: 0x11D8158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteExecutionRating* New_ctor(float time, GlobalNamespace::NoteExecutionRating::Rating rating, int cutScore, int cutDistanceScore, float cutTimeDeviation, float cutDirDeviation) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteExecutionRating::.ctor");
@@ -147,6 +147,100 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteExecutionRating), 40 + sizeof(float)> __GlobalNamespace_NoteExecutionRatingSizeCheck;
   static_assert(sizeof(NoteExecutionRating) == 0x2C);
+  // Writing MetadataGetter for method: NoteExecutionRating::get_rating
+  // Il2CppName: get_rating
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteExecutionRating::Rating (NoteExecutionRating::*)()>(&NoteExecutionRating::get_rating)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "get_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::set_rating
+  // Il2CppName: set_rating
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(GlobalNamespace::NoteExecutionRating::Rating)>(&NoteExecutionRating::set_rating)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "set_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteExecutionRating::Rating>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::get_cutScore
+  // Il2CppName: get_cutScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteExecutionRating::*)()>(&NoteExecutionRating::get_cutScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "get_cutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::set_cutScore
+  // Il2CppName: set_cutScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(int)>(&NoteExecutionRating::set_cutScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "set_cutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::get_cutDistanceScore
+  // Il2CppName: get_cutDistanceScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteExecutionRating::*)()>(&NoteExecutionRating::get_cutDistanceScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "get_cutDistanceScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::set_cutDistanceScore
+  // Il2CppName: set_cutDistanceScore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(int)>(&NoteExecutionRating::set_cutDistanceScore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "set_cutDistanceScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::get_cutTimeDeviation
+  // Il2CppName: get_cutTimeDeviation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteExecutionRating::*)()>(&NoteExecutionRating::get_cutTimeDeviation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "get_cutTimeDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::set_cutTimeDeviation
+  // Il2CppName: set_cutTimeDeviation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(float)>(&NoteExecutionRating::set_cutTimeDeviation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "set_cutTimeDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::get_cutDirDeviation
+  // Il2CppName: get_cutDirDeviation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteExecutionRating::*)()>(&NoteExecutionRating::get_cutDirDeviation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "get_cutDirDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::set_cutDirDeviation
+  // Il2CppName: set_cutDirDeviation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(float)>(&NoteExecutionRating::set_cutDirDeviation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), "set_cutDirDeviation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoteExecutionRating::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(float, GlobalNamespace::NoteExecutionRating::Rating, int, int, float, float)>(&NoteExecutionRating::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteExecutionRating::Rating>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteExecutionRating::*)(float, GlobalNamespace::NoteExecutionRating::Rating, int, int, float, float)>(&NoteExecutionRating::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteExecutionRating::Rating>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");

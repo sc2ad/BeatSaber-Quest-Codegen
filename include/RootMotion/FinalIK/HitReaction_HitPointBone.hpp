@@ -36,14 +36,14 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink
     class BoneLink;
-    // [TooltipAttribute] Offset: 0xE0C5A0
+    // [TooltipAttribute] Offset: 0xE0D59C
     // public UnityEngine.AnimationCurve aroundCenterOfMass
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::AnimationCurve* aroundCenterOfMass;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0C5D8
+    // [TooltipAttribute] Offset: 0xE0D5D4
     // public RootMotion.FinalIK.HitReaction/HitPointBone/BoneLink[] boneLinks
     // Size: 0x8
     // Offset: 0x58
@@ -59,22 +59,22 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HitPointBone
     HitPointBone(UnityEngine::AnimationCurve* aroundCenterOfMass_ = {}, ::Array<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>* boneLinks_ = {}, UnityEngine::Rigidbody* rigidbody_ = {}) noexcept : aroundCenterOfMass{aroundCenterOfMass_}, boneLinks{boneLinks_}, rigidbody{rigidbody_} {}
     // protected override System.Single GetLength()
-    // Offset: 0x1C48AC4
+    // Offset: 0x1C637D4
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Single HitPoint::GetLength()
     float GetLength();
     // protected override System.Void CrossFadeStart()
-    // Offset: 0x1C48B68
+    // Offset: 0x1C63878
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Void HitPoint::CrossFadeStart()
     void CrossFadeStart();
     // protected override System.Void OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1C48BD8
+    // Offset: 0x1C638E8
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Void HitPoint::OnApply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // public System.Void .ctor()
-    // Offset: 0x1C48F90
+    // Offset: 0x1C63CA0
     // Implemented from: RootMotion.FinalIK.HitReaction/HitPoint
     // Base method: System.Void HitPoint::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -87,5 +87,43 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(HitReaction::HitPointBone), 96 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_HitReaction_HitPointBoneSizeCheck;
   static_assert(sizeof(HitReaction::HitPointBone) == 0x68);
+  // Writing MetadataGetter for method: HitReaction::HitPointBone::GetLength
+  // Il2CppName: GetLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReaction::HitPointBone::*)()>(&HitReaction::HitPointBone::GetLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HitReaction::HitPointBone::CrossFadeStart
+  // Il2CppName: CrossFadeStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::*)()>(&HitReaction::HitPointBone::CrossFadeStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HitReaction::HitPointBone::OnApply
+  // Il2CppName: OnApply
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&HitReaction::HitPointBone::OnApply)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: HitReaction::HitPointBone::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::*)()>(&HitReaction::HitPointBone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointBone::*)()>(&HitReaction::HitPointBone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointBone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointBone*, "RootMotion.FinalIK", "HitReaction/HitPointBone");

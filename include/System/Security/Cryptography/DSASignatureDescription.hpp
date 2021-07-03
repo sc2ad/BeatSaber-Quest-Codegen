@@ -21,7 +21,7 @@ namespace System::Security::Cryptography {
     // Creating value type constructor for type: DSASignatureDescription
     DSASignatureDescription() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x194BCA4
+    // Offset: 0x19629B4
     // Implemented from: System.Security.Cryptography.SignatureDescription
     // Base method: System.Void SignatureDescription::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -32,5 +32,19 @@ namespace System::Security::Cryptography {
     }
   }; // System.Security.Cryptography.DSASignatureDescription
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DSASignatureDescription::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSASignatureDescription::*)()>(&DSASignatureDescription::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSASignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSASignatureDescription::*)()>(&DSASignatureDescription::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSASignatureDescription*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureDescription*, "System.Security.Cryptography", "DSASignatureDescription");

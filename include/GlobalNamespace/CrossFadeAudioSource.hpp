@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xE14EFC
+    // [InjectAttribute] Offset: 0xE14ED8
     // private readonly Tweening.TweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -120,58 +120,58 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x1099EF0
+    // Offset: 0x1198034
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x1099F0C
+    // Offset: 0x1198050
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0x1099F50
+    // Offset: 0x1198094
     void set_pitch(float value);
     // public System.Void set_time(System.Single value)
-    // Offset: 0x1099F9C
+    // Offset: 0x11980E0
     void set_time(float value);
     // public System.Boolean get_isPlaying()
-    // Offset: 0x1099FE8
+    // Offset: 0x119812C
     bool get_isPlaying();
     // protected System.Void Awake()
-    // Offset: 0x109A004
+    // Offset: 0x1198148
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x109A15C
+    // Offset: 0x11982A0
     void OnDestroy();
     // public System.Void PlayPitchGainEffect(System.Single volumeScale)
-    // Offset: 0x109A1F4
+    // Offset: 0x1198338
     void PlayPitchGainEffect(float volumeScale);
     // public System.Void InterruptLastPitchGainEffect()
-    // Offset: 0x109A214
+    // Offset: 0x1198358
     void InterruptLastPitchGainEffect();
     // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
-    // Offset: 0x109A230
+    // Offset: 0x1198374
     void CrossFade(float toSongTime, float toVolume);
     // public System.Void Play()
-    // Offset: 0x109A400
+    // Offset: 0x1198544
     void Play();
     // public System.Void Stop()
-    // Offset: 0x109A41C
+    // Offset: 0x1198560
     void Stop();
     // private System.Void <Awake>b__21_0(System.Single val)
-    // Offset: 0x109A48C
+    // Offset: 0x11985D0
     void $Awake$b__21_0(float val);
     // private System.Void <Awake>b__21_1(System.Single val)
-    // Offset: 0x109A4A8
+    // Offset: 0x11985EC
     void $Awake$b__21_1(float val);
     // private System.Void <CrossFade>b__25_0(System.Single val)
-    // Offset: 0x109A4C4
+    // Offset: 0x1198608
     void $CrossFade$b__25_0(float val);
     // private System.Void <CrossFade>b__25_1(System.Single val)
-    // Offset: 0x109A4E0
+    // Offset: 0x1198624
     void $CrossFade$b__25_1(float val);
     // private System.Void <CrossFade>b__25_2()
-    // Offset: 0x109A4FC
+    // Offset: 0x1198640
     void $CrossFade$b__25_2();
     // public System.Void .ctor()
-    // Offset: 0x109A478
+    // Offset: 0x11985BC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -187,5 +187,155 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CrossFadeAudioSource), 112 + sizeof(GlobalNamespace::AudioPitchGainEffect*)> __GlobalNamespace_CrossFadeAudioSourceSizeCheck;
   static_assert(sizeof(CrossFadeAudioSource) == 0x78);
+  // Writing MetadataGetter for method: CrossFadeAudioSource::get_clip
+  // Il2CppName: get_clip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::get_clip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::set_clip
+  // Il2CppName: set_clip
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(UnityEngine::AudioClip*)>(&CrossFadeAudioSource::set_clip)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "set_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::set_pitch
+  // Il2CppName: set_pitch
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::set_pitch)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "set_pitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::set_time
+  // Il2CppName: set_time
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::set_time)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::get_isPlaying
+  // Il2CppName: get_isPlaying
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::get_isPlaying)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "get_isPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::PlayPitchGainEffect
+  // Il2CppName: PlayPitchGainEffect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::PlayPitchGainEffect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "PlayPitchGainEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::InterruptLastPitchGainEffect
+  // Il2CppName: InterruptLastPitchGainEffect
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::InterruptLastPitchGainEffect)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "InterruptLastPitchGainEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::CrossFade
+  // Il2CppName: CrossFade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float, float)>(&CrossFadeAudioSource::CrossFade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::Play
+  // Il2CppName: Play
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::Play)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::Stop
+  // Il2CppName: Stop
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::Stop)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::$Awake$b__21_0
+  // Il2CppName: <Awake>b__21_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::$Awake$b__21_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "<Awake>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::$Awake$b__21_1
+  // Il2CppName: <Awake>b__21_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::$Awake$b__21_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "<Awake>b__21_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::$CrossFade$b__25_0
+  // Il2CppName: <CrossFade>b__25_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::$CrossFade$b__25_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "<CrossFade>b__25_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::$CrossFade$b__25_1
+  // Il2CppName: <CrossFade>b__25_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)(float)>(&CrossFadeAudioSource::$CrossFade$b__25_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "<CrossFade>b__25_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::$CrossFade$b__25_2
+  // Il2CppName: <CrossFade>b__25_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::$CrossFade$b__25_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), "<CrossFade>b__25_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CrossFadeAudioSource::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrossFadeAudioSource::*)()>(&CrossFadeAudioSource::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CrossFadeAudioSource*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrossFadeAudioSource*, "", "CrossFadeAudioSource");

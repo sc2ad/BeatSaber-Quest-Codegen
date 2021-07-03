@@ -69,7 +69,7 @@ namespace System::Runtime::CompilerServices {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // static public System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create()
-    // Offset: 0x1401604
+    // Offset: 0x141C314
     static System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
     // public System.Void Start(ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -82,7 +82,7 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, stateMachine);
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0xEEBDC8
+    // Offset: 0xEECD80
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
     // public System.Void AwaitUnsafeOnCompleted(ref TAwaiter awaiter, ref TStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
@@ -96,20 +96,74 @@ namespace System::Runtime::CompilerServices {
       ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___generic__method, awaiter, stateMachine);
     }
     // public System.Void SetResult()
-    // Offset: 0xEEBDD0
+    // Offset: 0xEECD88
     void SetResult();
     // public System.Void SetException(System.Exception exception)
-    // Offset: 0xEEBDD8
+    // Offset: 0xEECD90
     void SetException(System::Exception* exception);
     // private System.Void NotifySynchronizationContextOfCompletion()
-    // Offset: 0xEEBDE0
+    // Offset: 0xEECD98
     void NotifySynchronizationContextOfCompletion();
     // private System.Threading.Tasks.Task get_Task()
-    // Offset: 0xEEBDE8
+    // Offset: 0xEECDA0
     System::Threading::Tasks::Task* get_Task();
   }; // System.Runtime.CompilerServices.AsyncVoidMethodBuilder
   #pragma pack(pop)
   static check_size<sizeof(AsyncVoidMethodBuilder), 24 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncVoidMethodBuilderSizeCheck;
   static_assert(sizeof(AsyncVoidMethodBuilder) == 0x20);
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::Create
+  // Il2CppName: Create
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::AsyncVoidMethodBuilder (*)()>(&AsyncVoidMethodBuilder::Create)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncVoidMethodBuilder), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::Start
+  // Il2CppName: Start
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::SetStateMachine
+  // Il2CppName: SetStateMachine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncVoidMethodBuilder::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&AsyncVoidMethodBuilder::SetStateMachine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncVoidMethodBuilder), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted
+  // Il2CppName: AwaitUnsafeOnCompleted
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::SetResult
+  // Il2CppName: SetResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncVoidMethodBuilder::*)()>(&AsyncVoidMethodBuilder::SetResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncVoidMethodBuilder), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::SetException
+  // Il2CppName: SetException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncVoidMethodBuilder::*)(System::Exception*)>(&AsyncVoidMethodBuilder::SetException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncVoidMethodBuilder), "SetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::NotifySynchronizationContextOfCompletion
+  // Il2CppName: NotifySynchronizationContextOfCompletion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncVoidMethodBuilder::*)()>(&AsyncVoidMethodBuilder::NotifySynchronizationContextOfCompletion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncVoidMethodBuilder), "NotifySynchronizationContextOfCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AsyncVoidMethodBuilder::get_Task
+  // Il2CppName: get_Task
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (AsyncVoidMethodBuilder::*)()>(&AsyncVoidMethodBuilder::get_Task)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AsyncVoidMethodBuilder), "get_Task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");

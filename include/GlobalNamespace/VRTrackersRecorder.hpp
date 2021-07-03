@@ -156,31 +156,31 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Awake()
-    // Offset: 0x1D95778
+    // Offset: 0x1DAE4D4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1D95DF4
+    // Offset: 0x1DAEB50
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x1D96128
+    // Offset: 0x1DAEE84
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1D9614C
+    // Offset: 0x1DAEEA8
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x1D96170
+    // Offset: 0x1DAEECC
     void OnNewPoses(::Array<Valve::VR::TrackedDevicePose_t>* poses);
     // protected System.Void Update()
-    // Offset: 0x1D963E4
+    // Offset: 0x1DAF140
     void Update();
     // private System.Void Save()
-    // Offset: 0x1D95E04
+    // Offset: 0x1DAEB60
     void Save();
     // private System.Void Load()
-    // Offset: 0x1D95910
+    // Offset: 0x1DAE66C
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1D96848
+    // Offset: 0x1DAF5A4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -196,6 +196,84 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(VRTrackersRecorder), 100 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_VRTrackersRecorderSizeCheck;
   static_assert(sizeof(VRTrackersRecorder) == 0x74);
+  // Writing MetadataGetter for method: VRTrackersRecorder::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::OnNewPoses
+  // Il2CppName: OnNewPoses
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)(::Array<Valve::VR::TrackedDevicePose_t>*)>(&VRTrackersRecorder::OnNewPoses)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::Save
+  // Il2CppName: Save
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::Save)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::Load
+  // Il2CppName: Load
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::Load)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRTrackersRecorder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRTrackersRecorder::*)()>(&VRTrackersRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRTrackersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder*, "", "VRTrackersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::RecordMode, "", "VRTrackersRecorder/RecordMode");

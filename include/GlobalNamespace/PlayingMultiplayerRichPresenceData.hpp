@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: PlayingMultiplayerRichPresenceData
     PlayingMultiplayerRichPresenceData() noexcept {}
-    // [LocalizationKeyAttribute] Offset: 0xE18A14
+    // [LocalizationKeyAttribute] Offset: 0xE189F0
     // static field const value: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kPlayingMultiplayerLobbyRichPresenceLocalizationKey = "PLAYING_MULTIPLAYER_PRESENCE";
     // Get static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static void _set_kPlayingMultiplayerLobbyRichPresenceLocalizationKey(::Il2CppString* value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.String multiplayerLobbyCode)
-    // Offset: 0x10A235C
+    // Offset: 0x10A5614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingMultiplayerRichPresenceData* New_ctor(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::Il2CppString* multiplayerLobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayingMultiplayerRichPresenceData::.ctor");
@@ -48,5 +48,19 @@ namespace GlobalNamespace {
     }
   }; // PlayingMultiplayerRichPresenceData
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PlayingMultiplayerRichPresenceData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingMultiplayerRichPresenceData::*)(GlobalNamespace::IDifficultyBeatmap*, ::Il2CppString*)>(&PlayingMultiplayerRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayingMultiplayerRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingMultiplayerRichPresenceData::*)(GlobalNamespace::IDifficultyBeatmap*, ::Il2CppString*)>(&PlayingMultiplayerRichPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PlayingMultiplayerRichPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingMultiplayerRichPresenceData*, "", "PlayingMultiplayerRichPresenceData");

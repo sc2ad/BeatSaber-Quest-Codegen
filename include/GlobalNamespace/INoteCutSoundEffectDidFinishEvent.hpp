@@ -25,6 +25,14 @@ namespace GlobalNamespace {
     void HandleNoteCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
   }; // INoteCutSoundEffectDidFinishEvent
   #pragma pack(pop)
+  // Writing MetadataGetter for method: INoteCutSoundEffectDidFinishEvent::HandleNoteCutSoundEffectDidFinish
+  // Il2CppName: HandleNoteCutSoundEffectDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteCutSoundEffectDidFinishEvent::*)(GlobalNamespace::NoteCutSoundEffect*)>(&INoteCutSoundEffectDidFinishEvent::HandleNoteCutSoundEffectDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(INoteCutSoundEffectDidFinishEvent*), "HandleNoteCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutSoundEffect*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteCutSoundEffectDidFinishEvent*, "", "INoteCutSoundEffectDidFinishEvent");

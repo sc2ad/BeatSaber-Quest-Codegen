@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: noPredefinedStartValue and: startColor
     char __padding0[0x7] = {};
-    // [DrawIfAttribute] Offset: 0xE28C84
+    // [DrawIfAttribute] Offset: 0xE28CC8
     // public ColorSO startColor
     // Size: 0x8
     // Offset: 0x18
@@ -110,17 +110,17 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: TubeLightBehaviour
     TubeLightBehaviour(bool noPredefinedStartValue_ = {}, GlobalNamespace::ColorSO* startColor_ = {}, GlobalNamespace::ColorSO* endColor_ = {}, float blend_ = {}, bool initialized_ = {}, UnityEngine::Color originalColor_ = {}, ::Array<GlobalNamespace::TubeBloomPrePassLight*>* tubeLights_ = {}, ::Array<GlobalNamespace::DirectionalLight*>* directionalLights_ = {}, bool started_ = {}, UnityEngine::Color firstFrameColor_ = {}) noexcept : noPredefinedStartValue{noPredefinedStartValue_}, startColor{startColor_}, endColor{endColor_}, blend{blend_}, initialized{initialized_}, originalColor{originalColor_}, tubeLights{tubeLights_}, directionalLights{directionalLights_}, started{started_}, firstFrameColor{firstFrameColor_} {}
     // public override System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
-    // Offset: 0x10F8A84
+    // Offset: 0x111B2C8
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
     // public override System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
-    // Offset: 0x10F8E28
+    // Offset: 0x111B66C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
     // public System.Void .ctor()
-    // Offset: 0x10F8F08
+    // Offset: 0x111B74C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -133,5 +133,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(TubeLightBehaviour), 84 + sizeof(UnityEngine::Color)> __GlobalNamespace_TubeLightBehaviourSizeCheck;
   static_assert(sizeof(TubeLightBehaviour) == 0x64);
+  // Writing MetadataGetter for method: TubeLightBehaviour::ProcessFrame
+  // Il2CppName: ProcessFrame
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeLightBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&TubeLightBehaviour::ProcessFrame)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TubeLightBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TubeLightBehaviour::OnPlayableDestroy
+  // Il2CppName: OnPlayableDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeLightBehaviour::*)(UnityEngine::Playables::Playable)>(&TubeLightBehaviour::OnPlayableDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TubeLightBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    }
+  };
+  // Writing MetadataGetter for method: TubeLightBehaviour::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeLightBehaviour::*)()>(&TubeLightBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TubeLightBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeLightBehaviour::*)()>(&TubeLightBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TubeLightBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightBehaviour*, "", "TubeLightBehaviour");

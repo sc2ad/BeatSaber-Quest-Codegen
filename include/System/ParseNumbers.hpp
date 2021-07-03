@@ -22,34 +22,106 @@ namespace System {
     // Creating value type constructor for type: ParseNumbers
     ParseNumbers() noexcept {}
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags)
-    // Offset: 0x1C56F3C
+    // Offset: 0x1C71C4C
     static int StringToInt(::Il2CppString* value, int fromBase, int flags);
     // static public System.Int32 StringToInt(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1C56F44
+    // Offset: 0x1C71C54
     static int StringToInt(::Il2CppString* value, int fromBase, int flags, int* parsePos);
     // static public System.String LongToString(System.Int64 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x1C57360
+    // Offset: 0x1C72070
     static ::Il2CppString* LongToString(int64_t value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static public System.Int64 StringToLong(System.String value, System.Int32 fromBase, System.Int32 flags, System.Int32* parsePos)
-    // Offset: 0x1C5795C
+    // Offset: 0x1C7266C
     static int64_t StringToLong(::Il2CppString* value, int fromBase, int flags, int* parsePos);
     // static public System.String IntToString(System.Int32 value, System.Int32 toBase, System.Int32 width, System.Char paddingChar, System.Int32 flags)
-    // Offset: 0x1C57DA4
+    // Offset: 0x1C72AB4
     static ::Il2CppString* IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static private System.Void EndianSwap(ref System.Byte[] value)
-    // Offset: 0x1C57FCC
+    // Offset: 0x1C72CDC
     static void EndianSwap(::Array<uint8_t>*& value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)
-    // Offset: 0x1C57484
+    // Offset: 0x1C72194
     static System::Text::StringBuilder* ConvertToBase2(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase8(System.Byte[] value)
-    // Offset: 0x1C575C8
+    // Offset: 0x1C722D8
     static System::Text::StringBuilder* ConvertToBase8(::Array<uint8_t>* value);
     // static private System.Text.StringBuilder ConvertToBase16(System.Byte[] value)
-    // Offset: 0x1C577A0
+    // Offset: 0x1C724B0
     static System::Text::StringBuilder* ConvertToBase16(::Array<uint8_t>* value);
   }; // System.ParseNumbers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ParseNumbers::StringToInt
+  // Il2CppName: StringToInt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int)>(&ParseNumbers::StringToInt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::StringToInt
+  // Il2CppName: StringToInt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int, int*)>(&ParseNumbers::StringToInt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::LongToString
+  // Il2CppName: LongToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t, int, int, ::Il2CppChar, int)>(&ParseNumbers::LongToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "LongToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::StringToLong
+  // Il2CppName: StringToLong
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*, int, int, int*)>(&ParseNumbers::StringToLong)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "StringToLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::IntToString
+  // Il2CppName: IntToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, int, int, ::Il2CppChar, int)>(&ParseNumbers::IntToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::EndianSwap
+  // Il2CppName: EndianSwap
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*&)>(&ParseNumbers::EndianSwap)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "EndianSwap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::ConvertToBase2
+  // Il2CppName: ConvertToBase2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::Array<uint8_t>*)>(&ParseNumbers::ConvertToBase2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "ConvertToBase2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::ConvertToBase8
+  // Il2CppName: ConvertToBase8
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::Array<uint8_t>*)>(&ParseNumbers::ConvertToBase8)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "ConvertToBase8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParseNumbers::ConvertToBase16
+  // Il2CppName: ConvertToBase16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::Array<uint8_t>*)>(&ParseNumbers::ConvertToBase16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParseNumbers*), "ConvertToBase16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParseNumbers*, "System", "ParseNumbers");

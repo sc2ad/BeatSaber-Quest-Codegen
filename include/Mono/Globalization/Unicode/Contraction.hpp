@@ -45,7 +45,7 @@ namespace Mono::Globalization::Unicode {
     // Creating value type constructor for type: Contraction
     Contraction(int Index_ = {}, ::Array<::Il2CppChar>* Source_ = {}, ::Il2CppString* Replacement_ = {}, ::Array<uint8_t>* SortKey_ = {}) noexcept : Index{Index_}, Source{Source_}, Replacement{Replacement_}, SortKey{SortKey_} {}
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
-    // Offset: 0x1A3D414
+    // Offset: 0x1A57124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Contraction* New_ctor(int index, ::Array<::Il2CppChar>* source, ::Il2CppString* replacement, ::Array<uint8_t>* sortkey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Contraction::.ctor");
@@ -55,5 +55,19 @@ namespace Mono::Globalization::Unicode {
   #pragma pack(pop)
   static check_size<sizeof(Contraction), 40 + sizeof(::Array<uint8_t>*)> __Mono_Globalization_Unicode_ContractionSizeCheck;
   static_assert(sizeof(Contraction) == 0x30);
+  // Writing MetadataGetter for method: Contraction::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Contraction::*)(int, ::Array<::Il2CppChar>*, ::Il2CppString*, ::Array<uint8_t>*)>(&Contraction::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Contraction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Contraction::*)(int, ::Array<::Il2CppChar>*, ::Il2CppString*, ::Array<uint8_t>*)>(&Contraction::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Contraction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");

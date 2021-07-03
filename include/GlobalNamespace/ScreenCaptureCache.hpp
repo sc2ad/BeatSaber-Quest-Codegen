@@ -93,13 +93,13 @@ namespace GlobalNamespace {
       return cache;
     }
     // public UnityEngine.Texture2D GetLastScreenshot(ScreenCaptureCache/ScreenshotType screenshotType)
-    // Offset: 0x2349870
+    // Offset: 0x23635CC
     UnityEngine::Texture2D* GetLastScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType);
     // public System.Void StoreScreenshot(ScreenCaptureCache/ScreenshotType screenshotType, UnityEngine.Texture2D texture)
-    // Offset: 0x2349530
+    // Offset: 0x236328C
     void StoreScreenshot(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, UnityEngine::Texture2D* texture);
     // public System.Void .ctor()
-    // Offset: 0x23498F0
+    // Offset: 0x236364C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -111,6 +111,36 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ScreenCaptureCache), 16 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*)> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
   static_assert(sizeof(ScreenCaptureCache) == 0x18);
+  // Writing MetadataGetter for method: ScreenCaptureCache::GetLastScreenshot
+  // Il2CppName: GetLastScreenshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (ScreenCaptureCache::*)(GlobalNamespace::ScreenCaptureCache::ScreenshotType)>(&ScreenCaptureCache::GetLastScreenshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenCaptureCache*), "GetLastScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenCaptureCache::ScreenshotType>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenCaptureCache::StoreScreenshot
+  // Il2CppName: StoreScreenshot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureCache::*)(GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*)>(&ScreenCaptureCache::StoreScreenshot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenCaptureCache*), "StoreScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScreenCaptureCache::ScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ScreenCaptureCache::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureCache::*)()>(&ScreenCaptureCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenCaptureCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureCache::*)()>(&ScreenCaptureCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ScreenCaptureCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");

@@ -27,13 +27,29 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: MultipleDisplayUtilities
     MultipleDisplayUtilities() noexcept {}
     // static public System.Boolean GetRelativeMousePositionForDrag(UnityEngine.EventSystems.PointerEventData eventData, ref UnityEngine.Vector2 position)
-    // Offset: 0x1990D00
+    // Offset: 0x19A7A10
     static bool GetRelativeMousePositionForDrag(UnityEngine::EventSystems::PointerEventData* eventData, UnityEngine::Vector2& position);
     // static public UnityEngine.Vector2 GetMousePositionRelativeToMainDisplayResolution()
-    // Offset: 0x1997FF4
+    // Offset: 0x19AED04
     static UnityEngine::Vector2 GetMousePositionRelativeToMainDisplayResolution();
   }; // UnityEngine.UI.MultipleDisplayUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MultipleDisplayUtilities::GetRelativeMousePositionForDrag
+  // Il2CppName: GetRelativeMousePositionForDrag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Vector2&)>(&MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultipleDisplayUtilities*), "GetRelativeMousePositionForDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution
+  // Il2CppName: GetMousePositionRelativeToMainDisplayResolution
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultipleDisplayUtilities*), "GetMousePositionRelativeToMainDisplayResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.UI", "MultipleDisplayUtilities");

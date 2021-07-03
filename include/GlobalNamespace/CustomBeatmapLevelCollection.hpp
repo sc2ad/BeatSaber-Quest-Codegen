@@ -44,10 +44,10 @@ namespace GlobalNamespace {
       return customPreviewBeatmapLevels;
     }
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x109B330
+    // Offset: 0x1199474
     ::Array<GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
-    // Offset: 0x109B338
+    // Offset: 0x119947C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelCollection* New_ctor(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>* customPreviewBeatmapLevels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelCollection::.ctor");
@@ -57,5 +57,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CustomBeatmapLevelCollection), 16 + sizeof(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*)> __GlobalNamespace_CustomBeatmapLevelCollectionSizeCheck;
   static_assert(sizeof(CustomBeatmapLevelCollection) == 0x18);
+  // Writing MetadataGetter for method: CustomBeatmapLevelCollection::get_beatmapLevels
+  // Il2CppName: get_beatmapLevels
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IPreviewBeatmapLevel*>* (CustomBeatmapLevelCollection::*)()>(&CustomBeatmapLevelCollection::get_beatmapLevels)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelCollection*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CustomBeatmapLevelCollection::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevelCollection::*)(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*)>(&CustomBeatmapLevelCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevelCollection::*)(::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*)>(&CustomBeatmapLevelCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevelCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::CustomPreviewBeatmapLevel*>*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelCollection*, "", "CustomBeatmapLevelCollection");

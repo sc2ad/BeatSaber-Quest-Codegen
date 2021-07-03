@@ -35,6 +35,14 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     ::Array<Org::BouncyCastle::Math::BigInteger*>* DecomposeScalar(Org::BouncyCastle::Math::BigInteger* k);
   }; // Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism
   #pragma pack(pop)
+  // Writing MetadataGetter for method: GlvEndomorphism::DecomposeScalar
+  // Il2CppName: DecomposeScalar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (GlvEndomorphism::*)(Org::BouncyCastle::Math::BigInteger*)>(&GlvEndomorphism::DecomposeScalar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GlvEndomorphism*), "DecomposeScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "GlvEndomorphism");

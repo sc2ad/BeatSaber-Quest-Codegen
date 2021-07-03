@@ -66,22 +66,62 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/OrderBlock> s_OrderBlocks
     static void _set_s_OrderBlocks(System::Collections::Generic::List_1<UnityEngine::BeforeRenderHelper::OrderBlock>* value);
     // static private System.Int32 GetUpdateOrder(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1B6FE1C
+    // Offset: 0x1B8BB2C
     static int GetUpdateOrder(UnityEngine::Events::UnityAction* callback);
     // static public System.Void RegisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1B6DCB8
+    // Offset: 0x1B899C8
     static void RegisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void UnregisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1B6E058
+    // Offset: 0x1B89D68
     static void UnregisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void Invoke()
-    // Offset: 0x1B6E6D0
+    // Offset: 0x1B8A3E0
     static void Invoke();
     // static private System.Void .cctor()
-    // Offset: 0x1B7013C
+    // Offset: 0x1B8BE4C
     static void _cctor();
   }; // UnityEngine.BeforeRenderHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BeforeRenderHelper::GetUpdateOrder
+  // Il2CppName: GetUpdateOrder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Events::UnityAction*)>(&BeforeRenderHelper::GetUpdateOrder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeforeRenderHelper*), "GetUpdateOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeforeRenderHelper::RegisterCallback
+  // Il2CppName: RegisterCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&BeforeRenderHelper::RegisterCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeforeRenderHelper*), "RegisterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeforeRenderHelper::UnregisterCallback
+  // Il2CppName: UnregisterCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&BeforeRenderHelper::UnregisterCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeforeRenderHelper*), "UnregisterCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeforeRenderHelper::Invoke
+  // Il2CppName: Invoke
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BeforeRenderHelper::Invoke)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeforeRenderHelper*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BeforeRenderHelper::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BeforeRenderHelper::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeforeRenderHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper*, "UnityEngine", "BeforeRenderHelper");

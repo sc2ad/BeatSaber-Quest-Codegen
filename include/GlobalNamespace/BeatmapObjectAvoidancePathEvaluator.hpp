@@ -89,18 +89,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: BeatmapObjectAvoidancePathEvaluator
     BeatmapObjectAvoidancePathEvaluator(float jumpStartZ_ = {}, float jumpEndZ_ = {}, float zOffset_ = {}, float yOffset_ = {}, float noteJumpSpeed_ = {}, float moveToPlayerHeadTParam_ = {}, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator_ = {}, GlobalNamespace::IAudioTimeSource* audioTimeSource_ = {}, GlobalNamespace::PlayerTransforms* playerTransforms_ = {}) noexcept : jumpStartZ{jumpStartZ_}, jumpEndZ{jumpEndZ_}, zOffset{zOffset_}, yOffset{yOffset_}, noteJumpSpeed{noteJumpSpeed_}, moveToPlayerHeadTParam{moveToPlayerHeadTParam_}, pathBezierCurveEvaluator{pathBezierCurveEvaluator_}, audioTimeSource{audioTimeSource_}, playerTransforms{playerTransforms_} {}
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, PlayerTransforms playerTransforms, BezierSplineEvaluator pathBezierCurveEvaluator, System.Single jumpStartZ, System.Single jumpEndZ, System.Single yOffset, System.Single zOffset, System.Single noteJumpSeed, System.Single moveToPlayerHeadTParam)
-    // Offset: 0x1079804
+    // Offset: 0x1104160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectAvoidancePathEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::PlayerTransforms* playerTransforms, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float jumpStartZ, float jumpEndZ, float yOffset, float zOffset, float noteJumpSeed, float moveToPlayerHeadTParam) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidancePathEvaluator*, creationType>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam)));
     }
     // public UnityEngine.Vector3 GetCurrentPathPosition()
-    // Offset: 0x1079880
+    // Offset: 0x11041DC
     UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectAvoidancePathEvaluator), 56 + sizeof(GlobalNamespace::PlayerTransforms*)> __GlobalNamespace_BeatmapObjectAvoidancePathEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidancePathEvaluator) == 0x40);
+  // Writing MetadataGetter for method: BeatmapObjectAvoidancePathEvaluator::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectAvoidancePathEvaluator::*)(GlobalNamespace::IAudioTimeSource*, GlobalNamespace::PlayerTransforms*, GlobalNamespace::BezierSplineEvaluator*, float, float, float, float, float, float)>(&BeatmapObjectAvoidancePathEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectAvoidancePathEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAudioTimeSource*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerTransforms*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSplineEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectAvoidancePathEvaluator::*)(GlobalNamespace::IAudioTimeSource*, GlobalNamespace::PlayerTransforms*, GlobalNamespace::BezierSplineEvaluator*, float, float, float, float, float, float)>(&BeatmapObjectAvoidancePathEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectAvoidancePathEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAudioTimeSource*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerTransforms*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSplineEvaluator*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition
+  // Il2CppName: GetCurrentPathPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BeatmapObjectAvoidancePathEvaluator::*)()>(&BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BeatmapObjectAvoidancePathEvaluator*), "GetCurrentPathPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");

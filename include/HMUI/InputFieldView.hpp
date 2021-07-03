@@ -127,7 +127,7 @@ namespace HMUI {
     TMPro::TextMeshProUGUI* textView;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [NullAllowed] Offset: 0xDF71AC
+    // [NullAllowed] Offset: 0xDF91A8
     // private UnityEngine.CanvasGroup _textViewCanvasGroup
     // Size: 0x8
     // Offset: 0x100
@@ -152,7 +152,7 @@ namespace HMUI {
     UnityEngine::UI::Button* clearSearchButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDF7214
+    // [HeaderAttribute] Offset: 0xDF9210
     // private System.Boolean _useGlobalKeyboard
     // Size: 0x1
     // Offset: 0x120
@@ -167,7 +167,7 @@ namespace HMUI {
     UnityEngine::Vector3 keyboardPositionOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0xDF7270
+    // [HeaderAttribute] Offset: 0xDF926C
     // private System.Boolean _useUppercase
     // Size: 0x1
     // Offset: 0x130
@@ -190,7 +190,7 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: caretOffset and: selectionStateDidChangeEvent
     char __padding9[0x4] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDF72DC
+    // [CompilerGeneratedAttribute] Offset: 0xDF92D8
     // private System.Action`1<HMUI.InputFieldView/SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x140
@@ -246,82 +246,82 @@ namespace HMUI {
     // Set static field: static private System.Single kBlinkingRate
     static void _set_kBlinkingRate(float value);
     // public HMUI.InputFieldView/SelectionState get_selectionState()
-    // Offset: 0x1294BB4
+    // Offset: 0x12AF8C4
     HMUI::InputFieldView::SelectionState get_selectionState();
     // public UnityEngine.Vector3 get_keyboardPositionOffset()
-    // Offset: 0x1294BBC
+    // Offset: 0x12AF8CC
     UnityEngine::Vector3 get_keyboardPositionOffset();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/SelectionState> value)
-    // Offset: 0x1294BCC
+    // Offset: 0x12AF8DC
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::InputFieldView::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/SelectionState> value)
-    // Offset: 0x1294C74
+    // Offset: 0x12AF984
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::InputFieldView::SelectionState>* value);
     // public HMUI.InputFieldView/InputFieldChanged get_onValueChanged()
-    // Offset: 0x1294D1C
+    // Offset: 0x12AFA2C
     HMUI::InputFieldView::InputFieldChanged* get_onValueChanged();
     // public System.Void set_onValueChanged(HMUI.InputFieldView/InputFieldChanged value)
-    // Offset: 0x1294D24
+    // Offset: 0x12AFA34
     void set_onValueChanged(HMUI::InputFieldView::InputFieldChanged* value);
     // public System.Boolean get_useGlobalKeyboard()
-    // Offset: 0x1294D2C
+    // Offset: 0x12AFA3C
     bool get_useGlobalKeyboard();
     // public System.String get_text()
-    // Offset: 0x1294D34
+    // Offset: 0x12AFA44
     ::Il2CppString* get_text();
     // private System.Void set_text(System.String value)
-    // Offset: 0x1294D3C
+    // Offset: 0x12AFA4C
     void set_text(::Il2CppString* value);
     // public System.Void ActivateKeyboard(HMUI.UIKeyboard keyboard)
-    // Offset: 0x129506C
+    // Offset: 0x12AFD7C
     void ActivateKeyboard(HMUI::UIKeyboard* keyboard);
     // public System.Void DeactivateKeyboard(HMUI.UIKeyboard keyboard)
-    // Offset: 0x12953C8
+    // Offset: 0x12B00D8
     void DeactivateKeyboard(HMUI::UIKeyboard* keyboard);
     // public System.Void SetText(System.String value)
-    // Offset: 0x12956C8
+    // Offset: 0x12B03D8
     void SetText(::Il2CppString* value);
     // public System.Void ClearInput()
-    // Offset: 0x12956EC
+    // Offset: 0x12B03FC
     void ClearInput();
     // private System.Void KeyboardKeyPressed(System.Char letter)
-    // Offset: 0x1295744
+    // Offset: 0x12B0454
     void KeyboardKeyPressed(::Il2CppChar letter);
     // private System.Void KeyboardDeletePressed()
-    // Offset: 0x1295870
+    // Offset: 0x12B0580
     void KeyboardDeletePressed();
     // private System.Collections.IEnumerator BlinkingCaretCoroutine()
-    // Offset: 0x1295358
+    // Offset: 0x12B0068
     System::Collections::IEnumerator* BlinkingCaretCoroutine();
     // private System.Void UpdateCaretPosition()
-    // Offset: 0x1294D98
+    // Offset: 0x12AFAA8
     void UpdateCaretPosition();
     // private System.Void UpdatePlaceholder()
-    // Offset: 0x1294EA8
+    // Offset: 0x12AFBB8
     void UpdatePlaceholder();
     // private System.Void UpdateClearButton()
-    // Offset: 0x1295688
+    // Offset: 0x12B0398
     void UpdateClearButton();
     // private System.Void <Awake>b__34_0()
-    // Offset: 0x1295AC8
+    // Offset: 0x12B07D8
     void $Awake$b__34_0();
     // protected override System.Void Awake()
-    // Offset: 0x1294EE4
+    // Offset: 0x12AFBF4
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::Awake()
     void Awake();
     // protected override System.Void OnDestroy()
-    // Offset: 0x1294FBC
+    // Offset: 0x12AFCCC
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnDestroy()
     void OnDestroy();
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
-    // Offset: 0x1294FD0
+    // Offset: 0x12AFCE0
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);
     // public System.Void .ctor()
-    // Offset: 0x1295974
+    // Offset: 0x12B0684
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::.ctor()
     // Base method: System.Void UIBehaviour::.ctor()
@@ -339,6 +339,204 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(InputFieldView), 368 + sizeof(UnityEngine::YieldInstruction*)> __HMUI_InputFieldViewSizeCheck;
   static_assert(sizeof(InputFieldView) == 0x178);
+  // Writing MetadataGetter for method: InputFieldView::get_selectionState
+  // Il2CppName: get_selectionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::InputFieldView::SelectionState (InputFieldView::*)()>(&InputFieldView::get_selectionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::get_keyboardPositionOffset
+  // Il2CppName: get_keyboardPositionOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (InputFieldView::*)()>(&InputFieldView::get_keyboardPositionOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "get_keyboardPositionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::add_selectionStateDidChangeEvent
+  // Il2CppName: add_selectionStateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(System::Action_1<HMUI::InputFieldView::SelectionState>*)>(&InputFieldView::add_selectionStateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "add_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::InputFieldView::SelectionState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::remove_selectionStateDidChangeEvent
+  // Il2CppName: remove_selectionStateDidChangeEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(System::Action_1<HMUI::InputFieldView::SelectionState>*)>(&InputFieldView::remove_selectionStateDidChangeEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "remove_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::InputFieldView::SelectionState>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::get_onValueChanged
+  // Il2CppName: get_onValueChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::InputFieldView::InputFieldChanged* (InputFieldView::*)()>(&InputFieldView::get_onValueChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::set_onValueChanged
+  // Il2CppName: set_onValueChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(HMUI::InputFieldView::InputFieldChanged*)>(&InputFieldView::set_onValueChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView::InputFieldChanged*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::get_useGlobalKeyboard
+  // Il2CppName: get_useGlobalKeyboard
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputFieldView::*)()>(&InputFieldView::get_useGlobalKeyboard)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "get_useGlobalKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::get_text
+  // Il2CppName: get_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputFieldView::*)()>(&InputFieldView::get_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::set_text
+  // Il2CppName: set_text
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(::Il2CppString*)>(&InputFieldView::set_text)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::ActivateKeyboard
+  // Il2CppName: ActivateKeyboard
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(HMUI::UIKeyboard*)>(&InputFieldView::ActivateKeyboard)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "ActivateKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::UIKeyboard*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::DeactivateKeyboard
+  // Il2CppName: DeactivateKeyboard
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(HMUI::UIKeyboard*)>(&InputFieldView::DeactivateKeyboard)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "DeactivateKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::UIKeyboard*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::SetText
+  // Il2CppName: SetText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(::Il2CppString*)>(&InputFieldView::SetText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::ClearInput
+  // Il2CppName: ClearInput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::ClearInput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "ClearInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::KeyboardKeyPressed
+  // Il2CppName: KeyboardKeyPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(::Il2CppChar)>(&InputFieldView::KeyboardKeyPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "KeyboardKeyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::KeyboardDeletePressed
+  // Il2CppName: KeyboardDeletePressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::KeyboardDeletePressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "KeyboardDeletePressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::BlinkingCaretCoroutine
+  // Il2CppName: BlinkingCaretCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (InputFieldView::*)()>(&InputFieldView::BlinkingCaretCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "BlinkingCaretCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::UpdateCaretPosition
+  // Il2CppName: UpdateCaretPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::UpdateCaretPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "UpdateCaretPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::UpdatePlaceholder
+  // Il2CppName: UpdatePlaceholder
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::UpdatePlaceholder)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "UpdatePlaceholder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::UpdateClearButton
+  // Il2CppName: UpdateClearButton
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::UpdateClearButton)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "UpdateClearButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::$Awake$b__34_0
+  // Il2CppName: <Awake>b__34_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::$Awake$b__34_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "<Awake>b__34_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::DoStateTransition
+  // Il2CppName: DoStateTransition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&InputFieldView::DoStateTransition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: InputFieldView::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::*)()>(&InputFieldView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InputFieldView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");

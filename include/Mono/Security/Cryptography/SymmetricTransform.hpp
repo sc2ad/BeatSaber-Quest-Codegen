@@ -112,74 +112,74 @@ namespace Mono::Security::Cryptography {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // public System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] rgbIV)
-    // Offset: 0x1A56F7C
+    // Offset: 0x1A71C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymmetricTransform* New_ctor(System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::Array<uint8_t>* rgbIV) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::SymmetricTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymmetricTransform*, creationType>(symmAlgo, encryption, rgbIV)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1A572B4
+    // Offset: 0x1A71FC4
     void System_IDisposable_Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A57330
+    // Offset: 0x1A72040
     void Dispose(bool disposing);
     // public System.Boolean get_CanTransformMultipleBlocks()
-    // Offset: 0x1A57394
+    // Offset: 0x1A720A4
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 get_InputBlockSize()
-    // Offset: 0x1A5739C
+    // Offset: 0x1A720AC
     int get_InputBlockSize();
     // public System.Int32 get_OutputBlockSize()
-    // Offset: 0x1A573A4
+    // Offset: 0x1A720B4
     int get_OutputBlockSize();
     // protected System.Void Transform(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A573AC
+    // Offset: 0x1A720BC
     void Transform(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0xFFFFFFFF
     void ECB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CBC(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A57560
+    // Offset: 0x1A72270
     void CBC(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A576D8
+    // Offset: 0x1A723E8
     void CFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void OFB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A578B4
+    // Offset: 0x1A725C4
     void OFB(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // protected System.Void CTS(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1A57920
+    // Offset: 0x1A72630
     void CTS(::Array<uint8_t>* input, ::Array<uint8_t>* output);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A5798C
+    // Offset: 0x1A7269C
     void CheckInput(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1A57AE4
+    // Offset: 0x1A727F4
     int TransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // private System.Boolean get_KeepLastBlock()
-    // Offset: 0x1A57CFC
+    // Offset: 0x1A72A0C
     bool get_KeepLastBlock();
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
-    // Offset: 0x1A57D20
+    // Offset: 0x1A72A30
     int InternalTransformBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount, ::Array<uint8_t>* outputBuffer, int outputOffset);
     // private System.Void Random(System.Byte[] buffer, System.Int32 start, System.Int32 length)
-    // Offset: 0x1A57F00
+    // Offset: 0x1A72C10
     void Random(::Array<uint8_t>* buffer, int start, int length);
     // private System.Void ThrowBadPaddingException(System.Security.Cryptography.PaddingMode padding, System.Int32 length, System.Int32 position)
-    // Offset: 0x1A57FC0
+    // Offset: 0x1A72CD0
     void ThrowBadPaddingException(System::Security::Cryptography::PaddingMode padding, int length, int position);
     // protected System.Byte[] FinalEncrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A5812C
+    // Offset: 0x1A72E3C
     ::Array<uint8_t>* FinalEncrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected System.Byte[] FinalDecrypt(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A583D0
+    // Offset: 0x1A730E0
     ::Array<uint8_t>* FinalDecrypt(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
-    // Offset: 0x1A58684
+    // Offset: 0x1A73394
     ::Array<uint8_t>* TransformFinalBlock(::Array<uint8_t>* inputBuffer, int inputOffset, int inputCount);
     // protected override System.Void Finalize()
-    // Offset: 0x1A57240
+    // Offset: 0x1A71F50
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -187,5 +187,187 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(SymmetricTransform), 80 + sizeof(System::Security::Cryptography::RandomNumberGenerator*)> __Mono_Security_Cryptography_SymmetricTransformSizeCheck;
   static_assert(sizeof(SymmetricTransform) == 0x58);
+  // Writing MetadataGetter for method: SymmetricTransform::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(System::Security::Cryptography::SymmetricAlgorithm*, bool, ::Array<uint8_t>*)>(&SymmetricTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::SymmetricAlgorithm*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(System::Security::Cryptography::SymmetricAlgorithm*, bool, ::Array<uint8_t>*)>(&SymmetricTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::SymmetricAlgorithm*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::System_IDisposable_Dispose
+  // Il2CppName: System.IDisposable.Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)()>(&SymmetricTransform::System_IDisposable_Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(bool)>(&SymmetricTransform::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::get_CanTransformMultipleBlocks
+  // Il2CppName: get_CanTransformMultipleBlocks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SymmetricTransform::*)()>(&SymmetricTransform::get_CanTransformMultipleBlocks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_CanTransformMultipleBlocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::get_InputBlockSize
+  // Il2CppName: get_InputBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)()>(&SymmetricTransform::get_InputBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_InputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::get_OutputBlockSize
+  // Il2CppName: get_OutputBlockSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)()>(&SymmetricTransform::get_OutputBlockSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::Transform
+  // Il2CppName: Transform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::Transform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::ECB
+  // Il2CppName: ECB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::ECB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::CBC
+  // Il2CppName: CBC
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::CBC)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CBC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::CFB
+  // Il2CppName: CFB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::CFB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::OFB
+  // Il2CppName: OFB
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::OFB)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "OFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::CTS
+  // Il2CppName: CTS
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::CTS)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CTS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::CheckInput
+  // Il2CppName: CheckInput
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::CheckInput)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CheckInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::TransformBlock
+  // Il2CppName: TransformBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&SymmetricTransform::TransformBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::get_KeepLastBlock
+  // Il2CppName: get_KeepLastBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SymmetricTransform::*)()>(&SymmetricTransform::get_KeepLastBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_KeepLastBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::InternalTransformBlock
+  // Il2CppName: InternalTransformBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&SymmetricTransform::InternalTransformBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "InternalTransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::Random
+  // Il2CppName: Random
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::Random)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::ThrowBadPaddingException
+  // Il2CppName: ThrowBadPaddingException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(System::Security::Cryptography::PaddingMode, int, int)>(&SymmetricTransform::ThrowBadPaddingException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "ThrowBadPaddingException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::FinalEncrypt
+  // Il2CppName: FinalEncrypt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::FinalEncrypt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "FinalEncrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::FinalDecrypt
+  // Il2CppName: FinalDecrypt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::FinalDecrypt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "FinalDecrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::TransformFinalBlock
+  // Il2CppName: TransformFinalBlock
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::TransformFinalBlock)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SymmetricTransform::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)()>(&SymmetricTransform::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform*, "Mono.Security.Cryptography", "SymmetricTransform");

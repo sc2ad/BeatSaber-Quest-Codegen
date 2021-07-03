@@ -113,7 +113,7 @@ namespace Mono::Security::Cryptography {
     System::Security::Cryptography::RandomNumberGenerator* rng;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xD80F80
+    // [CompilerGeneratedAttribute] Offset: 0xD80F00
     // private Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler KeyGenerated
     // Size: 0x8
     // Offset: 0x70
@@ -123,66 +123,66 @@ namespace Mono::Security::Cryptography {
     // Creating value type constructor for type: DSAManaged
     DSAManaged(bool keypairGenerated_ = {}, bool m_disposed_ = {}, Mono::Math::BigInteger* p_ = {}, Mono::Math::BigInteger* q_ = {}, Mono::Math::BigInteger* g_ = {}, Mono::Math::BigInteger* x_ = {}, Mono::Math::BigInteger* y_ = {}, Mono::Math::BigInteger* j_ = {}, Mono::Math::BigInteger* seed_ = {}, int counter_ = {}, bool j_missing_ = {}, System::Security::Cryptography::RandomNumberGenerator* rng_ = {}, Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* KeyGenerated_ = {}) noexcept : keypairGenerated{keypairGenerated_}, m_disposed{m_disposed_}, p{p_}, q{q_}, g{g_}, x{x_}, y{y_}, j{j_}, seed{seed_}, counter{counter_}, j_missing{j_missing_}, rng{rng_}, KeyGenerated{KeyGenerated_} {}
     // public System.Void .ctor(System.Int32 dwKeySize)
-    // Offset: 0x1A4E78C
+    // Offset: 0x1A6949C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DSAManaged* New_ctor(int dwKeySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::DSAManaged::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DSAManaged*, creationType>(dwKeySize)));
     }
     // private System.Void Generate()
-    // Offset: 0x1A4E8E4
+    // Offset: 0x1A695F4
     void Generate();
     // private System.Void GenerateKeyPair()
-    // Offset: 0x1A4EEF8
+    // Offset: 0x1A69C08
     void GenerateKeyPair();
     // private System.Void add(System.Byte[] a, System.Byte[] b, System.Int32 value)
-    // Offset: 0x1A4F3F4
+    // Offset: 0x1A6A104
     void add(::Array<uint8_t>* a, ::Array<uint8_t>* b, int value);
     // private System.Void GenerateParams(System.Int32 keyLength)
-    // Offset: 0x1A4E934
+    // Offset: 0x1A69644
     void GenerateParams(int keyLength);
     // private System.Security.Cryptography.RandomNumberGenerator get_Random()
-    // Offset: 0x1A4F4A8
+    // Offset: 0x1A6A1B8
     System::Security::Cryptography::RandomNumberGenerator* get_Random();
     // public System.Boolean get_PublicOnly()
-    // Offset: 0x1A4F500
+    // Offset: 0x1A6A210
     bool get_PublicOnly();
     // private System.Byte[] NormalizeArray(System.Byte[] array)
-    // Offset: 0x1A4F588
+    // Offset: 0x1A6A298
     ::Array<uint8_t>* NormalizeArray(::Array<uint8_t>* array);
     // public System.Void add_KeyGenerated(Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler value)
-    // Offset: 0x1A502D8
+    // Offset: 0x1A6AFE8
     void add_KeyGenerated(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // public System.Void remove_KeyGenerated(Mono.Security.Cryptography.DSAManaged/KeyGeneratedEventHandler value)
-    // Offset: 0x1A5037C
+    // Offset: 0x1A6B08C
     void remove_KeyGenerated(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* value);
     // protected override System.Void Finalize()
-    // Offset: 0x1A4E870
+    // Offset: 0x1A69580
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
     // public override System.Int32 get_KeySize()
-    // Offset: 0x1A4F4D4
+    // Offset: 0x1A6A1E4
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Int32 AsymmetricAlgorithm::get_KeySize()
     int get_KeySize();
     // public override System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean includePrivateParameters)
-    // Offset: 0x1A4F63C
+    // Offset: 0x1A6A34C
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Security.Cryptography.DSAParameters DSA::ExportParameters(System.Boolean includePrivateParameters)
     System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
     // public override System.Void ImportParameters(System.Security.Cryptography.DSAParameters parameters)
-    // Offset: 0x1A4F8E4
+    // Offset: 0x1A6A5F4
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Void DSA::ImportParameters(System.Security.Cryptography.DSAParameters parameters)
     void ImportParameters(System::Security::Cryptography::DSAParameters parameters);
     // public override System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    // Offset: 0x1A4FBB8
+    // Offset: 0x1A6A8C8
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Boolean DSA::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     bool VerifySignature(::Array<uint8_t>* rgbHash, ::Array<uint8_t>* rgbSignature);
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A50090
+    // Offset: 0x1A6ADA0
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
     // Base method: System.Void AsymmetricAlgorithm::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
@@ -190,5 +190,139 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
   static check_size<sizeof(DSAManaged), 112 + sizeof(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)> __Mono_Security_Cryptography_DSAManagedSizeCheck;
   static_assert(sizeof(DSAManaged) == 0x78);
+  // Writing MetadataGetter for method: DSAManaged::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(int)>(&DSAManaged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(int)>(&DSAManaged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::Generate
+  // Il2CppName: Generate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)()>(&DSAManaged::Generate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "Generate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::GenerateKeyPair
+  // Il2CppName: GenerateKeyPair
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)()>(&DSAManaged::GenerateKeyPair)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::add
+  // Il2CppName: add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&DSAManaged::add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::GenerateParams
+  // Il2CppName: GenerateParams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(int)>(&DSAManaged::GenerateParams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "GenerateParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::get_Random
+  // Il2CppName: get_Random
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RandomNumberGenerator* (DSAManaged::*)()>(&DSAManaged::get_Random)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "get_Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::get_PublicOnly
+  // Il2CppName: get_PublicOnly
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSAManaged::*)()>(&DSAManaged::get_PublicOnly)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::NormalizeArray
+  // Il2CppName: NormalizeArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DSAManaged::*)(::Array<uint8_t>*)>(&DSAManaged::NormalizeArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "NormalizeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::add_KeyGenerated
+  // Il2CppName: add_KeyGenerated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)>(&DSAManaged::add_KeyGenerated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "add_KeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::remove_KeyGenerated
+  // Il2CppName: remove_KeyGenerated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)>(&DSAManaged::remove_KeyGenerated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "remove_KeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)()>(&DSAManaged::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::get_KeySize
+  // Il2CppName: get_KeySize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DSAManaged::*)()>(&DSAManaged::get_KeySize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::ExportParameters
+  // Il2CppName: ExportParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (DSAManaged::*)(bool)>(&DSAManaged::ExportParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::ImportParameters
+  // Il2CppName: ImportParameters
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(System::Security::Cryptography::DSAParameters)>(&DSAManaged::ImportParameters)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSAParameters>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::VerifySignature
+  // Il2CppName: VerifySignature
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DSAManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&DSAManaged::VerifySignature)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DSAManaged::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DSAManaged::*)(bool)>(&DSAManaged::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DSAManaged*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged*, "Mono.Security.Cryptography", "DSAManaged");

@@ -36,6 +36,30 @@ namespace Org::BouncyCastle::Crypto {
     Org::BouncyCastle::Math::BigInteger* CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
   }; // Org.BouncyCastle.Crypto.IBasicAgreement
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IBasicAgreement::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IBasicAgreement::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&IBasicAgreement::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBasicAgreement*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IBasicAgreement::GetFieldSize
+  // Il2CppName: GetFieldSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IBasicAgreement::*)()>(&IBasicAgreement::GetFieldSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBasicAgreement*), "GetFieldSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IBasicAgreement::CalculateAgreement
+  // Il2CppName: CalculateAgreement
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (IBasicAgreement::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&IBasicAgreement::CalculateAgreement)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBasicAgreement*), "CalculateAgreement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBasicAgreement*, "Org.BouncyCastle.Crypto", "IBasicAgreement");

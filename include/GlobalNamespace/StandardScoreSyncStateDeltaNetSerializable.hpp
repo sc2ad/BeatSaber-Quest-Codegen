@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardScoreSyncState delta;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardScoreSyncState) == 0x14);
-    // [CompilerGeneratedAttribute] Offset: 0xDF00EC
+    // [CompilerGeneratedAttribute] Offset: 0xDF1020
     // private SyncStateId <baseId>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SyncStateId) == 0x1);
     // Padding between fields: baseId and: timeOffsetMs
     char __padding1[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDF00FC
+    // [CompilerGeneratedAttribute] Offset: 0xDF1030
     // private System.Int32 <timeOffsetMs>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -80,40 +80,40 @@ namespace GlobalNamespace {
     // Set static field: static public readonly PacketPool`1<StandardScoreSyncStateDeltaNetSerializable> pool
     static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* value);
     // public SyncStateId get_baseId()
-    // Offset: 0x2367FCC
+    // Offset: 0x237D128
     GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x2367FD4
+    // Offset: 0x237D130
     void set_baseId(GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x2367FDC
+    // Offset: 0x237D138
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x2367FE4
+    // Offset: 0x237D140
     void set_timeOffsetMs(int value);
     // public StandardScoreSyncState get_delta()
-    // Offset: 0x2367FEC
+    // Offset: 0x237D148
     GlobalNamespace::StandardScoreSyncState get_delta();
     // public System.Void set_delta(StandardScoreSyncState value)
-    // Offset: 0x2368000
+    // Offset: 0x237D15C
     void set_delta(GlobalNamespace::StandardScoreSyncState value);
     // static private System.Void NoDomainReloadInit()
-    // Offset: 0x2368014
+    // Offset: 0x237D170
     static void NoDomainReloadInit();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2368090
+    // Offset: 0x237D1EC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2368178
+    // Offset: 0x237D2D4
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x236821C
+    // Offset: 0x237D378
     void Release();
     // static private System.Void .cctor()
-    // Offset: 0x23682A8
+    // Offset: 0x237D404
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x23682A0
+    // Offset: 0x237D3FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -125,5 +125,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(StandardScoreSyncStateDeltaNetSerializable), 40 + sizeof(int)> __GlobalNamespace_StandardScoreSyncStateDeltaNetSerializableSizeCheck;
   static_assert(sizeof(StandardScoreSyncStateDeltaNetSerializable) == 0x2C);
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::get_baseId
+  // Il2CppName: get_baseId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (StandardScoreSyncStateDeltaNetSerializable::*)()>(&StandardScoreSyncStateDeltaNetSerializable::get_baseId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "get_baseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::set_baseId
+  // Il2CppName: set_baseId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)(GlobalNamespace::SyncStateId)>(&StandardScoreSyncStateDeltaNetSerializable::set_baseId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "set_baseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::get_timeOffsetMs
+  // Il2CppName: get_timeOffsetMs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StandardScoreSyncStateDeltaNetSerializable::*)()>(&StandardScoreSyncStateDeltaNetSerializable::get_timeOffsetMs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "get_timeOffsetMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::set_timeOffsetMs
+  // Il2CppName: set_timeOffsetMs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)(int)>(&StandardScoreSyncStateDeltaNetSerializable::set_timeOffsetMs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "set_timeOffsetMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::get_delta
+  // Il2CppName: get_delta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardScoreSyncState (StandardScoreSyncStateDeltaNetSerializable::*)()>(&StandardScoreSyncStateDeltaNetSerializable::get_delta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "get_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::set_delta
+  // Il2CppName: set_delta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)(GlobalNamespace::StandardScoreSyncState)>(&StandardScoreSyncStateDeltaNetSerializable::set_delta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardScoreSyncState>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::NoDomainReloadInit
+  // Il2CppName: NoDomainReloadInit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StandardScoreSyncStateDeltaNetSerializable::NoDomainReloadInit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "NoDomainReloadInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::Serialize
+  // Il2CppName: Serialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&StandardScoreSyncStateDeltaNetSerializable::Serialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::Deserialize
+  // Il2CppName: Deserialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&StandardScoreSyncStateDeltaNetSerializable::Deserialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::Release
+  // Il2CppName: Release
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)()>(&StandardScoreSyncStateDeltaNetSerializable::Release)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&StandardScoreSyncStateDeltaNetSerializable::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: StandardScoreSyncStateDeltaNetSerializable::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)()>(&StandardScoreSyncStateDeltaNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardScoreSyncStateDeltaNetSerializable::*)()>(&StandardScoreSyncStateDeltaNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(StandardScoreSyncStateDeltaNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*, "", "StandardScoreSyncStateDeltaNetSerializable");

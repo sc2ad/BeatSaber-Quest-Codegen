@@ -28,10 +28,10 @@ namespace System::Runtime::Remoting::Contexts {
     // Creating value type constructor for type: ContextCallbackObject
     ContextCallbackObject() noexcept {}
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
-    // Offset: 0x1A18944
+    // Offset: 0x1A32654
     void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // public System.Void .ctor()
-    // Offset: 0x1A18948
+    // Offset: 0x1A32658
     // Implemented from: System.ContextBoundObject
     // Base method: System.Void ContextBoundObject::.ctor()
     // Base method: System.Void MarshalByRefObject::.ctor()
@@ -43,5 +43,27 @@ namespace System::Runtime::Remoting::Contexts {
     }
   }; // System.Runtime.Remoting.Contexts.ContextCallbackObject
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ContextCallbackObject::DoCallBack
+  // Il2CppName: DoCallBack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContextCallbackObject::*)(System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&ContextCallbackObject::DoCallBack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContextCallbackObject*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::CrossContextDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ContextCallbackObject::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContextCallbackObject::*)()>(&ContextCallbackObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContextCallbackObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContextCallbackObject::*)()>(&ContextCallbackObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ContextCallbackObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::ContextCallbackObject*, "System.Runtime.Remoting.Contexts", "ContextCallbackObject");

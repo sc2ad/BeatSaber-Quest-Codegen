@@ -36,13 +36,29 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.Collections.Hashtable cache
     static void _set_cache(System::Collections::Hashtable* value);
     // static System.Runtime.Serialization.SerializationEvents GetSerializationEventsForType(System.Type t)
-    // Offset: 0x1681230
+    // Offset: 0x1697F40
     static System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(System::Type* t);
     // static private System.Void .cctor()
-    // Offset: 0x168355C
+    // Offset: 0x169A26C
     static void _cctor();
   }; // System.Runtime.Serialization.SerializationEventsCache
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SerializationEventsCache::GetSerializationEventsForType
+  // Il2CppName: GetSerializationEventsForType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationEvents* (*)(System::Type*)>(&SerializationEventsCache::GetSerializationEventsForType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEventsCache*), "GetSerializationEventsForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEventsCache::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SerializationEventsCache::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEventsCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventsCache*, "System.Runtime.Serialization", "SerializationEventsCache");

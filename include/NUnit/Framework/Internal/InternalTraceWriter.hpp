@@ -30,7 +30,7 @@ namespace NUnit::Framework::Internal {
     // Creating value type constructor for type: InternalTraceWriter
     InternalTraceWriter(System::IO::TextWriter* writer_ = {}) noexcept : writer{writer_} {}
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x229006C
+    // Offset: 0x22AADC8
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     System::Text::Encoding* get_Encoding();
@@ -38,6 +38,14 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(InternalTraceWriter), 40 + sizeof(System::IO::TextWriter*)> __NUnit_Framework_Internal_InternalTraceWriterSizeCheck;
   static_assert(sizeof(InternalTraceWriter) == 0x30);
+  // Writing MetadataGetter for method: InternalTraceWriter::get_Encoding
+  // Il2CppName: get_Encoding
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (InternalTraceWriter::*)()>(&InternalTraceWriter::get_Encoding)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InternalTraceWriter*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceWriter*, "NUnit.Framework.Internal", "InternalTraceWriter");

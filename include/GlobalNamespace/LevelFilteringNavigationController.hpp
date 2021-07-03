@@ -91,56 +91,56 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* emptyCustomSongListInfoPrefab;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24F60
+    // [InjectAttribute] Offset: 0xE24FE4
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24F70
+    // [InjectAttribute] Offset: 0xE24FF4
     // private readonly SelectLevelCategoryViewController _selectLevelCategoryViewController
     // Size: 0x8
     // Offset: 0xB0
     GlobalNamespace::SelectLevelCategoryViewController* selectLevelCategoryViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectLevelCategoryViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24F80
+    // [InjectAttribute] Offset: 0xE25004
     // private readonly AnnotatedBeatmapLevelCollectionsViewController _annotatedBeatmapLevelCollectionsViewController
     // Size: 0x8
     // Offset: 0xB8
     GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* annotatedBeatmapLevelCollectionsViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24F90
+    // [InjectAttribute] Offset: 0xE25014
     // private readonly LevelSearchViewController _levelSearchViewController
     // Size: 0x8
     // Offset: 0xC0
     GlobalNamespace::LevelSearchViewController* levelSearchViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSearchViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE24FA0
+    // [InjectAttribute] Offset: 0xE25024
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0xC8
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE24FB0
+    // [CompilerGeneratedAttribute] Offset: 0xE25034
     // private System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> didSelectAnnotatedBeatmapLevelCollectionEvent
     // Size: 0x8
     // Offset: 0xD0
     System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectAnnotatedBeatmapLevelCollectionEvent;
     // Field size check
     static_assert(sizeof(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE24FC0
+    // [CompilerGeneratedAttribute] Offset: 0xE25044
     // private System.Action`1<LevelFilteringNavigationController> didStartLoadingEvent
     // Size: 0x8
     // Offset: 0xD8
     System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* didStartLoadingEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE24FD0
+    // [CompilerGeneratedAttribute] Offset: 0xE25054
     // private System.Action`1<LevelFilteringNavigationController> didPressAllSongsEvent
     // Size: 0x8
     // Offset: 0xE0
@@ -218,86 +218,86 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LevelFilteringNavigationController
     LevelFilteringNavigationController(UnityEngine::GameObject* emptyFavoritesListInfoPrefab_ = {}, UnityEngine::GameObject* emptyCustomSongListInfoPrefab_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, GlobalNamespace::SelectLevelCategoryViewController* selectLevelCategoryViewController_ = {}, GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController* annotatedBeatmapLevelCollectionsViewController_ = {}, GlobalNamespace::LevelSearchViewController* levelSearchViewController_ = {}, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel_ = {}, System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* didSelectAnnotatedBeatmapLevelCollectionEvent_ = {}, System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* didStartLoadingEvent_ = {}, System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* didPressAllSongsEvent_ = {}, System::Threading::CancellationTokenSource* cancellationTokenSource_ = {}, UnityEngine::GameObject* currentNoDataInfoPrefab_ = {}, ::Il2CppString* levelPackIdToBeSelectedAfterPresent_ = {}, bool hidePacksIfOneOrNone_ = {}, bool enableCustomLevels_ = {}, GlobalNamespace::SongPackMask songPackMask_ = {}, ::Array<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* enabledLevelCategories_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* ostBeatmapLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* musicPacksBeatmapLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* customLevelPacks_ = {}, ::Array<GlobalNamespace::IBeatmapLevelPack*>* allBeatmapLevelPacks_ = {}) noexcept : emptyFavoritesListInfoPrefab{emptyFavoritesListInfoPrefab_}, emptyCustomSongListInfoPrefab{emptyCustomSongListInfoPrefab_}, playerDataModel{playerDataModel_}, selectLevelCategoryViewController{selectLevelCategoryViewController_}, annotatedBeatmapLevelCollectionsViewController{annotatedBeatmapLevelCollectionsViewController_}, levelSearchViewController{levelSearchViewController_}, beatmapLevelsModel{beatmapLevelsModel_}, didSelectAnnotatedBeatmapLevelCollectionEvent{didSelectAnnotatedBeatmapLevelCollectionEvent_}, didStartLoadingEvent{didStartLoadingEvent_}, didPressAllSongsEvent{didPressAllSongsEvent_}, cancellationTokenSource{cancellationTokenSource_}, currentNoDataInfoPrefab{currentNoDataInfoPrefab_}, levelPackIdToBeSelectedAfterPresent{levelPackIdToBeSelectedAfterPresent_}, hidePacksIfOneOrNone{hidePacksIfOneOrNone_}, enableCustomLevels{enableCustomLevels_}, songPackMask{songPackMask_}, enabledLevelCategories{enabledLevelCategories_}, ostBeatmapLevelPacks{ostBeatmapLevelPacks_}, musicPacksBeatmapLevelPacks{musicPacksBeatmapLevelPacks_}, customLevelPacks{customLevelPacks_}, allBeatmapLevelPacks{allBeatmapLevelPacks_} {}
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> value)
-    // Offset: 0x11F549C
+    // Offset: 0x11F8ECC
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`4<LevelFilteringNavigationController,IAnnotatedBeatmapLevelCollection,UnityEngine.GameObject,BeatmapCharacteristicSO> value)
-    // Offset: 0x11F5540
+    // Offset: 0x11F8F70
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>* value);
     // public System.Void add_didStartLoadingEvent(System.Action`1<LevelFilteringNavigationController> value)
-    // Offset: 0x11F55E4
+    // Offset: 0x11F9014
     void add_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
     // public System.Void remove_didStartLoadingEvent(System.Action`1<LevelFilteringNavigationController> value)
-    // Offset: 0x11F5688
+    // Offset: 0x11F90B8
     void remove_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
     // public System.Void add_didPressAllSongsEvent(System.Action`1<LevelFilteringNavigationController> value)
-    // Offset: 0x11F572C
+    // Offset: 0x11F915C
     void add_didPressAllSongsEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
     // public System.Void remove_didPressAllSongsEvent(System.Action`1<LevelFilteringNavigationController> value)
-    // Offset: 0x11F57D0
+    // Offset: 0x11F9200
     void remove_didPressAllSongsEvent(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>* value);
     // public IBeatmapLevelPack get_selectedBeatmapLevelPack()
-    // Offset: 0x11F5874
+    // Offset: 0x11F92A4
     GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();
     // public SelectLevelCategoryViewController/LevelCategory get_selectedLevelCategory()
-    // Offset: 0x11F58D4
+    // Offset: 0x11F9304
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory get_selectedLevelCategory();
     // public System.Void Setup(SongPackMask songPackMask, IBeatmapLevelPack levelPackToBeSelectedAfterPresent, SelectLevelCategoryViewController/LevelCategory startLevelCategory, System.Boolean hidePacksIfOneOrNone, System.Boolean enableCustomLevels)
-    // Offset: 0x11F58F0
+    // Offset: 0x11F9320
     void Setup(GlobalNamespace::SongPackMask songPackMask, GlobalNamespace::IBeatmapLevelPack* levelPackToBeSelectedAfterPresent, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory startLevelCategory, bool hidePacksIfOneOrNone, bool enableCustomLevels);
     // private System.Void SetupBeatmapLevelPacks()
-    // Offset: 0x11F5B58
+    // Offset: 0x11F9588
     void SetupBeatmapLevelPacks();
     // private System.Void LevelSearchViewControllerDidStartLoading(LevelSearchViewController obj)
-    // Offset: 0x11F641C
+    // Offset: 0x11F9E4C
     void LevelSearchViewControllerDidStartLoading(GlobalNamespace::LevelSearchViewController* obj);
     // private System.Void LevelSearchViewControllerDidFilterBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, BeatmapCharacteristicSO preferredBeatmapCharacteristic)
-    // Offset: 0x11F682C
+    // Offset: 0x11FA25C
     void LevelSearchViewControllerDidFilterBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, GlobalNamespace::BeatmapCharacteristicSO* preferredBeatmapCharacteristic);
     // private System.Void SelectLevelCategoryViewControllerDidSelectLevelCategory(SelectLevelCategoryViewController viewController, SelectLevelCategoryViewController/LevelCategory levelCategory)
-    // Offset: 0x11F68B0
+    // Offset: 0x11FA2E0
     void SelectLevelCategoryViewControllerDidSelectLevelCategory(GlobalNamespace::SelectLevelCategoryViewController* viewController, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory);
     // private System.Void UpdateSecondChildControllerContent(SelectLevelCategoryViewController/LevelCategory levelCategory)
-    // Offset: 0x11F5E18
+    // Offset: 0x11F9848
     void UpdateSecondChildControllerContent(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory);
     // private System.Void ShowPacksInSecondChildController(System.Collections.Generic.IReadOnlyList`1<IBeatmapLevelPack> beatmapLevelPacks)
-    // Offset: 0x11F68B8
+    // Offset: 0x11FA2E8
     void ShowPacksInSecondChildController(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // private System.Void ReplaceSecondViewController(HMUI.ViewController viewController)
-    // Offset: 0x11F6B2C
+    // Offset: 0x11FA55C
     void ReplaceSecondViewController(HMUI::ViewController* viewController);
     // private System.Void HandlePlayerDataFavoriteLevelsSetDidChange()
-    // Offset: 0x11F6CA0
+    // Offset: 0x11FA6D0
     void HandlePlayerDataFavoriteLevelsSetDidChange();
     // private System.Void HandleIncreaseNumberOfGameplays()
-    // Offset: 0x11F6CFC
+    // Offset: 0x11FA72C
     void HandleIncreaseNumberOfGameplays();
     // private System.Void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection)
-    // Offset: 0x11F6D68
+    // Offset: 0x11FA798
     void HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection);
     // public System.Void SelectAnnotatedBeatmapLevelCollection(IBeatmapLevelPack levelPack)
-    // Offset: 0x11F6DE8
+    // Offset: 0x11FA818
     void SelectAnnotatedBeatmapLevelCollection(GlobalNamespace::IBeatmapLevelPack* levelPack);
     // private System.Void UpdateCustomSongs()
-    // Offset: 0x11F6BE0
+    // Offset: 0x11FA610
     void UpdateCustomSongs();
     // private System.Boolean <SetupBeatmapLevelPacks>b__32_0(IBeatmapLevelPack pack)
-    // Offset: 0x11F71C8
+    // Offset: 0x11FABF8
     bool $SetupBeatmapLevelPacks$b__32_0(GlobalNamespace::IBeatmapLevelPack* pack);
     // private System.Boolean <SetupBeatmapLevelPacks>b__32_1(IBeatmapLevelPack pack)
-    // Offset: 0x11F72A8
+    // Offset: 0x11FACD8
     bool $SetupBeatmapLevelPacks$b__32_1(GlobalNamespace::IBeatmapLevelPack* pack);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11F5FDC
+    // Offset: 0x11F9A0C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x11F6480
+    // Offset: 0x11F9EB0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void .ctor()
-    // Offset: 0x11F71C0
+    // Offset: 0x11FABF0
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()
@@ -316,5 +316,219 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LevelFilteringNavigationController), 312 + sizeof(::Array<GlobalNamespace::IBeatmapLevelPack*>*)> __GlobalNamespace_LevelFilteringNavigationControllerSizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController) == 0x140);
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::add_didSelectAnnotatedBeatmapLevelCollectionEvent
+  // Il2CppName: add_didSelectAnnotatedBeatmapLevelCollectionEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelFilteringNavigationController::add_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "add_didSelectAnnotatedBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::remove_didSelectAnnotatedBeatmapLevelCollectionEvent
+  // Il2CppName: remove_didSelectAnnotatedBeatmapLevelCollectionEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*)>(&LevelFilteringNavigationController::remove_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "remove_didSelectAnnotatedBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<GlobalNamespace::LevelFilteringNavigationController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, UnityEngine::GameObject*, GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::add_didStartLoadingEvent
+  // Il2CppName: add_didStartLoadingEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*)>(&LevelFilteringNavigationController::add_didStartLoadingEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "add_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::remove_didStartLoadingEvent
+  // Il2CppName: remove_didStartLoadingEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*)>(&LevelFilteringNavigationController::remove_didStartLoadingEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "remove_didStartLoadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::add_didPressAllSongsEvent
+  // Il2CppName: add_didPressAllSongsEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*)>(&LevelFilteringNavigationController::add_didPressAllSongsEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "add_didPressAllSongsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::remove_didPressAllSongsEvent
+  // Il2CppName: remove_didPressAllSongsEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*)>(&LevelFilteringNavigationController::remove_didPressAllSongsEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "remove_didPressAllSongsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelFilteringNavigationController*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::get_selectedBeatmapLevelPack
+  // Il2CppName: get_selectedBeatmapLevelPack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::get_selectedBeatmapLevelPack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "get_selectedBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::get_selectedLevelCategory
+  // Il2CppName: get_selectedLevelCategory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::get_selectedLevelCategory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "get_selectedLevelCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::SongPackMask, GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, bool, bool)>(&LevelFilteringNavigationController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::SetupBeatmapLevelPacks
+  // Il2CppName: SetupBeatmapLevelPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::SetupBeatmapLevelPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "SetupBeatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::LevelSearchViewControllerDidStartLoading
+  // Il2CppName: LevelSearchViewControllerDidStartLoading
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::LevelSearchViewController*)>(&LevelFilteringNavigationController::LevelSearchViewControllerDidStartLoading)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "LevelSearchViewControllerDidStartLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSearchViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::LevelSearchViewControllerDidFilterBeatmapLevelCollection
+  // Il2CppName: LevelSearchViewControllerDidFilterBeatmapLevelCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*)>(&LevelFilteringNavigationController::LevelSearchViewControllerDidFilterBeatmapLevelCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "LevelSearchViewControllerDidFilterBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::SelectLevelCategoryViewControllerDidSelectLevelCategory
+  // Il2CppName: SelectLevelCategoryViewControllerDidSelectLevelCategory
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::SelectLevelCategoryViewController*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory)>(&LevelFilteringNavigationController::SelectLevelCategoryViewControllerDidSelectLevelCategory)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "SelectLevelCategoryViewControllerDidSelectLevelCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::UpdateSecondChildControllerContent
+  // Il2CppName: UpdateSecondChildControllerContent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory)>(&LevelFilteringNavigationController::UpdateSecondChildControllerContent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "UpdateSecondChildControllerContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::ShowPacksInSecondChildController
+  // Il2CppName: ShowPacksInSecondChildController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IBeatmapLevelPack*>*)>(&LevelFilteringNavigationController::ShowPacksInSecondChildController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "ShowPacksInSecondChildController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IBeatmapLevelPack*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::ReplaceSecondViewController
+  // Il2CppName: ReplaceSecondViewController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(HMUI::ViewController*)>(&LevelFilteringNavigationController::ReplaceSecondViewController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "ReplaceSecondViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::HandlePlayerDataFavoriteLevelsSetDidChange
+  // Il2CppName: HandlePlayerDataFavoriteLevelsSetDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::HandlePlayerDataFavoriteLevelsSetDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "HandlePlayerDataFavoriteLevelsSetDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::HandleIncreaseNumberOfGameplays
+  // Il2CppName: HandleIncreaseNumberOfGameplays
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::HandleIncreaseNumberOfGameplays)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "HandleIncreaseNumberOfGameplays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection
+  // Il2CppName: HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*)>(&LevelFilteringNavigationController::HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "HandleAnnotatedBeatmapLevelCollectionsViewControllerDidSelectAnnotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::SelectAnnotatedBeatmapLevelCollection
+  // Il2CppName: SelectAnnotatedBeatmapLevelCollection
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*)>(&LevelFilteringNavigationController::SelectAnnotatedBeatmapLevelCollection)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "SelectAnnotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::UpdateCustomSongs
+  // Il2CppName: UpdateCustomSongs
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::UpdateCustomSongs)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "UpdateCustomSongs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::$SetupBeatmapLevelPacks$b__32_0
+  // Il2CppName: <SetupBeatmapLevelPacks>b__32_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilteringNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*)>(&LevelFilteringNavigationController::$SetupBeatmapLevelPacks$b__32_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "<SetupBeatmapLevelPacks>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::$SetupBeatmapLevelPacks$b__32_1
+  // Il2CppName: <SetupBeatmapLevelPacks>b__32_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LevelFilteringNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*)>(&LevelFilteringNavigationController::$SetupBeatmapLevelPacks$b__32_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "<SetupBeatmapLevelPacks>b__32_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(bool, bool, bool)>(&LevelFilteringNavigationController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::DidDeactivate
+  // Il2CppName: DidDeactivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)(bool, bool)>(&LevelFilteringNavigationController::DidDeactivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: LevelFilteringNavigationController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelFilteringNavigationController::*)()>(&LevelFilteringNavigationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LevelFilteringNavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController*, "", "LevelFilteringNavigationController");

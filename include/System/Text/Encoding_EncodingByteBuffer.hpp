@@ -92,42 +92,128 @@ namespace System::Text {
     // Creating value type constructor for type: EncodingByteBuffer
     EncodingByteBuffer(uint8_t* bytes_ = {}, uint8_t* byteStart_ = {}, uint8_t* byteEnd_ = {}, ::Il2CppChar* chars_ = {}, ::Il2CppChar* charStart_ = {}, ::Il2CppChar* charEnd_ = {}, int byteCountResult_ = {}, System::Text::Encoding* enc_ = {}, System::Text::EncoderNLS* encoder_ = {}, System::Text::EncoderFallbackBuffer* fallbackBuffer_ = {}) noexcept : bytes{bytes_}, byteStart{byteStart_}, byteEnd{byteEnd_}, chars{chars_}, charStart{charStart_}, charEnd{charEnd_}, byteCountResult{byteCountResult_}, enc{enc_}, encoder{encoder_}, fallbackBuffer{fallbackBuffer_} {}
     // System.Void .ctor(System.Text.Encoding inEncoding, System.Text.EncoderNLS inEncoder, System.Byte* inByteStart, System.Int32 inByteCount, System.Char* inCharStart, System.Int32 inCharCount)
-    // Offset: 0x1CDD218
+    // Offset: 0x1CF9F28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::EncodingByteBuffer* New_ctor(System::Text::Encoding* inEncoding, System::Text::EncoderNLS* inEncoder, uint8_t* inByteStart, int inByteCount, ::Il2CppChar* inCharStart, int inCharCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::EncodingByteBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingByteBuffer*, creationType>(inEncoding, inEncoder, inByteStart, inByteCount, inCharStart, inCharCount)));
     }
     // System.Boolean AddByte(System.Byte b, System.Int32 moreBytesExpected)
-    // Offset: 0x1CDD450
+    // Offset: 0x1CFA160
     bool AddByte(uint8_t b, int moreBytesExpected);
     // System.Boolean AddByte(System.Byte b1)
-    // Offset: 0x1CDD528
+    // Offset: 0x1CFA238
     bool AddByte(uint8_t b1);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2)
-    // Offset: 0x1CDD530
+    // Offset: 0x1CFA240
     bool AddByte(uint8_t b1, uint8_t b2);
     // System.Boolean AddByte(System.Byte b1, System.Byte b2, System.Int32 moreBytesExpected)
-    // Offset: 0x1CDD538
+    // Offset: 0x1CFA248
     bool AddByte(uint8_t b1, uint8_t b2, int moreBytesExpected);
     // System.Void MovePrevious(System.Boolean bThrow)
-    // Offset: 0x1CDD4A4
+    // Offset: 0x1CFA1B4
     void MovePrevious(bool bThrow);
     // System.Boolean get_MoreData()
-    // Offset: 0x1CDD590
+    // Offset: 0x1CFA2A0
     bool get_MoreData();
     // System.Char GetNextChar()
-    // Offset: 0x1CDD5E4
+    // Offset: 0x1CFA2F4
     ::Il2CppChar GetNextChar();
     // System.Int32 get_CharsUsed()
-    // Offset: 0x1CDD640
+    // Offset: 0x1CFA350
     int get_CharsUsed();
     // System.Int32 get_Count()
-    // Offset: 0x1CDD658
+    // Offset: 0x1CFA368
     int get_Count();
   }; // System.Text.Encoding/EncodingByteBuffer
   #pragma pack(pop)
   static check_size<sizeof(Encoding::EncodingByteBuffer), 88 + sizeof(System::Text::EncoderFallbackBuffer*)> __System_Text_Encoding_EncodingByteBufferSizeCheck;
   static_assert(sizeof(Encoding::EncodingByteBuffer) == 0x60);
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Encoding::EncodingByteBuffer::*)(System::Text::Encoding*, System::Text::EncoderNLS*, uint8_t*, int, ::Il2CppChar*, int)>(&Encoding::EncodingByteBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderNLS*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Encoding::EncodingByteBuffer::*)(System::Text::Encoding*, System::Text::EncoderNLS*, uint8_t*, int, ::Il2CppChar*, int)>(&Encoding::EncodingByteBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderNLS*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::AddByte
+  // Il2CppName: AddByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Encoding::EncodingByteBuffer::*)(uint8_t, int)>(&Encoding::EncodingByteBuffer::AddByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::AddByte
+  // Il2CppName: AddByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Encoding::EncodingByteBuffer::*)(uint8_t)>(&Encoding::EncodingByteBuffer::AddByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::AddByte
+  // Il2CppName: AddByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Encoding::EncodingByteBuffer::*)(uint8_t, uint8_t)>(&Encoding::EncodingByteBuffer::AddByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::AddByte
+  // Il2CppName: AddByte
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Encoding::EncodingByteBuffer::*)(uint8_t, uint8_t, int)>(&Encoding::EncodingByteBuffer::AddByte)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::MovePrevious
+  // Il2CppName: MovePrevious
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Encoding::EncodingByteBuffer::*)(bool)>(&Encoding::EncodingByteBuffer::MovePrevious)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::get_MoreData
+  // Il2CppName: get_MoreData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Encoding::EncodingByteBuffer::*)()>(&Encoding::EncodingByteBuffer::get_MoreData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "get_MoreData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::GetNextChar
+  // Il2CppName: GetNextChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (Encoding::EncodingByteBuffer::*)()>(&Encoding::EncodingByteBuffer::GetNextChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::get_CharsUsed
+  // Il2CppName: get_CharsUsed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Encoding::EncodingByteBuffer::*)()>(&Encoding::EncodingByteBuffer::get_CharsUsed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "get_CharsUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Encoding::EncodingByteBuffer::get_Count
+  // Il2CppName: get_Count
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Encoding::EncodingByteBuffer::*)()>(&Encoding::EncodingByteBuffer::get_Count)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Encoding::EncodingByteBuffer*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text", "Encoding/EncodingByteBuffer");

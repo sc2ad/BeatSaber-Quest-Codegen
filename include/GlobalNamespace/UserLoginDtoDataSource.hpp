@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     struct $UserAuthenticationDataAsync$d__3;
     // Nested type: GlobalNamespace::UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4
     struct $GetUserFriendsUserIds$d__4;
-    // [InjectAttribute] Offset: 0xE18154
+    // [InjectAttribute] Offset: 0xE18130
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -76,16 +76,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kVersion
     static void _set_kVersion(::Il2CppString* value);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1D902FC
+    // Offset: 0x1DA9058
     System::Threading::Tasks::Task_1<::Il2CppString*>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1D903FC
+    // Offset: 0x1DA9158
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1D90500
+    // Offset: 0x1DA925C
     System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1D90600
+    // Offset: 0x1DA935C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -97,5 +97,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(UserLoginDtoDataSource), 16 + sizeof(GlobalNamespace::IPlatformUserModel*)> __GlobalNamespace_UserLoginDtoDataSourceSizeCheck;
   static_assert(sizeof(UserLoginDtoDataSource) == 0x18);
+  // Writing MetadataGetter for method: UserLoginDtoDataSource::GetPlatformUserIdAsync
+  // Il2CppName: GetPlatformUserIdAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&UserLoginDtoDataSource::GetPlatformUserIdAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource*), "GetPlatformUserIdAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserLoginDtoDataSource::UserAuthenticationDataAsync
+  // Il2CppName: UserAuthenticationDataAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&UserLoginDtoDataSource::UserAuthenticationDataAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource*), "UserAuthenticationDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserLoginDtoDataSource::GetUserFriendsUserIds
+  // Il2CppName: GetUserFriendsUserIds
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* (UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&UserLoginDtoDataSource::GetUserFriendsUserIds)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: UserLoginDtoDataSource::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserLoginDtoDataSource::*)()>(&UserLoginDtoDataSource::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserLoginDtoDataSource::*)()>(&UserLoginDtoDataSource::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserLoginDtoDataSource*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginDtoDataSource");

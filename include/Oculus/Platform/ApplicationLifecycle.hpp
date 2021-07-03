@@ -29,16 +29,40 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: ApplicationLifecycle
     ApplicationLifecycle() noexcept {}
     // static public Oculus.Platform.Models.LaunchDetails GetLaunchDetails()
-    // Offset: 0x1BB02DC
+    // Offset: 0x1BCAFEC
     static Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
     // static public System.Void LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
-    // Offset: 0x1BB03DC
+    // Offset: 0x1BCB0EC
     static void LogDeeplinkResult(::Il2CppString* trackingID, Oculus::Platform::LaunchResult result);
     // static public System.Void SetLaunchIntentChangedNotificationCallback(Oculus.Platform.Message`1/Callback<System.String> callback)
-    // Offset: 0x1BB04F8
+    // Offset: 0x1BCB208
     static void SetLaunchIntentChangedNotificationCallback(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback* callback);
   }; // Oculus.Platform.ApplicationLifecycle
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ApplicationLifecycle::GetLaunchDetails
+  // Il2CppName: GetLaunchDetails
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchDetails* (*)()>(&ApplicationLifecycle::GetLaunchDetails)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ApplicationLifecycle*), "GetLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ApplicationLifecycle::LogDeeplinkResult
+  // Il2CppName: LogDeeplinkResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Oculus::Platform::LaunchResult)>(&ApplicationLifecycle::LogDeeplinkResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ApplicationLifecycle*), "LogDeeplinkResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LaunchResult>()});
+    }
+  };
+  // Writing MetadataGetter for method: ApplicationLifecycle::SetLaunchIntentChangedNotificationCallback
+  // Il2CppName: SetLaunchIntentChangedNotificationCallback
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&ApplicationLifecycle::SetLaunchIntentChangedNotificationCallback)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ApplicationLifecycle*), "SetLaunchIntentChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationLifecycle*, "Oculus.Platform", "ApplicationLifecycle");

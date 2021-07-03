@@ -117,22 +117,22 @@ namespace GlobalNamespace {
     float prevTimeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xDCFE30
-    // [TooltipAttribute] Offset: 0xDCFE30
+    // [HeaderAttribute] Offset: 0xDCED64
+    // [TooltipAttribute] Offset: 0xDCED64
     // public System.Boolean useRecommendedMSAALevel
     // Size: 0x1
     // Offset: 0x24
     bool useRecommendedMSAALevel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDCFE90
+    // [TooltipAttribute] Offset: 0xDCEDC4
     // private System.Boolean _monoscopic
     // Size: 0x1
     // Offset: 0x25
     bool monoscopic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDCFEDC
+    // [TooltipAttribute] Offset: 0xDCEE10
     // public System.Boolean enableAdaptiveResolution
     // Size: 0x1
     // Offset: 0x26
@@ -141,37 +141,37 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableAdaptiveResolution and: colorGamut
     char __padding4[0x1] = {};
-    // [HideInInspector] Offset: 0xDCFF14
+    // [HideInInspector] Offset: 0xDCEE48
     // private OVRManager/ColorSpace _colorGamut
     // Size: 0x4
     // Offset: 0x28
     GlobalNamespace::OVRManager_ColorSpace colorGamut;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_ColorSpace) == 0x4);
-    // [RangeAttribute] Offset: 0xDCFF4C
-    // [TooltipAttribute] Offset: 0xDCFF4C
+    // [RangeAttribute] Offset: 0xDCEE80
+    // [TooltipAttribute] Offset: 0xDCEE80
     // public System.Single minRenderScale
     // Size: 0x4
     // Offset: 0x2C
     float minRenderScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xDCFFA0
-    // [TooltipAttribute] Offset: 0xDCFFA0
+    // [RangeAttribute] Offset: 0xDCEED4
+    // [TooltipAttribute] Offset: 0xDCEED4
     // public System.Single maxRenderScale
     // Size: 0x4
     // Offset: 0x30
     float maxRenderScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xDCFFF4
+    // [TooltipAttribute] Offset: 0xDCEF28
     // private UnityEngine.Vector3 _headPoseRelativeOffsetRotation
     // Size: 0xC
     // Offset: 0x34
     UnityEngine::Vector3 headPoseRelativeOffsetRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xDD0040
+    // [TooltipAttribute] Offset: 0xDCEF74
     // private UnityEngine.Vector3 _headPoseRelativeOffsetTranslation
     // Size: 0xC
     // Offset: 0x40
@@ -184,15 +184,15 @@ namespace GlobalNamespace {
     int profilerTcpPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [HideInInspector] Offset: 0xDD008C
+    // [HideInInspector] Offset: 0xDCEFC0
     // public System.Boolean expandMixedRealityCapturePropertySheet
     // Size: 0x1
     // Offset: 0x50
     bool expandMixedRealityCapturePropertySheet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HideInInspector] Offset: 0xDD009C
-    // [TooltipAttribute] Offset: 0xDD009C
+    // [HideInInspector] Offset: 0xDCEFD0
+    // [TooltipAttribute] Offset: 0xDCEFD0
     // public System.Boolean enableMixedReality
     // Size: 0x1
     // Offset: 0x51
@@ -201,31 +201,31 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: enableMixedReality and: compositionMethod
     char __padding12[0x2] = {};
-    // [HideInInspector] Offset: 0xDD00E8
+    // [HideInInspector] Offset: 0xDCF01C
     // public OVRManager/CompositionMethod compositionMethod
     // Size: 0x4
     // Offset: 0x54
     GlobalNamespace::OVRManager_CompositionMethod compositionMethod;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_CompositionMethod) == 0x4);
-    // [HideInInspector] Offset: 0xDD00F8
-    // [TooltipAttribute] Offset: 0xDD00F8
+    // [HideInInspector] Offset: 0xDCF02C
+    // [TooltipAttribute] Offset: 0xDCF02C
     // public UnityEngine.LayerMask extraHiddenLayers
     // Size: 0x4
     // Offset: 0x58
     UnityEngine::LayerMask extraHiddenLayers;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // [HideInInspector] Offset: 0xDD0144
-    // [TooltipAttribute] Offset: 0xDD0144
+    // [HideInInspector] Offset: 0xDCF078
+    // [TooltipAttribute] Offset: 0xDCF078
     // public UnityEngine.LayerMask extraVisibleLayers
     // Size: 0x4
     // Offset: 0x5C
     UnityEngine::LayerMask extraVisibleLayers;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
-    // [HideInInspector] Offset: 0xDD0190
-    // [TooltipAttribute] Offset: 0xDD0190
+    // [HideInInspector] Offset: 0xDCF0C4
+    // [TooltipAttribute] Offset: 0xDCF0C4
     // public System.Boolean dynamicCullingMask
     // Size: 0x1
     // Offset: 0x60
@@ -234,40 +234,40 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dynamicCullingMask and: externalCompositionBackdropColorRift
     char __padding16[0x3] = {};
-    // [HideInInspector] Offset: 0xDD01DC
-    // [TooltipAttribute] Offset: 0xDD01DC
+    // [HideInInspector] Offset: 0xDCF110
+    // [TooltipAttribute] Offset: 0xDCF110
     // public UnityEngine.Color externalCompositionBackdropColorRift
     // Size: 0x10
     // Offset: 0x64
     UnityEngine::Color externalCompositionBackdropColorRift;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [HideInInspector] Offset: 0xDD0228
-    // [TooltipAttribute] Offset: 0xDD0228
+    // [HideInInspector] Offset: 0xDCF15C
+    // [TooltipAttribute] Offset: 0xDCF15C
     // public UnityEngine.Color externalCompositionBackdropColorQuest
     // Size: 0x10
     // Offset: 0x74
     UnityEngine::Color externalCompositionBackdropColorQuest;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [HideInInspector] Offset: 0xDD0274
-    // [TooltipAttribute] Offset: 0xDD0274
+    // [HideInInspector] Offset: 0xDCF1A8
+    // [TooltipAttribute] Offset: 0xDCF1A8
     // public OVRManager/CameraDevice capturingCameraDevice
     // Size: 0x4
     // Offset: 0x84
     GlobalNamespace::OVRManager_CameraDevice capturingCameraDevice;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_CameraDevice) == 0x4);
-    // [HideInInspector] Offset: 0xDD02C0
-    // [TooltipAttribute] Offset: 0xDD02C0
+    // [HideInInspector] Offset: 0xDCF1F4
+    // [TooltipAttribute] Offset: 0xDCF1F4
     // public System.Boolean flipCameraFrameHorizontally
     // Size: 0x1
     // Offset: 0x88
     bool flipCameraFrameHorizontally;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HideInInspector] Offset: 0xDD030C
-    // [TooltipAttribute] Offset: 0xDD030C
+    // [HideInInspector] Offset: 0xDCF240
+    // [TooltipAttribute] Offset: 0xDCF240
     // public System.Boolean flipCameraFrameVertically
     // Size: 0x1
     // Offset: 0x89
@@ -276,64 +276,64 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: flipCameraFrameVertically and: handPoseStateLatency
     char __padding21[0x2] = {};
-    // [HideInInspector] Offset: 0xDD0358
-    // [TooltipAttribute] Offset: 0xDD0358
+    // [HideInInspector] Offset: 0xDCF28C
+    // [TooltipAttribute] Offset: 0xDCF28C
     // public System.Single handPoseStateLatency
     // Size: 0x4
     // Offset: 0x8C
     float handPoseStateLatency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD03A4
-    // [TooltipAttribute] Offset: 0xDD03A4
+    // [HideInInspector] Offset: 0xDCF2D8
+    // [TooltipAttribute] Offset: 0xDCF2D8
     // public System.Single sandwichCompositionRenderLatency
     // Size: 0x4
     // Offset: 0x90
     float sandwichCompositionRenderLatency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD03F0
-    // [TooltipAttribute] Offset: 0xDD03F0
+    // [HideInInspector] Offset: 0xDCF324
+    // [TooltipAttribute] Offset: 0xDCF324
     // public System.Int32 sandwichCompositionBufferedFrames
     // Size: 0x4
     // Offset: 0x94
     int sandwichCompositionBufferedFrames;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [HideInInspector] Offset: 0xDD043C
-    // [TooltipAttribute] Offset: 0xDD043C
+    // [HideInInspector] Offset: 0xDCF370
+    // [TooltipAttribute] Offset: 0xDCF370
     // public UnityEngine.Color chromaKeyColor
     // Size: 0x10
     // Offset: 0x98
     UnityEngine::Color chromaKeyColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
-    // [HideInInspector] Offset: 0xDD0488
-    // [TooltipAttribute] Offset: 0xDD0488
+    // [HideInInspector] Offset: 0xDCF3BC
+    // [TooltipAttribute] Offset: 0xDCF3BC
     // public System.Single chromaKeySimilarity
     // Size: 0x4
     // Offset: 0xA8
     float chromaKeySimilarity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD04D4
-    // [TooltipAttribute] Offset: 0xDD04D4
+    // [HideInInspector] Offset: 0xDCF408
+    // [TooltipAttribute] Offset: 0xDCF408
     // public System.Single chromaKeySmoothRange
     // Size: 0x4
     // Offset: 0xAC
     float chromaKeySmoothRange;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD0520
-    // [TooltipAttribute] Offset: 0xDD0520
+    // [HideInInspector] Offset: 0xDCF454
+    // [TooltipAttribute] Offset: 0xDCF454
     // public System.Single chromaKeySpillRange
     // Size: 0x4
     // Offset: 0xB0
     float chromaKeySpillRange;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD056C
-    // [TooltipAttribute] Offset: 0xDD056C
+    // [HideInInspector] Offset: 0xDCF4A0
+    // [TooltipAttribute] Offset: 0xDCF4A0
     // public System.Boolean useDynamicLighting
     // Size: 0x1
     // Offset: 0xB4
@@ -342,56 +342,56 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useDynamicLighting and: depthQuality
     char __padding29[0x3] = {};
-    // [HideInInspector] Offset: 0xDD05B8
-    // [TooltipAttribute] Offset: 0xDD05B8
+    // [HideInInspector] Offset: 0xDCF4EC
+    // [TooltipAttribute] Offset: 0xDCF4EC
     // public OVRManager/DepthQuality depthQuality
     // Size: 0x4
     // Offset: 0xB8
     GlobalNamespace::OVRManager_DepthQuality depthQuality;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_DepthQuality) == 0x4);
-    // [HideInInspector] Offset: 0xDD0604
-    // [TooltipAttribute] Offset: 0xDD0604
+    // [HideInInspector] Offset: 0xDCF538
+    // [TooltipAttribute] Offset: 0xDCF538
     // public System.Single dynamicLightingSmoothFactor
     // Size: 0x4
     // Offset: 0xBC
     float dynamicLightingSmoothFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD0650
-    // [TooltipAttribute] Offset: 0xDD0650
+    // [HideInInspector] Offset: 0xDCF584
+    // [TooltipAttribute] Offset: 0xDCF584
     // public System.Single dynamicLightingDepthVariationClampingValue
     // Size: 0x4
     // Offset: 0xC0
     float dynamicLightingDepthVariationClampingValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD069C
-    // [TooltipAttribute] Offset: 0xDD069C
+    // [HideInInspector] Offset: 0xDCF5D0
+    // [TooltipAttribute] Offset: 0xDCF5D0
     // public OVRManager/VirtualGreenScreenType virtualGreenScreenType
     // Size: 0x4
     // Offset: 0xC4
     GlobalNamespace::OVRManager_VirtualGreenScreenType virtualGreenScreenType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_VirtualGreenScreenType) == 0x4);
-    // [HideInInspector] Offset: 0xDD06E8
-    // [TooltipAttribute] Offset: 0xDD06E8
+    // [HideInInspector] Offset: 0xDCF61C
+    // [TooltipAttribute] Offset: 0xDCF61C
     // public System.Single virtualGreenScreenTopY
     // Size: 0x4
     // Offset: 0xC8
     float virtualGreenScreenTopY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD0734
-    // [TooltipAttribute] Offset: 0xDD0734
+    // [HideInInspector] Offset: 0xDCF668
+    // [TooltipAttribute] Offset: 0xDCF668
     // public System.Single virtualGreenScreenBottomY
     // Size: 0x4
     // Offset: 0xCC
     float virtualGreenScreenBottomY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD0780
-    // [TooltipAttribute] Offset: 0xDD0780
+    // [HideInInspector] Offset: 0xDCF6B4
+    // [TooltipAttribute] Offset: 0xDCF6B4
     // public System.Boolean virtualGreenScreenApplyDepthCulling
     // Size: 0x1
     // Offset: 0xD0
@@ -400,16 +400,16 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: virtualGreenScreenApplyDepthCulling and: virtualGreenScreenDepthTolerance
     char __padding36[0x3] = {};
-    // [HideInInspector] Offset: 0xDD07CC
-    // [TooltipAttribute] Offset: 0xDD07CC
+    // [HideInInspector] Offset: 0xDCF700
+    // [TooltipAttribute] Offset: 0xDCF700
     // public System.Single virtualGreenScreenDepthTolerance
     // Size: 0x4
     // Offset: 0xD4
     float virtualGreenScreenDepthTolerance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HideInInspector] Offset: 0xDD0818
-    // [TooltipAttribute] Offset: 0xDD0818
+    // [HideInInspector] Offset: 0xDCF74C
+    // [TooltipAttribute] Offset: 0xDCF74C
     // public OVRManager/MrcActivationMode mrcActivationMode
     // Size: 0x4
     // Offset: 0xD8
@@ -424,57 +424,57 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*) == 0x8);
-    // [HeaderAttribute] Offset: 0xDD0864
-    // [TooltipAttribute] Offset: 0xDD0864
+    // [HeaderAttribute] Offset: 0xDCF798
+    // [TooltipAttribute] Offset: 0xDCF798
     // private OVRManager/TrackingOrigin _trackingOriginType
     // Size: 0x4
     // Offset: 0xE8
     GlobalNamespace::OVRManager_TrackingOrigin trackingOriginType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_TrackingOrigin) == 0x4);
-    // [TooltipAttribute] Offset: 0xDD08D4
+    // [TooltipAttribute] Offset: 0xDCF808
     // public System.Boolean usePositionTracking
     // Size: 0x1
     // Offset: 0xEC
     bool usePositionTracking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [HideInInspector] Offset: 0xDD090C
+    // [HideInInspector] Offset: 0xDCF840
     // public System.Boolean useRotationTracking
     // Size: 0x1
     // Offset: 0xED
     bool useRotationTracking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDD091C
+    // [TooltipAttribute] Offset: 0xDCF850
     // public System.Boolean useIPDInPositionTracking
     // Size: 0x1
     // Offset: 0xEE
     bool useIPDInPositionTracking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDD0954
+    // [TooltipAttribute] Offset: 0xDCF888
     // public System.Boolean resetTrackerOnLoad
     // Size: 0x1
     // Offset: 0xEF
     bool resetTrackerOnLoad;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDD098C
+    // [TooltipAttribute] Offset: 0xDCF8C0
     // public System.Boolean AllowRecenter
     // Size: 0x1
     // Offset: 0xF0
     bool AllowRecenter;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xDD09C4
+    // [TooltipAttribute] Offset: 0xDCF8F8
     // public System.Boolean LateControllerUpdate
     // Size: 0x1
     // Offset: 0xF1
     bool LateControllerUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDD09FC
+    // [CompilerGeneratedAttribute] Offset: 0xDCF930
     // private System.Boolean <isSupportedPlatform>k__BackingField
     // Size: 0x1
     // Offset: 0xF2
@@ -489,22 +489,22 @@ namespace GlobalNamespace {
     }
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD10
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC44
     // Get static field: static private OVRManager <instance>k__BackingField
     static GlobalNamespace::OVRManager* _get_$instance$k__BackingField();
     // Set static field: static private OVRManager <instance>k__BackingField
     static void _set_$instance$k__BackingField(GlobalNamespace::OVRManager* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD20
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC54
     // Get static field: static private OVRDisplay <display>k__BackingField
     static GlobalNamespace::OVRDisplay* _get_$display$k__BackingField();
     // Set static field: static private OVRDisplay <display>k__BackingField
     static void _set_$display$k__BackingField(GlobalNamespace::OVRDisplay* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD30
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC64
     // Get static field: static private OVRTracker <tracker>k__BackingField
     static GlobalNamespace::OVRTracker* _get_$tracker$k__BackingField();
     // Set static field: static private OVRTracker <tracker>k__BackingField
     static void _set_$tracker$k__BackingField(GlobalNamespace::OVRTracker* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD40
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC74
     // Get static field: static private OVRBoundary <boundary>k__BackingField
     static GlobalNamespace::OVRBoundary* _get_$boundary$k__BackingField();
     // Set static field: static private OVRBoundary <boundary>k__BackingField
@@ -513,72 +513,72 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRProfile* _get__profile();
     // Set static field: static private OVRProfile _profile
     static void _set__profile(GlobalNamespace::OVRProfile* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD50
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC84
     // Get static field: static private System.Action HMDAcquired
     static System::Action* _get_HMDAcquired();
     // Set static field: static private System.Action HMDAcquired
     static void _set_HMDAcquired(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD60
+    // [CompilerGeneratedAttribute] Offset: 0xDCEC94
     // Get static field: static private System.Action HMDLost
     static System::Action* _get_HMDLost();
     // Set static field: static private System.Action HMDLost
     static void _set_HMDLost(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD70
+    // [CompilerGeneratedAttribute] Offset: 0xDCECA4
     // Get static field: static private System.Action HMDMounted
     static System::Action* _get_HMDMounted();
     // Set static field: static private System.Action HMDMounted
     static void _set_HMDMounted(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD80
+    // [CompilerGeneratedAttribute] Offset: 0xDCECB4
     // Get static field: static private System.Action HMDUnmounted
     static System::Action* _get_HMDUnmounted();
     // Set static field: static private System.Action HMDUnmounted
     static void _set_HMDUnmounted(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFD90
+    // [CompilerGeneratedAttribute] Offset: 0xDCECC4
     // Get static field: static private System.Action VrFocusAcquired
     static System::Action* _get_VrFocusAcquired();
     // Set static field: static private System.Action VrFocusAcquired
     static void _set_VrFocusAcquired(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFDA0
+    // [CompilerGeneratedAttribute] Offset: 0xDCECD4
     // Get static field: static private System.Action VrFocusLost
     static System::Action* _get_VrFocusLost();
     // Set static field: static private System.Action VrFocusLost
     static void _set_VrFocusLost(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFDB0
+    // [CompilerGeneratedAttribute] Offset: 0xDCECE4
     // Get static field: static private System.Action InputFocusAcquired
     static System::Action* _get_InputFocusAcquired();
     // Set static field: static private System.Action InputFocusAcquired
     static void _set_InputFocusAcquired(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFDC0
+    // [CompilerGeneratedAttribute] Offset: 0xDCECF4
     // Get static field: static private System.Action InputFocusLost
     static System::Action* _get_InputFocusLost();
     // Set static field: static private System.Action InputFocusLost
     static void _set_InputFocusLost(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFDD0
+    // [CompilerGeneratedAttribute] Offset: 0xDCED04
     // Get static field: static private System.Action AudioOutChanged
     static System::Action* _get_AudioOutChanged();
     // Set static field: static private System.Action AudioOutChanged
     static void _set_AudioOutChanged(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFDE0
+    // [CompilerGeneratedAttribute] Offset: 0xDCED14
     // Get static field: static private System.Action AudioInChanged
     static System::Action* _get_AudioInChanged();
     // Set static field: static private System.Action AudioInChanged
     static void _set_AudioInChanged(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFDF0
+    // [CompilerGeneratedAttribute] Offset: 0xDCED24
     // Get static field: static private System.Action TrackingAcquired
     static System::Action* _get_TrackingAcquired();
     // Set static field: static private System.Action TrackingAcquired
     static void _set_TrackingAcquired(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFE00
+    // [CompilerGeneratedAttribute] Offset: 0xDCED34
     // Get static field: static private System.Action TrackingLost
     static System::Action* _get_TrackingLost();
     // Set static field: static private System.Action TrackingLost
     static void _set_TrackingLost(System::Action* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFE10
+    // [CompilerGeneratedAttribute] Offset: 0xDCED44
     // Get static field: static private System.Action`2<System.Single,System.Single> DisplayRefreshRateChanged
     static System::Action_2<float, float>* _get_DisplayRefreshRateChanged();
     // Set static field: static private System.Action`2<System.Single,System.Single> DisplayRefreshRateChanged
     static void _set_DisplayRefreshRateChanged(System::Action_2<float, float>* value);
-    // [CompilerGeneratedAttribute] Offset: 0xDCFE20
+    // [CompilerGeneratedAttribute] Offset: 0xDCED54
     // Get static field: static private System.Action HSWDismissed
     static System::Action* _get_HSWDismissed();
     // Set static field: static private System.Action HSWDismissed
@@ -708,541 +708,541 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean suppressDisableMixedRealityBecauseOfNoMainCameraWarning
     static void _set_suppressDisableMixedRealityBecauseOfNoMainCameraWarning(bool value);
     // static public OVRManager get_instance()
-    // Offset: 0x1502638
+    // Offset: 0x151D348
     static GlobalNamespace::OVRManager* get_instance();
     // static private System.Void set_instance(OVRManager value)
-    // Offset: 0x15026A0
+    // Offset: 0x151D3B0
     static void set_instance(GlobalNamespace::OVRManager* value);
     // static public OVRDisplay get_display()
-    // Offset: 0x150270C
+    // Offset: 0x151D41C
     static GlobalNamespace::OVRDisplay* get_display();
     // static private System.Void set_display(OVRDisplay value)
-    // Offset: 0x1502774
+    // Offset: 0x151D484
     static void set_display(GlobalNamespace::OVRDisplay* value);
     // static public OVRTracker get_tracker()
-    // Offset: 0x15027E0
+    // Offset: 0x151D4F0
     static GlobalNamespace::OVRTracker* get_tracker();
     // static private System.Void set_tracker(OVRTracker value)
-    // Offset: 0x1502848
+    // Offset: 0x151D558
     static void set_tracker(GlobalNamespace::OVRTracker* value);
     // static public OVRBoundary get_boundary()
-    // Offset: 0x15028B4
+    // Offset: 0x151D5C4
     static GlobalNamespace::OVRBoundary* get_boundary();
     // static private System.Void set_boundary(OVRBoundary value)
-    // Offset: 0x150291C
+    // Offset: 0x151D62C
     static void set_boundary(GlobalNamespace::OVRBoundary* value);
     // static public OVRProfile get_profile()
-    // Offset: 0x1502988
+    // Offset: 0x151D698
     static GlobalNamespace::OVRProfile* get_profile();
     // static public System.Void add_HMDAcquired(System.Action value)
-    // Offset: 0x1502A90
+    // Offset: 0x151D7A0
     static void add_HMDAcquired(System::Action* value);
     // static public System.Void remove_HMDAcquired(System.Action value)
-    // Offset: 0x1502B80
+    // Offset: 0x151D890
     static void remove_HMDAcquired(System::Action* value);
     // static public System.Void add_HMDLost(System.Action value)
-    // Offset: 0x1502C70
+    // Offset: 0x151D980
     static void add_HMDLost(System::Action* value);
     // static public System.Void remove_HMDLost(System.Action value)
-    // Offset: 0x1502D60
+    // Offset: 0x151DA70
     static void remove_HMDLost(System::Action* value);
     // static public System.Void add_HMDMounted(System.Action value)
-    // Offset: 0x1502E50
+    // Offset: 0x151DB60
     static void add_HMDMounted(System::Action* value);
     // static public System.Void remove_HMDMounted(System.Action value)
-    // Offset: 0x1502F40
+    // Offset: 0x151DC50
     static void remove_HMDMounted(System::Action* value);
     // static public System.Void add_HMDUnmounted(System.Action value)
-    // Offset: 0x1503030
+    // Offset: 0x151DD40
     static void add_HMDUnmounted(System::Action* value);
     // static public System.Void remove_HMDUnmounted(System.Action value)
-    // Offset: 0x1503120
+    // Offset: 0x151DE30
     static void remove_HMDUnmounted(System::Action* value);
     // static public System.Void add_VrFocusAcquired(System.Action value)
-    // Offset: 0x1503210
+    // Offset: 0x151DF20
     static void add_VrFocusAcquired(System::Action* value);
     // static public System.Void remove_VrFocusAcquired(System.Action value)
-    // Offset: 0x1503300
+    // Offset: 0x151E010
     static void remove_VrFocusAcquired(System::Action* value);
     // static public System.Void add_VrFocusLost(System.Action value)
-    // Offset: 0x15033F0
+    // Offset: 0x151E100
     static void add_VrFocusLost(System::Action* value);
     // static public System.Void remove_VrFocusLost(System.Action value)
-    // Offset: 0x15034E0
+    // Offset: 0x151E1F0
     static void remove_VrFocusLost(System::Action* value);
     // static public System.Void add_InputFocusAcquired(System.Action value)
-    // Offset: 0x15035D0
+    // Offset: 0x151E2E0
     static void add_InputFocusAcquired(System::Action* value);
     // static public System.Void remove_InputFocusAcquired(System.Action value)
-    // Offset: 0x15036C0
+    // Offset: 0x151E3D0
     static void remove_InputFocusAcquired(System::Action* value);
     // static public System.Void add_InputFocusLost(System.Action value)
-    // Offset: 0x15037B0
+    // Offset: 0x151E4C0
     static void add_InputFocusLost(System::Action* value);
     // static public System.Void remove_InputFocusLost(System.Action value)
-    // Offset: 0x15038A0
+    // Offset: 0x151E5B0
     static void remove_InputFocusLost(System::Action* value);
     // static public System.Void add_AudioOutChanged(System.Action value)
-    // Offset: 0x1503990
+    // Offset: 0x151E6A0
     static void add_AudioOutChanged(System::Action* value);
     // static public System.Void remove_AudioOutChanged(System.Action value)
-    // Offset: 0x1503A80
+    // Offset: 0x151E790
     static void remove_AudioOutChanged(System::Action* value);
     // static public System.Void add_AudioInChanged(System.Action value)
-    // Offset: 0x1503B70
+    // Offset: 0x151E880
     static void add_AudioInChanged(System::Action* value);
     // static public System.Void remove_AudioInChanged(System.Action value)
-    // Offset: 0x1503C60
+    // Offset: 0x151E970
     static void remove_AudioInChanged(System::Action* value);
     // static public System.Void add_TrackingAcquired(System.Action value)
-    // Offset: 0x1503D50
+    // Offset: 0x151EA60
     static void add_TrackingAcquired(System::Action* value);
     // static public System.Void remove_TrackingAcquired(System.Action value)
-    // Offset: 0x1503E40
+    // Offset: 0x151EB50
     static void remove_TrackingAcquired(System::Action* value);
     // static public System.Void add_TrackingLost(System.Action value)
-    // Offset: 0x1503F30
+    // Offset: 0x151EC40
     static void add_TrackingLost(System::Action* value);
     // static public System.Void remove_TrackingLost(System.Action value)
-    // Offset: 0x1504020
+    // Offset: 0x151ED30
     static void remove_TrackingLost(System::Action* value);
     // static public System.Void add_DisplayRefreshRateChanged(System.Action`2<System.Single,System.Single> value)
-    // Offset: 0x1504110
+    // Offset: 0x151EE20
     static void add_DisplayRefreshRateChanged(System::Action_2<float, float>* value);
     // static public System.Void remove_DisplayRefreshRateChanged(System.Action`2<System.Single,System.Single> value)
-    // Offset: 0x1504200
+    // Offset: 0x151EF10
     static void remove_DisplayRefreshRateChanged(System::Action_2<float, float>* value);
     // static public System.Void add_HSWDismissed(System.Action value)
-    // Offset: 0x15042F0
+    // Offset: 0x151F000
     static void add_HSWDismissed(System::Action* value);
     // static public System.Void remove_HSWDismissed(System.Action value)
-    // Offset: 0x15043E0
+    // Offset: 0x151F0F0
     static void remove_HSWDismissed(System::Action* value);
     // static public System.Boolean get_isHmdPresent()
-    // Offset: 0x15044D0
+    // Offset: 0x151F1E0
     static bool get_isHmdPresent();
     // static private System.Void set_isHmdPresent(System.Boolean value)
-    // Offset: 0x15045C8
+    // Offset: 0x151F2D8
     static void set_isHmdPresent(bool value);
     // static public System.String get_audioOutId()
-    // Offset: 0x1504644
+    // Offset: 0x151F354
     static ::Il2CppString* get_audioOutId();
     // static public System.String get_audioInId()
-    // Offset: 0x15046A4
+    // Offset: 0x151F3B4
     static ::Il2CppString* get_audioInId();
     // static public System.Boolean get_hasVrFocus()
-    // Offset: 0x1504704
+    // Offset: 0x151F414
     static bool get_hasVrFocus();
     // static private System.Void set_hasVrFocus(System.Boolean value)
-    // Offset: 0x15047FC
+    // Offset: 0x151F50C
     static void set_hasVrFocus(bool value);
     // static public System.Boolean get_hasInputFocus()
-    // Offset: 0x1504878
+    // Offset: 0x151F588
     static bool get_hasInputFocus();
     // public System.Boolean get_chromatic()
-    // Offset: 0x15048D8
+    // Offset: 0x151F5E8
     bool get_chromatic();
     // public System.Void set_chromatic(System.Boolean value)
-    // Offset: 0x1504970
+    // Offset: 0x151F680
     void set_chromatic(bool value);
     // public System.Boolean get_monoscopic()
-    // Offset: 0x1504A0C
+    // Offset: 0x151F71C
     bool get_monoscopic();
     // public System.Void set_monoscopic(System.Boolean value)
-    // Offset: 0x1504AA8
+    // Offset: 0x151F7B8
     void set_monoscopic(bool value);
     // public OVRManager/ColorSpace get_colorGamut()
-    // Offset: 0x1504B50
+    // Offset: 0x151F860
     GlobalNamespace::OVRManager_ColorSpace get_colorGamut();
     // public System.Void set_colorGamut(OVRManager/ColorSpace value)
-    // Offset: 0x1504B58
+    // Offset: 0x151F868
     void set_colorGamut(GlobalNamespace::OVRManager_ColorSpace value);
     // public OVRManager/ColorSpace get_nativeColorGamut()
-    // Offset: 0x1504BD0
+    // Offset: 0x151F8E0
     GlobalNamespace::OVRManager_ColorSpace get_nativeColorGamut();
     // static public System.Boolean IsAdaptiveResSupportedByEngine()
-    // Offset: 0x1504C30
+    // Offset: 0x151F940
     static bool IsAdaptiveResSupportedByEngine();
     // public UnityEngine.Vector3 get_headPoseRelativeOffsetRotation()
-    // Offset: 0x1504C38
+    // Offset: 0x151F948
     UnityEngine::Vector3 get_headPoseRelativeOffsetRotation();
     // public System.Void set_headPoseRelativeOffsetRotation(UnityEngine.Vector3 value)
-    // Offset: 0x14FA04C
+    // Offset: 0x1514D5C
     void set_headPoseRelativeOffsetRotation(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_headPoseRelativeOffsetTranslation()
-    // Offset: 0x1504C44
+    // Offset: 0x151F954
     UnityEngine::Vector3 get_headPoseRelativeOffsetTranslation();
     // public System.Void set_headPoseRelativeOffsetTranslation(UnityEngine.Vector3 value)
-    // Offset: 0x14F9EF0
+    // Offset: 0x1514C00
     void set_headPoseRelativeOffsetTranslation(UnityEngine::Vector3 value);
     // static public System.Boolean get_eyeFovPremultipliedAlphaModeEnabled()
-    // Offset: 0x1504C50
+    // Offset: 0x151F960
     static bool get_eyeFovPremultipliedAlphaModeEnabled();
     // static public System.Void set_eyeFovPremultipliedAlphaModeEnabled(System.Boolean value)
-    // Offset: 0x1504CB0
+    // Offset: 0x151F9C0
     static void set_eyeFovPremultipliedAlphaModeEnabled(bool value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_enableMixedReality()
-    // Offset: 0x1504D18
+    // Offset: 0x151FA28
     bool OVRMixedRealityCaptureConfiguration_get_enableMixedReality();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_enableMixedReality(System.Boolean value)
-    // Offset: 0x1504D20
+    // Offset: 0x151FA30
     void OVRMixedRealityCaptureConfiguration_set_enableMixedReality(bool value);
     // private UnityEngine.LayerMask OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers()
-    // Offset: 0x1504D2C
+    // Offset: 0x151FA3C
     UnityEngine::LayerMask OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers(UnityEngine.LayerMask value)
-    // Offset: 0x1504D34
+    // Offset: 0x151FA44
     void OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers(UnityEngine::LayerMask value);
     // private UnityEngine.LayerMask OVRMixedRealityCaptureConfiguration.get_extraVisibleLayers()
-    // Offset: 0x1504D3C
+    // Offset: 0x151FA4C
     UnityEngine::LayerMask OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_extraVisibleLayers(UnityEngine.LayerMask value)
-    // Offset: 0x1504D44
+    // Offset: 0x151FA54
     void OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers(UnityEngine::LayerMask value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_dynamicCullingMask()
-    // Offset: 0x1504D4C
+    // Offset: 0x151FA5C
     bool OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_dynamicCullingMask(System.Boolean value)
-    // Offset: 0x1504D54
+    // Offset: 0x151FA64
     void OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask(bool value);
     // private OVRManager/CompositionMethod OVRMixedRealityCaptureConfiguration.get_compositionMethod()
-    // Offset: 0x1504D60
+    // Offset: 0x151FA70
     GlobalNamespace::OVRManager_CompositionMethod OVRMixedRealityCaptureConfiguration_get_compositionMethod();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_compositionMethod(OVRManager/CompositionMethod value)
-    // Offset: 0x1504D68
+    // Offset: 0x151FA78
     void OVRMixedRealityCaptureConfiguration_set_compositionMethod(GlobalNamespace::OVRManager_CompositionMethod value);
     // private UnityEngine.Color OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorRift()
-    // Offset: 0x1504D70
+    // Offset: 0x151FA80
     UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorRift(UnityEngine.Color value)
-    // Offset: 0x1504D7C
+    // Offset: 0x151FA8C
     void OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift(UnityEngine::Color value);
     // private UnityEngine.Color OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorQuest()
-    // Offset: 0x1504D88
+    // Offset: 0x151FA98
     UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorQuest(UnityEngine.Color value)
-    // Offset: 0x1504D94
+    // Offset: 0x151FAA4
     void OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest(UnityEngine::Color value);
     // private OVRManager/CameraDevice OVRMixedRealityCaptureConfiguration.get_capturingCameraDevice()
-    // Offset: 0x1504DA0
+    // Offset: 0x151FAB0
     GlobalNamespace::OVRManager_CameraDevice OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_capturingCameraDevice(OVRManager/CameraDevice value)
-    // Offset: 0x1504DA8
+    // Offset: 0x151FAB8
     void OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice(GlobalNamespace::OVRManager_CameraDevice value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_flipCameraFrameHorizontally()
-    // Offset: 0x1504DB0
+    // Offset: 0x151FAC0
     bool OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally(System.Boolean value)
-    // Offset: 0x1504DB8
+    // Offset: 0x151FAC8
     void OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally(bool value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_flipCameraFrameVertically()
-    // Offset: 0x1504DC4
+    // Offset: 0x151FAD4
     bool OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically(System.Boolean value)
-    // Offset: 0x1504DCC
+    // Offset: 0x151FADC
     void OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically(bool value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency()
-    // Offset: 0x1504DD8
+    // Offset: 0x151FAE8
     float OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency(System.Single value)
-    // Offset: 0x1504DE0
+    // Offset: 0x151FAF0
     void OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency()
-    // Offset: 0x1504DE8
+    // Offset: 0x151FAF8
     float OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency(System.Single value)
-    // Offset: 0x1504DF0
+    // Offset: 0x151FB00
     void OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency(float value);
     // private System.Int32 OVRMixedRealityCaptureConfiguration.get_sandwichCompositionBufferedFrames()
-    // Offset: 0x1504DF8
+    // Offset: 0x151FB08
     int OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_sandwichCompositionBufferedFrames(System.Int32 value)
-    // Offset: 0x1504E00
+    // Offset: 0x151FB10
     void OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames(int value);
     // private UnityEngine.Color OVRMixedRealityCaptureConfiguration.get_chromaKeyColor()
-    // Offset: 0x1504E08
+    // Offset: 0x151FB18
     UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_chromaKeyColor();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeyColor(UnityEngine.Color value)
-    // Offset: 0x1504E14
+    // Offset: 0x151FB24
     void OVRMixedRealityCaptureConfiguration_set_chromaKeyColor(UnityEngine::Color value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_chromaKeySimilarity()
-    // Offset: 0x1504E20
+    // Offset: 0x151FB30
     float OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeySimilarity(System.Single value)
-    // Offset: 0x1504E28
+    // Offset: 0x151FB38
     void OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange()
-    // Offset: 0x1504E30
+    // Offset: 0x151FB40
     float OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeySmoothRange(System.Single value)
-    // Offset: 0x1504E38
+    // Offset: 0x151FB48
     void OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_chromaKeySpillRange()
-    // Offset: 0x1504E40
+    // Offset: 0x151FB50
     float OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_chromaKeySpillRange(System.Single value)
-    // Offset: 0x1504E48
+    // Offset: 0x151FB58
     void OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange(float value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_useDynamicLighting()
-    // Offset: 0x1504E50
+    // Offset: 0x151FB60
     bool OVRMixedRealityCaptureConfiguration_get_useDynamicLighting();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_useDynamicLighting(System.Boolean value)
-    // Offset: 0x1504E58
+    // Offset: 0x151FB68
     void OVRMixedRealityCaptureConfiguration_set_useDynamicLighting(bool value);
     // private OVRManager/DepthQuality OVRMixedRealityCaptureConfiguration.get_depthQuality()
-    // Offset: 0x1504E64
+    // Offset: 0x151FB74
     GlobalNamespace::OVRManager_DepthQuality OVRMixedRealityCaptureConfiguration_get_depthQuality();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_depthQuality(OVRManager/DepthQuality value)
-    // Offset: 0x1504E6C
+    // Offset: 0x151FB7C
     void OVRMixedRealityCaptureConfiguration_set_depthQuality(GlobalNamespace::OVRManager_DepthQuality value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_dynamicLightingSmoothFactor()
-    // Offset: 0x1504E74
+    // Offset: 0x151FB84
     float OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_dynamicLightingSmoothFactor(System.Single value)
-    // Offset: 0x1504E7C
+    // Offset: 0x151FB8C
     void OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_dynamicLightingDepthVariationClampingValue()
-    // Offset: 0x1504E84
+    // Offset: 0x151FB94
     float OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue(System.Single value)
-    // Offset: 0x1504E8C
+    // Offset: 0x151FB9C
     void OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue(float value);
     // private OVRManager/VirtualGreenScreenType OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenType()
-    // Offset: 0x1504E94
+    // Offset: 0x151FBA4
     GlobalNamespace::OVRManager_VirtualGreenScreenType OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenType(OVRManager/VirtualGreenScreenType value)
-    // Offset: 0x1504E9C
+    // Offset: 0x151FBAC
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType(GlobalNamespace::OVRManager_VirtualGreenScreenType value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenTopY()
-    // Offset: 0x1504EA4
+    // Offset: 0x151FBB4
     float OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenTopY(System.Single value)
-    // Offset: 0x1504EAC
+    // Offset: 0x151FBBC
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY(float value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenBottomY()
-    // Offset: 0x1504EB4
+    // Offset: 0x151FBC4
     float OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenBottomY(System.Single value)
-    // Offset: 0x1504EBC
+    // Offset: 0x151FBCC
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY(float value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenApplyDepthCulling()
-    // Offset: 0x1504EC4
+    // Offset: 0x151FBD4
     bool OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenApplyDepthCulling(System.Boolean value)
-    // Offset: 0x1504ECC
+    // Offset: 0x151FBDC
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling(bool value);
     // private System.Single OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance()
-    // Offset: 0x1504ED8
+    // Offset: 0x151FBE8
     float OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance(System.Single value)
-    // Offset: 0x1504EE0
+    // Offset: 0x151FBF0
     void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance(float value);
     // private OVRManager/MrcActivationMode OVRMixedRealityCaptureConfiguration.get_mrcActivationMode()
-    // Offset: 0x1504EE8
+    // Offset: 0x151FBF8
     GlobalNamespace::OVRManager_MrcActivationMode OVRMixedRealityCaptureConfiguration_get_mrcActivationMode();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_mrcActivationMode(OVRManager/MrcActivationMode value)
-    // Offset: 0x1504EF0
+    // Offset: 0x151FC00
     void OVRMixedRealityCaptureConfiguration_set_mrcActivationMode(GlobalNamespace::OVRManager_MrcActivationMode value);
     // private OVRManager/InstantiateMrcCameraDelegate OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject()
-    // Offset: 0x1504EF8
+    // Offset: 0x151FC08
     GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject();
     // private System.Void OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject(OVRManager/InstantiateMrcCameraDelegate value)
-    // Offset: 0x1504F00
+    // Offset: 0x151FC10
     void OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
     // public OVRManager/XrApi get_xrApi()
-    // Offset: 0x1504F08
+    // Offset: 0x151FC18
     GlobalNamespace::OVRManager_XrApi get_xrApi();
     // public System.UInt64 get_xrInstance()
-    // Offset: 0x1504F68
+    // Offset: 0x151FC78
     uint64_t get_xrInstance();
     // public System.UInt64 get_xrSession()
-    // Offset: 0x1504FC8
+    // Offset: 0x151FCD8
     uint64_t get_xrSession();
     // public System.Int32 get_vsyncCount()
-    // Offset: 0x1505028
+    // Offset: 0x151FD38
     int get_vsyncCount();
     // public System.Void set_vsyncCount(System.Int32 value)
-    // Offset: 0x15050C0
+    // Offset: 0x151FDD0
     void set_vsyncCount(int value);
     // static public System.Single get_batteryLevel()
-    // Offset: 0x150515C
+    // Offset: 0x151FE6C
     static float get_batteryLevel();
     // static public System.Single get_batteryTemperature()
-    // Offset: 0x15051F4
+    // Offset: 0x151FF04
     static float get_batteryTemperature();
     // static public System.Int32 get_batteryStatus()
-    // Offset: 0x150528C
+    // Offset: 0x151FF9C
     static int get_batteryStatus();
     // static public System.Single get_volumeLevel()
-    // Offset: 0x1505324
+    // Offset: 0x1520034
     static float get_volumeLevel();
     // static public System.Int32 get_cpuLevel()
-    // Offset: 0x15053BC
+    // Offset: 0x15200CC
     static int get_cpuLevel();
     // static public System.Void set_cpuLevel(System.Int32 value)
-    // Offset: 0x1505454
+    // Offset: 0x1520164
     static void set_cpuLevel(int value);
     // static public System.Int32 get_gpuLevel()
-    // Offset: 0x15054F0
+    // Offset: 0x1520200
     static int get_gpuLevel();
     // static public System.Void set_gpuLevel(System.Int32 value)
-    // Offset: 0x1505588
+    // Offset: 0x1520298
     static void set_gpuLevel(int value);
     // static public System.Boolean get_isPowerSavingActive()
-    // Offset: 0x1505624
+    // Offset: 0x1520334
     static bool get_isPowerSavingActive();
     // static public OVRManager/EyeTextureFormat get_eyeTextureFormat()
-    // Offset: 0x15056BC
+    // Offset: 0x15203CC
     static GlobalNamespace::OVRManager_EyeTextureFormat get_eyeTextureFormat();
     // static public System.Void set_eyeTextureFormat(OVRManager/EyeTextureFormat value)
-    // Offset: 0x150571C
+    // Offset: 0x152042C
     static void set_eyeTextureFormat(GlobalNamespace::OVRManager_EyeTextureFormat value);
     // static public System.Boolean get_fixedFoveatedRenderingSupported()
-    // Offset: 0x1505784
+    // Offset: 0x1520494
     static bool get_fixedFoveatedRenderingSupported();
     // static public OVRManager/FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel()
-    // Offset: 0x15057E4
+    // Offset: 0x15204F4
     static GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
     // static public System.Void set_fixedFoveatedRenderingLevel(OVRManager/FixedFoveatedRenderingLevel value)
-    // Offset: 0x150589C
+    // Offset: 0x15205AC
     static void set_fixedFoveatedRenderingLevel(GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel value);
     // static public System.Boolean get_useDynamicFixedFoveatedRendering()
-    // Offset: 0x150595C
+    // Offset: 0x152066C
     static bool get_useDynamicFixedFoveatedRendering();
     // static public System.Void set_useDynamicFixedFoveatedRendering(System.Boolean value)
-    // Offset: 0x1505A14
+    // Offset: 0x1520724
     static void set_useDynamicFixedFoveatedRendering(bool value);
     // static public System.Boolean get_tiledMultiResSupported()
-    // Offset: 0x1505AD4
+    // Offset: 0x15207E4
     static bool get_tiledMultiResSupported();
     // static public OVRManager/TiledMultiResLevel get_tiledMultiResLevel()
-    // Offset: 0x1505B34
+    // Offset: 0x1520844
     static GlobalNamespace::OVRManager_TiledMultiResLevel get_tiledMultiResLevel();
     // static public System.Void set_tiledMultiResLevel(OVRManager/TiledMultiResLevel value)
-    // Offset: 0x1505BEC
+    // Offset: 0x15208FC
     static void set_tiledMultiResLevel(GlobalNamespace::OVRManager_TiledMultiResLevel value);
     // static public System.Boolean get_gpuUtilSupported()
-    // Offset: 0x1505CAC
+    // Offset: 0x15209BC
     static bool get_gpuUtilSupported();
     // static public System.Single get_gpuUtilLevel()
-    // Offset: 0x1505D0C
+    // Offset: 0x1520A1C
     static float get_gpuUtilLevel();
     // static public OVRManager/SystemHeadsetType get_systemHeadsetType()
-    // Offset: 0x1505DC4
+    // Offset: 0x1520AD4
     static GlobalNamespace::OVRManager_SystemHeadsetType get_systemHeadsetType();
     // static public System.Void SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean applyToAllLayers)
-    // Offset: 0x1505E24
+    // Offset: 0x1520B34
     static void SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
     // static public System.Void SetOpenVRLocalPose(UnityEngine.Vector3 leftPos, UnityEngine.Vector3 rightPos, UnityEngine.Quaternion leftRot, UnityEngine.Quaternion rightRot)
-    // Offset: 0x1505EEC
+    // Offset: 0x1520BFC
     static void SetOpenVRLocalPose(UnityEngine::Vector3 leftPos, UnityEngine::Vector3 rightPos, UnityEngine::Quaternion leftRot, UnityEngine::Quaternion rightRot);
     // static public OVRPose GetOpenVRControllerOffset(UnityEngine.XR.XRNode hand)
-    // Offset: 0x1506018
+    // Offset: 0x1520D28
     static GlobalNamespace::OVRPose GetOpenVRControllerOffset(UnityEngine::XR::XRNode hand);
     // public OVRManager/TrackingOrigin get_trackingOriginType()
-    // Offset: 0x1506278
+    // Offset: 0x1520F88
     GlobalNamespace::OVRManager_TrackingOrigin get_trackingOriginType();
     // public System.Void set_trackingOriginType(OVRManager/TrackingOrigin value)
-    // Offset: 0x1506314
+    // Offset: 0x1521024
     void set_trackingOriginType(GlobalNamespace::OVRManager_TrackingOrigin value);
     // public System.Boolean get_isSupportedPlatform()
-    // Offset: 0x15063BC
+    // Offset: 0x15210CC
     bool get_isSupportedPlatform();
     // private System.Void set_isSupportedPlatform(System.Boolean value)
-    // Offset: 0x15063C4
+    // Offset: 0x15210D4
     void set_isSupportedPlatform(bool value);
     // public System.Boolean get_isUserPresent()
-    // Offset: 0x15063D0
+    // Offset: 0x15210E0
     bool get_isUserPresent();
     // private System.Void set_isUserPresent(System.Boolean value)
-    // Offset: 0x15064C8
+    // Offset: 0x15211D8
     void set_isUserPresent(bool value);
     // static public System.Version get_utilitiesVersion()
-    // Offset: 0x1506544
+    // Offset: 0x1521254
     static System::Version* get_utilitiesVersion();
     // static public System.Version get_pluginVersion()
-    // Offset: 0x15065AC
+    // Offset: 0x15212BC
     static System::Version* get_pluginVersion();
     // static public System.Version get_sdkVersion()
-    // Offset: 0x150660C
+    // Offset: 0x152131C
     static System::Version* get_sdkVersion();
     // static private System.Boolean MixedRealityEnabledFromCmd()
-    // Offset: 0x150666C
+    // Offset: 0x152137C
     static bool MixedRealityEnabledFromCmd();
     // static private System.Boolean UseDirectCompositionFromCmd()
-    // Offset: 0x1506730
+    // Offset: 0x1521440
     static bool UseDirectCompositionFromCmd();
     // static private System.Boolean UseExternalCompositionFromCmd()
-    // Offset: 0x15067F4
+    // Offset: 0x1521504
     static bool UseExternalCompositionFromCmd();
     // static private System.Boolean CreateMixedRealityCaptureConfigurationFileFromCmd()
-    // Offset: 0x15068B8
+    // Offset: 0x15215C8
     static bool CreateMixedRealityCaptureConfigurationFileFromCmd();
     // static private System.Boolean LoadMixedRealityCaptureConfigurationFileFromCmd()
-    // Offset: 0x150697C
+    // Offset: 0x152168C
     static bool LoadMixedRealityCaptureConfigurationFileFromCmd();
     // static public System.Boolean IsUnityAlphaOrBetaVersion()
-    // Offset: 0x1506A40
+    // Offset: 0x1521750
     static bool IsUnityAlphaOrBetaVersion();
     // private System.Void InitOVRManager()
-    // Offset: 0x1506AFC
+    // Offset: 0x152180C
     void InitOVRManager();
     // private System.Void Awake()
-    // Offset: 0x1507EFC
+    // Offset: 0x1522C0C
     void Awake();
     // private System.Void SetCurrentXRDevice()
-    // Offset: 0x1507F00
+    // Offset: 0x1522C10
     void SetCurrentXRDevice();
     // private System.Void Initialize()
-    // Offset: 0x1507C18
+    // Offset: 0x1522928
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x1508068
+    // Offset: 0x1522D78
     void Update();
     // private System.Void UpdateHMDEvents()
-    // Offset: 0x1509E50
+    // Offset: 0x1524B60
     void UpdateHMDEvents();
     // static private UnityEngine.Camera FindMainCamera()
-    // Offset: 0x150A770
+    // Offset: 0x1525480
     static UnityEngine::Camera* FindMainCamera();
     // private System.Void OnDisable()
-    // Offset: 0x150ACF4
+    // Offset: 0x1525A04
     void OnDisable();
     // private System.Void LateUpdate()
-    // Offset: 0x150ADA4
+    // Offset: 0x1525AB4
     void LateUpdate();
     // private System.Void FixedUpdate()
-    // Offset: 0x150AE00
+    // Offset: 0x1525B10
     void FixedUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x150AE5C
+    // Offset: 0x1525B6C
     void OnDestroy();
     // private System.Void OnApplicationPause(System.Boolean pause)
-    // Offset: 0x150AEF8
+    // Offset: 0x1525C08
     void OnApplicationPause(bool pause);
     // private System.Void OnApplicationFocus(System.Boolean focus)
-    // Offset: 0x150AF88
+    // Offset: 0x1525C98
     void OnApplicationFocus(bool focus);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x150B018
+    // Offset: 0x1525D28
     void OnApplicationQuit();
     // public System.Void ReturnToLauncher()
-    // Offset: 0x150B084
+    // Offset: 0x1525D94
     void ReturnToLauncher();
     // static public System.Void PlatformUIConfirmQuit()
-    // Offset: 0x150B0E0
+    // Offset: 0x1525DF0
     static void PlatformUIConfirmQuit();
     // static public System.Void StaticInitializeMixedRealityCapture(OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x15075E4
+    // Offset: 0x15222F4
     static void StaticInitializeMixedRealityCapture(GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
     // static public System.Void StaticUpdateMixedRealityCapture(OVRMixedRealityCaptureConfiguration configuration, UnityEngine.GameObject gameObject, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x1509FD8
+    // Offset: 0x1524CE8
     static void StaticUpdateMixedRealityCapture(GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, UnityEngine::GameObject* gameObject, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void StaticShutdownMixedRealityCapture(OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x1509CF4
+    // Offset: 0x1524A04
     static void StaticShutdownMixedRealityCapture(GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
     // public System.Void .ctor()
-    // Offset: 0x150B178
+    // Offset: 0x1525E88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -1255,7 +1255,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRManager*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x150B24C
+    // Offset: 0x1525F5C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();
@@ -1263,5 +1263,1451 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(OVRManager), 242 + sizeof(bool)> __GlobalNamespace_OVRManagerSizeCheck;
   static_assert(sizeof(OVRManager) == 0xF3);
+  // Writing MetadataGetter for method: OVRManager::get_instance
+  // Il2CppName: get_instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager* (*)()>(&OVRManager::get_instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_instance
+  // Il2CppName: set_instance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRManager*)>(&OVRManager::set_instance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_display
+  // Il2CppName: get_display
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRDisplay* (*)()>(&OVRManager::get_display)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_display", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_display
+  // Il2CppName: set_display
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRDisplay*)>(&OVRManager::set_display)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_display", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRDisplay*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_tracker
+  // Il2CppName: get_tracker
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker* (*)()>(&OVRManager::get_tracker)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_tracker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_tracker
+  // Il2CppName: set_tracker
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRTracker*)>(&OVRManager::set_tracker)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_tracker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRTracker*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_boundary
+  // Il2CppName: get_boundary
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary* (*)()>(&OVRManager::get_boundary)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_boundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_boundary
+  // Il2CppName: set_boundary
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRBoundary*)>(&OVRManager::set_boundary)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_boundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoundary*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_profile
+  // Il2CppName: get_profile
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRProfile* (*)()>(&OVRManager::get_profile)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_profile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_HMDAcquired
+  // Il2CppName: add_HMDAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_HMDAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_HMDAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_HMDAcquired
+  // Il2CppName: remove_HMDAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_HMDAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_HMDAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_HMDLost
+  // Il2CppName: add_HMDLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_HMDLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_HMDLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_HMDLost
+  // Il2CppName: remove_HMDLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_HMDLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_HMDLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_HMDMounted
+  // Il2CppName: add_HMDMounted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_HMDMounted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_HMDMounted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_HMDMounted
+  // Il2CppName: remove_HMDMounted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_HMDMounted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_HMDMounted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_HMDUnmounted
+  // Il2CppName: add_HMDUnmounted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_HMDUnmounted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_HMDUnmounted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_HMDUnmounted
+  // Il2CppName: remove_HMDUnmounted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_HMDUnmounted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_HMDUnmounted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_VrFocusAcquired
+  // Il2CppName: add_VrFocusAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_VrFocusAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_VrFocusAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_VrFocusAcquired
+  // Il2CppName: remove_VrFocusAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_VrFocusAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_VrFocusAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_VrFocusLost
+  // Il2CppName: add_VrFocusLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_VrFocusLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_VrFocusLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_VrFocusLost
+  // Il2CppName: remove_VrFocusLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_VrFocusLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_VrFocusLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_InputFocusAcquired
+  // Il2CppName: add_InputFocusAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_InputFocusAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_InputFocusAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_InputFocusAcquired
+  // Il2CppName: remove_InputFocusAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_InputFocusAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_InputFocusAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_InputFocusLost
+  // Il2CppName: add_InputFocusLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_InputFocusLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_InputFocusLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_InputFocusLost
+  // Il2CppName: remove_InputFocusLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_InputFocusLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_InputFocusLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_AudioOutChanged
+  // Il2CppName: add_AudioOutChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_AudioOutChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_AudioOutChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_AudioOutChanged
+  // Il2CppName: remove_AudioOutChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_AudioOutChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_AudioOutChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_AudioInChanged
+  // Il2CppName: add_AudioInChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_AudioInChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_AudioInChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_AudioInChanged
+  // Il2CppName: remove_AudioInChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_AudioInChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_AudioInChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_TrackingAcquired
+  // Il2CppName: add_TrackingAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_TrackingAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_TrackingAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_TrackingAcquired
+  // Il2CppName: remove_TrackingAcquired
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_TrackingAcquired)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_TrackingAcquired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_TrackingLost
+  // Il2CppName: add_TrackingLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_TrackingLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_TrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_TrackingLost
+  // Il2CppName: remove_TrackingLost
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_TrackingLost)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_TrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_DisplayRefreshRateChanged
+  // Il2CppName: add_DisplayRefreshRateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<float, float>*)>(&OVRManager::add_DisplayRefreshRateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_DisplayRefreshRateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<float, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_DisplayRefreshRateChanged
+  // Il2CppName: remove_DisplayRefreshRateChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<float, float>*)>(&OVRManager::remove_DisplayRefreshRateChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_DisplayRefreshRateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<float, float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::add_HSWDismissed
+  // Il2CppName: add_HSWDismissed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::add_HSWDismissed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "add_HSWDismissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::remove_HSWDismissed
+  // Il2CppName: remove_HSWDismissed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&OVRManager::remove_HSWDismissed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "remove_HSWDismissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_isHmdPresent
+  // Il2CppName: get_isHmdPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_isHmdPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_isHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_isHmdPresent
+  // Il2CppName: set_isHmdPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&OVRManager::set_isHmdPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_isHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_audioOutId
+  // Il2CppName: get_audioOutId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&OVRManager::get_audioOutId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_audioOutId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_audioInId
+  // Il2CppName: get_audioInId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&OVRManager::get_audioInId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_audioInId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_hasVrFocus
+  // Il2CppName: get_hasVrFocus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_hasVrFocus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_hasVrFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_hasVrFocus
+  // Il2CppName: set_hasVrFocus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&OVRManager::set_hasVrFocus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_hasVrFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_hasInputFocus
+  // Il2CppName: get_hasInputFocus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_hasInputFocus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_hasInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_chromatic
+  // Il2CppName: get_chromatic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::get_chromatic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_chromatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_chromatic
+  // Il2CppName: set_chromatic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::set_chromatic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_chromatic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_monoscopic
+  // Il2CppName: get_monoscopic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::get_monoscopic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_monoscopic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_monoscopic
+  // Il2CppName: set_monoscopic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::set_monoscopic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_monoscopic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_colorGamut
+  // Il2CppName: get_colorGamut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_ColorSpace (OVRManager::*)()>(&OVRManager::get_colorGamut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_colorGamut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_colorGamut
+  // Il2CppName: set_colorGamut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_ColorSpace)>(&OVRManager::set_colorGamut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_colorGamut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_ColorSpace>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_nativeColorGamut
+  // Il2CppName: get_nativeColorGamut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_ColorSpace (OVRManager::*)()>(&OVRManager::get_nativeColorGamut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_nativeColorGamut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::IsAdaptiveResSupportedByEngine
+  // Il2CppName: IsAdaptiveResSupportedByEngine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::IsAdaptiveResSupportedByEngine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "IsAdaptiveResSupportedByEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_headPoseRelativeOffsetRotation
+  // Il2CppName: get_headPoseRelativeOffsetRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRManager::*)()>(&OVRManager::get_headPoseRelativeOffsetRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_headPoseRelativeOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_headPoseRelativeOffsetRotation
+  // Il2CppName: set_headPoseRelativeOffsetRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::Vector3)>(&OVRManager::set_headPoseRelativeOffsetRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_headPoseRelativeOffsetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_headPoseRelativeOffsetTranslation
+  // Il2CppName: get_headPoseRelativeOffsetTranslation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (OVRManager::*)()>(&OVRManager::get_headPoseRelativeOffsetTranslation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_headPoseRelativeOffsetTranslation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_headPoseRelativeOffsetTranslation
+  // Il2CppName: set_headPoseRelativeOffsetTranslation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::Vector3)>(&OVRManager::set_headPoseRelativeOffsetTranslation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_headPoseRelativeOffsetTranslation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_eyeFovPremultipliedAlphaModeEnabled
+  // Il2CppName: get_eyeFovPremultipliedAlphaModeEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_eyeFovPremultipliedAlphaModeEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_eyeFovPremultipliedAlphaModeEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_eyeFovPremultipliedAlphaModeEnabled
+  // Il2CppName: set_eyeFovPremultipliedAlphaModeEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&OVRManager::set_eyeFovPremultipliedAlphaModeEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_eyeFovPremultipliedAlphaModeEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_enableMixedReality
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_enableMixedReality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_enableMixedReality)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_enableMixedReality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_enableMixedReality
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_enableMixedReality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_enableMixedReality)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_enableMixedReality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::LayerMask)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_extraVisibleLayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_extraVisibleLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_extraVisibleLayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::LayerMask)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_extraVisibleLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_dynamicCullingMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_dynamicCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_dynamicCullingMask
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_dynamicCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_compositionMethod
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_compositionMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CompositionMethod (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_compositionMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_compositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_compositionMethod
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_compositionMethod
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_CompositionMethod)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_compositionMethod)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_compositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_CompositionMethod>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorRift
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorRift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorRift
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::Color)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorRift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorQuest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorQuest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorQuest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::Color)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorQuest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_capturingCameraDevice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CameraDevice (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_capturingCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_capturingCameraDevice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_CameraDevice)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_capturingCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_CameraDevice>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_flipCameraFrameHorizontally
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_flipCameraFrameHorizontally", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_flipCameraFrameVertically
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_flipCameraFrameVertically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_sandwichCompositionBufferedFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_sandwichCompositionBufferedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_sandwichCompositionBufferedFrames
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(int)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_sandwichCompositionBufferedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeyColor
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_chromaKeyColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeyColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_chromaKeyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeyColor
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_chromaKeyColor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(UnityEngine::Color)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeyColor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_chromaKeyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_chromaKeySimilarity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_chromaKeySimilarity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_chromaKeySimilarity
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_chromaKeySimilarity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_chromaKeySmoothRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_chromaKeySmoothRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_chromaKeySpillRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_chromaKeySpillRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_chromaKeySpillRange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_chromaKeySpillRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_useDynamicLighting
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_useDynamicLighting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_useDynamicLighting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_useDynamicLighting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_useDynamicLighting
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_useDynamicLighting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_useDynamicLighting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_useDynamicLighting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_depthQuality
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_depthQuality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_DepthQuality (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_depthQuality)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_depthQuality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_depthQuality
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_depthQuality
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_DepthQuality)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_depthQuality)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_depthQuality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_DepthQuality>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_dynamicLightingSmoothFactor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_dynamicLightingSmoothFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_dynamicLightingSmoothFactor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_dynamicLightingSmoothFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_dynamicLightingDepthVariationClampingValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_dynamicLightingDepthVariationClampingValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_VirtualGreenScreenType (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_VirtualGreenScreenType)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_VirtualGreenScreenType>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenTopY
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenTopY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenTopY
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenTopY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenBottomY
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenBottomY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenBottomY
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenBottomY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenApplyDepthCulling
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenApplyDepthCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenApplyDepthCulling
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenApplyDepthCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(float)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_mrcActivationMode
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_mrcActivationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_MrcActivationMode (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_mrcActivationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_mrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_mrcActivationMode
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_mrcActivationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_MrcActivationMode)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_mrcActivationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_mrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcActivationMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* (OVRManager::*)()>(&OVRManager::OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject
+  // Il2CppName: OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)>(&OVRManager::OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_xrApi
+  // Il2CppName: get_xrApi
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_XrApi (OVRManager::*)()>(&OVRManager::get_xrApi)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_xrApi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_xrInstance
+  // Il2CppName: get_xrInstance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVRManager::*)()>(&OVRManager::get_xrInstance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_xrInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_xrSession
+  // Il2CppName: get_xrSession
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVRManager::*)()>(&OVRManager::get_xrSession)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_xrSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_vsyncCount
+  // Il2CppName: get_vsyncCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRManager::*)()>(&OVRManager::get_vsyncCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_vsyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_vsyncCount
+  // Il2CppName: set_vsyncCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(int)>(&OVRManager::set_vsyncCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_vsyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_batteryLevel
+  // Il2CppName: get_batteryLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRManager::get_batteryLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_batteryLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_batteryTemperature
+  // Il2CppName: get_batteryTemperature
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRManager::get_batteryTemperature)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_batteryTemperature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_batteryStatus
+  // Il2CppName: get_batteryStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRManager::get_batteryStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_batteryStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_volumeLevel
+  // Il2CppName: get_volumeLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRManager::get_volumeLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_volumeLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_cpuLevel
+  // Il2CppName: get_cpuLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRManager::get_cpuLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_cpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_cpuLevel
+  // Il2CppName: set_cpuLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRManager::set_cpuLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_cpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_gpuLevel
+  // Il2CppName: get_gpuLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRManager::get_gpuLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_gpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_gpuLevel
+  // Il2CppName: set_gpuLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRManager::set_gpuLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_gpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_isPowerSavingActive
+  // Il2CppName: get_isPowerSavingActive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_isPowerSavingActive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_isPowerSavingActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_eyeTextureFormat
+  // Il2CppName: get_eyeTextureFormat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_EyeTextureFormat (*)()>(&OVRManager::get_eyeTextureFormat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_eyeTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_eyeTextureFormat
+  // Il2CppName: set_eyeTextureFormat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRManager_EyeTextureFormat)>(&OVRManager::set_eyeTextureFormat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_eyeTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_EyeTextureFormat>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_fixedFoveatedRenderingSupported
+  // Il2CppName: get_fixedFoveatedRenderingSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_fixedFoveatedRenderingSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_fixedFoveatedRenderingSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_fixedFoveatedRenderingLevel
+  // Il2CppName: get_fixedFoveatedRenderingLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel (*)()>(&OVRManager::get_fixedFoveatedRenderingLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_fixedFoveatedRenderingLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_fixedFoveatedRenderingLevel
+  // Il2CppName: set_fixedFoveatedRenderingLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel)>(&OVRManager::set_fixedFoveatedRenderingLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_fixedFoveatedRenderingLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_useDynamicFixedFoveatedRendering
+  // Il2CppName: get_useDynamicFixedFoveatedRendering
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_useDynamicFixedFoveatedRendering)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_useDynamicFixedFoveatedRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_useDynamicFixedFoveatedRendering
+  // Il2CppName: set_useDynamicFixedFoveatedRendering
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&OVRManager::set_useDynamicFixedFoveatedRendering)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_useDynamicFixedFoveatedRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_tiledMultiResSupported
+  // Il2CppName: get_tiledMultiResSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_tiledMultiResSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_tiledMultiResSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_tiledMultiResLevel
+  // Il2CppName: get_tiledMultiResLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_TiledMultiResLevel (*)()>(&OVRManager::get_tiledMultiResLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_tiledMultiResLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_tiledMultiResLevel
+  // Il2CppName: set_tiledMultiResLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRManager_TiledMultiResLevel)>(&OVRManager::set_tiledMultiResLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_tiledMultiResLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TiledMultiResLevel>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_gpuUtilSupported
+  // Il2CppName: get_gpuUtilSupported
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::get_gpuUtilSupported)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_gpuUtilSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_gpuUtilLevel
+  // Il2CppName: get_gpuUtilLevel
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRManager::get_gpuUtilLevel)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_gpuUtilLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_systemHeadsetType
+  // Il2CppName: get_systemHeadsetType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_SystemHeadsetType (*)()>(&OVRManager::get_systemHeadsetType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_systemHeadsetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::SetColorScaleAndOffset
+  // Il2CppName: SetColorScaleAndOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector4, UnityEngine::Vector4, bool)>(&OVRManager::SetColorScaleAndOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "SetColorScaleAndOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::SetOpenVRLocalPose
+  // Il2CppName: SetOpenVRLocalPose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&OVRManager::SetOpenVRLocalPose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "SetOpenVRLocalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::GetOpenVRControllerOffset
+  // Il2CppName: GetOpenVRControllerOffset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::XR::XRNode)>(&OVRManager::GetOpenVRControllerOffset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "GetOpenVRControllerOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_trackingOriginType
+  // Il2CppName: get_trackingOriginType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_TrackingOrigin (OVRManager::*)()>(&OVRManager::get_trackingOriginType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_trackingOriginType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_trackingOriginType
+  // Il2CppName: set_trackingOriginType
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(GlobalNamespace::OVRManager_TrackingOrigin)>(&OVRManager::set_trackingOriginType)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_trackingOriginType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TrackingOrigin>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_isSupportedPlatform
+  // Il2CppName: get_isSupportedPlatform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::get_isSupportedPlatform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_isSupportedPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_isSupportedPlatform
+  // Il2CppName: set_isSupportedPlatform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::set_isSupportedPlatform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_isSupportedPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_isUserPresent
+  // Il2CppName: get_isUserPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRManager::*)()>(&OVRManager::get_isUserPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_isUserPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::set_isUserPresent
+  // Il2CppName: set_isUserPresent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::set_isUserPresent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "set_isUserPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_utilitiesVersion
+  // Il2CppName: get_utilitiesVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)()>(&OVRManager::get_utilitiesVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_utilitiesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_pluginVersion
+  // Il2CppName: get_pluginVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)()>(&OVRManager::get_pluginVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_pluginVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::get_sdkVersion
+  // Il2CppName: get_sdkVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)()>(&OVRManager::get_sdkVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "get_sdkVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::MixedRealityEnabledFromCmd
+  // Il2CppName: MixedRealityEnabledFromCmd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::MixedRealityEnabledFromCmd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "MixedRealityEnabledFromCmd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::UseDirectCompositionFromCmd
+  // Il2CppName: UseDirectCompositionFromCmd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::UseDirectCompositionFromCmd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "UseDirectCompositionFromCmd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::UseExternalCompositionFromCmd
+  // Il2CppName: UseExternalCompositionFromCmd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::UseExternalCompositionFromCmd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "UseExternalCompositionFromCmd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::CreateMixedRealityCaptureConfigurationFileFromCmd
+  // Il2CppName: CreateMixedRealityCaptureConfigurationFileFromCmd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::CreateMixedRealityCaptureConfigurationFileFromCmd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "CreateMixedRealityCaptureConfigurationFileFromCmd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::LoadMixedRealityCaptureConfigurationFileFromCmd
+  // Il2CppName: LoadMixedRealityCaptureConfigurationFileFromCmd
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::LoadMixedRealityCaptureConfigurationFileFromCmd)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "LoadMixedRealityCaptureConfigurationFileFromCmd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::IsUnityAlphaOrBetaVersion
+  // Il2CppName: IsUnityAlphaOrBetaVersion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRManager::IsUnityAlphaOrBetaVersion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "IsUnityAlphaOrBetaVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::InitOVRManager
+  // Il2CppName: InitOVRManager
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::InitOVRManager)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "InitOVRManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::Awake
+  // Il2CppName: Awake
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::Awake)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::SetCurrentXRDevice
+  // Il2CppName: SetCurrentXRDevice
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::SetCurrentXRDevice)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "SetCurrentXRDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::UpdateHMDEvents
+  // Il2CppName: UpdateHMDEvents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::UpdateHMDEvents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "UpdateHMDEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::FindMainCamera
+  // Il2CppName: FindMainCamera
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&OVRManager::FindMainCamera)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "FindMainCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::FixedUpdate
+  // Il2CppName: FixedUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::FixedUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OnApplicationPause
+  // Il2CppName: OnApplicationPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OnApplicationPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OnApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OnApplicationFocus
+  // Il2CppName: OnApplicationFocus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)(bool)>(&OVRManager::OnApplicationFocus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::OnApplicationQuit
+  // Il2CppName: OnApplicationQuit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::OnApplicationQuit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::ReturnToLauncher
+  // Il2CppName: ReturnToLauncher
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::ReturnToLauncher)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "ReturnToLauncher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::PlatformUIConfirmQuit
+  // Il2CppName: PlatformUIConfirmQuit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRManager::PlatformUIConfirmQuit)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "PlatformUIConfirmQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::StaticInitializeMixedRealityCapture
+  // Il2CppName: StaticInitializeMixedRealityCapture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&OVRManager::StaticInitializeMixedRealityCapture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "StaticInitializeMixedRealityCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::StaticUpdateMixedRealityCapture
+  // Il2CppName: StaticUpdateMixedRealityCapture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, UnityEngine::GameObject*, GlobalNamespace::OVRManager_TrackingOrigin)>(&OVRManager::StaticUpdateMixedRealityCapture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "StaticUpdateMixedRealityCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TrackingOrigin>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::StaticShutdownMixedRealityCapture
+  // Il2CppName: StaticShutdownMixedRealityCapture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&OVRManager::StaticShutdownMixedRealityCapture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), "StaticShutdownMixedRealityCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>()});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager::*)()>(&OVRManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: OVRManager::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRManager::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(OVRManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager*, "", "OVRManager");

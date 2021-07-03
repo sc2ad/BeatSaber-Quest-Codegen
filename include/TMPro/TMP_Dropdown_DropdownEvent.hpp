@@ -22,7 +22,7 @@ namespace TMPro {
     // Creating value type constructor for type: DropdownEvent
     DropdownEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x110F664
+    // Offset: 0x10EA4E0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -33,5 +33,19 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::DropdownEvent*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/DropdownEvent
+  // Writing MetadataGetter for method: TMP_Dropdown::DropdownEvent::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownEvent::*)()>(&TMP_Dropdown::DropdownEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Dropdown::DropdownEvent::*)()>(&TMP_Dropdown::DropdownEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_Dropdown::DropdownEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownEvent*, "TMPro", "TMP_Dropdown/DropdownEvent");

@@ -59,37 +59,37 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] macDiversifier
     static void _set_macDiversifier(::Array<uint8_t>* value);
     // public System.Void set_HashName(System.String value)
-    // Offset: 0x238AAE8
+    // Offset: 0x23A511C
     void set_HashName(::Il2CppString* value);
     // public System.Void set_IterationCount(System.Int32 value)
-    // Offset: 0x238AAF0
+    // Offset: 0x23A5124
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
-    // Offset: 0x238AAF8
+    // Offset: 0x23A512C
     void set_Password(::Array<uint8_t>* value);
     // public System.Void set_Salt(System.Byte[] value)
-    // Offset: 0x238AB98
+    // Offset: 0x23A51CC
     void set_Salt(::Array<uint8_t>* value);
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
-    // Offset: 0x238AC2C
+    // Offset: 0x23A5260
     void Adjust(::Array<uint8_t>* a, int aOff, ::Array<uint8_t>* b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
-    // Offset: 0x238AD14
+    // Offset: 0x23A5348
     ::Array<uint8_t>* Derive(::Array<uint8_t>* diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
-    // Offset: 0x238B160
+    // Offset: 0x23A5794
     ::Array<uint8_t>* DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
-    // Offset: 0x238B1E0
+    // Offset: 0x23A5814
     ::Array<uint8_t>* DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
-    // Offset: 0x238B260
+    // Offset: 0x23A5894
     ::Array<uint8_t>* DeriveMAC(int size);
     // static private System.Void .cctor()
-    // Offset: 0x238B2E0
+    // Offset: 0x23A5914
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x238AAE0
+    // Offset: 0x23A5114
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,5 +101,99 @@ namespace Mono::Security::X509 {
   #pragma pack(pop)
   static check_size<sizeof(PKCS12::DeriveBytes), 40 + sizeof(::Array<uint8_t>*)> __Mono_Security_X509_PKCS12_DeriveBytesSizeCheck;
   static_assert(sizeof(PKCS12::DeriveBytes) == 0x30);
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::set_HashName
+  // Il2CppName: set_HashName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Il2CppString*)>(&PKCS12::DeriveBytes::set_HashName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_HashName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::set_IterationCount
+  // Il2CppName: set_IterationCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::set_IterationCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::set_Password
+  // Il2CppName: set_Password
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Array<uint8_t>*)>(&PKCS12::DeriveBytes::set_Password)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::set_Salt
+  // Il2CppName: set_Salt
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Array<uint8_t>*)>(&PKCS12::DeriveBytes::set_Salt)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::Adjust
+  // Il2CppName: Adjust
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&PKCS12::DeriveBytes::Adjust)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "Adjust", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::Derive
+  // Il2CppName: Derive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(::Array<uint8_t>*, int)>(&PKCS12::DeriveBytes::Derive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "Derive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::DeriveKey
+  // Il2CppName: DeriveKey
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::DeriveKey)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::DeriveIV
+  // Il2CppName: DeriveIV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::DeriveIV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "DeriveIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::DeriveMAC
+  // Il2CppName: DeriveMAC
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::DeriveMAC)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "DeriveMAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PKCS12::DeriveBytes::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PKCS12::DeriveBytes::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)()>(&PKCS12::DeriveBytes::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)()>(&PKCS12::DeriveBytes::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");

@@ -35,19 +35,19 @@ namespace Oculus::Platform {
       return senderID;
     }
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
-    // Offset: 0x2398D78
+    // Offset: 0x23B33AC
     int GetPCM(::Array<float>* dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
-    // Offset: 0x2398E38
+    // Offset: 0x23B346C
     void SetSenderID(uint64_t senderID);
     // public System.Int32 PeekSizeElements()
-    // Offset: 0x2398E40
+    // Offset: 0x23B3474
     int PeekSizeElements();
     // public System.Void Update()
-    // Offset: 0x2398EE0
+    // Offset: 0x23B3514
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x2398254
+    // Offset: 0x23B2888
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -59,5 +59,51 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(VoipPCMSourceNative), 16 + sizeof(uint64_t)> __Oculus_Platform_VoipPCMSourceNativeSizeCheck;
   static_assert(sizeof(VoipPCMSourceNative) == 0x18);
+  // Writing MetadataGetter for method: VoipPCMSourceNative::GetPCM
+  // Il2CppName: GetPCM
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VoipPCMSourceNative::*)(::Array<float>*, int)>(&VoipPCMSourceNative::GetPCM)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipPCMSourceNative*), "GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: VoipPCMSourceNative::SetSenderID
+  // Il2CppName: SetSenderID
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipPCMSourceNative::*)(uint64_t)>(&VoipPCMSourceNative::SetSenderID)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipPCMSourceNative*), "SetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: VoipPCMSourceNative::PeekSizeElements
+  // Il2CppName: PeekSizeElements
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VoipPCMSourceNative::*)()>(&VoipPCMSourceNative::PeekSizeElements)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipPCMSourceNative*), "PeekSizeElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VoipPCMSourceNative::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipPCMSourceNative::*)()>(&VoipPCMSourceNative::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipPCMSourceNative*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VoipPCMSourceNative::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipPCMSourceNative::*)()>(&VoipPCMSourceNative::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipPCMSourceNative*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VoipPCMSourceNative::*)()>(&VoipPCMSourceNative::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VoipPCMSourceNative*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform", "VoipPCMSourceNative");

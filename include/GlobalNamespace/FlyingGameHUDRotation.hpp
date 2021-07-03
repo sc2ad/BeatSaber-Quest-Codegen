@@ -35,14 +35,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: smooth and: beatLineManager
     char __padding0[0x4] = {};
-    // [InjectOptionalAttribute] Offset: 0xE1B324
+    // [InjectOptionalAttribute] Offset: 0xE1B300
     // private readonly BeatLineManager _beatLineManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatLineManager* beatLineManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatLineManager*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xE1B334
+    // [InjectOptionalAttribute] Offset: 0xE1B310
     // private readonly EnvironmentSpawnRotation _environmentSpawnRotation
     // Size: 0x8
     // Offset: 0x28
@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10C7CCC
+    // Offset: 0x104688C
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x10C7E00
+    // Offset: 0x10469C0
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x10C7FE0
+    // Offset: 0x1046BA0
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x10C80F4
+    // Offset: 0x1046CB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -91,5 +91,43 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FlyingGameHUDRotation), 52 + sizeof(float)> __GlobalNamespace_FlyingGameHUDRotationSizeCheck;
   static_assert(sizeof(FlyingGameHUDRotation) == 0x38);
+  // Writing MetadataGetter for method: FlyingGameHUDRotation::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlyingGameHUDRotation::FixedUpdate
+  // Il2CppName: FixedUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::FixedUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlyingGameHUDRotation::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FlyingGameHUDRotation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");

@@ -65,37 +65,37 @@ namespace UnityEngine::ProBuilder {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::Triangle>*>(this);
     }
     // public System.Int32 get_a()
-    // Offset: 0xF18228
+    // Offset: 0xF191E0
     int get_a();
     // public System.Int32 get_b()
-    // Offset: 0xF18230
+    // Offset: 0xF191E8
     int get_b();
     // public System.Int32 get_c()
-    // Offset: 0xF18238
+    // Offset: 0xF191F0
     int get_c();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indices()
-    // Offset: 0xF18240
+    // Offset: 0xF191F8
     System::Collections::Generic::IEnumerable_1<int>* get_indices();
     // public System.Void .ctor(System.Int32 a, System.Int32 b, System.Int32 c)
-    // Offset: 0xF18248
+    // Offset: 0xF19200
     // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     // ABORTED: conflicts with another method.  Triangle(int a, int b, int c)
     // public System.Boolean Equals(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0xF18254
+    // Offset: 0xF1920C
     bool Equals(UnityEngine::ProBuilder::Triangle other);
     // public System.Boolean IsAdjacent(UnityEngine.ProBuilder.Triangle other)
-    // Offset: 0xF182B0
+    // Offset: 0xF19268
     bool IsAdjacent(UnityEngine::ProBuilder::Triangle other);
     // private System.Boolean ContainsEdge(UnityEngine.ProBuilder.Edge edge)
-    // Offset: 0xF182BC
+    // Offset: 0xF19274
     bool ContainsEdge(UnityEngine::ProBuilder::Edge edge);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0xF18288
+    // Offset: 0xF19240
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0xF18290
+    // Offset: 0xF19248
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
@@ -103,5 +103,91 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
   static check_size<sizeof(Triangle), 8 + sizeof(int)> __UnityEngine_ProBuilder_TriangleSizeCheck;
   static_assert(sizeof(Triangle) == 0xC);
+  // Writing MetadataGetter for method: Triangle::get_a
+  // Il2CppName: get_a
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Triangle::*)()>(&Triangle::get_a)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "get_a", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::get_b
+  // Il2CppName: get_b
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Triangle::*)()>(&Triangle::get_b)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "get_b", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::get_c
+  // Il2CppName: get_c
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Triangle::*)()>(&Triangle::get_c)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "get_c", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::get_indices
+  // Il2CppName: get_indices
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (Triangle::*)()>(&Triangle::get_indices)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "get_indices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::Triangle
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Triangle::*)(int, int, int)>(&Triangle::Triangle<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Triangle::*)(int, int, int)>(&Triangle::Triangle<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Triangle::*)(UnityEngine::ProBuilder::Triangle)>(&Triangle::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Triangle>()});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::IsAdjacent
+  // Il2CppName: IsAdjacent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Triangle::*)(UnityEngine::ProBuilder::Triangle)>(&Triangle::IsAdjacent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "IsAdjacent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Triangle>()});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::ContainsEdge
+  // Il2CppName: ContainsEdge
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Triangle::*)(UnityEngine::ProBuilder::Edge)>(&Triangle::ContainsEdge)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "ContainsEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Triangle::*)(::Il2CppObject*)>(&Triangle::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Triangle::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Triangle::*)()>(&Triangle::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Triangle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");

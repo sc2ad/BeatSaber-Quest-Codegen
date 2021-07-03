@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: GameLobbyViewController
     GameLobbyViewController() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x103AE00
+    // Offset: 0x107FA8C
     // Implemented from: HMUI.StackedController
     // Base method: System.Void StackedController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()
@@ -38,5 +38,19 @@ namespace GlobalNamespace {
     }
   }; // GameLobbyViewController
   #pragma pack(pop)
+  // Writing MetadataGetter for method: GameLobbyViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameLobbyViewController::*)()>(&GameLobbyViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameLobbyViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameLobbyViewController::*)()>(&GameLobbyViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameLobbyViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameLobbyViewController*, "", "GameLobbyViewController");

@@ -21,7 +21,7 @@ namespace NUnit::Framework::Constraints {
     // Creating value type constructor for type: LessThanOrEqualConstraint
     LessThanOrEqualConstraint() noexcept {}
     // public System.Void .ctor(System.Object expected)
-    // Offset: 0x170F044
+    // Offset: 0x1726D54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LessThanOrEqualConstraint* New_ctor(::Il2CppObject* expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::LessThanOrEqualConstraint::.ctor");
@@ -29,5 +29,19 @@ namespace NUnit::Framework::Constraints {
     }
   }; // NUnit.Framework.Constraints.LessThanOrEqualConstraint
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LessThanOrEqualConstraint::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LessThanOrEqualConstraint::*)(::Il2CppObject*)>(&LessThanOrEqualConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LessThanOrEqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LessThanOrEqualConstraint::*)(::Il2CppObject*)>(&LessThanOrEqualConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LessThanOrEqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::LessThanOrEqualConstraint*, "NUnit.Framework.Constraints", "LessThanOrEqualConstraint");

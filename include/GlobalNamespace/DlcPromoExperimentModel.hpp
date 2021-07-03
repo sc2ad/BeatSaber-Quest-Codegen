@@ -48,28 +48,28 @@ namespace GlobalNamespace {
     struct $InitAfterPlatformWasInitializedAsync$d__8;
     // Nested type: GlobalNamespace::DlcPromoExperimentModel::$UpdateNotOwnedPacksAsync$d__17
     struct $UpdateNotOwnedPacksAsync$d__17;
-    // [InjectAttribute] Offset: 0xE16194
+    // [InjectAttribute] Offset: 0xE16170
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE161A4
+    // [InjectAttribute] Offset: 0xE16180
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::IPlatformUserModel* platformUserModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPlatformUserModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE161B4
+    // [InjectAttribute] Offset: 0xE16190
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0xE161C4
+    // [InjectAttribute] Offset: 0xE161A0
     // private DlcPromoExperimentDataSO _dlcPromoExperimentData
     // Size: 0x8
     // Offset: 0x28
@@ -105,40 +105,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: DlcPromoExperimentModel
     DlcPromoExperimentModel(GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, GlobalNamespace::IPlatformUserModel* platformUserModel_ = {}, GlobalNamespace::IAnalyticsModel* analyticsModel_ = {}, GlobalNamespace::DlcPromoExperimentDataSO* dlcPromoExperimentData_ = {}, ::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* notOwnedMusicPackPromoInfos_ = {}, bool updatingNotOwnedPacks_ = {}, bool initialized_ = {}, System::Random* random_ = {}) noexcept : additionalContentModel{additionalContentModel_}, platformUserModel{platformUserModel_}, analyticsModel{analyticsModel_}, dlcPromoExperimentData{dlcPromoExperimentData_}, notOwnedMusicPackPromoInfos{notOwnedMusicPackPromoInfos_}, updatingNotOwnedPacks{updatingNotOwnedPacks_}, initialized{initialized_}, random{random_} {}
     // public System.Void InitAfterPlatformWasInitializedAsync(System.Boolean force)
-    // Offset: 0x10B7B28
+    // Offset: 0x10362A0
     void InitAfterPlatformWasInitializedAsync(bool force);
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo GetPackDataForMainMenuPromoBanner(out System.Boolean probablyOwned)
-    // Offset: 0x10B7BF4
+    // Offset: 0x103636C
     GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(bool& probablyOwned);
     // public System.Void MainMenuDlcPromoBannerWasShown(IBeatmapLevelPack promoPack, System.String customText)
-    // Offset: 0x10B7DA4
+    // Offset: 0x103651C
     void MainMenuDlcPromoBannerWasShown(GlobalNamespace::IBeatmapLevelPack* promoPack, ::Il2CppString* customText);
     // public System.Void MainMenuDlcPromoBannerWasPressed(IBeatmapLevelPack promoPack, System.String customText)
-    // Offset: 0x10B80E8
+    // Offset: 0x1036860
     void MainMenuDlcPromoBannerWasPressed(GlobalNamespace::IBeatmapLevelPack* promoPack, ::Il2CppString* customText);
     // public System.Void BuyLevelButtonWasPressed(IPreviewBeatmapLevel level, System.String page, System.String customText)
-    // Offset: 0x10B824C
+    // Offset: 0x10369C4
     void BuyLevelButtonWasPressed(GlobalNamespace::IPreviewBeatmapLevel* level, ::Il2CppString* page, ::Il2CppString* customText);
     // public System.Void BuyLevelButtonWasShown(IPreviewBeatmapLevel level, System.String page, System.String customText)
-    // Offset: 0x10B83B4
+    // Offset: 0x1036B2C
     void BuyLevelButtonWasShown(GlobalNamespace::IPreviewBeatmapLevel* level, ::Il2CppString* page, ::Il2CppString* customText);
     // public System.Void BuyPackButtonWasPressed(IBeatmapLevelPack pack, System.String page, System.String customText)
-    // Offset: 0x10B851C
+    // Offset: 0x1036C94
     void BuyPackButtonWasPressed(GlobalNamespace::IBeatmapLevelPack* pack, ::Il2CppString* page, ::Il2CppString* customText);
     // public System.Void BuyPackButtonWasShown(IBeatmapLevelPack pack, System.String page, System.String customText)
-    // Offset: 0x10B8684
+    // Offset: 0x1036DFC
     void BuyPackButtonWasShown(GlobalNamespace::IBeatmapLevelPack* pack, ::Il2CppString* page, ::Il2CppString* customText);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> GetExperimentEventData(System.String itemId, System.String page, System.String customText)
-    // Offset: 0x10B7F08
+    // Offset: 0x1036680
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetExperimentEventData(::Il2CppString* itemId, ::Il2CppString* page, ::Il2CppString* customText);
     // private System.Void UpdateNotOwnedPacksAsync()
-    // Offset: 0x10B87EC
+    // Offset: 0x1036F64
     void UpdateNotOwnedPacksAsync();
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x10B88A4
+    // Offset: 0x103701C
     void HandleAdditionalContentModelDidInvalidateData();
     // public System.Void .ctor()
-    // Offset: 0x10B88A8
+    // Offset: 0x1037020
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -150,5 +150,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(DlcPromoExperimentModel), 64 + sizeof(System::Random*)> __GlobalNamespace_DlcPromoExperimentModelSizeCheck;
   static_assert(sizeof(DlcPromoExperimentModel) == 0x48);
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::InitAfterPlatformWasInitializedAsync
+  // Il2CppName: InitAfterPlatformWasInitializedAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(bool)>(&DlcPromoExperimentModel::InitAfterPlatformWasInitializedAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "InitAfterPlatformWasInitializedAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::GetPackDataForMainMenuPromoBanner
+  // Il2CppName: GetPackDataForMainMenuPromoBanner
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* (DlcPromoExperimentModel::*)(bool&)>(&DlcPromoExperimentModel::GetPackDataForMainMenuPromoBanner)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "GetPackDataForMainMenuPromoBanner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::MainMenuDlcPromoBannerWasShown
+  // Il2CppName: MainMenuDlcPromoBannerWasShown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*)>(&DlcPromoExperimentModel::MainMenuDlcPromoBannerWasShown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "MainMenuDlcPromoBannerWasShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::MainMenuDlcPromoBannerWasPressed
+  // Il2CppName: MainMenuDlcPromoBannerWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*)>(&DlcPromoExperimentModel::MainMenuDlcPromoBannerWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "MainMenuDlcPromoBannerWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::BuyLevelButtonWasPressed
+  // Il2CppName: BuyLevelButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*)>(&DlcPromoExperimentModel::BuyLevelButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "BuyLevelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::BuyLevelButtonWasShown
+  // Il2CppName: BuyLevelButtonWasShown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*)>(&DlcPromoExperimentModel::BuyLevelButtonWasShown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "BuyLevelButtonWasShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::BuyPackButtonWasPressed
+  // Il2CppName: BuyPackButtonWasPressed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*, ::Il2CppString*)>(&DlcPromoExperimentModel::BuyPackButtonWasPressed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "BuyPackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::BuyPackButtonWasShown
+  // Il2CppName: BuyPackButtonWasShown
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*, ::Il2CppString*)>(&DlcPromoExperimentModel::BuyPackButtonWasShown)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "BuyPackButtonWasShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::GetExperimentEventData
+  // Il2CppName: GetExperimentEventData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (DlcPromoExperimentModel::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&DlcPromoExperimentModel::GetExperimentEventData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "GetExperimentEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::UpdateNotOwnedPacksAsync
+  // Il2CppName: UpdateNotOwnedPacksAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)()>(&DlcPromoExperimentModel::UpdateNotOwnedPacksAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "UpdateNotOwnedPacksAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::HandleAdditionalContentModelDidInvalidateData
+  // Il2CppName: HandleAdditionalContentModelDidInvalidateData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)()>(&DlcPromoExperimentModel::HandleAdditionalContentModelDidInvalidateData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: DlcPromoExperimentModel::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)()>(&DlcPromoExperimentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::*)()>(&DlcPromoExperimentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentModel*, "", "DlcPromoExperimentModel");

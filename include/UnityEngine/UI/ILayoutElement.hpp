@@ -42,6 +42,78 @@ namespace UnityEngine::UI {
     int get_layoutPriority();
   }; // UnityEngine.UI.ILayoutElement
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ILayoutElement::CalculateLayoutInputHorizontal
+  // Il2CppName: CalculateLayoutInputHorizontal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILayoutElement::*)()>(&ILayoutElement::CalculateLayoutInputHorizontal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::CalculateLayoutInputVertical
+  // Il2CppName: CalculateLayoutInputVertical
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ILayoutElement::*)()>(&ILayoutElement::CalculateLayoutInputVertical)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_minWidth
+  // Il2CppName: get_minWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ILayoutElement::*)()>(&ILayoutElement::get_minWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_minWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_preferredWidth
+  // Il2CppName: get_preferredWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ILayoutElement::*)()>(&ILayoutElement::get_preferredWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_preferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_flexibleWidth
+  // Il2CppName: get_flexibleWidth
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ILayoutElement::*)()>(&ILayoutElement::get_flexibleWidth)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_flexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_minHeight
+  // Il2CppName: get_minHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ILayoutElement::*)()>(&ILayoutElement::get_minHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_minHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_preferredHeight
+  // Il2CppName: get_preferredHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ILayoutElement::*)()>(&ILayoutElement::get_preferredHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_preferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_flexibleHeight
+  // Il2CppName: get_flexibleHeight
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ILayoutElement::*)()>(&ILayoutElement::get_flexibleHeight)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_flexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ILayoutElement::get_layoutPriority
+  // Il2CppName: get_layoutPriority
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ILayoutElement::*)()>(&ILayoutElement::get_layoutPriority)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ILayoutElement*), "get_layoutPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutElement*, "UnityEngine.UI", "ILayoutElement");

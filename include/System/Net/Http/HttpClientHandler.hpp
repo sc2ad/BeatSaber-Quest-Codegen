@@ -158,22 +158,22 @@ namespace System::Net::Http {
     // Set static field: static private System.Int64 groupCounter
     static void _set_groupCounter(int64_t value);
     // public System.Net.CookieContainer get_CookieContainer()
-    // Offset: 0x15847B4
+    // Offset: 0x159E4C4
     System::Net::CookieContainer* get_CookieContainer();
     // public System.Int64 get_MaxRequestContentBufferSize()
-    // Offset: 0x1584820
+    // Offset: 0x159E530
     int64_t get_MaxRequestContentBufferSize();
     // System.Net.HttpWebRequest CreateWebRequest(System.Net.Http.HttpRequestMessage request)
-    // Offset: 0x15848CC
+    // Offset: 0x159E5DC
     System::Net::HttpWebRequest* CreateWebRequest(System::Net::Http::HttpRequestMessage* request);
     // private System.Net.Http.HttpResponseMessage CreateResponseMessage(System.Net.HttpWebResponse wr, System.Net.Http.HttpRequestMessage requestMessage, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1584F8C
+    // Offset: 0x159EC9C
     System::Net::Http::HttpResponseMessage* CreateResponseMessage(System::Net::HttpWebResponse* wr, System::Net::Http::HttpRequestMessage* requestMessage, System::Threading::CancellationToken cancellationToken);
     // static private System.Boolean MethodHasBody(System.Net.Http.HttpMethod method)
-    // Offset: 0x15852D4
+    // Offset: 0x159EFE4
     static bool MethodHasBody(System::Net::Http::HttpMethod* method);
     // public System.Void .ctor()
-    // Offset: 0x1582E08
+    // Offset: 0x159CB18
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -183,12 +183,12 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1584828
+    // Offset: 0x159E538
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x15853B8
+    // Offset: 0x159F0C8
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
@@ -196,5 +196,75 @@ namespace System::Net::Http {
   #pragma pack(pop)
   static check_size<sizeof(HttpClientHandler), 88 + sizeof(bool)> __System_Net_Http_HttpClientHandlerSizeCheck;
   static_assert(sizeof(HttpClientHandler) == 0x59);
+  // Writing MetadataGetter for method: HttpClientHandler::get_CookieContainer
+  // Il2CppName: get_CookieContainer
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieContainer* (HttpClientHandler::*)()>(&HttpClientHandler::get_CookieContainer)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "get_CookieContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::get_MaxRequestContentBufferSize
+  // Il2CppName: get_MaxRequestContentBufferSize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (HttpClientHandler::*)()>(&HttpClientHandler::get_MaxRequestContentBufferSize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "get_MaxRequestContentBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::CreateWebRequest
+  // Il2CppName: CreateWebRequest
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebRequest* (HttpClientHandler::*)(System::Net::Http::HttpRequestMessage*)>(&HttpClientHandler::CreateWebRequest)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "CreateWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::CreateResponseMessage
+  // Il2CppName: CreateResponseMessage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpResponseMessage* (HttpClientHandler::*)(System::Net::HttpWebResponse*, System::Net::Http::HttpRequestMessage*, System::Threading::CancellationToken)>(&HttpClientHandler::CreateResponseMessage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "CreateResponseMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::MethodHasBody
+  // Il2CppName: MethodHasBody
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::HttpMethod*)>(&HttpClientHandler::MethodHasBody)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "MethodHasBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpMethod*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClientHandler::*)()>(&HttpClientHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClientHandler::*)()>(&HttpClientHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpClientHandler::*)(bool)>(&HttpClientHandler::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HttpClientHandler::SendAsync
+  // Il2CppName: SendAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (HttpClientHandler::*)(System::Net::Http::HttpRequestMessage*, System::Threading::CancellationToken)>(&HttpClientHandler::SendAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HttpClientHandler*), "SendAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler*, "System.Net.Http", "HttpClientHandler");

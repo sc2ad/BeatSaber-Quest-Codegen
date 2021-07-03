@@ -43,22 +43,22 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
-    // Offset: 0x14A18D4
+    // Offset: 0x14BC5E4
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
     // public System.Void RunFinished(NUnit.Framework.Interfaces.ITestResult testResults)
-    // Offset: 0x14A18D8
+    // Offset: 0x14BC5E8
     void RunFinished(NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void OnGUI()
-    // Offset: 0x14A19C0
+    // Offset: 0x14BC6D0
     void OnGUI();
     // public System.Void TestStarted(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x14A19D0
+    // Offset: 0x14BC6E0
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // public System.Void TestFinished(NUnit.Framework.Interfaces.ITestResult result)
-    // Offset: 0x14A19D4
+    // Offset: 0x14BC6E4
     void TestFinished(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
-    // Offset: 0x14A19D8
+    // Offset: 0x14BC6E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -74,5 +74,59 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   #pragma pack(pop)
   static check_size<sizeof(TestResultRendererCallback), 24 + sizeof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererCallbackSizeCheck;
   static_assert(sizeof(TestResultRendererCallback) == 0x20);
+  // Writing MetadataGetter for method: TestResultRendererCallback::RunStarted
+  // Il2CppName: RunStarted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&TestResultRendererCallback::RunStarted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), "RunStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestResultRendererCallback::RunFinished
+  // Il2CppName: RunFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&TestResultRendererCallback::RunFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), "RunFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestResultRendererCallback::OnGUI
+  // Il2CppName: OnGUI
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)()>(&TestResultRendererCallback::OnGUI)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TestResultRendererCallback::TestStarted
+  // Il2CppName: TestStarted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&TestResultRendererCallback::TestStarted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestResultRendererCallback::TestFinished
+  // Il2CppName: TestFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&TestResultRendererCallback::TestFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TestResultRendererCallback::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)()>(&TestResultRendererCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestResultRendererCallback::*)()>(&TestResultRendererCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TestResultRendererCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");

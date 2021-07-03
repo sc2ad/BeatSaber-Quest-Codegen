@@ -28,19 +28,51 @@ namespace UnityEngine::AddressableAssets::Utility {
     // Creating value type constructor for type: SerializationUtilities
     SerializationUtilities() noexcept {}
     // static System.Int32 ReadInt32FromByteArray(System.Byte[] data, System.Int32 offset)
-    // Offset: 0x23A19C4
+    // Offset: 0x23BDFF8
     static int ReadInt32FromByteArray(::Array<uint8_t>* data, int offset);
     // static System.Int32 WriteInt32ToByteArray(System.Byte[] data, System.Int32 val, System.Int32 offset)
-    // Offset: 0x23A1A44
+    // Offset: 0x23BE078
     static int WriteInt32ToByteArray(::Array<uint8_t>* data, int val, int offset);
     // static System.Object ReadObjectFromByteArray(System.Byte[] keyData, System.Int32 dataIndex)
-    // Offset: 0x23A1AD4
+    // Offset: 0x23BE108
     static ::Il2CppObject* ReadObjectFromByteArray(::Array<uint8_t>* keyData, int dataIndex);
     // static System.Int32 WriteObjectToByteList(System.Object obj, System.Collections.Generic.List`1<System.Byte> buffer)
-    // Offset: 0x23A20D0
+    // Offset: 0x23BE704
     static int WriteObjectToByteList(::Il2CppObject* obj, System::Collections::Generic::List_1<uint8_t>* buffer);
   }; // UnityEngine.AddressableAssets.Utility.SerializationUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: SerializationUtilities::ReadInt32FromByteArray
+  // Il2CppName: ReadInt32FromByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&SerializationUtilities::ReadInt32FromByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationUtilities*), "ReadInt32FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationUtilities::WriteInt32ToByteArray
+  // Il2CppName: WriteInt32ToByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int)>(&SerializationUtilities::WriteInt32ToByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationUtilities*), "WriteInt32ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationUtilities::ReadObjectFromByteArray
+  // Il2CppName: ReadObjectFromByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*, int)>(&SerializationUtilities::ReadObjectFromByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationUtilities*), "ReadObjectFromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationUtilities::WriteObjectToByteList
+  // Il2CppName: WriteObjectToByteList
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, System::Collections::Generic::List_1<uint8_t>*)>(&SerializationUtilities::WriteObjectToByteList)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationUtilities*), "WriteObjectToByteList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<uint8_t>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::SerializationUtilities*, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities");

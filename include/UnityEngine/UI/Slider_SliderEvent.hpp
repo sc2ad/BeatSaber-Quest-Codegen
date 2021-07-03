@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
     // Creating value type constructor for type: SliderEvent
     SliderEvent() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x2382DD8
+    // Offset: 0x239F40C
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -33,5 +33,19 @@ namespace UnityEngine::UI {
       return THROW_UNLESS((::il2cpp_utils::New<Slider::SliderEvent*, creationType>()));
     }
   }; // UnityEngine.UI.Slider/SliderEvent
+  // Writing MetadataGetter for method: Slider::SliderEvent::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Slider::SliderEvent::*)()>(&Slider::SliderEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Slider::SliderEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Slider::SliderEvent::*)()>(&Slider::SliderEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Slider::SliderEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::SliderEvent*, "UnityEngine.UI", "Slider/SliderEvent");

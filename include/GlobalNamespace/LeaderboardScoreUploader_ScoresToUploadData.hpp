@@ -39,7 +39,7 @@ namespace GlobalNamespace {
       return scores;
     }
     // public System.Void .ctor()
-    // Offset: 0x106BFE4
+    // Offset: 0x10C6BB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,5 +51,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardScoreUploader::ScoresToUploadData), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*)> __GlobalNamespace_LeaderboardScoreUploader_ScoresToUploadDataSizeCheck;
   static_assert(sizeof(LeaderboardScoreUploader::ScoresToUploadData) == 0x18);
+  // Writing MetadataGetter for method: LeaderboardScoreUploader::ScoresToUploadData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoresToUploadData::*)()>(&LeaderboardScoreUploader::ScoresToUploadData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoresToUploadData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::ScoresToUploadData::*)()>(&LeaderboardScoreUploader::ScoresToUploadData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader::ScoresToUploadData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData*, "", "LeaderboardScoreUploader/ScoresToUploadData");

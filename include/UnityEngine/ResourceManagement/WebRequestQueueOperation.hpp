@@ -52,21 +52,51 @@ namespace UnityEngine::ResourceManagement {
     // Creating value type constructor for type: WebRequestQueueOperation
     WebRequestQueueOperation(UnityEngine::Networking::UnityWebRequestAsyncOperation* Result_ = {}, System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete_ = {}, UnityEngine::Networking::UnityWebRequest* m_WebRequest_ = {}) noexcept : Result{Result_}, OnComplete{OnComplete_}, m_WebRequest{m_WebRequest_} {}
     // public System.Boolean get_IsDone()
-    // Offset: 0x19B27DC
+    // Offset: 0x19C94EC
     bool get_IsDone();
     // public System.Void .ctor(UnityEngine.Networking.UnityWebRequest request)
-    // Offset: 0x19B8C88
+    // Offset: 0x19CF998
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestQueueOperation* New_ctor(UnityEngine::Networking::UnityWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::WebRequestQueueOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestQueueOperation*, creationType>(request)));
     }
     // System.Void Complete(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x19B8E78
+    // Offset: 0x19CFB88
     void Complete(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.WebRequestQueueOperation
   #pragma pack(pop)
   static check_size<sizeof(WebRequestQueueOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_ResourceManagement_WebRequestQueueOperationSizeCheck;
   static_assert(sizeof(WebRequestQueueOperation) == 0x28);
+  // Writing MetadataGetter for method: WebRequestQueueOperation::get_IsDone
+  // Il2CppName: get_IsDone
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebRequestQueueOperation::*)()>(&WebRequestQueueOperation::get_IsDone)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueueOperation*), "get_IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: WebRequestQueueOperation::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebRequestQueueOperation::*)(UnityEngine::Networking::UnityWebRequest*)>(&WebRequestQueueOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueueOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebRequestQueueOperation::*)(UnityEngine::Networking::UnityWebRequest*)>(&WebRequestQueueOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueueOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>()});
+    }
+  };
+  // Writing MetadataGetter for method: WebRequestQueueOperation::Complete
+  // Il2CppName: Complete
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebRequestQueueOperation::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&WebRequestQueueOperation::Complete)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(WebRequestQueueOperation*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequestAsyncOperation*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");

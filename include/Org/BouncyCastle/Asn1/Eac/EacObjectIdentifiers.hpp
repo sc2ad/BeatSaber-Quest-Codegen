@@ -106,10 +106,18 @@ namespace Org::BouncyCastle::Asn1::Eac {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_512
     static void _set_id_TA_ECDSA_SHA_512(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x16EDFE0
+    // Offset: 0x1704CF0
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Eac.EacObjectIdentifiers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: EacObjectIdentifiers::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EacObjectIdentifiers::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EacObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers*, "Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers");

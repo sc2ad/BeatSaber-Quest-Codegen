@@ -22,10 +22,18 @@ namespace Mono::Security::Interface {
     // Creating value type constructor for type: MonoTlsProviderFactory
     MonoTlsProviderFactory() noexcept {}
     // static public Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x1D5CEE8
+    // Offset: 0x1D78BF8
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Security.Interface.MonoTlsProviderFactory
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MonoTlsProviderFactory::GetProvider
+  // Il2CppName: GetProvider
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&MonoTlsProviderFactory::GetProvider)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoTlsProviderFactory*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProviderFactory*, "Mono.Security.Interface", "MonoTlsProviderFactory");

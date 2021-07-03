@@ -34,19 +34,51 @@ namespace TMPro {
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedFontAssets
     static void _set_k_searchedFontAssets(System::Collections::Generic::List_1<int>* value);
     // static public TMPro.TMP_FontAsset SearchForCharacter(TMPro.TMP_FontAsset font, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x11183FC
+    // Offset: 0x10F3278
     static TMPro::TMP_FontAsset* SearchForCharacter(TMPro::TMP_FontAsset* font, uint unicode, TMPro::TMP_Character*& character);
     // static public TMPro.TMP_FontAsset SearchForCharacter(System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fonts, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x11186EC
+    // Offset: 0x10F3568
     static TMPro::TMP_FontAsset* SearchForCharacter(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* fonts, uint unicode, TMPro::TMP_Character*& character);
     // static private TMPro.TMP_FontAsset SearchForCharacterInternal(TMPro.TMP_FontAsset font, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x11184CC
+    // Offset: 0x10F3348
     static TMPro::TMP_FontAsset* SearchForCharacterInternal(TMPro::TMP_FontAsset* font, uint unicode, TMPro::TMP_Character*& character);
     // static private TMPro.TMP_FontAsset SearchForCharacterInternal(System.Collections.Generic.List`1<TMPro.TMP_FontAsset> fonts, System.UInt32 unicode, out TMPro.TMP_Character character)
-    // Offset: 0x11186F0
+    // Offset: 0x10F356C
     static TMPro::TMP_FontAsset* SearchForCharacterInternal(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* fonts, uint unicode, TMPro::TMP_Character*& character);
   }; // TMPro.TMP_FontUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TMP_FontUtilities::SearchForCharacter
+  // Il2CppName: SearchForCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(TMPro::TMP_FontAsset*, uint, TMPro::TMP_Character*&)>(&TMP_FontUtilities::SearchForCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontUtilities*), "SearchForCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontUtilities::SearchForCharacter
+  // Il2CppName: SearchForCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*, uint, TMPro::TMP_Character*&)>(&TMP_FontUtilities::SearchForCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontUtilities*), "SearchForCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontUtilities::SearchForCharacterInternal
+  // Il2CppName: SearchForCharacterInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(TMPro::TMP_FontAsset*, uint, TMPro::TMP_Character*&)>(&TMP_FontUtilities::SearchForCharacterInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontUtilities*), "SearchForCharacterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: TMP_FontUtilities::SearchForCharacterInternal
+  // Il2CppName: SearchForCharacterInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*, uint, TMPro::TMP_Character*&)>(&TMP_FontUtilities::SearchForCharacterInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TMP_FontUtilities*), "SearchForCharacterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontUtilities*, "TMPro", "TMP_FontUtilities");

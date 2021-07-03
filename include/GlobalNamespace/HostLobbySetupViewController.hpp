@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* cancelStartGameButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE25F58
+    // [SpaceAttribute] Offset: 0xE25FBC
     // private EditableBeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x80
@@ -110,28 +110,28 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE25FE0
+    // [CompilerGeneratedAttribute] Offset: 0xE26044
     // private System.Action selectBeatmapEvent
     // Size: 0x8
     // Offset: 0xB8
     System::Action* selectBeatmapEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE25FF0
+    // [CompilerGeneratedAttribute] Offset: 0xE26054
     // private System.Action selectModifiersEvent
     // Size: 0x8
     // Offset: 0xC0
     System::Action* selectModifiersEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26000
+    // [CompilerGeneratedAttribute] Offset: 0xE26064
     // private System.Action startGameEvent
     // Size: 0x8
     // Offset: 0xC8
     System::Action* startGameEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE26010
+    // [CompilerGeneratedAttribute] Offset: 0xE26074
     // private System.Action cancelStartGameEvent
     // Size: 0x8
     // Offset: 0xD0
@@ -141,68 +141,68 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: HostLobbySetupViewController
     HostLobbySetupViewController(UnityEngine::UI::Button* startGameButton_ = {}, UnityEngine::UI::Button* cancelStartGameButton_ = {}, GlobalNamespace::EditableBeatmapSelectionView* beatmapSelectionView_ = {}, GlobalNamespace::EditableModifiersSelectionView* modifiersSelectionView_ = {}, HMUI::HoverHint* cantStartGameHoverHint_ = {}, UnityEngine::GameObject* playerMissingLevelHoverHintWrapper_ = {}, HMUI::HoverHint* playersMissingLevelHoverHint_ = {}, UnityEngine::GameObject* spectatorWarningTextWrapper_ = {}, HMUI::ToggleBinder* toggleBinder_ = {}, System::Action* selectBeatmapEvent_ = {}, System::Action* selectModifiersEvent_ = {}, System::Action* startGameEvent_ = {}, System::Action* cancelStartGameEvent_ = {}) noexcept : startGameButton{startGameButton_}, cancelStartGameButton{cancelStartGameButton_}, beatmapSelectionView{beatmapSelectionView_}, modifiersSelectionView{modifiersSelectionView_}, cantStartGameHoverHint{cantStartGameHoverHint_}, playerMissingLevelHoverHintWrapper{playerMissingLevelHoverHintWrapper_}, playersMissingLevelHoverHint{playersMissingLevelHoverHint_}, spectatorWarningTextWrapper{spectatorWarningTextWrapper_}, toggleBinder{toggleBinder_}, selectBeatmapEvent{selectBeatmapEvent_}, selectModifiersEvent{selectModifiersEvent_}, startGameEvent{startGameEvent_}, cancelStartGameEvent{cancelStartGameEvent_} {}
     // public System.Void add_selectBeatmapEvent(System.Action value)
-    // Offset: 0x1063A00
+    // Offset: 0x10BE5D0
     void add_selectBeatmapEvent(System::Action* value);
     // public System.Void remove_selectBeatmapEvent(System.Action value)
-    // Offset: 0x1064DC4
+    // Offset: 0x10BF994
     void remove_selectBeatmapEvent(System::Action* value);
     // public System.Void add_selectModifiersEvent(System.Action value)
-    // Offset: 0x1063AA4
+    // Offset: 0x10BE674
     void add_selectModifiersEvent(System::Action* value);
     // public System.Void remove_selectModifiersEvent(System.Action value)
-    // Offset: 0x1064E68
+    // Offset: 0x10BFA38
     void remove_selectModifiersEvent(System::Action* value);
     // public System.Void add_startGameEvent(System.Action value)
-    // Offset: 0x1063B48
+    // Offset: 0x10BE718
     void add_startGameEvent(System::Action* value);
     // public System.Void remove_startGameEvent(System.Action value)
-    // Offset: 0x1064F0C
+    // Offset: 0x10BFADC
     void remove_startGameEvent(System::Action* value);
     // public System.Void add_cancelStartGameEvent(System.Action value)
-    // Offset: 0x1063BEC
+    // Offset: 0x10BE7BC
     void add_cancelStartGameEvent(System::Action* value);
     // public System.Void remove_cancelStartGameEvent(System.Action value)
-    // Offset: 0x1064FB0
+    // Offset: 0x10BFB80
     void remove_cancelStartGameEvent(System::Action* value);
     // public System.Void SetLobbyPlayerData(ILobbyPlayerDataModel lobbyPlayerDataModel)
-    // Offset: 0x1065BC0
+    // Offset: 0x10C0790
     void SetLobbyPlayerData(GlobalNamespace::ILobbyPlayerDataModel* lobbyPlayerDataModel);
     // public System.Void SetPlayersMissingLevelText(System.String playersMissingLevelText)
-    // Offset: 0x10672A8
+    // Offset: 0x10C1E78
     void SetPlayersMissingLevelText(::Il2CppString* playersMissingLevelText);
     // public System.Void SetPlayerActiveState(System.Boolean isActive)
-    // Offset: 0x1066D18
+    // Offset: 0x10C18E8
     void SetPlayerActiveState(bool isActive);
     // public System.Void SetStartGameEnabled(System.Boolean startGameEnabled, HostLobbySetupViewController/CannotStartGameReason cannotStartGameReason)
-    // Offset: 0x10671AC
+    // Offset: 0x10C1D7C
     void SetStartGameEnabled(bool startGameEnabled, GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason cannotStartGameReason);
     // public System.Void SetLobbyState(MultiplayerLobbyState lobbyState)
-    // Offset: 0x1064440
+    // Offset: 0x10BF010
     void SetLobbyState(GlobalNamespace::MultiplayerLobbyState lobbyState);
     // private System.Void <DidActivate>b__27_0()
-    // Offset: 0x1068704
+    // Offset: 0x10C32D4
     void $DidActivate$b__27_0();
     // private System.Void <DidActivate>b__27_1()
-    // Offset: 0x1068718
+    // Offset: 0x10C32E8
     void $DidActivate$b__27_1();
     // private System.Void <DidActivate>b__27_2()
-    // Offset: 0x106872C
+    // Offset: 0x10C32FC
     void $DidActivate$b__27_2();
     // private System.Void <DidActivate>b__27_3()
-    // Offset: 0x1068740
+    // Offset: 0x10C3310
     void $DidActivate$b__27_3();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10684CC
+    // Offset: 0x10C309C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1068680
+    // Offset: 0x10C3250
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x106869C
+    // Offset: 0x10C326C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -219,5 +219,171 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(HostLobbySetupViewController), 208 + sizeof(System::Action*)> __GlobalNamespace_HostLobbySetupViewControllerSizeCheck;
   static_assert(sizeof(HostLobbySetupViewController) == 0xD8);
+  // Writing MetadataGetter for method: HostLobbySetupViewController::add_selectBeatmapEvent
+  // Il2CppName: add_selectBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_selectBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_selectBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_selectBeatmapEvent
+  // Il2CppName: remove_selectBeatmapEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_selectBeatmapEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_selectBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::add_selectModifiersEvent
+  // Il2CppName: add_selectModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_selectModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_selectModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_selectModifiersEvent
+  // Il2CppName: remove_selectModifiersEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_selectModifiersEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_selectModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::add_startGameEvent
+  // Il2CppName: add_startGameEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_startGameEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_startGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_startGameEvent
+  // Il2CppName: remove_startGameEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_startGameEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_startGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::add_cancelStartGameEvent
+  // Il2CppName: add_cancelStartGameEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::add_cancelStartGameEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "add_cancelStartGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::remove_cancelStartGameEvent
+  // Il2CppName: remove_cancelStartGameEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(System::Action*)>(&HostLobbySetupViewController::remove_cancelStartGameEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "remove_cancelStartGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::SetLobbyPlayerData
+  // Il2CppName: SetLobbyPlayerData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&HostLobbySetupViewController::SetLobbyPlayerData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::SetPlayersMissingLevelText
+  // Il2CppName: SetPlayersMissingLevelText
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(::Il2CppString*)>(&HostLobbySetupViewController::SetPlayersMissingLevelText)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetPlayersMissingLevelText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::SetPlayerActiveState
+  // Il2CppName: SetPlayerActiveState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool)>(&HostLobbySetupViewController::SetPlayerActiveState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetPlayerActiveState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::SetStartGameEnabled
+  // Il2CppName: SetStartGameEnabled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool, GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason)>(&HostLobbySetupViewController::SetStartGameEnabled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetStartGameEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::SetLobbyState
+  // Il2CppName: SetLobbyState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(GlobalNamespace::MultiplayerLobbyState)>(&HostLobbySetupViewController::SetLobbyState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "SetLobbyState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyState>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_0
+  // Il2CppName: <DidActivate>b__27_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_1
+  // Il2CppName: <DidActivate>b__27_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_2
+  // Il2CppName: <DidActivate>b__27_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::$DidActivate$b__27_3
+  // Il2CppName: <DidActivate>b__27_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::$DidActivate$b__27_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "<DidActivate>b__27_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)(bool, bool, bool)>(&HostLobbySetupViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HostLobbySetupViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostLobbySetupViewController::*)()>(&HostLobbySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HostLobbySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostLobbySetupViewController*, "", "HostLobbySetupViewController");

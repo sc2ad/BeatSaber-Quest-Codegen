@@ -43,14 +43,14 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* spine;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A354
+    // [TooltipAttribute] Offset: 0xE0B350
     // public UnityEngine.Transform chest
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* chest;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A38C
+    // [TooltipAttribute] Offset: 0xE0B388
     // public UnityEngine.Transform neck
     // Size: 0x8
     // Offset: 0x30
@@ -63,7 +63,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* head;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A3C4
+    // [TooltipAttribute] Offset: 0xE0B3C0
     // public UnityEngine.Transform leftShoulder
     // Size: 0x8
     // Offset: 0x40
@@ -88,7 +88,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* leftHand;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A3FC
+    // [TooltipAttribute] Offset: 0xE0B3F8
     // public UnityEngine.Transform rightShoulder
     // Size: 0x8
     // Offset: 0x60
@@ -113,56 +113,56 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* rightHand;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A434
+    // [TooltipAttribute] Offset: 0xE0B430
     // public UnityEngine.Transform leftThigh
     // Size: 0x8
     // Offset: 0x80
     UnityEngine::Transform* leftThigh;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A46C
+    // [TooltipAttribute] Offset: 0xE0B468
     // public UnityEngine.Transform leftCalf
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::Transform* leftCalf;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A4A4
+    // [TooltipAttribute] Offset: 0xE0B4A0
     // public UnityEngine.Transform leftFoot
     // Size: 0x8
     // Offset: 0x90
     UnityEngine::Transform* leftFoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A4DC
+    // [TooltipAttribute] Offset: 0xE0B4D8
     // public UnityEngine.Transform leftToes
     // Size: 0x8
     // Offset: 0x98
     UnityEngine::Transform* leftToes;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A514
+    // [TooltipAttribute] Offset: 0xE0B510
     // public UnityEngine.Transform rightThigh
     // Size: 0x8
     // Offset: 0xA0
     UnityEngine::Transform* rightThigh;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A54C
+    // [TooltipAttribute] Offset: 0xE0B548
     // public UnityEngine.Transform rightCalf
     // Size: 0x8
     // Offset: 0xA8
     UnityEngine::Transform* rightCalf;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A584
+    // [TooltipAttribute] Offset: 0xE0B580
     // public UnityEngine.Transform rightFoot
     // Size: 0x8
     // Offset: 0xB0
     UnityEngine::Transform* rightFoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE0A5BC
+    // [TooltipAttribute] Offset: 0xE0B5B8
     // public UnityEngine.Transform rightToes
     // Size: 0x8
     // Offset: 0xB8
@@ -172,19 +172,19 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: References
     References(UnityEngine::Transform* root_ = {}, UnityEngine::Transform* pelvis_ = {}, UnityEngine::Transform* spine_ = {}, UnityEngine::Transform* chest_ = {}, UnityEngine::Transform* neck_ = {}, UnityEngine::Transform* head_ = {}, UnityEngine::Transform* leftShoulder_ = {}, UnityEngine::Transform* leftUpperArm_ = {}, UnityEngine::Transform* leftForearm_ = {}, UnityEngine::Transform* leftHand_ = {}, UnityEngine::Transform* rightShoulder_ = {}, UnityEngine::Transform* rightUpperArm_ = {}, UnityEngine::Transform* rightForearm_ = {}, UnityEngine::Transform* rightHand_ = {}, UnityEngine::Transform* leftThigh_ = {}, UnityEngine::Transform* leftCalf_ = {}, UnityEngine::Transform* leftFoot_ = {}, UnityEngine::Transform* leftToes_ = {}, UnityEngine::Transform* rightThigh_ = {}, UnityEngine::Transform* rightCalf_ = {}, UnityEngine::Transform* rightFoot_ = {}, UnityEngine::Transform* rightToes_ = {}) noexcept : root{root_}, pelvis{pelvis_}, spine{spine_}, chest{chest_}, neck{neck_}, head{head_}, leftShoulder{leftShoulder_}, leftUpperArm{leftUpperArm_}, leftForearm{leftForearm_}, leftHand{leftHand_}, rightShoulder{rightShoulder_}, rightUpperArm{rightUpperArm_}, rightForearm{rightForearm_}, rightHand{rightHand_}, leftThigh{leftThigh_}, leftCalf{leftCalf_}, leftFoot{leftFoot_}, leftToes{leftToes_}, rightThigh{rightThigh_}, rightCalf{rightCalf_}, rightFoot{rightFoot_}, rightToes{rightToes_} {}
     // public UnityEngine.Transform[] GetTransforms()
-    // Offset: 0x1A9169C
+    // Offset: 0x1AAB3AC
     ::Array<UnityEngine::Transform*>* GetTransforms();
     // public System.Boolean get_isFilled()
-    // Offset: 0x1A91018
+    // Offset: 0x1AAAD28
     bool get_isFilled();
     // public System.Boolean get_isEmpty()
-    // Offset: 0x1A90B9C
+    // Offset: 0x1AAA8AC
     bool get_isEmpty();
     // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/References references)
-    // Offset: 0x1A90788
+    // Offset: 0x1AAA498
     static bool AutoDetectReferences(UnityEngine::Transform* root, RootMotion::FinalIK::VRIK::References*& references);
     // public System.Void .ctor()
-    // Offset: 0x1A91694
+    // Offset: 0x1AAB3A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -196,5 +196,51 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(VRIK::References), 184 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_VRIK_ReferencesSizeCheck;
   static_assert(sizeof(VRIK::References) == 0xC0);
+  // Writing MetadataGetter for method: VRIK::References::GetTransforms
+  // Il2CppName: GetTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (VRIK::References::*)()>(&VRIK::References::GetTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "GetTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRIK::References::get_isFilled
+  // Il2CppName: get_isFilled
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRIK::References::*)()>(&VRIK::References::get_isFilled)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "get_isFilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRIK::References::get_isEmpty
+  // Il2CppName: get_isEmpty
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRIK::References::*)()>(&VRIK::References::get_isEmpty)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: VRIK::References::AutoDetectReferences
+  // Il2CppName: AutoDetectReferences
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::FinalIK::VRIK::References*&)>(&VRIK::References::AutoDetectReferences)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK::References*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: VRIK::References::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIK::References::*)()>(&VRIK::References::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIK::References::*)()>(&VRIK::References::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(VRIK::References*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");

@@ -36,21 +36,21 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x19A7F80
+    // Offset: 0x19BEC90
     void add_OnUpdateDelegate(System::Action_1<float>* value);
     // public System.Void remove_OnUpdateDelegate(System.Action`1<System.Single> value)
-    // Offset: 0x19A8000
+    // Offset: 0x19BED10
     void remove_OnUpdateDelegate(System::Action_1<float>* value);
     // System.Void Update()
-    // Offset: 0x19A80C8
+    // Offset: 0x19BEDD8
     void Update();
     // protected override System.String GetGameObjectName()
-    // Offset: 0x19A8080
+    // Offset: 0x19BED90
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.String ComponentSingleton_1::GetGameObjectName()
     ::Il2CppString* GetGameObjectName();
     // public System.Void .ctor()
-    // Offset: 0x19A8134
+    // Offset: 0x19BEE44
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -65,5 +65,51 @@ namespace GlobalNamespace {
     }
   }; // MonoBehaviourCallbackHooks
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: MonoBehaviourCallbackHooks::add_OnUpdateDelegate
+  // Il2CppName: add_OnUpdateDelegate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviourCallbackHooks::*)(System::Action_1<float>*)>(&MonoBehaviourCallbackHooks::add_OnUpdateDelegate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoBehaviourCallbackHooks*), "add_OnUpdateDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoBehaviourCallbackHooks::remove_OnUpdateDelegate
+  // Il2CppName: remove_OnUpdateDelegate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviourCallbackHooks::*)(System::Action_1<float>*)>(&MonoBehaviourCallbackHooks::remove_OnUpdateDelegate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoBehaviourCallbackHooks*), "remove_OnUpdateDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MonoBehaviourCallbackHooks::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviourCallbackHooks::*)()>(&MonoBehaviourCallbackHooks::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoBehaviourCallbackHooks*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoBehaviourCallbackHooks::GetGameObjectName
+  // Il2CppName: GetGameObjectName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MonoBehaviourCallbackHooks::*)()>(&MonoBehaviourCallbackHooks::GetGameObjectName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoBehaviourCallbackHooks*), "GetGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MonoBehaviourCallbackHooks::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviourCallbackHooks::*)()>(&MonoBehaviourCallbackHooks::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoBehaviourCallbackHooks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoBehaviourCallbackHooks::*)()>(&MonoBehaviourCallbackHooks::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MonoBehaviourCallbackHooks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonoBehaviourCallbackHooks*, "", "MonoBehaviourCallbackHooks");

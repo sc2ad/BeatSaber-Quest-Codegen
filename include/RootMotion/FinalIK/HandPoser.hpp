@@ -60,30 +60,30 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: HandPoser
     HandPoser(::Array<UnityEngine::Transform*>* children_ = {}, UnityEngine::Transform* poseRoot_ = {}, ::Array<UnityEngine::Transform*>* poseChildren_ = {}, ::Array<UnityEngine::Vector3>* defaultLocalPositions_ = {}, ::Array<UnityEngine::Quaternion>* defaultLocalRotations_ = {}) noexcept : children{children_}, poseRoot{poseRoot_}, poseChildren{poseChildren_}, defaultLocalPositions{defaultLocalPositions_}, defaultLocalRotations{defaultLocalRotations_} {}
     // protected System.Void StoreDefaultState()
-    // Offset: 0x1C47DEC
+    // Offset: 0x1C62AFC
     void StoreDefaultState();
     // public override System.Void AutoMapping()
-    // Offset: 0x1C47CDC
+    // Offset: 0x1C629EC
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::AutoMapping()
     void AutoMapping();
     // protected override System.Void InitiatePoser()
-    // Offset: 0x1C47D90
+    // Offset: 0x1C62AA0
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::InitiatePoser()
     void InitiatePoser();
     // protected override System.Void FixPoserTransforms()
-    // Offset: 0x1C47F48
+    // Offset: 0x1C62C58
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::FixPoserTransforms()
     void FixPoserTransforms();
     // protected override System.Void UpdatePoser()
-    // Offset: 0x1C48044
+    // Offset: 0x1C62D54
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::UpdatePoser()
     void UpdatePoser();
     // public System.Void .ctor()
-    // Offset: 0x1C483F4
+    // Offset: 0x1C63104
     // Implemented from: RootMotion.FinalIK.Poser
     // Base method: System.Void Poser::.ctor()
     // Base method: System.Void SolverManager::.ctor()
@@ -101,5 +101,59 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(HandPoser), 112 + sizeof(::Array<UnityEngine::Quaternion>*)> __RootMotion_FinalIK_HandPoserSizeCheck;
   static_assert(sizeof(HandPoser) == 0x78);
+  // Writing MetadataGetter for method: HandPoser::StoreDefaultState
+  // Il2CppName: StoreDefaultState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::StoreDefaultState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), "StoreDefaultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HandPoser::AutoMapping
+  // Il2CppName: AutoMapping
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::AutoMapping)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), "AutoMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HandPoser::InitiatePoser
+  // Il2CppName: InitiatePoser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::InitiatePoser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), "InitiatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HandPoser::FixPoserTransforms
+  // Il2CppName: FixPoserTransforms
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::FixPoserTransforms)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), "FixPoserTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HandPoser::UpdatePoser
+  // Il2CppName: UpdatePoser
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::UpdatePoser)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), "UpdatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: HandPoser::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandPoser::*)()>(&HandPoser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(HandPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");

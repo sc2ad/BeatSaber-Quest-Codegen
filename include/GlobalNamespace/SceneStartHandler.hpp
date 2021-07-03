@@ -92,14 +92,14 @@ namespace GlobalNamespace {
     ::Il2CppString* sessionGameId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF007C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0FB0
     // private System.Action`1<System.String> sceneSetupDidFinishEvent
     // Size: 0x8
     // Offset: 0x48
     System::Action_1<::Il2CppString*>* sceneSetupDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDF008C
+    // [CompilerGeneratedAttribute] Offset: 0xDF0FC0
     // private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
     // Size: 0x8
     // Offset: 0x50
@@ -113,54 +113,172 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // public System.Void add_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
-    // Offset: 0x23638F8
+    // Offset: 0x2378A54
     void add_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
-    // Offset: 0x236399C
+    // Offset: 0x2378AF8
     void remove_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void add_sceneSetupDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x2363A40
+    // Offset: 0x2378B9C
     void add_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_sceneSetupDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x2363AE4
+    // Offset: 0x2378C40
     void remove_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x2363B88
+    // Offset: 0x2378CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneStartHandler* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SceneStartHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneStartHandler*, creationType>(multiplayerSessionManager, gameplayRpcManager, playersAtGameStartModel)));
     }
     // public System.Void Dispose()
-    // Offset: 0x2363C48
+    // Offset: 0x2378DA4
     void Dispose();
     // public System.Void GetSceneLoadStatus()
-    // Offset: 0x2363F88
+    // Offset: 0x23790E4
     void GetSceneLoadStatus();
     // public System.Void ForceStart()
-    // Offset: 0x2364918
+    // Offset: 0x2379A74
     void ForceStart();
     // private System.Void HandleSetGameplaySceneReady(System.String userId, PlayerSpecificSettingsNetSerializable playerSpecificSettings)
-    // Offset: 0x2364F68
+    // Offset: 0x237A0C4
     void HandleSetGameplaySceneReady(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
     // private System.Void HandleGetGameplaySceneReady(System.String userId)
-    // Offset: 0x2365330
+    // Offset: 0x237A48C
     void HandleGetGameplaySceneReady(::Il2CppString* userId);
     // private System.Void HandleSetGameplaySceneSyncFinished(System.String userId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionId)
-    // Offset: 0x23653F4
+    // Offset: 0x237A550
     void HandleSetGameplaySceneSyncFinished(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionId);
     // private System.Void HandleSetPlayerDidConnectLate(System.String userId, System.String failedUserId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionId)
-    // Offset: 0x2365498
+    // Offset: 0x237A5F4
     void HandleSetPlayerDidConnectLate(::Il2CppString* userId, ::Il2CppString* failedUserId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionId);
     // private System.Void AddPlayerSpecificSettingsToDictionary(PlayerSpecificSettingsNetSerializable playerSpecificSettingsNetSerializable)
-    // Offset: 0x2364668
+    // Offset: 0x23797C4
     void AddPlayerSpecificSettingsToDictionary(GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
     // private PlayerSpecificSettingsAtStartNetSerializable CreatePlayersSpecificSettingsAtGameStartData()
-    // Offset: 0x23646E8
+    // Offset: 0x2379844
     GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* CreatePlayersSpecificSettingsAtGameStartData();
   }; // SceneStartHandler
   #pragma pack(pop)
   static check_size<sizeof(SceneStartHandler), 80 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_SceneStartHandlerSizeCheck;
   static_assert(sizeof(SceneStartHandler) == 0x58);
+  // Writing MetadataGetter for method: SceneStartHandler::add_sceneSetupDidFinishEvent
+  // Il2CppName: add_sceneSetupDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&SceneStartHandler::add_sceneSetupDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "add_sceneSetupDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::remove_sceneSetupDidFinishEvent
+  // Il2CppName: remove_sceneSetupDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&SceneStartHandler::remove_sceneSetupDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "remove_sceneSetupDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent
+  // Il2CppName: add_sceneSetupDidReceiveTooLateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "add_sceneSetupDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent
+  // Il2CppName: remove_sceneSetupDidReceiveTooLateEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "remove_sceneSetupDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(&SceneStartHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(&SceneStartHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)()>(&SceneStartHandler::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::GetSceneLoadStatus
+  // Il2CppName: GetSceneLoadStatus
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)()>(&SceneStartHandler::GetSceneLoadStatus)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "GetSceneLoadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::ForceStart
+  // Il2CppName: ForceStart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)()>(&SceneStartHandler::ForceStart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "ForceStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::HandleSetGameplaySceneReady
+  // Il2CppName: HandleSetGameplaySceneReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&SceneStartHandler::HandleSetGameplaySceneReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "HandleSetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::HandleGetGameplaySceneReady
+  // Il2CppName: HandleGetGameplaySceneReady
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(::Il2CppString*)>(&SceneStartHandler::HandleGetGameplaySceneReady)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "HandleGetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::HandleSetGameplaySceneSyncFinished
+  // Il2CppName: HandleSetGameplaySceneSyncFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&SceneStartHandler::HandleSetGameplaySceneSyncFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "HandleSetGameplaySceneSyncFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::HandleSetPlayerDidConnectLate
+  // Il2CppName: HandleSetPlayerDidConnectLate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&SceneStartHandler::HandleSetPlayerDidConnectLate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "HandleSetPlayerDidConnectLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::AddPlayerSpecificSettingsToDictionary
+  // Il2CppName: AddPlayerSpecificSettingsToDictionary
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneStartHandler::*)(GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&SceneStartHandler::AddPlayerSpecificSettingsToDictionary)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "AddPlayerSpecificSettingsToDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SceneStartHandler::CreatePlayersSpecificSettingsAtGameStartData
+  // Il2CppName: CreatePlayersSpecificSettingsAtGameStartData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (SceneStartHandler::*)()>(&SceneStartHandler::CreatePlayersSpecificSettingsAtGameStartData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SceneStartHandler*), "CreatePlayersSpecificSettingsAtGameStartData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartHandler*, "", "SceneStartHandler");

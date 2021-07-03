@@ -37,15 +37,15 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::AimController::$TurnToTarget$d__33
     class $TurnToTarget$d__33;
-    // [TooltipAttribute] Offset: 0xE09438
+    // [TooltipAttribute] Offset: 0xE0A434
     // public RootMotion.FinalIK.AimIK ik
     // Size: 0x8
     // Offset: 0x18
     RootMotion::FinalIK::AimIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::AimIK*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE09470
-    // [RangeAttribute] Offset: 0xE09470
+    // [TooltipAttribute] Offset: 0xE0A46C
+    // [RangeAttribute] Offset: 0xE0A46C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x20
@@ -54,30 +54,30 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: target
     char __padding1[0x4] = {};
-    // [HeaderAttribute] Offset: 0xE094C4
-    // [TooltipAttribute] Offset: 0xE094C4
+    // [HeaderAttribute] Offset: 0xE0A4C0
+    // [TooltipAttribute] Offset: 0xE0A4C0
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x28
     UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0xE09524
+    // [TooltipAttribute] Offset: 0xE0A520
     // public System.Single targetSwitchSmoothTime
     // Size: 0x4
     // Offset: 0x30
     float targetSwitchSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE0955C
+    // [TooltipAttribute] Offset: 0xE0A558
     // public System.Single weightSmoothTime
     // Size: 0x4
     // Offset: 0x34
     float weightSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE09594
-    // [TooltipAttribute] Offset: 0xE09594
+    // [HeaderAttribute] Offset: 0xE0A590
+    // [TooltipAttribute] Offset: 0xE0A590
     // public System.Boolean smoothTurnTowardsTarget
     // Size: 0x1
     // Offset: 0x38
@@ -86,58 +86,58 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
     char __padding5[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE095F4
+    // [TooltipAttribute] Offset: 0xE0A5F0
     // public System.Single maxRadiansDelta
     // Size: 0x4
     // Offset: 0x3C
     float maxRadiansDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE0962C
+    // [TooltipAttribute] Offset: 0xE0A628
     // public System.Single maxMagnitudeDelta
     // Size: 0x4
     // Offset: 0x40
     float maxMagnitudeDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE09664
+    // [TooltipAttribute] Offset: 0xE0A660
     // public System.Single slerpSpeed
     // Size: 0x4
     // Offset: 0x44
     float slerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE0969C
+    // [TooltipAttribute] Offset: 0xE0A698
     // public UnityEngine.Vector3 pivotOffsetFromRoot
     // Size: 0xC
     // Offset: 0x48
     UnityEngine::Vector3 pivotOffsetFromRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE096D4
+    // [TooltipAttribute] Offset: 0xE0A6D0
     // public System.Single minDistance
     // Size: 0x4
     // Offset: 0x54
     float minDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE0970C
+    // [TooltipAttribute] Offset: 0xE0A708
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x58
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [HeaderAttribute] Offset: 0xE09744
-    // [TooltipAttribute] Offset: 0xE09744
-    // [RangeAttribute] Offset: 0xE09744
+    // [HeaderAttribute] Offset: 0xE0A740
+    // [TooltipAttribute] Offset: 0xE0A740
+    // [RangeAttribute] Offset: 0xE0A740
     // public System.Single maxRootAngle
     // Size: 0x4
     // Offset: 0x64
     float maxRootAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE097C0
+    // [TooltipAttribute] Offset: 0xE0A7BC
     // public System.Boolean turnToTarget
     // Size: 0x1
     // Offset: 0x68
@@ -146,15 +146,15 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: turnToTarget and: turnToTargetTime
     char __padding13[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE097F8
+    // [TooltipAttribute] Offset: 0xE0A7F4
     // public System.Single turnToTargetTime
     // Size: 0x4
     // Offset: 0x6C
     float turnToTargetTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE09830
-    // [TooltipAttribute] Offset: 0xE09830
+    // [HeaderAttribute] Offset: 0xE0A82C
+    // [TooltipAttribute] Offset: 0xE0A82C
     // public System.Boolean useAnimatedAimDirection
     // Size: 0x1
     // Offset: 0x70
@@ -163,7 +163,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useAnimatedAimDirection and: animatedAimDirection
     char __padding15[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE09890
+    // [TooltipAttribute] Offset: 0xE0A88C
     // public UnityEngine.Vector3 animatedAimDirection
     // Size: 0xC
     // Offset: 0x74
@@ -237,25 +237,25 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1C91460
+    // Offset: 0x1CAD170
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x1C916A8
+    // Offset: 0x1CAD3B8
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x1C9155C
+    // Offset: 0x1CAD26C
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x1C91DE0
+    // Offset: 0x1CADAF0
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x1C91F7C
+    // Offset: 0x1CADC8C
     void RootRotation();
     // private System.Collections.IEnumerator TurnToTarget()
-    // Offset: 0x1C922EC
+    // Offset: 0x1CADFFC
     System::Collections::IEnumerator* TurnToTarget();
     // public System.Void .ctor()
-    // Offset: 0x1C92388
+    // Offset: 0x1CAE098
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -271,5 +271,67 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(AimController), 180 + sizeof(float)> __RootMotion_FinalIK_AimControllerSizeCheck;
   static_assert(sizeof(AimController) == 0xB8);
+  // Writing MetadataGetter for method: AimController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AimController::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AimController::get_pivot
+  // Il2CppName: get_pivot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AimController::*)()>(&AimController::get_pivot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AimController::ApplyMinDistance
+  // Il2CppName: ApplyMinDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::ApplyMinDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AimController::RootRotation
+  // Il2CppName: RootRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::RootRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AimController::TurnToTarget
+  // Il2CppName: TurnToTarget
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AimController::*)()>(&AimController::TurnToTarget)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), "TurnToTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: AimController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(AimController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController*, "RootMotion.FinalIK", "AimController");

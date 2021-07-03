@@ -31,6 +31,22 @@ namespace UnityEngine::ResourceManagement::Util {
     UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
   }; // UnityEngine.ResourceManagement.Util.IObjectInitializationDataProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IObjectInitializationDataProvider::get_Name
+  // Il2CppName: get_Name
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IObjectInitializationDataProvider::*)()>(&IObjectInitializationDataProvider::get_Name)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IObjectInitializationDataProvider*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IObjectInitializationDataProvider::CreateObjectInitializationData
+  // Il2CppName: CreateObjectInitializationData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::ObjectInitializationData (IObjectInitializationDataProvider::*)()>(&IObjectInitializationDataProvider::CreateObjectInitializationData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IObjectInitializationDataProvider*), "CreateObjectInitializationData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");

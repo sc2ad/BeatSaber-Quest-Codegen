@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType beatmapEventType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xE1B354
+    // [SpaceAttribute] Offset: 0xE1B330
     // private System.Single _transitionSpeed
     // Size: 0x4
     // Offset: 0x1C
@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>* movementData;
     // Field size check
     static_assert(sizeof(::Array<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1B39C
+    // [SpaceAttribute] Offset: 0xE1B378
     // private UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x28
     ::Array<UnityEngine::Transform*>* transforms;
     // Field size check
     static_assert(sizeof(::Array<UnityEngine::Transform*>*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1B3D4
+    // [InjectAttribute] Offset: 0xE1B3B0
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x30
@@ -100,25 +100,25 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x113ED34
+    // Offset: 0x114459C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x113F030
+    // Offset: 0x1144898
     void OnDestroy();
     // protected System.Void FixedUpdate()
-    // Offset: 0x113F130
+    // Offset: 0x1144998
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x113F2B0
+    // Offset: 0x1144B18
     void LateUpdate();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x113F39C
+    // Offset: 0x1144C04
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void SetLocalPositionOffsetsForAllObjects(UnityEngine.Vector3 localPositionOffset)
-    // Offset: 0x113EEF8
+    // Offset: 0x1144760
     void SetLocalPositionOffsetsForAllObjects(UnityEngine::Vector3 localPositionOffset);
     // public System.Void .ctor()
-    // Offset: 0x113F3F4
+    // Offset: 0x1144C5C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -134,5 +134,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MovementBeatmapEventEffect), 88 + sizeof(::Array<UnityEngine::Vector3>*)> __GlobalNamespace_MovementBeatmapEventEffectSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect) == 0x60);
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)()>(&MovementBeatmapEventEffect::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)()>(&MovementBeatmapEventEffect::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::FixedUpdate
+  // Il2CppName: FixedUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)()>(&MovementBeatmapEventEffect::FixedUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)()>(&MovementBeatmapEventEffect::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&MovementBeatmapEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::SetLocalPositionOffsetsForAllObjects
+  // Il2CppName: SetLocalPositionOffsetsForAllObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)(UnityEngine::Vector3)>(&MovementBeatmapEventEffect::SetLocalPositionOffsetsForAllObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), "SetLocalPositionOffsetsForAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: MovementBeatmapEventEffect::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)()>(&MovementBeatmapEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementBeatmapEventEffect::*)()>(&MovementBeatmapEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MovementBeatmapEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");

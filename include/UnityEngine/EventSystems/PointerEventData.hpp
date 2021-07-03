@@ -90,7 +90,7 @@ namespace UnityEngine::EventSystems {
     #pragma pack(pop)
     static check_size<sizeof(PointerEventData::InputButton), 0 + sizeof(int)> __UnityEngine_EventSystems_PointerEventData_InputButtonSizeCheck;
     static_assert(sizeof(PointerEventData::InputButton) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B3C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7A70
     // private UnityEngine.GameObject <pointerEnter>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -103,35 +103,35 @@ namespace UnityEngine::EventSystems {
     UnityEngine::GameObject* m_PointerPress;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B4C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7A80
     // private UnityEngine.GameObject <lastPress>k__BackingField
     // Size: 0x8
     // Offset: 0x30
     UnityEngine::GameObject* lastPress;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B5C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7A90
     // private UnityEngine.GameObject <rawPointerPress>k__BackingField
     // Size: 0x8
     // Offset: 0x38
     UnityEngine::GameObject* rawPointerPress;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B6C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7AA0
     // private UnityEngine.GameObject <pointerDrag>k__BackingField
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::GameObject* pointerDrag;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B7C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7AB0
     // private UnityEngine.EventSystems.RaycastResult <pointerCurrentRaycast>k__BackingField
     // Size: 0x48
     // Offset: 0x48
     UnityEngine::EventSystems::RaycastResult pointerCurrentRaycast;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::RaycastResult) == 0x48);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B8C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7AC0
     // private UnityEngine.EventSystems.RaycastResult <pointerPressRaycast>k__BackingField
     // Size: 0x48
     // Offset: 0x90
@@ -144,7 +144,7 @@ namespace UnityEngine::EventSystems {
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* hovered;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8B9C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7AD0
     // private System.Boolean <eligibleForClick>k__BackingField
     // Size: 0x1
     // Offset: 0xE0
@@ -153,77 +153,77 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: eligibleForClick and: pointerId
     char __padding8[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDC8BAC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7AE0
     // private System.Int32 <pointerId>k__BackingField
     // Size: 0x4
     // Offset: 0xE4
     int pointerId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8BBC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7AF0
     // private UnityEngine.Vector2 <position>k__BackingField
     // Size: 0x8
     // Offset: 0xE8
     UnityEngine::Vector2 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8BCC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B00
     // private UnityEngine.Vector2 <delta>k__BackingField
     // Size: 0x8
     // Offset: 0xF0
     UnityEngine::Vector2 delta;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8BDC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B10
     // private UnityEngine.Vector2 <pressPosition>k__BackingField
     // Size: 0x8
     // Offset: 0xF8
     UnityEngine::Vector2 pressPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8BEC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B20
     // private UnityEngine.Vector3 <worldPosition>k__BackingField
     // Size: 0xC
     // Offset: 0x100
     UnityEngine::Vector3 worldPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8BFC
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B30
     // private UnityEngine.Vector3 <worldNormal>k__BackingField
     // Size: 0xC
     // Offset: 0x10C
     UnityEngine::Vector3 worldNormal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8C0C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B40
     // private System.Single <clickTime>k__BackingField
     // Size: 0x4
     // Offset: 0x118
     float clickTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8C1C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B50
     // private System.Int32 <clickCount>k__BackingField
     // Size: 0x4
     // Offset: 0x11C
     int clickCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8C2C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B60
     // private UnityEngine.Vector2 <scrollDelta>k__BackingField
     // Size: 0x8
     // Offset: 0x120
     UnityEngine::Vector2 scrollDelta;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8C3C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B70
     // private System.Boolean <useDragThreshold>k__BackingField
     // Size: 0x1
     // Offset: 0x128
     bool useDragThreshold;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDC8C4C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B80
     // private System.Boolean <dragging>k__BackingField
     // Size: 0x1
     // Offset: 0x129
@@ -232,7 +232,7 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: dragging and: button
     char __padding19[0x2] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDC8C5C
+    // [CompilerGeneratedAttribute] Offset: 0xDC7B90
     // private UnityEngine.EventSystems.PointerEventData/InputButton <button>k__BackingField
     // Size: 0x4
     // Offset: 0x12C
@@ -242,139 +242,139 @@ namespace UnityEngine::EventSystems {
     // Creating value type constructor for type: PointerEventData
     PointerEventData(UnityEngine::GameObject* pointerEnter_ = {}, UnityEngine::GameObject* m_PointerPress_ = {}, UnityEngine::GameObject* lastPress_ = {}, UnityEngine::GameObject* rawPointerPress_ = {}, UnityEngine::GameObject* pointerDrag_ = {}, UnityEngine::EventSystems::RaycastResult pointerCurrentRaycast_ = {}, UnityEngine::EventSystems::RaycastResult pointerPressRaycast_ = {}, System::Collections::Generic::List_1<UnityEngine::GameObject*>* hovered_ = {}, bool eligibleForClick_ = {}, int pointerId_ = {}, UnityEngine::Vector2 position_ = {}, UnityEngine::Vector2 delta_ = {}, UnityEngine::Vector2 pressPosition_ = {}, UnityEngine::Vector3 worldPosition_ = {}, UnityEngine::Vector3 worldNormal_ = {}, float clickTime_ = {}, int clickCount_ = {}, UnityEngine::Vector2 scrollDelta_ = {}, bool useDragThreshold_ = {}, bool dragging_ = {}, UnityEngine::EventSystems::PointerEventData::InputButton button_ = {}) noexcept : pointerEnter{pointerEnter_}, m_PointerPress{m_PointerPress_}, lastPress{lastPress_}, rawPointerPress{rawPointerPress_}, pointerDrag{pointerDrag_}, pointerCurrentRaycast{pointerCurrentRaycast_}, pointerPressRaycast{pointerPressRaycast_}, hovered{hovered_}, eligibleForClick{eligibleForClick_}, pointerId{pointerId_}, position{position_}, delta{delta_}, pressPosition{pressPosition_}, worldPosition{worldPosition_}, worldNormal{worldNormal_}, clickTime{clickTime_}, clickCount{clickCount_}, scrollDelta{scrollDelta_}, useDragThreshold{useDragThreshold_}, dragging{dragging_}, button{button_} {}
     // public UnityEngine.GameObject get_pointerEnter()
-    // Offset: 0x1417CC8
+    // Offset: 0x14329D8
     UnityEngine::GameObject* get_pointerEnter();
     // public System.Void set_pointerEnter(UnityEngine.GameObject value)
-    // Offset: 0x1417CD0
+    // Offset: 0x14329E0
     void set_pointerEnter(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_lastPress()
-    // Offset: 0x1417CD8
+    // Offset: 0x14329E8
     UnityEngine::GameObject* get_lastPress();
     // private System.Void set_lastPress(UnityEngine.GameObject value)
-    // Offset: 0x1417CE0
+    // Offset: 0x14329F0
     void set_lastPress(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_rawPointerPress()
-    // Offset: 0x1417CE8
+    // Offset: 0x14329F8
     UnityEngine::GameObject* get_rawPointerPress();
     // public System.Void set_rawPointerPress(UnityEngine.GameObject value)
-    // Offset: 0x1417CF0
+    // Offset: 0x1432A00
     void set_rawPointerPress(UnityEngine::GameObject* value);
     // public UnityEngine.GameObject get_pointerDrag()
-    // Offset: 0x1417CF8
+    // Offset: 0x1432A08
     UnityEngine::GameObject* get_pointerDrag();
     // public System.Void set_pointerDrag(UnityEngine.GameObject value)
-    // Offset: 0x1417D00
+    // Offset: 0x1432A10
     void set_pointerDrag(UnityEngine::GameObject* value);
     // public UnityEngine.EventSystems.RaycastResult get_pointerCurrentRaycast()
-    // Offset: 0x1417D08
+    // Offset: 0x1432A18
     UnityEngine::EventSystems::RaycastResult get_pointerCurrentRaycast();
     // public System.Void set_pointerCurrentRaycast(UnityEngine.EventSystems.RaycastResult value)
-    // Offset: 0x1417D18
+    // Offset: 0x1432A28
     void set_pointerCurrentRaycast(UnityEngine::EventSystems::RaycastResult value);
     // public UnityEngine.EventSystems.RaycastResult get_pointerPressRaycast()
-    // Offset: 0x1417D34
+    // Offset: 0x1432A44
     UnityEngine::EventSystems::RaycastResult get_pointerPressRaycast();
     // public System.Void set_pointerPressRaycast(UnityEngine.EventSystems.RaycastResult value)
-    // Offset: 0x1417D44
+    // Offset: 0x1432A54
     void set_pointerPressRaycast(UnityEngine::EventSystems::RaycastResult value);
     // public System.Boolean get_eligibleForClick()
-    // Offset: 0x1417D60
+    // Offset: 0x1432A70
     bool get_eligibleForClick();
     // public System.Void set_eligibleForClick(System.Boolean value)
-    // Offset: 0x1417D68
+    // Offset: 0x1432A78
     void set_eligibleForClick(bool value);
     // public System.Int32 get_pointerId()
-    // Offset: 0x1417D74
+    // Offset: 0x1432A84
     int get_pointerId();
     // public System.Void set_pointerId(System.Int32 value)
-    // Offset: 0x1417D7C
+    // Offset: 0x1432A8C
     void set_pointerId(int value);
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x1417D84
+    // Offset: 0x1432A94
     UnityEngine::Vector2 get_position();
     // public System.Void set_position(UnityEngine.Vector2 value)
-    // Offset: 0x1417D8C
+    // Offset: 0x1432A9C
     void set_position(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_delta()
-    // Offset: 0x1417D94
+    // Offset: 0x1432AA4
     UnityEngine::Vector2 get_delta();
     // public System.Void set_delta(UnityEngine.Vector2 value)
-    // Offset: 0x1417D9C
+    // Offset: 0x1432AAC
     void set_delta(UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_pressPosition()
-    // Offset: 0x1417DA4
+    // Offset: 0x1432AB4
     UnityEngine::Vector2 get_pressPosition();
     // public System.Void set_pressPosition(UnityEngine.Vector2 value)
-    // Offset: 0x1417DAC
+    // Offset: 0x1432ABC
     void set_pressPosition(UnityEngine::Vector2 value);
     // public UnityEngine.Vector3 get_worldPosition()
-    // Offset: 0x1417DB4
+    // Offset: 0x1432AC4
     UnityEngine::Vector3 get_worldPosition();
     // public System.Void set_worldPosition(UnityEngine.Vector3 value)
-    // Offset: 0x1417DC4
+    // Offset: 0x1432AD4
     void set_worldPosition(UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_worldNormal()
-    // Offset: 0x1417DD4
+    // Offset: 0x1432AE4
     UnityEngine::Vector3 get_worldNormal();
     // public System.Void set_worldNormal(UnityEngine.Vector3 value)
-    // Offset: 0x1417DE4
+    // Offset: 0x1432AF4
     void set_worldNormal(UnityEngine::Vector3 value);
     // public System.Single get_clickTime()
-    // Offset: 0x1417DF4
+    // Offset: 0x1432B04
     float get_clickTime();
     // public System.Void set_clickTime(System.Single value)
-    // Offset: 0x1417DFC
+    // Offset: 0x1432B0C
     void set_clickTime(float value);
     // public System.Int32 get_clickCount()
-    // Offset: 0x1417E04
+    // Offset: 0x1432B14
     int get_clickCount();
     // public System.Void set_clickCount(System.Int32 value)
-    // Offset: 0x1417E0C
+    // Offset: 0x1432B1C
     void set_clickCount(int value);
     // public UnityEngine.Vector2 get_scrollDelta()
-    // Offset: 0x1417E14
+    // Offset: 0x1432B24
     UnityEngine::Vector2 get_scrollDelta();
     // public System.Void set_scrollDelta(UnityEngine.Vector2 value)
-    // Offset: 0x1417E20
+    // Offset: 0x1432B30
     void set_scrollDelta(UnityEngine::Vector2 value);
     // public System.Boolean get_useDragThreshold()
-    // Offset: 0x1417E2C
+    // Offset: 0x1432B3C
     bool get_useDragThreshold();
     // public System.Void set_useDragThreshold(System.Boolean value)
-    // Offset: 0x1417E34
+    // Offset: 0x1432B44
     void set_useDragThreshold(bool value);
     // public System.Boolean get_dragging()
-    // Offset: 0x1417E40
+    // Offset: 0x1432B50
     bool get_dragging();
     // public System.Void set_dragging(System.Boolean value)
-    // Offset: 0x1417E48
+    // Offset: 0x1432B58
     void set_dragging(bool value);
     // public UnityEngine.EventSystems.PointerEventData/InputButton get_button()
-    // Offset: 0x1417E54
+    // Offset: 0x1432B64
     UnityEngine::EventSystems::PointerEventData::InputButton get_button();
     // public System.Void set_button(UnityEngine.EventSystems.PointerEventData/InputButton value)
-    // Offset: 0x1417E5C
+    // Offset: 0x1432B6C
     void set_button(UnityEngine::EventSystems::PointerEventData::InputButton value);
     // public System.Boolean IsPointerMoving()
-    // Offset: 0x1417F58
+    // Offset: 0x1432C68
     bool IsPointerMoving();
     // public System.Boolean IsScrolling()
-    // Offset: 0x1417F8C
+    // Offset: 0x1432C9C
     bool IsScrolling();
     // public UnityEngine.Camera get_enterEventCamera()
-    // Offset: 0x1417FC0
+    // Offset: 0x1432CD0
     UnityEngine::Camera* get_enterEventCamera();
     // public UnityEngine.Camera get_pressEventCamera()
-    // Offset: 0x1418060
+    // Offset: 0x1432D70
     UnityEngine::Camera* get_pressEventCamera();
     // public UnityEngine.GameObject get_pointerPress()
-    // Offset: 0x1418100
+    // Offset: 0x1432E10
     UnityEngine::GameObject* get_pointerPress();
     // public System.Void set_pointerPress(UnityEngine.GameObject value)
-    // Offset: 0x1418108
+    // Offset: 0x1432E18
     void set_pointerPress(UnityEngine::GameObject* value);
     // public System.Void .ctor(UnityEngine.EventSystems.EventSystem eventSystem)
-    // Offset: 0x1417E64
+    // Offset: 0x1432B74
     // Implemented from: UnityEngine.EventSystems.BaseEventData
     // Base method: System.Void BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem eventSystem)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -383,7 +383,7 @@ namespace UnityEngine::EventSystems {
       return THROW_UNLESS((::il2cpp_utils::New<PointerEventData*, creationType>(eventSystem)));
     }
     // public override System.String ToString()
-    // Offset: 0x1418194
+    // Offset: 0x1432EA4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::Il2CppString* ToString();
@@ -391,6 +391,380 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
   static check_size<sizeof(PointerEventData), 300 + sizeof(UnityEngine::EventSystems::PointerEventData::InputButton)> __UnityEngine_EventSystems_PointerEventDataSizeCheck;
   static_assert(sizeof(PointerEventData) == 0x130);
+  // Writing MetadataGetter for method: PointerEventData::get_pointerEnter
+  // Il2CppName: get_pointerEnter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_pointerEnter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pointerEnter
+  // Il2CppName: set_pointerEnter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_pointerEnter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_lastPress
+  // Il2CppName: get_lastPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_lastPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_lastPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_lastPress
+  // Il2CppName: set_lastPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_lastPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_lastPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_rawPointerPress
+  // Il2CppName: get_rawPointerPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_rawPointerPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_rawPointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_rawPointerPress
+  // Il2CppName: set_rawPointerPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_rawPointerPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_rawPointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pointerDrag
+  // Il2CppName: get_pointerDrag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_pointerDrag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pointerDrag
+  // Il2CppName: set_pointerDrag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_pointerDrag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pointerCurrentRaycast
+  // Il2CppName: get_pointerCurrentRaycast
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (PointerEventData::*)()>(&PointerEventData::get_pointerCurrentRaycast)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerCurrentRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pointerCurrentRaycast
+  // Il2CppName: set_pointerCurrentRaycast
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::RaycastResult)>(&PointerEventData::set_pointerCurrentRaycast)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerCurrentRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pointerPressRaycast
+  // Il2CppName: get_pointerPressRaycast
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (PointerEventData::*)()>(&PointerEventData::get_pointerPressRaycast)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerPressRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pointerPressRaycast
+  // Il2CppName: set_pointerPressRaycast
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::RaycastResult)>(&PointerEventData::set_pointerPressRaycast)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerPressRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_eligibleForClick
+  // Il2CppName: get_eligibleForClick
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::get_eligibleForClick)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_eligibleForClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_eligibleForClick
+  // Il2CppName: set_eligibleForClick
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(bool)>(&PointerEventData::set_eligibleForClick)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_eligibleForClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pointerId
+  // Il2CppName: get_pointerId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PointerEventData::*)()>(&PointerEventData::get_pointerId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pointerId
+  // Il2CppName: set_pointerId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(int)>(&PointerEventData::set_pointerId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_position
+  // Il2CppName: get_position
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_position)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_position
+  // Il2CppName: set_position
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_position)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_delta
+  // Il2CppName: get_delta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_delta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_delta
+  // Il2CppName: set_delta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_delta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pressPosition
+  // Il2CppName: get_pressPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_pressPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pressPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pressPosition
+  // Il2CppName: set_pressPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_pressPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pressPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_worldPosition
+  // Il2CppName: get_worldPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PointerEventData::*)()>(&PointerEventData::get_worldPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_worldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_worldPosition
+  // Il2CppName: set_worldPosition
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector3)>(&PointerEventData::set_worldPosition)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_worldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_worldNormal
+  // Il2CppName: get_worldNormal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PointerEventData::*)()>(&PointerEventData::get_worldNormal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_worldNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_worldNormal
+  // Il2CppName: set_worldNormal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector3)>(&PointerEventData::set_worldNormal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_worldNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_clickTime
+  // Il2CppName: get_clickTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PointerEventData::*)()>(&PointerEventData::get_clickTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_clickTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_clickTime
+  // Il2CppName: set_clickTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(float)>(&PointerEventData::set_clickTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_clickTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_clickCount
+  // Il2CppName: get_clickCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PointerEventData::*)()>(&PointerEventData::get_clickCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_clickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_clickCount
+  // Il2CppName: set_clickCount
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(int)>(&PointerEventData::set_clickCount)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_clickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_scrollDelta
+  // Il2CppName: get_scrollDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_scrollDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_scrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_scrollDelta
+  // Il2CppName: set_scrollDelta
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_scrollDelta)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_scrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_useDragThreshold
+  // Il2CppName: get_useDragThreshold
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::get_useDragThreshold)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_useDragThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_useDragThreshold
+  // Il2CppName: set_useDragThreshold
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(bool)>(&PointerEventData::set_useDragThreshold)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_useDragThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_dragging
+  // Il2CppName: get_dragging
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::get_dragging)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_dragging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_dragging
+  // Il2CppName: set_dragging
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(bool)>(&PointerEventData::set_dragging)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_dragging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_button
+  // Il2CppName: get_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (PointerEventData::*)()>(&PointerEventData::get_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_button
+  // Il2CppName: set_button
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&PointerEventData::set_button)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::IsPointerMoving
+  // Il2CppName: IsPointerMoving
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::IsPointerMoving)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::IsScrolling
+  // Il2CppName: IsScrolling
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::IsScrolling)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "IsScrolling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_enterEventCamera
+  // Il2CppName: get_enterEventCamera
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (PointerEventData::*)()>(&PointerEventData::get_enterEventCamera)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_enterEventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pressEventCamera
+  // Il2CppName: get_pressEventCamera
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (PointerEventData::*)()>(&PointerEventData::get_pressEventCamera)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pressEventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::get_pointerPress
+  // Il2CppName: get_pointerPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_pointerPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::set_pointerPress
+  // Il2CppName: set_pointerPress
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_pointerPress)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&PointerEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&PointerEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PointerEventData::ToString
+  // Il2CppName: ToString
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PointerEventData::*)()>(&PointerEventData::ToString)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");

@@ -83,37 +83,37 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void FadeOutInstant()
-    // Offset: 0x122834C
+    // Offset: 0x1244AE4
     void FadeOutInstant();
     // public System.Void FadeIn()
-    // Offset: 0x1228420
+    // Offset: 0x1244BB8
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x12284FC
+    // Offset: 0x1244C94
     void FadeOut();
     // public System.Void FadeIn(System.Single duration)
-    // Offset: 0x1228508
+    // Offset: 0x1244CA0
     void FadeIn(float duration);
     // public System.Void FadeOut(System.Single duration)
-    // Offset: 0x1228510
+    // Offset: 0x1244CA8
     void FadeOut(float duration);
     // public System.Void FadeIn(System.Action fadeInCallback)
-    // Offset: 0x1228518
+    // Offset: 0x1244CB0
     void FadeIn(System::Action* fadeInCallback);
     // public System.Void FadeOut(System.Action fadeOutCallback)
-    // Offset: 0x1228520
+    // Offset: 0x1244CB8
     void FadeOut(System::Action* fadeOutCallback);
     // public System.Void FadeIn(System.Single duration, System.Action fadeInFinishedCallback)
-    // Offset: 0x122842C
+    // Offset: 0x1244BC4
     void FadeIn(float duration, System::Action* fadeInFinishedCallback);
     // public System.Void FadeOut(System.Single duration, System.Action fadeOutFinishedCallback)
-    // Offset: 0x1228358
+    // Offset: 0x1244AF0
     void FadeOut(float duration, System::Action* fadeOutFinishedCallback);
     // private System.Collections.IEnumerator Fade(System.Single fromValue, System.Single toValue, System.Single duration, System.Single startDelay, UnityEngine.AnimationCurve curve, System.Action fadeFinishedCallback)
-    // Offset: 0x1228528
+    // Offset: 0x1244CC0
     System::Collections::IEnumerator* Fade(float fromValue, float toValue, float duration, float startDelay, UnityEngine::AnimationCurve* curve, System::Action* fadeFinishedCallback);
     // public System.Void .ctor()
-    // Offset: 0x1228608
+    // Offset: 0x1244DA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -129,5 +129,99 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(FadeInOutController), 56 + sizeof(float)> __GlobalNamespace_FadeInOutControllerSizeCheck;
   static_assert(sizeof(FadeInOutController) == 0x3C);
+  // Writing MetadataGetter for method: FadeInOutController::FadeOutInstant
+  // Il2CppName: FadeOutInstant
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::FadeOutInstant)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOutInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeIn
+  // Il2CppName: FadeIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::FadeIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeIn
+  // Il2CppName: FadeIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float)>(&FadeInOutController::FadeIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float)>(&FadeInOutController::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeIn
+  // Il2CppName: FadeIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(System::Action*)>(&FadeInOutController::FadeIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(System::Action*)>(&FadeInOutController::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeIn
+  // Il2CppName: FadeIn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float, System::Action*)>(&FadeInOutController::FadeIn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::FadeOut
+  // Il2CppName: FadeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)(float, System::Action*)>(&FadeInOutController::FadeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::Fade
+  // Il2CppName: Fade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FadeInOutController::*)(float, float, float, float, UnityEngine::AnimationCurve*, System::Action*)>(&FadeInOutController::Fade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FadeInOutController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOutController::*)()>(&FadeInOutController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FadeInOutController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");

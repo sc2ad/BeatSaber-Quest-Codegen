@@ -49,37 +49,37 @@ namespace Zenject {
     public:
     // Writing base type padding for base size: 0x42 to desired offset: 0x48
     char ___base_padding[0x6] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xDDEC48
+    // [CompilerGeneratedAttribute] Offset: 0xDDEB7C
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x48
     System::Action* PreInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDDEC58
+    // [CompilerGeneratedAttribute] Offset: 0xDDEB8C
     // private System.Action PostInstall
     // Size: 0x8
     // Offset: 0x50
     System::Action* PostInstall;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDDEC68
+    // [CompilerGeneratedAttribute] Offset: 0xDDEB9C
     // private System.Action PreResolve
     // Size: 0x8
     // Offset: 0x58
     System::Action* PreResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDDEC78
+    // [CompilerGeneratedAttribute] Offset: 0xDDEBAC
     // private System.Action PostResolve
     // Size: 0x8
     // Offset: 0x60
     System::Action* PostResolve;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [NullAllowed] Offset: 0xDDEC88
-    // [TooltipAttribute] Offset: 0xDDEC88
-    // [FormerlySerializedAsAttribute] Offset: 0xDDEC88
+    // [NullAllowed] Offset: 0xDDEBBC
+    // [TooltipAttribute] Offset: 0xDDEBBC
+    // [FormerlySerializedAsAttribute] Offset: 0xDDEBBC
     // private Zenject.MonoKernel _kernel
     // Size: 0x8
     // Offset: 0x68
@@ -95,57 +95,57 @@ namespace Zenject {
     // Creating value type constructor for type: GameObjectContext
     GameObjectContext(System::Action* PreInstall_ = {}, System::Action* PostInstall_ = {}, System::Action* PreResolve_ = {}, System::Action* PostResolve_ = {}, Zenject::MonoKernel* kernel_ = {}, Zenject::DiContainer* container_ = {}) noexcept : PreInstall{PreInstall_}, PostInstall{PostInstall_}, PreResolve{PreResolve_}, PostResolve{PostResolve_}, kernel{kernel_}, container{container_} {}
     // public System.Void add_PreInstall(System.Action value)
-    // Offset: 0x1624B28
+    // Offset: 0x163C838
     void add_PreInstall(System::Action* value);
     // public System.Void remove_PreInstall(System.Action value)
-    // Offset: 0x1624BCC
+    // Offset: 0x163C8DC
     void remove_PreInstall(System::Action* value);
     // public System.Void add_PostInstall(System.Action value)
-    // Offset: 0x1624C70
+    // Offset: 0x163C980
     void add_PostInstall(System::Action* value);
     // public System.Void remove_PostInstall(System.Action value)
-    // Offset: 0x1624D14
+    // Offset: 0x163CA24
     void remove_PostInstall(System::Action* value);
     // public System.Void add_PreResolve(System.Action value)
-    // Offset: 0x1624DB8
+    // Offset: 0x163CAC8
     void add_PreResolve(System::Action* value);
     // public System.Void remove_PreResolve(System.Action value)
-    // Offset: 0x1624E5C
+    // Offset: 0x163CB6C
     void remove_PreResolve(System::Action* value);
     // public System.Void add_PostResolve(System.Action value)
-    // Offset: 0x1624F00
+    // Offset: 0x163CC10
     void add_PostResolve(System::Action* value);
     // public System.Void remove_PostResolve(System.Action value)
-    // Offset: 0x1624FA4
+    // Offset: 0x163CCB4
     void remove_PostResolve(System::Action* value);
     // public System.Void Construct(Zenject.DiContainer parentContainer)
-    // Offset: 0x1625100
+    // Offset: 0x163CE10
     void Construct(Zenject::DiContainer* parentContainer);
     // private System.Void InstallBindings(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> injectableMonoBehaviours)
-    // Offset: 0x1625404
+    // Offset: 0x163D114
     void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
     // public override Zenject.DiContainer get_Container()
-    // Offset: 0x1625048
+    // Offset: 0x163CD58
     // Implemented from: Zenject.Context
     // Base method: Zenject.DiContainer Context::get_Container()
     Zenject::DiContainer* get_Container();
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetRootGameObjects()
-    // Offset: 0x1625050
+    // Offset: 0x163CD60
     // Implemented from: Zenject.Context
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Context::GetRootGameObjects()
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetRootGameObjects();
     // protected override System.Void RunInternal()
-    // Offset: 0x162514C
+    // Offset: 0x163CE5C
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::RunInternal()
     void RunInternal();
     // protected override System.Void GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
-    // Offset: 0x16255B4
+    // Offset: 0x163D2C4
     // Implemented from: Zenject.Context
     // Base method: System.Void Context::GetInjectableMonoBehaviours(System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> monoBehaviours)
     void GetInjectableMonoBehaviours(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* monoBehaviours);
     // public System.Void .ctor()
-    // Offset: 0x16257C8
+    // Offset: 0x163D4D8
     // Implemented from: Zenject.RunnableContext
     // Base method: System.Void RunnableContext::.ctor()
     // Base method: System.Void Context::.ctor()
@@ -163,5 +163,131 @@ namespace Zenject {
   #pragma pack(pop)
   static check_size<sizeof(GameObjectContext), 112 + sizeof(Zenject::DiContainer*)> __Zenject_GameObjectContextSizeCheck;
   static_assert(sizeof(GameObjectContext) == 0x78);
+  // Writing MetadataGetter for method: GameObjectContext::add_PreInstall
+  // Il2CppName: add_PreInstall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PreInstall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::remove_PreInstall
+  // Il2CppName: remove_PreInstall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PreInstall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::add_PostInstall
+  // Il2CppName: add_PostInstall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PostInstall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::remove_PostInstall
+  // Il2CppName: remove_PostInstall
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PostInstall)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::add_PreResolve
+  // Il2CppName: add_PreResolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PreResolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::remove_PreResolve
+  // Il2CppName: remove_PreResolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PreResolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::add_PostResolve
+  // Il2CppName: add_PostResolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::add_PostResolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::remove_PostResolve
+  // Il2CppName: remove_PostResolve
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Action*)>(&GameObjectContext::remove_PostResolve)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::Construct
+  // Il2CppName: Construct
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(Zenject::DiContainer*)>(&GameObjectContext::Construct)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&GameObjectContext::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::get_Container
+  // Il2CppName: get_Container
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GameObjectContext::*)()>(&GameObjectContext::get_Container)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::GetRootGameObjects
+  // Il2CppName: GetRootGameObjects
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (GameObjectContext::*)()>(&GameObjectContext::GetRootGameObjects)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::RunInternal
+  // Il2CppName: RunInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::RunInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "RunInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::GetInjectableMonoBehaviours
+  // Il2CppName: GetInjectableMonoBehaviours
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&GameObjectContext::GetInjectableMonoBehaviours)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: GameObjectContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameObjectContext::*)()>(&GameObjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(GameObjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectContext*, "Zenject", "GameObjectContext");

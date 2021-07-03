@@ -48,23 +48,23 @@ namespace UnityEngine::AddressableAssets::Initialization {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);
     }
     // public System.Void Init(System.Func`1<System.Boolean> callback)
-    // Offset: 0x13D85A8
+    // Offset: 0x13F32B8
     void Init(System::Func_1<bool>* callback);
     // public System.Void Update(System.Single unscaledDeltaTime)
-    // Offset: 0x13D8640
+    // Offset: 0x13F3350
     void Update(float unscaledDeltaTime);
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x13D85B0
+    // Offset: 0x13F32C0
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x13D86F8
+    // Offset: 0x13F3408
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // public System.Void .ctor()
-    // Offset: 0x13D8498
+    // Offset: 0x13F31A8
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -75,5 +75,51 @@ namespace UnityEngine::AddressableAssets::Initialization {
     }
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization/CacheInitOp
   // WARNING Not writing size check since size may be invalid!
+  // Writing MetadataGetter for method: CacheInitialization::CacheInitOp::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitialization::CacheInitOp::*)(System::Func_1<bool>*)>(&CacheInitialization::CacheInitOp::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CacheInitialization::CacheInitOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: CacheInitialization::CacheInitOp::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitialization::CacheInitOp::*)(float)>(&CacheInitialization::CacheInitOp::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CacheInitialization::CacheInitOp*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: CacheInitialization::CacheInitOp::InvokeWaitForCompletion
+  // Il2CppName: InvokeWaitForCompletion
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CacheInitialization::CacheInitOp::*)()>(&CacheInitialization::CacheInitOp::InvokeWaitForCompletion)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CacheInitialization::CacheInitOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CacheInitialization::CacheInitOp::Execute
+  // Il2CppName: Execute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitialization::CacheInitOp::*)()>(&CacheInitialization::CacheInitOp::Execute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CacheInitialization::CacheInitOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CacheInitialization::CacheInitOp::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitialization::CacheInitOp::*)()>(&CacheInitialization::CacheInitOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CacheInitialization::CacheInitOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitialization::CacheInitOp::*)()>(&CacheInitialization::CacheInitOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CacheInitialization::CacheInitOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::CacheInitOp*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/CacheInitOp");

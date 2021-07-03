@@ -38,5 +38,8 @@ namespace System {
     }
   }; // System.TupleExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TupleExtensions::Deconstruct
+  // Il2CppName: Deconstruct
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TupleExtensions*, "System", "TupleExtensions");

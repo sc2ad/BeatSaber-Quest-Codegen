@@ -41,21 +41,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: platformWidth and: layoutProvider
     char __padding0[0x4] = {};
-    // [InjectAttribute] Offset: 0xE1DC48
+    // [InjectAttribute] Offset: 0xE1DC24
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1DC58
+    // [CompilerGeneratedAttribute] Offset: 0xE1DC34
     // private System.Action`1<System.Single> edgeDistanceFromCenterWasCalculatedEvent
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<float>* edgeDistanceFromCenterWasCalculatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1DC68
+    // [CompilerGeneratedAttribute] Offset: 0xE1DC44
     // private System.Boolean <isEdgeDistanceFromCenterCalculated>k__BackingField
     // Size: 0x1
     // Offset: 0x30
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: isEdgeDistanceFromCenterCalculated and: edgeDistanceFromCenter
     char __padding3[0x3] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE1DC78
+    // [CompilerGeneratedAttribute] Offset: 0xE1DC54
     // private System.Single <edgeDistanceFromCenter>k__BackingField
     // Size: 0x4
     // Offset: 0x34
@@ -76,34 +76,34 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1143DE8
+    // Offset: 0x1149650
     void add_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Void remove_edgeDistanceFromCenterWasCalculatedEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1143E8C
+    // Offset: 0x11496F4
     void remove_edgeDistanceFromCenterWasCalculatedEvent(System::Action_1<float>* value);
     // public System.Boolean get_isEdgeDistanceFromCenterCalculated()
-    // Offset: 0x1143F30
+    // Offset: 0x1149798
     bool get_isEdgeDistanceFromCenterCalculated();
     // private System.Void set_isEdgeDistanceFromCenterCalculated(System.Boolean value)
-    // Offset: 0x1143F38
+    // Offset: 0x11497A0
     void set_isEdgeDistanceFromCenterCalculated(bool value);
     // public System.Single get_edgeDistanceFromCenter()
-    // Offset: 0x1143F44
+    // Offset: 0x11497AC
     float get_edgeDistanceFromCenter();
     // private System.Void set_edgeDistanceFromCenter(System.Single value)
-    // Offset: 0x1143F4C
+    // Offset: 0x11497B4
     void set_edgeDistanceFromCenter(float value);
     // protected System.Void Start()
-    // Offset: 0x1143F54
+    // Offset: 0x11497BC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11440E8
+    // Offset: 0x1149950
     void OnDestroy();
     // private System.Void HandlePlayersLayoutWasCalculated(MultiplayerPlayerLayout layout, System.Int32 numberOfPlayers)
-    // Offset: 0x1144008
+    // Offset: 0x1149870
     void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x1144188
+    // Offset: 0x11499F0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -119,5 +119,91 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerCenterResizeController), 52 + sizeof(float)> __GlobalNamespace_MultiplayerCenterResizeControllerSizeCheck;
   static_assert(sizeof(MultiplayerCenterResizeController) == 0x38);
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent
+  // Il2CppName: add_edgeDistanceFromCenterWasCalculatedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)(System::Action_1<float>*)>(&MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "add_edgeDistanceFromCenterWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent
+  // Il2CppName: remove_edgeDistanceFromCenterWasCalculatedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)(System::Action_1<float>*)>(&MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "remove_edgeDistanceFromCenterWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::get_isEdgeDistanceFromCenterCalculated
+  // Il2CppName: get_isEdgeDistanceFromCenterCalculated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerCenterResizeController::*)()>(&MultiplayerCenterResizeController::get_isEdgeDistanceFromCenterCalculated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "get_isEdgeDistanceFromCenterCalculated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::set_isEdgeDistanceFromCenterCalculated
+  // Il2CppName: set_isEdgeDistanceFromCenterCalculated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)(bool)>(&MultiplayerCenterResizeController::set_isEdgeDistanceFromCenterCalculated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "set_isEdgeDistanceFromCenterCalculated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::get_edgeDistanceFromCenter
+  // Il2CppName: get_edgeDistanceFromCenter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerCenterResizeController::*)()>(&MultiplayerCenterResizeController::get_edgeDistanceFromCenter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "get_edgeDistanceFromCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::set_edgeDistanceFromCenter
+  // Il2CppName: set_edgeDistanceFromCenter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)(float)>(&MultiplayerCenterResizeController::set_edgeDistanceFromCenter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "set_edgeDistanceFromCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)()>(&MultiplayerCenterResizeController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)()>(&MultiplayerCenterResizeController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::HandlePlayersLayoutWasCalculated
+  // Il2CppName: HandlePlayersLayoutWasCalculated
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)(GlobalNamespace::MultiplayerPlayerLayout, int)>(&MultiplayerCenterResizeController::HandlePlayersLayoutWasCalculated)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), "HandlePlayersLayoutWasCalculated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerLayout>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerCenterResizeController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)()>(&MultiplayerCenterResizeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerCenterResizeController::*)()>(&MultiplayerCenterResizeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerCenterResizeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterResizeController*, "", "MultiplayerCenterResizeController");

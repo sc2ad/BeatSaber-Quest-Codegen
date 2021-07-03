@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxPlayers
     static void _set_kMaxPlayers(int value);
     // public CreateServerFormData get_formData()
-    // Offset: 0x1098994
+    // Offset: 0x1196AD8
     GlobalNamespace::CreateServerFormData get_formData();
     // public System.Void Setup(System.Int32 selectedNumberOfPlayers, System.Boolean netDiscoverable)
-    // Offset: 0x1098A80
+    // Offset: 0x1196BC4
     void Setup(int selectedNumberOfPlayers, bool netDiscoverable);
     // public System.Void .ctor()
-    // Offset: 0x1098AC4
+    // Offset: 0x1196C08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -80,5 +80,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(CreateServerFormController), 32 + sizeof(bool)> __GlobalNamespace_CreateServerFormControllerSizeCheck;
   static_assert(sizeof(CreateServerFormController) == 0x21);
+  // Writing MetadataGetter for method: CreateServerFormController::get_formData
+  // Il2CppName: get_formData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreateServerFormData (CreateServerFormController::*)()>(&CreateServerFormController::get_formData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), "get_formData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerFormController::Setup
+  // Il2CppName: Setup
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerFormController::*)(int, bool)>(&CreateServerFormController::Setup)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: CreateServerFormController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerFormController::*)()>(&CreateServerFormController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerFormController::*)()>(&CreateServerFormController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormController*, "", "CreateServerFormController");

@@ -35,16 +35,40 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MockBeatmapDataConverter
     MockBeatmapDataConverter() noexcept {}
     // static public MockBeatmapData ToMockBeatmapData(BeatmapData beatmapData)
-    // Offset: 0x10592C4
+    // Offset: 0x109D984
     static GlobalNamespace::MockBeatmapData* ToMockBeatmapData(GlobalNamespace::BeatmapData* beatmapData);
     // static public MockNoteData ToMockNoteData(NoteData noteData)
-    // Offset: 0x1059BD0
+    // Offset: 0x109E290
     static GlobalNamespace::MockNoteData* ToMockNoteData(GlobalNamespace::NoteData* noteData);
     // static public MockObstacleData ToMockObstacleData(ObstacleData obstacleData)
-    // Offset: 0x1059C6C
+    // Offset: 0x109E32C
     static GlobalNamespace::MockObstacleData* ToMockObstacleData(GlobalNamespace::ObstacleData* obstacleData);
   }; // MockBeatmapDataConverter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MockBeatmapDataConverter::ToMockBeatmapData
+  // Il2CppName: ToMockBeatmapData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockBeatmapData* (*)(GlobalNamespace::BeatmapData*)>(&MockBeatmapDataConverter::ToMockBeatmapData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter*), "ToMockBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockBeatmapDataConverter::ToMockNoteData
+  // Il2CppName: ToMockNoteData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::ToMockNoteData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter*), "ToMockNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockBeatmapDataConverter::ToMockObstacleData
+  // Il2CppName: ToMockObstacleData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockObstacleData* (*)(GlobalNamespace::ObstacleData*)>(&MockBeatmapDataConverter::ToMockObstacleData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter*), "ToMockObstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapDataConverter*, "", "MockBeatmapDataConverter");

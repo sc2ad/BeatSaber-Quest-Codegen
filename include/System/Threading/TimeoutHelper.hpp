@@ -15,13 +15,29 @@ namespace System::Threading {
     // Creating value type constructor for type: TimeoutHelper
     TimeoutHelper() noexcept {}
     // static public System.UInt32 GetTime()
-    // Offset: 0x187C54C
+    // Offset: 0x189525C
     static uint GetTime();
     // static public System.Int32 UpdateTimeOut(System.UInt32 startTime, System.Int32 originalWaitMillisecondsTimeout)
-    // Offset: 0x187C554
+    // Offset: 0x1895264
     static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout);
   }; // System.Threading.TimeoutHelper
   #pragma pack(pop)
+  // Writing MetadataGetter for method: TimeoutHelper::GetTime
+  // Il2CppName: GetTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&TimeoutHelper::GetTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeoutHelper*), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TimeoutHelper::UpdateTimeOut
+  // Il2CppName: UpdateTimeOut
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, int)>(&TimeoutHelper::UpdateTimeOut)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TimeoutHelper*), "UpdateTimeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");

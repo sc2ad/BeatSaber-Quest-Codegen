@@ -35,13 +35,29 @@ namespace LiteNetLib::Utils {
     // Set static field: static private readonly System.UInt32[] Table
     static void _set_Table(::Array<uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B2F680
+    // Offset: 0x1B4B390
     static void _cctor();
     // static public System.UInt32 Compute(System.Byte[] input, System.Int32 offset, System.Int32 length)
-    // Offset: 0x1B218B4
+    // Offset: 0x1B3D5C4
     static uint Compute(::Array<uint8_t>* input, int offset, int length);
   }; // LiteNetLib.Utils.CRC32C
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CRC32C::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CRC32C::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CRC32C*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: CRC32C::Compute
+  // Il2CppName: Compute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int, int)>(&CRC32C::Compute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CRC32C*), "Compute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::CRC32C*, "LiteNetLib.Utils", "CRC32C");

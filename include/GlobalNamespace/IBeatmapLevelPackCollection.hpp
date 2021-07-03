@@ -29,6 +29,14 @@ namespace GlobalNamespace {
     ::Array<GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
   }; // IBeatmapLevelPackCollection
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IBeatmapLevelPackCollection::get_beatmapLevelPacks
+  // Il2CppName: get_beatmapLevelPacks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IBeatmapLevelPack*>* (IBeatmapLevelPackCollection::*)()>(&IBeatmapLevelPackCollection::get_beatmapLevelPacks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IBeatmapLevelPackCollection*), "get_beatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevelPackCollection*, "", "IBeatmapLevelPackCollection");

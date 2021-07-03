@@ -36,6 +36,14 @@ namespace Zenject::Internal {
     void GetAllInstances(Zenject::IProvider* provider, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.Internal.IDecoratorProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IDecoratorProvider::GetAllInstances
+  // Il2CppName: GetAllInstances
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDecoratorProvider::*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&IDecoratorProvider::GetAllInstances)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IDecoratorProvider*), "GetAllInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::IDecoratorProvider*, "Zenject.Internal", "IDecoratorProvider");

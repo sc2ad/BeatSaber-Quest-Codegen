@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Saber* saber;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Saber*) == 0x8);
-    // [InjectAttribute] Offset: 0xE14178
+    // [InjectAttribute] Offset: 0xE14174
     // private readonly SabersHotSwapping.SaberModelControllerProvider _saberModelControllerProvider
     // Size: 0x8
     // Offset: 0x20
@@ -56,19 +56,19 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x10DDF88
+    // Offset: 0x10CF120
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x10DE1B4
+    // Offset: 0x10CF34C
     void OnDestroy();
     // private System.Void HandleControllerChanged()
-    // Offset: 0x10DE2E0
+    // Offset: 0x10CF478
     void HandleControllerChanged();
     // private System.Void InitController()
-    // Offset: 0x10DE0BC
+    // Offset: 0x10CF254
     void InitController();
     // public System.Void .ctor()
-    // Offset: 0x10DE32C
+    // Offset: 0x10CF4C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -84,5 +84,51 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(SaberModelHotswappingContainer), 40 + sizeof(GlobalNamespace::SaberModelController*)> __GlobalNamespace_SaberModelHotswappingContainerSizeCheck;
   static_assert(sizeof(SaberModelHotswappingContainer) == 0x30);
+  // Writing MetadataGetter for method: SaberModelHotswappingContainer::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelHotswappingContainer::*)()>(&SaberModelHotswappingContainer::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberModelHotswappingContainer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberModelHotswappingContainer::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelHotswappingContainer::*)()>(&SaberModelHotswappingContainer::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberModelHotswappingContainer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberModelHotswappingContainer::HandleControllerChanged
+  // Il2CppName: HandleControllerChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelHotswappingContainer::*)()>(&SaberModelHotswappingContainer::HandleControllerChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberModelHotswappingContainer*), "HandleControllerChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberModelHotswappingContainer::InitController
+  // Il2CppName: InitController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelHotswappingContainer::*)()>(&SaberModelHotswappingContainer::InitController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberModelHotswappingContainer*), "InitController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SaberModelHotswappingContainer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelHotswappingContainer::*)()>(&SaberModelHotswappingContainer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberModelHotswappingContainer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelHotswappingContainer::*)()>(&SaberModelHotswappingContainer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SaberModelHotswappingContainer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelHotswappingContainer*, "", "SaberModelHotswappingContainer");

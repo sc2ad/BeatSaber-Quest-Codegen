@@ -60,7 +60,7 @@ namespace NUnit::Framework::Internal {
     // Set static field: static public readonly System.Int32 PrefixLength
     static void _set_PrefixLength(int value);
     // public System.Void .ctor(System.String userMessage, params System.Object[] args)
-    // Offset: 0x229A964
+    // Offset: 0x22B56C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::Array<::Il2CppObject*>* args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TextMessageWriter::.ctor");
@@ -77,30 +77,30 @@ namespace NUnit::Framework::Internal {
       return New_ctor<creationType>(userMessage, {args...});
     }
     // private System.Void WriteExpectedLine(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x229AB74
+    // Offset: 0x22B58D0
     void WriteExpectedLine(NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteExpectedLine(System.Object expected)
-    // Offset: 0x229AD10
+    // Offset: 0x22B5A6C
     void WriteExpectedLine(::Il2CppObject* expected);
     // private System.Void WriteExpectedLine(System.Object expected, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x229ADFC
+    // Offset: 0x22B5B58
     void WriteExpectedLine(::Il2CppObject* expected, NUnit::Framework::Constraints::Tolerance* tolerance);
     // private System.Void WriteActualLine(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x229AC28
+    // Offset: 0x22B5984
     void WriteActualLine(NUnit::Framework::Constraints::ConstraintResult* result);
     // private System.Void WriteActualLine(System.Object actual)
-    // Offset: 0x229AD18
+    // Offset: 0x22B5A74
     void WriteActualLine(::Il2CppObject* actual);
     // private System.Void WriteCaretLine(System.Int32 mismatch)
-    // Offset: 0x229B1F4
+    // Offset: 0x22B5F50
     void WriteCaretLine(int mismatch);
     // public override System.Int32 get_MaxLineLength()
-    // Offset: 0x229AA38
+    // Offset: 0x22B5794
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Int32 MessageWriter::get_MaxLineLength()
     int get_MaxLineLength();
     // public override System.Void WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    // Offset: 0x229AA40
+    // Offset: 0x22B579C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
     void WriteMessageLine(int level, ::Il2CppString* message, ::Array<::Il2CppObject*>* args);
@@ -112,42 +112,42 @@ namespace NUnit::Framework::Internal {
       WriteMessageLine(level, message, {args...});
     }
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
-    // Offset: 0x229AB48
+    // Offset: 0x22B58A4
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     void DisplayDifferences(NUnit::Framework::Constraints::ConstraintResult* result);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual)
-    // Offset: 0x229ACE0
+    // Offset: 0x22B5A3C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual)
     void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual);
     // public override System.Void DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
-    // Offset: 0x229ADCC
+    // Offset: 0x22B5B28
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayDifferences(System.Object expected, System.Object actual, NUnit.Framework.Constraints.Tolerance tolerance)
     void DisplayDifferences(::Il2CppObject* expected, ::Il2CppObject* actual, NUnit::Framework::Constraints::Tolerance* tolerance);
     // public override System.Void DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
-    // Offset: 0x229AFD0
+    // Offset: 0x22B5D2C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
     void DisplayStringDifferences(::Il2CppString* expected, ::Il2CppString* actual, int mismatch, bool ignoreCase, bool clipping);
     // public override System.Void WriteActualValue(System.Object actual)
-    // Offset: 0x229B2A4
+    // Offset: 0x22B6000
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteActualValue(System.Object actual)
     void WriteActualValue(::Il2CppObject* actual);
     // public override System.Void WriteValue(System.Object val)
-    // Offset: 0x229B2B4
+    // Offset: 0x22B6010
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteValue(System.Object val)
     void WriteValue(::Il2CppObject* val);
     // public override System.Void WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
-    // Offset: 0x229B340
+    // Offset: 0x22B609C
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteCollectionElements(System.Collections.IEnumerable collection, System.Int64 start, System.Int32 max)
     void WriteCollectionElements(System::Collections::IEnumerable* collection, int64_t start, int max);
     // static private System.Void .cctor()
-    // Offset: 0x229B3E4
+    // Offset: 0x22B6140
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::.cctor()
     static void _cctor();
@@ -155,5 +155,147 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
   static check_size<sizeof(TextMessageWriter), 52 + sizeof(int)> __NUnit_Framework_Internal_TextMessageWriterSizeCheck;
   static_assert(sizeof(TextMessageWriter) == 0x38);
+  // Writing MetadataGetter for method: TextMessageWriter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&TextMessageWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&TextMessageWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteExpectedLine
+  // Il2CppName: WriteExpectedLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&TextMessageWriter::WriteExpectedLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteExpectedLine
+  // Il2CppName: WriteExpectedLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*)>(&TextMessageWriter::WriteExpectedLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteExpectedLine
+  // Il2CppName: WriteExpectedLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&TextMessageWriter::WriteExpectedLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteActualLine
+  // Il2CppName: WriteActualLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&TextMessageWriter::WriteActualLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteActualLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteActualLine
+  // Il2CppName: WriteActualLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*)>(&TextMessageWriter::WriteActualLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteActualLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteCaretLine
+  // Il2CppName: WriteCaretLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(int)>(&TextMessageWriter::WriteCaretLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteCaretLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::get_MaxLineLength
+  // Il2CppName: get_MaxLineLength
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextMessageWriter::*)()>(&TextMessageWriter::get_MaxLineLength)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "get_MaxLineLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteMessageLine
+  // Il2CppName: WriteMessageLine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(int, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&TextMessageWriter::WriteMessageLine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::DisplayDifferences
+  // Il2CppName: DisplayDifferences
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&TextMessageWriter::DisplayDifferences)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::DisplayDifferences
+  // Il2CppName: DisplayDifferences
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*, ::Il2CppObject*)>(&TextMessageWriter::DisplayDifferences)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::DisplayDifferences
+  // Il2CppName: DisplayDifferences
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&TextMessageWriter::DisplayDifferences)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::DisplayStringDifferences
+  // Il2CppName: DisplayStringDifferences
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppString*, ::Il2CppString*, int, bool, bool)>(&TextMessageWriter::DisplayStringDifferences)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "DisplayStringDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteActualValue
+  // Il2CppName: WriteActualValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*)>(&TextMessageWriter::WriteActualValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteValue
+  // Il2CppName: WriteValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(::Il2CppObject*)>(&TextMessageWriter::WriteValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::WriteCollectionElements
+  // Il2CppName: WriteCollectionElements
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMessageWriter::*)(System::Collections::IEnumerable*, int64_t, int)>(&TextMessageWriter::WriteCollectionElements)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), "WriteCollectionElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextMessageWriter::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TextMessageWriter::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextMessageWriter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TextMessageWriter*, "NUnit.Framework.Internal", "TextMessageWriter");

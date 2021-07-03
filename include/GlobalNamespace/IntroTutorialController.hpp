@@ -88,28 +88,28 @@ namespace GlobalNamespace {
     UnityEngine::ParticleSystem* shockWavePS;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE1FB9C
+    // [SpaceAttribute] Offset: 0xE1FB78
     // private BloomFogEnvironmentParams _finishForParams
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BloomFogEnvironmentParams* finishForParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1FBD4
+    // [InjectAttribute] Offset: 0xE1FBB0
     // private readonly BloomFogParamsAnimator _bloomFogAnimator
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::BloomFogParamsAnimator* bloomFogAnimator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogParamsAnimator*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1FBE4
+    // [InjectAttribute] Offset: 0xE1FBC0
     // private readonly IGamePause _gamePause
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::IGamePause* gamePause;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IGamePause*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1FBF4
+    // [CompilerGeneratedAttribute] Offset: 0xE1FBD0
     // private System.Action introTutorialDidFinishEvent
     // Size: 0x8
     // Offset: 0x60
@@ -139,40 +139,40 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x1069FF0
+    // Offset: 0x10C4BC0
     void add_introTutorialDidFinishEvent(System::Action* value);
     // public System.Void remove_introTutorialDidFinishEvent(System.Action value)
-    // Offset: 0x106A094
+    // Offset: 0x10C4C64
     void remove_introTutorialDidFinishEvent(System::Action* value);
     // protected System.Void Start()
-    // Offset: 0x106A138
+    // Offset: 0x10C4D08
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x106A2BC
+    // Offset: 0x10C4E8C
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x106A45C
+    // Offset: 0x10C502C
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0x106A2C0
+    // Offset: 0x10C4E90
     void CleanUp();
     // private System.Void HandleGameDidPause()
-    // Offset: 0x106A5AC
+    // Offset: 0x10C517C
     void HandleGameDidPause();
     // private System.Void HandlegameDidResume()
-    // Offset: 0x106A628
+    // Offset: 0x10C51F8
     void HandlegameDidResume();
     // private System.Void ShowFinishAnimation()
-    // Offset: 0x106A520
+    // Offset: 0x10C50F0
     void ShowFinishAnimation();
     // private System.Collections.IEnumerator ShowFinishAnimationCoroutine()
-    // Offset: 0x106A66C
+    // Offset: 0x10C523C
     System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
     // private System.Void SetFinishAnimationParams(System.Single progress)
-    // Offset: 0x106A708
+    // Offset: 0x10C52D8
     void SetFinishAnimationParams(float progress);
     // public System.Void .ctor()
-    // Offset: 0x106A79C
+    // Offset: 0x10C536C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -188,5 +188,107 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(IntroTutorialController), 106 + sizeof(bool)> __GlobalNamespace_IntroTutorialControllerSizeCheck;
   static_assert(sizeof(IntroTutorialController) == 0x6B);
+  // Writing MetadataGetter for method: IntroTutorialController::add_introTutorialDidFinishEvent
+  // Il2CppName: add_introTutorialDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)(System::Action*)>(&IntroTutorialController::add_introTutorialDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "add_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::remove_introTutorialDidFinishEvent
+  // Il2CppName: remove_introTutorialDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)(System::Action*)>(&IntroTutorialController::remove_introTutorialDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "remove_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::OnDestroy
+  // Il2CppName: OnDestroy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::OnDestroy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::CleanUp
+  // Il2CppName: CleanUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::CleanUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "CleanUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::HandleGameDidPause
+  // Il2CppName: HandleGameDidPause
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::HandleGameDidPause)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "HandleGameDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::HandlegameDidResume
+  // Il2CppName: HandlegameDidResume
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::HandlegameDidResume)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "HandlegameDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::ShowFinishAnimation
+  // Il2CppName: ShowFinishAnimation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::ShowFinishAnimation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "ShowFinishAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::ShowFinishAnimationCoroutine
+  // Il2CppName: ShowFinishAnimationCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (IntroTutorialController::*)()>(&IntroTutorialController::ShowFinishAnimationCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "ShowFinishAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::SetFinishAnimationParams
+  // Il2CppName: SetFinishAnimationParams
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)(float)>(&IntroTutorialController::SetFinishAnimationParams)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "SetFinishAnimationParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: IntroTutorialController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");

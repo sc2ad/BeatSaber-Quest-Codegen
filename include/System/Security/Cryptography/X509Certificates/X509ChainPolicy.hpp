@@ -99,47 +99,47 @@ namespace System::Security::Cryptography::X509Certificates {
     // Creating value type constructor for type: X509ChainPolicy
     X509ChainPolicy(System::Security::Cryptography::OidCollection* apps_ = {}, System::Security::Cryptography::OidCollection* cert_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* store_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag_ = {}, System::Security::Cryptography::X509Certificates::X509RevocationMode mode_ = {}, System::TimeSpan timeout_ = {}, System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags_ = {}, System::DateTime vtime_ = {}) noexcept : apps{apps_}, cert{cert_}, store{store_}, store2{store2_}, rflag{rflag_}, mode{mode_}, timeout{timeout_}, vflags{vflags_}, vtime{vtime_} {}
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateCollection store)
-    // Offset: 0x1839360
+    // Offset: 0x1851070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ChainPolicy* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateCollection* store) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ChainPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ChainPolicy*, creationType>(store)));
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate2Collection get_ExtraStore()
-    // Offset: 0x18371DC
+    // Offset: 0x184EEEC
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
     // public System.Security.Cryptography.X509Certificates.X509RevocationFlag get_RevocationFlag()
-    // Offset: 0x1839390
+    // Offset: 0x18510A0
     System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
     // public System.Void set_RevocationFlag(System.Security.Cryptography.X509Certificates.X509RevocationFlag value)
-    // Offset: 0x1839398
+    // Offset: 0x18510A8
     void set_RevocationFlag(System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
     // public System.Security.Cryptography.X509Certificates.X509RevocationMode get_RevocationMode()
-    // Offset: 0x183942C
+    // Offset: 0x185113C
     System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
     // public System.Void set_RevocationMode(System.Security.Cryptography.X509Certificates.X509RevocationMode value)
-    // Offset: 0x1839434
+    // Offset: 0x1851144
     void set_RevocationMode(System::Security::Cryptography::X509Certificates::X509RevocationMode value);
     // public System.Void set_UrlRetrievalTimeout(System.TimeSpan value)
-    // Offset: 0x18394C8
+    // Offset: 0x18511D8
     void set_UrlRetrievalTimeout(System::TimeSpan value);
     // public System.Security.Cryptography.X509Certificates.X509VerificationFlags get_VerificationFlags()
-    // Offset: 0x18394D0
+    // Offset: 0x18511E0
     System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
     // public System.Void set_VerificationFlags(System.Security.Cryptography.X509Certificates.X509VerificationFlags value)
-    // Offset: 0x18394D8
+    // Offset: 0x18511E8
     void set_VerificationFlags(System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
     // public System.DateTime get_VerificationTime()
-    // Offset: 0x183956C
+    // Offset: 0x185127C
     System::DateTime get_VerificationTime();
     // public System.Void set_VerificationTime(System.DateTime value)
-    // Offset: 0x1839574
+    // Offset: 0x1851284
     void set_VerificationTime(System::DateTime value);
     // public System.Void Reset()
-    // Offset: 0x1839278
+    // Offset: 0x1850F88
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1835D34
+    // Offset: 0x184DA44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -151,5 +151,121 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
   static check_size<sizeof(X509ChainPolicy), 72 + sizeof(System::DateTime)> __System_Security_Cryptography_X509Certificates_X509ChainPolicySizeCheck;
   static_assert(sizeof(X509ChainPolicy) == 0x50);
+  // Writing MetadataGetter for method: X509ChainPolicy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::get_ExtraStore
+  // Il2CppName: get_ExtraStore
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (X509ChainPolicy::*)()>(&X509ChainPolicy::get_ExtraStore)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "get_ExtraStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::get_RevocationFlag
+  // Il2CppName: get_RevocationFlag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509RevocationFlag (X509ChainPolicy::*)()>(&X509ChainPolicy::get_RevocationFlag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "get_RevocationFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::set_RevocationFlag
+  // Il2CppName: set_RevocationFlag
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509RevocationFlag)>(&X509ChainPolicy::set_RevocationFlag)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "set_RevocationFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509RevocationFlag>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::get_RevocationMode
+  // Il2CppName: get_RevocationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509RevocationMode (X509ChainPolicy::*)()>(&X509ChainPolicy::get_RevocationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "get_RevocationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::set_RevocationMode
+  // Il2CppName: set_RevocationMode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509RevocationMode)>(&X509ChainPolicy::set_RevocationMode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "set_RevocationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509RevocationMode>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::set_UrlRetrievalTimeout
+  // Il2CppName: set_UrlRetrievalTimeout
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::TimeSpan)>(&X509ChainPolicy::set_UrlRetrievalTimeout)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "set_UrlRetrievalTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::get_VerificationFlags
+  // Il2CppName: get_VerificationFlags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509VerificationFlags (X509ChainPolicy::*)()>(&X509ChainPolicy::get_VerificationFlags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "get_VerificationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::set_VerificationFlags
+  // Il2CppName: set_VerificationFlags
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::Security::Cryptography::X509Certificates::X509VerificationFlags)>(&X509ChainPolicy::set_VerificationFlags)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "set_VerificationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509VerificationFlags>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::get_VerificationTime
+  // Il2CppName: get_VerificationTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (X509ChainPolicy::*)()>(&X509ChainPolicy::get_VerificationTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "get_VerificationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::set_VerificationTime
+  // Il2CppName: set_VerificationTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)(System::DateTime)>(&X509ChainPolicy::set_VerificationTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "set_VerificationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::Reset
+  // Il2CppName: Reset
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)()>(&X509ChainPolicy::Reset)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: X509ChainPolicy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)()>(&X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509ChainPolicy::*)()>(&X509ChainPolicy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ChainPolicy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainPolicy*, "System.Security.Cryptography.X509Certificates", "X509ChainPolicy");

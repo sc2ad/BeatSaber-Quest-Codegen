@@ -112,42 +112,42 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerFacade* connectedPlayerDuelControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerFacade*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1E7A4
+    // [InjectAttribute] Offset: 0xE1E780
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1E7B4
+    // [InjectAttribute] Offset: 0xE1E790
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::BeatmapObjectSpawnCenter* beatmapObjectSpawnCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1E7C4
+    // [InjectAttribute] Offset: 0xE1E7A0
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1E7D4
+    // [InjectAttribute] Offset: 0xE1E7B0
     // private readonly FadeInOutController _fadeInOutController
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::FadeInOutController* fadeInOutController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0xE1E7E4
+    // [InjectAttribute] Offset: 0xE1E7C0
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x60
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1E7F4
+    // [CompilerGeneratedAttribute] Offset: 0xE1E7D0
     // private System.Boolean <playerSpawningFinished>k__BackingField
     // Size: 0x1
     // Offset: 0x68
@@ -156,28 +156,28 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: playerSpawningFinished and: playerSpawningDidFinishEvent
     char __padding10[0x7] = {};
-    // [CompilerGeneratedAttribute] Offset: 0xE1E804
+    // [CompilerGeneratedAttribute] Offset: 0xE1E7E0
     // private System.Action playerSpawningDidFinishEvent
     // Size: 0x8
     // Offset: 0x70
     System::Action* playerSpawningDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1E814
+    // [CompilerGeneratedAttribute] Offset: 0xE1E7F0
     // private System.Action didSwitchPlayerToInactiveEvent
     // Size: 0x8
     // Offset: 0x78
     System::Action* didSwitchPlayerToInactiveEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1E824
+    // [CompilerGeneratedAttribute] Offset: 0xE1E800
     // private System.Action`1<MultiplayerLevelCompletionResults> playerDidFinishEvent
     // Size: 0x8
     // Offset: 0x80
     System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE1E834
+    // [CompilerGeneratedAttribute] Offset: 0xE1E810
     // private System.Action`1<PlayerNetworkFailReason> playerNetworkDidFailedEvent
     // Size: 0x8
     // Offset: 0x88
@@ -253,79 +253,79 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Boolean get_playerSpawningFinished()
-    // Offset: 0x23E0080
+    // Offset: 0x100ABFC
     bool get_playerSpawningFinished();
     // private System.Void set_playerSpawningFinished(System.Boolean value)
-    // Offset: 0x23E0088
+    // Offset: 0x100AC04
     void set_playerSpawningFinished(bool value);
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_allActiveAtGameStartPlayers()
-    // Offset: 0x23E0094
+    // Offset: 0x100AC10
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_allActiveAtGameStartPlayers();
     // public IStartSeekSongControllerProvider get_localPlayerStartSeekSongController()
-    // Offset: 0x23E009C
+    // Offset: 0x100AC18
     GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
     // public MultiplayerLocalActivePlayerFacade get_activeLocalPlayerFacade()
-    // Offset: 0x23E00A4
+    // Offset: 0x100AC20
     GlobalNamespace::MultiplayerLocalActivePlayerFacade* get_activeLocalPlayerFacade();
     // public MultiplayerLocalInactivePlayerFacade get_inactivePlayerFacade()
-    // Offset: 0x23E00AC
+    // Offset: 0x100AC28
     GlobalNamespace::MultiplayerLocalInactivePlayerFacade* get_inactivePlayerFacade();
     // public UnityEngine.Transform get_localPlayerTransform()
-    // Offset: 0x23DB640
+    // Offset: 0x10061BC
     UnityEngine::Transform* get_localPlayerTransform();
     // public System.Void add_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x23DC954
+    // Offset: 0x10074D0
     void add_playerSpawningDidFinishEvent(System::Action* value);
     // public System.Void remove_playerSpawningDidFinishEvent(System.Action value)
-    // Offset: 0x23DD1E4
+    // Offset: 0x1007D60
     void remove_playerSpawningDidFinishEvent(System::Action* value);
     // public System.Void add_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x23E00B4
+    // Offset: 0x100AC30
     void add_didSwitchPlayerToInactiveEvent(System::Action* value);
     // public System.Void remove_didSwitchPlayerToInactiveEvent(System.Action value)
-    // Offset: 0x23E0158
+    // Offset: 0x100ACD4
     void remove_didSwitchPlayerToInactiveEvent(System::Action* value);
     // public System.Void add_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x23E01FC
+    // Offset: 0x100AD78
     void add_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void remove_playerDidFinishEvent(System.Action`1<MultiplayerLevelCompletionResults> value)
-    // Offset: 0x23E02A0
+    // Offset: 0x100AE1C
     void remove_playerDidFinishEvent(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
     // public System.Void add_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x23E0344
+    // Offset: 0x100AEC0
     void add_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void remove_playerNetworkDidFailedEvent(System.Action`1<PlayerNetworkFailReason> value)
-    // Offset: 0x23E03E8
+    // Offset: 0x100AF64
     void remove_playerNetworkDidFailedEvent(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* value);
     // public System.Void SpawnPlayers(MultiplayerPlayerStartState localPlayerStartState, System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> allActiveAtGameStartPlayers)
-    // Offset: 0x23E048C
+    // Offset: 0x100B008
     void SpawnPlayers(GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
     // public System.Boolean TryGetConnectedPlayerController(System.String userId, out MultiplayerConnectedPlayerFacade connectedPlayerController)
-    // Offset: 0x23DC168
+    // Offset: 0x1006CE4
     bool TryGetConnectedPlayerController(::Il2CppString* userId, GlobalNamespace::MultiplayerConnectedPlayerFacade*& connectedPlayerController);
     // public System.Boolean TryGetConnectedCenterFacingRotation(System.String userId, out System.Single centerFacingRotation)
-    // Offset: 0x23E1040
+    // Offset: 0x100BBBC
     bool TryGetConnectedCenterFacingRotation(::Il2CppString* userId, float& centerFacingRotation);
     // public System.Void SwitchLocalPlayerToInactive()
-    // Offset: 0x23E10B0
+    // Offset: 0x100BC2C
     void SwitchLocalPlayerToInactive();
     // public System.Void ReportLocalPlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x23E114C
+    // Offset: 0x100BCC8
     void ReportLocalPlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // private System.Collections.IEnumerator SwitchLocalPlayerToInactiveCoroutine()
-    // Offset: 0x23E10DC
+    // Offset: 0x100BC58
     System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
     // private System.Void BindPlayerFactories(MultiplayerPlayerLayout layout)
-    // Offset: 0x23E0E44
+    // Offset: 0x100B9C0
     void BindPlayerFactories(GlobalNamespace::MultiplayerPlayerLayout layout);
     // private System.Void HandlePlayerDidFinish(MultiplayerLevelCompletionResults levelCompletionResults)
-    // Offset: 0x23E11EC
+    // Offset: 0x100BD68
     void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
     // private System.Void HandlePlayerNetworkDidFailed(PlayerNetworkFailReason failReason)
-    // Offset: 0x23E1260
+    // Offset: 0x100BDDC
     void HandlePlayerNetworkDidFailed(GlobalNamespace::PlayerNetworkFailReason failReason);
     // public System.Void .ctor()
-    // Offset: 0x23E1264
+    // Offset: 0x100BDE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -341,5 +341,211 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MultiplayerPlayersManager), 216 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_MultiplayerPlayersManagerSizeCheck;
   static_assert(sizeof(MultiplayerPlayersManager) == 0xE0);
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_playerSpawningFinished
+  // Il2CppName: get_playerSpawningFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_playerSpawningFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_playerSpawningFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::set_playerSpawningFinished
+  // Il2CppName: set_playerSpawningFinished
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(bool)>(&MultiplayerPlayersManager::set_playerSpawningFinished)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "set_playerSpawningFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_allActiveAtGameStartPlayers
+  // Il2CppName: get_allActiveAtGameStartPlayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_allActiveAtGameStartPlayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_allActiveAtGameStartPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_localPlayerStartSeekSongController
+  // Il2CppName: get_localPlayerStartSeekSongController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IStartSeekSongControllerProvider* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_localPlayerStartSeekSongController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_localPlayerStartSeekSongController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_activeLocalPlayerFacade
+  // Il2CppName: get_activeLocalPlayerFacade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLocalActivePlayerFacade* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_activeLocalPlayerFacade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_activeLocalPlayerFacade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_inactivePlayerFacade
+  // Il2CppName: get_inactivePlayerFacade
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLocalInactivePlayerFacade* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_inactivePlayerFacade)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_inactivePlayerFacade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::get_localPlayerTransform
+  // Il2CppName: get_localPlayerTransform
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::get_localPlayerTransform)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "get_localPlayerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerSpawningDidFinishEvent
+  // Il2CppName: add_playerSpawningDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::add_playerSpawningDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerSpawningDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent
+  // Il2CppName: remove_playerSpawningDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerSpawningDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent
+  // Il2CppName: add_didSwitchPlayerToInactiveEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_didSwitchPlayerToInactiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent
+  // Il2CppName: remove_didSwitchPlayerToInactiveEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action*)>(&MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_didSwitchPlayerToInactiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerDidFinishEvent
+  // Il2CppName: add_playerDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&MultiplayerPlayersManager::add_playerDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerDidFinishEvent
+  // Il2CppName: remove_playerDidFinishEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&MultiplayerPlayersManager::remove_playerDidFinishEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::add_playerNetworkDidFailedEvent
+  // Il2CppName: add_playerNetworkDidFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&MultiplayerPlayersManager::add_playerNetworkDidFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "add_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent
+  // Il2CppName: remove_playerNetworkDidFailedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::SpawnPlayers
+  // Il2CppName: SpawnPlayers
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerPlayerStartState, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)>(&MultiplayerPlayersManager::SpawnPlayers)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SpawnPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerStartState>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::TryGetConnectedPlayerController
+  // Il2CppName: TryGetConnectedPlayerController
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*&)>(&MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "TryGetConnectedPlayerController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerFacade*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation
+  // Il2CppName: TryGetConnectedCenterFacingRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerPlayersManager::*)(::Il2CppString*, float&)>(&MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "TryGetConnectedCenterFacingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::SwitchLocalPlayerToInactive
+  // Il2CppName: SwitchLocalPlayerToInactive
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::SwitchLocalPlayerToInactive)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SwitchLocalPlayerToInactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed
+  // Il2CppName: ReportLocalPlayerNetworkDidFailed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "ReportLocalPlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine
+  // Il2CppName: SwitchLocalPlayerToInactiveCoroutine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "SwitchLocalPlayerToInactiveCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::BindPlayerFactories
+  // Il2CppName: BindPlayerFactories
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerPlayerLayout)>(&MultiplayerPlayersManager::BindPlayerFactories)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "BindPlayerFactories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerLayout>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::HandlePlayerDidFinish
+  // Il2CppName: HandlePlayerDidFinish
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerPlayersManager::HandlePlayerDidFinish)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::HandlePlayerNetworkDidFailed
+  // Il2CppName: HandlePlayerNetworkDidFailed
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)(GlobalNamespace::PlayerNetworkFailReason)>(&MultiplayerPlayersManager::HandlePlayerNetworkDidFailed)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), "HandlePlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerNetworkFailReason>()});
+    }
+  };
+  // Writing MetadataGetter for method: MultiplayerPlayersManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerPlayersManager::*)()>(&MultiplayerPlayersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MultiplayerPlayersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager*, "", "MultiplayerPlayersManager");

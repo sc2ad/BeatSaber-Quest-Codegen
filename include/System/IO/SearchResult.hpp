@@ -39,21 +39,51 @@ namespace System::IO {
     // Creating value type constructor for type: SearchResult
     SearchResult(::Il2CppString* fullPath_ = {}, ::Il2CppString* userPath_ = {}, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData_ = {}) noexcept : fullPath{fullPath_}, userPath{userPath_}, findData{findData_} {}
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/WIN32_FIND_DATA findData)
-    // Offset: 0x1940290
+    // Offset: 0x1956FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchResult* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchResult*, creationType>(fullPath, userPath, findData)));
     }
     // System.String get_UserPath()
-    // Offset: 0x19402D0
+    // Offset: 0x1956FE0
     ::Il2CppString* get_UserPath();
     // Microsoft.Win32.Win32Native/WIN32_FIND_DATA get_FindData()
-    // Offset: 0x19402D8
+    // Offset: 0x1956FE8
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
   }; // System.IO.SearchResult
   #pragma pack(pop)
   static check_size<sizeof(SearchResult), 32 + sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)> __System_IO_SearchResultSizeCheck;
   static_assert(sizeof(SearchResult) == 0x28);
+  // Writing MetadataGetter for method: SearchResult::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchResult::*)(::Il2CppString*, ::Il2CppString*, Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&SearchResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SearchResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::Win32Native::WIN32_FIND_DATA*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SearchResult::*)(::Il2CppString*, ::Il2CppString*, Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&SearchResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SearchResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::Win32Native::WIN32_FIND_DATA*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SearchResult::get_UserPath
+  // Il2CppName: get_UserPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SearchResult::*)()>(&SearchResult::get_UserPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SearchResult*), "get_UserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SearchResult::get_FindData
+  // Il2CppName: get_FindData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::Win32Native::WIN32_FIND_DATA* (SearchResult::*)()>(&SearchResult::get_FindData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SearchResult*), "get_FindData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");

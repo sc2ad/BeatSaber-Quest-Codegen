@@ -42,7 +42,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Creating value type constructor for type: DynamicPropertyReg
     DynamicPropertyReg(System::Runtime::Remoting::Contexts::IDynamicProperty* Property_ = {}, System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink_ = {}) noexcept : Property{Property_}, Sink{Sink_} {}
     // public System.Void .ctor()
-    // Offset: 0x1A19F3C
+    // Offset: 0x1A33C4C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,5 +54,19 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
   static check_size<sizeof(DynamicPropertyCollection::DynamicPropertyReg), 24 + sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollection_DynamicPropertyRegSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection::DynamicPropertyReg) == 0x20);
+  // Writing MetadataGetter for method: DynamicPropertyCollection::DynamicPropertyReg::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::DynamicPropertyReg::*)()>(&DynamicPropertyCollection::DynamicPropertyReg::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection::DynamicPropertyReg*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicPropertyCollection::DynamicPropertyReg::*)()>(&DynamicPropertyCollection::DynamicPropertyReg::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DynamicPropertyCollection::DynamicPropertyReg*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection/DynamicPropertyReg");

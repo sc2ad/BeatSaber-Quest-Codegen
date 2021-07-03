@@ -48,7 +48,7 @@ namespace HMUI {
     float noInteractionAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xDF615C
+    // [SpaceAttribute] Offset: 0xDF8158
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x20
@@ -66,12 +66,12 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected override System.Void OnCanvasGroupChanged()
-    // Offset: 0x1296650
+    // Offset: 0x12B1360
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::OnCanvasGroupChanged()
     void OnCanvasGroupChanged();
     // public System.Void .ctor()
-    // Offset: 0x12967E8
+    // Offset: 0x12B14F8
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
     // Base method: System.Void UIBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -88,5 +88,27 @@ namespace HMUI {
   #pragma pack(pop)
   static check_size<sizeof(InteractableTextMeshPro), 40 + sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*)> __HMUI_InteractableTextMeshProSizeCheck;
   static_assert(sizeof(InteractableTextMeshPro) == 0x30);
+  // Writing MetadataGetter for method: InteractableTextMeshPro::OnCanvasGroupChanged
+  // Il2CppName: OnCanvasGroupChanged
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractableTextMeshPro::*)()>(&InteractableTextMeshPro::OnCanvasGroupChanged)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InteractableTextMeshPro*), "OnCanvasGroupChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: InteractableTextMeshPro::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractableTextMeshPro::*)()>(&InteractableTextMeshPro::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InteractableTextMeshPro*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractableTextMeshPro::*)()>(&InteractableTextMeshPro::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InteractableTextMeshPro*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");

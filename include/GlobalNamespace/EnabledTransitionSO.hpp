@@ -57,25 +57,25 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: EnabledTransitionSO
     EnabledTransitionSO(bool normalState_ = {}, bool highlightedState_ = {}, bool pressedState_ = {}, bool disabledState_ = {}, bool selectedState_ = {}, bool selectedAndHighlightedState_ = {}) noexcept : normalState{normalState_}, highlightedState{highlightedState_}, pressedState{pressedState_}, disabledState{disabledState_}, selectedState{selectedState_}, selectedAndHighlightedState{selectedAndHighlightedState_} {}
     // public System.Boolean get_normalState()
-    // Offset: 0x10BDD40
+    // Offset: 0x103C4B8
     bool get_normalState();
     // public System.Boolean get_highlightedState()
-    // Offset: 0x10BDD48
+    // Offset: 0x103C4C0
     bool get_highlightedState();
     // public System.Boolean get_pressedState()
-    // Offset: 0x10BDD50
+    // Offset: 0x103C4C8
     bool get_pressedState();
     // public System.Boolean get_disabledState()
-    // Offset: 0x10BDD58
+    // Offset: 0x103C4D0
     bool get_disabledState();
     // public System.Boolean get_selectedState()
-    // Offset: 0x10BDD60
+    // Offset: 0x103C4D8
     bool get_selectedState();
     // public System.Boolean get_selectedAndHighlightedState()
-    // Offset: 0x10BDD68
+    // Offset: 0x103C4E0
     bool get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x10BDD70
+    // Offset: 0x103C4E8
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()
@@ -91,5 +91,67 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(EnabledTransitionSO), 37 + sizeof(bool)> __GlobalNamespace_EnabledTransitionSOSizeCheck;
   static_assert(sizeof(EnabledTransitionSO) == 0x26);
+  // Writing MetadataGetter for method: EnabledTransitionSO::get_normalState
+  // Il2CppName: get_normalState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnabledTransitionSO::*)()>(&EnabledTransitionSO::get_normalState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), "get_normalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnabledTransitionSO::get_highlightedState
+  // Il2CppName: get_highlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnabledTransitionSO::*)()>(&EnabledTransitionSO::get_highlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), "get_highlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnabledTransitionSO::get_pressedState
+  // Il2CppName: get_pressedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnabledTransitionSO::*)()>(&EnabledTransitionSO::get_pressedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), "get_pressedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnabledTransitionSO::get_disabledState
+  // Il2CppName: get_disabledState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnabledTransitionSO::*)()>(&EnabledTransitionSO::get_disabledState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), "get_disabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnabledTransitionSO::get_selectedState
+  // Il2CppName: get_selectedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnabledTransitionSO::*)()>(&EnabledTransitionSO::get_selectedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), "get_selectedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnabledTransitionSO::get_selectedAndHighlightedState
+  // Il2CppName: get_selectedAndHighlightedState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EnabledTransitionSO::*)()>(&EnabledTransitionSO::get_selectedAndHighlightedState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), "get_selectedAndHighlightedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: EnabledTransitionSO::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnabledTransitionSO::*)()>(&EnabledTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnabledTransitionSO::*)()>(&EnabledTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EnabledTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO*, "", "EnabledTransitionSO");

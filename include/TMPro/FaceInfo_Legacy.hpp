@@ -145,7 +145,7 @@ namespace TMPro {
     // Creating value type constructor for type: FaceInfo_Legacy
     FaceInfo_Legacy(::Il2CppString* Name_ = {}, float PointSize_ = {}, float Scale_ = {}, int CharacterCount_ = {}, float LineHeight_ = {}, float Baseline_ = {}, float Ascender_ = {}, float CapHeight_ = {}, float Descender_ = {}, float CenterLine_ = {}, float SuperscriptOffset_ = {}, float SubscriptOffset_ = {}, float SubSize_ = {}, float Underline_ = {}, float UnderlineThickness_ = {}, float strikethrough_ = {}, float strikethroughThickness_ = {}, float TabWidth_ = {}, float Padding_ = {}, float AtlasWidth_ = {}, float AtlasHeight_ = {}) noexcept : Name{Name_}, PointSize{PointSize_}, Scale{Scale_}, CharacterCount{CharacterCount_}, LineHeight{LineHeight_}, Baseline{Baseline_}, Ascender{Ascender_}, CapHeight{CapHeight_}, Descender{Descender_}, CenterLine{CenterLine_}, SuperscriptOffset{SuperscriptOffset_}, SubscriptOffset{SubscriptOffset_}, SubSize{SubSize_}, Underline{Underline_}, UnderlineThickness{UnderlineThickness_}, strikethrough{strikethrough_}, strikethroughThickness{strikethroughThickness_}, TabWidth{TabWidth_}, Padding{Padding_}, AtlasWidth{AtlasWidth_}, AtlasHeight{AtlasHeight_} {}
     // public System.Void .ctor()
-    // Offset: 0x110844C
+    // Offset: 0x10E32C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -157,5 +157,19 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(FaceInfo_Legacy), 100 + sizeof(float)> __TMPro_FaceInfo_LegacySizeCheck;
   static_assert(sizeof(FaceInfo_Legacy) == 0x68);
+  // Writing MetadataGetter for method: FaceInfo_Legacy::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FaceInfo_Legacy::*)()>(&FaceInfo_Legacy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FaceInfo_Legacy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FaceInfo_Legacy::*)()>(&FaceInfo_Legacy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FaceInfo_Legacy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");

@@ -28,23 +28,31 @@ namespace GlobalNamespace {
     public:
     // Creating value type constructor for type: PseudoHDREncoding
     PseudoHDREncoding() noexcept {}
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE280A8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE280EC
     // static field const value: static private System.String kPseudoHDREncodingShaderName
     static constexpr const char* kPseudoHDREncodingShaderName = "Hidden/PseudoHDREncoding";
     // Get static field: static private System.String kPseudoHDREncodingShaderName
     static ::Il2CppString* _get_kPseudoHDREncodingShaderName();
     // Set static field: static private System.String kPseudoHDREncodingShaderName
     static void _set_kPseudoHDREncodingShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE280B8
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE280FC
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
     static void _set__material(UnityEngine::Material* value);
     // static public UnityEngine.RenderTexture CreatePseudoHDREncodedTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x10A54E4
+    // Offset: 0x10A87D4
     static UnityEngine::RenderTexture* CreatePseudoHDREncodedTexture(UnityEngine::RenderTexture* src);
   }; // PseudoHDREncoding
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PseudoHDREncoding::CreatePseudoHDREncodedTexture
+  // Il2CppName: CreatePseudoHDREncodedTexture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*)>(&PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PseudoHDREncoding*), "CreatePseudoHDREncodedTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PseudoHDREncoding*, "", "PseudoHDREncoding");

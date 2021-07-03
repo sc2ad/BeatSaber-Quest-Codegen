@@ -50,21 +50,21 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     // Padding between fields: maxEraYear and: eraName
     char __padding4[0x4] = {};
-    // [OptionalFieldAttribute] Offset: 0xD81A2C
+    // [OptionalFieldAttribute] Offset: 0xD819AC
     // System.String eraName
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* eraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xD81A64
+    // [OptionalFieldAttribute] Offset: 0xD819E4
     // System.String abbrevEraName
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* abbrevEraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xD81A9C
+    // [OptionalFieldAttribute] Offset: 0xD81A1C
     // System.String englishEraName
     // Size: 0x8
     // Offset: 0x40
@@ -74,14 +74,14 @@ namespace System::Globalization {
     // Creating value type constructor for type: EraInfo
     EraInfo(int era_ = {}, int64_t ticks_ = {}, int yearOffset_ = {}, int minEraYear_ = {}, int maxEraYear_ = {}, ::Il2CppString* eraName_ = {}, ::Il2CppString* abbrevEraName_ = {}, ::Il2CppString* englishEraName_ = {}) noexcept : era{era_}, ticks{ticks_}, yearOffset{yearOffset_}, minEraYear{minEraYear_}, maxEraYear{maxEraYear_}, eraName{eraName_}, abbrevEraName{abbrevEraName_}, englishEraName{englishEraName_} {}
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear)
-    // Offset: 0x19D9E5C
+    // Offset: 0x19F1B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear)));
     }
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear, System.String eraName, System.String abbrevEraName, System.String englishEraName)
-    // Offset: 0x19D9EFC
+    // Offset: 0x19F1C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, ::Il2CppString* eraName, ::Il2CppString* abbrevEraName, ::Il2CppString* englishEraName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
@@ -91,5 +91,33 @@ namespace System::Globalization {
   #pragma pack(pop)
   static check_size<sizeof(EraInfo), 64 + sizeof(::Il2CppString*)> __System_Globalization_EraInfoSizeCheck;
   static_assert(sizeof(EraInfo) == 0x48);
+  // Writing MetadataGetter for method: EraInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EraInfo::*)(int, int, int, int, int, int, int)>(&EraInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EraInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EraInfo::*)(int, int, int, int, int, int, int)>(&EraInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EraInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: EraInfo::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EraInfo::*)(int, int, int, int, int, int, int, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&EraInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EraInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EraInfo::*)(int, int, int, int, int, int, int, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&EraInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(EraInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");

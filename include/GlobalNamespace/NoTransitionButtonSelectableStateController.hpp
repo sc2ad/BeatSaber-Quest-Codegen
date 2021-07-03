@@ -22,16 +22,16 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: NoTransitionButtonSelectableStateController
     NoTransitionButtonSelectableStateController() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x11B67A4
+    // Offset: 0x11D10F8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x11B6838
+    // Offset: 0x11D118C
     void OnDisable();
     // private System.Void HandleNoTransitionButtonSelectionStateDidChange(HMUI.NoTransitionsButton/SelectionState state)
-    // Offset: 0x11B68CC
+    // Offset: 0x11D1220
     void HandleNoTransitionButtonSelectionStateDidChange(HMUI::NoTransitionsButton::SelectionState state);
     // public System.Void .ctor()
-    // Offset: 0x11B68F0
+    // Offset: 0x11D1244
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()
@@ -46,5 +46,43 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionButtonSelectableStateController*, creationType>()));
     }
   }; // NoTransitionButtonSelectableStateController
+  // Writing MetadataGetter for method: NoTransitionButtonSelectableStateController::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionButtonSelectableStateController::*)()>(&NoTransitionButtonSelectableStateController::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionButtonSelectableStateController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionButtonSelectableStateController::OnDisable
+  // Il2CppName: OnDisable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionButtonSelectableStateController::*)()>(&NoTransitionButtonSelectableStateController::OnDisable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionButtonSelectableStateController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionButtonSelectableStateController::HandleNoTransitionButtonSelectionStateDidChange
+  // Il2CppName: HandleNoTransitionButtonSelectionStateDidChange
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionButtonSelectableStateController::*)(HMUI::NoTransitionsButton::SelectionState)>(&NoTransitionButtonSelectableStateController::HandleNoTransitionButtonSelectionStateDidChange)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionButtonSelectableStateController*), "HandleNoTransitionButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NoTransitionsButton::SelectionState>()});
+    }
+  };
+  // Writing MetadataGetter for method: NoTransitionButtonSelectableStateController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionButtonSelectableStateController::*)()>(&NoTransitionButtonSelectableStateController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionButtonSelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionButtonSelectableStateController::*)()>(&NoTransitionButtonSelectableStateController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoTransitionButtonSelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");

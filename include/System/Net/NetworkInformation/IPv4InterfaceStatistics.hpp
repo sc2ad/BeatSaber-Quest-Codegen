@@ -19,7 +19,7 @@ namespace System::Net::NetworkInformation {
     // Creating value type constructor for type: IPv4InterfaceStatistics
     IPv4InterfaceStatistics() noexcept {}
     // protected System.Void .ctor()
-    // Offset: 0x147314C
+    // Offset: 0x148DE5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -29,5 +29,19 @@ namespace System::Net::NetworkInformation {
     }
   }; // System.Net.NetworkInformation.IPv4InterfaceStatistics
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IPv4InterfaceStatistics::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPv4InterfaceStatistics::*)()>(&IPv4InterfaceStatistics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv4InterfaceStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPv4InterfaceStatistics::*)()>(&IPv4InterfaceStatistics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IPv4InterfaceStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "IPv4InterfaceStatistics");

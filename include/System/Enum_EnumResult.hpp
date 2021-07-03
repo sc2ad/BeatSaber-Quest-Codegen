@@ -77,24 +77,64 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // System.Void Init(System.Boolean canMethodThrow)
-    // Offset: 0xEFC83C
+    // Offset: 0xEFD7F4
     void Init(bool canMethodThrow);
     // System.Void SetFailure(System.Exception unhandledException)
-    // Offset: 0xEFC848
+    // Offset: 0xEFD800
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureParameter)
-    // Offset: 0xEFC858
+    // Offset: 0xEFD810
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureParameter);
     // System.Void SetFailure(System.Enum/ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
-    // Offset: 0xEFC860
+    // Offset: 0xEFD818
     void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
-    // Offset: 0xEFC868
+    // Offset: 0xEFD820
     System::Exception* GetEnumParseException();
   }; // System.Enum/EnumResult
   #pragma pack(pop)
   static check_size<sizeof(Enum::EnumResult), 40 + sizeof(System::Exception*)> __System_Enum_EnumResultSizeCheck;
   static_assert(sizeof(Enum::EnumResult) == 0x30);
+  // Writing MetadataGetter for method: Enum::EnumResult::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Enum::EnumResult::*)(bool)>(&Enum::EnumResult::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::EnumResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Enum::EnumResult::SetFailure
+  // Il2CppName: SetFailure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Enum::EnumResult::*)(System::Exception*)>(&Enum::EnumResult::SetFailure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::EnumResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Enum::EnumResult::SetFailure
+  // Il2CppName: SetFailure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::Il2CppString*)>(&Enum::EnumResult::SetFailure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::EnumResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Enum::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Enum::EnumResult::SetFailure
+  // Il2CppName: SetFailure
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&Enum::EnumResult::SetFailure)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::EnumResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Enum::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Enum::EnumResult::GetEnumParseException
+  // Il2CppName: GetEnumParseException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Enum::EnumResult::*)()>(&Enum::EnumResult::GetEnumParseException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Enum::EnumResult), "GetEnumParseException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::EnumResult, "System", "Enum/EnumResult");

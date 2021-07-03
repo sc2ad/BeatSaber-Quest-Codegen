@@ -204,31 +204,85 @@ namespace System::Security::Util {
     // Creating value type constructor for type: Tokenizer
     Tokenizer(int LineNo_ = {}, int inProcessingTag_ = {}, ::Array<uint8_t>* inBytes_ = {}, ::Array<::Il2CppChar>* inChars_ = {}, ::Il2CppString* inString_ = {}, int inIndex_ = {}, int inSize_ = {}, int inSavedCharacter_ = {}, System::Security::Util::Tokenizer::TokenSource inTokenSource_ = {}, System::Security::Util::Tokenizer::ITokenReader* inTokenReader_ = {}, System::Security::Util::Tokenizer::StringMaker* maker_ = {}, ::Array<::Il2CppString*>* searchStrings_ = {}, ::Array<::Il2CppString*>* replaceStrings_ = {}, int inNestedIndex_ = {}, int inNestedSize_ = {}, ::Il2CppString* inNestedString_ = {}) noexcept : LineNo{LineNo_}, inProcessingTag{inProcessingTag_}, inBytes{inBytes_}, inChars{inChars_}, inString{inString_}, inIndex{inIndex_}, inSize{inSize_}, inSavedCharacter{inSavedCharacter_}, inTokenSource{inTokenSource_}, inTokenReader{inTokenReader_}, maker{maker_}, searchStrings{searchStrings_}, replaceStrings{replaceStrings_}, inNestedIndex{inNestedIndex_}, inNestedSize{inNestedSize_}, inNestedString{inNestedString_} {}
     // System.Void BasicInitialization()
-    // Offset: 0x1B32A60
+    // Offset: 0x1B4E770
     void BasicInitialization();
     // public System.Void Recycle()
-    // Offset: 0x1B32C54
+    // Offset: 0x1B4E964
     void Recycle();
     // System.Void .ctor(System.String input)
-    // Offset: 0x1B32DD4
+    // Offset: 0x1B4EAE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer* New_ctor(::Il2CppString* input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
     // System.Void ChangeFormat(System.Text.Encoding encoding)
-    // Offset: 0x1B32E20
+    // Offset: 0x1B4EB30
     void ChangeFormat(System::Text::Encoding* encoding);
     // System.Void GetTokens(System.Security.Util.TokenizerStream stream, System.Int32 maxNum, System.Boolean endAfterKet)
-    // Offset: 0x1B33148
+    // Offset: 0x1B4EE58
     void GetTokens(System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
-    // Offset: 0x1B3408C
+    // Offset: 0x1B4FD9C
     ::Il2CppString* GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)
   static check_size<sizeof(Tokenizer), 104 + sizeof(::Il2CppString*)> __System_Security_Util_TokenizerSizeCheck;
   static_assert(sizeof(Tokenizer) == 0x70);
+  // Writing MetadataGetter for method: Tokenizer::BasicInitialization
+  // Il2CppName: BasicInitialization
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::*)()>(&Tokenizer::BasicInitialization)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), "BasicInitialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Tokenizer::Recycle
+  // Il2CppName: Recycle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::*)()>(&Tokenizer::Recycle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Tokenizer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::*)(::Il2CppString*)>(&Tokenizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::*)(::Il2CppString*)>(&Tokenizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tokenizer::ChangeFormat
+  // Il2CppName: ChangeFormat
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::*)(System::Text::Encoding*)>(&Tokenizer::ChangeFormat)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), "ChangeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tokenizer::GetTokens
+  // Il2CppName: GetTokens
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::*)(System::Security::Util::TokenizerStream*, int, bool)>(&Tokenizer::GetTokens)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), "GetTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Tokenizer::GetStringToken
+  // Il2CppName: GetStringToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Tokenizer::*)()>(&Tokenizer::GetStringToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Tokenizer*), "GetStringToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer*, "System.Security.Util", "Tokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::TokenSource, "System.Security.Util", "Tokenizer/TokenSource");

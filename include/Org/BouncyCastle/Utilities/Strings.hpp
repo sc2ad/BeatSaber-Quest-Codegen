@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Utilities {
     // Creating value type constructor for type: Strings
     Strings() noexcept {}
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    // Offset: 0x1F730EC
+    // Offset: 0x1F8CE48
     static bool IsOneOf(::Il2CppString* s, ::Array<::Il2CppString*>* candidates);
     // Creating initializer_list -> params proxy for: System.Boolean IsOneOf(System.String s, params System.String[] candidates)
     static bool IsOneOf(::Il2CppString* s, std::initializer_list<::Il2CppString*> candidates);
@@ -26,22 +26,70 @@ namespace Org::BouncyCastle::Utilities {
       return IsOneOf(s, {candidates...});
     }
     // static public System.String FromByteArray(System.Byte[] bs)
-    // Offset: 0x1F73178
+    // Offset: 0x1F8CED4
     static ::Il2CppString* FromByteArray(::Array<uint8_t>* bs);
     // static public System.Byte[] ToByteArray(System.Char[] cs)
-    // Offset: 0x1F7327C
+    // Offset: 0x1F8CFD8
     static ::Array<uint8_t>* ToByteArray(::Array<::Il2CppChar>* cs);
     // static public System.Byte[] ToByteArray(System.String s)
-    // Offset: 0x1F73378
+    // Offset: 0x1F8D0D4
     static ::Array<uint8_t>* ToByteArray(::Il2CppString* s);
     // static public System.String FromAsciiByteArray(System.Byte[] bytes)
-    // Offset: 0x1F70768
+    // Offset: 0x1F8A4C4
     static ::Il2CppString* FromAsciiByteArray(::Array<uint8_t>* bytes);
     // static public System.Byte[] ToAsciiByteArray(System.String s)
-    // Offset: 0x1F73470
+    // Offset: 0x1F8D1CC
     static ::Array<uint8_t>* ToAsciiByteArray(::Il2CppString* s);
   }; // Org.BouncyCastle.Utilities.Strings
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Strings::IsOneOf
+  // Il2CppName: IsOneOf
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&Strings::IsOneOf)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Strings*), "IsOneOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Strings::FromByteArray
+  // Il2CppName: FromByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Strings::FromByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Strings*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Strings::ToByteArray
+  // Il2CppName: ToByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<::Il2CppChar>*)>(&Strings::ToByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Strings*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Strings::ToByteArray
+  // Il2CppName: ToByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Strings::ToByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Strings*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Strings::FromAsciiByteArray
+  // Il2CppName: FromAsciiByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Strings::FromAsciiByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Strings*), "FromAsciiByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Strings::ToAsciiByteArray
+  // Il2CppName: ToAsciiByteArray
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Strings::ToAsciiByteArray)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Strings*), "ToAsciiByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle.Utilities", "Strings");

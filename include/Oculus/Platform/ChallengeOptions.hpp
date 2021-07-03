@@ -45,40 +45,40 @@ namespace Oculus::Platform {
       return Handle;
     }
     // public System.Void SetDescription(System.String value)
-    // Offset: 0x14A68C4
+    // Offset: 0x14C15D4
     void SetDescription(::Il2CppString* value);
     // public System.Void SetEndDate(System.DateTime value)
-    // Offset: 0x14A6940
+    // Offset: 0x14C1650
     void SetEndDate(System::DateTime value);
     // public System.Void SetIncludeActiveChallenges(System.Boolean value)
-    // Offset: 0x14A69BC
+    // Offset: 0x14C16CC
     void SetIncludeActiveChallenges(bool value);
     // public System.Void SetIncludeFutureChallenges(System.Boolean value)
-    // Offset: 0x14A6A38
+    // Offset: 0x14C1748
     void SetIncludeFutureChallenges(bool value);
     // public System.Void SetIncludePastChallenges(System.Boolean value)
-    // Offset: 0x14A6AB4
+    // Offset: 0x14C17C4
     void SetIncludePastChallenges(bool value);
     // public System.Void SetLeaderboardName(System.String value)
-    // Offset: 0x14A6B30
+    // Offset: 0x14C1840
     void SetLeaderboardName(::Il2CppString* value);
     // public System.Void SetStartDate(System.DateTime value)
-    // Offset: 0x14A6BAC
+    // Offset: 0x14C18BC
     void SetStartDate(System::DateTime value);
     // public System.Void SetTitle(System.String value)
-    // Offset: 0x14A6C28
+    // Offset: 0x14C1938
     void SetTitle(::Il2CppString* value);
     // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
-    // Offset: 0x14A6CA4
+    // Offset: 0x14C19B4
     void SetViewerFilter(Oculus::Platform::ChallengeViewerFilter value);
     // public System.Void SetVisibility(Oculus.Platform.ChallengeVisibility value)
-    // Offset: 0x14A6D20
+    // Offset: 0x14C1A30
     void SetVisibility(Oculus::Platform::ChallengeVisibility value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ChallengeOptions options)
-    // Offset: 0x14A6D9C
+    // Offset: 0x14C1AAC
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x14A684C
+    // Offset: 0x14C155C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -87,7 +87,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x14A6DEC
+    // Offset: 0x14C1AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -95,5 +95,115 @@ namespace Oculus::Platform {
   #pragma pack(pop)
   static check_size<sizeof(ChallengeOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_ChallengeOptionsSizeCheck;
   static_assert(sizeof(ChallengeOptions) == 0x18);
+  // Writing MetadataGetter for method: ChallengeOptions::SetDescription
+  // Il2CppName: SetDescription
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(::Il2CppString*)>(&ChallengeOptions::SetDescription)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetEndDate
+  // Il2CppName: SetEndDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(System::DateTime)>(&ChallengeOptions::SetEndDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetEndDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetIncludeActiveChallenges
+  // Il2CppName: SetIncludeActiveChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(bool)>(&ChallengeOptions::SetIncludeActiveChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetIncludeActiveChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetIncludeFutureChallenges
+  // Il2CppName: SetIncludeFutureChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(bool)>(&ChallengeOptions::SetIncludeFutureChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetIncludeFutureChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetIncludePastChallenges
+  // Il2CppName: SetIncludePastChallenges
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(bool)>(&ChallengeOptions::SetIncludePastChallenges)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetIncludePastChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetLeaderboardName
+  // Il2CppName: SetLeaderboardName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(::Il2CppString*)>(&ChallengeOptions::SetLeaderboardName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetLeaderboardName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetStartDate
+  // Il2CppName: SetStartDate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(System::DateTime)>(&ChallengeOptions::SetStartDate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetStartDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetTitle
+  // Il2CppName: SetTitle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(::Il2CppString*)>(&ChallengeOptions::SetTitle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetViewerFilter
+  // Il2CppName: SetViewerFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(Oculus::Platform::ChallengeViewerFilter)>(&ChallengeOptions::SetViewerFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetViewerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeViewerFilter>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::SetVisibility
+  // Il2CppName: SetVisibility
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)(Oculus::Platform::ChallengeVisibility)>(&ChallengeOptions::SetVisibility)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "SetVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::ChallengeVisibility>()});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::operator System::IntPtr
+  // Il2CppName: op_Explicit
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&ChallengeOptions::operator System::IntPtr)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)()>(&ChallengeOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)()>(&ChallengeOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ChallengeOptions::Finalize
+  // Il2CppName: Finalize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChallengeOptions::*)()>(&ChallengeOptions::Finalize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ChallengeOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions*, "Oculus.Platform", "ChallengeOptions");

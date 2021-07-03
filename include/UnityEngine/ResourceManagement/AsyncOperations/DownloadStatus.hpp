@@ -40,12 +40,20 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // public System.Single get_Percent()
-    // Offset: 0xF01B9C
+    // Offset: 0xF02B54
     float get_Percent();
   }; // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
   #pragma pack(pop)
   static check_size<sizeof(DownloadStatus), 16 + sizeof(bool)> __UnityEngine_ResourceManagement_AsyncOperations_DownloadStatusSizeCheck;
   static_assert(sizeof(DownloadStatus) == 0x11);
+  // Writing MetadataGetter for method: DownloadStatus::get_Percent
+  // Il2CppName: get_Percent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DownloadStatus::*)()>(&DownloadStatus::get_Percent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DownloadStatus), "get_Percent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");

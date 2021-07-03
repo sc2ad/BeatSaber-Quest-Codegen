@@ -102,10 +102,18 @@ namespace Org::BouncyCastle::Asn1::Rosstandart {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_tc26_gost_28147_param_Z
     static void _set_id_tc26_gost_28147_param_Z(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x172E1E0
+    // Offset: 0x1745EF0
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Rosstandart.RosstandartObjectIdentifiers
   #pragma pack(pop)
+  // Writing MetadataGetter for method: RosstandartObjectIdentifiers::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RosstandartObjectIdentifiers::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RosstandartObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers*, "Org.BouncyCastle.Asn1.Rosstandart", "RosstandartObjectIdentifiers");

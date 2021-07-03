@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: InitData
     InitData(bool useTestAudioClips_ = {}, bool ignoreBadCuts_ = {}) noexcept : useTestAudioClips{useTestAudioClips_}, ignoreBadCuts{ignoreBadCuts_} {}
     // public System.Void .ctor(System.Boolean useTestAudioClips, System.Boolean ignoreBadCuts)
-    // Offset: 0x11BB680
+    // Offset: 0x11D5FD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutSoundEffectManager::InitData::.ctor");
@@ -43,5 +43,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(NoteCutSoundEffectManager::InitData), 17 + sizeof(bool)> __GlobalNamespace_NoteCutSoundEffectManager_InitDataSizeCheck;
   static_assert(sizeof(NoteCutSoundEffectManager::InitData) == 0x12);
+  // Writing MetadataGetter for method: NoteCutSoundEffectManager::InitData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::InitData::*)(bool, bool)>(&NoteCutSoundEffectManager::InitData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::InitData::*)(bool, bool)>(&NoteCutSoundEffectManager::InitData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager::InitData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager::InitData*, "", "NoteCutSoundEffectManager/InitData");

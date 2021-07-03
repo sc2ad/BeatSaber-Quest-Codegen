@@ -21,10 +21,10 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: PersistentScriptableObject
     PersistentScriptableObject() noexcept {}
     // protected System.Void OnEnable()
-    // Offset: 0x1222AD8
+    // Offset: 0x123F270
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x1234FA0
+    // Offset: 0x12515F8
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -36,5 +36,27 @@ namespace GlobalNamespace {
     }
   }; // PersistentScriptableObject
   #pragma pack(pop)
+  // Writing MetadataGetter for method: PersistentScriptableObject::OnEnable
+  // Il2CppName: OnEnable
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentScriptableObject::*)()>(&PersistentScriptableObject::OnEnable)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PersistentScriptableObject*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PersistentScriptableObject::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentScriptableObject::*)()>(&PersistentScriptableObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PersistentScriptableObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentScriptableObject::*)()>(&PersistentScriptableObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PersistentScriptableObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PersistentScriptableObject*, "", "PersistentScriptableObject");

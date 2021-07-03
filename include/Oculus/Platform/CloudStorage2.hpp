@@ -23,10 +23,18 @@ namespace Oculus::Platform {
     // Creating value type constructor for type: CloudStorage2
     CloudStorage2() noexcept {}
     // static public Oculus.Platform.Request`1<System.String> GetUserDirectoryPath()
-    // Offset: 0x14A8CA4
+    // Offset: 0x14C39B4
     static Oculus::Platform::Request_1<::Il2CppString*>* GetUserDirectoryPath();
   }; // Oculus.Platform.CloudStorage2
   #pragma pack(pop)
+  // Writing MetadataGetter for method: CloudStorage2::GetUserDirectoryPath
+  // Il2CppName: GetUserDirectoryPath
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)()>(&CloudStorage2::GetUserDirectoryPath)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(CloudStorage2*), "GetUserDirectoryPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage2*, "Oculus.Platform", "CloudStorage2");

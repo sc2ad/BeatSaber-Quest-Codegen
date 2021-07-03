@@ -24,7 +24,7 @@ namespace TMPro {
     // Creating value type constructor for type: ColorTweenCallback
     ColorTweenCallback() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x11080E8
+    // Offset: 0x10E2F64
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()
@@ -35,5 +35,19 @@ namespace TMPro {
       return THROW_UNLESS((::il2cpp_utils::New<ColorTween::ColorTweenCallback*, creationType>()));
     }
   }; // TMPro.ColorTween/ColorTweenCallback
+  // Writing MetadataGetter for method: ColorTween::ColorTweenCallback::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorTween::ColorTweenCallback::*)()>(&ColorTween::ColorTweenCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorTween::ColorTweenCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorTween::ColorTweenCallback::*)()>(&ColorTween::ColorTweenCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorTween::ColorTweenCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenCallback*, "TMPro", "ColorTween/ColorTweenCallback");

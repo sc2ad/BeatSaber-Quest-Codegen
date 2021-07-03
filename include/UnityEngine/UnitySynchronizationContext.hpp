@@ -68,16 +68,38 @@ namespace UnityEngine {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0xF185A4
+      // Offset: 0xF1955C
       // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
       // ABORTED: conflicts with another method.  WorkRequest(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, System::Threading::ManualResetEvent* waitHandle)
       // public System.Void Invoke()
-      // Offset: 0xF185B0
+      // Offset: 0xF19568
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/WorkRequest
     #pragma pack(pop)
     static check_size<sizeof(UnitySynchronizationContext::WorkRequest), 16 + sizeof(System::Threading::ManualResetEvent*)> __UnityEngine_UnitySynchronizationContext_WorkRequestSizeCheck;
     static_assert(sizeof(UnitySynchronizationContext::WorkRequest) == 0x18);
+    // Writing MetadataGetter for method: UnitySynchronizationContext::WorkRequest::WorkRequest
+    // Il2CppName: .ctor
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::WorkRequest::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*, System::Threading::ManualResetEvent*)>(&UnitySynchronizationContext::WorkRequest::WorkRequest<::il2cpp_utils::CreationType::Temporary>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext::WorkRequest), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ManualResetEvent*>()});
+      }
+    };
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::WorkRequest::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*, System::Threading::ManualResetEvent*)>(&UnitySynchronizationContext::WorkRequest::WorkRequest<::il2cpp_utils::CreationType::Manual>)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext::WorkRequest), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ManualResetEvent*>()});
+      }
+    };
+    // Writing MetadataGetter for method: UnitySynchronizationContext::WorkRequest::Invoke
+    // Il2CppName: Invoke
+    template<>
+    struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::WorkRequest::*)()>(&UnitySynchronizationContext::WorkRequest::Invoke)> {
+      const MethodInfo* get() {
+        return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext::WorkRequest), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+      }
+    };
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> m_AsyncWorkQueue
     // Size: 0x8
     // Offset: 0x18
@@ -107,56 +129,56 @@ namespace UnityEngine {
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // private System.Void .ctor(System.Int32 mainThreadID)
-    // Offset: 0x2307568
+    // Offset: 0x23212C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(mainThreadID)));
     }
     // private System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/WorkRequest> queue, System.Int32 mainThreadID)
-    // Offset: 0x2307618
+    // Offset: 0x2321374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>* queue, int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(queue, mainThreadID)));
     }
     // private System.Void Exec()
-    // Offset: 0x2307A50
+    // Offset: 0x23217AC
     void Exec();
     // private System.Boolean HasPendingTasks()
-    // Offset: 0x2307CC0
+    // Offset: 0x2321A1C
     bool HasPendingTasks();
     // static private System.Void InitializeSynchronizationContext()
-    // Offset: 0x2307D28
+    // Offset: 0x2321A84
     static void InitializeSynchronizationContext();
     // static private System.Void ExecuteTasks()
-    // Offset: 0x2307DA8
+    // Offset: 0x2321B04
     static void ExecuteTasks();
     // static private System.Boolean ExecutePendingTasks(System.Int64 millisecondsTimeout)
-    // Offset: 0x2307E20
+    // Offset: 0x2321B7C
     static bool ExecutePendingTasks(int64_t millisecondsTimeout);
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x23076AC
+    // Offset: 0x2321408
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void OperationStarted()
-    // Offset: 0x23078F4
+    // Offset: 0x2321650
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationStarted()
     void OperationStarted();
     // public override System.Void OperationCompleted()
-    // Offset: 0x2307900
+    // Offset: 0x232165C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationCompleted()
     void OperationCompleted();
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x230790C
+    // Offset: 0x2321668
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x23079DC
+    // Offset: 0x2321738
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     System::Threading::SynchronizationContext* CreateCopy();
@@ -164,6 +186,114 @@ namespace UnityEngine {
   #pragma pack(pop)
   static check_size<sizeof(UnitySynchronizationContext), 44 + sizeof(int)> __UnityEngine_UnitySynchronizationContextSizeCheck;
   static_assert(sizeof(UnitySynchronizationContext) == 0x30);
+  // Writing MetadataGetter for method: UnitySynchronizationContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)(int)>(&UnitySynchronizationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)(int)>(&UnitySynchronizationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>*, int)>(&UnitySynchronizationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)(System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>*, int)>(&UnitySynchronizationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UnitySynchronizationContext::WorkRequest>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::Exec
+  // Il2CppName: Exec
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)()>(&UnitySynchronizationContext::Exec)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "Exec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::HasPendingTasks
+  // Il2CppName: HasPendingTasks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnitySynchronizationContext::*)()>(&UnitySynchronizationContext::HasPendingTasks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "HasPendingTasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::InitializeSynchronizationContext
+  // Il2CppName: InitializeSynchronizationContext
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnitySynchronizationContext::InitializeSynchronizationContext)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "InitializeSynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::ExecuteTasks
+  // Il2CppName: ExecuteTasks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnitySynchronizationContext::ExecuteTasks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "ExecuteTasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::ExecutePendingTasks
+  // Il2CppName: ExecutePendingTasks
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t)>(&UnitySynchronizationContext::ExecutePendingTasks)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "ExecutePendingTasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::Send
+  // Il2CppName: Send
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&UnitySynchronizationContext::Send)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::OperationStarted
+  // Il2CppName: OperationStarted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)()>(&UnitySynchronizationContext::OperationStarted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "OperationStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::OperationCompleted
+  // Il2CppName: OperationCompleted
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)()>(&UnitySynchronizationContext::OperationCompleted)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "OperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::Post
+  // Il2CppName: Post
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnitySynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&UnitySynchronizationContext::Post)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
+  // Writing MetadataGetter for method: UnitySynchronizationContext::CreateCopy
+  // Il2CppName: CreateCopy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (UnitySynchronizationContext::*)()>(&UnitySynchronizationContext::CreateCopy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UnitySynchronizationContext*), "CreateCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");

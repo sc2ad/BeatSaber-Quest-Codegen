@@ -23,7 +23,7 @@ namespace ModestTree {
     // Creating value type constructor for type: Log
     Log() noexcept {}
     // static public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x13676EC
+    // Offset: 0x13823FC
     static void Debug(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Debug(System.String message, params System.Object[] args)
     static void Debug(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -33,7 +33,7 @@ namespace ModestTree {
       Debug(message, {args...});
     }
     // static public System.Void Info(System.String message, params System.Object[] args)
-    // Offset: 0x13676F0
+    // Offset: 0x1382400
     static void Info(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Info(System.String message, params System.Object[] args)
     static void Info(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -43,7 +43,7 @@ namespace ModestTree {
       Info(message, {args...});
     }
     // static public System.Void Warn(System.String message, params System.Object[] args)
-    // Offset: 0x1366F8C
+    // Offset: 0x1381C9C
     static void Warn(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Warn(System.String message, params System.Object[] args)
     static void Warn(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -53,7 +53,7 @@ namespace ModestTree {
       Warn(message, {args...});
     }
     // static public System.Void Trace(System.String message, params System.Object[] args)
-    // Offset: 0x1367778
+    // Offset: 0x1382488
     static void Trace(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Trace(System.String message, params System.Object[] args)
     static void Trace(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -63,13 +63,13 @@ namespace ModestTree {
       Trace(message, {args...});
     }
     // static public System.Void ErrorException(System.Exception e)
-    // Offset: 0x1367800
+    // Offset: 0x1382510
     static void ErrorException(System::Exception* e);
     // static public System.Void ErrorException(System.String message, System.Exception e)
-    // Offset: 0x1367868
+    // Offset: 0x1382578
     static void ErrorException(::Il2CppString* message, System::Exception* e);
     // static public System.Void Error(System.String message, params System.Object[] args)
-    // Offset: 0x13678E8
+    // Offset: 0x13825F8
     static void Error(::Il2CppString* message, ::Array<::Il2CppObject*>* args);
     // Creating initializer_list -> params proxy for: System.Void Error(System.String message, params System.Object[] args)
     static void Error(::Il2CppString* message, std::initializer_list<::Il2CppObject*> args);
@@ -80,6 +80,62 @@ namespace ModestTree {
     }
   }; // ModestTree.Log
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Log::Debug
+  // Il2CppName: Debug
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Debug)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Log::Info
+  // Il2CppName: Info
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Info)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Log::Warn
+  // Il2CppName: Warn
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Warn)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Log::Trace
+  // Il2CppName: Trace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Trace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "Trace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Log::ErrorException
+  // Il2CppName: ErrorException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&Log::ErrorException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "ErrorException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Log::ErrorException
+  // Il2CppName: ErrorException
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Exception*)>(&Log::ErrorException)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "ErrorException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Log::Error
+  // Il2CppName: Error
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Log::Error)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Log*, "ModestTree", "Log");

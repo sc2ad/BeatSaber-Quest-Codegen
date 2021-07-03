@@ -19,10 +19,18 @@ namespace Unity::Collections {
     // Set static field: static private System.Int32 s_NativeLeakDetectionMode
     static void _set_s_NativeLeakDetectionMode(int value);
     // static private System.Void Initialize()
-    // Offset: 0x1B6C3DC
+    // Offset: 0x1B880EC
     static void Initialize();
   }; // Unity.Collections.NativeLeakDetection
   #pragma pack(pop)
+  // Writing MetadataGetter for method: NativeLeakDetection::Initialize
+  // Il2CppName: Initialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NativeLeakDetection::Initialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NativeLeakDetection*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeLeakDetection*, "Unity.Collections", "NativeLeakDetection");

@@ -54,7 +54,11 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BakedReflectionProbeInstaller::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakedReflectionProbeInstaller::$$c*, creationType>()));
     }
-  }; // BakedReflectionProbeInstaller/<>c
-  #pragma pack(pop)
+    // MethodInfo getter for: New_ctor
+    static inline MethodInfo* get() const {
+    }
+  };
+}; // BakedReflectionProbeInstaller/<>c
+#pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedReflectionProbeInstaller::$$c*, "", "BakedReflectionProbeInstaller/<>c");

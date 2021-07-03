@@ -23,16 +23,40 @@ namespace Polyglot {
     // Creating value type constructor for type: LanguageExtensions
     LanguageExtensions() noexcept {}
     // static public System.String ToSerializedName(Polyglot.Language lang)
-    // Offset: 0x2333CD0
+    // Offset: 0x234DA2C
     static ::Il2CppString* ToSerializedName(Polyglot::Language lang);
     // static public System.String ToCultureInfoName(Polyglot.Language lang)
-    // Offset: 0x2333D38
+    // Offset: 0x234DA94
     static ::Il2CppString* ToCultureInfoName(Polyglot::Language lang);
     // static public Polyglot.Language ToLanguage(System.String serializedName)
-    // Offset: 0x2333DE8
+    // Offset: 0x234DB44
     static Polyglot::Language ToLanguage(::Il2CppString* serializedName);
   }; // Polyglot.LanguageExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: LanguageExtensions::ToSerializedName
+  // Il2CppName: ToSerializedName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Polyglot::Language)>(&LanguageExtensions::ToSerializedName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LanguageExtensions*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: LanguageExtensions::ToCultureInfoName
+  // Il2CppName: ToCultureInfoName
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Polyglot::Language)>(&LanguageExtensions::ToCultureInfoName)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LanguageExtensions*), "ToCultureInfoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    }
+  };
+  // Writing MetadataGetter for method: LanguageExtensions::ToLanguage
+  // Il2CppName: ToLanguage
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (*)(::Il2CppString*)>(&LanguageExtensions::ToLanguage)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LanguageExtensions*), "ToLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageExtensions*, "Polyglot", "LanguageExtensions");

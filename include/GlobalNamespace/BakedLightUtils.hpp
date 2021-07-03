@@ -33,34 +33,50 @@ namespace GlobalNamespace {
     static ::Il2CppString* _get_kDepthOnlyShaderName();
     // Set static field: static private System.String kDepthOnlyShaderName
     static void _set_kDepthOnlyShaderName(::Il2CppString* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D0C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D50
     // Get static field: static private readonly System.Int32 _zWritePropertyId
     static int _get__zWritePropertyId();
     // Set static field: static private readonly System.Int32 _zWritePropertyId
     static void _set__zWritePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D1C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D60
     // Get static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static int _get__stencilRefValuePropertyId();
     // Set static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static void _set__stencilRefValuePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D2C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D70
     // Get static field: static private readonly System.Int32 _stencilCompPropertyId
     static int _get__stencilCompPropertyId();
     // Set static field: static private readonly System.Int32 _stencilCompPropertyId
     static void _set__stencilCompPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D3C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xE27D80
     // Get static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static int _get__stencilPassOpPropertyId();
     // Set static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static void _set__stencilPassOpPropertyId(int value);
     // static public System.Void ValidateLoadedEnvironmentScene()
-    // Offset: 0x119CF10
+    // Offset: 0x11B73E0
     static void ValidateLoadedEnvironmentScene();
     // static private System.Void .cctor()
-    // Offset: 0x119D3A0
+    // Offset: 0x11B7870
     static void _cctor();
   }; // BakedLightUtils
   #pragma pack(pop)
+  // Writing MetadataGetter for method: BakedLightUtils::ValidateLoadedEnvironmentScene
+  // Il2CppName: ValidateLoadedEnvironmentScene
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightUtils::ValidateLoadedEnvironmentScene)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakedLightUtils*), "ValidateLoadedEnvironmentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BakedLightUtils::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightUtils::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BakedLightUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightUtils*, "", "BakedLightUtils");

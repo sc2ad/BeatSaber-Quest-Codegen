@@ -24,10 +24,18 @@ namespace Org::BouncyCastle::X509::Extension {
     // Creating value type constructor for type: X509ExtensionUtilities
     X509ExtensionUtilities() noexcept {}
     // static public Org.BouncyCastle.Asn1.Asn1Object FromExtensionValue(Org.BouncyCastle.Asn1.Asn1OctetString extensionValue)
-    // Offset: 0x1F735B8
+    // Offset: 0x1F8D314
     static Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
   }; // Org.BouncyCastle.X509.Extension.X509ExtensionUtilities
   #pragma pack(pop)
+  // Writing MetadataGetter for method: X509ExtensionUtilities::FromExtensionValue
+  // Il2CppName: FromExtensionValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(Org::BouncyCastle::Asn1::Asn1OctetString*)>(&X509ExtensionUtilities::FromExtensionValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(X509ExtensionUtilities*), "FromExtensionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1OctetString*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*, "Org.BouncyCastle.X509.Extension", "X509ExtensionUtilities");

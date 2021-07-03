@@ -79,26 +79,26 @@ namespace MasterServer {
     // Creating value type constructor for type: MultipartMessageWaiter
     MultipartMessageWaiter(GlobalNamespace::SmallBufferPool* bufferPool_ = {}, ::Array<uint8_t>* buffer_ = {}, int length_ = {}, System::Collections::Generic::List_1<int>* ranges_ = {}, bool isComplete_ = {}, bool isDisposed_ = {}) noexcept : bufferPool{bufferPool_}, buffer{buffer_}, length{length_}, ranges{ranges_}, isComplete{isComplete_}, isDisposed{isDisposed_} {}
     // public System.Void .ctor(SmallBufferPool bufferPool)
-    // Offset: 0x12C7D14
+    // Offset: 0x12E2A24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageHandler::MultipartMessageWaiter* New_ctor(GlobalNamespace::SmallBufferPool* bufferPool) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::MultipartMessageWaiter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageHandler::MultipartMessageWaiter*, creationType>(bufferPool)));
     }
     // public System.Void Append(MasterServer.IMasterServerMultipartMessage packet)
-    // Offset: 0x12C7DE4
+    // Offset: 0x12E2AF4
     void Append(MasterServer::IMasterServerMultipartMessage* packet);
     // public System.Boolean get_isWaiting()
-    // Offset: 0x12C8870
+    // Offset: 0x12E3580
     bool get_isWaiting();
     // public System.Byte[] get_data()
-    // Offset: 0x12C8890
+    // Offset: 0x12E35A0
     ::Array<uint8_t>* get_data();
     // public System.Int32 get_length()
-    // Offset: 0x12C8898
+    // Offset: 0x12E35A8
     int get_length();
     // public override System.Void Dispose()
-    // Offset: 0x12C7DA0
+    // Offset: 0x12E2AB0
     // Implemented from: MasterServer.MessageHandler/RequestWaiter
     // Base method: System.Void RequestWaiter::Dispose()
     void Dispose();
@@ -106,5 +106,59 @@ namespace MasterServer {
   #pragma pack(pop)
   static check_size<sizeof(MessageHandler::MultipartMessageWaiter), 49 + sizeof(bool)> __MasterServer_MessageHandler_MultipartMessageWaiterSizeCheck;
   static_assert(sizeof(MessageHandler::MultipartMessageWaiter) == 0x32);
+  // Writing MetadataGetter for method: MessageHandler::MultipartMessageWaiter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::MultipartMessageWaiter::*)(GlobalNamespace::SmallBufferPool*)>(&MessageHandler::MultipartMessageWaiter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SmallBufferPool*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::MultipartMessageWaiter::*)(GlobalNamespace::SmallBufferPool*)>(&MessageHandler::MultipartMessageWaiter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SmallBufferPool*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::MultipartMessageWaiter::Append
+  // Il2CppName: Append
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::MultipartMessageWaiter::*)(MasterServer::IMasterServerMultipartMessage*)>(&MessageHandler::MultipartMessageWaiter::Append)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMultipartMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::MultipartMessageWaiter::get_isWaiting
+  // Il2CppName: get_isWaiting
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::MultipartMessageWaiter::*)()>(&MessageHandler::MultipartMessageWaiter::get_isWaiting)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), "get_isWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::MultipartMessageWaiter::get_data
+  // Il2CppName: get_data
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MessageHandler::MultipartMessageWaiter::*)()>(&MessageHandler::MultipartMessageWaiter::get_data)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::MultipartMessageWaiter::get_length
+  // Il2CppName: get_length
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MessageHandler::MultipartMessageWaiter::*)()>(&MessageHandler::MultipartMessageWaiter::get_length)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: MessageHandler::MultipartMessageWaiter::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::MultipartMessageWaiter::*)()>(&MessageHandler::MultipartMessageWaiter::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MessageHandler::MultipartMessageWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");

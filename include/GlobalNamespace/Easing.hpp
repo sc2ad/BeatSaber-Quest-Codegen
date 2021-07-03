@@ -15,100 +15,348 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: Easing
     Easing() noexcept {}
     // static public System.Single Linear(System.Single t)
-    // Offset: 0x1226278
+    // Offset: 0x1242A10
     static float Linear(float t);
     // static public System.Single InSine(System.Single t)
-    // Offset: 0x122627C
+    // Offset: 0x1242A14
     static float InSine(float t);
     // static public System.Single OutSine(System.Single t)
-    // Offset: 0x1226304
+    // Offset: 0x1242A9C
     static float OutSine(float t);
     // static public System.Single InOutSine(System.Single t)
-    // Offset: 0x1226380
+    // Offset: 0x1242B18
     static float InOutSine(float t);
     // static public System.Single InQuad(System.Single t)
-    // Offset: 0x1226408
+    // Offset: 0x1242BA0
     static float InQuad(float t);
     // static public System.Single OutQuad(System.Single t)
-    // Offset: 0x1226410
+    // Offset: 0x1242BA8
     static float OutQuad(float t);
     // static public System.Single InOutQuad(System.Single t)
-    // Offset: 0x1226424
+    // Offset: 0x1242BBC
     static float InOutQuad(float t);
     // static public System.Single InCubic(System.Single t)
-    // Offset: 0x1226454
+    // Offset: 0x1242BEC
     static float InCubic(float t);
     // static public System.Single OutCubic(System.Single t)
-    // Offset: 0x1226460
+    // Offset: 0x1242BF8
     static float OutCubic(float t);
     // static public System.Single InOutCubic(System.Single t)
-    // Offset: 0x12264DC
+    // Offset: 0x1242C74
     static float InOutCubic(float t);
     // static public System.Single InQuart(System.Single t)
-    // Offset: 0x1226588
+    // Offset: 0x1242D20
     static float InQuart(float t);
     // static public System.Single OutQuart(System.Single t)
-    // Offset: 0x1226598
+    // Offset: 0x1242D30
     static float OutQuart(float t);
     // static public System.Single InOutQuart(System.Single t)
-    // Offset: 0x1226614
+    // Offset: 0x1242DAC
     static float InOutQuart(float t);
     // static public System.Single InQuint(System.Single t)
-    // Offset: 0x12266C4
+    // Offset: 0x1242E5C
     static float InQuint(float t);
     // static public System.Single OutQuint(System.Single t)
-    // Offset: 0x12266D8
+    // Offset: 0x1242E70
     static float OutQuint(float t);
     // static public System.Single InOutQuint(System.Single t)
-    // Offset: 0x1226754
+    // Offset: 0x1242EEC
     static float InOutQuint(float t);
     // static public System.Single InExpo(System.Single t)
-    // Offset: 0x1226808
+    // Offset: 0x1242FA0
     static float InExpo(float t);
     // static public System.Single OutExpo(System.Single t)
-    // Offset: 0x122689C
+    // Offset: 0x1243034
     static float OutExpo(float t);
     // static public System.Single InOutExpo(System.Single t)
-    // Offset: 0x1226924
+    // Offset: 0x12430BC
     static float InOutExpo(float t);
     // static public System.Single InCirc(System.Single t)
-    // Offset: 0x12269FC
+    // Offset: 0x1243194
     static float InCirc(float t);
     // static public System.Single OutCirc(System.Single t)
-    // Offset: 0x1226A88
+    // Offset: 0x1243220
     static float OutCirc(float t);
     // static public System.Single InOutCirc(System.Single t)
-    // Offset: 0x1226B24
+    // Offset: 0x12432BC
     static float InOutCirc(float t);
     // static public System.Single InBack(System.Single t)
-    // Offset: 0x1226C08
+    // Offset: 0x12433A0
     static float InBack(float t);
     // static public System.Single OutBack(System.Single t)
-    // Offset: 0x1226C34
+    // Offset: 0x12433CC
     static float OutBack(float t);
     // static public System.Single InOutBack(System.Single t)
-    // Offset: 0x1226CD8
+    // Offset: 0x1243470
     static float InOutBack(float t);
     // static public System.Single InElastic(System.Single t)
-    // Offset: 0x1226DBC
+    // Offset: 0x1243554
     static float InElastic(float t);
     // static public System.Single OutElastic(System.Single t)
-    // Offset: 0x1226E78
+    // Offset: 0x1243610
     static float OutElastic(float t);
     // static public System.Single InOutElastic(System.Single t)
-    // Offset: 0x1226F38
+    // Offset: 0x12436D0
     static float InOutElastic(float t);
     // static public System.Single InBounce(System.Single t)
-    // Offset: 0x1227068
+    // Offset: 0x1243800
     static float InBounce(float t);
     // static public System.Single OutBounce(System.Single t)
-    // Offset: 0x1227090
+    // Offset: 0x1243828
     static float OutBounce(float t);
     // static public System.Single InOutBounce(System.Single t)
-    // Offset: 0x1227150
+    // Offset: 0x12438E8
     static float InOutBounce(float t);
   }; // Easing
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Easing::Linear
+  // Il2CppName: Linear
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::Linear)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "Linear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InSine
+  // Il2CppName: InSine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InSine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InSine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutSine
+  // Il2CppName: OutSine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutSine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutSine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutSine
+  // Il2CppName: InOutSine
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutSine)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutSine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InQuad
+  // Il2CppName: InQuad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InQuad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutQuad
+  // Il2CppName: OutQuad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutQuad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutQuad
+  // Il2CppName: InOutQuad
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutQuad)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InCubic
+  // Il2CppName: InCubic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InCubic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutCubic
+  // Il2CppName: OutCubic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutCubic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutCubic
+  // Il2CppName: InOutCubic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutCubic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InQuart
+  // Il2CppName: InQuart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InQuart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InQuart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutQuart
+  // Il2CppName: OutQuart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutQuart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutQuart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutQuart
+  // Il2CppName: InOutQuart
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutQuart)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutQuart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InQuint
+  // Il2CppName: InQuint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InQuint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InQuint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutQuint
+  // Il2CppName: OutQuint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutQuint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutQuint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutQuint
+  // Il2CppName: InOutQuint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutQuint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutQuint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InExpo
+  // Il2CppName: InExpo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InExpo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InExpo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutExpo
+  // Il2CppName: OutExpo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutExpo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutExpo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutExpo
+  // Il2CppName: InOutExpo
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutExpo)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutExpo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InCirc
+  // Il2CppName: InCirc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InCirc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InCirc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutCirc
+  // Il2CppName: OutCirc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutCirc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutCirc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutCirc
+  // Il2CppName: InOutCirc
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutCirc)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutCirc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InBack
+  // Il2CppName: InBack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InBack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutBack
+  // Il2CppName: OutBack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutBack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutBack
+  // Il2CppName: InOutBack
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutBack)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InElastic
+  // Il2CppName: InElastic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InElastic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InElastic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutElastic
+  // Il2CppName: OutElastic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutElastic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutElastic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutElastic
+  // Il2CppName: InOutElastic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutElastic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutElastic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InBounce
+  // Il2CppName: InBounce
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InBounce)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InBounce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::OutBounce
+  // Il2CppName: OutBounce
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::OutBounce)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "OutBounce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: Easing::InOutBounce
+  // Il2CppName: InOutBounce
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&Easing::InOutBounce)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Easing*), "InOutBounce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Easing*, "", "Easing");

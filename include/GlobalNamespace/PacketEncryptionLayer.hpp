@@ -91,14 +91,14 @@ namespace GlobalNamespace {
     ::Array<uint8_t>* unencryptedTrafficFilter;
     // Field size check
     static_assert(sizeof(::Array<uint8_t>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFFEC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0F20
     // private System.Boolean <filterUnencryptedTraffic>k__BackingField
     // Size: 0x1
     // Offset: 0x38
     bool filterUnencryptedTraffic;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDEFFFC
+    // [CompilerGeneratedAttribute] Offset: 0xDF0F30
     // private System.Boolean <enableStatistics>k__BackingField
     // Size: 0x1
     // Offset: 0x39
@@ -133,85 +133,85 @@ namespace GlobalNamespace {
     static int64_t _get_kPendingEncryptionStateTimeoutMs();
     // Set static field: static private System.Int64 kPendingEncryptionStateTimeoutMs
     static void _set_kPendingEncryptionStateTimeoutMs(int64_t value);
-    // [ThreadStaticAttribute] Offset: 0xDEFFDC
+    // [ThreadStaticAttribute] Offset: 0xDF0F10
     // Get static field: static private System.Diagnostics.Stopwatch _stopwatch
     static System::Diagnostics::Stopwatch* _get__stopwatch();
     // Set static field: static private System.Diagnostics.Stopwatch _stopwatch
     static void _set__stopwatch(System::Diagnostics::Stopwatch* value);
     // public System.Boolean get_filterUnencryptedTraffic()
-    // Offset: 0x14EAA4C
+    // Offset: 0x150575C
     bool get_filterUnencryptedTraffic();
     // public System.Void set_filterUnencryptedTraffic(System.Boolean value)
-    // Offset: 0x14EAA54
+    // Offset: 0x1505764
     void set_filterUnencryptedTraffic(bool value);
     // public System.Boolean get_enableStatistics()
-    // Offset: 0x14EAA60
+    // Offset: 0x1505770
     bool get_enableStatistics();
     // public System.Void set_enableStatistics(System.Boolean value)
-    // Offset: 0x14EAA68
+    // Offset: 0x1505778
     void set_enableStatistics(bool value);
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider)
-    // Offset: 0x14EAA74
+    // Offset: 0x1505784
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer* New_ctor(MasterServer::ITimeProvider* timeProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketEncryptionLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer*, creationType>(timeProvider)));
     }
     // public System.Void SetUnencryptedTrafficFilter(System.Byte[] unencryptedTrafficFilter)
-    // Offset: 0x14EB434
+    // Offset: 0x1506144
     void SetUnencryptedTrafficFilter(::Array<uint8_t>* unencryptedTrafficFilter);
     // public EncryptionUtility/IEncryptionState AddEncryptedEndpoint(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x14EB43C
+    // Offset: 0x150614C
     GlobalNamespace::EncryptionUtility::IEncryptionState* AddEncryptedEndpoint(System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
     // public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> AddEncryptedEndpointAsync(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x14E13BC
+    // Offset: 0x14FC0CC
     System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* AddEncryptedEndpointAsync(System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
     // public System.Boolean RemoveEncryptedEndpoint(System.Net.IPEndPoint endPoint, EncryptionUtility/IEncryptionState encryptedState)
-    // Offset: 0x14EB570
+    // Offset: 0x1506280
     bool RemoveEncryptedEndpoint(System::Net::IPEndPoint* endPoint, GlobalNamespace::EncryptionUtility::IEncryptionState* encryptedState);
     // public System.Threading.Tasks.Task AddPendingEncryptedEndpointAsync(System.Net.IPEndPoint endPoint, System.Byte[] preMasterSecret, System.Byte[] serverRandom, System.Byte[] clientRandom, System.Boolean isClient)
-    // Offset: 0x14E128C
+    // Offset: 0x14FBF9C
     System::Threading::Tasks::Task* AddPendingEncryptedEndpointAsync(System::Net::IPEndPoint* endPoint, ::Array<uint8_t>* preMasterSecret, ::Array<uint8_t>* serverRandom, ::Array<uint8_t>* clientRandom, bool isClient);
     // public System.Void PollUpdate()
-    // Offset: 0x14EB8F4
+    // Offset: 0x1506604
     void PollUpdate();
     // public System.Void RemoveAllEndpoints()
-    // Offset: 0x14EBA78
+    // Offset: 0x1506788
     void RemoveAllEndpoints();
     // private System.Boolean TryGetEncryptionState(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState state)
-    // Offset: 0x14EBBFC
+    // Offset: 0x150690C
     bool TryGetEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::EncryptionUtility::IEncryptionState*& state);
     // private System.Boolean TryGetPendingEncryptionState(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState state)
-    // Offset: 0x14EBCF4
+    // Offset: 0x1506A04
     bool TryGetPendingEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::EncryptionUtility::IEncryptionState*& state);
     // private System.Boolean TryGetPotentialPendingEncryptionStates(System.Net.IPEndPoint endPoint, out EncryptionUtility/IEncryptionState[] encryptionStates)
-    // Offset: 0x14EBFA0
+    // Offset: 0x1506CB0
     bool TryGetPotentialPendingEncryptionStates(System::Net::IPEndPoint* endPoint, ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*& encryptionStates);
     // private System.Void PromotePendingEncryptionState(System.Net.IPEndPoint endPoint, EncryptionUtility/IEncryptionState state)
-    // Offset: 0x14EC250
+    // Offset: 0x1506F60
     void PromotePendingEncryptionState(System::Net::IPEndPoint* endPoint, GlobalNamespace::EncryptionUtility::IEncryptionState* state);
     // private System.Boolean MatchesFilter(System.Byte[] data, System.Int32 offset, System.Int32 length)
-    // Offset: 0x14EC5E0
+    // Offset: 0x15072F0
     bool MatchesFilter(::Array<uint8_t>* data, int offset, int length);
     // private System.Boolean ProcessInboundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x14EAD08
+    // Offset: 0x1505A18
     bool ProcessInboundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length, bool& encrypted);
     // public System.Boolean ProcessOutBoundPacketInternal(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, out System.Boolean encrypted)
-    // Offset: 0x14EB204
+    // Offset: 0x1505F14
     bool ProcessOutBoundPacketInternal(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length, bool& encrypted);
     // static public System.Void Log(System.String message)
-    // Offset: 0x14EC668
+    // Offset: 0x1507378
     static void Log(::Il2CppString* message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x14EC6F0
+    // Offset: 0x1507400
     static void LogV(::Il2CppString* message);
     // public override System.Void ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x14EAB5C
+    // Offset: 0x150586C
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x14EB06C
+    // Offset: 0x1505D7C
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ::Array<uint8_t>*& data, int& offset, int& length);
@@ -219,5 +219,195 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(PacketEncryptionLayer), 57 + sizeof(bool)> __GlobalNamespace_PacketEncryptionLayerSizeCheck;
   static_assert(sizeof(PacketEncryptionLayer) == 0x3A);
+  // Writing MetadataGetter for method: PacketEncryptionLayer::get_filterUnencryptedTraffic
+  // Il2CppName: get_filterUnencryptedTraffic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)()>(&PacketEncryptionLayer::get_filterUnencryptedTraffic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "get_filterUnencryptedTraffic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::set_filterUnencryptedTraffic
+  // Il2CppName: set_filterUnencryptedTraffic
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(bool)>(&PacketEncryptionLayer::set_filterUnencryptedTraffic)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "set_filterUnencryptedTraffic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::get_enableStatistics
+  // Il2CppName: get_enableStatistics
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)()>(&PacketEncryptionLayer::get_enableStatistics)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "get_enableStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::set_enableStatistics
+  // Il2CppName: set_enableStatistics
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(bool)>(&PacketEncryptionLayer::set_enableStatistics)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "set_enableStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(MasterServer::ITimeProvider*)>(&PacketEncryptionLayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(MasterServer::ITimeProvider*)>(&PacketEncryptionLayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::SetUnencryptedTrafficFilter
+  // Il2CppName: SetUnencryptedTrafficFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(::Array<uint8_t>*)>(&PacketEncryptionLayer::SetUnencryptedTrafficFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "SetUnencryptedTrafficFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::AddEncryptedEndpoint
+  // Il2CppName: AddEncryptedEndpoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&PacketEncryptionLayer::AddEncryptedEndpoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "AddEncryptedEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::AddEncryptedEndpointAsync
+  // Il2CppName: AddEncryptedEndpointAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&PacketEncryptionLayer::AddEncryptedEndpointAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "AddEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::RemoveEncryptedEndpoint
+  // Il2CppName: RemoveEncryptedEndpoint
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&PacketEncryptionLayer::RemoveEncryptedEndpoint)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "RemoveEncryptedEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::AddPendingEncryptedEndpointAsync
+  // Il2CppName: AddPendingEncryptedEndpointAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&PacketEncryptionLayer::AddPendingEncryptedEndpointAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "AddPendingEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::PollUpdate
+  // Il2CppName: PollUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)()>(&PacketEncryptionLayer::PollUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::RemoveAllEndpoints
+  // Il2CppName: RemoveAllEndpoints
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)()>(&PacketEncryptionLayer::RemoveAllEndpoints)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "RemoveAllEndpoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::TryGetEncryptionState
+  // Il2CppName: TryGetEncryptionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*&)>(&PacketEncryptionLayer::TryGetEncryptionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "TryGetEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::TryGetPendingEncryptionState
+  // Il2CppName: TryGetPendingEncryptionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*&)>(&PacketEncryptionLayer::TryGetPendingEncryptionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "TryGetPendingEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates
+  // Il2CppName: TryGetPotentialPendingEncryptionStates
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*&)>(&PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "TryGetPotentialPendingEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::PromotePendingEncryptionState
+  // Il2CppName: PromotePendingEncryptionState
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&PacketEncryptionLayer::PromotePendingEncryptionState)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "PromotePendingEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EncryptionUtility::IEncryptionState*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::MatchesFilter
+  // Il2CppName: MatchesFilter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(::Array<uint8_t>*, int, int)>(&PacketEncryptionLayer::MatchesFilter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "MatchesFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::ProcessInboundPacketInternal
+  // Il2CppName: ProcessInboundPacketInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&, bool&)>(&PacketEncryptionLayer::ProcessInboundPacketInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "ProcessInboundPacketInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::ProcessOutBoundPacketInternal
+  // Il2CppName: ProcessOutBoundPacketInternal
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&, bool&)>(&PacketEncryptionLayer::ProcessOutBoundPacketInternal)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "ProcessOutBoundPacketInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::Log
+  // Il2CppName: Log
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PacketEncryptionLayer::Log)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::LogV
+  // Il2CppName: LogV
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PacketEncryptionLayer::LogV)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "LogV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::ProcessInboundPacket
+  // Il2CppName: ProcessInboundPacket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&PacketEncryptionLayer::ProcessInboundPacket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: PacketEncryptionLayer::ProcessOutBoundPacket
+  // Il2CppName: ProcessOutBoundPacket
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&PacketEncryptionLayer::ProcessOutBoundPacket)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(PacketEncryptionLayer*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer*, "", "PacketEncryptionLayer");

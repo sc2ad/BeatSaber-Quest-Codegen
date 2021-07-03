@@ -61,21 +61,21 @@ namespace OnlineServices {
     public:
     // Nested type: OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14
     struct $GetLeaderboardEntriesAsync$d__14;
-    // [InjectAttribute] Offset: 0xE29890
+    // [InjectAttribute] Offset: 0xE298D4
     // private readonly HTTPLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HTTPLeaderboardsModel*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE298A0
+    // [CompilerGeneratedAttribute] Offset: 0xE298E4
     // private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*) == 0x8);
-    // [CompilerGeneratedAttribute] Offset: 0xE298B0
+    // [CompilerGeneratedAttribute] Offset: 0xE298F4
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x28
@@ -107,40 +107,40 @@ namespace OnlineServices {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // public System.Void add_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x11DB1C0
+    // Offset: 0x11F5B14
     void add_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void remove_platformServicesAvailabilityInfoChangedEvent(System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> value)
-    // Offset: 0x11DB264
+    // Offset: 0x11F5BB8
     void remove_platformServicesAvailabilityInfoChangedEvent(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* value);
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x11DB308
+    // Offset: 0x11F5C5C
     void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
-    // Offset: 0x11DB3AC
+    // Offset: 0x11F5D00
     void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
     // public System.Boolean get_initialized()
-    // Offset: 0x11DB450
+    // Offset: 0x11F5DA4
     bool get_initialized();
     // public System.Void Init()
-    // Offset: 0x11DB458
+    // Offset: 0x11F5DAC
     void Init();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x11DB580
+    // Offset: 0x11F5ED4
     ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.LeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11DB5AC
+    // Offset: 0x11F5F00
     System::Threading::Tasks::Task_1<OnlineServices::LeaderboardEntriesResult*>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
-    // Offset: 0x11DB6D8
+    // Offset: 0x11F602C
     void SendLevelScoreResult(OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // private System.Void <Init>b__12_0(OnlineServices.PlatformServicesAvailabilityInfo availabilityInfo)
-    // Offset: 0x11DB734
+    // Offset: 0x11F6088
     void $Init$b__12_0(OnlineServices::PlatformServicesAvailabilityInfo* availabilityInfo);
     // private System.Void <Init>b__12_1(System.String leaderboardId)
-    // Offset: 0x11DB7A8
+    // Offset: 0x11F60FC
     void $Init$b__12_1(::Il2CppString* leaderboardId);
     // public System.Void .ctor()
-    // Offset: 0x11DB72C
+    // Offset: 0x11F6080
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -156,5 +156,107 @@ namespace OnlineServices {
   #pragma pack(pop)
   static check_size<sizeof(ServerManager), 64 + sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_ServerManagerSizeCheck;
   static_assert(sizeof(ServerManager) == 0x48);
+  // Writing MetadataGetter for method: ServerManager::add_platformServicesAvailabilityInfoChangedEvent
+  // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&ServerManager::add_platformServicesAvailabilityInfoChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "add_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::remove_platformServicesAvailabilityInfoChangedEvent
+  // Il2CppName: remove_platformServicesAvailabilityInfoChangedEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&ServerManager::remove_platformServicesAvailabilityInfoChangedEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "remove_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::add_scoreForLeaderboardDidUploadEvent
+  // Il2CppName: add_scoreForLeaderboardDidUploadEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(System::Action_1<::Il2CppString*>*)>(&ServerManager::add_scoreForLeaderboardDidUploadEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::remove_scoreForLeaderboardDidUploadEvent
+  // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(System::Action_1<::Il2CppString*>*)>(&ServerManager::remove_scoreForLeaderboardDidUploadEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::get_initialized
+  // Il2CppName: get_initialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServerManager::*)()>(&ServerManager::get_initialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "get_initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::Init
+  // Il2CppName: Init
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)()>(&ServerManager::Init)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::GetLeaderboardId
+  // Il2CppName: GetLeaderboardId
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ServerManager::*)(GlobalNamespace::IDifficultyBeatmap*)>(&ServerManager::GetLeaderboardId)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::GetLeaderboardEntriesAsync
+  // Il2CppName: GetLeaderboardEntriesAsync
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::LeaderboardEntriesResult*>* (ServerManager::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&ServerManager::GetLeaderboardEntriesAsync)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::SendLevelScoreResult
+  // Il2CppName: SendLevelScoreResult
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(OnlineServices::LevelScoreResultsData)>(&ServerManager::SendLevelScoreResult)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "SendLevelScoreResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::$Init$b__12_0
+  // Il2CppName: <Init>b__12_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(OnlineServices::PlatformServicesAvailabilityInfo*)>(&ServerManager::$Init$b__12_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "<Init>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::PlatformServicesAvailabilityInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::$Init$b__12_1
+  // Il2CppName: <Init>b__12_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)(::Il2CppString*)>(&ServerManager::$Init$b__12_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), "<Init>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServerManager::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)()>(&ServerManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerManager::*)()>(&ServerManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager*, "OnlineServices", "ServerManager");

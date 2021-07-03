@@ -36,15 +36,15 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::LookAtIK*) == 0x8);
-    // [HeaderAttribute] Offset: 0xE09B30
-    // [TooltipAttribute] Offset: 0xE09B30
+    // [HeaderAttribute] Offset: 0xE0AB2C
+    // [TooltipAttribute] Offset: 0xE0AB2C
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Transform* target;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0xE09B90
+    // [RangeAttribute] Offset: 0xE0AB8C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x28
@@ -57,22 +57,22 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE09BA8
+    // [TooltipAttribute] Offset: 0xE0ABA4
     // public System.Single targetSwitchSmoothTime
     // Size: 0x4
     // Offset: 0x38
     float targetSwitchSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE09BE0
+    // [TooltipAttribute] Offset: 0xE0ABDC
     // public System.Single weightSmoothTime
     // Size: 0x4
     // Offset: 0x3C
     float weightSmoothTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE09C18
-    // [TooltipAttribute] Offset: 0xE09C18
+    // [HeaderAttribute] Offset: 0xE0AC14
+    // [TooltipAttribute] Offset: 0xE0AC14
     // public System.Boolean smoothTurnTowardsTarget
     // Size: 0x1
     // Offset: 0x40
@@ -81,44 +81,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: smoothTurnTowardsTarget and: maxRadiansDelta
     char __padding6[0x3] = {};
-    // [TooltipAttribute] Offset: 0xE09C78
+    // [TooltipAttribute] Offset: 0xE0AC74
     // public System.Single maxRadiansDelta
     // Size: 0x4
     // Offset: 0x44
     float maxRadiansDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE09CB0
+    // [TooltipAttribute] Offset: 0xE0ACAC
     // public System.Single maxMagnitudeDelta
     // Size: 0x4
     // Offset: 0x48
     float maxMagnitudeDelta;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE09CE8
+    // [TooltipAttribute] Offset: 0xE0ACE4
     // public System.Single slerpSpeed
     // Size: 0x4
     // Offset: 0x4C
     float slerpSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xE09D20
+    // [TooltipAttribute] Offset: 0xE0AD1C
     // public UnityEngine.Vector3 pivotOffsetFromRoot
     // Size: 0xC
     // Offset: 0x50
     UnityEngine::Vector3 pivotOffsetFromRoot;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xE09D58
+    // [TooltipAttribute] Offset: 0xE0AD54
     // public System.Single minDistance
     // Size: 0x4
     // Offset: 0x5C
     float minDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0xE09D90
-    // [TooltipAttribute] Offset: 0xE09D90
-    // [RangeAttribute] Offset: 0xE09D90
+    // [HeaderAttribute] Offset: 0xE0AD8C
+    // [TooltipAttribute] Offset: 0xE0AD8C
+    // [RangeAttribute] Offset: 0xE0AD8C
     // public System.Single maxRootAngle
     // Size: 0x4
     // Offset: 0x60
@@ -174,22 +174,22 @@ namespace RootMotion::FinalIK {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // private System.Void Start()
-    // Offset: 0x1A860D4
+    // Offset: 0x1A9FDE4
     void Start();
     // private System.Void LateUpdate()
-    // Offset: 0x1A86308
+    // Offset: 0x1AA0018
     void LateUpdate();
     // private UnityEngine.Vector3 get_pivot()
-    // Offset: 0x1A861BC
+    // Offset: 0x1A9FECC
     UnityEngine::Vector3 get_pivot();
     // private System.Void ApplyMinDistance()
-    // Offset: 0x1A869BC
+    // Offset: 0x1AA06CC
     void ApplyMinDistance();
     // private System.Void RootRotation()
-    // Offset: 0x1A86B58
+    // Offset: 0x1AA0868
     void RootRotation();
     // public System.Void .ctor()
-    // Offset: 0x1A86E74
+    // Offset: 0x1AA0B84
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -205,5 +205,59 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(LookAtController), 148 + sizeof(bool)> __RootMotion_FinalIK_LookAtControllerSizeCheck;
   static_assert(sizeof(LookAtController) == 0x95);
+  // Writing MetadataGetter for method: LookAtController::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LookAtController::LateUpdate
+  // Il2CppName: LateUpdate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::LateUpdate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LookAtController::get_pivot
+  // Il2CppName: get_pivot
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (LookAtController::*)()>(&LookAtController::get_pivot)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LookAtController::ApplyMinDistance
+  // Il2CppName: ApplyMinDistance
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::ApplyMinDistance)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LookAtController::RootRotation
+  // Il2CppName: RootRotation
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::RootRotation)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: LookAtController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LookAtController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");

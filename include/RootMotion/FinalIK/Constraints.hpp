@@ -49,7 +49,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xE06DBC
+    // [RangeAttribute] Offset: 0xE07DB8
     // public System.Single positionWeight
     // Size: 0x4
     // Offset: 0x38
@@ -68,7 +68,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xE06DD4
+    // [RangeAttribute] Offset: 0xE07DD0
     // public System.Single rotationWeight
     // Size: 0x4
     // Offset: 0x54
@@ -78,16 +78,16 @@ namespace RootMotion::FinalIK {
     // Creating value type constructor for type: Constraints
     Constraints(UnityEngine::Transform* transform_ = {}, UnityEngine::Transform* target_ = {}, UnityEngine::Vector3 positionOffset_ = {}, UnityEngine::Vector3 position_ = {}, float positionWeight_ = {}, UnityEngine::Vector3 rotationOffset_ = {}, UnityEngine::Vector3 rotation_ = {}, float rotationWeight_ = {}) noexcept : transform{transform_}, target{target_}, positionOffset{positionOffset_}, position{position_}, positionWeight{positionWeight_}, rotationOffset{rotationOffset_}, rotation{rotation_}, rotationWeight{rotationWeight_} {}
     // public System.Boolean IsValid()
-    // Offset: 0x1C95398
+    // Offset: 0x1CB10A8
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
-    // Offset: 0x1C93E1C
+    // Offset: 0x1CAFB2C
     void Initiate(UnityEngine::Transform* transform);
     // public System.Void Update()
-    // Offset: 0x1C93FF8
+    // Offset: 0x1CAFD08
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1C94720
+    // Offset: 0x1CB0430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,5 +99,43 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
   static check_size<sizeof(Constraints), 84 + sizeof(float)> __RootMotion_FinalIK_ConstraintsSizeCheck;
   static_assert(sizeof(Constraints) == 0x58);
+  // Writing MetadataGetter for method: Constraints::IsValid
+  // Il2CppName: IsValid
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Constraints::*)()>(&Constraints::IsValid)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraints*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraints::Initiate
+  // Il2CppName: Initiate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraints::*)(UnityEngine::Transform*)>(&Constraints::Initiate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraints*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Constraints::Update
+  // Il2CppName: Update
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraints::*)()>(&Constraints::Update)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraints*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Constraints::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraints::*)()>(&Constraints::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraints*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraints::*)()>(&Constraints::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Constraints*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");

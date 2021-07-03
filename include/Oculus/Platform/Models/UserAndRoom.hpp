@@ -33,7 +33,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0xE00620
+    // [ObsoleteAttribute] Offset: 0xE0161C
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x18
@@ -49,7 +49,7 @@ namespace Oculus::Platform::Models {
     // Creating value type constructor for type: UserAndRoom
     UserAndRoom(Oculus::Platform::Models::Room* RoomOptional_ = {}, Oculus::Platform::Models::Room* Room_ = {}, Oculus::Platform::Models::User* User_ = {}) noexcept : RoomOptional{RoomOptional_}, Room{Room_}, User{User_} {}
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x14BC8E8
+    // Offset: 0x14D75F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAndRoom* New_ctor(System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserAndRoom::.ctor");
@@ -59,5 +59,19 @@ namespace Oculus::Platform::Models {
   #pragma pack(pop)
   static check_size<sizeof(UserAndRoom), 32 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_UserAndRoomSizeCheck;
   static_assert(sizeof(UserAndRoom) == 0x28);
+  // Writing MetadataGetter for method: UserAndRoom::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserAndRoom::*)(System::IntPtr)>(&UserAndRoom::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserAndRoom*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserAndRoom::*)(System::IntPtr)>(&UserAndRoom::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(UserAndRoom*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoom*, "Oculus.Platform.Models", "UserAndRoom");

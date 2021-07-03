@@ -63,21 +63,51 @@ namespace GlobalNamespace {
       return beatmapLevelsModel;
     }
     // public System.Void .ctor(BeatmapLevelsModel beatmapLevelsModel)
-    // Offset: 0x1059EAC
+    // Offset: 0x109E56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader* New_ctor(GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockBeatmapLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader*, creationType>(beatmapLevelsModel)));
     }
     // public System.Threading.Tasks.Task`1<MockBeatmapData> GetBeatmapData(BeatmapIdentifierNetSerializable beatmap, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1059ED8
+    // Offset: 0x109E598
     System::Threading::Tasks::Task_1<GlobalNamespace::MockBeatmapData*>* GetBeatmapData(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap, System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
-    // Offset: 0x1059FF0
+    // Offset: 0x109E6B0
     void Dispose();
   }; // MockBeatmapLoader
   #pragma pack(pop)
   static check_size<sizeof(MockBeatmapLoader), 16 + sizeof(GlobalNamespace::BeatmapLevelsModel*)> __GlobalNamespace_MockBeatmapLoaderSizeCheck;
   static_assert(sizeof(MockBeatmapLoader) == 0x18);
+  // Writing MetadataGetter for method: MockBeatmapLoader::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapLoader::*)(GlobalNamespace::BeatmapLevelsModel*)>(&MockBeatmapLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapLoader::*)(GlobalNamespace::BeatmapLevelsModel*)>(&MockBeatmapLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockBeatmapLoader::GetBeatmapData
+  // Il2CppName: GetBeatmapData
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MockBeatmapData*>* (MockBeatmapLoader::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, System::Threading::CancellationToken)>(&MockBeatmapLoader::GetBeatmapData)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapLoader*), "GetBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    }
+  };
+  // Writing MetadataGetter for method: MockBeatmapLoader::Dispose
+  // Il2CppName: Dispose
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapLoader::*)()>(&MockBeatmapLoader::Dispose)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MockBeatmapLoader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader*, "", "MockBeatmapLoader");

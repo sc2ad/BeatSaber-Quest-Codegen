@@ -61,5 +61,11 @@ namespace Zenject {
     }
   }; // Zenject.ZenjectMoqExtensions
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ZenjectMoqExtensions::FromMock
+  // Il2CppName: FromMock
+  // Cannot write MetadataGetter for generic methods!
+  // Writing MetadataGetter for method: ZenjectMoqExtensions::FromMock
+  // Il2CppName: FromMock
+  // Cannot write MetadataGetter for generic methods!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");

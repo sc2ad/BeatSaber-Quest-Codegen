@@ -34,12 +34,12 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: ColorManagerInstaller
     ColorManagerInstaller(GlobalNamespace::ColorSchemeSO* menuColorScheme_ = {}) noexcept : menuColorScheme{menuColorScheme_} {}
     // public override System.Void InstallBindings()
-    // Offset: 0x1092E30
+    // Offset: 0x1190F74
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();
     // public System.Void .ctor()
-    // Offset: 0x1092ED8
+    // Offset: 0x119101C
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -57,5 +57,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(ColorManagerInstaller), 32 + sizeof(GlobalNamespace::ColorSchemeSO*)> __GlobalNamespace_ColorManagerInstallerSizeCheck;
   static_assert(sizeof(ColorManagerInstaller) == 0x28);
+  // Writing MetadataGetter for method: ColorManagerInstaller::InstallBindings
+  // Il2CppName: InstallBindings
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManagerInstaller::*)()>(&ColorManagerInstaller::InstallBindings)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorManagerInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ColorManagerInstaller::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManagerInstaller::*)()>(&ColorManagerInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorManagerInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorManagerInstaller::*)()>(&ColorManagerInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ColorManagerInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManagerInstaller*, "", "ColorManagerInstaller");

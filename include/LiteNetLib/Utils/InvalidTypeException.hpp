@@ -21,7 +21,7 @@ namespace LiteNetLib::Utils {
     // Creating value type constructor for type: InvalidTypeException
     InvalidTypeException() noexcept {}
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1B2F95C
+    // Offset: 0x1B4B66C
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -33,5 +33,19 @@ namespace LiteNetLib::Utils {
     }
   }; // LiteNetLib.Utils.InvalidTypeException
   #pragma pack(pop)
+  // Writing MetadataGetter for method: InvalidTypeException::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InvalidTypeException::*)(::Il2CppString*)>(&InvalidTypeException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InvalidTypeException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InvalidTypeException::*)(::Il2CppString*)>(&InvalidTypeException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(InvalidTypeException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");

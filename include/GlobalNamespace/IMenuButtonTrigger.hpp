@@ -28,6 +28,22 @@ namespace GlobalNamespace {
     void remove_menuButtonTriggeredEvent(System::Action* value);
   }; // IMenuButtonTrigger
   #pragma pack(pop)
+  // Writing MetadataGetter for method: IMenuButtonTrigger::add_menuButtonTriggeredEvent
+  // Il2CppName: add_menuButtonTriggeredEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMenuButtonTrigger::*)(System::Action*)>(&IMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMenuButtonTrigger*), "add_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: IMenuButtonTrigger::remove_menuButtonTriggeredEvent
+  // Il2CppName: remove_menuButtonTriggeredEvent
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMenuButtonTrigger::*)(System::Action*)>(&IMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(IMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMenuButtonTrigger*, "", "IMenuButtonTrigger");

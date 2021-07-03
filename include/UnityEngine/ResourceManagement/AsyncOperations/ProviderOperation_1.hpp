@@ -141,7 +141,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     bool m_NeedsRelease;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [CompilerGeneratedAttribute] Offset: 0xDFB280
+    // [CompilerGeneratedAttribute] Offset: 0xDFD27C
     // private System.Int32 <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash>k__BackingField
     // Size: 0x4
     // Offset: 0x0

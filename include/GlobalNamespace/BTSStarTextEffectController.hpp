@@ -76,13 +76,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kAnimationName
     static void _set_kAnimationName(::Il2CppString* value);
     // public System.Single get_animationDuration()
-    // Offset: 0x11373CC
+    // Offset: 0x113CC34
     float get_animationDuration();
     // private System.Void Reinitialize(UnityEngine.Sprite sprite, UnityEngine.Transform parentTransform, System.Single desiredAnimationLength)
-    // Offset: 0x11373D4
+    // Offset: 0x113CC3C
     void Reinitialize(UnityEngine::Sprite* sprite, UnityEngine::Transform* parentTransform, float desiredAnimationLength);
     // public System.Void .ctor()
-    // Offset: 0x11374E4
+    // Offset: 0x113CD4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -98,5 +98,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BTSStarTextEffectController), 48 + sizeof(float)> __GlobalNamespace_BTSStarTextEffectControllerSizeCheck;
   static_assert(sizeof(BTSStarTextEffectController) == 0x34);
+  // Writing MetadataGetter for method: BTSStarTextEffectController::get_animationDuration
+  // Il2CppName: get_animationDuration
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BTSStarTextEffectController::*)()>(&BTSStarTextEffectController::get_animationDuration)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController*), "get_animationDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BTSStarTextEffectController::Reinitialize
+  // Il2CppName: Reinitialize
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEffectController::*)(UnityEngine::Sprite*, UnityEngine::Transform*, float)>(&BTSStarTextEffectController::Reinitialize)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController*), "Reinitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: BTSStarTextEffectController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEffectController::*)()>(&BTSStarTextEffectController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEffectController::*)()>(&BTSStarTextEffectController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BTSStarTextEffectController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController*, "", "BTSStarTextEffectController");

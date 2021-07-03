@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: LocalizedCustomPackName
     LocalizedCustomPackName(::Il2CppString* language_ = {}, ::Il2CppString* packName_ = {}) noexcept : language{language_}, packName{packName_} {}
     // public System.Void .ctor()
-    // Offset: 0x10DBB98
+    // Offset: 0x2406D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,5 +45,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackNameSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName) == 0x20);
+  // Writing MetadataGetter for method: MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::*)()>(&MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName");

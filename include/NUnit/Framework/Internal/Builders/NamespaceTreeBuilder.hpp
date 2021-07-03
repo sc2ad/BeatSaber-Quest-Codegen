@@ -49,33 +49,95 @@ namespace NUnit::Framework::Internal::Builders {
     // Creating value type constructor for type: NamespaceTreeBuilder
     NamespaceTreeBuilder(System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>* namespaceSuites_ = {}, NUnit::Framework::Internal::TestSuite* rootSuite_ = {}) noexcept : namespaceSuites{namespaceSuites_}, rootSuite{rootSuite_} {}
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite rootSuite)
-    // Offset: 0x17093E0
+    // Offset: 0x17210F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceTreeBuilder* New_ctor(NUnit::Framework::Internal::TestSuite* rootSuite) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceTreeBuilder*, creationType>(rootSuite)));
     }
     // public NUnit.Framework.Internal.TestSuite get_RootSuite()
-    // Offset: 0x170970C
+    // Offset: 0x172141C
     NUnit::Framework::Internal::TestSuite* get_RootSuite();
     // public System.Void Add(System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
-    // Offset: 0x1709464
+    // Offset: 0x1721174
     void Add(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void Add(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x171CC60
+    // Offset: 0x1734970
     void Add(NUnit::Framework::Internal::TestSuite* fixture);
     // static private System.String GetNamespaceForFixture(NUnit.Framework.Internal.TestSuite fixture)
-    // Offset: 0x171CD30
+    // Offset: 0x1734A40
     static ::Il2CppString* GetNamespaceForFixture(NUnit::Framework::Internal::TestSuite* fixture);
     // private NUnit.Framework.Internal.TestSuite BuildFromNameSpace(System.String ns)
-    // Offset: 0x171CE3C
+    // Offset: 0x1734B4C
     NUnit::Framework::Internal::TestSuite* BuildFromNameSpace(::Il2CppString* ns);
     // private System.Void AddSetUpFixture(NUnit.Framework.Internal.TestSuite newSetupFixture, NUnit.Framework.Internal.TestSuite containingSuite, System.String ns)
-    // Offset: 0x171CFF4
+    // Offset: 0x1734D04
     void AddSetUpFixture(NUnit::Framework::Internal::TestSuite* newSetupFixture, NUnit::Framework::Internal::TestSuite* containingSuite, ::Il2CppString* ns);
   }; // NUnit.Framework.Internal.Builders.NamespaceTreeBuilder
   #pragma pack(pop)
   static check_size<sizeof(NamespaceTreeBuilder), 24 + sizeof(NUnit::Framework::Internal::TestSuite*)> __NUnit_Framework_Internal_Builders_NamespaceTreeBuilderSizeCheck;
   static_assert(sizeof(NamespaceTreeBuilder) == 0x20);
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*)>(&NamespaceTreeBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*)>(&NamespaceTreeBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::get_RootSuite
+  // Il2CppName: get_RootSuite
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NamespaceTreeBuilder::*)()>(&NamespaceTreeBuilder::get_RootSuite)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), "get_RootSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamespaceTreeBuilder::*)(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NamespaceTreeBuilder::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*)>(&NamespaceTreeBuilder::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::GetNamespaceForFixture
+  // Il2CppName: GetNamespaceForFixture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Internal::TestSuite*)>(&NamespaceTreeBuilder::GetNamespaceForFixture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), "GetNamespaceForFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::BuildFromNameSpace
+  // Il2CppName: BuildFromNameSpace
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NamespaceTreeBuilder::*)(::Il2CppString*)>(&NamespaceTreeBuilder::BuildFromNameSpace)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), "BuildFromNameSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: NamespaceTreeBuilder::AddSetUpFixture
+  // Il2CppName: AddSetUpFixture
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Internal::TestSuite*, ::Il2CppString*)>(&NamespaceTreeBuilder::AddSetUpFixture)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(NamespaceTreeBuilder*), "AddSetUpFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");

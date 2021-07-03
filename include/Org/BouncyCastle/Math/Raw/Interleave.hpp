@@ -15,22 +15,62 @@ namespace Org::BouncyCastle::Math::Raw {
     // Creating value type constructor for type: Interleave
     Interleave() noexcept {}
     // static System.UInt32 Expand8to16(System.UInt32 x)
-    // Offset: 0x1D17C2C
+    // Offset: 0x1D3393C
     static uint Expand8to16(uint x);
     // static System.UInt64 Expand32to64(System.UInt32 x)
-    // Offset: 0x1D17C4C
+    // Offset: 0x1D3395C
     static uint64_t Expand32to64(uint x);
     // static System.Void Expand64To128(System.UInt64 x, System.UInt64[] z, System.Int32 zOff)
-    // Offset: 0x1D17CA4
+    // Offset: 0x1D339B4
     static void Expand64To128(uint64_t x, ::Array<uint64_t>* z, int zOff);
     // static System.UInt32 Shuffle2(System.UInt32 x)
-    // Offset: 0x1D139C0
+    // Offset: 0x1D2F6D0
     static uint Shuffle2(uint x);
     // static System.UInt64 Unshuffle(System.UInt64 x)
-    // Offset: 0x1D17D58
+    // Offset: 0x1D33A68
     static uint64_t Unshuffle(uint64_t x);
   }; // Org.BouncyCastle.Math.Raw.Interleave
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Interleave::Expand8to16
+  // Il2CppName: Expand8to16
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&Interleave::Expand8to16)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interleave*), "Expand8to16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interleave::Expand32to64
+  // Il2CppName: Expand32to64
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint)>(&Interleave::Expand32to64)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interleave*), "Expand32to64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interleave::Expand64To128
+  // Il2CppName: Expand64To128
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint64_t>*, int)>(&Interleave::Expand64To128)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interleave*), "Expand64To128", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interleave::Shuffle2
+  // Il2CppName: Shuffle2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&Interleave::Shuffle2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interleave*), "Shuffle2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    }
+  };
+  // Writing MetadataGetter for method: Interleave::Unshuffle
+  // Il2CppName: Unshuffle
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&Interleave::Unshuffle)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Interleave*), "Unshuffle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");

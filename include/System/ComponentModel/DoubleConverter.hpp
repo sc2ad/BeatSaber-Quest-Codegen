@@ -21,7 +21,7 @@ namespace System::ComponentModel {
     // Creating value type constructor for type: DoubleConverter
     DoubleConverter() noexcept {}
     // public System.Void .ctor()
-    // Offset: 0x1850074
+    // Offset: 0x1867D84
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -33,5 +33,19 @@ namespace System::ComponentModel {
     }
   }; // System.ComponentModel.DoubleConverter
   #pragma pack(pop)
+  // Writing MetadataGetter for method: DoubleConverter::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DoubleConverter::*)()>(&DoubleConverter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DoubleConverter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DoubleConverter::*)()>(&DoubleConverter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(DoubleConverter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DoubleConverter*, "System.ComponentModel", "DoubleConverter");

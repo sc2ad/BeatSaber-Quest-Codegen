@@ -19,13 +19,29 @@ namespace Org::BouncyCastle::Utilities {
     // Set static field: static private System.Int64 NanosecondsPerTick
     static void _set_NanosecondsPerTick(int64_t value);
     // static public System.Int64 NanoTime()
-    // Offset: 0x1F734AC
+    // Offset: 0x1F8D208
     static int64_t NanoTime();
     // static private System.Void .cctor()
-    // Offset: 0x1F73564
+    // Offset: 0x1F8D2C0
     static void _cctor();
   }; // Org.BouncyCastle.Utilities.Times
   #pragma pack(pop)
+  // Writing MetadataGetter for method: Times::NanoTime
+  // Il2CppName: NanoTime
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&Times::NanoTime)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Times*), "NanoTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Times::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Times::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Times*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Times*, "Org.BouncyCastle.Utilities", "Times");

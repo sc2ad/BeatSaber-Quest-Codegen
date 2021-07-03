@@ -50,16 +50,16 @@ namespace TMPro {
     // Creating value type constructor for type: FastAction
     FastAction(System::Collections::Generic::LinkedList_1<System::Action*>* delegates_ = {}, System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup_ = {}) noexcept : delegates{delegates_}, lookup{lookup_} {}
     // public System.Void Add(System.Action rhs)
-    // Offset: 0x1108454
+    // Offset: 0x10E32D0
     void Add(System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0x1108510
+    // Offset: 0x10E338C
     void Remove(System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0x11085C0
+    // Offset: 0x10E343C
     void Call();
     // public System.Void .ctor()
-    // Offset: 0x1108640
+    // Offset: 0x10E34BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,5 +71,43 @@ namespace TMPro {
   #pragma pack(pop)
   static check_size<sizeof(FastAction), 24 + sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*)> __TMPro_FastActionSizeCheck;
   static_assert(sizeof(FastAction) == 0x20);
+  // Writing MetadataGetter for method: FastAction::Add
+  // Il2CppName: Add
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastAction::*)(System::Action*)>(&FastAction::Add)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FastAction*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FastAction::Remove
+  // Il2CppName: Remove
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastAction::*)(System::Action*)>(&FastAction::Remove)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FastAction*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    }
+  };
+  // Writing MetadataGetter for method: FastAction::Call
+  // Il2CppName: Call
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastAction::*)()>(&FastAction::Call)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FastAction*), "Call", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: FastAction::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastAction::*)()>(&FastAction::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FastAction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FastAction::*)()>(&FastAction::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(FastAction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");

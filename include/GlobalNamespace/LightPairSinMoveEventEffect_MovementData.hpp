@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Creating value type constructor for type: MovementData
     MovementData(bool enabled_ = {}, float speed_ = {}, UnityEngine::Vector3 startPosition_ = {}, UnityEngine::Transform* transform_ = {}, float startMovementValue_ = {}, float movementValue_ = {}, float side_ = {}) noexcept : enabled{enabled_}, speed{speed_}, startPosition{startPosition_}, transform{transform_}, startMovementValue{startMovementValue_}, movementValue{movementValue_}, side{side_} {}
     // public System.Void .ctor()
-    // Offset: 0x11FF9DC
+    // Offset: 0x1203400
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,5 +88,19 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(LightPairSinMoveEventEffect::MovementData), 56 + sizeof(float)> __GlobalNamespace_LightPairSinMoveEventEffect_MovementDataSizeCheck;
   static_assert(sizeof(LightPairSinMoveEventEffect::MovementData) == 0x3C);
+  // Writing MetadataGetter for method: LightPairSinMoveEventEffect::MovementData::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::MovementData::*)()>(&LightPairSinMoveEventEffect::MovementData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect::MovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::MovementData::*)()>(&LightPairSinMoveEventEffect::MovementData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect::MovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, "", "LightPairSinMoveEventEffect/MovementData");

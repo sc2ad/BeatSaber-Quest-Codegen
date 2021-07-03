@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FloatSO* roomRotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE26984
+    // [SpaceAttribute] Offset: 0xE269C8
     // private StepValuePicker _xStepValuePicker
     // Size: 0x8
     // Offset: 0x80
@@ -102,51 +102,51 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kRotationStep
     static void _set_kRotationStep(float value);
     // private System.Void Move(UnityEngine.Vector3 move)
-    // Offset: 0x10AF3E8
+    // Offset: 0x10B26C4
     void Move(UnityEngine::Vector3 move);
     // private System.Void Rotate(System.Single rotation)
-    // Offset: 0x10AF4B8
+    // Offset: 0x10B2794
     void Rotate(float rotation);
     // private System.Void ResetRoom()
-    // Offset: 0x10AF53C
+    // Offset: 0x10B2818
     void ResetRoom();
     // private System.Void RefreshTexts()
-    // Offset: 0x10AF26C
+    // Offset: 0x10B2548
     void RefreshTexts();
     // private System.Void <DidActivate>b__10_0()
-    // Offset: 0x10AF5F8
+    // Offset: 0x10B28D4
     void $DidActivate$b__10_0();
     // private System.Void <DidActivate>b__10_1()
-    // Offset: 0x10AF650
+    // Offset: 0x10B292C
     void $DidActivate$b__10_1();
     // private System.Void <DidActivate>b__10_2()
-    // Offset: 0x10AF6A8
+    // Offset: 0x10B2984
     void $DidActivate$b__10_2();
     // private System.Void <DidActivate>b__10_3()
-    // Offset: 0x10AF700
+    // Offset: 0x10B29DC
     void $DidActivate$b__10_3();
     // private System.Void <DidActivate>b__10_4()
-    // Offset: 0x10AF758
+    // Offset: 0x10B2A34
     void $DidActivate$b__10_4();
     // private System.Void <DidActivate>b__10_5()
-    // Offset: 0x10AF7B0
+    // Offset: 0x10B2A8C
     void $DidActivate$b__10_5();
     // private System.Void <DidActivate>b__10_6()
-    // Offset: 0x10AF808
+    // Offset: 0x10B2AE4
     void $DidActivate$b__10_6();
     // private System.Void <DidActivate>b__10_7()
-    // Offset: 0x10AF810
+    // Offset: 0x10B2AEC
     void $DidActivate$b__10_7();
     // private System.Void <DidActivate>b__10_8()
-    // Offset: 0x10AF818
+    // Offset: 0x10B2AF4
     void $DidActivate$b__10_8();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x10AEFE8
+    // Offset: 0x10B22C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // public System.Void .ctor()
-    // Offset: 0x10AF5F0
+    // Offset: 0x10B28CC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -163,5 +163,131 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(RoomAdjustSettingsViewController), 160 + sizeof(UnityEngine::UI::Button*)> __GlobalNamespace_RoomAdjustSettingsViewControllerSizeCheck;
   static_assert(sizeof(RoomAdjustSettingsViewController) == 0xA8);
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::Move
+  // Il2CppName: Move
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)(UnityEngine::Vector3)>(&RoomAdjustSettingsViewController::Move)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "Move", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::Rotate
+  // Il2CppName: Rotate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)(float)>(&RoomAdjustSettingsViewController::Rotate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::ResetRoom
+  // Il2CppName: ResetRoom
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::ResetRoom)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "ResetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::RefreshTexts
+  // Il2CppName: RefreshTexts
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::RefreshTexts)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "RefreshTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_0
+  // Il2CppName: <DidActivate>b__10_0
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_0)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_1
+  // Il2CppName: <DidActivate>b__10_1
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_1)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_2
+  // Il2CppName: <DidActivate>b__10_2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_3
+  // Il2CppName: <DidActivate>b__10_3
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_3)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_4
+  // Il2CppName: <DidActivate>b__10_4
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_4)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_5
+  // Il2CppName: <DidActivate>b__10_5
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_5)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_6
+  // Il2CppName: <DidActivate>b__10_6
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_6)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_7
+  // Il2CppName: <DidActivate>b__10_7
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_7)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::$DidActivate$b__10_8
+  // Il2CppName: <DidActivate>b__10_8
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::$DidActivate$b__10_8)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "<DidActivate>b__10_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::DidActivate
+  // Il2CppName: DidActivate
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)(bool, bool, bool)>(&RoomAdjustSettingsViewController::DidActivate)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: RoomAdjustSettingsViewController::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RoomAdjustSettingsViewController::*)()>(&RoomAdjustSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(RoomAdjustSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RoomAdjustSettingsViewController*, "", "RoomAdjustSettingsViewController");

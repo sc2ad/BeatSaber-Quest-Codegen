@@ -48,22 +48,22 @@ namespace System::Threading {
     // Creating value type constructor for type: QueueSegment
     QueueSegment(::Array<System::Threading::IThreadPoolWorkItem*>* nodes_ = {}, int indexes_ = {}, System::Threading::ThreadPoolWorkQueue::QueueSegment* Next_ = {}) noexcept : nodes{nodes_}, indexes{indexes_}, Next{Next_} {}
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
-    // Offset: 0x187BED4
+    // Offset: 0x1894BE4
     void GetIndexes(int& upper, int& lower);
     // private System.Boolean CompareExchangeIndexes(ref System.Int32 prevUpper, System.Int32 newUpper, ref System.Int32 prevLower, System.Int32 newLower)
-    // Offset: 0x187BF14
+    // Offset: 0x1894C24
     bool CompareExchangeIndexes(int& prevUpper, int newUpper, int& prevLower, int newLower);
     // public System.Boolean IsUsedUp()
-    // Offset: 0x187B878
+    // Offset: 0x1894588
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x187AF78
+    // Offset: 0x1893C88
     bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
-    // Offset: 0x187B77C
+    // Offset: 0x189448C
     bool TryDequeue(System::Threading::IThreadPoolWorkItem*& node);
     // public System.Void .ctor()
-    // Offset: 0x187A84C
+    // Offset: 0x189355C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,5 +75,59 @@ namespace System::Threading {
   #pragma pack(pop)
   static check_size<sizeof(ThreadPoolWorkQueue::QueueSegment), 32 + sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*)> __System_Threading_ThreadPoolWorkQueue_QueueSegmentSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::QueueSegment) == 0x28);
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::QueueSegment::GetIndexes
+  // Il2CppName: GetIndexes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueue::QueueSegment::*)(int&, int&)>(&ThreadPoolWorkQueue::QueueSegment::GetIndexes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), "GetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes
+  // Il2CppName: CompareExchangeIndexes
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::QueueSegment::*)(int&, int, int&, int)>(&ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), "CompareExchangeIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::QueueSegment::IsUsedUp
+  // Il2CppName: IsUsedUp
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::QueueSegment::*)()>(&ThreadPoolWorkQueue::QueueSegment::IsUsedUp)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), "IsUsedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::QueueSegment::TryEnqueue
+  // Il2CppName: TryEnqueue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*)>(&ThreadPoolWorkQueue::QueueSegment::TryEnqueue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), "TryEnqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::QueueSegment::TryDequeue
+  // Il2CppName: TryDequeue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*&)>(&ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*&>()});
+    }
+  };
+  // Writing MetadataGetter for method: ThreadPoolWorkQueue::QueueSegment::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueue::QueueSegment::*)()>(&ThreadPoolWorkQueue::QueueSegment::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolWorkQueue::QueueSegment::*)()>(&ThreadPoolWorkQueue::QueueSegment::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ThreadPoolWorkQueue::QueueSegment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");

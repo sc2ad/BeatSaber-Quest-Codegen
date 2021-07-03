@@ -36,16 +36,38 @@ namespace System::Runtime::Remoting::Messaging {
     // Set static field: static public System.String[] InternalExceptionKeys
     static void _set_InternalExceptionKeys(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage message)
-    // Offset: 0x1A285F8
+    // Offset: 0x1A42308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodReturnDictionary* New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodReturnDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodReturnDictionary*, creationType>(message)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A28C04
+    // Offset: 0x1A42914
     static void _cctor();
   }; // System.Runtime.Remoting.Messaging.MethodReturnDictionary
   #pragma pack(pop)
+  // Writing MetadataGetter for method: MethodReturnDictionary::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MethodReturnDictionary::*)(System::Runtime::Remoting::Messaging::IMethodReturnMessage*)>(&MethodReturnDictionary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MethodReturnDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodReturnMessage*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MethodReturnDictionary::*)(System::Runtime::Remoting::Messaging::IMethodReturnMessage*)>(&MethodReturnDictionary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MethodReturnDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodReturnMessage*>()});
+    }
+  };
+  // Writing MetadataGetter for method: MethodReturnDictionary::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MethodReturnDictionary::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(MethodReturnDictionary*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodReturnDictionary*, "System.Runtime.Remoting.Messaging", "MethodReturnDictionary");

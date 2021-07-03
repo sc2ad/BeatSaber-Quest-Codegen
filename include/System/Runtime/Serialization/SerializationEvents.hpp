@@ -68,36 +68,106 @@ namespace System::Runtime::Serialization {
     // Creating value type constructor for type: SerializationEvents
     SerializationEvents(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnSerializingMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnSerializedMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializingMethods_ = {}, System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializedMethods_ = {}) noexcept : m_OnSerializingMethods{m_OnSerializingMethods_}, m_OnSerializedMethods{m_OnSerializedMethods_}, m_OnDeserializingMethods{m_OnDeserializingMethods_}, m_OnDeserializedMethods{m_OnDeserializedMethods_} {}
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> GetMethodsWithAttribute(System.Type attribute, System.Type t)
-    // Offset: 0x1682E18
+    // Offset: 0x1699B28
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* GetMethodsWithAttribute(System::Type* attribute, System::Type* t);
     // System.Void .ctor(System.Type t)
-    // Offset: 0x1682FF8
+    // Offset: 0x1699D08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationEvents* New_ctor(System::Type* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationEvents*, creationType>(t)));
     }
     // System.Boolean get_HasOnSerializingEvents()
-    // Offset: 0x1683104
+    // Offset: 0x1699E14
     bool get_HasOnSerializingEvents();
     // System.Void InvokeOnSerializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1683124
+    // Offset: 0x1699E34
     void InvokeOnSerializing(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserializing(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1681A18
+    // Offset: 0x1698728
     void InvokeOnDeserializing(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserialized(System.Object obj, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x168174C
+    // Offset: 0x169845C
     void InvokeOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::StreamingContext context);
     // System.Runtime.Serialization.SerializationEventHandler AddOnSerialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0x1683354
+    // Offset: 0x169A064
     System::Runtime::Serialization::SerializationEventHandler* AddOnSerialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
     // System.Runtime.Serialization.SerializationEventHandler AddOnDeserialized(System.Object obj, System.Runtime.Serialization.SerializationEventHandler handler)
-    // Offset: 0x16814A8
+    // Offset: 0x16981B8
     System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::Il2CppObject* obj, System::Runtime::Serialization::SerializationEventHandler* handler);
   }; // System.Runtime.Serialization.SerializationEvents
   #pragma pack(pop)
   static check_size<sizeof(SerializationEvents), 40 + sizeof(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*)> __System_Runtime_Serialization_SerializationEventsSizeCheck;
   static_assert(sizeof(SerializationEvents) == 0x30);
+  // Writing MetadataGetter for method: SerializationEvents::GetMethodsWithAttribute
+  // Il2CppName: GetMethodsWithAttribute
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* (SerializationEvents::*)(System::Type*, System::Type*)>(&SerializationEvents::GetMethodsWithAttribute)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "GetMethodsWithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationEvents::*)(System::Type*)>(&SerializationEvents::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationEvents::*)(System::Type*)>(&SerializationEvents::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::get_HasOnSerializingEvents
+  // Il2CppName: get_HasOnSerializingEvents
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SerializationEvents::*)()>(&SerializationEvents::get_HasOnSerializingEvents)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "get_HasOnSerializingEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::InvokeOnSerializing
+  // Il2CppName: InvokeOnSerializing
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationEvents::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&SerializationEvents::InvokeOnSerializing)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "InvokeOnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::InvokeOnDeserializing
+  // Il2CppName: InvokeOnDeserializing
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationEvents::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&SerializationEvents::InvokeOnDeserializing)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "InvokeOnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::InvokeOnDeserialized
+  // Il2CppName: InvokeOnDeserialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationEvents::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&SerializationEvents::InvokeOnDeserialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "InvokeOnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::AddOnSerialized
+  // Il2CppName: AddOnSerialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationEventHandler* (SerializationEvents::*)(::Il2CppObject*, System::Runtime::Serialization::SerializationEventHandler*)>(&SerializationEvents::AddOnSerialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "AddOnSerialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationEventHandler*>()});
+    }
+  };
+  // Writing MetadataGetter for method: SerializationEvents::AddOnDeserialized
+  // Il2CppName: AddOnDeserialized
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationEventHandler* (SerializationEvents::*)(::Il2CppObject*, System::Runtime::Serialization::SerializationEventHandler*)>(&SerializationEvents::AddOnDeserialized)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(SerializationEvents*), "AddOnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationEventHandler*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEvents*, "System.Runtime.Serialization", "SerializationEvents");

@@ -37,10 +37,10 @@ namespace NUnit::Framework::Internal::Builders {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterDataProvider*>(this);
     }
     // public System.Collections.IEnumerable GetDataFor(NUnit.Framework.Interfaces.IParameterInfo parameter)
-    // Offset: 0x171D4AC
+    // Offset: 0x17351BC
     System::Collections::IEnumerable* GetDataFor(NUnit::Framework::Interfaces::IParameterInfo* parameter);
     // public System.Void .ctor()
-    // Offset: 0x1709C0C
+    // Offset: 0x172191C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -50,5 +50,27 @@ namespace NUnit::Framework::Internal::Builders {
     }
   }; // NUnit.Framework.Internal.Builders.ParameterDataSourceProvider
   #pragma pack(pop)
+  // Writing MetadataGetter for method: ParameterDataSourceProvider::GetDataFor
+  // Il2CppName: GetDataFor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (ParameterDataSourceProvider::*)(NUnit::Framework::Interfaces::IParameterInfo*)>(&ParameterDataSourceProvider::GetDataFor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterDataSourceProvider*), "GetDataFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IParameterInfo*>()});
+    }
+  };
+  // Writing MetadataGetter for method: ParameterDataSourceProvider::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterDataSourceProvider::*)()>(&ParameterDataSourceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterDataSourceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterDataSourceProvider::*)()>(&ParameterDataSourceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ParameterDataSourceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::ParameterDataSourceProvider*, "NUnit.Framework.Internal.Builders", "ParameterDataSourceProvider");

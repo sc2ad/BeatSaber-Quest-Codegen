@@ -46,22 +46,22 @@ namespace System::Net {
     // Creating value type constructor for type: SPKey
     SPKey(System::Uri* uri_ = {}, System::Uri* proxy_ = {}, bool use_connect_ = {}) noexcept : uri{uri_}, proxy{proxy_}, use_connect{use_connect_} {}
     // public System.Void .ctor(System.Uri uri, System.Uri proxy, System.Boolean use_connect)
-    // Offset: 0x147DEB4
+    // Offset: 0x1498BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServicePointManager::SPKey* New_ctor(System::Uri* uri, System::Uri* proxy, bool use_connect) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePointManager::SPKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManager::SPKey*, creationType>(uri, proxy, use_connect)));
     }
     // public System.Boolean get_UsesProxy()
-    // Offset: 0x147E270
+    // Offset: 0x1498F80
     bool get_UsesProxy();
     // public override System.Int32 GetHashCode()
-    // Offset: 0x147E2E0
+    // Offset: 0x1498FF0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x147E3C4
+    // Offset: 0x14990D4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
@@ -69,5 +69,43 @@ namespace System::Net {
   #pragma pack(pop)
   static check_size<sizeof(ServicePointManager::SPKey), 32 + sizeof(bool)> __System_Net_ServicePointManager_SPKeySizeCheck;
   static_assert(sizeof(ServicePointManager::SPKey) == 0x21);
+  // Writing MetadataGetter for method: ServicePointManager::SPKey::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePointManager::SPKey::*)(System::Uri*, System::Uri*, bool)>(&ServicePointManager::SPKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager::SPKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePointManager::SPKey::*)(System::Uri*, System::Uri*, bool)>(&ServicePointManager::SPKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager::SPKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::SPKey::get_UsesProxy
+  // Il2CppName: get_UsesProxy
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePointManager::SPKey::*)()>(&ServicePointManager::SPKey::get_UsesProxy)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager::SPKey*), "get_UsesProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::SPKey::GetHashCode
+  // Il2CppName: GetHashCode
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ServicePointManager::SPKey::*)()>(&ServicePointManager::SPKey::GetHashCode)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager::SPKey*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: ServicePointManager::SPKey::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePointManager::SPKey::*)(::Il2CppObject*)>(&ServicePointManager::SPKey::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(ServicePointManager::SPKey*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager::SPKey*, "System.Net", "ServicePointManager/SPKey");

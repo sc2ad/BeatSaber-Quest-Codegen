@@ -155,18 +155,42 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // private System.Boolean CompareColors(UnityEngine.Color left, UnityEngine.Color right)
-    // Offset: 0xF22F28
+    // Offset: 0xF23EE0
     bool CompareColors(UnityEngine::Color left, UnityEngine::Color right);
     // private System.Boolean CompareVector2(UnityEngine.Vector2 left, UnityEngine.Vector2 right)
-    // Offset: 0xF22F2C
+    // Offset: 0xF23EE4
     bool CompareVector2(UnityEngine::Vector2 left, UnityEngine::Vector2 right);
     // public System.Boolean Equals(UnityEngine.TextGenerationSettings other)
-    // Offset: 0xF22F30
+    // Offset: 0xF23EE8
     bool Equals(UnityEngine::TextGenerationSettings other);
   }; // UnityEngine.TextGenerationSettings
   #pragma pack(pop)
   static check_size<sizeof(TextGenerationSettings), 88 + sizeof(bool)> __UnityEngine_TextGenerationSettingsSizeCheck;
   static_assert(sizeof(TextGenerationSettings) == 0x59);
+  // Writing MetadataGetter for method: TextGenerationSettings::CompareColors
+  // Il2CppName: CompareColors
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextGenerationSettings::*)(UnityEngine::Color, UnityEngine::Color)>(&TextGenerationSettings::CompareColors)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextGenerationSettings), "CompareColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextGenerationSettings::CompareVector2
+  // Il2CppName: CompareVector2
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextGenerationSettings::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&TextGenerationSettings::CompareVector2)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextGenerationSettings), "CompareVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    }
+  };
+  // Writing MetadataGetter for method: TextGenerationSettings::Equals
+  // Il2CppName: Equals
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextGenerationSettings::*)(UnityEngine::TextGenerationSettings)>(&TextGenerationSettings::Equals)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(TextGenerationSettings), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextGenerationSettings>()});
+    }
+  };
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");

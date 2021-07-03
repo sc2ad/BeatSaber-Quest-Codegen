@@ -60,75 +60,249 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.String[] dt_formats
     static void _set_dt_formats(::Array<::Il2CppString*>* value);
     // public System.Void .ctor(System.String stream)
-    // Offset: 0x1574508
+    // Offset: 0x158E218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lexer* New_ctor(::Il2CppString* stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::Lexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lexer*, creationType>(stream)));
     }
     // public System.Int32 get_Position()
-    // Offset: 0x157C12C
+    // Offset: 0x1595E3C
     int get_Position();
     // public System.Void set_Position(System.Int32 value)
-    // Offset: 0x157C134
+    // Offset: 0x1595E44
     void set_Position(int value);
     // public System.String GetStringValue(System.Net.Http.Headers.Token token)
-    // Offset: 0x1574A38
+    // Offset: 0x158E748
     ::Il2CppString* GetStringValue(System::Net::Http::Headers::Token token);
     // public System.String GetStringValue(System.Net.Http.Headers.Token start, System.Net.Http.Headers.Token end)
-    // Offset: 0x157C13C
+    // Offset: 0x1595E4C
     ::Il2CppString* GetStringValue(System::Net::Http::Headers::Token start, System::Net::Http::Headers::Token end);
     // public System.String GetQuotedStringValue(System.Net.Http.Headers.Token start)
-    // Offset: 0x1576020
+    // Offset: 0x158FD30
     ::Il2CppString* GetQuotedStringValue(System::Net::Http::Headers::Token start);
     // public System.String GetRemainingStringValue(System.Int32 position)
-    // Offset: 0x1574A5C
+    // Offset: 0x158E76C
     ::Il2CppString* GetRemainingStringValue(int position);
     // public System.Boolean IsStarStringValue(System.Net.Http.Headers.Token token)
-    // Offset: 0x15778B4
+    // Offset: 0x15915C4
     bool IsStarStringValue(System::Net::Http::Headers::Token token);
     // public System.Boolean TryGetNumericValue(System.Net.Http.Headers.Token token, out System.Int32 value)
-    // Offset: 0x157C160
+    // Offset: 0x1595E70
     bool TryGetNumericValue(System::Net::Http::Headers::Token token, int& value);
     // public System.Boolean TryGetNumericValue(System.Net.Http.Headers.Token token, out System.Int64 value)
-    // Offset: 0x15778FC
+    // Offset: 0x159160C
     bool TryGetNumericValue(System::Net::Http::Headers::Token token, int64_t& value);
     // public System.Nullable`1<System.TimeSpan> TryGetTimeSpanValue(System.Net.Http.Headers.Token token)
-    // Offset: 0x1575F54
+    // Offset: 0x158FC64
     System::Nullable_1<System::TimeSpan> TryGetTimeSpanValue(System::Net::Http::Headers::Token token);
     // public System.Boolean TryGetDateValue(System.Net.Http.Headers.Token token, out System.DateTimeOffset value)
-    // Offset: 0x157C210
+    // Offset: 0x1595F20
     bool TryGetDateValue(System::Net::Http::Headers::Token token, System::DateTimeOffset& value);
     // static public System.Boolean TryGetDateValue(System.String text, out System.DateTimeOffset value)
-    // Offset: 0x157C2F8
+    // Offset: 0x1596008
     static bool TryGetDateValue(::Il2CppString* text, System::DateTimeOffset& value);
     // public System.Boolean TryGetDoubleValue(System.Net.Http.Headers.Token token, out System.Double value)
-    // Offset: 0x157C3DC
+    // Offset: 0x15960EC
     bool TryGetDoubleValue(System::Net::Http::Headers::Token token, double& value);
     // static public System.Boolean IsValidToken(System.String input)
-    // Offset: 0x157C4B4
+    // Offset: 0x15961C4
     static bool IsValidToken(::Il2CppString* input);
     // static public System.Boolean IsValidCharacter(System.Char input)
-    // Offset: 0x157C578
+    // Offset: 0x1596288
     static bool IsValidCharacter(::Il2CppChar input);
     // public System.Void EatChar()
-    // Offset: 0x1578040
+    // Offset: 0x1591D50
     void EatChar();
     // public System.Int32 PeekChar()
-    // Offset: 0x1577FFC
+    // Offset: 0x1591D0C
     int PeekChar();
     // public System.Boolean ScanCommentOptional(out System.String value, out System.Net.Http.Headers.Token readToken)
-    // Offset: 0x157C648
+    // Offset: 0x1596358
     bool ScanCommentOptional(::Il2CppString*& value, System::Net::Http::Headers::Token& readToken);
     // public System.Net.Http.Headers.Token Scan(System.Boolean recognizeDash)
-    // Offset: 0x157471C
+    // Offset: 0x158E42C
     System::Net::Http::Headers::Token Scan(bool recognizeDash);
     // static private System.Void .cctor()
-    // Offset: 0x157C7A8
+    // Offset: 0x15964B8
     static void _cctor();
   }; // System.Net.Http.Headers.Lexer
   #pragma pack(pop)
   static check_size<sizeof(Lexer), 24 + sizeof(int)> __System_Net_Http_Headers_LexerSizeCheck;
   static_assert(sizeof(Lexer) == 0x1C);
+  // Writing MetadataGetter for method: Lexer::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)(::Il2CppString*)>(&Lexer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)(::Il2CppString*)>(&Lexer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::get_Position
+  // Il2CppName: get_Position
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Lexer::*)()>(&Lexer::get_Position)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::set_Position
+  // Il2CppName: set_Position
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)(int)>(&Lexer::set_Position)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::GetStringValue
+  // Il2CppName: GetStringValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::GetStringValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::GetStringValue
+  // Il2CppName: GetStringValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(System::Net::Http::Headers::Token, System::Net::Http::Headers::Token)>(&Lexer::GetStringValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::GetQuotedStringValue
+  // Il2CppName: GetQuotedStringValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::GetQuotedStringValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetQuotedStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::GetRemainingStringValue
+  // Il2CppName: GetRemainingStringValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(int)>(&Lexer::GetRemainingStringValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetRemainingStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::IsStarStringValue
+  // Il2CppName: IsStarStringValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::IsStarStringValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "IsStarStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::TryGetNumericValue
+  // Il2CppName: TryGetNumericValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, int&)>(&Lexer::TryGetNumericValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::TryGetNumericValue
+  // Il2CppName: TryGetNumericValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, int64_t&)>(&Lexer::TryGetNumericValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::TryGetTimeSpanValue
+  // Il2CppName: TryGetTimeSpanValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::TryGetTimeSpanValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetTimeSpanValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::TryGetDateValue
+  // Il2CppName: TryGetDateValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, System::DateTimeOffset&)>(&Lexer::TryGetDateValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::TryGetDateValue
+  // Il2CppName: TryGetDateValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::DateTimeOffset&)>(&Lexer::TryGetDateValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::TryGetDoubleValue
+  // Il2CppName: TryGetDoubleValue
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, double&)>(&Lexer::TryGetDoubleValue)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetDoubleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::IsValidToken
+  // Il2CppName: IsValidToken
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Lexer::IsValidToken)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "IsValidToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::IsValidCharacter
+  // Il2CppName: IsValidCharacter
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Lexer::IsValidCharacter)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "IsValidCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::EatChar
+  // Il2CppName: EatChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)()>(&Lexer::EatChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "EatChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::PeekChar
+  // Il2CppName: PeekChar
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Lexer::*)()>(&Lexer::PeekChar)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "PeekChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::ScanCommentOptional
+  // Il2CppName: ScanCommentOptional
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(::Il2CppString*&, System::Net::Http::Headers::Token&)>(&Lexer::ScanCommentOptional)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "ScanCommentOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::Scan
+  // Il2CppName: Scan
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::Token (Lexer::*)(bool)>(&Lexer::Scan)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), "Scan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    }
+  };
+  // Writing MetadataGetter for method: Lexer::_cctor
+  // Il2CppName: .cctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Lexer::_cctor)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(Lexer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Lexer*, "System.Net.Http.Headers", "Lexer");

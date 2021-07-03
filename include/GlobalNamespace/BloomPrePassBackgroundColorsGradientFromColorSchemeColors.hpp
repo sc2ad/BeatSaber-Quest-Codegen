@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomPrePassBackgroundColorsGradient* bloomPrePassBackgroundColorsGradient;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradient*) == 0x8);
-    // [SpaceAttribute] Offset: 0xE27A30
+    // [SpaceAttribute] Offset: 0xE27A74
     // private System.Single _skyColorIntensity
     // Size: 0x4
     // Offset: 0x20
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     float groundColorIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xE27A78
+    // [InjectAttribute] Offset: 0xE27ABC
     // private readonly EnvironmentColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // protected System.Void Start()
-    // Offset: 0x1085C68
+    // Offset: 0x11105C4
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x1085E44
+    // Offset: 0x11107A0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -77,5 +77,27 @@ namespace GlobalNamespace {
   #pragma pack(pop)
   static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors), 40 + sizeof(GlobalNamespace::EnvironmentColorManager*)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColorsSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors) == 0x30);
+  // Writing MetadataGetter for method: BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Start
+  // Il2CppName: Start
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(&BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Start)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  // Writing MetadataGetter for method: BloomPrePassBackgroundColorsGradientFromColorSchemeColors::New_ctor
+  // Il2CppName: .ctor
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(&BloomPrePassBackgroundColorsGradientFromColorSchemeColors::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
+  template<>
+  struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(&BloomPrePassBackgroundColorsGradientFromColorSchemeColors::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+    const MethodInfo* get() {
+      return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    }
+  };
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors*, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors");
